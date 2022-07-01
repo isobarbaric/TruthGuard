@@ -20,7 +20,7 @@ class ArticleFinder:
         self.url = url
         self.crawl()
         self.articles = self.find_articles()
-        with open('related-articles' + self.url[self.url.find('.com') + len('.com'):].replace('/', '_')[:-1] + '.json', 'w') as storage:
+        with open('json/related-articles' + self.url[self.url.find('.com') + len('.com'):].replace('/', '_')[:-1] + '.json', 'w') as storage:
             storage.write(json.dumps(self.articles, indent = 4).replace('[', '{').replace(']', '}'))
 
     def crawl(self):

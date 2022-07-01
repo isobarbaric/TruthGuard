@@ -1,4 +1,4 @@
-from ArticleFinder import ArticleFinder
+from components.ArticleFinder import ArticleFinder
 
 a = ArticleFinder('https://mediabiasfactcheck.com/pro-science/')
 b = ArticleFinder('https://mediabiasfactcheck.com/conspiracy/')
