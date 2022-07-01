@@ -1,11 +1,15 @@
 
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
-import matplotlib.pyplot as plt
-import string
+from nltk.stem import WordNetLemmatizer
 from matplotlib.ticker import MaxNLocator
+import matplotlib.pyplot as plt
+import nltk
+import string
 
 class BagOfWords:
+
+    lemmatizer = WordNetLemmatizer()
 
     def __init__(self, text, isPositive):
         # parameters and attributes
@@ -14,8 +18,12 @@ class BagOfWords:
 
         # method calls
         self.tokenize()
-        self.toLowerCase()
         self.removeStopWords()
+        self.toLowerCase()
+        
+        # lemmatization
+        self.lemmatizeWords()
+
         self.createFrequencyChart()
         self.generateVector()
 
@@ -37,6 +45,28 @@ class BagOfWords:
             for j in range(len(self.words[i])-1, -1, -1):
                 if self.words[i][j] in stopwords.words('english'):
                     self.words[i].pop(j)  
+
+    # lemmatization methods
+
+    @staticmethod
+    def getPartOfSpeech(provided_word): 
+        _, part_of_speech = nltk.pos_tag([provided_word])[0]
+
+        if 'NN' in part_of_speech:
+            return 'n'
+        elif 'VB' in part_of_speech:
+            return 'v'
+        elif 'JJ' in part_of_speech:
+            return 'a'
+        elif 'RB' in part_of_speech:
+            return 'r'
+
+        return 'n'
+
+    def lemmatizeWords(self):
+        for i in range(len(self.words)):
+            for j in range(len(self.words[i])):
+                self.words[i][j] = BagOfWords.lemmatizer.lemmatize(self.words[i][j], BagOfWords.getPartOfSpeech(self.words[i][j]))
 
     def createFrequencyChart(self):
         self.freqChart = dict()
@@ -107,9 +137,5 @@ The long-term plan is to support gradual typing. Python's syntax allows specifyi
 b = BagOfWords(a, False)
 
 b.plotFrequencyChart()
-
-for row in b.vector:
-    print(row)
-
 
 

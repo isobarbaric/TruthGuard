@@ -27,21 +27,22 @@ class ArticleFinder:
         self.html_page = requests.get(self.url) 
         soup = BeautifulSoup(self.html_page.content, 'lxml') 
         news_sites = soup.find_all('span', {'style': 'font-size: 12pt;'}) 
-        webpages = [] 
+        self.webpages = [] 
+        
         for news_channel in news_sites: 
             link = news_channel.text[news_channel.text.rfind('(')+1:-1]
             if link[-4:] in ArticleFinder.suffixes:
                 if (link[:8] == 'https://'):
-                    webpages.append(link[8:])
+                    self.webpages.append(link[8:])
                 else:
-                    webpages.append(link)
+                    self.webpages.append(link)
         
         if 'news_channels' in os.listdir():
             shutil.rmtree('news_channels/')
 
         os.mkdir('news_channels') 
 
-        for website in webpages: 
+        for website in self.webpages: 
             if website in ArticleFinder.dysfunctional_pages:
                 continue
 
@@ -51,10 +52,9 @@ class ArticleFinder:
                 current_html = str(requests.get('https://' + website).content) 
                 with open('news_channels/' + website + 'html_page.txt', 'w') as rn: 
                     rn.write(current_html)
+
             except Exception:
                 pass
-
-        print("Located all Webpages...") 
 
     def find_articles(self):
         base_path = "news_channels/" 
@@ -87,14 +87,14 @@ class ArticleFinder:
 
                 covid_related = False 
                 for article_title in potential_articles: 
-                    mod_title = article_title[1].text.replace('\\n', '').replace('\t', '').replace('\\r', '').replace('\\', '').replace('t', '')
-                    mod_title = ' '.join(mod_title.split())
+                    intended_title = article_title[1].text.replace('\\n', '').replace('\t', '').replace('\\r', '').replace('\\', '')
+                    intended_title = ' '.join(intended_title.split())
 
-                    if 'css' in mod_title:
+                    if 'css' in intended_title:
                         continue
 
                     for covid_word in ArticleFinder.covid_keywords: 
-                        if covid_word in mod_title:
+                        if covid_word in intended_title:
                             covid_related = True
 
                     if covid_related: 
@@ -104,13 +104,13 @@ class ArticleFinder:
                         if intended_link[0] == '/':
                             intended_link = file[:-13] + intended_link
 
-                        overall.append([mod_title, intended_link]) 
+                        overall.append([intended_title, intended_link]) 
                         covid_related = False
 
         resultant = [] 
 
-        for elem in overall: 
-            if elem not in resultant:
-                resultant.append(elem)
+        for article in overall:
+            if article not in resultant:
+                resultant.append(article)
 
         return resultant
