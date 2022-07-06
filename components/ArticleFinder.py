@@ -20,7 +20,8 @@ class ArticleFinder:
         self.url = url
         self.crawl()
         self.articles = self.find_articles()
-        with open('json/related-articles' + self.url[self.url.find('.com') + len('.com'):].replace('/', '_')[:-1] + '.json', 'w') as storage:
+        data_title = self.url[self.url.find('.com') + len('.com'):].replace('/', '_')[:-1]
+        with open('json/related-articles' + data_title + '.json', 'w') as storage:
             storage.write(json.dumps(self.articles, indent = 4))
 
     def crawl(self):
@@ -36,13 +37,11 @@ class ArticleFinder:
                     self.webpages.append(link[8:])
                 else:
                     self.webpages.append(link)
+
+        self.html_contents = []
         
-        if 'news_channels' in os.listdir():
-            shutil.rmtree('news_channels/')
-
-        os.mkdir('news_channels') 
-
         for website in self.webpages: 
+            
             if website in ArticleFinder.dysfunctional_pages:
                 continue
 
@@ -50,65 +49,57 @@ class ArticleFinder:
 
             try:
                 current_html = str(requests.get('https://' + website).content) 
-                with open('news_channels/' + website + 'html_page.txt', 'w') as rn: 
-                    rn.write(current_html)
+                self.html_contents.append([website, current_html])
 
             except Exception:
                 pass
 
     def find_articles(self):
-        base_path = "news_channels/" 
-
-        structure = os.listdir('news_channels/') 
 
         overall = [] 
 
-        for file in structure:
-            current_path = base_path + file 
-        
-            with open(current_path, 'r') as current_soup: 
-                soup = BeautifulSoup(current_soup.read(), 'lxml') 
-           
-                potential_articles = [] 
-                
-                for i in range(3): 
-                    p1 = soup.find_all(ArticleFinder.where_to_look[i])
-                    p2 = []
-              
-                    for potential in p1:
-                        if potential.has_attr('class'):
-                            p2.append(potential)
+        for file in self.html_contents:
+            soup = BeautifulSoup(file[1], 'lxml') 
+            potential_articles = [] 
+            
+            for i in range(3): 
+                p1 = soup.find_all(ArticleFinder.where_to_look[i])
+                p2 = []
+          
+                for potential in p1:
+                    if potential.has_attr('class'):
+                        p2.append(potential)
 
-                    for tag in p2:
-                        for anchor in tag.find_all('a'):
-                            if not anchor.has_attr('href'):
-                                continue
-                            potential_articles.append([tag, anchor])
+                for tag in p2:
+                    for anchor in tag.find_all('a'):
+                        if not anchor.has_attr('href'):
+                            continue
+                        potential_articles.append([tag, anchor])
 
-                covid_related = False 
-                for article_title in potential_articles: 
-                    intended_title = article_title[1].text.replace('\\n', '').replace('\t', '').replace('\\r', '').replace('\\', '')
-                    intended_title = ' '.join(intended_title.split())
+            covid_related = False 
+            for article_title in potential_articles: 
+                intended_title = article_title[1].text.replace('\\n', '').replace('\t', '').replace('\\r', '').replace('\\', '')
+                intended_title = ' '.join(intended_title.split())
 
-                    if 'css' in intended_title:
-                        continue
+                if 'css' in intended_title:
+                    continue
 
-                    if 'http' in intended_title:
-                        continue
+                if 'http' in intended_title:
+                    continue
 
-                    for covid_word in ArticleFinder.covid_keywords: 
-                        if covid_word in intended_title:
-                            covid_related = True
+                for covid_word in ArticleFinder.covid_keywords: 
+                    if covid_word in intended_title:
+                        covid_related = True
 
-                    if covid_related: 
+                if covid_related: 
 
-                        intended_link = article_title[1]['href']
+                    intended_link = article_title[1]['href']
 
-                        if intended_link[0] == '/':
-                            intended_link = file[:-13] + intended_link
+                    if intended_link[0] == '/':
+                        intended_link = file[0] + intended_link
 
-                        overall.append([intended_title, intended_link]) 
-                        covid_related = False
+                    overall.append([intended_title, intended_link]) 
+                    covid_related = False
 
         resultant = [] 
 
