@@ -1,10 +1,6 @@
-
+import json
 from bs4 import BeautifulSoup
 import requests
-import os
-import shutil
-import time
-import json
 
 class ArticleFinder:
     
@@ -38,10 +34,9 @@ class ArticleFinder:
                 else:
                     self.webpages.append(link)
 
-        self.html_contents = []
+        self.html_contents = dict() 
         
         for website in self.webpages: 
-            
             if website in ArticleFinder.dysfunctional_pages:
                 continue
 
@@ -49,17 +44,16 @@ class ArticleFinder:
 
             try:
                 current_html = str(requests.get('https://' + website).content) 
-                self.html_contents.append([website, current_html])
-
+                self.html_contents[website] = current_html
             except Exception:
                 pass
 
-    def find_articles(self):
 
+    def find_articles(self):
         overall = [] 
 
-        for file in self.html_contents:
-            soup = BeautifulSoup(file[1], 'lxml') 
+        for file in self.html_contents.keys():
+            soup = BeautifulSoup(self.html_contents[file], 'lxml') 
             potential_articles = [] 
             
             for i in range(3): 
@@ -92,11 +86,9 @@ class ArticleFinder:
                         covid_related = True
 
                 if covid_related: 
-
                     intended_link = article_title[1]['href']
-
                     if intended_link[0] == '/':
-                        intended_link = file[0] + intended_link
+                        intended_link = file + intended_link
 
                     overall.append([intended_title, intended_link]) 
                     covid_related = False

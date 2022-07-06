@@ -74,10 +74,18 @@ class BagOfWords:
         # remove punctuation and symbols
         common_occuring_noise = ['...', "'s", '…']
 
+        # iterates over sentences
         for i in range(len(self.words)):
+            # iterates over words
             for j in range(len(self.words[i])-1, -1, -1):
                 if self.words[i][j] in BagOfWords.punctuation or self.words[i][j] in common_occuring_noise:
                     self.words[i].pop(j) 
+                    continue
+                revised_word = self.words[i][j]
+                # removing punctuation from inside a word
+                for character in BagOfWords.punctuation:
+                    revised_word = revised_word.replace(character, '')
+                self.words[i][j] = revised_word
 
     def removeStopWords(self):
         for i in range(len(self.words)):
@@ -147,9 +155,7 @@ class BagOfWords:
 
     def plotFrequencyChart(self):
 
-        # frequency chart:
-        # words = list(self.freqChart.keys())
-        # frequencies = list(self.freqChart.values())
+        # # frequency chart:
         plt.bar(self.freqChart.keys(), self.freqChart.values(), 10)
         plt.show()
 
