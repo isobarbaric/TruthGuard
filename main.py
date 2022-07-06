@@ -1,5 +1,5 @@
-from components.ArticleFinder import ArticleFinder
-from components.BagOfWords import BagOfWords
+from ArticleFinder import ArticleFinder
+from BagOfWords import BagOfWords
 import json
 
 a = ArticleFinder('https://mediabiasfactcheck.com/pro-science/')
