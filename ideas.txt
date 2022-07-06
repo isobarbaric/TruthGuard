@@ -1,11 +1,11 @@
 
 to-do:
-- set up lemmatization
--  
-
-plan:
-- visit good, bad websites in JSON and get text for article 
-- count words in the 
-
 - remove functionality of creating a news_channels folder
+
+extra stuff:
+- visit good, bad websites in JSON and get text for article (start with title and then go for article)
+- removing non-printable characters from the string (not working the best rn)
+- more validation for articles titles
+- many sites don't get a legitimate attempt (like jstor)
+- different word tokenizer -> remove punctuation and single letters (http://text-processing.com/demo/tokenize/)
 

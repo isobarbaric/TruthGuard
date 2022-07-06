@@ -6,48 +6,91 @@ from matplotlib.ticker import MaxNLocator
 import matplotlib.pyplot as plt
 import nltk
 import string
+import re
 
 class BagOfWords:
 
     lemmatizer = WordNetLemmatizer()
+    punctuation = [a for a in string.punctuation] + [u'\u201c',u'\u201d',u'\u2018',u'\u2019']
+    stopWords = set(stopwords.words('english'))
 
-    def __init__(self, text, isPositive):
+    def __init__(self, text, isPositive, separatedAlready):
         # parameters and attributes
         self.text = text
         self.isPositive = isPositive
+        self.separatedAlready = separatedAlready
 
         # method calls
         self.tokenize()
         self.removeStopWords()
         self.toLowerCase()
-        
-        # lemmatization
-        self.lemmatizeWords()
-
+        self.normalizeWords()
         self.createFrequencyChart()
-        self.generateVector()
+        self.generateTable()
+
+    @staticmethod
+    def trimmer(word):
+        # perform check
+        if word.isnumeric():
+            return '' 
+
+        # remove all non-printable characters
+        word = re.sub(r'[^\x00-\x7f]',r'', word)
+
+        if len(word) == 0:
+            return ''
+
+        # condense string
+        cnt = [ [word[0], 1] ]
+        ptr = 0
+        for i in range(1, len(word)):
+            if word[i] == word[i-1]:
+                cnt[ptr][1] += 1
+            else:
+                cnt.append([word[i], 1])
+                ptr += 1
+        revised_copy = ''
+        for condensed in cnt:
+            if condensed[0] == 't' and condensed[1] > 2:
+                continue
+            revised_copy += (condensed[0] * condensed[1]) 
+        # return modified copy
+        return revised_copy
 
     def tokenize(self):
-        self.sentences = sent_tokenize(self.text)
+        if not self.separatedAlready:
+            self.sentences = sent_tokenize(self.text)
+        else:
+            self.sentences = self.text
         self.words = []
         for sentence in self.sentences:
             self.words.append([])
             for word in word_tokenize(sentence):
-                self.words[-1].append(word)
+                revised_word = BagOfWords.trimmer(word)
+                if len(revised_word) == 0:
+                    continue
+                self.words[-1].append(revised_word)
+
+        # remove punctuation and symbols
+        common_occuring_noise = ['...', "'s", '…']
+
+        for i in range(len(self.words)):
+            for j in range(len(self.words[i])-1, -1, -1):
+                if self.words[i][j] in BagOfWords.punctuation or self.words[i][j] in common_occuring_noise:
+                    self.words[i].pop(j) 
+
+    def removeStopWords(self):
+        for i in range(len(self.words)):
+            for j in range(len(self.words[i])-1, -1, -1):
+                if self.words[i][j] in BagOfWords.stopWords:
+                    self.words[i].pop(j)  
 
     def toLowerCase(self):
         for sentence in self.words:
             for i in range(len(sentence)):
                 sentence[i] = sentence[i].lower()
 
-    def removeStopWords(self):
-        for i in range(len(self.words)):
-            for j in range(len(self.words[i])-1, -1, -1):
-                if self.words[i][j] in stopwords.words('english'):
-                    self.words[i].pop(j)  
-
-    # lemmatization methods
-
+    # some inaccuracies, 'typed' returns noun
     @staticmethod
     def getPartOfSpeech(provided_word): 
         _, part_of_speech = nltk.pos_tag([provided_word])[0]
@@ -63,7 +106,7 @@ class BagOfWords:
 
         return 'n'
 
-    def lemmatizeWords(self):
+    def normalizeWords(self):
         for i in range(len(self.words)):
             for j in range(len(self.words[i])):
                 self.words[i][j] = BagOfWords.lemmatizer.lemmatize(self.words[i][j], BagOfWords.getPartOfSpeech(self.words[i][j]))
@@ -76,15 +119,11 @@ class BagOfWords:
                     self.freqChart[word] = 1
                 else:
                     self.freqChart[word] += 1
-        # remove punctuation
-        for existing_key in self.freqChart.copy():
-            if existing_key in string.punctuation:
-                del self.freqChart[existing_key]
 
         # sorting in ascending order by value 
-        self.freqChart = {i: self.freqChart[i] for i in sorted(self.freqChart, key=self.freqChart.get)}
+        self.freqChart = {i: self.freqChart[i] for i in sorted(self.freqChart, key=self.freqChart.get, reverse=True)}
 
-    def generateVector(self):
+    def generateTable(self):
         self.vector = []
 
         # adding the header         
@@ -107,35 +146,44 @@ class BagOfWords:
             self.vector.append(to_add)
 
     def plotFrequencyChart(self):
-        words = list(self.freqChart.keys())
-        frequencies = list(self.freqChart.values())
 
-        # setup so that pyplot only uses integers on the y-axis
-        ax = plt.figure().gca()
-        ax.yaxis.set_major_locator(MaxNLocator(integer=True))
-
-        # setting title and labels 
-        plt.xlabel("Distinct Words")
-        plt.ylabel("Frequency of Words")
-        plt.title("Frequency Chart")
-
-        ## end of configuration
-        plt.bar(words, frequencies, color = 'lightgreen')
-        plt.xticks(rotation = 90)
-
-        # loading the plot
+        # frequency chart:
+        # words = list(self.freqChart.keys())
+        # frequencies = list(self.freqChart.values())
+        plt.bar(self.freqChart.keys(), self.freqChart.values(), 10)
         plt.show()
 
-a = '''Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that it is not of a suitable type. Despite being dynamically-typed, Python is strongly-typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.
+        # # bar graph:
 
-Python allows programmers to define their own types using classes, most often used for object-oriented programming. New instances of classes are constructed by calling the class and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection.
+        # words = list(self.freqChart.keys())
+        # frequencies = list(self.freqChart.values())
 
-Before version 3.0, Python had two kinds of classes (both using the same syntax): old-style and new-style, current Python versions only support the semantics new style.
+        # # setup so that pyplot only uses integers on the y-axis
+        # ax = plt.figure().gca()
+        # ax.yaxis.set_major_locator(MaxNLocator(integer=True))
 
-The long-term plan is to support gradual typing. Python's syntax allows specifying static types, but they are not checked in the default implementation, CPython.'''
+        # # setting title and labels 
+        # plt.xlabel("Distinct Words")
+        # plt.ylabel("Frequency of Words")
+        # plt.title("Frequency Chart")
 
-b = BagOfWords(a, False)
+        # max_word_len = -1
+        # for word in words:
+        #     max_word_len = max(max_word_len, len(word))
 
-b.plotFrequencyChart()
+        # # increasing space from bottom
+        # plt.subplots_adjust(bottom=max_word_len/60)
 
+        # # increase label size
+        # plt.tick_params(axis='x', which='major', labelsize=2)
+
+        # # increase the x-axis's length to prevent the labels from being squished together
+        # graph_size = 40/plt.gcf().dpi*len(self.freqChart.keys())
+        # plt.gcf().set_size_inches(graph_size, plt.gcf().get_size_inches()[1])
+
+        # plt.bar(words, frequencies, color = 'lightgreen')
+        # plt.xticks(rotation = 90)
+
+        # # loading the plot
+        # plt.show()
 

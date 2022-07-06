@@ -14,14 +14,14 @@ class ArticleFinder:
 
     where_to_look = ['div', 'section', 'span']
 
-    dysfunctional_pages = ['ieee.org', 'www.naturalawakeningsmag.com', 'libertyvideos.org']
+    dysfunctional_pages = ['ieee.org', 'www.naturalawakeningsmag.com', 'libertyvideos.org', 'retractionwatch.com']
 
     def __init__(self, url):
         self.url = url
         self.crawl()
         self.articles = self.find_articles()
         with open('json/related-articles' + self.url[self.url.find('.com') + len('.com'):].replace('/', '_')[:-1] + '.json', 'w') as storage:
-            storage.write(json.dumps(self.articles, indent = 4).replace('[', '{').replace(']', '}'))
+            storage.write(json.dumps(self.articles, indent = 4))
 
     def crawl(self):
         self.html_page = requests.get(self.url) 
@@ -91,6 +91,9 @@ class ArticleFinder:
                     intended_title = ' '.join(intended_title.split())
 
                     if 'css' in intended_title:
+                        continue
+
+                    if 'http' in intended_title:
                         continue
 
                     for covid_word in ArticleFinder.covid_keywords: 
