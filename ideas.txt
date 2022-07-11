@@ -8,4 +8,17 @@ extra stuff:
 - more validation for articles titles
 - many sites don't get a legitimate attempt (like jstor)
 - different word tokenizer -> remove punctuation and single letters (http://text-processing.com/demo/tokenize/)
+- check for duplicates in a.freqChart, b.freqChart (order of methods needs a lot of work)
+
+checklist:
+* data cleaning, cleaning up faulty word detections 
+- difference in count for words in both sets
+    - subtract count in positive set and negative set
+- divide difference by average count to adjust for frequency (relative measure)
+- determine the 20 most distinguishing (large magnitude, doesn't matter whether positive or negative)
+
+
+* using title, not articles themselves
+
+
 
