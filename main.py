@@ -25,8 +25,8 @@ def load(which):
         a = ArticleFinder('https://mediabiasfactcheck.com/pro-science/')
         b = ArticleFinder('https://mediabiasfactcheck.com/conspiracy/')
 
-        scientific_titles = [x for [x, y] in a.articles]
-        conspiracy_titles = [x for [x, y] in b.articles]
+        scientific_titles = [x for [x, _] in a.articles]
+        conspiracy_titles = [x for [x, _] in b.articles]
 
 # load articles
 load(True)
