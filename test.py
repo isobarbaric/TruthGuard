@@ -1,14 +1,13 @@
 
 from nltk import word_tokenize
+import requests
+from bs4 import BeautifulSoup
 
 # extracting an article from a link
 link = 'https://www.genengnews.com/news/omicron-subvariants-ba-4-and-ba-5-are-more-elusive-to-immune-system/'
 
 element = ['div', 'article', 'section', 'span', 'p']
 attr = ['article', 'content', 'post', 'text', 'news']
-
-import requests
-from bs4 import BeautifulSoup
 
 html = requests.get(link)
 soup = BeautifulSoup(html.text, 'html.parser')
