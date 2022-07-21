@@ -1,0 +1,15 @@
+
+plan for next week:
+- split up data into testing, training set
+    - in an 80-20 split
+    - do this individually for scientific articles and conspiracy articles, then merge the two sets together
+- after this, evaluation of well the system works with a ML model will be good
+    - train model and redo-word frequency part once for the testing set and once for the training set (to prevent data leakage)
+    - generate table for training and testing data (2 tables)
+        - columns: for each of the 20 keywords
+        - rows: count for each keyword in an article  
+        - add a final column to the right displaying whether the article was a conspiracy or scientific (0 = conspiracy, 1 = scientific) 
+    - train model with various different methods and evaluate test set  
+
+
+
