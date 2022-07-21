@@ -68,28 +68,3 @@ config.memoize_articles = False
 
 retrieve_store_articles('https://mediabiasfactcheck.com/pro-science/', 'pro-science')
 retrieve_store_articles('https://mediabiasfactcheck.com/conspiracy/', 'conspiracy')
-
-# print(positive_articles[0])
-
-# newspaper.build('https://mediabiasfactcheck.com/pro-science/')
-# negative_articles = newspaper.build()
-
-# cnn_paper = newspaper.build('webpages''https://mediabiasfactcheck.com/pro-science/')
-
-# cnn_paper = newspaper.build('https://www.airspacemag.com')
-# print(type(cnn_paper))
-
-# for article in cnn_paper.articles:
-#    print(article.url)
-
-# for category in cnn_paper.category_urls():
-#      print(category)
-
-# http://lifestyle.cnn.com
-# http://cnn.com/world
-# http://tech.cnn.com
-
-# cnn_article = cnn_paper.articles[0]
-# cnn_article.download()
-# cnn_article.parse()
-# cnn_article.nlp()
