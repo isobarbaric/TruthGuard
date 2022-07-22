@@ -55,20 +55,6 @@
             "text": "A healthcare system typically employs an organisational hierarchy. In the UK NHS, this includes HMG Department for Health, the development, monitoring and provision of operational sites, Healthcare Staff and the logistics associated with the healthcare activities."
         }
     ],
-    "back_matter": [],
-    "bib_entries": {
-        "BIBREF0": {
-            "authors": [],
-            "issn": "",
-            "other_ids": {},
-            "pages": "",
-            "ref_id": "b0",
-            "title": "The healthcare domain contains multiple stakeholders, multiple disciplines often grouped in silos. The domain contains multiple DSMs, RMMs and Safety Risk Models (SRM) (2.6.2). Technology can offer support, but solutions are not to be found solely in the application of technology. The role of technology will evolve with time. EHR are a good start to support decision models and activity planning (such as ICPs)",
-            "venue": "Resilience is provided through the excellence of individuals or groups of human healthcare workers, typically when the supporting technologies have failed or are not available",
-            "volume": "",
-            "year": null
-        }
-    },
     "body_text": [
         {
             "cite_spans": [
@@ -1223,85 +1209,7 @@
         }
     ],
     "metadata": {
-        "authors": [],
+        "paper_id": "2791758f38a78b02dcd6619cd5c16cc0bb221672",
         "title": ""
-    },
-    "paper_id": "2791758f38a78b02dcd6619cd5c16cc0bb221672",
-    "ref_entries": {
-        "FIGREF0": {
-            "latex": null,
-            "text": "1 illustrates Table 25.1.",
-            "type": "figure"
-        },
-        "FIGREF1": {
-            "latex": null,
-            "text": "1: A Broad Categorisation of Healthcare Provision",
-            "type": "figure"
-        },
-        "FIGREF2": {
-            "latex": null,
-            "text": "3: A Simplified Supplier, Secondary and Tertiary Delivery, and Primary Provision Model",
-            "type": "figure"
-        },
-        "FIGREF3": {
-            "latex": null,
-            "text": "Mass Casualty Event Hot Zone: contains the Point of Emergency (PoE), the Triage Point (T) and forward First Aid (F) point. P1 (severe) casualties are the most seriously injured and are typically unconscious. P2 (moderate)",
-            "type": "figure"
-        },
-        "TABREF0": {
-            "latex": null,
-            "text": "Tertiaryspecialised consultative health care, usually for inpatients on referral from a primary or secondary health professional, in a facility that has personnel and facilities for advanced medical investigation and treatment[288].Many types of healthcare interventions are delivered outside of health facilities. They include many interventions of public health interest, such as food safety surveillance, needleexchange programmes and information on the prevention of transmissible diseases[288].",
-            "type": "table"
-        },
-        "TABREF1": {
-            "latex": null,
-            "text": "2: Desirable Properties of Healthcare Performance Actions often need to be executed within specified maximum time frames. \u2022 Service Time -How long it takes to do the work requested. \u2022 Wait Time -How long a request has to wait for requests queued ahead of it before it gets satisfied. \u2022 Transmission Time -How long it takes to move the request to the element doing the work and the response back to the requestor. Authentication Time -How long it takes to re-establish authentication (3.3.4), identity, and hence authorisation (3.3.3). Time incurred by changes to the ICP catalogue; \u2022 ICP Dependency Failure -How long it takes to resolve an ICP dependency (analogous to timeout) Time incurred increasing or decreasing capacity; \u2022 ICP Creation or Start-up Time \u2022 Element Recovery Time -How long it takes to recover ICP resources on closure or shutdown Time incurred after perturbation; \u2022 Recover Time -How long it takes for an element to return to normal operation on resolution of failure condition.",
-            "type": "table"
-        },
-        "TABREF10": {
-            "latex": null,
-            "text": "9: NHS Incident Level",
-            "type": "table"
-        },
-        "TABREF11": {
-            "latex": null,
-            "text": "Typically, the Incident Control Team comprises: \u2022 A manager (Incident Commander) \u2022 A nurse \u2022 A doctor \u2022 A 'loggist' and administrative support (to maintain the incident log) \u2022 Communications Officer The Incident Control Team maintains the situation awareness of the following: \u2022 number of functional operating theatres available \u2022 number of staffed ITU beds available \u2022 number of other acute admissions \u2022 overall bed availability \u2022 number of staffed functional imaging suites (e.g. X-ray rooms) \u2022 Blood Bank status",
-            "type": "table"
-        },
-        "TABREF2": {
-            "latex": null,
-            "text": "3: Healthcare Management Metamodels",
-            "type": "table"
-        },
-        "TABREF3": {
-            "latex": null,
-            "text": "4: Initial Healthcare 'Enterprise' Metamodel",
-            "type": "table"
-        },
-        "TABREF4": {
-            "latex": null,
-            "text": "",
-            "type": "table"
-        },
-        "TABREF5": {
-            "latex": null,
-            "text": "6: Typical Issues that can arise in the Healthcare Context",
-            "type": "table"
-        },
-        "TABREF7": {
-            "latex": null,
-            "text": "7: ICP expressed in the Healthcare TAP DSM",
-            "type": "table"
-        },
-        "TABREF8": {
-            "latex": null,
-            "text": "Table 25.8 [211].",
-            "type": "table"
-        },
-        "TABREF9": {
-            "latex": null,
-            "text": "8: NHS Incident Classification an event or occurrence that disrupts, or might disrupt, an organisation's normal service delivery, below acceptable pre-defined levels, where special arrangements are required to be implemented until services can return to an acceptable level. (This could be a surge in demand requiring resources to be temporarily redeployed.)",
-            "type": "table"
-        }
     }
 }

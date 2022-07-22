@@ -4,8 +4,7 @@ import os
 
 unwanted = ['back_matter', 'bib_entries', 'ref_entries']
 
-# ensuring all data was in json format to begin with
-# to be done rn 
+# ensuring all data was in json format to begin with - idk if necessary
 
 # parsing and simplifying JSON data
 for file in os.listdir('data'):
