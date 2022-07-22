@@ -1,1503 +1,1503 @@
 {
-    "paper_id": "27798179fd0f410df473acf55736886ac1a32cce",
-    "metadata": {
-        "title": "Vaccine-induced antibody level predicts the clinical course of breakthrough infection of COVID-19 caused by delta and omicron variants: a prospective observational cohort study Running title: predictors of COVID-19's clinical course",
-        "authors": [
-            {
-                "first": "Min",
-                "middle": [
-                    "Hyung"
-                ],
-                "last": "Kim",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "\u00b6",
-                "middle": [],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Yooju",
-                "middle": [],
-                "last": "Nam",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Nak-Hoon",
-                "middle": [],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Namwoo",
-                "middle": [],
-                "last": "Heo",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Bongyoung",
-                "middle": [],
-                "last": "Kim",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Hanyang University College of Medicine",
-                    "location": {
-                        "addrLine": "222-1 Wangsimni-ro, Seongdong-gu",
-                        "postCode": "04763",
-                        "settlement": "Seoul",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Eawha",
-                "middle": [],
-                "last": "Kang",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Areum",
-                "middle": [],
-                "last": "Shin",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Andrew",
-                "middle": [
-                    "Jihoon"
-                ],
-                "last": "Yang",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Yoon",
-                "middle": [
-                    "Soo"
-                ],
-                "last": "Park",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Heejung",
-                "middle": [],
-                "last": "Kim",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Taeyoung",
-                "middle": [],
-                "last": "Kyong",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Yong",
-                "middle": [
-                    "Chan"
-                ],
-                "last": "Kim",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Yonsei University College of Medicine",
-                    "location": {
-                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
-                        "postCode": "16995",
-                        "settlement": "Yongin-si",
-                        "region": "Gyeonggi-do",
-                        "country": "Republic of Korea"
-                    }
-                },
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "In this prospective observation cohort study, antibody level predicts clinical course of breakthrough infection of COVID-19. Fever (aOR 0.23[0.12-0.51], hypoxia (aOR 0.23[0.08-0.7]), CRP elevation(aOR 0.52[0.29-0.0.94] and lymphopenia (aOR 0.57[0.33-0.98])",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "In this prospective observation cohort study, antibody level predicts clinical course of breakthrough infection of COVID-19. Fever (aOR 0.23[0.12-0.51], hypoxia (aOR 0.23[0.08-0.7]), CRP elevation(aOR 0.52[0.29-0.0.94] and lymphopenia (aOR 0.57[0.33-0.98])"
         },
         {
-            "text": "were inversely correlated with antibody levels.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "were inversely correlated with antibody levels."
         },
         {
-            "text": "Omicron variant viruses spread rapidly, even in individuals with high vaccination rates. This study aimed to determine the utility of the antibody against the spike protein level as a predictor of the disease course of COVID-19 in vaccinated patients.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Omicron variant viruses spread rapidly, even in individuals with high vaccination rates. This study aimed to determine the utility of the antibody against the spike protein level as a predictor of the disease course of COVID-19 in vaccinated patients."
         },
         {
-            "text": "Between 11 December 2021 and 10 February 2022, we performed a prospective observational cohort study in South Korea, which included patients infected with delta -and -omicron variants. Multivariable logistic regression analysis to determine the association between antibody levels and the outcomes was conducted.The relationship between antibody levels and cycle threshold (Ct) values was confirmed using a generalised linear model.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Between 11 December 2021 and 10 February 2022, we performed a prospective observational cohort study in South Korea, which included patients infected with delta -and -omicron variants. Multivariable logistic regression analysis to determine the association between antibody levels and the outcomes was conducted.The relationship between antibody levels and cycle threshold (Ct) values was confirmed using a generalised linear model."
         },
         {
-            "text": "From 106 vaccinated patients (39 delta and 67 omicron), the geometric mean titres of antibodies in patients withfever (\u226537.5 \u00b0C), hypoxia (\u226494% of SpO2), pneumonia, C-reactive protein (CRP) elevation (>8 mg/L), or lymphopenia (<1,100 cells/\u03bcL) were 1,201.5 U/mL, 98.8 U/mL, 774.1 U/mL, 1,335.1 U/mL, and 1,032.2 U/mL, respectively. Increased antibody levels were associated with a decrease in the fever occurrence (adjusted odds ratio [aOR], 0.23; 95% confidence interval [CI], 0.12-0.51), hypoxia (aOR, 0.23; 95% CI, 0.08-0.7), CRP elevation (aOR, 0.52; 95% CI, 0.29-0.0.94), and lymphopenia (aOR, 0.57; 95% CI, 0.33-0.98).",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "From 106 vaccinated patients (39 delta and 67 omicron), the geometric mean titres of antibodies in patients withfever (\u226537.5 \u00b0C), hypoxia (\u226494% of SpO2), pneumonia, C-reactive protein (CRP) elevation (>8 mg/L), or lymphopenia (<1,100 cells/\u03bcL) were 1,201.5 U/mL, 98.8 U/mL, 774.1 U/mL, 1,335.1 U/mL, and 1,032.2 U/mL, respectively. Increased antibody levels were associated with a decrease in the fever occurrence (adjusted odds ratio [aOR], 0.23; 95% confidence interval [CI], 0.12-0.51), hypoxia (aOR, 0.23; 95% CI, 0.08-0.7), CRP elevation (aOR, 0.52; 95% CI, 0.29-0.0.94), and lymphopenia (aOR, 0.57; 95% CI, 0.33-0.98)."
         },
         {
-            "text": "Ct values showed a positive correlation between antibody levels (P =0.02).",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Ct values showed a positive correlation between antibody levels (P =0.02)."
         }
     ],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "Since the omicron variant was first confirmed on 24 November 2021, it has spread rapidly worldwide [1] . As a result, global cases of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection have increased at an unprecedented rate [2] . The omicron variant can spread easily in individuals even if they have completed their vaccination course. Several mutations in the omicron variant are expected to enable the virus to evade the immune system established by vaccination, resulting in increased infectivity [3, 4] . In addition, a decrease in immunity elicited by vaccines over time, namely waning immunity, may play an important role in the omicron variant's spread [5] . However, vaccines remain effective in protecting against severe diseases caused by the omicron variant, although the effectiveness may have decreased in the omicron variant rather than in previous variants [6] . Understanding the extent of vaccine effectiveness on clinical protection in patients with breakthrough infection caused by the omicron variant is needed to take measures to minimise the damage from the current pandemic.",
-            "cite_spans": [
-                {
-                    "start": 99,
-                    "end": 102,
-                    "text": "[1]",
-                    "ref_id": null
-                },
-                {
-                    "start": 245,
-                    "end": 248,
-                    "text": "[2]",
-                    "ref_id": null
-                },
-                {
-                    "start": 522,
-                    "end": 525,
-                    "text": "[3,",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 526,
-                    "end": 528,
-                    "text": "4]",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 682,
-                    "end": 685,
-                    "text": "[5]",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 894,
-                    "end": 897,
-                    "text": "[6]",
-                    "ref_id": "BIBREF4"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "In South Korea, owing to quarantine and isolation guidelines, it took more time for the omicron variant to become the dominant strain than in other countries. According to several reports, the omicron variant virus presumably has weakened virulence, which is related to reduced severity, hospitalisation, and mortality [7, 8] . However, the recent explosive increase in the number of omicron variant infections has increased the total number of deaths, and the omicron's spread has not slowed as of 28 February 2022. In this situation, to efficiently use limited medical resources, it is important to predict which patients will go through an unfavourable clinical course and put concentrated efforts into them.",
-            "cite_spans": [
-                {
-                    "start": 319,
-                    "end": 322,
-                    "text": "[7,",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 323,
-                    "end": 325,
-                    "text": "8]",
-                    "ref_id": "BIBREF6"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "We performed a prospective cohort study involving patients with delta and omicron variant infections who were admitted to an institution in South Korea. This study aimed to determine All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ;  https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint the vaccine's effect on the clinical course of delta and omicron variant infections. Furthermore, we evaluated the usefulness of the antibody level to spike protein as a predictor of the disease course of COVID-19 in vaccinated patients.",
-            "cite_spans": [
-                {
-                    "start": 436,
-                    "end": 453,
-                    "text": "March 12, 2022. ;",
-                    "ref_id": null
-                },
-                {
-                    "start": 454,
-                    "end": 454,
-                    "text": "",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "We performed a prospective observational cohort study involving SARS-CoV-2 confirmed adult patients (age, >19 years) who were admitted to the Yongin Severance Hospital. All SARS-CoV-2 cases were confirmed by polymerase chain reaction (PCR) tests and then notified to a local public health centre in South Korea. Patients with specified symptoms or conditions were asked to be hospitalised for monitoring and treatment, and they were assigned to appropriate hospitals according to their severity of COVID-19 if they were willing to do so. Symptoms and conditions for which hospitalisation was considered and classification of severity are described in appendix p2-3 (Supplementary table 1 and 2) . Yongin Severance Hospital has been in charge of hospitalisation for SARS-CoV-2 cases with mild to moderate severity.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 665,
-                    "end": 694,
-                    "text": "(Supplementary table 1 and 2)",
-                    "ref_id": null
-                }
-            ],
-            "section": "Study design and participants"
-        },
-        {
-            "text": "This study enrolled participants from 11 December 2021 to 10 February 2022, which were designated to include two different waves of COVID-19 by delta and omicron variants in South Korea. Based on the national data of COVID-19, almost all SARS-CoV-2 cases were caused by the delta variant until the start of study enrolment. However, the omicron variant overtook the delta variant in domestic SARS-CoV-2 cases from the third week of January 2022, and its detection rate exceeded 90% in the first week of February 2022 (Supplementary figure 1).",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Study design and participants"
-        },
-        {
-            "text": "Patients who agreed to undergo PCR tests for the SARS-CoV-2 variant type and anti-SARS-CoV-2 antibody tests were eligible for enrolment in this study. Only participants with All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in ",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Study design and participants"
-        },
-        {
-            "text": "We collected data on initial symptoms, reinfection, diagnosis date, initial PCR cycle threshold (Ct) value, COVID-19 vaccination history, and household contacts from the COVID-19 investigation report provided by the epidemiological investigator. The patients' baseline characteristics and clinical course were recorded during hospitalisation. The Charlson comorbidity index (CCI) was used to categorise comorbidities in the patients [9] .",
-            "cite_spans": [
-                {
-                    "start": 433,
-                    "end": 436,
-                    "text": "[9]",
-                    "ref_id": "BIBREF7"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Data collection"
-        },
-        {
-            "text": "Immunocompromised conditions were determined according to the severe immunosuppression definition by the UK Health Security Agency [10] . Vaccination status was divided into three groups-unvaccinated, vaccinated, and booster-vaccinated. The unvaccinated group included patients who had never been vaccinated, those who received one dose within the past three weeks, and those who were partially vaccinated (received just one dose or received two doses within the past two weeks). Vaccinated group included patients who received a vaccination \u22652 weeks ago; a single dose of Janssen Ad26.COV2.S vaccine was considered vaccinated if it had been more than 2 weeks after administration. Of the vaccinated patients, individuals were classified into the booster-vaccinated group if they received a booster shot before 2 weeks of enrolment.",
-            "cite_spans": [
-                {
-                    "start": 131,
-                    "end": 135,
-                    "text": "[10]",
-                    "ref_id": "BIBREF8"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Data collection"
-        },
-        {
-            "text": "Serum sample preparation, anti-SARS-CoV-2 antibody assays, RNA extraction, and PCR for All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint SARS-CoV-2 detection and variant typing are described in appendix p 5-6.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Procedures"
-        },
-        {
-            "text": "The study's primary outcomes were to compare patients with delta and omicrappon variant infections and to determine the effect of vaccine-induced antibodies on the clinical courses of breakthrough infection caused by delta and omicron variants. The secondary outcome was to determine the viral dynamics according to the antibody level.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Outcomes"
-        },
-        {
-            "text": "Only patients who were tested for antibody levels within 7 days of symptom onset or diagnosis, whichever was earlier, were included in the analyses using antibody titres. The 7-day period was designated to minimise the effect of current infection on antibody levels elicited by vaccination [11] . Furthermore, we performed sensitivity analyses using 3-day and 5-day thresholds. We investigated viral dynamics using Ct values obtained from the PCR test. Viral dynamic analysis was conducted only on data from patients who had undergone the PCR test-5-7 days after the initial diagnosis.",
-            "cite_spans": [
-                {
-                    "start": 290,
-                    "end": 294,
-                    "text": "[11]",
-                    "ref_id": "BIBREF10"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Statistical analysis"
-        },
-        {
-            "text": "Continuous variables were analysed using descriptive methods depending on their distribution and tested using the Shapiro-Wilk test. Variables with a normal distribution were described as means and standard deviations, and independent two-sample t-tests were performed. Nonnormal variables were expressed as medians and interquartile range (IQR). Categorical variables were described as frequencies and percentages. Chi-square or Fisher's exact tests were performed depending on the number of expected events. Multivariable logistic regression analysis was performed to determine the effect of antibody levels on the clinical course of breakthrough infections. We selected fever (\u226537.5 \u00b0C), hypoxia (\u226494% oxygen saturation), pneumonia, C-reactive protein (CRP) elevation (>8 mg/L), and lymphopenia (<1,100 cells/\u03bcL) All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint hypoxia (p<0.001) during hospitalisation. Once patients experienced hypoxia, the duration of hypoxia was longer in patients with delta infections than in those with omicron variant infections (p=0.002). Compared with patients with omicron variant infection, those with delta variant infection had higher levels of CRP (p<0.001) and interleukin 6 (IL-6) (p=0.021) and",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Statistical analysis"
-        },
-        {
-            "text": "were more likely to receive remdesivir (p=0.029), dexamethasone (p=0.002), and antimicrobial agents (p=0.001) ( Table 1 ).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 112,
-                    "end": 119,
-                    "text": "Table 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "Statistical analysis"
-        },
-        {
-            "text": "There were 111 vaccinated patients with delta variant (n=43) and omicron variant (n=68) infections. The comparison of delta and omicron variant infections in these patients was similar to that in 161 patients whose vaccination status was not classified (Supplementary Table 3 ).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 268,
-                    "end": 275,
-                    "text": "Table 3",
-                    "ref_id": null
-                }
-            ],
-            "section": "Statistical analysis"
-        },
-        {
-            "text": "Unvaccinated patients (n=50) more commonly experienced fever, pneumonia, or hypoxia during hospitalisation than vaccinated patients did. Vaccinated patients had a shorter time to defervescence than unvaccinated ones. Laboratory results did not differ between the vaccinated and unvaccinated patients, except for lymphocyte counts. Vaccinated patients were less likely to be treated with drugs for COVID-19 than were unvaccinated patients (Supplementary Table   4 ).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 453,
-                    "end": 462,
-                    "text": "Table   4",
-                    "ref_id": null
-                }
-            ],
-            "section": "Statistical analysis"
-        },
-        {
-            "text": "When we classified vaccinated patients with delta and omicron variant infection into boostervaccinated (n=47) and booster-unvaccinated (n=64) groups, as expected from a recent national vaccination program recommending a booster shot, the time since the last vaccination to confirm SARS-CoV-2 infection was shorter in the booster-vaccinated group than in the booster-unvaccinated group. Symptoms, signs, laboratory results, and treatment drugs, except for dexamethasone, did not differ between groups (Supplementary Table 5 perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint Data from 106 patients whose serum samples were collected within seven days of symptom onset or diagnosis were used for analyses using antibody titres ( Figure 1B) . The geometric mean antibody titres in patients who experienced fever, hypoxia, pneumonia, CRP elevation, and lymphopenia during hospitalisation were 1,201.5 U/mL, 98.8 U/mL, 774.1 U/mL, 1,335.1 U/mL, and 1,032.2 U/mL, respectively, which were lower than those in patients who did not (Supplemental table 10 and Figure 2 ). Similar results were observed when the selected patients were divided into delta and omicron variant infection groups. Sensitivity analyses using 3-day and 5-day thresholds for time since symptom onset or diagnosis to antibody test did not differ from the main analyses ( Supplementary Figures 2 and 3 ). (Table 2) . Although the occurrence of pneumonia was associated with antibody levels in the unadjusted analysis, statistical significance was not observed in the adjusted analysis (aOR, 0.526; 95% CI, 0.249-1.112).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 515,
-                    "end": 522,
-                    "text": "Table 5",
-                    "ref_id": null
-                },
-                {
-                    "start": 955,
-                    "end": 965,
-                    "text": "Figure 1B)",
-                    "ref_id": "FIGREF4"
-                },
-                {
-                    "start": 1279,
-                    "end": 1287,
-                    "text": "Figure 2",
-                    "ref_id": null
-                },
-                {
-                    "start": 1563,
-                    "end": 1592,
-                    "text": "Supplementary Figures 2 and 3",
-                    "ref_id": null
-                },
-                {
-                    "start": 1596,
-                    "end": 1605,
-                    "text": "(Table 2)",
-                    "ref_id": null
-                }
-            ],
-            "section": "Statistical analysis"
-        },
-        {
-            "text": "Therefore, we investigated the association between antibody levels and viral dynamics. Among 106 patients included in the analyses using antibody levels, 33 patients who had Ct values from the PCR tests 5-7 days after the initial diagnosis were selected. Patients with higher antibody levels had higher Ct values at 5-7 days after the initial diagnosis, indicating lower viral loads than those with lower antibody levels (p=0.022) (Figure 3 ). We also evaluated the association between antibody levels and Ct values at the initial diagnosis. Although several different commercial PCR kits were used at initial diagnosis because the patients were tested in different All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint institutions at the time of diagnosis, we found no difference in Ct values at the time of diagnosis according to the antibody level (data not shown).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 431,
-                    "end": 440,
-                    "text": "(Figure 3",
-                    "ref_id": null
-                }
-            ],
-            "section": "Statistical analysis"
-        },
-        {
-            "text": "We identified that the vaccine was still effective against SARS-CoV-2 infection, including delta and omicron variants. Furthermore, our data showed that vaccine-induced antibody titres were independently associated with the occurrence of specific signs, as indicators of an unfavourable clinical course, in patients with SARS-CoV-2 breakthrough infection, regardless of virus type or booster vaccination status. Our study provides important information for taking measures to minimise the damage caused by the current pandemic.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "Vaccines against SARS-CoV-2 are effective in the prevention of adverse outcomes in patients with infections, such as hospitalisation and death [12, 13] . Neutralising antibody responses are highly predictive of protection in vaccinated individuals [14] . However, identifying neutralising antibodies is not feasible for practical use in clinical settings because it is a labour-intensive and time-consuming task. Instead, monitoring antibody levels to spike proteins using commercial kits is more convenient and logistically feasible. Our study provides evidence that antibody level is an important predictor of the clinical course in patients with breakthrough infection by showing a close relationship between low antibody levels and an unfavourable disease course such as fever, hypoxia, pneumonia, CRP elevation, and lymphopenia. Our data fill the gap of missing data on the impact of variable antibody responses to vaccination on the disease course of COVID-19.",
-            "cite_spans": [
-                {
-                    "start": 143,
-                    "end": 147,
-                    "text": "[12,",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 148,
-                    "end": 151,
-                    "text": "13]",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 248,
-                    "end": 252,
-                    "text": "[14]",
-                    "ref_id": "BIBREF13"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "Booster vaccination increases humoral immunity to prevent hospitalisation or severe disease progression in patients with omicron variant infection as well as delta-variant All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in [15, 16] . We also observed higher antibody levels in vaccine-completed individuals with primary vaccination than in booster-vaccinated individuals (data not shown). However, booster vaccination was not associated with clinical protection in patients with breakthrough infections caused by the delta and omicron variants in this study. We postulate that this finding is attributable to the fact that the indicator of clinical protection used in this study could be sufficiently prevented by the level of antibodies that was mounted by primary vaccination. This study could not evaluate the occurrence of severe outcomes (e.g. mechanical ventilation or mortality) as indicators of clinical protection because of the specific baseline conditions of the included patients. Therefore, the effect of antibodies according to different titres on these outcomes should be evaluated in future studies involving other populations.",
-            "cite_spans": [
-                {
-                    "start": 375,
-                    "end": 379,
-                    "text": "[15,",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 380,
-                    "end": 383,
-                    "text": "16]",
-                    "ref_id": "BIBREF15"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "Previous studies have reported that the omicron variant has weakened virulence, which in turn results in reduced severity even if infection occurs [17, 18] . We also found similar findings in omicron variant infections compared with delta variant infections (Table 1) . However, in breakthrough infections caused by delta and omicron variants, the variant type was not associated with the occurrence of specific signs observed in this study, except for pneumonia (Table 2) . We assume that our findings are owing to the reduced effectiveness of vaccines against omicron variants. Indeed, the omicron variant has multiple mutations that enable evasion of the vaccine-induced immune system [19, 20] We found differences in the viral kinetics among vaccinated patients with a variety of antibody levels. The viral load decline rate was positively correlated with antibody levels. In All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint other words, more rapid viral clearance was observed in patients with higher antibody levels than in those with lower antibody levels. These findings are in line with those of previous studies, which suggest that the host immune system determines viral clearance [21, 22] .",
-            "cite_spans": [
-                {
-                    "start": 147,
-                    "end": 151,
-                    "text": "[17,",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 152,
-                    "end": 155,
-                    "text": "18]",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 688,
-                    "end": 692,
-                    "text": "[19,",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 693,
-                    "end": 696,
-                    "text": "20]",
-                    "ref_id": "BIBREF19"
-                },
-                {
-                    "start": 1480,
-                    "end": 1484,
-                    "text": "[21,",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 1485,
-                    "end": 1488,
-                    "text": "22]",
-                    "ref_id": "BIBREF21"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 258,
-                    "end": 267,
-                    "text": "(Table 1)",
-                    "ref_id": null
-                },
-                {
-                    "start": 463,
-                    "end": 472,
-                    "text": "(Table 2)",
-                    "ref_id": null
-                }
-            ],
-            "section": "Discussion"
-        },
-        {
-            "text": "Although we did not evaluate the association of clinical courses and viral kinetics in this study owing to the limited number of participants who underwent PCR test 5-7 days after initial diagnosis, it is possible that rapid viral clearance contributes to the occurrence of specific signs observed in this study among patients with breakthrough infection. This hypothesis should be tested in future studies.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "Our study had several limitations. First, we could not exclude the effects of previous or current infections on antibody levels. However, none of the participants had a previous infection, although it relied on self-reporting. Furthermore, our findings were robust in a sensitivity analysis involving patients who tested antibody levels within 3 or 5 days of symptom onset or diagnosis. Second, since our study hospital has specific criteria for admission, which allowed only patients with mild to moderate severity to be admitted, we could not investigate the effects of antibody levels on outcomes such as moving to the severe phase (n=2) or death (n=0). Therefore, further studies involving a larger number of patients with a wide range of disease severity are warranted. Third, the diagnosis of pneumonia in this study was based on chest radiographic findings. Chest radiography is limited in its ability to detect subtle pneumonia. Furthermore, we did not routinely perform follow-up chest radiography if the initial test did not report abnormal findings and if the patient's condition did not change.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "Therefore, the results associated with pneumonia should be cautiously interpreted. Fourth, we did not consider the type of vaccine (e.g. adenoviral vector-based, mRNA-based) when analysing antibody levels. Most previous studies have demonstrated the effectiveness of All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ;  https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint vaccines based on homologous vaccination data. However, the real-world population receives heterologous vaccines from different platforms for several reasons, such as the disruption of vaccine supply and vaccine-associated adverse events. Moreover, booster immunisation programs have increased the possibility of receiving different types of vaccines. In this regard, we did not classify the participants according to the type of vaccine but only vaccination status to reflect real-world population data.",
-            "cite_spans": [
-                {
-                    "start": 520,
-                    "end": 537,
-                    "text": "March 12, 2022. ;",
-                    "ref_id": null
-                },
-                {
-                    "start": 538,
-                    "end": 538,
-                    "text": "",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "In conclusion, this study showed the significance of vaccine-induced antibody levels as a predictor of the clinical course of COVID-19 in patients with breakthrough infections caused by delta and omicron variants. Moreover, in our cohort, enhanced viral clearance was observed in vaccinated patients with higher antibody levels than in those with lower antibody levels. We highlight the need for concentrated efforts to monitor patients with SARS-CoV-2 infection who have conditions related to poor antibody response to vaccination (e.g. immunocompromised status) or waning immunity after vaccination (e.g. adenoviral vector-based vaccine) since they are more likely to undergo an unfavourable disease course.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "The authors declare that they have no competing interests.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Competing interests"
-        },
-        {
-            "text": "This research received no specific grant from and funding agency, commercial or not-for-profit sectors.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Funding source"
-        },
-        {
-            "text": "All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in ",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Funding source"
-        },
-        {
-            "text": "We would like to thank all of the nursing and laboratory staff as well as the physicians who supported this project. Finally, we give credit to all of the patients who took part in this study.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Acknowledgments"
-        },
-        {
-            "text": "The dataset supporting the conclusions of this article is included within Supplemental data (Raw data used in analysis).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Availability of data and materials"
-        },
-        {
-            "text": "All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Availability of data and materials"
-        },
-        {
-            "text": "preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Availability of data and materials"
-        },
-        {
-            "text": "The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Availability of data and materials"
+            "section": "annex",
+            "text": "All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint"
         }
     ],
     "bib_entries": {
         "BIBREF0": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b0",
             "title": "529)-sars-cov-2-variant-of-concern Accessed February 11, 2022. 2. WHO Coronavirus (COVID-19) Dashboard",
-            "authors": [],
-            "year": 2021,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF1": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Hu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Peng",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Cao",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "293--298",
             "ref_id": "b1",
             "title": "Increased immune escape of the new SARS-CoV-2 variant of concern Omicron",
-            "authors": [
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Hu",
-                    "suffix": ""
-                },
-                {
-                    "first": "P",
-                    "middle": [],
-                    "last": "Peng",
-                    "suffix": ""
-                },
-                {
-                    "first": "X",
-                    "middle": [],
-                    "last": "Cao",
-                    "suffix": ""
-                }
-            ],
-            "year": 2022,
             "venue": "Cellular & Molecular Immunology",
             "volume": "19",
-            "issn": "",
-            "pages": "293--298",
-            "other_ids": {}
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "Increased immune escape of the new SARS-CoV-2 variant of concern Omicron",
-            "authors": [
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Hu",
-                    "suffix": ""
-                },
-                {
-                    "first": "P",
-                    "middle": [],
-                    "last": "Peng",
-                    "suffix": ""
-                },
-                {
-                    "first": "X",
-                    "middle": [],
-                    "last": "Cao",
-                    "suffix": ""
-                }
-            ],
-            "year": 2022,
-            "venue": "Cell Mol Immunol",
-            "volume": "19",
-            "issn": "",
-            "pages": "293--298",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Waning Immunity after the BNT162b2 Vaccine in Israel",
-            "authors": [
-                {
-                    "first": "Y",
-                    "middle": [],
-                    "last": "Goldberg",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Mandel",
-                    "suffix": ""
-                },
-                {
-                    "first": "Y",
-                    "middle": [
-                        "M"
-                    ],
-                    "last": "Bar-On",
-                    "suffix": ""
-                }
-            ],
-            "year": 2021,
-            "venue": "N Engl J Med",
-            "volume": "385",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "Effectiveness of BNT162b2 Vaccine against Omicron Variant in South Africa",
-            "authors": [
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Collie",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Champion",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Moultrie",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [
-                        "G"
-                    ],
-                    "last": "Bekker",
-                    "suffix": ""
-                },
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Gray",
-                    "suffix": ""
-                }
-            ],
-            "year": 2022,
-            "venue": "N Engl J Med",
-            "volume": "386",
-            "issn": "",
-            "pages": "494--500",
-            "other_ids": {}
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "Decreased severity of disease during the first global omicron variant covid-19 outbreak in a large hospital in tshwane, south africa",
-            "authors": [
-                {
-                    "first": "F",
-                    "middle": [],
-                    "last": "Abdullah",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Myers",
-                    "suffix": ""
-                },
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Basu",
-                    "suffix": ""
-                }
-            ],
-            "year": 2022,
-            "venue": "Int J Infect Dis",
-            "volume": "116",
-            "issn": "",
-            "pages": "38--42",
-            "other_ids": {}
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Characteristics and Outcomes of Hospitalized Patients in South Africa During the COVID-19 Omicron Wave Compared With Previous Waves",
-            "authors": [
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Maslo",
-                    "suffix": ""
-                },
-                {
-                    "first": "R",
-                    "middle": [],
-                    "last": "Friedland",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Toubkin",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Laubscher",
-                    "suffix": ""
-                },
-                {
-                    "first": "T",
-                    "middle": [],
-                    "last": "Akaloo",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [],
-                    "last": "Kama",
-                    "suffix": ""
-                }
-            ],
-            "year": 2022,
-            "venue": "Jama",
-            "volume": "327",
-            "issn": "",
-            "pages": "583--587",
-            "other_ids": {}
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "New ICD-10 version of the Charlson comorbidity index predicted in-hospital mortality",
-            "authors": [
-                {
-                    "first": "V",
-                    "middle": [],
-                    "last": "Sundararajan",
-                    "suffix": ""
-                },
-                {
-                    "first": "T",
-                    "middle": [],
-                    "last": "Henderson",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Perry",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Muggivan",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Quan",
-                    "suffix": ""
-                },
-                {
-                    "first": "W",
-                    "middle": [
-                        "A"
-                    ],
-                    "last": "Ghali",
-                    "suffix": ""
-                }
-            ],
-            "year": 2004,
-            "venue": "J Clin Epidemiol",
-            "volume": "57",
-            "issn": "",
-            "pages": "1288--94",
-            "other_ids": {}
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Stepdown of infection control precautions and discharging COVID-19 patients and asymptomatic SARS-CoV-2 infected patients",
-            "authors": [],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "infection-control-precautions-within-hospitals-and-discharging-covid-19-patientsfrom-hospital-to-home-settings/guidance-for-stepdown-of-infection-controlprecautions-and-discharging-covid-19-patients",
-            "authors": [],
-            "year": 2021,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2022
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "Antibody responses to SARS-CoV-2 in patients with COVID-19",
             "authors": [
                 {
                     "first": "Q",
+                    "last": "Long",
                     "middle": [
                         "X"
                     ],
-                    "last": "Long",
                     "suffix": ""
                 },
                 {
                     "first": "B",
+                    "last": "Liu",
                     "middle": [
                         "Z"
                     ],
-                    "last": "Liu",
                     "suffix": ""
                 },
                 {
                     "first": "H",
+                    "last": "Deng",
                     "middle": [
                         "J"
                     ],
-                    "last": "Deng",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "845--853",
+            "ref_id": "b10",
+            "title": "Antibody responses to SARS-CoV-2 in patients with COVID-19",
             "venue": "Nat Med",
             "volume": "26",
-            "issn": "",
-            "pages": "845--853",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "Effectiveness of the Pfizer-BioNTech and Oxford-AstraZeneca vaccines on covid-19 related symptoms, hospital admissions, and mortality in older adults in England: test negative case-control study",
             "authors": [
                 {
                     "first": "J",
+                    "last": "Bernal",
                     "middle": [
                         "L"
                     ],
-                    "last": "Bernal",
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Andrews",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Gower",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b11",
+            "title": "Effectiveness of the Pfizer-BioNTech and Oxford-AstraZeneca vaccines on covid-19 related symptoms, hospital admissions, and mortality in older adults in England: test negative case-control study",
             "venue": "bmj",
             "volume": "373",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "Effectiveness of Covid-19 Vaccines against the B. 1.617. 2 (Delta) Variant. Reply",
             "authors": [
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Gower",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Andrews",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b12",
+            "title": "Effectiveness of Covid-19 Vaccines against the B. 1.617. 2 (Delta) Variant. Reply",
             "venue": "The New England Journal of Medicine",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "Neutralizing antibody levels are highly predictive of immune protection from symptomatic SARS-CoV-2 infection",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Khoury",
                     "middle": [
                         "S"
                     ],
-                    "last": "Khoury",
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Cromer",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Reynaldi",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "1205--1216",
+            "ref_id": "b13",
+            "title": "Neutralizing antibody levels are highly predictive of immune protection from symptomatic SARS-CoV-2 infection",
             "venue": "Nat Med",
             "volume": "27",
-            "issn": "",
-            "pages": "1205--1216",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Effectiveness of COVID-19 vaccines against Omicron or Delta infection",
             "authors": [
                 {
                     "first": "S",
+                    "last": "Buchan",
                     "middle": [
                         "A"
                     ],
-                    "last": "Buchan",
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Chung",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Brown",
                     "middle": [
                         "A"
                     ],
-                    "last": "Brown",
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b14",
+            "title": "Effectiveness of COVID-19 vaccines against Omicron or Delta infection",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "Omicron variant and booster COVID-19 vaccines. The Lancet Respiratory Medicine",
             "authors": [
                 {
                     "first": "T",
+                    "last": "Burki",
                     "middle": [
                         "K"
                     ],
-                    "last": "Burki",
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b15",
+            "title": "Omicron variant and booster COVID-19 vaccines. The Lancet Respiratory Medicine",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "Decreased severity of disease during the first global omicron variant covid-19 outbreak in a large hospital in tshwane, south africa",
             "authors": [
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Abdullah",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Myers",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Basu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b16",
+            "title": "Decreased severity of disease during the first global omicron variant covid-19 outbreak in a large hospital in tshwane, south africa",
             "venue": "International Journal of Infectious Diseases",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "Characteristics and outcomes of hospitalized patients in South Africa during the COVID-19 Omicron wave compared with previous waves",
             "authors": [
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Maslo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Friedland",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Toubkin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Laubscher",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Akaloo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Kama",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b17",
+            "title": "Characteristics and outcomes of hospitalized patients in South Africa during the COVID-19 Omicron wave compared with previous waves",
             "venue": "JAMA",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "Complete mapping of mutations to the SARS-CoV-2 spike receptor-binding domain that escape antibody recognition",
             "authors": [
                 {
                     "first": "A",
+                    "last": "Greaney",
                     "middle": [
                         "J"
                     ],
-                    "last": "Greaney",
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Starr",
                     "middle": [
                         "N"
                     ],
-                    "last": "Starr",
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Gilchuk",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "44--57",
+            "ref_id": "b18",
+            "title": "Complete mapping of mutations to the SARS-CoV-2 spike receptor-binding domain that escape antibody recognition",
             "venue": "Cell host & microbe",
             "volume": "29",
-            "issn": "",
-            "pages": "44--57",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF19": {
-            "ref_id": "b19",
-            "title": "SARS-CoV-2 variants, spike mutations and immune escape",
             "authors": [
                 {
                     "first": "W",
+                    "last": "Harvey",
                     "middle": [
                         "T"
                     ],
-                    "last": "Harvey",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Carabelli",
                     "middle": [
                         "M"
                     ],
-                    "last": "Carabelli",
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Jackson",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "409--433",
+            "ref_id": "b19",
+            "title": "SARS-CoV-2 variants, spike mutations and immune escape",
             "venue": "Nature Reviews Microbiology",
             "volume": "19",
+            "year": 2021
+        },
+        "BIBREF2": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Hu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Peng",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Cao",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
             "issn": "",
-            "pages": "409--433",
-            "other_ids": {}
+            "other_ids": {},
+            "pages": "293--298",
+            "ref_id": "b2",
+            "title": "Increased immune escape of the new SARS-CoV-2 variant of concern Omicron",
+            "venue": "Cell Mol Immunol",
+            "volume": "19",
+            "year": 2022
         },
         "BIBREF20": {
-            "ref_id": "b20",
-            "title": "SARS-CoV-2 viral dynamics in immunocompromised patients",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Caillard",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "I",
-                    "middle": [],
                     "last": "Benotmane",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Gautier",
-                    "middle": [],
                     "last": "Vargas",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Perrin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Fafi-Kremer",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "1667--1676",
+            "ref_id": "b20",
+            "title": "SARS-CoV-2 viral dynamics in immunocompromised patients",
             "venue": "Am J Transplant",
             "volume": "21",
-            "issn": "",
-            "pages": "1667--1676",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Community transmission and viral load kinetics of the SARS-CoV-2 delta (B.1.617.2) variant in vaccinated and unvaccinated individuals in the UK: a prospective, longitudinal, cohort study",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Singanayagam",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Hakki",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Dunning",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2022,
+            "issn": "",
+            "other_ids": {},
+            "pages": "183--95",
+            "ref_id": "b21",
+            "title": "Community transmission and viral load kinetics of the SARS-CoV-2 delta (B.1.617.2) variant in vaccinated and unvaccinated individuals in the UK: a prospective, longitudinal, cohort study",
             "venue": "The Lancet Infectious Diseases",
             "volume": "22",
-            "issn": "",
-            "pages": "183--95",
-            "other_ids": {}
+            "year": 2022
         },
         "BIBREF24": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b24",
             "title": "Data are expressed as mean \u00b1 standard deviation or number with percentages. Abbreviations: BMI, body mass index; CCI",
-            "authors": [],
-            "year": null,
             "venue": "Charlson comorbidity index",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF27": {
-            "ref_id": "b27",
-            "title": "percutaneous oxygen saturation; SARS-CoV-2, severe acute",
             "authors": [
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Spo2",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b27",
+            "title": "percutaneous oxygen saturation; SARS-CoV-2, severe acute",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF28": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b28",
             "title": "\u2020 Presence of pneumonia was determined using chest radiography",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
+            "year": null
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "Y",
+                    "last": "Goldberg",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Mandel",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Bar-On",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                }
+            ],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b3",
+            "title": "Waning Immunity after the BNT162b2 Vaccine in Israel",
+            "venue": "N Engl J Med",
+            "volume": "385",
+            "year": 2021
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Collie",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Champion",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Moultrie",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Bekker",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Gray",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "494--500",
+            "ref_id": "b4",
+            "title": "Effectiveness of BNT162b2 Vaccine against Omicron Variant in South Africa",
+            "venue": "N Engl J Med",
+            "volume": "386",
+            "year": 2022
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "F",
+                    "last": "Abdullah",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Myers",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Basu",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "38--42",
+            "ref_id": "b5",
+            "title": "Decreased severity of disease during the first global omicron variant covid-19 outbreak in a large hospital in tshwane, south africa",
+            "venue": "Int J Infect Dis",
+            "volume": "116",
+            "year": 2022
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "C",
+                    "last": "Maslo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Friedland",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Toubkin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Laubscher",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Akaloo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Kama",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "583--587",
+            "ref_id": "b6",
+            "title": "Characteristics and Outcomes of Hospitalized Patients in South Africa During the COVID-19 Omicron Wave Compared With Previous Waves",
+            "venue": "Jama",
+            "volume": "327",
+            "year": 2022
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "V",
+                    "last": "Sundararajan",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Henderson",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Perry",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Muggivan",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Quan",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "last": "Ghali",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1288--94",
+            "ref_id": "b7",
+            "title": "New ICD-10 version of the Charlson comorbidity index predicted in-hospital mortality",
+            "venue": "J Clin Epidemiol",
+            "volume": "57",
+            "year": 2004
+        },
+        "BIBREF8": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b8",
+            "title": "Stepdown of infection control precautions and discharging COVID-19 patients and asymptomatic SARS-CoV-2 infected patients",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF9": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b9",
+            "title": "infection-control-precautions-within-hospitals-and-discharging-covid-19-patientsfrom-hospital-to-home-settings/guidance-for-stepdown-of-infection-controlprecautions-and-discharging-covid-19-patients",
+            "venue": "",
+            "volume": "",
+            "year": 2021
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 102,
+                    "ref_id": null,
+                    "start": 99,
+                    "text": "[1]"
+                },
+                {
+                    "end": 248,
+                    "ref_id": null,
+                    "start": 245,
+                    "text": "[2]"
+                },
+                {
+                    "end": 525,
+                    "ref_id": "BIBREF1",
+                    "start": 522,
+                    "text": "[3,"
+                },
+                {
+                    "end": 528,
+                    "ref_id": "BIBREF2",
+                    "start": 526,
+                    "text": "4]"
+                },
+                {
+                    "end": 685,
+                    "ref_id": "BIBREF3",
+                    "start": 682,
+                    "text": "[5]"
+                },
+                {
+                    "end": 897,
+                    "ref_id": "BIBREF4",
+                    "start": 894,
+                    "text": "[6]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Since the omicron variant was first confirmed on 24 November 2021, it has spread rapidly worldwide [1] . As a result, global cases of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection have increased at an unprecedented rate [2] . The omicron variant can spread easily in individuals even if they have completed their vaccination course. Several mutations in the omicron variant are expected to enable the virus to evade the immune system established by vaccination, resulting in increased infectivity [3, 4] . In addition, a decrease in immunity elicited by vaccines over time, namely waning immunity, may play an important role in the omicron variant's spread [5] . However, vaccines remain effective in protecting against severe diseases caused by the omicron variant, although the effectiveness may have decreased in the omicron variant rather than in previous variants [6] . Understanding the extent of vaccine effectiveness on clinical protection in patients with breakthrough infection caused by the omicron variant is needed to take measures to minimise the damage from the current pandemic."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 322,
+                    "ref_id": "BIBREF5",
+                    "start": 319,
+                    "text": "[7,"
+                },
+                {
+                    "end": 325,
+                    "ref_id": "BIBREF6",
+                    "start": 323,
+                    "text": "8]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "In South Korea, owing to quarantine and isolation guidelines, it took more time for the omicron variant to become the dominant strain than in other countries. According to several reports, the omicron variant virus presumably has weakened virulence, which is related to reduced severity, hospitalisation, and mortality [7, 8] . However, the recent explosive increase in the number of omicron variant infections has increased the total number of deaths, and the omicron's spread has not slowed as of 28 February 2022. In this situation, to efficiently use limited medical resources, it is important to predict which patients will go through an unfavourable clinical course and put concentrated efforts into them."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 453,
+                    "ref_id": null,
+                    "start": 436,
+                    "text": "March 12, 2022. ;"
+                },
+                {
+                    "end": 454,
+                    "ref_id": null,
+                    "start": 454,
+                    "text": ""
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "We performed a prospective cohort study involving patients with delta and omicron variant infections who were admitted to an institution in South Korea. This study aimed to determine All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ;  https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint the vaccine's effect on the clinical course of delta and omicron variant infections. Furthermore, we evaluated the usefulness of the antibody level to spike protein as a predictor of the disease course of COVID-19 in vaccinated patients."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 694,
+                    "ref_id": null,
+                    "start": 665,
+                    "text": "(Supplementary table 1 and 2)"
+                }
+            ],
+            "section": "Study design and participants",
+            "text": "We performed a prospective observational cohort study involving SARS-CoV-2 confirmed adult patients (age, >19 years) who were admitted to the Yongin Severance Hospital. All SARS-CoV-2 cases were confirmed by polymerase chain reaction (PCR) tests and then notified to a local public health centre in South Korea. Patients with specified symptoms or conditions were asked to be hospitalised for monitoring and treatment, and they were assigned to appropriate hospitals according to their severity of COVID-19 if they were willing to do so. Symptoms and conditions for which hospitalisation was considered and classification of severity are described in appendix p2-3 (Supplementary table 1 and 2) . Yongin Severance Hospital has been in charge of hospitalisation for SARS-CoV-2 cases with mild to moderate severity."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and participants",
+            "text": "This study enrolled participants from 11 December 2021 to 10 February 2022, which were designated to include two different waves of COVID-19 by delta and omicron variants in South Korea. Based on the national data of COVID-19, almost all SARS-CoV-2 cases were caused by the delta variant until the start of study enrolment. However, the omicron variant overtook the delta variant in domestic SARS-CoV-2 cases from the third week of January 2022, and its detection rate exceeded 90% in the first week of February 2022 (Supplementary figure 1)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and participants",
+            "text": "Patients who agreed to undergo PCR tests for the SARS-CoV-2 variant type and anti-SARS-CoV-2 antibody tests were eligible for enrolment in this study. Only participants with All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in "
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 436,
+                    "ref_id": "BIBREF7",
+                    "start": 433,
+                    "text": "[9]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection",
+            "text": "We collected data on initial symptoms, reinfection, diagnosis date, initial PCR cycle threshold (Ct) value, COVID-19 vaccination history, and household contacts from the COVID-19 investigation report provided by the epidemiological investigator. The patients' baseline characteristics and clinical course were recorded during hospitalisation. The Charlson comorbidity index (CCI) was used to categorise comorbidities in the patients [9] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 135,
+                    "ref_id": "BIBREF8",
+                    "start": 131,
+                    "text": "[10]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection",
+            "text": "Immunocompromised conditions were determined according to the severe immunosuppression definition by the UK Health Security Agency [10] . Vaccination status was divided into three groups-unvaccinated, vaccinated, and booster-vaccinated. The unvaccinated group included patients who had never been vaccinated, those who received one dose within the past three weeks, and those who were partially vaccinated (received just one dose or received two doses within the past two weeks). Vaccinated group included patients who received a vaccination \u22652 weeks ago; a single dose of Janssen Ad26.COV2.S vaccine was considered vaccinated if it had been more than 2 weeks after administration. Of the vaccinated patients, individuals were classified into the booster-vaccinated group if they received a booster shot before 2 weeks of enrolment."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Procedures",
+            "text": "Serum sample preparation, anti-SARS-CoV-2 antibody assays, RNA extraction, and PCR for All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint SARS-CoV-2 detection and variant typing are described in appendix p 5-6."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcomes",
+            "text": "The study's primary outcomes were to compare patients with delta and omicrappon variant infections and to determine the effect of vaccine-induced antibodies on the clinical courses of breakthrough infection caused by delta and omicron variants. The secondary outcome was to determine the viral dynamics according to the antibody level."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 294,
+                    "ref_id": "BIBREF10",
+                    "start": 290,
+                    "text": "[11]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis",
+            "text": "Only patients who were tested for antibody levels within 7 days of symptom onset or diagnosis, whichever was earlier, were included in the analyses using antibody titres. The 7-day period was designated to minimise the effect of current infection on antibody levels elicited by vaccination [11] . Furthermore, we performed sensitivity analyses using 3-day and 5-day thresholds. We investigated viral dynamics using Ct values obtained from the PCR test. Viral dynamic analysis was conducted only on data from patients who had undergone the PCR test-5-7 days after the initial diagnosis."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis",
+            "text": "Continuous variables were analysed using descriptive methods depending on their distribution and tested using the Shapiro-Wilk test. Variables with a normal distribution were described as means and standard deviations, and independent two-sample t-tests were performed. Nonnormal variables were expressed as medians and interquartile range (IQR). Categorical variables were described as frequencies and percentages. Chi-square or Fisher's exact tests were performed depending on the number of expected events. Multivariable logistic regression analysis was performed to determine the effect of antibody levels on the clinical course of breakthrough infections. We selected fever (\u226537.5 \u00b0C), hypoxia (\u226494% oxygen saturation), pneumonia, C-reactive protein (CRP) elevation (>8 mg/L), and lymphopenia (<1,100 cells/\u03bcL) All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint hypoxia (p<0.001) during hospitalisation. Once patients experienced hypoxia, the duration of hypoxia was longer in patients with delta infections than in those with omicron variant infections (p=0.002). Compared with patients with omicron variant infection, those with delta variant infection had higher levels of CRP (p<0.001) and interleukin 6 (IL-6) (p=0.021) and"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 119,
+                    "ref_id": null,
+                    "start": 112,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Statistical analysis",
+            "text": "were more likely to receive remdesivir (p=0.029), dexamethasone (p=0.002), and antimicrobial agents (p=0.001) ( Table 1 )."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 275,
+                    "ref_id": null,
+                    "start": 268,
+                    "text": "Table 3"
+                }
+            ],
+            "section": "Statistical analysis",
+            "text": "There were 111 vaccinated patients with delta variant (n=43) and omicron variant (n=68) infections. The comparison of delta and omicron variant infections in these patients was similar to that in 161 patients whose vaccination status was not classified (Supplementary Table 3 )."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 462,
+                    "ref_id": null,
+                    "start": 453,
+                    "text": "Table   4"
+                }
+            ],
+            "section": "Statistical analysis",
+            "text": "Unvaccinated patients (n=50) more commonly experienced fever, pneumonia, or hypoxia during hospitalisation than vaccinated patients did. Vaccinated patients had a shorter time to defervescence than unvaccinated ones. Laboratory results did not differ between the vaccinated and unvaccinated patients, except for lymphocyte counts. Vaccinated patients were less likely to be treated with drugs for COVID-19 than were unvaccinated patients (Supplementary Table   4 )."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 522,
+                    "ref_id": null,
+                    "start": 515,
+                    "text": "Table 5"
+                },
+                {
+                    "end": 965,
+                    "ref_id": "FIGREF4",
+                    "start": 955,
+                    "text": "Figure 1B)"
+                },
+                {
+                    "end": 1287,
+                    "ref_id": null,
+                    "start": 1279,
+                    "text": "Figure 2"
+                },
+                {
+                    "end": 1592,
+                    "ref_id": null,
+                    "start": 1563,
+                    "text": "Supplementary Figures 2 and 3"
+                },
+                {
+                    "end": 1605,
+                    "ref_id": null,
+                    "start": 1596,
+                    "text": "(Table 2)"
+                }
+            ],
+            "section": "Statistical analysis",
+            "text": "When we classified vaccinated patients with delta and omicron variant infection into boostervaccinated (n=47) and booster-unvaccinated (n=64) groups, as expected from a recent national vaccination program recommending a booster shot, the time since the last vaccination to confirm SARS-CoV-2 infection was shorter in the booster-vaccinated group than in the booster-unvaccinated group. Symptoms, signs, laboratory results, and treatment drugs, except for dexamethasone, did not differ between groups (Supplementary Table 5 perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint Data from 106 patients whose serum samples were collected within seven days of symptom onset or diagnosis were used for analyses using antibody titres ( Figure 1B) . The geometric mean antibody titres in patients who experienced fever, hypoxia, pneumonia, CRP elevation, and lymphopenia during hospitalisation were 1,201.5 U/mL, 98.8 U/mL, 774.1 U/mL, 1,335.1 U/mL, and 1,032.2 U/mL, respectively, which were lower than those in patients who did not (Supplemental table 10 and Figure 2 ). Similar results were observed when the selected patients were divided into delta and omicron variant infection groups. Sensitivity analyses using 3-day and 5-day thresholds for time since symptom onset or diagnosis to antibody test did not differ from the main analyses ( Supplementary Figures 2 and 3 ). (Table 2) . Although the occurrence of pneumonia was associated with antibody levels in the unadjusted analysis, statistical significance was not observed in the adjusted analysis (aOR, 0.526; 95% CI, 0.249-1.112)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 440,
+                    "ref_id": null,
+                    "start": 431,
+                    "text": "(Figure 3"
+                }
+            ],
+            "section": "Statistical analysis",
+            "text": "Therefore, we investigated the association between antibody levels and viral dynamics. Among 106 patients included in the analyses using antibody levels, 33 patients who had Ct values from the PCR tests 5-7 days after the initial diagnosis were selected. Patients with higher antibody levels had higher Ct values at 5-7 days after the initial diagnosis, indicating lower viral loads than those with lower antibody levels (p=0.022) (Figure 3 ). We also evaluated the association between antibody levels and Ct values at the initial diagnosis. Although several different commercial PCR kits were used at initial diagnosis because the patients were tested in different All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint institutions at the time of diagnosis, we found no difference in Ct values at the time of diagnosis according to the antibody level (data not shown)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "We identified that the vaccine was still effective against SARS-CoV-2 infection, including delta and omicron variants. Furthermore, our data showed that vaccine-induced antibody titres were independently associated with the occurrence of specific signs, as indicators of an unfavourable clinical course, in patients with SARS-CoV-2 breakthrough infection, regardless of virus type or booster vaccination status. Our study provides important information for taking measures to minimise the damage caused by the current pandemic."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 147,
+                    "ref_id": "BIBREF11",
+                    "start": 143,
+                    "text": "[12,"
+                },
+                {
+                    "end": 151,
+                    "ref_id": "BIBREF12",
+                    "start": 148,
+                    "text": "13]"
+                },
+                {
+                    "end": 252,
+                    "ref_id": "BIBREF13",
+                    "start": 248,
+                    "text": "[14]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "Vaccines against SARS-CoV-2 are effective in the prevention of adverse outcomes in patients with infections, such as hospitalisation and death [12, 13] . Neutralising antibody responses are highly predictive of protection in vaccinated individuals [14] . However, identifying neutralising antibodies is not feasible for practical use in clinical settings because it is a labour-intensive and time-consuming task. Instead, monitoring antibody levels to spike proteins using commercial kits is more convenient and logistically feasible. Our study provides evidence that antibody level is an important predictor of the clinical course in patients with breakthrough infection by showing a close relationship between low antibody levels and an unfavourable disease course such as fever, hypoxia, pneumonia, CRP elevation, and lymphopenia. Our data fill the gap of missing data on the impact of variable antibody responses to vaccination on the disease course of COVID-19."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 379,
+                    "ref_id": "BIBREF14",
+                    "start": 375,
+                    "text": "[15,"
+                },
+                {
+                    "end": 383,
+                    "ref_id": "BIBREF15",
+                    "start": 380,
+                    "text": "16]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "Booster vaccination increases humoral immunity to prevent hospitalisation or severe disease progression in patients with omicron variant infection as well as delta-variant All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in [15, 16] . We also observed higher antibody levels in vaccine-completed individuals with primary vaccination than in booster-vaccinated individuals (data not shown). However, booster vaccination was not associated with clinical protection in patients with breakthrough infections caused by the delta and omicron variants in this study. We postulate that this finding is attributable to the fact that the indicator of clinical protection used in this study could be sufficiently prevented by the level of antibodies that was mounted by primary vaccination. This study could not evaluate the occurrence of severe outcomes (e.g. mechanical ventilation or mortality) as indicators of clinical protection because of the specific baseline conditions of the included patients. Therefore, the effect of antibodies according to different titres on these outcomes should be evaluated in future studies involving other populations."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 151,
+                    "ref_id": "BIBREF16",
+                    "start": 147,
+                    "text": "[17,"
+                },
+                {
+                    "end": 155,
+                    "ref_id": "BIBREF17",
+                    "start": 152,
+                    "text": "18]"
+                },
+                {
+                    "end": 692,
+                    "ref_id": "BIBREF18",
+                    "start": 688,
+                    "text": "[19,"
+                },
+                {
+                    "end": 696,
+                    "ref_id": "BIBREF19",
+                    "start": 693,
+                    "text": "20]"
+                },
+                {
+                    "end": 1484,
+                    "ref_id": "BIBREF20",
+                    "start": 1480,
+                    "text": "[21,"
+                },
+                {
+                    "end": 1488,
+                    "ref_id": "BIBREF21",
+                    "start": 1485,
+                    "text": "22]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 267,
+                    "ref_id": null,
+                    "start": 258,
+                    "text": "(Table 1)"
+                },
+                {
+                    "end": 472,
+                    "ref_id": null,
+                    "start": 463,
+                    "text": "(Table 2)"
+                }
+            ],
+            "section": "Discussion",
+            "text": "Previous studies have reported that the omicron variant has weakened virulence, which in turn results in reduced severity even if infection occurs [17, 18] . We also found similar findings in omicron variant infections compared with delta variant infections (Table 1) . However, in breakthrough infections caused by delta and omicron variants, the variant type was not associated with the occurrence of specific signs observed in this study, except for pneumonia (Table 2) . We assume that our findings are owing to the reduced effectiveness of vaccines against omicron variants. Indeed, the omicron variant has multiple mutations that enable evasion of the vaccine-induced immune system [19, 20] We found differences in the viral kinetics among vaccinated patients with a variety of antibody levels. The viral load decline rate was positively correlated with antibody levels. In All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint other words, more rapid viral clearance was observed in patients with higher antibody levels than in those with lower antibody levels. These findings are in line with those of previous studies, which suggest that the host immune system determines viral clearance [21, 22] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "Although we did not evaluate the association of clinical courses and viral kinetics in this study owing to the limited number of participants who underwent PCR test 5-7 days after initial diagnosis, it is possible that rapid viral clearance contributes to the occurrence of specific signs observed in this study among patients with breakthrough infection. This hypothesis should be tested in future studies."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "Our study had several limitations. First, we could not exclude the effects of previous or current infections on antibody levels. However, none of the participants had a previous infection, although it relied on self-reporting. Furthermore, our findings were robust in a sensitivity analysis involving patients who tested antibody levels within 3 or 5 days of symptom onset or diagnosis. Second, since our study hospital has specific criteria for admission, which allowed only patients with mild to moderate severity to be admitted, we could not investigate the effects of antibody levels on outcomes such as moving to the severe phase (n=2) or death (n=0). Therefore, further studies involving a larger number of patients with a wide range of disease severity are warranted. Third, the diagnosis of pneumonia in this study was based on chest radiographic findings. Chest radiography is limited in its ability to detect subtle pneumonia. Furthermore, we did not routinely perform follow-up chest radiography if the initial test did not report abnormal findings and if the patient's condition did not change."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 537,
+                    "ref_id": null,
+                    "start": 520,
+                    "text": "March 12, 2022. ;"
+                },
+                {
+                    "end": 538,
+                    "ref_id": null,
+                    "start": 538,
+                    "text": ""
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "Therefore, the results associated with pneumonia should be cautiously interpreted. Fourth, we did not consider the type of vaccine (e.g. adenoviral vector-based, mRNA-based) when analysing antibody levels. Most previous studies have demonstrated the effectiveness of All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ;  https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint vaccines based on homologous vaccination data. However, the real-world population receives heterologous vaccines from different platforms for several reasons, such as the disruption of vaccine supply and vaccine-associated adverse events. Moreover, booster immunisation programs have increased the possibility of receiving different types of vaccines. In this regard, we did not classify the participants according to the type of vaccine but only vaccination status to reflect real-world population data."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "In conclusion, this study showed the significance of vaccine-induced antibody levels as a predictor of the clinical course of COVID-19 in patients with breakthrough infections caused by delta and omicron variants. Moreover, in our cohort, enhanced viral clearance was observed in vaccinated patients with higher antibody levels than in those with lower antibody levels. We highlight the need for concentrated efforts to monitor patients with SARS-CoV-2 infection who have conditions related to poor antibody response to vaccination (e.g. immunocompromised status) or waning immunity after vaccination (e.g. adenoviral vector-based vaccine) since they are more likely to undergo an unfavourable disease course."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests",
+            "text": "The authors declare that they have no competing interests."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding source",
+            "text": "This research received no specific grant from and funding agency, commercial or not-for-profit sectors."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding source",
+            "text": "All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in "
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments",
+            "text": "We would like to thank all of the nursing and laboratory staff as well as the physicians who supported this project. Finally, we give credit to all of the patients who took part in this study."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials",
+            "text": "The dataset supporting the conclusions of this article is included within Supplemental data (Raw data used in analysis)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials",
+            "text": "All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in perpetuity."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials",
+            "text": "preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Availability of data and materials",
+            "text": "The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Min",
+                "last": "Kim",
+                "middle": [
+                    "Hyung"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "\u00b6",
+                "last": "",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Yooju",
+                "last": "Nam",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Nak-Hoon",
+                "last": "",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Namwoo",
+                "last": "Heo",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Hanyang University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "222-1 Wangsimni-ro, Seongdong-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "04763",
+                        "settlement": "Seoul"
+                    }
+                },
+                "email": "",
+                "first": "Bongyoung",
+                "last": "Kim",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Eawha",
+                "last": "Kang",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Areum",
+                "last": "Shin",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Andrew",
+                "last": "Yang",
+                "middle": [
+                    "Jihoon"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Yoon",
+                "last": "Park",
+                "middle": [
+                    "Soo"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Heejung",
+                "last": "Kim",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Taeyoung",
+                "last": "Kyong",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Yonsei University College of Medicine",
+                    "laboratory": "",
+                    "location": {
+                        "addrLine": "363 Dongbaekjukjeon-daero, Giheung-gu",
+                        "country": "Republic of Korea",
+                        "postCode": "16995",
+                        "region": "Gyeonggi-do",
+                        "settlement": "Yongin-si"
+                    }
+                },
+                "email": "",
+                "first": "Yong",
+                "last": "Kim",
+                "middle": [
+                    "Chan"
+                ],
+                "suffix": ""
+            }
+        ],
+        "title": "Vaccine-induced antibody level predicts the clinical course of breakthrough infection of COVID-19 caused by delta and omicron variants: a prospective observational cohort study Running title: predictors of COVID-19's clinical course"
+    },
+    "paper_id": "27798179fd0f410df473acf55736886ac1a32cce",
     "ref_entries": {
         "FIGREF0": {
-            "text": "representing the clinical course. Relevant variables with a significance level of less than 0.1 through univariate logistic regression analysis or with a clinical significance were included in the multivariable model. The relationship between antibody levels and Ct values was confirmed using a generalised linear model. Statistical analyses were performed using SAS (version 9.4; SAS Institute) and R (version 4.1.1; R Foundation for Statistical Computing). Results A total of 187 patients were admitted to Yongin Severance Hospital between 11 December 2021 and 10 February 2022. Of these, 172 patients underwent tests for SARS-CoV-2 variant type assay. Results of the assay revealed that 79 patients were infected with the delta variant, 82 with the omicron variant, and seven with the undetermined type. There were no cases of reinfection. According to the inclusion criteria for analyses using antibody levels, 106 patients who underwent antibody testing within a defined period were selected from 111 vaccinated patients: 39 with delta variant infections and 67 with omicron variant infections (Figure 1A). Antibody levels were tested at a median of 4 days (IQR 2-6) of symptom onset or diagnosis, and variant-type assays were performed at 4 days (IQR 3-5) after the initial diagnosis (Figure 1B). Of the 161 patients who had the delta or omicron variant infection, 85 (53 %) were women, and the mean age was 54.5 (\u00b118.9) years. Patients with omicron variant infection were younger than those with delta variant infection (p=0.017). The proportion of female patients, distribution of body mass index, frequency of immunocompromised status, or CCI \u22653 were similar among patients with delta and omicron variant infections. Although patients with delta variant infection were more frequently asymptomatic at the time of diagnosis (p=0.01), thosewith an omicron variant infection had lower occurrence rates of pneumonia (p<0.001) andAll rights reserved. No reuse allowed without permission.",
             "latex": null,
+            "text": "representing the clinical course. Relevant variables with a significance level of less than 0.1 through univariate logistic regression analysis or with a clinical significance were included in the multivariable model. The relationship between antibody levels and Ct values was confirmed using a generalised linear model. Statistical analyses were performed using SAS (version 9.4; SAS Institute) and R (version 4.1.1; R Foundation for Statistical Computing). Results A total of 187 patients were admitted to Yongin Severance Hospital between 11 December 2021 and 10 February 2022. Of these, 172 patients underwent tests for SARS-CoV-2 variant type assay. Results of the assay revealed that 79 patients were infected with the delta variant, 82 with the omicron variant, and seven with the undetermined type. There were no cases of reinfection. According to the inclusion criteria for analyses using antibody levels, 106 patients who underwent antibody testing within a defined period were selected from 111 vaccinated patients: 39 with delta variant infections and 67 with omicron variant infections (Figure 1A). Antibody levels were tested at a median of 4 days (IQR 2-6) of symptom onset or diagnosis, and variant-type assays were performed at 4 days (IQR 3-5) after the initial diagnosis (Figure 1B). Of the 161 patients who had the delta or omicron variant infection, 85 (53 %) were women, and the mean age was 54.5 (\u00b118.9) years. Patients with omicron variant infection were younger than those with delta variant infection (p=0.017). The proportion of female patients, distribution of body mass index, frequency of immunocompromised status, or CCI \u22653 were similar among patients with delta and omicron variant infections. Although patients with delta variant infection were more frequently asymptomatic at the time of diagnosis (p=0.01), thosewith an omicron variant infection had lower occurrence rates of pneumonia (p<0.001) andAll rights reserved. No reuse allowed without permission.",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "). Comparisons of vaccinated and unvaccinated patients or booster-unvaccinated and booster-vaccinated patients in each variant type are shown in Supplementary Tables 6-9.All rights reserved. No reuse allowed without permission.",
             "latex": null,
+            "text": "). Comparisons of vaccinated and unvaccinated patients or booster-unvaccinated and booster-vaccinated patients in each variant type are shown in Supplementary Tables 6-9.All rights reserved. No reuse allowed without permission.",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "The multivariable model showed that an increase in antibody levels in vaccinated patients with delta or omicron variant infection was independently associated with a decrease in the occurrence of fever (adjusted odds ratio [aOR], 0.231; 95% confidence interval [CI], 0.105-0.511), hypoxia (aOR, 0.229; 95% CI, 0.075-0.703), CRP elevation (aOR, 0.524; 95% CI, 0.293-0.0.938), and lymphopenia (aOR, 0.568; 95% CI, 0.33-0.0.976) during hospitalisation",
             "latex": null,
+            "text": "The multivariable model showed that an increase in antibody levels in vaccinated patients with delta or omicron variant infection was independently associated with a decrease in the occurrence of fever (adjusted odds ratio [aOR], 0.231; 95% confidence interval [CI], 0.105-0.511), hypoxia (aOR, 0.229; 95% CI, 0.075-0.703), CRP elevation (aOR, 0.524; 95% CI, 0.293-0.0.938), and lymphopenia (aOR, 0.568; 95% CI, 0.33-0.0.976) during hospitalisation",
             "type": "figure"
         },
         "FIGREF3": {
-            "text": ". A decrease in vaccine-induced immunity against symptomatic omicron variant infection may offset the protective effect of the impaired virulence of the omicron variant. Our postulation is required to be corroborated by further studies that have an extended period of observation to determine the effect of variant type on the clinical course.",
             "latex": null,
+            "text": ". A decrease in vaccine-induced immunity against symptomatic omicron variant infection may offset the protective effect of the impaired virulence of the omicron variant. Our postulation is required to be corroborated by further studies that have an extended period of observation to determine the effect of variant type on the clinical course.",
             "type": "figure"
         },
         "FIGREF4": {
-            "text": "Study flow diagram A. Study flow of enrolment B. Severe acute respiratory syndrome coronavirus 2 diagnosis, antibody to spike protein test, variant type assay *Patients were diagnosed at a median of 2 days (interquartile range [IQR] 1-3) after symptom onset. \u00b6Antibody tests were performed at a median of 4 days (IQR 2-6) after symptom onset or diagnosis, whichever was earlier. \u2020 Variant-type assays were conducted at a median of 4 days (IQR 3-5) after diagnosis.",
             "latex": null,
+            "text": "Study flow diagram A. Study flow of enrolment B. Severe acute respiratory syndrome coronavirus 2 diagnosis, antibody to spike protein test, variant type assay *Patients were diagnosed at a median of 2 days (interquartile range [IQR] 1-3) after symptom onset. \u00b6Antibody tests were performed at a median of 4 days (IQR 2-6) after symptom onset or diagnosis, whichever was earlier. \u2020 Variant-type assays were conducted at a median of 4 days (IQR 3-5) after diagnosis.",
             "type": "figure"
         },
         "FIGREF5": {
-            "text": "Comparison of antibody levels between vaccinated patients with or without specific signs during hospitalisation This analysis included 106 patients with delta and omicron variant infections whose serum samples were collected within 7 days of symptom onset or diagnosis. Antibody levels are described as box plots of medians with interquartile ranges. BT, body temperature; SpO2, percutaneous oxygen saturation; w/o, without; CRP, C-reactive protein Association of antibody titres and Ct values Data from 33 patients, with Ct values measured 5-7 days after diagnosis, showed a positive correlation between antibody levels and Ct values (slope: 0.0004, p=0.022) All rights reserved. No reuse allowed without permission.",
             "latex": null,
+            "text": "Comparison of antibody levels between vaccinated patients with or without specific signs during hospitalisation This analysis included 106 patients with delta and omicron variant infections whose serum samples were collected within 7 days of symptom onset or diagnosis. Antibody levels are described as box plots of medians with interquartile ranges. BT, body temperature; SpO2, percutaneous oxygen saturation; w/o, without; CRP, C-reactive protein Association of antibody titres and Ct values Data from 33 patients, with Ct values measured 5-7 days after diagnosis, showed a positive correlation between antibody levels and Ct values (slope: 0.0004, p=0.022) All rights reserved. No reuse allowed without permission.",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "confirmed delta or omicron variant infections were included in the analysis.This study was approved by the Institutional Review Board of Yonsei University Health SystemClinical Trial Centre, and the study protocol adhered to the Declaration of Helsinki guidelines.Written informed consent was obtained from all the participants. (Approval number: 9-2021-0156, approved on 18 th November 2021)",
             "latex": null,
+            "text": "confirmed delta or omicron variant infections were included in the analysis.This study was approved by the Institutional Review Board of Yonsei University Health SystemClinical Trial Centre, and the study protocol adhered to the Declaration of Helsinki guidelines.Written informed consent was obtained from all the participants. (Approval number: 9-2021-0156, approved on 18 th November 2021)",
             "type": "table"
         },
         "TABREF3": {
-            "text": "The copyright holder for this this version postedMarch 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint Table 1. Clinical characteristics of patients with SARS-CoV-2 infection according to variant type Association of antibody titres and variables with clinical courses during hospitalisation in vaccinated patients with breakthrough infections caused by delta and omicron variants Multivariable logistic regression analysis was performed to determine the effect of antibody levels on the clinical course of breakthrough infections. Fever, hypoxia, pneumonia, CRP elevation, or lymphopenia were selected as variables representing the clinical course. Confounding factors were included in each multivariable model, as described below. Antibody titres were log10 transformed for analyses. Abbreviations: OR, odds ratio; CI, confidence interval; BT, body temperature; SpO2, percutaneous oxygen saturation; CRP, C-reactive protein; CCI, Charlson comorbidity index. a Multivariable analysis adjusted for age and sex. b Multivariable analysis adjusted for age, sex, immunocompromised status, and variant type. c Multivariable analysis adjusted for age, sex, immunocompromised status, CCI, and variant type \u2021 d Multivariable analysis adjusted for sex \u2021 and variant type. f Multivariable analysis adjusted for sex, CCI, and variant type.23 \u2021 In addition to antibody titre, the omicron variant was associated with a decrease in the occurrence of pneumonia (OR, 0.150; 95% CI, 0.050-0.448); females were associated with a decrease in the occurrence of CRP elevation (OR, 0.431; 95% CI, 0.194-0.955).",
             "latex": null,
+            "text": "The copyright holder for this this version postedMarch 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint Table 1. Clinical characteristics of patients with SARS-CoV-2 infection according to variant type Association of antibody titres and variables with clinical courses during hospitalisation in vaccinated patients with breakthrough infections caused by delta and omicron variants Multivariable logistic regression analysis was performed to determine the effect of antibody levels on the clinical course of breakthrough infections. Fever, hypoxia, pneumonia, CRP elevation, or lymphopenia were selected as variables representing the clinical course. Confounding factors were included in each multivariable model, as described below. Antibody titres were log10 transformed for analyses. Abbreviations: OR, odds ratio; CI, confidence interval; BT, body temperature; SpO2, percutaneous oxygen saturation; CRP, C-reactive protein; CCI, Charlson comorbidity index. a Multivariable analysis adjusted for age and sex. b Multivariable analysis adjusted for age, sex, immunocompromised status, and variant type. c Multivariable analysis adjusted for age, sex, immunocompromised status, CCI, and variant type \u2021 d Multivariable analysis adjusted for sex \u2021 and variant type. f Multivariable analysis adjusted for sex, CCI, and variant type.23 \u2021 In addition to antibody titre, the omicron variant was associated with a decrease in the occurrence of pneumonia (OR, 0.150; 95% CI, 0.050-0.448); females were associated with a decrease in the occurrence of CRP elevation (OR, 0.431; 95% CI, 0.194-0.955).",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint All rights reserved. No reuse allowed without permission. perpetuity. preprint (which was not certified by peer review) is the author/funder, who has granted medRxiv a license to display the preprint in The copyright holder for this this version posted March 12, 2022. ; https://doi.org/10.1101/2022.03.09.22272171 doi: medRxiv preprint",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "annex"
-        }
-    ]
+    }
 }

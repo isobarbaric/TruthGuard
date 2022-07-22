@@ -1,2310 +1,2310 @@
 {
-    "paper_id": "27787733f48ada485cf995839f1147c3e8324bab",
-    "metadata": {
-        "title": "Autonomous Guided Vehicles for Smart Industries -The State-of-the-Art and Research Challenges",
-        "authors": [
-            {
-                "first": "Rafal",
-                "middle": [],
-                "last": "Cupek",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Silesian University of Technology",
-                    "location": {
-                        "settlement": "Gliwice",
-                        "country": "Poland"
-                    }
-                },
-                "email": "rcupek@polsl.pl"
-            },
-            {
-                "first": "Marek",
-                "middle": [],
-                "last": "Drewniak",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "AIUT Sp. z o.o. (Ltd.)",
-                    "institution": "",
-                    "location": {
-                        "settlement": "Gliwice",
-                        "country": "Poland"
-                    }
-                },
-                "email": "mdrewniak@aiut.com.pl"
-            },
-            {
-                "first": "Marcin",
-                "middle": [],
-                "last": "Fojcik",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "University of Applied Sciences",
-                    "location": {
-                        "settlement": "Bergen",
-                        "country": "Norway"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Erik",
-                "middle": [],
-                "last": "Kyrkjeb\u00f8",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "University of Applied Sciences",
-                    "location": {
-                        "settlement": "Bergen",
-                        "country": "Norway"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Jerry",
-                "middle": [],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": "jerrylin@ieee.org"
-            },
-            {
-                "first": "Chun-Wei",
-                "middle": [],
-                "last": "Lin",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "University of Applied Sciences",
-                    "location": {
-                        "settlement": "Bergen",
-                        "country": "Norway"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Dariusz",
-                "middle": [],
-                "last": "Mrozek",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Silesian University of Technology",
-                    "location": {
-                        "settlement": "Gliwice",
-                        "country": "Poland"
-                    }
-                },
-                "email": "dariusz.mrozek@polsl.pl"
-            },
-            {
-                "first": "Knut",
-                "middle": [],
-                "last": "\u00d8vsthus",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "University of Applied Sciences",
-                    "location": {
-                        "settlement": "Bergen",
-                        "country": "Norway"
-                    }
-                },
-                "email": "knut.ovsthus@hvl.no"
-            },
-            {
-                "first": "Adam",
-                "middle": [],
-                "last": "Ziebinski",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Silesian University of Technology",
-                    "location": {
-                        "settlement": "Gliwice",
-                        "country": "Poland"
-                    }
-                },
-                "email": "aziebinski@polsl.pl"
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "Autonomous Guided Vehicles (AGVs) are considered to be one of the critical enabling technologies for smart manufacturing. This paper focus on the application of AGVs in new generations of manufacturing systems including: (i) the fusion between AGVs and collaborative robots; (ii) the application of machine to machine communication for integrating AGVs with the production environment and (iii) AI-driven analytics that is focused on the data that is produced and consumed by AGV. This work aims to evoke discussion and elucidate the current research opportunities, highlight the relationship between different subareas and suggest possible courses of action.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Autonomous Guided Vehicles (AGVs) are considered to be one of the critical enabling technologies for smart manufacturing. This paper focus on the application of AGVs in new generations of manufacturing systems including: (i) the fusion between AGVs and collaborative robots; (ii) the application of machine to machine communication for integrating AGVs with the production environment and (iii) AI-driven analytics that is focused on the data that is produced and consumed by AGV. This work aims to evoke discussion and elucidate the current research opportunities, highlight the relationship between different subareas and suggest possible courses of action."
         },
         {
-            "text": "performed during the successive steps in the production chain. This means that the production activities cannot be centrally planned but have to be optimised locally in order to handle the ongoing production tasks, the available materials, the production equipment and the technologies. The new generation of manufacturing execution systems has to support the autonomy and distribution of the decision-making processes [2] .",
             "cite_spans": [
                 {
-                    "start": 419,
                     "end": 422,
-                    "text": "[2]",
-                    "ref_id": "BIBREF1"
+                    "ref_id": "BIBREF1",
+                    "start": 419,
+                    "text": "[2]"
                 }
             ],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "performed during the successive steps in the production chain. This means that the production activities cannot be centrally planned but have to be optimised locally in order to handle the ongoing production tasks, the available materials, the production equipment and the technologies. The new generation of manufacturing execution systems has to support the autonomy and distribution of the decision-making processes [2] ."
         },
         {
-            "text": "The increasing use of AGV in manufacturing has far-reaching consequences for the industrial communication systems. Unlike for other machines, the use of wired networks is not possible in the case of AGV, which have to move through large internal and external areas. On the other hand, production support algorithms based on machine learning require huge volume of data provided by AGV. In this way, a communication with AGV, becomes convergent rather with IoT than with the classical industrial communication. In this context, artificial intelligence that is based on supervised machine learning can be used to optimise the internal logistical tasks that are performed by AGV. This requires a multi-criteria optimisation that takes into account the multiple goals that are connected with the requirements to move materials and semi-products. This process must be performed in a distributed, dynamic and autonomous way [3] . Moreover, AGV also have to communicate with the production stands, Manufacturing Execution Systems (MES) and other AGV. For this reason, the machine learning approach has to be combined with Machine-to-Machine (M2M) communication. This requires, on the one hand, adjusting the information that is collected from the production systems into a form that is suitable for automatic processing, which can be performed by using artificial intelligence algorithms. The results that are produced by these algorithms have to be converted into a form that can be exchanged with and used by the production systems [4] . In turn, the precise information that is owned by AGV includes important parameters about the materials, semi-finished products and finished products that are being transported. Such data can be beneficial for the Manufacturing Execution System (MES) and for the Business Intelligence (BI) solutions that support the long-term optimisation of the production processes.",
             "cite_spans": [
                 {
-                    "start": 918,
                     "end": 921,
-                    "text": "[3]",
-                    "ref_id": "BIBREF2"
+                    "ref_id": "BIBREF2",
+                    "start": 918,
+                    "text": "[3]"
                 },
                 {
-                    "start": 1527,
                     "end": 1530,
-                    "text": "[4]",
-                    "ref_id": "BIBREF3"
+                    "ref_id": "BIBREF3",
+                    "start": 1527,
+                    "text": "[4]"
                 }
             ],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "The increasing use of AGV in manufacturing has far-reaching consequences for the industrial communication systems. Unlike for other machines, the use of wired networks is not possible in the case of AGV, which have to move through large internal and external areas. On the other hand, production support algorithms based on machine learning require huge volume of data provided by AGV. In this way, a communication with AGV, becomes convergent rather with IoT than with the classical industrial communication. In this context, artificial intelligence that is based on supervised machine learning can be used to optimise the internal logistical tasks that are performed by AGV. This requires a multi-criteria optimisation that takes into account the multiple goals that are connected with the requirements to move materials and semi-products. This process must be performed in a distributed, dynamic and autonomous way [3] . Moreover, AGV also have to communicate with the production stands, Manufacturing Execution Systems (MES) and other AGV. For this reason, the machine learning approach has to be combined with Machine-to-Machine (M2M) communication. This requires, on the one hand, adjusting the information that is collected from the production systems into a form that is suitable for automatic processing, which can be performed by using artificial intelligence algorithms. The results that are produced by these algorithms have to be converted into a form that can be exchanged with and used by the production systems [4] . In turn, the precise information that is owned by AGV includes important parameters about the materials, semi-finished products and finished products that are being transported. Such data can be beneficial for the Manufacturing Execution System (MES) and for the Business Intelligence (BI) solutions that support the long-term optimisation of the production processes."
         },
         {
-            "text": "The goal of this paper is to summarise the existing research results and to show the most significant challenges related to the effective use of AGV, which are considered to be a part of a new generation of the manufacturing ecosystem. The paper is organised as follows: the second section presents the research challenges related to the fusion between AGV and collaborative robots. The research issues associated with the application of machine to machine communication for integrating AGV with the production environment are presented in section three. The fourth section summarises the state of the art in AI-driven analytics that are focused on the data that is produced and consumed by AGV. The conclusions are presented in Sect. 5.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "The goal of this paper is to summarise the existing research results and to show the most significant challenges related to the effective use of AGV, which are considered to be a part of a new generation of the manufacturing ecosystem. The paper is organised as follows: the second section presents the research challenges related to the fusion between AGV and collaborative robots. The research issues associated with the application of machine to machine communication for integrating AGV with the production environment are presented in section three. The fourth section summarises the state of the art in AI-driven analytics that are focused on the data that is produced and consumed by AGV. The conclusions are presented in Sect. 5."
         },
         {
-            "text": "In small series manufacturing, the production tools have to be adjusted to specific products and the process organisation must follow these changes in order to avoid or reduce any losses that would result from non-productive time gaps [5] . The logistics Autonomous Guided Vehicles for Smart Industries 331",
             "cite_spans": [
                 {
-                    "start": 235,
                     "end": 238,
-                    "text": "[5]",
-                    "ref_id": "BIBREF4"
+                    "ref_id": "BIBREF4",
+                    "start": 235,
+                    "text": "[5]"
                 }
             ],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "In small series manufacturing, the production tools have to be adjusted to specific products and the process organisation must follow these changes in order to avoid or reduce any losses that would result from non-productive time gaps [5] . The logistics Autonomous Guided Vehicles for Smart Industries 331"
         }
     ],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "The growing popularity of Autonomous Guided Vehicles (AGV), which are used in manufacturing, has not only been the result of their technical features but also from their ability to cooperate. Cooperative-based internal logistics permits increased production flexibility. Because AGV are in the executive part of the internal logistics, their cooperation with other information systems and manufacturing equipment is particularly important. AGV have become a critical enabling technology for agile production systems. Modern production systems are characterised by a demand for a high degree of flexibility in order to cope with the frequent changes that result from orders that are changed by customers, low material buffers, the agile production technologies that are performed by robotised production stations and the many variants of production technology that can be used [1] . All of the factors mentioned above require the production process to be supported online by highly advanced information services, which are tasks must be performed in a distributed, dynamic and autonomous way. AGV are key components that are necessary for developing flexible and efficient internal transport systems [6] .",
-            "cite_spans": [
-                {
-                    "start": 876,
-                    "end": 879,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 1199,
-                    "end": 1202,
-                    "text": "[6]",
-                    "ref_id": "BIBREF5"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Traditional industrial robot systems usually perform dedicated tasks on specific assembly stations and are often isolated from other stations and human operators using physical barriers such as fences. Introducing safe, collaborative robots [7] into production systems (that also work together with human operators) opens up the possibility of using robots for a wider variety of tasks and permits the physical barriers to the rest of the production processes to be removed. Such an option enables robot automation to be introduced more widely into factoriesbut these robots are still usually dedicated to specific assembly stations. Combining collaborative robots [8, 9] with AGV ( Fig. 1 ) merges the dynamic logistic benefits of AGV with the flexibility of collaborative robots to enable a more extensive use between many assembly stations. This could also increase the efficiency of the production staff. However, the autonomous operation of AGV requires that several issues have to be resolved. The integration of an AGV, a collaborative robot and various sensors requires that data fusion methods [10] be used to achieve a docking functionality and to recalibrate the AGV and robot to that particular assembly station.",
-            "cite_spans": [
-                {
-                    "start": 241,
-                    "end": 244,
-                    "text": "[7]",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 665,
-                    "end": 668,
-                    "text": "[8,",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 669,
-                    "end": 671,
-                    "text": "9]",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 1103,
-                    "end": 1107,
-                    "text": "[10]",
-                    "ref_id": "BIBREF10"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 683,
-                    "end": 689,
-                    "text": "Fig. 1",
-                    "ref_id": "FIGREF0"
-                }
-            ],
-            "section": "Introduction"
-        },
-        {
-            "text": "Virtual sensing [11] , which is based on computational models and is widely used to optimise an operation or product quality in industry, is a non-invasive method that is used to measure the parameters in dynamic systems. Monitoring an industrial process using data fusion and virtual sensing techniques [12] supports developing methods that permit the changes in the area of production lines to be detected. The use of fusion techniques allows more information about the state of a system to be obtained from several sensors. Multi-sensor data fusion [7] permits the working status of a process and machinery to be acquired by integrating sensors into manufacturing systems. The data fusion from AGV, robots, assembly stations and production monitoring system using virtual sensing can enable new methods and algorithms to be created in order to optimise the short series production process in industry.",
-            "cite_spans": [
-                {
-                    "start": 16,
-                    "end": 20,
-                    "text": "[11]",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 304,
-                    "end": 308,
-                    "text": "[12]",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 552,
-                    "end": 555,
-                    "text": "[7]",
-                    "ref_id": "BIBREF6"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "The first main challenge is to obtain the fusion of the data between AGV and the collaborative robots, which could be achieved by developing a distributed computer system architecture for integrating AGV [13] , collaborative robots [9] and the required sensors [14] . A navigation system [15] supports the movements of AGV between assembly stations and helps to position an AGV for docking to an assembly station. Using distance sensors enables the docking precision to be increased. To determine the accuracy of the measurements [16, 17] , the selected sensors must be tested (camera, lidar, gyroscope, accelerometer, optical encoders). A vision-based recognition system further confirms that an AGV has arrived at the correct production station. Using methods that are dedicated to sensor fusion allows algorithms to be developed in order to increase the accuracy of the distance measurements [18] . The proposed methods also enable algorithms to be developed that allow precise docking to the assembly station.",
-            "cite_spans": [
-                {
-                    "start": 204,
-                    "end": 208,
-                    "text": "[13]",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 232,
-                    "end": 235,
-                    "text": "[9]",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 261,
-                    "end": 265,
-                    "text": "[14]",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 288,
-                    "end": 292,
-                    "text": "[15]",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 530,
-                    "end": 534,
-                    "text": "[16,",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 535,
-                    "end": 538,
-                    "text": "17]",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 895,
-                    "end": 899,
-                    "text": "[18]",
-                    "ref_id": "BIBREF18"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Distance sensors (e.g. inclinometers, cameras, including Time-of-Flight (ToF) cameras, optical encoders) [14, 19, 20] can also be used to increase the recalibration of a collaborative robot to the mounting site on the assembly station. Using recognition methods based on a vision system increases the precision of the measurements. This approach allows the information covered by distance sensors to be combined with the vision system [18] to develop an algorithm that increases the accuracy of the distance measurements. The algorithms that are obtained allow the robot's displacement regarding the reference coordinate system at the mounting place at the assembly station to be calculated. In addition, robot-based calibration can be used to set the reference points for each axis. The displacement of the robot arm to the reference points at the assembly station and the use of precise force measurement on selected axes enables a more accurate determination of the current position of a collaborative robot.",
-            "cite_spans": [
-                {
-                    "start": 105,
-                    "end": 109,
-                    "text": "[14,",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 110,
-                    "end": 113,
-                    "text": "19,",
-                    "ref_id": "BIBREF19"
-                },
-                {
-                    "start": 114,
-                    "end": 117,
-                    "text": "20]",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 435,
-                    "end": 439,
-                    "text": "[18]",
-                    "ref_id": "BIBREF18"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "The next main challenge is to develop methods to support the cooperation between a collaborative robot and the production staff. One of the major challenges with physical Human-Robot Interaction (pHRI) is how to handle the possible or perceived risk of human-robot collisions [8] . Human motion and intention estimates that based on sensors [9] can ensure that the human states are continuously monitored and the human motion data together with the force/torque (FT) measurements from a collaborative robot can serve as inputs to a collision-handling (CH) system. A CH system can continuously monitor and assess the risk of unwanted interactions and collisions and implement the necessary reaction mechanisms, e.g. lower the speed of the robot, switch to a gravity compensation and compliance mode or to adhere to an admittance reflex strategy to drive away from the unwanted contact force [8] . A CH system should be implemented at the lowest control level in order to ensure that handling collisions takes priority over task execution. A collaborative robot control scheme for pHRI for robots that are mounted on AGV allows an overall system architecture to be built that takes into account the changes in roles between a human and robot in the interaction (leaderfollower, collaboration) [21, 22] and how to dynamically share the tasks in any humanrobot cooperative load transport [23] . The overall system architecture should also allow the seamless, shared cooperative pHRI control for a wide range of possible applications.",
-            "cite_spans": [
-                {
-                    "start": 276,
-                    "end": 279,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 341,
-                    "end": 344,
-                    "text": "[9]",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 890,
-                    "end": 893,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 1291,
-                    "end": 1295,
-                    "text": "[21,",
-                    "ref_id": "BIBREF21"
-                },
-                {
-                    "start": 1296,
-                    "end": 1299,
-                    "text": "22]",
-                    "ref_id": "BIBREF22"
-                },
-                {
-                    "start": 1384,
-                    "end": 1388,
-                    "text": "[23]",
-                    "ref_id": "BIBREF23"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Although the approaches to cooperative pHRI control can be independent of any predefined trajectories or paths for the robot [24] , the available information on the task goal should be exploited in the overall pHRI control scheme. This can be accomplished by dividing tasks into sub-activities that can serve as feedforward reference inputs to the control system and that can try to make the most of the flexibility, knowledge and sensory skills of a human and the efficiency, strength, endurance and accuracy of a robot. Information on the task goal can also serve as an essential parameter for when a human or a robot should take the lead in a cooperative pHRI operation [22] and will be dependent on the particular pHRI application.",
-            "cite_spans": [
-                {
-                    "start": 125,
-                    "end": 129,
-                    "text": "[24]",
-                    "ref_id": "BIBREF24"
-                },
-                {
-                    "start": 673,
-                    "end": 677,
-                    "text": "[22]",
-                    "ref_id": "BIBREF22"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "The overall physical interaction between humans and robots is a multi-dimensional dynamic control problem that is hard to define explicitly using rigid state-space models that have fixed parameters. Therefore, learning strategies for pHRI are now emerging as an essential research challenge and many learning and adaptation approaches are currently being proposed. They are primarily focused on two aspects of pHRIadaptive impedance control, and learning the desired trajectories [8] . Adaptive impedance controllers are focused on learning or adapting to the impedance gains and feedforward torques of the controller to improve the robot capabilities during an interaction. Some recent results have used neural networks or biomimetic approaches to learning [25] . Learning the desired trajectories for a pHRI has, in recent years, been primarily focused on using hidden Markov models (HMM) to find the appropriate motion patterns for human-robot cooperation. A novel approach for a mobile bi-manual platform is taken in [26] , where semantic task structures are learned during a joint task execution and where the semantic labels on the task segments are given by the human partner using speech recognition.",
-            "cite_spans": [
-                {
-                    "start": 480,
-                    "end": 483,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 758,
-                    "end": 762,
-                    "text": "[25]",
-                    "ref_id": "BIBREF25"
-                },
-                {
-                    "start": 1021,
-                    "end": 1025,
-                    "text": "[26]",
-                    "ref_id": "BIBREF26"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Machine to Machine (M2M) communication in the new generation of manufacturing systems can be considered on three levels: (i) the low-level communication protocols that support a reliable and time determined exchange of information between devices and between a device and production system [27, 28] in the case of AGV, low-level wireless communication protocols must take into account the movement of an AGV, which might result in a high degree of electromagnetic interference and also the need to maintain communication despite its moving between different network segments;",
-            "cite_spans": [
-                {
-                    "start": 290,
-                    "end": 294,
-                    "text": "[27,",
-                    "ref_id": "BIBREF27"
-                },
-                {
-                    "start": 295,
-                    "end": 298,
-                    "text": "28]",
-                    "ref_id": "BIBREF28"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "(ii) the communication middleware, which based on the lower-level networks that support independent logical communication channels between an AGV and any cooperating devices or systems including syntax based data format conversion and information exchange management such as MQTT, CoAP [29] , OMADM, LwM2M, XMPP [30] and OPC UA [31] in the case of AGV, the communication middleware must support a high degree of flexibility, automatic reconfiguration and different types of information modes including cyclic real-time communication with control systems, event-based communication between the control subsystems and also batch communication with the management systems that are focused on aggregated data exchange and (iii) the ontology that describes the information models [4, 32] in the case of AGV, the ontology should facilitate and ensure unambiguous information exchange with other AGV, different production stations as well as with the production support systems such as an MES (Manufacturing Execution System). Below, we illustrate the scope of the M2M issues starting with the ontology domain and ending with wireless communication.",
-            "cite_spans": [
-                {
-                    "start": 286,
-                    "end": 290,
-                    "text": "[29]",
-                    "ref_id": "BIBREF29"
-                },
-                {
-                    "start": 312,
-                    "end": 316,
-                    "text": "[30]",
-                    "ref_id": "BIBREF30"
-                },
-                {
-                    "start": 328,
-                    "end": 332,
-                    "text": "[31]",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 775,
-                    "end": 778,
-                    "text": "[4,",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 779,
-                    "end": 782,
-                    "text": "32]",
-                    "ref_id": "BIBREF32"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "The ontology that is used for AGV has to correspond with the information models that are used in the new generation of manufacturing systems. The ongoing changes that are called the Fourth Industrial Revolution are the primary interest of manufacturing companies, production technologies suppliers and the advisory groups that are supported by government agencies. The latter is attempting to structure the changes to harmonise the introduction of modern ICT technologies in manufacturing on a global scale. Examples of such global organisations are the German Platform Industrie 4.0; the NIST (National Institute of Standards and Technology), which is similar to the US Department of Commerce or the SMLC (Smart Manufacturing Leadership Coalition), which operates in South Korea [33] . All these solutions are characterized by increased autonomy and a departure from the centralized hierarchical system to the horizontal cooperative model. Since, detailed analysis is beyond the scope of this work, the authors discuss only one selected features of one, but commonly recognized approach the Reference Architecture Model for Industry 4.0 RAMI4.0 [34] .",
-            "cite_spans": [
-                {
-                    "start": 780,
-                    "end": 784,
-                    "text": "[33]",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 1146,
-                    "end": 1150,
-                    "text": "[34]",
-                    "ref_id": "BIBREF34"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "The vertical axis of RAMI4.0 (Fig. 2) organises the system structure and the functions of the individual layers, which are from the bottom up (i) the Asset layer, which represents reality, i.e. the asset that exists in the physical world; (ii) the Integration layer, which represents the transition from the physical world to the information world; (iii) the Communication layer, which describes the Industry 4.0-compliant access to the information and functions of a connected asset by other assets; (iv) the Information layer, which describes the data that is used, generated or modified by the technical functionality of an asset; (v) the Functional layer, which describes the (logical) functions of an asset (technical functionality) connected with/associated with its role in the Industry 4.0 system and (vi) the Business layer, which describes the commercial view including the general organisational boundaries.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 29,
-                    "end": 37,
-                    "text": "(Fig. 2)",
-                    "ref_id": "FIGREF1"
-                }
-            ],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "RAMI4.0 defines the Administration Shell (Fig. 3) , which is the glue that enables the different physical entities that are used for production, including the equipment, materials, production technology and related software for controlling production and the human staff that is involved in the production to be joined. A Communication Layer that is based on a service-oriented architecture (SOA) is responsible for providing the seamless connection between the entities while the Information Layer is responsible for [34] supporting the meta-information that enables the information to be interpreted correctly by taking the required presentation context into account. The Administration Shell can allow access for both the fundamental elements of the system and for the highly complex aggregates that consist of many components. In the case of AGV, we can indicate two levels for the application of the Administration Shellone for a single vehicle that is responsible for executing the transportation tasks and the second for a fleet of AGV that offers holistic transportation services. Moreover, for each level, the information model must be presented according to its context of use, which means that multiple Administration Shells have to be implemented on each aggregation level. The Administration Shell should be implemented by communication middleware such as OPC UA. The OPC UA is an object-based and service-oriented communication middleware that not only supports the exchange of information but also organises the information models [35] . It is based on the client-server communication principle. Secure communication uses a Secure Channel. The Service Set is established by an OPC client, which is then managed by the services that are collected in the Session Service Set. The address space of the OPC UA server exposes both the data and the relevant information models that can be browsed by any connected client.",
-            "cite_spans": [
-                {
-                    "start": 518,
-                    "end": 522,
-                    "text": "[34]",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 1546,
-                    "end": 1550,
-                    "text": "[35]",
-                    "ref_id": "BIBREF35"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 41,
-                    "end": 49,
-                    "text": "(Fig. 3)",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "OPC UA is also useful as a modelling tool that can be used in accordance with other standards that have been prepared by organisations such as W3C, ISA, OMAC, PLCopen, VDMA and others. Such an approach has resulted in several domain-specific information models that have been created under OPC UA, which are dedicated to a given type of application. In the context of AGV, two such models seem to be particularly valuable -(1) the OPC Foundation and AutomationML Companion Specification \"AutomationML for OPC UA\" [36] , which can be used for a technical description of an AGV and its components and (2) \"OPC UA for ISA-95 Common Object Model\" [37] , which is more relevant for communication with an MES. The address space of the OPC UA server can be browsed by any OPC UA clients that are connected. A reference mechanism is used to express the dependencies between the parts of the model. References link OPC objects with their type definition, other objects and the variables that are responsible for the physical data representation. The data types define the interpretation of the values of variables, which are also connected by references. The types of all of the references are known to clients and therefore the kind of relationship between the connected nodes can be easily determined. The number of [34] references between two particular nodes is not limited, so different dependencies can be expressed in one model. Clients can use the browsing services to discover all of the data items and model-based types of information about the items that are managed by the OPC UA server.",
-            "cite_spans": [
-                {
-                    "start": 513,
-                    "end": 517,
-                    "text": "[36]",
-                    "ref_id": null
-                },
-                {
-                    "start": 643,
-                    "end": 647,
-                    "text": "[37]",
-                    "ref_id": "BIBREF37"
-                },
-                {
-                    "start": 1309,
-                    "end": 1313,
-                    "text": "[34]",
-                    "ref_id": "BIBREF34"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "A Data Access mechanism supports effective communication between OPC UA servers and clients. Each OPC UA client defines a set of subscriptions for the selected OPC UA servers, which are then performed as parts of individual sessions. The number of Monitored Items for each subscription is agreed upon between the client and the server. These mechanisms enable clients to select the required data. In this model, a client subscribes to variables with a given Sampling Interval [ms] according to which the OPC UA server only sends new information to the client when there is a change in the source of information, which is checked cyclically with the frequency that is defined by the sampling interval. The information is bound with its quality status and two timestampsone from the source and the second from the server. Data transfers are optimised by grouping them within the sessions for efficiency [38] .",
-            "cite_spans": [
-                {
-                    "start": 901,
-                    "end": 905,
-                    "text": "[38]",
-                    "ref_id": "BIBREF38"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "The OPC Historical Access (HA) provides an interface with a historical archive that is connected with/associated with a given Object node and can be used by various applications such as the HMI, Report Generation, Analysis etc. The data that is provided by the historical interface consists of historical records or calculated values such as the min, max, average etc. A Client can read or annotate the historical data. Because OPC UA is only a communication interface, the historical data should be stored in an external database. Both Data Access and Historical Access communication modes use a common memory model. Each client can freely select the information in the server's address space and request access to the data under the requirements that they have defined. A common memory model does not support the integrity of the information between clients. In cases in which horizontal data integrity is essential, an Event-based communication Alarms & Events mechanism should be used. In Eventbased communication, all subscribed clients receive precisely the same messages about any state changes of the Object that was selected for the subscription.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "The physical connection with AGV has to be provided by Wireless Sensors and Actuators Networks (WSAN). WSAN consist of interconnected sensors and actuators that collaborate in order to monitor and control a system. The sensors measure the physical quantities and report this to the actuators, which then act on them. Currently, WSAN design generally uses a sink to collect and process the collected data and to send commands to the actuators. A WSAN handles network functions such as routing and scheduling medium access. The increased application of WSAN wireless technologies in industry has given rise to a plethora of protocol designs [39] . However, due to the added delay as the data transmits through the sink, future network design will include peer-to-peer communication between the sensor nodes and actuator nodes. This will be discussed further below.",
-            "cite_spans": [
-                {
-                    "start": 639,
-                    "end": 643,
-                    "text": "[39]",
-                    "ref_id": "BIBREF39"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "Transmitting through sinks creates challenges. Current industrial sensor networks (that also include WSAN) face a challenge due to the limited interoperability between different systems. One option is to relay the sensor data (using a sink solution) between the stovepipe solutions. Three challenges emerge. First, since the two solutions are disjoint and both offer a similar functionality, there is a duplication of functionality. In addition to the added cost, this solution also adds a delay as the data must be relayed through interconnection points. The relay point is located on the edge of the network, thus creating an excessive delay compared to a peer-to-peer connection. Second, the main challenge facing the network designer is ensuring the predictable maximum delay end-to-end. Interconnecting two disjoint technologies in which each separate network segment operates independently from each other obstructs such guarantees. Furthermore, since each stovepipe solution resides in disjoint domains and operates in isolation, it is not possible to establish an optimal path. Third, each separate network segment (stovepipe) has its own management system, which means that no coherent management can be developed. The only viable solution is to transform the current disjoint technologies into a common infrastructure similar to the transformation that occurred in the telecom industry in the 1990s.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "Due to the co-location of the sensors and the controllers on an autonomous unit, peer-to-peer communication between the units is preferable. Transmitting data through a sink delays the data too much. In addition, this solution makes the autonomous unit dependent on the infrastructure. Communication between an autonomous unit and fixed infrastructure requires special attention because the units detach from an access point (or base station) and re-attach to a new location (or station). Layer 3 technologies (IP) offer solutions for moving units, but further investigations/research is required to understand its implications on the delay as well as its robustness. Moreover, security will be an issue as both the de-detachment and re-attachment of the unit must follow strict security procedures. These procedures are likely to add a delay.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "Based on reconfigurable I/Os and communication channels a real-time simulator can usually be easily connected to the practical relays from different vendors. Real-time simulators are used to validate the hardware-in-the-loop (HIL), develop algorithms for adaptive protection, design system schemes for integrity protection and perform remedial action schemes [40] .",
-            "cite_spans": [
-                {
-                    "start": 359,
-                    "end": 363,
-                    "text": "[40]",
-                    "ref_id": "BIBREF40"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment"
-        },
-        {
-            "text": "AI-driven analytics is one of the domains that plays a significant role in maintaining a fleet of AGV and a production cycle. These analytics cover the development and use of ML algorithms to analyse the behaviour of AGV and to detect any anomalies, possible problems or failures. Machine learning provides many algorithms that fall into two main classes: (i) supervisedwhere information on the occurrence of faults is present in the training data set and (ii) unsupervisedwhere the process information is available, but no maintenance-related data exists. The supervised approaches [41] are divided into (i) classification modelsif the categorical labels are predicted and (ii) regression modelsif the results are continuous values. Classification and regression may need to be preceded by a relevance analysis, which attempts to identify the attributes that are significantly relevant to the classification and regression processes [42] . Supervised learning is successfully used in the area of predictive maintenance to classify faults by building fault detectors. In the literature, these detectors rely on various AI techniques such as Artificial Neural Networks [43] , k-Nearest Neighbours, Support Vector Machines [44] , Bayesian networks [45] or Principle Component Analysis [46] . Unsupervised learning techniques primarily work based on algorithms that detect outliers. Outliers can be detected using statistical tests that assume a distribution or probability model for the data or by using distance measures in which objects that are remote from any other cluster are considered to be outliers. Building models that do not require labelled data is possible because of techniques such as auto-encoders, Deep Belief Networks or statistical analysis [47] .",
-            "cite_spans": [
-                {
-                    "start": 583,
-                    "end": 587,
-                    "text": "[41]",
-                    "ref_id": "BIBREF41"
-                },
-                {
-                    "start": 934,
-                    "end": 938,
-                    "text": "[42]",
-                    "ref_id": "BIBREF42"
-                },
-                {
-                    "start": 1168,
-                    "end": 1172,
-                    "text": "[43]",
-                    "ref_id": "BIBREF43"
-                },
-                {
-                    "start": 1221,
-                    "end": 1225,
-                    "text": "[44]",
-                    "ref_id": "BIBREF44"
-                },
-                {
-                    "start": 1246,
-                    "end": 1250,
-                    "text": "[45]",
-                    "ref_id": "BIBREF45"
-                },
-                {
-                    "start": 1283,
-                    "end": 1287,
-                    "text": "[46]",
-                    "ref_id": "BIBREF46"
-                },
-                {
-                    "start": 1759,
-                    "end": 1763,
-                    "text": "[47]",
-                    "ref_id": "BIBREF47"
-                }
-            ],
-            "ref_spans": [],
-            "section": "AI-Driven Analytics Focused on Data Produced and Consumed by AGV"
-        },
-        {
-            "text": "Industrial IoT systems usually generate large volumes of data in various formats and states (e.g. historical, data streams), which raises the challenges of Big Data. AIdriven analytics has to deal with these challenges (Fig. 4) . These challenges led to the creation and popularisation of data lake systems. Data lakes are repositories that keep the data in its original format. In recent years, the sudden proliferation of data in industrial computer systems has increased the pressure to introduce data lake-based analysis methods. More and more data are considered to be useful sources of information for making critical decisions. The vast volume of data that must be processed and the variety of formats that the data is stored in is a significant research challenge [48] . The uncertainty of data complicates data analysis and the inclusion of expert knowledge in data processing offers many advantages [49] .",
-            "cite_spans": [
-                {
-                    "start": 772,
-                    "end": 776,
-                    "text": "[48]",
-                    "ref_id": "BIBREF48"
-                },
-                {
-                    "start": 909,
-                    "end": 913,
-                    "text": "[49]",
-                    "ref_id": "BIBREF49"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 219,
-                    "end": 227,
-                    "text": "(Fig. 4)",
-                    "ref_id": "FIGREF3"
-                }
-            ],
-            "section": "AI-Driven Analytics Focused on Data Produced and Consumed by AGV"
-        },
-        {
-            "text": "Standard condition monitoring techniques rely on inspecting and observing the physical properties of AGV. The methods that are used include visual monitoring (contaminant, leaks, thermograph), audible monitoring and physical monitoring (temperature, vibration). Using real-time analysis of production data and advanced data exploration, we can implement remote condition monitoring and predictive maintenance tools to detect the first signs of failure long before the appearance of the early alarms that precede AGV failures in a short period [50] . As discrete production lines become more and more complicated, predictive maintenance has become a vital task for the engineers that are responsible for production support. Many potential technological and technical problems can be detected based on early signs that are first noticeable in changes in energy consumption. The current data can be compared with the information related to the energy consumption profiles in an appropriate production context. This comparison allows maintenance tasks to be planned and, as a result, reduces losses related to production breakdowns.",
-            "cite_spans": [
-                {
-                    "start": 543,
-                    "end": 547,
-                    "text": "[50]",
-                    "ref_id": "BIBREF50"
-                }
-            ],
-            "ref_spans": [],
-            "section": "AI-Driven Analytics Focused on Data Produced and Consumed by AGV"
-        },
-        {
-            "text": "Thus, several challenges should be considered for the implementation of AGV in real-world domains and applications. Based on the AI-driven methodologies, pure data can produce more accurate performance. Most of the data that is collected from AVG may be incomplete and inconsistent and especially those data are collected by mobile or senor devices. Currently, the pre-processing step of data (i.e. labelling the data) in AI-driven analysis must be performed manually. It is necessary to build an intelligent model to refine the collected data in order to obtain excellent performance. To have better support for decision making, it is also a challenge to implement an automatic decision-support system that is based on the results produced by the AI-driven methodologies. Moreover, the results of AVG that are produced should consider the multi-objective criteria in order to achieve global optimisation for different tasks and domains. It is a considerable challenge to develop an optimised AI-driven system for AVG for intelligent decision-making.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "AI-Driven Analytics Focused on Data Produced and Consumed by AGV"
-        },
-        {
-            "text": "The use of Autonomous Guided Vehicles (AGV) in production systems has many advantages as it allows production lines to be automated and accelerates logistics. However, it also raises many challenges that provide a space for future research. In this paper, authors tried to evoke a discussion on selected issues related to application of AGVs in flexible manufacturing systems including: (i) the fusion between AGV and collaborative robot with focus on flexibility and interoperability; (ii) the new models for machine to machine communication for AGVs which allow them to cooperate with production environment and at the same time use solutions developed for IoT; (iii) AIdriven analytics focused on the data produced and consumed by AGV that have to be adapted to the pipe-line processing of data collected from many distributed sources.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusions"
+            "section": "acknowledgement",
+            "text": "Acknowledgements. This work was supported by the Polish National Centre of Research and Development from the project \"Hybrid system of automated internal logistics supporting adaptive manufacturing\" (grant agreement no POIR.01.01.01-00-0460/19-01). The project is realized as Operation 1.1.1.: \"Industrial research and development work implemented by enterprises\" of the Smart Growth Operational Programme from 2014-2020 and is co-financed by the European Regional Development Fund and partially by Statutory Research funds of Department of Applied Informatics and Department of Distributed Systems and Informatic Devices, Silesian University of Technology, Gliwice, Poland (grant No BK/2020)."
         }
     ],
     "bib_entries": {
         "BIBREF0": {
-            "ref_id": "b0",
-            "title": "The age of agile manufacturing. Supply Chain Manag",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Maskell",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2001,
+            "issn": "1",
+            "other_ids": {},
+            "pages": "5--11",
+            "ref_id": "b0",
+            "title": "The age of agile manufacturing. Supply Chain Manag",
             "venue": "Int J",
             "volume": "6",
-            "issn": "1",
-            "pages": "5--11",
-            "other_ids": {}
+            "year": 2001
         },
         "BIBREF1": {
-            "ref_id": "b1",
-            "title": "Agent-based manufacturing execution systems for short-series production scheduling",
             "authors": [
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Cupek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Ziebinski",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Huczala",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Erdogan",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
+            "issn": "",
+            "other_ids": {},
+            "pages": "245--258",
+            "ref_id": "b1",
+            "title": "Agent-based manufacturing execution systems for short-series production scheduling",
             "venue": "Comput. Ind",
             "volume": "82",
-            "issn": "",
-            "pages": "245--258",
-            "other_ids": {}
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "Mobile services for customization manufacturing systems: an example of industry 4.0",
-            "authors": [
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Wan",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Yi",
-                    "suffix": ""
-                },
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Li",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Zhang",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Wang",
-                    "suffix": ""
-                },
-                {
-                    "first": "K",
-                    "middle": [],
-                    "last": "Zhou",
-                    "suffix": ""
-                }
-            ],
-            "year": 2016,
-            "venue": "IEEE Access",
-            "volume": "4",
-            "issn": "",
-            "pages": "8977--8986",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Knowledge integration via the fusion of the data models used in automotive production systems",
-            "authors": [
-                {
-                    "first": "R",
-                    "middle": [],
-                    "last": "Cupek",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Ziebinski",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Drewniak",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Fojcik",
-                    "suffix": ""
-                }
-            ],
-            "year": 2019,
-            "venue": "Enterp. Inf. Syst",
-            "volume": "13",
-            "issn": "7-8",
-            "pages": "1094--1119",
-            "other_ids": {}
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "European Commission: A Manufacturing Industry Vision 2025",
-            "authors": [],
-            "year": 2013,
-            "venue": "European Commission (Joint Research Centre) Foresight Study",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "Autonomous transport vehicles: where we are and what is missing",
-            "authors": [
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Andreasson",
-                    "suffix": ""
-                }
-            ],
-            "year": 2015,
-            "venue": "IEEE Robot. Autom. Mag",
-            "volume": "22",
-            "issn": "1",
-            "pages": "64--75",
-            "other_ids": {}
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Introduction and configuration of a collaborative robot in an assembly task as a means to decrease occupational risks and increase efficiency in a manufacturing company",
-            "authors": [
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Realyv\u00e1squez-Vargas",
-                    "suffix": ""
-                },
-                {
-                    "first": "K",
-                    "middle": [
-                        "C"
-                    ],
-                    "last": "Arredondo-Soto",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [
-                        "L"
-                    ],
-                    "last": "Garc\u00eda-Alcaraz",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [
-                        "Y"
-                    ],
-                    "last": "M\u00e1rquez-Lobato",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Cruz-Garc\u00eda",
-                    "suffix": ""
-                }
-            ],
-            "year": 2019,
-            "venue": "Robot. Comput. Integr. Manuf",
-            "volume": "57",
-            "issn": "",
-            "pages": "315--328",
-            "other_ids": {}
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Physical human-robot interaction",
-            "authors": [
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Haddadin",
-                    "suffix": ""
-                },
-                {
-                    "first": "E",
-                    "middle": [],
-                    "last": "Croft",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "Inertial human motion estimation for physical human-robot interaction using an interaction velocity update to reduce drift",
-            "authors": [
-                {
-                    "first": "E",
-                    "middle": [],
-                    "last": "Kyrkjeb\u00f8",
-                    "suffix": ""
-                }
-            ],
-            "year": 2018,
-            "venue": "Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction",
-            "volume": "",
-            "issn": "",
-            "pages": "163--164",
-            "other_ids": {}
+            "year": 2016
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "A hopping umbrella for fuzzy joining data streams from IoT devices in the cloud and on the edge",
             "authors": [
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Mrozek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Tokarz",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Pankowski",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Malysiak-Mrozek",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "IEEE Trans. Fuzzy Syst",
-            "volume": "28",
             "issn": "5",
-            "pages": "916--928",
             "other_ids": {
                 "DOI": [
                     "10.1109/tfuzz.2019.2955056"
                 ]
-            }
+            },
+            "pages": "916--928",
+            "ref_id": "b10",
+            "title": "A hopping umbrella for fuzzy joining data streams from IoT devices in the cloud and on the edge",
+            "venue": "IEEE Trans. Fuzzy Syst",
+            "volume": "28",
+            "year": 2020
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "Virtual sensing techniques and their applications",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Liu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Kuo",
                     "middle": [
                         "M"
                     ],
-                    "last": "Kuo",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Zhou",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2009,
-            "venue": "2009 International Conference on Networking, Sensing and Control",
-            "volume": "",
             "issn": "",
-            "pages": "31--36",
             "other_ids": {
                 "DOI": [
                     "10.1109/icnsc.2009.4919241"
                 ]
-            }
+            },
+            "pages": "31--36",
+            "ref_id": "b11",
+            "title": "Virtual sensing techniques and their applications",
+            "venue": "2009 International Conference on Networking, Sensing and Control",
+            "volume": "",
+            "year": 2009
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "Artificial potential field based path planning for mobile robots using a virtual obstacle concept",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Lee",
                     "middle": [
                         "C"
                     ],
-                    "last": "Lee",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Park",
                     "middle": [
                         "G"
                     ],
-                    "last": "Park",
                     "suffix": ""
                 }
             ],
-            "year": 2003,
-            "venue": "Proceedings 2003 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM 2003)",
-            "volume": "2",
             "issn": "",
-            "pages": "735--740",
             "other_ids": {
                 "DOI": [
                     "10.1109/aim.2003.1225434"
                 ]
-            }
+            },
+            "pages": "735--740",
+            "ref_id": "b12",
+            "title": "Artificial potential field based path planning for mobile robots using a virtual obstacle concept",
+            "venue": "Proceedings 2003 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM 2003)",
+            "volume": "2",
+            "year": 2003
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "Distributed control architecture for the autonomous mobile platform",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Ziebinski",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Cupek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Piech",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b13",
+            "title": "Distributed control architecture for the autonomous mobile platform",
             "venue": "AIP Conference Proceedings",
             "volume": "2040",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2018
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Short-term positioning accuracy based on mems sensors for smart city solutions",
             "authors": [
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Grzechca",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Paszek",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2019,
+            "issn": "1",
+            "other_ids": {},
+            "pages": "95--107",
+            "ref_id": "b14",
+            "title": "Short-term positioning accuracy based on mems sensors for smart city solutions",
             "venue": "Metrol. Meas. Syst",
             "volume": "26",
-            "issn": "1",
-            "pages": "95--107",
-            "other_ids": {}
+            "year": 2019
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "Navigation and docking manoeuvres of mobile robots in industrial environments",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Roth",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Schilling",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 1998,
+            "issn": "",
+            "other_ids": {},
+            "pages": "2458--2462",
+            "ref_id": "b15",
+            "title": "Navigation and docking manoeuvres of mobile robots in industrial environments",
             "venue": "IECON 1998, Proceedings of the 24th Annual Conference of the IEEE Industrial Electronics Society (Cat. No. 98CH36200)",
             "volume": "4",
-            "issn": "",
-            "pages": "2458--2462",
-            "other_ids": {}
+            "year": 1998
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "Obstacle avoidance by a mobile platform using an ultrasound sensor",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Ziebinski",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Cupek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Nalepa",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Nguyen",
                     "middle": [
                         "T"
                     ],
-                    "last": "Nguyen",
                     "suffix": ""
                 },
                 {
                     "first": "G",
+                    "last": "Papadopoulos",
                     "middle": [
                         "A"
                     ],
-                    "last": "Papadopoulos",
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "J\u0119drzejowicz",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Trawi\u0144ski",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2017,
-            "venue": "ICCCI 2017",
-            "volume": "10449",
             "issn": "",
-            "pages": "238--248",
             "other_ids": {
                 "DOI": [
                     "10.1007/978-3-319-67077-5_23"
                 ]
-            }
+            },
+            "pages": "238--248",
+            "ref_id": "b16",
+            "title": "Obstacle avoidance by a mobile platform using an ultrasound sensor",
+            "venue": "ICCCI 2017",
+            "volume": "10449",
+            "year": 2017
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "Monitoring and controlling speed for an autonomous mobile platform based on the hall sensor",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Ziebinski",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Bregulla",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Fojcik",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "K\u0142ak",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Nguyen",
                     "middle": [
                         "T"
                     ],
-                    "last": "Nguyen",
                     "suffix": ""
                 },
                 {
                     "first": "G",
+                    "last": "Papadopoulos",
                     "middle": [
                         "A"
                     ],
-                    "last": "Papadopoulos",
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "J\u0119drzejowicz",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Trawi\u0144ski",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2017,
-            "venue": "ICCCI 2017",
-            "volume": "10449",
             "issn": "",
-            "pages": "249--259",
             "other_ids": {
                 "DOI": [
                     "10.1007/978-3-319-67077-5_24"
                 ]
-            }
+            },
+            "pages": "249--259",
+            "ref_id": "b17",
+            "title": "Monitoring and controlling speed for an autonomous mobile platform based on the hall sensor",
+            "venue": "ICCCI 2017",
+            "volume": "10449",
+            "year": 2017
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "A survey of ADAS technologies for the future perspective of sensor fusion",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Ziebinski",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Cupek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Erdogan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Waechter",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
-            "venue": "ICCCI 2016",
-            "volume": "9876",
             "issn": "",
-            "pages": "135--146",
             "other_ids": {
                 "DOI": [
                     "10.1007/978-3-319-45246-3_13"
                 ]
-            }
+            },
+            "pages": "135--146",
+            "ref_id": "b18",
+            "title": "A survey of ADAS technologies for the future perspective of sensor fusion",
+            "venue": "ICCCI 2016",
+            "volume": "9876",
+            "year": 2016
         },
         "BIBREF19": {
-            "ref_id": "b19",
-            "title": "Indoor localization of objects based on RSSI and MEMS sensors",
             "authors": [
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Grzechca",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Wr\u00f3bel",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Bielecki",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2014,
+            "issn": "",
+            "other_ids": {},
+            "pages": "143--146",
+            "ref_id": "b19",
+            "title": "Indoor localization of objects based on RSSI and MEMS sensors",
             "venue": "14th International Symposium on Communications and Information Technologies (ISCIT)",
             "volume": "",
-            "issn": "",
-            "pages": "143--146",
-            "other_ids": {}
+            "year": 2014
         },
-        "BIBREF20": {
-            "ref_id": "b20",
-            "title": "The positioning accuracy based on the UWB technology for an object on circular trajectory",
+        "BIBREF2": {
             "authors": [
                 {
-                    "first": "D",
+                    "first": "J",
+                    "last": "Wan",
                     "middle": [],
-                    "last": "Grzechca",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Yi",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Li",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Zhang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Zhou",
                     "middle": [],
-                    "last": "Hanzel",
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "",
+            "other_ids": {},
+            "pages": "8977--8986",
+            "ref_id": "b2",
+            "title": "Mobile services for customization manufacturing systems: an example of industry 4.0",
+            "venue": "IEEE Access",
+            "volume": "4",
+            "year": 2016
+        },
+        "BIBREF20": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Grzechca",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Hanzel",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "4",
+            "other_ids": {},
+            "pages": "487--494",
+            "ref_id": "b20",
+            "title": "The positioning accuracy based on the UWB technology for an object on circular trajectory",
             "venue": "Int. J. Electron. Telecommun",
             "volume": "64",
-            "issn": "4",
-            "pages": "487--494",
-            "other_ids": {}
+            "year": 2018
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Using human motion estimation for human-robot cooperative manipulation",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Thobbi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Gu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Sheng",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2011,
+            "issn": "",
+            "other_ids": {},
+            "pages": "2873--2878",
+            "ref_id": "b21",
+            "title": "Using human motion estimation for human-robot cooperative manipulation",
             "venue": "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems",
             "volume": "",
-            "issn": "",
-            "pages": "2873--2878",
-            "other_ids": {}
+            "year": 2011
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "A framework to describe, analyze and generate interactive motor behaviors",
             "authors": [
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Jarrass\u00e9",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Charalambous",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Burdet",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
-            "venue": "PLoS ONE",
-            "volume": "7",
             "issn": "11",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1371/journal.pone.0049945"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b22",
+            "title": "A framework to describe, analyze and generate interactive motor behaviors",
+            "venue": "PLoS ONE",
+            "volume": "7",
+            "year": 2012
         },
         "BIBREF23": {
-            "ref_id": "b23",
-            "title": "The role of roles: physical cooperation between humans and robots",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "M\u00f6rtl",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Lawitzky",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Kucukyilmaz",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Sezgin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Basdogan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Hirche",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
+            "issn": "13",
+            "other_ids": {},
+            "pages": "1656--1674",
+            "ref_id": "b23",
+            "title": "The role of roles: physical cooperation between humans and robots",
             "venue": "Int. J. Robot. Res",
             "volume": "31",
-            "issn": "13",
-            "pages": "1656--1674",
-            "other_ids": {}
+            "year": 2012
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "Motion coordination of mechanical systems: leader-follower synchronization of Euler-Lagrange systems using output feedback control",
             "authors": [
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Kyrkjeb\u00f8",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2007,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b24",
+            "title": "Motion coordination of mechanical systems: leader-follower synchronization of Euler-Lagrange systems using output feedback control",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2007
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "Human-like adaptation of force and impedance in stable and unstable interactions",
             "authors": [
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Yang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Ganesh",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Haddadin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Parusel",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2011,
+            "issn": "5",
+            "other_ids": {},
+            "pages": "918--930",
+            "ref_id": "b25",
+            "title": "Human-like adaptation of force and impedance in stable and unstable interactions",
             "venue": "IEEE Trans. Robot",
             "volume": "27",
-            "issn": "5",
-            "pages": "918--930",
-            "other_ids": {}
+            "year": 2011
         },
         "BIBREF26": {
-            "ref_id": "b26",
-            "title": "An experience-driven robotic assistant acquiring human knowledge to improve haptic cooperation",
             "authors": [
                 {
                     "first": "J",
+                    "last": "Medina",
                     "middle": [
                         "R"
                     ],
-                    "last": "Medina",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Lawitzky",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "M\u00f6rtl",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Lee",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2011,
+            "issn": "",
+            "other_ids": {},
+            "pages": "2416--2422",
+            "ref_id": "b26",
+            "title": "An experience-driven robotic assistant acquiring human knowledge to improve haptic cooperation",
             "venue": "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems",
             "volume": "",
-            "issn": "",
-            "pages": "2416--2422",
-            "other_ids": {}
+            "year": 2011
         },
         "BIBREF27": {
-            "ref_id": "b27",
-            "title": "Toward intelligent machine-to-machine communications in smart grid",
             "authors": [
                 {
                     "first": "Z",
+                    "last": "Fadlullah",
                     "middle": [
                         "M"
                     ],
-                    "last": "Fadlullah",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Fouda",
                     "middle": [
                         "M"
                     ],
-                    "last": "Fouda",
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Kato",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Takeuchi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Iwasaki",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Nozaki",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2011,
+            "issn": "4",
+            "other_ids": {},
+            "pages": "60--65",
+            "ref_id": "b27",
+            "title": "Toward intelligent machine-to-machine communications in smart grid",
             "venue": "IEEE Commun. Mag",
             "volume": "49",
-            "issn": "4",
-            "pages": "60--65",
-            "other_ids": {}
+            "year": 2011
         },
         "BIBREF28": {
-            "ref_id": "b28",
-            "title": "Wireless requirements and challenges in Industry 4.0",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Varghese",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Tandur",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2014,
+            "issn": "",
+            "other_ids": {},
+            "pages": "634--638",
+            "ref_id": "b28",
+            "title": "Wireless requirements and challenges in Industry 4.0",
             "venue": "2014 International Conference on Contemporary Computing and Informatics (IC3I)",
             "volume": "",
-            "issn": "",
-            "pages": "634--638",
-            "other_ids": {}
+            "year": 2014
         },
         "BIBREF29": {
-            "ref_id": "b29",
-            "title": "Implementation and comparison of M2M protocols for internet of things",
             "authors": [
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Thota",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Kim",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
+            "issn": "",
+            "other_ids": {},
+            "pages": "43--48",
+            "ref_id": "b29",
+            "title": "Implementation and comparison of M2M protocols for internet of things",
             "venue": "2016 4th International Conference on Applied Computing and Information Technology/3rd International Conference on Computational Science/Intelligence and Applied Informatics/1st International Conference on Big Data",
             "volume": "",
-            "issn": "",
-            "pages": "43--48",
-            "other_ids": {}
+            "year": 2016
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "R",
+                    "last": "Cupek",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Ziebinski",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Drewniak",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Fojcik",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "7-8",
+            "other_ids": {},
+            "pages": "1094--1119",
+            "ref_id": "b3",
+            "title": "Knowledge integration via the fusion of the data models used in automotive production systems",
+            "venue": "Enterp. Inf. Syst",
+            "volume": "13",
+            "year": 2019
         },
         "BIBREF30": {
-            "ref_id": "b30",
-            "title": "2015 IEEE Seventh International Conference on Intelligent Computing and Information Systems (ICICIS)",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Elgazzar",
                     "middle": [
                         "H"
                     ],
-                    "last": "Elgazzar",
                     "suffix": ""
                 }
             ],
-            "year": 2016,
+            "issn": "",
+            "other_ids": {},
+            "pages": "501--505",
+            "ref_id": "b30",
+            "title": "2015 IEEE Seventh International Conference on Intelligent Computing and Information Systems (ICICIS)",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "501--505",
-            "other_ids": {}
+            "year": 2016
         },
         "BIBREF31": {
-            "ref_id": "b31",
-            "title": "Performance evaluation of M2M protocols over cellular networks in a lab environment",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Durkop",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Czybik",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Jasperneite",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2015,
+            "issn": "",
+            "other_ids": {},
+            "pages": "70--75",
+            "ref_id": "b31",
+            "title": "Performance evaluation of M2M protocols over cellular networks in a lab environment",
             "venue": "18th International Conference on Intelligence in Next Generation Networks",
             "volume": "",
-            "issn": "",
-            "pages": "70--75",
-            "other_ids": {}
+            "year": 2015
         },
         "BIBREF32": {
-            "ref_id": "b32",
-            "title": "Smart manufacturing: past research, present findings, and future directions",
             "authors": [
                 {
                     "first": "H",
+                    "last": "Kang",
                     "middle": [
                         "S"
                     ],
-                    "last": "Kang",
                     "suffix": ""
                 }
             ],
-            "year": 2016,
+            "issn": "1",
+            "other_ids": {},
+            "pages": "111--128",
+            "ref_id": "b32",
+            "title": "Smart manufacturing: past research, present findings, and future directions",
             "venue": "Int. J. Precis. Eng. Manuf. Green Technol",
             "volume": "3",
-            "issn": "1",
-            "pages": "111--128",
-            "other_ids": {}
+            "year": 2016
         },
         "BIBREF33": {
-            "ref_id": "b33",
-            "title": "Whitepaper zu \"Architecture Alignment and Interoperability\" von Plattform Industrie 4.0 und Industrial Internet Consortium",
             "authors": [
                 {
                     "first": "S",
+                    "last": "Lin",
                     "middle": [
                         "W"
                     ],
-                    "last": "Lin",
                     "suffix": ""
                 }
             ],
-            "year": 2017,
+            "issn": "",
+            "other_ids": {},
+            "pages": "1--19",
+            "ref_id": "b33",
+            "title": "Whitepaper zu \"Architecture Alignment and Interoperability\" von Plattform Industrie 4.0 und Industrial Internet Consortium",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "1--19",
-            "other_ids": {}
+            "year": 2017
         },
         "BIBREF34": {
-            "ref_id": "b34",
-            "title": "AG1 Standardization & Reference Architecture",
             "authors": [
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Schweichhart",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b34",
+            "title": "AG1 Standardization & Reference Architecture",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF35": {
-            "ref_id": "b35",
-            "title": "Performance evaluation of redundant OPC UA architecture for process control",
             "authors": [
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Cupek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Folkert",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Fojcik",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Klopot",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Polak\u00f3w",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2017,
+            "issn": "3",
+            "other_ids": {},
+            "pages": "334--343",
+            "ref_id": "b35",
+            "title": "Performance evaluation of redundant OPC UA architecture for process control",
             "venue": "Trans. Inst. Meas. Control",
             "volume": "39",
-            "issn": "3",
-            "pages": "334--343",
-            "other_ids": {}
+            "year": 2017
         },
         "BIBREF37": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b37",
             "title": "OPC Unified Architecture for ISA-95 Common Object Model Companion Specification Release",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF38": {
-            "ref_id": "b38",
-            "title": "FPGA based OPC UA embedded industrial data server implementation",
             "authors": [
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Cupek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Ziebinski",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Franek",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2013,
+            "issn": "08",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b38",
+            "title": "FPGA based OPC UA embedded industrial data server implementation",
             "venue": "J. Circuits Syst. Comput",
             "volume": "22",
-            "issn": "08",
-            "pages": "",
-            "other_ids": {}
+            "year": 2013
         },
         "BIBREF39": {
-            "ref_id": "b39",
-            "title": "Implementation and deployment evaluation of the DMAMAC protocol for wireless sensor actuator networks",
             "authors": [
                 {
                     "first": "A",
+                    "last": "Somappa",
                     "middle": [
                         "A K"
                     ],
-                    "last": "Somappa",
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "\u00d8vsthus",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Kristensen",
                     "middle": [
                         "M"
                     ],
-                    "last": "Kristensen",
                     "suffix": ""
                 }
             ],
-            "year": 2016,
+            "issn": "",
+            "other_ids": {},
+            "pages": "329--336",
+            "ref_id": "b39",
+            "title": "Implementation and deployment evaluation of the DMAMAC protocol for wireless sensor actuator networks",
             "venue": "Procedia Comput. Sci",
             "volume": "83",
+            "year": 2016
+        },
+        "BIBREF4": {
+            "authors": [],
             "issn": "",
-            "pages": "329--336",
-            "other_ids": {}
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b4",
+            "title": "European Commission: A Manufacturing Industry Vision 2025",
+            "venue": "European Commission (Joint Research Centre) Foresight Study",
+            "volume": "",
+            "year": 2013
         },
         "BIBREF40": {
-            "ref_id": "b40",
-            "title": "Communication network modeling for real-time HIL power system protection test bench",
             "authors": [
                 {
                     "first": "C",
+                    "last": "Adrah",
                     "middle": [
                         "M"
                     ],
-                    "last": "Adrah",
                     "suffix": ""
                 },
                 {
                     "first": "\u00d8",
-                    "middle": [],
                     "last": "Kure",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Liu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2017,
+            "issn": "",
+            "other_ids": {},
+            "pages": "295--300",
+            "ref_id": "b40",
+            "title": "Communication network modeling for real-time HIL power system protection test bench",
             "venue": "2017 IEEE PES PowerAfrica",
             "volume": "",
-            "issn": "",
-            "pages": "295--300",
-            "other_ids": {}
+            "year": 2017
         },
         "BIBREF41": {
-            "ref_id": "b41",
-            "title": "Machine learning for predictive maintenance: a multiple classifier approach",
             "authors": [
                 {
                     "first": "G",
+                    "last": "Susto",
                     "middle": [
                         "A"
                     ],
-                    "last": "Susto",
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Schirru",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Pampuri",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Mcloone",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Beghi",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2014,
+            "issn": "",
+            "other_ids": {},
+            "pages": "812--820",
+            "ref_id": "b41",
+            "title": "Machine learning for predictive maintenance: a multiple classifier approach",
             "venue": "IEEE Trans. Ind. Inf",
             "volume": "11",
-            "issn": "",
-            "pages": "812--820",
-            "other_ids": {}
+            "year": 2014
         },
         "BIBREF42": {
-            "ref_id": "b42",
-            "title": "Data Mining: Concepts and Techniques",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Han",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Pei",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Kamber",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2011,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b42",
+            "title": "Data Mining: Concepts and Techniques",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2011
         },
         "BIBREF43": {
-            "ref_id": "b43",
-            "title": "Application of AI tools in fault diagnosis of electrical machines and drives-an overview",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Awadallah",
                     "middle": [
                         "A"
                     ],
-                    "last": "Awadallah",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Morcos",
                     "middle": [
                         "M"
                     ],
-                    "last": "Morcos",
                     "suffix": ""
                 }
             ],
-            "year": 2003,
+            "issn": "",
+            "other_ids": {},
+            "pages": "245--251",
+            "ref_id": "b43",
+            "title": "Application of AI tools in fault diagnosis of electrical machines and drives-an overview",
             "venue": "IEEE Trans. Energy Convers",
             "volume": "18",
-            "issn": "",
-            "pages": "245--251",
-            "other_ids": {}
+            "year": 2003
         },
         "BIBREF44": {
-            "ref_id": "b44",
-            "title": "Bearing fault detection of induction motor using wavelet and Support Vector Machines (SVMs)",
             "authors": [
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Konar",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Chattopadhyay",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2011,
+            "issn": "",
+            "other_ids": {},
+            "pages": "4203--4211",
+            "ref_id": "b44",
+            "title": "Bearing fault detection of induction motor using wavelet and Support Vector Machines (SVMs)",
             "venue": "Appl. Soft Comput",
             "volume": "11",
-            "issn": "",
-            "pages": "4203--4211",
-            "other_ids": {}
+            "year": 2011
         },
         "BIBREF45": {
-            "ref_id": "b45",
-            "title": "A novel intelligent method for mechanical fault diagnosis based on dual-tree complex wavelet packet transform and multiple classifier fusion",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Qu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Gong",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
+            "issn": "",
+            "other_ids": {},
+            "pages": "837--853",
+            "ref_id": "b45",
+            "title": "A novel intelligent method for mechanical fault diagnosis based on dual-tree complex wavelet packet transform and multiple classifier fusion",
             "venue": "Neurocomputing",
             "volume": "171",
-            "issn": "",
-            "pages": "837--853",
-            "other_ids": {}
+            "year": 2016
         },
         "BIBREF46": {
-            "ref_id": "b46",
-            "title": "PCA-based feature selection scheme for machine defect classification",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Malhi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Gao",
                     "middle": [
                         "X"
                     ],
-                    "last": "Gao",
                     "suffix": ""
                 }
             ],
-            "year": 2004,
+            "issn": "",
+            "other_ids": {},
+            "pages": "1517--1525",
+            "ref_id": "b46",
+            "title": "PCA-based feature selection scheme for machine defect classification",
             "venue": "IEEE Trans. Instrum. Meas",
             "volume": "53",
-            "issn": "",
-            "pages": "1517--1525",
-            "other_ids": {}
+            "year": 2004
         },
         "BIBREF47": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Moleda",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Momot",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Mrozek",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "2",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b47",
             "title": "Predictive maintenance of boiler feed water pumps using SCADA data",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Moleda",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Momot",
-                    "suffix": ""
-                },
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Mrozek",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
             "venue": "Sensors",
             "volume": "20",
-            "issn": "2",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF48": {
-            "ref_id": "b48",
-            "title": "Fuzzy join for flexible combining big data lakes in cyber-physical systems",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Malysiak-Mrozek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Lipinska",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Mrozek",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "",
+            "other_ids": {},
+            "pages": "69545--69558",
+            "ref_id": "b48",
+            "title": "Fuzzy join for flexible combining big data lakes in cyber-physical systems",
             "venue": "IEEE Access",
             "volume": "6",
-            "issn": "",
-            "pages": "69545--69558",
-            "other_ids": {}
+            "year": 2018
         },
         "BIBREF49": {
-            "ref_id": "b49",
-            "title": "Soft and declarative fishing of information in big data lake",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Ma\u0142ysiak-Mrozek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Stabla",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Mrozek",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "5",
+            "other_ids": {},
+            "pages": "2732--2747",
+            "ref_id": "b49",
+            "title": "Soft and declarative fishing of information in big data lake",
             "venue": "IEEE Trans. Fuzzy Syst",
             "volume": "26",
-            "issn": "5",
-            "pages": "2732--2747",
-            "other_ids": {}
+            "year": 2018
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "H",
+                    "last": "Andreasson",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "1",
+            "other_ids": {},
+            "pages": "64--75",
+            "ref_id": "b5",
+            "title": "Autonomous transport vehicles: where we are and what is missing",
+            "venue": "IEEE Robot. Autom. Mag",
+            "volume": "22",
+            "year": 2015
         },
         "BIBREF50": {
-            "ref_id": "b50",
-            "title": "Determination of the machine energy consumption profiles in the mass-customised manufacturing",
             "authors": [
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Cupek",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Ziebinski",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Zonenberg",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Drewniak",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "6",
+            "other_ids": {},
+            "pages": "537--561",
+            "ref_id": "b50",
+            "title": "Determination of the machine energy consumption profiles in the mass-customised manufacturing",
             "venue": "Int. J. Comput. Integr. Manuf",
             "volume": "31",
-            "issn": "6",
-            "pages": "537--561",
-            "other_ids": {}
+            "year": 2018
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Realyv\u00e1squez-Vargas",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Arredondo-Soto",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Garc\u00eda-Alcaraz",
+                    "middle": [
+                        "L"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "M\u00e1rquez-Lobato",
+                    "middle": [
+                        "Y"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Cruz-Garc\u00eda",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "315--328",
+            "ref_id": "b6",
+            "title": "Introduction and configuration of a collaborative robot in an assembly task as a means to decrease occupational risks and increase efficiency in a manufacturing company",
+            "venue": "Robot. Comput. Integr. Manuf",
+            "volume": "57",
+            "year": 2019
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Haddadin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Croft",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b7",
+            "title": "Physical human-robot interaction",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "E",
+                    "last": "Kyrkjeb\u00f8",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "163--164",
+            "ref_id": "b9",
+            "title": "Inertial human motion estimation for physical human-robot interaction using an interaction velocity update to reduce drift",
+            "venue": "Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction",
+            "volume": "",
+            "year": 2018
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 879,
+                    "ref_id": "BIBREF0",
+                    "start": 876,
+                    "text": "[1]"
+                },
+                {
+                    "end": 1202,
+                    "ref_id": "BIBREF5",
+                    "start": 1199,
+                    "text": "[6]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "The growing popularity of Autonomous Guided Vehicles (AGV), which are used in manufacturing, has not only been the result of their technical features but also from their ability to cooperate. Cooperative-based internal logistics permits increased production flexibility. Because AGV are in the executive part of the internal logistics, their cooperation with other information systems and manufacturing equipment is particularly important. AGV have become a critical enabling technology for agile production systems. Modern production systems are characterised by a demand for a high degree of flexibility in order to cope with the frequent changes that result from orders that are changed by customers, low material buffers, the agile production technologies that are performed by robotised production stations and the many variants of production technology that can be used [1] . All of the factors mentioned above require the production process to be supported online by highly advanced information services, which are tasks must be performed in a distributed, dynamic and autonomous way. AGV are key components that are necessary for developing flexible and efficient internal transport systems [6] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 244,
+                    "ref_id": "BIBREF6",
+                    "start": 241,
+                    "text": "[7]"
+                },
+                {
+                    "end": 668,
+                    "ref_id": "BIBREF7",
+                    "start": 665,
+                    "text": "[8,"
+                },
+                {
+                    "end": 671,
+                    "ref_id": "BIBREF9",
+                    "start": 669,
+                    "text": "9]"
+                },
+                {
+                    "end": 1107,
+                    "ref_id": "BIBREF10",
+                    "start": 1103,
+                    "text": "[10]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 689,
+                    "ref_id": "FIGREF0",
+                    "start": 683,
+                    "text": "Fig. 1"
+                }
+            ],
+            "section": "Introduction",
+            "text": "Traditional industrial robot systems usually perform dedicated tasks on specific assembly stations and are often isolated from other stations and human operators using physical barriers such as fences. Introducing safe, collaborative robots [7] into production systems (that also work together with human operators) opens up the possibility of using robots for a wider variety of tasks and permits the physical barriers to the rest of the production processes to be removed. Such an option enables robot automation to be introduced more widely into factoriesbut these robots are still usually dedicated to specific assembly stations. Combining collaborative robots [8, 9] with AGV ( Fig. 1 ) merges the dynamic logistic benefits of AGV with the flexibility of collaborative robots to enable a more extensive use between many assembly stations. This could also increase the efficiency of the production staff. However, the autonomous operation of AGV requires that several issues have to be resolved. The integration of an AGV, a collaborative robot and various sensors requires that data fusion methods [10] be used to achieve a docking functionality and to recalibrate the AGV and robot to that particular assembly station."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 20,
+                    "ref_id": "BIBREF11",
+                    "start": 16,
+                    "text": "[11]"
+                },
+                {
+                    "end": 308,
+                    "ref_id": "BIBREF12",
+                    "start": 304,
+                    "text": "[12]"
+                },
+                {
+                    "end": 555,
+                    "ref_id": "BIBREF6",
+                    "start": 552,
+                    "text": "[7]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Virtual sensing [11] , which is based on computational models and is widely used to optimise an operation or product quality in industry, is a non-invasive method that is used to measure the parameters in dynamic systems. Monitoring an industrial process using data fusion and virtual sensing techniques [12] supports developing methods that permit the changes in the area of production lines to be detected. The use of fusion techniques allows more information about the state of a system to be obtained from several sensors. Multi-sensor data fusion [7] permits the working status of a process and machinery to be acquired by integrating sensors into manufacturing systems. The data fusion from AGV, robots, assembly stations and production monitoring system using virtual sensing can enable new methods and algorithms to be created in order to optimise the short series production process in industry."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 208,
+                    "ref_id": "BIBREF13",
+                    "start": 204,
+                    "text": "[13]"
+                },
+                {
+                    "end": 235,
+                    "ref_id": "BIBREF9",
+                    "start": 232,
+                    "text": "[9]"
+                },
+                {
+                    "end": 265,
+                    "ref_id": "BIBREF14",
+                    "start": 261,
+                    "text": "[14]"
+                },
+                {
+                    "end": 292,
+                    "ref_id": "BIBREF15",
+                    "start": 288,
+                    "text": "[15]"
+                },
+                {
+                    "end": 534,
+                    "ref_id": "BIBREF16",
+                    "start": 530,
+                    "text": "[16,"
+                },
+                {
+                    "end": 538,
+                    "ref_id": "BIBREF17",
+                    "start": 535,
+                    "text": "17]"
+                },
+                {
+                    "end": 899,
+                    "ref_id": "BIBREF18",
+                    "start": 895,
+                    "text": "[18]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "The first main challenge is to obtain the fusion of the data between AGV and the collaborative robots, which could be achieved by developing a distributed computer system architecture for integrating AGV [13] , collaborative robots [9] and the required sensors [14] . A navigation system [15] supports the movements of AGV between assembly stations and helps to position an AGV for docking to an assembly station. Using distance sensors enables the docking precision to be increased. To determine the accuracy of the measurements [16, 17] , the selected sensors must be tested (camera, lidar, gyroscope, accelerometer, optical encoders). A vision-based recognition system further confirms that an AGV has arrived at the correct production station. Using methods that are dedicated to sensor fusion allows algorithms to be developed in order to increase the accuracy of the distance measurements [18] . The proposed methods also enable algorithms to be developed that allow precise docking to the assembly station."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 109,
+                    "ref_id": "BIBREF14",
+                    "start": 105,
+                    "text": "[14,"
+                },
+                {
+                    "end": 113,
+                    "ref_id": "BIBREF19",
+                    "start": 110,
+                    "text": "19,"
+                },
+                {
+                    "end": 117,
+                    "ref_id": "BIBREF20",
+                    "start": 114,
+                    "text": "20]"
+                },
+                {
+                    "end": 439,
+                    "ref_id": "BIBREF18",
+                    "start": 435,
+                    "text": "[18]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Distance sensors (e.g. inclinometers, cameras, including Time-of-Flight (ToF) cameras, optical encoders) [14, 19, 20] can also be used to increase the recalibration of a collaborative robot to the mounting site on the assembly station. Using recognition methods based on a vision system increases the precision of the measurements. This approach allows the information covered by distance sensors to be combined with the vision system [18] to develop an algorithm that increases the accuracy of the distance measurements. The algorithms that are obtained allow the robot's displacement regarding the reference coordinate system at the mounting place at the assembly station to be calculated. In addition, robot-based calibration can be used to set the reference points for each axis. The displacement of the robot arm to the reference points at the assembly station and the use of precise force measurement on selected axes enables a more accurate determination of the current position of a collaborative robot."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 279,
+                    "ref_id": "BIBREF7",
+                    "start": 276,
+                    "text": "[8]"
+                },
+                {
+                    "end": 344,
+                    "ref_id": "BIBREF9",
+                    "start": 341,
+                    "text": "[9]"
+                },
+                {
+                    "end": 893,
+                    "ref_id": "BIBREF7",
+                    "start": 890,
+                    "text": "[8]"
+                },
+                {
+                    "end": 1295,
+                    "ref_id": "BIBREF21",
+                    "start": 1291,
+                    "text": "[21,"
+                },
+                {
+                    "end": 1299,
+                    "ref_id": "BIBREF22",
+                    "start": 1296,
+                    "text": "22]"
+                },
+                {
+                    "end": 1388,
+                    "ref_id": "BIBREF23",
+                    "start": 1384,
+                    "text": "[23]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "The next main challenge is to develop methods to support the cooperation between a collaborative robot and the production staff. One of the major challenges with physical Human-Robot Interaction (pHRI) is how to handle the possible or perceived risk of human-robot collisions [8] . Human motion and intention estimates that based on sensors [9] can ensure that the human states are continuously monitored and the human motion data together with the force/torque (FT) measurements from a collaborative robot can serve as inputs to a collision-handling (CH) system. A CH system can continuously monitor and assess the risk of unwanted interactions and collisions and implement the necessary reaction mechanisms, e.g. lower the speed of the robot, switch to a gravity compensation and compliance mode or to adhere to an admittance reflex strategy to drive away from the unwanted contact force [8] . A CH system should be implemented at the lowest control level in order to ensure that handling collisions takes priority over task execution. A collaborative robot control scheme for pHRI for robots that are mounted on AGV allows an overall system architecture to be built that takes into account the changes in roles between a human and robot in the interaction (leaderfollower, collaboration) [21, 22] and how to dynamically share the tasks in any humanrobot cooperative load transport [23] . The overall system architecture should also allow the seamless, shared cooperative pHRI control for a wide range of possible applications."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 129,
+                    "ref_id": "BIBREF24",
+                    "start": 125,
+                    "text": "[24]"
+                },
+                {
+                    "end": 677,
+                    "ref_id": "BIBREF22",
+                    "start": 673,
+                    "text": "[22]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Although the approaches to cooperative pHRI control can be independent of any predefined trajectories or paths for the robot [24] , the available information on the task goal should be exploited in the overall pHRI control scheme. This can be accomplished by dividing tasks into sub-activities that can serve as feedforward reference inputs to the control system and that can try to make the most of the flexibility, knowledge and sensory skills of a human and the efficiency, strength, endurance and accuracy of a robot. Information on the task goal can also serve as an essential parameter for when a human or a robot should take the lead in a cooperative pHRI operation [22] and will be dependent on the particular pHRI application."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 483,
+                    "ref_id": "BIBREF7",
+                    "start": 480,
+                    "text": "[8]"
+                },
+                {
+                    "end": 762,
+                    "ref_id": "BIBREF25",
+                    "start": 758,
+                    "text": "[25]"
+                },
+                {
+                    "end": 1025,
+                    "ref_id": "BIBREF26",
+                    "start": 1021,
+                    "text": "[26]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "The overall physical interaction between humans and robots is a multi-dimensional dynamic control problem that is hard to define explicitly using rigid state-space models that have fixed parameters. Therefore, learning strategies for pHRI are now emerging as an essential research challenge and many learning and adaptation approaches are currently being proposed. They are primarily focused on two aspects of pHRIadaptive impedance control, and learning the desired trajectories [8] . Adaptive impedance controllers are focused on learning or adapting to the impedance gains and feedforward torques of the controller to improve the robot capabilities during an interaction. Some recent results have used neural networks or biomimetic approaches to learning [25] . Learning the desired trajectories for a pHRI has, in recent years, been primarily focused on using hidden Markov models (HMM) to find the appropriate motion patterns for human-robot cooperation. A novel approach for a mobile bi-manual platform is taken in [26] , where semantic task structures are learned during a joint task execution and where the semantic labels on the task segments are given by the human partner using speech recognition."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 294,
+                    "ref_id": "BIBREF27",
+                    "start": 290,
+                    "text": "[27,"
+                },
+                {
+                    "end": 298,
+                    "ref_id": "BIBREF28",
+                    "start": 295,
+                    "text": "28]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "Machine to Machine (M2M) communication in the new generation of manufacturing systems can be considered on three levels: (i) the low-level communication protocols that support a reliable and time determined exchange of information between devices and between a device and production system [27, 28] in the case of AGV, low-level wireless communication protocols must take into account the movement of an AGV, which might result in a high degree of electromagnetic interference and also the need to maintain communication despite its moving between different network segments;"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 290,
+                    "ref_id": "BIBREF29",
+                    "start": 286,
+                    "text": "[29]"
+                },
+                {
+                    "end": 316,
+                    "ref_id": "BIBREF30",
+                    "start": 312,
+                    "text": "[30]"
+                },
+                {
+                    "end": 332,
+                    "ref_id": "BIBREF31",
+                    "start": 328,
+                    "text": "[31]"
+                },
+                {
+                    "end": 778,
+                    "ref_id": "BIBREF3",
+                    "start": 775,
+                    "text": "[4,"
+                },
+                {
+                    "end": 782,
+                    "ref_id": "BIBREF32",
+                    "start": 779,
+                    "text": "32]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "(ii) the communication middleware, which based on the lower-level networks that support independent logical communication channels between an AGV and any cooperating devices or systems including syntax based data format conversion and information exchange management such as MQTT, CoAP [29] , OMADM, LwM2M, XMPP [30] and OPC UA [31] in the case of AGV, the communication middleware must support a high degree of flexibility, automatic reconfiguration and different types of information modes including cyclic real-time communication with control systems, event-based communication between the control subsystems and also batch communication with the management systems that are focused on aggregated data exchange and (iii) the ontology that describes the information models [4, 32] in the case of AGV, the ontology should facilitate and ensure unambiguous information exchange with other AGV, different production stations as well as with the production support systems such as an MES (Manufacturing Execution System). Below, we illustrate the scope of the M2M issues starting with the ontology domain and ending with wireless communication."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 784,
+                    "ref_id": "BIBREF33",
+                    "start": 780,
+                    "text": "[33]"
+                },
+                {
+                    "end": 1150,
+                    "ref_id": "BIBREF34",
+                    "start": 1146,
+                    "text": "[34]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "The ontology that is used for AGV has to correspond with the information models that are used in the new generation of manufacturing systems. The ongoing changes that are called the Fourth Industrial Revolution are the primary interest of manufacturing companies, production technologies suppliers and the advisory groups that are supported by government agencies. The latter is attempting to structure the changes to harmonise the introduction of modern ICT technologies in manufacturing on a global scale. Examples of such global organisations are the German Platform Industrie 4.0; the NIST (National Institute of Standards and Technology), which is similar to the US Department of Commerce or the SMLC (Smart Manufacturing Leadership Coalition), which operates in South Korea [33] . All these solutions are characterized by increased autonomy and a departure from the centralized hierarchical system to the horizontal cooperative model. Since, detailed analysis is beyond the scope of this work, the authors discuss only one selected features of one, but commonly recognized approach the Reference Architecture Model for Industry 4.0 RAMI4.0 [34] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 37,
+                    "ref_id": "FIGREF1",
+                    "start": 29,
+                    "text": "(Fig. 2)"
+                }
+            ],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "The vertical axis of RAMI4.0 (Fig. 2) organises the system structure and the functions of the individual layers, which are from the bottom up (i) the Asset layer, which represents reality, i.e. the asset that exists in the physical world; (ii) the Integration layer, which represents the transition from the physical world to the information world; (iii) the Communication layer, which describes the Industry 4.0-compliant access to the information and functions of a connected asset by other assets; (iv) the Information layer, which describes the data that is used, generated or modified by the technical functionality of an asset; (v) the Functional layer, which describes the (logical) functions of an asset (technical functionality) connected with/associated with its role in the Industry 4.0 system and (vi) the Business layer, which describes the commercial view including the general organisational boundaries."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 522,
+                    "ref_id": "BIBREF34",
+                    "start": 518,
+                    "text": "[34]"
+                },
+                {
+                    "end": 1550,
+                    "ref_id": "BIBREF35",
+                    "start": 1546,
+                    "text": "[35]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 49,
+                    "ref_id": "FIGREF2",
+                    "start": 41,
+                    "text": "(Fig. 3)"
+                }
+            ],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "RAMI4.0 defines the Administration Shell (Fig. 3) , which is the glue that enables the different physical entities that are used for production, including the equipment, materials, production technology and related software for controlling production and the human staff that is involved in the production to be joined. A Communication Layer that is based on a service-oriented architecture (SOA) is responsible for providing the seamless connection between the entities while the Information Layer is responsible for [34] supporting the meta-information that enables the information to be interpreted correctly by taking the required presentation context into account. The Administration Shell can allow access for both the fundamental elements of the system and for the highly complex aggregates that consist of many components. In the case of AGV, we can indicate two levels for the application of the Administration Shellone for a single vehicle that is responsible for executing the transportation tasks and the second for a fleet of AGV that offers holistic transportation services. Moreover, for each level, the information model must be presented according to its context of use, which means that multiple Administration Shells have to be implemented on each aggregation level. The Administration Shell should be implemented by communication middleware such as OPC UA. The OPC UA is an object-based and service-oriented communication middleware that not only supports the exchange of information but also organises the information models [35] . It is based on the client-server communication principle. Secure communication uses a Secure Channel. The Service Set is established by an OPC client, which is then managed by the services that are collected in the Session Service Set. The address space of the OPC UA server exposes both the data and the relevant information models that can be browsed by any connected client."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 517,
+                    "ref_id": null,
+                    "start": 513,
+                    "text": "[36]"
+                },
+                {
+                    "end": 647,
+                    "ref_id": "BIBREF37",
+                    "start": 643,
+                    "text": "[37]"
+                },
+                {
+                    "end": 1313,
+                    "ref_id": "BIBREF34",
+                    "start": 1309,
+                    "text": "[34]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "OPC UA is also useful as a modelling tool that can be used in accordance with other standards that have been prepared by organisations such as W3C, ISA, OMAC, PLCopen, VDMA and others. Such an approach has resulted in several domain-specific information models that have been created under OPC UA, which are dedicated to a given type of application. In the context of AGV, two such models seem to be particularly valuable -(1) the OPC Foundation and AutomationML Companion Specification \"AutomationML for OPC UA\" [36] , which can be used for a technical description of an AGV and its components and (2) \"OPC UA for ISA-95 Common Object Model\" [37] , which is more relevant for communication with an MES. The address space of the OPC UA server can be browsed by any OPC UA clients that are connected. A reference mechanism is used to express the dependencies between the parts of the model. References link OPC objects with their type definition, other objects and the variables that are responsible for the physical data representation. The data types define the interpretation of the values of variables, which are also connected by references. The types of all of the references are known to clients and therefore the kind of relationship between the connected nodes can be easily determined. The number of [34] references between two particular nodes is not limited, so different dependencies can be expressed in one model. Clients can use the browsing services to discover all of the data items and model-based types of information about the items that are managed by the OPC UA server."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 905,
+                    "ref_id": "BIBREF38",
+                    "start": 901,
+                    "text": "[38]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "A Data Access mechanism supports effective communication between OPC UA servers and clients. Each OPC UA client defines a set of subscriptions for the selected OPC UA servers, which are then performed as parts of individual sessions. The number of Monitored Items for each subscription is agreed upon between the client and the server. These mechanisms enable clients to select the required data. In this model, a client subscribes to variables with a given Sampling Interval [ms] according to which the OPC UA server only sends new information to the client when there is a change in the source of information, which is checked cyclically with the frequency that is defined by the sampling interval. The information is bound with its quality status and two timestampsone from the source and the second from the server. Data transfers are optimised by grouping them within the sessions for efficiency [38] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "The OPC Historical Access (HA) provides an interface with a historical archive that is connected with/associated with a given Object node and can be used by various applications such as the HMI, Report Generation, Analysis etc. The data that is provided by the historical interface consists of historical records or calculated values such as the min, max, average etc. A Client can read or annotate the historical data. Because OPC UA is only a communication interface, the historical data should be stored in an external database. Both Data Access and Historical Access communication modes use a common memory model. Each client can freely select the information in the server's address space and request access to the data under the requirements that they have defined. A common memory model does not support the integrity of the information between clients. In cases in which horizontal data integrity is essential, an Event-based communication Alarms & Events mechanism should be used. In Eventbased communication, all subscribed clients receive precisely the same messages about any state changes of the Object that was selected for the subscription."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 643,
+                    "ref_id": "BIBREF39",
+                    "start": 639,
+                    "text": "[39]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "The physical connection with AGV has to be provided by Wireless Sensors and Actuators Networks (WSAN). WSAN consist of interconnected sensors and actuators that collaborate in order to monitor and control a system. The sensors measure the physical quantities and report this to the actuators, which then act on them. Currently, WSAN design generally uses a sink to collect and process the collected data and to send commands to the actuators. A WSAN handles network functions such as routing and scheduling medium access. The increased application of WSAN wireless technologies in industry has given rise to a plethora of protocol designs [39] . However, due to the added delay as the data transmits through the sink, future network design will include peer-to-peer communication between the sensor nodes and actuator nodes. This will be discussed further below."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "Transmitting through sinks creates challenges. Current industrial sensor networks (that also include WSAN) face a challenge due to the limited interoperability between different systems. One option is to relay the sensor data (using a sink solution) between the stovepipe solutions. Three challenges emerge. First, since the two solutions are disjoint and both offer a similar functionality, there is a duplication of functionality. In addition to the added cost, this solution also adds a delay as the data must be relayed through interconnection points. The relay point is located on the edge of the network, thus creating an excessive delay compared to a peer-to-peer connection. Second, the main challenge facing the network designer is ensuring the predictable maximum delay end-to-end. Interconnecting two disjoint technologies in which each separate network segment operates independently from each other obstructs such guarantees. Furthermore, since each stovepipe solution resides in disjoint domains and operates in isolation, it is not possible to establish an optimal path. Third, each separate network segment (stovepipe) has its own management system, which means that no coherent management can be developed. The only viable solution is to transform the current disjoint technologies into a common infrastructure similar to the transformation that occurred in the telecom industry in the 1990s."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "Due to the co-location of the sensors and the controllers on an autonomous unit, peer-to-peer communication between the units is preferable. Transmitting data through a sink delays the data too much. In addition, this solution makes the autonomous unit dependent on the infrastructure. Communication between an autonomous unit and fixed infrastructure requires special attention because the units detach from an access point (or base station) and re-attach to a new location (or station). Layer 3 technologies (IP) offer solutions for moving units, but further investigations/research is required to understand its implications on the delay as well as its robustness. Moreover, security will be an issue as both the de-detachment and re-attachment of the unit must follow strict security procedures. These procedures are likely to add a delay."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 363,
+                    "ref_id": "BIBREF40",
+                    "start": 359,
+                    "text": "[40]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Machine to Machine Communication for Integrating AGV with the Production Environment",
+            "text": "Based on reconfigurable I/Os and communication channels a real-time simulator can usually be easily connected to the practical relays from different vendors. Real-time simulators are used to validate the hardware-in-the-loop (HIL), develop algorithms for adaptive protection, design system schemes for integrity protection and perform remedial action schemes [40] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 587,
+                    "ref_id": "BIBREF41",
+                    "start": 583,
+                    "text": "[41]"
+                },
+                {
+                    "end": 938,
+                    "ref_id": "BIBREF42",
+                    "start": 934,
+                    "text": "[42]"
+                },
+                {
+                    "end": 1172,
+                    "ref_id": "BIBREF43",
+                    "start": 1168,
+                    "text": "[43]"
+                },
+                {
+                    "end": 1225,
+                    "ref_id": "BIBREF44",
+                    "start": 1221,
+                    "text": "[44]"
+                },
+                {
+                    "end": 1250,
+                    "ref_id": "BIBREF45",
+                    "start": 1246,
+                    "text": "[45]"
+                },
+                {
+                    "end": 1287,
+                    "ref_id": "BIBREF46",
+                    "start": 1283,
+                    "text": "[46]"
+                },
+                {
+                    "end": 1763,
+                    "ref_id": "BIBREF47",
+                    "start": 1759,
+                    "text": "[47]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI-Driven Analytics Focused on Data Produced and Consumed by AGV",
+            "text": "AI-driven analytics is one of the domains that plays a significant role in maintaining a fleet of AGV and a production cycle. These analytics cover the development and use of ML algorithms to analyse the behaviour of AGV and to detect any anomalies, possible problems or failures. Machine learning provides many algorithms that fall into two main classes: (i) supervisedwhere information on the occurrence of faults is present in the training data set and (ii) unsupervisedwhere the process information is available, but no maintenance-related data exists. The supervised approaches [41] are divided into (i) classification modelsif the categorical labels are predicted and (ii) regression modelsif the results are continuous values. Classification and regression may need to be preceded by a relevance analysis, which attempts to identify the attributes that are significantly relevant to the classification and regression processes [42] . Supervised learning is successfully used in the area of predictive maintenance to classify faults by building fault detectors. In the literature, these detectors rely on various AI techniques such as Artificial Neural Networks [43] , k-Nearest Neighbours, Support Vector Machines [44] , Bayesian networks [45] or Principle Component Analysis [46] . Unsupervised learning techniques primarily work based on algorithms that detect outliers. Outliers can be detected using statistical tests that assume a distribution or probability model for the data or by using distance measures in which objects that are remote from any other cluster are considered to be outliers. Building models that do not require labelled data is possible because of techniques such as auto-encoders, Deep Belief Networks or statistical analysis [47] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 776,
+                    "ref_id": "BIBREF48",
+                    "start": 772,
+                    "text": "[48]"
+                },
+                {
+                    "end": 913,
+                    "ref_id": "BIBREF49",
+                    "start": 909,
+                    "text": "[49]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 227,
+                    "ref_id": "FIGREF3",
+                    "start": 219,
+                    "text": "(Fig. 4)"
+                }
+            ],
+            "section": "AI-Driven Analytics Focused on Data Produced and Consumed by AGV",
+            "text": "Industrial IoT systems usually generate large volumes of data in various formats and states (e.g. historical, data streams), which raises the challenges of Big Data. AIdriven analytics has to deal with these challenges (Fig. 4) . These challenges led to the creation and popularisation of data lake systems. Data lakes are repositories that keep the data in its original format. In recent years, the sudden proliferation of data in industrial computer systems has increased the pressure to introduce data lake-based analysis methods. More and more data are considered to be useful sources of information for making critical decisions. The vast volume of data that must be processed and the variety of formats that the data is stored in is a significant research challenge [48] . The uncertainty of data complicates data analysis and the inclusion of expert knowledge in data processing offers many advantages [49] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 547,
+                    "ref_id": "BIBREF50",
+                    "start": 543,
+                    "text": "[50]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "AI-Driven Analytics Focused on Data Produced and Consumed by AGV",
+            "text": "Standard condition monitoring techniques rely on inspecting and observing the physical properties of AGV. The methods that are used include visual monitoring (contaminant, leaks, thermograph), audible monitoring and physical monitoring (temperature, vibration). Using real-time analysis of production data and advanced data exploration, we can implement remote condition monitoring and predictive maintenance tools to detect the first signs of failure long before the appearance of the early alarms that precede AGV failures in a short period [50] . As discrete production lines become more and more complicated, predictive maintenance has become a vital task for the engineers that are responsible for production support. Many potential technological and technical problems can be detected based on early signs that are first noticeable in changes in energy consumption. The current data can be compared with the information related to the energy consumption profiles in an appropriate production context. This comparison allows maintenance tasks to be planned and, as a result, reduces losses related to production breakdowns."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AI-Driven Analytics Focused on Data Produced and Consumed by AGV",
+            "text": "Thus, several challenges should be considered for the implementation of AGV in real-world domains and applications. Based on the AI-driven methodologies, pure data can produce more accurate performance. Most of the data that is collected from AVG may be incomplete and inconsistent and especially those data are collected by mobile or senor devices. Currently, the pre-processing step of data (i.e. labelling the data) in AI-driven analysis must be performed manually. It is necessary to build an intelligent model to refine the collected data in order to obtain excellent performance. To have better support for decision making, it is also a challenge to implement an automatic decision-support system that is based on the results produced by the AI-driven methodologies. Moreover, the results of AVG that are produced should consider the multi-objective criteria in order to achieve global optimisation for different tasks and domains. It is a considerable challenge to develop an optimised AI-driven system for AVG for intelligent decision-making."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions",
+            "text": "The use of Autonomous Guided Vehicles (AGV) in production systems has many advantages as it allows production lines to be automated and accelerates logistics. However, it also raises many challenges that provide a space for future research. In this paper, authors tried to evoke a discussion on selected issues related to application of AGVs in flexible manufacturing systems including: (i) the fusion between AGV and collaborative robot with focus on flexibility and interoperability; (ii) the new models for machine to machine communication for AGVs which allow them to cooperate with production environment and at the same time use solutions developed for IoT; (iii) AIdriven analytics focused on the data produced and consumed by AGV that have to be adapted to the pipe-line processing of data collected from many distributed sources."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {
+                    "institution": "Silesian University of Technology",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Poland",
+                        "settlement": "Gliwice"
+                    }
+                },
+                "email": "rcupek@polsl.pl",
+                "first": "Rafal",
+                "last": "Cupek",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "",
+                    "laboratory": "AIUT Sp. z o.o. (Ltd.)",
+                    "location": {
+                        "country": "Poland",
+                        "settlement": "Gliwice"
+                    }
+                },
+                "email": "mdrewniak@aiut.com.pl",
+                "first": "Marek",
+                "last": "Drewniak",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "University of Applied Sciences",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Norway",
+                        "settlement": "Bergen"
+                    }
+                },
+                "email": "",
+                "first": "Marcin",
+                "last": "Fojcik",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "University of Applied Sciences",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Norway",
+                        "settlement": "Bergen"
+                    }
+                },
+                "email": "",
+                "first": "Erik",
+                "last": "Kyrkjeb\u00f8",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "jerrylin@ieee.org",
+                "first": "Jerry",
+                "last": "",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "University of Applied Sciences",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Norway",
+                        "settlement": "Bergen"
+                    }
+                },
+                "email": "",
+                "first": "Chun-Wei",
+                "last": "Lin",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Silesian University of Technology",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Poland",
+                        "settlement": "Gliwice"
+                    }
+                },
+                "email": "dariusz.mrozek@polsl.pl",
+                "first": "Dariusz",
+                "last": "Mrozek",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "University of Applied Sciences",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Norway",
+                        "settlement": "Bergen"
+                    }
+                },
+                "email": "knut.ovsthus@hvl.no",
+                "first": "Knut",
+                "last": "\u00d8vsthus",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Silesian University of Technology",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Poland",
+                        "settlement": "Gliwice"
+                    }
+                },
+                "email": "aziebinski@polsl.pl",
+                "first": "Adam",
+                "last": "Ziebinski",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Autonomous Guided Vehicles for Smart Industries -The State-of-the-Art and Research Challenges"
+    },
+    "paper_id": "27787733f48ada485cf995839f1147c3e8324bab",
     "ref_entries": {
         "FIGREF0": {
-            "text": "Autonomous Guided Vehicle produced by AIUT Ltd.",
             "latex": null,
+            "text": "Autonomous Guided Vehicle produced by AIUT Ltd.",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "A Reference Architecture Model for Industry 4.0 (RAMI 4.0)",
             "latex": null,
+            "text": "A Reference Architecture Model for Industry 4.0 (RAMI 4.0)",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "RAMI4.0 administration shell",
             "latex": null,
+            "text": "RAMI4.0 administration shell",
             "type": "figure"
         },
         "FIGREF3": {
-            "text": "Remote monitoring, managing, and detecting failures in AGVs connected to the control center through real-time AI-based analytics.",
             "latex": null,
+            "text": "Remote monitoring, managing, and detecting failures in AGVs connected to the control center through real-time AI-based analytics.",
             "type": "figure"
         }
-    },
-    "back_matter": [
-        {
-            "text": "Acknowledgements. This work was supported by the Polish National Centre of Research and Development from the project \"Hybrid system of automated internal logistics supporting adaptive manufacturing\" (grant agreement no POIR.01.01.01-00-0460/19-01). The project is realized as Operation 1.1.1.: \"Industrial research and development work implemented by enterprises\" of the Smart Growth Operational Programme from 2014-2020 and is co-financed by the European Regional Development Fund and partially by Statutory Research funds of Department of Applied Informatics and Department of Distributed Systems and Informatic Devices, Silesian University of Technology, Gliwice, Poland (grant No BK/2020).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "acknowledgement"
-        }
-    ]
+    }
 }

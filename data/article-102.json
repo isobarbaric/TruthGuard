@@ -1,1951 +1,1951 @@
 {
-    "paper_id": "27904fe51b5b3b6bf8e6632d51fa644ede6e29a0",
-    "metadata": {
-        "title": "The impact of natural disasters on the spread of COVID-19: a geospatial, agent-based epidemiology model",
-        "authors": [
-            {
-                "first": "Maximillian",
-                "middle": [],
-                "last": "Van Wyk De Vries",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Lekaashree",
-                "middle": [],
-                "last": "Rambabu",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "Background: Natural disasters and infectious diseases result in widespread disruption to human health and livelihood. At the scale of a global pandemic, the co-occurrence of natural disasters is inevitable. However, the impact of natural disasters on the spread of COVID-19 has not been extensively evaluated through epidemiological modelling.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Background: Natural disasters and infectious diseases result in widespread disruption to human health and livelihood. At the scale of a global pandemic, the co-occurrence of natural disasters is inevitable. However, the impact of natural disasters on the spread of COVID-19 has not been extensively evaluated through epidemiological modelling."
         },
         {
-            "text": "We create an agent-based epidemiology model based on COVID-19 clinical, epidemiological, and geographic data. We first model 35 scenarios with varying natural disaster timing and duration for a COVID-19 outbreak in a theoretical region. We then evaluate the potential effect of an eruption of Vesuvius volcano on the spread of COVID-19",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "We create an agent-based epidemiology model based on COVID-19 clinical, epidemiological, and geographic data. We first model 35 scenarios with varying natural disaster timing and duration for a COVID-19 outbreak in a theoretical region. We then evaluate the potential effect of an eruption of Vesuvius volcano on the spread of COVID-19"
         },
         {
-            "text": "Results: In a majority of cases, the occurrence of a natural disaster increases the number of disease related fatalities. For a natural disaster fifty days after infection onset, the median increase in fatalities is 2, 59, and 180% for a 2, 14, and 31-day long natural disaster respectively, when compared to the no natural disaster scenario. For the Campania case, the median increase in fatalities is 1.1 and 2.4 additional fatalities per 100,000 for eruptions on day 1 and 100 respectively, and 60.0 additional fatalities per 100,000 for an eruption close to the peak in infections (day 50).",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Results: In a majority of cases, the occurrence of a natural disaster increases the number of disease related fatalities. For a natural disaster fifty days after infection onset, the median increase in fatalities is 2, 59, and 180% for a 2, 14, and 31-day long natural disaster respectively, when compared to the no natural disaster scenario. For the Campania case, the median increase in fatalities is 1.1 and 2.4 additional fatalities per 100,000 for eruptions on day 1 and 100 respectively, and 60.0 additional fatalities per 100,000 for an eruption close to the peak in infections (day 50)."
         },
         {
-            "text": "Our results show that the occurrence of a natural disaster in most cases leads to an increase in infection related fatalities, with wide variance in possible outcomes depending on the timing of the natural disaster relative to the peak in infections and the duration of the natural disaster.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Our results show that the occurrence of a natural disaster in most cases leads to an increase in infection related fatalities, with wide variance in possible outcomes depending on the timing of the natural disaster relative to the peak in infections and the duration of the natural disaster."
         }
     ],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "As of July 2021, COVID-19 has spread to over 200 countries, infected more than 188 million, and killed over 4 million people [1] . Natural disasters can threaten the measures in place to reduce disease transmission [2] . Understanding how disease spread can be worsened by natural disasters will aid preparedness and response planning [3] . Although a small increase in risk of epidemic outbreak following natural disasters has been identified [2, 4] , very little is known about the spread of infection following a natural disaster during a pandemic such as Numerical modelling is an important tool for understanding and projecting the spread of infectious diseases [5, 6] , including COVID-19 [7] [8] [9] . A common approach is to divide a population up into susceptible, infected, recovered and deceased individuals [5, 6, 10] . More sophisticated models incorporate a larger number of different states (e.g. asymptomatic or seriously ill individuals [7] ;), and may account for other real world complications (e.g. age, vaccination campaigns, etc.).",
-            "cite_spans": [
-                {
-                    "start": 125,
-                    "end": 128,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 215,
-                    "end": 218,
-                    "text": "[2]",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 335,
-                    "end": 338,
-                    "text": "[3]",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 444,
-                    "end": 447,
-                    "text": "[2,",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 448,
-                    "end": 450,
-                    "text": "4]",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 667,
-                    "end": 670,
-                    "text": "[5,",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 671,
-                    "end": 673,
-                    "text": "6]",
-                    "ref_id": null
-                },
-                {
-                    "start": 695,
-                    "end": 698,
-                    "text": "[7]",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 699,
-                    "end": 702,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 703,
-                    "end": 706,
-                    "text": "[9]",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 819,
-                    "end": 822,
-                    "text": "[5,",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 823,
-                    "end": 825,
-                    "text": "6,",
-                    "ref_id": null
-                },
-                {
-                    "start": 826,
-                    "end": 829,
-                    "text": "10]",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 954,
-                    "end": 957,
-                    "text": "[7]",
-                    "ref_id": "BIBREF6"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "The time varying proportion of each state may be calculated deterministically by solving a series of ordinary Open Access *Correspondence: vanwy048@umn.edu 2 St Anthony Falls Laboratory, University of Minnesota, 301-25 Tate Hall, University of Minnesota, 116 Church St SE, Minneapolis, MN 55455, USA Full list of author information is available at the end of the article differential equations [5] [6] [7] . This approach can accurately portray the spread of infectious diseases on a large scale [6, 7] . The deterministic approach is ill suited for simulation of small population sizes, heterogeneous populations and threshold behaviour [9, 11] . A stochastic, agentbased model structure may also be used [10, [12] [13] [14] , in which case the variation between runs allows for quantification of uncertainty [8, 14] . Agent-based models are are well suited to represent heterogeneous or complex populations and spatial variability [10, 12, 13] .",
-            "cite_spans": [
-                {
-                    "start": 394,
-                    "end": 397,
-                    "text": "[5]",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 398,
-                    "end": 401,
-                    "text": "[6]",
-                    "ref_id": null
-                },
-                {
-                    "start": 402,
-                    "end": 405,
-                    "text": "[7]",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 496,
-                    "end": 499,
-                    "text": "[6,",
-                    "ref_id": null
-                },
-                {
-                    "start": 500,
-                    "end": 502,
-                    "text": "7]",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 638,
-                    "end": 641,
-                    "text": "[9,",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 642,
-                    "end": 645,
-                    "text": "11]",
-                    "ref_id": "BIBREF10"
-                },
-                {
-                    "start": 706,
-                    "end": 710,
-                    "text": "[10,",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 711,
-                    "end": 715,
-                    "text": "[12]",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 716,
-                    "end": 720,
-                    "text": "[13]",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 721,
-                    "end": 725,
-                    "text": "[14]",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 810,
-                    "end": 813,
-                    "text": "[8,",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 814,
-                    "end": 817,
-                    "text": "14]",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 933,
-                    "end": 937,
-                    "text": "[10,",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 938,
-                    "end": 941,
-                    "text": "12,",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 942,
-                    "end": 945,
-                    "text": "13]",
-                    "ref_id": "BIBREF12"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "The main objective of the study is to evaluate the impact of a natural disaster on the spread of COVID-19 infection.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Objectives"
+            "section": "Acknowledgements",
+            "text": "MV was supported by a University of Minnesota College of Science and Engineering fellowship. The authors acknowledge the Minnesota Supercomputing Institute (MSI) at the University of Minnesota for providing resources that contributed to the research results reported within this paper."
         },
         {
-            "text": "The sub-objectives are the following: ",
+            "cite_spans": [
+                {
+                    "end": 6,
+                    "ref_id": null,
+                    "start": 1,
+                    "text": "18:20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "annex",
+            "text": " 18:20 evacuating high volcanic-risk areas. The stochastic modelling approach highlights a large variability in possible outcomes for the same initial conditions, complicating disease forecasting. Close links between the epidemiology response and natural disaster response communities are necessary for the formulation of timely risk assessments.Abbreviations COVID-19: Coronavirus disease caused by SARS-COV-2 (Severe Acute Respiratory Syndrome Coronavirus 2); IQR: Interquartile range."
+        },
+        {
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Objectives"
-        },
-        {
-            "text": "We use geoSIR, a geospatial, agent-based model structure to account for the spread of disease and movement of individuals within the model space from a natural disaster evacuation [10, 12] . This model builds on the basic susceptible, infected, recovered model structure to better account for the characteristics of COVID-19 [5, 6, 10] . Every cell in the model is either occupied by an individual, or by empty space (X e ). Each model individual may be in one of 7 states: susceptible (S), infected and mildly ill (I m ), infected and severely ill (I s ), infected and asymptomatic (I a ), recovered (R), or deceased (D). Empty space allows us to account for geographic factors such as spatially varying population density and the presence of cities. Individuals may also self-isolate or be quarantined. We base the definition of our states and model disease characteristics on COVID-19 data [15] [16] [17] [18] [19] [20] [21] , and our model space on real-world geospatial data. In geoSIR, the spread of the disease is initiated with the arrival of infected travellers [22] . The disease then spreads further through encounters between individuals within the model space. In each timestep, individuals make both close and distant encounters with other individuals. If either induvial is infected, they have a given probability of transmitting the infection to the other individual, which we parametrise based on available data for COVID-19 [20, 23] . We also ensure that resulting reproductive number R 0 (as calculated from eq. 6) are consistent with the range estimated for COVID-19 [15, 19, 24] .",
-            "cite_spans": [
-                {
-                    "start": 180,
-                    "end": 184,
-                    "text": "[10,",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 185,
-                    "end": 188,
-                    "text": "12]",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 325,
-                    "end": 328,
-                    "text": "[5,",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 329,
-                    "end": 331,
-                    "text": "6,",
-                    "ref_id": null
-                },
-                {
-                    "start": 332,
-                    "end": 335,
-                    "text": "10]",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 893,
-                    "end": 897,
-                    "text": "[15]",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 898,
-                    "end": 902,
-                    "text": "[16]",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 903,
-                    "end": 907,
-                    "text": "[17]",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 908,
-                    "end": 912,
-                    "text": "[18]",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 913,
-                    "end": 917,
-                    "text": "[19]",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 918,
-                    "end": 922,
-                    "text": "[20]",
-                    "ref_id": "BIBREF19"
-                },
-                {
-                    "start": 923,
-                    "end": 927,
-                    "text": "[21]",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 1071,
-                    "end": 1075,
-                    "text": "[22]",
-                    "ref_id": "BIBREF21"
-                },
-                {
-                    "start": 1442,
-                    "end": 1446,
-                    "text": "[20,",
-                    "ref_id": "BIBREF19"
-                },
-                {
-                    "start": 1447,
-                    "end": 1450,
-                    "text": "23]",
-                    "ref_id": "BIBREF22"
-                },
-                {
-                    "start": 1587,
-                    "end": 1591,
-                    "text": "[15,",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 1592,
-                    "end": 1595,
-                    "text": "19,",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 1596,
-                    "end": 1599,
-                    "text": "24]",
-                    "ref_id": "BIBREF23"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Spatial, agent based model"
-        },
-        {
-            "text": "Infections may be either asymptomatic, mild or severe. Asymptomatic and mildly infected individuals merely transmit the infection, while severely infected individuals are at risk of death. If the total number of severely infected individuals exceeds the local hospital capacity (for which we use the number of intensive care unit beds), the case fatality rate of severely infected individuals is increased. Further description of the model setup and key equations are provided in the supplementary materials, as well as a brief use manual for the opensource code.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Spatial, agent based model"
-        },
-        {
-            "text": "We use published data for the spread of COVID-19 to parametrise the disease transmission in our model [15] [16] [17] [18] [19] [20] [21] . Our data sources consider the original SARS-CoV-2 strain and not any of the later variants.",
-            "cite_spans": [
-                {
-                    "start": 102,
-                    "end": 106,
-                    "text": "[15]",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 107,
-                    "end": 111,
-                    "text": "[16]",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 112,
-                    "end": 116,
-                    "text": "[17]",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 117,
-                    "end": 121,
-                    "text": "[18]",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 122,
-                    "end": 126,
-                    "text": "[19]",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 127,
-                    "end": 131,
-                    "text": "[20]",
-                    "ref_id": "BIBREF19"
-                },
-                {
-                    "start": 132,
-                    "end": 136,
-                    "text": "[21]",
-                    "ref_id": "BIBREF20"
-                }
-            ],
-            "ref_spans": [],
-            "section": "COVID-19 data sources"
-        },
-        {
-            "text": "The spread of the disease may be described by a disease spread parameter \u03b1:",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "COVID-19 data sources"
-        },
-        {
-            "text": "In which I is the number of infected individuals and \u03b1 is given by:",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "COVID-19 data sources"
-        },
-        {
-            "text": "With n ci being the number of close encounters, P ci being the probability of infection for close encounters, n di being the number of distant encounters, and P di being the probability of infection for distant encounters. Close encounters can represent sustained contact with another individual within a household or among close friends. Distant encounters can represent an individual's risk of catching an infection through indirect contact such as visits to supermarkets, fomites transmission or whilst commuting. The details of these two parameters can be modified to account for specific modes of transmission.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "COVID-19 data sources"
-        },
-        {
-            "text": "We use data from two case studies of COVID-19 transmission in Wenzhou, China [23] and Bavaria, Germany [20] to estimate parameters. We also ensure that resulting reproductive number R 0 (as calculated from eq. 6) are consistent with the range estimated for COVID-19 [15, 19] . We use n ci \u2208 [0,4], P ci = 0.4 \u00b1 0.1, n ci \u2208 [5, 15] , and P ci = 0.025 \u00b1 0.005. The number of close and distant encounters are comparable to those used for an agentbased simulation of influenza outbreaks in New York City [10] . The number of encounters and probability of infection transmission can be reduced through lockdowns and social distancing measures.",
-            "cite_spans": [
-                {
-                    "start": 77,
-                    "end": 81,
-                    "text": "[23]",
-                    "ref_id": "BIBREF22"
-                },
-                {
-                    "start": 103,
-                    "end": 107,
-                    "text": "[20]",
-                    "ref_id": "BIBREF19"
-                },
-                {
-                    "start": 266,
-                    "end": 270,
-                    "text": "[15,",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 271,
-                    "end": 274,
-                    "text": "19]",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 323,
-                    "end": 326,
-                    "text": "[5,",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 327,
-                    "end": 330,
-                    "text": "15]",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 500,
-                    "end": 504,
-                    "text": "[10]",
-                    "ref_id": "BIBREF9"
-                }
-            ],
-            "ref_spans": [],
-            "section": "COVID-19 data sources"
-        },
-        {
-            "text": "Infections begin by a period of disease incubation and are followed by a period of symptoms (unless the infection is asymptomatic). We use a mean incubation period of 5.1 days and a mean duration of symptoms of (1) 11 days [17, 18, 25] . A proportion P A of infections begin as asymptomatic and the remaining 1 \u2212 P A begin as mild.",
-            "cite_spans": [
-                {
-                    "start": 223,
-                    "end": 227,
-                    "text": "[17,",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 228,
-                    "end": 231,
-                    "text": "18,",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 232,
-                    "end": 235,
-                    "text": "25]",
-                    "ref_id": "BIBREF24"
-                }
-            ],
-            "ref_spans": [],
-            "section": "COVID-19 data sources"
-        },
-        {
-            "text": "The proportion of asymptomatic COVID-19 patients has been estimated at around 20% through airport screenings [26] , on the Diamond Princess cruise ship [21] and in China [27] . We use P A = 0.2 \u00b1 0.05. Asymptomatic infected individuals may infect others, but do not change state until they recover. Mild cases have a P S chance of transitioning to severe cases over the course of their illness. We use a definition of severe cases that combines the 'severe' and 'critical' categories from Wu and McGoowan [16] , resulting in P S = 0.19 \u00b1 0.02. Each severely ill individual has a probability P D of dying. The expected probability of dying for any infected individual, termed infection fatality rate P IFR is thus:",
-            "cite_spans": [
-                {
-                    "start": 109,
-                    "end": 113,
-                    "text": "[26]",
-                    "ref_id": "BIBREF25"
-                },
-                {
-                    "start": 152,
-                    "end": 156,
-                    "text": "[21]",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 170,
-                    "end": 174,
-                    "text": "[27]",
-                    "ref_id": "BIBREF26"
-                },
-                {
-                    "start": 505,
-                    "end": 509,
-                    "text": "[16]",
-                    "ref_id": "BIBREF15"
-                }
-            ],
-            "ref_spans": [],
-            "section": "COVID-19 data sources"
-        },
-        {
-            "text": "We use COVID-19 infection mortality rates from a compilation of Chinese data [16, 17, 28] , calculated at 2.3 and 1.4% respectively. Accordingly, we define P D (0) = 0.12 \u00b1 0.02, giving an approximate infection mortality rate of 1.8%. A full list of the parameters used and associated data sources is provided in supplementary Table 1 .",
-            "cite_spans": [
-                {
-                    "start": 77,
-                    "end": 81,
-                    "text": "[16,",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 82,
-                    "end": 85,
-                    "text": "17,",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 86,
-                    "end": 89,
-                    "text": "28]",
-                    "ref_id": "BIBREF27"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 327,
-                    "end": 334,
-                    "text": "Table 1",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "COVID-19 data sources"
-        },
-        {
-            "text": "The model simulation grid is built according to realworld geospatial data. We vary the initial proportion of susceptible individuals S and empty space X e to account for differences in population density and define the boundaries of the model space based on geographical information ( Fig. 1 ). High and medium natural hazard areas are also inputted. These determine the areas in which evacuation may be necessary. For Vesuvius, high and medium hazard zone masks are created based on the 'red' and 'yellow' zones defined in the most recent Vesuvius National Emergency Plan [29] . Individuals living in high or medium hazard zones are tagged and retain more social interactions (e.g. a higher number of close or distant encounters) than other individuals following evacuation. Social distancing is challenging both during evacuation and in densely packed evacuation facilities [30] [31] [32] .",
-            "cite_spans": [
-                {
-                    "start": 573,
-                    "end": 577,
-                    "text": "[29]",
-                    "ref_id": "BIBREF28"
-                },
-                {
-                    "start": 876,
-                    "end": 880,
-                    "text": "[30]",
-                    "ref_id": "BIBREF29"
-                },
-                {
-                    "start": 881,
-                    "end": 885,
-                    "text": "[31]",
-                    "ref_id": "BIBREF30"
-                },
-                {
-                    "start": 886,
-                    "end": 890,
-                    "text": "[32]",
-                    "ref_id": "BIBREF32"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 285,
-                    "end": 291,
-                    "text": "Fig. 1",
-                    "ref_id": "FIGREF0"
-                }
-            ],
-            "section": "Geospatial data sources"
-        },
-        {
-            "text": "We run two different experiments, one based on a theoretical region to evaluate the effect of different disaster timings and durations in the absence of real-world complexity and a second based on the region of Campania, Italy.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Model scenarios: theoretical region"
-        },
-        {
-            "text": "The theoretical region includes an idealised town or city with high population densities that radially decay away from the town centre. Initial effective population (3) P IFR = (1 \u2212 P A ) P S P D densities vary from 1 for the centre of town to 0.3 in rural areas. A concentric geological hazard is located within this study area, with the medium hazard region overlapping moderate population density outskirts of the city and rural areas. Hazard N H is divided into high and medium hazard zones, with the high hazard zone entirely enveloped by the medium hazard zone. The theoretical region has a population of 100,000 individuals. We find that a population of 100,000 is sufficiently large to accurately reproduce disease spread, yet low enough to remain computationally efficient. We test 35 different scenarios, described in detail in supplementary Table 2 . These scenarios vary the presence or absence of lockdown measures, the timing and duration of the natural disaster, and the type of evacuation. We conduct 100 different runs for each scenario.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 852,
-                    "end": 859,
-                    "text": "Table 2",
-                    "ref_id": null
-                }
-            ],
-            "section": "Model scenarios: theoretical region"
-        },
-        {
-            "text": "Campania is Italy's third most populated region and is home to its third largest city (Napoli). It is also home to active volcano Vesuvius. For the Campania model runs, we simulate the full 5.8 million inhabitants for 6 different scenarios. Due to the large population size in this scenario, we adapt the code to run on a 24 core Haswell E5-2680v3 processor node of the Minnesota Supercomputing Institute. One of these scenarios is comparable to reality, with no natural disaster and a lockdown implemented. We evaluate the results of it against real-world data from the wave of COVID-19 infections in spring 2020. The other five scenarios are counterfactual scenarios-one in which no natural disaster occurs but no lockdown is implemented, and the other four in which a natural disaster occurs on day 2, 25, 50 or 100 of the simulation. We use a real-world natural disaster, the eruption of Vesuvius. The key mitigation strategy for a volcanic eruption at Vesuvius is a timely evacuation [33, 34] , for which evacuation plans have been designed [29] . This disaster response results in widespread population displacement -a key risk factor in disease spread [2] .",
-            "cite_spans": [
-                {
-                    "start": 989,
-                    "end": 993,
-                    "text": "[33,",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 994,
-                    "end": 997,
-                    "text": "34]",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 1046,
-                    "end": 1050,
-                    "text": "[29]",
-                    "ref_id": "BIBREF28"
-                },
-                {
-                    "start": 1159,
-                    "end": 1162,
-                    "text": "[2]",
-                    "ref_id": "BIBREF1"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Model scenarios: Eruption of Vesuvius in Campania, Italy"
-        },
-        {
-            "text": "In the theoretical region, we perform 100 model runs for 35 different scenarios. These scenarios cover various permutations of lockdown, natural disaster timing and natural disaster duration. Both the number of infections and number of deaths are higher when a natural disaster occurs during the infection outbreak (Fig. 2) . The scale of this increase depends on the relative timing of the natural disaster and peak in infection cases, and on the duration of the disaster (Fig. 2) . In the case with no natural disaster, the median number of infections is 4900 (IQR 41405,640) cases per 100,000 and the median number of deaths is 66 (IQR 53-76) per 100,000. The Illustration of the geospatial data used to build the geoSIR model space, using four maps of Campania. Geographical boundaries, population density data, and hazard zones are mapped onto a model grid. Satellite image from Sentinel-2. In the population density map, blue represents low population density and white represents high population density. In the hazard zones map, red, orange, and green represent the high, medium and low hazard zones, respectively. In the model space map, each black pixel represents an individual and each white pixel represents empty space For a given natural disaster timing (50 days), long disruptions cause more infections and deaths than short ones. A 3 day long natural disaster results in a similar number of deaths (median 66.5, IQR 55-80.5 per 100,000) as the case with no natural disaster. A 31 day long natural disaster, however, causes and 180% increase in median number of deaths (median 183.5 IQR 149.5-3172 deaths per 100,000). In the case where no lockdown is instigated, around 80% of the population is infected and death toll is extreme (median 3028, IQR 2674-3259 deaths per 100,000).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 315,
-                    "end": 323,
-                    "text": "(Fig. 2)",
-                    "ref_id": "FIGREF1"
-                },
-                {
-                    "start": 473,
-                    "end": 481,
-                    "text": "(Fig. 2)",
-                    "ref_id": "FIGREF1"
-                }
-            ],
-            "section": "Results"
-        },
-        {
-            "text": "For Campania, we first model the COVID-19 outbreak in a scenario similar to reality (lockdown initiated, no Vesuvius eruption). Our model predicts a median of 580 (IQR 553-641) infections per 100,000, and a median of 8.5 (IQR 7.9-8.9) deaths per 100,000. Model infections are lower, but consistent with Vollmer et al., (2020)'s estimate of 590-950 cases per 100,000 [35] and model deaths are consistent with real world data (7.7 deaths per 100,000 in September 2020) [1] .",
-            "cite_spans": [
-                {
-                    "start": 366,
-                    "end": 370,
-                    "text": "[35]",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 467,
-                    "end": 470,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Results"
-        },
-        {
-            "text": "We then model five counterfactual scenarios, four of which include an eruption of Vesuvius (Fig. 3) during Campania's COVID-19 outbreak. The increase in total number of deaths remains low for an early (Day 2, mean 9.6, IQR 7.6-13.1 deaths per 100,000) or post infections peak (Day 100, median 10.9, IQR 10-12.1 deaths per 100,000) Vesuvius eruption. The median deaths rise to.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 91,
-                    "end": 99,
-                    "text": "(Fig. 3)",
-                    "ref_id": null
-                }
-            ],
-            "section": "Results"
-        },
-        {
-            "text": "68.5 (IQR 12.1-133.3) per 100,000 when a Vesuvius eruption occurs close to the infection peak (Day 50). In this case, the deaths per 100,000 are comparable to the states in Northern Italy worst hit by COVID-19 (168, 95 and 44 deaths per 100,000 in Lombardy, Piedmont and Veneto respectively in September 2020) or other hardhit regions such at New York State, USA (168 deaths per 100,000 in September 2020) [1] . For an eruption occurring close to the peak in infections at day 50, there is a large variability in possible outcomes. The median death rate is 8 times higher than with no eruption (68.5 deaths per 100,000). However, in 32% of runs the death rate is no more than double that of the no eruption scenario, while in 12% of runs the death rate is more than 25 times higher.",
-            "cite_spans": [
-                {
-                    "start": 406,
-                    "end": 409,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Results"
-        },
-        {
-            "text": "Italy was one of the most hard-hit countries during the COVID-19 pandemic [7] , with over 39,000 deaths and 750,000 confirmed cases as of November 2020. Campania had more than 4800 confirmed infections and 400 deaths [1] . Although the probability of Vesuvius erupting during the COVID-19 pandemic is low, the wealth of volcanic evacuation plans and COVID-19 data make it a valuable case study. The exact nature of the geological hazard is not of primary importance, rather the parameters of the evacuation and increased human contact following influence the progression of the infectious disease outbreak. The Campania results may be used to understand the effect of other disasters requiring widespread evacuation during a pandemic. Natural disasters have already occurred during the COVID-19 pandemic [36, 37] , and will occur during future infectious disease outbreaks. Cyclone Amphan made landfall in Bangladesh and West Bengal, India on May 20, 2020, prompting widespread evacuations. The number of new COVID-19 infections in the first Fig. 3 Results of the number of daily infections and deaths from COVID-19 in Campania, Italy under different scenarios. The red line represents real world data, the black line represents model mean and the grey lines represent individual model runs. All values are filtered with a 10 day moving mean to remove short period noise. The in the scenario with no eruption and a lockdown, model outputs are close to the observed real world data (a and g). Note that the model mean new daily cases appear artificially low due to different peak timings, but that the magnitude of individual runs are comparable to the real world outputs. The mean number of deaths is higher in all scenarios in which Vesuvius erupts (c and i, d and j, e and k, f and l), and higher by more than an order of magnitude where the eruption coincides with the peak in infections (e and k)",
-            "cite_spans": [
-                {
-                    "start": 74,
-                    "end": 77,
-                    "text": "[7]",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 217,
-                    "end": 220,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 804,
-                    "end": 808,
-                    "text": "[36,",
-                    "ref_id": "BIBREF36"
-                },
-                {
-                    "start": 809,
-                    "end": 812,
-                    "text": "37]",
-                    "ref_id": "BIBREF37"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 1042,
-                    "end": 1048,
-                    "text": "Fig. 3",
-                    "ref_id": null
-                }
-            ],
-            "section": "Discussions"
-        },
-        {
-            "text": "week of June was 3.5 times higher in West Bengal and 4.8 times higher in Bangladesh compared to the same period in May [1] . The number of COVID-19 related deaths rose by a similar percentage. Further research is required to determine whether Cyclone Amphan played a role in this increase in infections and deaths, which at this stage cannot be attributed to any particular cause.",
-            "cite_spans": [
-                {
-                    "start": 119,
-                    "end": 122,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussions"
-        },
-        {
-            "text": "The majority of previous studies on the relationship between infectious disease outbreak and natural disasters have focused on whether natural disasters initiate new outbreaks. In a small number of cases, a disease outbreak has followed a natural disaster [2] . However, a review of the topic concluded that \"the risk for epidemics after a geophysical disaster is very low\" [4] . Our results do not contradict this but highlight the previously overlooked extreme risk in cases of already widespread infection (Fig. 4) .",
-            "cite_spans": [
-                {
-                    "start": 256,
-                    "end": 259,
-                    "text": "[2]",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 374,
-                    "end": 377,
-                    "text": "[4]",
-                    "ref_id": "BIBREF3"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 509,
-                    "end": 517,
-                    "text": "(Fig. 4)",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Discussions"
-        },
-        {
-            "text": "The possibility of natural hazards interacting with COVID-19 has previously been raised [3, 36, 37] . Quigley et al., 2020 use a phenomenological model to investigate the impact of natural disaster occurrence during the COVID-19 pandemic. They also find that this results in a larger total number of infections, although the simplicity of their model precludes detailed interpretation [36] . Phillips et al., 2020 propose that climate change is increasing the magnitude and frequency of climatic hazards, therefore raising the risk of natural disasters cooccurring with disease outbreaks [37] .",
-            "cite_spans": [
-                {
-                    "start": 88,
-                    "end": 91,
-                    "text": "[3,",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 92,
-                    "end": 95,
-                    "text": "36,",
-                    "ref_id": "BIBREF36"
-                },
-                {
-                    "start": 96,
-                    "end": 99,
-                    "text": "37]",
-                    "ref_id": "BIBREF37"
-                },
-                {
-                    "start": 385,
-                    "end": 389,
-                    "text": "[36]",
-                    "ref_id": "BIBREF36"
-                },
-                {
-                    "start": 392,
-                    "end": 413,
-                    "text": "Phillips et al., 2020",
-                    "ref_id": "BIBREF37"
-                },
-                {
-                    "start": 588,
-                    "end": 592,
-                    "text": "[37]",
-                    "ref_id": "BIBREF37"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussions"
-        },
-        {
-            "text": "We use a stochastic SIR type model, built with a realworld geographic model space, to investigate the effect on natural disaster evacuations on the spread of COVID-19. We consider two scenarios, one in an idealised region, and one based on the region of Campania, Italy. Our model results show that in most cases, the occurrence of a natural disaster during the pandemic increases COVID-19 spread. Furthermore, we investigate the key risk factors involved in this increase and highlight the timing and duration of the natural disaster as they key controls on the increase in infections.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusion"
-        },
-        {
-            "text": "In our Campania test case, we model the effect of evacuation in response to an eruption of Vesuvius volcano on all 5.8 million residents, based on an existing local disaster plan. We find that an eruption occurring close to the peak in COVID-19 infections could increase the number of disease-related deaths from 8.5 (IQR 7.9-8.9) deaths per 100,000 to 68.5 (IQR 12.1-133.3) per 100,000 due to the large population displacement required in ",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusion"
+            "section": "Supplementary Information",
+            "text": "The online version contains supplementary material available at https:// doi. org/ 10. 1186/ s12976-021-00151-0. "
         }
     ],
     "bib_entries": {
         "BIBREF0": {
-            "ref_id": "b0",
-            "title": "An interactive web-based dashboard to track COVID-19 in real time",
             "authors": [
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Dong",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Du",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Gardner",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "533--537",
+            "ref_id": "b0",
+            "title": "An interactive web-based dashboard to track COVID-19 in real time",
             "venue": "Lancet Infect Dis",
             "volume": "20",
-            "issn": "",
-            "pages": "533--537",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF1": {
-            "ref_id": "b1",
-            "title": "Infectious diseases following natural disasters: prevention and control measures",
             "authors": [
                 {
                     "first": "I",
+                    "last": "Kouadio",
                     "middle": [
                         "K"
                     ],
-                    "last": "Kouadio",
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Aljunid",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Kamigaki",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Hammad",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Oshitani",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
+            "issn": "",
+            "other_ids": {},
+            "pages": "95--104",
+            "ref_id": "b1",
+            "title": "Infectious diseases following natural disasters: prevention and control measures",
             "venue": "Expert Rev Anti-Infect Ther",
             "volume": "10",
-            "issn": "",
-            "pages": "95--104",
-            "other_ids": {}
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "Forward planning for disaster-related mass gatherings amid COVID-19",
-            "authors": [
-                {
-                    "first": "S",
-                    "middle": [
-                        "H"
-                    ],
-                    "last": "Ebrahim",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Lancet Planet Health",
-            "volume": "4",
-            "issn": "",
-            "pages": "379--80",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Negligible Risk for Epidemics after Geophysical Disasters",
-            "authors": [
-                {
-                    "first": "N",
-                    "middle": [],
-                    "last": "Floret",
-                    "suffix": ""
-                },
-                {
-                    "first": "J-F",
-                    "middle": [],
-                    "last": "Viel",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [],
-                    "last": "Mauny",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [],
-                    "last": "Hoen",
-                    "suffix": ""
-                },
-                {
-                    "first": "R",
-                    "middle": [],
-                    "last": "Piarroux",
-                    "suffix": ""
-                }
-            ],
-            "year": 2006,
-            "venue": "Emerg Infect Dis",
-            "volume": "12",
-            "issn": "",
-            "pages": "543--551",
-            "other_ids": {}
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation: O Diekmann and JAP Heesterbeek. Chichester",
-            "authors": [],
-            "year": 2000,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy",
-            "authors": [
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Giordano",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "Nat Med",
-            "volume": "2020",
-            "issn": "",
-            "pages": "1--6",
-            "other_ids": {}
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts",
-            "authors": [
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Hellewell",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Lancet Glob Health",
-            "volume": "8",
-            "issn": "",
-            "pages": "488--96",
-            "other_ids": {}
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Early dynamics of transmission and control of COVID-19: a mathematical modelling study",
-            "authors": [
-                {
-                    "first": "A",
-                    "middle": [
-                        "J"
-                    ],
-                    "last": "Kucharski",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Lancet Infect Dis",
-            "volume": "20",
-            "issn": "",
-            "pages": "553--561",
-            "other_ids": {}
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "The Role of Subway Travel in an Influenza Epidemic: A New York City Simulation",
-            "authors": [
-                {
-                    "first": "P",
-                    "middle": [],
-                    "last": "Cooley",
-                    "suffix": ""
-                }
-            ],
-            "year": 2011,
-            "venue": "J Urban Health",
-            "volume": "88",
-            "issn": "",
-            "pages": "982--95",
-            "other_ids": {}
+            "year": 2012
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "A Likelihood Approach for Real-Time Calibration of Stochastic Compartmental Epidemic Models",
             "authors": [
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Zimmer",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Yaesoubi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Cohen",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2017,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b10",
+            "title": "A Likelihood Approach for Real-Time Calibration of Stochastic Compartmental Epidemic Models",
             "venue": "PLoS Comput Biol",
             "volume": "13",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2017
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "Epidemic Spreading in Urban Areas Using Agent-Based Transportation Models",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Hackl",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Dubernet",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2019,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b11",
+            "title": "Epidemic Spreading in Urban Areas Using Agent-Based Transportation Models",
             "venue": "Future Internet",
             "volume": "11",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2019
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "Systems Science Methods in Public Health",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Luke",
                     "middle": [
                         "A"
                     ],
-                    "last": "Luke",
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Stamatakis",
                     "middle": [
                         "A"
                     ],
-                    "last": "Stamatakis",
                     "suffix": ""
                 }
             ],
-            "year": 2012,
+            "issn": "",
+            "other_ids": {},
+            "pages": "357--76",
+            "ref_id": "b12",
+            "title": "Systems Science Methods in Public Health",
             "venue": "Annu Rev Public Health",
             "volume": "33",
-            "issn": "",
-            "pages": "357--76",
-            "other_ids": {}
+            "year": 2012
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "Social network analysis and agent-based modeling in social epidemiology",
             "authors": [
                 {
                     "first": "A",
+                    "last": "El-Sayed",
                     "middle": [
                         "M"
                     ],
-                    "last": "El-Sayed",
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Scarborough",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Seemann",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Galea",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b13",
+            "title": "Social network analysis and agent-based modeling in social epidemiology",
             "venue": "Epidemiol Perspect Innov",
             "volume": "9",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2012
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Flaxman",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "1--8",
+            "ref_id": "b14",
+            "title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe",
             "venue": "Nature",
             "volume": "2020",
-            "issn": "",
-            "pages": "1--8",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72 314 Cases From the Chinese Center for Disease Control and Prevention",
             "authors": [
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Wu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Mcgoogan",
                     "middle": [
                         "M"
                     ],
-                    "last": "Mcgoogan",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "1239--1242",
+            "ref_id": "b15",
+            "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72 314 Cases From the Chinese Center for Disease Control and Prevention",
             "venue": "JAMA",
             "volume": "323",
-            "issn": "",
-            "pages": "1239--1242",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
             "authors": [
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Guan",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "N Engl J Med",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1056/NEJMoa2002032"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b16",
+            "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+            "venue": "N Engl J Med",
+            "volume": "",
+            "year": 2020
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID19 in Wuhan, China: a retrospective cohort study",
             "authors": [
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Zhou",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "1054--1062",
+            "ref_id": "b17",
+            "title": "Clinical course and risk factors for mortality of adult inpatients with COVID19 in Wuhan, China: a retrospective cohort study",
             "venue": "Lancet",
             "volume": "395",
-            "issn": "",
-            "pages": "1054--1062",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "The reproductive number of COVID-\u00a8 19 is higher compared to SARS coronavirus",
             "authors": [
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Liu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Gayle",
                     "middle": [
                         "A"
                     ],
-                    "last": "Gayle",
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Wilder-Smith",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Rocklov",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b18",
+            "title": "The reproductive number of COVID-\u00a8 19 is higher compared to SARS coronavirus",
             "venue": "J Travel Med",
             "volume": "27",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF19": {
-            "ref_id": "b19",
-            "title": "Investigation of a COVID-19 outbreak in Germany resulting from a single travel-associated primary case: a case series",
             "authors": [
                 {
                     "first": "M",
+                    "last": "B\u00f6hmer",
                     "middle": [
                         "M"
                     ],
-                    "last": "B\u00f6hmer",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b19",
+            "title": "Investigation of a COVID-19 outbreak in Germany resulting from a single travel-associated primary case: a case series",
             "venue": "Lancet Infect Dis",
             "volume": "",
+            "year": 2020
+        },
+        "BIBREF2": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Ebrahim",
+                    "middle": [
+                        "H"
+                    ],
+                    "suffix": ""
+                }
+            ],
             "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "other_ids": {},
+            "pages": "379--80",
+            "ref_id": "b2",
+            "title": "Forward planning for disaster-related mass gatherings amid COVID-19",
+            "venue": "Lancet Planet Health",
+            "volume": "4",
+            "year": 2020
         },
         "BIBREF20": {
-            "ref_id": "b20",
-            "title": "Estimating the asymptomatic proportion of coronavirus disease 2019 (COVID-19) cases on board the Diamond Princess cruise ship",
             "authors": [
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Mizumoto",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Kagaya",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Zarebski",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Chowell",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "",
-            "volume": "25",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.2807/1560-7917.ES.2020.25.10"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b20",
+            "title": "Estimating the asymptomatic proportion of coronavirus disease 2019 (COVID-19) cases on board the Diamond Princess cruise ship",
+            "venue": "",
+            "volume": "25",
+            "year": 2020
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Chinazzi",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "395--400",
+            "ref_id": "b21",
+            "title": "The effect of travel restrictions on the spread of the 2019 novel coronavirus (COVID-19) outbreak",
             "venue": "Science",
             "volume": "368",
-            "issn": "",
-            "pages": "395--400",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "Indirect Virus Transmission in Cluster of COVID-19 Cases",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Cai",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "6",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b22",
+            "title": "Indirect Virus Transmission in Cluster of COVID-19 Cases",
             "venue": "Emerg Infect Dis J",
             "volume": "26",
-            "issn": "6",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF23": {
-            "ref_id": "b23",
-            "title": "Complexity of the Basic Reproduction Number (R0)",
             "authors": [
                 {
                     "first": "P",
+                    "last": "Delamater",
                     "middle": [
                         "L"
                     ],
-                    "last": "Delamater",
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Street",
                     "middle": [
                         "J"
                     ],
-                    "last": "Street",
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Leslie",
                     "middle": [
                         "F"
                     ],
-                    "last": "Leslie",
                     "suffix": ""
                 },
                 {
                     "first": "Y",
+                    "last": "Yang",
                     "middle": [
                         "T"
                     ],
-                    "last": "Yang",
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Jacobsen",
                     "middle": [
                         "H"
                     ],
-                    "last": "Jacobsen",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b23",
+            "title": "Complexity of the Basic Reproduction Number (R0)",
             "venue": "",
             "volume": "25",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application",
             "authors": [
                 {
                     "first": "S",
+                    "last": "Lauer",
                     "middle": [
                         "A"
                     ],
-                    "last": "Lauer",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Ann Intern Med",
-            "volume": "172",
             "issn": "",
-            "pages": "577--582",
             "other_ids": {
                 "DOI": [
                     "10.7326/M20-0504"
                 ]
-            }
+            },
+            "pages": "577--582",
+            "ref_id": "b24",
+            "title": "The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application",
+            "venue": "Ann Intern Med",
+            "volume": "172",
+            "year": 2020
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV)",
             "authors": [
                 {
                     "first": "B",
+                    "last": "Quilty",
                     "middle": [
                         "J"
                     ],
-                    "last": "Quilty",
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Clifford",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Flasche",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Eggo",
                     "middle": [
                         "M"
                     ],
-                    "last": "Eggo",
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Group2",
                     "middle": [
                         "N"
                     ],
-                    "last": "Group2",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Eurosurveillance",
-            "volume": "25",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.2807/1560-7917.ES.2020.25.5"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b25",
+            "title": "Effectiveness of airport screening at detecting travellers infected with novel coronavirus (2019-nCoV)",
+            "venue": "Eurosurveillance",
+            "volume": "25",
+            "year": 2020
         },
         "BIBREF26": {
-            "ref_id": "b26",
-            "title": "Clinical and epidemiological features of 36 children with coronavirus disease 2019 (COVID-19) in Zhejiang, China: an observational cohort study",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Qiu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "689--96",
+            "ref_id": "b26",
+            "title": "Clinical and epidemiological features of 36 children with coronavirus disease 2019 (COVID-19) in Zhejiang, China: an observational cohort study",
             "venue": "Lancet Infect Dis",
             "volume": "20",
-            "issn": "",
-            "pages": "689--96",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF27": {
-            "ref_id": "b27",
-            "title": "What Other Countries Can Learn From Italy During the COVID-19 Pandemic",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Boccia",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Ricciardi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Jpa",
-                    "middle": [],
                     "last": "Ioannidis",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b27",
+            "title": "What Other Countries Can Learn From Italy During the COVID-19 Pandemic",
             "venue": "JAMA Intern Med",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF28": {
-            "ref_id": "b28",
-            "title": "Vesuvius: volcanic hazard and civil defense",
             "authors": [
                 {
                     "first": "De",
-                    "middle": [],
                     "last": "Vivo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Rolandi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2013,
-            "venue": "Rendiconti Lincei",
-            "volume": "24",
             "issn": "",
-            "pages": "39--45",
             "other_ids": {
                 "DOI": [
                     "10.1007/s12210-012-0212-2"
                 ]
-            }
+            },
+            "pages": "39--45",
+            "ref_id": "b28",
+            "title": "Vesuvius: volcanic hazard and civil defense",
+            "venue": "Rendiconti Lincei",
+            "volume": "24",
+            "year": 2013
         },
         "BIBREF29": {
-            "ref_id": "b29",
-            "title": "Loss of life after evacuation: lessons learned from the Fukushima accident",
             "authors": [
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Tanigawa",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Hosoi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Hirohashi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Iwasaki",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Kamiya",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
+            "issn": "12",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b29",
+            "title": "Loss of life after evacuation: lessons learned from the Fukushima accident",
             "venue": "Lancet",
             "volume": "379",
-            "issn": "12",
-            "pages": "",
-            "other_ids": {}
+            "year": 2012
         },
-        "BIBREF30": {
-            "ref_id": "b30",
-            "title": "Community Resilience and Volcano Hazard: The Eruption of Tungurahua and Evacuation of the Faldas in Ecuador",
+        "BIBREF3": {
             "authors": [
                 {
-                    "first": "G",
-                    "middle": [
-                        "A"
-                    ],
-                    "last": "Tobin",
+                    "first": "N",
+                    "last": "Floret",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
-                    "first": "L",
-                    "middle": [
-                        "M"
-                    ],
-                    "last": "Whiteford",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF32": {
-            "ref_id": "b32",
-            "title": "Predictability of population displacement after the 2010 Haiti earthquake",
-            "authors": [
-                {
-                    "first": "X",
+                    "first": "J-F",
+                    "last": "Viel",
                     "middle": [],
-                    "last": "Lu",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [],
-                    "last": "Bengtsson",
-                    "suffix": ""
-                },
-                {
-                    "first": "P",
-                    "middle": [],
-                    "last": "Holme",
-                    "suffix": ""
-                }
-            ],
-            "year": 2012,
-            "venue": "Proc Natl Acad Sci",
-            "volume": "109",
-            "issn": "",
-            "pages": "11576--81",
-            "other_ids": {
-                "DOI": [
-                    "10.1073/pnas.1203882109"
-                ]
-            }
-        },
-        "BIBREF33": {
-            "ref_id": "b33",
-            "title": "The 79 AD eruption of Somma: The relationship between the date of the eruption and the southeasst tephra dispersion",
-            "authors": [
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Rolandi",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Paone",
-                    "suffix": ""
-                },
-                {
-                    "first": "Di",
-                    "middle": [],
-                    "last": "Lascio",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Stefani",
-                    "suffix": ""
-                },
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "",
-                    "suffix": ""
-                }
-            ],
-            "year": 2008,
-            "venue": "J Volcanol Geotherm Res",
-            "volume": "169",
-            "issn": "",
-            "pages": "87--98",
-            "other_ids": {}
-        },
-        "BIBREF34": {
-            "ref_id": "b34",
-            "title": "Emergency planning and mitigation at Vesuvius: A new evidence-based approach",
-            "authors": [
-                {
-                    "first": "P",
-                    "middle": [
-                        "J"
-                    ],
-                    "last": "Baxter",
-                    "suffix": ""
-                }
-            ],
-            "year": 2008,
-            "venue": "J Volcanol Geotherm Res",
-            "volume": "178",
-            "issn": "",
-            "pages": "454--73",
-            "other_ids": {}
-        },
-        "BIBREF35": {
-            "ref_id": "b35",
-            "title": "A sub-national analysis of the rate of transmission of Covid-19 in Italy",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Vollmer",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "Report",
-            "volume": "20",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF36": {
-            "ref_id": "b36",
-            "title": "A multi-hazards earth science perspective on the COVID-19 pandemic: the potential for concurrent and cascading crises",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [
-                        "C"
-                    ],
-                    "last": "Quigley",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Attanayake",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "King",
                     "suffix": ""
                 },
                 {
                     "first": "F",
+                    "last": "Mauny",
                     "middle": [],
-                    "last": "Prideaux",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Hoen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Piarroux",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
-            "venue": "Environ Syst Decis",
-            "volume": "2020",
             "issn": "",
-            "pages": "1--17",
-            "other_ids": {}
+            "other_ids": {},
+            "pages": "543--551",
+            "ref_id": "b3",
+            "title": "Negligible Risk for Epidemics after Geophysical Disasters",
+            "venue": "Emerg Infect Dis",
+            "volume": "12",
+            "year": 2006
         },
-        "BIBREF37": {
-            "ref_id": "b37",
-            "title": "Compound climate risks in the COVID19 pandemic",
+        "BIBREF30": {
             "authors": [
                 {
-                    "first": "C",
+                    "first": "G",
+                    "last": "Tobin",
                     "middle": [
                         "A"
                     ],
-                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Whiteford",
+                    "middle": [
+                        "M"
+                    ],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b30",
+            "title": "Community Resilience and Volcano Hazard: The Eruption of Tungurahua and Evacuation of the Faldas in Ecuador",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF32": {
+            "authors": [
+                {
+                    "first": "X",
+                    "last": "Lu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Bengtsson",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Holme",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1203882109"
+                ]
+            },
+            "pages": "11576--81",
+            "ref_id": "b32",
+            "title": "Predictability of population displacement after the 2010 Haiti earthquake",
+            "venue": "Proc Natl Acad Sci",
+            "volume": "109",
+            "year": 2012
+        },
+        "BIBREF33": {
+            "authors": [
+                {
+                    "first": "G",
+                    "last": "Rolandi",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Paone",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Di",
+                    "last": "Lascio",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Stefani",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "87--98",
+            "ref_id": "b33",
+            "title": "The 79 AD eruption of Somma: The relationship between the date of the eruption and the southeasst tephra dispersion",
+            "venue": "J Volcanol Geotherm Res",
+            "volume": "169",
+            "year": 2008
+        },
+        "BIBREF34": {
+            "authors": [
+                {
+                    "first": "P",
+                    "last": "Baxter",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "454--73",
+            "ref_id": "b34",
+            "title": "Emergency planning and mitigation at Vesuvius: A new evidence-based approach",
+            "venue": "J Volcanol Geotherm Res",
+            "volume": "178",
+            "year": 2008
+        },
+        "BIBREF35": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Vollmer",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b35",
+            "title": "A sub-national analysis of the rate of transmission of Covid-19 in Italy",
+            "venue": "Report",
+            "volume": "20",
+            "year": null
+        },
+        "BIBREF36": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Quigley",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Attanayake",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "King",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Prideaux",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1--17",
+            "ref_id": "b36",
+            "title": "A multi-hazards earth science perspective on the COVID-19 pandemic: the potential for concurrent and cascading crises",
+            "venue": "Environ Syst Decis",
+            "volume": "2020",
+            "year": null
+        },
+        "BIBREF37": {
+            "authors": [
+                {
+                    "first": "C",
+                    "last": "Phillips",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "3",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b37",
+            "title": "Compound climate risks in the COVID19 pandemic",
             "venue": "Nat Clim Chang",
             "volume": "1",
-            "issn": "3",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF38": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b38",
             "title": "Publisher's Note",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF39": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b39",
             "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
+            "year": null
+        },
+        "BIBREF4": {
+            "authors": [],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b4",
+            "title": "Mathematical Epidemiology of Infectious Diseases: Model Building, Analysis and Interpretation: O Diekmann and JAP Heesterbeek. Chichester",
+            "venue": "",
+            "volume": "",
+            "year": 2000
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "G",
+                    "last": "Giordano",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1--6",
+            "ref_id": "b6",
+            "title": "Modelling the COVID-19 epidemic and implementation of population-wide interventions in Italy",
+            "venue": "Nat Med",
+            "volume": "2020",
+            "year": null
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Hellewell",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "488--96",
+            "ref_id": "b7",
+            "title": "Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts",
+            "venue": "Lancet Glob Health",
+            "volume": "8",
+            "year": 2020
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Kucharski",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "553--561",
+            "ref_id": "b8",
+            "title": "Early dynamics of transmission and control of COVID-19: a mathematical modelling study",
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "year": 2020
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "P",
+                    "last": "Cooley",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "982--95",
+            "ref_id": "b9",
+            "title": "The Role of Subway Travel in an Influenza Epidemic: A New York City Simulation",
+            "venue": "J Urban Health",
+            "volume": "88",
+            "year": 2011
         }
     },
-    "ref_entries": {
-        "FIGREF0": {
-            "text": "Fig. 1 Illustration of the geospatial data used to build the geoSIR model space, using four maps of Campania. Geographical boundaries, population density data, and hazard zones are mapped onto a model grid. Satellite image from Sentinel-2. In the population density map, blue represents low population density and white represents high population density. In the hazard zones map, red, orange, and green represent the high, medium and low hazard zones, respectively. In the model space map, each black pixel represents an individual and each white pixel represents empty space",
-            "latex": null,
-            "type": "figure"
-        },
-        "FIGREF1": {
-            "text": "Number of infections and deaths for different theoretical disasters. The timing (a and b) and duration (c and d) of the ND are varied. Natural disasters occuring close to the peak of infections (around 20-30 days) have the largest impact. The increase in infections and deaths increases non-linearly with the duration of the disaster",
-            "latex": null,
-            "type": "figure"
-        },
-        "FIGREF2": {
-            "text": "Summary of impact of natural disasters on disease outbreak, as modelled in this study",
-            "latex": null,
-            "type": "figure"
-        },
-        "TABREF0": {
-            "text": "To evaluate the impact of timing of natural disaster on infection spread and number of deaths. 2. To evaluate the impact of duration of natural disaster on infection spread and number of deaths.",
-            "latex": null,
-            "type": "table"
-        }
-    },
-    "back_matter": [
+    "body_text": [
         {
-            "text": "MV was supported by a University of Minnesota College of Science and Engineering fellowship. The authors acknowledge the Minnesota Supercomputing Institute (MSI) at the University of Minnesota for providing resources that contributed to the research results reported within this paper.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Acknowledgements"
-        },
-        {
-            "text": " 18:20 evacuating high volcanic-risk areas. The stochastic modelling approach highlights a large variability in possible outcomes for the same initial conditions, complicating disease forecasting. Close links between the epidemiology response and natural disaster response communities are necessary for the formulation of timely risk assessments.Abbreviations COVID-19: Coronavirus disease caused by SARS-COV-2 (Severe Acute Respiratory Syndrome Coronavirus 2); IQR: Interquartile range.",
             "cite_spans": [
                 {
-                    "start": 1,
-                    "end": 6,
-                    "text": "18:20",
-                    "ref_id": null
+                    "end": 128,
+                    "ref_id": "BIBREF0",
+                    "start": 125,
+                    "text": "[1]"
+                },
+                {
+                    "end": 218,
+                    "ref_id": "BIBREF1",
+                    "start": 215,
+                    "text": "[2]"
+                },
+                {
+                    "end": 338,
+                    "ref_id": "BIBREF2",
+                    "start": 335,
+                    "text": "[3]"
+                },
+                {
+                    "end": 447,
+                    "ref_id": "BIBREF1",
+                    "start": 444,
+                    "text": "[2,"
+                },
+                {
+                    "end": 450,
+                    "ref_id": "BIBREF3",
+                    "start": 448,
+                    "text": "4]"
+                },
+                {
+                    "end": 670,
+                    "ref_id": "BIBREF4",
+                    "start": 667,
+                    "text": "[5,"
+                },
+                {
+                    "end": 673,
+                    "ref_id": null,
+                    "start": 671,
+                    "text": "6]"
+                },
+                {
+                    "end": 698,
+                    "ref_id": "BIBREF6",
+                    "start": 695,
+                    "text": "[7]"
+                },
+                {
+                    "end": 702,
+                    "ref_id": "BIBREF7",
+                    "start": 699,
+                    "text": "[8]"
+                },
+                {
+                    "end": 706,
+                    "ref_id": "BIBREF8",
+                    "start": 703,
+                    "text": "[9]"
+                },
+                {
+                    "end": 822,
+                    "ref_id": "BIBREF4",
+                    "start": 819,
+                    "text": "[5,"
+                },
+                {
+                    "end": 825,
+                    "ref_id": null,
+                    "start": 823,
+                    "text": "6,"
+                },
+                {
+                    "end": 829,
+                    "ref_id": "BIBREF9",
+                    "start": 826,
+                    "text": "10]"
+                },
+                {
+                    "end": 957,
+                    "ref_id": "BIBREF6",
+                    "start": 954,
+                    "text": "[7]"
                 }
             ],
             "ref_spans": [],
-            "section": "annex"
+            "section": "Introduction",
+            "text": "As of July 2021, COVID-19 has spread to over 200 countries, infected more than 188 million, and killed over 4 million people [1] . Natural disasters can threaten the measures in place to reduce disease transmission [2] . Understanding how disease spread can be worsened by natural disasters will aid preparedness and response planning [3] . Although a small increase in risk of epidemic outbreak following natural disasters has been identified [2, 4] , very little is known about the spread of infection following a natural disaster during a pandemic such as Numerical modelling is an important tool for understanding and projecting the spread of infectious diseases [5, 6] , including COVID-19 [7] [8] [9] . A common approach is to divide a population up into susceptible, infected, recovered and deceased individuals [5, 6, 10] . More sophisticated models incorporate a larger number of different states (e.g. asymptomatic or seriously ill individuals [7] ;), and may account for other real world complications (e.g. age, vaccination campaigns, etc.)."
         },
         {
-            "text": "The online version contains supplementary material available at https:// doi. org/ 10. 1186/ s12976-021-00151-0. ",
+            "cite_spans": [
+                {
+                    "end": 397,
+                    "ref_id": "BIBREF4",
+                    "start": 394,
+                    "text": "[5]"
+                },
+                {
+                    "end": 401,
+                    "ref_id": null,
+                    "start": 398,
+                    "text": "[6]"
+                },
+                {
+                    "end": 405,
+                    "ref_id": "BIBREF6",
+                    "start": 402,
+                    "text": "[7]"
+                },
+                {
+                    "end": 499,
+                    "ref_id": null,
+                    "start": 496,
+                    "text": "[6,"
+                },
+                {
+                    "end": 502,
+                    "ref_id": "BIBREF6",
+                    "start": 500,
+                    "text": "7]"
+                },
+                {
+                    "end": 641,
+                    "ref_id": "BIBREF8",
+                    "start": 638,
+                    "text": "[9,"
+                },
+                {
+                    "end": 645,
+                    "ref_id": "BIBREF10",
+                    "start": 642,
+                    "text": "11]"
+                },
+                {
+                    "end": 710,
+                    "ref_id": "BIBREF9",
+                    "start": 706,
+                    "text": "[10,"
+                },
+                {
+                    "end": 715,
+                    "ref_id": "BIBREF11",
+                    "start": 711,
+                    "text": "[12]"
+                },
+                {
+                    "end": 720,
+                    "ref_id": "BIBREF12",
+                    "start": 716,
+                    "text": "[13]"
+                },
+                {
+                    "end": 725,
+                    "ref_id": "BIBREF13",
+                    "start": 721,
+                    "text": "[14]"
+                },
+                {
+                    "end": 813,
+                    "ref_id": "BIBREF7",
+                    "start": 810,
+                    "text": "[8,"
+                },
+                {
+                    "end": 817,
+                    "ref_id": "BIBREF13",
+                    "start": 814,
+                    "text": "14]"
+                },
+                {
+                    "end": 937,
+                    "ref_id": "BIBREF9",
+                    "start": 933,
+                    "text": "[10,"
+                },
+                {
+                    "end": 941,
+                    "ref_id": "BIBREF11",
+                    "start": 938,
+                    "text": "12,"
+                },
+                {
+                    "end": 945,
+                    "ref_id": "BIBREF12",
+                    "start": 942,
+                    "text": "13]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "The time varying proportion of each state may be calculated deterministically by solving a series of ordinary Open Access *Correspondence: vanwy048@umn.edu 2 St Anthony Falls Laboratory, University of Minnesota, 301-25 Tate Hall, University of Minnesota, 116 Church St SE, Minneapolis, MN 55455, USA Full list of author information is available at the end of the article differential equations [5] [6] [7] . This approach can accurately portray the spread of infectious diseases on a large scale [6, 7] . The deterministic approach is ill suited for simulation of small population sizes, heterogeneous populations and threshold behaviour [9, 11] . A stochastic, agentbased model structure may also be used [10, [12] [13] [14] , in which case the variation between runs allows for quantification of uncertainty [8, 14] . Agent-based models are are well suited to represent heterogeneous or complex populations and spatial variability [10, 12, 13] ."
+        },
+        {
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Supplementary Information"
+            "section": "Objectives",
+            "text": "The main objective of the study is to evaluate the impact of a natural disaster on the spread of COVID-19 infection."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Objectives",
+            "text": "The sub-objectives are the following: "
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 184,
+                    "ref_id": "BIBREF9",
+                    "start": 180,
+                    "text": "[10,"
+                },
+                {
+                    "end": 188,
+                    "ref_id": "BIBREF11",
+                    "start": 185,
+                    "text": "12]"
+                },
+                {
+                    "end": 328,
+                    "ref_id": "BIBREF4",
+                    "start": 325,
+                    "text": "[5,"
+                },
+                {
+                    "end": 331,
+                    "ref_id": null,
+                    "start": 329,
+                    "text": "6,"
+                },
+                {
+                    "end": 335,
+                    "ref_id": "BIBREF9",
+                    "start": 332,
+                    "text": "10]"
+                },
+                {
+                    "end": 897,
+                    "ref_id": "BIBREF14",
+                    "start": 893,
+                    "text": "[15]"
+                },
+                {
+                    "end": 902,
+                    "ref_id": "BIBREF15",
+                    "start": 898,
+                    "text": "[16]"
+                },
+                {
+                    "end": 907,
+                    "ref_id": "BIBREF16",
+                    "start": 903,
+                    "text": "[17]"
+                },
+                {
+                    "end": 912,
+                    "ref_id": "BIBREF17",
+                    "start": 908,
+                    "text": "[18]"
+                },
+                {
+                    "end": 917,
+                    "ref_id": "BIBREF18",
+                    "start": 913,
+                    "text": "[19]"
+                },
+                {
+                    "end": 922,
+                    "ref_id": "BIBREF19",
+                    "start": 918,
+                    "text": "[20]"
+                },
+                {
+                    "end": 927,
+                    "ref_id": "BIBREF20",
+                    "start": 923,
+                    "text": "[21]"
+                },
+                {
+                    "end": 1075,
+                    "ref_id": "BIBREF21",
+                    "start": 1071,
+                    "text": "[22]"
+                },
+                {
+                    "end": 1446,
+                    "ref_id": "BIBREF19",
+                    "start": 1442,
+                    "text": "[20,"
+                },
+                {
+                    "end": 1450,
+                    "ref_id": "BIBREF22",
+                    "start": 1447,
+                    "text": "23]"
+                },
+                {
+                    "end": 1591,
+                    "ref_id": "BIBREF14",
+                    "start": 1587,
+                    "text": "[15,"
+                },
+                {
+                    "end": 1595,
+                    "ref_id": "BIBREF18",
+                    "start": 1592,
+                    "text": "19,"
+                },
+                {
+                    "end": 1599,
+                    "ref_id": "BIBREF23",
+                    "start": 1596,
+                    "text": "24]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Spatial, agent based model",
+            "text": "We use geoSIR, a geospatial, agent-based model structure to account for the spread of disease and movement of individuals within the model space from a natural disaster evacuation [10, 12] . This model builds on the basic susceptible, infected, recovered model structure to better account for the characteristics of COVID-19 [5, 6, 10] . Every cell in the model is either occupied by an individual, or by empty space (X e ). Each model individual may be in one of 7 states: susceptible (S), infected and mildly ill (I m ), infected and severely ill (I s ), infected and asymptomatic (I a ), recovered (R), or deceased (D). Empty space allows us to account for geographic factors such as spatially varying population density and the presence of cities. Individuals may also self-isolate or be quarantined. We base the definition of our states and model disease characteristics on COVID-19 data [15] [16] [17] [18] [19] [20] [21] , and our model space on real-world geospatial data. In geoSIR, the spread of the disease is initiated with the arrival of infected travellers [22] . The disease then spreads further through encounters between individuals within the model space. In each timestep, individuals make both close and distant encounters with other individuals. If either induvial is infected, they have a given probability of transmitting the infection to the other individual, which we parametrise based on available data for COVID-19 [20, 23] . We also ensure that resulting reproductive number R 0 (as calculated from eq. 6) are consistent with the range estimated for COVID-19 [15, 19, 24] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Spatial, agent based model",
+            "text": "Infections may be either asymptomatic, mild or severe. Asymptomatic and mildly infected individuals merely transmit the infection, while severely infected individuals are at risk of death. If the total number of severely infected individuals exceeds the local hospital capacity (for which we use the number of intensive care unit beds), the case fatality rate of severely infected individuals is increased. Further description of the model setup and key equations are provided in the supplementary materials, as well as a brief use manual for the opensource code."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 106,
+                    "ref_id": "BIBREF14",
+                    "start": 102,
+                    "text": "[15]"
+                },
+                {
+                    "end": 111,
+                    "ref_id": "BIBREF15",
+                    "start": 107,
+                    "text": "[16]"
+                },
+                {
+                    "end": 116,
+                    "ref_id": "BIBREF16",
+                    "start": 112,
+                    "text": "[17]"
+                },
+                {
+                    "end": 121,
+                    "ref_id": "BIBREF17",
+                    "start": 117,
+                    "text": "[18]"
+                },
+                {
+                    "end": 126,
+                    "ref_id": "BIBREF18",
+                    "start": 122,
+                    "text": "[19]"
+                },
+                {
+                    "end": 131,
+                    "ref_id": "BIBREF19",
+                    "start": 127,
+                    "text": "[20]"
+                },
+                {
+                    "end": 136,
+                    "ref_id": "BIBREF20",
+                    "start": 132,
+                    "text": "[21]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 data sources",
+            "text": "We use published data for the spread of COVID-19 to parametrise the disease transmission in our model [15] [16] [17] [18] [19] [20] [21] . Our data sources consider the original SARS-CoV-2 strain and not any of the later variants."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 data sources",
+            "text": "The spread of the disease may be described by a disease spread parameter \u03b1:"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 data sources",
+            "text": "In which I is the number of infected individuals and \u03b1 is given by:"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 data sources",
+            "text": "With n ci being the number of close encounters, P ci being the probability of infection for close encounters, n di being the number of distant encounters, and P di being the probability of infection for distant encounters. Close encounters can represent sustained contact with another individual within a household or among close friends. Distant encounters can represent an individual's risk of catching an infection through indirect contact such as visits to supermarkets, fomites transmission or whilst commuting. The details of these two parameters can be modified to account for specific modes of transmission."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 81,
+                    "ref_id": "BIBREF22",
+                    "start": 77,
+                    "text": "[23]"
+                },
+                {
+                    "end": 107,
+                    "ref_id": "BIBREF19",
+                    "start": 103,
+                    "text": "[20]"
+                },
+                {
+                    "end": 270,
+                    "ref_id": "BIBREF14",
+                    "start": 266,
+                    "text": "[15,"
+                },
+                {
+                    "end": 274,
+                    "ref_id": "BIBREF18",
+                    "start": 271,
+                    "text": "19]"
+                },
+                {
+                    "end": 326,
+                    "ref_id": "BIBREF4",
+                    "start": 323,
+                    "text": "[5,"
+                },
+                {
+                    "end": 330,
+                    "ref_id": "BIBREF14",
+                    "start": 327,
+                    "text": "15]"
+                },
+                {
+                    "end": 504,
+                    "ref_id": "BIBREF9",
+                    "start": 500,
+                    "text": "[10]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 data sources",
+            "text": "We use data from two case studies of COVID-19 transmission in Wenzhou, China [23] and Bavaria, Germany [20] to estimate parameters. We also ensure that resulting reproductive number R 0 (as calculated from eq. 6) are consistent with the range estimated for COVID-19 [15, 19] . We use n ci \u2208 [0,4], P ci = 0.4 \u00b1 0.1, n ci \u2208 [5, 15] , and P ci = 0.025 \u00b1 0.005. The number of close and distant encounters are comparable to those used for an agentbased simulation of influenza outbreaks in New York City [10] . The number of encounters and probability of infection transmission can be reduced through lockdowns and social distancing measures."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 227,
+                    "ref_id": "BIBREF16",
+                    "start": 223,
+                    "text": "[17,"
+                },
+                {
+                    "end": 231,
+                    "ref_id": "BIBREF17",
+                    "start": 228,
+                    "text": "18,"
+                },
+                {
+                    "end": 235,
+                    "ref_id": "BIBREF24",
+                    "start": 232,
+                    "text": "25]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 data sources",
+            "text": "Infections begin by a period of disease incubation and are followed by a period of symptoms (unless the infection is asymptomatic). We use a mean incubation period of 5.1 days and a mean duration of symptoms of (1) 11 days [17, 18, 25] . A proportion P A of infections begin as asymptomatic and the remaining 1 \u2212 P A begin as mild."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 113,
+                    "ref_id": "BIBREF25",
+                    "start": 109,
+                    "text": "[26]"
+                },
+                {
+                    "end": 156,
+                    "ref_id": "BIBREF20",
+                    "start": 152,
+                    "text": "[21]"
+                },
+                {
+                    "end": 174,
+                    "ref_id": "BIBREF26",
+                    "start": 170,
+                    "text": "[27]"
+                },
+                {
+                    "end": 509,
+                    "ref_id": "BIBREF15",
+                    "start": 505,
+                    "text": "[16]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 data sources",
+            "text": "The proportion of asymptomatic COVID-19 patients has been estimated at around 20% through airport screenings [26] , on the Diamond Princess cruise ship [21] and in China [27] . We use P A = 0.2 \u00b1 0.05. Asymptomatic infected individuals may infect others, but do not change state until they recover. Mild cases have a P S chance of transitioning to severe cases over the course of their illness. We use a definition of severe cases that combines the 'severe' and 'critical' categories from Wu and McGoowan [16] , resulting in P S = 0.19 \u00b1 0.02. Each severely ill individual has a probability P D of dying. The expected probability of dying for any infected individual, termed infection fatality rate P IFR is thus:"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 81,
+                    "ref_id": "BIBREF15",
+                    "start": 77,
+                    "text": "[16,"
+                },
+                {
+                    "end": 85,
+                    "ref_id": "BIBREF16",
+                    "start": 82,
+                    "text": "17,"
+                },
+                {
+                    "end": 89,
+                    "ref_id": "BIBREF27",
+                    "start": 86,
+                    "text": "28]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 334,
+                    "ref_id": "TABREF0",
+                    "start": 327,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "COVID-19 data sources",
+            "text": "We use COVID-19 infection mortality rates from a compilation of Chinese data [16, 17, 28] , calculated at 2.3 and 1.4% respectively. Accordingly, we define P D (0) = 0.12 \u00b1 0.02, giving an approximate infection mortality rate of 1.8%. A full list of the parameters used and associated data sources is provided in supplementary Table 1 ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 577,
+                    "ref_id": "BIBREF28",
+                    "start": 573,
+                    "text": "[29]"
+                },
+                {
+                    "end": 880,
+                    "ref_id": "BIBREF29",
+                    "start": 876,
+                    "text": "[30]"
+                },
+                {
+                    "end": 885,
+                    "ref_id": "BIBREF30",
+                    "start": 881,
+                    "text": "[31]"
+                },
+                {
+                    "end": 890,
+                    "ref_id": "BIBREF32",
+                    "start": 886,
+                    "text": "[32]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 291,
+                    "ref_id": "FIGREF0",
+                    "start": 285,
+                    "text": "Fig. 1"
+                }
+            ],
+            "section": "Geospatial data sources",
+            "text": "The model simulation grid is built according to realworld geospatial data. We vary the initial proportion of susceptible individuals S and empty space X e to account for differences in population density and define the boundaries of the model space based on geographical information ( Fig. 1 ). High and medium natural hazard areas are also inputted. These determine the areas in which evacuation may be necessary. For Vesuvius, high and medium hazard zone masks are created based on the 'red' and 'yellow' zones defined in the most recent Vesuvius National Emergency Plan [29] . Individuals living in high or medium hazard zones are tagged and retain more social interactions (e.g. a higher number of close or distant encounters) than other individuals following evacuation. Social distancing is challenging both during evacuation and in densely packed evacuation facilities [30] [31] [32] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model scenarios: theoretical region",
+            "text": "We run two different experiments, one based on a theoretical region to evaluate the effect of different disaster timings and durations in the absence of real-world complexity and a second based on the region of Campania, Italy."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 859,
+                    "ref_id": null,
+                    "start": 852,
+                    "text": "Table 2"
+                }
+            ],
+            "section": "Model scenarios: theoretical region",
+            "text": "The theoretical region includes an idealised town or city with high population densities that radially decay away from the town centre. Initial effective population (3) P IFR = (1 \u2212 P A ) P S P D densities vary from 1 for the centre of town to 0.3 in rural areas. A concentric geological hazard is located within this study area, with the medium hazard region overlapping moderate population density outskirts of the city and rural areas. Hazard N H is divided into high and medium hazard zones, with the high hazard zone entirely enveloped by the medium hazard zone. The theoretical region has a population of 100,000 individuals. We find that a population of 100,000 is sufficiently large to accurately reproduce disease spread, yet low enough to remain computationally efficient. We test 35 different scenarios, described in detail in supplementary Table 2 . These scenarios vary the presence or absence of lockdown measures, the timing and duration of the natural disaster, and the type of evacuation. We conduct 100 different runs for each scenario."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 993,
+                    "ref_id": "BIBREF33",
+                    "start": 989,
+                    "text": "[33,"
+                },
+                {
+                    "end": 997,
+                    "ref_id": "BIBREF34",
+                    "start": 994,
+                    "text": "34]"
+                },
+                {
+                    "end": 1050,
+                    "ref_id": "BIBREF28",
+                    "start": 1046,
+                    "text": "[29]"
+                },
+                {
+                    "end": 1162,
+                    "ref_id": "BIBREF1",
+                    "start": 1159,
+                    "text": "[2]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model scenarios: Eruption of Vesuvius in Campania, Italy",
+            "text": "Campania is Italy's third most populated region and is home to its third largest city (Napoli). It is also home to active volcano Vesuvius. For the Campania model runs, we simulate the full 5.8 million inhabitants for 6 different scenarios. Due to the large population size in this scenario, we adapt the code to run on a 24 core Haswell E5-2680v3 processor node of the Minnesota Supercomputing Institute. One of these scenarios is comparable to reality, with no natural disaster and a lockdown implemented. We evaluate the results of it against real-world data from the wave of COVID-19 infections in spring 2020. The other five scenarios are counterfactual scenarios-one in which no natural disaster occurs but no lockdown is implemented, and the other four in which a natural disaster occurs on day 2, 25, 50 or 100 of the simulation. We use a real-world natural disaster, the eruption of Vesuvius. The key mitigation strategy for a volcanic eruption at Vesuvius is a timely evacuation [33, 34] , for which evacuation plans have been designed [29] . This disaster response results in widespread population displacement -a key risk factor in disease spread [2] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 323,
+                    "ref_id": "FIGREF1",
+                    "start": 315,
+                    "text": "(Fig. 2)"
+                },
+                {
+                    "end": 481,
+                    "ref_id": "FIGREF1",
+                    "start": 473,
+                    "text": "(Fig. 2)"
+                }
+            ],
+            "section": "Results",
+            "text": "In the theoretical region, we perform 100 model runs for 35 different scenarios. These scenarios cover various permutations of lockdown, natural disaster timing and natural disaster duration. Both the number of infections and number of deaths are higher when a natural disaster occurs during the infection outbreak (Fig. 2) . The scale of this increase depends on the relative timing of the natural disaster and peak in infection cases, and on the duration of the disaster (Fig. 2) . In the case with no natural disaster, the median number of infections is 4900 (IQR 41405,640) cases per 100,000 and the median number of deaths is 66 (IQR 53-76) per 100,000. The Illustration of the geospatial data used to build the geoSIR model space, using four maps of Campania. Geographical boundaries, population density data, and hazard zones are mapped onto a model grid. Satellite image from Sentinel-2. In the population density map, blue represents low population density and white represents high population density. In the hazard zones map, red, orange, and green represent the high, medium and low hazard zones, respectively. In the model space map, each black pixel represents an individual and each white pixel represents empty space For a given natural disaster timing (50 days), long disruptions cause more infections and deaths than short ones. A 3 day long natural disaster results in a similar number of deaths (median 66.5, IQR 55-80.5 per 100,000) as the case with no natural disaster. A 31 day long natural disaster, however, causes and 180% increase in median number of deaths (median 183.5 IQR 149.5-3172 deaths per 100,000). In the case where no lockdown is instigated, around 80% of the population is infected and death toll is extreme (median 3028, IQR 2674-3259 deaths per 100,000)."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 370,
+                    "ref_id": "BIBREF35",
+                    "start": 366,
+                    "text": "[35]"
+                },
+                {
+                    "end": 470,
+                    "ref_id": "BIBREF0",
+                    "start": 467,
+                    "text": "[1]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results",
+            "text": "For Campania, we first model the COVID-19 outbreak in a scenario similar to reality (lockdown initiated, no Vesuvius eruption). Our model predicts a median of 580 (IQR 553-641) infections per 100,000, and a median of 8.5 (IQR 7.9-8.9) deaths per 100,000. Model infections are lower, but consistent with Vollmer et al., (2020)'s estimate of 590-950 cases per 100,000 [35] and model deaths are consistent with real world data (7.7 deaths per 100,000 in September 2020) [1] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 99,
+                    "ref_id": null,
+                    "start": 91,
+                    "text": "(Fig. 3)"
+                }
+            ],
+            "section": "Results",
+            "text": "We then model five counterfactual scenarios, four of which include an eruption of Vesuvius (Fig. 3) during Campania's COVID-19 outbreak. The increase in total number of deaths remains low for an early (Day 2, mean 9.6, IQR 7.6-13.1 deaths per 100,000) or post infections peak (Day 100, median 10.9, IQR 10-12.1 deaths per 100,000) Vesuvius eruption. The median deaths rise to."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 409,
+                    "ref_id": "BIBREF0",
+                    "start": 406,
+                    "text": "[1]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Results",
+            "text": "68.5 (IQR 12.1-133.3) per 100,000 when a Vesuvius eruption occurs close to the infection peak (Day 50). In this case, the deaths per 100,000 are comparable to the states in Northern Italy worst hit by COVID-19 (168, 95 and 44 deaths per 100,000 in Lombardy, Piedmont and Veneto respectively in September 2020) or other hardhit regions such at New York State, USA (168 deaths per 100,000 in September 2020) [1] . For an eruption occurring close to the peak in infections at day 50, there is a large variability in possible outcomes. The median death rate is 8 times higher than with no eruption (68.5 deaths per 100,000). However, in 32% of runs the death rate is no more than double that of the no eruption scenario, while in 12% of runs the death rate is more than 25 times higher."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 77,
+                    "ref_id": "BIBREF6",
+                    "start": 74,
+                    "text": "[7]"
+                },
+                {
+                    "end": 220,
+                    "ref_id": "BIBREF0",
+                    "start": 217,
+                    "text": "[1]"
+                },
+                {
+                    "end": 808,
+                    "ref_id": "BIBREF36",
+                    "start": 804,
+                    "text": "[36,"
+                },
+                {
+                    "end": 812,
+                    "ref_id": "BIBREF37",
+                    "start": 809,
+                    "text": "37]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 1048,
+                    "ref_id": null,
+                    "start": 1042,
+                    "text": "Fig. 3"
+                }
+            ],
+            "section": "Discussions",
+            "text": "Italy was one of the most hard-hit countries during the COVID-19 pandemic [7] , with over 39,000 deaths and 750,000 confirmed cases as of November 2020. Campania had more than 4800 confirmed infections and 400 deaths [1] . Although the probability of Vesuvius erupting during the COVID-19 pandemic is low, the wealth of volcanic evacuation plans and COVID-19 data make it a valuable case study. The exact nature of the geological hazard is not of primary importance, rather the parameters of the evacuation and increased human contact following influence the progression of the infectious disease outbreak. The Campania results may be used to understand the effect of other disasters requiring widespread evacuation during a pandemic. Natural disasters have already occurred during the COVID-19 pandemic [36, 37] , and will occur during future infectious disease outbreaks. Cyclone Amphan made landfall in Bangladesh and West Bengal, India on May 20, 2020, prompting widespread evacuations. The number of new COVID-19 infections in the first Fig. 3 Results of the number of daily infections and deaths from COVID-19 in Campania, Italy under different scenarios. The red line represents real world data, the black line represents model mean and the grey lines represent individual model runs. All values are filtered with a 10 day moving mean to remove short period noise. The in the scenario with no eruption and a lockdown, model outputs are close to the observed real world data (a and g). Note that the model mean new daily cases appear artificially low due to different peak timings, but that the magnitude of individual runs are comparable to the real world outputs. The mean number of deaths is higher in all scenarios in which Vesuvius erupts (c and i, d and j, e and k, f and l), and higher by more than an order of magnitude where the eruption coincides with the peak in infections (e and k)"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 122,
+                    "ref_id": "BIBREF0",
+                    "start": 119,
+                    "text": "[1]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussions",
+            "text": "week of June was 3.5 times higher in West Bengal and 4.8 times higher in Bangladesh compared to the same period in May [1] . The number of COVID-19 related deaths rose by a similar percentage. Further research is required to determine whether Cyclone Amphan played a role in this increase in infections and deaths, which at this stage cannot be attributed to any particular cause."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 259,
+                    "ref_id": "BIBREF1",
+                    "start": 256,
+                    "text": "[2]"
+                },
+                {
+                    "end": 377,
+                    "ref_id": "BIBREF3",
+                    "start": 374,
+                    "text": "[4]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 517,
+                    "ref_id": "FIGREF2",
+                    "start": 509,
+                    "text": "(Fig. 4)"
+                }
+            ],
+            "section": "Discussions",
+            "text": "The majority of previous studies on the relationship between infectious disease outbreak and natural disasters have focused on whether natural disasters initiate new outbreaks. In a small number of cases, a disease outbreak has followed a natural disaster [2] . However, a review of the topic concluded that \"the risk for epidemics after a geophysical disaster is very low\" [4] . Our results do not contradict this but highlight the previously overlooked extreme risk in cases of already widespread infection (Fig. 4) ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 91,
+                    "ref_id": "BIBREF2",
+                    "start": 88,
+                    "text": "[3,"
+                },
+                {
+                    "end": 95,
+                    "ref_id": "BIBREF36",
+                    "start": 92,
+                    "text": "36,"
+                },
+                {
+                    "end": 99,
+                    "ref_id": "BIBREF37",
+                    "start": 96,
+                    "text": "37]"
+                },
+                {
+                    "end": 389,
+                    "ref_id": "BIBREF36",
+                    "start": 385,
+                    "text": "[36]"
+                },
+                {
+                    "end": 413,
+                    "ref_id": "BIBREF37",
+                    "start": 392,
+                    "text": "Phillips et al., 2020"
+                },
+                {
+                    "end": 592,
+                    "ref_id": "BIBREF37",
+                    "start": 588,
+                    "text": "[37]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussions",
+            "text": "The possibility of natural hazards interacting with COVID-19 has previously been raised [3, 36, 37] . Quigley et al., 2020 use a phenomenological model to investigate the impact of natural disaster occurrence during the COVID-19 pandemic. They also find that this results in a larger total number of infections, although the simplicity of their model precludes detailed interpretation [36] . Phillips et al., 2020 propose that climate change is increasing the magnitude and frequency of climatic hazards, therefore raising the risk of natural disasters cooccurring with disease outbreaks [37] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion",
+            "text": "We use a stochastic SIR type model, built with a realworld geographic model space, to investigate the effect on natural disaster evacuations on the spread of COVID-19. We consider two scenarios, one in an idealised region, and one based on the region of Campania, Italy. Our model results show that in most cases, the occurrence of a natural disaster during the pandemic increases COVID-19 spread. Furthermore, we investigate the key risk factors involved in this increase and highlight the timing and duration of the natural disaster as they key controls on the increase in infections."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion",
+            "text": "In our Campania test case, we model the effect of evacuation in response to an eruption of Vesuvius volcano on all 5.8 million residents, based on an existing local disaster plan. We find that an eruption occurring close to the peak in COVID-19 infections could increase the number of disease-related deaths from 8.5 (IQR 7.9-8.9) deaths per 100,000 to 68.5 (IQR 12.1-133.3) per 100,000 due to the large population displacement required in "
         }
-    ]
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Maximillian",
+                "last": "Van Wyk De Vries",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Lekaashree",
+                "last": "Rambabu",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "The impact of natural disasters on the spread of COVID-19: a geospatial, agent-based epidemiology model"
+    },
+    "paper_id": "27904fe51b5b3b6bf8e6632d51fa644ede6e29a0",
+    "ref_entries": {
+        "FIGREF0": {
+            "latex": null,
+            "text": "Fig. 1 Illustration of the geospatial data used to build the geoSIR model space, using four maps of Campania. Geographical boundaries, population density data, and hazard zones are mapped onto a model grid. Satellite image from Sentinel-2. In the population density map, blue represents low population density and white represents high population density. In the hazard zones map, red, orange, and green represent the high, medium and low hazard zones, respectively. In the model space map, each black pixel represents an individual and each white pixel represents empty space",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "latex": null,
+            "text": "Number of infections and deaths for different theoretical disasters. The timing (a and b) and duration (c and d) of the ND are varied. Natural disasters occuring close to the peak of infections (around 20-30 days) have the largest impact. The increase in infections and deaths increases non-linearly with the duration of the disaster",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "latex": null,
+            "text": "Summary of impact of natural disasters on disease outbreak, as modelled in this study",
+            "type": "figure"
+        },
+        "TABREF0": {
+            "latex": null,
+            "text": "To evaluate the impact of timing of natural disaster on infection spread and number of deaths. 2. To evaluate the impact of duration of natural disaster on infection spread and number of deaths.",
+            "type": "table"
+        }
+    }
 }

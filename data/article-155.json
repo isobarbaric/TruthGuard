@@ -1,416 +1,416 @@
 {
-    "paper_id": "27b6071e71890bea2c27b02c62ea671f9fa3c92f",
-    "metadata": {
-        "title": "The Traffic Light Approach: Indicators and Algorithms to Identify Covid-19 Epidemic Risk Across Italian Regions",
-        "authors": [
-            {
-                "first": "Lara",
-                "middle": [],
-                "last": "Lengel",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Penrose",
-                "middle": [],
-                "last": "Jackson",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Alessandro",
-                "middle": [],
-                "last": "Rovetta",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Silvia",
-                "middle": [],
-                "last": "Ussai",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "European Commission",
-                    "location": {
-                        "settlement": "Brussels",
-                        "country": "Belgium"
-                    }
-                },
-                "email": "ussai.silvia@gmail.com"
-            },
-            {
-                "first": "Luca",
-                "middle": [],
-                "last": "Paroni",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Clelia",
-                "middle": [],
-                "last": "D&apos;apice",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Benedetta",
-                "middle": [],
-                "last": "Armocida",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Beatrice",
-                "middle": [],
-                "last": "Formenti",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Lorenzo",
-                "middle": [],
-                "last": "De Min",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Eduardo",
-                "middle": [],
-                "last": "Missoni",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "With the beginning of the autumn-winter season, Italy experienced an increase of SARS-CoV-2 cases, requiring the Government to adopt new restrictive measures. The national surveillance system in place defines 21 key process and performance indicators addressing for each Region/Autonomous Province: (i) the monitoring capacity, (ii) the degree of diagnostic capability, investigation and contact tracing, and (iii) the characteristics of the transmission dynamics as well as the resilience of health services. Overall, the traffic light approach shows a collective effort by the Italian Government to define strategies to both contain the spread of COVID-19 and to minimize the economic and social impact of the epidemic. Nonetheless, on what principles color-labeled risk levels are assigned on a regional level, it remains rather unclear or difficult to track.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "With the beginning of the autumn-winter season, Italy experienced an increase of SARS-CoV-2 cases, requiring the Government to adopt new restrictive measures. The national surveillance system in place defines 21 key process and performance indicators addressing for each Region/Autonomous Province: (i) the monitoring capacity, (ii) the degree of diagnostic capability, investigation and contact tracing, and (iii) the characteristics of the transmission dynamics as well as the resilience of health services. Overall, the traffic light approach shows a collective effort by the Italian Government to define strategies to both contain the spread of COVID-19 and to minimize the economic and social impact of the epidemic. Nonetheless, on what principles color-labeled risk levels are assigned on a regional level, it remains rather unclear or difficult to track."
         }
     ],
-    "body_text": [
-        {
-            "text": "With the beginning of the autumn-winter season, Italy experienced an increase of SARS-CoV-2 cases, requiring the Government to adopt new restrictive measures (1) . The national surveillance system has been implemented according to the Prime Ministerial Decree (DPCM) of November 3, 2020 (2), the previous strategic documents for monitoring for the second wave (3, 4) and the DPCM of April 26, 2020 (5) . The latter document defines 21 key process and performance indicators addressing for each Region/Autonomous Province: (i) the monitoring capacity, (ii) the degree of diagnostic capability, investigation and contact tracing, and (iii) the characteristics of the transmission dynamics as well as the resilience of health services ( Table 1 ) (5) . Based on a weekly assessment, each region is assigned to different levels of risk (high, medium, and low), which are mapped using a \"traffic light\" color code (red, orange, and yellow). The criteria are compliant with the European Commission's decision to adopt a common color code to provide strategy to restrict free movement across the European Union (6) and with the WHO frameworks (7) .",
-            "cite_spans": [
-                {
-                    "start": 158,
-                    "end": 161,
-                    "text": "(1)",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 360,
-                    "end": 363,
-                    "text": "(3,",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 364,
-                    "end": 366,
-                    "text": "4)",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 398,
-                    "end": 401,
-                    "text": "(5)",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 744,
-                    "end": 747,
-                    "text": "(5)",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 1104,
-                    "end": 1107,
-                    "text": "(6)",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 1136,
-                    "end": 1139,
-                    "text": "(7)",
-                    "ref_id": "BIBREF6"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 734,
-                    "end": 741,
-                    "text": "Table 1",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": ""
-        },
-        {
-            "text": "The complete algorithm is presented in Figure 1 . The overall risk assessment is based on 21 key process and performance indicators ( Table 1) . Either thresholds or comparative evaluation are defined and monitored on a weekly basis by each region as part of the national integrated surveillance system. Indicators 1.1-1.6 are used for an initial assessment of the quality of the information collected. If a region has those indicators above threshold, it is automatically labeled as a high-risk region. Non-increase the number of active transmission outbreaks in the Region; Absence of transmission outbreaks on the regional territory for which a risk assessment was not quickly carried out and the opportunity to establish a sub-regional \"red zone\" evaluated If a region complies with the threshold, two algorithms are used in order to evaluate the epidemic probability risk and epidemic impact risk ( Figure 1A) . Indicators used to evaluate the probability risk range from 3.1 to 3.7, while indicators used to evaluate the impact risk range from 3.1 to 3.9 (5). A risk assessment matrix (RAM) based on the probability and impact risk defines the risk level as: very low, low, moderate, high, and very high ( Figure 1B ). An additional classification of the level of risk has been defined assuming four possible scenarios based on the reproductive number (Rt) ( Table 1 -indicator 3.2) as described in Figure 1C (3). For each region, the combination of RAM and the four possible scenarios defines the overall high, medium and low risk, which is color coded as red, orange, and yellow (2) (Figure 1D) . A region is considered red when the RAM is equal to very high risk or high risk and complies with Scenario 4; orange when the RAM is equal to very high risk or high risk and complies with Scenario 3; and yellow when it is in Scenario 1 or Scenario 2, independently from the RAM results. From December 6 until December 12, the overall distribution of the Regions and Autonomous Provinces was as follows: 12 color-coded as yellow areas, eight color-coded as orange areas, and one as red area.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 39,
-                    "end": 47,
-                    "text": "Figure 1",
-                    "ref_id": "FIGREF0"
-                },
-                {
-                    "start": 134,
-                    "end": 142,
-                    "text": "Table 1)",
-                    "ref_id": "TABREF0"
-                },
-                {
-                    "start": 904,
-                    "end": 914,
-                    "text": "Figure 1A)",
-                    "ref_id": "FIGREF0"
-                },
-                {
-                    "start": 1212,
-                    "end": 1221,
-                    "text": "Figure 1B",
-                    "ref_id": "FIGREF0"
-                },
-                {
-                    "start": 1365,
-                    "end": 1372,
-                    "text": "Table 1",
-                    "ref_id": "TABREF0"
-                },
-                {
-                    "start": 1405,
-                    "end": 1414,
-                    "text": "Figure 1C",
-                    "ref_id": "FIGREF0"
-                },
-                {
-                    "start": 1591,
-                    "end": 1602,
-                    "text": "(Figure 1D)",
-                    "ref_id": "FIGREF0"
-                }
-            ],
-            "section": ""
-        },
-        {
-            "text": "The risk assessment method outlined by the Italian Government is in line with the WHO and European Commission frameworks (6, 7) . Although detailed indicators and the risk assessment process were defined, we draw attention to the following critical issues: (1) some indicators are not clearly outlined either in their meaning or in the proposed threshold (indicators 2.1, 2.4, 2.5, 2.6, 3.1-3.6); (2) the two algorithms of probability and impact risk assessment do not report which specific indicators are used to assess the four questions ( Figure 1A) ; (3) overall, the information needed to define the entire algorithm is fragmented in different documents (2) (3) (4) (5) ; (4) although the 21 indicators have been defined in the DPCM of April 26 (5), the related weekly reports started being described on a regional basis only from October 26 (8); (5) potential enforcement of the risk assessment algorithm by local regional regulation. As an example, the administration of the Abruzzo Region, which was on a Red risk level until December 5, decided to unilaterally self-declare on an orange risk level despite the Italian central Government did not allow the shift until December 12 (9) .",
-            "cite_spans": [
-                {
-                    "start": 121,
-                    "end": 124,
-                    "text": "(6,",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 125,
-                    "end": 127,
-                    "text": "7)",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 659,
-                    "end": 662,
-                    "text": "(2)",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 663,
-                    "end": 666,
-                    "text": "(3)",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 667,
-                    "end": 670,
-                    "text": "(4)",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 671,
-                    "end": 674,
-                    "text": "(5)",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 1188,
-                    "end": 1191,
-                    "text": "(9)",
-                    "ref_id": "BIBREF8"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 542,
-                    "end": 552,
-                    "text": "Figure 1A)",
-                    "ref_id": "FIGREF0"
-                }
-            ],
-            "section": ""
-        },
-        {
-            "text": "The traffic light approach shows a collective effort by the Italian Government to define strategies to both contain the spread of COVID-19 and to minimize the economic and social impact of the epidemic. Nonetheless, on what principles color-labeled risk levels are assigned on a regional level, it remains rather unclear or difficult to track.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": ""
-        },
-        {
-            "text": "All authors listed have made a substantial, direct and intellectual contribution to the work, and approved it for publication.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "AUTHOR CONTRIBUTIONS"
-        }
-    ],
+    "back_matter": [],
     "bib_entries": {
         "BIBREF0": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b0",
             "title": "Ulteriori disposizioni attuative del decreto-legge 25 marzo 2020, n. 19, convertito, con modificazioni, dalla legge 25 maggio 2020, n. 35, recante \u226aMisure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19\u226b, e del decreto-legge 16 maggio 2020, n. 33, convertito, con modificazioni, dalla legge 14 luglio 2020, n. 74, recante \u226aUlteriori misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19\u226b",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF1": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b1",
             "title": "Ulteriori disposizioni attuative del decreto-legge 25 marzo 2020, n. 19, convertito, con modificazioni, dalla legge 25 maggio 2020, n. 35, recante \u226aMisure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19\u226b, e del decreto-legge 16 maggio 2020, n. 33, convertito, con modificazioni, dalla legge 14 luglio 2020, n. 74, recante \u226aUlteriori misure urgenti per fronteggiare l'emergenza epidemiologica da COVID-19\u226b",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF2": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b2",
             "title": "Prevenzione e risposta a COVID-19: evoluzione della strategia e pianificazione nella fase di transizione per il periodo autunno-invernale. Roma: Ministero della Salute",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF3": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b3",
             "title": "Principi di monitoraggio del rischio sanitario",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF4": {
-            "ref_id": "b4",
-            "title": "19: attivit\u00e0 di monitoraggio del rischio sanitario connesse al passaggio dalla fase 1 alla fase 2A di cui all'allegato 10 del DPCM",
             "authors": [
                 {
                     "first": "Covid",
-                    "middle": [],
                     "last": "Emergenza",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b4",
+            "title": "19: attivit\u00e0 di monitoraggio del rischio sanitario connesse al passaggio dalla fase 1 alla fase 2A di cui all'allegato 10 del DPCM",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF5": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b5",
             "title": "European Commission Statement on the Coordination of Measures Restricting Free Movement in the European Union Related to the Coronavirus Pandemic",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF6": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b6",
             "title": "COVID-19 Strategic Preparedness and Response Plan. Country Preparedness and Response Status for COVID-19",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF7": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b7",
             "title": "Notizie-Report settimanale Covid-19",
-            "authors": [],
-            "year": 2020,
             "venue": "?lingua=italiano& tipo=Report$\\pm$settimanale$\\pm$Covid-19&btnCerca=cerca",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Ulteriori misure urgenti per la prevenzione e gestione dell'emergenza epidemiologica da COVID-2019",
             "authors": [
                 {
                     "first": "Regione",
-                    "middle": [],
                     "last": "Abruzzo",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b8",
+            "title": "Ulteriori misure urgenti per la prevenzione e gestione dell'emergenza epidemiologica da COVID-2019",
             "venue": "Ordinanza del presidente della giunta regionale N.106 del 6 Dicembre 2020",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 161,
+                    "ref_id": "BIBREF0",
+                    "start": 158,
+                    "text": "(1)"
+                },
+                {
+                    "end": 363,
+                    "ref_id": "BIBREF2",
+                    "start": 360,
+                    "text": "(3,"
+                },
+                {
+                    "end": 366,
+                    "ref_id": "BIBREF3",
+                    "start": 364,
+                    "text": "4)"
+                },
+                {
+                    "end": 401,
+                    "ref_id": "BIBREF4",
+                    "start": 398,
+                    "text": "(5)"
+                },
+                {
+                    "end": 747,
+                    "ref_id": "BIBREF4",
+                    "start": 744,
+                    "text": "(5)"
+                },
+                {
+                    "end": 1107,
+                    "ref_id": "BIBREF5",
+                    "start": 1104,
+                    "text": "(6)"
+                },
+                {
+                    "end": 1139,
+                    "ref_id": "BIBREF6",
+                    "start": 1136,
+                    "text": "(7)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 741,
+                    "ref_id": "TABREF0",
+                    "start": 734,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "",
+            "text": "With the beginning of the autumn-winter season, Italy experienced an increase of SARS-CoV-2 cases, requiring the Government to adopt new restrictive measures (1) . The national surveillance system has been implemented according to the Prime Ministerial Decree (DPCM) of November 3, 2020 (2), the previous strategic documents for monitoring for the second wave (3, 4) and the DPCM of April 26, 2020 (5) . The latter document defines 21 key process and performance indicators addressing for each Region/Autonomous Province: (i) the monitoring capacity, (ii) the degree of diagnostic capability, investigation and contact tracing, and (iii) the characteristics of the transmission dynamics as well as the resilience of health services ( Table 1 ) (5) . Based on a weekly assessment, each region is assigned to different levels of risk (high, medium, and low), which are mapped using a \"traffic light\" color code (red, orange, and yellow). The criteria are compliant with the European Commission's decision to adopt a common color code to provide strategy to restrict free movement across the European Union (6) and with the WHO frameworks (7) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 47,
+                    "ref_id": "FIGREF0",
+                    "start": 39,
+                    "text": "Figure 1"
+                },
+                {
+                    "end": 142,
+                    "ref_id": "TABREF0",
+                    "start": 134,
+                    "text": "Table 1)"
+                },
+                {
+                    "end": 914,
+                    "ref_id": "FIGREF0",
+                    "start": 904,
+                    "text": "Figure 1A)"
+                },
+                {
+                    "end": 1221,
+                    "ref_id": "FIGREF0",
+                    "start": 1212,
+                    "text": "Figure 1B"
+                },
+                {
+                    "end": 1372,
+                    "ref_id": "TABREF0",
+                    "start": 1365,
+                    "text": "Table 1"
+                },
+                {
+                    "end": 1414,
+                    "ref_id": "FIGREF0",
+                    "start": 1405,
+                    "text": "Figure 1C"
+                },
+                {
+                    "end": 1602,
+                    "ref_id": "FIGREF0",
+                    "start": 1591,
+                    "text": "(Figure 1D)"
+                }
+            ],
+            "section": "",
+            "text": "The complete algorithm is presented in Figure 1 . The overall risk assessment is based on 21 key process and performance indicators ( Table 1) . Either thresholds or comparative evaluation are defined and monitored on a weekly basis by each region as part of the national integrated surveillance system. Indicators 1.1-1.6 are used for an initial assessment of the quality of the information collected. If a region has those indicators above threshold, it is automatically labeled as a high-risk region. Non-increase the number of active transmission outbreaks in the Region; Absence of transmission outbreaks on the regional territory for which a risk assessment was not quickly carried out and the opportunity to establish a sub-regional \"red zone\" evaluated If a region complies with the threshold, two algorithms are used in order to evaluate the epidemic probability risk and epidemic impact risk ( Figure 1A) . Indicators used to evaluate the probability risk range from 3.1 to 3.7, while indicators used to evaluate the impact risk range from 3.1 to 3.9 (5). A risk assessment matrix (RAM) based on the probability and impact risk defines the risk level as: very low, low, moderate, high, and very high ( Figure 1B ). An additional classification of the level of risk has been defined assuming four possible scenarios based on the reproductive number (Rt) ( Table 1 -indicator 3.2) as described in Figure 1C (3). For each region, the combination of RAM and the four possible scenarios defines the overall high, medium and low risk, which is color coded as red, orange, and yellow (2) (Figure 1D) . A region is considered red when the RAM is equal to very high risk or high risk and complies with Scenario 4; orange when the RAM is equal to very high risk or high risk and complies with Scenario 3; and yellow when it is in Scenario 1 or Scenario 2, independently from the RAM results. From December 6 until December 12, the overall distribution of the Regions and Autonomous Provinces was as follows: 12 color-coded as yellow areas, eight color-coded as orange areas, and one as red area."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 124,
+                    "ref_id": "BIBREF5",
+                    "start": 121,
+                    "text": "(6,"
+                },
+                {
+                    "end": 127,
+                    "ref_id": "BIBREF6",
+                    "start": 125,
+                    "text": "7)"
+                },
+                {
+                    "end": 662,
+                    "ref_id": "BIBREF1",
+                    "start": 659,
+                    "text": "(2)"
+                },
+                {
+                    "end": 666,
+                    "ref_id": "BIBREF2",
+                    "start": 663,
+                    "text": "(3)"
+                },
+                {
+                    "end": 670,
+                    "ref_id": "BIBREF3",
+                    "start": 667,
+                    "text": "(4)"
+                },
+                {
+                    "end": 674,
+                    "ref_id": "BIBREF4",
+                    "start": 671,
+                    "text": "(5)"
+                },
+                {
+                    "end": 1191,
+                    "ref_id": "BIBREF8",
+                    "start": 1188,
+                    "text": "(9)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 552,
+                    "ref_id": "FIGREF0",
+                    "start": 542,
+                    "text": "Figure 1A)"
+                }
+            ],
+            "section": "",
+            "text": "The risk assessment method outlined by the Italian Government is in line with the WHO and European Commission frameworks (6, 7) . Although detailed indicators and the risk assessment process were defined, we draw attention to the following critical issues: (1) some indicators are not clearly outlined either in their meaning or in the proposed threshold (indicators 2.1, 2.4, 2.5, 2.6, 3.1-3.6); (2) the two algorithms of probability and impact risk assessment do not report which specific indicators are used to assess the four questions ( Figure 1A) ; (3) overall, the information needed to define the entire algorithm is fragmented in different documents (2) (3) (4) (5) ; (4) although the 21 indicators have been defined in the DPCM of April 26 (5), the related weekly reports started being described on a regional basis only from October 26 (8); (5) potential enforcement of the risk assessment algorithm by local regional regulation. As an example, the administration of the Abruzzo Region, which was on a Red risk level until December 5, decided to unilaterally self-declare on an orange risk level despite the Italian central Government did not allow the shift until December 12 (9) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "",
+            "text": "The traffic light approach shows a collective effort by the Italian Government to define strategies to both contain the spread of COVID-19 and to minimize the economic and social impact of the epidemic. Nonetheless, on what principles color-labeled risk levels are assigned on a regional level, it remains rather unclear or difficult to track."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS",
+            "text": "All authors listed have made a substantial, direct and intellectual contribution to the work, and approved it for publication."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Lara",
+                "last": "Lengel",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Penrose",
+                "last": "Jackson",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Alessandro",
+                "last": "Rovetta",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "European Commission",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Belgium",
+                        "settlement": "Brussels"
+                    }
+                },
+                "email": "ussai.silvia@gmail.com",
+                "first": "Silvia",
+                "last": "Ussai",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Luca",
+                "last": "Paroni",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Clelia",
+                "last": "D&apos;apice",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Benedetta",
+                "last": "Armocida",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Beatrice",
+                "last": "Formenti",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Lorenzo",
+                "last": "De Min",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Eduardo",
+                "last": "Missoni",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "The Traffic Light Approach: Indicators and Algorithms to Identify Covid-19 Epidemic Risk Across Italian Regions"
+    },
+    "paper_id": "27b6071e71890bea2c27b02c62ea671f9fa3c92f",
     "ref_entries": {
         "FIGREF0": {
-            "text": "Complete algorithm. (A) Probability and Impact risk evaluation of COVID-19 pandemic from phase 1 to phase 2A in Italy based on the 21 indicators described in the DPCM from April 26. (B) Risk assessment matrix combination of probability and impact evaluation as described in the decree of the Ministry of Health. (C) Description of the four scenarios based on the strategic document developed by the Ministry of Health and ISS on the evolution of strategy and planning in the COVID-19 transition phase for the autumn-winter season (4). (D) Definition of the red, orange, and yellow areas based on the decree of the Ministry of health from November 3.",
             "latex": null,
+            "text": "Complete algorithm. (A) Probability and Impact risk evaluation of COVID-19 pandemic from phase 1 to phase 2A in Italy based on the 21 indicators described in the DPCM from April 26. (B) Risk assessment matrix combination of probability and impact evaluation as described in the decree of the Ministry of Health. (C) Description of the four scenarios based on the strategic document developed by the Ministry of Health and ISS on the evolution of strategy and planning in the COVID-19 transition phase for the autumn-winter season (4). (D) Definition of the red, orange, and yellow areas based on the decree of the Ministry of health from November 3.",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "List of the 21 Indicators as described in the DPCM of April 26.Frontiers in Public Health | www.frontiersin.org",
             "latex": null,
+            "text": "List of the 21 Indicators as described in the DPCM of April 26.Frontiers in Public Health | www.frontiersin.org",
             "type": "table"
         },
         "TABREF1": {
-            "text": "ContinuedFrontiers in Public Health | www.frontiersin.org",
             "latex": null,
+            "text": "ContinuedFrontiers in Public Health | www.frontiersin.org",
             "type": "table"
         },
         "TABREF2": {
-            "text": "Continued",
             "latex": null,
+            "text": "Continued",
             "type": "table"
         }
-    },
-    "back_matter": []
+    }
 }

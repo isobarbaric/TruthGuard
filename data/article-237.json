@@ -1,2165 +1,2165 @@
 {
-    "paper_id": "27bbd2297536266d8136849d3fb7025c4721a2ac",
-    "metadata": {
-        "title": "COVID-19 CT Scan Lung Segmentation: How We Do It",
-        "authors": [
-            {
-                "first": "Davide",
-                "middle": [],
-                "last": "Negroni",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Domenico",
-                "middle": [],
-                "last": "Zagaria",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Andrea",
-                "middle": [],
-                "last": "Paladini",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Zeno",
-                "middle": [],
-                "last": "Falaschi",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Anna",
-                "middle": [],
-                "last": "Arcoraci",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "\u00b7",
-                "middle": [],
-                "last": "Michela Barini",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Alessandro",
-                "middle": [],
-                "last": "Carriero",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "The National Health Systems have been severely stressed out by the COVID-19 pandemic because 14% of patients require hospitalization and oxygen support, and 5% require admission to an Intensive Care Unit (ICU). Relationship between COVID-19 prognosis and the extent of alterations on chest CT obtained by both visual and software-based quantification that expresses objective evaluations of the percentage of ventilated lung parenchyma compared to the affected one has been proven. While commercial applications for automatic medical image computing and visualization are expensive and limited in their spread, the open-source systems are characterized by not enough standardization and time-consuming troubles. We analyzed chest CT exams on 246 patients suspected of COVID-19 performed in the Emergency Department CT room. The lung parenchyma segmentation was obtained by a threshold-based method using the open-source 3D Slicer software and software tools called \"Segment Editor\" and \"Segment Quantification.\" For the three main characteristics analyzed on lungs affected by COVID-19 pneumonia, a specifical densitometry value range was defined: from \u2212 950 to \u2212 700 HU for well-aerated parenchyma; from \u2212 700 to \u2212 250 HU for interstitial lung disease; from \u2212 250 to 250 HU for parenchymal consolidation. For the well-aerated parenchyma and the interstitial alterations, the procedure was semi-automatic with low time consumption, whereas consolidations' analysis needed manual interventions by the operator. After the chest CT, 13% of the sample was admitted to intensive care, while 34% of them to the sub-intensive care. In patients moved to intensive care, the parenchyma analysis reported a higher crazy paving presentation. The quantitative analysis of the alterations affecting the lung parenchyma of patients with COVID-19 pneumonia can be performed by threshold method segmentation on 3D Slicer. The segmentation could have an important role in the quantification in different COVID-19 pneumonia presentations, allowing to help the clinician in the correct management of patients.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "The National Health Systems have been severely stressed out by the COVID-19 pandemic because 14% of patients require hospitalization and oxygen support, and 5% require admission to an Intensive Care Unit (ICU). Relationship between COVID-19 prognosis and the extent of alterations on chest CT obtained by both visual and software-based quantification that expresses objective evaluations of the percentage of ventilated lung parenchyma compared to the affected one has been proven. While commercial applications for automatic medical image computing and visualization are expensive and limited in their spread, the open-source systems are characterized by not enough standardization and time-consuming troubles. We analyzed chest CT exams on 246 patients suspected of COVID-19 performed in the Emergency Department CT room. The lung parenchyma segmentation was obtained by a threshold-based method using the open-source 3D Slicer software and software tools called \"Segment Editor\" and \"Segment Quantification.\" For the three main characteristics analyzed on lungs affected by COVID-19 pneumonia, a specifical densitometry value range was defined: from \u2212 950 to \u2212 700 HU for well-aerated parenchyma; from \u2212 700 to \u2212 250 HU for interstitial lung disease; from \u2212 250 to 250 HU for parenchymal consolidation. For the well-aerated parenchyma and the interstitial alterations, the procedure was semi-automatic with low time consumption, whereas consolidations' analysis needed manual interventions by the operator. After the chest CT, 13% of the sample was admitted to intensive care, while 34% of them to the sub-intensive care. In patients moved to intensive care, the parenchyma analysis reported a higher crazy paving presentation. The quantitative analysis of the alterations affecting the lung parenchyma of patients with COVID-19 pneumonia can be performed by threshold method segmentation on 3D Slicer. The segmentation could have an important role in the quantification in different COVID-19 pneumonia presentations, allowing to help the clinician in the correct management of patients."
         }
     ],
-    "body_text": [
-        {
-            "text": ". Although most patients with COVID-19 pneumonia develop only mild or paucisymptomatic illness, approximately 14% are affected by severe disease that requires hospitalization and oxygen support, and 5% require admission to an Intensive Care Unit (ICU) [2] .",
-            "cite_spans": [
-                {
-                    "start": 252,
-                    "end": 255,
-                    "text": "[2]",
-                    "ref_id": "BIBREF1"
-                }
-            ],
-            "ref_spans": [],
-            "section": ""
-        },
-        {
-            "text": "Triaging of these patients is mainly based on clinical and laboratory parameters, while chest imaging might be required for a second-level triage in specific cases. In our hospital, chest radiography was performed in patients with suspected COVID-19 pneumonia, whereas supplementary computer tomography exam (CT) is performed in severe cases or in case of mismatch between clinical and radiographic characteristics [3, 4] .",
-            "cite_spans": [
-                {
-                    "start": 415,
-                    "end": 418,
-                    "text": "[3,",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 419,
-                    "end": 421,
-                    "text": "4]",
-                    "ref_id": "BIBREF3"
-                }
-            ],
-            "ref_spans": [],
-            "section": ""
-        },
-        {
-            "text": "Moreover, the last Fleischner Society Statement on Chest Imaging and COVID-19, released on April 7th, 2020, suggests that CT imaging is indicated in the medical triage of patients with suspected COVID-19 who present with moderate to severe clinical features and a high pre-test probability of disease, in case of worsening respiratory status or patients with functional impairment and/or hypoxemia after recovery [5] .",
-            "cite_spans": [
-                {
-                    "start": 413,
-                    "end": 416,
-                    "text": "[5]",
-                    "ref_id": "BIBREF4"
-                }
-            ],
-            "ref_spans": [],
-            "section": ""
-        },
-        {
-            "text": "The relationship between COVID-19 prognosis and the extent of well-aerated lung parenchyma obtained by chest CT with either visual or quantitative measurements has indeed been proven [6] . Tabatabaei et al. [7] have shown that a greater extension of the initial chest CT features could provide a prognostic stratification for early detection of critically ill COVID-19 patients compared to patients undergoing routine ward hospitalization or patients discharged at home. Furthermore, the study of Colombi et al. [8] suggests that both visual and software-based quantification of the well-aerated lung on chest CT obtained in the emergency setting were independent predictors of ICU admission or death in patients with COVID-19 and that quantitative assessment of the extent of lung involvement by COVID-19 pneumonia may be useful for routine patient management.",
-            "cite_spans": [
-                {
-                    "start": 183,
-                    "end": 186,
-                    "text": "[6]",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 207,
-                    "end": 210,
-                    "text": "[7]",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 512,
-                    "end": 515,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                }
-            ],
-            "ref_spans": [],
-            "section": ""
-        },
-        {
-            "text": "Since lung involvement of COVID-19 pneumonia could be assessed automatically by deep learning-based quantitative CT, it was proposed that it is mandatory to have an artificial intelligence (AI) software that expresses objective evaluations of the percentage of ventilated lung parenchyma compared to the affected one [9] . Quantitative CT imaging of the lung has been used previously to assess lung intensity/density in the normal adult human lung [10] , smokingrelated lung disease including emphysema and large airway disease [11, 12] , air trapping in asthma patients [13, 14] , and interstitial lung disease [15, 16] . Moreover, CT quantification of the well-aerated lung was shown to be helpful either to estimate the alveolar recruitment during ventilation or to predict the prognosis of patients with acute respiratory distress syndrome (ARDS) [17, 18] . However, commercial applications for totally automatic medical image computing and visualization are typically expensive specialized hardware/software and limited in their spread [19] . Moreover, open-source systems that provide a semi-automatic manual segmentation are characterized by not enough standardization and are affected by timeconsuming troubles [20] .",
-            "cite_spans": [
-                {
-                    "start": 317,
-                    "end": 320,
-                    "text": "[9]",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 448,
-                    "end": 452,
-                    "text": "[10]",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 528,
-                    "end": 532,
-                    "text": "[11,",
-                    "ref_id": "BIBREF10"
-                },
-                {
-                    "start": 533,
-                    "end": 536,
-                    "text": "12]",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 571,
-                    "end": 575,
-                    "text": "[13,",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 576,
-                    "end": 579,
-                    "text": "14]",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 612,
-                    "end": 616,
-                    "text": "[15,",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 617,
-                    "end": 620,
-                    "text": "16]",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 851,
-                    "end": 855,
-                    "text": "[17,",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 856,
-                    "end": 859,
-                    "text": "18]",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 1041,
-                    "end": 1045,
-                    "text": "[19]",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 1219,
-                    "end": 1223,
-                    "text": "[20]",
-                    "ref_id": "BIBREF20"
-                }
-            ],
-            "ref_spans": [],
-            "section": ""
-        },
-        {
-            "text": "We retrospectively analyzed 246 consecutive COVID-19 patients admitted to the emergency CT room between April 2019 and May 2019. Only patients with radiological signs of interstitial lung disease and SARS-CoV-2 swab positivity were considered in this study.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Material and Methods"
-        },
-        {
-            "text": "CT images acquired were processed lungs via 3D Slicer software. The three main characteristics analyzed on lungs affected by COVID-19 pneumonia were (1) well-aerated parenchyma; (2) interstitial lung disease, including both ground glass opacities and crazy paving; and (3) parenchymal consolidation.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Material and Methods"
-        },
-        {
-            "text": "The three categories (GGO, consolidation, and crazy paving) were obtained based on the percentage of extension of the alterations in the lung parenchyma.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Material and Methods"
-        },
-        {
-            "text": "Arbitrary, when the areas of consolidation exceeded 25% of the pathological zones of the lung, it was considered the prevalent pattern. Segmentation was used to calculate the %.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Material and Methods"
-        },
-        {
-            "text": "The pattern with a prevalence of crazy paving was characterized visually by a percentage of at least 25% of the total lung pathological areas.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Material and Methods"
-        },
-        {
-            "text": "The remaining cases presented the GGO as the most common finding in the absence of significant consolidation alterations and crazy paving.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Material and Methods"
-        },
-        {
-            "text": "All chest CT scans were performed during a single full inspiratory breath-hold in supine position on a 128-slice CT (Philips Ingenuity Core, Philips Healthcare, Netherlands). The scans' technical parameters were as follows: tube voltage: 120 kV; tube current modulation: 226 mAs; spiral pitch factor: 1.08; collimation width 0.625, matrix 512 (mediastinal window) and 768 (lung window). All images were reconstructed with a 1-mm-slice thickness range using both sharp kernels (B70f) with a standard lung window (1500 width; \u2212 500 centers) and medium-soft kernels (B40f) with a soft tissue window (300 widths; 40 centers).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "CT Imaging Techniques"
-        },
-        {
-            "text": "The images in DICOM (Digital Imaging and COmmunications in Medicine) extension files were transferred to the Picture Archiving and Communication System (PACS) of our institution and then analyzed into a workstation equipped with two 35 \u00d7 43 cm monitors (produced by Eizo, with 2048 \u00d7 1536 matrix).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "CT Imaging Techniques"
-        },
-        {
-            "text": "The lung parenchyma segmentation was performed by a software-based evaluation on a dedicated workstation using the open-source 3D Slicer software (version 4.10.2, https:// www. slicer. org) [19] , using the software tools called \"Segment Editor\" and \"Segment Quantification.\"",
-            "cite_spans": [
-                {
-                    "start": 190,
-                    "end": 194,
-                    "text": "[19]",
-                    "ref_id": "BIBREF18"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Method of Lung Segmentation"
-        },
-        {
-            "text": "The hardware used was an HP Pavilion (processor: AMD Ryzen 5-3500U (2.1 GHz-4 MB L3), SSD: 256 GB, RAM: 8 GB, graphic card: AMD Radeon Vega 8).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Method of Lung Segmentation"
-        },
-        {
-            "text": "Mansoor et al. [21] described applications, advantages, and disadvantages for five major classes of lung segmentation methods: (a) thresholding-based, (b) region-based, (c) shape-based, (d) neighboring anatomy-guided, and (e) machine learning-based methods. To segment the lungs affected by COVID-19 pneumonia, we decided to use the threshold-based method that creates binary partitions based on image attenuation values in a simple, fast, and effective way, thanks to the well-defined densitometric difference between air and the lung.",
-            "cite_spans": [
-                {
-                    "start": 15,
-                    "end": 19,
-                    "text": "[21]",
-                    "ref_id": "BIBREF21"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Method of Lung Segmentation"
-        },
-        {
-            "text": "The three main characteristics analyzed on lungs affected by COVID-19 pneumonia were (1) well-aerated parenchyma; (2) interstitial lung disease, including both ground glass opacities and crazy paving; and (3) parenchymal consolidation.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Method of Lung Segmentation"
-        },
-        {
-            "text": "Specific density thresholds expressed in HU have been set for each of these findings, based on a combination of visual assessment performed by the two radiology and exhaustive revisions of the literature that investigate the correlation between lung densitometry, pulmonary function tests, and other clinical measurements.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Method of Lung Segmentation"
-        },
-        {
-            "text": "Data on the different care unit admissions after the chest CT were collected in a dedicated database. The following were considered the care unit: home care (HC), ordinary hospitalization (OH), sub-intensive care (SC), and intensive care (IC). The data were analyzed using descriptive statistics.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Patient Clinical Data"
-        },
-        {
-            "text": "Among the 246 cases analyzed, 71.5% had the GGO pattern as prevalent; in 16.7%, the consolidation pattern prevails, and in the remaining 12.2% the crazy paving pattern. Principal pattern findings and hospitalization type in lungs are resumed in Table 1 .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 245,
-                    "end": 252,
-                    "text": "Table 1",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Results"
-        },
-        {
-            "text": "Among the patients with consolidative pattern, about 51% required hospitalization in the sub-intensive care unit, 24% underwent hospitalization under the ordinary regime, and 19.5% underwent hospitalization for intensive care. Only less than 6% were treated at home.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Results"
-        },
-        {
-            "text": "All patients with crazy paving as the prevalent pattern required hospitalization; only one hospitalization was ordinary, 60% in sub-intensive, and 37% in intensive care.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Results"
-        },
-        {
-            "text": "From the analysis of previous studies, the HU values relating to the well-ventilated lung parenchyma were well defined within a threshold between \u2212 950 and \u2212 700 HU, and therefore, it was not necessary to make manual changes through the visual evaluation of the operator [8, 22] .",
-            "cite_spans": [
-                {
-                    "start": 271,
-                    "end": 274,
-                    "text": "[8,",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 275,
-                    "end": 278,
-                    "text": "22]",
-                    "ref_id": "BIBREF22"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Threshold Selection"
-        },
-        {
-            "text": "The threshold between \u2212 700 and \u2212 250 HU seems to be able to isolate the interstitial involvement of the disease (including typical COVID-19 pneumonia features as ground glass opacities and crazy paving) from the surrounding lung parenchyma, thanks to the good difference in densitometric values between air and the lung. Moreover, many studies in the literature reported similar thresholds used for the assessment of other diffuse interstitial lung diseases [23, 24] , and a recent one confirmed its use in COVID-19 pneumonia [8] .",
-            "cite_spans": [
-                {
-                    "start": 459,
-                    "end": 463,
-                    "text": "[23,",
-                    "ref_id": "BIBREF23"
-                },
-                {
-                    "start": 464,
-                    "end": 467,
-                    "text": "24]",
-                    "ref_id": "BIBREF24"
-                },
-                {
-                    "start": 527,
-                    "end": 530,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Threshold Selection"
-        },
-        {
-            "text": "For the densitometry values of the lung consolidation, the current literature has proposed thresholds higher than \u2212 100 HU [25] ; for example, Kasturagawa [26] reported that the main variations of consolidated parenchyma fall within a range between \u2212 150 and + 150 HU.",
-            "cite_spans": [
-                {
-                    "start": 123,
-                    "end": 127,
-                    "text": "[25]",
-                    "ref_id": "BIBREF25"
-                },
-                {
-                    "start": 155,
-                    "end": 159,
-                    "text": "[26]",
-                    "ref_id": "BIBREF26"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Threshold Selection"
-        },
-        {
-            "text": "The thresholding selection was decided through a visual assessment to identify the minimum cutoff capable of differentiating the consolidation from interstitial alteration and the maximum one which allows the location of extrapulmonary solid anatomic structures. In this way, a general threshold ranging from \u2212 250 up to + 250 HU has been identified for the segmentation of consolidation in lungs affected by COVID-19 pneumonia, capable of conforming optimally to all cases analyzed. However, these densitometric values required a total manual intervention by the operator and were not possible to avoid including the arterial vessels and the osteo-connective structures of the cage thoracic [25, 27] . Figure 1 shows our current protocol in use. The CT chest images in DICOM format were downloaded from our PACS system and uploaded to the 3D Slicer software installed on a dedicated workstation.",
-            "cite_spans": [
-                {
-                    "start": 692,
-                    "end": 696,
-                    "text": "[25,",
-                    "ref_id": "BIBREF25"
-                },
-                {
-                    "start": 697,
-                    "end": 700,
-                    "text": "27]",
-                    "ref_id": "BIBREF27"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 703,
-                    "end": 711,
-                    "text": "Figure 1",
-                    "ref_id": "FIGREF0"
-                }
-            ],
-            "section": "Threshold Selection"
-        },
-        {
-            "text": "The segmentation involved the creation of 5 different levels, each with its overall thresholds: (a) total lung volume excluding consolidation; (b) trachea and bronchi; (c) interstitial alterations; (d) well-aerated parenchyma; (e) consolidation.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Segmentation Protocol"
-        },
-        {
-            "text": "Firstly, the total lung volume excluding consolidation was obtained by using thresholds between \u2212 1024 and \u2212 250 HU (Fig. 2) . In a semi-automatic method that did not require manual intervention, this volume was isolated from the surrounding environment and extrathoracic structures, including the thoracic musculature, the abdominal tissues, the parenchyma, the trachea, the main bronchi, and the mediastinal structures.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 116,
-                    "end": 124,
-                    "text": "(Fig. 2)",
-                    "ref_id": "FIGREF1"
-                }
-            ],
-            "section": "Segmentation Protocol"
-        },
-        {
-            "text": "Secondly, after being given the high sharpness of the HR image with a lung window, smoothing (closure method, 3.0 mm kernel size) was carried out to homogenize the wellaerated parenchyma and fill any holes. The volume of the trachea and main bronchi was obtained with the automatic neighboring anatomy-guided segmentation system (intensity tolerance: 60 voxels; neighborhood size: 1.00 voxel) and it was subtracted from the total volume excluding consolidation (Fig. 3A) .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 461,
-                    "end": 470,
-                    "text": "(Fig. 3A)",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Segmentation Protocol"
-        },
-        {
-            "text": "In case of difficulty in the isolation of the trachea and bronchi volume, we proposed to subtract empirically the volume of 30 ml according to the data obtained in human physiology study by Yamashiro et al. [28] .",
-            "cite_spans": [
-                {
-                    "start": 207,
-                    "end": 211,
-                    "text": "[28]",
-                    "ref_id": "BIBREF28"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Segmentation Protocol"
-        },
-        {
-            "text": "Thirdly, thanks to a combination between previous literature studies and visual evaluation of the mask, the proposed threshold for the typical COVID-19 interstitial alteration assignment was \u2212 700 and \u2212 250 (Fig. 3B) . As well as the well-aerated parenchyma (Fig. 3D) , this step also did not require manual intervention, succeeding semi-automatically in exhaustively segmenting only the alterations of the pulmonary interstitium; this segmentation was performed within the previous total lung volume segmentation avoiding sensitive structures such as air contained in the other intestine, clothes, and other extracorporeal structures (CT bed and external device).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 207,
-                    "end": 216,
-                    "text": "(Fig. 3B)",
-                    "ref_id": "FIGREF2"
-                },
-                {
-                    "start": 258,
-                    "end": 267,
-                    "text": "(Fig. 3D)",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Segmentation Protocol"
-        },
-        {
-            "text": "At last, the volume of the consolidation was totally defined by manual intervention performed by the operator. Using a visual assessment, we found that a threshold from \u2212 250 to + 250 HU allows all the areas of lung consolidation to be involved (Fig. 3C) . The manual intervention to only isolate the consolidation volume was performed by the paint command within the software, which was a 3-10-mmdiameter sphere applied in the axial and longitudinal scans. This operation was done inside the overall lung fields, excluding the pulmonary hilum and the structures placed outside the pleural line. In case of involvement in the overall consolidation volume, the major vessels (pulmonary arteries or pulmonary veins), or other structures extrapulmonary, they were eliminated by the erasing command within the software, in similar manual operation than the paint one.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 245,
-                    "end": 254,
-                    "text": "(Fig. 3C)",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Segmentation Protocol"
-        },
-        {
-            "text": "The lung images, downloaded in DICOM format from our PACS system, were uploaded to the dedicated 3D Slicer software installed on a dedicated workstation, taking at most 5 min.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Time Cost"
-        },
-        {
-            "text": "The time spent for the segmentation of a single patient was approximately 15 min, including semi-automatic segmentation (about 5 min) and manual segmentation (about 10 min) for the consolidated parenchyma. In patients without consolidated parenchyma where the consolidated parenchyma was not present, the time required was about 6 min. The well-aerated lung parenchyma. This volume was obtained indirectly by subtracting the GGO + trachea + bronchi from the total lung volume (Fig. 1) The time may change depending on the processor and the characteristics of the hardware used, especially based on processor speed.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 476,
-                    "end": 484,
-                    "text": "(Fig. 1)",
-                    "ref_id": "FIGREF0"
-                }
-            ],
-            "section": "Time Cost"
-        },
-        {
-            "text": "As reported in Table 1 , of the 246 cases analyzed, the most reported lung alteration was the GGO (71.5%).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 15,
-                    "end": 22,
-                    "text": "Table 1",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Patient Clinical Data"
-        },
-        {
-            "text": "The data about the prevalence of this pattern were similar to the current literature. Particularly, the GGO was reported to be 77.2% [29] , 83.3% [30] , 78.0% [31] , 68.1% [32] , 68.0% [33] , 71.7% [34] , 79.0% [35] , and 71.5% [36] in different meta-analyses.",
-            "cite_spans": [
-                {
-                    "start": 133,
-                    "end": 137,
-                    "text": "[29]",
-                    "ref_id": "BIBREF29"
-                },
-                {
-                    "start": 146,
-                    "end": 150,
-                    "text": "[30]",
-                    "ref_id": "BIBREF30"
-                },
-                {
-                    "start": 159,
-                    "end": 163,
-                    "text": "[31]",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 172,
-                    "end": 176,
-                    "text": "[32]",
-                    "ref_id": "BIBREF32"
-                },
-                {
-                    "start": 185,
-                    "end": 189,
-                    "text": "[33]",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 198,
-                    "end": 202,
-                    "text": "[34]",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 211,
-                    "end": 215,
-                    "text": "[35]",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 228,
-                    "end": 232,
-                    "text": "[36]",
-                    "ref_id": "BIBREF36"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Patient Clinical Data"
-        },
-        {
-            "text": "Among the patients with consolidative pattern (imaging where the percentage of consolidated parenchyma is at least 30%), an index of disease severity progression [36] was reported in the 25.3% of patients admitted to SC (the 51% of all patients with consolidation pattern) and in the 25.0% of patients in IC (the 19% of all patients with consolidation patters). The consolidation pattern resulted similarly to the meta-analysis of Zhou et al. who reported a value of prevalence of consolidation pattern of 18% [33] . Instead, the other principal meta-analyses considered described a major prevalence between 33 and 44% [29] [30] [31] [32] [33] [34] [35] [36] .",
-            "cite_spans": [
-                {
-                    "start": 162,
-                    "end": 166,
-                    "text": "[36]",
-                    "ref_id": "BIBREF36"
-                },
-                {
-                    "start": 510,
-                    "end": 514,
-                    "text": "[33]",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 619,
-                    "end": 623,
-                    "text": "[29]",
-                    "ref_id": "BIBREF29"
-                },
-                {
-                    "start": 624,
-                    "end": 628,
-                    "text": "[30]",
-                    "ref_id": "BIBREF30"
-                },
-                {
-                    "start": 629,
-                    "end": 633,
-                    "text": "[31]",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 634,
-                    "end": 638,
-                    "text": "[32]",
-                    "ref_id": "BIBREF32"
-                },
-                {
-                    "start": 639,
-                    "end": 643,
-                    "text": "[33]",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 644,
-                    "end": 648,
-                    "text": "[34]",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 649,
-                    "end": 653,
-                    "text": "[35]",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 654,
-                    "end": 658,
-                    "text": "[36]",
-                    "ref_id": "BIBREF36"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Patient Clinical Data"
-        },
-        {
-            "text": "This difference in the consolidation pattern might be due to the establishment of a \"prevalent pattern,\" thanks to the segmentation. While the principal meta-analyses were often considered a \"mixed-pattern\" or coexistence of patterns [29] [30] [31] [32] [33] [34] 36] , in this study the segmentation allowed a better pneumonia classification with the pattern mutual exclusion.",
-            "cite_spans": [
-                {
-                    "start": 234,
-                    "end": 238,
-                    "text": "[29]",
-                    "ref_id": "BIBREF29"
-                },
-                {
-                    "start": 239,
-                    "end": 243,
-                    "text": "[30]",
-                    "ref_id": "BIBREF30"
-                },
-                {
-                    "start": 244,
-                    "end": 248,
-                    "text": "[31]",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 249,
-                    "end": 253,
-                    "text": "[32]",
-                    "ref_id": "BIBREF32"
-                },
-                {
-                    "start": 254,
-                    "end": 258,
-                    "text": "[33]",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 259,
-                    "end": 263,
-                    "text": "[34]",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 264,
-                    "end": 267,
-                    "text": "36]",
-                    "ref_id": "BIBREF36"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Patient Clinical Data"
-        },
-        {
-            "text": "The crazy paving funded in this study was globally less prevalent compared to the reference meta-analyses (12.2% vs a range of 14.8 to 35.6%) [29] [30] [31] [32] 36] .",
-            "cite_spans": [
-                {
-                    "start": 142,
-                    "end": 146,
-                    "text": "[29]",
-                    "ref_id": "BIBREF29"
-                },
-                {
-                    "start": 147,
-                    "end": 151,
-                    "text": "[30]",
-                    "ref_id": "BIBREF30"
-                },
-                {
-                    "start": 152,
-                    "end": 156,
-                    "text": "[31]",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 157,
-                    "end": 161,
-                    "text": "[32]",
-                    "ref_id": "BIBREF32"
-                },
-                {
-                    "start": 162,
-                    "end": 165,
-                    "text": "36]",
-                    "ref_id": "BIBREF36"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Patient Clinical Data"
-        },
-        {
-            "text": "A total of 31 patients (13%) were admitted to IC. An oxygen treatment with conventional mechanical ventilation was administered to all these patients (100%). The dominant pattern was GGO with 40.6%, followed by crazy paving (34.6%) and consolidation (25.0%). The crazy paving pattern in IC was higher compared to the other care unit (34.6% in IC vs 21.7% in SC vs 1.3% in OC vs 0% in HC). This data was described in the literature by Cau et al. reporting a 35% crazy paving pattern prevalence in IC patients [37] .",
-            "cite_spans": [
-                {
-                    "start": 508,
-                    "end": 512,
-                    "text": "[37]",
-                    "ref_id": "BIBREF37"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Patient Clinical Data"
-        },
-        {
-            "text": "There were some limitations to this segmentation protocol (Fig. 4 ):",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 58,
-                    "end": 65,
-                    "text": "(Fig. 4",
-                    "ref_id": "FIGREF3"
-                }
-            ],
-            "section": "Limitations and Artifacts"
-        },
-        {
-            "text": "1. Motion artifacts can compromise the quality of CT chest images, making the segmentation results unreliable. Our experience suggests excluding patients with COVID-19 pneumonia and breathing artifacts beyond the lung bases from segmentation analysis.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Limitations and Artifacts"
-        },
-        {
-            "text": "2. During the application of the COVID-19 interstitial alteration filter, part of the peribronchovascular space, inner part of trachea/bronchi, and pleura are inevitably included (and added to the total interstitial alterations volume). Our experience documented that this volume is variable, but it was about 45 ml on average. Alterations such as diffuse fibrosis or images with breath artifacts lungs can change this value. 3. The tertiary bronchi are included within the healthy parenchyma during the segmentation provided in a negligible total volume (< 20 ml). Segmentation at this level is difficult due to the size of the bronchi at the parenchymal level. 4. Consolidation was selected manually. As mentioned above, parts of the venous and arterial vessels are involved in the volume. Excluding this mistake is difficult because of the nature itself. The use of the command paints with values of dimensions smaller than the sphere of 10 mm is recommended for accuracy of evaluation. 5. Only one software has been used for lung segmentation.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Limitations and Artifacts"
-        },
-        {
-            "text": "Further studies should investigate if the results are reproducible and comparable to other commercially available software tools. 6. About care unit evaluation, the crazy paving visual esteem limits the quantification of this pattern. Further study could try to isolate the crazy paving pattern from the \"interstitial lung disease\" to have a better stratification. ",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Limitations and Artifacts"
-        },
-        {
-            "text": "The quantitative analysis of the alterations affecting the lung parenchyma of patients with COVID-19 pneumonia can be easily performed by the open-source software Sliced 3D. The well-ventilated parenchyma and interstitial alterations such as ground glass opacity and crazy paving have reliable densitometric thresholds and are operationally fast procedures that require little manual intervention by the operator. On the other hand, consolidation and fibrosis fall within thresholds of densitometric values that are not well standardized and require more intervention by the operator, despite being not extensive in most cases. An important consequence of the segmentation was the quantification of the different COVID-19 pneumonia presentation. Radiologist, with this tool, could help the clinician to a better patient stratification. Further studies might explore an eventual prognostic role based on the disease quantification.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusion"
-        },
-        {
-            "text": "No complex statistical methods were necessary for this paper.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Statistics and Biometry"
-        },
-        {
-            "text": "Any study subjects or cohorts have been previously reported.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Study Subjects or Cohorts Overlap"
-        },
-        {
-            "text": "retrospective observational performed at one institution Ethics Approval Institutional Review Board approval was not required due to the nature of the study.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Methodology"
-        },
-        {
-            "text": "Informed Consent Written informed consent was not required for this study because this study is a technical development and the results did not have any implication in patient clinical history.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Methodology"
-        },
-        {
-            "text": "The authors declare no competing interests.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conflict of Interest"
-        }
-    ],
+    "back_matter": [],
     "bib_entries": {
         "BIBREF0": {
-            "ref_id": "b0",
-            "title": "COVID-19: what is next for public health",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Heymann",
                     "middle": [
                         "L"
                     ],
-                    "last": "Heymann",
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Shindo",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
-            "venue": "The Lancet (2020)",
-            "volume": "395",
             "issn": "",
-            "pages": "30374--30377",
             "other_ids": {
                 "DOI": [
                     "10.1016/S0140-6736(20)30374-3"
                 ]
-            }
+            },
+            "pages": "30374--30377",
+            "ref_id": "b0",
+            "title": "COVID-19: what is next for public health",
+            "venue": "The Lancet (2020)",
+            "volume": "395",
+            "year": null
         },
         "BIBREF1": {
-            "ref_id": "b1",
-            "title": "Vital surveillances: the epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) -China",
             "authors": [
                 {
                     "first": "Ncpere",
-                    "middle": [],
                     "last": "Team",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "8",
+            "other_ids": {},
+            "pages": "113--135",
+            "ref_id": "b1",
+            "title": "Vital surveillances: the epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) -China",
             "venue": "China CDC Weekly",
             "volume": "2",
-            "issn": "8",
-            "pages": "113--135",
-            "other_ids": {}
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "Advoc acy-and-Econo mics/ ACR-Posit ion-State ments/ Recom menda tions-for-Chest-Radio graphy-and-CT-for-Suspe cted-COVID 19-Infec tion",
-            "authors": [],
-            "year": 2020,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Integrated radiologic algorithm for COVID-19 pandemic",
-            "authors": [
-                {
-                    "first": "N",
-                    "middle": [],
-                    "last": "Sverzellati",
-                    "suffix": ""
-                },
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Milanese",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [],
-                    "last": "Milone",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "J Thorac Imaging",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1097/RTI.0000000000000516"
-                ]
-            }
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "The role of chest imaging in patient management during the COVID-19 pandemic: a multinational consensus statement from the Fleischner Society. Radiology",
-            "authors": [
-                {
-                    "first": "G",
-                    "middle": [
-                        "D"
-                    ],
-                    "last": "Rubin",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [
-                        "J"
-                    ],
-                    "last": "Ryerson",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [
-                        "B"
-                    ],
-                    "last": "Haramati",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1148/radiol.2020201365"
-                ]
-            }
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "CT image visual quantitative evaluation and clinical classification of coronavirus disease (COVID-19)",
-            "authors": [
-                {
-                    "first": "K",
-                    "middle": [],
-                    "last": "Li",
-                    "suffix": ""
-                },
-                {
-                    "first": "Y",
-                    "middle": [],
-                    "last": "Fang",
-                    "suffix": ""
-                },
-                {
-                    "first": "W",
-                    "middle": [],
-                    "last": "Li",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Pan",
-                    "suffix": ""
-                },
-                {
-                    "first": "P",
-                    "middle": [],
-                    "last": "Qin",
-                    "suffix": ""
-                },
-                {
-                    "first": "Y",
-                    "middle": [],
-                    "last": "Zhong",
-                    "suffix": ""
-                },
-                {
-                    "first": "X",
-                    "middle": [],
-                    "last": "Liu",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Huang",
-                    "suffix": ""
-                },
-                {
-                    "first": "Y",
-                    "middle": [],
-                    "last": "Liao",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Li",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Eur Radiol",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1007/s00330-020-06817-6"
-                ]
-            }
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Computed tomographic features and short-term prognosis of coronavirus disease 2019 (COVID-19) pneumonia: a single-center study from Kashan",
-            "authors": [
-                {
-                    "first": "S",
-                    "middle": [
-                        "M H"
-                    ],
-                    "last": "Tabatabaei",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Talari",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [],
-                    "last": "Moghaddas",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Rajebi",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Radiology: Cardiothoracic Imaging",
-            "volume": "2",
-            "issn": "2",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1148/ryct.2020200130"
-                ]
-            }
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Well-aerated lung on admitting chest CT to predict adverse outcome in COVID-19 pneumonia",
-            "authors": [
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Colombi",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [
-                        "C"
-                    ],
-                    "last": "Bodini",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Petrini",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Radiology",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1148/radiol.2020201433"
-                ]
-            }
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Artificial intelligence to codify lung CT in COVID-19 patients",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [
-                        "P"
-                    ],
-                    "last": "Belfiore",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [],
-                    "last": "Urraro",
-                    "suffix": ""
-                },
-                {
-                    "first": "R",
-                    "middle": [],
-                    "last": "Grassi",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Radiol med",
-            "volume": "125",
-            "issn": "",
-            "pages": "500--504",
-            "other_ids": {
-                "DOI": [
-                    "10.1007/s11547-020-01195-x"
-                ]
-            }
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "Quantitative computed tomography of the lungs and airways in healthy nonsmoking adults",
-            "authors": [
-                {
-                    "first": "J",
-                    "middle": [
-                        "A"
-                    ],
-                    "last": "Zach",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [
-                        "D"
-                    ],
-                    "last": "Newell",
-                    "suffix": ""
-                },
-                {
-                    "first": "",
-                    "middle": [],
-                    "last": "Jr",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Schroeder",
-                    "suffix": ""
-                }
-            ],
-            "year": 2012,
-            "venue": "Invest Radiol",
-            "volume": "47",
-            "issn": "",
-            "pages": "596--602",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "Variability in densitometric assessment of pulmonary emphysema with computed tomography",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Bakker",
                     "middle": [
                         "E"
                     ],
-                    "last": "Bakker",
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Stolk",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Putter",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2005,
+            "issn": "",
+            "other_ids": {},
+            "pages": "777--83",
+            "ref_id": "b10",
+            "title": "Variability in densitometric assessment of pulmonary emphysema with computed tomography",
             "venue": "Invest Radiol",
             "volume": "40",
-            "issn": "",
-            "pages": "777--83",
-            "other_ids": {}
+            "year": 2005
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "Morphological measurements in computed tomography correlate with airflow obstruction in chronic obstructive pulmonary disease: systematic review and meta-analysis",
             "authors": [
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Xie",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
+                    "last": "De Jong",
                     "middle": [
                         "A"
                     ],
-                    "last": "De Jong",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Oudkerk",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
+            "issn": "",
+            "other_ids": {},
+            "pages": "2085--93",
+            "ref_id": "b11",
+            "title": "Morphological measurements in computed tomography correlate with airflow obstruction in chronic obstructive pulmonary disease: systematic review and meta-analysis",
             "venue": "Eur Radiol",
             "volume": "22",
-            "issn": "",
-            "pages": "2085--93",
-            "other_ids": {}
+            "year": 2012
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "A multivariate analysis of risk factors for the air-trapping asthmatic phenotype as measured by quantitative CT analysis",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Busacker",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Newell",
                     "middle": [
                         "D"
                     ],
-                    "last": "Newell",
                     "suffix": ""
                 },
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Jr",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Keefe",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2009,
+            "issn": "",
+            "other_ids": {},
+            "pages": "48--56",
+            "ref_id": "b12",
+            "title": "A multivariate analysis of risk factors for the air-trapping asthmatic phenotype as measured by quantitative CT analysis",
             "venue": "Chest",
             "volume": "135",
-            "issn": "",
-            "pages": "48--56",
-            "other_ids": {}
+            "year": 2009
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "Quantitative computed tomography detects air trapping due to asthma",
             "authors": [
                 {
                     "first": "K",
+                    "last": "Newman",
                     "middle": [
                         "B"
                     ],
-                    "last": "Newman",
                     "suffix": ""
                 },
                 {
                     "first": "D",
+                    "last": "Lynch",
                     "middle": [
                         "A"
                     ],
-                    "last": "Lynch",
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Newman",
                     "middle": [
                         "S"
                     ],
-                    "last": "Newman",
                     "suffix": ""
                 }
             ],
-            "year": 1994,
+            "issn": "",
+            "other_ids": {},
+            "pages": "105--114",
+            "ref_id": "b13",
+            "title": "Quantitative computed tomography detects air trapping due to asthma",
             "venue": "Chest",
             "volume": "106",
-            "issn": "",
-            "pages": "105--114",
-            "other_ids": {}
+            "year": 1994
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Computer-aided classification of interstitial lung diseases via MDCT: 3D adaptive multiple feature method (3D AMFM) Acad Radiol",
             "authors": [
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Xu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Van Beek",
                     "middle": [
                         "J"
                     ],
-                    "last": "Van Beek",
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Hwanjo",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2006,
+            "issn": "",
+            "other_ids": {},
+            "pages": "969--78",
+            "ref_id": "b14",
+            "title": "Computer-aided classification of interstitial lung diseases via MDCT: 3D adaptive multiple feature method (3D AMFM) Acad Radiol",
             "venue": "",
             "volume": "13",
-            "issn": "",
-            "pages": "969--78",
-            "other_ids": {}
+            "year": 2006
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "High-resolution CT-derived measures of lung density are valid indexes of interstitial lung disease",
             "authors": [
                 {
                     "first": "P",
+                    "last": "Hartley",
                     "middle": [
                         "G"
                     ],
-                    "last": "Hartley",
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Galvin",
                     "middle": [
                         "R"
                     ],
-                    "last": "Galvin",
                     "suffix": ""
                 },
                 {
                     "first": "G",
+                    "last": "Hunninghake",
                     "middle": [
                         "W"
                     ],
-                    "last": "Hunninghake",
                     "suffix": ""
                 }
             ],
-            "year": 1994,
+            "issn": "",
+            "other_ids": {},
+            "pages": "271--278",
+            "ref_id": "b15",
+            "title": "High-resolution CT-derived measures of lung density are valid indexes of interstitial lung disease",
             "venue": "J Appl Physiol",
             "volume": "76",
-            "issn": "",
-            "pages": "271--278",
-            "other_ids": {}
+            "year": 1994
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "A predictive factor for patients with acute respiratory distress syndrome: CT lung volumetry of the well-aerated region as an automated method",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Nishiyama",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Kawata",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Yokota",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Eur J Radiol",
-            "volume": "122",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.ejrad.2019.108748"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b16",
+            "title": "A predictive factor for patients with acute respiratory distress syndrome: CT lung volumetry of the well-aerated region as an automated method",
+            "venue": "Eur J Radiol",
+            "volume": "122",
+            "year": 2020
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "Lung recruitment in patients with the acute respiratory distress syndrome",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Gattinoni",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Caironi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Cressoni",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2006,
-            "venue": "N Engl J Med",
-            "volume": "354",
             "issn": "17",
-            "pages": "1775--86",
             "other_ids": {
                 "DOI": [
                     "10.1056/NEJMoa052052"
                 ]
-            }
+            },
+            "pages": "1775--86",
+            "ref_id": "b17",
+            "title": "Lung recruitment in patients with the acute respiratory distress syndrome",
+            "venue": "N Engl J Med",
+            "volume": "354",
+            "year": 2006
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "3D Slicer as an image computing platform for the Quantitative Imaging Network",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Fedorov",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Beichel",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Kalpathy-Cramer",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
-            "venue": "",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.mri.2012.05.001"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b18",
+            "title": "3D Slicer as an image computing platform for the Quantitative Imaging Network",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF2": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b2",
+            "title": "Advoc acy-and-Econo mics/ ACR-Posit ion-State ments/ Recom menda tions-for-Chest-Radio graphy-and-CT-for-Suspe cted-COVID 19-Infec tion",
+            "venue": "",
+            "volume": "",
+            "year": 2020
         },
         "BIBREF20": {
-            "ref_id": "b20",
-            "title": "Robust semiautomatic segmentation of pulmonary subsolid nodules in chest computed tomography scans",
             "authors": [
                 {
                     "first": "B",
+                    "last": "Lassen",
                     "middle": [
                         "C"
                     ],
-                    "last": "Lassen",
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Jacobs",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Kuhnigk",
                     "middle": [
                         "M"
                     ],
-                    "last": "Kuhnigk",
                     "suffix": ""
                 }
             ],
-            "year": 2015,
-            "venue": "Physics in Medicine & Biology",
-            "volume": "60",
             "issn": "3",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1088/0031-9155/60/3/1307"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b20",
+            "title": "Robust semiautomatic segmentation of pulmonary subsolid nodules in chest computed tomography scans",
+            "venue": "Physics in Medicine & Biology",
+            "volume": "60",
+            "year": 2015
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Segmentation and image analysis of abnormal lungs at CT: current approaches, challenges, and future trends",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Mansoor",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "U",
-                    "middle": [],
                     "last": "Bagci",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Foster",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2015,
-            "venue": "Radiographics",
-            "volume": "35",
             "issn": "4",
-            "pages": "1056--1076",
             "other_ids": {
                 "DOI": [
                     "10.1148/rg.2015140232"
                 ]
-            }
+            },
+            "pages": "1056--1076",
+            "ref_id": "b21",
+            "title": "Segmentation and image analysis of abnormal lungs at CT: current approaches, challenges, and future trends",
+            "venue": "Radiographics",
+            "volume": "35",
+            "year": 2015
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "Quantitative CT analysis of diffuse lung disease",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Chen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Karwoski",
                     "middle": [
                         "A"
                     ],
-                    "last": "Karwoski",
                     "suffix": ""
                 },
                 {
                     "first": "D",
+                    "last": "Gierada",
                     "middle": [
                         "S"
                     ],
-                    "last": "Gierada",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Radiographics",
-            "volume": "40",
             "issn": "1",
-            "pages": "28--43",
             "other_ids": {
                 "DOI": [
                     "10.1148/rg.2020190099"
                 ]
-            }
+            },
+            "pages": "28--43",
+            "ref_id": "b22",
+            "title": "Quantitative CT analysis of diffuse lung disease",
+            "venue": "Radiographics",
+            "volume": "40",
+            "year": 2020
         },
         "BIBREF23": {
-            "ref_id": "b23",
-            "title": "Lung segmentation on HRCT and volumetric CT for diffuse interstitial lung disease using deep convolutional neural networks",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Park",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Park",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Lee",
                     "middle": [
                         "M"
                     ],
-                    "last": "Lee",
                     "suffix": ""
                 }
             ],
-            "year": 2019,
-            "venue": "J Digit Imaging",
-            "volume": "32",
             "issn": "",
-            "pages": "1019--1026",
             "other_ids": {
                 "DOI": [
                     "10.1007/s10278-019-00254-8"
                 ]
-            }
+            },
+            "pages": "1019--1026",
+            "ref_id": "b23",
+            "title": "Lung segmentation on HRCT and volumetric CT for diffuse interstitial lung disease using deep convolutional neural networks",
+            "venue": "J Digit Imaging",
+            "volume": "32",
+            "year": 2019
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "Automated lung segmentation from HRCT scans with diffuse parenchymal lung diseases",
             "authors": [
                 {
                     "first": "A",
+                    "last": "Pulagam",
                     "middle": [
                         "R"
                     ],
-                    "last": "Pulagam",
                     "suffix": ""
                 },
                 {
                     "first": "G",
+                    "last": "Kande",
                     "middle": [
                         "B"
                     ],
-                    "last": "Kande",
                     "suffix": ""
                 },
                 {
                     "first": "V",
+                    "last": "Ede",
                     "middle": [
                         "K"
                     ],
-                    "last": "Ede",
                     "suffix": ""
                 }
             ],
-            "year": 2016,
-            "venue": "J Digit Imaging",
-            "volume": "29",
             "issn": "",
-            "pages": "507--519",
             "other_ids": {
                 "DOI": [
                     "10.1007/s10278-016-9875-z"
                 ]
-            }
+            },
+            "pages": "507--519",
+            "ref_id": "b24",
+            "title": "Automated lung segmentation from HRCT scans with diffuse parenchymal lung diseases",
+            "venue": "J Digit Imaging",
+            "volume": "29",
+            "year": 2016
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "Comparison of quantitative computed tomography analysis and single-indicator thermodilution to measure pulmonary edema in patients with acute respiratory distress syndrome",
             "authors": [
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2014,
-            "venue": "BioMed Eng OnLine",
-            "volume": "13",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1186/1475-925X-13-30"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b25",
+            "title": "Comparison of quantitative computed tomography analysis and single-indicator thermodilution to measure pulmonary edema in patients with acute respiratory distress syndrome",
+            "venue": "BioMed Eng OnLine",
+            "volume": "13",
+            "year": 2014
         },
         "BIBREF26": {
-            "ref_id": "b26",
-            "title": "Computerized detection of interstitial lung disease in CT",
             "authors": [
                 {
                     "first": "S. ; Qiang",
-                    "middle": [],
                     "last": "Kasturagawa",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Robert",
+                    "last": "Li",
                     "middle": [
                         "M"
                     ],
-                    "last": "Li",
                     "suffix": ""
                 },
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Nishikawa",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2015,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b26",
+            "title": "Computerized detection of interstitial lung disease in CT",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2015
         },
         "BIBREF27": {
-            "ref_id": "b27",
-            "title": "Segmentation of lung parenchyma in CT images using CNN trained with the clustering algorithm generated dataset",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Xu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Qi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Yue",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2019,
-            "venue": "Biomed Eng Online",
-            "volume": "18",
             "issn": "1",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1186/s12938-018-0619-9"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b27",
+            "title": "Segmentation of lung parenchyma in CT images using CNN trained with the clustering algorithm generated dataset",
+            "venue": "Biomed Eng Online",
+            "volume": "18",
+            "year": 2019
         },
         "BIBREF28": {
-            "ref_id": "b28",
-            "title": "Intrathoracic tracheal volume and collapsibility on inspiratory and endexpiratory CT scans correlations with lung volume and pulmonary function in 85 smokers",
             "authors": [
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Yamashiro",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "San Jos\u00e9",
-                    "middle": [],
                     "last": "Est\u00e9par",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Matsuoka",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2011,
-            "venue": "Acad Radiol",
-            "volume": "18",
             "issn": "3",
-            "pages": "299--305",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.acra.2010.11.005"
                 ]
-            }
+            },
+            "pages": "299--305",
+            "ref_id": "b28",
+            "title": "Intrathoracic tracheal volume and collapsibility on inspiratory and endexpiratory CT scans correlations with lung volume and pulmonary function in 85 smokers",
+            "venue": "Acad Radiol",
+            "volume": "18",
+            "year": 2011
         },
         "BIBREF29": {
-            "ref_id": "b29",
-            "title": "Chest CT findings of coronavirus disease 2019 (COVID-19): a comprehensive meta-analysis of 9907 confirmed patients",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Zarifian",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Nour",
                     "middle": [
                         "G"
                     ],
-                    "last": "Nour",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Rezayat",
                     "middle": [
                         "A"
                     ],
-                    "last": "Rezayat",
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Clin. Imag",
-            "volume": "1",
             "issn": "",
-            "pages": "101--110",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.clinimag.2020.10.035"
                 ]
-            }
+            },
+            "pages": "101--110",
+            "ref_id": "b29",
+            "title": "Chest CT findings of coronavirus disease 2019 (COVID-19): a comprehensive meta-analysis of 9907 confirmed patients",
+            "venue": "Clin. Imag",
+            "volume": "1",
+            "year": 2021
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "N",
+                    "last": "Sverzellati",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Milanese",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Milone",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/RTI.0000000000000516"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b3",
+            "title": "Integrated radiologic algorithm for COVID-19 pandemic",
+            "venue": "J Thorac Imaging",
+            "volume": "",
+            "year": 2020
         },
         "BIBREF30": {
-            "ref_id": "b30",
-            "title": "Coronavirus disease 2019 (COVID-19) CT findings: a systematic review and meta-analysis",
             "authors": [
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Bao",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Liu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "J. Am. Coll. Radiol",
-            "volume": "17",
             "issn": "",
-            "pages": "701--709",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.jacr.2020.03.006"
                 ]
-            }
+            },
+            "pages": "701--709",
+            "ref_id": "b30",
+            "title": "Coronavirus disease 2019 (COVID-19) CT findings: a systematic review and meta-analysis",
+            "venue": "J. Am. Coll. Radiol",
+            "volume": "17",
+            "year": 2020
         },
         "BIBREF31": {
-            "ref_id": "b31",
-            "title": "Meta-analysis of chest CT features of patients with COVID-19 pneumonia",
             "authors": [
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Zheng",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Ben",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "J. Med. Viro",
-            "volume": "93",
             "issn": "",
-            "pages": "241--249",
             "other_ids": {
                 "DOI": [
                     "10.1002/jmv.26218"
                 ]
-            }
+            },
+            "pages": "241--249",
+            "ref_id": "b31",
+            "title": "Meta-analysis of chest CT features of patients with COVID-19 pneumonia",
+            "venue": "J. Med. Viro",
+            "volume": "93",
+            "year": 2021
         },
         "BIBREF32": {
-            "ref_id": "b32",
-            "title": "CT imaging features of 4121 patients with COVID-19: a meta-analysis",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Zhu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Zhong",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "J. Med. Viro",
-            "volume": "92",
             "issn": "",
-            "pages": "891--902",
             "other_ids": {
                 "DOI": [
                     "10.1002/jmv.25910"
                 ]
-            }
+            },
+            "pages": "891--902",
+            "ref_id": "b32",
+            "title": "CT imaging features of 4121 patients with COVID-19: a meta-analysis",
+            "venue": "J. Med. Viro",
+            "volume": "92",
+            "year": 2020
         },
         "BIBREF33": {
-            "ref_id": "b33",
-            "title": "CT findings and dynamic imaging changes of COVID-19 in 2908 patients: a systematic review and metaanalysis",
             "authors": [
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Zhou",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Pu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Acta Radiol",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1177/2F0284185121992655"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b33",
+            "title": "CT findings and dynamic imaging changes of COVID-19 in 2908 patients: a systematic review and metaanalysis",
+            "venue": "Acta Radiol",
+            "volume": "",
+            "year": 2021
         },
         "BIBREF34": {
-            "ref_id": "b34",
-            "title": "Review of chest CT manifestations of COVID-19 infection",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Homsi",
                     "middle": [
                         "El"
                     ],
-                    "last": "Homsi",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Chung",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Bernheim",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Eur. J. Radiol.Open",
-            "volume": "7",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.ejro.2020.100239"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b34",
+            "title": "Review of chest CT manifestations of COVID-19 infection",
+            "venue": "Eur. J. Radiol.Open",
+            "volume": "7",
+            "year": 2020
         },
         "BIBREF35": {
-            "ref_id": "b35",
-            "title": "The chest CT features of coronavirus disease 2019 (COVID-19) in China: a meta-analysis of 19 retrospective studies",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Yang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Lan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Yao",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b35",
+            "title": "The chest CT features of coronavirus disease 2019 (COVID-19) in China: a meta-analysis of 19 retrospective studies",
             "venue": "Virol. J",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF36": {
-            "ref_id": "b36",
-            "title": "Role of high-resolution computed tomography chest in the diagnosis and evaluation of COVID-19 patients -a systematic review and meta-analysis",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Ishfaq",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Farooq",
                     "middle": [
                         "M Y"
                     ],
-                    "last": "Farooq",
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Goraya",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "European Journal of Radiology Open",
-            "volume": "8",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.ejro.2021.100350"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b36",
+            "title": "Role of high-resolution computed tomography chest in the diagnosis and evaluation of COVID-19 patients -a systematic review and meta-analysis",
+            "venue": "European Journal of Radiology Open",
+            "volume": "8",
+            "year": 2021
         },
         "BIBREF37": {
-            "ref_id": "b37",
-            "title": "Computed tomography findings of COVID-19 pneumonia in Intensive Care Unit-patients",
             "authors": [
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Cau",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Falaschi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Pasch\u00e8",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b37",
+            "title": "Computed tomography findings of COVID-19 pneumonia in Intensive Care Unit-patients",
             "venue": "",
             "volume": "",
+            "year": null
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "G",
+                    "last": "Rubin",
+                    "middle": [
+                        "D"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Ryerson",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Haramati",
+                    "middle": [
+                        "B"
+                    ],
+                    "suffix": ""
+                }
+            ],
             "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020201365"
+                ]
+            },
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b4",
+            "title": "The role of chest imaging in patient management during the COVID-19 pandemic: a multinational consensus statement from the Fleischner Society. Radiology",
+            "venue": "",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "K",
+                    "last": "Li",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Fang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "last": "Li",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Pan",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Qin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Zhong",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Liu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Huang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Liao",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Li",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00330-020-06817-6"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b5",
+            "title": "CT image visual quantitative evaluation and clinical classification of coronavirus disease (COVID-19)",
+            "venue": "Eur Radiol",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Tabatabaei",
+                    "middle": [
+                        "M H"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Talari",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Moghaddas",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Rajebi",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "2",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/ryct.2020200130"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b6",
+            "title": "Computed tomographic features and short-term prognosis of coronavirus disease 2019 (COVID-19) pneumonia: a single-center study from Kashan",
+            "venue": "Radiology: Cardiothoracic Imaging",
+            "volume": "2",
+            "year": 2020
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Colombi",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Bodini",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Petrini",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1148/radiol.2020201433"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b7",
+            "title": "Well-aerated lung on admitting chest CT to predict adverse outcome in COVID-19 pneumonia",
+            "venue": "Radiology",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Belfiore",
+                    "middle": [
+                        "P"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Urraro",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Grassi",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11547-020-01195-x"
+                ]
+            },
+            "pages": "500--504",
+            "ref_id": "b8",
+            "title": "Artificial intelligence to codify lung CT in COVID-19 patients",
+            "venue": "Radiol med",
+            "volume": "125",
+            "year": 2020
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Zach",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Newell",
+                    "middle": [
+                        "D"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "last": "Jr",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Schroeder",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "596--602",
+            "ref_id": "b9",
+            "title": "Quantitative computed tomography of the lungs and airways in healthy nonsmoking adults",
+            "venue": "Invest Radiol",
+            "volume": "47",
+            "year": 2012
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 255,
+                    "ref_id": "BIBREF1",
+                    "start": 252,
+                    "text": "[2]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": ". Although most patients with COVID-19 pneumonia develop only mild or paucisymptomatic illness, approximately 14% are affected by severe disease that requires hospitalization and oxygen support, and 5% require admission to an Intensive Care Unit (ICU) [2] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 418,
+                    "ref_id": "BIBREF2",
+                    "start": 415,
+                    "text": "[3,"
+                },
+                {
+                    "end": 421,
+                    "ref_id": "BIBREF3",
+                    "start": 419,
+                    "text": "4]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "Triaging of these patients is mainly based on clinical and laboratory parameters, while chest imaging might be required for a second-level triage in specific cases. In our hospital, chest radiography was performed in patients with suspected COVID-19 pneumonia, whereas supplementary computer tomography exam (CT) is performed in severe cases or in case of mismatch between clinical and radiographic characteristics [3, 4] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 416,
+                    "ref_id": "BIBREF4",
+                    "start": 413,
+                    "text": "[5]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "Moreover, the last Fleischner Society Statement on Chest Imaging and COVID-19, released on April 7th, 2020, suggests that CT imaging is indicated in the medical triage of patients with suspected COVID-19 who present with moderate to severe clinical features and a high pre-test probability of disease, in case of worsening respiratory status or patients with functional impairment and/or hypoxemia after recovery [5] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 186,
+                    "ref_id": "BIBREF5",
+                    "start": 183,
+                    "text": "[6]"
+                },
+                {
+                    "end": 210,
+                    "ref_id": "BIBREF6",
+                    "start": 207,
+                    "text": "[7]"
+                },
+                {
+                    "end": 515,
+                    "ref_id": "BIBREF7",
+                    "start": 512,
+                    "text": "[8]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "The relationship between COVID-19 prognosis and the extent of well-aerated lung parenchyma obtained by chest CT with either visual or quantitative measurements has indeed been proven [6] . Tabatabaei et al. [7] have shown that a greater extension of the initial chest CT features could provide a prognostic stratification for early detection of critically ill COVID-19 patients compared to patients undergoing routine ward hospitalization or patients discharged at home. Furthermore, the study of Colombi et al. [8] suggests that both visual and software-based quantification of the well-aerated lung on chest CT obtained in the emergency setting were independent predictors of ICU admission or death in patients with COVID-19 and that quantitative assessment of the extent of lung involvement by COVID-19 pneumonia may be useful for routine patient management."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 320,
+                    "ref_id": "BIBREF8",
+                    "start": 317,
+                    "text": "[9]"
+                },
+                {
+                    "end": 452,
+                    "ref_id": "BIBREF9",
+                    "start": 448,
+                    "text": "[10]"
+                },
+                {
+                    "end": 532,
+                    "ref_id": "BIBREF10",
+                    "start": 528,
+                    "text": "[11,"
+                },
+                {
+                    "end": 536,
+                    "ref_id": "BIBREF11",
+                    "start": 533,
+                    "text": "12]"
+                },
+                {
+                    "end": 575,
+                    "ref_id": "BIBREF12",
+                    "start": 571,
+                    "text": "[13,"
+                },
+                {
+                    "end": 579,
+                    "ref_id": "BIBREF13",
+                    "start": 576,
+                    "text": "14]"
+                },
+                {
+                    "end": 616,
+                    "ref_id": "BIBREF14",
+                    "start": 612,
+                    "text": "[15,"
+                },
+                {
+                    "end": 620,
+                    "ref_id": "BIBREF15",
+                    "start": 617,
+                    "text": "16]"
+                },
+                {
+                    "end": 855,
+                    "ref_id": "BIBREF16",
+                    "start": 851,
+                    "text": "[17,"
+                },
+                {
+                    "end": 859,
+                    "ref_id": "BIBREF17",
+                    "start": 856,
+                    "text": "18]"
+                },
+                {
+                    "end": 1045,
+                    "ref_id": "BIBREF18",
+                    "start": 1041,
+                    "text": "[19]"
+                },
+                {
+                    "end": 1223,
+                    "ref_id": "BIBREF20",
+                    "start": 1219,
+                    "text": "[20]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "Since lung involvement of COVID-19 pneumonia could be assessed automatically by deep learning-based quantitative CT, it was proposed that it is mandatory to have an artificial intelligence (AI) software that expresses objective evaluations of the percentage of ventilated lung parenchyma compared to the affected one [9] . Quantitative CT imaging of the lung has been used previously to assess lung intensity/density in the normal adult human lung [10] , smokingrelated lung disease including emphysema and large airway disease [11, 12] , air trapping in asthma patients [13, 14] , and interstitial lung disease [15, 16] . Moreover, CT quantification of the well-aerated lung was shown to be helpful either to estimate the alveolar recruitment during ventilation or to predict the prognosis of patients with acute respiratory distress syndrome (ARDS) [17, 18] . However, commercial applications for totally automatic medical image computing and visualization are typically expensive specialized hardware/software and limited in their spread [19] . Moreover, open-source systems that provide a semi-automatic manual segmentation are characterized by not enough standardization and are affected by timeconsuming troubles [20] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods",
+            "text": "We retrospectively analyzed 246 consecutive COVID-19 patients admitted to the emergency CT room between April 2019 and May 2019. Only patients with radiological signs of interstitial lung disease and SARS-CoV-2 swab positivity were considered in this study."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods",
+            "text": "CT images acquired were processed lungs via 3D Slicer software. The three main characteristics analyzed on lungs affected by COVID-19 pneumonia were (1) well-aerated parenchyma; (2) interstitial lung disease, including both ground glass opacities and crazy paving; and (3) parenchymal consolidation."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods",
+            "text": "The three categories (GGO, consolidation, and crazy paving) were obtained based on the percentage of extension of the alterations in the lung parenchyma."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods",
+            "text": "Arbitrary, when the areas of consolidation exceeded 25% of the pathological zones of the lung, it was considered the prevalent pattern. Segmentation was used to calculate the %."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods",
+            "text": "The pattern with a prevalence of crazy paving was characterized visually by a percentage of at least 25% of the total lung pathological areas."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Material and Methods",
+            "text": "The remaining cases presented the GGO as the most common finding in the absence of significant consolidation alterations and crazy paving."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CT Imaging Techniques",
+            "text": "All chest CT scans were performed during a single full inspiratory breath-hold in supine position on a 128-slice CT (Philips Ingenuity Core, Philips Healthcare, Netherlands). The scans' technical parameters were as follows: tube voltage: 120 kV; tube current modulation: 226 mAs; spiral pitch factor: 1.08; collimation width 0.625, matrix 512 (mediastinal window) and 768 (lung window). All images were reconstructed with a 1-mm-slice thickness range using both sharp kernels (B70f) with a standard lung window (1500 width; \u2212 500 centers) and medium-soft kernels (B40f) with a soft tissue window (300 widths; 40 centers)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CT Imaging Techniques",
+            "text": "The images in DICOM (Digital Imaging and COmmunications in Medicine) extension files were transferred to the Picture Archiving and Communication System (PACS) of our institution and then analyzed into a workstation equipped with two 35 \u00d7 43 cm monitors (produced by Eizo, with 2048 \u00d7 1536 matrix)."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 194,
+                    "ref_id": "BIBREF18",
+                    "start": 190,
+                    "text": "[19]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Method of Lung Segmentation",
+            "text": "The lung parenchyma segmentation was performed by a software-based evaluation on a dedicated workstation using the open-source 3D Slicer software (version 4.10.2, https:// www. slicer. org) [19] , using the software tools called \"Segment Editor\" and \"Segment Quantification.\""
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method of Lung Segmentation",
+            "text": "The hardware used was an HP Pavilion (processor: AMD Ryzen 5-3500U (2.1 GHz-4 MB L3), SSD: 256 GB, RAM: 8 GB, graphic card: AMD Radeon Vega 8)."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 19,
+                    "ref_id": "BIBREF21",
+                    "start": 15,
+                    "text": "[21]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Method of Lung Segmentation",
+            "text": "Mansoor et al. [21] described applications, advantages, and disadvantages for five major classes of lung segmentation methods: (a) thresholding-based, (b) region-based, (c) shape-based, (d) neighboring anatomy-guided, and (e) machine learning-based methods. To segment the lungs affected by COVID-19 pneumonia, we decided to use the threshold-based method that creates binary partitions based on image attenuation values in a simple, fast, and effective way, thanks to the well-defined densitometric difference between air and the lung."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method of Lung Segmentation",
+            "text": "The three main characteristics analyzed on lungs affected by COVID-19 pneumonia were (1) well-aerated parenchyma; (2) interstitial lung disease, including both ground glass opacities and crazy paving; and (3) parenchymal consolidation."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method of Lung Segmentation",
+            "text": "Specific density thresholds expressed in HU have been set for each of these findings, based on a combination of visual assessment performed by the two radiology and exhaustive revisions of the literature that investigate the correlation between lung densitometry, pulmonary function tests, and other clinical measurements."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient Clinical Data",
+            "text": "Data on the different care unit admissions after the chest CT were collected in a dedicated database. The following were considered the care unit: home care (HC), ordinary hospitalization (OH), sub-intensive care (SC), and intensive care (IC). The data were analyzed using descriptive statistics."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 252,
+                    "ref_id": "TABREF0",
+                    "start": 245,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Results",
+            "text": "Among the 246 cases analyzed, 71.5% had the GGO pattern as prevalent; in 16.7%, the consolidation pattern prevails, and in the remaining 12.2% the crazy paving pattern. Principal pattern findings and hospitalization type in lungs are resumed in Table 1 ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results",
+            "text": "Among the patients with consolidative pattern, about 51% required hospitalization in the sub-intensive care unit, 24% underwent hospitalization under the ordinary regime, and 19.5% underwent hospitalization for intensive care. Only less than 6% were treated at home."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results",
+            "text": "All patients with crazy paving as the prevalent pattern required hospitalization; only one hospitalization was ordinary, 60% in sub-intensive, and 37% in intensive care."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 274,
+                    "ref_id": "BIBREF7",
+                    "start": 271,
+                    "text": "[8,"
+                },
+                {
+                    "end": 278,
+                    "ref_id": "BIBREF22",
+                    "start": 275,
+                    "text": "22]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Threshold Selection",
+            "text": "From the analysis of previous studies, the HU values relating to the well-ventilated lung parenchyma were well defined within a threshold between \u2212 950 and \u2212 700 HU, and therefore, it was not necessary to make manual changes through the visual evaluation of the operator [8, 22] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 463,
+                    "ref_id": "BIBREF23",
+                    "start": 459,
+                    "text": "[23,"
+                },
+                {
+                    "end": 467,
+                    "ref_id": "BIBREF24",
+                    "start": 464,
+                    "text": "24]"
+                },
+                {
+                    "end": 530,
+                    "ref_id": "BIBREF7",
+                    "start": 527,
+                    "text": "[8]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Threshold Selection",
+            "text": "The threshold between \u2212 700 and \u2212 250 HU seems to be able to isolate the interstitial involvement of the disease (including typical COVID-19 pneumonia features as ground glass opacities and crazy paving) from the surrounding lung parenchyma, thanks to the good difference in densitometric values between air and the lung. Moreover, many studies in the literature reported similar thresholds used for the assessment of other diffuse interstitial lung diseases [23, 24] , and a recent one confirmed its use in COVID-19 pneumonia [8] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 127,
+                    "ref_id": "BIBREF25",
+                    "start": 123,
+                    "text": "[25]"
+                },
+                {
+                    "end": 159,
+                    "ref_id": "BIBREF26",
+                    "start": 155,
+                    "text": "[26]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Threshold Selection",
+            "text": "For the densitometry values of the lung consolidation, the current literature has proposed thresholds higher than \u2212 100 HU [25] ; for example, Kasturagawa [26] reported that the main variations of consolidated parenchyma fall within a range between \u2212 150 and + 150 HU."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 696,
+                    "ref_id": "BIBREF25",
+                    "start": 692,
+                    "text": "[25,"
+                },
+                {
+                    "end": 700,
+                    "ref_id": "BIBREF27",
+                    "start": 697,
+                    "text": "27]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 711,
+                    "ref_id": "FIGREF0",
+                    "start": 703,
+                    "text": "Figure 1"
+                }
+            ],
+            "section": "Threshold Selection",
+            "text": "The thresholding selection was decided through a visual assessment to identify the minimum cutoff capable of differentiating the consolidation from interstitial alteration and the maximum one which allows the location of extrapulmonary solid anatomic structures. In this way, a general threshold ranging from \u2212 250 up to + 250 HU has been identified for the segmentation of consolidation in lungs affected by COVID-19 pneumonia, capable of conforming optimally to all cases analyzed. However, these densitometric values required a total manual intervention by the operator and were not possible to avoid including the arterial vessels and the osteo-connective structures of the cage thoracic [25, 27] . Figure 1 shows our current protocol in use. The CT chest images in DICOM format were downloaded from our PACS system and uploaded to the 3D Slicer software installed on a dedicated workstation."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Segmentation Protocol",
+            "text": "The segmentation involved the creation of 5 different levels, each with its overall thresholds: (a) total lung volume excluding consolidation; (b) trachea and bronchi; (c) interstitial alterations; (d) well-aerated parenchyma; (e) consolidation."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 124,
+                    "ref_id": "FIGREF1",
+                    "start": 116,
+                    "text": "(Fig. 2)"
+                }
+            ],
+            "section": "Segmentation Protocol",
+            "text": "Firstly, the total lung volume excluding consolidation was obtained by using thresholds between \u2212 1024 and \u2212 250 HU (Fig. 2) . In a semi-automatic method that did not require manual intervention, this volume was isolated from the surrounding environment and extrathoracic structures, including the thoracic musculature, the abdominal tissues, the parenchyma, the trachea, the main bronchi, and the mediastinal structures."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 470,
+                    "ref_id": "FIGREF2",
+                    "start": 461,
+                    "text": "(Fig. 3A)"
+                }
+            ],
+            "section": "Segmentation Protocol",
+            "text": "Secondly, after being given the high sharpness of the HR image with a lung window, smoothing (closure method, 3.0 mm kernel size) was carried out to homogenize the wellaerated parenchyma and fill any holes. The volume of the trachea and main bronchi was obtained with the automatic neighboring anatomy-guided segmentation system (intensity tolerance: 60 voxels; neighborhood size: 1.00 voxel) and it was subtracted from the total volume excluding consolidation (Fig. 3A) ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 211,
+                    "ref_id": "BIBREF28",
+                    "start": 207,
+                    "text": "[28]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Segmentation Protocol",
+            "text": "In case of difficulty in the isolation of the trachea and bronchi volume, we proposed to subtract empirically the volume of 30 ml according to the data obtained in human physiology study by Yamashiro et al. [28] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 216,
+                    "ref_id": "FIGREF2",
+                    "start": 207,
+                    "text": "(Fig. 3B)"
+                },
+                {
+                    "end": 267,
+                    "ref_id": "FIGREF2",
+                    "start": 258,
+                    "text": "(Fig. 3D)"
+                }
+            ],
+            "section": "Segmentation Protocol",
+            "text": "Thirdly, thanks to a combination between previous literature studies and visual evaluation of the mask, the proposed threshold for the typical COVID-19 interstitial alteration assignment was \u2212 700 and \u2212 250 (Fig. 3B) . As well as the well-aerated parenchyma (Fig. 3D) , this step also did not require manual intervention, succeeding semi-automatically in exhaustively segmenting only the alterations of the pulmonary interstitium; this segmentation was performed within the previous total lung volume segmentation avoiding sensitive structures such as air contained in the other intestine, clothes, and other extracorporeal structures (CT bed and external device)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 254,
+                    "ref_id": "FIGREF2",
+                    "start": 245,
+                    "text": "(Fig. 3C)"
+                }
+            ],
+            "section": "Segmentation Protocol",
+            "text": "At last, the volume of the consolidation was totally defined by manual intervention performed by the operator. Using a visual assessment, we found that a threshold from \u2212 250 to + 250 HU allows all the areas of lung consolidation to be involved (Fig. 3C) . The manual intervention to only isolate the consolidation volume was performed by the paint command within the software, which was a 3-10-mmdiameter sphere applied in the axial and longitudinal scans. This operation was done inside the overall lung fields, excluding the pulmonary hilum and the structures placed outside the pleural line. In case of involvement in the overall consolidation volume, the major vessels (pulmonary arteries or pulmonary veins), or other structures extrapulmonary, they were eliminated by the erasing command within the software, in similar manual operation than the paint one."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Time Cost",
+            "text": "The lung images, downloaded in DICOM format from our PACS system, were uploaded to the dedicated 3D Slicer software installed on a dedicated workstation, taking at most 5 min."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 484,
+                    "ref_id": "FIGREF0",
+                    "start": 476,
+                    "text": "(Fig. 1)"
+                }
+            ],
+            "section": "Time Cost",
+            "text": "The time spent for the segmentation of a single patient was approximately 15 min, including semi-automatic segmentation (about 5 min) and manual segmentation (about 10 min) for the consolidated parenchyma. In patients without consolidated parenchyma where the consolidated parenchyma was not present, the time required was about 6 min. The well-aerated lung parenchyma. This volume was obtained indirectly by subtracting the GGO + trachea + bronchi from the total lung volume (Fig. 1) The time may change depending on the processor and the characteristics of the hardware used, especially based on processor speed."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 22,
+                    "ref_id": "TABREF0",
+                    "start": 15,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Patient Clinical Data",
+            "text": "As reported in Table 1 , of the 246 cases analyzed, the most reported lung alteration was the GGO (71.5%)."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 137,
+                    "ref_id": "BIBREF29",
+                    "start": 133,
+                    "text": "[29]"
+                },
+                {
+                    "end": 150,
+                    "ref_id": "BIBREF30",
+                    "start": 146,
+                    "text": "[30]"
+                },
+                {
+                    "end": 163,
+                    "ref_id": "BIBREF31",
+                    "start": 159,
+                    "text": "[31]"
+                },
+                {
+                    "end": 176,
+                    "ref_id": "BIBREF32",
+                    "start": 172,
+                    "text": "[32]"
+                },
+                {
+                    "end": 189,
+                    "ref_id": "BIBREF33",
+                    "start": 185,
+                    "text": "[33]"
+                },
+                {
+                    "end": 202,
+                    "ref_id": "BIBREF34",
+                    "start": 198,
+                    "text": "[34]"
+                },
+                {
+                    "end": 215,
+                    "ref_id": "BIBREF35",
+                    "start": 211,
+                    "text": "[35]"
+                },
+                {
+                    "end": 232,
+                    "ref_id": "BIBREF36",
+                    "start": 228,
+                    "text": "[36]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patient Clinical Data",
+            "text": "The data about the prevalence of this pattern were similar to the current literature. Particularly, the GGO was reported to be 77.2% [29] , 83.3% [30] , 78.0% [31] , 68.1% [32] , 68.0% [33] , 71.7% [34] , 79.0% [35] , and 71.5% [36] in different meta-analyses."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 166,
+                    "ref_id": "BIBREF36",
+                    "start": 162,
+                    "text": "[36]"
+                },
+                {
+                    "end": 514,
+                    "ref_id": "BIBREF33",
+                    "start": 510,
+                    "text": "[33]"
+                },
+                {
+                    "end": 623,
+                    "ref_id": "BIBREF29",
+                    "start": 619,
+                    "text": "[29]"
+                },
+                {
+                    "end": 628,
+                    "ref_id": "BIBREF30",
+                    "start": 624,
+                    "text": "[30]"
+                },
+                {
+                    "end": 633,
+                    "ref_id": "BIBREF31",
+                    "start": 629,
+                    "text": "[31]"
+                },
+                {
+                    "end": 638,
+                    "ref_id": "BIBREF32",
+                    "start": 634,
+                    "text": "[32]"
+                },
+                {
+                    "end": 643,
+                    "ref_id": "BIBREF33",
+                    "start": 639,
+                    "text": "[33]"
+                },
+                {
+                    "end": 648,
+                    "ref_id": "BIBREF34",
+                    "start": 644,
+                    "text": "[34]"
+                },
+                {
+                    "end": 653,
+                    "ref_id": "BIBREF35",
+                    "start": 649,
+                    "text": "[35]"
+                },
+                {
+                    "end": 658,
+                    "ref_id": "BIBREF36",
+                    "start": 654,
+                    "text": "[36]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patient Clinical Data",
+            "text": "Among the patients with consolidative pattern (imaging where the percentage of consolidated parenchyma is at least 30%), an index of disease severity progression [36] was reported in the 25.3% of patients admitted to SC (the 51% of all patients with consolidation pattern) and in the 25.0% of patients in IC (the 19% of all patients with consolidation patters). The consolidation pattern resulted similarly to the meta-analysis of Zhou et al. who reported a value of prevalence of consolidation pattern of 18% [33] . Instead, the other principal meta-analyses considered described a major prevalence between 33 and 44% [29] [30] [31] [32] [33] [34] [35] [36] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 238,
+                    "ref_id": "BIBREF29",
+                    "start": 234,
+                    "text": "[29]"
+                },
+                {
+                    "end": 243,
+                    "ref_id": "BIBREF30",
+                    "start": 239,
+                    "text": "[30]"
+                },
+                {
+                    "end": 248,
+                    "ref_id": "BIBREF31",
+                    "start": 244,
+                    "text": "[31]"
+                },
+                {
+                    "end": 253,
+                    "ref_id": "BIBREF32",
+                    "start": 249,
+                    "text": "[32]"
+                },
+                {
+                    "end": 258,
+                    "ref_id": "BIBREF33",
+                    "start": 254,
+                    "text": "[33]"
+                },
+                {
+                    "end": 263,
+                    "ref_id": "BIBREF34",
+                    "start": 259,
+                    "text": "[34]"
+                },
+                {
+                    "end": 267,
+                    "ref_id": "BIBREF36",
+                    "start": 264,
+                    "text": "36]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patient Clinical Data",
+            "text": "This difference in the consolidation pattern might be due to the establishment of a \"prevalent pattern,\" thanks to the segmentation. While the principal meta-analyses were often considered a \"mixed-pattern\" or coexistence of patterns [29] [30] [31] [32] [33] [34] 36] , in this study the segmentation allowed a better pneumonia classification with the pattern mutual exclusion."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 146,
+                    "ref_id": "BIBREF29",
+                    "start": 142,
+                    "text": "[29]"
+                },
+                {
+                    "end": 151,
+                    "ref_id": "BIBREF30",
+                    "start": 147,
+                    "text": "[30]"
+                },
+                {
+                    "end": 156,
+                    "ref_id": "BIBREF31",
+                    "start": 152,
+                    "text": "[31]"
+                },
+                {
+                    "end": 161,
+                    "ref_id": "BIBREF32",
+                    "start": 157,
+                    "text": "[32]"
+                },
+                {
+                    "end": 165,
+                    "ref_id": "BIBREF36",
+                    "start": 162,
+                    "text": "36]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patient Clinical Data",
+            "text": "The crazy paving funded in this study was globally less prevalent compared to the reference meta-analyses (12.2% vs a range of 14.8 to 35.6%) [29] [30] [31] [32] 36] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 512,
+                    "ref_id": "BIBREF37",
+                    "start": 508,
+                    "text": "[37]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Patient Clinical Data",
+            "text": "A total of 31 patients (13%) were admitted to IC. An oxygen treatment with conventional mechanical ventilation was administered to all these patients (100%). The dominant pattern was GGO with 40.6%, followed by crazy paving (34.6%) and consolidation (25.0%). The crazy paving pattern in IC was higher compared to the other care unit (34.6% in IC vs 21.7% in SC vs 1.3% in OC vs 0% in HC). This data was described in the literature by Cau et al. reporting a 35% crazy paving pattern prevalence in IC patients [37] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 65,
+                    "ref_id": "FIGREF3",
+                    "start": 58,
+                    "text": "(Fig. 4"
+                }
+            ],
+            "section": "Limitations and Artifacts",
+            "text": "There were some limitations to this segmentation protocol (Fig. 4 ):"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations and Artifacts",
+            "text": "1. Motion artifacts can compromise the quality of CT chest images, making the segmentation results unreliable. Our experience suggests excluding patients with COVID-19 pneumonia and breathing artifacts beyond the lung bases from segmentation analysis."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations and Artifacts",
+            "text": "2. During the application of the COVID-19 interstitial alteration filter, part of the peribronchovascular space, inner part of trachea/bronchi, and pleura are inevitably included (and added to the total interstitial alterations volume). Our experience documented that this volume is variable, but it was about 45 ml on average. Alterations such as diffuse fibrosis or images with breath artifacts lungs can change this value. 3. The tertiary bronchi are included within the healthy parenchyma during the segmentation provided in a negligible total volume (< 20 ml). Segmentation at this level is difficult due to the size of the bronchi at the parenchymal level. 4. Consolidation was selected manually. As mentioned above, parts of the venous and arterial vessels are involved in the volume. Excluding this mistake is difficult because of the nature itself. The use of the command paints with values of dimensions smaller than the sphere of 10 mm is recommended for accuracy of evaluation. 5. Only one software has been used for lung segmentation."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations and Artifacts",
+            "text": "Further studies should investigate if the results are reproducible and comparable to other commercially available software tools. 6. About care unit evaluation, the crazy paving visual esteem limits the quantification of this pattern. Further study could try to isolate the crazy paving pattern from the \"interstitial lung disease\" to have a better stratification. "
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion",
+            "text": "The quantitative analysis of the alterations affecting the lung parenchyma of patients with COVID-19 pneumonia can be easily performed by the open-source software Sliced 3D. The well-ventilated parenchyma and interstitial alterations such as ground glass opacity and crazy paving have reliable densitometric thresholds and are operationally fast procedures that require little manual intervention by the operator. On the other hand, consolidation and fibrosis fall within thresholds of densitometric values that are not well standardized and require more intervention by the operator, despite being not extensive in most cases. An important consequence of the segmentation was the quantification of the different COVID-19 pneumonia presentation. Radiologist, with this tool, could help the clinician to a better patient stratification. Further studies might explore an eventual prognostic role based on the disease quantification."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistics and Biometry",
+            "text": "No complex statistical methods were necessary for this paper."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Subjects or Cohorts Overlap",
+            "text": "Any study subjects or cohorts have been previously reported."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methodology",
+            "text": "retrospective observational performed at one institution Ethics Approval Institutional Review Board approval was not required due to the nature of the study."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Methodology",
+            "text": "Informed Consent Written informed consent was not required for this study because this study is a technical development and the results did not have any implication in patient clinical history."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest",
+            "text": "The authors declare no competing interests."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Davide",
+                "last": "Negroni",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Domenico",
+                "last": "Zagaria",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Andrea",
+                "last": "Paladini",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Zeno",
+                "last": "Falaschi",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Anna",
+                "last": "Arcoraci",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "\u00b7",
+                "last": "Michela Barini",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Alessandro",
+                "last": "Carriero",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "COVID-19 CT Scan Lung Segmentation: How We Do It"
+    },
+    "paper_id": "27bbd2297536266d8136849d3fb7025c4721a2ac",
     "ref_entries": {
         "FIGREF0": {
-            "text": "The segmentation protocol in COVID-19. The program used was 3D Slicer 4.10.2 (www. 3dsli cer. org). The time spent completing the flow chart was about 18 min (depending on hardware used), excluding the acquisition of the images",
             "latex": null,
+            "text": "The segmentation protocol in COVID-19. The program used was 3D Slicer 4.10.2 (www. 3dsli cer. org). The time spent completing the flow chart was about 18 min (depending on hardware used), excluding the acquisition of the images",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "All lung parenchyma + trachea and bronchi. The threshold-based segmentation was used to obtain the volume. Threshold = \u2212 1024; \u2212 250 HU; smoothing method = closing, kernel size = 3 mm",
             "latex": null,
+            "text": "All lung parenchyma + trachea and bronchi. The threshold-based segmentation was used to obtain the volume. Threshold = \u2212 1024; \u2212 250 HU; smoothing method = closing, kernel size = 3 mm",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "Only the trachea and bronchi segmentation. The neighboring anatomy-guided segmentation was used to the volume estimation. Intensity tolerance = 60 voxels; neighborhood size = 1.0. B The COVID-19 GGO. The threshold-based segmentation was used to the volume estimation. Threshold = \u2212 700; \u2212 250 HU; smoothing method = no smoothing. This threshold could isolate the GGO from the rest of the parenchyma. However, part of the pleura, inner part of the trachea, and peribronchovascular space are included in the volume. C COVID-19 consolidation. The threshold-based segmentation was conducted manually. Threshold = \u2212 250; + 250 HU; smoothing method = no smoothing. Diameter paint sphere = from 3 to 10 mm. D",
             "latex": null,
+            "text": "Only the trachea and bronchi segmentation. The neighboring anatomy-guided segmentation was used to the volume estimation. Intensity tolerance = 60 voxels; neighborhood size = 1.0. B The COVID-19 GGO. The threshold-based segmentation was used to the volume estimation. Threshold = \u2212 700; \u2212 250 HU; smoothing method = no smoothing. This threshold could isolate the GGO from the rest of the parenchyma. However, part of the pleura, inner part of the trachea, and peribronchovascular space are included in the volume. C COVID-19 consolidation. The threshold-based segmentation was conducted manually. Threshold = \u2212 250; + 250 HU; smoothing method = no smoothing. Diameter paint sphere = from 3 to 10 mm. D",
             "type": "figure"
         },
         "FIGREF3": {
-            "text": "The main limits of this segmentation protocol. In detail: A many CT artifacts from breathing; B pleural and perivascular artifacts in GGO segmentation; C possible vascular inclusion during manual segmentation of consolidation; D the tertiary bronchi were not included in trachea and bronchi segmentation due to their exiguous dimension",
             "latex": null,
+            "text": "The main limits of this segmentation protocol. In detail: A many CT artifacts from breathing; B pleural and perivascular artifacts in GGO segmentation; C possible vascular inclusion during manual segmentation of consolidation; D the tertiary bronchi were not included in trachea and bronchi segmentation due to their exiguous dimension",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "Summarized dominant pattern with the hospitalization type GGO ground glass opacity, HC home care, OH ordinary hospitalization, SC sub-intensive care, IC intensive care, TOT total",
             "latex": null,
+            "text": "Summarized dominant pattern with the hospitalization type GGO ground glass opacity, HC home care, OH ordinary hospitalization, SC sub-intensive care, IC intensive care, TOT total",
             "type": "table"
         }
-    },
-    "back_matter": []
+    }
 }

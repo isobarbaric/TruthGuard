@@ -1,1466 +1,1466 @@
 {
-    "paper_id": "27a5c3d6975c41d3b354bd3f1f425218a4271be0",
-    "metadata": {
-        "title": "Deimplementation strategy to reduce overtreatment of asymptomatic bacteriuria: a study protocol for a stepped-wedge cluster randomised trial",
-        "authors": [
-            {
-                "first": "Tessa",
-                "middle": [],
-                "last": "Mzxk Van Horrik",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Tessa MZXK van Horrik",
-                    "location": {}
-                },
-                "email": ""
-            },
-            {
-                "first": "Suzanne",
-                "middle": [
-                    "E"
-                ],
-                "last": "Geerlings",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Tessa MZXK van Horrik",
-                    "location": {}
-                },
-                "email": ""
-            },
-            {
-                "first": "Janneke",
-                "middle": [
-                    "E"
-                ],
-                "last": "Stalenhoef",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Tessa MZXK van Horrik",
-                    "location": {}
-                },
-                "email": ""
-            },
-            {
-                "first": "Cees",
-                "middle": [],
-                "last": "Van Nieuwkoop",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Tessa MZXK van Horrik",
-                    "location": {}
-                },
-                "email": ""
-            },
-            {
-                "first": "Joppe",
-                "middle": [
-                    "B"
-                ],
-                "last": "Saanen",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Tessa MZXK van Horrik",
-                    "location": {}
-                },
-                "email": ""
-            },
-            {
-                "first": "Caroline",
-                "middle": [],
-                "last": "Schneeberger",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Tessa MZXK van Horrik",
-                    "location": {}
-                },
-                "email": ""
-            },
-            {
-                "first": "Bart",
-                "middle": [
-                    "J"
-                ],
-                "last": "Laan",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Tessa MZXK van Horrik",
-                    "location": {}
-                },
-                "email": ""
-            }
-        ]
-    },
     "abstract": [],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "There is a growing urgency to improve healthcare quality and save costs by implementing practices to reduce unnecessary diagnostics, diagnostic error and related overtreatment, so-called low-value care practices. This is exemplified by international campaigns, such as Choosing Wisely and Do not Do prompts, which were launched to reduce unnecessary care in several medical services, resulting in less risks for the patients, saving costs and increasing value for care. 1 2 A parallel campaign initiative titled 'To Do or Not to Do?' was introduced to deimplement unnecessary care in the Netherlands. 3 Antimicrobial resistance, as a result of antibiotic overconsumption, is a global threat to public health, and there is global consensus about reducing the use of antibiotics. 4 Urinary tract infections (UTIs) are one of the most common categories of infections for which antimicrobials are prescribed. 5 However, not all antimicrobial prescriptions are necessary. This is especially true for asymptomatic bacteriuria (ASB), which is the presence of bacteria in the urine of a patient who does not have symptoms of a UTI. ASB is a common finding, especially among women, elderly and patients with urinary catheters. The prevalence of ASB Strengths and limitations of this study \u25ba We will use a stepped-wedge cluster randomised design, ultimately resulting in implementation of our intervention in all participating hospitals. \u25ba Our strategy is well suited for broad-scale deimplementation in emergency departments. \u25ba A possible limitation of this study is that we are not able to evaluate the impact of an individual intervention since we are using a multifaceted deimplementation strategy. \u25ba Another possible limitation is that we are limited by documentation in the patient files, and therefore, we might overestimate the number of patients with asymptomatic bacteriuria.",
-            "cite_spans": [
-                {
-                    "start": 601,
-                    "end": 602,
-                    "text": "3",
-                    "ref_id": null
-                },
-                {
-                    "start": 778,
-                    "end": 779,
-                    "text": "4",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 905,
-                    "end": 906,
-                    "text": "5",
-                    "ref_id": "BIBREF4"
-                }
-            ],
-            "ref_spans": [],
-            "section": "INTRODUCTION"
-        },
-        {
-            "text": "in adults over 65 years is high since the prevalence of ASB increases with age. 6 Guidelines strongly recommend not to screen for or treat ASB with antimicrobials, except for specific patients at risk of developing a complicated UTI. 5 This is also outlined in the American Choosing Wisely campaign, which judges treatment of ASB as one of five low-value care services that should be avoided. 7 In 2015, this resulted in the recommendation 'Do not use antimicrobials to treat bacteriuria in older adults unless specific urinary tract symptoms are present'. 7 Regardless, antimicrobials are still frequently used for patients with ASB. A systematic review and meta-analysis from 2017 showed a pooled prevalence of 45% among 4129 ASB cases (95% CI 39 to 50) who received inappropriate antimicrobial treatment. 8 The prevalence was even higher in a recent retrospective evaluation of 25 hospitals in the USA, in which 64% of the 2225 positive urine cultures were classified as ASB, and 72% of 961 patients with ASB were treated with antimicrobials. 9 The exact use of antimicrobials for ASB in hospitals in the Netherlands is unknown. However, in 2015, a prospective study performed in 10 nursing homes in the Netherlands showed that 115 (32%) of 356 residents with a possible UTI were treated inappropriately, and treatment of ASB was the most common reason. 10 These results indicate that reducing the treatment of ASB is an appropriate target of antimicrobial stewardship strategies.",
-            "cite_spans": [
-                {
-                    "start": 80,
-                    "end": 81,
-                    "text": "6",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 234,
-                    "end": 235,
-                    "text": "5",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 393,
-                    "end": 394,
-                    "text": "7",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 557,
-                    "end": 558,
-                    "text": "7",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 808,
-                    "end": 809,
-                    "text": "8",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 1046,
-                    "end": 1047,
-                    "text": "9",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 1357,
-                    "end": 1359,
-                    "text": "10",
-                    "ref_id": "BIBREF9"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "Earlier studies demonstrated that multifaceted interventions can effectively reduce overtreatment of ASB in nursing home residents and patients with urinary catheters. In 2005, a cluster randomised trial in 12 nursing homes in Canada and the USA showed a reduction in antimicrobial use after the multifaceted implementation of a diagnostic and treatment algorithm (1.17 vs 1.59 courses of antimicrobials/1000 resident days). 11 For catheterised patients in the USA, a controlled before-after study in 2015 showed a decrease of urine culture ordering from 41.2 to 23.3 per 1000 bed-days. 12 Furthermore, short educational sessions combined with feedback in two academic tertiary acute care hospitals in Canada, performed in 2015, resulted in a reduction of overtreatment for ASB of 8% (2 of 24 patients) in the intervention group compared with 52% (14 of 29 patients) in the control group (OR 0.1, 95% CI 0.02 to 0.49). 13 In 2018, these findings resulted in the development of an implementation guide to reduce overtreatment of ASB. 14 However, effectiveness studies after the launch of this implementation guide have not yet been performed in emergency departments (EDs). The results of earlier studies suggest that improving ASB management in the ED is necessary. In 2017, a prospective observational study performed in the ED of a tertiary care centre in the USA showed that 27 of 71 (38%) older adults were not correctly diagnosed with a UTI. 15 Furthermore, overtreatment of a suspected (but unconfirmed) UTI was very common in a retrospective study performed in the ED of another tertiary care centre in the USA in 2013, where 63 of 66 (95%) patients were treated while they had a negative urine culture. 16 In this study, our aim was to reduce overtreatment of ASB by 50% by using a multifaceted deimplementation strategy based on the implementation guide described previously.",
-            "cite_spans": [
-                {
-                    "start": 425,
-                    "end": 427,
-                    "text": "11",
-                    "ref_id": "BIBREF10"
-                },
-                {
-                    "start": 587,
-                    "end": 589,
-                    "text": "12",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 919,
-                    "end": 921,
-                    "text": "13",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 1033,
-                    "end": 1035,
-                    "text": "14",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 1447,
-                    "end": 1449,
-                    "text": "15",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 1711,
-                    "end": 1713,
-                    "text": "16",
-                    "ref_id": "BIBREF15"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "For the development of our study protocol, we used the reporting guidelines for stepped-wedge cluster randomised trials. 17 We will use a repeated measurement stepped-wedge cluster randomised design. The deimplementation strategy will be introduced in the ED of five hospitals (clusters) in the Netherlands (one university and four general teaching hospitals) in six time periods consisting of 1 or 2 months, depending on how many patients will be included in the first month. Therefore, the total study duration is 6-12 months (figure 1). The order in which the participating hospitals will receive the intervention will be randomly determined by an independent data manager. Every cluster will start in control condition, and by the end of the trial, every cluster will have received the intervention. We planned to start our study on 1 May 2020. However, due to the COVID-19 pandemic, the start of our study will be postponed until 1 October 2020.",
-            "cite_spans": [
-                {
-                    "start": 121,
-                    "end": 123,
-                    "text": "17",
-                    "ref_id": "BIBREF16"
-                }
-            ],
-            "ref_spans": [],
-            "section": "METHODS AND ANALYSIS Study design and setting"
-        },
-        {
-            "text": "We will screen all patients (\u226518 years old) who have urine tests (culture and/or urinalysis) that were obtained during an ED presentation (figure 2). First, we will exclude all patients who have no positive urinalysis or urine culture, that is, if both the urinalysis and culture are negative (table 1) . Further exclusion criteria are patients with a symptomatic UTI (systemic or local symptoms, according to the Center for Disease Control's National Healthcare Safety Network for Urinary Tract Infection) (table 1), 18 active treatment for a UTI on presentation, patients with an alternate site of infection for which they receive antimicrobial treatment, and patients with ASB and risk factors, defined as pregnant women, patients prior to planned invasive urological procedures associated with mucosal trauma (including transurethral surgery of the prostate or bladder, ureteroscopy, including lithotripsy and percutaneous stone surgery) and high-risk neutropenia (defined as absolute neutrophil count<500 cells/ \u00b5L). Patients with altered mental status (AMS) and with possible systemic symptoms of an infection and bacteriuria, since treatment with antimicrobials is then considered appropriate.",
-            "cite_spans": [
-                {
-                    "start": 518,
-                    "end": 520,
-                    "text": "18",
-                    "ref_id": "BIBREF17"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 293,
-                    "end": 302,
-                    "text": "(table 1)",
-                    "ref_id": null
-                }
-            ],
-            "section": "Patient selection"
-        },
-        {
-            "text": "The primary endpoint is the percentage of patients with ASB without risk factors or another alternative site of infections, who are treated with antimicrobials. We define ASB according to the international guideline provided by the Infectious Diseases Society of America (table 1) . 5 Secondary endpoints are the duration of antimicrobial treatment for ASB, the number of urine cultures and urinalysis (dipsticks and microscopic analysis) per 1000 patients at the ED, the percentage of asymptomatic patients treated for urine cultures that are considered positive in daily practice, a quantitative count of bacteria of \u226510 3 colony-forming units (CFU)/mL and the percentage of patients without symptoms or risk factors treated with antimicrobials for a positive urinalysis without an obtained culture. Explorative analyses will evaluate the total number of urine cultures ordered in the hospital and indications for negative urine cultures during the baseline period.",
-            "cite_spans": [
-                {
-                    "start": 283,
-                    "end": 284,
-                    "text": "5",
-                    "ref_id": "BIBREF4"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 271,
-                    "end": 280,
-                    "text": "(table 1)",
-                    "ref_id": null
-                }
-            ],
-            "section": "Primary and secondary endpoints"
-        },
-        {
-            "text": "The study will collate a list of all urine cultures and urinalyses performed in the ED, including corresponding microbiology laboratory and clinical chemistry data. All relevant patient information, including the presence of other possible infections, of those with positive cultures will be reviewed from medical and nursing records by a research physician to determine if patients have ASB. For patients with ASB, we will collect data on antimicrobial Open access treatment, including antimicrobial prescription and duration of antimicrobial therapy, and the specified bacterial count and pathogen according to the standard operating procedure of the microbiology laboratory. For feasibility reasons, a random sample of a total number of 220 negative urine cultures will be screened by medical record review to evaluate the indication for testing during the baseline period. We will use these data in the further development of an additional local deimplementation strategy based on the assessment of determinants of current practice. Furthermore, we will collect the patient-level variables, including patient characteristics (age, gender and residency in nursing home), Charlson Comorbidity Index, 19 Modified Early Warning Score, 20 chronic urinary catheter use, reason for presentation at the ED and use of antimicrobials for uropathogens in the last 7 days before presentation at the ED. We will also collect the reasons for urine testing documented in the medical record. Data from medical records will be collected in an electronic GCP-compliant database, and we will audit a random sample of 10% to assure the validity of data collection.",
-            "cite_spans": [
-                {
-                    "start": 1202,
-                    "end": 1204,
-                    "text": "19",
-                    "ref_id": "BIBREF18"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Data collection"
-        },
-        {
-            "text": "Our deimplementation strategy is a tailored multifaceted intervention based on a Dutch deimplementation guide and an international implementation guide to reduce overtreatment of ASB in low-risk patients. 14 21 We will use a combination of interventions, such as education, audit and feedback and organisational adjustments, because these strategies have shown to be successful for reducing treatment of ASB in prior studies. 11 22 The deimplementation strategy can be divided into a general part that will be introduced in every hospital by our project group, and additional local strategies introduced by local healthcare workers, focused on the local setting (table 2) .",
-            "cite_spans": [
-                {
-                    "start": 205,
-                    "end": 207,
-                    "text": "14",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 208,
-                    "end": 210,
-                    "text": "21",
-                    "ref_id": null
-                },
-                {
-                    "start": 426,
-                    "end": 431,
-                    "text": "11 22",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 662,
-                    "end": 671,
-                    "text": "(table 2)",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Deimplementation strategy"
-        },
-        {
-            "text": "For the general strategy, we will start the intervention period by holding one or more educational meetings about overtreatment of ASB for all healthcare workers in the ED. During these educational meetings, we will inform all healthcare workers about the current ASB guidelines and discuss the local barriers and facilitators to reduce its overtreatment. Next to this, the results of the baseline period will be used as competitive feedback report between the participating hospitals. This competitive feedback report will be used to raise awareness among healthcare workers. 23 During this meeting, Table 1 Definitions of positive urinalysis, UTI and ASB",
-            "cite_spans": [
-                {
-                    "start": 577,
-                    "end": 579,
-                    "text": "23",
-                    "ref_id": "BIBREF22"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 601,
-                    "end": 608,
-                    "text": "Table 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "Deimplementation strategy"
-        },
-        {
-            "text": "Positive urinalysis 32 Urinalysis must have one or more of the following results: Dipstick \u25ba Abnormal nitrites. \u25ba Abnormal leucocyte esterase. Microscopic analysis \u25ba >5 leucocytes/high-powered field (or reference ranges according to local standard operating procedures). \u25ba Abnormal amount of bacteria according local operating procedures.",
-            "cite_spans": [
-                {
-                    "start": 20,
-                    "end": 22,
-                    "text": "32",
-                    "ref_id": "BIBREF31"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Item Definition"
-        },
-        {
-            "text": "ASB 5 The presence of one or more species of bacteria growing in the urine at specified quantitative counts (\u226510 5 CFU/mL) regardless of the presence of pyuria, without UTI symptoms or signs.",
-            "cite_spans": [
-                {
-                    "start": 4,
-                    "end": 5,
-                    "text": "5",
-                    "ref_id": "BIBREF4"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Item Definition"
-        },
-        {
-            "text": "UTI 18 Patient has at least one of the following signs or symptoms: fever (>38\u00b0C),* suprapubic tenderness,* costovertebral angle pain or tenderness,* urinary urgency, urinary frequency or dysuria, \u2020 and patient has a urine culture with no more than two species of organisms identified, at least one of which is a bacterium of \u226510 5 CFU/mL.",
-            "cite_spans": [
-                {
-                    "start": 4,
-                    "end": 6,
-                    "text": "18",
-                    "ref_id": "BIBREF17"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Item Definition"
-        },
-        {
-            "text": "Catheter-associated UTI \u2020 18 A UTI where a urinary catheter was in place for >2 days on the date of event, with day of placement being day 1, and was in place on the date of the event or the day before.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Item Definition"
+            "section": "acknowledgement",
+            "text": "Acknowledgements We thank Vanessa C Harris (physician, Infectious Diseases, Internal Medicine, Amsterdam UMC, University of Amsterdam, Netherlands), for proofreading and spell checking the manuscript.Contributors BJL and SEG were involved in the conception of the study and coordinated the funding application. TMZXKvH, SEG and BJL drafted the manuscript. BJL outlined the statistical analysis with support of the Clinical Research Unit of the Academic Medical Centre (Amsterdam, the Netherlands). JES, CvN, JBS, and CS revised the manuscript critically for important intellectual content. All authors read and approved the final version of the manuscript.Funding This study is supported by the Netherlands Organisation for Health Research and Development (ZonMw) grant number 839 205 002."
         },
         {
-            "text": "*With no other recognised cause. \u2020A urinary catheter in situ could cause patient complaints of frequency, urgency or dysuria. Therefore, these symptoms cannot be used in patients with catheters. ASB, asymptomatic bacteriuria; CFU, colony-forming unit; UTI, urinary tract infection. Open access we will distribute posters and pocket cards with an algorithm ( figure 3A,B) for appropriate indications for urine cultures and urinalysis, and overtreatment of ASB, based on current guidelines. 5 24 The kick-off meeting will be led by the project coordinator and the local champion. These tools will be available throughout the intervention period and after the intervention period, if necessary. We will send emails with the anonymous feedback report and the algorithm to healthcare workers who were not able to join the meeting. For the additional local part of the strategy, a local champion, one of the leading physicians, will be appointed in each participating hospital and will be responsible for the deimplementation strategy. The local champion will start an asymptomatic bacteriuria quality improvement team (ASB team), which will consist of at least an emergency doctor, infectious disease physician, a resident internal medicine and a nurse from the ED. The ASB team will be motivated to assess barriers and facilitators within their hospital and to start additional interventions based on the local setting. For example, by educating and/or reminding healthcare workers about appropriate urine testing and treatment for ASB, and evaluating and/or adjusting local protocols to reduce inappropriate urine testing and antimicrobial use. Further, the ASB team will collaborate with the antibiotic stewardship teams. During Open access the intervention period, the project coordinator will be in contact with the local champion and/or the ASB-team once every 2 weeks to exchange ideas and experiences based on interim results (ordering patterns of urine culture) and assessment of local facilitators and barriers.",
-            "cite_spans": [
-                {
-                    "start": 489,
-                    "end": 493,
-                    "text": "5 24",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 358,
-                    "end": 370,
-                    "text": "figure 3A,B)",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Item Definition"
-        },
-        {
-            "text": "We will use a stepped-wedge hospital-randomised design with six time periods and five steps, in which one hospital will switch from control to treatment at each step. Previous studies have shown reduction of inappropriate treatment for ASB of approximately 50% following deimplementation strategies. 8 Therefore, we anticipate that the proportion of patients who received inappropriate antimicrobial treatment for ASB will be reduced by 50% from 0.450 to 0.225 after the deimplementation strategy. Assuming an intrahospital correlation coefficient of 0.10, a total of at least 420 patients (=14 patients\u00d7six time periods\u00d7five hospitals) will achieve 80% power to detect this reduction using the two-sided Wald Z-test with a significance level of 0.05. We used PASS V.15.0.10 to calculate this sample size. During the same time period, we will include additional patients with positive urinalyses.",
-            "cite_spans": [
-                {
-                    "start": 300,
-                    "end": 301,
-                    "text": "8",
-                    "ref_id": "BIBREF7"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Sample size"
-        },
-        {
-            "text": "Categorical data were summarised as frequency and percentage, and continuous data as mean (SD) or median (range). We will use fixed effects models to analyse the overall effect of our deimplementation strategy on overtreatment of ASB. 25 To adjust for clustering and temporal trends, we will include the clusters (hospitals) as a categorical predictor and the time in months as a fixed effect in the model. To correct for the level 2 variance, we will multiply the SE estimates by the square root of the design effect (DEFT). We will evaluate the differences between baseline period and intervention period according an intention to treat principle. To adjust for confounders, we will include the main risk factors for overtreatment of ASB (namely, age, acutely AMS and positive urinalysis) 26 in the model. We will use the Akaike's Information Criterion and analysis of variance tables to compare the fitting of the models. We will report the results of the adjusted, unadjusted and intercept models. A two-sided p value of<0.05 was considered significant.",
-            "cite_spans": [
-                {
-                    "start": 235,
-                    "end": 237,
-                    "text": "25",
-                    "ref_id": "BIBREF24"
-                },
-                {
-                    "start": 791,
-                    "end": 793,
-                    "text": "26",
-                    "ref_id": "BIBREF25"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Statistical analysis Effect evaluation"
-        },
-        {
-            "text": "During the planned regular meetings with members of the local ASB teams to report results and feedback, we will evaluate the introduced interventions. By exchanging thoughts and experiences on the implemented interventions, we will be able to determine what intervention(s) will work best in daily practice. For the process evaluation, we will evaluate the deimplementation strategy adherence and compliance. Therefore, all elements of the deimplementation strategy will be explored in all participating hospitals. We will award the hospitals with feedback points for all elements of the deimplementation strategy. 27 For example, points will be given for the number of persons present at the planned meetings and for every strategy that is implemented.",
-            "cite_spans": [
-                {
-                    "start": 615,
-                    "end": 617,
-                    "text": "27",
-                    "ref_id": "BIBREF26"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Process evaluation"
-        },
-        {
-            "text": "We will primarily perform a cost-effectiveness analysis, in which we evaluate the cost effectiveness ratio (CER) (CER=cost of deimplementation/healthcare cost reduction). Our goal was to achieve a reduction in urine culture, urinalysis and antimicrobial prescriptions, and thereby a reduction in costs. The costs of our deimplementation strategy will be divided in non-recurrent studyrelated costs and recurrent de-implementation-related costs. Non-recurrent study-related costs include material costs, developmental costs of the deimplementation strategy and costs of evaluation of the deimplementation. Recurrent costs include the costs to introduce the deimplementation strategy, such as time of the extra meetings of the ASB team and time invested by the local champion. For feasibility reasons, we will use the number of all urine cultures, urinalyses and antimicrobial prescriptions, representing the main cost benefits due to our strategy. The costs for urine cultures, urinalyses and antimicrobials used in the analyses will be based on Dutch guideline on healthcare economic evaluations. 28 The result of the costeffectiveness analysis will be used in a budget impact analysis to assess the financial impact on the hospital's budget to implement and sustain the deimplementation strategy.",
-            "cite_spans": [
-                {
-                    "start": 1097,
-                    "end": 1099,
-                    "text": "28",
-                    "ref_id": "BIBREF27"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Economic evaluation"
-        },
-        {
-            "text": "Ethical approval was obtained on 13 December 2019 from the medical ethics research committee of the Academic Medical Centre (Amsterdam, the Netherlands), with a waiver for informed consent. Local feasibility was obtained by the local institutional review boards of all participating hospitals. This trial is registered at Netherlands Trial Register, trialregister. nl/ trial/ 8242. All relevant results of our study will be disseminated through publications in peer-reviewed journals and presentations at relevant (scientific) conferences. No identifiable patient data will be disseminated.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "ETHICS AND DISSEMINATION"
+            "section": "annex",
+            "text": "Competing interests None declared.Patient and public involvement Patients and/or the public were not involved in the design, conduct, reporting or dissemination plans of this research.Patient consent for publication Not required.Provenance and peer review Not commissioned; externally peer reviewed.Open access This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: https:// creativecommons. org/ licenses/ by/ 4. 0/."
         },
         {
-            "text": "This research will be performed without patient involvement. Patients will not be invited to comment on the study design and will not be consulted to develop patientrelevant outcomes or interpret the results. Patients will not be invited to contribute to the writing or editing of this document for readability or accuracy.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Patient and public involvement"
-        },
-        {
-            "text": "Data collected from this study, including deidentified individual participant data, will be made available on publication to investigators whose proposed use of the data has been approved by an independent review committee identified for this purpose. Proposals should be directed to the chief investigator SEG ( SE. geerlings@ Open access amsterdamumc. nl); to gain access, data requestors will need to sign a data access agreement.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Data availability"
-        },
-        {
-            "text": "This study protocol describes the design, deimplementation strategy and process evaluation to reduce overtreatment of ASB in the daily practice of emergency medicine. Our deimplementation strategy could prevent the use of unnecessary urine diagnostics and subsequent inappropriate treatment of ASB, improve healthcare quality, lower the increase in antimicrobial resistance and save costs. If proven to be (cost) effective, this study could provide a nationwide strategy to reduce overtreatment of ASB.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "In our study, we will not evaluate the clinical outcome of our strategy, including potential clinical benefits, such as reduced side effects of antibiotics, since previous studies have already shown that ASB in non-risk patients does not lead to an increased risk of symptomatic UTI and that it is safe to not treat ASB. 29 30 By using a stepped-wedge cluster randomised design, we will be able to compare the outcomes within a cluster between the time intervals in which a cluster received the control and the interventions. Furthermore, our intervention will be enrolled in a systematic manner and eventually will be introduced in all participating hospitals. A novel part of our study compared with previous studies that aimed to reduce overtreatment of ASB is that we will be using local champions in each hospital and adjust the intervention based on the local situation.",
-            "cite_spans": [
-                {
-                    "start": 321,
-                    "end": 326,
-                    "text": "29 30",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "A limitation of stepped wedge designs is that this requires larger sample sizes, as patients' characteristics may be similar within one cluster. By randomisation of the start time of the clusters, we intend to balance these important characteristics. However, this cannot be ensured with our relatively small number of clusters. 31 Another possible limitation is that we will not prospectively assess clinical symptoms ourselves and are limited to documentation of symptomatology in patient files. This might overestimate the number of patients with asymptomatic bacteriuria in the baseline and intervention periods. Since this should be similar in the baseline and intervention periods, we do not expect that this will influence our results. Furthermore, we cannot evaluate the impact of an individual intervention. However, we expect that our deimplementation strategy is low cost and well suitable for broad-scale implementation. ",
-            "cite_spans": [
-                {
-                    "start": 329,
-                    "end": 331,
-                    "text": "31",
-                    "ref_id": "BIBREF30"
-                }
-            ],
-            "ref_spans": [],
-            "section": "DISCUSSION"
+            "section": "ORCID iDs",
+            "text": "Tessa MZXK van Horrik http:// orcid. org/ 0000-0002-3496-2203 Bart J Laan http:// orcid. org/ 0000-0002-2357-8871"
         }
     ],
     "bib_entries": {
         "BIBREF0": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b0",
             "title": "The National Institute for Health and Care Excellence (NICE)",
-            "authors": [],
-            "year": 2013,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "World Health Organization. Global action plan on antimicrobial resistance",
-            "authors": [],
-            "year": 2015,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "Clinical practice guideline for the management of asymptomatic bacteriuria: 2019 update by the infectious diseases Society of Americaa",
-            "authors": [
-                {
-                    "first": "L",
-                    "middle": [
-                        "E"
-                    ],
-                    "last": "Nicolle",
-                    "suffix": ""
-                },
-                {
-                    "first": "K",
-                    "middle": [],
-                    "last": "Gupta",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [
-                        "F"
-                    ],
-                    "last": "Bradley",
-                    "suffix": ""
-                }
-            ],
-            "year": 2019,
-            "venue": "Clin Infect Dis",
-            "volume": "68",
-            "issn": "",
-            "pages": "1611--1616",
-            "other_ids": {
-                "DOI": [
-                    "10.1093/cid/ciz021"
-                ]
-            }
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "Asymptomatic bacteriuria: when to screen and when to treat",
-            "authors": [
-                {
-                    "first": "L",
-                    "middle": [
-                        "E"
-                    ],
-                    "last": "Nicolle",
-                    "suffix": ""
-                }
-            ],
-            "year": 2003,
-            "venue": "Infect Dis Clin North Am",
-            "volume": "17",
-            "issn": "",
-            "pages": "367--94",
-            "other_ids": {
-                "DOI": [
-                    "10.1016/s0891-5520(03)00008-4"
-                ]
-            }
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Choosing Wisely: an initiative of the ABIM Foundation. Ten things physicians and patients should question",
-            "authors": [],
-            "year": 2013,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Inappropriate management of asymptomatic patients with positive urine cultures: a systematic review and meta-analysis",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [
-                        "E"
-                    ],
-                    "last": "Flokas",
-                    "suffix": ""
-                },
-                {
-                    "first": "N",
-                    "middle": [],
-                    "last": "Andreatos",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Alevizakos",
-                    "suffix": ""
-                }
-            ],
-            "year": 2017,
-            "venue": "Open Forum Infect Dis",
-            "volume": "4",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1093/ofid/ofx207"
-                ]
-            }
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Management of bacteriuria in Veterans Affairs hospitals",
-            "authors": [
-                {
-                    "first": "E",
-                    "middle": [
-                        "S"
-                    ],
-                    "last": "Spivak",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Burk",
-                    "suffix": ""
-                },
-                {
-                    "first": "R",
-                    "middle": [],
-                    "last": "Zhang",
-                    "suffix": ""
-                }
-            ],
-            "year": 2017,
-            "venue": "Clin Infect Dis",
-            "volume": "65",
-            "issn": "",
-            "pages": "910--917",
-            "other_ids": {
-                "DOI": [
-                    "10.1093/cid/cix474"
-                ]
-            }
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "Antibiotic prescribing in Dutch nursing homes: how appropriate is it?",
-            "authors": [
-                {
-                    "first": "L",
-                    "middle": [
-                        "W"
-                    ],
-                    "last": "Van Buul",
-                    "suffix": ""
-                },
-                {
-                    "first": "R",
-                    "middle": [
-                        "B"
-                    ],
-                    "last": "Veenhuizen",
-                    "suffix": ""
-                },
-                {
-                    "first": "W",
-                    "middle": [
-                        "P"
-                    ],
-                    "last": "Achterberg",
-                    "suffix": ""
-                }
-            ],
-            "year": 2015,
-            "venue": "J Am Med Dir Assoc",
-            "volume": "16",
-            "issn": "",
-            "pages": "229--266",
-            "other_ids": {
-                "DOI": [
-                    "10.1016/j.jamda.2014.10.003"
-                ]
-            }
+            "year": 2013
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "Effect of a multifaceted intervention on number of antimicrobial prescriptions for suspected urinary tract infections in residents of nursing homes: cluster randomised controlled trial",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Loeb",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Brazil",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Lohfeld",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2005,
-            "venue": "BMJ",
-            "volume": "331",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1136/bmj.38602.586343.55"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b10",
+            "title": "Effect of a multifaceted intervention on number of antimicrobial prescriptions for suspected urinary tract infections in residents of nursing homes: cluster randomised controlled trial",
+            "venue": "BMJ",
+            "volume": "331",
+            "year": 2005
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "Effectiveness of an antimicrobial stewardship approach for urinary catheter-associated asymptomatic bacteriuria",
             "authors": [
                 {
                     "first": "B",
+                    "last": "Trautner",
                     "middle": [
                         "W"
                     ],
-                    "last": "Trautner",
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Grigoryan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Petersen",
                     "middle": [
                         "J"
                     ],
-                    "last": "Petersen",
                     "suffix": ""
                 }
             ],
-            "year": 2015,
-            "venue": "JAMA Intern Med",
-            "volume": "175",
             "issn": "",
-            "pages": "1120--1127",
             "other_ids": {
                 "DOI": [
                     "10.1001/jamainternmed.2015.1878"
                 ]
-            }
+            },
+            "pages": "1120--1127",
+            "ref_id": "b11",
+            "title": "Effectiveness of an antimicrobial stewardship approach for urinary catheter-associated asymptomatic bacteriuria",
+            "venue": "JAMA Intern Med",
+            "volume": "175",
+            "year": 2015
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "A controlled quasiexperimental study of an educational intervention to reduce the unnecessary use of antimicrobials for asymptomatic bacteriuria",
             "authors": [
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Irfan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Brooks",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Mithoowani",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2015,
-            "venue": "PLoS One",
-            "volume": "10",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1371/journal.pone.0132071"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b12",
+            "title": "A controlled quasiexperimental study of an educational intervention to reduce the unnecessary use of antimicrobials for asymptomatic bacteriuria",
+            "venue": "PLoS One",
+            "volume": "10",
+            "year": 2015
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "An implementation guide to reducing overtreatment of asymptomatic bacteriuria",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Daniel",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Keller",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Mozafarihashjin",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
-            "venue": "JAMA Intern Med",
-            "volume": "178",
             "issn": "",
-            "pages": "271--277",
             "other_ids": {
                 "DOI": [
                     "10.1001/jamainternmed.2017.7290"
                 ]
-            }
+            },
+            "pages": "271--277",
+            "ref_id": "b13",
+            "title": "An implementation guide to reducing overtreatment of asymptomatic bacteriuria",
+            "venue": "JAMA Intern Med",
+            "volume": "178",
+            "year": 2018
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Accuracy of current diagnostic criteria for acute bacterial infection in older adults in the emergency department",
             "authors": [
                 {
                     "first": "J",
+                    "last": "Caterino",
                     "middle": [
                         "M"
                     ],
-                    "last": "Caterino",
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Leininger",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
+                    "last": "Kline",
                     "middle": [
                         "M"
                     ],
-                    "last": "Kline",
                     "suffix": ""
                 }
             ],
-            "year": 2017,
-            "venue": "J Am Geriatr Soc",
-            "volume": "65",
             "issn": "",
-            "pages": "1802--1811",
             "other_ids": {
                 "DOI": [
                     "10.1111/jgs.14912"
                 ]
-            }
+            },
+            "pages": "1802--1811",
+            "ref_id": "b14",
+            "title": "Accuracy of current diagnostic criteria for acute bacterial infection in older adults in the emergency department",
+            "venue": "J Am Geriatr Soc",
+            "volume": "65",
+            "year": 2017
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "Overtreatment of presumed urinary tract infection in older women presenting to the emergency department",
             "authors": [
                 {
                     "first": "L",
+                    "last": "Gordon",
                     "middle": [
                         "B"
                     ],
-                    "last": "Gordon",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Waxman",
                     "middle": [
                         "J"
                     ],
-                    "last": "Waxman",
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Ragsdale",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2013,
-            "venue": "J Am Geriatr Soc",
-            "volume": "61",
             "issn": "",
-            "pages": "788--92",
             "other_ids": {
                 "DOI": [
                     "10.1111/jgs.12203"
                 ]
-            }
+            },
+            "pages": "788--92",
+            "ref_id": "b15",
+            "title": "Overtreatment of presumed urinary tract infection in older women presenting to the emergency department",
+            "venue": "J Am Geriatr Soc",
+            "volume": "61",
+            "year": 2013
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "The stepped wedge cluster randomised trial: rationale, design, analysis, and reporting",
             "authors": [
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Hemming",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Haines",
                     "middle": [
                         "P"
                     ],
-                    "last": "Haines",
                     "suffix": ""
                 },
                 {
                     "first": "P",
+                    "last": "Chilton",
                     "middle": [
                         "J"
                     ],
-                    "last": "Chilton",
                     "suffix": ""
                 }
             ],
-            "year": 2015,
-            "venue": "BMJ",
-            "volume": "350",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1136/bmj.h391"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b16",
+            "title": "The stepped wedge cluster randomised trial: rationale, design, analysis, and reporting",
+            "venue": "BMJ",
+            "volume": "350",
+            "year": 2015
         },
         "BIBREF17": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b17",
             "title": "Patient safety component manual",
-            "authors": [],
-            "year": 2019,
             "venue": "CDC National Healthcare Safety Network (NHSN)",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2019
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "Updating and validating the Charlson comorbidity index and score for risk adjustment in hospital discharge Abstracts using data from 6 countries",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Quan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Couris",
                     "middle": [
                         "M"
                     ],
-                    "last": "Couris",
                     "suffix": ""
                 }
             ],
-            "year": 2011,
-            "venue": "Am J Epidemiol",
-            "volume": "173",
             "issn": "",
-            "pages": "676--82",
             "other_ids": {
                 "DOI": [
                     "10.1093/aje/kwq433"
                 ]
-            }
+            },
+            "pages": "676--82",
+            "ref_id": "b18",
+            "title": "Updating and validating the Charlson comorbidity index and score for risk adjustment in hospital discharge Abstracts using data from 6 countries",
+            "venue": "Am J Epidemiol",
+            "volume": "173",
+            "year": 2011
         },
         "BIBREF19": {
-            "ref_id": "b19",
-            "title": "Validation of a modified early warning score in medical admissions",
             "authors": [
                 {
                     "first": "C",
+                    "last": "Subbe",
                     "middle": [
                         "P"
                     ],
-                    "last": "Subbe",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Kruger",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Rutherford",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2001,
-            "venue": "QJM",
-            "volume": "94",
             "issn": "",
-            "pages": "521--527",
             "other_ids": {
                 "DOI": [
                     "10.1093/qjmed/94.10.521"
                 ]
-            }
+            },
+            "pages": "521--527",
+            "ref_id": "b19",
+            "title": "Validation of a modified early warning score in medical admissions",
+            "venue": "QJM",
+            "volume": "94",
+            "year": 2001
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Impact of a decisionmaking aid for suspected urinary tract infections on antibiotic overuse in nursing homes",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Mcmaughan",
                     "middle": [
                         "K"
                     ],
-                    "last": "Mcmaughan",
                     "suffix": ""
                 },
                 {
                     "first": "O",
-                    "middle": [],
                     "last": "Nwaiwu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Zhao",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
-            "venue": "BMC Geriatr",
-            "volume": "16",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1186/s12877-016-0255-9"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b21",
+            "title": "Impact of a decisionmaking aid for suspected urinary tract infections on antibiotic overuse in nursing homes",
+            "venue": "BMC Geriatr",
+            "volume": "16",
+            "year": 2016
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "A clusterrandomized trial of two strategies to improve antibiotic use for patients with a complicated urinary tract infection",
             "authors": [
                 {
                     "first": "V",
-                    "middle": [],
                     "last": "Spoorenberg",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Mejl",
-                    "middle": [],
                     "last": "Hulscher",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Geskus",
                     "middle": [
                         "B"
                     ],
-                    "last": "Geskus",
                     "suffix": ""
                 }
             ],
-            "year": 2015,
-            "venue": "PLoS One",
-            "volume": "10",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1371/journal.pone.0142672"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b22",
+            "title": "A clusterrandomized trial of two strategies to improve antibiotic use for patients with a complicated urinary tract infection",
+            "venue": "PLoS One",
+            "volume": "10",
+            "year": 2015
         },
         "BIBREF23": {
-            "ref_id": "b23",
-            "title": "Urineweginfecties bij kwetsbare ouderen",
             "authors": [
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Verenso",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b23",
+            "title": "Urineweginfecties bij kwetsbare ouderen",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2018
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "Modeling clustered data with very few clusters",
             "authors": [
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Mcneish",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Stapleton",
                     "middle": [
                         "M"
                     ],
-                    "last": "Stapleton",
                     "suffix": ""
                 }
             ],
-            "year": 2016,
-            "venue": "Multivariate Behav Res",
-            "volume": "51",
             "issn": "",
-            "pages": "495--518",
             "other_ids": {
                 "DOI": [
                     "10.1080/00273171.2016.1167008"
                 ]
-            }
+            },
+            "pages": "495--518",
+            "ref_id": "b24",
+            "title": "Modeling clustered data with very few clusters",
+            "venue": "Multivariate Behav Res",
+            "volume": "51",
+            "year": 2016
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "Risk factors and outcomes associated with treatment of asymptomatic bacteriuria in hospitalized patients",
             "authors": [
                 {
                     "first": "L",
+                    "last": "Petty",
                     "middle": [
                         "A"
                     ],
-                    "last": "Petty",
                     "suffix": ""
                 },
                 {
                     "first": "V",
+                    "last": "Vaughn",
                     "middle": [
                         "M"
                     ],
-                    "last": "Vaughn",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Flanders",
                     "middle": [
                         "A"
                     ],
-                    "last": "Flanders",
                     "suffix": ""
                 }
             ],
-            "year": 2019,
-            "venue": "JAMA Intern Med",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1001/jamainternmed.2019.2871"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b25",
+            "title": "Risk factors and outcomes associated with treatment of asymptomatic bacteriuria in hospitalized patients",
+            "venue": "JAMA Intern Med",
+            "volume": "",
+            "year": 2019
         },
         "BIBREF26": {
-            "ref_id": "b26",
-            "title": "De-implementation strategy to reduce inappropriate use of intravenous and urinary catheters (RICAT): a multicentre, prospective, interrupted time-series and before and after study",
             "authors": [
                 {
                     "first": "B",
+                    "last": "Laan",
                     "middle": [
                         "J"
                     ],
-                    "last": "Laan",
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Maaskant",
                     "middle": [
                         "M"
                     ],
-                    "last": "Maaskant",
                     "suffix": ""
                 },
                 {
                     "first": "Ijb",
-                    "middle": [],
                     "last": "Spijkerman",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Lancet Infect Dis",
-            "volume": "20",
             "issn": "",
-            "pages": "864--72",
             "other_ids": {
                 "DOI": [
                     "10.1016/S1473-3099(19)30709-1"
                 ]
-            }
+            },
+            "pages": "864--72",
+            "ref_id": "b26",
+            "title": "De-implementation strategy to reduce inappropriate use of intravenous and urinary catheters (RICAT): a multicentre, prospective, interrupted time-series and before and after study",
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "year": 2020
         },
         "BIBREF27": {
-            "ref_id": "b27",
-            "title": "Kostenhandleiding: methodologie van kostenonderzoek en referentieprijzen voor economische evaluaties in de gezondheidszorg",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Hakkaart-Van Roijen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Van Der Linden",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Bouwmans",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b27",
+            "title": "Kostenhandleiding: methodologie van kostenonderzoek en referentieprijzen voor economische evaluaties in de gezondheidszorg",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2016
         },
         "BIBREF28": {
-            "ref_id": "b28",
-            "title": "Antimicrobial treatment in diabetic women with asymptomatic bacteriuria",
             "authors": [
                 {
                     "first": "Gkm",
-                    "middle": [],
                     "last": "Harding",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
+                    "last": "Zhanel",
                     "middle": [
                         "G"
                     ],
-                    "last": "Zhanel",
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Nicolle",
                     "middle": [
                         "E"
                     ],
-                    "last": "Nicolle",
                     "suffix": ""
                 }
             ],
-            "year": 2002,
-            "venue": "N Engl J Med",
-            "volume": "347",
             "issn": "",
-            "pages": "1576--83",
             "other_ids": {
                 "DOI": [
                     "10.1056/NEJMoa021042"
                 ]
-            }
+            },
+            "pages": "1576--83",
+            "ref_id": "b28",
+            "title": "Antimicrobial treatment in diabetic women with asymptomatic bacteriuria",
+            "venue": "N Engl J Med",
+            "volume": "347",
+            "year": 2002
         },
         "BIBREF29": {
-            "ref_id": "b29",
-            "title": "Bacteriuria in a population sample of women: 24-year follow-up study. results from the prospective population-based study of women in Gothenburg",
             "authors": [
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Bengtsson",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "U",
-                    "middle": [],
                     "last": "Bengtsson",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Bj\u00f6rkelund",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 1998,
-            "venue": "Sweden. Scand J Urol Nephrol",
-            "volume": "32",
             "issn": "",
-            "pages": "284--293",
             "other_ids": {
                 "DOI": [
                     "10.1080/003655998750015467"
                 ]
-            }
+            },
+            "pages": "284--293",
+            "ref_id": "b29",
+            "title": "Bacteriuria in a population sample of women: 24-year follow-up study. results from the prospective population-based study of women in Gothenburg",
+            "venue": "Sweden. Scand J Urol Nephrol",
+            "volume": "32",
+            "year": 1998
+        },
+        "BIBREF3": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b3",
+            "title": "World Health Organization. Global action plan on antimicrobial resistance",
+            "venue": "",
+            "volume": "",
+            "year": 2015
         },
         "BIBREF30": {
-            "ref_id": "b30",
-            "title": "The Stepped-Wedge clinical trial: evaluation by rolling deployment",
             "authors": [
                 {
                     "first": "S",
+                    "last": "Ellenberg",
                     "middle": [
                         "S"
                     ],
-                    "last": "Ellenberg",
                     "suffix": ""
                 }
             ],
-            "year": 2018,
-            "venue": "JAMA",
-            "volume": "319",
             "issn": "",
-            "pages": "607--615",
             "other_ids": {
                 "DOI": [
                     "10.1001/jama.2017.21993"
                 ]
-            }
+            },
+            "pages": "607--615",
+            "ref_id": "b30",
+            "title": "The Stepped-Wedge clinical trial: evaluation by rolling deployment",
+            "venue": "JAMA",
+            "volume": "319",
+            "year": 2018
         },
         "BIBREF31": {
-            "ref_id": "b31",
-            "title": "The urine dipstick test useful to rule out infections. A meta-analysis of the accuracy",
             "authors": [
                 {
                     "first": "Wljm",
-                    "middle": [],
                     "last": "Devill\u00e9",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Yzermans",
                     "middle": [
                         "C"
                     ],
-                    "last": "Yzermans",
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Van Duijn",
                     "middle": [
                         "P"
                     ],
-                    "last": "Van Duijn",
                     "suffix": ""
                 }
             ],
-            "year": 2004,
-            "venue": "BMC Urol",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1186/1471-2490-4-4"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b31",
+            "title": "The urine dipstick test useful to rule out infections. A meta-analysis of the accuracy",
+            "venue": "BMC Urol",
+            "volume": "",
+            "year": 2004
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "L",
+                    "last": "Nicolle",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Gupta",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Bradley",
+                    "middle": [
+                        "F"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciz021"
+                ]
+            },
+            "pages": "1611--1616",
+            "ref_id": "b4",
+            "title": "Clinical practice guideline for the management of asymptomatic bacteriuria: 2019 update by the infectious diseases Society of Americaa",
+            "venue": "Clin Infect Dis",
+            "volume": "68",
+            "year": 2019
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "L",
+                    "last": "Nicolle",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/s0891-5520(03)00008-4"
+                ]
+            },
+            "pages": "367--94",
+            "ref_id": "b5",
+            "title": "Asymptomatic bacteriuria: when to screen and when to treat",
+            "venue": "Infect Dis Clin North Am",
+            "volume": "17",
+            "year": 2003
+        },
+        "BIBREF6": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b6",
+            "title": "Choosing Wisely: an initiative of the ABIM Foundation. Ten things physicians and patients should question",
+            "venue": "",
+            "volume": "",
+            "year": 2013
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Flokas",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Andreatos",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Alevizakos",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ofid/ofx207"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b7",
+            "title": "Inappropriate management of asymptomatic patients with positive urine cultures: a systematic review and meta-analysis",
+            "venue": "Open Forum Infect Dis",
+            "volume": "4",
+            "year": 2017
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "E",
+                    "last": "Spivak",
+                    "middle": [
+                        "S"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Burk",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Zhang",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/cix474"
+                ]
+            },
+            "pages": "910--917",
+            "ref_id": "b8",
+            "title": "Management of bacteriuria in Veterans Affairs hospitals",
+            "venue": "Clin Infect Dis",
+            "volume": "65",
+            "year": 2017
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "L",
+                    "last": "Van Buul",
+                    "middle": [
+                        "W"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Veenhuizen",
+                    "middle": [
+                        "B"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "last": "Achterberg",
+                    "middle": [
+                        "P"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jamda.2014.10.003"
+                ]
+            },
+            "pages": "229--266",
+            "ref_id": "b9",
+            "title": "Antibiotic prescribing in Dutch nursing homes: how appropriate is it?",
+            "venue": "J Am Med Dir Assoc",
+            "volume": "16",
+            "year": 2015
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 602,
+                    "ref_id": null,
+                    "start": 601,
+                    "text": "3"
+                },
+                {
+                    "end": 779,
+                    "ref_id": "BIBREF3",
+                    "start": 778,
+                    "text": "4"
+                },
+                {
+                    "end": 906,
+                    "ref_id": "BIBREF4",
+                    "start": 905,
+                    "text": "5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "There is a growing urgency to improve healthcare quality and save costs by implementing practices to reduce unnecessary diagnostics, diagnostic error and related overtreatment, so-called low-value care practices. This is exemplified by international campaigns, such as Choosing Wisely and Do not Do prompts, which were launched to reduce unnecessary care in several medical services, resulting in less risks for the patients, saving costs and increasing value for care. 1 2 A parallel campaign initiative titled 'To Do or Not to Do?' was introduced to deimplement unnecessary care in the Netherlands. 3 Antimicrobial resistance, as a result of antibiotic overconsumption, is a global threat to public health, and there is global consensus about reducing the use of antibiotics. 4 Urinary tract infections (UTIs) are one of the most common categories of infections for which antimicrobials are prescribed. 5 However, not all antimicrobial prescriptions are necessary. This is especially true for asymptomatic bacteriuria (ASB), which is the presence of bacteria in the urine of a patient who does not have symptoms of a UTI. ASB is a common finding, especially among women, elderly and patients with urinary catheters. The prevalence of ASB Strengths and limitations of this study \u25ba We will use a stepped-wedge cluster randomised design, ultimately resulting in implementation of our intervention in all participating hospitals. \u25ba Our strategy is well suited for broad-scale deimplementation in emergency departments. \u25ba A possible limitation of this study is that we are not able to evaluate the impact of an individual intervention since we are using a multifaceted deimplementation strategy. \u25ba Another possible limitation is that we are limited by documentation in the patient files, and therefore, we might overestimate the number of patients with asymptomatic bacteriuria."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 81,
+                    "ref_id": "BIBREF5",
+                    "start": 80,
+                    "text": "6"
+                },
+                {
+                    "end": 235,
+                    "ref_id": "BIBREF4",
+                    "start": 234,
+                    "text": "5"
+                },
+                {
+                    "end": 394,
+                    "ref_id": "BIBREF6",
+                    "start": 393,
+                    "text": "7"
+                },
+                {
+                    "end": 558,
+                    "ref_id": "BIBREF6",
+                    "start": 557,
+                    "text": "7"
+                },
+                {
+                    "end": 809,
+                    "ref_id": "BIBREF7",
+                    "start": 808,
+                    "text": "8"
+                },
+                {
+                    "end": 1047,
+                    "ref_id": "BIBREF8",
+                    "start": 1046,
+                    "text": "9"
+                },
+                {
+                    "end": 1359,
+                    "ref_id": "BIBREF9",
+                    "start": 1357,
+                    "text": "10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "in adults over 65 years is high since the prevalence of ASB increases with age. 6 Guidelines strongly recommend not to screen for or treat ASB with antimicrobials, except for specific patients at risk of developing a complicated UTI. 5 This is also outlined in the American Choosing Wisely campaign, which judges treatment of ASB as one of five low-value care services that should be avoided. 7 In 2015, this resulted in the recommendation 'Do not use antimicrobials to treat bacteriuria in older adults unless specific urinary tract symptoms are present'. 7 Regardless, antimicrobials are still frequently used for patients with ASB. A systematic review and meta-analysis from 2017 showed a pooled prevalence of 45% among 4129 ASB cases (95% CI 39 to 50) who received inappropriate antimicrobial treatment. 8 The prevalence was even higher in a recent retrospective evaluation of 25 hospitals in the USA, in which 64% of the 2225 positive urine cultures were classified as ASB, and 72% of 961 patients with ASB were treated with antimicrobials. 9 The exact use of antimicrobials for ASB in hospitals in the Netherlands is unknown. However, in 2015, a prospective study performed in 10 nursing homes in the Netherlands showed that 115 (32%) of 356 residents with a possible UTI were treated inappropriately, and treatment of ASB was the most common reason. 10 These results indicate that reducing the treatment of ASB is an appropriate target of antimicrobial stewardship strategies."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 427,
+                    "ref_id": "BIBREF10",
+                    "start": 425,
+                    "text": "11"
+                },
+                {
+                    "end": 589,
+                    "ref_id": "BIBREF11",
+                    "start": 587,
+                    "text": "12"
+                },
+                {
+                    "end": 921,
+                    "ref_id": "BIBREF12",
+                    "start": 919,
+                    "text": "13"
+                },
+                {
+                    "end": 1035,
+                    "ref_id": "BIBREF13",
+                    "start": 1033,
+                    "text": "14"
+                },
+                {
+                    "end": 1449,
+                    "ref_id": "BIBREF14",
+                    "start": 1447,
+                    "text": "15"
+                },
+                {
+                    "end": 1713,
+                    "ref_id": "BIBREF15",
+                    "start": 1711,
+                    "text": "16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "Earlier studies demonstrated that multifaceted interventions can effectively reduce overtreatment of ASB in nursing home residents and patients with urinary catheters. In 2005, a cluster randomised trial in 12 nursing homes in Canada and the USA showed a reduction in antimicrobial use after the multifaceted implementation of a diagnostic and treatment algorithm (1.17 vs 1.59 courses of antimicrobials/1000 resident days). 11 For catheterised patients in the USA, a controlled before-after study in 2015 showed a decrease of urine culture ordering from 41.2 to 23.3 per 1000 bed-days. 12 Furthermore, short educational sessions combined with feedback in two academic tertiary acute care hospitals in Canada, performed in 2015, resulted in a reduction of overtreatment for ASB of 8% (2 of 24 patients) in the intervention group compared with 52% (14 of 29 patients) in the control group (OR 0.1, 95% CI 0.02 to 0.49). 13 In 2018, these findings resulted in the development of an implementation guide to reduce overtreatment of ASB. 14 However, effectiveness studies after the launch of this implementation guide have not yet been performed in emergency departments (EDs). The results of earlier studies suggest that improving ASB management in the ED is necessary. In 2017, a prospective observational study performed in the ED of a tertiary care centre in the USA showed that 27 of 71 (38%) older adults were not correctly diagnosed with a UTI. 15 Furthermore, overtreatment of a suspected (but unconfirmed) UTI was very common in a retrospective study performed in the ED of another tertiary care centre in the USA in 2013, where 63 of 66 (95%) patients were treated while they had a negative urine culture. 16 In this study, our aim was to reduce overtreatment of ASB by 50% by using a multifaceted deimplementation strategy based on the implementation guide described previously."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 123,
+                    "ref_id": "BIBREF16",
+                    "start": 121,
+                    "text": "17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS AND ANALYSIS Study design and setting",
+            "text": "For the development of our study protocol, we used the reporting guidelines for stepped-wedge cluster randomised trials. 17 We will use a repeated measurement stepped-wedge cluster randomised design. The deimplementation strategy will be introduced in the ED of five hospitals (clusters) in the Netherlands (one university and four general teaching hospitals) in six time periods consisting of 1 or 2 months, depending on how many patients will be included in the first month. Therefore, the total study duration is 6-12 months (figure 1). The order in which the participating hospitals will receive the intervention will be randomly determined by an independent data manager. Every cluster will start in control condition, and by the end of the trial, every cluster will have received the intervention. We planned to start our study on 1 May 2020. However, due to the COVID-19 pandemic, the start of our study will be postponed until 1 October 2020."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 520,
+                    "ref_id": "BIBREF17",
+                    "start": 518,
+                    "text": "18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 302,
+                    "ref_id": null,
+                    "start": 293,
+                    "text": "(table 1)"
+                }
+            ],
+            "section": "Patient selection",
+            "text": "We will screen all patients (\u226518 years old) who have urine tests (culture and/or urinalysis) that were obtained during an ED presentation (figure 2). First, we will exclude all patients who have no positive urinalysis or urine culture, that is, if both the urinalysis and culture are negative (table 1) . Further exclusion criteria are patients with a symptomatic UTI (systemic or local symptoms, according to the Center for Disease Control's National Healthcare Safety Network for Urinary Tract Infection) (table 1), 18 active treatment for a UTI on presentation, patients with an alternate site of infection for which they receive antimicrobial treatment, and patients with ASB and risk factors, defined as pregnant women, patients prior to planned invasive urological procedures associated with mucosal trauma (including transurethral surgery of the prostate or bladder, ureteroscopy, including lithotripsy and percutaneous stone surgery) and high-risk neutropenia (defined as absolute neutrophil count<500 cells/ \u00b5L). Patients with altered mental status (AMS) and with possible systemic symptoms of an infection and bacteriuria, since treatment with antimicrobials is then considered appropriate."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 284,
+                    "ref_id": "BIBREF4",
+                    "start": 283,
+                    "text": "5"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 280,
+                    "ref_id": null,
+                    "start": 271,
+                    "text": "(table 1)"
+                }
+            ],
+            "section": "Primary and secondary endpoints",
+            "text": "The primary endpoint is the percentage of patients with ASB without risk factors or another alternative site of infections, who are treated with antimicrobials. We define ASB according to the international guideline provided by the Infectious Diseases Society of America (table 1) . 5 Secondary endpoints are the duration of antimicrobial treatment for ASB, the number of urine cultures and urinalysis (dipsticks and microscopic analysis) per 1000 patients at the ED, the percentage of asymptomatic patients treated for urine cultures that are considered positive in daily practice, a quantitative count of bacteria of \u226510 3 colony-forming units (CFU)/mL and the percentage of patients without symptoms or risk factors treated with antimicrobials for a positive urinalysis without an obtained culture. Explorative analyses will evaluate the total number of urine cultures ordered in the hospital and indications for negative urine cultures during the baseline period."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 1204,
+                    "ref_id": "BIBREF18",
+                    "start": 1202,
+                    "text": "19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection",
+            "text": "The study will collate a list of all urine cultures and urinalyses performed in the ED, including corresponding microbiology laboratory and clinical chemistry data. All relevant patient information, including the presence of other possible infections, of those with positive cultures will be reviewed from medical and nursing records by a research physician to determine if patients have ASB. For patients with ASB, we will collect data on antimicrobial Open access treatment, including antimicrobial prescription and duration of antimicrobial therapy, and the specified bacterial count and pathogen according to the standard operating procedure of the microbiology laboratory. For feasibility reasons, a random sample of a total number of 220 negative urine cultures will be screened by medical record review to evaluate the indication for testing during the baseline period. We will use these data in the further development of an additional local deimplementation strategy based on the assessment of determinants of current practice. Furthermore, we will collect the patient-level variables, including patient characteristics (age, gender and residency in nursing home), Charlson Comorbidity Index, 19 Modified Early Warning Score, 20 chronic urinary catheter use, reason for presentation at the ED and use of antimicrobials for uropathogens in the last 7 days before presentation at the ED. We will also collect the reasons for urine testing documented in the medical record. Data from medical records will be collected in an electronic GCP-compliant database, and we will audit a random sample of 10% to assure the validity of data collection."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 207,
+                    "ref_id": "BIBREF13",
+                    "start": 205,
+                    "text": "14"
+                },
+                {
+                    "end": 210,
+                    "ref_id": null,
+                    "start": 208,
+                    "text": "21"
+                },
+                {
+                    "end": 431,
+                    "ref_id": null,
+                    "start": 426,
+                    "text": "11 22"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 671,
+                    "ref_id": "TABREF0",
+                    "start": 662,
+                    "text": "(table 2)"
+                }
+            ],
+            "section": "Deimplementation strategy",
+            "text": "Our deimplementation strategy is a tailored multifaceted intervention based on a Dutch deimplementation guide and an international implementation guide to reduce overtreatment of ASB in low-risk patients. 14 21 We will use a combination of interventions, such as education, audit and feedback and organisational adjustments, because these strategies have shown to be successful for reducing treatment of ASB in prior studies. 11 22 The deimplementation strategy can be divided into a general part that will be introduced in every hospital by our project group, and additional local strategies introduced by local healthcare workers, focused on the local setting (table 2) ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 579,
+                    "ref_id": "BIBREF22",
+                    "start": 577,
+                    "text": "23"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 608,
+                    "ref_id": null,
+                    "start": 601,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Deimplementation strategy",
+            "text": "For the general strategy, we will start the intervention period by holding one or more educational meetings about overtreatment of ASB for all healthcare workers in the ED. During these educational meetings, we will inform all healthcare workers about the current ASB guidelines and discuss the local barriers and facilitators to reduce its overtreatment. Next to this, the results of the baseline period will be used as competitive feedback report between the participating hospitals. This competitive feedback report will be used to raise awareness among healthcare workers. 23 During this meeting, Table 1 Definitions of positive urinalysis, UTI and ASB"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 22,
+                    "ref_id": "BIBREF31",
+                    "start": 20,
+                    "text": "32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Item Definition",
+            "text": "Positive urinalysis 32 Urinalysis must have one or more of the following results: Dipstick \u25ba Abnormal nitrites. \u25ba Abnormal leucocyte esterase. Microscopic analysis \u25ba >5 leucocytes/high-powered field (or reference ranges according to local standard operating procedures). \u25ba Abnormal amount of bacteria according local operating procedures."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 5,
+                    "ref_id": "BIBREF4",
+                    "start": 4,
+                    "text": "5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Item Definition",
+            "text": "ASB 5 The presence of one or more species of bacteria growing in the urine at specified quantitative counts (\u226510 5 CFU/mL) regardless of the presence of pyuria, without UTI symptoms or signs."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 6,
+                    "ref_id": "BIBREF17",
+                    "start": 4,
+                    "text": "18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Item Definition",
+            "text": "UTI 18 Patient has at least one of the following signs or symptoms: fever (>38\u00b0C),* suprapubic tenderness,* costovertebral angle pain or tenderness,* urinary urgency, urinary frequency or dysuria, \u2020 and patient has a urine culture with no more than two species of organisms identified, at least one of which is a bacterium of \u226510 5 CFU/mL."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Item Definition",
+            "text": "Catheter-associated UTI \u2020 18 A UTI where a urinary catheter was in place for >2 days on the date of event, with day of placement being day 1, and was in place on the date of the event or the day before."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 493,
+                    "ref_id": null,
+                    "start": 489,
+                    "text": "5 24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 370,
+                    "ref_id": "FIGREF2",
+                    "start": 358,
+                    "text": "figure 3A,B)"
+                }
+            ],
+            "section": "Item Definition",
+            "text": "*With no other recognised cause. \u2020A urinary catheter in situ could cause patient complaints of frequency, urgency or dysuria. Therefore, these symptoms cannot be used in patients with catheters. ASB, asymptomatic bacteriuria; CFU, colony-forming unit; UTI, urinary tract infection. Open access we will distribute posters and pocket cards with an algorithm ( figure 3A,B) for appropriate indications for urine cultures and urinalysis, and overtreatment of ASB, based on current guidelines. 5 24 The kick-off meeting will be led by the project coordinator and the local champion. These tools will be available throughout the intervention period and after the intervention period, if necessary. We will send emails with the anonymous feedback report and the algorithm to healthcare workers who were not able to join the meeting. For the additional local part of the strategy, a local champion, one of the leading physicians, will be appointed in each participating hospital and will be responsible for the deimplementation strategy. The local champion will start an asymptomatic bacteriuria quality improvement team (ASB team), which will consist of at least an emergency doctor, infectious disease physician, a resident internal medicine and a nurse from the ED. The ASB team will be motivated to assess barriers and facilitators within their hospital and to start additional interventions based on the local setting. For example, by educating and/or reminding healthcare workers about appropriate urine testing and treatment for ASB, and evaluating and/or adjusting local protocols to reduce inappropriate urine testing and antimicrobial use. Further, the ASB team will collaborate with the antibiotic stewardship teams. During Open access the intervention period, the project coordinator will be in contact with the local champion and/or the ASB-team once every 2 weeks to exchange ideas and experiences based on interim results (ordering patterns of urine culture) and assessment of local facilitators and barriers."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 301,
+                    "ref_id": "BIBREF7",
+                    "start": 300,
+                    "text": "8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Sample size",
+            "text": "We will use a stepped-wedge hospital-randomised design with six time periods and five steps, in which one hospital will switch from control to treatment at each step. Previous studies have shown reduction of inappropriate treatment for ASB of approximately 50% following deimplementation strategies. 8 Therefore, we anticipate that the proportion of patients who received inappropriate antimicrobial treatment for ASB will be reduced by 50% from 0.450 to 0.225 after the deimplementation strategy. Assuming an intrahospital correlation coefficient of 0.10, a total of at least 420 patients (=14 patients\u00d7six time periods\u00d7five hospitals) will achieve 80% power to detect this reduction using the two-sided Wald Z-test with a significance level of 0.05. We used PASS V.15.0.10 to calculate this sample size. During the same time period, we will include additional patients with positive urinalyses."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 237,
+                    "ref_id": "BIBREF24",
+                    "start": 235,
+                    "text": "25"
+                },
+                {
+                    "end": 793,
+                    "ref_id": "BIBREF25",
+                    "start": 791,
+                    "text": "26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis Effect evaluation",
+            "text": "Categorical data were summarised as frequency and percentage, and continuous data as mean (SD) or median (range). We will use fixed effects models to analyse the overall effect of our deimplementation strategy on overtreatment of ASB. 25 To adjust for clustering and temporal trends, we will include the clusters (hospitals) as a categorical predictor and the time in months as a fixed effect in the model. To correct for the level 2 variance, we will multiply the SE estimates by the square root of the design effect (DEFT). We will evaluate the differences between baseline period and intervention period according an intention to treat principle. To adjust for confounders, we will include the main risk factors for overtreatment of ASB (namely, age, acutely AMS and positive urinalysis) 26 in the model. We will use the Akaike's Information Criterion and analysis of variance tables to compare the fitting of the models. We will report the results of the adjusted, unadjusted and intercept models. A two-sided p value of<0.05 was considered significant."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 617,
+                    "ref_id": "BIBREF26",
+                    "start": 615,
+                    "text": "27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Process evaluation",
+            "text": "During the planned regular meetings with members of the local ASB teams to report results and feedback, we will evaluate the introduced interventions. By exchanging thoughts and experiences on the implemented interventions, we will be able to determine what intervention(s) will work best in daily practice. For the process evaluation, we will evaluate the deimplementation strategy adherence and compliance. Therefore, all elements of the deimplementation strategy will be explored in all participating hospitals. We will award the hospitals with feedback points for all elements of the deimplementation strategy. 27 For example, points will be given for the number of persons present at the planned meetings and for every strategy that is implemented."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 1099,
+                    "ref_id": "BIBREF27",
+                    "start": 1097,
+                    "text": "28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Economic evaluation",
+            "text": "We will primarily perform a cost-effectiveness analysis, in which we evaluate the cost effectiveness ratio (CER) (CER=cost of deimplementation/healthcare cost reduction). Our goal was to achieve a reduction in urine culture, urinalysis and antimicrobial prescriptions, and thereby a reduction in costs. The costs of our deimplementation strategy will be divided in non-recurrent studyrelated costs and recurrent de-implementation-related costs. Non-recurrent study-related costs include material costs, developmental costs of the deimplementation strategy and costs of evaluation of the deimplementation. Recurrent costs include the costs to introduce the deimplementation strategy, such as time of the extra meetings of the ASB team and time invested by the local champion. For feasibility reasons, we will use the number of all urine cultures, urinalyses and antimicrobial prescriptions, representing the main cost benefits due to our strategy. The costs for urine cultures, urinalyses and antimicrobials used in the analyses will be based on Dutch guideline on healthcare economic evaluations. 28 The result of the costeffectiveness analysis will be used in a budget impact analysis to assess the financial impact on the hospital's budget to implement and sustain the deimplementation strategy."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ETHICS AND DISSEMINATION",
+            "text": "Ethical approval was obtained on 13 December 2019 from the medical ethics research committee of the Academic Medical Centre (Amsterdam, the Netherlands), with a waiver for informed consent. Local feasibility was obtained by the local institutional review boards of all participating hospitals. This trial is registered at Netherlands Trial Register, trialregister. nl/ trial/ 8242. All relevant results of our study will be disseminated through publications in peer-reviewed journals and presentations at relevant (scientific) conferences. No identifiable patient data will be disseminated."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient and public involvement",
+            "text": "This research will be performed without patient involvement. Patients will not be invited to comment on the study design and will not be consulted to develop patientrelevant outcomes or interpret the results. Patients will not be invited to contribute to the writing or editing of this document for readability or accuracy."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data availability",
+            "text": "Data collected from this study, including deidentified individual participant data, will be made available on publication to investigators whose proposed use of the data has been approved by an independent review committee identified for this purpose. Proposals should be directed to the chief investigator SEG ( SE. geerlings@ Open access amsterdamumc. nl); to gain access, data requestors will need to sign a data access agreement."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "This study protocol describes the design, deimplementation strategy and process evaluation to reduce overtreatment of ASB in the daily practice of emergency medicine. Our deimplementation strategy could prevent the use of unnecessary urine diagnostics and subsequent inappropriate treatment of ASB, improve healthcare quality, lower the increase in antimicrobial resistance and save costs. If proven to be (cost) effective, this study could provide a nationwide strategy to reduce overtreatment of ASB."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 326,
+                    "ref_id": null,
+                    "start": 321,
+                    "text": "29 30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "In our study, we will not evaluate the clinical outcome of our strategy, including potential clinical benefits, such as reduced side effects of antibiotics, since previous studies have already shown that ASB in non-risk patients does not lead to an increased risk of symptomatic UTI and that it is safe to not treat ASB. 29 30 By using a stepped-wedge cluster randomised design, we will be able to compare the outcomes within a cluster between the time intervals in which a cluster received the control and the interventions. Furthermore, our intervention will be enrolled in a systematic manner and eventually will be introduced in all participating hospitals. A novel part of our study compared with previous studies that aimed to reduce overtreatment of ASB is that we will be using local champions in each hospital and adjust the intervention based on the local situation."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 331,
+                    "ref_id": "BIBREF30",
+                    "start": 329,
+                    "text": "31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "A limitation of stepped wedge designs is that this requires larger sample sizes, as patients' characteristics may be similar within one cluster. By randomisation of the start time of the clusters, we intend to balance these important characteristics. However, this cannot be ensured with our relatively small number of clusters. 31 Another possible limitation is that we will not prospectively assess clinical symptoms ourselves and are limited to documentation of symptomatology in patient files. This might overestimate the number of patients with asymptomatic bacteriuria in the baseline and intervention periods. Since this should be similar in the baseline and intervention periods, we do not expect that this will influence our results. Furthermore, we cannot evaluate the impact of an individual intervention. However, we expect that our deimplementation strategy is low cost and well suitable for broad-scale implementation. "
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {
+                    "institution": "Tessa MZXK van Horrik",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Tessa",
+                "last": "Mzxk Van Horrik",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Tessa MZXK van Horrik",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Suzanne",
+                "last": "Geerlings",
+                "middle": [
+                    "E"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Tessa MZXK van Horrik",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Janneke",
+                "last": "Stalenhoef",
+                "middle": [
+                    "E"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Tessa MZXK van Horrik",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Cees",
+                "last": "Van Nieuwkoop",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Tessa MZXK van Horrik",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Joppe",
+                "last": "Saanen",
+                "middle": [
+                    "B"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Tessa MZXK van Horrik",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Caroline",
+                "last": "Schneeberger",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Tessa MZXK van Horrik",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Bart",
+                "last": "Laan",
+                "middle": [
+                    "J"
+                ],
+                "suffix": ""
+            }
+        ],
+        "title": "Deimplementation strategy to reduce overtreatment of asymptomatic bacteriuria: a study protocol for a stepped-wedge cluster randomised trial"
+    },
+    "paper_id": "27a5c3d6975c41d3b354bd3f1f425218a4271be0",
     "ref_entries": {
         "FIGREF0": {
-            "text": "Stepped wedge design for deimplementation strategy.",
             "latex": null,
+            "text": "Stepped wedge design for deimplementation strategy.",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "Study profile. *Risk factors are pregnancy, patients prior to planned urological procedures associated with mucosal trauma and high-risk neutropenia. ASB, asymptomatic bacteriuria; UTI, urinary tract infection.",
             "latex": null,
+            "text": "Study profile. *Risk factors are pregnancy, patients prior to planned urological procedures associated with mucosal trauma and high-risk neutropenia. ASB, asymptomatic bacteriuria; UTI, urinary tract infection.",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "A) Algorithm of indications for urinalysis and cultures in symptomatic patients. (B) Algorithm of indications for urinalysis and cultures in asymptomatic patients. *Fever (>38\u00b0C), painful urination, urinary urgency, frequent miction, suprapubic pain, flank pain. SWAB, Stichting Werkgroep Antibiotica Beleid (the Dutch Working Party on antibiotic policy); UTI, urinary tract infection.",
             "latex": null,
+            "text": "A) Algorithm of indications for urinalysis and cultures in symptomatic patients. (B) Algorithm of indications for urinalysis and cultures in asymptomatic patients. *Fever (>38\u00b0C), painful urination, urinary urgency, frequent miction, suprapubic pain, flank pain. SWAB, Stichting Werkgroep Antibiotica Beleid (the Dutch Working Party on antibiotic policy); UTI, urinary tract infection.",
             "type": "figure"
         },
         "FIGREF3": {
-            "text": ", Infectious Diseases, OLVG Locatie Oost, Amsterdam, Noord-Holland, The Netherlands 3 Internal Medicine, Infectious Diseases, HagaZiekenhuis, Den Haag, Zuid-Holland, The Netherlands 4 Emergency Medicine, Amsterdam UMC, Locatie AMC, Amsterdam, North Holland, The Netherlands 5 Medical Microbiology, Amsterdam UMC, Locatie AMC, Amsterdam, North Holland, The Netherlands",
             "latex": null,
+            "text": ", Infectious Diseases, OLVG Locatie Oost, Amsterdam, Noord-Holland, The Netherlands 3 Internal Medicine, Infectious Diseases, HagaZiekenhuis, Den Haag, Zuid-Holland, The Netherlands 4 Emergency Medicine, Amsterdam UMC, Locatie AMC, Amsterdam, North Holland, The Netherlands 5 Medical Microbiology, Amsterdam UMC, Locatie AMC, Amsterdam, North Holland, The Netherlands",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "Summary of the deimplementation strategy",
             "latex": null,
+            "text": "Summary of the deimplementation strategy",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "Acknowledgements We thank Vanessa C Harris (physician, Infectious Diseases, Internal Medicine, Amsterdam UMC, University of Amsterdam, Netherlands), for proofreading and spell checking the manuscript.Contributors BJL and SEG were involved in the conception of the study and coordinated the funding application. TMZXKvH, SEG and BJL drafted the manuscript. BJL outlined the statistical analysis with support of the Clinical Research Unit of the Academic Medical Centre (Amsterdam, the Netherlands). JES, CvN, JBS, and CS revised the manuscript critically for important intellectual content. All authors read and approved the final version of the manuscript.Funding This study is supported by the Netherlands Organisation for Health Research and Development (ZonMw) grant number 839 205 002.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "acknowledgement"
-        },
-        {
-            "text": "Competing interests None declared.Patient and public involvement Patients and/or the public were not involved in the design, conduct, reporting or dissemination plans of this research.Patient consent for publication Not required.Provenance and peer review Not commissioned; externally peer reviewed.Open access This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: https:// creativecommons. org/ licenses/ by/ 4. 0/.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "annex"
-        },
-        {
-            "text": "Tessa MZXK van Horrik http:// orcid. org/ 0000-0002-3496-2203 Bart J Laan http:// orcid. org/ 0000-0002-2357-8871",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "ORCID iDs"
-        }
-    ]
+    }
 }

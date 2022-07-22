@@ -1,1 +1,1884 @@
-{"paper_id": "2772b05abe0e7e0db8a4e63dfe7cebbfd041f6e6", "metadata": {"title": "Comparison of Epidemiological Variations in COVID-19 Patients Inside and Outside of China-A Meta", "authors": [{"first": "Zisis", "middle": [], "last": "Kozlakidis", "suffix": "", "affiliation": {}, "email": ""}, {"first": "Muhammad", "middle": [], "last": "Adeel", "suffix": "", "affiliation": {}, "email": ""}, {"first": "Ali", "middle": [], "last": "Ahmed", "suffix": "", "affiliation": {"laboratory": "", "institution": "University of Massachusetts Lowell", "location": {"settlement": "Lowell", "region": "MA", "country": "United States"}}, "email": "ali_ahmed@uml.edu"}, {"first": "Areeba", "middle": [], "last": "Ali", "suffix": "", "affiliation": {"laboratory": "", "institution": "Government College University Lahore", "location": {"settlement": "Lahore", "country": "Pakistan"}}, "email": ""}, {"first": "Sana", "middle": [], "last": "Hasan", "suffix": "", "affiliation": {"laboratory": "", "institution": "The University of Lahore", "location": {"settlement": "Lahore", "country": "Pakistan, China, Italy, Australia, Canada, Korea, Taiwan, Singapore"}}, "email": ""}]}, "abstract": [{"text": "and the USA, comprising a total of 13 studies and performed a meta-analysis for age, gender, fatality rate, and clinical symptoms of fever, cough, shortness of breath, and diarrhea. The meta-analysis shows that there are differences in symptoms and other characteristics reported by the patients of COVID-19 inside and outside China. Patients in China have a higher proportion of fever, cough, and shortness of breath as compared to patients outside of China. However, we found the opposite results for the gastrointestinal symptoms such as Diarrhea. Patients outside of China have a significantly higher proportion of Diarrhea as compared to patients within China. We also observed gender disparity among our studies, with the male population being more susceptible than the female population. Moreover, the analysis suggests that the fatality rate in China is relatively lower as compared to the fatality rate in other countries. These findings also suggest that the clinical symptoms of COVID-19 should not be generalized to fever, shortness of breath, and cough only but other symptoms such as diarrhea are also prevalent in patients with COVID-19.", "cite_spans": [], "ref_spans": [], "section": "Abstract"}], "body_text": [{"text": "The 2019 outbreak of the novel COVID-19 pandemic created challenges for the scientific community and the healthcare professionals (1) . In the beginning of December 2019, the novel Coronavirus COVID-19 was first reported in China's Wuhan City (2, 3) . There were reports of clusters of cases with unknown kinds of pneumonia with affiliation to the Huanan Animal wholesale food market (4) . Within few days, the Chinese Health Authority announced this disease to be caused by a novel Corona Virus named 2019-nCoV (5) which has 70% similarity to the human-derived Severe Acute Respiratory Syndrome like coronavirus (SARS-CoV) and 88% similarity to the bat derived SARS-CoV (4, 6) . As of March 22nd, 2020, the virus has spread to more than 187 countries and the total number of infected people are 294,110. The number of deaths caused by the virus as of March 22, 2020, is 12,944 (5) .", "cite_spans": [{"start": 130, "end": 133, "text": "(1)", "ref_id": "BIBREF0"}, {"start": 243, "end": 246, "text": "(2,", "ref_id": "BIBREF1"}, {"start": 247, "end": 249, "text": "3)", "ref_id": "BIBREF2"}, {"start": 384, "end": 387, "text": "(4)", "ref_id": "BIBREF3"}, {"start": 512, "end": 515, "text": "(5)", "ref_id": "BIBREF4"}, {"start": 671, "end": 674, "text": "(4,", "ref_id": "BIBREF3"}, {"start": 675, "end": 677, "text": "6)", "ref_id": "BIBREF5"}, {"start": 852, "end": 881, "text": "March 22, 2020, is 12,944 (5)", "ref_id": null}], "ref_spans": [], "section": "INTRODUCTION"}, {"text": "The initial research conducted on the novel-COVID19 virus was aimed to better understand the epidemiological characteristics of the affected population (3, (7) (8) (9) (10) . The scarcity of first-hand patient's dataset, limited information, and the ever-evolving situation created hurdles in analyzing COVID-19 patient's health characteristics. Moreover, some of the initial observational studies on the epidemiological characteristics of the patients reported mixed results (10) . For instance, Sun et al. (11) found that gastrointestinal symptoms, such as diarrhea, are common among patients with COVID-19. However, early studies conducted by researchers in China didn't include digestive problems as the major health symptoms for COVID-19 (2, 9) . Therefore, in this study, we have conducted a meta-analysis of the observational research studies which were published in the first 3 months after the outbreak of COVID-19. We have analyzed the studies which have documented the epidemiological characteristics of patients infected by the COVID-19 virus, such as the patient's age, gender, major symptoms, and the fatality rate. The previously conducted meta-analysis have been geographically restricted to China and used a relatively smaller data set. According to the best of our knowledge, this metaanalysis is the first study that analyzes heterogeneity in COVID-19 patient's characteristics by comparing studies conducted in China and seven other countries. Therefore, this meta-analysis presents a timely synthesis of currently available observational studies on COVID-19.", "cite_spans": [{"start": 152, "end": 155, "text": "(3,", "ref_id": "BIBREF2"}, {"start": 156, "end": 159, "text": "(7)", "ref_id": "BIBREF6"}, {"start": 160, "end": 163, "text": "(8)", "ref_id": "BIBREF7"}, {"start": 164, "end": 167, "text": "(9)", "ref_id": "BIBREF8"}, {"start": 168, "end": 172, "text": "(10)", "ref_id": "BIBREF9"}, {"start": 476, "end": 480, "text": "(10)", "ref_id": "BIBREF9"}, {"start": 508, "end": 512, "text": "(11)", "ref_id": "BIBREF10"}, {"start": 743, "end": 746, "text": "(2,", "ref_id": "BIBREF1"}, {"start": 747, "end": 749, "text": "9)", "ref_id": "BIBREF8"}], "ref_spans": [], "section": "INTRODUCTION"}, {"text": "At the time of writing this article, March 2020, there were already three meta-analyses related to the clinical symptoms of COVID-19. Yang et al. (12) showed the prevalence of comorbidities in COVID-19 infected patients based on eight studies from China. They also assessed that comorbidities such as hypertension, diabetes, cardiovascular diseases, and respiratory system diseases are a risk factor for severe patients as compared to non-severe patients. Rodriguez-Morales et al. (10) included 19 studies in his meta-analysis. They compared the clinical symptoms of COVID-19 including fever, cough, sore throat, myalgia, headache, diarrhea, and dyspnea. They also assessed the prevalence of comorbidities in COVID-19 confirmed cases. They included 18 studies from China and only 1 from Australia. While Li et al. (13) did a meta-analysis based on 10 studies from Chinse hospitals. They also compared the clinical characteristics of COVID-19 patients including their age, fatality rate, and discharge rate. Therefore, our meta-analysis is different because we are presenting a comparison of the epidemiological characteristics of patients inside and outside of China.", "cite_spans": [{"start": 146, "end": 150, "text": "(12)", "ref_id": "BIBREF11"}, {"start": 481, "end": 485, "text": "(10)", "ref_id": "BIBREF9"}, {"start": 814, "end": 818, "text": "(13)", "ref_id": "BIBREF12"}], "ref_spans": [], "section": "INTRODUCTION"}, {"text": "Our work is similar and close to the work of Badawi and Ryoo (14) , they performed a similar type of meta-analysis for MERS-CoV (Middle Eastern Respiratory Syndrome-Coronavirus). In their study, they analyzed the symptoms of patients and compared the prevalence of comorbidities in MERS-CoV studies from different countries. His findings were that chronic diseases such as cardiac diseases, obesity, hypertension, and diabetes had a high prevalence in MERS-CoV patients (14) .", "cite_spans": [{"start": 45, "end": 65, "text": "Badawi and Ryoo (14)", "ref_id": null}, {"start": 470, "end": 474, "text": "(14)", "ref_id": "BIBREF13"}], "ref_spans": [], "section": "INTRODUCTION"}, {"text": "Our meta-analysis of 13 studies not only confirms the findings of the previous meta-analysis on COVID-19 but also brings new insight for healthcare professionals and researchers. Our findings confirm that there are more men reported to be infected by the virus as compared to women and the age range for most patients is between 45 and 60 years regardless of inside or outside China. We also confirm the findings of the previous meta-analyses that most patients had one or more reported comorbidities. However, the three most commonly reported symptoms, fever, cough, and shortness of breath are not reported in a similar proportion inside and outside China. Fever was much less likely reported in the patients outside China. We found similar results for Cough and Shortness of Breath. We also found that Diarrhea was a commonly reported symptom in patients outside China.", "cite_spans": [], "ref_spans": [], "section": "INTRODUCTION"}, {"text": "The rest of the paper is organized in the following sections; in the next section, we have detailed our article selection methodology and search strategy. In section Detailed Analysis of Each Included Study, we have described each of the selected studies in detail. In Section Results, we presented the results by developing Forest Plot to compare studies inside and outside China. In the last section, we have presented a discussion on our results and concluded the meta-analysis.", "cite_spans": [], "ref_spans": [], "section": "INTRODUCTION"}, {"text": "To make our search comprehensive, we started our search from the World Health Organization database, which has combined research papers on the COVID-19, SARS, MERS, and related diseases (15) . There were a total of 2,247 papers that were on the topic of coronavirus COVID-19 till March 20th, 2020. We also searched for observational studies on Google Scholar, PubMed, and ScienceDirect on COVID-19 which were published after December 2019. After combining the papers from both sources, we identified a total of 2,251 research studies. We selected only those studies, which are observational and discussed epidemiological characteristics of patients, we also use the keyword search for \"symptoms, \" \"patient features, \" \"mortality, \" and \"epidemiological characteristics.\" These keywords filtering shortlisted our database to 90 articles. In these articles, most of the papers obtained the data from Wuhan China. We further shortlisted our search by selecting: the earliest data of COVID-19 in Wuhan, the latest data of Wuhan, data of different provinces of China, and COVID-19 data from different countries of the world. This brought down our data to 20 papers. During our search, we also encountered studies which were only conducted on the same patients, or specific types of patients, such as pregnant women, patients with gastrointestinal problems, or children having COVID-19. Since we are looking for studies with the general population so, these studies do not fit in our selection criteria and they may make our results biased. Therefore, our final selection of studies included 6 studies conducted in China and 7 studies from other countries of the world. The flow chart of the selection process is shown in Figure 1 .", "cite_spans": [{"start": 186, "end": 190, "text": "(15)", "ref_id": "BIBREF14"}], "ref_spans": [{"start": 1717, "end": 1725, "text": "Figure 1", "ref_id": "FIGREF0"}], "section": "Information Sources and Search Strategy"}, {"text": "Data extraction and the evaluation of the quality of research was conducted independently by two investigators (Areeba Ali and Ali Ahmed). Microsoft Excel was used to store all the available information, including the total number of patients, gender percentage, median age, clinical symptoms, and fatality rate from each study. Any disagreement on inclusion or exclusion of the study was resolved by consulting with another investigator (Sana Hasan). The final sample included COVID-19 observational studies from China, Taiwan, Singapore, Canada, USA, Australia, Italy, and South Korea, as shown in Table 1 .", "cite_spans": [], "ref_spans": [{"start": 600, "end": 607, "text": "Table 1", "ref_id": "TABREF0"}], "section": "Data Extraction and Study Analysis"}, {"text": "The data collected from all the 13 studies which include age range, median age, sex ratio, and fatality rate are shown in Table 2 , while the detailed clinical symptoms are shown in Appendix- Table A1 . In the following sub-sections, we have provided a detailed summary of each of the studies included in our paper. The dataset used in the study was from the patients who were admitted to the hospital between December 16th, 2019 to January 2nd, 2020 in Wuhan, Hubei province, China. They found some patients had underlying diseases, diabetes, cardiovascular disease, and hypertension. They also reported that all 41 patients had exposure to the Huanan seafood market, where this virus was originated first. Common symptoms reported by the authors were fever (98%), cough (76%), and fatigue (44%). The less common symptoms were sputum production (28%), headache (28%), hemoptysis (5%), and diarrhea (3%). It also included Radiological reports and blood reports from the patients and comparison of reports of ICU and Non-ICU. Study 2 conducted by Li et al. (9) , included the first 425 confirmed cases till January 22nd, 2020 in the Wuhan, Hubei (17) , analyzed the demographical, epidemiological, clinical, laboratory, radiological, and treatment data. The results of critical and non-critical patients were compared. The report showed the median age was 56 years with the range being 42-68 years old. It reported three common symptoms like fever, fatigue, and dry cough. The mortality rate reported was 4.3%.", "cite_spans": [{"start": 1056, "end": 1059, "text": "(9)", "ref_id": "BIBREF8"}, {"start": 1145, "end": 1149, "text": "(17)", "ref_id": "BIBREF16"}], "ref_spans": [{"start": 122, "end": 129, "text": "Table 2", "ref_id": "TABREF1"}, {"start": 192, "end": 200, "text": "Table A1", "ref_id": "TABREF0"}], "section": "DETAILED ANALYSIS OF EACH INCLUDED STUDY"}, {"text": "Study 4 by Chen et al. (18) , reported 99 cases from Wuhan Jinyintan Hospital from January 1st to January 20th, 2020. They reported that 49% of patients had exposure to the Huanan seafood market. Fifty-one percentage of patients were reported to have chronic diseases. The most common symptoms reported were fever, cough, shortness of breath, myalgia, confusion, headache, sore throat, nasal congestion, diarrhea, and nausea or vomiting. The report showed an 11% fatality rate.", "cite_spans": [{"start": 23, "end": 27, "text": "(18)", "ref_id": "BIBREF17"}], "ref_spans": [], "section": "Studies From China"}, {"text": "Study 5 by Guan et al. (2) , analyzed data of 1,099 laboratoryconfirmed cases from 552 hospitals in 30 provinces through January 29, 2020. They reported the median age of patients was 47 years and 58.1% were reported to be male patients. The most common symptoms reported were fever in 88.7% patients, cough in 67.8%, and diarrhea in 3.8% patients. The research also concluded that there were not many abnormal radiological findings in patients. The fatality rate of patients was 1.4%. Study 6 conducted by Wu et al. (19) , included the 80 confirmed cases of Jiangsu province in China from January 22nd to February 14th, 2020. The median age of patients was 46 years. The research shows that 47.5% of cases had chronic diseases. The main symptoms of patients included fever in 78.75%, cough in 63.75%, shortness of breath in 37.50%, 22.50% had myalgia and 16.25% had a headache. The research showed the abnormalities in radiological reports was 68.75% and there were no deaths.", "cite_spans": [{"start": 23, "end": 26, "text": "(2)", "ref_id": "BIBREF1"}, {"start": 517, "end": 521, "text": "(19)", "ref_id": "BIBREF18"}], "ref_spans": [], "section": "Studies From China"}, {"text": "Frontiers in Public Health | www.frontiersin.org", "cite_spans": [], "ref_spans": [], "section": "Studies From China"}, {"text": "Kong et al. (20) study reported the statistics till February 14th, 2020 that 28 confirmed patients are reported from the Korea Center of Disease and Control. The study mentions the sex, agerange, and common symptoms of all the patients along with the identification of route of transmission and incubation period. The research shows that there were 53.6% of men with a range of patients in age 20-73 years old. Kong et al. (20) , also reported that 35.7% of patients had chronic diseases. The most common symptoms reported were fever, headache, cough, sore throat, sputum production, fatigue, and chills.", "cite_spans": [{"start": 12, "end": 16, "text": "(20)", "ref_id": "BIBREF19"}, {"start": 411, "end": 427, "text": "Kong et al. (20)", "ref_id": null}], "ref_spans": [], "section": "A Study From South Korea"}, {"text": "Young et al. (21) reported 18 confirmed cases of COVID-19 infection. The patients were diagnosed using real-time RT-PCR at 4 hospitals in Singapore from January 23rd to February 3rd, 2020 and the final follow up was on February 25th, 2020. The study analyzed the clinical, laboratory, and radiological data. It has summarized the use of supplemental oxygen, ICU, and the use of empirical treatment with lopinavir-ritonavir. The research shows the median age to be 47 years with 50% male patients. The study also shows that the virus was detected in the stool of 50% patients and the blood of 8% patients by PCR but not in urine. The 4% of patients treated with lopinavir-ritonavir developed abnormal functioning and nausea, vomiting along with diarrhea. The most common symptoms reported were fever, cough, shortness of breath, Rhinorrhea, sore throat, and diarrhea. There were no reported deaths in this study. The complete breakdown of percentages for each symptom is given in Appendix Table A1 .", "cite_spans": [{"start": 13, "end": 17, "text": "(21)", "ref_id": "BIBREF20"}], "ref_spans": [{"start": 988, "end": 996, "text": "Table A1", "ref_id": "TABREF0"}], "section": "A Study From Singapore"}, {"text": "We got the report from the National Incident Room Surveillance Team from Australia of March 7th, 2020 which included all the clinical symptoms, sex, and median age of 71 affected patients (22) . It included data on COVID-19 cases diagnosed in Australia, the international situation and the review of the current evidence. The report shows that 14% of confirmed cases were the passengers of the Diamond Princess cruise ship, 23% of patients had a direct or indirect link to the Islamic Republic of Iran and 23% had a direct or indirect link to the mainland China and 21% had no recent travel history. The median age of reported cases was 45 years with a range from 0 to 94 years old. The most common symptoms recorded among the patients were 65% fever, 29% nasal congestion, 35% headache, 71% cough, 50% sore throat, 18% fatigue, 6% nausea, and 26% diarrhea. The report shows the fatality rate of 2.8%.", "cite_spans": [{"start": 188, "end": 192, "text": "(22)", "ref_id": "BIBREF21"}], "ref_spans": [], "section": "A Study From Australia"}, {"text": "Lin et al. (23) , reported on March 6th, 2020 the confirmed 135 cases from Ontario Canada. This report included the clinical symptoms, age-range, demographic characteristics, laboratory results, radiographical results, and the median age of affected individuals from January 20th to February 19th, 2020 at 8 hospitals in the Greater Toronto Area. The median age was 28 years. The most common symptoms were: 82% cough, 48% fever, 30% sore throat, 10% diarrhea, and 17% fatigue. There were no deaths reported.", "cite_spans": [{"start": 11, "end": 15, "text": "(23)", "ref_id": "BIBREF23"}], "ref_spans": [], "section": "A Study From Canada"}, {"text": "Su and Lai (24) , reported the data of 10 confirmed cases till January 31st, 2020, and compared that data to SARS in terms of symptoms, epidemiology, and laboratory characteristics The research shows that there were 30% of males. The most common symptoms included cough in 60%, fever in 50%, flu symptoms in 40%, rhinorrhea in 30%, myalgia in 10%, and shortness of breath in 10% patients. The research concluded that COVID-19 patients are 20 years older than SARS patients and young adults are more susceptible to SARS than elders and children.", "cite_spans": [{"start": 11, "end": 15, "text": "(24)", "ref_id": "BIBREF24"}], "ref_spans": [], "section": "A Study From Taiwan"}, {"text": "The report from Lombardy Italy had the statistics until March 15th, 2020 stating 22,512 patients, their age range, and sex (25) . The report does not include data for the clinical symptoms of the patients. The report also included 2026 cases of COVID-19 among health care workers. The report shows the median age of 64 years with 59.8% of patients being male. The report represents a graph for severity where 24.9% of patients are reported to be severe, 46.1% mild and 5% to be critical patients with 6.7% having few symptoms, 6.7% being asymptomatic, and 10.6 having unspecified symptoms. It also reported 1,625 deaths with a 7.2% fatality rate.", "cite_spans": [{"start": 123, "end": 127, "text": "(25)", "ref_id": "BIBREF25"}], "ref_spans": [], "section": "A Study From Italy"}, {"text": "A Study From the USA Arentz et al. (26) , reported only about 21 patients of Washington, USA. The report included the clinical symptoms, age-range, median age, and radiological data of all the patients from February 20th, 2020 to March 5th, 2020, at Evergreen Hospital Washington. The report shows 52% of male patients and 86% of the total patients had chronic diseases. The most common symptoms reported in the research shows 52% fever, 76% shortness of breath, and 48% cough. Ninety-five percentage of the patients showed abnormal radiological reports. The report also showed a high rate of ARDS and a high risk of Death. The fatality rate was 52.4%. The detailed data from each of the studies is given in Table A1 in the Appendix of this paper.", "cite_spans": [{"start": 35, "end": 39, "text": "(26)", "ref_id": "BIBREF26"}], "ref_spans": [{"start": 708, "end": 716, "text": "Table A1", "ref_id": "TABREF0"}], "section": "A Study From Italy"}, {"text": "The meta-analysis of proportions of age, gender, fatality rate, and major clinical symptoms of COVID-19 was done using STATA-16 Software (27), licensed to be used by the corresponding author at the University of Massachusetts Lowell, USA. A random-effect model was used since it was assumed that the symptoms of COVID-19 vary across the populations. The random effect model is a common model that is used to synthesize heterogeneous observations. It is simply the weighted average of the effect sizes of a group of studies which suggests that greater the variability in effect sizes (heterogeneity), the greater the un-weighting until all the studies have equal weight (28) . The presence of heterogeneity among the identified studies (Cochran's Q) and the extent of heterogeneity (I 2 index) were also examined. Along with the overall heterogeneity in studies, we analyzed heterogeneity in the sub-group for studies conducted in China and outside of China for each of the characteristics. The Forest Plots for all the analyses are listed in Figure 2 . The left column shows the overall results of the studies while the right column shows the comparison inside and outside of China.", "cite_spans": [{"start": 669, "end": 673, "text": "(28)", "ref_id": "BIBREF28"}], "ref_spans": [{"start": 1042, "end": 1050, "text": "Figure 2", "ref_id": "FIGREF2"}], "section": "RESULTS"}, {"text": "The median age range is 28-70 in the 13 selected studies. Most of the population lies between the age group 45-60 years. The average median age is 47 \u00b1 7 years. The meta-analysis of gender in the selected studies shows that there are a higher number of male cases compared to female cases (Figure 2A) . The null hypothesis that all studies have reported an equal proportion of male cases is rejected. The meta-analysis also shows that there is a significant difference in gender proportions, for studies conducting inside and outside of China ( Figure 2B) . Moreover, there is a high variation in gender for studies conducted in China as compared to the studies conducted outside of China (Singapore, Taiwan, USA, South Korea, Canada, Australia, and Italy).", "cite_spans": [], "ref_spans": [{"start": 289, "end": 300, "text": "(Figure 2A)", "ref_id": "FIGREF2"}, {"start": 545, "end": 555, "text": "Figure 2B)", "ref_id": "FIGREF2"}], "section": "RESULTS"}, {"text": "The four symptoms of COVID-19 analyzed in this metaanalysis are fever, cough, shortness of breath, and diarrhea (Figure 2) . We have found fever to be the most common symptom in the studies, with 71% (CI: 59-83%) cases reporting fever as a symptom of COVID-19 ( Figure 2C) . Further, we also found that studies conducted inside of China reported a higher percentage of people with fever (61%) as compared to studies conducted outside of China (51%) as shown in Figure 2D . Cough and shortness of breath are also very commonly reported symptoms in studies. The overall reporting of cough symptoms is 65% with 95% Cl is 54-76% ( Figure 2E ). For shortness of breath, we have observed very different proportions of cases reported inside and outside of China. The overall proportion for shortness of breath inside China is 33% while the proportion for shortness of breath outside China is 57% (Figures 2I,J) .", "cite_spans": [], "ref_spans": [{"start": 112, "end": 122, "text": "(Figure 2)", "ref_id": "FIGREF2"}, {"start": 262, "end": 272, "text": "Figure 2C)", "ref_id": "FIGREF2"}, {"start": 461, "end": 470, "text": "Figure 2D", "ref_id": "FIGREF2"}, {"start": 627, "end": 636, "text": "Figure 2E", "ref_id": "FIGREF2"}, {"start": 889, "end": 903, "text": "(Figures 2I,J)", "ref_id": "FIGREF2"}], "section": "RESULTS"}, {"text": "Similarly, we observed contradicting results for the symptoms of diarrhea in COVID-19 cases inside and outside China. The overall proportion of patients reporting Diarrhea as a symptom in China is 4% (CI: 1-7%), while the proportion of patients reporting Diarrhea as a symptom outside China was 17% (CI: 6-28%) (Figures 2G,H) .", "cite_spans": [], "ref_spans": [{"start": 311, "end": 325, "text": "(Figures 2G,H)", "ref_id": "FIGREF2"}], "section": "RESULTS"}, {"text": "The fatality rate also shows significant differences in cases reported inside and outside China. The fatality rate for inside China is 6% while, the fatality rate for outside China is 19% (Figures 2K,L) . The highest fatality rate outside of China was reported by Arentz et al. (26) , in the USA.", "cite_spans": [{"start": 278, "end": 282, "text": "(26)", "ref_id": "BIBREF26"}], "ref_spans": [{"start": 188, "end": 202, "text": "(Figures 2K,L)", "ref_id": "FIGREF2"}], "section": "RESULTS"}, {"text": "The understanding of the epidemiological characteristics of COVID-19 patients is an important research question. The researchers and medical professionals have tried to evaluate the data of patients to identify the most common symptoms which can be used as a yardstick in ruling out the disease while the patient is admitted to a hospital (7) . The few most common symptoms which were previously reported in observational studies are fever, cough, sore throat, diarrhea, shortness of breath, and nasal congestion (11) . In this study, we have analyzed the patient characteristics including, gender, age, fatality rate, and symptoms of fever, cough, shortness of breath and diarrhea in COVID-19 patients. Our findings suggest that the most commonly reported age group for COVID-19 is 45-60 years. A meta-analysis conducted by Yang et al. (12) , suggest that age and comorbidities are highly related in COVID-19 patients. We also found that the male population has a higher proportion in all the studies as shown in Figure 2A , suggesting a higher prevalence of the disease in the male population. The previous meta-analysis has found similar results while studying the gender in COVID-19 (10, 13) .", "cite_spans": [{"start": 339, "end": 342, "text": "(7)", "ref_id": "BIBREF6"}, {"start": 513, "end": 517, "text": "(11)", "ref_id": "BIBREF10"}, {"start": 837, "end": 841, "text": "(12)", "ref_id": "BIBREF11"}, {"start": 1187, "end": 1191, "text": "(10,", "ref_id": "BIBREF9"}, {"start": 1192, "end": 1195, "text": "13)", "ref_id": "BIBREF12"}], "ref_spans": [{"start": 1014, "end": 1023, "text": "Figure 2A", "ref_id": "FIGREF2"}], "section": "DISCUSSION AND CONCLUSION"}, {"text": "The comparison of studies conducted in China and outside China suggest contrasting and interesting results. Patients in China have a higher proportion of fever, cough, and shortness of breath as compared to patients outside China. However, we found the opposite results for the symptoms of Diarrhea. Patients outside China have a significantly higher proportion of symptoms of Diarrhea as shown in Figure 2H . This can be due to different environmental and social conditions of patients and further investigation can lead to important findings. Our analysis of shortness of breath shows that there wasn't much variation in reporting in all the studies except for Canada and the USA. Both countries have reported the highest shortness of breath. Further investigation can be done on reasons for the high proportion of shortness of breath reported by the patients of COVID-19 outside China. The fatality rate in China is significantly lower as compared to other countries. The highest fatality rate was found in the study conducted in the USA, with a fatality rate of 52% among 21 patients. Our findings also suggest that the fatality rate may increase as the virus spread in countries outside China, which also depends on the health facilities in different counties.", "cite_spans": [], "ref_spans": [{"start": 398, "end": 407, "text": "Figure 2H", "ref_id": "FIGREF2"}], "section": "DISCUSSION AND CONCLUSION"}, {"text": "The COVID-19 patients' symptoms, fatality rate, and epidemiological characteristics is an open question for the research community, as more data becomes available, more concrete and stable findings can be uncovered. Also, the clinical symptoms of COVID-19 should not be generalized to fever, shortness of breath and cough only, but other symptoms such as diarrhea are also shown to be prevalent in patients with COVID-19. Our study is the first paper that has conducted a metaanalysis of patient's characteristics comparing observational studies conducted inside and outside China. The findings from this study can help medical and public health professionals as well as the public to better understand the symptoms associated with the COVID-19.", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION AND CONCLUSION"}, {"text": "All datasets presented in this study are included in the article.", "cite_spans": [], "ref_spans": [], "section": "DATA AVAILABILITY STATEMENT"}, {"text": "All authors equally contributed to the study.", "cite_spans": [], "ref_spans": [], "section": "AUTHOR CONTRIBUTIONS"}], "bib_entries": {"BIBREF0": {"ref_id": "b0", "title": "Pneumonia in China: lack of information raises concerns among Hong Kong health workers", "authors": [{"first": "J", "middle": [], "last": "Parr", "suffix": ""}], "year": 2020, "venue": "BMJ", "volume": "368", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1136/bmj.m56"]}}, "BIBREF1": {"ref_id": "b1", "title": "Clinical characteristics of coronavirus disease 2019 in China", "authors": [{"first": "W", "middle": [], "last": "Guan", "suffix": ""}, {"first": "Z", "middle": [], "last": "Ni", "suffix": ""}, {"first": "Y", "middle": [], "last": "Hu", "suffix": ""}, {"first": "W", "middle": [], "last": "Liang", "suffix": ""}, {"first": "C", "middle": [], "last": "Ou", "suffix": ""}, {"first": "J", "middle": [], "last": "He", "suffix": ""}], "year": 2020, "venue": "N Engl J Med", "volume": "382", "issn": "", "pages": "1708--1728", "other_ids": {"DOI": ["10.1056/NEJMoa2002032"]}}, "BIBREF2": {"ref_id": "b2", "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan", "authors": [{"first": "C", "middle": [], "last": "Huang", "suffix": ""}, {"first": "Y", "middle": [], "last": "Wang", "suffix": ""}, {"first": "X", "middle": [], "last": "Li", "suffix": ""}, {"first": "L", "middle": [], "last": "Ren", "suffix": ""}, {"first": "J", "middle": [], "last": "Zhao", "suffix": ""}, {"first": "Y", "middle": [], "last": "Hu", "suffix": ""}], "year": 2020, "venue": "China. Lancet", "volume": "395", "issn": "", "pages": "497--506", "other_ids": {"DOI": ["10.1016/S0140-6736(20)30183-5"]}}, "BIBREF3": {"ref_id": "b3", "title": "The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health -the latest 2019 novel coronavirus outbreak in Wuhan, China", "authors": [{"first": "D", "middle": ["S"], "last": "Hui", "suffix": ""}, {"first": "E", "middle": ["I"], "last": "Azhar", "suffix": ""}, {"first": "T", "middle": ["A"], "last": "Madani", "suffix": ""}, {"first": "F", "middle": [], "last": "Ntoumi", "suffix": ""}, {"first": "R", "middle": [], "last": "Kock", "suffix": ""}, {"first": "O", "middle": [], "last": "Dar", "suffix": ""}], "year": 2020, "venue": "Int J Infect Dis", "volume": "91", "issn": "", "pages": "264--270", "other_ids": {"DOI": ["10.1016/j.ijid.2020.01.009"]}}, "BIBREF4": {"ref_id": "b4", "title": "World Health Organization (WHO)", "authors": [], "year": 2020, "venue": "Geneva: WHO", "volume": "", "issn": "", "pages": "", "other_ids": {}}, "BIBREF5": {"ref_id": "b5", "title": "Association of SARS susceptibility with single nucleic acid polymorphisms of OASI and MxA genes: a case-control study", "authors": [{"first": "J", "middle": [], "last": "He", "suffix": ""}, {"first": "D", "middle": [], "last": "Feng", "suffix": ""}, {"first": "S", "middle": ["J"], "last": "De Vlas", "suffix": ""}, {"first": "H", "middle": [], "last": "Wang", "suffix": ""}, {"first": "A", "middle": [], "last": "Fontanet", "suffix": ""}, {"first": "P", "middle": [], "last": "Zhang", "suffix": ""}], "year": 2006, "venue": "BMC Infect Dis", "volume": "6", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1186/1471-2334-6-106"]}}, "BIBREF6": {"ref_id": "b6", "title": "Featuring COVID-19 cases via screening symptomatic patients with epidemiologic link during flu season in a medical center of central Taiwan", "authors": [{"first": "W-H", "middle": [], "last": "Hsih", "suffix": ""}, {"first": "M-Y", "middle": [], "last": "Cheng", "suffix": ""}, {"first": "M-W", "middle": [], "last": "Ho", "suffix": ""}, {"first": "C-H", "middle": [], "last": "Chou", "suffix": ""}, {"first": "P-C", "middle": [], "last": "Lin", "suffix": ""}, {"first": "Chi", "middle": [], "last": "", "suffix": ""}, {"first": "C-Y", "middle": [], "last": "", "suffix": ""}], "year": null, "venue": "J Microbiol Immunol Infect", "volume": "", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1016/j.jmii.2020.03.008"]}}, "BIBREF7": {"ref_id": "b7", "title": "Novel visual and statistical image features for microblogs news verification", "authors": [{"first": "Z", "middle": [], "last": "Jin", "suffix": ""}, {"first": "J", "middle": [], "last": "Cao", "suffix": ""}, {"first": "Y", "middle": [], "last": "Zhang", "suffix": ""}, {"first": "J", "middle": [], "last": "Zhou", "suffix": ""}, {"first": "Q", "middle": [], "last": "Tian", "suffix": ""}], "year": 2017, "venue": "IEEE Trans Multimedia", "volume": "19", "issn": "", "pages": "598--608", "other_ids": {"DOI": ["10.1109/TMM.2016.2617078"]}}, "BIBREF8": {"ref_id": "b8", "title": "Early transmission dynamics in Wuhan, China, of Novel coronavirus-infected pneumonia", "authors": [{"first": "Q", "middle": [], "last": "Li", "suffix": ""}, {"first": "X", "middle": [], "last": "Guan", "suffix": ""}, {"first": "P", "middle": [], "last": "Wu", "suffix": ""}, {"first": "X", "middle": [], "last": "Wang", "suffix": ""}, {"first": "L", "middle": [], "last": "Zhou", "suffix": ""}, {"first": "Y", "middle": [], "last": "Tong", "suffix": ""}], "year": 2020, "venue": "N Engl J Med", "volume": "382", "issn": "", "pages": "1--9", "other_ids": {"DOI": ["10.1056/NEJMoa2001316"]}}, "BIBREF9": {"ref_id": "b9", "title": "Clinical, laboratory and imaging features of COVID-19 : a systematic review and meta-analysis", "authors": [{"first": "A", "middle": ["J"], "last": "Rodriguez-Morales", "suffix": ""}, {"first": "J", "middle": ["A"], "last": "Cardona-Ospina", "suffix": ""}, {"first": "E", "middle": [], "last": "Guti\u00e9rrez-Ocampo", "suffix": ""}, {"first": "Y", "middle": [], "last": "Holguinrivera", "suffix": ""}, {"first": "J", "middle": ["P"], "last": "Escalera-Antezana", "suffix": ""}, {"first": "Alvarado-Arnez", "middle": [], "last": "Le", "suffix": ""}], "year": 2020, "venue": "", "volume": "33", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1016/j.tmaid.2020.101623"]}}, "BIBREF10": {"ref_id": "b10", "title": "Clinical characteristics of COVID-19 patients with digestive symptoms in Hubei, China: a descriptive, cross-sectional, multicenter study", "authors": [{"first": "L", "middle": [], "last": "Pan", "suffix": ""}, {"first": "M", "middle": [], "last": "Mu", "suffix": ""}, {"first": "P", "middle": [], "last": "Yang", "suffix": ""}, {"first": "Y", "middle": [], "last": "Sun", "suffix": ""}, {"first": "R", "middle": [], "last": "Wang", "suffix": ""}, {"first": "J", "middle": [], "last": "Yan", "suffix": ""}], "year": 2020, "venue": "Am J Gastroenterol", "volume": "115", "issn": "", "pages": "766--73", "other_ids": {"DOI": ["10.14309/ajg.0000000000000620"]}}, "BIBREF11": {"ref_id": "b11", "title": "Prevalence of comorbidities in the novel Wuhan coronavirus (COVID-19) infection: a systematic review and meta-analysis", "authors": [{"first": "J", "middle": [], "last": "Yang", "suffix": ""}, {"first": "Y", "middle": [], "last": "Zheng", "suffix": ""}, {"first": "X", "middle": [], "last": "Gou", "suffix": ""}, {"first": "K", "middle": [], "last": "Pu", "suffix": ""}, {"first": "Z", "middle": [], "last": "Chen", "suffix": ""}, {"first": "Q", "middle": [], "last": "Guo", "suffix": ""}], "year": 2020, "venue": "Int J Infect Dis", "volume": "94", "issn": "", "pages": "91--96", "other_ids": {"DOI": ["10.1016/j.ijid.2020.03.017"]}}, "BIBREF12": {"ref_id": "b12", "title": "novel coronavirus patients' clinical characteristics, discharge rate and fatality rate of meta-analysis", "authors": [{"first": "L-Q", "middle": [], "last": "Li", "suffix": ""}, {"first": "T", "middle": [], "last": "Huang", "suffix": ""}, {"first": "Y-Q", "middle": [], "last": "Wang", "suffix": ""}, {"first": "Z-P", "middle": [], "last": "Wang", "suffix": ""}, {"first": "Y", "middle": [], "last": "Liang", "suffix": ""}, {"first": "T-B", "middle": [], "last": "Huang", "suffix": ""}], "year": 2019, "venue": "J Med Virol", "volume": "92", "issn": "", "pages": "577--83", "other_ids": {"DOI": ["10.1002/jmv.25757"]}}, "BIBREF13": {"ref_id": "b13", "title": "Prevalence of comorbidities in the Middle East respiratory syndrome coronavirus (MERS-CoV): a systematic review and meta-analysis", "authors": [{"first": "A", "middle": [], "last": "Badawi", "suffix": ""}, {"first": "S", "middle": ["G"], "last": "Ryoo", "suffix": ""}], "year": 2016, "venue": "Int J Infect Dis", "volume": "49", "issn": "", "pages": "129--162", "other_ids": {"DOI": ["10.1016/j.ijid.2016.06.015"]}}, "BIBREF14": {"ref_id": "b14", "title": "Availabe online at", "authors": [], "year": 2020, "venue": "WHO. Global Research on Coronavirus Disease", "volume": "", "issn": "", "pages": "", "other_ids": {}}, "BIBREF15": {"ref_id": "b15", "title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement", "authors": [{"first": "D", "middle": [], "last": "Moher", "suffix": ""}, {"first": "A", "middle": [], "last": "Liberati", "suffix": ""}, {"first": "J", "middle": [], "last": "Tetzlaff", "suffix": ""}, {"first": "D", "middle": ["G"], "last": "Altman", "suffix": ""}, {"first": "Prisma", "middle": [], "last": "The", "suffix": ""}, {"first": "", "middle": [], "last": "Group", "suffix": ""}], "year": 2009, "venue": "PLoS Med", "volume": "6", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1371/journal.pmed1000097"]}}, "BIBREF16": {"ref_id": "b16", "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan", "authors": [{"first": "D", "middle": [], "last": "Wang", "suffix": ""}, {"first": "B", "middle": [], "last": "Hu", "suffix": ""}, {"first": "C", "middle": [], "last": "Hu", "suffix": ""}, {"first": "F", "middle": [], "last": "Zhu", "suffix": ""}, {"first": "X", "middle": [], "last": "Liu", "suffix": ""}, {"first": "J", "middle": [], "last": "Zhang", "suffix": ""}], "year": 2020, "venue": "China. JAMA", "volume": "323", "issn": "", "pages": "1061--1070", "other_ids": {"DOI": ["10.1001/jama.2020.1585"]}}, "BIBREF17": {"ref_id": "b17", "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study", "authors": [{"first": "N", "middle": [], "last": "Chen", "suffix": ""}, {"first": "M", "middle": [], "last": "Zhou", "suffix": ""}, {"first": "X", "middle": [], "last": "Dong", "suffix": ""}, {"first": "J", "middle": [], "last": "Qu", "suffix": ""}, {"first": "F", "middle": [], "last": "Gong", "suffix": ""}, {"first": "Y", "middle": [], "last": "Han", "suffix": ""}], "year": 2020, "venue": "Lancet", "volume": "395", "issn": "", "pages": "507--520", "other_ids": {"DOI": ["10.1016/S0140-6736(20)30211-7"]}}, "BIBREF18": {"ref_id": "b18", "title": "Clinical characteristics of imported cases of COVID-19 in Jiangsu province: a multicenter descriptive study", "authors": [{"first": "J", "middle": [], "last": "Wu", "suffix": ""}, {"first": "J", "middle": [], "last": "Liu", "suffix": ""}, {"first": "X", "middle": [], "last": "Zhao", "suffix": ""}, {"first": "C", "middle": [], "last": "Liu", "suffix": ""}, {"first": "W", "middle": [], "last": "Wang", "suffix": ""}, {"first": "D", "middle": [], "last": "Wang", "suffix": ""}], "year": 2020, "venue": "Clin Infect Dis", "volume": "", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1093/cid/ciaa199"]}}, "BIBREF19": {"ref_id": "b19", "title": "Early epidemiological and clinical characteristics of 28 cases of coronavirus disease in South Korea", "authors": [{"first": "I", "middle": [], "last": "Kong", "suffix": ""}, {"first": "Y", "middle": [], "last": "Park", "suffix": ""}, {"first": "Y", "middle": [], "last": "Woo", "suffix": ""}, {"first": "J", "middle": [], "last": "Lee", "suffix": ""}, {"first": "J", "middle": [], "last": "Cha", "suffix": ""}, {"first": "J", "middle": [], "last": "Choi", "suffix": ""}], "year": 2020, "venue": "Osong Public Health Res Perspect", "volume": "11", "issn": "", "pages": "8--14", "other_ids": {}}, "BIBREF20": {"ref_id": "b20", "title": "Epidemiologic features and clinical course of patients infected with SARS-CoV-2 in Singapore", "authors": [{"first": "B", "middle": ["E"], "last": "Young", "suffix": ""}, {"first": "Swx", "middle": [], "last": "Ong", "suffix": ""}, {"first": "S", "middle": [], "last": "Kalimuddin", "suffix": ""}, {"first": "J", "middle": ["G"], "last": "Low", "suffix": ""}, {"first": "S", "middle": ["Y"], "last": "Tan", "suffix": ""}, {"first": "J", "middle": [], "last": "Loh", "suffix": ""}], "year": 2020, "venue": "JAMA", "volume": "", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1001/jama.2020.3204"]}}, "BIBREF21": {"ref_id": "b21", "title": "COVID-19 National Incident Room Surveillance T. COVID-19", "authors": [], "year": null, "venue": "", "volume": "6", "issn": "", "pages": "", "other_ids": {}}, "BIBREF23": {"ref_id": "b23", "title": "What can early Canadian experience screening for COVID-19 teach us about how to prepare for a pandemic?", "authors": [{"first": "M", "middle": [], "last": "Lin", "suffix": ""}, {"first": "A", "middle": [], "last": "Beliavsky", "suffix": ""}, {"first": "K", "middle": [], "last": "Katz", "suffix": ""}, {"first": "J", "middle": ["E"], "last": "Powis", "suffix": ""}, {"first": "W", "middle": [], "last": "Ng", "suffix": ""}, {"first": "V", "middle": [], "last": "Williams", "suffix": ""}], "year": 2020, "venue": "Can Med Assoc J", "volume": "192", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1503/cmaj.200305"]}}, "BIBREF24": {"ref_id": "b24", "title": "Comparison of clinical characteristics of coronavirus disease (COVID-19) and severe acute respiratory syndrome (SARS) as experienced in Taiwan", "authors": [{"first": "Y-J", "middle": [], "last": "Su", "suffix": ""}, {"first": "Y-C", "middle": [], "last": "Lai", "suffix": ""}], "year": null, "venue": "Travel Med Infect Dis", "volume": "", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1016/j.tmaid.2020.101625"]}}, "BIBREF25": {"ref_id": "b25", "title": "Coronavirus disease 2019 (COVID-19) in Italy", "authors": [{"first": "E", "middle": [], "last": "Livingston", "suffix": ""}, {"first": "K", "middle": [], "last": "Bucher", "suffix": ""}], "year": 2020, "venue": "JAMA", "volume": "323", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1001/jama.2020.4344"]}}, "BIBREF26": {"ref_id": "b26", "title": "Characteristics and outcomes of 21 critically Ill patients with COVID-19 in Washington State", "authors": [{"first": "M", "middle": [], "last": "Arentz", "suffix": ""}, {"first": "E", "middle": [], "last": "Yim", "suffix": ""}, {"first": "L", "middle": [], "last": "Klaff", "suffix": ""}, {"first": "S", "middle": [], "last": "Lokhandwala", "suffix": ""}, {"first": "F", "middle": ["X"], "last": "Riedo", "suffix": ""}, {"first": "M", "middle": [], "last": "Chong", "suffix": ""}], "year": 2020, "venue": "JAMA", "volume": "323", "issn": "", "pages": "1612--1626", "other_ids": {"DOI": ["10.1001/jama.2020.4326"]}}, "BIBREF27": {"ref_id": "b27", "title": "StataCorp. Stata Statistical Software: Release. College Station, TX: StataCorp LLC", "authors": [], "year": 2019, "venue": "", "volume": "", "issn": "", "pages": "", "other_ids": {}}, "BIBREF28": {"ref_id": "b28", "title": "Trying to be precise about vagueness", "authors": [{"first": "S", "middle": [], "last": "Senn", "suffix": ""}], "year": 2007, "venue": "Stat Med", "volume": "26", "issn": "", "pages": "", "other_ids": {"DOI": ["10.1002/sim.2639"]}}}, "ref_entries": {"FIGREF0": {"text": "Systematic literature review process the flow sheet diagram represents the systematic review of literature for the characteristics of clinical symptoms(16).", "latex": null, "type": "figure"}, "FIGREF1": {"text": "1 was conducted by Huang et al. (3), reported 41 laboratory-confirmed COVID-19 infection cases.", "latex": null, "type": "figure"}, "FIGREF2": {"text": "Meta-analysis forest plot overall and comparison of inside and outside of China. (A) Forest Plot by using a random-effects model for Gender (Male). (B) Comparison of Gender (Male) inside and outside of China. (C) Forest Plot by using a random-effects model for fever symptoms. (D) Comparison of Fever inside and outside of China. (E) Forest Plot by using a random-effect model for cough symptoms. (F) Comparison of cough inside and outside of China. (G) Forest Plot using Random effect model shown for Diarrhea of 8 studies. (H) Comparison of inside and outside of China for Diarrhea. (I) Forest Plot using Random effect model shown for 8 studies for Shortness of breath. (J) Comparison of inside and outside of China for Shortness of breath. (K) Forest Plot using Random Effect model for Fatality rate in 7 studies. (L) Comparison of inside and outside of China for a fatality rate.", "latex": null, "type": "figure"}, "TABREF0": {"text": "Studies Included in the meta-analysis.", "latex": null, "type": "table", "html": "<html><body><table><tr><td>Study ID </td><td>References </td><td>Date of publication </td><td>City, Country </td><td>Number of patients\n</td></tr><tr><td>STUDIES INSIDE CHINA\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Study 1 </td><td>Huang et al. (3) </td><td>1/24/2020 </td><td>Wuhan, China </td><td>41\n</td></tr><tr><td>Study 2 </td><td>Li et al. (9) </td><td>1/29/2020 </td><td>Wuhan China </td><td>425\n</td></tr><tr><td>Study 3 </td><td>Wang et al. (17) </td><td>2/7/2020 </td><td>Wuhan, China </td><td>138\n</td></tr><tr><td>Study 4 </td><td>Chen et al. (18) </td><td>2/15/2020 </td><td>Wuhan, China </td><td>99\n</td></tr><tr><td>Study 5 </td><td>Guan et al. (2) </td><td>2/20/2020 </td><td>Mainland China </td><td>1,099\n</td></tr><tr><td>Study 6 </td><td>Wu et al. (19) </td><td>2/29/2020 </td><td>Jiangsu, China </td><td>80\n</td></tr><tr><td>Sub-total </td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>1,882\n</td></tr><tr><td>STUDIES OUTSIDE CHINA\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Study 1 </td><td>Kong et al. (20) </td><td>2/21/2020 </td><td>South Korea </td><td>28\n</td></tr><tr><td>Study 2 </td><td>Young et al. (21) </td><td>3/3/2020 </td><td>Singapore </td><td>18\n</td></tr><tr><td>Study 3 </td><td>COVID-19 National Incident Room Surveillance (22) </td><td>3/5/2020 </td><td>Australia </td><td>71\n</td></tr><tr><td>Study 4 </td><td>Lin et al. (23) </td><td>3/6/2020 </td><td>Toronto, Canada </td><td>135\n</td></tr><tr><td>Study 5 </td><td>Su and Lai (24) </td><td>3/14/2020 </td><td>Taiwan </td><td>10\n</td></tr><tr><td>Study 6 </td><td>Livingston and Bucher (25) </td><td>3/17/2020 </td><td>Lombardy, Italy </td><td>22,512\n</td></tr><tr><td>Study 7 </td><td>Arentz et al. (26) </td><td>3/19/2020 </td><td>Washington, USA </td><td>21\n</td></tr></table></body></html>"}, "TABREF1": {"text": "Age, gender and fatality rate. confirmed patients at Zhongnam Hospital of Wuhan University in Wuhan China from January 1 to January 28, 2020. Wang et al.", "latex": null, "type": "table"}, "TABREF2": {"text": "TABLE 2 |", "latex": null, "type": "table", "html": "<html><body><table><tr><td>Age, gender and fatality rate.\n</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>References </td><td>Age range </td><td>Median age </td><td>Sex male (%)\n</td><td>Fatality rate(%)\n</td></tr><tr><td>Huang et al. (3) </td><td>41-58 </td><td>49 </td><td>30 (73%) </td><td>6 (15%)\n</td></tr><tr><td>Li et al. (9) </td><td>26-82 </td><td>56 </td><td>281 (66%) </td><td>-\n</td></tr><tr><td>Wang et al. (17) </td><td>42-68 </td><td>56 </td><td>75 (54%) </td><td>6 (4%)\n</td></tr><tr><td>Chen et al. (18) </td><td>21-82 </td><td>56 </td><td>67 (68%) </td><td>11 (11%)\n</td></tr><tr><td>Guan et al. (2) </td><td>35-58 </td><td>47 </td><td>637 (58%) </td><td>15 (1%)\n</td></tr><tr><td>Kong et al. (20) </td><td>20-73 </td><td>42.6 </td><td>15 (54%) </td><td>0 (0%)\n</td></tr><tr><td>Wu et al. (19) </td><td>30-62 </td><td>46.1 </td><td>38 (48%) </td><td>0 (0%)\n</td></tr><tr><td>Young et al. (21) </td><td>31-73 </td><td>47 </td><td>9 (50%) </td><td>0 (0%)\n</td></tr><tr><td>COVID-19\n</td><td>0-94 </td><td>45 </td><td>- </td><td>2 (3%)\n</td></tr><tr><td>National Incident\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Room Surveillance\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>(22)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Lin et al. (23) </td><td>23-49 </td><td>28 </td><td>59 (44%) </td><td>0 (0%)\n</td></tr><tr><td>Su and Lai (24) </td><td>- </td><td>49 </td><td>3 (30%) </td><td>0 (0%)\n</td></tr><tr><td>0-90 </td><td>50 </td><td>13,282 (59%) </td><td>1,625(7.2%)\n</td></tr><tr><td>Livingston and Bucher (25)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Arentz et al. (26) </td><td>43-92 </td><td>70 </td><td>11 (52%) </td><td>11 (52%)\n</td></tr><tr><td>Average \u00b1 SE. </td><td>- </td><td>47 \u00b1 7 </td><td>- </td><td>0.07 \u00b1 0.14\n</td></tr></table></body></html>"}, "TABREF3": {"text": "TABLE A1 | Clinical symptoms.", "latex": null, "type": "table", "html": "<html><body><table><tr><td>References </td><td>Fever </td><td>Cough </td><td>Shortness of breath\n</td><td>Sore throat </td><td>Diarrhea </td><td>Nasal congestion\n</td><td>Headache </td><td>Sputum production\n</td><td>Fatigue/ myalgia\n</td><td>Nausea or vomiting\n</td><td>Other symptoms\n</td></tr><tr><td>Huang et al.\n</td><td>40 (98%) </td><td>31 (76%) </td><td>23 (55%) </td><td>- </td><td>1 (3%) </td><td>- </td><td>3 (8%) </td><td>11 (28%) </td><td>18 (44%) </td><td>\u00a0</td><td>2 (5%)\n</td></tr><tr><td>(3)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Li et al. (9) </td><td>281 (66%) </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>238 (56%)\n</td></tr><tr><td>Wang et al.\n</td><td>136 (98%) </td><td>82 (82%) </td><td>43 (31%) </td><td>- </td><td>14 (10%) </td><td>0(0%) </td><td>9 (7%) </td><td>37 (27%) </td><td>96 (70%) </td><td>10 (10%) </td><td>53 (39%)\n</td></tr><tr><td>(17)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Chen et al.\n</td><td>82 (83%) </td><td>81 (82%) </td><td>31 (31%) </td><td>5 (5%) </td><td>2 (2%) </td><td>5 (5%) </td><td>8 (8%) </td><td>- </td><td>11 (11%) </td><td>11 (1%)\n</td><td>\u00a0</td></tr><tr><td>(18)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Guan et al. (2) </td><td>975 (88%) </td><td>745 (68%) </td><td>206 (19%) </td><td>153 (14%) </td><td>43 (4%) </td><td>- </td><td>149 (14%) </td><td>363 (34%) </td><td>418 (38%) </td><td>1 (5%) </td><td>299 (27%)\n</td></tr><tr><td>Kong et al.\n</td><td>9 (32%) </td><td>5 (18%) </td><td>- </td><td>9 (32%) </td><td>- </td><td>- </td><td>3 (11%) </td><td>5 (18%) </td><td>4 (14%) </td><td>- </td><td>5 (18%)\n</td></tr><tr><td>(20)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Wu et al. (19) </td><td>63 (78 %) </td><td>51 (64%) </td><td>30 (38%) </td><td>- </td><td>0 (0%) </td><td>5 (6%) </td><td>13 (16%) </td><td>- </td><td>18 (23%) </td><td>- </td><td>-\n</td></tr><tr><td>Young et al.\n</td><td>13 (72%) </td><td>15 (83%) </td><td>2 (11%) </td><td>11 (61%) </td><td>3(17%) </td><td>5 (29%) </td><td>- </td><td>- </td><td>- </td><td>- </td><td>-\n</td></tr><tr><td>(21)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>COVID-19\n</td><td>46 (65%) </td><td>50 (71%) </td><td>- </td><td>36 (50%) </td><td>18 (26%) </td><td>- </td><td>25 (35%) </td><td>- </td><td>13 (18%) </td><td>4 (6%) </td><td>-\n</td></tr><tr><td>National\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Incident\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Room\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Surveillance\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>(22)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Lin et al. (23) </td><td>65 (48%) </td><td>111 (82%) </td><td>111 (82%) </td><td>41 (30%) </td><td>14 (10%) </td><td>41 (30%) </td><td>- </td><td>- </td><td>23 (17%) </td><td>-\n</td><td>\u00a0</td></tr><tr><td>Su and Lai\n</td><td>5 (50%) </td><td>6 (60%) </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>4 (40%) </td><td>1 (10%) </td><td>- </td><td>-\n</td></tr><tr><td>(24)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Livingston and Bucher\n</td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>-\n</td></tr><tr><td>(25)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Arentz et al.\n</td><td>11 (52%) </td><td>10 (48%) </td><td>16 (76%) </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>-\n</td></tr></table></body></html>"}}, "back_matter": [{"text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.Copyright \u00a9 2020 Ahmed, Ali and Hasan. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms. ", "cite_spans": [], "ref_spans": [], "section": "Conflict of Interest:"}]}
+{
+    "abstract": [
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "and the USA, comprising a total of 13 studies and performed a meta-analysis for age, gender, fatality rate, and clinical symptoms of fever, cough, shortness of breath, and diarrhea. The meta-analysis shows that there are differences in symptoms and other characteristics reported by the patients of COVID-19 inside and outside China. Patients in China have a higher proportion of fever, cough, and shortness of breath as compared to patients outside of China. However, we found the opposite results for the gastrointestinal symptoms such as Diarrhea. Patients outside of China have a significantly higher proportion of Diarrhea as compared to patients within China. We also observed gender disparity among our studies, with the male population being more susceptible than the female population. Moreover, the analysis suggests that the fatality rate in China is relatively lower as compared to the fatality rate in other countries. These findings also suggest that the clinical symptoms of COVID-19 should not be generalized to fever, shortness of breath, and cough only but other symptoms such as diarrhea are also prevalent in patients with COVID-19."
+        }
+    ],
+    "back_matter": [
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest:",
+            "text": "The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.Copyright \u00a9 2020 Ahmed, Ali and Hasan. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms. "
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Parr",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.m56"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b0",
+            "title": "Pneumonia in China: lack of information raises concerns among Hong Kong health workers",
+            "venue": "BMJ",
+            "volume": "368",
+            "year": 2020
+        },
+        "BIBREF1": {
+            "authors": [
+                {
+                    "first": "W",
+                    "last": "Guan",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "last": "Ni",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Hu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "last": "Liang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Ou",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "He",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2002032"
+                ]
+            },
+            "pages": "1708--1728",
+            "ref_id": "b1",
+            "title": "Clinical characteristics of coronavirus disease 2019 in China",
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "year": 2020
+        },
+        "BIBREF10": {
+            "authors": [
+                {
+                    "first": "L",
+                    "last": "Pan",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Mu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Yang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Sun",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Yan",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.14309/ajg.0000000000000620"
+                ]
+            },
+            "pages": "766--73",
+            "ref_id": "b10",
+            "title": "Clinical characteristics of COVID-19 patients with digestive symptoms in Hubei, China: a descriptive, cross-sectional, multicenter study",
+            "venue": "Am J Gastroenterol",
+            "volume": "115",
+            "year": 2020
+        },
+        "BIBREF11": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Yang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Zheng",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Gou",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Pu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "last": "Chen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "last": "Guo",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.03.017"
+                ]
+            },
+            "pages": "91--96",
+            "ref_id": "b11",
+            "title": "Prevalence of comorbidities in the novel Wuhan coronavirus (COVID-19) infection: a systematic review and meta-analysis",
+            "venue": "Int J Infect Dis",
+            "volume": "94",
+            "year": 2020
+        },
+        "BIBREF12": {
+            "authors": [
+                {
+                    "first": "L-Q",
+                    "last": "Li",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Huang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-Q",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-P",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Liang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "T-B",
+                    "last": "Huang",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25757"
+                ]
+            },
+            "pages": "577--83",
+            "ref_id": "b12",
+            "title": "novel coronavirus patients' clinical characteristics, discharge rate and fatality rate of meta-analysis",
+            "venue": "J Med Virol",
+            "volume": "92",
+            "year": 2019
+        },
+        "BIBREF13": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Badawi",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Ryoo",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2016.06.015"
+                ]
+            },
+            "pages": "129--162",
+            "ref_id": "b13",
+            "title": "Prevalence of comorbidities in the Middle East respiratory syndrome coronavirus (MERS-CoV): a systematic review and meta-analysis",
+            "venue": "Int J Infect Dis",
+            "volume": "49",
+            "year": 2016
+        },
+        "BIBREF14": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b14",
+            "title": "Availabe online at",
+            "venue": "WHO. Global Research on Coronavirus Disease",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF15": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Moher",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Liberati",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Tetzlaff",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Altman",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "Prisma",
+                    "last": "The",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "last": "Group",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed1000097"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b15",
+            "title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement",
+            "venue": "PLoS Med",
+            "volume": "6",
+            "year": 2009
+        },
+        "BIBREF16": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Hu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Hu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Zhu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Liu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Zhang",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.1585"
+                ]
+            },
+            "pages": "1061--1070",
+            "ref_id": "b16",
+            "title": "Clinical characteristics of 138 hospitalized patients with 2019 novel coronavirus-infected pneumonia in Wuhan",
+            "venue": "China. JAMA",
+            "volume": "323",
+            "year": 2020
+        },
+        "BIBREF17": {
+            "authors": [
+                {
+                    "first": "N",
+                    "last": "Chen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Zhou",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Dong",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Qu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Gong",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Han",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30211-7"
+                ]
+            },
+            "pages": "507--520",
+            "ref_id": "b17",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "venue": "Lancet",
+            "volume": "395",
+            "year": 2020
+        },
+        "BIBREF18": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Wu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Liu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Zhao",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Liu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa199"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b18",
+            "title": "Clinical characteristics of imported cases of COVID-19 in Jiangsu province: a multicenter descriptive study",
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF19": {
+            "authors": [
+                {
+                    "first": "I",
+                    "last": "Kong",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Park",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Woo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Lee",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Cha",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Choi",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "8--14",
+            "ref_id": "b19",
+            "title": "Early epidemiological and clinical characteristics of 28 cases of coronavirus disease in South Korea",
+            "venue": "Osong Public Health Res Perspect",
+            "volume": "11",
+            "year": 2020
+        },
+        "BIBREF2": {
+            "authors": [
+                {
+                    "first": "C",
+                    "last": "Huang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Li",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Ren",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Zhao",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Hu",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30183-5"
+                ]
+            },
+            "pages": "497--506",
+            "ref_id": "b2",
+            "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan",
+            "venue": "China. Lancet",
+            "volume": "395",
+            "year": 2020
+        },
+        "BIBREF20": {
+            "authors": [
+                {
+                    "first": "B",
+                    "last": "Young",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "Swx",
+                    "last": "Ong",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Kalimuddin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Low",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Tan",
+                    "middle": [
+                        "Y"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Loh",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.3204"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b20",
+            "title": "Epidemiologic features and clinical course of patients infected with SARS-CoV-2 in Singapore",
+            "venue": "JAMA",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF21": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b21",
+            "title": "COVID-19 National Incident Room Surveillance T. COVID-19",
+            "venue": "",
+            "volume": "6",
+            "year": null
+        },
+        "BIBREF23": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Lin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Beliavsky",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Katz",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Powis",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "last": "Ng",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "last": "Williams",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1503/cmaj.200305"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b23",
+            "title": "What can early Canadian experience screening for COVID-19 teach us about how to prepare for a pandemic?",
+            "venue": "Can Med Assoc J",
+            "volume": "192",
+            "year": 2020
+        },
+        "BIBREF24": {
+            "authors": [
+                {
+                    "first": "Y-J",
+                    "last": "Su",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-C",
+                    "last": "Lai",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tmaid.2020.101625"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b24",
+            "title": "Comparison of clinical characteristics of coronavirus disease (COVID-19) and severe acute respiratory syndrome (SARS) as experienced in Taiwan",
+            "venue": "Travel Med Infect Dis",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF25": {
+            "authors": [
+                {
+                    "first": "E",
+                    "last": "Livingston",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Bucher",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.4344"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b25",
+            "title": "Coronavirus disease 2019 (COVID-19) in Italy",
+            "venue": "JAMA",
+            "volume": "323",
+            "year": 2020
+        },
+        "BIBREF26": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Arentz",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Yim",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Klaff",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Lokhandwala",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Riedo",
+                    "middle": [
+                        "X"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Chong",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.4326"
+                ]
+            },
+            "pages": "1612--1626",
+            "ref_id": "b26",
+            "title": "Characteristics and outcomes of 21 critically Ill patients with COVID-19 in Washington State",
+            "venue": "JAMA",
+            "volume": "323",
+            "year": 2020
+        },
+        "BIBREF27": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b27",
+            "title": "StataCorp. Stata Statistical Software: Release. College Station, TX: StataCorp LLC",
+            "venue": "",
+            "volume": "",
+            "year": 2019
+        },
+        "BIBREF28": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Senn",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/sim.2639"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b28",
+            "title": "Trying to be precise about vagueness",
+            "venue": "Stat Med",
+            "volume": "26",
+            "year": 2007
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Hui",
+                    "middle": [
+                        "S"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Azhar",
+                    "middle": [
+                        "I"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Madani",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Ntoumi",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Kock",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "last": "Dar",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.01.009"
+                ]
+            },
+            "pages": "264--270",
+            "ref_id": "b3",
+            "title": "The continuing 2019-nCoV epidemic threat of novel coronaviruses to global health -the latest 2019 novel coronavirus outbreak in Wuhan, China",
+            "venue": "Int J Infect Dis",
+            "volume": "91",
+            "year": 2020
+        },
+        "BIBREF4": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b4",
+            "title": "World Health Organization (WHO)",
+            "venue": "Geneva: WHO",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "He",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Feng",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "De Vlas",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Fontanet",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Zhang",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2334-6-106"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b5",
+            "title": "Association of SARS susceptibility with single nucleic acid polymorphisms of OASI and MxA genes: a case-control study",
+            "venue": "BMC Infect Dis",
+            "volume": "6",
+            "year": 2006
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "W-H",
+                    "last": "Hsih",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M-Y",
+                    "last": "Cheng",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M-W",
+                    "last": "Ho",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C-H",
+                    "last": "Chou",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P-C",
+                    "last": "Lin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Chi",
+                    "last": "",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C-Y",
+                    "last": "",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jmii.2020.03.008"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b6",
+            "title": "Featuring COVID-19 cases via screening symptomatic patients with epidemiologic link during flu season in a medical center of central Taiwan",
+            "venue": "J Microbiol Immunol Infect",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "Z",
+                    "last": "Jin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Cao",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Zhang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Zhou",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "last": "Tian",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1109/TMM.2016.2617078"
+                ]
+            },
+            "pages": "598--608",
+            "ref_id": "b7",
+            "title": "Novel visual and statistical image features for microblogs news verification",
+            "venue": "IEEE Trans Multimedia",
+            "volume": "19",
+            "year": 2017
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "Q",
+                    "last": "Li",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Guan",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Wu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Zhou",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Tong",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001316"
+                ]
+            },
+            "pages": "1--9",
+            "ref_id": "b8",
+            "title": "Early transmission dynamics in Wuhan, China, of Novel coronavirus-infected pneumonia",
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "year": 2020
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Rodriguez-Morales",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Cardona-Ospina",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Guti\u00e9rrez-Ocampo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Holguinrivera",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Escalera-Antezana",
+                    "middle": [
+                        "P"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "Alvarado-Arnez",
+                    "last": "Le",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tmaid.2020.101623"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b9",
+            "title": "Clinical, laboratory and imaging features of COVID-19 : a systematic review and meta-analysis",
+            "venue": "",
+            "volume": "33",
+            "year": 2020
+        }
+    },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 133,
+                    "ref_id": "BIBREF0",
+                    "start": 130,
+                    "text": "(1)"
+                },
+                {
+                    "end": 246,
+                    "ref_id": "BIBREF1",
+                    "start": 243,
+                    "text": "(2,"
+                },
+                {
+                    "end": 249,
+                    "ref_id": "BIBREF2",
+                    "start": 247,
+                    "text": "3)"
+                },
+                {
+                    "end": 387,
+                    "ref_id": "BIBREF3",
+                    "start": 384,
+                    "text": "(4)"
+                },
+                {
+                    "end": 515,
+                    "ref_id": "BIBREF4",
+                    "start": 512,
+                    "text": "(5)"
+                },
+                {
+                    "end": 674,
+                    "ref_id": "BIBREF3",
+                    "start": 671,
+                    "text": "(4,"
+                },
+                {
+                    "end": 677,
+                    "ref_id": "BIBREF5",
+                    "start": 675,
+                    "text": "6)"
+                },
+                {
+                    "end": 881,
+                    "ref_id": null,
+                    "start": 852,
+                    "text": "March 22, 2020, is 12,944 (5)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "The 2019 outbreak of the novel COVID-19 pandemic created challenges for the scientific community and the healthcare professionals (1) . In the beginning of December 2019, the novel Coronavirus COVID-19 was first reported in China's Wuhan City (2, 3) . There were reports of clusters of cases with unknown kinds of pneumonia with affiliation to the Huanan Animal wholesale food market (4) . Within few days, the Chinese Health Authority announced this disease to be caused by a novel Corona Virus named 2019-nCoV (5) which has 70% similarity to the human-derived Severe Acute Respiratory Syndrome like coronavirus (SARS-CoV) and 88% similarity to the bat derived SARS-CoV (4, 6) . As of March 22nd, 2020, the virus has spread to more than 187 countries and the total number of infected people are 294,110. The number of deaths caused by the virus as of March 22, 2020, is 12,944 (5) ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 155,
+                    "ref_id": "BIBREF2",
+                    "start": 152,
+                    "text": "(3,"
+                },
+                {
+                    "end": 159,
+                    "ref_id": "BIBREF6",
+                    "start": 156,
+                    "text": "(7)"
+                },
+                {
+                    "end": 163,
+                    "ref_id": "BIBREF7",
+                    "start": 160,
+                    "text": "(8)"
+                },
+                {
+                    "end": 167,
+                    "ref_id": "BIBREF8",
+                    "start": 164,
+                    "text": "(9)"
+                },
+                {
+                    "end": 172,
+                    "ref_id": "BIBREF9",
+                    "start": 168,
+                    "text": "(10)"
+                },
+                {
+                    "end": 480,
+                    "ref_id": "BIBREF9",
+                    "start": 476,
+                    "text": "(10)"
+                },
+                {
+                    "end": 512,
+                    "ref_id": "BIBREF10",
+                    "start": 508,
+                    "text": "(11)"
+                },
+                {
+                    "end": 746,
+                    "ref_id": "BIBREF1",
+                    "start": 743,
+                    "text": "(2,"
+                },
+                {
+                    "end": 749,
+                    "ref_id": "BIBREF8",
+                    "start": 747,
+                    "text": "9)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "The initial research conducted on the novel-COVID19 virus was aimed to better understand the epidemiological characteristics of the affected population (3, (7) (8) (9) (10) . The scarcity of first-hand patient's dataset, limited information, and the ever-evolving situation created hurdles in analyzing COVID-19 patient's health characteristics. Moreover, some of the initial observational studies on the epidemiological characteristics of the patients reported mixed results (10) . For instance, Sun et al. (11) found that gastrointestinal symptoms, such as diarrhea, are common among patients with COVID-19. However, early studies conducted by researchers in China didn't include digestive problems as the major health symptoms for COVID-19 (2, 9) . Therefore, in this study, we have conducted a meta-analysis of the observational research studies which were published in the first 3 months after the outbreak of COVID-19. We have analyzed the studies which have documented the epidemiological characteristics of patients infected by the COVID-19 virus, such as the patient's age, gender, major symptoms, and the fatality rate. The previously conducted meta-analysis have been geographically restricted to China and used a relatively smaller data set. According to the best of our knowledge, this metaanalysis is the first study that analyzes heterogeneity in COVID-19 patient's characteristics by comparing studies conducted in China and seven other countries. Therefore, this meta-analysis presents a timely synthesis of currently available observational studies on COVID-19."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 150,
+                    "ref_id": "BIBREF11",
+                    "start": 146,
+                    "text": "(12)"
+                },
+                {
+                    "end": 485,
+                    "ref_id": "BIBREF9",
+                    "start": 481,
+                    "text": "(10)"
+                },
+                {
+                    "end": 818,
+                    "ref_id": "BIBREF12",
+                    "start": 814,
+                    "text": "(13)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "At the time of writing this article, March 2020, there were already three meta-analyses related to the clinical symptoms of COVID-19. Yang et al. (12) showed the prevalence of comorbidities in COVID-19 infected patients based on eight studies from China. They also assessed that comorbidities such as hypertension, diabetes, cardiovascular diseases, and respiratory system diseases are a risk factor for severe patients as compared to non-severe patients. Rodriguez-Morales et al. (10) included 19 studies in his meta-analysis. They compared the clinical symptoms of COVID-19 including fever, cough, sore throat, myalgia, headache, diarrhea, and dyspnea. They also assessed the prevalence of comorbidities in COVID-19 confirmed cases. They included 18 studies from China and only 1 from Australia. While Li et al. (13) did a meta-analysis based on 10 studies from Chinse hospitals. They also compared the clinical characteristics of COVID-19 patients including their age, fatality rate, and discharge rate. Therefore, our meta-analysis is different because we are presenting a comparison of the epidemiological characteristics of patients inside and outside of China."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 65,
+                    "ref_id": null,
+                    "start": 45,
+                    "text": "Badawi and Ryoo (14)"
+                },
+                {
+                    "end": 474,
+                    "ref_id": "BIBREF13",
+                    "start": 470,
+                    "text": "(14)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "Our work is similar and close to the work of Badawi and Ryoo (14) , they performed a similar type of meta-analysis for MERS-CoV (Middle Eastern Respiratory Syndrome-Coronavirus). In their study, they analyzed the symptoms of patients and compared the prevalence of comorbidities in MERS-CoV studies from different countries. His findings were that chronic diseases such as cardiac diseases, obesity, hypertension, and diabetes had a high prevalence in MERS-CoV patients (14) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "Our meta-analysis of 13 studies not only confirms the findings of the previous meta-analysis on COVID-19 but also brings new insight for healthcare professionals and researchers. Our findings confirm that there are more men reported to be infected by the virus as compared to women and the age range for most patients is between 45 and 60 years regardless of inside or outside China. We also confirm the findings of the previous meta-analyses that most patients had one or more reported comorbidities. However, the three most commonly reported symptoms, fever, cough, and shortness of breath are not reported in a similar proportion inside and outside China. Fever was much less likely reported in the patients outside China. We found similar results for Cough and Shortness of Breath. We also found that Diarrhea was a commonly reported symptom in patients outside China."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "The rest of the paper is organized in the following sections; in the next section, we have detailed our article selection methodology and search strategy. In section Detailed Analysis of Each Included Study, we have described each of the selected studies in detail. In Section Results, we presented the results by developing Forest Plot to compare studies inside and outside China. In the last section, we have presented a discussion on our results and concluded the meta-analysis."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 190,
+                    "ref_id": "BIBREF14",
+                    "start": 186,
+                    "text": "(15)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 1725,
+                    "ref_id": "FIGREF0",
+                    "start": 1717,
+                    "text": "Figure 1"
+                }
+            ],
+            "section": "Information Sources and Search Strategy",
+            "text": "To make our search comprehensive, we started our search from the World Health Organization database, which has combined research papers on the COVID-19, SARS, MERS, and related diseases (15) . There were a total of 2,247 papers that were on the topic of coronavirus COVID-19 till March 20th, 2020. We also searched for observational studies on Google Scholar, PubMed, and ScienceDirect on COVID-19 which were published after December 2019. After combining the papers from both sources, we identified a total of 2,251 research studies. We selected only those studies, which are observational and discussed epidemiological characteristics of patients, we also use the keyword search for \"symptoms, \" \"patient features, \" \"mortality, \" and \"epidemiological characteristics.\" These keywords filtering shortlisted our database to 90 articles. In these articles, most of the papers obtained the data from Wuhan China. We further shortlisted our search by selecting: the earliest data of COVID-19 in Wuhan, the latest data of Wuhan, data of different provinces of China, and COVID-19 data from different countries of the world. This brought down our data to 20 papers. During our search, we also encountered studies which were only conducted on the same patients, or specific types of patients, such as pregnant women, patients with gastrointestinal problems, or children having COVID-19. Since we are looking for studies with the general population so, these studies do not fit in our selection criteria and they may make our results biased. Therefore, our final selection of studies included 6 studies conducted in China and 7 studies from other countries of the world. The flow chart of the selection process is shown in Figure 1 ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 607,
+                    "ref_id": "TABREF0",
+                    "start": 600,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Data Extraction and Study Analysis",
+            "text": "Data extraction and the evaluation of the quality of research was conducted independently by two investigators (Areeba Ali and Ali Ahmed). Microsoft Excel was used to store all the available information, including the total number of patients, gender percentage, median age, clinical symptoms, and fatality rate from each study. Any disagreement on inclusion or exclusion of the study was resolved by consulting with another investigator (Sana Hasan). The final sample included COVID-19 observational studies from China, Taiwan, Singapore, Canada, USA, Australia, Italy, and South Korea, as shown in Table 1 ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 1059,
+                    "ref_id": "BIBREF8",
+                    "start": 1056,
+                    "text": "(9)"
+                },
+                {
+                    "end": 1149,
+                    "ref_id": "BIBREF16",
+                    "start": 1145,
+                    "text": "(17)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 129,
+                    "ref_id": "TABREF1",
+                    "start": 122,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 200,
+                    "ref_id": "TABREF0",
+                    "start": 192,
+                    "text": "Table A1"
+                }
+            ],
+            "section": "DETAILED ANALYSIS OF EACH INCLUDED STUDY",
+            "text": "The data collected from all the 13 studies which include age range, median age, sex ratio, and fatality rate are shown in Table 2 , while the detailed clinical symptoms are shown in Appendix- Table A1 . In the following sub-sections, we have provided a detailed summary of each of the studies included in our paper. The dataset used in the study was from the patients who were admitted to the hospital between December 16th, 2019 to January 2nd, 2020 in Wuhan, Hubei province, China. They found some patients had underlying diseases, diabetes, cardiovascular disease, and hypertension. They also reported that all 41 patients had exposure to the Huanan seafood market, where this virus was originated first. Common symptoms reported by the authors were fever (98%), cough (76%), and fatigue (44%). The less common symptoms were sputum production (28%), headache (28%), hemoptysis (5%), and diarrhea (3%). It also included Radiological reports and blood reports from the patients and comparison of reports of ICU and Non-ICU. Study 2 conducted by Li et al. (9) , included the first 425 confirmed cases till January 22nd, 2020 in the Wuhan, Hubei (17) , analyzed the demographical, epidemiological, clinical, laboratory, radiological, and treatment data. The results of critical and non-critical patients were compared. The report showed the median age was 56 years with the range being 42-68 years old. It reported three common symptoms like fever, fatigue, and dry cough. The mortality rate reported was 4.3%."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 27,
+                    "ref_id": "BIBREF17",
+                    "start": 23,
+                    "text": "(18)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies From China",
+            "text": "Study 4 by Chen et al. (18) , reported 99 cases from Wuhan Jinyintan Hospital from January 1st to January 20th, 2020. They reported that 49% of patients had exposure to the Huanan seafood market. Fifty-one percentage of patients were reported to have chronic diseases. The most common symptoms reported were fever, cough, shortness of breath, myalgia, confusion, headache, sore throat, nasal congestion, diarrhea, and nausea or vomiting. The report showed an 11% fatality rate."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 26,
+                    "ref_id": "BIBREF1",
+                    "start": 23,
+                    "text": "(2)"
+                },
+                {
+                    "end": 521,
+                    "ref_id": "BIBREF18",
+                    "start": 517,
+                    "text": "(19)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Studies From China",
+            "text": "Study 5 by Guan et al. (2) , analyzed data of 1,099 laboratoryconfirmed cases from 552 hospitals in 30 provinces through January 29, 2020. They reported the median age of patients was 47 years and 58.1% were reported to be male patients. The most common symptoms reported were fever in 88.7% patients, cough in 67.8%, and diarrhea in 3.8% patients. The research also concluded that there were not many abnormal radiological findings in patients. The fatality rate of patients was 1.4%. Study 6 conducted by Wu et al. (19) , included the 80 confirmed cases of Jiangsu province in China from January 22nd to February 14th, 2020. The median age of patients was 46 years. The research shows that 47.5% of cases had chronic diseases. The main symptoms of patients included fever in 78.75%, cough in 63.75%, shortness of breath in 37.50%, 22.50% had myalgia and 16.25% had a headache. The research showed the abnormalities in radiological reports was 68.75% and there were no deaths."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Studies From China",
+            "text": "Frontiers in Public Health | www.frontiersin.org"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 16,
+                    "ref_id": "BIBREF19",
+                    "start": 12,
+                    "text": "(20)"
+                },
+                {
+                    "end": 427,
+                    "ref_id": null,
+                    "start": 411,
+                    "text": "Kong et al. (20)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Study From South Korea",
+            "text": "Kong et al. (20) study reported the statistics till February 14th, 2020 that 28 confirmed patients are reported from the Korea Center of Disease and Control. The study mentions the sex, agerange, and common symptoms of all the patients along with the identification of route of transmission and incubation period. The research shows that there were 53.6% of men with a range of patients in age 20-73 years old. Kong et al. (20) , also reported that 35.7% of patients had chronic diseases. The most common symptoms reported were fever, headache, cough, sore throat, sputum production, fatigue, and chills."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 17,
+                    "ref_id": "BIBREF20",
+                    "start": 13,
+                    "text": "(21)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 996,
+                    "ref_id": "TABREF0",
+                    "start": 988,
+                    "text": "Table A1"
+                }
+            ],
+            "section": "A Study From Singapore",
+            "text": "Young et al. (21) reported 18 confirmed cases of COVID-19 infection. The patients were diagnosed using real-time RT-PCR at 4 hospitals in Singapore from January 23rd to February 3rd, 2020 and the final follow up was on February 25th, 2020. The study analyzed the clinical, laboratory, and radiological data. It has summarized the use of supplemental oxygen, ICU, and the use of empirical treatment with lopinavir-ritonavir. The research shows the median age to be 47 years with 50% male patients. The study also shows that the virus was detected in the stool of 50% patients and the blood of 8% patients by PCR but not in urine. The 4% of patients treated with lopinavir-ritonavir developed abnormal functioning and nausea, vomiting along with diarrhea. The most common symptoms reported were fever, cough, shortness of breath, Rhinorrhea, sore throat, and diarrhea. There were no reported deaths in this study. The complete breakdown of percentages for each symptom is given in Appendix Table A1 ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 192,
+                    "ref_id": "BIBREF21",
+                    "start": 188,
+                    "text": "(22)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Study From Australia",
+            "text": "We got the report from the National Incident Room Surveillance Team from Australia of March 7th, 2020 which included all the clinical symptoms, sex, and median age of 71 affected patients (22) . It included data on COVID-19 cases diagnosed in Australia, the international situation and the review of the current evidence. The report shows that 14% of confirmed cases were the passengers of the Diamond Princess cruise ship, 23% of patients had a direct or indirect link to the Islamic Republic of Iran and 23% had a direct or indirect link to the mainland China and 21% had no recent travel history. The median age of reported cases was 45 years with a range from 0 to 94 years old. The most common symptoms recorded among the patients were 65% fever, 29% nasal congestion, 35% headache, 71% cough, 50% sore throat, 18% fatigue, 6% nausea, and 26% diarrhea. The report shows the fatality rate of 2.8%."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 15,
+                    "ref_id": "BIBREF23",
+                    "start": 11,
+                    "text": "(23)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Study From Canada",
+            "text": "Lin et al. (23) , reported on March 6th, 2020 the confirmed 135 cases from Ontario Canada. This report included the clinical symptoms, age-range, demographic characteristics, laboratory results, radiographical results, and the median age of affected individuals from January 20th to February 19th, 2020 at 8 hospitals in the Greater Toronto Area. The median age was 28 years. The most common symptoms were: 82% cough, 48% fever, 30% sore throat, 10% diarrhea, and 17% fatigue. There were no deaths reported."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 15,
+                    "ref_id": "BIBREF24",
+                    "start": 11,
+                    "text": "(24)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Study From Taiwan",
+            "text": "Su and Lai (24) , reported the data of 10 confirmed cases till January 31st, 2020, and compared that data to SARS in terms of symptoms, epidemiology, and laboratory characteristics The research shows that there were 30% of males. The most common symptoms included cough in 60%, fever in 50%, flu symptoms in 40%, rhinorrhea in 30%, myalgia in 10%, and shortness of breath in 10% patients. The research concluded that COVID-19 patients are 20 years older than SARS patients and young adults are more susceptible to SARS than elders and children."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 127,
+                    "ref_id": "BIBREF25",
+                    "start": 123,
+                    "text": "(25)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Study From Italy",
+            "text": "The report from Lombardy Italy had the statistics until March 15th, 2020 stating 22,512 patients, their age range, and sex (25) . The report does not include data for the clinical symptoms of the patients. The report also included 2026 cases of COVID-19 among health care workers. The report shows the median age of 64 years with 59.8% of patients being male. The report represents a graph for severity where 24.9% of patients are reported to be severe, 46.1% mild and 5% to be critical patients with 6.7% having few symptoms, 6.7% being asymptomatic, and 10.6 having unspecified symptoms. It also reported 1,625 deaths with a 7.2% fatality rate."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 39,
+                    "ref_id": "BIBREF26",
+                    "start": 35,
+                    "text": "(26)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 716,
+                    "ref_id": "TABREF0",
+                    "start": 708,
+                    "text": "Table A1"
+                }
+            ],
+            "section": "A Study From Italy",
+            "text": "A Study From the USA Arentz et al. (26) , reported only about 21 patients of Washington, USA. The report included the clinical symptoms, age-range, median age, and radiological data of all the patients from February 20th, 2020 to March 5th, 2020, at Evergreen Hospital Washington. The report shows 52% of male patients and 86% of the total patients had chronic diseases. The most common symptoms reported in the research shows 52% fever, 76% shortness of breath, and 48% cough. Ninety-five percentage of the patients showed abnormal radiological reports. The report also showed a high rate of ARDS and a high risk of Death. The fatality rate was 52.4%. The detailed data from each of the studies is given in Table A1 in the Appendix of this paper."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 673,
+                    "ref_id": "BIBREF28",
+                    "start": 669,
+                    "text": "(28)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 1050,
+                    "ref_id": "FIGREF2",
+                    "start": 1042,
+                    "text": "Figure 2"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "The meta-analysis of proportions of age, gender, fatality rate, and major clinical symptoms of COVID-19 was done using STATA-16 Software (27), licensed to be used by the corresponding author at the University of Massachusetts Lowell, USA. A random-effect model was used since it was assumed that the symptoms of COVID-19 vary across the populations. The random effect model is a common model that is used to synthesize heterogeneous observations. It is simply the weighted average of the effect sizes of a group of studies which suggests that greater the variability in effect sizes (heterogeneity), the greater the un-weighting until all the studies have equal weight (28) . The presence of heterogeneity among the identified studies (Cochran's Q) and the extent of heterogeneity (I 2 index) were also examined. Along with the overall heterogeneity in studies, we analyzed heterogeneity in the sub-group for studies conducted in China and outside of China for each of the characteristics. The Forest Plots for all the analyses are listed in Figure 2 . The left column shows the overall results of the studies while the right column shows the comparison inside and outside of China."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 300,
+                    "ref_id": "FIGREF2",
+                    "start": 289,
+                    "text": "(Figure 2A)"
+                },
+                {
+                    "end": 555,
+                    "ref_id": "FIGREF2",
+                    "start": 545,
+                    "text": "Figure 2B)"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "The median age range is 28-70 in the 13 selected studies. Most of the population lies between the age group 45-60 years. The average median age is 47 \u00b1 7 years. The meta-analysis of gender in the selected studies shows that there are a higher number of male cases compared to female cases (Figure 2A) . The null hypothesis that all studies have reported an equal proportion of male cases is rejected. The meta-analysis also shows that there is a significant difference in gender proportions, for studies conducting inside and outside of China ( Figure 2B) . Moreover, there is a high variation in gender for studies conducted in China as compared to the studies conducted outside of China (Singapore, Taiwan, USA, South Korea, Canada, Australia, and Italy)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 122,
+                    "ref_id": "FIGREF2",
+                    "start": 112,
+                    "text": "(Figure 2)"
+                },
+                {
+                    "end": 272,
+                    "ref_id": "FIGREF2",
+                    "start": 262,
+                    "text": "Figure 2C)"
+                },
+                {
+                    "end": 470,
+                    "ref_id": "FIGREF2",
+                    "start": 461,
+                    "text": "Figure 2D"
+                },
+                {
+                    "end": 636,
+                    "ref_id": "FIGREF2",
+                    "start": 627,
+                    "text": "Figure 2E"
+                },
+                {
+                    "end": 903,
+                    "ref_id": "FIGREF2",
+                    "start": 889,
+                    "text": "(Figures 2I,J)"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "The four symptoms of COVID-19 analyzed in this metaanalysis are fever, cough, shortness of breath, and diarrhea (Figure 2) . We have found fever to be the most common symptom in the studies, with 71% (CI: 59-83%) cases reporting fever as a symptom of COVID-19 ( Figure 2C) . Further, we also found that studies conducted inside of China reported a higher percentage of people with fever (61%) as compared to studies conducted outside of China (51%) as shown in Figure 2D . Cough and shortness of breath are also very commonly reported symptoms in studies. The overall reporting of cough symptoms is 65% with 95% Cl is 54-76% ( Figure 2E ). For shortness of breath, we have observed very different proportions of cases reported inside and outside of China. The overall proportion for shortness of breath inside China is 33% while the proportion for shortness of breath outside China is 57% (Figures 2I,J) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 325,
+                    "ref_id": "FIGREF2",
+                    "start": 311,
+                    "text": "(Figures 2G,H)"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "Similarly, we observed contradicting results for the symptoms of diarrhea in COVID-19 cases inside and outside China. The overall proportion of patients reporting Diarrhea as a symptom in China is 4% (CI: 1-7%), while the proportion of patients reporting Diarrhea as a symptom outside China was 17% (CI: 6-28%) (Figures 2G,H) ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 282,
+                    "ref_id": "BIBREF26",
+                    "start": 278,
+                    "text": "(26)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 202,
+                    "ref_id": "FIGREF2",
+                    "start": 188,
+                    "text": "(Figures 2K,L)"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "The fatality rate also shows significant differences in cases reported inside and outside China. The fatality rate for inside China is 6% while, the fatality rate for outside China is 19% (Figures 2K,L) . The highest fatality rate outside of China was reported by Arentz et al. (26) , in the USA."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 342,
+                    "ref_id": "BIBREF6",
+                    "start": 339,
+                    "text": "(7)"
+                },
+                {
+                    "end": 517,
+                    "ref_id": "BIBREF10",
+                    "start": 513,
+                    "text": "(11)"
+                },
+                {
+                    "end": 841,
+                    "ref_id": "BIBREF11",
+                    "start": 837,
+                    "text": "(12)"
+                },
+                {
+                    "end": 1191,
+                    "ref_id": "BIBREF9",
+                    "start": 1187,
+                    "text": "(10,"
+                },
+                {
+                    "end": 1195,
+                    "ref_id": "BIBREF12",
+                    "start": 1192,
+                    "text": "13)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 1023,
+                    "ref_id": "FIGREF2",
+                    "start": 1014,
+                    "text": "Figure 2A"
+                }
+            ],
+            "section": "DISCUSSION AND CONCLUSION",
+            "text": "The understanding of the epidemiological characteristics of COVID-19 patients is an important research question. The researchers and medical professionals have tried to evaluate the data of patients to identify the most common symptoms which can be used as a yardstick in ruling out the disease while the patient is admitted to a hospital (7) . The few most common symptoms which were previously reported in observational studies are fever, cough, sore throat, diarrhea, shortness of breath, and nasal congestion (11) . In this study, we have analyzed the patient characteristics including, gender, age, fatality rate, and symptoms of fever, cough, shortness of breath and diarrhea in COVID-19 patients. Our findings suggest that the most commonly reported age group for COVID-19 is 45-60 years. A meta-analysis conducted by Yang et al. (12) , suggest that age and comorbidities are highly related in COVID-19 patients. We also found that the male population has a higher proportion in all the studies as shown in Figure 2A , suggesting a higher prevalence of the disease in the male population. The previous meta-analysis has found similar results while studying the gender in COVID-19 (10, 13) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 407,
+                    "ref_id": "FIGREF2",
+                    "start": 398,
+                    "text": "Figure 2H"
+                }
+            ],
+            "section": "DISCUSSION AND CONCLUSION",
+            "text": "The comparison of studies conducted in China and outside China suggest contrasting and interesting results. Patients in China have a higher proportion of fever, cough, and shortness of breath as compared to patients outside China. However, we found the opposite results for the symptoms of Diarrhea. Patients outside China have a significantly higher proportion of symptoms of Diarrhea as shown in Figure 2H . This can be due to different environmental and social conditions of patients and further investigation can lead to important findings. Our analysis of shortness of breath shows that there wasn't much variation in reporting in all the studies except for Canada and the USA. Both countries have reported the highest shortness of breath. Further investigation can be done on reasons for the high proportion of shortness of breath reported by the patients of COVID-19 outside China. The fatality rate in China is significantly lower as compared to other countries. The highest fatality rate was found in the study conducted in the USA, with a fatality rate of 52% among 21 patients. Our findings also suggest that the fatality rate may increase as the virus spread in countries outside China, which also depends on the health facilities in different counties."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION AND CONCLUSION",
+            "text": "The COVID-19 patients' symptoms, fatality rate, and epidemiological characteristics is an open question for the research community, as more data becomes available, more concrete and stable findings can be uncovered. Also, the clinical symptoms of COVID-19 should not be generalized to fever, shortness of breath and cough only, but other symptoms such as diarrhea are also shown to be prevalent in patients with COVID-19. Our study is the first paper that has conducted a metaanalysis of patient's characteristics comparing observational studies conducted inside and outside China. The findings from this study can help medical and public health professionals as well as the public to better understand the symptoms associated with the COVID-19."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT",
+            "text": "All datasets presented in this study are included in the article."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS",
+            "text": "All authors equally contributed to the study."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Zisis",
+                "last": "Kozlakidis",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Muhammad",
+                "last": "Adeel",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "University of Massachusetts Lowell",
+                    "laboratory": "",
+                    "location": {
+                        "country": "United States",
+                        "region": "MA",
+                        "settlement": "Lowell"
+                    }
+                },
+                "email": "ali_ahmed@uml.edu",
+                "first": "Ali",
+                "last": "Ahmed",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Government College University Lahore",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Pakistan",
+                        "settlement": "Lahore"
+                    }
+                },
+                "email": "",
+                "first": "Areeba",
+                "last": "Ali",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "The University of Lahore",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Pakistan, China, Italy, Australia, Canada, Korea, Taiwan, Singapore",
+                        "settlement": "Lahore"
+                    }
+                },
+                "email": "",
+                "first": "Sana",
+                "last": "Hasan",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Comparison of Epidemiological Variations in COVID-19 Patients Inside and Outside of China-A Meta"
+    },
+    "paper_id": "2772b05abe0e7e0db8a4e63dfe7cebbfd041f6e6",
+    "ref_entries": {
+        "FIGREF0": {
+            "latex": null,
+            "text": "Systematic literature review process the flow sheet diagram represents the systematic review of literature for the characteristics of clinical symptoms(16).",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "latex": null,
+            "text": "1 was conducted by Huang et al. (3), reported 41 laboratory-confirmed COVID-19 infection cases.",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "latex": null,
+            "text": "Meta-analysis forest plot overall and comparison of inside and outside of China. (A) Forest Plot by using a random-effects model for Gender (Male). (B) Comparison of Gender (Male) inside and outside of China. (C) Forest Plot by using a random-effects model for fever symptoms. (D) Comparison of Fever inside and outside of China. (E) Forest Plot by using a random-effect model for cough symptoms. (F) Comparison of cough inside and outside of China. (G) Forest Plot using Random effect model shown for Diarrhea of 8 studies. (H) Comparison of inside and outside of China for Diarrhea. (I) Forest Plot using Random effect model shown for 8 studies for Shortness of breath. (J) Comparison of inside and outside of China for Shortness of breath. (K) Forest Plot using Random Effect model for Fatality rate in 7 studies. (L) Comparison of inside and outside of China for a fatality rate.",
+            "type": "figure"
+        },
+        "TABREF0": {
+            "html": "<html><body><table><tr><td>Study ID </td><td>References </td><td>Date of publication </td><td>City, Country </td><td>Number of patients\n</td></tr><tr><td>STUDIES INSIDE CHINA\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Study 1 </td><td>Huang et al. (3) </td><td>1/24/2020 </td><td>Wuhan, China </td><td>41\n</td></tr><tr><td>Study 2 </td><td>Li et al. (9) </td><td>1/29/2020 </td><td>Wuhan China </td><td>425\n</td></tr><tr><td>Study 3 </td><td>Wang et al. (17) </td><td>2/7/2020 </td><td>Wuhan, China </td><td>138\n</td></tr><tr><td>Study 4 </td><td>Chen et al. (18) </td><td>2/15/2020 </td><td>Wuhan, China </td><td>99\n</td></tr><tr><td>Study 5 </td><td>Guan et al. (2) </td><td>2/20/2020 </td><td>Mainland China </td><td>1,099\n</td></tr><tr><td>Study 6 </td><td>Wu et al. (19) </td><td>2/29/2020 </td><td>Jiangsu, China </td><td>80\n</td></tr><tr><td>Sub-total </td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>1,882\n</td></tr><tr><td>STUDIES OUTSIDE CHINA\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Study 1 </td><td>Kong et al. (20) </td><td>2/21/2020 </td><td>South Korea </td><td>28\n</td></tr><tr><td>Study 2 </td><td>Young et al. (21) </td><td>3/3/2020 </td><td>Singapore </td><td>18\n</td></tr><tr><td>Study 3 </td><td>COVID-19 National Incident Room Surveillance (22) </td><td>3/5/2020 </td><td>Australia </td><td>71\n</td></tr><tr><td>Study 4 </td><td>Lin et al. (23) </td><td>3/6/2020 </td><td>Toronto, Canada </td><td>135\n</td></tr><tr><td>Study 5 </td><td>Su and Lai (24) </td><td>3/14/2020 </td><td>Taiwan </td><td>10\n</td></tr><tr><td>Study 6 </td><td>Livingston and Bucher (25) </td><td>3/17/2020 </td><td>Lombardy, Italy </td><td>22,512\n</td></tr><tr><td>Study 7 </td><td>Arentz et al. (26) </td><td>3/19/2020 </td><td>Washington, USA </td><td>21\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "Studies Included in the meta-analysis.",
+            "type": "table"
+        },
+        "TABREF1": {
+            "latex": null,
+            "text": "Age, gender and fatality rate. confirmed patients at Zhongnam Hospital of Wuhan University in Wuhan China from January 1 to January 28, 2020. Wang et al.",
+            "type": "table"
+        },
+        "TABREF2": {
+            "html": "<html><body><table><tr><td>Age, gender and fatality rate.\n</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>References </td><td>Age range </td><td>Median age </td><td>Sex male (%)\n</td><td>Fatality rate(%)\n</td></tr><tr><td>Huang et al. (3) </td><td>41-58 </td><td>49 </td><td>30 (73%) </td><td>6 (15%)\n</td></tr><tr><td>Li et al. (9) </td><td>26-82 </td><td>56 </td><td>281 (66%) </td><td>-\n</td></tr><tr><td>Wang et al. (17) </td><td>42-68 </td><td>56 </td><td>75 (54%) </td><td>6 (4%)\n</td></tr><tr><td>Chen et al. (18) </td><td>21-82 </td><td>56 </td><td>67 (68%) </td><td>11 (11%)\n</td></tr><tr><td>Guan et al. (2) </td><td>35-58 </td><td>47 </td><td>637 (58%) </td><td>15 (1%)\n</td></tr><tr><td>Kong et al. (20) </td><td>20-73 </td><td>42.6 </td><td>15 (54%) </td><td>0 (0%)\n</td></tr><tr><td>Wu et al. (19) </td><td>30-62 </td><td>46.1 </td><td>38 (48%) </td><td>0 (0%)\n</td></tr><tr><td>Young et al. (21) </td><td>31-73 </td><td>47 </td><td>9 (50%) </td><td>0 (0%)\n</td></tr><tr><td>COVID-19\n</td><td>0-94 </td><td>45 </td><td>- </td><td>2 (3%)\n</td></tr><tr><td>National Incident\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Room Surveillance\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>(22)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Lin et al. (23) </td><td>23-49 </td><td>28 </td><td>59 (44%) </td><td>0 (0%)\n</td></tr><tr><td>Su and Lai (24) </td><td>- </td><td>49 </td><td>3 (30%) </td><td>0 (0%)\n</td></tr><tr><td>0-90 </td><td>50 </td><td>13,282 (59%) </td><td>1,625(7.2%)\n</td></tr><tr><td>Livingston and Bucher (25)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Arentz et al. (26) </td><td>43-92 </td><td>70 </td><td>11 (52%) </td><td>11 (52%)\n</td></tr><tr><td>Average \u00b1 SE. </td><td>- </td><td>47 \u00b1 7 </td><td>- </td><td>0.07 \u00b1 0.14\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "TABLE 2 |",
+            "type": "table"
+        },
+        "TABREF3": {
+            "html": "<html><body><table><tr><td>References </td><td>Fever </td><td>Cough </td><td>Shortness of breath\n</td><td>Sore throat </td><td>Diarrhea </td><td>Nasal congestion\n</td><td>Headache </td><td>Sputum production\n</td><td>Fatigue/ myalgia\n</td><td>Nausea or vomiting\n</td><td>Other symptoms\n</td></tr><tr><td>Huang et al.\n</td><td>40 (98%) </td><td>31 (76%) </td><td>23 (55%) </td><td>- </td><td>1 (3%) </td><td>- </td><td>3 (8%) </td><td>11 (28%) </td><td>18 (44%) </td><td>\u00a0</td><td>2 (5%)\n</td></tr><tr><td>(3)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Li et al. (9) </td><td>281 (66%) </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>238 (56%)\n</td></tr><tr><td>Wang et al.\n</td><td>136 (98%) </td><td>82 (82%) </td><td>43 (31%) </td><td>- </td><td>14 (10%) </td><td>0(0%) </td><td>9 (7%) </td><td>37 (27%) </td><td>96 (70%) </td><td>10 (10%) </td><td>53 (39%)\n</td></tr><tr><td>(17)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Chen et al.\n</td><td>82 (83%) </td><td>81 (82%) </td><td>31 (31%) </td><td>5 (5%) </td><td>2 (2%) </td><td>5 (5%) </td><td>8 (8%) </td><td>- </td><td>11 (11%) </td><td>11 (1%)\n</td><td>\u00a0</td></tr><tr><td>(18)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Guan et al. (2) </td><td>975 (88%) </td><td>745 (68%) </td><td>206 (19%) </td><td>153 (14%) </td><td>43 (4%) </td><td>- </td><td>149 (14%) </td><td>363 (34%) </td><td>418 (38%) </td><td>1 (5%) </td><td>299 (27%)\n</td></tr><tr><td>Kong et al.\n</td><td>9 (32%) </td><td>5 (18%) </td><td>- </td><td>9 (32%) </td><td>- </td><td>- </td><td>3 (11%) </td><td>5 (18%) </td><td>4 (14%) </td><td>- </td><td>5 (18%)\n</td></tr><tr><td>(20)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Wu et al. (19) </td><td>63 (78 %) </td><td>51 (64%) </td><td>30 (38%) </td><td>- </td><td>0 (0%) </td><td>5 (6%) </td><td>13 (16%) </td><td>- </td><td>18 (23%) </td><td>- </td><td>-\n</td></tr><tr><td>Young et al.\n</td><td>13 (72%) </td><td>15 (83%) </td><td>2 (11%) </td><td>11 (61%) </td><td>3(17%) </td><td>5 (29%) </td><td>- </td><td>- </td><td>- </td><td>- </td><td>-\n</td></tr><tr><td>(21)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>COVID-19\n</td><td>46 (65%) </td><td>50 (71%) </td><td>- </td><td>36 (50%) </td><td>18 (26%) </td><td>- </td><td>25 (35%) </td><td>- </td><td>13 (18%) </td><td>4 (6%) </td><td>-\n</td></tr><tr><td>National\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Incident\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Room\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Surveillance\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>(22)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Lin et al. (23) </td><td>65 (48%) </td><td>111 (82%) </td><td>111 (82%) </td><td>41 (30%) </td><td>14 (10%) </td><td>41 (30%) </td><td>- </td><td>- </td><td>23 (17%) </td><td>-\n</td><td>\u00a0</td></tr><tr><td>Su and Lai\n</td><td>5 (50%) </td><td>6 (60%) </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>4 (40%) </td><td>1 (10%) </td><td>- </td><td>-\n</td></tr><tr><td>(24)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Livingston and Bucher\n</td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>-\n</td></tr><tr><td>(25)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Arentz et al.\n</td><td>11 (52%) </td><td>10 (48%) </td><td>16 (76%) </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>- </td><td>-\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "TABLE A1 | Clinical symptoms.",
+            "type": "table"
+        }
+    }
+}

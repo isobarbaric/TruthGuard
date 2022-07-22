@@ -1,1 +1,1164 @@
-{"paper_id": "27c7590bd3f2d5dbb0d48578e0af8cbb9511238f", "metadata": {"title": "A Study of a Simple Class of Modifiers: Product Modifiers", "authors": [{"first": "Pascal", "middle": [], "last": "Caron", "suffix": "", "affiliation": {"laboratory": "LITIS", "institution": "Universit\u00e9 de Rouen", "location": {"addrLine": "Avenue de l'Universit\u00e9", "postCode": "76801", "settlement": "Saint-\u00c9tienne du Rouvray Cedex", "country": "France"}}, "email": ""}, {"first": "Edwin", "middle": [], "last": "Hamel-De-Le-Court (b", "suffix": "", "affiliation": {"laboratory": "LITIS", "institution": "Universit\u00e9 de Rouen", "location": {"addrLine": "Avenue de l'Universit\u00e9", "postCode": "76801", "settlement": "Saint-\u00c9tienne du Rouvray Cedex", "country": "France"}}, "email": "edwin.hamel-de-le-court@etu.univ-rouen.fr"}, {"first": "Jean-Gabriel", "middle": [], "last": "Luque", "suffix": "", "affiliation": {"laboratory": "LITIS", "institution": "Universit\u00e9 de Rouen", "location": {"addrLine": "Avenue de l'Universit\u00e9", "postCode": "76801", "settlement": "Saint-\u00c9tienne du Rouvray Cedex", "country": "France"}}, "email": "jean-gabriel.luque@univ-rouen.fr"}]}, "abstract": [{"text": "A modifier is a k-ary operator acting on DFAs and producing a DFA. Modifiers are involved in the theory of state complexity. We define and study a class of simple modifiers, called product modifiers, and we link closely the regular operations they encode to boolean operations.", "cite_spans": [], "ref_spans": [], "section": "Abstract"}], "body_text": [{"text": "State complexity is a measure of complexity defined on regular operations. It allows to write the size of the minimal automaton recognizing the output as a function of the sizes of the minimal automata recognizing the inputs. The topic dates back to the 70s, from the seminal paper of Maslov [14] describing, explicitly but without any proof, the state complexities of several operations. Since the 90s, this area of research became very active and the state complexity of numerous operations has been computed. See, for example, [6, [11] [12] [13] 15] and [8] for a survey of the subject.", "cite_spans": [{"start": 292, "end": 296, "text": "[14]", "ref_id": "BIBREF13"}, {"start": 530, "end": 533, "text": "[6,", "ref_id": "BIBREF5"}, {"start": 534, "end": 538, "text": "[11]", "ref_id": "BIBREF10"}, {"start": 539, "end": 543, "text": "[12]", "ref_id": "BIBREF11"}, {"start": 544, "end": 548, "text": "[13]", "ref_id": "BIBREF12"}, {"start": 549, "end": 552, "text": "15]", "ref_id": "BIBREF14"}, {"start": 557, "end": 560, "text": "[8]", "ref_id": "BIBREF7"}], "ref_spans": [], "section": "Introduction"}, {"text": "However, a few general methods are commonly used in order to compute state complexities. The most common method consists in providing a witness, which is a specific example reaching what is proven to be an upper bound. The witness itself is, in general, found by trial and error, sometimes using a witness that worked for a number of other operations and modifying it to fit the specific needs of the operation considered. In many cases, for example [1, 7] or [4] , the witness is constructed by considering, explicitly or implicitly, the whole monoid of the transformations acting on the states of the minimal automata recognizing the input languages. This method has been theorized in two independently written papers [2, 5] . More precisely, the approach consists, on the one hand, in describing states as combinatorial objects and finding upper bounds using combinatorial tools, and, on the other hand, in building a huge witness, called a monster, chosen in a set of automata having as many transition functions as possible. This method can be applied to obtain the state complexity to the wide range of 1-uniform operations that are associated to operators, called modifiers, that act on automata to produce an automaton in a certain restrictive way. In this paper, we examine the regular operations described by the class of some very simple modifiers called product modifiers. These modifiers are characterized by the fact that they build the Cartesian product automaton with the transitions took from the input automata. We investigate many properties of this class and in particular we completely describe the set of the regular operations that can be encoded by product modifiers. The paper is organized as follows. Section 2 gives definitions and notations about automata. In Sect. 3, we partially recall the monster approach. Finally, in Sect. 4, we define product modifiers and characterize the regular operations they encode in Sect. 5.", "cite_spans": [{"start": 450, "end": 453, "text": "[1,", "ref_id": "BIBREF0"}, {"start": 454, "end": 456, "text": "7]", "ref_id": "BIBREF6"}, {"start": 460, "end": 463, "text": "[4]", "ref_id": "BIBREF3"}, {"start": 720, "end": 723, "text": "[2,", "ref_id": "BIBREF1"}, {"start": 724, "end": 726, "text": "5]", "ref_id": "BIBREF4"}], "ref_spans": [], "section": "Introduction"}, {"text": "The set of subsets of E is denoted by 2 E and the set of mappings of E into itself is denoted by E E . The symmetric difference of two sets E 1 and E 2 is denoted by \u2295 and defined by", "cite_spans": [], "ref_spans": [], "section": "Operations over Sets"}, {"text": "Let (E 1 , . . . , E k ) be a k-tuple of finite sets, and let (\u03b4 1 , . . . , \u03b4 k ) be a ktuple such that \u03b4 i is a function from E i to E i for every i \u2208 {1, . . . , k}. For any k-tuple (e 1 , . . . , e k ) such that e i \u2208 E i for all i \u2208 {1, . . . , k}, we denote by (\u03b4 1 , . . . , \u03b4 k )(e 1 , . . . , e k ) the k-tuple (\u03b4 1 (e 1 ), . . . , \u03b4 k (e k )).", "cite_spans": [], "ref_spans": [], "section": "Operations over Sets"}, {"text": "Let E be a set, f :", "cite_spans": [], "ref_spans": [], "section": "Operations over Sets"}, {"text": ". . , e p\u22121 , g(e p , . . . , e p+k\u22121 ), e p+k , . . . , e j+k\u22121 ), for any e 1 , . . . , e j+k\u22121 \u2208 E.", "cite_spans": [], "ref_spans": [], "section": "Operations over Sets"}, {"text": "Let \u03a3 be a finite alphabet. A word w over \u03a3 is a finite sequence of symbols of \u03a3. The set of all finite words over \u03a3 is denoted by \u03a3 * . A language over \u03a3 is a subset of \u03a3 * . We define the complement of a language L \u2286 \u03a3 * by L c = \u03a3 * \\ L.", "cite_spans": [], "ref_spans": [], "section": "Languages and Automata"}, {"text": "A complete and deterministic finite automaton (DFA) is a 5-tuple A = (\u03a3, Q, i, F, \u03b4) where \u03a3 is the input alphabet, Q is a finite set of states, i \u2208 Q is the initial state, F \u2282 Q is the set of final states and \u03b4 is the transition function from Q \u00d7 \u03a3 to Q that is defined for every q \u2208 Q and every a \u2208 \u03a3. We can extend transition functions in a natural way to functions from Q \u00d7 \u03a3 * to Q, and again to functions from 2 Q \u00d7 \u03a3 * to Q. For any word w, we denote by \u03b4 w the function q \u2192 \u03b4(q, w).", "cite_spans": [], "ref_spans": [], "section": "Languages and Automata"}, {"text": "The language recognized by a DFA A is the set L(A) of words recognized by A. By Kleene's theorem, a language is regular if and only if it is recognized by a DFA. It is well known that for any DFA, there exists a unique minimal one (up to isomorphism) among all DFAs recognizing the same language ([10]).", "cite_spans": [], "ref_spans": [], "section": "Languages and Automata"}, {"text": "A unary regular operation is a function from regular languages of \u03a3 into regular languages of \u03a3. A k-ary regular operation is a function from the set of k-tuples of regular languages over \u03a3 into regular languages over \u03a3.", "cite_spans": [], "ref_spans": [], "section": "State Complexity"}, {"text": "The state complexity of a regular language L denoted by sc(L) is the number of states of its minimal DFA. This notion extends to regular operations: the state complexity of a unary regular operation \u2297 is the function sc \u2297 such that, for all n \u2208 N, sc \u2297 (n) is the maximum of all the state complexities of \u2297(L) when L is of state complexity n, i.e. sc \u2297 (n) = max{sc(\u2297(L))|sc(L) = n}.", "cite_spans": [], "ref_spans": [], "section": "State Complexity"}, {"text": "This can be generalized, and the state complexity of a k-ary operation \u2297 is the k-ary function sc \u2297 such that, for all (n 1 , . . . , n k ) \u2208 (N) k ,", "cite_spans": [], "ref_spans": [], "section": "State Complexity"}, {"text": "Then, a witness for \u2297 is a way to assign to each (n 1 , . . . , n k ), where each n i is assumed sufficiently big, a k-tuple of languages (L 1 , . . . , L k ) with sc(L i ) = n i , for all i \u2208 {1, . . . , k}, satisfying sc \u2297 (n 1 , . . . , n k ) = sc(\u2297(L 1 , . . . , L k )).", "cite_spans": [], "ref_spans": [], "section": "State Complexity"}, {"text": "We describe a class of regular operations, called 1-uniform which are interesting for the study of state complexity [3, 5] . We then define operations on DFA called modifiers, and describe a subset of these operations that correspond to the set of 1-uniform regular operations.", "cite_spans": [{"start": 116, "end": 119, "text": "[3,", "ref_id": "BIBREF2"}, {"start": 120, "end": 122, "text": "5]", "ref_id": "BIBREF4"}], "ref_spans": [], "section": "Modifiers and 1-uniform Operations"}, {"text": "Definition 1. Let \u03a3 and \u0393 be two alphabets. A morphism is a function \u03c6 from \u03a3 * to \u0393 * such that, for all w, v \u2208 \u03a3 * , \u03c6(wv) = \u03c6(w)\u03c6 (v) . Notice that \u03c6 is completely defined by its value on letters. A morphism \u03c6 is 1-uniform if the image by \u03c6 of any letter is a letter.", "cite_spans": [{"start": 133, "end": 136, "text": "(v)", "ref_id": null}], "ref_spans": [], "section": "Definition and First Properties"}, {"text": "The preimage \u03c6 \u22121 (L) of a regular language L by a morphism \u03c6 is regular, see, e.g., [9] . This allows us to introduce the notion of 1-uniform regular operation.", "cite_spans": [{"start": 85, "end": 88, "text": "[9]", "ref_id": "BIBREF8"}], "ref_spans": [], "section": "Definition and First Properties"}, {"text": "Obviously, 1-uniformity is stable by composition. Many well-known regular operations are 1-uniform. See [5] for a non-exhaustive list of examples like the complement, the Kleene star, the reverse, the cyclic shift, and the mirror, all boolean operations and catenation among others.", "cite_spans": [{"start": 104, "end": 107, "text": "[5]", "ref_id": "BIBREF4"}], "ref_spans": [], "section": "Definition 2. A k-ary regular operation"}, {"text": "Each 1-uniform regular k-ary operation corresponds to a construction over DFAs, which is handy when we need to compute the state complexity of its elements. Such a construction on DFAs has some constraints that are described in the following definitions. . We say that m describes the operation \u2297 m .", "cite_spans": [], "ref_spans": [], "section": "Definition 2. A k-ary regular operation"}, {"text": "A = (\u03a3, Q, i, F, \u03b4) is the triplet (Q, i, F ).", "cite_spans": [], "ref_spans": [], "section": "Definition 3. The state configuration of a DFA"}, {"text": "Example 1. For any DFA A = (\u03a3, Q, i, F, \u03b4), define Star(A) = (\u03a3, 2 Q , \u2205, {E|E \u2229 F = \u2205} \u222a {\u2205}, \u03b4 1 ), where for any a \u2208 \u03a3, \u03b4 a 1 (\u2205) = \u03b4 a (i) if \u03b4 a (i) / \u2208 F and \u03b4 a 1 (\u2205) = \u03b4 a (i) otherwise, and, for all E = \u2205, \u03b4 a 1 (E) = \u03b4 a (E) if \u03b4 a (E) \u2229 F = \u2205 and \u03b4 a 1 (E) = \u03b4 a (E) \u222a", "cite_spans": [], "ref_spans": [], "section": "Definition 4. A k-modifier is a k-ary operation acting on a k-tuple of DFAs"}, {"text": "We easily check that, for modifiers, the 1-uniformity is stable by composition.", "cite_spans": [], "ref_spans": [], "section": "Example 2. For any DFAs"}, {"text": "Claim. Let m 1 and m 2 be respectively a j-modifier and a k-modifier describing, respectively, operations \u2297 1 and \u2297 2 . The modifier", "cite_spans": [], "ref_spans": [], "section": "Example 2. For any DFAs"}, {"text": "The correspondence between 1-uniform modifiers and 1-uniform operations is stated in the following Theorem proved in [3] .", "cite_spans": [{"start": 117, "end": 120, "text": "[3]", "ref_id": "BIBREF2"}], "ref_spans": [], "section": "Example 2. For any DFAs"}, {"text": "Modifiers have been defined, for the first time, in [2] as a tool to compute state complexity of 1-uniform operations.", "cite_spans": [{"start": 52, "end": 55, "text": "[2]", "ref_id": "BIBREF1"}], "ref_spans": [], "section": "Example 2. For any DFAs"}, {"text": "When there is no ambiguity, for any character X and any integer k given by the context, we write X for (X 1 , \u00b7 \u00b7 \u00b7 , X k ). The number k will often be the arity of the regular operation or of the modifier we are considering.", "cite_spans": [], "ref_spans": [], "section": "Functional Notations"}, {"text": "From Definition 4, any k-modifier m can be seen as a 4-tuple of mappings F , \u03b4 a ) . For the sake of clarity, we do not write explicitly the domains of the 4-tuple of mappings but the reader can derive them easily from the above equalities. Notice that we do not need to point out explicitly the dependency of d on Q because the information is already contained in \u03b4 a . We identify modifiers and such 4-tuples of mappings with each other. Below we revisit the definition of Xor according to this formalism.", "cite_spans": [], "ref_spans": [{"start": 73, "end": 82, "text": "F , \u03b4 a )", "ref_id": null}], "section": "Functional Notations"}, {"text": "In this section, we study a kind of simple modifier called product modifiers and show that they are closely linked to boolean operations.", "cite_spans": [], "ref_spans": [], "section": "Product Modifiers"}, {"text": "A k-modifier m = (Q, i, f, d) is a product modifier if, for any k-tuple of finite sets Q, for any k-tuple of finite sets F such that F j \u2286 Q j for all j, and for any i \u2208 Q 1 \u00d7 \u00b7 \u00b7 \u00b7 \u00d7 Q k", "cite_spans": [], "ref_spans": [], "section": "Definition 6."}, {"text": "with \u03b4 a (q) = (\u03b4 a 1 (q 1 ), \u03b4 a 2 (q 2 ), ..., \u03b4 a k (q k )). In other words, if m is a product modifier, then mA is the product automaton of the A j , but with final states f(Q, i, F ) and initial state i(Q, i, F ). Intuitively, product modifiers do not change the transition functions of the automata they act on, but seek only to change their final and initial states. We can easily check that the class of product modifiers is stable by composition.", "cite_spans": [], "ref_spans": [], "section": "Definition 6."}, {"text": "For the sake of simplicity, in this section, m denotes any k-ary product (but not necessarily 1-uniform) modifier and A = (A 1 , . . . , A k ) any sequence of k DFAs, with A j = (\u03a3, Q j , i j , F j , \u03b4 j ). Recall that i = (i 1 , . . . , i k ), Q = (Q 1 , . . . , Q k ) and F = (F 1 , . . . , F k ) . We also denote mA = (\u03a3, Q , i , F , \u03b4) .", "cite_spans": [], "ref_spans": [{"start": 278, "end": 298, "text": "(F 1 , . . . , F k )", "ref_id": "FIGREF4"}, {"start": 321, "end": 339, "text": "(\u03a3, Q , i , F , \u03b4)", "ref_id": null}], "section": "Definition 6."}, {"text": "We define the complementary product to get an easier access to the intersection of languages and their complement.", "cite_spans": [], "ref_spans": [], "section": "Definition 6."}, {"text": "For any k-tuple P of finite sets, for any k-tuple G of finite sets such that G j \u2286 P j for all j, and for any d \u2286 {1, 2, ..., k}, we define cp(d, G, P ) = Proof. Let d = d and suppose that there exists j \u2208 d \\ d . For any element q \u2208 cp(d, F , Q), we have q j \u2208 F j and, for any element q \u2208 cp(d , F , Q), we have", "cite_spans": [], "ref_spans": [], "section": "Definition 7."}, {"text": "Furthermore, consider an element q \u2208 Q and set d = {j | q j \u2208 F j }. Obviously, q \u2208 cp(d, F , Q) . This proves our result.", "cite_spans": [], "ref_spans": [{"start": 80, "end": 96, "text": "q \u2208 cp(d, F , Q)", "ref_id": null}], "section": "Definition 7."}, {"text": "The following lemma sets a restriction on the form of f on each of its entries, given that i does not change the initial states in its entries. F , Q) . The idea of the proof is to construct, with the states in G, two k-tuple of automata B and C that recognize the same languages, and such that L(mB) and L(mC) are different.", "cite_spans": [], "ref_spans": [{"start": 144, "end": 150, "text": "F , Q)", "ref_id": null}], "section": "Definition 7."}, {"text": "We distinguish two cases :", "cite_spans": [], "ref_spans": [], "section": "Definition 7."}, {"text": "\u2022 First, suppose that i \u2208 G. If i \u2208 F then we choose j \u2208 G\\F , otherwise we choose j \u2208 G \u2229 F . Consider the two k-tuples of DFAs B and C such that B l = ({a}, Q l , i l , F l , \u03b2 l ) and C l = ({a}, Q l , i l , F l , \u03b3 l ), where, for all positive integer l \u2264 k, \u03b2 a l (i l ) = j l if x = i l , \u03b2 a l (x) = x if x \u2208 Q i l \\ {i l }, and \u03b3 a l (x) = x, for any x \u2208 Q i l . Let us remark that, as i, j \u2208 G = cp(d, F , Q), i l and j l are either both in F l (if l / \u2208 d), or both not in F l (if l \u2208 d) by definition of cp. Therefore, i l and j l have the same finality in B l , which is also their finality in C l , and either B l and C l recognize a * , or B l and C l recognize \u2205. As described in Fig. 1 , the transition functions \u03b2 of mB and \u03b3 of mC satisfy \u03b2 a (i) = j and \u03b3 a (i) = i. The finality of i is the same in mB and mC. However, it is not the same finality as j in mB and mC. Therefore, we have (a \u2208 L(mB) \u2227 a / \u2208 L(mC)) or (a / \u2208 L(mB) \u2227 a \u2208 L(mC)). As a consequence, L(mB) = L(mC) and this implies that m is not 1-uniform.", "cite_spans": [], "ref_spans": [{"start": 695, "end": 701, "text": "Fig. 1", "ref_id": "FIGREF4"}], "section": "Definition 7."}, {"text": "\u2022 Suppose now that i / \u2208 G. Let j \u2208 G\\F , and let j \u2208 G \u2229 F . Consider the two k-tuple of DFAs B and C such that B l = ({a, b}, Q l , i l , F l , \u03b2 l ) and C l = ({a, b}, Q l , i l , F l , \u03b3 l ), where, for all letters u \u2208 {a, b}, for all positive integer l \u2264 k and all x \u2208 Q l , For any positive integer l \u2264 k, B l and C l recognize the same language. Indeed, from Fig. 2 , as j, j \u2208 G = cp(d, F , Q), j l and j l have the same finality in B l and C l by definition of cp, we distinguish the cases :", "cite_spans": [], "ref_spans": [{"start": 366, "end": 372, "text": "Fig. 2", "ref_id": "FIGREF5"}], "section": "Definition 7."}, {"text": "As mB and mC are cartesian products of the B l and the C l respectively, if we call \u03b2 the transition function of mB and \u03b3 the transition function of mC, we have \u03b2 a (i) = j, \u03b2 b (j) = j , \u03b3 a (i) = j , and \u03b3 b (j ) = j. The finality of j is the same in mB and mC. However, it is different from the finality of j in mB and mC. Therefore, we have (ab \u2208 L(mB) \u2227 ab / \u2208 L(mC)) or (ab / \u2208 L(mB) \u2227 ab \u2208 L(mC)). As a consequence, L(mB) = L(mC) which implies that m is not 1-uniform.", "cite_spans": [], "ref_spans": [], "section": "Definition 7."}, {"text": "The following two lemmas state that, for product modifiers, we can set i = i without changing the regular operation associated to m. Proof. Let us prove the contrapositive of our statement. Assume that i and i do not have the same finality, i.e.", "cite_spans": [], "ref_spans": [], "section": "Definition 7."}, {"text": ". Consider the two k-tuples of DFAs B and C such that B l = ({a}, Q l , i l , F l , \u03b2 l ) and C l = ({a}, Q l , i l , F l , \u03b3 l ), where, for any l \u2208 {1, . . . , k}, \u03b2 a l (i l ) = i l , \u03b2 a l (q) = q when q = i l and \u03b3 a l (q) = q. Let us remark that B l and C l recognize {a} * if i l \u2208 F l , and \u2205 otherwise. In any case, they recognize the same language.", "cite_spans": [], "ref_spans": [], "section": "Definition 7."}, {"text": "If we denote by \u03b2 the transition function of mB and by \u03b3 the transition function of mC, we have \u03b2 a (i ) = i and \u03b3 a (i ) = i . Recall that i is the initial state of mB and mC. Since i and i do not have the same finality, the word a belongs to one of the languages L(mB) or L(mC) but not both (see Fig. 3 ). Hence the two automata do not recognize the same language and, as a consequence, m is not 1-uniform. We define an equivalence relation on states of the output of product modifiers whose relationship with the finality of states is examined in Lemma 4.", "cite_spans": [], "ref_spans": [{"start": 298, "end": 304, "text": "Fig. 3", "ref_id": "FIGREF6"}], "section": "Definition 7."}, {"text": "Let j and j be two k-tuples. We define the equivalence relation \u223c j,j on k-tuples by (x 1 , . . . , x k ) \u223c j,j (y 1 , . . . , y k ) if and only if for all l \u2208 {1, . . . , k}, j l = j l implies x l = y l .", "cite_spans": [], "ref_spans": [{"start": 82, "end": 132, "text": "by (x 1 , . . . , x k ) \u223c j,j (y 1 , . . . , y k )", "ref_id": "FIGREF4"}], "section": "Definition 8."}, {"text": "Example 5. We have (3, 3, 2, 5, 1) \u223c (1,4,3,2,3),(2,4,2,2,6) (1, 3, 5, 5, 2).", "cite_spans": [], "ref_spans": [], "section": "Definition 8."}, {"text": "We do not have (3, 3, 2, 5, 1) \u223c (1,4,3,2,3),(2,4,2,2,6) (1, 3, 5, 1, 2) .", "cite_spans": [], "ref_spans": [], "section": "Definition 8."}, {"text": "If m is 1-uniform then L(mA) = L((\u03a3, Q , i, F , \u03b4)).", "cite_spans": [], "ref_spans": [], "section": "Lemma 4."}, {"text": "Proof. One has to investigate the two complementary cases:", "cite_spans": [], "ref_spans": [], "section": "Lemma 4."}, {"text": "\u2022 There exists two states q \u2208 F , q \u2208 Q \\ F such that q \u223c i,i q .", "cite_spans": [], "ref_spans": [], "section": "Lemma 4."}, {"text": "In this case we prove that i = i , in other words mA = (\u03a3, Q , i, F , \u03b4). Let us show the contrapositive of the property. Suppose i = i . We have to show that m is not 1-uniform. By Lemma 3, i \u2208 F \u2227 i \u2208 F or i / \u2208 F \u2227 i / \u2208 F . Consider the two k-tuples of DFAs B and C such that B l = ({a}, Q l , i l , F l , \u03b2 l ) and C l = ({a}, Q l , i l , F l , \u03b3 l ), where for all l \u2208 {1, . . . , k} and all q \u2208 Q l , \u03b2 a l (q) = q l if q = i l q otherwise and \u03b3 a l (q) = q l if q = i l q otherwise.", "cite_spans": [], "ref_spans": [], "section": "Lemma 4."}, {"text": "Let us remark that either i l = i l , which implies q l = q l , and B l = C l , or i l = i l , and B l and C l recognize {a} * if i l \u2208 F l and \u2205 otherwise. In any case, they recognize the same language. Recall that \u03b2 is the transition function of mB and \u03b3 is the transition function of mC. We have \u03b2 a (i ) = q and \u03b3 a (i ) = q . Thus we have a \u2208 L(mB) and a / \u2208 L(mC). Therefore, L(mB) = L(mC) and m is not 1-uniform.", "cite_spans": [], "ref_spans": [], "section": "Lemma 4."}, {"text": "\u2022 For any two states q, q \u2208 Q , q \u223c i,i q implies that q and q have the same finality.", "cite_spans": [], "ref_spans": [], "section": "Lemma 4."}, {"text": "First, for any letter a \u2208 \u03a3, any two states q, q \u2208 Q , the equivalence q \u223c i,i q implies \u03b4 a (q) = (\u03b4 a 1 (q 1 ), \u03b4 a 2 (q 2 ), . . . , \u03b4 a k (q k )) \u223c i,i (\u03b4 a 1 (q 1 ), \u03b4 a 2 (q 2 ), . . . , \u03b4 a k (q k )) = \u03b4 a (q ).", "cite_spans": [], "ref_spans": [], "section": "Lemma 4."}, {"text": "This property extends inductively to any word w \u2208 \u03a3 * , i.e. q \u223c i,i q implies \u03b4 w (q) \u223c i,i \u03b4 w (q ). In particular, applying this to q = i and q = i , we have \u03b4 w (i ) \u2208 F if and only if \u03b4 w (i) \u2208 F . As a direct consequence, the languages recognized by the two automata are the same. ", "cite_spans": [], "ref_spans": [], "section": "Lemma 4."}, {"text": "Before stating our main result, we need to clarify what is meant by a boolean operation. A boolean operation is an operation associated to an expression involving only the operators union, intersection and complement. It is well known that such an expression is equivalent to one written as a union of intersection of languages or their complement. More formally, Definition 9. A k-ary boolean operation \u2297 over regular languages L 1 , . . . , L k is defined as", "cite_spans": [], "ref_spans": [], "section": "Quasi-boolean Operations"}, {"text": "for some E \u2286 2 {1,...,k} . Notice that there is a one-to-one correspondence between the boolean k-ary operations and the sets E \u2286 2 {1,...,k} . So we denote E \u2297 = E. Example 6. The classical boolean operation union can be written this way: for any two regular languages L 1 and L 2 ,", "cite_spans": [], "ref_spans": [], "section": "Quasi-boolean Operations"}, {"text": "We easily check that boolean operations are 1-uniform and can be associated to some product modifiers. More formally, From Definition 9, we construct a wider class of operators that we prove to be in correspondence with product modifiers.", "cite_spans": [], "ref_spans": [], "section": "Quasi-boolean Operations"}, {"text": "For any k-ary regular operation \u2297, for any v \u2208 {0, 1} k , we denote by \u2297 v the restriction of \u2297 to the set", "cite_spans": [], "ref_spans": [], "section": "Definition 10."}, {"text": "We say that \u2297 is a k-ary quasi-boolean operation if for all v \u2208 {0, 1} k , \u2297 v is a boolean operation, i.e. for any v, there exists a boolean operation \u2297 1 such that for any L \u2208 L v we have \u2297 1 L = \u2297 v L. Example 7. Consider the unary operator defined by \u2297L = L if \u2208 L and L c otherwise. This operation is clearly not boolean. Nevertheless, since for each L \u2208 L (0) we have \u2297L = L and for each L \u2208 L (1) we have \u2297L = L c , the operation \u2297 is quasi-boolean.", "cite_spans": [{"start": 400, "end": 403, "text": "(1)", "ref_id": "BIBREF0"}], "ref_spans": [], "section": "Definition 10."}, {"text": "These operations do not have a higher state complexity than boolean operations, as we show in the following statement.", "cite_spans": [], "ref_spans": [], "section": "Definition 10."}, {"text": "For any quasi-boolean k-ary operation \u2297, we have sc \u2297 (n 1 , . . . , n k ) \u2264 n 1 \u00b7 \u00b7 \u00b7 n k .", "cite_spans": [], "ref_spans": [], "section": "Proposition 1."}, {"text": "Proof. Lemma 5 implies that sc \u2297 (n 1 , . . . , n k ) \u2264 n 1 \u00b7 \u00b7 \u00b7 n k for any boolean operation \u2297. We we prove our statement, by remarking that, for any quasi-boolean operation \u2297, we have sc \u2297 (n 1 , . . . ,", "cite_spans": [], "ref_spans": [], "section": "Proposition 1."}, {"text": "We now introduce our main result that characterizes the operations encoded by 1-uniform product modifiers.", "cite_spans": [], "ref_spans": [], "section": "Proposition 1."}, {"text": "Proof. Let \u2297 be a k-ary quasi-boolean operation. We construct a modifier m such that \u2297 = \u2297 m as follows. We consider the product modifier m = (Q, i, f, d) such that i(Q, i, F ) = i and,", "cite_spans": [], "ref_spans": [], "section": "Theorem 2. An operation \u2297 is quasi-boolean if and only if there exists a 1-"}, {"text": "Let L \u2208 L v for some v \u2208 {0, 1} k . For any k-tuple of DFAs A such that A j = (\u03a3, Q j , i j , F j , \u03b4 j ) recognizes L j , we have i j \u2208 F j if and only if v j = 0. From Lemma 5, one has L(mA) = \u2297 v L. Hence, m is 1 \u2212 unif orm and \u2297 = \u2297 m . Now, we prove the converse. Let \u2297 be a regular operation such that there exists a 1-uniform product modifier m satisfying \u2297 m = \u2297. We use a reductio ad absurdum argument by assuming that \u2297 is not quasi-boolean. Let v \u2208 {0, 1} k be such that \u2297 v is not a boolean operation. Let A be a k-tuple of DFAs We have to examine two cases. Either there exists p \u2208 F such that p / \u2208 d\u2208E cp(d, F , Q ), or there exists p \u2208 d\u2208E cp(d, F , Q ) such that p / \u2208 F . We only describe the first case, as the other one is treated symmetrically. Therefore, Lemma 1 implies that there exists d \u2208 H \\ E such that p \u2208 cp(d, F , Q ). Let p \u2208 cp(d, F , Q). Notice that p \u2208 F while each p l has the same finality in B l as p l in B l . Also remark that, as (L(A 1 ), . . . , L(A k )) and (L(A 1 ), . . . , L(A k )) are in L v , for all l \u2208 {1, . . . , k}, v l = 0 implies i l \u2208 F l and i l \u2208 F l , and v l = 1 implies i l / \u2208 F l and i l / \u2208 F l . Now consider the two k-tuples of DFAs B and B such that B l = ({a}, Q l , i l , F l , \u03b2 l ) and B l = ({a}, Q l , i l , F l , \u03b2 l ), where \u03b2 l and \u03b2 l are defined, for all positive integer l \u2264 k and all (q, q ) \u2208 Q l \u00d7 Q l , by : \u03b2 a l (q) = p l if q = i l q otherwise. and \u03b2 a l (q ) = p l if q = i l q otherwise.", "cite_spans": [], "ref_spans": [], "section": "Theorem 2. An operation \u2297 is quasi-boolean if and only if there exists a 1-"}, {"text": "We notice that, for all l \u2208 {1, . . . , k}, B l and B l recognize the same language L l . Indeed, since i l and i l have the same finality and p l and p l have the same finality, one has to examine four cases which are summarized in Table 1 . Furthermore, we have \u03b2 a (i) = p \u2208 F , and \u03b2 a (i ) = p \u2208 F , which means that a \u2208 L(mB) and a \u2208 L(mB ), which contradicts the 1-uniformity of m. Table 1 . Common values of L(B l ) and L(B l ).", "cite_spans": [], "ref_spans": [{"start": 233, "end": 240, "text": "Table 1", "ref_id": null}, {"start": 389, "end": 396, "text": "Table 1", "ref_id": null}], "section": "Theorem 2. An operation \u2297 is quasi-boolean if and only if there exists a 1-"}, {"text": "We have shown that some very simple modifiers, namely product modifiers, encode a class of very low state complexity operations. This is a non-trivial example of a set of modifiers closed by composition whose associated regular operations are completely described.", "cite_spans": [], "ref_spans": [], "section": "Conclusion"}, {"text": "The proof techniques open perspectives to explore other classes of modifiers closed by composition. The aim for our future works is to establish a kind of atlas, as complete as possible, of the set of modifiers in relation to the theory of state complexity.", "cite_spans": [], "ref_spans": [], "section": "Conclusion"}], "bib_entries": {"BIBREF0": {"ref_id": "b0", "title": "On the state complexity of the shuffle of regular languages", "authors": [{"first": "J", "middle": [], "last": "Brzozowski", "suffix": ""}, {"first": "G", "middle": [], "last": "Jir\u00e1skov\u00e1", "suffix": ""}, {"first": "B", "middle": [], "last": "Liu", "suffix": ""}, {"first": "A", "middle": [], "last": "Rajasekaran", "suffix": ""}, {"first": "M", "middle": [], "last": "Szyku La", "suffix": ""}], "year": 2016, "venue": "DCFS 2016", "volume": "9777", "issn": "", "pages": "73--86", "other_ids": {"DOI": ["10.1007/978-3-319-41114-9_6"]}}, "BIBREF1": {"ref_id": "b1", "title": "New tools for state complexity", "authors": [{"first": "P", "middle": [], "last": "Caron", "suffix": ""}, {"first": "E", "middle": [], "last": "Hame-De-Le-Court", "suffix": ""}, {"first": "J", "middle": ["G"], "last": "Luque", "suffix": ""}, {"first": "B", "middle": [], "last": "Patrou", "suffix": ""}], "year": 2020, "venue": "Discret. Math. Theor. Comput. Sci", "volume": "22", "issn": "1", "pages": "", "other_ids": {}}, "BIBREF2": {"ref_id": "b2", "title": "Algebraic and combinatorial tools for state complexity : application to the star-xor problem", "authors": [{"first": "P", "middle": [], "last": "Caron", "suffix": ""}, {"first": "E", "middle": [], "last": "Hame-De-Le-Court", "suffix": ""}, {"first": "J", "middle": ["G"], "last": "Luque", "suffix": ""}], "year": 2019, "venue": "Proceedings Tenth International Symposium on Games, Automata, Logics, and Formal Verification", "volume": "305", "issn": "", "pages": "154--168", "other_ids": {}}, "BIBREF3": {"ref_id": "b3", "title": "State complexity of catenation combined with a boolean operation: a unified approach", "authors": [{"first": "P", "middle": [], "last": "Caron", "suffix": ""}, {"first": "J.-G", "middle": [], "last": "Luque", "suffix": ""}, {"first": "L", "middle": [], "last": "Mignot", "suffix": ""}, {"first": "B", "middle": [], "last": "Patrou", "suffix": ""}], "year": 2016, "venue": "Int. J. Found. Comput. Sci", "volume": "27", "issn": "6", "pages": "675--704", "other_ids": {}}, "BIBREF4": {"ref_id": "b4", "title": "A general approach to state complexity of operations: formalization and limitations", "authors": [{"first": "S", "middle": [], "last": "Davies", "suffix": ""}], "year": 2018, "venue": "DLT 2018", "volume": "11088", "issn": "", "pages": "256--268", "other_ids": {"DOI": ["10.1007/978-3-319-98654-8_21"]}}, "BIBREF5": {"ref_id": "b5", "title": "State complexity of proportional removals", "authors": [{"first": "M", "middle": [], "last": "Domaratzki", "suffix": ""}], "year": 2002, "venue": "J. Automata Lang. Comb", "volume": "7", "issn": "4", "pages": "455--468", "other_ids": {}}, "BIBREF6": {"ref_id": "b6", "title": "State complexity of power", "authors": [{"first": "M", "middle": [], "last": "Domaratzki", "suffix": ""}, {"first": "A", "middle": [], "last": "Okhotin", "suffix": ""}], "year": 2009, "venue": "Theor. Comput. Sci", "volume": "410", "issn": "", "pages": "2377--2392", "other_ids": {}}, "BIBREF7": {"ref_id": "b7", "title": "A survey on operational state complexity", "authors": [{"first": "Y", "middle": [], "last": "Gao", "suffix": ""}, {"first": "N", "middle": [], "last": "Moreira", "suffix": ""}, {"first": "R", "middle": [], "last": "Reis", "suffix": ""}, {"first": "Y", "middle": [], "last": "Sheng", "suffix": ""}], "year": 2017, "venue": "J. Automata Lang. Comb", "volume": "21", "issn": "4", "pages": "251--310", "other_ids": {}}, "BIBREF8": {"ref_id": "b8", "title": "Introduction to Automata Theory, Languages, and Computation", "authors": [{"first": "J", "middle": ["E"], "last": "Hopcroft", "suffix": ""}, {"first": "R", "middle": [], "last": "Motwani", "suffix": ""}, {"first": "J", "middle": ["D"], "last": "Ullman", "suffix": ""}], "year": 2007, "venue": "", "volume": "", "issn": "", "pages": "", "other_ids": {}}, "BIBREF9": {"ref_id": "b9", "title": "Introduction to Automata Theory, Languages and Computation", "authors": [{"first": "J", "middle": ["E"], "last": "Hopcroft", "suffix": ""}, {"first": "J", "middle": ["D"], "last": "Ullman", "suffix": ""}], "year": 1979, "venue": "", "volume": "", "issn": "", "pages": "", "other_ids": {}}, "BIBREF10": {"ref_id": "b10", "title": "State complexity of concatenation and complementation", "authors": [{"first": "J", "middle": [], "last": "Jir\u00e1sek", "suffix": ""}, {"first": "G", "middle": [], "last": "Jir\u00e1skov\u00e1", "suffix": ""}, {"first": "A", "middle": [], "last": "Szabari", "suffix": ""}], "year": 2005, "venue": "Int. J. Found. Comput. Sci", "volume": "16", "issn": "3", "pages": "511--529", "other_ids": {}}, "BIBREF11": {"ref_id": "b11", "title": "State complexity of some operations on binary regular languages", "authors": [{"first": "G", "middle": [], "last": "Jir\u00e1skov\u00e1", "suffix": ""}], "year": 2005, "venue": "Theor. Comput. Sci", "volume": "330", "issn": "2", "pages": "287--298", "other_ids": {}}, "BIBREF12": {"ref_id": "b12", "title": "State complexity of cyclic shift", "authors": [{"first": "G", "middle": [], "last": "Jir\u00e1skov\u00e1", "suffix": ""}, {"first": "A", "middle": [], "last": "Okhotin", "suffix": ""}], "year": 2008, "venue": "ITA", "volume": "42", "issn": "2", "pages": "335--360", "other_ids": {}}, "BIBREF13": {"ref_id": "b13", "title": "Estimates of the number of states of finite automata", "authors": [{"first": "A", "middle": ["N"], "last": "Maslov", "suffix": ""}], "year": 1970, "venue": "Soviet Math. Dokl", "volume": "11", "issn": "", "pages": "1373--1375", "other_ids": {}}, "BIBREF14": {"ref_id": "b14", "title": "State complexity of regular languages", "authors": [{"first": "Y", "middle": [], "last": "Sheng", "suffix": ""}], "year": 2001, "venue": "J. Automata Lang. Comb", "volume": "6", "issn": "2", "pages": "", "other_ids": {}}}, "ref_entries": {"FIGREF0": {"text": "(A 1 , . . . , A k ), on the same alphabet \u03a3, and producing a DFA m(A 1 , ..., A k ) such that -its alphabet is \u03a3, -its state configuration depends only on the state configurations of the DFAs A 1 , . . . , A k , -for any letter a \u2208 \u03a3, the transition function of a in m(A 1 , . . . , A k ) depends only on the state configurations of the DFAs A 1 , . . . , A k and on the transition functions of a in each of the DFAs A 1 , ..., A k .", "latex": null, "type": "figure"}, "FIGREF1": {"text": "{i} otherwise. The modifier Star describes a construcion on DFA associated to the Star operation on languages, i.e. for all DFA A, L(A) * = L(Star(A)).", "latex": null, "type": "figure"}, "FIGREF2": {"text": "The modifier Xor describes the classical construction associated to the symmetrical difference, i.e for all DFAs A and B, L(A) \u2295 L(B) = L(Xor(A, B)). Definition 5. A k-modifier m is 1-uniform if, for every pair of k-tuples of DFAs (A 1 , . . . , A k ) and (B 1 , . . . , B k ) such that L(A j ) = L(B j ) for all j \u2208 {1, . . . , k}, we have L(m(A 1 , . . . , A k )) = L(m(B 1 , . . . , B k )). In that case, there exists a regular operation \u2297 m such that, for all k-tuples (A 1 , . . . , A k ) of DFAs, we have \u2297 m (L(A 1 ), . . . , L(A k )) = L(m(A 1 , . . . , A k ))", "latex": null, "type": "figure"}, "FIGREF3": {"text": "cp({1, 3}, ({1}, {2, 3}, {2}), ({1, 2}, {1, 2, 3, 4}, {1, 2, 3})) = {2} \u00d7 {2, 3} \u00d7 {1, 3}. Lemma 1. The set {cp(d, F , Q) | d \u2286 {1, . . . , k}} is a partition of Q .", "latex": null, "type": "figure"}, "FIGREF4": {"text": "Part of mB and mC.", "latex": null, "type": "figure"}, "FIGREF5": {"text": "Parts of B l and C l .", "latex": null, "type": "figure"}, "FIGREF6": {"text": "If m is 1-uniform then i and i have the same finality.", "latex": null, "type": "figure"}, "FIGREF7": {"text": "Part of mB and mC.", "latex": null, "type": "figure"}, "FIGREF8": {"text": "Assume that \u2297 is a k-ary boolean operation. Then \u2297 = \u2297 m , where m = (Q, i, f, d) is a product modifier such that i(Q, i, F ) = i and f(Q, i, F ) = d\u2208E\u2297 cp(d, F , Q).", "latex": null, "type": "figure"}, "FIGREF9": {"text": "Furthermore, we assume that for all l \u2208 {1, . . . , k}, F l / \u2208 {\u2205, Q l }. By Corollary 1, there exists E \u2286 2 {1,2,...,k} such that F = f(Q, i, F ) = d\u2208E cp(d, F , Q). Therefore, mA = d\u2208E l\u2208d L(A l ) \u2229 l\u2208{1,2,...,k}\\d L(A l ) c which is obviously a boolean operation applied to (L(A 1 ), . . . , L(A k )). Since \u2297 v is not a boolean operation, there exists A , with A l = (\u03a3 , Q l , i l , F l , \u03b1 l ), a k-tuple of DFAs such that (L(A 1 ), . . . , L(A k )) \u2208 L v and mA = d\u2208E l\u2208d L(A l ) \u2229 l\u2208{1,2,...,k}\\d L(A l ) c . We construct new k-tuples of DFAs B and B such that L(B l ) = L(B l ) but such that L(mB) = L(mB ), contradicting the 1-uniformity of m. By Corollary 1, there exists H \u2286 2 {1,...,k} such that F = f(Q , i , F ) = d\u2208H cp(d, F , Q ).", "latex": null, "type": "figure"}, "TABREF0": {"text": "If m is 1-uniform then there exists E \u2286 2 {1,2,...,k} such that F = Proof. Let us prove the contrapositive statement and assume that there is no set E \u2286 2 {1,2,...,k} such that F = d\u2208E cp(d, F , Q). From Lemma 1, there exists d \u2286 {1, 2, ..., k} such that F \u2229 cp(d, F , Q) / \u2208 {\u2205, cp(d, F , Q)}. Let d be such a set and let G = cp(d,", "latex": null, "type": "table"}, "TABREF1": {"text": "Corollary 1.If m is 1-uniform then there exists E \u2286 2 {1,2,...,k} such that F =", "latex": null, "type": "table"}, "TABREF2": {"text": "Table 1. Common values of L ( B l ) and L ( B l ).", "latex": null, "type": "table", "html": "<html><body><table><tr><td>\u2032\nl) L(Bl) = L(B\n</td><td>il \u2208 Fl </td><td>il \u2208 Fl\n</td></tr><tr><td>pl \u2208 Fl </td><td>{a\u2217} </td><td>{a}+\n</td></tr><tr><td>pl \u2208 Fl </td><td>{} </td><td>\u2205\n</td></tr></table></body></html>"}}, "back_matter": []}
+{
+    "abstract": [
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "A modifier is a k-ary operator acting on DFAs and producing a DFA. Modifiers are involved in the theory of state complexity. We define and study a class of simple modifiers, called product modifiers, and we link closely the regular operations they encode to boolean operations."
+        }
+    ],
+    "back_matter": [],
+    "bib_entries": {
+        "BIBREF0": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Brzozowski",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Jir\u00e1skov\u00e1",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Liu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Rajasekaran",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Szyku La",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-3-319-41114-9_6"
+                ]
+            },
+            "pages": "73--86",
+            "ref_id": "b0",
+            "title": "On the state complexity of the shuffle of regular languages",
+            "venue": "DCFS 2016",
+            "volume": "9777",
+            "year": 2016
+        },
+        "BIBREF1": {
+            "authors": [
+                {
+                    "first": "P",
+                    "last": "Caron",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Hame-De-Le-Court",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Luque",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Patrou",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "1",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b1",
+            "title": "New tools for state complexity",
+            "venue": "Discret. Math. Theor. Comput. Sci",
+            "volume": "22",
+            "year": 2020
+        },
+        "BIBREF10": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Jir\u00e1sek",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Jir\u00e1skov\u00e1",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Szabari",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "3",
+            "other_ids": {},
+            "pages": "511--529",
+            "ref_id": "b10",
+            "title": "State complexity of concatenation and complementation",
+            "venue": "Int. J. Found. Comput. Sci",
+            "volume": "16",
+            "year": 2005
+        },
+        "BIBREF11": {
+            "authors": [
+                {
+                    "first": "G",
+                    "last": "Jir\u00e1skov\u00e1",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "2",
+            "other_ids": {},
+            "pages": "287--298",
+            "ref_id": "b11",
+            "title": "State complexity of some operations on binary regular languages",
+            "venue": "Theor. Comput. Sci",
+            "volume": "330",
+            "year": 2005
+        },
+        "BIBREF12": {
+            "authors": [
+                {
+                    "first": "G",
+                    "last": "Jir\u00e1skov\u00e1",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Okhotin",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "2",
+            "other_ids": {},
+            "pages": "335--360",
+            "ref_id": "b12",
+            "title": "State complexity of cyclic shift",
+            "venue": "ITA",
+            "volume": "42",
+            "year": 2008
+        },
+        "BIBREF13": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Maslov",
+                    "middle": [
+                        "N"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1373--1375",
+            "ref_id": "b13",
+            "title": "Estimates of the number of states of finite automata",
+            "venue": "Soviet Math. Dokl",
+            "volume": "11",
+            "year": 1970
+        },
+        "BIBREF14": {
+            "authors": [
+                {
+                    "first": "Y",
+                    "last": "Sheng",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "2",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b14",
+            "title": "State complexity of regular languages",
+            "venue": "J. Automata Lang. Comb",
+            "volume": "6",
+            "year": 2001
+        },
+        "BIBREF2": {
+            "authors": [
+                {
+                    "first": "P",
+                    "last": "Caron",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Hame-De-Le-Court",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Luque",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "154--168",
+            "ref_id": "b2",
+            "title": "Algebraic and combinatorial tools for state complexity : application to the star-xor problem",
+            "venue": "Proceedings Tenth International Symposium on Games, Automata, Logics, and Formal Verification",
+            "volume": "305",
+            "year": 2019
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "P",
+                    "last": "Caron",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-G",
+                    "last": "Luque",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Mignot",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Patrou",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "6",
+            "other_ids": {},
+            "pages": "675--704",
+            "ref_id": "b3",
+            "title": "State complexity of catenation combined with a boolean operation: a unified approach",
+            "venue": "Int. J. Found. Comput. Sci",
+            "volume": "27",
+            "year": 2016
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Davies",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-3-319-98654-8_21"
+                ]
+            },
+            "pages": "256--268",
+            "ref_id": "b4",
+            "title": "A general approach to state complexity of operations: formalization and limitations",
+            "venue": "DLT 2018",
+            "volume": "11088",
+            "year": 2018
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Domaratzki",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "4",
+            "other_ids": {},
+            "pages": "455--468",
+            "ref_id": "b5",
+            "title": "State complexity of proportional removals",
+            "venue": "J. Automata Lang. Comb",
+            "volume": "7",
+            "year": 2002
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Domaratzki",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Okhotin",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "2377--2392",
+            "ref_id": "b6",
+            "title": "State complexity of power",
+            "venue": "Theor. Comput. Sci",
+            "volume": "410",
+            "year": 2009
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "Y",
+                    "last": "Gao",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Moreira",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Reis",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Sheng",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "4",
+            "other_ids": {},
+            "pages": "251--310",
+            "ref_id": "b7",
+            "title": "A survey on operational state complexity",
+            "venue": "J. Automata Lang. Comb",
+            "volume": "21",
+            "year": 2017
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Hopcroft",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Motwani",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Ullman",
+                    "middle": [
+                        "D"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b8",
+            "title": "Introduction to Automata Theory, Languages, and Computation",
+            "venue": "",
+            "volume": "",
+            "year": 2007
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Hopcroft",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Ullman",
+                    "middle": [
+                        "D"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b9",
+            "title": "Introduction to Automata Theory, Languages and Computation",
+            "venue": "",
+            "volume": "",
+            "year": 1979
+        }
+    },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 296,
+                    "ref_id": "BIBREF13",
+                    "start": 292,
+                    "text": "[14]"
+                },
+                {
+                    "end": 533,
+                    "ref_id": "BIBREF5",
+                    "start": 530,
+                    "text": "[6,"
+                },
+                {
+                    "end": 538,
+                    "ref_id": "BIBREF10",
+                    "start": 534,
+                    "text": "[11]"
+                },
+                {
+                    "end": 543,
+                    "ref_id": "BIBREF11",
+                    "start": 539,
+                    "text": "[12]"
+                },
+                {
+                    "end": 548,
+                    "ref_id": "BIBREF12",
+                    "start": 544,
+                    "text": "[13]"
+                },
+                {
+                    "end": 552,
+                    "ref_id": "BIBREF14",
+                    "start": 549,
+                    "text": "15]"
+                },
+                {
+                    "end": 560,
+                    "ref_id": "BIBREF7",
+                    "start": 557,
+                    "text": "[8]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "State complexity is a measure of complexity defined on regular operations. It allows to write the size of the minimal automaton recognizing the output as a function of the sizes of the minimal automata recognizing the inputs. The topic dates back to the 70s, from the seminal paper of Maslov [14] describing, explicitly but without any proof, the state complexities of several operations. Since the 90s, this area of research became very active and the state complexity of numerous operations has been computed. See, for example, [6, [11] [12] [13] 15] and [8] for a survey of the subject."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 453,
+                    "ref_id": "BIBREF0",
+                    "start": 450,
+                    "text": "[1,"
+                },
+                {
+                    "end": 456,
+                    "ref_id": "BIBREF6",
+                    "start": 454,
+                    "text": "7]"
+                },
+                {
+                    "end": 463,
+                    "ref_id": "BIBREF3",
+                    "start": 460,
+                    "text": "[4]"
+                },
+                {
+                    "end": 723,
+                    "ref_id": "BIBREF1",
+                    "start": 720,
+                    "text": "[2,"
+                },
+                {
+                    "end": 726,
+                    "ref_id": "BIBREF4",
+                    "start": 724,
+                    "text": "5]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "However, a few general methods are commonly used in order to compute state complexities. The most common method consists in providing a witness, which is a specific example reaching what is proven to be an upper bound. The witness itself is, in general, found by trial and error, sometimes using a witness that worked for a number of other operations and modifying it to fit the specific needs of the operation considered. In many cases, for example [1, 7] or [4] , the witness is constructed by considering, explicitly or implicitly, the whole monoid of the transformations acting on the states of the minimal automata recognizing the input languages. This method has been theorized in two independently written papers [2, 5] . More precisely, the approach consists, on the one hand, in describing states as combinatorial objects and finding upper bounds using combinatorial tools, and, on the other hand, in building a huge witness, called a monster, chosen in a set of automata having as many transition functions as possible. This method can be applied to obtain the state complexity to the wide range of 1-uniform operations that are associated to operators, called modifiers, that act on automata to produce an automaton in a certain restrictive way. In this paper, we examine the regular operations described by the class of some very simple modifiers called product modifiers. These modifiers are characterized by the fact that they build the Cartesian product automaton with the transitions took from the input automata. We investigate many properties of this class and in particular we completely describe the set of the regular operations that can be encoded by product modifiers. The paper is organized as follows. Section 2 gives definitions and notations about automata. In Sect. 3, we partially recall the monster approach. Finally, in Sect. 4, we define product modifiers and characterize the regular operations they encode in Sect. 5."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Operations over Sets",
+            "text": "The set of subsets of E is denoted by 2 E and the set of mappings of E into itself is denoted by E E . The symmetric difference of two sets E 1 and E 2 is denoted by \u2295 and defined by"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Operations over Sets",
+            "text": "Let (E 1 , . . . , E k ) be a k-tuple of finite sets, and let (\u03b4 1 , . . . , \u03b4 k ) be a ktuple such that \u03b4 i is a function from E i to E i for every i \u2208 {1, . . . , k}. For any k-tuple (e 1 , . . . , e k ) such that e i \u2208 E i for all i \u2208 {1, . . . , k}, we denote by (\u03b4 1 , . . . , \u03b4 k )(e 1 , . . . , e k ) the k-tuple (\u03b4 1 (e 1 ), . . . , \u03b4 k (e k ))."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Operations over Sets",
+            "text": "Let E be a set, f :"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Operations over Sets",
+            "text": ". . , e p\u22121 , g(e p , . . . , e p+k\u22121 ), e p+k , . . . , e j+k\u22121 ), for any e 1 , . . . , e j+k\u22121 \u2208 E."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Languages and Automata",
+            "text": "Let \u03a3 be a finite alphabet. A word w over \u03a3 is a finite sequence of symbols of \u03a3. The set of all finite words over \u03a3 is denoted by \u03a3 * . A language over \u03a3 is a subset of \u03a3 * . We define the complement of a language L \u2286 \u03a3 * by L c = \u03a3 * \\ L."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Languages and Automata",
+            "text": "A complete and deterministic finite automaton (DFA) is a 5-tuple A = (\u03a3, Q, i, F, \u03b4) where \u03a3 is the input alphabet, Q is a finite set of states, i \u2208 Q is the initial state, F \u2282 Q is the set of final states and \u03b4 is the transition function from Q \u00d7 \u03a3 to Q that is defined for every q \u2208 Q and every a \u2208 \u03a3. We can extend transition functions in a natural way to functions from Q \u00d7 \u03a3 * to Q, and again to functions from 2 Q \u00d7 \u03a3 * to Q. For any word w, we denote by \u03b4 w the function q \u2192 \u03b4(q, w)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Languages and Automata",
+            "text": "The language recognized by a DFA A is the set L(A) of words recognized by A. By Kleene's theorem, a language is regular if and only if it is recognized by a DFA. It is well known that for any DFA, there exists a unique minimal one (up to isomorphism) among all DFAs recognizing the same language ([10])."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "State Complexity",
+            "text": "A unary regular operation is a function from regular languages of \u03a3 into regular languages of \u03a3. A k-ary regular operation is a function from the set of k-tuples of regular languages over \u03a3 into regular languages over \u03a3."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "State Complexity",
+            "text": "The state complexity of a regular language L denoted by sc(L) is the number of states of its minimal DFA. This notion extends to regular operations: the state complexity of a unary regular operation \u2297 is the function sc \u2297 such that, for all n \u2208 N, sc \u2297 (n) is the maximum of all the state complexities of \u2297(L) when L is of state complexity n, i.e. sc \u2297 (n) = max{sc(\u2297(L))|sc(L) = n}."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "State Complexity",
+            "text": "This can be generalized, and the state complexity of a k-ary operation \u2297 is the k-ary function sc \u2297 such that, for all (n 1 , . . . , n k ) \u2208 (N) k ,"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "State Complexity",
+            "text": "Then, a witness for \u2297 is a way to assign to each (n 1 , . . . , n k ), where each n i is assumed sufficiently big, a k-tuple of languages (L 1 , . . . , L k ) with sc(L i ) = n i , for all i \u2208 {1, . . . , k}, satisfying sc \u2297 (n 1 , . . . , n k ) = sc(\u2297(L 1 , . . . , L k ))."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 119,
+                    "ref_id": "BIBREF2",
+                    "start": 116,
+                    "text": "[3,"
+                },
+                {
+                    "end": 122,
+                    "ref_id": "BIBREF4",
+                    "start": 120,
+                    "text": "5]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Modifiers and 1-uniform Operations",
+            "text": "We describe a class of regular operations, called 1-uniform which are interesting for the study of state complexity [3, 5] . We then define operations on DFA called modifiers, and describe a subset of these operations that correspond to the set of 1-uniform regular operations."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 136,
+                    "ref_id": null,
+                    "start": 133,
+                    "text": "(v)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Definition and First Properties",
+            "text": "Definition 1. Let \u03a3 and \u0393 be two alphabets. A morphism is a function \u03c6 from \u03a3 * to \u0393 * such that, for all w, v \u2208 \u03a3 * , \u03c6(wv) = \u03c6(w)\u03c6 (v) . Notice that \u03c6 is completely defined by its value on letters. A morphism \u03c6 is 1-uniform if the image by \u03c6 of any letter is a letter."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 88,
+                    "ref_id": "BIBREF8",
+                    "start": 85,
+                    "text": "[9]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Definition and First Properties",
+            "text": "The preimage \u03c6 \u22121 (L) of a regular language L by a morphism \u03c6 is regular, see, e.g., [9] . This allows us to introduce the notion of 1-uniform regular operation."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 107,
+                    "ref_id": "BIBREF4",
+                    "start": 104,
+                    "text": "[5]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Definition 2. A k-ary regular operation",
+            "text": "Obviously, 1-uniformity is stable by composition. Many well-known regular operations are 1-uniform. See [5] for a non-exhaustive list of examples like the complement, the Kleene star, the reverse, the cyclic shift, and the mirror, all boolean operations and catenation among others."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 2. A k-ary regular operation",
+            "text": "Each 1-uniform regular k-ary operation corresponds to a construction over DFAs, which is handy when we need to compute the state complexity of its elements. Such a construction on DFAs has some constraints that are described in the following definitions. . We say that m describes the operation \u2297 m ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 3. The state configuration of a DFA",
+            "text": "A = (\u03a3, Q, i, F, \u03b4) is the triplet (Q, i, F )."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 4. A k-modifier is a k-ary operation acting on a k-tuple of DFAs",
+            "text": "Example 1. For any DFA A = (\u03a3, Q, i, F, \u03b4), define Star(A) = (\u03a3, 2 Q , \u2205, {E|E \u2229 F = \u2205} \u222a {\u2205}, \u03b4 1 ), where for any a \u2208 \u03a3, \u03b4 a 1 (\u2205) = \u03b4 a (i) if \u03b4 a (i) / \u2208 F and \u03b4 a 1 (\u2205) = \u03b4 a (i) otherwise, and, for all E = \u2205, \u03b4 a 1 (E) = \u03b4 a (E) if \u03b4 a (E) \u2229 F = \u2205 and \u03b4 a 1 (E) = \u03b4 a (E) \u222a"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Example 2. For any DFAs",
+            "text": "We easily check that, for modifiers, the 1-uniformity is stable by composition."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Example 2. For any DFAs",
+            "text": "Claim. Let m 1 and m 2 be respectively a j-modifier and a k-modifier describing, respectively, operations \u2297 1 and \u2297 2 . The modifier"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 120,
+                    "ref_id": "BIBREF2",
+                    "start": 117,
+                    "text": "[3]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Example 2. For any DFAs",
+            "text": "The correspondence between 1-uniform modifiers and 1-uniform operations is stated in the following Theorem proved in [3] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 55,
+                    "ref_id": "BIBREF1",
+                    "start": 52,
+                    "text": "[2]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Example 2. For any DFAs",
+            "text": "Modifiers have been defined, for the first time, in [2] as a tool to compute state complexity of 1-uniform operations."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Functional Notations",
+            "text": "When there is no ambiguity, for any character X and any integer k given by the context, we write X for (X 1 , \u00b7 \u00b7 \u00b7 , X k ). The number k will often be the arity of the regular operation or of the modifier we are considering."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 82,
+                    "ref_id": null,
+                    "start": 73,
+                    "text": "F , \u03b4 a )"
+                }
+            ],
+            "section": "Functional Notations",
+            "text": "From Definition 4, any k-modifier m can be seen as a 4-tuple of mappings F , \u03b4 a ) . For the sake of clarity, we do not write explicitly the domains of the 4-tuple of mappings but the reader can derive them easily from the above equalities. Notice that we do not need to point out explicitly the dependency of d on Q because the information is already contained in \u03b4 a . We identify modifiers and such 4-tuples of mappings with each other. Below we revisit the definition of Xor according to this formalism."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Product Modifiers",
+            "text": "In this section, we study a kind of simple modifier called product modifiers and show that they are closely linked to boolean operations."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 6.",
+            "text": "A k-modifier m = (Q, i, f, d) is a product modifier if, for any k-tuple of finite sets Q, for any k-tuple of finite sets F such that F j \u2286 Q j for all j, and for any i \u2208 Q 1 \u00d7 \u00b7 \u00b7 \u00b7 \u00d7 Q k"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 6.",
+            "text": "with \u03b4 a (q) = (\u03b4 a 1 (q 1 ), \u03b4 a 2 (q 2 ), ..., \u03b4 a k (q k )). In other words, if m is a product modifier, then mA is the product automaton of the A j , but with final states f(Q, i, F ) and initial state i(Q, i, F ). Intuitively, product modifiers do not change the transition functions of the automata they act on, but seek only to change their final and initial states. We can easily check that the class of product modifiers is stable by composition."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 298,
+                    "ref_id": "FIGREF4",
+                    "start": 278,
+                    "text": "(F 1 , . . . , F k )"
+                },
+                {
+                    "end": 339,
+                    "ref_id": null,
+                    "start": 321,
+                    "text": "(\u03a3, Q , i , F , \u03b4)"
+                }
+            ],
+            "section": "Definition 6.",
+            "text": "For the sake of simplicity, in this section, m denotes any k-ary product (but not necessarily 1-uniform) modifier and A = (A 1 , . . . , A k ) any sequence of k DFAs, with A j = (\u03a3, Q j , i j , F j , \u03b4 j ). Recall that i = (i 1 , . . . , i k ), Q = (Q 1 , . . . , Q k ) and F = (F 1 , . . . , F k ) . We also denote mA = (\u03a3, Q , i , F , \u03b4) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 6.",
+            "text": "We define the complementary product to get an easier access to the intersection of languages and their complement."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 7.",
+            "text": "For any k-tuple P of finite sets, for any k-tuple G of finite sets such that G j \u2286 P j for all j, and for any d \u2286 {1, 2, ..., k}, we define cp(d, G, P ) = Proof. Let d = d and suppose that there exists j \u2208 d \\ d . For any element q \u2208 cp(d, F , Q), we have q j \u2208 F j and, for any element q \u2208 cp(d , F , Q), we have"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 96,
+                    "ref_id": null,
+                    "start": 80,
+                    "text": "q \u2208 cp(d, F , Q)"
+                }
+            ],
+            "section": "Definition 7.",
+            "text": "Furthermore, consider an element q \u2208 Q and set d = {j | q j \u2208 F j }. Obviously, q \u2208 cp(d, F , Q) . This proves our result."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 150,
+                    "ref_id": null,
+                    "start": 144,
+                    "text": "F , Q)"
+                }
+            ],
+            "section": "Definition 7.",
+            "text": "The following lemma sets a restriction on the form of f on each of its entries, given that i does not change the initial states in its entries. F , Q) . The idea of the proof is to construct, with the states in G, two k-tuple of automata B and C that recognize the same languages, and such that L(mB) and L(mC) are different."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 7.",
+            "text": "We distinguish two cases :"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 701,
+                    "ref_id": "FIGREF4",
+                    "start": 695,
+                    "text": "Fig. 1"
+                }
+            ],
+            "section": "Definition 7.",
+            "text": "\u2022 First, suppose that i \u2208 G. If i \u2208 F then we choose j \u2208 G\\F , otherwise we choose j \u2208 G \u2229 F . Consider the two k-tuples of DFAs B and C such that B l = ({a}, Q l , i l , F l , \u03b2 l ) and C l = ({a}, Q l , i l , F l , \u03b3 l ), where, for all positive integer l \u2264 k, \u03b2 a l (i l ) = j l if x = i l , \u03b2 a l (x) = x if x \u2208 Q i l \\ {i l }, and \u03b3 a l (x) = x, for any x \u2208 Q i l . Let us remark that, as i, j \u2208 G = cp(d, F , Q), i l and j l are either both in F l (if l / \u2208 d), or both not in F l (if l \u2208 d) by definition of cp. Therefore, i l and j l have the same finality in B l , which is also their finality in C l , and either B l and C l recognize a * , or B l and C l recognize \u2205. As described in Fig. 1 , the transition functions \u03b2 of mB and \u03b3 of mC satisfy \u03b2 a (i) = j and \u03b3 a (i) = i. The finality of i is the same in mB and mC. However, it is not the same finality as j in mB and mC. Therefore, we have (a \u2208 L(mB) \u2227 a / \u2208 L(mC)) or (a / \u2208 L(mB) \u2227 a \u2208 L(mC)). As a consequence, L(mB) = L(mC) and this implies that m is not 1-uniform."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 372,
+                    "ref_id": "FIGREF5",
+                    "start": 366,
+                    "text": "Fig. 2"
+                }
+            ],
+            "section": "Definition 7.",
+            "text": "\u2022 Suppose now that i / \u2208 G. Let j \u2208 G\\F , and let j \u2208 G \u2229 F . Consider the two k-tuple of DFAs B and C such that B l = ({a, b}, Q l , i l , F l , \u03b2 l ) and C l = ({a, b}, Q l , i l , F l , \u03b3 l ), where, for all letters u \u2208 {a, b}, for all positive integer l \u2264 k and all x \u2208 Q l , For any positive integer l \u2264 k, B l and C l recognize the same language. Indeed, from Fig. 2 , as j, j \u2208 G = cp(d, F , Q), j l and j l have the same finality in B l and C l by definition of cp, we distinguish the cases :"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 7.",
+            "text": "As mB and mC are cartesian products of the B l and the C l respectively, if we call \u03b2 the transition function of mB and \u03b3 the transition function of mC, we have \u03b2 a (i) = j, \u03b2 b (j) = j , \u03b3 a (i) = j , and \u03b3 b (j ) = j. The finality of j is the same in mB and mC. However, it is different from the finality of j in mB and mC. Therefore, we have (ab \u2208 L(mB) \u2227 ab / \u2208 L(mC)) or (ab / \u2208 L(mB) \u2227 ab \u2208 L(mC)). As a consequence, L(mB) = L(mC) which implies that m is not 1-uniform."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 7.",
+            "text": "The following two lemmas state that, for product modifiers, we can set i = i without changing the regular operation associated to m. Proof. Let us prove the contrapositive of our statement. Assume that i and i do not have the same finality, i.e."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 7.",
+            "text": ". Consider the two k-tuples of DFAs B and C such that B l = ({a}, Q l , i l , F l , \u03b2 l ) and C l = ({a}, Q l , i l , F l , \u03b3 l ), where, for any l \u2208 {1, . . . , k}, \u03b2 a l (i l ) = i l , \u03b2 a l (q) = q when q = i l and \u03b3 a l (q) = q. Let us remark that B l and C l recognize {a} * if i l \u2208 F l , and \u2205 otherwise. In any case, they recognize the same language."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 304,
+                    "ref_id": "FIGREF6",
+                    "start": 298,
+                    "text": "Fig. 3"
+                }
+            ],
+            "section": "Definition 7.",
+            "text": "If we denote by \u03b2 the transition function of mB and by \u03b3 the transition function of mC, we have \u03b2 a (i ) = i and \u03b3 a (i ) = i . Recall that i is the initial state of mB and mC. Since i and i do not have the same finality, the word a belongs to one of the languages L(mB) or L(mC) but not both (see Fig. 3 ). Hence the two automata do not recognize the same language and, as a consequence, m is not 1-uniform. We define an equivalence relation on states of the output of product modifiers whose relationship with the finality of states is examined in Lemma 4."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 132,
+                    "ref_id": "FIGREF4",
+                    "start": 82,
+                    "text": "by (x 1 , . . . , x k ) \u223c j,j (y 1 , . . . , y k )"
+                }
+            ],
+            "section": "Definition 8.",
+            "text": "Let j and j be two k-tuples. We define the equivalence relation \u223c j,j on k-tuples by (x 1 , . . . , x k ) \u223c j,j (y 1 , . . . , y k ) if and only if for all l \u2208 {1, . . . , k}, j l = j l implies x l = y l ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 8.",
+            "text": "Example 5. We have (3, 3, 2, 5, 1) \u223c (1,4,3,2,3),(2,4,2,2,6) (1, 3, 5, 5, 2)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 8.",
+            "text": "We do not have (3, 3, 2, 5, 1) \u223c (1,4,3,2,3),(2,4,2,2,6) (1, 3, 5, 1, 2) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4.",
+            "text": "If m is 1-uniform then L(mA) = L((\u03a3, Q , i, F , \u03b4))."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4.",
+            "text": "Proof. One has to investigate the two complementary cases:"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4.",
+            "text": "\u2022 There exists two states q \u2208 F , q \u2208 Q \\ F such that q \u223c i,i q ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4.",
+            "text": "In this case we prove that i = i , in other words mA = (\u03a3, Q , i, F , \u03b4). Let us show the contrapositive of the property. Suppose i = i . We have to show that m is not 1-uniform. By Lemma 3, i \u2208 F \u2227 i \u2208 F or i / \u2208 F \u2227 i / \u2208 F . Consider the two k-tuples of DFAs B and C such that B l = ({a}, Q l , i l , F l , \u03b2 l ) and C l = ({a}, Q l , i l , F l , \u03b3 l ), where for all l \u2208 {1, . . . , k} and all q \u2208 Q l , \u03b2 a l (q) = q l if q = i l q otherwise and \u03b3 a l (q) = q l if q = i l q otherwise."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4.",
+            "text": "Let us remark that either i l = i l , which implies q l = q l , and B l = C l , or i l = i l , and B l and C l recognize {a} * if i l \u2208 F l and \u2205 otherwise. In any case, they recognize the same language. Recall that \u03b2 is the transition function of mB and \u03b3 is the transition function of mC. We have \u03b2 a (i ) = q and \u03b3 a (i ) = q . Thus we have a \u2208 L(mB) and a / \u2208 L(mC). Therefore, L(mB) = L(mC) and m is not 1-uniform."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4.",
+            "text": "\u2022 For any two states q, q \u2208 Q , q \u223c i,i q implies that q and q have the same finality."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4.",
+            "text": "First, for any letter a \u2208 \u03a3, any two states q, q \u2208 Q , the equivalence q \u223c i,i q implies \u03b4 a (q) = (\u03b4 a 1 (q 1 ), \u03b4 a 2 (q 2 ), . . . , \u03b4 a k (q k )) \u223c i,i (\u03b4 a 1 (q 1 ), \u03b4 a 2 (q 2 ), . . . , \u03b4 a k (q k )) = \u03b4 a (q )."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lemma 4.",
+            "text": "This property extends inductively to any word w \u2208 \u03a3 * , i.e. q \u223c i,i q implies \u03b4 w (q) \u223c i,i \u03b4 w (q ). In particular, applying this to q = i and q = i , we have \u03b4 w (i ) \u2208 F if and only if \u03b4 w (i) \u2208 F . As a direct consequence, the languages recognized by the two automata are the same. "
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quasi-boolean Operations",
+            "text": "Before stating our main result, we need to clarify what is meant by a boolean operation. A boolean operation is an operation associated to an expression involving only the operators union, intersection and complement. It is well known that such an expression is equivalent to one written as a union of intersection of languages or their complement. More formally, Definition 9. A k-ary boolean operation \u2297 over regular languages L 1 , . . . , L k is defined as"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quasi-boolean Operations",
+            "text": "for some E \u2286 2 {1,...,k} . Notice that there is a one-to-one correspondence between the boolean k-ary operations and the sets E \u2286 2 {1,...,k} . So we denote E \u2297 = E. Example 6. The classical boolean operation union can be written this way: for any two regular languages L 1 and L 2 ,"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quasi-boolean Operations",
+            "text": "We easily check that boolean operations are 1-uniform and can be associated to some product modifiers. More formally, From Definition 9, we construct a wider class of operators that we prove to be in correspondence with product modifiers."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 10.",
+            "text": "For any k-ary regular operation \u2297, for any v \u2208 {0, 1} k , we denote by \u2297 v the restriction of \u2297 to the set"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 403,
+                    "ref_id": "BIBREF0",
+                    "start": 400,
+                    "text": "(1)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Definition 10.",
+            "text": "We say that \u2297 is a k-ary quasi-boolean operation if for all v \u2208 {0, 1} k , \u2297 v is a boolean operation, i.e. for any v, there exists a boolean operation \u2297 1 such that for any L \u2208 L v we have \u2297 1 L = \u2297 v L. Example 7. Consider the unary operator defined by \u2297L = L if \u2208 L and L c otherwise. This operation is clearly not boolean. Nevertheless, since for each L \u2208 L (0) we have \u2297L = L and for each L \u2208 L (1) we have \u2297L = L c , the operation \u2297 is quasi-boolean."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Definition 10.",
+            "text": "These operations do not have a higher state complexity than boolean operations, as we show in the following statement."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Proposition 1.",
+            "text": "For any quasi-boolean k-ary operation \u2297, we have sc \u2297 (n 1 , . . . , n k ) \u2264 n 1 \u00b7 \u00b7 \u00b7 n k ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Proposition 1.",
+            "text": "Proof. Lemma 5 implies that sc \u2297 (n 1 , . . . , n k ) \u2264 n 1 \u00b7 \u00b7 \u00b7 n k for any boolean operation \u2297. We we prove our statement, by remarking that, for any quasi-boolean operation \u2297, we have sc \u2297 (n 1 , . . . ,"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Proposition 1.",
+            "text": "We now introduce our main result that characterizes the operations encoded by 1-uniform product modifiers."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 2. An operation \u2297 is quasi-boolean if and only if there exists a 1-",
+            "text": "Proof. Let \u2297 be a k-ary quasi-boolean operation. We construct a modifier m such that \u2297 = \u2297 m as follows. We consider the product modifier m = (Q, i, f, d) such that i(Q, i, F ) = i and,"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Theorem 2. An operation \u2297 is quasi-boolean if and only if there exists a 1-",
+            "text": "Let L \u2208 L v for some v \u2208 {0, 1} k . For any k-tuple of DFAs A such that A j = (\u03a3, Q j , i j , F j , \u03b4 j ) recognizes L j , we have i j \u2208 F j if and only if v j = 0. From Lemma 5, one has L(mA) = \u2297 v L. Hence, m is 1 \u2212 unif orm and \u2297 = \u2297 m . Now, we prove the converse. Let \u2297 be a regular operation such that there exists a 1-uniform product modifier m satisfying \u2297 m = \u2297. We use a reductio ad absurdum argument by assuming that \u2297 is not quasi-boolean. Let v \u2208 {0, 1} k be such that \u2297 v is not a boolean operation. Let A be a k-tuple of DFAs We have to examine two cases. Either there exists p \u2208 F such that p / \u2208 d\u2208E cp(d, F , Q ), or there exists p \u2208 d\u2208E cp(d, F , Q ) such that p / \u2208 F . We only describe the first case, as the other one is treated symmetrically. Therefore, Lemma 1 implies that there exists d \u2208 H \\ E such that p \u2208 cp(d, F , Q ). Let p \u2208 cp(d, F , Q). Notice that p \u2208 F while each p l has the same finality in B l as p l in B l . Also remark that, as (L(A 1 ), . . . , L(A k )) and (L(A 1 ), . . . , L(A k )) are in L v , for all l \u2208 {1, . . . , k}, v l = 0 implies i l \u2208 F l and i l \u2208 F l , and v l = 1 implies i l / \u2208 F l and i l / \u2208 F l . Now consider the two k-tuples of DFAs B and B such that B l = ({a}, Q l , i l , F l , \u03b2 l ) and B l = ({a}, Q l , i l , F l , \u03b2 l ), where \u03b2 l and \u03b2 l are defined, for all positive integer l \u2264 k and all (q, q ) \u2208 Q l \u00d7 Q l , by : \u03b2 a l (q) = p l if q = i l q otherwise. and \u03b2 a l (q ) = p l if q = i l q otherwise."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 240,
+                    "ref_id": null,
+                    "start": 233,
+                    "text": "Table 1"
+                },
+                {
+                    "end": 396,
+                    "ref_id": null,
+                    "start": 389,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Theorem 2. An operation \u2297 is quasi-boolean if and only if there exists a 1-",
+            "text": "We notice that, for all l \u2208 {1, . . . , k}, B l and B l recognize the same language L l . Indeed, since i l and i l have the same finality and p l and p l have the same finality, one has to examine four cases which are summarized in Table 1 . Furthermore, we have \u03b2 a (i) = p \u2208 F , and \u03b2 a (i ) = p \u2208 F , which means that a \u2208 L(mB) and a \u2208 L(mB ), which contradicts the 1-uniformity of m. Table 1 . Common values of L(B l ) and L(B l )."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion",
+            "text": "We have shown that some very simple modifiers, namely product modifiers, encode a class of very low state complexity operations. This is a non-trivial example of a set of modifiers closed by composition whose associated regular operations are completely described."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion",
+            "text": "The proof techniques open perspectives to explore other classes of modifiers closed by composition. The aim for our future works is to establish a kind of atlas, as complete as possible, of the set of modifiers in relation to the theory of state complexity."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {
+                    "institution": "Universit\u00e9 de Rouen",
+                    "laboratory": "LITIS",
+                    "location": {
+                        "addrLine": "Avenue de l'Universit\u00e9",
+                        "country": "France",
+                        "postCode": "76801",
+                        "settlement": "Saint-\u00c9tienne du Rouvray Cedex"
+                    }
+                },
+                "email": "",
+                "first": "Pascal",
+                "last": "Caron",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Universit\u00e9 de Rouen",
+                    "laboratory": "LITIS",
+                    "location": {
+                        "addrLine": "Avenue de l'Universit\u00e9",
+                        "country": "France",
+                        "postCode": "76801",
+                        "settlement": "Saint-\u00c9tienne du Rouvray Cedex"
+                    }
+                },
+                "email": "edwin.hamel-de-le-court@etu.univ-rouen.fr",
+                "first": "Edwin",
+                "last": "Hamel-De-Le-Court (b",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Universit\u00e9 de Rouen",
+                    "laboratory": "LITIS",
+                    "location": {
+                        "addrLine": "Avenue de l'Universit\u00e9",
+                        "country": "France",
+                        "postCode": "76801",
+                        "settlement": "Saint-\u00c9tienne du Rouvray Cedex"
+                    }
+                },
+                "email": "jean-gabriel.luque@univ-rouen.fr",
+                "first": "Jean-Gabriel",
+                "last": "Luque",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "A Study of a Simple Class of Modifiers: Product Modifiers"
+    },
+    "paper_id": "27c7590bd3f2d5dbb0d48578e0af8cbb9511238f",
+    "ref_entries": {
+        "FIGREF0": {
+            "latex": null,
+            "text": "(A 1 , . . . , A k ), on the same alphabet \u03a3, and producing a DFA m(A 1 , ..., A k ) such that -its alphabet is \u03a3, -its state configuration depends only on the state configurations of the DFAs A 1 , . . . , A k , -for any letter a \u2208 \u03a3, the transition function of a in m(A 1 , . . . , A k ) depends only on the state configurations of the DFAs A 1 , . . . , A k and on the transition functions of a in each of the DFAs A 1 , ..., A k .",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "latex": null,
+            "text": "{i} otherwise. The modifier Star describes a construcion on DFA associated to the Star operation on languages, i.e. for all DFA A, L(A) * = L(Star(A)).",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "latex": null,
+            "text": "The modifier Xor describes the classical construction associated to the symmetrical difference, i.e for all DFAs A and B, L(A) \u2295 L(B) = L(Xor(A, B)). Definition 5. A k-modifier m is 1-uniform if, for every pair of k-tuples of DFAs (A 1 , . . . , A k ) and (B 1 , . . . , B k ) such that L(A j ) = L(B j ) for all j \u2208 {1, . . . , k}, we have L(m(A 1 , . . . , A k )) = L(m(B 1 , . . . , B k )). In that case, there exists a regular operation \u2297 m such that, for all k-tuples (A 1 , . . . , A k ) of DFAs, we have \u2297 m (L(A 1 ), . . . , L(A k )) = L(m(A 1 , . . . , A k ))",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "latex": null,
+            "text": "cp({1, 3}, ({1}, {2, 3}, {2}), ({1, 2}, {1, 2, 3, 4}, {1, 2, 3})) = {2} \u00d7 {2, 3} \u00d7 {1, 3}. Lemma 1. The set {cp(d, F , Q) | d \u2286 {1, . . . , k}} is a partition of Q .",
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "latex": null,
+            "text": "Part of mB and mC.",
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "latex": null,
+            "text": "Parts of B l and C l .",
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "latex": null,
+            "text": "If m is 1-uniform then i and i have the same finality.",
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "latex": null,
+            "text": "Part of mB and mC.",
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "latex": null,
+            "text": "Assume that \u2297 is a k-ary boolean operation. Then \u2297 = \u2297 m , where m = (Q, i, f, d) is a product modifier such that i(Q, i, F ) = i and f(Q, i, F ) = d\u2208E\u2297 cp(d, F , Q).",
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "latex": null,
+            "text": "Furthermore, we assume that for all l \u2208 {1, . . . , k}, F l / \u2208 {\u2205, Q l }. By Corollary 1, there exists E \u2286 2 {1,2,...,k} such that F = f(Q, i, F ) = d\u2208E cp(d, F , Q). Therefore, mA = d\u2208E l\u2208d L(A l ) \u2229 l\u2208{1,2,...,k}\\d L(A l ) c which is obviously a boolean operation applied to (L(A 1 ), . . . , L(A k )). Since \u2297 v is not a boolean operation, there exists A , with A l = (\u03a3 , Q l , i l , F l , \u03b1 l ), a k-tuple of DFAs such that (L(A 1 ), . . . , L(A k )) \u2208 L v and mA = d\u2208E l\u2208d L(A l ) \u2229 l\u2208{1,2,...,k}\\d L(A l ) c . We construct new k-tuples of DFAs B and B such that L(B l ) = L(B l ) but such that L(mB) = L(mB ), contradicting the 1-uniformity of m. By Corollary 1, there exists H \u2286 2 {1,...,k} such that F = f(Q , i , F ) = d\u2208H cp(d, F , Q ).",
+            "type": "figure"
+        },
+        "TABREF0": {
+            "latex": null,
+            "text": "If m is 1-uniform then there exists E \u2286 2 {1,2,...,k} such that F = Proof. Let us prove the contrapositive statement and assume that there is no set E \u2286 2 {1,2,...,k} such that F = d\u2208E cp(d, F , Q). From Lemma 1, there exists d \u2286 {1, 2, ..., k} such that F \u2229 cp(d, F , Q) / \u2208 {\u2205, cp(d, F , Q)}. Let d be such a set and let G = cp(d,",
+            "type": "table"
+        },
+        "TABREF1": {
+            "latex": null,
+            "text": "Corollary 1.If m is 1-uniform then there exists E \u2286 2 {1,2,...,k} such that F =",
+            "type": "table"
+        },
+        "TABREF2": {
+            "html": "<html><body><table><tr><td>\u2032\nl) L(Bl) = L(B\n</td><td>il \u2208 Fl </td><td>il \u2208 Fl\n</td></tr><tr><td>pl \u2208 Fl </td><td>{a\u2217} </td><td>{a}+\n</td></tr><tr><td>pl \u2208 Fl </td><td>{} </td><td>\u2205\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "Table 1. Common values of L ( B l ) and L ( B l ).",
+            "type": "table"
+        }
+    }
+}

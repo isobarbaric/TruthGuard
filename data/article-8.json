@@ -1,3127 +1,3127 @@
 {
-    "paper_id": "27823f49b20767ce3f5d2a737e6af5a8dfa3abf2",
-    "metadata": {
-        "title": "Investigation of promoter regions, motifs, and CpG islands in the regulation of gene expression in Trametes hirsuta strain 072",
-        "authors": [
-            {
-                "first": "Dinku",
-                "middle": [],
-                "last": "Senbeta",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Mulugeta",
-                "middle": [],
-                "last": "Kebede",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "Background: In silico analysis of transcription start sites, promoter regions, transcription factors and their binding sites, and CpG islands for the Trametes hirsuta strain 072 genome were performed to understand the regulation mechanisms of gene expression and its genetic variations in the genomes. Therefore, a computational survey was carried out for the Trametes hirsuta strain 072 genome with the open reading frames from the National Center for Biotechnology Information database. Seventeen functional sequences were used to analyze promoter regions and their regulatory elements. Result: The present study revealed that 94% of Trametes hirsuta strain 072 genes contained more than two TSSs. Among these identified TSSs, a TSS with the highest predictive score was considered to determine a promoter region of the genes. Moreover, a total of five common candidate motifs such as MotI, MotII, MotIII, MotIV, and MotV were identified. Among these motifs, motif IV was investigated as the common promoter motif for 41.17% of genes that serve as binding sites for transcription factors (TFs) involved in the expression regulation of Trametes hirsuta strain 072 genes. Motif IV was also compared to registered motifs in publically available databases to see if they are similar to known regulatory motifs for TF using TOMTOM web server. Hence, it was revealed that MotIV might serve as the binding site mainly for the leucine zipper TF gene family to regulate a gene expression of Trametes hirsuta strain 072. Regarding CpG island determination, it was concluded that there is no CpG island in both promoter and gene body regions of the Trametes hirsuta strain 072 genome.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Background: In silico analysis of transcription start sites, promoter regions, transcription factors and their binding sites, and CpG islands for the Trametes hirsuta strain 072 genome were performed to understand the regulation mechanisms of gene expression and its genetic variations in the genomes. Therefore, a computational survey was carried out for the Trametes hirsuta strain 072 genome with the open reading frames from the National Center for Biotechnology Information database. Seventeen functional sequences were used to analyze promoter regions and their regulatory elements. Result: The present study revealed that 94% of Trametes hirsuta strain 072 genes contained more than two TSSs. Among these identified TSSs, a TSS with the highest predictive score was considered to determine a promoter region of the genes. Moreover, a total of five common candidate motifs such as MotI, MotII, MotIII, MotIV, and MotV were identified. Among these motifs, motif IV was investigated as the common promoter motif for 41.17% of genes that serve as binding sites for transcription factors (TFs) involved in the expression regulation of Trametes hirsuta strain 072 genes. Motif IV was also compared to registered motifs in publically available databases to see if they are similar to known regulatory motifs for TF using TOMTOM web server. Hence, it was revealed that MotIV might serve as the binding site mainly for the leucine zipper TF gene family to regulate a gene expression of Trametes hirsuta strain 072. Regarding CpG island determination, it was concluded that there is no CpG island in both promoter and gene body regions of the Trametes hirsuta strain 072 genome."
         },
         {
-            "text": "Conclusions: This study provides a better insight into further molecular characterization which aimed to efficiently exploit a white rot fungus, Trametes hirsuta strain 072, for several biotechnological applications aimed to revitalize a severely contaminated environment.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Conclusions: This study provides a better insight into further molecular characterization which aimed to efficiently exploit a white rot fungus, Trametes hirsuta strain 072, for several biotechnological applications aimed to revitalize a severely contaminated environment."
         }
     ],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "White rot fungi (WRF) are crucial components of several terrestrial ecosystems [1, 2] which are fundamentally important in carbon balance, soil formation, forest regeneration, and support the biodiversity of our planet [3, 4] . They can degrade lignocellulose efficiently and make them an attractive target for several biotechnological applications, such as biofuel production, bio pulping industry, and bioremediation technology [5, 6] . Moreover, lignin is a major component of lignocellulosic biomass [7] and is mainly responsible for its strength [8] [9] [10] and used for industrial production of aromatics and novel plastics, or as a source of green energy [11] .",
-            "cite_spans": [
-                {
-                    "start": 79,
-                    "end": 82,
-                    "text": "[1,",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 83,
-                    "end": 85,
-                    "text": "2]",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 219,
-                    "end": 222,
-                    "text": "[3,",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 223,
-                    "end": 225,
-                    "text": "4]",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 430,
-                    "end": 433,
-                    "text": "[5,",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 434,
-                    "end": 436,
-                    "text": "6]",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 504,
-                    "end": 507,
-                    "text": "[7]",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 551,
-                    "end": 554,
-                    "text": "[8]",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 555,
-                    "end": 558,
-                    "text": "[9]",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 559,
-                    "end": 563,
-                    "text": "[10]",
-                    "ref_id": "BIBREF10"
-                },
-                {
-                    "start": 663,
-                    "end": 667,
-                    "text": "[11]",
-                    "ref_id": "BIBREF11"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Background"
-        },
-        {
-            "text": "White rot fungi are an excellent microorganism in degrading lignin and a wide range of complex organopollutants [12] . This ability is mainly associated with nonspecific extracellular ligninolytic enzymes such as laccase (Lac), lignin peroxidase (LiP), manganese peroxidase (MnP), and several other peroxidases such as versatile peroxidase (VP) and humic acid peroxidases (HuP) [13, 14] . Of particular interest, MnP is the heme-containing glycoprotein that WRF mainly produces. Besides being used in the conversion of lignin and lignocelluloses, MnP has great application potential in the field of environmental biotechnology and degradation of recalcitrant organopollutants that are highly harmful to human health [15] [16] [17] [18] .",
-            "cite_spans": [
-                {
-                    "start": 112,
-                    "end": 116,
-                    "text": "[12]",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 378,
-                    "end": 382,
-                    "text": "[13,",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 383,
-                    "end": 386,
-                    "text": "14]",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 716,
-                    "end": 720,
-                    "text": "[15]",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 721,
-                    "end": 725,
-                    "text": "[16]",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 726,
-                    "end": 730,
-                    "text": "[17]",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 731,
-                    "end": 735,
-                    "text": "[18]",
-                    "ref_id": "BIBREF18"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Background"
-        },
-        {
-            "text": "Several studies reported that Phanerochaete chrysosporium had been the most intensively studied WRF as a source of extracellular ligninolytic enzymes. However, the production of these enzymes particularly peroxidases with this fungus in stirred bioreactors proved to be demanding [17, 18] . Screening of WRF pointed out strains from other genera such as Trametes, Pleurotus, Bjerkandera, Cerrena, and Echinodontium as a suitable source of ligninolytic enzymes [19] [20] [21] . Furthermore, [22] revealed that Trametes hirsuta potentially produces a wide spectrum of laccase isozymes of high redox potential, an efficient lignin degrader.",
-            "cite_spans": [
-                {
-                    "start": 280,
-                    "end": 284,
-                    "text": "[17,",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 285,
-                    "end": 288,
-                    "text": "18]",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 460,
-                    "end": 464,
-                    "text": "[19]",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 465,
-                    "end": 469,
-                    "text": "[20]",
-                    "ref_id": "BIBREF21"
-                },
-                {
-                    "start": 470,
-                    "end": 474,
-                    "text": "[21]",
-                    "ref_id": "BIBREF22"
-                },
-                {
-                    "start": 490,
-                    "end": 494,
-                    "text": "[22]",
-                    "ref_id": "BIBREF23"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Background"
-        },
-        {
-            "text": "Over the past few years, the use of WRF for bioremediation purposes has gained interest in the scientific community [23] . Fungal extracellular lignin modifying enzymes have been reported to be particularly efficient in removing several recalcitrant environmental wastes [24] . White rot fungi secrete an enzyme of interest in the treatment of multiple trace organic contaminants in many compartments of the environment. Thus, biotechnological approaches are explored as an eco-friendly alternative that exploits the ability of various microorganisms, specifically white rot fungi and their enzyme products, to revitalize the contaminated environment.",
-            "cite_spans": [
-                {
-                    "start": 116,
-                    "end": 120,
-                    "text": "[23]",
-                    "ref_id": "BIBREF24"
-                },
-                {
-                    "start": 271,
-                    "end": 275,
-                    "text": "[24]",
-                    "ref_id": "BIBREF25"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Background"
-        },
-        {
-            "text": "Analysis of promoter regions, transcription start sites (TSSs), and motifs are fundamental to understanding gene expression regulation mechanisms and association with genetic variations in the promoter regions of genomes [25, 26] . Apart from transcription factors, CpG islands are also important regulatory elements in the promoter regions of the genome and they are considered gene markers because they play important roles in gene regulation through epigenetic changes [27] .",
-            "cite_spans": [
-                {
-                    "start": 221,
-                    "end": 225,
-                    "text": "[25,",
-                    "ref_id": "BIBREF26"
-                },
-                {
-                    "start": 226,
-                    "end": 229,
-                    "text": "26]",
-                    "ref_id": "BIBREF27"
-                },
-                {
-                    "start": 472,
-                    "end": 476,
-                    "text": "[27]",
-                    "ref_id": "BIBREF28"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Background"
-        },
-        {
-            "text": "Motifs are short DNA sequences bound by one or more DNA-binding proteins or protein complexes [28] . They are often associated with specialized proteins known as transcription factors and are thus linked to transcriptional regulation [29] . The common promoter motif is the key signature for a family of co-regulated genes and is usually present in the regions where complex protein interactions occur [30] . It is also reported that genes having similar expression patterns contain common motifs in their promoter regions [31] .",
-            "cite_spans": [
-                {
-                    "start": 94,
-                    "end": 98,
-                    "text": "[28]",
-                    "ref_id": "BIBREF29"
-                },
-                {
-                    "start": 234,
-                    "end": 238,
-                    "text": "[29]",
-                    "ref_id": "BIBREF30"
-                },
-                {
-                    "start": 402,
-                    "end": 406,
-                    "text": "[30]",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 523,
-                    "end": 527,
-                    "text": "[31]",
-                    "ref_id": "BIBREF32"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Background"
-        },
-        {
-            "text": "Moreover, to our best of knowledge, there is no study reported regarding in silico analysis of genes vital in gene expression and association with genetic variation of Tremetes hirsuta strain 072 in Ethiopia. Therefore, this study was intended to identify regulatory elements such as promoter regions, CpG islands, transcription factors (TFs), and their corresponding binding sites (TFBSs) involved in the regulation of gene expression mechanisms. This study provides baseline information and additional insights, which were aimed to be used efficiently for several biotechnological applications and further detail molecular characterization of the Trametes hirsuta strain 072 genome.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Background"
+            "section": "Acknowledgements",
+            "text": "The authors acknowledge Adama Science and Technology University, School of Applied Natural Science, for funding the research.Authors' contributions DS designed and performed the experiment, analyzed the data, and prepared the manuscript. MK supervised the research and revised the manuscript and was a co-author of the manuscript. The authors read and approved the final manuscript and agreed to be published."
         },
         {
-            "text": "A functional genome sequence of Trametes hirsuta strain 072 was taken from the NCBI genome browser (https:// www.ncbi.nlm.nih.gov/gene). A total of seventeen gene coding sequences starting with the ATG codon were identified and used in this analysis. To determine their respective transcription start sites (TSSs), 1-kb sequences upstream of the start codon were excised from each gene [32] . All the TSSs of each functional gene were searched within this region by using a Neural Network Promoter Prediction (NNPP version 2.2) toolset with the minimum standard predictive score (between 0 and 1) cutoff value of 0.8 [33] . This tool helps locate the possible TSSs within the sequences upstream of the start codon where the RNA polymerases start their activity and transcription process. The Neural Network Promoter Prediction tool has the ability to recognize precisely the position of a TSS for a given gene. For those regions containing more than one TSS, the highest value of the prediction score was considered to be a trustable and accurate prediction. According to a previously reported study, a promoter sequence was defined as a 1-kb region upstream of each TSS [34, 35] .",
-            "cite_spans": [
-                {
-                    "start": 386,
-                    "end": 390,
-                    "text": "[32]",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 617,
-                    "end": 621,
-                    "text": "[33]",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 1171,
-                    "end": 1175,
-                    "text": "[34,",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 1176,
-                    "end": 1179,
-                    "text": "35]",
-                    "ref_id": "BIBREF36"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Determination of transcription start sites (TSSs) and promoter regions"
-        },
-        {
-            "text": "Identified promoter sequences were analyzed using the MEME version 5.0.1 searches, via the web server hosted by the National Biomedical Computation Resource (http://meme.nbcr.net) [36] to look for common candidate motifs that serve as binding sites of transcription factors that regulate the expression of genes. The MEME suite software searches for statistically significant candidate motifs in the input sequence set. The MEME output was presented in the form of XML and shows the candidate motifs as local multiple alignments of the input promoter sequences. Briefly, the MEME toolset discovers novel, ungapped motifs (recurring, fixed-length patterns) in sequences submitted in it.",
-            "cite_spans": [
-                {
-                    "start": 180,
-                    "end": 184,
-                    "text": "[36]",
-                    "ref_id": "BIBREF37"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Identification of common candidate motifs and transcription factors"
-        },
-        {
-            "text": "A motif is an approximate sequence pattern that repeatedly occurs in a group of related sequences. MEME represents motifs as position-dependent letter probability matrices that describe the probability of each possible letter at each position in the pattern. MEME takes as input a group of sequences and outputs as many motifs as requested. MEME uses statistical modeling techniques to automatically choose the best width, number of occurrences, and description for each motif [36] . Buttons on the MEME HTML output allow one or all candidate motifs to be forwarded for further analysis to better characterize the identified candidate motifs by other web-based programs, TOMTOM. The TOMTOM [37] web server was used to search for sequences matching the identified motif for its respective TF. The output of TOMTOM includes LOGOS representing the alignment of the candidate motif and TF with the p-value and q-value (a measure of false discovery rate) of the match and links back to the parent transcription database for more detailed information about it [38] . ",
-            "cite_spans": [
-                {
-                    "start": 477,
-                    "end": 481,
-                    "text": "[36]",
-                    "ref_id": "BIBREF37"
-                },
-                {
-                    "start": 690,
-                    "end": 694,
-                    "text": "[37]",
-                    "ref_id": "BIBREF38"
-                },
-                {
-                    "start": 1054,
-                    "end": 1058,
-                    "text": "[38]",
-                    "ref_id": "BIBREF39"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Identification of common candidate motifs and transcription factors"
-        },
-        {
-            "text": "Gene coding sequences were used in this analysis. The TSSs were identified for each functional gene by excising 1-kb sequences upstream of the start codon, indicating that regulatory elements of the core promoter may lie up within this region. In this study, only cox2/36279600 genes have a single TSS, whereas 98% of genes contained more than two TSSs. Moreover, only the nad4/36279629 gene has a maximum of nine TSSs. Regarding predictive score, 56% of the cases were greater than or equal to 0.90 (Table 1) .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 500,
-                    "end": 509,
-                    "text": "(Table 1)",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Identification of TSSs and promoter regions for each gene of Trametes hirsuta strain 072"
-        },
-        {
-            "text": "Common candidate motifs and associated TFs in the promoter regions of Trametes hirsuta strain 072",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Identification of TSSs and promoter regions for each gene of Trametes hirsuta strain 072"
+            "section": "Funding",
+            "text": "This work was financially supported by the graduate program of Adama Science and Technology University."
         },
         {
-            "text": "Identified promoter sequences for Trametes hirsuta strain 072 were analyzed using the MEME searches (http://meme.nbcr.net) to look for common candidate motifs that serve as binding sites of TFs that regulate the expression of genes. MEME searches for statistically significant candidate motifs in the input sequence set. In the current study, five candidate motifs shared by most input promoter sequences were investigated ( Table 2 ). The location and distribution of these candidate motifs in the promoter regions are concentrated between \u2212 700 bp and 800 bp relative to the TSSs (Fig. 1) . It was also noticed that twentyfive motifs were distributed on the positive strand, whereas four motifs were distributed on a negative strand (Fig. 1 ). In the present study, Motif IV was revealed as the binding site for TFs involved in the expression regulation of these genes (Table 2) . Moreover, the sequence logo for motif IV is also presented in Fig. 2 .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 425,
-                    "end": 432,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 582,
-                    "end": 590,
-                    "text": "(Fig. 1)",
-                    "ref_id": null
-                },
-                {
-                    "start": 735,
-                    "end": 742,
-                    "text": "(Fig. 1",
-                    "ref_id": null
-                },
-                {
-                    "start": 871,
-                    "end": 880,
-                    "text": "(Table 2)",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 945,
-                    "end": 951,
-                    "text": "Fig. 2",
-                    "ref_id": null
-                }
-            ],
-            "section": "Identification of TSSs and promoter regions for each gene of Trametes hirsuta strain 072"
-        },
-        {
-            "text": "The TOMTOM web server [37] was further used to get more information on the motif IV promoter genes. Motif IV was compared to already documented and publically available databases to see if they are similar to known regulatory motifs for TFs. Accordingly, motif IV matched with four known motifs found in databases. Among four identified matched motifs, only three TF families were considered in the study, and a left query motif was nontranscription factor families (Table 3) . Moreover, it was also revealed that motif IV serves as binding sites for many transcription factor (TFs) families. Based on their statistical significance values, leucine zipper transcription factor families (6.17e\u221204) were involved in the regulatory mechanism of Trametes hirsuta strain 072 genes, which used to enhance a transcription process.",
-            "cite_spans": [
-                {
-                    "start": 22,
-                    "end": 26,
-                    "text": "[37]",
-                    "ref_id": "BIBREF38"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 466,
-                    "end": 475,
-                    "text": "(Table 3)",
-                    "ref_id": "TABREF2"
-                }
-            ],
-            "section": "Identification of TSSs and promoter regions for each gene of Trametes hirsuta strain 072"
-        },
-        {
-            "text": "CpG islands were also investigated to determine regulatory elements in Trametes hirsuta in both promoter and gene body regions using two algorithms. Initially, in silico analysis using Takai and Jone's algorithm [39] found no CpG islands in both promoter regions in Trametes hirsuta strain 072 (Table 4) . Similarly, a second approach to explore the presence of CpG islands in silico digestion was performed using the restriction enzyme MspI, which revealed poor CpG islands in both promoter and gene body regions (Table 5 ). CpG islands from only the atp8 gene contained a single fragment size of 141 bp in its promoter region. However, there were no CpG island-specific sequences in the other ten promoter sequences of Trametes hirsuta strain 072 genes. Moreover, CpG islands were only recognized in the Cox1 gene with a fragment size of 17bp and 114bp (Table 5) , which is poor CpG islands in this species.",
-            "cite_spans": [
-                {
-                    "start": 212,
-                    "end": 216,
-                    "text": "[39]",
-                    "ref_id": "BIBREF40"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 294,
-                    "end": 303,
-                    "text": "(Table 4)",
-                    "ref_id": "TABREF3"
-                },
-                {
-                    "start": 514,
-                    "end": 522,
-                    "text": "(Table 5",
-                    "ref_id": "TABREF4"
-                },
-                {
-                    "start": 855,
-                    "end": 864,
-                    "text": "(Table 5)",
-                    "ref_id": "TABREF4"
-                }
-            ],
-            "section": "Determination of CpG islands in promoter regions of Trametes hirsuta genes"
-        },
-        {
-            "text": "Transcription start site (TSS) and promoter region identifications are the first steps to understanding gene expression regulatory mechanisms and association with genetic variations in the regions [25, 26, 41] . In this study, the TSSs were first identified for each of the seventeen functional genes of Trametes hirsuta strain 072. The prediction is more reliable for genes containing more than one TSS; TSS of the highest prediction score was considered and identified. In silico analysis showed that only cox2/36279600 genes have a single TSS, whereas 98% of genes contained more than two TSSs. Moreover, only the nad4/36279629 gene has a maximum of nine TSSs ( Table 1 ). The current finding is in contrast to a study reported by Yirgu and Kebede [34] in which 37.9% have more than one TSS, whereas 62.1% had only one TSS. A possible reason for the discrepancy of results between the studies might be related to differences in the genome size of the studied organisms. Moreover, Dinka and Minh [42] reported that 70% of the pig V1R genes have more than one TSS, which is in line with the present study where 94% of the Trametes hirsuta strain 072 genes have more than one TSS.",
-            "cite_spans": [
-                {
-                    "start": 197,
-                    "end": 201,
-                    "text": "[25,",
-                    "ref_id": "BIBREF26"
-                },
-                {
-                    "start": 202,
-                    "end": 205,
-                    "text": "26,",
-                    "ref_id": "BIBREF27"
-                },
-                {
-                    "start": 206,
-                    "end": 209,
-                    "text": "41]",
-                    "ref_id": "BIBREF43"
-                },
-                {
-                    "start": 751,
-                    "end": 755,
-                    "text": "[34]",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 998,
-                    "end": 1002,
-                    "text": "[42]",
-                    "ref_id": "BIBREF44"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 665,
-                    "end": 672,
-                    "text": "Table 1",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Discussion"
-        },
-        {
-            "text": "A candidate motif that is common to most of Trametes hirsuta strain 072 gene promoter sequences was identified. In the current study, five candidate motifs shared by most input promoter sequences were investigated ( Table 2 ). The location and distribution of these candidate motifs in promoter regions are concentrated between \u2212 700 bp and \u2212 800 bp relative to the TSSs (Fig. 1) . This finding disagrees with the study reported by Samuel and Dinka [26] , which revealed that 73.9% of the TSSs were found within \u2212 500 bp relative to the translation start codon. Moreover, Chen et al. [43] also indicated that multiple TSSs for the human GnT-II were concentrated between \u2212 440 to \u2212 489 bp relative to the ATG translation start codon. MEME toolset generated a common candidate motif for eleven Trametes hirsuta strain 072 genes promoter sequences with a total of seventeen input sequences. It was also noticed that twenty-five motifs were distributed on the positive strand, whereas four motifs were distributed on a negative strand (Fig. 1 ). Yirgu and Kebede [34] showed that higher distributions of motifs were found in positive strands (96) than negative strands (81) in the H. seropedicae ACP92s gene. Motifs shared by most promoter regions were considered candidate motifs that are functionally involved in the gene regulation mechanisms.",
-            "cite_spans": [
-                {
-                    "start": 449,
-                    "end": 453,
-                    "text": "[26]",
-                    "ref_id": "BIBREF27"
-                },
-                {
-                    "start": 584,
-                    "end": 588,
-                    "text": "[43]",
-                    "ref_id": "BIBREF45"
-                },
-                {
-                    "start": 1059,
-                    "end": 1063,
-                    "text": "[34]",
-                    "ref_id": "BIBREF35"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 216,
-                    "end": 223,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 371,
-                    "end": 379,
-                    "text": "(Fig. 1)",
-                    "ref_id": null
-                },
-                {
-                    "start": 1031,
-                    "end": 1038,
-                    "text": "(Fig. 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "Discussion"
-        },
-        {
-            "text": "In the present study, motif IV was revealed as the common promoter motif for 41.17% of genes that serve as binding sites for TFs involved in the expression regulation of these genes (Table 2) . Moreover, the sequence logo for motif IV is also presented in Fig. 2 .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 182,
-                    "end": 191,
-                    "text": "(Table 2)",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 256,
-                    "end": 262,
-                    "text": "Fig. 2",
-                    "ref_id": null
-                }
-            ],
-            "section": "Discussion"
-        },
-        {
-            "text": "The TOMTOM web server [37] was further used to get more information on the motif IV promoter genes. Motif IV was compared to already documented and publically available databases to see if they are similar to ",
-            "cite_spans": [
-                {
-                    "start": 22,
-                    "end": 26,
-                    "text": "[37]",
-                    "ref_id": "BIBREF38"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "Single cut (at 534) -",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Prom-cox3"
+            "section": "Availability of data and materials",
+            "text": "The research data analyzed in the current study is available and taken from the assembly of the NCBI genome assembly browser of Trametes hirsuta strain 072."
         },
         {
-            "text": "No cut -",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Prom-nad1"
+            "section": "Declarations",
+            "text": "Ethics approval and consent to participate Not applicable"
         },
         {
-            "text": "No cut -",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Prom-nad2"
-        },
-        {
-            "text": "Single cut (at 605) -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Prom-nad3"
-        },
-        {
-            "text": "Single cut(at 290) -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Prom-nad4"
-        },
-        {
-            "text": "Single cut(at 1962) -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Prom-nad4l"
-        },
-        {
-            "text": "Single cut (at 1695) -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Prom-nad5"
-        },
-        {
-            "text": "Single cut (at 676) -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Prom-nad6"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Prom-s3"
-        },
-        {
-            "text": "Single cut (at 115) -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Gene body region Atp9"
-        },
-        {
-            "text": "No cut --",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Atp6"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Atp8"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Cob"
-        },
-        {
-            "text": "Multiple cut (1056, 1343, 1782, 1799, 1913, 3286, 3645, 4313, 6145, 7526 17,114 Cox2",
-            "cite_spans": [
-                {
-                    "start": 13,
-                    "end": 79,
-                    "text": "(1056, 1343, 1782, 1799, 1913, 3286, 3645, 4313, 6145, 7526 17,114",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "Cox1"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Cox1"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Cox3"
-        },
-        {
-            "text": "Single cut (at 216) -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "C7V85-mgp08"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "C7V85-mgp19"
-        },
-        {
-            "text": "Single cut (948) -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Nad1"
-        },
-        {
-            "text": "Single cut (at 112) -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Nad2"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Nad3"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Nad4"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Nad4L"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Nad5"
-        },
-        {
-            "text": "No cut -",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Nad6"
-        },
-        {
-            "text": "Single cut (at 127) -Senbeta and Kebede Journal of Genetic Engineering and Biotechnology (2021) 19:160 Page 7 of 10 known regulatory motifs for TFs. Accordingly, motif IV matched with four known motifs found in databases. Among four identified matched motif, only three TF families were considered in the study and a left query motif was non-transcription factor families (Table 3) . Moreover, it was also revealed that motif IV serves as binding sites for many transcription factor (TF) families.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 372,
-                    "end": 381,
-                    "text": "(Table 3)",
-                    "ref_id": "TABREF2"
-                }
-            ],
-            "section": "S3"
-        },
-        {
-            "text": "On the basis of their statistical significance values, leucine zipper transcription factor families (6.17e\u221204) were involved in the regulatory mechanism of Trametes hirsuta strain 072 genes. Loewen et al. [44] stated that transcriptional repressor OPI1 had a transcription corepressor activity as molecular functions. CpG islands were also investigated to determine regulatory elements in the Trametes hirsuta in both promoter and gene body regions using two algorithms. Initially, in silico analysis using Takai and Jones' algorithm [39] found no CpG islands in promoter regions in Trametes hirsuta strain 072 (Table 4 ). This result is inconsistent with the study conducted by Yirgu and Kebede [34] , which revealed there was one possible CpG island in most of the genes both in promoter and gene body regions. Moreover, this study is consistent with studies that reported poor CpG islands in both promoter and gene body regions [26, 42, 45] . Similarly, a second approach to explore the presence of CpG island in silico digestion was performed using restriction enzyme MspI, which revealed poor CpG islands in both promoter and gene body regions (Table 5 ). CpG islands from only the atp8 gene contain a single fragment size of 141 bp in its promoter region. However, there were no CpG islandspecific sequences in the other ten promoter sequences of Trametes hirsuta strain 072 genes. Moreover, CpG islands were only recognized in the Cox1 gene with a fragment size of 17 bp and 114 bp (Table 5 ) and concluded as poor in CpG islands in this species. Consequently, the present result disagreed with the study of Yirgu and Kebede [34] , which concluded that H. seropedicae ACP92 genes were rich in CpG islands and were consistent with the studies of [26, 42, 45] summarized as poor in CpG islands in different eukaryotic organisms.",
-            "cite_spans": [
-                {
-                    "start": 205,
-                    "end": 209,
-                    "text": "[44]",
-                    "ref_id": "BIBREF46"
-                },
-                {
-                    "start": 534,
-                    "end": 538,
-                    "text": "[39]",
-                    "ref_id": "BIBREF40"
-                },
-                {
-                    "start": 696,
-                    "end": 700,
-                    "text": "[34]",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 931,
-                    "end": 935,
-                    "text": "[26,",
-                    "ref_id": "BIBREF27"
-                },
-                {
-                    "start": 936,
-                    "end": 939,
-                    "text": "42,",
-                    "ref_id": "BIBREF44"
-                },
-                {
-                    "start": 940,
-                    "end": 943,
-                    "text": "45]",
-                    "ref_id": "BIBREF47"
-                },
-                {
-                    "start": 1632,
-                    "end": 1636,
-                    "text": "[34]",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 1752,
-                    "end": 1756,
-                    "text": "[26,",
-                    "ref_id": "BIBREF27"
-                },
-                {
-                    "start": 1757,
-                    "end": 1760,
-                    "text": "42,",
-                    "ref_id": "BIBREF44"
-                },
-                {
-                    "start": 1761,
-                    "end": 1764,
-                    "text": "45]",
-                    "ref_id": "BIBREF47"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 611,
-                    "end": 619,
-                    "text": "(Table 4",
-                    "ref_id": "TABREF3"
-                },
-                {
-                    "start": 1149,
-                    "end": 1157,
-                    "text": "(Table 5",
-                    "ref_id": "TABREF4"
-                },
-                {
-                    "start": 1489,
-                    "end": 1497,
-                    "text": "(Table 5",
-                    "ref_id": "TABREF4"
-                }
-            ],
-            "section": "S3"
-        },
-        {
-            "text": "In silico analysis of transcription start sites (TSSs), promoter regions, transcription factors and their binding sites, and CpG islands for the Trametes hirsuta strain 072 genome was performed to better understand the regulation mechanisms of gene expression and its genetic variations in the genomes. This study revealed that 94% of Trametes hirsuta strain 072 genes contained more than two TSSs. Therefore, among identified TSSs, a TSS with the highest predictive score was considered to determine the genes' promoter regions. Moreover, five common candidate motifs such as MotI, MotII, MotIII, MotIV, and MotV were identified. Among these motifs, motif IV was investigated as the common promoter motif for 41.17% of genes that serve as binding sites for transcription factors (TFs) involved in the gene expression and regulation mechanisms of Trametes hirsuta strain 072 genes.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusions"
-        },
-        {
-            "text": "Regarding CpG island determination, it was concluded that there are no CpG islands in both promoter and gene body regions of the Trametes hirsuta strain 072 genes but could still be expressed when they are methylated. In silico analysis is pivotal in identifying gene promoter regions and other regulatory elements relevant to predict gene expression mechanisms in organisms. Additionally, this study provides better insights into molecular characterization, which aimed to efficiently exploit white rot fungi, Trametes hirsuta strain 072, for several biotechnological applications and revitalize a contaminated environment. ",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusions"
+            "section": "Competing interests",
+            "text": "The authors declared that there is no conflict of interest.Received: 2 April 2021 Accepted: 2 October 2021"
         }
     ],
     "bib_entries": {
         "BIBREF0": {
-            "ref_id": "b0",
-            "title": "Preliminary studies of new strains of Trametes sp. from Argentina for laccase production ability",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Fonseca",
                     "middle": [
                         "I"
                     ],
-                    "last": "Fonseca",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Tejerina",
                     "middle": [
                         "R"
                     ],
-                    "last": "Tejerina",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Sawostjanik-Afanasiuk",
                     "middle": [
                         "S"
                     ],
-                    "last": "Sawostjanik-Afanasiuk",
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Giorgio",
                     "middle": [
                         "M"
                     ],
-                    "last": "Giorgio",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Barchuk",
                     "middle": [
                         "L"
                     ],
-                    "last": "Barchuk",
                     "suffix": ""
                 },
                 {
                     "first": "P",
+                    "last": "Zapata",
                     "middle": [
                         "D"
                     ],
-                    "last": "Zapata",
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Villalba",
                     "middle": [
                         "L"
                     ],
-                    "last": "Villalba",
                     "suffix": ""
                 }
             ],
-            "year": 2016,
-            "venue": "Braz J Microbiol",
-            "volume": "47",
             "issn": "2",
-            "pages": "287--297",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.bjm.2016.01.002"
                 ]
-            }
+            },
+            "pages": "287--297",
+            "ref_id": "b0",
+            "title": "Preliminary studies of new strains of Trametes sp. from Argentina for laccase production ability",
+            "venue": "Braz J Microbiol",
+            "volume": "47",
+            "year": 2016
         },
         "BIBREF1": {
-            "ref_id": "b1",
-            "title": "Evolutionary relationships between the laccase genes of polyporales: orthology based classification of laccase Senbeta and",
             "authors": [
                 {
                     "first": "O",
+                    "last": "Savinova",
                     "middle": [
                         "S"
                     ],
-                    "last": "Savinova",
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Moiseenko",
                     "middle": [
                         "V"
                     ],
-                    "last": "Moiseenko",
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Vavilova",
                     "middle": [
                         "A"
                     ],
-                    "last": "Vavilova",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Chulkin",
                     "middle": [
                         "M"
                     ],
-                    "last": "Chulkin",
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [
-                        "V"
-                    ],
                     "last": "Fedorova",
+                    "middle": [
+                        "V"
+                    ],
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Tyazhelova",
                     "middle": [
                         "V"
                     ],
-                    "last": "Tyazhelova",
                     "suffix": ""
                 },
                 {
                     "first": "D",
+                    "last": "Vasina",
                     "middle": [
                         "V"
                     ],
-                    "last": "Vasina",
                     "suffix": ""
                 }
             ],
-            "year": 2019,
+            "issn": "",
+            "other_ids": {},
+            "pages": "160--168",
+            "ref_id": "b1",
+            "title": "Evolutionary relationships between the laccase genes of polyporales: orthology based classification of laccase Senbeta and",
             "venue": "Kebede Journal of Genetic Engineering and Biotechnology",
             "volume": "19",
-            "issn": "",
-            "pages": "160--168",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Wood-decaying fungi in the forest: conservation needs and management options",
-            "authors": [
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Lonsdale",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Pautasso",
-                    "suffix": ""
-                },
-                {
-                    "first": "O",
-                    "middle": [],
-                    "last": "Holdenrieder",
-                    "suffix": ""
-                }
-            ],
-            "year": 2008,
-            "venue": "Eur J For Res",
-            "volume": "127",
-            "issn": "1",
-            "pages": "1--22",
-            "other_ids": {
-                "DOI": [
-                    "10.1007/s10342-007-0182-6"
-                ]
-            }
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "A review of the role of fungi in wood decay of forest ecosystems",
-            "authors": [
-                {
-                    "first": "B",
-                    "middle": [
-                        "G"
-                    ],
-                    "last": "Marcot",
-                    "suffix": ""
-                }
-            ],
-            "year": 2017,
-            "venue": "Res Note",
-            "volume": "575",
-            "issn": "",
-            "pages": "1--31",
-            "other_ids": {
-                "DOI": [
-                    "10.2737/PNW-RN-575"
-                ]
-            }
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "Fungal biodegradation of lignocelluloses",
-            "authors": [
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Hatakka",
-                    "suffix": ""
-                },
-                {
-                    "first": "K",
-                    "middle": [
-                        "E"
-                    ],
-                    "last": "Hammel",
-                    "suffix": ""
-                }
-            ],
-            "year": 2010,
-            "venue": "Industrial Applications",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Lignin biodegradation and industrial implications",
-            "authors": [
-                {
-                    "first": "A",
-                    "middle": [
-                        "B"
-                    ],
-                    "last": "Fisher",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [
-                        "S"
-                    ],
-                    "last": "Fong",
-                    "suffix": ""
-                }
-            ],
-            "year": 2014,
-            "venue": "AIMS Bioeng",
-            "volume": "1",
-            "issn": "2",
-            "pages": "92--112",
-            "other_ids": {
-                "DOI": [
-                    "10.3934/bioeng.2014.2.92"
-                ]
-            }
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Current challenges in commercially producing biofuels from lignocellulosic biomass",
-            "authors": [
-                {
-                    "first": "V",
-                    "middle": [],
-                    "last": "Balan",
-                    "suffix": ""
-                }
-            ],
-            "year": 2014,
-            "venue": "ISRN Biotechnol",
-            "volume": "31",
-            "issn": "",
-            "pages": "1--31",
-            "other_ids": {
-                "DOI": [
-                    "10.1155/2014/463074"
-                ]
-            }
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Plasticity, elasticity, and adhesion energy of plant cell walls: nanometrology of lignin loss using atomic force microscopy",
-            "authors": [
-                {
-                    "first": "R",
-                    "middle": [
-                        "H"
-                    ],
-                    "last": "Farahi",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [
-                        "M"
-                    ],
-                    "last": "Charrier",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Tolbert",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [
-                        "L"
-                    ],
-                    "last": "Lereu",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Ragauskas",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [
-                        "H"
-                    ],
-                    "last": "Davison",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Passian",
-                    "suffix": ""
-                }
-            ],
-            "year": 2017,
-            "venue": "Sci Rep",
-            "volume": "7",
-            "issn": "1",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1038/s41598-017-00234-4"
-                ]
-            }
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "Marsilea spp. A novel source of lignocellulosic biomass: effect of solubilized lignin on anaerobic biodegradability and cost of energy products",
-            "authors": [
-                {
-                    "first": "Rajesh",
-                    "middle": [],
-                    "last": "Banu",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Sugitha",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Kannah",
-                    "suffix": ""
-                },
-                {
-                    "first": "R",
-                    "middle": [
-                        "Y"
-                    ],
-                    "last": "Kavitha",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Yeom",
-                    "suffix": ""
-                },
-                {
-                    "first": "I",
-                    "middle": [
-                        "T"
-                    ],
-                    "last": "",
-                    "suffix": ""
-                }
-            ],
-            "year": 2018,
-            "venue": "Bioresour Technol",
-            "volume": "255",
-            "issn": "",
-            "pages": "220--228",
-            "other_ids": {
-                "DOI": [
-                    "10.1016/j.biortech.2018.01.103"
-                ]
-            }
+            "year": 2019
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "Lignocellulosic biomass transformations via greener oxidative pretreatment processes: access to energy and value-added chemicals",
             "authors": [
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Den",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "V",
+                    "last": "Sharma",
                     "middle": [
                         "K"
                     ],
-                    "last": "Sharma",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Lee",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Nadadur",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Varma",
                     "middle": [
                         "S"
                     ],
-                    "last": "Varma",
                     "suffix": ""
                 }
             ],
-            "year": 2018,
-            "venue": "Front Chem",
-            "volume": "6",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.3389/fchem.2018.00141"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b10",
+            "title": "Lignocellulosic biomass transformations via greener oxidative pretreatment processes: access to energy and value-added chemicals",
+            "venue": "Front Chem",
+            "volume": "6",
+            "year": 2018
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "A convergent approach for a deep converting lignin-first biorefinery rendering high-energy density drop-in fuels",
             "authors": [
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Cao",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
                     "middle": [],
-                    "last": "Dierks",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Dierks",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Clough",
                     "middle": [
                         "T"
                     ],
-                    "last": "Clough",
                     "suffix": ""
                 },
                 {
                     "first": "I",
+                    "last": "Daltro De Castro",
                     "middle": [
                         "B"
                     ],
-                    "last": "Daltro De Castro",
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Rinaldi",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
-            "venue": "Joule",
-            "volume": "2",
             "issn": "6",
-            "pages": "1118--1133",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.joule.2018.03.012"
                 ]
-            }
+            },
+            "pages": "1118--1133",
+            "ref_id": "b11",
+            "title": "A convergent approach for a deep converting lignin-first biorefinery rendering high-energy density drop-in fuels",
+            "venue": "Joule",
+            "volume": "2",
+            "year": 2018
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "Biodegradation of aged polycyclic aromatic hydrocarbons (PAHs) by microbial consortia in soil and slurry phases",
             "authors": [
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Xi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Lin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Gong",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2008,
-            "venue": "J Hazard Mater",
-            "volume": "150",
             "issn": "1",
-            "pages": "21--26",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.jhazmat.2007.04.040"
                 ]
-            }
+            },
+            "pages": "21--26",
+            "ref_id": "b12",
+            "title": "Biodegradation of aged polycyclic aromatic hydrocarbons (PAHs) by microbial consortia in soil and slurry phases",
+            "venue": "J Hazard Mater",
+            "volume": "150",
+            "year": 2008
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "Production, purification, and characterization of a highly thermostable and humic acid biodegrading peroxidase from a decolorizing Streptomyces albidoflavus strain TN644 isolated from a Tunisian off-shore oil field",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Jaouadi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Rekik",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Badis",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Zara\u00ee",
-                    "middle": [],
                     "last": "Jaouadi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Belhoul",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Hmidi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Kourdali",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Fodil",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Bejar",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2014,
-            "venue": "Int Biodeterior Biodegrad",
-            "volume": "90",
             "issn": "",
-            "pages": "36--44",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.ibiod.2014.02.001"
                 ]
-            }
+            },
+            "pages": "36--44",
+            "ref_id": "b13",
+            "title": "Production, purification, and characterization of a highly thermostable and humic acid biodegrading peroxidase from a decolorizing Streptomyces albidoflavus strain TN644 isolated from a Tunisian off-shore oil field",
+            "venue": "Int Biodeterior Biodegrad",
+            "volume": "90",
+            "year": 2014
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Purification, characterization and cloning of an extracellular laccase with potent dye decolorizing ability from white rot fungus Cerrena unicolor GSM-01",
             "authors": [
                 {
                     "first": "S",
+                    "last": "Wang",
                     "middle": [
                         "S"
                     ],
-                    "last": "Wang",
                     "suffix": ""
                 },
                 {
                     "first": "Y",
+                    "last": "Ning",
                     "middle": [
                         "J"
                     ],
-                    "last": "Ning",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Wang",
                     "middle": [
                         "N"
                     ],
-                    "last": "Wang",
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
+                    "last": "Zhang",
                     "middle": [
                         "Q"
                     ],
-                    "last": "Zhang",
                     "suffix": ""
                 },
                 {
                     "first": "Q",
+                    "last": "Chen",
                     "middle": [
                         "J"
                     ],
-                    "last": "Chen",
                     "suffix": ""
                 }
             ],
-            "year": 2017,
-            "venue": "Int J Biol Macromol",
-            "volume": "95",
             "issn": "",
-            "pages": "920--927",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.ijbiomac.2016.10.079"
                 ]
-            }
+            },
+            "pages": "920--927",
+            "ref_id": "b14",
+            "title": "Purification, characterization and cloning of an extracellular laccase with potent dye decolorizing ability from white rot fungus Cerrena unicolor GSM-01",
+            "venue": "Int J Biol Macromol",
+            "volume": "95",
+            "year": 2017
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "Transformation of the recalcitrant pharmaceutical compound carbamazepine by Pleurotus ostreatus: role of cytochrome P450 monooxygenase and manganese peroxidase",
             "authors": [
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Golan-Rozen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Chefetz",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Ben-Ari",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Geva",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Hadar",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2011,
-            "venue": "Environ Sci Technol",
-            "volume": "45",
             "issn": "16",
-            "pages": "6800--6805",
             "other_ids": {
                 "DOI": [
                     "10.1021/es200298t"
                 ]
-            }
+            },
+            "pages": "6800--6805",
+            "ref_id": "b15",
+            "title": "Transformation of the recalcitrant pharmaceutical compound carbamazepine by Pleurotus ostreatus: role of cytochrome P450 monooxygenase and manganese peroxidase",
+            "venue": "Environ Sci Technol",
+            "volume": "45",
+            "year": 2011
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "Insights into lignin degradation and its potential industrial applications",
             "authors": [
                 {
                     "first": "Abdel-Hamid Am",
-                    "middle": [],
                     "last": "Solbiati",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Cann",
                     "middle": [
                         "O"
                     ],
-                    "last": "Cann",
                     "suffix": ""
                 },
                 {
                     "first": "I",
+                    "last": "",
                     "middle": [
                         "K"
                     ],
-                    "last": "",
                     "suffix": ""
                 }
             ],
-            "year": 2013,
-            "venue": "Adv Appl Microbiol",
-            "volume": "82",
             "issn": "",
-            "pages": "1--28",
             "other_ids": {
                 "DOI": [
                     "10.1016/B978-0-12-407679-2.00001-6"
                 ]
-            }
+            },
+            "pages": "1--28",
+            "ref_id": "b16",
+            "title": "Insights into lignin degradation and its potential industrial applications",
+            "venue": "Adv Appl Microbiol",
+            "volume": "82",
+            "year": 2013
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "Optimization of lignin peroxidase production and stability by Phanerochaete chrysosporium using sewagetreatment-plant sludge as substrate in a stirred-tank bioreactor",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Alam",
                     "middle": [
                         "Z"
                     ],
-                    "last": "Alam",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Mansor",
                     "middle": [
                         "F"
                     ],
-                    "last": "Mansor",
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Jalal",
                     "middle": [
                         "C"
                     ],
-                    "last": "Jalal",
                     "suffix": ""
                 }
             ],
-            "year": 2009,
-            "venue": "J Ind Microbiol Biotechnol",
-            "volume": "36",
             "issn": "5",
-            "pages": "757--764",
             "other_ids": {
                 "DOI": [
                     "10.1007/s10295-009-0548-5"
                 ]
-            }
+            },
+            "pages": "757--764",
+            "ref_id": "b17",
+            "title": "Optimization of lignin peroxidase production and stability by Phanerochaete chrysosporium using sewagetreatment-plant sludge as substrate in a stirred-tank bioreactor",
+            "venue": "J Ind Microbiol Biotechnol",
+            "volume": "36",
+            "year": 2009
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "High-yield production of manganese peroxidase, lignin peroxidase, and versatile peroxidase in Phanerochaete chrysosporium",
             "authors": [
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Coconi-Linares",
-                    "suffix": ""
-                },
-                {
-                    "first": "D",
                     "middle": [],
-                    "last": "Magana-Ortiz",
                     "suffix": ""
                 },
                 {
                     "first": "D",
+                    "last": "Magana-Ortiz",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Guzman-Ortiz",
                     "middle": [
                         "A"
                     ],
-                    "last": "Guzman-Ortiz",
                     "suffix": ""
                 },
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Fernandez",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Loske",
                     "middle": [
                         "M"
                     ],
-                    "last": "Loske",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Gomez-Lim",
                     "middle": [
                         "A"
                     ],
-                    "last": "Gomez-Lim",
                     "suffix": ""
                 }
             ],
-            "year": 2014,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b18",
+            "title": "High-yield production of manganese peroxidase, lignin peroxidase, and versatile peroxidase in Phanerochaete chrysosporium",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2014
         },
         "BIBREF20": {
-            "ref_id": "b20",
-            "title": "Characterization of a manganese peroxidase from white-rot fungus Trametes sp. 48424 with strong ability of degrading different types of dyes and polycyclic aromatic hydrocarbons",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "He",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Qin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Yang",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
-            "venue": "J Hazard Mater",
-            "volume": "320",
             "issn": "",
-            "pages": "265--277",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.jhazmat.2016.07.065"
                 ]
-            }
+            },
+            "pages": "265--277",
+            "ref_id": "b20",
+            "title": "Characterization of a manganese peroxidase from white-rot fungus Trametes sp. 48424 with strong ability of degrading different types of dyes and polycyclic aromatic hydrocarbons",
+            "venue": "J Hazard Mater",
+            "volume": "320",
+            "year": 2016
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Characterization of a novel manganese peroxidase from white-rot fungus Echinodontium taxodii 2538 and its use for the degradation of lignin-related compounds",
             "authors": [
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Kong",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Chen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Lyu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Ma",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Yu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
-            "venue": "Process Biochem",
-            "volume": "51",
             "issn": "11",
-            "pages": "1776--1783",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.procbio.2016.01.007"
                 ]
-            }
+            },
+            "pages": "1776--1783",
+            "ref_id": "b21",
+            "title": "Characterization of a novel manganese peroxidase from white-rot fungus Echinodontium taxodii 2538 and its use for the degradation of lignin-related compounds",
+            "venue": "Process Biochem",
+            "volume": "51",
+            "year": 2016
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "Purification and characterization of two novel peroxidases from the dyedecolorizing fungus Bjerkandera adusta strain CX-9",
             "authors": [
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Bouacem",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Rekik",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Zarai",
-                    "middle": [],
                     "last": "Jaouadi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Zenati",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Kourdali",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "El",
-                    "middle": [],
                     "last": "Hattab",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Badis",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Annane",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Bejar",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Hacene",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Bouanane-Darenfed",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Jaouadi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
-            "venue": "Int J Biol Macromol",
-            "volume": "106",
             "issn": "",
-            "pages": "636--646",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.ijbiomac.2017.08.061"
                 ]
-            }
+            },
+            "pages": "636--646",
+            "ref_id": "b22",
+            "title": "Purification and characterization of two novel peroxidases from the dyedecolorizing fungus Bjerkandera adusta strain CX-9",
+            "venue": "Int J Biol Macromol",
+            "volume": "106",
+            "year": 2018
         },
         "BIBREF23": {
-            "ref_id": "b23",
-            "title": "The Trametes hirsuta 072 laccase multigene family: Genes identification and transcriptional analysis under copper ions induction",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Vasina",
                     "middle": [
                         "V"
                     ],
-                    "last": "Vasina",
                     "suffix": ""
                 },
                 {
                     "first": "O",
+                    "last": "Mustafa",
                     "middle": [
                         "N"
                     ],
-                    "last": "Mustafa",
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Moiseenko",
                     "middle": [
                         "V"
                     ],
-                    "last": "Moiseenko",
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Sadovskaya",
                     "middle": [
                         "S"
                     ],
-                    "last": "Sadovskaya",
                     "suffix": ""
                 },
                 {
                     "first": "O",
+                    "last": "Glazunova",
                     "middle": [
                         "A"
                     ],
-                    "last": "Glazunova",
                     "suffix": ""
                 },
                 {
                     "first": "\u0410",
+                    "last": "Tyurin",
                     "middle": [
                         "\u0410"
                     ],
-                    "last": "Tyurin",
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Fedorova",
                     "middle": [
                         "V"
                     ],
-                    "last": "Fedorova",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Pavlov",
                     "middle": [
                         "R"
                     ],
-                    "last": "Pavlov",
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Tyazhelova",
                     "middle": [
                         "V"
                     ],
-                    "last": "Tyazhelova",
                     "suffix": ""
                 },
                 {
                     "first": "I",
+                    "last": "Goldenkova",
                     "middle": [
                         "V"
                     ],
-                    "last": "Goldenkova",
                     "suffix": ""
                 },
                 {
                     "first": "O",
+                    "last": "Koroleva",
                     "middle": [
                         "V"
                     ],
-                    "last": "Koroleva",
                     "suffix": ""
                 }
             ],
-            "year": 2015,
-            "venue": "Biochimie",
-            "volume": "116",
             "issn": "",
-            "pages": "154--164",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.biochi.2015.07.015"
                 ]
-            }
+            },
+            "pages": "154--164",
+            "ref_id": "b23",
+            "title": "The Trametes hirsuta 072 laccase multigene family: Genes identification and transcriptional analysis under copper ions induction",
+            "venue": "Biochimie",
+            "volume": "116",
+            "year": 2015
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "White-rot fungus-mediated degradation of the analgesic ketoprofen and identification of intermediates by HPLC-DAD-MS and NMR",
             "authors": [
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Marco-Urrea",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Perez-Trujillo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Cruz-Morato",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Caminal",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Vicent",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2010,
-            "venue": "Chemosphere",
-            "volume": "78",
             "issn": "4",
-            "pages": "474--481",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.chemosphere.2009.10.009"
                 ]
-            }
+            },
+            "pages": "474--481",
+            "ref_id": "b24",
+            "title": "White-rot fungus-mediated degradation of the analgesic ketoprofen and identification of intermediates by HPLC-DAD-MS and NMR",
+            "venue": "Chemosphere",
+            "volume": "78",
+            "year": 2010
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "Laccases for removal of recalcitrant and emerging pollutants",
             "authors": [
                 {
                     "first": "J",
+                    "last": "Majeau",
                     "middle": [
                         "A"
                     ],
-                    "last": "Majeau",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Brar",
                     "middle": [
                         "K"
                     ],
-                    "last": "Brar",
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Tyagi",
                     "middle": [
                         "D"
                     ],
-                    "last": "Tyagi",
                     "suffix": ""
                 }
             ],
-            "year": 2010,
-            "venue": "BioresourTechnol",
-            "volume": "101",
             "issn": "",
-            "pages": "2331--2350",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.biortech.2009.10.087"
                 ]
-            }
+            },
+            "pages": "2331--2350",
+            "ref_id": "b25",
+            "title": "Laccases for removal of recalcitrant and emerging pollutants",
+            "venue": "BioresourTechnol",
+            "volume": "101",
+            "year": 2010
         },
         "BIBREF26": {
-            "ref_id": "b26",
-            "title": "Prediction of transcription start sites based on feature selection using AMOSA",
             "authors": [
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Bandyopadhyay",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Xuan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Zhao",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Zhang",
                     "middle": [
                         "Q"
                     ],
-                    "last": "Zhang",
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2007,
-            "venue": "Comput Syst Bioinform Conf",
-            "volume": "6",
             "issn": "",
-            "pages": "183--193",
             "other_ids": {
                 "DOI": [
                     "10.1142/9781860948732_0021"
                 ]
-            }
+            },
+            "pages": "183--193",
+            "ref_id": "b26",
+            "title": "Prediction of transcription start sites based on feature selection using AMOSA",
+            "venue": "Comput Syst Bioinform Conf",
+            "volume": "6",
+            "year": 2007
         },
         "BIBREF27": {
-            "ref_id": "b27",
-            "title": "In silico analysis of the promoter region of olfactory receptors in cattle (Bosindicus) to understand its gene regulation",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Samuel",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Dinka",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Nucleosides Nucleotides Nucleic Acids",
-            "volume": "39",
             "issn": "6",
-            "pages": "1--13",
             "other_ids": {
                 "DOI": [
                     "10.1080/15257770.2020.1711524"
                 ]
-            }
+            },
+            "pages": "1--13",
+            "ref_id": "b27",
+            "title": "In silico analysis of the promoter region of olfactory receptors in cattle (Bosindicus) to understand its gene regulation",
+            "venue": "Nucleosides Nucleotides Nucleic Acids",
+            "volume": "39",
+            "year": 2020
         },
         "BIBREF28": {
-            "ref_id": "b28",
-            "title": "Features of methylation and gene expression in the promoter-associated CpG islands using human methylome data",
             "authors": [
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Du",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Leng",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "An-Yuan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Zhongming",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
-            "venue": "Comp Funct Genomics",
-            "volume": "",
             "issn": "",
-            "pages": "1--8",
             "other_ids": {
                 "DOI": [
                     "10.1155/2012/598987"
                 ]
-            }
+            },
+            "pages": "1--8",
+            "ref_id": "b28",
+            "title": "Features of methylation and gene expression in the promoter-associated CpG islands using human methylome data",
+            "venue": "Comp Funct Genomics",
+            "volume": "",
+            "year": 2012
         },
         "BIBREF29": {
-            "ref_id": "b29",
-            "title": "Divergence of Transcription factor binding sites across related yeast species",
             "authors": [
                 {
                     "first": "A",
+                    "last": "Borneman",
                     "middle": [
                         "R"
                     ],
-                    "last": "Borneman",
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Gianoulis",
                     "middle": [
                         "A"
                     ],
-                    "last": "Gianoulis",
                     "suffix": ""
                 },
                 {
                     "first": "Z",
+                    "last": "Zhang",
                     "middle": [
                         "D"
                     ],
-                    "last": "Zhang",
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Yu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Rozowsky",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Seringhaus",
                     "middle": [
                         "R"
                     ],
-                    "last": "Seringhaus",
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Wang",
                     "middle": [
                         "Y"
                     ],
-                    "last": "Wang",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Gerstein",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Snyder",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2007,
-            "venue": "Science",
-            "volume": "317",
             "issn": "5839",
-            "pages": "815--819",
             "other_ids": {
                 "DOI": [
                     "10.1126/science.1140748"
                 ]
-            }
+            },
+            "pages": "815--819",
+            "ref_id": "b29",
+            "title": "Divergence of Transcription factor binding sites across related yeast species",
+            "venue": "Science",
+            "volume": "317",
+            "year": 2007
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Lonsdale",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Pautasso",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "last": "Holdenrieder",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "1",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10342-007-0182-6"
+                ]
+            },
+            "pages": "1--22",
+            "ref_id": "b3",
+            "title": "Wood-decaying fungi in the forest: conservation needs and management options",
+            "venue": "Eur J For Res",
+            "volume": "127",
+            "year": 2008
         },
         "BIBREF30": {
-            "ref_id": "b30",
-            "title": "How do site-specific DNA-binding proteins find their targets",
             "authors": [
                 {
                     "first": "E",
+                    "last": "Halford",
                     "middle": [
                         "S"
                     ],
-                    "last": "Halford",
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Marko",
                     "middle": [
                         "F"
                     ],
-                    "last": "Marko",
                     "suffix": ""
                 }
             ],
-            "year": 2004,
-            "venue": "Nucleic Acids Res",
-            "volume": "32",
             "issn": "10",
-            "pages": "3040--3052",
             "other_ids": {
                 "DOI": [
                     "10.1093/nar/gkh624"
                 ]
-            }
+            },
+            "pages": "3040--3052",
+            "ref_id": "b30",
+            "title": "How do site-specific DNA-binding proteins find their targets",
+            "venue": "Nucleic Acids Res",
+            "volume": "32",
+            "year": 2004
         },
         "BIBREF31": {
-            "ref_id": "b31",
-            "title": "Cytoplasmic male sterility of rice with boro II cytoplasm is caused by a cytotoxic peptide and is restored by two related PPR motif genes via distinct modes of mRNA silencing",
             "authors": [
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Zou",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Chen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Wu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Su",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Chen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Guo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Luo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Long",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2006,
-            "venue": "Plant Cell",
-            "volume": "18",
             "issn": "3",
-            "pages": "676--687",
             "other_ids": {
                 "DOI": [
                     "10.1105/tpc.105.038240"
                 ]
-            }
+            },
+            "pages": "676--687",
+            "ref_id": "b31",
+            "title": "Cytoplasmic male sterility of rice with boro II cytoplasm is caused by a cytotoxic peptide and is restored by two related PPR motif genes via distinct modes of mRNA silencing",
+            "venue": "Plant Cell",
+            "volume": "18",
+            "year": 2006
         },
         "BIBREF32": {
-            "ref_id": "b32",
-            "title": "In silico comparative analysis of promoters derived from plant pararetroviruses",
             "authors": [
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Gupta",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Ranjan",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2017,
-            "venue": "Virus Disease",
-            "volume": "28",
             "issn": "4",
-            "pages": "416--421",
             "other_ids": {
                 "DOI": [
                     "10.1007/s13337-017-0410-8"
                 ]
-            }
+            },
+            "pages": "416--421",
+            "ref_id": "b32",
+            "title": "In silico comparative analysis of promoters derived from plant pararetroviruses",
+            "venue": "Virus Disease",
+            "volume": "28",
+            "year": 2017
         },
         "BIBREF33": {
-            "ref_id": "b33",
-            "title": "Metazoan promoters: emerging characteristics and insights into transcriptional regulation",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Lenhard",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Sandelin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Carninci",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
-            "venue": "Nat Rev Genet",
-            "volume": "13",
             "issn": "4",
-            "pages": "233--245",
             "other_ids": {
                 "DOI": [
                     "10.1038/nrg3163"
                 ]
-            }
+            },
+            "pages": "233--245",
+            "ref_id": "b33",
+            "title": "Metazoan promoters: emerging characteristics and insights into transcriptional regulation",
+            "venue": "Nat Rev Genet",
+            "volume": "13",
+            "year": 2012
         },
         "BIBREF34": {
-            "ref_id": "b34",
-            "title": "Application of a time-delay neural network to promoter annotation in the Drosophila melanogaster genome",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Reese",
                     "middle": [
                         "G"
                     ],
-                    "last": "Reese",
                     "suffix": ""
                 }
             ],
-            "year": 2001,
-            "venue": "Comput Chem",
-            "volume": "26",
             "issn": "1",
-            "pages": "99--106",
             "other_ids": {
                 "DOI": [
                     "10.1016/s0097-8485(01)00099-7"
                 ]
-            }
+            },
+            "pages": "99--106",
+            "ref_id": "b34",
+            "title": "Application of a time-delay neural network to promoter annotation in the Drosophila melanogaster genome",
+            "venue": "Comput Chem",
+            "volume": "26",
+            "year": 2001
         },
         "BIBREF35": {
-            "ref_id": "b35",
-            "title": "Analysis of the promoter region, motif and CpG islands in AraC family transcriptional regulator ACP92 genes of Herbaspirillum seropedicae",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Yirgu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Kebede",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2019,
-            "venue": "Adv Biosci Biotechnol",
-            "volume": "10",
             "issn": "6",
-            "pages": "150--164",
             "other_ids": {
                 "DOI": [
                     "10.4236/abb.2019.106011"
                 ]
-            }
+            },
+            "pages": "150--164",
+            "ref_id": "b35",
+            "title": "Analysis of the promoter region, motif and CpG islands in AraC family transcriptional regulator ACP92 genes of Herbaspirillum seropedicae",
+            "venue": "Adv Biosci Biotechnol",
+            "volume": "10",
+            "year": 2019
         },
         "BIBREF36": {
-            "ref_id": "b36",
-            "title": "Unfolding SARS-CoV-2 viral genome to understand its gene expression regulation",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Dinka",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Milkesa",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Infection. Genet Evol",
-            "volume": "84",
             "issn": "",
-            "pages": "1567--1348",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.meegid.2020.104386"
                 ]
-            }
+            },
+            "pages": "1567--1348",
+            "ref_id": "b36",
+            "title": "Unfolding SARS-CoV-2 viral genome to understand its gene expression regulation",
+            "venue": "Infection. Genet Evol",
+            "volume": "84",
+            "year": 2020
         },
         "BIBREF37": {
-            "ref_id": "b37",
-            "title": "Fitting a mixture model by expectation maximization to discover motifs in biopolymers",
             "authors": [
                 {
                     "first": "L",
+                    "last": "Bailey",
                     "middle": [
                         "T"
                     ],
-                    "last": "Bailey",
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Elkan",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 1994,
+            "issn": "",
+            "other_ids": {},
+            "pages": "28--36",
+            "ref_id": "b37",
+            "title": "Fitting a mixture model by expectation maximization to discover motifs in biopolymers",
             "venue": "Proc Int Conf Intell Syst Mol Biol",
             "volume": "2",
-            "issn": "",
-            "pages": "28--36",
-            "other_ids": {}
+            "year": 1994
         },
         "BIBREF38": {
-            "ref_id": "b38",
-            "title": "Quantifying similarity between motifs",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Gupta",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Stamatoyannopolous",
                     "middle": [
                         "A"
                     ],
-                    "last": "Stamatoyannopolous",
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Timothy",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "William",
                     "middle": [
                         "N"
                     ],
-                    "last": "William",
                     "suffix": ""
                 }
             ],
-            "year": 2007,
-            "venue": "Genome Biol",
-            "volume": "8",
             "issn": "2",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1186/gb-2007-8-2-r24"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b38",
+            "title": "Quantifying similarity between motifs",
+            "venue": "Genome Biol",
+            "volume": "8",
+            "year": 2007
         },
         "BIBREF39": {
-            "ref_id": "b39",
-            "title": "MEME SUITE: tools for motif discovery and searching",
             "authors": [
                 {
                     "first": "L",
+                    "last": "Bailey",
                     "middle": [
                         "T"
                     ],
-                    "last": "Bailey",
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Mikael",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Fabian",
                     "middle": [
                         "B"
                     ],
-                    "last": "Fabian",
                     "suffix": ""
                 },
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Martin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Charles",
                     "middle": [
                         "G"
                     ],
-                    "last": "Charles",
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Luca",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Jingyuan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W",
+                    "last": "Wilfred",
                     "middle": [
                         "L"
                     ],
-                    "last": "Wilfred",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "William",
                     "middle": [
                         "N"
                     ],
-                    "last": "William",
                     "suffix": ""
                 }
             ],
-            "year": 2009,
-            "venue": "Nucleic Acids Res",
-            "volume": "37",
             "issn": "2",
-            "pages": "202--208",
             "other_ids": {
                 "DOI": [
                     "10.1093/nar/gkp335"
                 ]
-            }
+            },
+            "pages": "202--208",
+            "ref_id": "b39",
+            "title": "MEME SUITE: tools for motif discovery and searching",
+            "venue": "Nucleic Acids Res",
+            "volume": "37",
+            "year": 2009
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "B",
+                    "last": "Marcot",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2737/PNW-RN-575"
+                ]
+            },
+            "pages": "1--31",
+            "ref_id": "b4",
+            "title": "A review of the role of fungi in wood decay of forest ecosystems",
+            "venue": "Res Note",
+            "volume": "575",
+            "year": 2017
         },
         "BIBREF40": {
-            "ref_id": "b40",
-            "title": "Comprehensive analysis of CpG islands in human chromosomes 21 and 22",
             "authors": [
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Takai",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
+                    "last": "Jones",
                     "middle": [
                         "A"
                     ],
-                    "last": "Jones",
                     "suffix": ""
                 }
             ],
-            "year": 2002,
-            "venue": "Proc Natl Acad Sci U S A",
-            "volume": "99",
             "issn": "6",
-            "pages": "3740--3745",
             "other_ids": {
                 "DOI": [
                     "10.1073/pnas.052410099"
                 ]
-            }
+            },
+            "pages": "3740--3745",
+            "ref_id": "b40",
+            "title": "Comprehensive analysis of CpG islands in human chromosomes 21 and 22",
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "99",
+            "year": 2002
         },
         "BIBREF42": {
-            "ref_id": "b42",
-            "title": "Restriction landmark genome scanning method using isoschizomers (MspI/HpaI) for DNA methylation analysis",
             "authors": [
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Takamiya",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Hosobuchi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Asai",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Nakamura",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Tomioka",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Kawase",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Kakutani",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Paterson",
                     "middle": [
                         "H"
                     ],
-                    "last": "Paterson",
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Murakami",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Okuizumi",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2006,
-            "venue": "Electrophoresis",
-            "volume": "27",
             "issn": "14",
-            "pages": "2846--2856",
             "other_ids": {
                 "DOI": [
                     "10.1002/elps.200500776"
                 ]
-            }
+            },
+            "pages": "2846--2856",
+            "ref_id": "b42",
+            "title": "Restriction landmark genome scanning method using isoschizomers (MspI/HpaI) for DNA methylation analysis",
+            "venue": "Electrophoresis",
+            "volume": "27",
+            "year": 2006
         },
         "BIBREF43": {
-            "ref_id": "b43",
-            "title": "Mapping of transcription start sites of human retina expressed genes",
             "authors": [
                 {
                     "first": "V",
-                    "middle": [],
                     "last": "Roni",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Carpio",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Wissinger",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2007,
-            "venue": "BMC Genomics",
-            "volume": "8",
             "issn": "1",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1186/1471-2164-8-42"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b43",
+            "title": "Mapping of transcription start sites of human retina expressed genes",
+            "venue": "BMC Genomics",
+            "volume": "8",
+            "year": 2007
         },
         "BIBREF44": {
-            "ref_id": "b44",
-            "title": "Analysis of pig vomeronasal receptor type1 (V1R) promoter region reveals a common promoter motif but poor CpG islands",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Dinka",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Minh",
                     "middle": [
                         "L"
                     ],
-                    "last": "Minh",
                     "suffix": ""
                 }
             ],
-            "year": 2018,
-            "venue": "Anim Biotechnol",
-            "volume": "29",
             "issn": "4",
-            "pages": "293--300",
             "other_ids": {
                 "DOI": [
                     "10.1080/10495398.2017.1383915"
                 ]
-            }
+            },
+            "pages": "293--300",
+            "ref_id": "b44",
+            "title": "Analysis of pig vomeronasal receptor type1 (V1R) promoter region reveals a common promoter motif but poor CpG islands",
+            "venue": "Anim Biotechnol",
+            "volume": "29",
+            "year": 2018
         },
         "BIBREF45": {
-            "ref_id": "b45",
-            "title": "Transcriptional regulation of the human UDP-GlcNAc: alpha-6-D-mannoside beta-1-2-Nacetylglucosaminyltransferase II gene (MGAT2) which controls complex Nglycan synthesis",
             "authors": [
                 {
                     "first": "S",
+                    "last": "Chen",
                     "middle": [
                         "H"
                     ],
-                    "last": "Chen",
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Zhou",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Tan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Schachter",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 1998,
-            "venue": "Glycoconj J",
-            "volume": "15",
             "issn": "3",
-            "pages": "301--308",
             "other_ids": {
                 "DOI": [
                     "10.1023/a:1006957331273"
                 ]
-            }
+            },
+            "pages": "301--308",
+            "ref_id": "b45",
+            "title": "Transcriptional regulation of the human UDP-GlcNAc: alpha-6-D-mannoside beta-1-2-Nacetylglucosaminyltransferase II gene (MGAT2) which controls complex Nglycan synthesis",
+            "venue": "Glycoconj J",
+            "volume": "15",
+            "year": 1998
         },
         "BIBREF46": {
-            "ref_id": "b46",
-            "title": "Phospholipid metabolism regulated by a transcription factor sensing phosphatidic acid",
             "authors": [
                 {
                     "first": "Cjr",
-                    "middle": [],
                     "last": "Loewen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Gaspar",
                     "middle": [
                         "L"
                     ],
-                    "last": "Gaspar",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Jesch",
                     "middle": [
                         "A"
                     ],
-                    "last": "Jesch",
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Delon",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Ktistakis",
                     "middle": [
                         "T"
                     ],
-                    "last": "Ktistakis",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Henry",
                     "middle": [
                         "A"
                     ],
-                    "last": "Henry",
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Levine",
                     "middle": [
                         "P"
                     ],
-                    "last": "Levine",
                     "suffix": ""
                 }
             ],
-            "year": 2004,
-            "venue": "Science",
-            "volume": "304",
             "issn": "5677",
-            "pages": "1644--1647",
             "other_ids": {
                 "DOI": [
                     "10.1126/science.1096083"
                 ]
-            }
+            },
+            "pages": "1644--1647",
+            "ref_id": "b46",
+            "title": "Phospholipid metabolism regulated by a transcription factor sensing phosphatidic acid",
+            "venue": "Science",
+            "volume": "304",
+            "year": 2004
         },
         "BIBREF47": {
-            "ref_id": "b47",
-            "title": "Divergence of CpG island promoters: a consequence or cause of evolution",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Sharif",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Endo",
                     "middle": [
                         "A"
                     ],
-                    "last": "Endo",
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Toyoda",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Koseki",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2010,
-            "venue": "Develop Growth Differ",
-            "volume": "52",
             "issn": "6",
-            "pages": "545--554",
             "other_ids": {
                 "DOI": [
                     "10.1111/j.1440-169X.2010.01193.x"
                 ]
-            }
+            },
+            "pages": "545--554",
+            "ref_id": "b47",
+            "title": "Divergence of CpG island promoters: a consequence or cause of evolution",
+            "venue": "Develop Growth Differ",
+            "volume": "52",
+            "year": 2010
         },
         "BIBREF48": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b48",
             "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
+            "year": null
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Hatakka",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Hammel",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                }
+            ],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b5",
+            "title": "Fungal biodegradation of lignocelluloses",
+            "venue": "Industrial Applications",
+            "volume": "",
+            "year": 2010
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Fisher",
+                    "middle": [
+                        "B"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Fong",
+                    "middle": [
+                        "S"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "2",
+            "other_ids": {
+                "DOI": [
+                    "10.3934/bioeng.2014.2.92"
+                ]
+            },
+            "pages": "92--112",
+            "ref_id": "b6",
+            "title": "Lignin biodegradation and industrial implications",
+            "venue": "AIMS Bioeng",
+            "volume": "1",
+            "year": 2014
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "V",
+                    "last": "Balan",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1155/2014/463074"
+                ]
+            },
+            "pages": "1--31",
+            "ref_id": "b7",
+            "title": "Current challenges in commercially producing biofuels from lignocellulosic biomass",
+            "venue": "ISRN Biotechnol",
+            "volume": "31",
+            "year": 2014
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "R",
+                    "last": "Farahi",
+                    "middle": [
+                        "H"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Charrier",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Tolbert",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Lereu",
+                    "middle": [
+                        "L"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Ragauskas",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Davison",
+                    "middle": [
+                        "H"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Passian",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "1",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-017-00234-4"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b8",
+            "title": "Plasticity, elasticity, and adhesion energy of plant cell walls: nanometrology of lignin loss using atomic force microscopy",
+            "venue": "Sci Rep",
+            "volume": "7",
+            "year": 2017
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "Rajesh",
+                    "last": "Banu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Sugitha",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Kannah",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Kavitha",
+                    "middle": [
+                        "Y"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Yeom",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "last": "",
+                    "middle": [
+                        "T"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.biortech.2018.01.103"
+                ]
+            },
+            "pages": "220--228",
+            "ref_id": "b9",
+            "title": "Marsilea spp. A novel source of lignocellulosic biomass: effect of solubilized lignin on anaerobic biodegradability and cost of energy products",
+            "venue": "Bioresour Technol",
+            "volume": "255",
+            "year": 2018
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 82,
+                    "ref_id": "BIBREF0",
+                    "start": 79,
+                    "text": "[1,"
+                },
+                {
+                    "end": 85,
+                    "ref_id": "BIBREF1",
+                    "start": 83,
+                    "text": "2]"
+                },
+                {
+                    "end": 222,
+                    "ref_id": "BIBREF3",
+                    "start": 219,
+                    "text": "[3,"
+                },
+                {
+                    "end": 225,
+                    "ref_id": "BIBREF4",
+                    "start": 223,
+                    "text": "4]"
+                },
+                {
+                    "end": 433,
+                    "ref_id": "BIBREF5",
+                    "start": 430,
+                    "text": "[5,"
+                },
+                {
+                    "end": 436,
+                    "ref_id": "BIBREF6",
+                    "start": 434,
+                    "text": "6]"
+                },
+                {
+                    "end": 507,
+                    "ref_id": "BIBREF7",
+                    "start": 504,
+                    "text": "[7]"
+                },
+                {
+                    "end": 554,
+                    "ref_id": "BIBREF8",
+                    "start": 551,
+                    "text": "[8]"
+                },
+                {
+                    "end": 558,
+                    "ref_id": "BIBREF9",
+                    "start": 555,
+                    "text": "[9]"
+                },
+                {
+                    "end": 563,
+                    "ref_id": "BIBREF10",
+                    "start": 559,
+                    "text": "[10]"
+                },
+                {
+                    "end": 667,
+                    "ref_id": "BIBREF11",
+                    "start": 663,
+                    "text": "[11]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background",
+            "text": "White rot fungi (WRF) are crucial components of several terrestrial ecosystems [1, 2] which are fundamentally important in carbon balance, soil formation, forest regeneration, and support the biodiversity of our planet [3, 4] . They can degrade lignocellulose efficiently and make them an attractive target for several biotechnological applications, such as biofuel production, bio pulping industry, and bioremediation technology [5, 6] . Moreover, lignin is a major component of lignocellulosic biomass [7] and is mainly responsible for its strength [8] [9] [10] and used for industrial production of aromatics and novel plastics, or as a source of green energy [11] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 116,
+                    "ref_id": "BIBREF12",
+                    "start": 112,
+                    "text": "[12]"
+                },
+                {
+                    "end": 382,
+                    "ref_id": "BIBREF13",
+                    "start": 378,
+                    "text": "[13,"
+                },
+                {
+                    "end": 386,
+                    "ref_id": "BIBREF14",
+                    "start": 383,
+                    "text": "14]"
+                },
+                {
+                    "end": 720,
+                    "ref_id": "BIBREF15",
+                    "start": 716,
+                    "text": "[15]"
+                },
+                {
+                    "end": 725,
+                    "ref_id": "BIBREF16",
+                    "start": 721,
+                    "text": "[16]"
+                },
+                {
+                    "end": 730,
+                    "ref_id": "BIBREF17",
+                    "start": 726,
+                    "text": "[17]"
+                },
+                {
+                    "end": 735,
+                    "ref_id": "BIBREF18",
+                    "start": 731,
+                    "text": "[18]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background",
+            "text": "White rot fungi are an excellent microorganism in degrading lignin and a wide range of complex organopollutants [12] . This ability is mainly associated with nonspecific extracellular ligninolytic enzymes such as laccase (Lac), lignin peroxidase (LiP), manganese peroxidase (MnP), and several other peroxidases such as versatile peroxidase (VP) and humic acid peroxidases (HuP) [13, 14] . Of particular interest, MnP is the heme-containing glycoprotein that WRF mainly produces. Besides being used in the conversion of lignin and lignocelluloses, MnP has great application potential in the field of environmental biotechnology and degradation of recalcitrant organopollutants that are highly harmful to human health [15] [16] [17] [18] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 284,
+                    "ref_id": "BIBREF17",
+                    "start": 280,
+                    "text": "[17,"
+                },
+                {
+                    "end": 288,
+                    "ref_id": "BIBREF18",
+                    "start": 285,
+                    "text": "18]"
+                },
+                {
+                    "end": 464,
+                    "ref_id": "BIBREF20",
+                    "start": 460,
+                    "text": "[19]"
+                },
+                {
+                    "end": 469,
+                    "ref_id": "BIBREF21",
+                    "start": 465,
+                    "text": "[20]"
+                },
+                {
+                    "end": 474,
+                    "ref_id": "BIBREF22",
+                    "start": 470,
+                    "text": "[21]"
+                },
+                {
+                    "end": 494,
+                    "ref_id": "BIBREF23",
+                    "start": 490,
+                    "text": "[22]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background",
+            "text": "Several studies reported that Phanerochaete chrysosporium had been the most intensively studied WRF as a source of extracellular ligninolytic enzymes. However, the production of these enzymes particularly peroxidases with this fungus in stirred bioreactors proved to be demanding [17, 18] . Screening of WRF pointed out strains from other genera such as Trametes, Pleurotus, Bjerkandera, Cerrena, and Echinodontium as a suitable source of ligninolytic enzymes [19] [20] [21] . Furthermore, [22] revealed that Trametes hirsuta potentially produces a wide spectrum of laccase isozymes of high redox potential, an efficient lignin degrader."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 120,
+                    "ref_id": "BIBREF24",
+                    "start": 116,
+                    "text": "[23]"
+                },
+                {
+                    "end": 275,
+                    "ref_id": "BIBREF25",
+                    "start": 271,
+                    "text": "[24]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background",
+            "text": "Over the past few years, the use of WRF for bioremediation purposes has gained interest in the scientific community [23] . Fungal extracellular lignin modifying enzymes have been reported to be particularly efficient in removing several recalcitrant environmental wastes [24] . White rot fungi secrete an enzyme of interest in the treatment of multiple trace organic contaminants in many compartments of the environment. Thus, biotechnological approaches are explored as an eco-friendly alternative that exploits the ability of various microorganisms, specifically white rot fungi and their enzyme products, to revitalize the contaminated environment."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 225,
+                    "ref_id": "BIBREF26",
+                    "start": 221,
+                    "text": "[25,"
+                },
+                {
+                    "end": 229,
+                    "ref_id": "BIBREF27",
+                    "start": 226,
+                    "text": "26]"
+                },
+                {
+                    "end": 476,
+                    "ref_id": "BIBREF28",
+                    "start": 472,
+                    "text": "[27]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background",
+            "text": "Analysis of promoter regions, transcription start sites (TSSs), and motifs are fundamental to understanding gene expression regulation mechanisms and association with genetic variations in the promoter regions of genomes [25, 26] . Apart from transcription factors, CpG islands are also important regulatory elements in the promoter regions of the genome and they are considered gene markers because they play important roles in gene regulation through epigenetic changes [27] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 98,
+                    "ref_id": "BIBREF29",
+                    "start": 94,
+                    "text": "[28]"
+                },
+                {
+                    "end": 238,
+                    "ref_id": "BIBREF30",
+                    "start": 234,
+                    "text": "[29]"
+                },
+                {
+                    "end": 406,
+                    "ref_id": "BIBREF31",
+                    "start": 402,
+                    "text": "[30]"
+                },
+                {
+                    "end": 527,
+                    "ref_id": "BIBREF32",
+                    "start": 523,
+                    "text": "[31]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Background",
+            "text": "Motifs are short DNA sequences bound by one or more DNA-binding proteins or protein complexes [28] . They are often associated with specialized proteins known as transcription factors and are thus linked to transcriptional regulation [29] . The common promoter motif is the key signature for a family of co-regulated genes and is usually present in the regions where complex protein interactions occur [30] . It is also reported that genes having similar expression patterns contain common motifs in their promoter regions [31] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Background",
+            "text": "Moreover, to our best of knowledge, there is no study reported regarding in silico analysis of genes vital in gene expression and association with genetic variation of Tremetes hirsuta strain 072 in Ethiopia. Therefore, this study was intended to identify regulatory elements such as promoter regions, CpG islands, transcription factors (TFs), and their corresponding binding sites (TFBSs) involved in the regulation of gene expression mechanisms. This study provides baseline information and additional insights, which were aimed to be used efficiently for several biotechnological applications and further detail molecular characterization of the Trametes hirsuta strain 072 genome."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 390,
+                    "ref_id": "BIBREF33",
+                    "start": 386,
+                    "text": "[32]"
+                },
+                {
+                    "end": 621,
+                    "ref_id": "BIBREF34",
+                    "start": 617,
+                    "text": "[33]"
+                },
+                {
+                    "end": 1175,
+                    "ref_id": "BIBREF35",
+                    "start": 1171,
+                    "text": "[34,"
+                },
+                {
+                    "end": 1179,
+                    "ref_id": "BIBREF36",
+                    "start": 1176,
+                    "text": "35]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Determination of transcription start sites (TSSs) and promoter regions",
+            "text": "A functional genome sequence of Trametes hirsuta strain 072 was taken from the NCBI genome browser (https:// www.ncbi.nlm.nih.gov/gene). A total of seventeen gene coding sequences starting with the ATG codon were identified and used in this analysis. To determine their respective transcription start sites (TSSs), 1-kb sequences upstream of the start codon were excised from each gene [32] . All the TSSs of each functional gene were searched within this region by using a Neural Network Promoter Prediction (NNPP version 2.2) toolset with the minimum standard predictive score (between 0 and 1) cutoff value of 0.8 [33] . This tool helps locate the possible TSSs within the sequences upstream of the start codon where the RNA polymerases start their activity and transcription process. The Neural Network Promoter Prediction tool has the ability to recognize precisely the position of a TSS for a given gene. For those regions containing more than one TSS, the highest value of the prediction score was considered to be a trustable and accurate prediction. According to a previously reported study, a promoter sequence was defined as a 1-kb region upstream of each TSS [34, 35] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 184,
+                    "ref_id": "BIBREF37",
+                    "start": 180,
+                    "text": "[36]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Identification of common candidate motifs and transcription factors",
+            "text": "Identified promoter sequences were analyzed using the MEME version 5.0.1 searches, via the web server hosted by the National Biomedical Computation Resource (http://meme.nbcr.net) [36] to look for common candidate motifs that serve as binding sites of transcription factors that regulate the expression of genes. The MEME suite software searches for statistically significant candidate motifs in the input sequence set. The MEME output was presented in the form of XML and shows the candidate motifs as local multiple alignments of the input promoter sequences. Briefly, the MEME toolset discovers novel, ungapped motifs (recurring, fixed-length patterns) in sequences submitted in it."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 481,
+                    "ref_id": "BIBREF37",
+                    "start": 477,
+                    "text": "[36]"
+                },
+                {
+                    "end": 694,
+                    "ref_id": "BIBREF38",
+                    "start": 690,
+                    "text": "[37]"
+                },
+                {
+                    "end": 1058,
+                    "ref_id": "BIBREF39",
+                    "start": 1054,
+                    "text": "[38]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Identification of common candidate motifs and transcription factors",
+            "text": "A motif is an approximate sequence pattern that repeatedly occurs in a group of related sequences. MEME represents motifs as position-dependent letter probability matrices that describe the probability of each possible letter at each position in the pattern. MEME takes as input a group of sequences and outputs as many motifs as requested. MEME uses statistical modeling techniques to automatically choose the best width, number of occurrences, and description for each motif [36] . Buttons on the MEME HTML output allow one or all candidate motifs to be forwarded for further analysis to better characterize the identified candidate motifs by other web-based programs, TOMTOM. The TOMTOM [37] web server was used to search for sequences matching the identified motif for its respective TF. The output of TOMTOM includes LOGOS representing the alignment of the candidate motif and TF with the p-value and q-value (a measure of false discovery rate) of the match and links back to the parent transcription database for more detailed information about it [38] . "
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 509,
+                    "ref_id": "TABREF0",
+                    "start": 500,
+                    "text": "(Table 1)"
+                }
+            ],
+            "section": "Identification of TSSs and promoter regions for each gene of Trametes hirsuta strain 072",
+            "text": "Gene coding sequences were used in this analysis. The TSSs were identified for each functional gene by excising 1-kb sequences upstream of the start codon, indicating that regulatory elements of the core promoter may lie up within this region. In this study, only cox2/36279600 genes have a single TSS, whereas 98% of genes contained more than two TSSs. Moreover, only the nad4/36279629 gene has a maximum of nine TSSs. Regarding predictive score, 56% of the cases were greater than or equal to 0.90 (Table 1) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Identification of TSSs and promoter regions for each gene of Trametes hirsuta strain 072",
+            "text": "Common candidate motifs and associated TFs in the promoter regions of Trametes hirsuta strain 072"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 432,
+                    "ref_id": "TABREF1",
+                    "start": 425,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 590,
+                    "ref_id": null,
+                    "start": 582,
+                    "text": "(Fig. 1)"
+                },
+                {
+                    "end": 742,
+                    "ref_id": null,
+                    "start": 735,
+                    "text": "(Fig. 1"
+                },
+                {
+                    "end": 880,
+                    "ref_id": "TABREF1",
+                    "start": 871,
+                    "text": "(Table 2)"
+                },
+                {
+                    "end": 951,
+                    "ref_id": null,
+                    "start": 945,
+                    "text": "Fig. 2"
+                }
+            ],
+            "section": "Identification of TSSs and promoter regions for each gene of Trametes hirsuta strain 072",
+            "text": "Identified promoter sequences for Trametes hirsuta strain 072 were analyzed using the MEME searches (http://meme.nbcr.net) to look for common candidate motifs that serve as binding sites of TFs that regulate the expression of genes. MEME searches for statistically significant candidate motifs in the input sequence set. In the current study, five candidate motifs shared by most input promoter sequences were investigated ( Table 2 ). The location and distribution of these candidate motifs in the promoter regions are concentrated between \u2212 700 bp and 800 bp relative to the TSSs (Fig. 1) . It was also noticed that twentyfive motifs were distributed on the positive strand, whereas four motifs were distributed on a negative strand (Fig. 1 ). In the present study, Motif IV was revealed as the binding site for TFs involved in the expression regulation of these genes (Table 2) . Moreover, the sequence logo for motif IV is also presented in Fig. 2 ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 26,
+                    "ref_id": "BIBREF38",
+                    "start": 22,
+                    "text": "[37]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 475,
+                    "ref_id": "TABREF2",
+                    "start": 466,
+                    "text": "(Table 3)"
+                }
+            ],
+            "section": "Identification of TSSs and promoter regions for each gene of Trametes hirsuta strain 072",
+            "text": "The TOMTOM web server [37] was further used to get more information on the motif IV promoter genes. Motif IV was compared to already documented and publically available databases to see if they are similar to known regulatory motifs for TFs. Accordingly, motif IV matched with four known motifs found in databases. Among four identified matched motifs, only three TF families were considered in the study, and a left query motif was nontranscription factor families (Table 3) . Moreover, it was also revealed that motif IV serves as binding sites for many transcription factor (TFs) families. Based on their statistical significance values, leucine zipper transcription factor families (6.17e\u221204) were involved in the regulatory mechanism of Trametes hirsuta strain 072 genes, which used to enhance a transcription process."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 216,
+                    "ref_id": "BIBREF40",
+                    "start": 212,
+                    "text": "[39]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 303,
+                    "ref_id": "TABREF3",
+                    "start": 294,
+                    "text": "(Table 4)"
+                },
+                {
+                    "end": 522,
+                    "ref_id": "TABREF4",
+                    "start": 514,
+                    "text": "(Table 5"
+                },
+                {
+                    "end": 864,
+                    "ref_id": "TABREF4",
+                    "start": 855,
+                    "text": "(Table 5)"
+                }
+            ],
+            "section": "Determination of CpG islands in promoter regions of Trametes hirsuta genes",
+            "text": "CpG islands were also investigated to determine regulatory elements in Trametes hirsuta in both promoter and gene body regions using two algorithms. Initially, in silico analysis using Takai and Jone's algorithm [39] found no CpG islands in both promoter regions in Trametes hirsuta strain 072 (Table 4) . Similarly, a second approach to explore the presence of CpG islands in silico digestion was performed using the restriction enzyme MspI, which revealed poor CpG islands in both promoter and gene body regions (Table 5 ). CpG islands from only the atp8 gene contained a single fragment size of 141 bp in its promoter region. However, there were no CpG island-specific sequences in the other ten promoter sequences of Trametes hirsuta strain 072 genes. Moreover, CpG islands were only recognized in the Cox1 gene with a fragment size of 17bp and 114bp (Table 5) , which is poor CpG islands in this species."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 201,
+                    "ref_id": "BIBREF26",
+                    "start": 197,
+                    "text": "[25,"
+                },
+                {
+                    "end": 205,
+                    "ref_id": "BIBREF27",
+                    "start": 202,
+                    "text": "26,"
+                },
+                {
+                    "end": 209,
+                    "ref_id": "BIBREF43",
+                    "start": 206,
+                    "text": "41]"
+                },
+                {
+                    "end": 755,
+                    "ref_id": "BIBREF35",
+                    "start": 751,
+                    "text": "[34]"
+                },
+                {
+                    "end": 1002,
+                    "ref_id": "BIBREF44",
+                    "start": 998,
+                    "text": "[42]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 672,
+                    "ref_id": "TABREF0",
+                    "start": 665,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Discussion",
+            "text": "Transcription start site (TSS) and promoter region identifications are the first steps to understanding gene expression regulatory mechanisms and association with genetic variations in the regions [25, 26, 41] . In this study, the TSSs were first identified for each of the seventeen functional genes of Trametes hirsuta strain 072. The prediction is more reliable for genes containing more than one TSS; TSS of the highest prediction score was considered and identified. In silico analysis showed that only cox2/36279600 genes have a single TSS, whereas 98% of genes contained more than two TSSs. Moreover, only the nad4/36279629 gene has a maximum of nine TSSs ( Table 1 ). The current finding is in contrast to a study reported by Yirgu and Kebede [34] in which 37.9% have more than one TSS, whereas 62.1% had only one TSS. A possible reason for the discrepancy of results between the studies might be related to differences in the genome size of the studied organisms. Moreover, Dinka and Minh [42] reported that 70% of the pig V1R genes have more than one TSS, which is in line with the present study where 94% of the Trametes hirsuta strain 072 genes have more than one TSS."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 453,
+                    "ref_id": "BIBREF27",
+                    "start": 449,
+                    "text": "[26]"
+                },
+                {
+                    "end": 588,
+                    "ref_id": "BIBREF45",
+                    "start": 584,
+                    "text": "[43]"
+                },
+                {
+                    "end": 1063,
+                    "ref_id": "BIBREF35",
+                    "start": 1059,
+                    "text": "[34]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 223,
+                    "ref_id": "TABREF1",
+                    "start": 216,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 379,
+                    "ref_id": null,
+                    "start": 371,
+                    "text": "(Fig. 1)"
+                },
+                {
+                    "end": 1038,
+                    "ref_id": null,
+                    "start": 1031,
+                    "text": "(Fig. 1"
+                }
+            ],
+            "section": "Discussion",
+            "text": "A candidate motif that is common to most of Trametes hirsuta strain 072 gene promoter sequences was identified. In the current study, five candidate motifs shared by most input promoter sequences were investigated ( Table 2 ). The location and distribution of these candidate motifs in promoter regions are concentrated between \u2212 700 bp and \u2212 800 bp relative to the TSSs (Fig. 1) . This finding disagrees with the study reported by Samuel and Dinka [26] , which revealed that 73.9% of the TSSs were found within \u2212 500 bp relative to the translation start codon. Moreover, Chen et al. [43] also indicated that multiple TSSs for the human GnT-II were concentrated between \u2212 440 to \u2212 489 bp relative to the ATG translation start codon. MEME toolset generated a common candidate motif for eleven Trametes hirsuta strain 072 genes promoter sequences with a total of seventeen input sequences. It was also noticed that twenty-five motifs were distributed on the positive strand, whereas four motifs were distributed on a negative strand (Fig. 1 ). Yirgu and Kebede [34] showed that higher distributions of motifs were found in positive strands (96) than negative strands (81) in the H. seropedicae ACP92s gene. Motifs shared by most promoter regions were considered candidate motifs that are functionally involved in the gene regulation mechanisms."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 191,
+                    "ref_id": "TABREF1",
+                    "start": 182,
+                    "text": "(Table 2)"
+                },
+                {
+                    "end": 262,
+                    "ref_id": null,
+                    "start": 256,
+                    "text": "Fig. 2"
+                }
+            ],
+            "section": "Discussion",
+            "text": "In the present study, motif IV was revealed as the common promoter motif for 41.17% of genes that serve as binding sites for TFs involved in the expression regulation of these genes (Table 2) . Moreover, the sequence logo for motif IV is also presented in Fig. 2 ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 26,
+                    "ref_id": "BIBREF38",
+                    "start": 22,
+                    "text": "[37]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "The TOMTOM web server [37] was further used to get more information on the motif IV promoter genes. Motif IV was compared to already documented and publically available databases to see if they are similar to "
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prom-cox3",
+            "text": "Single cut (at 534) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prom-nad1",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prom-nad2",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prom-nad3",
+            "text": "Single cut (at 605) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prom-nad4",
+            "text": "Single cut(at 290) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prom-nad4l",
+            "text": "Single cut(at 1962) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prom-nad5",
+            "text": "Single cut (at 1695) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prom-nad6",
+            "text": "Single cut (at 676) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Prom-s3",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Gene body region Atp9",
+            "text": "Single cut (at 115) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Atp6",
+            "text": "No cut --"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Atp8",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cob",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 79,
+                    "ref_id": null,
+                    "start": 13,
+                    "text": "(1056, 1343, 1782, 1799, 1913, 3286, 3645, 4313, 6145, 7526 17,114"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Cox1",
+            "text": "Multiple cut (1056, 1343, 1782, 1799, 1913, 3286, 3645, 4313, 6145, 7526 17,114 Cox2"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cox1",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Cox3",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C7V85-mgp08",
+            "text": "Single cut (at 216) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "C7V85-mgp19",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nad1",
+            "text": "Single cut (948) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nad2",
+            "text": "Single cut (at 112) -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nad3",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nad4",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nad4L",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nad5",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Nad6",
+            "text": "No cut -"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 381,
+                    "ref_id": "TABREF2",
+                    "start": 372,
+                    "text": "(Table 3)"
+                }
+            ],
+            "section": "S3",
+            "text": "Single cut (at 127) -Senbeta and Kebede Journal of Genetic Engineering and Biotechnology (2021) 19:160 Page 7 of 10 known regulatory motifs for TFs. Accordingly, motif IV matched with four known motifs found in databases. Among four identified matched motif, only three TF families were considered in the study and a left query motif was non-transcription factor families (Table 3) . Moreover, it was also revealed that motif IV serves as binding sites for many transcription factor (TF) families."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 209,
+                    "ref_id": "BIBREF46",
+                    "start": 205,
+                    "text": "[44]"
+                },
+                {
+                    "end": 538,
+                    "ref_id": "BIBREF40",
+                    "start": 534,
+                    "text": "[39]"
+                },
+                {
+                    "end": 700,
+                    "ref_id": "BIBREF35",
+                    "start": 696,
+                    "text": "[34]"
+                },
+                {
+                    "end": 935,
+                    "ref_id": "BIBREF27",
+                    "start": 931,
+                    "text": "[26,"
+                },
+                {
+                    "end": 939,
+                    "ref_id": "BIBREF44",
+                    "start": 936,
+                    "text": "42,"
+                },
+                {
+                    "end": 943,
+                    "ref_id": "BIBREF47",
+                    "start": 940,
+                    "text": "45]"
+                },
+                {
+                    "end": 1636,
+                    "ref_id": "BIBREF35",
+                    "start": 1632,
+                    "text": "[34]"
+                },
+                {
+                    "end": 1756,
+                    "ref_id": "BIBREF27",
+                    "start": 1752,
+                    "text": "[26,"
+                },
+                {
+                    "end": 1760,
+                    "ref_id": "BIBREF44",
+                    "start": 1757,
+                    "text": "42,"
+                },
+                {
+                    "end": 1764,
+                    "ref_id": "BIBREF47",
+                    "start": 1761,
+                    "text": "45]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 619,
+                    "ref_id": "TABREF3",
+                    "start": 611,
+                    "text": "(Table 4"
+                },
+                {
+                    "end": 1157,
+                    "ref_id": "TABREF4",
+                    "start": 1149,
+                    "text": "(Table 5"
+                },
+                {
+                    "end": 1497,
+                    "ref_id": "TABREF4",
+                    "start": 1489,
+                    "text": "(Table 5"
+                }
+            ],
+            "section": "S3",
+            "text": "On the basis of their statistical significance values, leucine zipper transcription factor families (6.17e\u221204) were involved in the regulatory mechanism of Trametes hirsuta strain 072 genes. Loewen et al. [44] stated that transcriptional repressor OPI1 had a transcription corepressor activity as molecular functions. CpG islands were also investigated to determine regulatory elements in the Trametes hirsuta in both promoter and gene body regions using two algorithms. Initially, in silico analysis using Takai and Jones' algorithm [39] found no CpG islands in promoter regions in Trametes hirsuta strain 072 (Table 4 ). This result is inconsistent with the study conducted by Yirgu and Kebede [34] , which revealed there was one possible CpG island in most of the genes both in promoter and gene body regions. Moreover, this study is consistent with studies that reported poor CpG islands in both promoter and gene body regions [26, 42, 45] . Similarly, a second approach to explore the presence of CpG island in silico digestion was performed using restriction enzyme MspI, which revealed poor CpG islands in both promoter and gene body regions (Table 5 ). CpG islands from only the atp8 gene contain a single fragment size of 141 bp in its promoter region. However, there were no CpG islandspecific sequences in the other ten promoter sequences of Trametes hirsuta strain 072 genes. Moreover, CpG islands were only recognized in the Cox1 gene with a fragment size of 17 bp and 114 bp (Table 5 ) and concluded as poor in CpG islands in this species. Consequently, the present result disagreed with the study of Yirgu and Kebede [34] , which concluded that H. seropedicae ACP92 genes were rich in CpG islands and were consistent with the studies of [26, 42, 45] summarized as poor in CpG islands in different eukaryotic organisms."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions",
+            "text": "In silico analysis of transcription start sites (TSSs), promoter regions, transcription factors and their binding sites, and CpG islands for the Trametes hirsuta strain 072 genome was performed to better understand the regulation mechanisms of gene expression and its genetic variations in the genomes. This study revealed that 94% of Trametes hirsuta strain 072 genes contained more than two TSSs. Therefore, among identified TSSs, a TSS with the highest predictive score was considered to determine the genes' promoter regions. Moreover, five common candidate motifs such as MotI, MotII, MotIII, MotIV, and MotV were identified. Among these motifs, motif IV was investigated as the common promoter motif for 41.17% of genes that serve as binding sites for transcription factors (TFs) involved in the gene expression and regulation mechanisms of Trametes hirsuta strain 072 genes."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions",
+            "text": "Regarding CpG island determination, it was concluded that there are no CpG islands in both promoter and gene body regions of the Trametes hirsuta strain 072 genes but could still be expressed when they are methylated. In silico analysis is pivotal in identifying gene promoter regions and other regulatory elements relevant to predict gene expression mechanisms in organisms. Additionally, this study provides better insights into molecular characterization, which aimed to efficiently exploit white rot fungi, Trametes hirsuta strain 072, for several biotechnological applications and revitalize a contaminated environment. "
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Dinku",
+                "last": "Senbeta",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Mulugeta",
+                "last": "Kebede",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Investigation of promoter regions, motifs, and CpG islands in the regulation of gene expression in Trametes hirsuta strain 072"
+    },
+    "paper_id": "27823f49b20767ce3f5d2a737e6af5a8dfa3abf2",
     "ref_entries": {
         "FIGREF0": {
-            "text": "Positions of candidate motifs in different promoter sequences of Trametes hirsuta strain 072 relative to TSSs (from + 1 TSS to the upstream \u2212 1000 kb) Sequence logos for identified common promoter motif, motif IV of Trametes hirsuta strain 072 using MEME Suite",
             "latex": null,
+            "text": "Positions of candidate motifs in different promoter sequences of Trametes hirsuta strain 072 relative to TSSs (from + 1 TSS to the upstream \u2212 1000 kb) Sequence logos for identified common promoter motif, motif IV of Trametes hirsuta strain 072 using MEME Suite",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "Abbreviations TSS: Transcription start site; TFs: Transcription Factors; MEME: Multiple Em for motif elicitation; NCBI: National Center for Biotechnology Information; bp: Base pair; NNPP: Neural Network Promoter Prediction; WRF: White rot fungi; Mot: Motif",
             "latex": null,
+            "text": "Abbreviations TSS: Transcription start site; TFs: Transcription Factors; MEME: Multiple Em for motif elicitation; NCBI: National Center for Biotechnology Information; bp: Base pair; NNPP: Neural Network Promoter Prediction; WRF: White rot fungi; Mot: Motif",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "Identified TSSs and predictive score value for Trametes hirsuta strain 072",
             "latex": null,
+            "text": "Identified TSSs and predictive score value for Trametes hirsuta strain 072",
             "type": "table"
         },
         "TABREF1": {
-            "text": "Identified common candidate motifs in Trametes hirsuta strain 072 gene promoter regionsInvestigation for CpG islandsTwo algorithms were used to search for CpG islands. First, the stringent search criteria, the Takai and Jones'",
             "latex": null,
+            "text": "Identified common candidate motifs in Trametes hirsuta strain 072 gene promoter regionsInvestigation for CpG islandsTwo algorithms were used to search for CpG islands. First, the stringent search criteria, the Takai and Jones'",
             "type": "table"
         },
         "TABREF2": {
-            "text": "Identified transcription factors which could bind to motif IV",
             "latex": null,
+            "text": "Identified transcription factors which could bind to motif IV",
             "type": "table"
         },
         "TABREF3": {
-            "text": "Possible CpG islands in promoter regions using Takai and Jones' algorithm",
             "latex": null,
+            "text": "Possible CpG islands in promoter regions using Takai and Jones' algorithm",
             "type": "table"
         },
         "TABREF4": {
-            "text": "Determination of MspI cutting sites and fragment sizes for Trametes hirsuta strain 072 promoter regions",
             "latex": null,
+            "text": "Determination of MspI cutting sites and fragment sizes for Trametes hirsuta strain 072 promoter regions",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "The authors acknowledge Adama Science and Technology University, School of Applied Natural Science, for funding the research.Authors' contributions DS designed and performed the experiment, analyzed the data, and prepared the manuscript. MK supervised the research and revised the manuscript and was a co-author of the manuscript. The authors read and approved the final manuscript and agreed to be published.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Acknowledgements"
-        },
-        {
-            "text": "This work was financially supported by the graduate program of Adama Science and Technology University.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Funding"
-        },
-        {
-            "text": "The research data analyzed in the current study is available and taken from the assembly of the NCBI genome assembly browser of Trametes hirsuta strain 072.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Availability of data and materials"
-        },
-        {
-            "text": "Ethics approval and consent to participate Not applicable",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Declarations"
-        },
-        {
-            "text": "The authors declared that there is no conflict of interest.Received: 2 April 2021 Accepted: 2 October 2021",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Competing interests"
-        }
-    ]
+    }
 }

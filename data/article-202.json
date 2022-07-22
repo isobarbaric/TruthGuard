@@ -1,824 +1,824 @@
 {
-    "paper_id": "2791abd70d03282b4dea7b8e3e89297ba078dae8",
-    "metadata": {
-        "title": "Predicting the propagation of COVID-19 at an international scale: extension of an SIR model",
-        "authors": [
-            {
-                "first": "Marc",
-                "middle": [],
-                "last": "Lavielle",
-                "suffix": "",
-                "affiliation": {},
-                "email": "marc.lavielle@inria.fr"
-            },
-            {
-                "first": "Matthieu",
-                "middle": [],
-                "last": "Faron",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "J\u00e9r\u00e9mie",
-                "middle": [
-                    "H"
-                ],
-                "last": "Lefevre",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Jean-David",
-                "middle": [],
-                "last": "Zeitoun",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "Objectives Several epidemiological models have been published to forecast the spread of the COVID-19 pandemic, yet many of them have proven inaccurate for reasons that remain to be fully determined. We aimed to develop a novel model and implement it in a freely accessible web application. Design We built an SIR-type compartmental model with two additional compartments: D (deceased patients); L (individuals who will die but who will not infect anybody due to social or medical isolation) and integration of a time-dependent transmission rate and a periodical weekly component linked to the way in which cases and deaths are reported. Results The model was implemented in a web application (as of 2 June 2020). It was shown to be able to accurately capture the changes in the dynamics of the pandemic for 20 countries whatever the type of pandemic spread or containment measures: for instance, the model explains 97% of the variance of US data (daily cases) and predicts the number of deaths at a 2-week horizon with an error of 1%. Conclusions In early performance evaluation, our model showed a high level of accuracy between prediction and observed data. Such a tool might be used by the global community to follow the spread of the pandemic.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Objectives Several epidemiological models have been published to forecast the spread of the COVID-19 pandemic, yet many of them have proven inaccurate for reasons that remain to be fully determined. We aimed to develop a novel model and implement it in a freely accessible web application. Design We built an SIR-type compartmental model with two additional compartments: D (deceased patients); L (individuals who will die but who will not infect anybody due to social or medical isolation) and integration of a time-dependent transmission rate and a periodical weekly component linked to the way in which cases and deaths are reported. Results The model was implemented in a web application (as of 2 June 2020). It was shown to be able to accurately capture the changes in the dynamics of the pandemic for 20 countries whatever the type of pandemic spread or containment measures: for instance, the model explains 97% of the variance of US data (daily cases) and predicts the number of deaths at a 2-week horizon with an error of 1%. Conclusions In early performance evaluation, our model showed a high level of accuracy between prediction and observed data. Such a tool might be used by the global community to follow the spread of the pandemic."
         }
     ],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "The COVID-19 pandemic has been a disruptive event for most healthcare systems across the globe. It has led governments to take both public measures for population containment and often a resetting of healthcare organisation in order to be able to absorb the peak of patients in particular for critical care. Since the inception of the outbreak, all stakeholders seemed keen to access to reliable and 'living' information regarding the evolution of cases, hospitalisations and deaths in their countries as well as in others. Cross-area comparisons were made to understand some characteristics of this novel epidemic. 1 2 Also, being able to predict at least in the short term, the evolution of the main outcome indicators has been a relentless objective of care for providers and decision-makers. A single tool providing such an aid would be likely to, respectively, inform people and enlighten relevant stakeholders to anticipate the needed measures, in particular regarding the steering of care and social measures. We therefore developed such an online tool, intended to be an adaptive model, that is, able to adapt to new early data so as to refine its prediction and be freely accessible to the community.",
-            "cite_spans": [
-                {
-                    "start": 616,
-                    "end": 619,
-                    "text": "1 2",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "INTRODUCTION"
-        },
-        {
-            "text": "The aim of this study was to report the development of the model, as well as some preliminary data demonstrating its workability and its accuracy in studying different countries.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "INTRODUCTION"
+            "section": "annex",
+            "text": "Contributors ML designed and developed the model and the tool. J-DZ, MF and JHL provided medical insights and wrote the manuscript. All authors read and approved the final manuscript. J-DZ affirms that the manuscript is an honest, accurate and transparent account of the study being reported; that no important aspects of the study have been omitted; and that any discrepancies from the study as planned (and, if relevant, registered) have been explained.Funding The authors have not declared a specific grant for this research from any funding agency in the public, commercial or not-for-profit sectors.Competing interests All authors have completed and submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. No conflict of interest related to the current work was reported. Outside the submitted work, J-DZ reports being an advisor for several consulting firms linked with pharmaceutical industry (Oliver Wyman, Roland Berger). He also reports speaking fees from a manufacturers' professional association, consulting fees from Ferring, Pierre Fabre, AbbVie, AstraZeneca, Biogen, Boehringer Ingelheim, Takeda and Johnson & Johnson. He is a personal investor in approximately 20 digital companies, medical device companies or biotech companies, and as a limited partner in an investment fund. He reports being a founding partner of Inato, a company involved in clinical research and whose customers are pharmaceutical companies. JHL reports fees from Ethicon, Takeda and MD Start, and invitation to a medical congress by Biomup. He is a consultant for Safeheal."
         },
         {
-            "text": "We built an SIR-type compartmental model for the COVID-19 data provided by the Johns Hopkins University (https:// github. com/ CSSEGISandData/ COVID-19/ tree/ master/ csse_ covid_ 19_ data/ csse_ covid_ 19_ time_ series). 3 The model is a parametric model whose parameters change from country to country to reflect differences in dynamics. A classic SIR model considers three types of individuals: susceptible individuals (S), infected individuals (I) and recovered individuals (R). 4 Many extensions to this model have been proposed, in particular by adding a Strengths and limitations of this study \u25ba We developed an extension of an SIR model as an open-access tool for short-term prediction of COVID-19 evolution. \u25ba In the model, we intentionally ignored the compartment S usually found in such models. \u25ba On the other hand, we took into account the fact that some patients died and therefore introduced a compartment D corresponding to them. \u25ba The model uses early data and works for a large set of countries. \u25ba Longer follow-up is needed to confirm early results that showed a high level of accuracy.",
-            "cite_spans": [
-                {
-                    "start": 222,
-                    "end": 223,
-                    "text": "3",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 483,
-                    "end": 484,
-                    "text": "4",
-                    "ref_id": "BIBREF3"
-                }
-            ],
-            "ref_spans": [],
-            "section": "METHODS"
-        },
-        {
-            "text": "Open access compartment of exposed but non-contagious individuals (E) to the model renamed as SEIR. 5 Other models distinguish between symptomatic and asymptomatic patients, between patients admitted to intensive care units and patients admitted to regular wards. [6] [7] [8] The more complex these models are, the more parameters they depend on. A classic method then consists of fixing the value of some of these parameters to values found in the literature and modifying the other parameters in order to obtain simulations with dynamics that are similar to those of the data. Our approach was different: our main objective was to develop an epidemiological model that fits the observed data as closely as possible, while at the same time being as simple as possible. However, we did not aim to develop an empirical model that looks like the data (eg, using a polynomial model): the model and its parameters must have a real epidemiological interpretation, in terms of transition from one state to another or length of stay in a state. On the one hand, we made the hypothesis that the number of contagious individuals in the population was negligible as compared with the population size, which is realistic as the latest studies suggested an infection rate of around 5% in most countries. 9 This hypothesis allowed us to ignore the compartment S of the model. On the other hand, we had to take into account the fact that not all patients recovered but that a certain proportion died. We therefore introduced a compartment D corresponding to the deceased patients.",
-            "cite_spans": [
-                {
-                    "start": 100,
-                    "end": 101,
-                    "text": "5",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 264,
-                    "end": 267,
-                    "text": "[6]",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 268,
-                    "end": 271,
-                    "text": "[7]",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 272,
-                    "end": 275,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 1292,
-                    "end": 1293,
-                    "text": "9",
-                    "ref_id": "BIBREF8"
-                }
-            ],
-            "ref_spans": [],
-            "section": "METHODS"
-        },
-        {
-            "text": "As an examination of the data at first glance showed that there was a delay between new infections and deaths, we therefore added an additional compartment L in the model, which represents the group of individuals who will die (because they were infected), but who will not infect anybody, for instance due to social or in-hospital isolation (figure 1). There is no direct flux between I and D, but a flux between I and L and then between L and D.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "METHODS"
+            "section": "Patient consent for publication Not required.",
+            "text": "Provenance and peer review Not commissioned; externally peer reviewed.Data availability statement Data are available in a public, open access repository. Data are available upon reasonable request. The tool is accessible online and free of charge. Other data are accessible upon reasonable request.Open access This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: http:// creativecommons. org/ licenses/ by-nc/ 4. 0/."
         },
         {
-            "text": "A fundamental parameter of the model is the transmission rate \u03b2 (see figure 1 ), which indicates how quickly people become infected and become contagious themselves. Our model integrates a time-dependent transmission rate, whose variations can be thought to be related to the public measures taken by the country of interest. One can thus hypothesise that the transmission rate was stable-and possibly high-before the lockdown, and then decreased with lockdown in countries that have adopted such a measure. A piecewise linear model was used for the transmission rate to take into account these possible variations:",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 69,
-                    "end": 77,
-                    "text": "figure 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "METHODS"
-        },
-        {
-            "text": "As the number of change points K, the initial values \u03b20 and a, the locations (\u03c4 1 , \u03c4 2 , \u2026, \u03c4 K ) and the magnitude (h 1 ,h 2 , \u2026, h \u039a ) of the changes in the slope are unknown, they were estimated together with the model parameters.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "METHODS"
-        },
-        {
-            "text": "The data available for each country are the daily numbers of confirmed cases (w_j), bearing in mind that this is a number that represents an unknown fraction of the actual total number of cases, and the daily numbers of deaths (d_j). A periodical weekly component appears in each of these series, for many countries. This component is of course not related to the dynamics of the epidemic, which has no scientific reason to change across the days of the week, but rather to the way in which the numbers of cases and deaths are counted and reported, which can change from day to day especially for the former. This component is taken into account in the observation model in the form of a cosine function: Figure 1 Diagram of the SIR model used and that includes susceptible individuals (S), infected individuals (I), recovered individuals (R), non-infectious individuals who will die (L) and deceased patients (D). Here, \u03bc, \u03bd, \u03bb are rate constants while \u03b2 is a time-varying transmission rate function.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 705,
-                    "end": 713,
-                    "text": "Figure 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "METHODS"
-        },
-        {
-            "text": "is the predicted number of infected individuals and where (e w,j ) and (e d,j ) are two sequences of independent and identically centred Gaussian variables.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "Once the model is fully defined, its parameters can be estimated for each country through the maximum likelihood estimation method and using precisely that country's data.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "It should be noted that the uncertainty related to the estimation of the parameters has not been evaluated. This could be done, for instance, by means of parametric bootstrap. The model, the parameter estimation algorithm, the method for model selection as well as several plotting routines have been implemented in the R package covidix. This package is available on Github (https:// github. com/ MarcLavielle/ covidix). An example of how to use covidix can be found here: (http:// webpopix. org/ covidixExample. html).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "Of interest is the fact that an interactive, easy-to-use web application (Shiny V.1.4.0.2, 2020) also allows to visualise the data and the fitted model for several countries (http:// shiny. webpopix. org/ covidix/ app1/). The data used in this application are updated frequently in order to be able to follow on a day-to-day basis what the model predicts for countries.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "Neither patients nor the public were involved, as the current research only includes publicly available aggregated data.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Patient and public involvement"
-        },
-        {
-            "text": "A first version of the covidix package and the web application were available as of 12 April 2020 with model adjustments on data from eight countries. Nine new countries were added between 12 April 2020 and 15 May 2020 (see table 1 ). Figure 2 shows that the model is able to accurately capture the different changes in the dynamics of the pandemic (1) for countries, such as Switzerland, which controlled the spread of the epidemic well; (2) for countries, such as Italy, which did not react soon enough and saw the number of deaths increase very rapidly before taking containment measures which slowly decreased this figure; (3) for countries, such as the USA, that have not taken sufficiently severe measures to significantly reduce incidences; (4) for countries, such as Brazil, where the pandemic has arrived later. Furthermore, the fits clearly highlight the weekly periodical component whenever it exists. Figure 3 shows that the prediction from the model becomes more accurate as more data are made available. When little information is already available on the dynamics of the epidemic and the effect of containment Dates are given as year/month/day.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 224,
-                    "end": 231,
-                    "text": "table 1",
-                    "ref_id": "TABREF0"
-                },
-                {
-                    "start": 235,
-                    "end": 243,
-                    "text": "Figure 2",
-                    "ref_id": "FIGREF1"
-                },
-                {
-                    "start": 619,
-                    "end": 626,
-                    "text": "figure;",
-                    "ref_id": null
-                },
-                {
-                    "start": 913,
-                    "end": 921,
-                    "text": "Figure 3",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "RESULTS"
-        },
-        {
-            "text": "(around 16 April 2020 here), the model nevertheless allows us to assess quite accurately how the number of deaths will increase in the following weeks and when important numbers will be reached (eg, 4000 for Sweden and 100 000 for the USA). These forecasts were very accurate for both countries in the relatively short term (2 weeks in our example). For Sweden, a total of 4000 deaths was observed on 24 May. Depending on the time of analysis, the model predicted 31 May 2020 (7 days of error), 18 May 2020 (6 days) or 21 May 2020 (3 days) if the calculation was performed with the data available on 16 April 2020, 01 May 2020 or 26 May 2020, respectively. For the USA, a total of 100 000 deaths occurred on 27 May 2020. With the same date of analysis, the model predicted 20 May 2020 (7 days of error), 24 May 2020 (3 days) and 25 May 2020 (2 days).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "The model also allowed us to estimate the day of the peak of daily deaths in each country (table 2) . Moreover, the delay in days for a twofold or fourfold increase or decrease in the number of deaths was assessed by the model. For instance, in Italy, the number of deaths predicted by the model reached its peak on 27 March 2020. A quarter of this number had been reached 15 days before that date, during the exponential growth phase, where it doubled in 5 days. Growth then slowed and the number of deaths doubled in 10 days to reach the peak. The decline was much slower, as it took 25 and 47 days to divide the number of deaths by 2 or 4, respectively.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 90,
-                    "end": 99,
-                    "text": "(table 2)",
-                    "ref_id": "TABREF1"
-                }
-            ],
-            "section": "Open access"
-        },
-        {
-            "text": "The almost unprecedented magnitude of the COVID-19 pandemic has made epidemiological models critical not only for researchers but also for policymakers. 10 Many models have been published either in scientific journals or as open-access platforms for helping the global community to describe and forecast the evolution of the pandemic outcome, yet with frequently conflicting findings. 11 The ",
-            "cite_spans": [
-                {
-                    "start": 153,
-                    "end": 155,
-                    "text": "10",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 385,
-                    "end": 387,
-                    "text": "11",
-                    "ref_id": "BIBREF11"
-                }
-            ],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "SIR model had been already used in different countries to describe the spread of the COVID-19. [12] [13] [14] We herein reported the development of an original model for short-term prediction of COVID-19 outcome at an aggregated level like a country, as well as updated data suggesting its very accuracy. Our model has several strengths as compared with others. First, it is adaptive and fits the observed data, through a mechanistic modelling, even though we acknowledge that many other models are also adaptive, notably those analysed under the control theory framework. Second, it appears to be validated by the data, with good short-term predictions in all tested cases, as shown in the figures and as it can be seen on the online tool. For instance, the model early showed that Sweden, a country in which limited public measures have raised a national and international controversy, would rapidly reach a cumulated number of deaths of 4000. 15 Third, it is a parsimonious model, as very few parameters are needed to describe the outcome of interest, and the prediction proved stable over time. Fourth, we implemented it as an open-access interactive tool, so as to make it operational for any relevant stakeholder for the immediate benefit of the scientific and general community in the context of the COVID-19 outbreak. Fifth, it is designed to be updated on a regular basis, ideally on a daily basis, with the possible incorporation of new countries over time. Last, it can also be seen as a monitoring tool. Also, the current work focuses on what happened between early March and early June 2020. Indeed, this period corresponds to what has been widely called the 'first wave' of the COVID-19 pandemic in most European countries. We have chosen to cover this period because various parameters related to the dynamic of the pandemic (lethality rate, number of tests performed, infection rate, etc) seem to have changed significantly afterwards.",
-            "cite_spans": [
-                {
-                    "start": 95,
-                    "end": 99,
-                    "text": "[12]",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 100,
-                    "end": 104,
-                    "text": "[13]",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 105,
-                    "end": 109,
-                    "text": "[14]",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 946,
-                    "end": 948,
-                    "text": "15",
-                    "ref_id": "BIBREF15"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "Our model nevertheless has some limitations. The main one is probably that it needs early data to be fed with so ",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "as to work. It therefore requires a minimum follow-up on the outbreak to be effective. Our report is also limited by the fact that we did not proceed to a full comparison with other models and cannot herein demonstrate respective performances of published models as compared with ours. We intended to report the development of the model and its rationale, as well as early positive findings as soon as possible, in particular since the model is made freely accessible as an online tool.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "We encourage researchers and policymakers to use this freely accessible model since its main purpose is to describe precisely the spread of this pandemic. As the pandemic pursues its course in many countries, we will continue to enrich it with real data and will further investigate its performance. For each country, t1/4 (\u2191) and t1/2 (\u2191) are, respectively, the number of days it took to multiply the number of deaths by 4 and 2; t1/2 (\u2193) and t1/4 (\u2193) are, respectively, the number of days it took to divide the number of deaths by 2 and 4; N represents the maximum daily number of deaths predicted by the model using data from 15 February 2020 to 1 June 2020.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
+            "section": "ORCID iD",
+            "text": "Jean-David Zeitoun http:// orcid. org/ 0000-0001-9590-3461"
         }
     ],
     "bib_entries": {
         "BIBREF0": {
-            "ref_id": "b0",
-            "title": "What other countries can learn from Italy during the COVID-19 pandemic",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Boccia",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Ricciardi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Jpa",
-                    "middle": [],
                     "last": "Ioannidis",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "JAMA Intern Med",
-            "volume": "180",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1001/jamainternmed.2020.1447"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b0",
+            "title": "What other countries can learn from Italy during the COVID-19 pandemic",
+            "venue": "JAMA Intern Med",
+            "volume": "180",
+            "year": 2020
         },
         "BIBREF1": {
-            "ref_id": "b1",
-            "title": "Case-Fatality rate and characteristics of patients dying in relation to COVID-19 in Italy",
             "authors": [
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Onder",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Rezza",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Brusaferro",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "JAMA",
-            "volume": "323",
             "issn": "",
-            "pages": "1775--1781",
             "other_ids": {
                 "DOI": [
                     "10.1001/jama.2020.4683"
                 ]
-            }
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "An interactive web-based dashboard to track COVID-19 in real time",
-            "authors": [
-                {
-                    "first": "E",
-                    "middle": [],
-                    "last": "Dong",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Du",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [],
-                    "last": "Gardner",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Lancet Infect Dis",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Population dynamics of infectious diseases. theory and applications",
-            "authors": [
-                {
-                    "first": "R",
-                    "middle": [
-                        "M"
-                    ],
-                    "last": "Anderson",
-                    "suffix": ""
-                }
-            ],
-            "year": 1982,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "Three basic epidemiological models",
-            "authors": [
-                {
-                    "first": "H",
-                    "middle": [
-                        "W"
-                    ],
-                    "last": "Hethcote",
-                    "suffix": ""
-                }
-            ],
-            "year": 1989,
-            "venue": "Applied mathematical ecology",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "Transmission dynamics of the COVID-19 outbreak and effectiveness of government interventions: a datadriven analysis",
-            "authors": [
-                {
-                    "first": "Y",
-                    "middle": [],
-                    "last": "Fang",
-                    "suffix": ""
-                },
-                {
-                    "first": "Y",
-                    "middle": [],
-                    "last": "Nie",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Penny",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "J Med Virol",
-            "volume": "92",
-            "issn": "",
-            "pages": "645--59",
-            "other_ids": {
-                "DOI": [
-                    "10.1002/jmv.25750"
-                ]
-            }
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "The effectiveness of quarantine and isolation determine the trend of the COVID-19 epidemics in the final phase of the current outbreak in China",
-            "authors": [
-                {
-                    "first": "B",
-                    "middle": [],
-                    "last": "Tang",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [],
-                    "last": "Xia",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Tang",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Int J Infect Dis",
-            "volume": "95",
-            "issn": "",
-            "pages": "288--93",
-            "other_ids": {
-                "DOI": [
-                    "10.1016/j.ijid.2020.03.018"
-                ]
-            }
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Evolving epidemiology and impact of Nonpharmaceutical interventions on the outbreak of coronavirus disease 2019 in Wuhan",
-            "authors": [
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Wang",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [],
-                    "last": "Liu",
-                    "suffix": ""
-                },
-                {
-                    "first": "X",
-                    "middle": [],
-                    "last": "Hao",
-                    "suffix": ""
-                }
-            ],
-            "year": 2003,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Estimating the burden of SARS-CoV-2 in France",
-            "authors": [
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Salje",
-                    "suffix": ""
-                },
-                {
-                    "first": "Tran",
-                    "middle": [],
-                    "last": "Kiem",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Lefrancq",
-                    "suffix": ""
-                },
-                {
-                    "first": "N",
-                    "middle": [],
-                    "last": "",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Science",
-            "volume": "369",
-            "issn": "",
-            "pages": "208--219",
-            "other_ids": {
-                "DOI": [
-                    "10.1126/science.abc3517"
-                ]
-            }
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "Wrong but Useful -What Covid-19",
-            "authors": [
-                {
-                    "first": "I",
-                    "middle": [],
-                    "last": "Holmdahl",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Buckee",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            },
+            "pages": "1775--1781",
+            "ref_id": "b1",
+            "title": "Case-Fatality rate and characteristics of patients dying in relation to COVID-19 in Italy",
+            "venue": "JAMA",
+            "volume": "323",
+            "year": 2020
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "Epidemiologic Models Can and Cannot Tell Us",
             "authors": [],
-            "year": 2020,
-            "venue": "N Engl J Med",
-            "volume": "383",
             "issn": "",
-            "pages": "303--308",
             "other_ids": {
                 "DOI": [
                     "10.1056/NEJMp2016822"
                 ]
-            }
+            },
+            "pages": "303--308",
+            "ref_id": "b10",
+            "title": "Epidemiologic Models Can and Cannot Tell Us",
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "year": 2020
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "An updated estimation of the risk of transmission of the novel coronavirus (2019-nCov)",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Tang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Bragazzi",
                     "middle": [
                         "L"
                     ],
-                    "last": "Bragazzi",
                     "suffix": ""
                 },
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Infect Dis Model",
-            "volume": "5",
             "issn": "",
-            "pages": "248--55",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.idm.2020.02.001"
                 ]
-            }
+            },
+            "pages": "248--55",
+            "ref_id": "b11",
+            "title": "An updated estimation of the risk of transmission of the novel coronavirus (2019-nCov)",
+            "venue": "Infect Dis Model",
+            "volume": "5",
+            "year": 2020
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "A time-dependent Sir model for COVID-19 with undetectable infected persons",
             "authors": [
                 {
                     "first": "Y-C",
-                    "middle": [],
                     "last": "Chen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P-E",
-                    "middle": [],
                     "last": "Lu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C-S",
-                    "middle": [],
                     "last": "Chang",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "IEEE Trans Netw Sci Eng",
-            "volume": "7",
             "issn": "",
-            "pages": "3279--94",
             "other_ids": {
                 "DOI": [
                     "10.1109/TNSE.2020.3024723"
                 ]
-            }
+            },
+            "pages": "3279--94",
+            "ref_id": "b12",
+            "title": "A time-dependent Sir model for COVID-19 with undetectable infected persons",
+            "venue": "IEEE Trans Netw Sci Eng",
+            "volume": "7",
+            "year": 2020
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "Modelos Sir modificados para La evoluci\u00f3n del COVID19",
             "authors": [
                 {
                     "first": "Cabo",
-                    "middle": [],
                     "last": "Bizet",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b13",
+            "title": "Modelos Sir modificados para La evoluci\u00f3n del COVID19",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Modelling the spread of Covid19 in Italy using a revised version of the Sir model",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Palladino",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "V",
-                    "middle": [],
                     "last": "Nardelli",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Atzeni",
                     "middle": [
                         "G"
                     ],
-                    "last": "Atzeni",
                     "suffix": ""
                 }
             ],
-            "year": null,
-            "venue": "",
-            "volume": "2020",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "arXiv": [
                     "arXiv:2005.08724"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b14",
+            "title": "Modelling the spread of Covid19 in Italy using a revised version of the Sir model",
+            "venue": "",
+            "volume": "2020",
+            "year": null
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "Closing borders is ridiculous': the epidemiologist behind Sweden's controversial coronavirus strategy",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Paterlini",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Nature",
-            "volume": "580",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1038/d41586-020-01098-x"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b15",
+            "title": "Closing borders is ridiculous': the epidemiologist behind Sweden's controversial coronavirus strategy",
+            "venue": "Nature",
+            "volume": "580",
+            "year": 2020
+        },
+        "BIBREF2": {
+            "authors": [
+                {
+                    "first": "E",
+                    "last": "Dong",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Du",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Gardner",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b2",
+            "title": "An interactive web-based dashboard to track COVID-19 in real time",
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "R",
+                    "last": "Anderson",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b3",
+            "title": "Population dynamics of infectious diseases. theory and applications",
+            "venue": "",
+            "volume": "",
+            "year": 1982
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "H",
+                    "last": "Hethcote",
+                    "middle": [
+                        "W"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b4",
+            "title": "Three basic epidemiological models",
+            "venue": "Applied mathematical ecology",
+            "volume": "",
+            "year": 1989
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "Y",
+                    "last": "Fang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Nie",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Penny",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25750"
+                ]
+            },
+            "pages": "645--59",
+            "ref_id": "b5",
+            "title": "Transmission dynamics of the COVID-19 outbreak and effectiveness of government interventions: a datadriven analysis",
+            "venue": "J Med Virol",
+            "volume": "92",
+            "year": 2020
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "B",
+                    "last": "Tang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Xia",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Tang",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.03.018"
+                ]
+            },
+            "pages": "288--93",
+            "ref_id": "b6",
+            "title": "The effectiveness of quarantine and isolation determine the trend of the COVID-19 epidemics in the final phase of the current outbreak in China",
+            "venue": "Int J Infect Dis",
+            "volume": "95",
+            "year": 2020
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "C",
+                    "last": "Wang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Liu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Hao",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b7",
+            "title": "Evolving epidemiology and impact of Nonpharmaceutical interventions on the outbreak of coronavirus disease 2019 in Wuhan",
+            "venue": "",
+            "volume": "",
+            "year": 2003
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "H",
+                    "last": "Salje",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Tran",
+                    "last": "Kiem",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Lefrancq",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abc3517"
+                ]
+            },
+            "pages": "208--219",
+            "ref_id": "b8",
+            "title": "Estimating the burden of SARS-CoV-2 in France",
+            "venue": "Science",
+            "volume": "369",
+            "year": 2020
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "I",
+                    "last": "Holmdahl",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Buckee",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b9",
+            "title": "Wrong but Useful -What Covid-19",
+            "venue": "",
+            "volume": "",
+            "year": null
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 619,
+                    "ref_id": null,
+                    "start": 616,
+                    "text": "1 2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "The COVID-19 pandemic has been a disruptive event for most healthcare systems across the globe. It has led governments to take both public measures for population containment and often a resetting of healthcare organisation in order to be able to absorb the peak of patients in particular for critical care. Since the inception of the outbreak, all stakeholders seemed keen to access to reliable and 'living' information regarding the evolution of cases, hospitalisations and deaths in their countries as well as in others. Cross-area comparisons were made to understand some characteristics of this novel epidemic. 1 2 Also, being able to predict at least in the short term, the evolution of the main outcome indicators has been a relentless objective of care for providers and decision-makers. A single tool providing such an aid would be likely to, respectively, inform people and enlighten relevant stakeholders to anticipate the needed measures, in particular regarding the steering of care and social measures. We therefore developed such an online tool, intended to be an adaptive model, that is, able to adapt to new early data so as to refine its prediction and be freely accessible to the community."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "The aim of this study was to report the development of the model, as well as some preliminary data demonstrating its workability and its accuracy in studying different countries."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 223,
+                    "ref_id": "BIBREF2",
+                    "start": 222,
+                    "text": "3"
+                },
+                {
+                    "end": 484,
+                    "ref_id": "BIBREF3",
+                    "start": 483,
+                    "text": "4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS",
+            "text": "We built an SIR-type compartmental model for the COVID-19 data provided by the Johns Hopkins University (https:// github. com/ CSSEGISandData/ COVID-19/ tree/ master/ csse_ covid_ 19_ data/ csse_ covid_ 19_ time_ series). 3 The model is a parametric model whose parameters change from country to country to reflect differences in dynamics. A classic SIR model considers three types of individuals: susceptible individuals (S), infected individuals (I) and recovered individuals (R). 4 Many extensions to this model have been proposed, in particular by adding a Strengths and limitations of this study \u25ba We developed an extension of an SIR model as an open-access tool for short-term prediction of COVID-19 evolution. \u25ba In the model, we intentionally ignored the compartment S usually found in such models. \u25ba On the other hand, we took into account the fact that some patients died and therefore introduced a compartment D corresponding to them. \u25ba The model uses early data and works for a large set of countries. \u25ba Longer follow-up is needed to confirm early results that showed a high level of accuracy."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 101,
+                    "ref_id": "BIBREF4",
+                    "start": 100,
+                    "text": "5"
+                },
+                {
+                    "end": 267,
+                    "ref_id": "BIBREF5",
+                    "start": 264,
+                    "text": "[6]"
+                },
+                {
+                    "end": 271,
+                    "ref_id": "BIBREF6",
+                    "start": 268,
+                    "text": "[7]"
+                },
+                {
+                    "end": 275,
+                    "ref_id": "BIBREF7",
+                    "start": 272,
+                    "text": "[8]"
+                },
+                {
+                    "end": 1293,
+                    "ref_id": "BIBREF8",
+                    "start": 1292,
+                    "text": "9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS",
+            "text": "Open access compartment of exposed but non-contagious individuals (E) to the model renamed as SEIR. 5 Other models distinguish between symptomatic and asymptomatic patients, between patients admitted to intensive care units and patients admitted to regular wards. [6] [7] [8] The more complex these models are, the more parameters they depend on. A classic method then consists of fixing the value of some of these parameters to values found in the literature and modifying the other parameters in order to obtain simulations with dynamics that are similar to those of the data. Our approach was different: our main objective was to develop an epidemiological model that fits the observed data as closely as possible, while at the same time being as simple as possible. However, we did not aim to develop an empirical model that looks like the data (eg, using a polynomial model): the model and its parameters must have a real epidemiological interpretation, in terms of transition from one state to another or length of stay in a state. On the one hand, we made the hypothesis that the number of contagious individuals in the population was negligible as compared with the population size, which is realistic as the latest studies suggested an infection rate of around 5% in most countries. 9 This hypothesis allowed us to ignore the compartment S of the model. On the other hand, we had to take into account the fact that not all patients recovered but that a certain proportion died. We therefore introduced a compartment D corresponding to the deceased patients."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS",
+            "text": "As an examination of the data at first glance showed that there was a delay between new infections and deaths, we therefore added an additional compartment L in the model, which represents the group of individuals who will die (because they were infected), but who will not infect anybody, for instance due to social or in-hospital isolation (figure 1). There is no direct flux between I and D, but a flux between I and L and then between L and D."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 77,
+                    "ref_id": null,
+                    "start": 69,
+                    "text": "figure 1"
+                }
+            ],
+            "section": "METHODS",
+            "text": "A fundamental parameter of the model is the transmission rate \u03b2 (see figure 1 ), which indicates how quickly people become infected and become contagious themselves. Our model integrates a time-dependent transmission rate, whose variations can be thought to be related to the public measures taken by the country of interest. One can thus hypothesise that the transmission rate was stable-and possibly high-before the lockdown, and then decreased with lockdown in countries that have adopted such a measure. A piecewise linear model was used for the transmission rate to take into account these possible variations:"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS",
+            "text": "As the number of change points K, the initial values \u03b20 and a, the locations (\u03c4 1 , \u03c4 2 , \u2026, \u03c4 K ) and the magnitude (h 1 ,h 2 , \u2026, h \u039a ) of the changes in the slope are unknown, they were estimated together with the model parameters."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 713,
+                    "ref_id": null,
+                    "start": 705,
+                    "text": "Figure 1"
+                }
+            ],
+            "section": "METHODS",
+            "text": "The data available for each country are the daily numbers of confirmed cases (w_j), bearing in mind that this is a number that represents an unknown fraction of the actual total number of cases, and the daily numbers of deaths (d_j). A periodical weekly component appears in each of these series, for many countries. This component is of course not related to the dynamics of the epidemic, which has no scientific reason to change across the days of the week, but rather to the way in which the numbers of cases and deaths are counted and reported, which can change from day to day especially for the former. This component is taken into account in the observation model in the form of a cosine function: Figure 1 Diagram of the SIR model used and that includes susceptible individuals (S), infected individuals (I), recovered individuals (R), non-infectious individuals who will die (L) and deceased patients (D). Here, \u03bc, \u03bd, \u03bb are rate constants while \u03b2 is a time-varying transmission rate function."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "is the predicted number of infected individuals and where (e w,j ) and (e d,j ) are two sequences of independent and identically centred Gaussian variables."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "Once the model is fully defined, its parameters can be estimated for each country through the maximum likelihood estimation method and using precisely that country's data."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "It should be noted that the uncertainty related to the estimation of the parameters has not been evaluated. This could be done, for instance, by means of parametric bootstrap. The model, the parameter estimation algorithm, the method for model selection as well as several plotting routines have been implemented in the R package covidix. This package is available on Github (https:// github. com/ MarcLavielle/ covidix). An example of how to use covidix can be found here: (http:// webpopix. org/ covidixExample. html)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "Of interest is the fact that an interactive, easy-to-use web application (Shiny V.1.4.0.2, 2020) also allows to visualise the data and the fitted model for several countries (http:// shiny. webpopix. org/ covidix/ app1/). The data used in this application are updated frequently in order to be able to follow on a day-to-day basis what the model predicts for countries."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient and public involvement",
+            "text": "Neither patients nor the public were involved, as the current research only includes publicly available aggregated data."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 231,
+                    "ref_id": "TABREF0",
+                    "start": 224,
+                    "text": "table 1"
+                },
+                {
+                    "end": 243,
+                    "ref_id": "FIGREF1",
+                    "start": 235,
+                    "text": "Figure 2"
+                },
+                {
+                    "end": 626,
+                    "ref_id": null,
+                    "start": 619,
+                    "text": "figure;"
+                },
+                {
+                    "end": 921,
+                    "ref_id": "FIGREF2",
+                    "start": 913,
+                    "text": "Figure 3"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "A first version of the covidix package and the web application were available as of 12 April 2020 with model adjustments on data from eight countries. Nine new countries were added between 12 April 2020 and 15 May 2020 (see table 1 ). Figure 2 shows that the model is able to accurately capture the different changes in the dynamics of the pandemic (1) for countries, such as Switzerland, which controlled the spread of the epidemic well; (2) for countries, such as Italy, which did not react soon enough and saw the number of deaths increase very rapidly before taking containment measures which slowly decreased this figure; (3) for countries, such as the USA, that have not taken sufficiently severe measures to significantly reduce incidences; (4) for countries, such as Brazil, where the pandemic has arrived later. Furthermore, the fits clearly highlight the weekly periodical component whenever it exists. Figure 3 shows that the prediction from the model becomes more accurate as more data are made available. When little information is already available on the dynamics of the epidemic and the effect of containment Dates are given as year/month/day."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "(around 16 April 2020 here), the model nevertheless allows us to assess quite accurately how the number of deaths will increase in the following weeks and when important numbers will be reached (eg, 4000 for Sweden and 100 000 for the USA). These forecasts were very accurate for both countries in the relatively short term (2 weeks in our example). For Sweden, a total of 4000 deaths was observed on 24 May. Depending on the time of analysis, the model predicted 31 May 2020 (7 days of error), 18 May 2020 (6 days) or 21 May 2020 (3 days) if the calculation was performed with the data available on 16 April 2020, 01 May 2020 or 26 May 2020, respectively. For the USA, a total of 100 000 deaths occurred on 27 May 2020. With the same date of analysis, the model predicted 20 May 2020 (7 days of error), 24 May 2020 (3 days) and 25 May 2020 (2 days)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 99,
+                    "ref_id": "TABREF1",
+                    "start": 90,
+                    "text": "(table 2)"
+                }
+            ],
+            "section": "Open access",
+            "text": "The model also allowed us to estimate the day of the peak of daily deaths in each country (table 2) . Moreover, the delay in days for a twofold or fourfold increase or decrease in the number of deaths was assessed by the model. For instance, in Italy, the number of deaths predicted by the model reached its peak on 27 March 2020. A quarter of this number had been reached 15 days before that date, during the exponential growth phase, where it doubled in 5 days. Growth then slowed and the number of deaths doubled in 10 days to reach the peak. The decline was much slower, as it took 25 and 47 days to divide the number of deaths by 2 or 4, respectively."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 155,
+                    "ref_id": "BIBREF9",
+                    "start": 153,
+                    "text": "10"
+                },
+                {
+                    "end": 387,
+                    "ref_id": "BIBREF11",
+                    "start": 385,
+                    "text": "11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "The almost unprecedented magnitude of the COVID-19 pandemic has made epidemiological models critical not only for researchers but also for policymakers. 10 Many models have been published either in scientific journals or as open-access platforms for helping the global community to describe and forecast the evolution of the pandemic outcome, yet with frequently conflicting findings. 11 The "
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 99,
+                    "ref_id": "BIBREF12",
+                    "start": 95,
+                    "text": "[12]"
+                },
+                {
+                    "end": 104,
+                    "ref_id": "BIBREF13",
+                    "start": 100,
+                    "text": "[13]"
+                },
+                {
+                    "end": 109,
+                    "ref_id": "BIBREF14",
+                    "start": 105,
+                    "text": "[14]"
+                },
+                {
+                    "end": 948,
+                    "ref_id": "BIBREF15",
+                    "start": 946,
+                    "text": "15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "SIR model had been already used in different countries to describe the spread of the COVID-19. [12] [13] [14] We herein reported the development of an original model for short-term prediction of COVID-19 outcome at an aggregated level like a country, as well as updated data suggesting its very accuracy. Our model has several strengths as compared with others. First, it is adaptive and fits the observed data, through a mechanistic modelling, even though we acknowledge that many other models are also adaptive, notably those analysed under the control theory framework. Second, it appears to be validated by the data, with good short-term predictions in all tested cases, as shown in the figures and as it can be seen on the online tool. For instance, the model early showed that Sweden, a country in which limited public measures have raised a national and international controversy, would rapidly reach a cumulated number of deaths of 4000. 15 Third, it is a parsimonious model, as very few parameters are needed to describe the outcome of interest, and the prediction proved stable over time. Fourth, we implemented it as an open-access interactive tool, so as to make it operational for any relevant stakeholder for the immediate benefit of the scientific and general community in the context of the COVID-19 outbreak. Fifth, it is designed to be updated on a regular basis, ideally on a daily basis, with the possible incorporation of new countries over time. Last, it can also be seen as a monitoring tool. Also, the current work focuses on what happened between early March and early June 2020. Indeed, this period corresponds to what has been widely called the 'first wave' of the COVID-19 pandemic in most European countries. We have chosen to cover this period because various parameters related to the dynamic of the pandemic (lethality rate, number of tests performed, infection rate, etc) seem to have changed significantly afterwards."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "Our model nevertheless has some limitations. The main one is probably that it needs early data to be fed with so "
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "as to work. It therefore requires a minimum follow-up on the outbreak to be effective. Our report is also limited by the fact that we did not proceed to a full comparison with other models and cannot herein demonstrate respective performances of published models as compared with ours. We intended to report the development of the model and its rationale, as well as early positive findings as soon as possible, in particular since the model is made freely accessible as an online tool."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "We encourage researchers and policymakers to use this freely accessible model since its main purpose is to describe precisely the spread of this pandemic. As the pandemic pursues its course in many countries, we will continue to enrich it with real data and will further investigate its performance. For each country, t1/4 (\u2191) and t1/2 (\u2191) are, respectively, the number of days it took to multiply the number of deaths by 4 and 2; t1/2 (\u2193) and t1/4 (\u2193) are, respectively, the number of days it took to divide the number of deaths by 2 and 4; N represents the maximum daily number of deaths predicted by the model using data from 15 February 2020 to 1 June 2020."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {},
+                "email": "marc.lavielle@inria.fr",
+                "first": "Marc",
+                "last": "Lavielle",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Matthieu",
+                "last": "Faron",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "J\u00e9r\u00e9mie",
+                "last": "Lefevre",
+                "middle": [
+                    "H"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Jean-David",
+                "last": "Zeitoun",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Predicting the propagation of COVID-19 at an international scale: extension of an SIR model"
+    },
+    "paper_id": "2791abd70d03282b4dea7b8e3e89297ba078dae8",
     "ref_entries": {
         "FIGREF1": {
-            "text": "Observed and predicted number of cases for several countries (left: daily number of confirmed cases, right: daily number of reported deaths). The magenta dots are the observed data. The green curves represent the daily numbers of cases and deaths predicted by the model, including the periodical component related to how data are counted and reported throughout the week.",
             "latex": null,
+            "text": "Observed and predicted number of cases for several countries (left: daily number of confirmed cases, right: daily number of reported deaths). The magenta dots are the observed data. The green curves represent the daily numbers of cases and deaths predicted by the model, including the periodical component related to how data are counted and reported throughout the week.",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "Observed and predicted number of deaths for Sweden and the USA. The predictions were obtained at different dates (left: 16 April 2020; middle: 1 May 2020; right: 16 May 2020). The magenta dots are the observed data of the training dataset used for building the model. The red dots are the observed data of the validation dataset. The green curves represent the cumulated numbers of deaths predicted by the model.",
             "latex": null,
+            "text": "Observed and predicted number of deaths for Sweden and the USA. The predictions were obtained at different dates (left: 16 April 2020; middle: 1 May 2020; right: 16 May 2020). The magenta dots are the observed data of the training dataset used for building the model. The red dots are the observed data of the validation dataset. The green curves represent the cumulated numbers of deaths predicted by the model.",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "Model parameters for each country",
             "latex": null,
+            "text": "Model parameters for each country",
             "type": "table"
         },
         "TABREF1": {
-            "text": "Maximum daily number of deaths predicted by the model",
             "latex": null,
+            "text": "Maximum daily number of deaths predicted by the model",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "Contributors ML designed and developed the model and the tool. J-DZ, MF and JHL provided medical insights and wrote the manuscript. All authors read and approved the final manuscript. J-DZ affirms that the manuscript is an honest, accurate and transparent account of the study being reported; that no important aspects of the study have been omitted; and that any discrepancies from the study as planned (and, if relevant, registered) have been explained.Funding The authors have not declared a specific grant for this research from any funding agency in the public, commercial or not-for-profit sectors.Competing interests All authors have completed and submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. No conflict of interest related to the current work was reported. Outside the submitted work, J-DZ reports being an advisor for several consulting firms linked with pharmaceutical industry (Oliver Wyman, Roland Berger). He also reports speaking fees from a manufacturers' professional association, consulting fees from Ferring, Pierre Fabre, AbbVie, AstraZeneca, Biogen, Boehringer Ingelheim, Takeda and Johnson & Johnson. He is a personal investor in approximately 20 digital companies, medical device companies or biotech companies, and as a limited partner in an investment fund. He reports being a founding partner of Inato, a company involved in clinical research and whose customers are pharmaceutical companies. JHL reports fees from Ethicon, Takeda and MD Start, and invitation to a medical congress by Biomup. He is a consultant for Safeheal.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "annex"
-        },
-        {
-            "text": "Provenance and peer review Not commissioned; externally peer reviewed.Data availability statement Data are available in a public, open access repository. Data are available upon reasonable request. The tool is accessible online and free of charge. Other data are accessible upon reasonable request.Open access This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: http:// creativecommons. org/ licenses/ by-nc/ 4. 0/.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Patient consent for publication Not required."
-        },
-        {
-            "text": "Jean-David Zeitoun http:// orcid. org/ 0000-0001-9590-3461",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "ORCID iD"
-        }
-    ]
+    }
 }

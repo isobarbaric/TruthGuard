@@ -1,2105 +1,2105 @@
 {
-    "paper_id": "278b51d0aa545f65430ab79230a6f43129d3e355",
-    "metadata": {
-        "title": "Author information Modelling and Forecasting of Growth Rate of New COVID-19 Cases in Top Nine Affected Countries: Considering Conditional Variance and Asymmetric Effect Modelling and Forecasting of Growth Rate of New COVID-19 Cases in Top Nine Affected Countries: Considering Conditional Variance and Asymmetric Effect",
-        "authors": [
-            {
-                "first": "Aykut",
-                "middle": [],
-                "last": "Ekinci",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Samsun University",
-                    "location": {
-                        "settlement": "Samsun",
-                        "region": "India, Brazil, France, Russia, UK, Italy",
-                        "country": "Spain and Germany"
-                    }
-                },
-                "email": "aykut.ekinci@samsun.edu.tr"
-            },
-            {
-                "first": "Assoc",
-                "middle": [],
-                "last": "",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Samsun University",
-                    "location": {
-                        "settlement": "Samsun",
-                        "region": "India, Brazil, France, Russia, UK, Italy",
-                        "country": "Spain and Germany"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Assoc",
-                "middle": [],
-                "last": "Prof",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Samsun University",
-                    "location": {
-                        "settlement": "Samsun",
-                        "region": "India, Brazil, France, Russia, UK, Italy",
-                        "country": "Spain and Germany"
-                    }
-                },
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "COVID-19 pandemic has affected more than a hundred fifty million people and killed over three million people worldwide over the past year. During this period, different forecasting models have tried to forecast time path of COVID-19 pandemic. Unlike the COVID-19 forecasting literature based on Autoregressive Integrated Moving Average (ARIMA) modelling, in this paper new COVID-19 cases were modelled and forecasted by conditional variance and asymmetric effects employing Generalized Autoregressive Conditional Heteroscedasticity (GARCH), Threshold GARCH (TARCH) and Exponential GARCH (EGARCH) models. ARMA, ARMA-GARCH, ARMA-TGARCH and ARMA-EGARCH models were employed for one-day ahead forecasting performance for April, 2021 and three waves of COVID-19 pandemic in nine most affected countries \u2500USA. ARMA-GARCH models have better forecast performance than ARMA models by modelling both the conditional heteroskedasticity and the heavy-tailed distributions of the daily growth rate of the new confirmed cases; asymmetric GARCH models have shown mixed results in terms of lower the root mean squared error (RMSE).",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "COVID-19 pandemic has affected more than a hundred fifty million people and killed over three million people worldwide over the past year. During this period, different forecasting models have tried to forecast time path of COVID-19 pandemic. Unlike the COVID-19 forecasting literature based on Autoregressive Integrated Moving Average (ARIMA) modelling, in this paper new COVID-19 cases were modelled and forecasted by conditional variance and asymmetric effects employing Generalized Autoregressive Conditional Heteroscedasticity (GARCH), Threshold GARCH (TARCH) and Exponential GARCH (EGARCH) models. ARMA, ARMA-GARCH, ARMA-TGARCH and ARMA-EGARCH models were employed for one-day ahead forecasting performance for April, 2021 and three waves of COVID-19 pandemic in nine most affected countries \u2500USA. ARMA-GARCH models have better forecast performance than ARMA models by modelling both the conditional heteroskedasticity and the heavy-tailed distributions of the daily growth rate of the new confirmed cases; asymmetric GARCH models have shown mixed results in terms of lower the root mean squared error (RMSE)."
         },
         {
-            "text": "\uf0b7 Estimation period covers the last 12 months' data (March 2020 -March 2021 to forecast new COVID-19 cases in top nine affected countries. \uf0b7 Validation periods for one-day ahead forecasting performance include April, 2021 and three waves of COVID-19 pandemic. \uf0b7 The conditional variance and asymmetric effects were taken into consideration by employing ARMA-GARCH, ARMA-TGARCH and ARMA-EGARCH models. \uf0b7 Time series forecasting models should include the conditional variance effect to rise their forecasting power. \uf0b7 Asymmetric effect has mixed results in regards to improving forecasting power.",
             "cite_spans": [
                 {
-                    "start": 52,
                     "end": 63,
-                    "text": "(March 2020",
-                    "ref_id": "BIBREF24"
+                    "ref_id": "BIBREF24",
+                    "start": 52,
+                    "text": "(March 2020"
                 }
             ],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "\uf0b7 Estimation period covers the last 12 months' data (March 2020 -March 2021 to forecast new COVID-19 cases in top nine affected countries. \uf0b7 Validation periods for one-day ahead forecasting performance include April, 2021 and three waves of COVID-19 pandemic. \uf0b7 The conditional variance and asymmetric effects were taken into consideration by employing ARMA-GARCH, ARMA-TGARCH and ARMA-EGARCH models. \uf0b7 Time series forecasting models should include the conditional variance effect to rise their forecasting power. \uf0b7 Asymmetric effect has mixed results in regards to improving forecasting power."
         }
     ],
-    "body_text": [
-        {
-            "text": "The recent COVID-19 pandemic was first reported in Wuhan, China in December 2019 and has spread out to the whole world in a short period of time. Italy became a new epicenter of the pandemic in March, 2020 in Europe and United Kingdom (UK), France and Germany followed Italy. United States of America (USA) and Brazil were the next epicenters in the world after the first wave in Europe. Unfortunately, nowadays, India is the pandemic's new epicenter of the world. Even after over a year, world is still fighting against COVID-19. The confirmed deaths are over 3 million and total confirmed cases are over 155 million as of April, 2021.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "COVID-19 has created devastating effects not just on economies, but also on supply chains, resulting in loss of jobs, increase in poverty and social unrest, causing learning loss in education, worsening human psychology and so on. Such environment has made forecasting new COVID-19 cases or deaths an urgent and essential research area. Many researchers from different disciplines such as health, math, engineering, finance, economics have started to employ different forecasting techniques to get a better insight into spread of pandemic. Shinde et al. (2020) have categorized papers on COVID-19 forecasting into four categories by data and forecasting techniques: (i) big data (ii) social media/other communication media data (iii) stochastic theory/mathematical models and (iv) data science/machine learning techniques.",
-            "cite_spans": [
-                {
-                    "start": 540,
-                    "end": 560,
-                    "text": "Shinde et al. (2020)",
-                    "ref_id": "BIBREF34"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "(i) Papers using big data: This type of papers use mathematical equations or machine learning techniques by using the big data such as temperature, wind speed, humidity, spread rate, disease control interventions, traffic restrictions (see Bhattacharjee, 2020; Caccavo, 2020; Li et al., 2020; Siwiak, 2020; Zareie et al., 2020) (ii) Papers using social media/other communication media data: These use the correlation between the social media and web searches with the number of daily COVID-19 using datasets from Google, Baidu search engines, mobile phones, newspapers and various websites like Github (see La et al., 2020; Zhu et al., 2020; Volpert, 2020; Anastassopoulou et al., 2020; Li et al., 2020; Bayham et al., 2020) (iii) Stochastic theory/mathematical models: This type of models mostly use the susceptible infected-recovered (SIR) model or similar pandemic infection models to estimate the mortality and the spread rate of COVID-19 (see Demongeot et al., 2020 , Lu et al., 2020 Webb, 2020; Victor, 2020; Wang et al, 2020; Botha and Dednam, 2020; Coelho et al, 2020 , Long et al., 2020 , Griette et al., 2021 . (iv) Data science/machine learning techniques: most of the studies are in this category, using time series and/or machine learning techniques. Stated as Shinde et al. (2020) , the main challenge of this type of studies is that time period for training or estimation period of the model is too short (see Fong et al, 2020; Hu et al., 2020; Jia et al, 2020) .",
-            "cite_spans": [
-                {
-                    "start": 240,
-                    "end": 260,
-                    "text": "Bhattacharjee, 2020;",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 261,
-                    "end": 275,
-                    "text": "Caccavo, 2020;",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 276,
-                    "end": 292,
-                    "text": "Li et al., 2020;",
-                    "ref_id": "BIBREF21"
-                },
-                {
-                    "start": 293,
-                    "end": 306,
-                    "text": "Siwiak, 2020;",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 307,
-                    "end": 327,
-                    "text": "Zareie et al., 2020)",
-                    "ref_id": "BIBREF43"
-                },
-                {
-                    "start": 607,
-                    "end": 623,
-                    "text": "La et al., 2020;",
-                    "ref_id": null
-                },
-                {
-                    "start": 624,
-                    "end": 641,
-                    "text": "Zhu et al., 2020;",
-                    "ref_id": "BIBREF44"
-                },
-                {
-                    "start": 642,
-                    "end": 656,
-                    "text": "Volpert, 2020;",
-                    "ref_id": "BIBREF39"
-                },
-                {
-                    "start": 657,
-                    "end": 686,
-                    "text": "Anastassopoulou et al., 2020;",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 687,
-                    "end": 703,
-                    "text": "Li et al., 2020;",
-                    "ref_id": "BIBREF21"
-                },
-                {
-                    "start": 704,
-                    "end": 724,
-                    "text": "Bayham et al., 2020)",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 948,
-                    "end": 970,
-                    "text": "Demongeot et al., 2020",
-                    "ref_id": "BIBREF10"
-                },
-                {
-                    "start": 971,
-                    "end": 988,
-                    "text": ", Lu et al., 2020",
-                    "ref_id": "BIBREF22"
-                },
-                {
-                    "start": 989,
-                    "end": 1000,
-                    "text": "Webb, 2020;",
-                    "ref_id": "BIBREF24"
-                },
-                {
-                    "start": 1001,
-                    "end": 1014,
-                    "text": "Victor, 2020;",
-                    "ref_id": "BIBREF38"
-                },
-                {
-                    "start": 1015,
-                    "end": 1032,
-                    "text": "Wang et al, 2020;",
-                    "ref_id": "BIBREF40"
-                },
-                {
-                    "start": 1033,
-                    "end": 1056,
-                    "text": "Botha and Dednam, 2020;",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 1057,
-                    "end": 1075,
-                    "text": "Coelho et al, 2020",
-                    "ref_id": null
-                },
-                {
-                    "start": 1076,
-                    "end": 1095,
-                    "text": ", Long et al., 2020",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 1096,
-                    "end": 1118,
-                    "text": ", Griette et al., 2021",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 1274,
-                    "end": 1294,
-                    "text": "Shinde et al. (2020)",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 1425,
-                    "end": 1442,
-                    "text": "Fong et al, 2020;",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 1443,
-                    "end": 1459,
-                    "text": "Hu et al., 2020;",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 1460,
-                    "end": 1476,
-                    "text": "Jia et al, 2020)",
-                    "ref_id": "BIBREF18"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Autoregressive Integrated Moving Average (ARIMA) model is well-known time series forecasting methods especially in finance and economics. To forecast the spread of COVID-19, most of the researchers from different disciplines used ARIMA models because of their simplicity, systematic structure and acceptable forecasting performance (Wang et al., 2018) . As an early study, Ceylan (2020) used ARIMA models to forecast COVID-19 prevalence in Italy, Spain, and France between the period of 21/02/2020 and 15/04/2020. Since all series became stationary after the second difference, ARIMA (0,2,1), ARIMA (1,2,0), and ARIMA (0,2,1) were chosen by minimum MAPE value as the best models for Italy, Spain, and France, respectively. The estimation period covers the all data and outof-sample period for the next 10-day was applied to forecast confirmed cases of COVID-19 in these countries. Petropoulos et al. (2020) attempted to predict the cumulative number of confirmed cases and cumulative number of deaths, using basic time series models, i.e. non-seasonal multiplicative error and multiplicative trend exponential smoothing model. They produced 12 rounds of 10-day-ahead non-overlapping forecasts, covering a four-month period from February to May 2020. Authors claim that their model results offer competitive forecast accuracy. Duan and Zhang (2020) predict the daily new confirmed cases in Japan and South Korea from 20/01/2020 until 26/05/2020 using ARIMA. ARIMA(6,1,7) and ARIMA(2,1,3) models were selected as best models for Japan and South Korea, respectively and the daily new confirmed cases for the 7-day period from April 27, 2020 to May 3, 2020 were predicted. Ribeiro et al. (2020) studied on short-term forecasting of COVID-19 cumulative confirmed cases in ten Brazilian states. ARIMA, cubist regression (CUBIST), random forest (RF), ridge regression (RIDGE), support vector regression (SVR) and stacking-ensemble learning were used for one, three, and sixdays ahead forecasting of the COVID-19 cumulative confirmed cases. They ranked the models according to their forecasting ability based on sMAPE in all scenarios from the best to the worst, SVR, stacking-ensemble learning, ARIMA, CUBIST, RIDGE, and RF models, respectively. Maleki et al. (2020) modeled the total number of confirmed and recovered COVID-19 cases in the world by the proposed autoregressive time series models based on two-piece scale mixture normal distributions, called TP-SMN-AR models. TP-SMN-AR(7) model was selected as the best model for the estimation period from 22/01/2020 to 30/04/2020 for the total confirmed COVID-19 cases, and TP-SMN-AR(2) model was selected as the best model under the estimation period from 02/02/2020 to 30/04/2020 for the total recovered COVID-19 cases. The validation period was the last 10 days of the confirmed and recovered cases, i.e. 21/04/2020-30.04.2020. Maleki et al. (2020) claimed that proposed models improve the forecasting accuracy for confirmed and recovered COVID-19 cases in the world. Malki et al. (2021) investigated the end of COVID-19 pandemic and the risk of second rebound using Seasonal ARIMA (SARIMA) models, selected by AIC. Authors scaled the data using the min-max scalar function to stabilize the value of variance and improved the forecast ability of the model. The estimation period covers 70% of all data, i.e. from 22/01/2020 to 15/06/2020 and the validation period used to forecast for the next 60 days, i.e. from 15/06/2020 until 12/08/2020. Out-of-sample period starts from 13/08/2020 until 11/09/2020. Then Malki et al. (2021) try to estimate the expected deadline of COVID-19 for some countries in the first and second rebounds using the forecasted models based on normal distribution. Lastly, authors have compared the forecast performance of ARIMA, Machine learning (Random Forest) and deep learning model (LSTM) and concluded that SARIMA model can be extended and used to predict confirmed cases of other countries. Talkhi et al. (2021) forecast the number of confirmed and death caused COVID-19 in Iran using nine different time series models, i.e. NNETAR, ARIMA, Hybrid, Holt-Winter, BSTS, TBATS, Prophet, MLP, and ELM network models. The daily confirmed and death cases data covers from 20/02/2020 until 15/08/2020 and splined train (70%) and testing part (30%), then the forecasting accuracy of the models is evaluated by RMSE, MAE, and MAPE. The authors selected the ARIMA(1,0,0), i.e. AR(1), and ARIMA(1,0,1), i.e. AR(1), for confirmed and death cases, respectively. Out-of-sample period starts from 16/08/2020 until 14/09/2020 for 30 days. Empirical findings of the paper offer the MLP network model for confirmed cases forecasting and Holt-Winter model for forecasting death cases. Sahai et al. (2021) forecast daily confirmed cases for five most affected countries. ARIMA models estimated for the period of 15/02/2020-30/06/2020 and India (4,2,4), Brazil (3,1,2), Russia (3,0,0), Spain (4,2,4) and US (1,2,1) models selected by AIC. Actual data from 1st July to 18th July was used as validation period and the forecast efficiency was determined by the mean absolute deviation (MAD) and the mean absolute percentage error (MAPE). MAPE was the lowest for Russia and Spain at 1.09% and 0.83%, and 3.70%,1.84% and 2.88% for India, Brazil and US, respectively.",
-            "cite_spans": [
-                {
-                    "start": 332,
-                    "end": 351,
-                    "text": "(Wang et al., 2018)",
-                    "ref_id": "BIBREF41"
-                },
-                {
-                    "start": 373,
-                    "end": 386,
-                    "text": "Ceylan (2020)",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 881,
-                    "end": 906,
-                    "text": "Petropoulos et al. (2020)",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 1669,
-                    "end": 1690,
-                    "text": "Ribeiro et al. (2020)",
-                    "ref_id": "BIBREF32"
-                },
-                {
-                    "start": 2239,
-                    "end": 2259,
-                    "text": "Maleki et al. (2020)",
-                    "ref_id": "BIBREF25"
-                },
-                {
-                    "start": 2877,
-                    "end": 2897,
-                    "text": "Maleki et al. (2020)",
-                    "ref_id": "BIBREF25"
-                },
-                {
-                    "start": 3017,
-                    "end": 3036,
-                    "text": "Malki et al. (2021)",
-                    "ref_id": null
-                },
-                {
-                    "start": 3558,
-                    "end": 3577,
-                    "text": "Malki et al. (2021)",
-                    "ref_id": null
-                },
-                {
-                    "start": 3971,
-                    "end": 3991,
-                    "text": "Talkhi et al. (2021)",
-                    "ref_id": "BIBREF36"
-                },
-                {
-                    "start": 4745,
-                    "end": 4764,
-                    "text": "Sahai et al. (2021)",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "K\u0131rbas et al. (2021) modeled confirmed COVID-19 cases in Denmark, Belgium, Germany, France, United Kingdom, Finland, Switzerland and Turkey, using three different estimation techniques, i.e. ARIMA, Nonlinear Autoregression Neural Network (NARNN) and Long-Short Term Memory (LSTM) approaches. Cumulative confirmed case data was used with different baseline date based on the first case was seen. They concluded that LSTM and ARIMA models had the best forecast performance. Katris (2021) investigated the estimation of the spread and the reversion of the pandemic from the beginning of the reported cases until August 14 of 2020. The Newbolt/Granger combination scheme of TES, ARIMA and ANN models were built to forecast the daily cases in Greece. Katris built alternative scenarios for the evolution of the pandemic using the model results and the log-normal distribution, which is the best-fit distribution to the data.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "However, these studies reviewed above, which use the ARIMA model to forecast COVID-19 confirmed cases or deaths, have two limitations. The first limitation is about data, and the second is about modelling. The paper has three data stages: Data period, data transformation and data cleaning. ARIMA model, which is further explained in the econometric model section, is a univariate linear regression model trying to find right coefficients for the lags of the dependent variable or residual terms based upon the historical returns or growth rates. Longer time period means better forecast ability for a model. Accordingly, the estimation period set in this paper is one-year period, from March 2020 to March 2021. Validation periods are one-day ahead forecast of the April, 2021 and three waves of COVID-19 pandemic.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Time series should be stationary, as explained in the data section below, but as can be seen in the literature, some of the papers use non-stationary new COVID-19 cases data and some use taking the first difference or the second difference of new COVID-19 cases. Taking the first difference is a proper method of making a series stationary, but in case of COVID-19 pandemic, this would lead misspesification of the model. It is obvious that the number of daily new cases were low on the onset of the pandemic but the new cases reached over 200,000 in USA and India at the late stage of the pandemic or during the strong waves of the pandemic. The growth rate of the daily new COVID-19 cases (7 day smoothed) was used by taking the log difference of the series following the economics or finance literature.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Data cleaning is an important part of time series modelling as most of the time series might have outlier, missing or dirty data. Thus finding the best-fitted ARIMA model is the key part of the modelling, but when the data has outliers, these potential large deviations from mean can make parameter estimation or forecasting inappropriate. New COVID-19 cases have two outliers in USA and one outlier in Germany, so adjusted new cases are used for these outliers. On the other hand, Turkey, one of the fifth most effected country in the world, is excluded from the sample since new COVID-19 cases in Turkey has two structural breaks, which indicates that COVID-19 cases do not follow the natural trajectory of the pandemic spread. So the previous and/or future studies should take outliers in COVID-19 data and time path of the new cases into account.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "The second limitation is about modelling. In the literature which aim to forecast of new cases or deaths by using ARIMA, a mean equation is modelled under the assumption of homoscedasticity. ARIMA or mean equation indicates that the current value of the daily confirmed COVID-19 cases is a linear function of its past values as well as current and previous residual series. However, financial returns show volatility clustering, as first noted by stating that \"large changes tend to be followed by large changes, of either sign, and small changes tend to be followed by small changes.\". Generalized autoregressive conditional heteroscedasticity (GARCH) model usually has a better performance than traditional statistical methods like ARMA by capturing the non-lineraties and heterogeneity of the time series. Yet this paper differs from the literature, using ARMA-GARCH model. Moreover, the asymmetric characteristics in the volatility of new COVID-19 cases were modelled by using two most known asymmetric GARCH models \u2500 the Threshold GARCH (TARCH) Model and the Exponential GARCH (EGARCH).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "In this paper, ARMA, ARMA-GARCH, ARMA-TGARCH and ARMA-EGARCH models are employed for one-day ahead forecasting performance for April, 2021 and three waves of COVID-19 pandemic for nine most affected countries, USA, India, Brazil, France, Russia, UK, Italy, Spain and Germany. The second section introduces the data and econometric model, the third section presents the empirical results and the final section concludes.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "The number of the daily new confirmed COVID-19 cases for the ten most effected countries was taken from the World Health Organization database. The most effected countries were selected according to which countries have the most cumulative COVID-19 cases as of 4th May 2021, which are USA (33.2 million cases), India (20.4 million cases), Brazil (14,7 billion cases), France (5,6 million cases), Turkey (4,9 million cases), Russia (4,8 million cases), UK (4,4 million cases), Italy (4,0 million cases), Spain (3,5 million cases) and Germany (3,4 million cases).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Data and Econometric Model 2.1. Data"
-        },
-        {
-            "text": "Data cleaning is an important task before modelling of time series. Thefore the paper analyzed the daily new confirmed cases, yet some issues arouse: First, for the US and Germany daily new cases showed some significant outliers. Reducing the unconditional variance is an important issue when modelling the pandemic spread since the new cases have an exponential growth characteristic in the early stage of the pandemic. As a first step, the 7 day smoothed series were used by taking 7 days moving average of the daily new confirmed cases. Some countries have included weekend lockdowns or national holiday lockdowns, consequently the cases show an irregular pattern for weekends or the days when there were legal COVID-19 restrictions. Using 7-day moving average helps to avoid this type of changes in the number of the COVID-19 cases. In other words, the forecasted value would be 7-day average of new COVID-19 cases. From now on when referring to models and estimation in this paper, \"new cases\" means daily new confirmed cases of COVID-19 (7-day smoothed) for the country , if otherwise noted. As the second step starting date is determined as the first day when the number of the new cases is over 100. This way it is to get rid of the early days exponential growth rates in new cases to some extent.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Data and Econometric Model 2.1. Data"
-        },
-        {
-            "text": "Our dependent variable, , should be stationary according the Box-Jenkins procedure. However, the daily confirmed new cases (smoothed) for all countries have a time-dependent trend and the series are non-stationary based on Augmented Dickey Fuller (ADF) and Phillips-Perron (PP) tests 1 . The empirical results may be spurious (see Granger and Newbold, 1974) , if the series are non-stationary. Taking the first difference, i.e. , will remove the linear trend and becomes stationary and denote as I(1), integrated of order one. In economics and finance literature, stationary condition is often met by using variables growth rate or return, such as real GDP growth or stock returns obtained by taking the log difference of the series, i.e.",
-            "cite_spans": [
-                {
-                    "start": 331,
-                    "end": 357,
-                    "text": "Granger and Newbold, 1974)",
-                    "ref_id": "BIBREF16"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Data and Econometric Model 2.1. Data"
-        },
-        {
-            "text": ". Taking logs stabilizes the variance of a series (see L\u00fctkepohl and Xu, 2012) . ARMA model is an expected mean model and tries to select the best-fitted model by looking at the past residuals. Then creating a pattern, say selecting the appropriate ARMA(p,q) model from the past growth rates of new COVID-19 cases, becomes easier than obtaining a model from the first difference of the COVID-19 cases, which brings scaling problem and higher variance with it in return.",
-            "cite_spans": [
-                {
-                    "start": 55,
-                    "end": 78,
-                    "text": "L\u00fctkepohl and Xu, 2012)",
-                    "ref_id": "BIBREF23"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Data and Econometric Model 2.1. Data"
-        },
-        {
-            "text": "The dependent variable is daily growth rate, i.e. the log difference of daily new confirmed cases of COVID-19 (7-day smoothed). Table 1 displays the descriptive statistics of growth rate of the new cases in nine most affected countries. The first country, which passed the 100 new cases, is Italy on March, 1th, 2020 and the last one is India, which is now the second in the World in regards to total COVID-19 cases. Daily average of the growth rates is fluctuating between 1% -1.5%, the highest mean growth rate is 2.06% in India and the lowest one is 0.74% in UK thanks to vaccination. The maximum daily growth rate of confirmed COVID-19 cases (7 day smoothed) is 107.94% in France and the minimum is again in France with -78.25%. Standard deviation is maximum in France with 0.1135 and minimum in Russia with 0.0453 and it provides a priori knowledge about considering heterogeneity in forecast models of this study. The kurtosis of the normal distribution is 3. Then all series have high kurtosis, the distribution is leptokurtic, that is, more peaked than a normal distribution with longer tails, especially for USA. It is an outcome of wild pandemic cycle periods, i.e. the effect of uncontrolled period and controlled period on growth rates of COVID-19 cases. Skewness is a measure of asymmetry and it is expected as zero under the normal distribution. All series have positive skewness implying that the distribution has a long right tail due to high growth rates of COVID-19 cases. Skewness is maximum in USA with 6.97 and minimum in France 0.65. The Jarque-Bera test statistic is calculated based on skewness and kurtosis values of the distribution, as expected it rejects the null hypothesis of a normal distribution for all series. High standard deviation and skewness&kurtosis values of the series indicate that our forecasting models should take non-lineraties and heterogeneity of the time series into account. It is known that ARMA models have constant variance assumption, which means volatility in new COVID-19 cases does not any effect on forecasted new cases. If data have heavy-tailed probability distribution, then GARCH procedure ensures modelling both the conditional heteroscedasticity and the heavy-tailed distributions of the daily growth rate of the new confirmed cases.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 128,
-                    "end": 135,
-                    "text": "Table 1",
-                    "ref_id": "TABREF1"
-                }
-            ],
-            "section": "Data and Econometric Model 2.1. Data"
-        },
-        {
-            "text": "ARIMA model is a well-known forecasting models in finance and economics and first introduced by Box and Jenkins (1970) in their seminal text-book\u2500 Time Series Analysis: Forecasting and Control. ARIMA model is a type of data generating process, which attempts to find right patterns in the historical returns or growth rates of financial or economic variables.",
-            "cite_spans": [
-                {
-                    "start": 96,
-                    "end": 118,
-                    "text": "Box and Jenkins (1970)",
-                    "ref_id": "BIBREF5"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Mean Equation or ARIMA"
-        },
-        {
-            "text": "If shows the daily growth rate of the new COVID-19 cases for the country at time , It can be modelled as univariate time series as in Eq. (1).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Mean Equation or ARIMA"
-        },
-        {
-            "text": "(1)",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Mean Equation or ARIMA"
-        },
-        {
-            "text": "Where is constant term, determines the appropriate lag of the autoregressive process of the AR(p) model, and shows the residual term for the country .",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Mean Equation or ARIMA"
-        },
-        {
-            "text": "can also be modelled as its own past residuals as shown in Eq. (2) (2)",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Mean Equation or ARIMA"
-        },
-        {
-            "text": "where indicates the mean of the series, shows the appropriate lag of the model and is the white noise term.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Mean Equation or ARIMA"
-        },
-        {
-            "text": "The autoregressive component (AR(p)) and moving average component (MA(q)) can be integrated 2 as the autoregressive moving average (ARMA(p,q)) model as follows:",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Mean Equation or ARIMA"
-        },
-        {
-            "text": "( 3) where is independently and identically distributed error term with a mean of zero and a constant variance of . Equation 3 expresses that the current value of the growth rate of the new cases is a linear function of its past values as well as current and previous residual series. An automatic ARIMA forecasting procedure is applied to the series in order to determine an appropriate ARMA(p,q) specification. Model selection is based on Akaike information criterion (AIC) under the maximum likelihood (BHGS) method by allowing up to the four lags.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Mean Equation or ARIMA"
-        },
-        {
-            "text": "The main assumption behind the ARMA model is that the expected variance of all error terms is the same at any given point, i.e.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Variance Equation or GARCH"
-        },
-        {
-            "text": "is independently and identically distributed error term with a mean of zero and a constant variance of . This assumption is called homoskedasticity and it is an implausible assumption by Engle (1982) , who introduced autoregressive conditional heteroscedasticity (ARCH) model as a new class of stochastic process. Bollerslev (1986) and Taylor (1986) generalized the model as GARCH (1, 1) shows the one period ahead forecast variance based on past information. Conditional variance of the growth rate of new cases for country , , is a function of constant, , the ARCH term, , and the GARCH term, . ARCH term is the previous day effect or new information effect, measured as the lag of the squared error term from the mean equation. GARCH term indicates long term volatility, measured as last period's forecast variance. High order GARCH models can be estimated by choosing different p or q, but it is well known that the finance literature GARCH(1,1) model performs better in most cases.",
-            "cite_spans": [
-                {
-                    "start": 187,
-                    "end": 199,
-                    "text": "Engle (1982)",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 314,
-                    "end": 331,
-                    "text": "Bollerslev (1986)",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 336,
-                    "end": 349,
-                    "text": "Taylor (1986)",
-                    "ref_id": "BIBREF37"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Variance Equation or GARCH"
-        },
-        {
-            "text": "The conditional variance of the daily growth rate of new COVID-19 cases is a function of past values of squared error term, without any correlation with the sign of the error term. If the question is about inquiring the differential effects of negative or positive shocks on conditional variance, then asymmetry coefficient should be added up to the variance equation. The Threshold GARCH (TARCH) Model and the Exponential GARCH (EGARCH) are two most known asymmetric GARCH Models.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Variance Equation with Asymmetric Effect or the Asymmetric GARCH Models"
-        },
-        {
-            "text": "TGARCH model was introduced by Glosten, Jaganathan, and Runkle (1993) and Zako\u00efan (1994) . The conditional variance in the TGARCH(1, 1) model:",
-            "cite_spans": [
-                {
-                    "start": 31,
-                    "end": 55,
-                    "text": "Glosten, Jaganathan, and",
-                    "ref_id": null
-                },
-                {
-                    "start": 56,
-                    "end": 73,
-                    "text": "Runkle (1993) and",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 74,
-                    "end": 88,
-                    "text": "Zako\u00efan (1994)",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "TGARCH Model"
-        },
-        {
-            "text": "where 1 if and 0 otherwise. If the negative shocks have a significant effect on conditional variance on the contrary of positive shocks, then negative shock has an impact of .",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "TGARCH Model"
-        },
-        {
-            "text": "EGARCH model was developed by Nelson (1991) and conditional variance equation of an EGARCH model is defined as follows:",
-            "cite_spans": [
-                {
-                    "start": 30,
-                    "end": 43,
-                    "text": "Nelson (1991)",
-                    "ref_id": "BIBREF30"
-                }
-            ],
-            "ref_spans": [],
-            "section": "EGARCH Model"
-        },
-        {
-            "text": "where ( ) is the log of the conditional variance, which provides positive conditional variance even if the parameters are negative. The asymmetric effect can be tested by the hypothesis that . If the asymmetry coefficient, , is statistically insignificant, then there is no asymmetric effect.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "EGARCH Model"
-        },
-        {
-            "text": ", it implies that positive shocks generate higher volatility more than negative shocks. The parameter captures the persistence in conditional volatility.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "If"
-        },
-        {
-            "text": "As explained in the econometric model section, mean equation shows the ARMA(p,q) model under the assumption constant variance in Eq. 3, considering the time varying conditional variance with the GARCH model as presented in Eq. 4 and 5, and lastly adding the asymmetric effect into the variance equation called as TGARCH model in Eq. 6 and EGARCH model in Eq. 7.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Forecasting the Last Month, April, 2021"
-        },
-        {
-            "text": "The one-day ahead forecasting performance of the models for April, 2021 is presented in Table 2 . The root mean squared error (RMSE), the square root of the mean of the square of all of the error or basically standard deviations of the residuals, is used for the selecting the best model among the four models for the country i, \u2500 ARMA(p,q), ARMA(p,q)-GARCH(1,1), ARMA(p,q)-TGARCH(1,1) and ARMA(p,q)-EGARCH (1,1). The main conclusion is that modelling the daily growth rate of COVID-19 new cases with ARMA model means loss of forecasting power. ARMA(p,q)-GARCH(1,1) models for all nine countries have lower RMSE in comparison with ARMA models.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 88,
-                    "end": 95,
-                    "text": "Table 2",
-                    "ref_id": "TABREF3"
-                }
-            ],
-            "section": "Forecasting the Last Month, April, 2021"
-        },
-        {
-            "text": "Adding asymmetric effect to the conditional variance equation has positive effect on forecast accuracy for all countries except Russia and Spain for TGARCH models, for USA, Brazil and UK for EGARCH models. However, this improvement on forecasting accuracy, i.e. lowering RMSE, is weak for most of the countries. As a next step, ARMA(4,4) and ARMA(4,4)-GARCH(1,1) model forecasting results are compared for USA to provide a better insight on difference between the forecasted and actual series. Figure 2 shows the daily growth rate of the new cases and the forecasted growth rates. It is obvious that ARMA(4,4) model has larger fluctuations on actual growth rate of new cases in USA. Forecasted value of the new confirmed cases (7 day smoothed) can be calculated using the forecasted growth rates obtained from two main models, i.e. ARMA(4,4) and ARMA(4,4)-GARCH(1,1) models (see Figure 3 ). It can be easily seen in Figure 3 that ignoring the conditional variance caused weak forecast power. Table 2 shows the statistical properties of deviations presented in Fig.4 . The mean of the deviations for 30 observations is 152 new cases for GARCH model but 471 new cases for ARMA model. It is clear that the maximum (3,504 for ARMA and 1,504 for GARCH) and the minimum (-3,522 for ARMA and -1,260 for GARCH) deviations from the actual ones are so high for ARMA model, which causes a high standard deviation for ARMA model. Under the null hypothesis of a normal distribution, Jarque-Bera test statistics confirm that both series have normal distribution, which also confirms that specifications of the models are built successfully.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 494,
-                    "end": 502,
-                    "text": "Figure 2",
-                    "ref_id": "FIGREF1"
-                },
-                {
-                    "start": 879,
-                    "end": 887,
-                    "text": "Figure 3",
-                    "ref_id": null
-                },
-                {
-                    "start": 916,
-                    "end": 924,
-                    "text": "Figure 3",
-                    "ref_id": null
-                },
-                {
-                    "start": 992,
-                    "end": 999,
-                    "text": "Table 2",
-                    "ref_id": "TABREF3"
-                },
-                {
-                    "start": 1060,
-                    "end": 1065,
-                    "text": "Fig.4",
-                    "ref_id": null
-                }
-            ],
-            "section": "Forecasting the Last Month, April, 2021"
-        },
-        {
-            "text": "While a model has higher forecasting accuracy for normal periods, it is harder to forecast non-normal periods such as financial crisis, financial stress periods or disease outbreaks such as COVID-19. Most of the countries faced three COVID-19 waves; first wave was at the onset of the COVID-19 pandemic, second wave was seen during the last months of the 2020 and third one was around March,2021. However, pandemic has its own growing path for most of the countries since its spread rate depends on so many variables such as age structure, health expenditure per capita, GDP per capita, population density, public measures and so on. Fig. 5 . COVID-19 waves (shaded areas) in nine most affected countries Figure 5 presents COVID-19 waves in the nine most affected countries. The waves were defined based on before and after 15 days of the local maximum of the new cases (smoothed). As seen in Figure 5 and Table 3 , the time periods of the waves have changed between countries; India has single wave while Russia has two waves. Table 3 shows the one-step ahead forecast model results in terms of RMSE for the first COVID-19 wave. The model results confirm the forecast results of April, 2021; all countries have lower RMSE when using the ARMA(p,q)-GARCH(1,1) model. Taking into account heteroscedasticity is an essential part for forecasting models. However, asymmetric effect has shown some mixed results as it did in baseline validation period, April 2021 (see Table 2 ). Some of the TGARCH or EGARCH models are better than GARCH models, for example while TGARCH works better for India and for Brazil, France, Russia, UK for both models work well; on the other hand, Italy, Spain and Germany have higher RMSE values, even higher than ARMA models in some cases 3 . Table 4 shows the second COVID-19 wave for eight countries. ARMA(p,q)-GARCH(1,1) models have still lower RMSE but not for all countries, France and UK have slightly lower RMSE under the ARMA models. Asymmetric GARCH Models have still mixed performance results. The model results for the third COVID-19 wave is presented in Table 5 . GARCH models have better performance accuracy for USA, Brazil and Germany in terms of RMSE, the loss of forecasting power is small for France, UK, Italy and strong for Spain. Including asymmetric effect into the variance equation creates higher RMSE for most of the countries.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 634,
-                    "end": 640,
-                    "text": "Fig. 5",
-                    "ref_id": null
-                },
-                {
-                    "start": 705,
-                    "end": 713,
-                    "text": "Figure 5",
-                    "ref_id": null
-                },
-                {
-                    "start": 893,
-                    "end": 901,
-                    "text": "Figure 5",
-                    "ref_id": null
-                },
-                {
-                    "start": 906,
-                    "end": 913,
-                    "text": "Table 3",
-                    "ref_id": "TABREF6"
-                },
-                {
-                    "start": 1028,
-                    "end": 1035,
-                    "text": "Table 3",
-                    "ref_id": "TABREF6"
-                },
-                {
-                    "start": 1463,
-                    "end": 1470,
-                    "text": "Table 2",
-                    "ref_id": "TABREF3"
-                },
-                {
-                    "start": 1766,
-                    "end": 1773,
-                    "text": "Table 4",
-                    "ref_id": "TABREF7"
-                },
-                {
-                    "start": 2089,
-                    "end": 2096,
-                    "text": "Table 5",
-                    "ref_id": "TABREF8"
-                }
-            ],
-            "section": "Forecasting Three Waves of New COVID-19 Cases or Forecasting Turning Points"
-        },
-        {
-            "text": "COVID-19 pandemic has been in our lives for more than a year and there is a growing literature focusing on forecasting the parameters of pandemic spread such as total cases, new cases, mortality rates, spread rate and so on. Since COVID-19 pandemic is a multidisciplinary research area, many researchers from different disciplines have contributed to the literature using mathematical models or machine learning techniques. ARIMA models are well-known time series models to forecast univariate variables such as new COVID-19 cases. On the other hand, the main assumption behind the ARIMA models are that the expected variance of all error terms is the same at any given point, i.e. homoskedasticity assumption. However, COVID-19 pandemic has strong waves, which leads heavy-tailed distributions. GARCH models are able to capture the non-lineraties and heterogeneity of the time series. Asymmetric effect is another feature of GARCH-type models, i.e. TGARCH and EGARCH, by measuring the differential effects of negative or positive shocks on conditional variance.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusion"
-        },
-        {
-            "text": "When modelling COVID-19 new cases, the growth rate of daily COVID-19 new cases (7 day smoothed) is used by taking into account the outlier effects on the data and last one-year period data can be used for the estimation period. Validation periods are one-day ahead forecast of the April, 2021 and three waves of COVID-19 pandemic. ARMA, ARMA-GARCH, ARMA-TGARCH and ARMA-EGARCH models are employed for one-day ahead forecasting performance for April, 2021 and three waves of the COVID-19 for the nine most affected countries\u2500 USA, India, Brazil, France, Russia, UK, Italy, Spain and Germany. ARMA(p,q)-GARCH(1,1) models have lower RMSE for the period of April, 2021 and first wave of COVID-19 pandemic for all countries. It is same for the second wave of pandemic for all countries except France and Russia but for the third waves of the pandemic USA, Brazil and Germany have lower RMSE. As shown in the paper, ARMA-TGARCH and ARMA-EGARCH models have mixed results in terms of achieving the lower RMSE.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusion"
-        },
-        {
-            "text": "The paper has some suggestions for future research. (i) Distribution of new cases of COVID-19 has heavy-tailed distributions with high variance. Therefore, GARCH modelling is essential to capture non-lineraties in data and rising forecast accuracy. (ii) Most of the machine learning models such as artificial neural networks, support vector machines do not have restrictions or data transformation as did in time series models. Using packages in Python, R or similar programs also support this type of analysis, without noticing the data cleaning and data transformation. Before the modelling stage, we should make sure that input data is appropriate for this kind of modelling. (iii) Seasonal ARIMA models can be estimated for capturing the seasonality effect on the data. (iv) Three or seven days ahead forecasting can be employed to see longer forecasting performance of the models.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusion"
-        }
-    ],
+    "back_matter": [],
     "bib_entries": {
         "BIBREF0": {
-            "ref_id": "b0",
-            "title": "Data-based analysis, modelling and forecasting of the COVID-19 outbreak",
             "authors": [
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Anastassopoulou",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Russo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Tsakris",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Siettos",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "3",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b0",
+            "title": "Data-based analysis, modelling and forecasting of the COVID-19 outbreak",
             "venue": "PloS one",
             "volume": "15",
-            "issn": "3",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF1": {
-            "ref_id": "b1",
-            "title": "The impact of school closure for COVID-19 on the US healthcare workforce and the net mortality effects",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Bayham",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Fenichel",
                     "middle": [
                         "P"
                     ],
-                    "last": "Fenichel",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b1",
+            "title": "The impact of school closure for COVID-19 on the US healthcare workforce and the net mortality effects",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "Statistical investigation of relationship between spread of coronavirus disease (COVID-19) and environmental factors based on study of four mostly affected places of China and five mostly affected places of Italy",
-            "authors": [
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Bhattacharjee",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "arXiv": [
-                    "arXiv:2003.11277"
-                ]
-            }
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Generalized autoregressive conditional heteroskedasticity",
-            "authors": [
-                {
-                    "first": "T",
-                    "middle": [],
-                    "last": "Bollerslev",
-                    "suffix": ""
-                }
-            ],
-            "year": 1986,
-            "venue": "Journal of econometrics",
-            "volume": "31",
-            "issn": "3",
-            "pages": "307--327",
-            "other_ids": {}
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "A simple iterative map forecast of the COVID-19 pandemic",
-            "authors": [
-                {
-                    "first": "A",
-                    "middle": [
-                        "E"
-                    ],
-                    "last": "Botha",
-                    "suffix": ""
-                },
-                {
-                    "first": "W",
-                    "middle": [],
-                    "last": "Dednam",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "arXiv": [
-                    "arXiv:2003.10532"
-                ]
-            }
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "Time series analysis, forecasting and control",
-            "authors": [
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Box",
-                    "suffix": ""
-                },
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Jenkins",
-                    "suffix": ""
-                }
-            ],
-            "year": 1970,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Chinese and Italian COVID-19 outbreaks can be correctly described by a modified SIRD model. medRxiv",
-            "authors": [
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Caccavo",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Estimation of COVID-19 prevalence in Italy",
-            "authors": [
-                {
-                    "first": "Z",
-                    "middle": [],
-                    "last": "Ceylan",
-                    "suffix": ""
-                },
-                {
-                    "first": "France",
-                    "middle": [],
-                    "last": "Spain",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Science of The Total Environment",
-            "volume": "729",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "Assessing the potential impacts of COVID-19 in Brasil: mobility, morbidity and impact to the health system. medRxiv",
-            "authors": [],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "SI epidemic model applied to COVID-19 data in mainland China",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Demongeot",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Griette",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Magal",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "12",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b10",
+            "title": "SI epidemic model applied to COVID-19 data in mainland China",
             "venue": "Royal Society Open Science",
             "volume": "7",
-            "issn": "12",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom inflation",
             "authors": [
                 {
                     "first": "R",
+                    "last": "Engle",
                     "middle": [
                         "F"
                     ],
-                    "last": "Engle",
                     "suffix": ""
                 }
             ],
-            "year": 1982,
+            "issn": "",
+            "other_ids": {},
+            "pages": "987--1007",
+            "ref_id": "b11",
+            "title": "Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom inflation",
             "venue": "Econometrica: Journal of the econometric society",
             "volume": "",
-            "issn": "",
-            "pages": "987--1007",
-            "other_ids": {}
+            "year": 1982
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "Composite Monte Carlo decision making under high uncertainty of novel coronavirus epidemic using hybridized deep learning and fuzzy rule induction",
             "authors": [
                 {
                     "first": "S",
+                    "last": "Fong",
                     "middle": [
                         "J"
                     ],
-                    "last": "Fong",
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Dey",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Crespo",
                     "middle": [
                         "G"
                     ],
-                    "last": "Crespo",
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Herrera-Viedma",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b12",
+            "title": "Composite Monte Carlo decision making under high uncertainty of novel coronavirus epidemic using hybridized deep learning and fuzzy rule induction",
             "venue": "Applied soft computing",
             "volume": "93",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "Forecasting the cumulative number of COVID-19 deaths in China: a Boltzmann function-based modeling study",
             "authors": [
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Gao",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Yao",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Ying",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Long",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Fu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "7",
+            "other_ids": {},
+            "pages": "841--843",
+            "ref_id": "b13",
+            "title": "Forecasting the cumulative number of COVID-19 deaths in China: a Boltzmann function-based modeling study",
             "venue": "Infection Control & Hospital Epidemiology",
             "volume": "41",
-            "issn": "7",
-            "pages": "841--843",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "What can we learn from COVID-19 data by using epidemic models with unidentified infectious cases",
             "authors": [
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Griette",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Demongeot",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b14",
+            "title": "What can we learn from COVID-19 data by using epidemic models with unidentified infectious cases",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "On the relation between the expected value and the volatility of the nominal excess return on stocks",
             "authors": [
                 {
                     "first": "L",
+                    "last": "Glosten",
                     "middle": [
                         "R"
                     ],
-                    "last": "Glosten",
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Jagannathan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
+                    "last": "Runkle",
                     "middle": [
                         "E"
                     ],
-                    "last": "Runkle",
                     "suffix": ""
                 }
             ],
-            "year": 1993,
+            "issn": "5",
+            "other_ids": {},
+            "pages": "1779--1801",
+            "ref_id": "b15",
+            "title": "On the relation between the expected value and the volatility of the nominal excess return on stocks",
             "venue": "The journal of finance",
             "volume": "48",
-            "issn": "5",
-            "pages": "1779--1801",
-            "other_ids": {}
+            "year": 1993
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "Spurious regressions in econometrics. Baltagi, Badi H. A Companion of Theoretical Econometrics",
             "authors": [
                 {
                     "first": "C",
+                    "last": "Granger",
                     "middle": [
                         "W"
                     ],
-                    "last": "Granger",
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Newbold",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Econom",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 1974,
+            "issn": "",
+            "other_ids": {},
+            "pages": "557--61",
+            "ref_id": "b16",
+            "title": "Spurious regressions in econometrics. Baltagi, Badi H. A Companion of Theoretical Econometrics",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "557--61",
-            "other_ids": {}
+            "year": 1974
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "Evaluating the effect of public health intervention on the global-wide spread trajectory of Covid-19",
             "authors": [
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Hu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Ge",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Jin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Xiong",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b17",
+            "title": "Evaluating the effect of public health intervention on the global-wide spread trajectory of Covid-19",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "Prediction and analysis of Coronavirus Disease",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Jia",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Jiang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Guo",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2019,
-            "venue": "",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "arXiv": [
                     "arXiv:2003.05447"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b18",
+            "title": "Prediction and analysis of Coronavirus Disease",
+            "venue": "",
+            "volume": "",
+            "year": 2019
         },
         "BIBREF19": {
-            "ref_id": "b19",
-            "title": "Comparative analysis and forecasting of COVID-19 cases in various European countries with ARIMA, NARNN and LSTM approaches",
             "authors": [
                 {
                     "first": "\u0130",
-                    "middle": [],
                     "last": "K\u0131rba\u015f",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
                     "middle": [],
-                    "last": "S\u00f6zen",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "S\u00f6zen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Tuncer",
                     "middle": [
                         "D"
                     ],
-                    "last": "Tuncer",
                     "suffix": ""
                 },
                 {
                     "first": "F",
+                    "last": "Kazanc\u0131o\u011flu",
                     "middle": [
                         "\u015e"
                     ],
-                    "last": "Kazanc\u0131o\u011flu",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b19",
+            "title": "Comparative analysis and forecasting of COVID-19 cases in various European countries with ARIMA, NARNN and LSTM approaches",
             "venue": "Chaos, Solitons & Fractals",
             "volume": "138",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
-        "BIBREF20": {
-            "ref_id": "b20",
-            "title": "Assessing spread risk of Wuhan novel coronavirus within and beyond China",
+        "BIBREF2": {
             "authors": [
                 {
                     "first": "S",
+                    "last": "Bhattacharjee",
                     "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2003.11277"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b2",
+            "title": "Statistical investigation of relationship between spread of coronavirus disease (COVID-19) and environmental factors based on study of four mostly affected places of China and five mostly affected places of Italy",
+            "venue": "",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF20": {
+            "authors": [
+                {
+                    "first": "S",
                     "last": "Lai",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "I",
+                    "last": "Bogoch",
                     "middle": [
                         "I"
                     ],
-                    "last": "Bogoch",
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Ruktanonchai",
                     "middle": [
                         "W"
                     ],
-                    "last": "Ruktanonchai",
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Watts",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Lu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Yang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Tatem",
                     "middle": [
                         "J"
                     ],
-                    "last": "Tatem",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b20",
+            "title": "Assessing spread risk of Wuhan novel coronavirus within and beyond China",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Propagation analysis and prediction of the COVID-19",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Yang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Dang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Meng",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Huang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Meng",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Shao",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "282--292",
+            "ref_id": "b21",
+            "title": "Propagation analysis and prediction of the COVID-19",
             "venue": "Infectious Disease Modelling",
             "volume": "5",
-            "issn": "",
-            "pages": "282--292",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "A new, simple projection model for COVID-19 pandemic. medRxiv",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Lu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b22",
+            "title": "A new, simple projection model for COVID-19 pandemic. medRxiv",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF23": {
-            "ref_id": "b23",
-            "title": "The role of the log transformation in forecasting economic variables",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "L\u00fctkepohl",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Xu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
+            "issn": "3",
+            "other_ids": {},
+            "pages": "619--638",
+            "ref_id": "b23",
+            "title": "The role of the log transformation in forecasting economic variables",
             "venue": "Empirical Economics",
             "volume": "42",
-            "issn": "3",
-            "pages": "619--638",
-            "other_ids": {}
+            "year": 2012
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "Predicting the number of reported and unreported cases for the COVID-19 epidemic in South Korea",
             "authors": [
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Magal",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Webb",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b24",
+            "title": "Predicting the number of reported and unreported cases for the COVID-19 epidemic in South Korea",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "Time series modelling to forecast the confirmed and recovered cases of COVID-19. Travel medicine and infectious disease",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Maleki",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Mahmoudi",
                     "middle": [
                         "R"
                     ],
-                    "last": "Mahmoudi",
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Wraith",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Pho",
                     "middle": [
                         "H"
                     ],
-                    "last": "Pho",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b25",
+            "title": "Time series modelling to forecast the confirmed and recovered cases of COVID-19. Travel medicine and infectious disease",
             "venue": "",
             "volume": "37",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF27": {
+            "authors": [],
+            "issn": "7",
+            "other_ids": {},
+            "pages": "2929--2948",
             "ref_id": "b27",
             "title": "ARIMA models for predicting the end of COVID-19 pandemic and the risk of second rebound",
-            "authors": [],
-            "year": null,
             "venue": "Neural Computing and Applications",
             "volume": "33",
-            "issn": "7",
-            "pages": "2929--2948",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF28": {
-            "ref_id": "b28",
-            "title": "New methods in statistical economics",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Mandelbrot",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 1963,
+            "issn": "5",
+            "other_ids": {},
+            "pages": "421--440",
+            "ref_id": "b28",
+            "title": "New methods in statistical economics",
             "venue": "Journal of political economy",
             "volume": "71",
-            "issn": "5",
-            "pages": "421--440",
-            "other_ids": {}
+            "year": 1963
         },
         "BIBREF29": {
-            "ref_id": "b29",
-            "title": "The Variation of Certain Speculative Prices",
             "authors": [
                 {
                     "first": "B",
+                    "last": "Mandelbrot",
                     "middle": [
                         "B"
                     ],
-                    "last": "Mandelbrot",
                     "suffix": ""
                 }
             ],
-            "year": 1963,
+            "issn": "4",
+            "other_ids": {},
+            "pages": "394--419",
+            "ref_id": "b29",
+            "title": "The Variation of Certain Speculative Prices",
             "venue": "The Journal of Business",
             "volume": "36",
-            "issn": "4",
-            "pages": "394--419",
-            "other_ids": {}
+            "year": 1963
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "T",
+                    "last": "Bollerslev",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "3",
+            "other_ids": {},
+            "pages": "307--327",
+            "ref_id": "b3",
+            "title": "Generalized autoregressive conditional heteroskedasticity",
+            "venue": "Journal of econometrics",
+            "volume": "31",
+            "year": 1986
         },
         "BIBREF30": {
-            "ref_id": "b30",
-            "title": "Conditional heteroskedasticity in asset returns: A new approach",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Nelson",
                     "middle": [
                         "B"
                     ],
-                    "last": "Nelson",
                     "suffix": ""
                 }
             ],
-            "year": 1991,
+            "issn": "",
+            "other_ids": {},
+            "pages": "347--370",
+            "ref_id": "b30",
+            "title": "Conditional heteroskedasticity in asset returns: A new approach",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "347--370",
-            "other_ids": {}
+            "year": 1991
         },
         "BIBREF31": {
-            "ref_id": "b31",
-            "title": "COVID-19: Forecasting confirmed cases and deaths with a simple time series model",
             "authors": [
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Petropoulos",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Makridakis",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Stylianou",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b31",
+            "title": "COVID-19: Forecasting confirmed cases and deaths with a simple time series model",
             "venue": "International Journal of Forecasting",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF32": {
-            "ref_id": "b32",
-            "title": "Short-term forecasting COVID-19 cumulative confirmed cases: Perspectives for Brazil",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Ribeiro",
                     "middle": [
                         "H D M"
                     ],
-                    "last": "Ribeiro",
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Da Silva",
                     "middle": [
                         "G"
                     ],
-                    "last": "Da Silva",
                     "suffix": ""
                 },
                 {
                     "first": "V",
+                    "last": "Mariani",
                     "middle": [
                         "C"
                     ],
-                    "last": "Mariani",
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Coelho",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b32",
+            "title": "Short-term forecasting COVID-19 cumulative confirmed cases: Perspectives for Brazil",
             "venue": "Chaos, Solitons & Fractals",
             "volume": "135",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF33": {
-            "ref_id": "b33",
-            "title": "ARIMA modelling & forecasting of COVID-19 in top five affected countries",
             "authors": [
                 {
                     "first": "A",
+                    "last": "Sahai",
                     "middle": [
                         "K"
                     ],
-                    "last": "Sahai",
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Rath",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "V",
-                    "middle": [],
                     "last": "Sood",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Singh",
                     "middle": [
                         "P"
                     ],
-                    "last": "Singh",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "5",
+            "other_ids": {},
+            "pages": "1419--1427",
+            "ref_id": "b33",
+            "title": "ARIMA modelling & forecasting of COVID-19 in top five affected countries",
             "venue": "Diabetes & Metabolic Syndrome",
             "volume": "14",
-            "issn": "5",
-            "pages": "1419--1427",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF34": {
-            "ref_id": "b34",
-            "title": "Forecasting models for coronavirus disease (COVID-19): a survey of the state-of-the-art",
             "authors": [
                 {
                     "first": "G",
+                    "last": "Shinde",
                     "middle": [
                         "R"
                     ],
-                    "last": "Shinde",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Kalamkar",
                     "middle": [
                         "B"
                     ],
-                    "last": "Kalamkar",
                     "suffix": ""
                 },
                 {
                     "first": "P",
+                    "last": "Mahalle",
                     "middle": [
                         "N"
                     ],
-                    "last": "Mahalle",
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Dey",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Chaki",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Hassanien",
                     "middle": [
                         "E"
                     ],
-                    "last": "Hassanien",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "4",
+            "other_ids": {},
+            "pages": "1--15",
+            "ref_id": "b34",
+            "title": "Forecasting models for coronavirus disease (COVID-19): a survey of the state-of-the-art",
             "venue": "SN Computer Science",
             "volume": "1",
-            "issn": "4",
-            "pages": "1--15",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF35": {
-            "ref_id": "b35",
-            "title": "From the index case to global spread: the global mobility based modelling of the COVID-19 pandemic implies higher infection rate and lower detection ratio than current estimates",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Siwiak",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Szczesny",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Siwiak",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "PeerJ",
-            "volume": "8",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.7717/peerj.9548"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b35",
+            "title": "From the index case to global spread: the global mobility based modelling of the COVID-19 pandemic implies higher infection rate and lower detection ratio than current estimates",
+            "venue": "PeerJ",
+            "volume": "8",
+            "year": 2020
         },
         "BIBREF36": {
-            "ref_id": "b36",
-            "title": "Modeling and forecasting number of confirmed and death caused COVID-19 in IRAN: A Comparison of",
             "authors": [
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Talkhi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Fatemi",
                     "middle": [
                         "A"
                     ],
-                    "last": "Fatemi",
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Ataei",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Nooghabi",
                     "middle": [
                         "J"
                     ],
-                    "last": "Nooghabi",
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b36",
+            "title": "Modeling and forecasting number of confirmed and death caused COVID-19 in IRAN: A Comparison of",
             "venue": "Time Series Forecasting Methods. Biomedical Signal Processing and Control",
             "volume": "66",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF37": {
-            "ref_id": "b37",
-            "title": "Modelling Financial Time Series",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Taylor",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 1986,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b37",
+            "title": "Modelling Financial Time Series",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 1986
         },
         "BIBREF38": {
-            "ref_id": "b38",
-            "title": "Mathematical predictions for COVID-19 as a global pandemic. Available at SSRN 3555879",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Victor",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b38",
+            "title": "Mathematical predictions for COVID-19 as a global pandemic. Available at SSRN 3555879",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF39": {
-            "ref_id": "b39",
-            "title": "On a quarantine model of coronavirus infection and data analysis",
             "authors": [
                 {
                     "first": "V",
-                    "middle": [],
                     "last": "Volpert",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Banerjee",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Petrovskii",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b39",
+            "title": "On a quarantine model of coronavirus infection and data analysis",
             "venue": "Mathematical Modelling of Natural Phenomena",
             "volume": "15",
+            "year": 2020
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Botha",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "last": "Dednam",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
             "issn": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2003.10532"
+                ]
+            },
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b4",
+            "title": "A simple iterative map forecast of the COVID-19 pandemic",
+            "venue": "",
+            "volume": "",
+            "year": 2020
         },
         "BIBREF40": {
-            "ref_id": "b40",
-            "title": "Tracking and forecasting milepost moments of the epidemic in the early-outbreak: framework and applications to the COVID-19",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Lu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b40",
+            "title": "Tracking and forecasting milepost moments of the epidemic in the early-outbreak: framework and applications to the COVID-19",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF41": {
-            "ref_id": "b41",
-            "title": "Time series modeling of pertussis incidence in China from 2004 to 2018 with a novel wavelet based SARIMA-NAR hybrid model",
             "authors": [
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Xu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Zhu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Yuan",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
-            "venue": "PloS one",
-            "volume": "13",
             "issn": "12",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1371/journal.pone.0208404"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b41",
+            "title": "Time series modeling of pertussis incidence in China from 2004 to 2018 with a novel wavelet based SARIMA-NAR hybrid model",
+            "venue": "PloS one",
+            "volume": "13",
+            "year": 2018
         },
         "BIBREF42": {
-            "ref_id": "b42",
-            "title": "Threshold heteroskedastic models",
             "authors": [
                 {
                     "first": "J",
+                    "last": "Zakoian",
                     "middle": [
                         "M"
                     ],
-                    "last": "Zakoian",
                     "suffix": ""
                 }
             ],
-            "year": 1994,
+            "issn": "5",
+            "other_ids": {},
+            "pages": "931--955",
+            "ref_id": "b42",
+            "title": "Threshold heteroskedastic models",
             "venue": "Journal of Economic Dynamics and control",
             "volume": "18",
-            "issn": "5",
-            "pages": "931--955",
-            "other_ids": {}
+            "year": 1994
         },
         "BIBREF43": {
-            "ref_id": "b43",
-            "title": "A model for COVID-19 prediction in Iran based on China parameters",
             "authors": [
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Zareie",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Roshani",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [
-                        "A"
-                    ],
                     "last": "Mansournia",
+                    "middle": [
+                        "A"
+                    ],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Rasouli",
                     "middle": [
                         "A"
                     ],
-                    "last": "Rasouli",
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Moradi",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b43",
+            "title": "A model for COVID-19 prediction in Iran based on China parameters",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF44": {
-            "ref_id": "b44",
-            "title": "Spatially explicit modeling of 2019-nCoV epidemic trend based on mobile phone data in mainland China",
             "authors": [
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Zhu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Xu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Jia",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Tan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Tian",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Yu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b44",
+            "title": "Spatially explicit modeling of 2019-nCoV epidemic trend based on mobile phone data in mainland China",
             "venue": "",
             "volume": "",
+            "year": 2020
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "G",
+                    "last": "Box",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Jenkins",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b5",
+            "title": "Time series analysis, forecasting and control",
+            "venue": "",
+            "volume": "",
+            "year": 1970
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Caccavo",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b6",
+            "title": "Chinese and Italian COVID-19 outbreaks can be correctly described by a modified SIRD model. medRxiv",
+            "venue": "",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "Z",
+                    "last": "Ceylan",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "France",
+                    "last": "Spain",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b7",
+            "title": "Estimation of COVID-19 prevalence in Italy",
+            "venue": "Science of The Total Environment",
+            "volume": "729",
+            "year": 2020
+        },
+        "BIBREF9": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b9",
+            "title": "Assessing the potential impacts of COVID-19 in Brasil: mobility, morbidity and impact to the health system. medRxiv",
+            "venue": "",
+            "volume": "",
+            "year": null
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "The recent COVID-19 pandemic was first reported in Wuhan, China in December 2019 and has spread out to the whole world in a short period of time. Italy became a new epicenter of the pandemic in March, 2020 in Europe and United Kingdom (UK), France and Germany followed Italy. United States of America (USA) and Brazil were the next epicenters in the world after the first wave in Europe. Unfortunately, nowadays, India is the pandemic's new epicenter of the world. Even after over a year, world is still fighting against COVID-19. The confirmed deaths are over 3 million and total confirmed cases are over 155 million as of April, 2021."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 560,
+                    "ref_id": "BIBREF34",
+                    "start": 540,
+                    "text": "Shinde et al. (2020)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "COVID-19 has created devastating effects not just on economies, but also on supply chains, resulting in loss of jobs, increase in poverty and social unrest, causing learning loss in education, worsening human psychology and so on. Such environment has made forecasting new COVID-19 cases or deaths an urgent and essential research area. Many researchers from different disciplines such as health, math, engineering, finance, economics have started to employ different forecasting techniques to get a better insight into spread of pandemic. Shinde et al. (2020) have categorized papers on COVID-19 forecasting into four categories by data and forecasting techniques: (i) big data (ii) social media/other communication media data (iii) stochastic theory/mathematical models and (iv) data science/machine learning techniques."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 260,
+                    "ref_id": "BIBREF2",
+                    "start": 240,
+                    "text": "Bhattacharjee, 2020;"
+                },
+                {
+                    "end": 275,
+                    "ref_id": "BIBREF6",
+                    "start": 261,
+                    "text": "Caccavo, 2020;"
+                },
+                {
+                    "end": 292,
+                    "ref_id": "BIBREF21",
+                    "start": 276,
+                    "text": "Li et al., 2020;"
+                },
+                {
+                    "end": 306,
+                    "ref_id": "BIBREF35",
+                    "start": 293,
+                    "text": "Siwiak, 2020;"
+                },
+                {
+                    "end": 327,
+                    "ref_id": "BIBREF43",
+                    "start": 307,
+                    "text": "Zareie et al., 2020)"
+                },
+                {
+                    "end": 623,
+                    "ref_id": null,
+                    "start": 607,
+                    "text": "La et al., 2020;"
+                },
+                {
+                    "end": 641,
+                    "ref_id": "BIBREF44",
+                    "start": 624,
+                    "text": "Zhu et al., 2020;"
+                },
+                {
+                    "end": 656,
+                    "ref_id": "BIBREF39",
+                    "start": 642,
+                    "text": "Volpert, 2020;"
+                },
+                {
+                    "end": 686,
+                    "ref_id": "BIBREF0",
+                    "start": 657,
+                    "text": "Anastassopoulou et al., 2020;"
+                },
+                {
+                    "end": 703,
+                    "ref_id": "BIBREF21",
+                    "start": 687,
+                    "text": "Li et al., 2020;"
+                },
+                {
+                    "end": 724,
+                    "ref_id": "BIBREF1",
+                    "start": 704,
+                    "text": "Bayham et al., 2020)"
+                },
+                {
+                    "end": 970,
+                    "ref_id": "BIBREF10",
+                    "start": 948,
+                    "text": "Demongeot et al., 2020"
+                },
+                {
+                    "end": 988,
+                    "ref_id": "BIBREF22",
+                    "start": 971,
+                    "text": ", Lu et al., 2020"
+                },
+                {
+                    "end": 1000,
+                    "ref_id": "BIBREF24",
+                    "start": 989,
+                    "text": "Webb, 2020;"
+                },
+                {
+                    "end": 1014,
+                    "ref_id": "BIBREF38",
+                    "start": 1001,
+                    "text": "Victor, 2020;"
+                },
+                {
+                    "end": 1032,
+                    "ref_id": "BIBREF40",
+                    "start": 1015,
+                    "text": "Wang et al, 2020;"
+                },
+                {
+                    "end": 1056,
+                    "ref_id": "BIBREF4",
+                    "start": 1033,
+                    "text": "Botha and Dednam, 2020;"
+                },
+                {
+                    "end": 1075,
+                    "ref_id": null,
+                    "start": 1057,
+                    "text": "Coelho et al, 2020"
+                },
+                {
+                    "end": 1095,
+                    "ref_id": "BIBREF13",
+                    "start": 1076,
+                    "text": ", Long et al., 2020"
+                },
+                {
+                    "end": 1118,
+                    "ref_id": "BIBREF14",
+                    "start": 1096,
+                    "text": ", Griette et al., 2021"
+                },
+                {
+                    "end": 1294,
+                    "ref_id": "BIBREF34",
+                    "start": 1274,
+                    "text": "Shinde et al. (2020)"
+                },
+                {
+                    "end": 1442,
+                    "ref_id": "BIBREF12",
+                    "start": 1425,
+                    "text": "Fong et al, 2020;"
+                },
+                {
+                    "end": 1459,
+                    "ref_id": "BIBREF17",
+                    "start": 1443,
+                    "text": "Hu et al., 2020;"
+                },
+                {
+                    "end": 1476,
+                    "ref_id": "BIBREF18",
+                    "start": 1460,
+                    "text": "Jia et al, 2020)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "(i) Papers using big data: This type of papers use mathematical equations or machine learning techniques by using the big data such as temperature, wind speed, humidity, spread rate, disease control interventions, traffic restrictions (see Bhattacharjee, 2020; Caccavo, 2020; Li et al., 2020; Siwiak, 2020; Zareie et al., 2020) (ii) Papers using social media/other communication media data: These use the correlation between the social media and web searches with the number of daily COVID-19 using datasets from Google, Baidu search engines, mobile phones, newspapers and various websites like Github (see La et al., 2020; Zhu et al., 2020; Volpert, 2020; Anastassopoulou et al., 2020; Li et al., 2020; Bayham et al., 2020) (iii) Stochastic theory/mathematical models: This type of models mostly use the susceptible infected-recovered (SIR) model or similar pandemic infection models to estimate the mortality and the spread rate of COVID-19 (see Demongeot et al., 2020 , Lu et al., 2020 Webb, 2020; Victor, 2020; Wang et al, 2020; Botha and Dednam, 2020; Coelho et al, 2020 , Long et al., 2020 , Griette et al., 2021 . (iv) Data science/machine learning techniques: most of the studies are in this category, using time series and/or machine learning techniques. Stated as Shinde et al. (2020) , the main challenge of this type of studies is that time period for training or estimation period of the model is too short (see Fong et al, 2020; Hu et al., 2020; Jia et al, 2020) ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 351,
+                    "ref_id": "BIBREF41",
+                    "start": 332,
+                    "text": "(Wang et al., 2018)"
+                },
+                {
+                    "end": 386,
+                    "ref_id": "BIBREF7",
+                    "start": 373,
+                    "text": "Ceylan (2020)"
+                },
+                {
+                    "end": 906,
+                    "ref_id": "BIBREF31",
+                    "start": 881,
+                    "text": "Petropoulos et al. (2020)"
+                },
+                {
+                    "end": 1690,
+                    "ref_id": "BIBREF32",
+                    "start": 1669,
+                    "text": "Ribeiro et al. (2020)"
+                },
+                {
+                    "end": 2259,
+                    "ref_id": "BIBREF25",
+                    "start": 2239,
+                    "text": "Maleki et al. (2020)"
+                },
+                {
+                    "end": 2897,
+                    "ref_id": "BIBREF25",
+                    "start": 2877,
+                    "text": "Maleki et al. (2020)"
+                },
+                {
+                    "end": 3036,
+                    "ref_id": null,
+                    "start": 3017,
+                    "text": "Malki et al. (2021)"
+                },
+                {
+                    "end": 3577,
+                    "ref_id": null,
+                    "start": 3558,
+                    "text": "Malki et al. (2021)"
+                },
+                {
+                    "end": 3991,
+                    "ref_id": "BIBREF36",
+                    "start": 3971,
+                    "text": "Talkhi et al. (2021)"
+                },
+                {
+                    "end": 4764,
+                    "ref_id": null,
+                    "start": 4745,
+                    "text": "Sahai et al. (2021)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Autoregressive Integrated Moving Average (ARIMA) model is well-known time series forecasting methods especially in finance and economics. To forecast the spread of COVID-19, most of the researchers from different disciplines used ARIMA models because of their simplicity, systematic structure and acceptable forecasting performance (Wang et al., 2018) . As an early study, Ceylan (2020) used ARIMA models to forecast COVID-19 prevalence in Italy, Spain, and France between the period of 21/02/2020 and 15/04/2020. Since all series became stationary after the second difference, ARIMA (0,2,1), ARIMA (1,2,0), and ARIMA (0,2,1) were chosen by minimum MAPE value as the best models for Italy, Spain, and France, respectively. The estimation period covers the all data and outof-sample period for the next 10-day was applied to forecast confirmed cases of COVID-19 in these countries. Petropoulos et al. (2020) attempted to predict the cumulative number of confirmed cases and cumulative number of deaths, using basic time series models, i.e. non-seasonal multiplicative error and multiplicative trend exponential smoothing model. They produced 12 rounds of 10-day-ahead non-overlapping forecasts, covering a four-month period from February to May 2020. Authors claim that their model results offer competitive forecast accuracy. Duan and Zhang (2020) predict the daily new confirmed cases in Japan and South Korea from 20/01/2020 until 26/05/2020 using ARIMA. ARIMA(6,1,7) and ARIMA(2,1,3) models were selected as best models for Japan and South Korea, respectively and the daily new confirmed cases for the 7-day period from April 27, 2020 to May 3, 2020 were predicted. Ribeiro et al. (2020) studied on short-term forecasting of COVID-19 cumulative confirmed cases in ten Brazilian states. ARIMA, cubist regression (CUBIST), random forest (RF), ridge regression (RIDGE), support vector regression (SVR) and stacking-ensemble learning were used for one, three, and sixdays ahead forecasting of the COVID-19 cumulative confirmed cases. They ranked the models according to their forecasting ability based on sMAPE in all scenarios from the best to the worst, SVR, stacking-ensemble learning, ARIMA, CUBIST, RIDGE, and RF models, respectively. Maleki et al. (2020) modeled the total number of confirmed and recovered COVID-19 cases in the world by the proposed autoregressive time series models based on two-piece scale mixture normal distributions, called TP-SMN-AR models. TP-SMN-AR(7) model was selected as the best model for the estimation period from 22/01/2020 to 30/04/2020 for the total confirmed COVID-19 cases, and TP-SMN-AR(2) model was selected as the best model under the estimation period from 02/02/2020 to 30/04/2020 for the total recovered COVID-19 cases. The validation period was the last 10 days of the confirmed and recovered cases, i.e. 21/04/2020-30.04.2020. Maleki et al. (2020) claimed that proposed models improve the forecasting accuracy for confirmed and recovered COVID-19 cases in the world. Malki et al. (2021) investigated the end of COVID-19 pandemic and the risk of second rebound using Seasonal ARIMA (SARIMA) models, selected by AIC. Authors scaled the data using the min-max scalar function to stabilize the value of variance and improved the forecast ability of the model. The estimation period covers 70% of all data, i.e. from 22/01/2020 to 15/06/2020 and the validation period used to forecast for the next 60 days, i.e. from 15/06/2020 until 12/08/2020. Out-of-sample period starts from 13/08/2020 until 11/09/2020. Then Malki et al. (2021) try to estimate the expected deadline of COVID-19 for some countries in the first and second rebounds using the forecasted models based on normal distribution. Lastly, authors have compared the forecast performance of ARIMA, Machine learning (Random Forest) and deep learning model (LSTM) and concluded that SARIMA model can be extended and used to predict confirmed cases of other countries. Talkhi et al. (2021) forecast the number of confirmed and death caused COVID-19 in Iran using nine different time series models, i.e. NNETAR, ARIMA, Hybrid, Holt-Winter, BSTS, TBATS, Prophet, MLP, and ELM network models. The daily confirmed and death cases data covers from 20/02/2020 until 15/08/2020 and splined train (70%) and testing part (30%), then the forecasting accuracy of the models is evaluated by RMSE, MAE, and MAPE. The authors selected the ARIMA(1,0,0), i.e. AR(1), and ARIMA(1,0,1), i.e. AR(1), for confirmed and death cases, respectively. Out-of-sample period starts from 16/08/2020 until 14/09/2020 for 30 days. Empirical findings of the paper offer the MLP network model for confirmed cases forecasting and Holt-Winter model for forecasting death cases. Sahai et al. (2021) forecast daily confirmed cases for five most affected countries. ARIMA models estimated for the period of 15/02/2020-30/06/2020 and India (4,2,4), Brazil (3,1,2), Russia (3,0,0), Spain (4,2,4) and US (1,2,1) models selected by AIC. Actual data from 1st July to 18th July was used as validation period and the forecast efficiency was determined by the mean absolute deviation (MAD) and the mean absolute percentage error (MAPE). MAPE was the lowest for Russia and Spain at 1.09% and 0.83%, and 3.70%,1.84% and 2.88% for India, Brazil and US, respectively."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "K\u0131rbas et al. (2021) modeled confirmed COVID-19 cases in Denmark, Belgium, Germany, France, United Kingdom, Finland, Switzerland and Turkey, using three different estimation techniques, i.e. ARIMA, Nonlinear Autoregression Neural Network (NARNN) and Long-Short Term Memory (LSTM) approaches. Cumulative confirmed case data was used with different baseline date based on the first case was seen. They concluded that LSTM and ARIMA models had the best forecast performance. Katris (2021) investigated the estimation of the spread and the reversion of the pandemic from the beginning of the reported cases until August 14 of 2020. The Newbolt/Granger combination scheme of TES, ARIMA and ANN models were built to forecast the daily cases in Greece. Katris built alternative scenarios for the evolution of the pandemic using the model results and the log-normal distribution, which is the best-fit distribution to the data."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "However, these studies reviewed above, which use the ARIMA model to forecast COVID-19 confirmed cases or deaths, have two limitations. The first limitation is about data, and the second is about modelling. The paper has three data stages: Data period, data transformation and data cleaning. ARIMA model, which is further explained in the econometric model section, is a univariate linear regression model trying to find right coefficients for the lags of the dependent variable or residual terms based upon the historical returns or growth rates. Longer time period means better forecast ability for a model. Accordingly, the estimation period set in this paper is one-year period, from March 2020 to March 2021. Validation periods are one-day ahead forecast of the April, 2021 and three waves of COVID-19 pandemic."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Time series should be stationary, as explained in the data section below, but as can be seen in the literature, some of the papers use non-stationary new COVID-19 cases data and some use taking the first difference or the second difference of new COVID-19 cases. Taking the first difference is a proper method of making a series stationary, but in case of COVID-19 pandemic, this would lead misspesification of the model. It is obvious that the number of daily new cases were low on the onset of the pandemic but the new cases reached over 200,000 in USA and India at the late stage of the pandemic or during the strong waves of the pandemic. The growth rate of the daily new COVID-19 cases (7 day smoothed) was used by taking the log difference of the series following the economics or finance literature."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Data cleaning is an important part of time series modelling as most of the time series might have outlier, missing or dirty data. Thus finding the best-fitted ARIMA model is the key part of the modelling, but when the data has outliers, these potential large deviations from mean can make parameter estimation or forecasting inappropriate. New COVID-19 cases have two outliers in USA and one outlier in Germany, so adjusted new cases are used for these outliers. On the other hand, Turkey, one of the fifth most effected country in the world, is excluded from the sample since new COVID-19 cases in Turkey has two structural breaks, which indicates that COVID-19 cases do not follow the natural trajectory of the pandemic spread. So the previous and/or future studies should take outliers in COVID-19 data and time path of the new cases into account."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "The second limitation is about modelling. In the literature which aim to forecast of new cases or deaths by using ARIMA, a mean equation is modelled under the assumption of homoscedasticity. ARIMA or mean equation indicates that the current value of the daily confirmed COVID-19 cases is a linear function of its past values as well as current and previous residual series. However, financial returns show volatility clustering, as first noted by stating that \"large changes tend to be followed by large changes, of either sign, and small changes tend to be followed by small changes.\". Generalized autoregressive conditional heteroscedasticity (GARCH) model usually has a better performance than traditional statistical methods like ARMA by capturing the non-lineraties and heterogeneity of the time series. Yet this paper differs from the literature, using ARMA-GARCH model. Moreover, the asymmetric characteristics in the volatility of new COVID-19 cases were modelled by using two most known asymmetric GARCH models \u2500 the Threshold GARCH (TARCH) Model and the Exponential GARCH (EGARCH)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "In this paper, ARMA, ARMA-GARCH, ARMA-TGARCH and ARMA-EGARCH models are employed for one-day ahead forecasting performance for April, 2021 and three waves of COVID-19 pandemic for nine most affected countries, USA, India, Brazil, France, Russia, UK, Italy, Spain and Germany. The second section introduces the data and econometric model, the third section presents the empirical results and the final section concludes."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and Econometric Model 2.1. Data",
+            "text": "The number of the daily new confirmed COVID-19 cases for the ten most effected countries was taken from the World Health Organization database. The most effected countries were selected according to which countries have the most cumulative COVID-19 cases as of 4th May 2021, which are USA (33.2 million cases), India (20.4 million cases), Brazil (14,7 billion cases), France (5,6 million cases), Turkey (4,9 million cases), Russia (4,8 million cases), UK (4,4 million cases), Italy (4,0 million cases), Spain (3,5 million cases) and Germany (3,4 million cases)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and Econometric Model 2.1. Data",
+            "text": "Data cleaning is an important task before modelling of time series. Thefore the paper analyzed the daily new confirmed cases, yet some issues arouse: First, for the US and Germany daily new cases showed some significant outliers. Reducing the unconditional variance is an important issue when modelling the pandemic spread since the new cases have an exponential growth characteristic in the early stage of the pandemic. As a first step, the 7 day smoothed series were used by taking 7 days moving average of the daily new confirmed cases. Some countries have included weekend lockdowns or national holiday lockdowns, consequently the cases show an irregular pattern for weekends or the days when there were legal COVID-19 restrictions. Using 7-day moving average helps to avoid this type of changes in the number of the COVID-19 cases. In other words, the forecasted value would be 7-day average of new COVID-19 cases. From now on when referring to models and estimation in this paper, \"new cases\" means daily new confirmed cases of COVID-19 (7-day smoothed) for the country , if otherwise noted. As the second step starting date is determined as the first day when the number of the new cases is over 100. This way it is to get rid of the early days exponential growth rates in new cases to some extent."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 357,
+                    "ref_id": "BIBREF16",
+                    "start": 331,
+                    "text": "Granger and Newbold, 1974)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data and Econometric Model 2.1. Data",
+            "text": "Our dependent variable, , should be stationary according the Box-Jenkins procedure. However, the daily confirmed new cases (smoothed) for all countries have a time-dependent trend and the series are non-stationary based on Augmented Dickey Fuller (ADF) and Phillips-Perron (PP) tests 1 . The empirical results may be spurious (see Granger and Newbold, 1974) , if the series are non-stationary. Taking the first difference, i.e. , will remove the linear trend and becomes stationary and denote as I(1), integrated of order one. In economics and finance literature, stationary condition is often met by using variables growth rate or return, such as real GDP growth or stock returns obtained by taking the log difference of the series, i.e."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 78,
+                    "ref_id": "BIBREF23",
+                    "start": 55,
+                    "text": "L\u00fctkepohl and Xu, 2012)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data and Econometric Model 2.1. Data",
+            "text": ". Taking logs stabilizes the variance of a series (see L\u00fctkepohl and Xu, 2012) . ARMA model is an expected mean model and tries to select the best-fitted model by looking at the past residuals. Then creating a pattern, say selecting the appropriate ARMA(p,q) model from the past growth rates of new COVID-19 cases, becomes easier than obtaining a model from the first difference of the COVID-19 cases, which brings scaling problem and higher variance with it in return."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 135,
+                    "ref_id": "TABREF1",
+                    "start": 128,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Data and Econometric Model 2.1. Data",
+            "text": "The dependent variable is daily growth rate, i.e. the log difference of daily new confirmed cases of COVID-19 (7-day smoothed). Table 1 displays the descriptive statistics of growth rate of the new cases in nine most affected countries. The first country, which passed the 100 new cases, is Italy on March, 1th, 2020 and the last one is India, which is now the second in the World in regards to total COVID-19 cases. Daily average of the growth rates is fluctuating between 1% -1.5%, the highest mean growth rate is 2.06% in India and the lowest one is 0.74% in UK thanks to vaccination. The maximum daily growth rate of confirmed COVID-19 cases (7 day smoothed) is 107.94% in France and the minimum is again in France with -78.25%. Standard deviation is maximum in France with 0.1135 and minimum in Russia with 0.0453 and it provides a priori knowledge about considering heterogeneity in forecast models of this study. The kurtosis of the normal distribution is 3. Then all series have high kurtosis, the distribution is leptokurtic, that is, more peaked than a normal distribution with longer tails, especially for USA. It is an outcome of wild pandemic cycle periods, i.e. the effect of uncontrolled period and controlled period on growth rates of COVID-19 cases. Skewness is a measure of asymmetry and it is expected as zero under the normal distribution. All series have positive skewness implying that the distribution has a long right tail due to high growth rates of COVID-19 cases. Skewness is maximum in USA with 6.97 and minimum in France 0.65. The Jarque-Bera test statistic is calculated based on skewness and kurtosis values of the distribution, as expected it rejects the null hypothesis of a normal distribution for all series. High standard deviation and skewness&kurtosis values of the series indicate that our forecasting models should take non-lineraties and heterogeneity of the time series into account. It is known that ARMA models have constant variance assumption, which means volatility in new COVID-19 cases does not any effect on forecasted new cases. If data have heavy-tailed probability distribution, then GARCH procedure ensures modelling both the conditional heteroscedasticity and the heavy-tailed distributions of the daily growth rate of the new confirmed cases."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 118,
+                    "ref_id": "BIBREF5",
+                    "start": 96,
+                    "text": "Box and Jenkins (1970)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mean Equation or ARIMA",
+            "text": "ARIMA model is a well-known forecasting models in finance and economics and first introduced by Box and Jenkins (1970) in their seminal text-book\u2500 Time Series Analysis: Forecasting and Control. ARIMA model is a type of data generating process, which attempts to find right patterns in the historical returns or growth rates of financial or economic variables."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mean Equation or ARIMA",
+            "text": "If shows the daily growth rate of the new COVID-19 cases for the country at time , It can be modelled as univariate time series as in Eq. (1)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mean Equation or ARIMA",
+            "text": "(1)"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mean Equation or ARIMA",
+            "text": "Where is constant term, determines the appropriate lag of the autoregressive process of the AR(p) model, and shows the residual term for the country ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mean Equation or ARIMA",
+            "text": "can also be modelled as its own past residuals as shown in Eq. (2) (2)"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mean Equation or ARIMA",
+            "text": "where indicates the mean of the series, shows the appropriate lag of the model and is the white noise term."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mean Equation or ARIMA",
+            "text": "The autoregressive component (AR(p)) and moving average component (MA(q)) can be integrated 2 as the autoregressive moving average (ARMA(p,q)) model as follows:"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mean Equation or ARIMA",
+            "text": "( 3) where is independently and identically distributed error term with a mean of zero and a constant variance of . Equation 3 expresses that the current value of the growth rate of the new cases is a linear function of its past values as well as current and previous residual series. An automatic ARIMA forecasting procedure is applied to the series in order to determine an appropriate ARMA(p,q) specification. Model selection is based on Akaike information criterion (AIC) under the maximum likelihood (BHGS) method by allowing up to the four lags."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variance Equation or GARCH",
+            "text": "The main assumption behind the ARMA model is that the expected variance of all error terms is the same at any given point, i.e."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 199,
+                    "ref_id": "BIBREF11",
+                    "start": 187,
+                    "text": "Engle (1982)"
+                },
+                {
+                    "end": 331,
+                    "ref_id": "BIBREF3",
+                    "start": 314,
+                    "text": "Bollerslev (1986)"
+                },
+                {
+                    "end": 349,
+                    "ref_id": "BIBREF37",
+                    "start": 336,
+                    "text": "Taylor (1986)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Variance Equation or GARCH",
+            "text": "is independently and identically distributed error term with a mean of zero and a constant variance of . This assumption is called homoskedasticity and it is an implausible assumption by Engle (1982) , who introduced autoregressive conditional heteroscedasticity (ARCH) model as a new class of stochastic process. Bollerslev (1986) and Taylor (1986) generalized the model as GARCH (1, 1) shows the one period ahead forecast variance based on past information. Conditional variance of the growth rate of new cases for country , , is a function of constant, , the ARCH term, , and the GARCH term, . ARCH term is the previous day effect or new information effect, measured as the lag of the squared error term from the mean equation. GARCH term indicates long term volatility, measured as last period's forecast variance. High order GARCH models can be estimated by choosing different p or q, but it is well known that the finance literature GARCH(1,1) model performs better in most cases."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Variance Equation with Asymmetric Effect or the Asymmetric GARCH Models",
+            "text": "The conditional variance of the daily growth rate of new COVID-19 cases is a function of past values of squared error term, without any correlation with the sign of the error term. If the question is about inquiring the differential effects of negative or positive shocks on conditional variance, then asymmetry coefficient should be added up to the variance equation. The Threshold GARCH (TARCH) Model and the Exponential GARCH (EGARCH) are two most known asymmetric GARCH Models."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 55,
+                    "ref_id": null,
+                    "start": 31,
+                    "text": "Glosten, Jaganathan, and"
+                },
+                {
+                    "end": 73,
+                    "ref_id": "BIBREF15",
+                    "start": 56,
+                    "text": "Runkle (1993) and"
+                },
+                {
+                    "end": 88,
+                    "ref_id": null,
+                    "start": 74,
+                    "text": "Zako\u00efan (1994)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "TGARCH Model",
+            "text": "TGARCH model was introduced by Glosten, Jaganathan, and Runkle (1993) and Zako\u00efan (1994) . The conditional variance in the TGARCH(1, 1) model:"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "TGARCH Model",
+            "text": "where 1 if and 0 otherwise. If the negative shocks have a significant effect on conditional variance on the contrary of positive shocks, then negative shock has an impact of ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 43,
+                    "ref_id": "BIBREF30",
+                    "start": 30,
+                    "text": "Nelson (1991)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "EGARCH Model",
+            "text": "EGARCH model was developed by Nelson (1991) and conditional variance equation of an EGARCH model is defined as follows:"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "EGARCH Model",
+            "text": "where ( ) is the log of the conditional variance, which provides positive conditional variance even if the parameters are negative. The asymmetric effect can be tested by the hypothesis that . If the asymmetry coefficient, , is statistically insignificant, then there is no asymmetric effect."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "If",
+            "text": ", it implies that positive shocks generate higher volatility more than negative shocks. The parameter captures the persistence in conditional volatility."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Forecasting the Last Month, April, 2021",
+            "text": "As explained in the econometric model section, mean equation shows the ARMA(p,q) model under the assumption constant variance in Eq. 3, considering the time varying conditional variance with the GARCH model as presented in Eq. 4 and 5, and lastly adding the asymmetric effect into the variance equation called as TGARCH model in Eq. 6 and EGARCH model in Eq. 7."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 95,
+                    "ref_id": "TABREF3",
+                    "start": 88,
+                    "text": "Table 2"
+                }
+            ],
+            "section": "Forecasting the Last Month, April, 2021",
+            "text": "The one-day ahead forecasting performance of the models for April, 2021 is presented in Table 2 . The root mean squared error (RMSE), the square root of the mean of the square of all of the error or basically standard deviations of the residuals, is used for the selecting the best model among the four models for the country i, \u2500 ARMA(p,q), ARMA(p,q)-GARCH(1,1), ARMA(p,q)-TGARCH(1,1) and ARMA(p,q)-EGARCH (1,1). The main conclusion is that modelling the daily growth rate of COVID-19 new cases with ARMA model means loss of forecasting power. ARMA(p,q)-GARCH(1,1) models for all nine countries have lower RMSE in comparison with ARMA models."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 502,
+                    "ref_id": "FIGREF1",
+                    "start": 494,
+                    "text": "Figure 2"
+                },
+                {
+                    "end": 887,
+                    "ref_id": null,
+                    "start": 879,
+                    "text": "Figure 3"
+                },
+                {
+                    "end": 924,
+                    "ref_id": null,
+                    "start": 916,
+                    "text": "Figure 3"
+                },
+                {
+                    "end": 999,
+                    "ref_id": "TABREF3",
+                    "start": 992,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 1065,
+                    "ref_id": null,
+                    "start": 1060,
+                    "text": "Fig.4"
+                }
+            ],
+            "section": "Forecasting the Last Month, April, 2021",
+            "text": "Adding asymmetric effect to the conditional variance equation has positive effect on forecast accuracy for all countries except Russia and Spain for TGARCH models, for USA, Brazil and UK for EGARCH models. However, this improvement on forecasting accuracy, i.e. lowering RMSE, is weak for most of the countries. As a next step, ARMA(4,4) and ARMA(4,4)-GARCH(1,1) model forecasting results are compared for USA to provide a better insight on difference between the forecasted and actual series. Figure 2 shows the daily growth rate of the new cases and the forecasted growth rates. It is obvious that ARMA(4,4) model has larger fluctuations on actual growth rate of new cases in USA. Forecasted value of the new confirmed cases (7 day smoothed) can be calculated using the forecasted growth rates obtained from two main models, i.e. ARMA(4,4) and ARMA(4,4)-GARCH(1,1) models (see Figure 3 ). It can be easily seen in Figure 3 that ignoring the conditional variance caused weak forecast power. Table 2 shows the statistical properties of deviations presented in Fig.4 . The mean of the deviations for 30 observations is 152 new cases for GARCH model but 471 new cases for ARMA model. It is clear that the maximum (3,504 for ARMA and 1,504 for GARCH) and the minimum (-3,522 for ARMA and -1,260 for GARCH) deviations from the actual ones are so high for ARMA model, which causes a high standard deviation for ARMA model. Under the null hypothesis of a normal distribution, Jarque-Bera test statistics confirm that both series have normal distribution, which also confirms that specifications of the models are built successfully."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 640,
+                    "ref_id": null,
+                    "start": 634,
+                    "text": "Fig. 5"
+                },
+                {
+                    "end": 713,
+                    "ref_id": null,
+                    "start": 705,
+                    "text": "Figure 5"
+                },
+                {
+                    "end": 901,
+                    "ref_id": null,
+                    "start": 893,
+                    "text": "Figure 5"
+                },
+                {
+                    "end": 913,
+                    "ref_id": "TABREF6",
+                    "start": 906,
+                    "text": "Table 3"
+                },
+                {
+                    "end": 1035,
+                    "ref_id": "TABREF6",
+                    "start": 1028,
+                    "text": "Table 3"
+                },
+                {
+                    "end": 1470,
+                    "ref_id": "TABREF3",
+                    "start": 1463,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 1773,
+                    "ref_id": "TABREF7",
+                    "start": 1766,
+                    "text": "Table 4"
+                },
+                {
+                    "end": 2096,
+                    "ref_id": "TABREF8",
+                    "start": 2089,
+                    "text": "Table 5"
+                }
+            ],
+            "section": "Forecasting Three Waves of New COVID-19 Cases or Forecasting Turning Points",
+            "text": "While a model has higher forecasting accuracy for normal periods, it is harder to forecast non-normal periods such as financial crisis, financial stress periods or disease outbreaks such as COVID-19. Most of the countries faced three COVID-19 waves; first wave was at the onset of the COVID-19 pandemic, second wave was seen during the last months of the 2020 and third one was around March,2021. However, pandemic has its own growing path for most of the countries since its spread rate depends on so many variables such as age structure, health expenditure per capita, GDP per capita, population density, public measures and so on. Fig. 5 . COVID-19 waves (shaded areas) in nine most affected countries Figure 5 presents COVID-19 waves in the nine most affected countries. The waves were defined based on before and after 15 days of the local maximum of the new cases (smoothed). As seen in Figure 5 and Table 3 , the time periods of the waves have changed between countries; India has single wave while Russia has two waves. Table 3 shows the one-step ahead forecast model results in terms of RMSE for the first COVID-19 wave. The model results confirm the forecast results of April, 2021; all countries have lower RMSE when using the ARMA(p,q)-GARCH(1,1) model. Taking into account heteroscedasticity is an essential part for forecasting models. However, asymmetric effect has shown some mixed results as it did in baseline validation period, April 2021 (see Table 2 ). Some of the TGARCH or EGARCH models are better than GARCH models, for example while TGARCH works better for India and for Brazil, France, Russia, UK for both models work well; on the other hand, Italy, Spain and Germany have higher RMSE values, even higher than ARMA models in some cases 3 . Table 4 shows the second COVID-19 wave for eight countries. ARMA(p,q)-GARCH(1,1) models have still lower RMSE but not for all countries, France and UK have slightly lower RMSE under the ARMA models. Asymmetric GARCH Models have still mixed performance results. The model results for the third COVID-19 wave is presented in Table 5 . GARCH models have better performance accuracy for USA, Brazil and Germany in terms of RMSE, the loss of forecasting power is small for France, UK, Italy and strong for Spain. Including asymmetric effect into the variance equation creates higher RMSE for most of the countries."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion",
+            "text": "COVID-19 pandemic has been in our lives for more than a year and there is a growing literature focusing on forecasting the parameters of pandemic spread such as total cases, new cases, mortality rates, spread rate and so on. Since COVID-19 pandemic is a multidisciplinary research area, many researchers from different disciplines have contributed to the literature using mathematical models or machine learning techniques. ARIMA models are well-known time series models to forecast univariate variables such as new COVID-19 cases. On the other hand, the main assumption behind the ARIMA models are that the expected variance of all error terms is the same at any given point, i.e. homoskedasticity assumption. However, COVID-19 pandemic has strong waves, which leads heavy-tailed distributions. GARCH models are able to capture the non-lineraties and heterogeneity of the time series. Asymmetric effect is another feature of GARCH-type models, i.e. TGARCH and EGARCH, by measuring the differential effects of negative or positive shocks on conditional variance."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion",
+            "text": "When modelling COVID-19 new cases, the growth rate of daily COVID-19 new cases (7 day smoothed) is used by taking into account the outlier effects on the data and last one-year period data can be used for the estimation period. Validation periods are one-day ahead forecast of the April, 2021 and three waves of COVID-19 pandemic. ARMA, ARMA-GARCH, ARMA-TGARCH and ARMA-EGARCH models are employed for one-day ahead forecasting performance for April, 2021 and three waves of the COVID-19 for the nine most affected countries\u2500 USA, India, Brazil, France, Russia, UK, Italy, Spain and Germany. ARMA(p,q)-GARCH(1,1) models have lower RMSE for the period of April, 2021 and first wave of COVID-19 pandemic for all countries. It is same for the second wave of pandemic for all countries except France and Russia but for the third waves of the pandemic USA, Brazil and Germany have lower RMSE. As shown in the paper, ARMA-TGARCH and ARMA-EGARCH models have mixed results in terms of achieving the lower RMSE."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion",
+            "text": "The paper has some suggestions for future research. (i) Distribution of new cases of COVID-19 has heavy-tailed distributions with high variance. Therefore, GARCH modelling is essential to capture non-lineraties in data and rising forecast accuracy. (ii) Most of the machine learning models such as artificial neural networks, support vector machines do not have restrictions or data transformation as did in time series models. Using packages in Python, R or similar programs also support this type of analysis, without noticing the data cleaning and data transformation. Before the modelling stage, we should make sure that input data is appropriate for this kind of modelling. (iii) Seasonal ARIMA models can be estimated for capturing the seasonality effect on the data. (iv) Three or seven days ahead forecasting can be employed to see longer forecasting performance of the models."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {
+                    "institution": "Samsun University",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Spain and Germany",
+                        "region": "India, Brazil, France, Russia, UK, Italy",
+                        "settlement": "Samsun"
+                    }
+                },
+                "email": "aykut.ekinci@samsun.edu.tr",
+                "first": "Aykut",
+                "last": "Ekinci",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Samsun University",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Spain and Germany",
+                        "region": "India, Brazil, France, Russia, UK, Italy",
+                        "settlement": "Samsun"
+                    }
+                },
+                "email": "",
+                "first": "Assoc",
+                "last": "",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Samsun University",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Spain and Germany",
+                        "region": "India, Brazil, France, Russia, UK, Italy",
+                        "settlement": "Samsun"
+                    }
+                },
+                "email": "",
+                "first": "Assoc",
+                "last": "Prof",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Author information Modelling and Forecasting of Growth Rate of New COVID-19 Cases in Top Nine Affected Countries: Considering Conditional Variance and Asymmetric Effect Modelling and Forecasting of Growth Rate of New COVID-19 Cases in Top Nine Affected Countries: Considering Conditional Variance and Asymmetric Effect"
+    },
+    "paper_id": "278b51d0aa545f65430ab79230a6f43129d3e355",
     "ref_entries": {
         "FIGREF0": {
-            "text": "the mean equation is presented in Eq. (4). Equation (5) is called as the conditional variance equation, where",
             "latex": null,
+            "text": "the mean equation is presented in Eq. (4). Equation (5) is called as the conditional variance equation, where",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "Actual and forecasted daily growth rate of the new cases (7 day smoothed) for USA",
             "latex": null,
+            "text": "Actual and forecasted daily growth rate of the new cases (7 day smoothed) for USA",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "Actual Deviations from actual new cases for USAFigure 4presents the deviations from actual new cases, the blue bar shows the deviations from actual new cases from forecasted ones by ARMA(1,1) and red bar shows the deviations from actual new cases from forecasted ones by ARMA(1,1)-GARCH(1,1). For example, first bars show the deviations on 1 st April. The new cases (7 day smoothed) on April 1 in USA was 63,167, it is forecasted as 61,713 by ARMA(4,4) model and 63,268 by ARMA(1,1)-GARCH(1,1); then the deviation is so small for GARCH model as seenFig.4.",
             "latex": null,
+            "text": "Actual Deviations from actual new cases for USAFigure 4presents the deviations from actual new cases, the blue bar shows the deviations from actual new cases from forecasted ones by ARMA(1,1) and red bar shows the deviations from actual new cases from forecasted ones by ARMA(1,1)-GARCH(1,1). For example, first bars show the deviations on 1 st April. The new cases (7 day smoothed) on April 1 in USA was 63,167, it is forecasted as 61,713 by ARMA(4,4) model and 63,268 by ARMA(1,1)-GARCH(1,1); then the deviation is so small for GARCH model as seenFig.4.",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "The number of new cases in USA was 229,915 on 12/19/2020 and jumped to 402,270 on 12/20/2020 then decreased to 200,257 on 12/21/2020. The same situation is observed in another date; the number of new cases in USA was 41,486 on 3/9/2021, jumped to 126,229 on 3/10/2021 then decreased to 52,732 on 3/11/2021. For Germany, the number of the new cases was 19,185 on 4/18/2021, 0 on 4/19/2021 and 21,046 on 4/20/2021. To get rid of such outliers in this paper, the outlier days are taken as the average value of the day before and after the outlier day. Accordingly, the adjusted number of the new cases will be 215,086 on 12/20/2020 and 47,109 on 3/10/2021 for USA and 20,115.5 on 4/19/2021 for Germany. The second issue is about the path of time series of Turkey. The new cases in Turkey have two structural breaks, one on 7/29/2020 and one on 11/27/2020. Therefore, Turkey was excluded from the sample (for all the data processes, find the attached Excel file).",
             "latex": null,
+            "text": "The number of new cases in USA was 229,915 on 12/19/2020 and jumped to 402,270 on 12/20/2020 then decreased to 200,257 on 12/21/2020. The same situation is observed in another date; the number of new cases in USA was 41,486 on 3/9/2021, jumped to 126,229 on 3/10/2021 then decreased to 52,732 on 3/11/2021. For Germany, the number of the new cases was 19,185 on 4/18/2021, 0 on 4/19/2021 and 21,046 on 4/20/2021. To get rid of such outliers in this paper, the outlier days are taken as the average value of the day before and after the outlier day. Accordingly, the adjusted number of the new cases will be 215,086 on 12/20/2020 and 47,109 on 3/10/2021 for USA and 20,115.5 on 4/19/2021 for Germany. The second issue is about the path of time series of Turkey. The new cases in Turkey have two structural breaks, one on 7/29/2020 and one on 11/27/2020. Therefore, Turkey was excluded from the sample (for all the data processes, find the attached Excel file).",
             "type": "table"
         },
         "TABREF1": {
-            "text": "Statistical properties of the daily growth rate of the new confirmed cases (7 day smoothed)",
             "latex": null,
+            "text": "Statistical properties of the daily growth rate of the new confirmed cases (7 day smoothed)",
             "type": "table"
         },
         "TABREF3": {
-            "text": "One-step ahead forecast for April, 2021.",
             "latex": null,
+            "text": "One-step ahead forecast for April, 2021.",
             "type": "table"
         },
         "TABREF4": {
-            "text": "",
             "latex": null,
+            "text": "",
             "type": "table"
         },
         "TABREF6": {
-            "text": "",
             "latex": null,
+            "text": "",
             "type": "table"
         },
         "TABREF7": {
-            "text": "One-step ahead forecast for the second COVID-19 wave",
             "latex": null,
+            "text": "One-step ahead forecast for the second COVID-19 wave",
             "type": "table"
         },
         "TABREF8": {
-            "text": "One-step ahead forecast for the third COVID-19 wave",
             "latex": null,
+            "text": "One-step ahead forecast for the third COVID-19 wave",
             "type": "table"
         }
-    },
-    "back_matter": []
+    }
 }

@@ -1,1436 +1,1436 @@
 {
-    "paper_id": "277399818ade69944f90b5aa7e7646ec9c2a9723",
-    "metadata": {
-        "title": "Variation in health visiting contacts for children in England: cross-sectional analysis of the 2-2\u00bd year review using administrative data (Community Services Dataset, CSDS) Original research",
-        "authors": [
-            {
-                "first": "Caroline",
-                "middle": [],
-                "last": "Fraser",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Katie",
-                "middle": [],
-                "last": "Harron",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Jane",
-                "middle": [],
-                "last": "Barlow",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Samantha",
-                "middle": [],
-                "last": "Bennett",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Geoffrey",
-                "middle": [],
-                "last": "Woods",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Jenny",
-                "middle": [],
-                "last": "Shand",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Sally",
-                "middle": [],
-                "last": "Kendall",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Jenny",
-                "middle": [],
-                "last": "Woodman",
-                "suffix": "",
-                "affiliation": {},
-                "email": "j.woodman@ucl.ac.uk"
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "Objective The 2-2\u00bd year universal health visiting review in England is a key time point for assessing child development and promoting school readiness. We aimed to ascertain which children were least likely to receive their 2-2\u00bd year review and whether there were additional non-mandated contacts for children who missed this review. Design, setting, participants Cross-sectional analysis of the 2-2\u00bd year review and additional health visiting contacts for 181 130 children aged 2 in England 2018/2019, stratified by ethnicity, deprivation, safeguarding vulnerability indicator and Looked After Child status. Analysis We used data from 33 local authorities submitting highly complete data on health visiting contacts to the Community Services Dataset. We calculated the percentage of children with a recorded 2-2\u00bd year review and/or any additional health visiting contacts and average number of contacts, by child characteristic.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Objective The 2-2\u00bd year universal health visiting review in England is a key time point for assessing child development and promoting school readiness. We aimed to ascertain which children were least likely to receive their 2-2\u00bd year review and whether there were additional non-mandated contacts for children who missed this review. Design, setting, participants Cross-sectional analysis of the 2-2\u00bd year review and additional health visiting contacts for 181 130 children aged 2 in England 2018/2019, stratified by ethnicity, deprivation, safeguarding vulnerability indicator and Looked After Child status. Analysis We used data from 33 local authorities submitting highly complete data on health visiting contacts to the Community Services Dataset. We calculated the percentage of children with a recorded 2-2\u00bd year review and/or any additional health visiting contacts and average number of contacts, by child characteristic."
         },
         {
-            "text": "Results The most deprived children were slightly less likely to receive a 2-2\u00bd year review than the least deprived children (72% vs 78%) and Looked After Children much less likely, compared with other children (44% vs 69%). When all additional contacts were included, the pattern was reversed (deprivation) or disappeared (Looked After children). A substantial proportion of all children (24%), children with a 'safeguarding vulnerability' (22%) and Looked After children (29%) did not have a record of either a 2-2\u00bd year review or any other face-to-face contact in the year.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Results The most deprived children were slightly less likely to receive a 2-2\u00bd year review than the least deprived children (72% vs 78%) and Looked After Children much less likely, compared with other children (44% vs 69%). When all additional contacts were included, the pattern was reversed (deprivation) or disappeared (Looked After children). A substantial proportion of all children (24%), children with a 'safeguarding vulnerability' (22%) and Looked After children (29%) did not have a record of either a 2-2\u00bd year review or any other face-to-face contact in the year."
         },
         {
-            "text": "Conclusions A substantial minority of children aged 2 with known vulnerabilities did not see the health visiting team at all in the year. Some higher need children (eg, deprived and Looked After) appeared to be seeing the health visiting team but not receiving their mandated health review. Further work is needed to establish the reasons for this, and potential solutions. There is an urgent need to improve the quality of national health visiting data.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Conclusions A substantial minority of children aged 2 with known vulnerabilities did not see the health visiting team at all in the year. Some higher need children (eg, deprived and Looked After) appeared to be seeing the health visiting team but not receiving their mandated health review. Further work is needed to establish the reasons for this, and potential solutions. There is an urgent need to improve the quality of national health visiting data."
         }
     ],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "In England, there has been a sustained crossgovernment focus on identifying services and policies for babies and young children to reduce inequalities. [1] [2] [3] [4] [5] These policies represent a response to the evidence that at age 5 year, certain groups of children are so far behind in terms of development that they will 'struggle to ever catch up'. 6 Children who start school with lower than expected levels of development are more likely to be excluded from school or have social services involvement by the time they are 11. 6 By age 16,",
-            "cite_spans": [
-                {
-                    "start": 152,
-                    "end": 155,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 156,
-                    "end": 159,
-                    "text": "[2]",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 160,
-                    "end": 163,
-                    "text": "[3]",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 164,
-                    "end": 167,
-                    "text": "[4]",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 168,
-                    "end": 171,
-                    "text": "[5]",
-                    "ref_id": null
-                },
-                {
-                    "start": 357,
-                    "end": 358,
-                    "text": "6",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 536,
-                    "end": 537,
-                    "text": "6",
-                    "ref_id": "BIBREF5"
-                }
-            ],
-            "ref_spans": [],
-            "section": "INTRODUCTION"
-        },
-        {
-            "text": "\u25ba This is the first study to analyse the coverage and intensity of health visiting in England, also taking into account additional (non-mandated) contacts from the health visiting team. \u25ba We addressed incompleteness in the national administrative data on health visiting in England by limiting our analyses to subsets of most complete data by (1) developing methods to identify a research-ready subset of the national data using comparisons to reference data sources and (2) limiting analyses to local areas with <10% missing data for vulnerability indicators. \u25ba Our approach to dealing with incomplete data (including only most complete data) limits the generalisability of our results to the whole of England, with particular implications for results about vulnerable children and different ethnic groups. \u25ba We were reliant on the information recorded in the administrative data, all of which is entered by the health visiting teams. \u25ba Despite the limitations, this is an important contribution to the evidence-base about how health visiting is delivered in England, which is foundational to making any improvements or modifications to the service.",
-            "cite_spans": [
-                {
-                    "start": 343,
-                    "end": 346,
-                    "text": "(1)",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 808,
-                    "end": 809,
-                    "text": "\u25ba",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "Strengths and limitations of this study"
-        },
-        {
-            "text": "Open access disadvantaged children are 18 months behind their peers and 40% of this development gap had already emerged by the age of 5. 6 There is one universal intervention programme for preschool children in England, which specifically aims to address inequalities and promote health and development of young children: The Healthy Child Programme (HCP 0-5, see figure 1), led by Health visitors. Health visitors are specialist child and family public health nurses who lead a team of mixed skill staff (see figure 1 ). There are models of health visiting in some countries of the world: Child Health Nurses (Sweden), Public Health Nurses (America Canada, Ireland), Child and Family Health Nurses (Australia), Plunket Nurses (New Zealand), Social Nurses (Belgium), Lady Health Visitors and Lady Health Workers (Pakistan) and Patronage Nurses (Serbia, Kosovo, Kazakhstan). However, health Visiting in England is unique in its universal coverage (figure 1). A key part of the HCP 0-5 is five mandated contacts by the health visiting team before a child turns 3 year old (figure 1). The last of these reviews is at 2-2\u00bd year, and represents a vital opportunity to assess a child's readiness to learn, their physical and social and emotional development and to identify any additional support needed to start school on a level footing with their peers. 6 7 Since 2018, there has been particularly high cross-government policy focus on the role that the 2-2\u00bd year review can play in reducing social inequalities in cognitive development. [8] [9] [10] As part of a holistic assessment of the child during the 2-2\u00bd year review, practitioners are required to use the Ages and Stages Questionnaire (ASQ-3 11 ), and since 2020, the Early Language Identification Measure (ELIM) is recommended. See figure 1 for a more detailed explanation of these tools.",
-            "cite_spans": [
-                {
-                    "start": 137,
-                    "end": 138,
-                    "text": "6",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 1351,
-                    "end": 1354,
-                    "text": "6 7",
-                    "ref_id": null
-                },
-                {
-                    "start": 1535,
-                    "end": 1538,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 1539,
-                    "end": 1542,
-                    "text": "[9]",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 1543,
-                    "end": 1547,
-                    "text": "[10]",
-                    "ref_id": "BIBREF9"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 510,
-                    "end": 518,
-                    "text": "figure 1",
-                    "ref_id": null
-                },
-                {
-                    "start": 1789,
-                    "end": 1797,
-                    "text": "figure 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "Strengths and limitations of this study"
-        },
-        {
-            "text": "There is now extensive recognition that the critical 1001 days (conception to age 2) represents the best opportunity for intervening with the aim of reducing inequalities, and the Leadsom report (March 2021) highlights the need for every local authority (LA) to develop a Start for Life offer, in order to achieve this. 10 To evaluate the impact of specific policies and interventions delivered in the critical 1001 days, we need a measure of child development for all children at the end of this period (age 2) which is complete, accurate and available for analysis, such as the ASQ-3 and/or ELIM.",
-            "cite_spans": [
-                {
-                    "start": 320,
-                    "end": 322,
-                    "text": "10",
-                    "ref_id": "BIBREF9"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Strengths and limitations of this study"
-        },
-        {
-            "text": "Despite recognition of the importance of the 2-2\u00bd year review both for supporting individual families and for collecting data to support planning and policies at a local and national population level, there is evidence that a substantial proportion of children still do not receive a 2-2\u00bd year review. Data from Public Health England (PHE) 'interim reporting metrics' (referred to as 'metrics' in this paper) indicate that 22% of eligible children in England did not have a record of 2-2\u00bd year review in 2018-2020, with substantial variation across the country (27%-97%). 6 12 PHE has now been replaced with Office for Health Improvement and Disparities (2021) so we refer to (ex)PHE. The Children's Commissioner and (ex)PHE both estimate that 9 out of 10 children receiving a 2-2\u00bd year review also had an ASQ-3 completed but other studies have found significant variability across England in the implementation and reporting of the ASQ-3. [13] [14] [15] The subuniversal reach of the 2-2\u00bd year review has prompted questions about whether some children are systematically more likely to miss out on a review. In 2020, the Children's Commissioner tried to ascertain if vulnerable children were differentially likely to have a 2-2\u00bd year review than their peers but found that most LAs did not collect the necessary data, concluding: 'There is little evidence that local areas are ensuring that their vulnerable young children are checked'. 13 Since then, (ex)PHE has published experimental statistics, 16 suggesting that the likelihood of receiving mandated reviews varies with ethnicity, and that children living in the most affluent areas of England were more likely to receive a mandated review than children living in the more deprived areas. 10 However, these emerging social patterns need further confirmation. Additionally, we do not know whether additional (non-mandated) contacts by the health visiting team are similarly patterned. It may be, for example, that the children who miss out on a mandated review are seeing members of the health visiting team regularly for other reasons. More recent experimental statistics from (ex)PHE (June 2021) suggested that children in the most deprived neighbourhoods are more likely to get additional contacts from the health visiting, but these analyses did not also include the mandated reviews. 17 18 AIM We aimed to ascertain whether certain groups of children were less likely to receive their 2-2\u00bd year review than other children. We used a national administrative dataset (the Community Services Dataset; CSDS) 19 to calculate the percentage of children in 2018/2019 who received their 2-2\u00bd year review, stratified by ethnic group, deprivation quintile, safeguarding vulnerability and Looked After Child Status. We investigated whether those that missed out on their 2-2\u00bd year review were seeing the health visiting team for other reasons in the same time period.",
-            "cite_spans": [
-                {
-                    "start": 572,
-                    "end": 573,
-                    "text": "6",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 574,
-                    "end": 576,
-                    "text": "12",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 940,
-                    "end": 944,
-                    "text": "[13]",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 945,
-                    "end": 949,
-                    "text": "[14]",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 950,
-                    "end": 954,
-                    "text": "[15]",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 1438,
-                    "end": 1440,
-                    "text": "13",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 1500,
-                    "end": 1502,
-                    "text": "16",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 1745,
-                    "end": 1747,
-                    "text": "10",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 2344,
-                    "end": 2349,
-                    "text": "17 18",
-                    "ref_id": null
-                },
-                {
-                    "start": 2564,
-                    "end": 2566,
-                    "text": "19",
-                    "ref_id": "BIBREF18"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Strengths and limitations of this study"
-        },
-        {
-            "text": "This study comprises a cross-sectional analysis of coverage of the 2-2\u00bd year health visiting review and coverage and intensity of additional health visiting contacts for children aged 2 in England in 2018/2019, stratified by ethnic group, deprivation and 'vulnerability' indicators.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Study design and setting"
+            "section": "acknowledgement",
+            "text": "Acknowledgements We would like to thank individuals in Public Health England for their comments and advice on early drafts, including Wendy Nicholson within Nursing, Maternity and Early years and Kate Thurland and Helen Smith. We thank Professor Ruth Gilbert at UCL Great Ormond Street Institute of Child Health for input into study design, methods and drafts. We are grateful to Care City, Barking and Dagenham, Havering and Redbridge CCG, London Borough of Barking and Dagenham, East Sussex County Council and East Sussex Healthcare Trust and Kent"
         },
         {
-            "text": "The CSDS contains individual-level longitudinal administrative data from community services in England since 2015, including data on mandated and additional contacts with health visiting services. It is operated by National Figure 1 Delivery of the HCP by health visiting teams and use of ASQ-3 and ELIM in the 2-2\u00bd year review. 15 29-44 Open access Health Service (NHS) Digital, and providers of publicly funded community services (including NHS trusts, private providers and the voluntary sector) are legally mandated to submit data. CSDS captures basic child characteristics (age, ethnicity), contacts with health visiting services (type, frequency, length, date) and a wider range of identified needs in children such as referral from or to specialist services. Quintiles of deprivation are derived from the Index of Multiple Deprivation (IMD), based on the child's postcode of usual address. CSDS is the only child-level national source of information about health visiting in England but is a relatively new dataset, with outputs classified by NHS Digital as experimental. To our knowledge, the only published analysis of CSDS has been (ex)PHE's experimental statistics describing patterns in mandated reviews, cited by the Leadsom review 10 16 and (separately) patterns of additional contacts. 17 Our 'research-ready' subset of data We analysed a pseudonymised extract of CSDS that was held within (ex)PHE for the purpose of delivering (ex) PHE's core work programme and priorities, for contacts between 1 April 2018 and 31 March 2019. To account for variation in the completeness of CSDS data across England and over time, we developed and applied methods for identifying a subset of 'research-ready' CSDS data for analysis (full details in online supplemental material 1). The research-ready subset of data was restricted to LAs with a high level of data completeness. We checked the completeness of CSDS by comparing the number of eligible children and health visitor contacts recorded in CSDS with ONS data on births, health visitor contacts reported within (ex)PHE metrics and anonymised health visiting data obtained directly from three LAs.",
-            "cite_spans": [
-                {
-                    "start": 329,
-                    "end": 337,
-                    "text": "15 29-44",
-                    "ref_id": null
-                },
-                {
-                    "start": 1245,
-                    "end": 1250,
-                    "text": "10 16",
-                    "ref_id": null
-                },
-                {
-                    "start": 1301,
-                    "end": 1303,
-                    "text": "17",
-                    "ref_id": "BIBREF16"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 224,
-                    "end": 232,
-                    "text": "Figure 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "Data source"
-        },
-        {
-            "text": "Our research-ready dataset for analyses of the 2-2\u00bd year review in 2018/2019 included 181 130 children from 33 LAs. Children in the research-ready dataset were similarly deprived but less ethnically diverse than all children in England (see online supplemental material 1). We identified a further subset of 13 LAs with 18 240 children with sufficiently complete data (<10% missing) for analyses of Looked After Child Status and 7 LAs with 15 485 children with sufficiently complete data on the data item 'Safeguarding Vulnerability'.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Data source"
+            "section": "annex",
+            "text": "County Council and Community Health NHS Foundation Trust for access to their local data and knowledge and expertise. We thank individuals at the Institute of Health Visiting for comments on this paper and earlier drafts.Contributors JW and KH conceived of the study, were responsible for design of the study and supervised all analyses which were carried out by CF. JW, KH, CF, JB, SB, GW and JS all contributed substantially to the design of the study. CF, KH, JB, SB, GW, JS, SK and JW substantially contributed to interpretation of data. JS, GW and SB provided access to locally held data and gave expert advice on data and the service context. CF and JW drafted the paper and KH, JB, SB, GW, JS and SK substantially contributed to its intellectual content, including in multiple revisions. CF, KH, JB, SB, GW, JS, SK and JW approve the final version of the paper for publication. JW and KH are jointly responsible for the overall content as guarantors.Funding This study was funded by the National Institute for Health Research (NIHR) Policy Research Programme, funder reference: PR-PRU-1217-21301; UCL award code: 177763. The views expressed are those of the author(s) and not necessarily those of the NIHR or the Department of Health and Social Care. This project is delivered as part of (ex)PHE's 2020/2021 Life Course Intelligence business plan for child and maternal health in order to understand CSDS data quality and its suitability for further analysis to understand trends, variation and inequalities in health visiting and outcomes for children in the early years. Competing interests None declared."
         },
         {
-            "text": "We estimated the percentage of eligible children who We calculated the percentage of children who received any face-to-face contact with a member of the heath visiting team for any reason (including the mandated 2-2\u00bd year review and additional contacts) in 2018/2019, by location of contact (home/any other location). We calculated the median and IQR for the number of all attended contacts per child (including letters and phone calls) and face-to-face 'attended' contacts. We quantified the number of children with a recorded ASQ-3 but no 2-2\u00bd year review recorded, as an indication of 2-2\u00bd year reviews that took place but might not have a 2-2\u00bd year review code attached.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Analyses"
-        },
-        {
-            "text": "We stratified results by ethnicity, deprivation (IMD quintile) and vulnerability, where a 'vulnerable' child was defined as one with a code indicating a safeguarding vulnerability or Looked After Child at any point during 2018/2019. Both codes are entered manually by a member of the health visiting team as part of their usual care of the child. The 'safeguarding vulnerability' code indicates factors such as referral from police or children's social care, significant injury, known or suspected domestic abuse, worrying parent behaviour or concerns about parental mental health. 19 Analysis of these characteristics was only conducted for LAs with less than 10% missing data for these variables (N=13 for Looked After Children and N=7 for safeguarding vulnerability). As IMD was complete for all 33 LAs and ethnicity had a similar level of completeness (16%-23% missing) across all LAs, we included 33 LAs in analyses of these variables.",
-            "cite_spans": [
-                {
-                    "start": 582,
-                    "end": 584,
-                    "text": "19",
-                    "ref_id": "BIBREF18"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Analyses"
-        },
-        {
-            "text": "We did not conduct any patient or public involvement for this study.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Patient and public involvement"
-        },
-        {
-            "text": "In our research-ready dataset, 74% of eligible children received their 2-2\u00bd year review, 76% had any face-to-face contact with the health visiting team in the previous 12 months (including a 2-2\u00bd year review and additional contacts) and 78% had any contact, including letters or phone calls (table 1). If we assume that all the children with an ASQ-3 record had a 2-2\u00bd year review, our estimate of children with a 2-2\u00bd year review increases to 81%.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "RESULTS"
-        },
-        {
-            "text": "The most deprived quintile of children were less likely to have received a 2-2\u00bd year review (72%) than children in the least deprived quintile (78%), with a gradient across quintiles. This pattern was reversed (on a small scale) when additional contacts were taken into account (80% for the most deprived vs 78% for the least deprived quintile, table 1). Looked After Children were much less likely to have received a 2-2\u00bd year review recorded compared with other children (44% compared with 69%, table 1). However, this difference disappeared when all face-to-face additional contacts with the health visiting team were included. The lower proportion of 2-2\u00bd year reviews for Looked After Children was not explained by missed appointments: all 90 Looked After Children with scheduled 2-2\u00bd year reviews were recorded as 'attended'. ",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "RESULTS"
-        },
-        {
-            "text": "The small number of children with a safeguarding vulnerability (n=205), were slightly less likely to have received a 2-2\u00bd year review (83%) than other children (86%) and this held true when additional contacts were taken into account. Three were no clear patterns of 2-2\u00bd year reviews across ethnic groups (table 1) . However, analyses that included additional contacts showed there was a lower proportion of white children receiving contacts (73%) than children in the other ethnic categories (80%-90%, table 1).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 306,
-                    "end": 315,
-                    "text": "(table 1)",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Open access"
-        },
-        {
-            "text": "The majority of all children (76%), children with safeguarding vulnerabilities recorded (78%) and Looked After children (71%), had a record of a contact with health visiting services, either for a 2-2\u00bd year review or as an additional contact (table 1). The most common face-to-face activities (n=110 780) for children aged 2, other than the 2-2\u00bd year review, were 'other' (31%, n=34 180), assessments (23%, n=26 015), counselling, advice or support (17%, n=18 875) and clinical interventions (15%, n=17 145), which include individualised care plans, for example parenting advice, support with behaviour and child development. These figures include multiple activities recorded for the same child (including on the same day).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "A substantial proportion of all children (24%), children with a 'safeguarding vulnerability' recorded (22%) and Looked After children (29%) did not have a record of either a 2-2\u00bd year review or any other face-to-face contact (table 2). Most of the children without a face-toface contact did not have a record of letters or telephone calls from health visiting services, suggesting no contacts were attempted. On average, children that had any type of contact with health visiting services saw a member of the team once in this period, compared with three times for children with a safeguarding vulnerability code and five times for children with a Looked After Child code (table 2) .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 672,
-                    "end": 681,
-                    "text": "(table 2)",
-                    "ref_id": null
-                }
-            ],
-            "section": "Open access"
-        },
-        {
-            "text": "Overall, 28% of children with a face-to-face contact were seen at home, and the percentage of at home contacts was greater for Looked After children (63%), children with safeguarding vulnerabilities (78%), and children living in the most deprived areas (38%) (table 3) .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 259,
-                    "end": 268,
-                    "text": "(table 3)",
-                    "ref_id": "TABREF2"
-                }
-            ],
-            "section": "Open access"
-        },
-        {
-            "text": "However, if all contacts with missing data on location (12%; 8805/70 695) were in fact home visits, the proportion of all face-to-face contacts that were in a child's home could be as high as 40%.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Open access"
-        },
-        {
-            "text": "The majority (>70%) of eligible children in our sample, including those defined as vulnerable, were engaged with health visiting services and received their 2-2\u00bd year review. Children in the most deprived areas were slightly more likely to miss out on a 2-2\u00bd year review and Looked After children were much more likely to miss out on this review. However, when all additional contacts were included, the pattern was reversed (for deprivation) or disappeared (for Looked After children). This highlights the importance of including additional contacts in analyses when investigating whether the delivery of health visiting in England is socially patterned. We also found that Looked After and the most deprived children who were in contact with the health vsiting sevice according to our data received more intensive health visiting than their peers, with more frequent face-to-face contacts. Although we found no evidence that children with a safeguarding vulnerability recorded were any more or less likely to receive a 2-2\u00bd year review or an additional contact than their peers, we did find that when this group had at least one face-to-face contact, they received more intensive health visiting than average.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Main findings"
-        },
-        {
-            "text": "Our results suggest that there are groups of high need children (eg, deprived children and Looked After children) who are engaged with the health visiting team but do not receive their mandated 2-2\u00bd year review. We could not ascertain how far children without a 2-2\u00bd year review were having their needs formally assessed through other routes such as a statutory Looked After Child review, as part of a Child Protection Plan or had developmental delay or additional needs identified by the health visiting team prior to the 2-2 \u00bd year review, as suggested by an analysis by the Children's Commissioner in 2020. 13 The same analysis by the Children's Commissioner reported Open access that some LAs had stated that the 2-2 \u00bd year review may not always be appropriate when reviewing children with complex heath needs or development delays. 13 Our findings raise similar questions about whether the 2-2\u00bd year review and/or the ASQ-3 is perceived as appropriate for high need groups in the population, both by professionals and parents/carers. Our results also suggest that there might be two distinct groups of vulnerable children with regard to the receipt of health visiting. We identified a majority group of vulnerable children who received multiple face-to-face contacts within a 12-month period, often in the child's home. This group appears to be receiving intensive health visiting, consistent with the model of proportionate universalism that underpins health visiting in England (a universal service for all children but with greater support and service provision for children in families with identified needs). The second group comprised a substantial minority of vulnerable children who were not in contact with the health visitor team at all: 22% of children with safeguarding vulnerabilities and 29% of Looked After children did not have a record of either a 2-2\u00bd year review or any other face-to-face additional contact in the year. As we did not find evidence of attempted contacts with these children in CSDS, there is a real possibility that these vulnerable children might not have heard from or seen a member of the health visiting team within the year.",
-            "cite_spans": [
-                {
-                    "start": 610,
-                    "end": 612,
-                    "text": "13",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 837,
-                    "end": 839,
-                    "text": "13",
-                    "ref_id": "BIBREF12"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Main findings"
-        },
-        {
-            "text": "Our results on the 2-2\u00bd year review are largely consistent with the experimental statistics published by (ex) PHE, with the exception of ethnicity. 16 (Ex)PHE found that children from ethnic minority groups were less likely than white children to receive the mandated reviews, including the 2-2\u00bd year review. 16 The difference is likely due to poor data completeness in CSDS and different analytical approaches to dealing with this incompleteness (see online supplemental material 3). Our results on additional contacts are also largely consistent with the (ex)PHE experimental statistics, which suggest that children likely to have higher needs (eg, deprived children and receiving statutory child protection services) receive more additional contacts than average. 17 Our results build on the (ex)PHE statistics by bringing together mandated and additional contacts in one analysis, which facilitates for the first time estimates of children not seeing the health visiting team for any reason in the 12-month period. Although the health visiting service seems to be achieving a model of proportionate universalism for some children with known vulnerabilities (with multiple visits a year, often in the child's home), there was also a substantial minority of vulnerable children without any recorded contact from the health visiting team. This is of significant concern, given the likely concentration of health and welfare need in these groups and makes it unlikely that the current format and delivery of the 2-2\u00bd year review is helping to address inequalities in school readiness as intended. The secondary effects of the COVID-19 pandemic, including heightened need and reduced workforce capacity (particularly the number of qualified health visitors), are likely to exacerbate the shortfall both in universal reach and provision of extra intensive services where needed. 20 ",
-            "cite_spans": [
-                {
-                    "start": 148,
-                    "end": 150,
-                    "text": "16",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 309,
-                    "end": 311,
-                    "text": "16",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 767,
-                    "end": 769,
-                    "text": "17",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 1877,
-                    "end": 1879,
-                    "text": "20",
-                    "ref_id": "BIBREF19"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Main findings"
-        },
-        {
-            "text": "Since completion of this study, the HCP is being revised to be 'universal in reach and personalised in response'. 21 Our study evidences the gap between this policy ambition and the current reality of health visiting. 22 Further work is needed to establish reasons for low coverage of the 2-2\u00bd year review in Children Looked After and to generate recommendations about the most suitable way of delivering the 2-2\u00bd year review to (1) all children and (2) Looked After Children and other groups with known complex needs or vulnerabilities. Relevant factors may include skill mix (health visitor vs other team member, see figure 1 ), continuity of care, quality of reviews and referral pathways following identification of need.",
-            "cite_spans": [
-                {
-                    "start": 114,
-                    "end": 116,
-                    "text": "21",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 218,
-                    "end": 220,
-                    "text": "22",
-                    "ref_id": "BIBREF21"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 619,
-                    "end": 627,
-                    "text": "figure 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "CONCLUSIONS"
-        },
-        {
-            "text": "In order to produce reliable estimates, researchers require access to high quality national data from health visiting services linked to other datasets (such as primary care, hospital, social care and education) for the whole of England. 23 CSDS is not yet sufficiently complete. 24 NHS Digital and (ex)PHE have been undertaking quality improvement work to address this. The findings of this study suggest that policies and/or funding to accelerate the pace of CSDS quality improvements should be considered at a national level. Further work is needed both on how best to support local practitioners to improve data recording in their systems and on how data transfer from local systems into CSDS might be improved, given the evidence that some data on health visiting contacts in local systems do not make it into CSDS. 24 ",
-            "cite_spans": [
-                {
-                    "start": 280,
-                    "end": 282,
-                    "text": "24",
-                    "ref_id": "BIBREF23"
-                },
-                {
-                    "start": 821,
-                    "end": 823,
-                    "text": "24",
-                    "ref_id": "BIBREF23"
-                }
-            ],
-            "ref_spans": [],
-            "section": "CONCLUSIONS"
-        },
-        {
-            "text": "Our data did not allow us to follow a child over time, which might mean we slightly underestimate 2-2\u00bd year reviews as some children may have had their 2-2\u00bd year review just before or after our study period. As administrative data, CSDS codes will not capture everything health visitors identify or deliver. Information might be coded with high accuracy on local systems but 'lost' in the transfer to NHS Digital, for example, with use of slightly different codes. There is some evidence of this, based on our comparison of two local areas with CSDS data. 24 Second, contacts may be miscoded. Although our analyses of ASQ-3 records provide some evidence of this, the consistency of our results with other data 24 suggests that miscoding does not explain the one in five children 'missing' a 2-2\u00bd year review. We know that much abuse and neglect of children will not be coded in administrative data, even if it is suspected by professionals 25 26 which will lead to underestimating differences between vulnerable and other children. Many data items were too poorly completed to use, for example, child disability and staff type (eg, health visitor, nursery nurse). CSDS does not capture quality or meaning of the interaction between health visitors and parents. To obtain a full picture of health visiting activity in England, and the contribution of this service to child health and well-being, all types of LAs need to be investigated using a triangulation of data sources, including CSDS, locally held data, surveys and in-depth qualitative data collected from professionals and families, as a study in Scotland is attempting 27 and as we have funding to do for children living with adverse childhood experiences in England. 28 Our results cannot be confidently generalised to all children in England. The children in the 'researchready' data were not nationally representative in terms of ethnicity (online supplemental material 1) and the excluded LAs might be systematically different from those we included which had more complete data. Although our findings should be treated as hypotheses, this study marks an important first step in making use of existing, routinely collected data to understand the coverage and intensity of health visiting services in England.",
-            "cite_spans": [
-                {
-                    "start": 556,
-                    "end": 558,
-                    "text": "24",
-                    "ref_id": "BIBREF23"
-                },
-                {
-                    "start": 940,
-                    "end": 945,
-                    "text": "25 26",
-                    "ref_id": null
-                },
-                {
-                    "start": 1628,
-                    "end": 1630,
-                    "text": "27",
-                    "ref_id": "BIBREF26"
-                },
-                {
-                    "start": 1727,
-                    "end": 1729,
-                    "text": "28",
-                    "ref_id": "BIBREF27"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Limitations"
+            "section": "Patient consent for publication Not applicable.",
+            "text": "Ethics approval This study involves human participants and was approved by UCL Institute of Education Research Ethics Committee on 1. May 2020 (Ref 1333). This is a secondary analysis of non-identifiable administrative health data. It would not be feasible to obtain consent, because (1) we do not have access to names and addresses with which to contact individuals, and obtaining these contact details would require a further disclosure of personal information, and (2) we used data on 181 130 children. It would not be possible to contact this large number of families. However, CSDS does not contain any direct patient identifiers such as names, addresses, NHS numbers or full dates of birth. This means the threat to patient anonymity is very low.Provenance and peer review Not commissioned; externally peer reviewed.Data availability statement Data may be obtained from a third party and are not publicly available. The authors do not have permission for onward sharing of the individual-level data underlying this article. Requests to access the CSDS data can be made to NHS Digital.Supplemental material This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.Open access This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: https://creativecommons.org/ licenses/by/4.0/.ORCID iDs Sally Kendall http://orcid.org/0000-0002-2507-0350 Jenny Woodman http://orcid.org/0000-0002-9403-4177"
         }
     ],
     "bib_entries": {
         "BIBREF0": {
-            "ref_id": "b0",
-            "title": "New focus on babies' and children's health as review launches",
             "authors": [
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Gov",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "",
-                    "middle": [],
                     "last": "News",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b0",
+            "title": "New focus on babies' and children's health as review launches",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF1": {
-            "ref_id": "b1",
-            "title": "Fairer Society, healthy lives (the Marmot review). London: The Marmot Review",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Marmot",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Goldblatt",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Allen",
-                    "suffix": ""
-                }
-            ],
-            "year": 2010,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "The 1001 critical days: the importance of the conception to age 2 period. London: wave trust and NSPCC",
-            "authors": [],
-            "year": 2014,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Early Years and Family Support Ministerial Group. First 1000 days of life",
-            "authors": [],
-            "year": 2018,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "Office for the Children's Commissioner. Best beginnings in the early years: a proposal for a new early years guarantee to give all children in England the best start in life",
-            "authors": [],
-            "year": 2020,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "visitor reviews: advice for local authorities in delivery of the mandated universal health visitor reviews from 1",
-            "authors": [],
-            "year": 2015,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Early language identification measure and intervention",
-            "authors": [
-                {
-                    "first": "Public",
                     "middle": [],
-                    "last": "Health England",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b1",
+            "title": "Fairer Society, healthy lives (the Marmot review). London: The Marmot Review",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Early language identification measure and intervention: guidance Handbook",
-            "authors": [
-                {
-                    "first": "Public",
-                    "middle": [],
-                    "last": "Health England",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "The best start for life: a vision for the 1,001 critical days. the early years healthy development review report",
-            "authors": [
-                {
-                    "first": "",
-                    "middle": [],
-                    "last": "Hm Government",
-                    "suffix": ""
-                }
-            ],
-            "year": 2021,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2010
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "Ages & Stages Questionnaires\u00ae, Third Edition (ASQ-3\u2122): A Parent -Completed Child Monitoring System",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Squires",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Brickers",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Twombley",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2009,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b10",
+            "title": "Ages & Stages Questionnaires\u00ae, Third Edition (ASQ-3\u2122): A Parent -Completed Child Monitoring System",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2009
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "Health visitor service delivery metrics",
             "authors": [
                 {
                     "first": "Public",
-                    "middle": [],
                     "last": "Health England",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b11",
+            "title": "Health visitor service delivery metrics",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2018
         },
         "BIBREF12": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b12",
             "title": "Office for the Children's Commissioner. Best beginnings in the early years: technical report two",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF13": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b13",
             "title": "Evaluating the use of a population measure of child development in the healthy child programme two year review",
-            "authors": [],
-            "year": 2014,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2014
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Acceptability and understanding of the Ages & Stages Questionnaires\u00ae, Third Edition, as part of the Healthy Child Programme 2-year health and development review in England: Parent and professional perspectives",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Kendall",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Nash",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Braun",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2019,
-            "venue": "Child Care Health Dev",
-            "volume": "45",
             "issn": "",
-            "pages": "251--257",
             "other_ids": {
                 "DOI": [
                     "10.1111/cch.12639"
                 ]
-            }
+            },
+            "pages": "251--257",
+            "ref_id": "b14",
+            "title": "Acceptability and understanding of the Ages & Stages Questionnaires\u00ae, Third Edition, as part of the Healthy Child Programme 2-year health and development review in England: Parent and professional perspectives",
+            "venue": "Child Care Health Dev",
+            "volume": "45",
+            "year": 2019
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "Characteristics of children receiving universal health visitor reviews: experimental analysis of the community services dataset",
             "authors": [
                 {
                     "first": "Heath",
-                    "middle": [],
                     "last": "Public",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "",
-                    "middle": [],
                     "last": "England",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b15",
+            "title": "Characteristics of children receiving universal health visitor reviews: experimental analysis of the community services dataset",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "Contacts other than those mandated and referrals by health visitors -Experimental analysis of the Community Services Dataset. Contacts other than those mandated and referrals by health visitors -GOV.UK",
             "authors": [
                 {
                     "first": "P Public Health",
-                    "middle": [],
                     "last": "England",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b16",
+            "title": "Contacts other than those mandated and referrals by health visitors -Experimental analysis of the Community Services Dataset. Contacts other than those mandated and referrals by health visitors -GOV.UK",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "Which children in England see the health visiting team and how often?",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Woodman",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Harron",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Hancock",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "J Health Visit",
-            "volume": "9",
             "issn": "",
-            "pages": "282--286",
             "other_ids": {
                 "DOI": [
                     "10.12968/johv.2021.9.7.282"
                 ]
-            }
+            },
+            "pages": "282--286",
+            "ref_id": "b17",
+            "title": "Which children in England see the health visiting team and how often?",
+            "venue": "J Health Visit",
+            "volume": "9",
+            "year": 2021
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "data-collections-and-data-sets/data-sets/communityservices-data-set/community-services-data-set-technical-outputspecification",
             "authors": [
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Nhs Digital",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b18",
+            "title": "data-collections-and-data-sets/data-sets/communityservices-data-set/community-services-data-set-technical-outputspecification",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2018
         },
         "BIBREF19": {
-            "ref_id": "b19",
-            "title": "The impact of the COVID-19 pandemic on services from pregnancy through age 5 years for families who are high risk of poor outcomes or who have complex social needs",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Barlow",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Bach-Mortensen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "O",
-                    "middle": [],
                     "last": "Homonchuk",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b19",
+            "title": "The impact of the COVID-19 pandemic on services from pregnancy through age 5 years for families who are high risk of poor outcomes or who have complex social needs",
             "venue": "",
             "volume": "",
+            "year": 2020
+        },
+        "BIBREF2": {
+            "authors": [],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b2",
+            "title": "The 1001 critical days: the importance of the conception to age 2 period. London: wave trust and NSPCC",
+            "venue": "",
+            "volume": "",
+            "year": 2014
         },
         "BIBREF20": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b20",
             "title": "Available: www.gov.uk/ government/consultations/advancing-our-health-prevention-in-the-2020s",
-            "authors": [],
-            "year": 2019,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2019
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Health visiting in primary care in England: a crisis waiting to happen?",
             "authors": [
                 {
                     "first": "R",
+                    "last": "Bryar",
                     "middle": [
                         "M"
                     ],
-                    "last": "Bryar",
                     "suffix": ""
                 },
                 {
                     "first": "Dsa",
-                    "middle": [],
                     "last": "Cowley",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Adams",
                     "middle": [
                         "M"
                     ],
-                    "last": "Adams",
                     "suffix": ""
                 }
             ],
-            "year": 2017,
-            "venue": "Br J Gen Pract",
-            "volume": "67",
             "issn": "",
-            "pages": "102--105",
             "other_ids": {
                 "DOI": [
                     "10.3399/bjgp17X689449"
                 ]
-            }
+            },
+            "pages": "102--105",
+            "ref_id": "b21",
+            "title": "Health visiting in primary care in England: a crisis waiting to happen?",
+            "venue": "Br J Gen Pract",
+            "volume": "67",
+            "year": 2017
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "ECHILD: Linking children's health and education data for England",
             "authors": [
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Adruk Webpage",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b22",
+            "title": "ECHILD: Linking children's health and education data for England",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF23": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b23",
             "title": "How can we use the community services dataset (CSDS) for research into health visiting?",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "A simple approach to improve recording of concerns about child maltreatment in primary care records: developing a quality improvement intervention",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Woodman",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Allister",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "I",
-                    "middle": [],
                     "last": "Rafi",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
-            "venue": "Br J Gen Pract",
-            "volume": "62",
             "issn": "",
-            "pages": "478--86",
             "other_ids": {
                 "DOI": [
                     "10.3399/bjgp12X652346"
                 ]
-            }
+            },
+            "pages": "478--86",
+            "ref_id": "b24",
+            "title": "A simple approach to improve recording of concerns about child maltreatment in primary care records: developing a quality improvement intervention",
+            "venue": "Br J Gen Pract",
+            "volume": "62",
+            "year": 2012
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "The GP's role in responding to child maltreatment",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Woodman",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Hodson",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Gardner",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2014,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b25",
+            "title": "The GP's role in responding to child maltreatment",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2014
         },
         "BIBREF26": {
-            "ref_id": "b26",
-            "title": "Study protocol: a mixed-methods realist evaluation of the universal health visiting pathway in Scotland",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Doi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Morrison",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Astbury",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "BMJ Open",
-            "volume": "10",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1136/bmjopen-2020-042305"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b26",
+            "title": "Study protocol: a mixed-methods realist evaluation of the universal health visiting pathway in Scotland",
+            "venue": "BMJ Open",
+            "volume": "10",
+            "year": 2020
         },
         "BIBREF27": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b27",
             "title": "Funding and awards",
-            "authors": [],
-            "year": 2021,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF28": {
-            "ref_id": "b28",
-            "title": "Healthy child programme: the 4-5-6 approach for health visiting and school nursing",
             "authors": [
                 {
                     "first": "Public",
-                    "middle": [],
                     "last": "Health England",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b28",
+            "title": "Healthy child programme: the 4-5-6 approach for health visiting and school nursing",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2018
         },
         "BIBREF29": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b29",
             "title": "Department for Health. Healthy child programme. pregnancy and the first five years",
-            "authors": [],
-            "year": 2009,
             "venue": "",
             "volume": "",
+            "year": 2009
+        },
+        "BIBREF3": {
+            "authors": [],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b3",
+            "title": "Early Years and Family Support Ministerial Group. First 1000 days of life",
+            "venue": "",
+            "volume": "",
+            "year": 2018
         },
         "BIBREF30": {
-            "ref_id": "b30",
-            "title": "Using FOI data to assess the state of health visiting services in England before and during COVID-19",
             "authors": [
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Conti",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Dow",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b30",
+            "title": "Using FOI data to assess the state of health visiting services in England before and during COVID-19",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF31": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b31",
             "title": "Office for the Children's Commissioner. Best beginnings in the early years: technical report two",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF32": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b32",
             "title": "Institute of Health Visiting. State of health visiting in England: we need more health visitors, 2021. 34 Institute of Health Visiting. Health visting in England: a vision for the future",
-            "authors": [],
-            "year": 2019,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2019
         },
         "BIBREF33": {
-            "ref_id": "b33",
-            "title": "Universal health visitor reviews: advice for local authorities in delivery of the mandated universal health visitor reviews from 1",
             "authors": [
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Department",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Health",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2015,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b33",
+            "title": "Universal health visitor reviews: advice for local authorities in delivery of the mandated universal health visitor reviews from 1",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2015
         },
         "BIBREF34": {
-            "ref_id": "b34",
-            "title": "Best start in life and beyond: improving public health outcomes for children, young people and families. guidance to support the commissioning of the healthy child programme 0-19: health visiting and school nursing services",
             "authors": [
                 {
                     "first": "Public",
-                    "middle": [],
                     "last": "Health England",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b34",
+            "title": "Best start in life and beyond: improving public health outcomes for children, young people and families. guidance to support the commissioning of the healthy child programme 0-19: health visiting and school nursing services",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2018
         },
         "BIBREF36": {
-            "ref_id": "b36",
-            "title": "Comparative accuracy of developmental screening questionnaires",
             "authors": [
                 {
                     "first": "R",
+                    "last": "Sheldrick",
                     "middle": [
                         "C"
                     ],
-                    "last": "Sheldrick",
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Marakovitz",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Garfinkel",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "JAMA Pediatr",
-            "volume": "174",
             "issn": "",
-            "pages": "366--74",
             "other_ids": {
                 "DOI": [
                     "10.1001/jamapediatrics.2019.6000"
                 ]
-            }
+            },
+            "pages": "366--74",
+            "ref_id": "b36",
+            "title": "Comparative accuracy of developmental screening questionnaires",
+            "venue": "JAMA Pediatr",
+            "volume": "174",
+            "year": 2020
         },
         "BIBREF37": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b37",
             "title": "ASQ-3) Analysis Children and Young People's Health Services Data Set (CYPHS)",
-            "authors": [],
-            "year": 2016,
             "venue": "NHS Digital, Ofsted. Ages and Stages Questionnaire",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2016
         },
         "BIBREF38": {
-            "ref_id": "b38",
-            "title": "Evaluating the use of a population measure of child development in the healthy child programme two year review",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Kendall",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Nasg",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Braun",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2014,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b38",
+            "title": "Evaluating the use of a population measure of child development in the healthy child programme two year review",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2014
         },
         "BIBREF39": {
+            "authors": [
+                {
+                    "first": "Public",
+                    "last": "Health England",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b39",
             "title": "Early language identification measure and intervention",
-            "authors": [
-                {
-                    "first": "Public",
-                    "middle": [],
-                    "last": "Health England",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF40": {
+            "authors": [
+                {
+                    "first": "Public",
+                    "last": "Health England",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b40",
             "title": "Identifying and supporting children's early language needs",
-            "authors": [
-                {
-                    "first": "Public",
-                    "middle": [],
-                    "last": "Health England",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF41": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b41",
             "title": "Unlocking talent, fulfilling potential. A plan for improving social mobility in England",
-            "authors": [],
-            "year": 2017,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2017
         },
         "BIBREF42": {
-            "ref_id": "b42",
-            "title": "Early language identification measure and intervention: guidance handbook",
             "authors": [
                 {
                     "first": "Public",
-                    "middle": [],
                     "last": "Health England",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b42",
+            "title": "Early language identification measure and intervention: guidance handbook",
             "venue": "",
             "volume": "",
+            "year": 2020
+        },
+        "BIBREF5": {
+            "authors": [],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b5",
+            "title": "Office for the Children's Commissioner. Best beginnings in the early years: a proposal for a new early years guarantee to give all children in England the best start in life",
+            "venue": "",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF6": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b6",
+            "title": "visitor reviews: advice for local authorities in delivery of the mandated universal health visitor reviews from 1",
+            "venue": "",
+            "volume": "",
+            "year": 2015
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "Public",
+                    "last": "Health England",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b7",
+            "title": "Early language identification measure and intervention",
+            "venue": "",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "Public",
+                    "last": "Health England",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b8",
+            "title": "Early language identification measure and intervention: guidance Handbook",
+            "venue": "",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "",
+                    "last": "Hm Government",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b9",
+            "title": "The best start for life: a vision for the 1,001 critical days. the early years healthy development review report",
+            "venue": "",
+            "volume": "",
+            "year": 2021
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 155,
+                    "ref_id": "BIBREF0",
+                    "start": 152,
+                    "text": "[1]"
+                },
+                {
+                    "end": 159,
+                    "ref_id": "BIBREF1",
+                    "start": 156,
+                    "text": "[2]"
+                },
+                {
+                    "end": 163,
+                    "ref_id": "BIBREF2",
+                    "start": 160,
+                    "text": "[3]"
+                },
+                {
+                    "end": 167,
+                    "ref_id": "BIBREF3",
+                    "start": 164,
+                    "text": "[4]"
+                },
+                {
+                    "end": 171,
+                    "ref_id": null,
+                    "start": 168,
+                    "text": "[5]"
+                },
+                {
+                    "end": 358,
+                    "ref_id": "BIBREF5",
+                    "start": 357,
+                    "text": "6"
+                },
+                {
+                    "end": 537,
+                    "ref_id": "BIBREF5",
+                    "start": 536,
+                    "text": "6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "In England, there has been a sustained crossgovernment focus on identifying services and policies for babies and young children to reduce inequalities. [1] [2] [3] [4] [5] These policies represent a response to the evidence that at age 5 year, certain groups of children are so far behind in terms of development that they will 'struggle to ever catch up'. 6 Children who start school with lower than expected levels of development are more likely to be excluded from school or have social services involvement by the time they are 11. 6 By age 16,"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 346,
+                    "ref_id": "BIBREF0",
+                    "start": 343,
+                    "text": "(1)"
+                },
+                {
+                    "end": 809,
+                    "ref_id": null,
+                    "start": 808,
+                    "text": "\u25ba"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Strengths and limitations of this study",
+            "text": "\u25ba This is the first study to analyse the coverage and intensity of health visiting in England, also taking into account additional (non-mandated) contacts from the health visiting team. \u25ba We addressed incompleteness in the national administrative data on health visiting in England by limiting our analyses to subsets of most complete data by (1) developing methods to identify a research-ready subset of the national data using comparisons to reference data sources and (2) limiting analyses to local areas with <10% missing data for vulnerability indicators. \u25ba Our approach to dealing with incomplete data (including only most complete data) limits the generalisability of our results to the whole of England, with particular implications for results about vulnerable children and different ethnic groups. \u25ba We were reliant on the information recorded in the administrative data, all of which is entered by the health visiting teams. \u25ba Despite the limitations, this is an important contribution to the evidence-base about how health visiting is delivered in England, which is foundational to making any improvements or modifications to the service."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 138,
+                    "ref_id": "BIBREF5",
+                    "start": 137,
+                    "text": "6"
+                },
+                {
+                    "end": 1354,
+                    "ref_id": null,
+                    "start": 1351,
+                    "text": "6 7"
+                },
+                {
+                    "end": 1538,
+                    "ref_id": "BIBREF7",
+                    "start": 1535,
+                    "text": "[8]"
+                },
+                {
+                    "end": 1542,
+                    "ref_id": "BIBREF8",
+                    "start": 1539,
+                    "text": "[9]"
+                },
+                {
+                    "end": 1547,
+                    "ref_id": "BIBREF9",
+                    "start": 1543,
+                    "text": "[10]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 518,
+                    "ref_id": null,
+                    "start": 510,
+                    "text": "figure 1"
+                },
+                {
+                    "end": 1797,
+                    "ref_id": null,
+                    "start": 1789,
+                    "text": "figure 1"
+                }
+            ],
+            "section": "Strengths and limitations of this study",
+            "text": "Open access disadvantaged children are 18 months behind their peers and 40% of this development gap had already emerged by the age of 5. 6 There is one universal intervention programme for preschool children in England, which specifically aims to address inequalities and promote health and development of young children: The Healthy Child Programme (HCP 0-5, see figure 1), led by Health visitors. Health visitors are specialist child and family public health nurses who lead a team of mixed skill staff (see figure 1 ). There are models of health visiting in some countries of the world: Child Health Nurses (Sweden), Public Health Nurses (America Canada, Ireland), Child and Family Health Nurses (Australia), Plunket Nurses (New Zealand), Social Nurses (Belgium), Lady Health Visitors and Lady Health Workers (Pakistan) and Patronage Nurses (Serbia, Kosovo, Kazakhstan). However, health Visiting in England is unique in its universal coverage (figure 1). A key part of the HCP 0-5 is five mandated contacts by the health visiting team before a child turns 3 year old (figure 1). The last of these reviews is at 2-2\u00bd year, and represents a vital opportunity to assess a child's readiness to learn, their physical and social and emotional development and to identify any additional support needed to start school on a level footing with their peers. 6 7 Since 2018, there has been particularly high cross-government policy focus on the role that the 2-2\u00bd year review can play in reducing social inequalities in cognitive development. [8] [9] [10] As part of a holistic assessment of the child during the 2-2\u00bd year review, practitioners are required to use the Ages and Stages Questionnaire (ASQ-3 11 ), and since 2020, the Early Language Identification Measure (ELIM) is recommended. See figure 1 for a more detailed explanation of these tools."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 322,
+                    "ref_id": "BIBREF9",
+                    "start": 320,
+                    "text": "10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Strengths and limitations of this study",
+            "text": "There is now extensive recognition that the critical 1001 days (conception to age 2) represents the best opportunity for intervening with the aim of reducing inequalities, and the Leadsom report (March 2021) highlights the need for every local authority (LA) to develop a Start for Life offer, in order to achieve this. 10 To evaluate the impact of specific policies and interventions delivered in the critical 1001 days, we need a measure of child development for all children at the end of this period (age 2) which is complete, accurate and available for analysis, such as the ASQ-3 and/or ELIM."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 573,
+                    "ref_id": "BIBREF5",
+                    "start": 572,
+                    "text": "6"
+                },
+                {
+                    "end": 576,
+                    "ref_id": "BIBREF11",
+                    "start": 574,
+                    "text": "12"
+                },
+                {
+                    "end": 944,
+                    "ref_id": "BIBREF12",
+                    "start": 940,
+                    "text": "[13]"
+                },
+                {
+                    "end": 949,
+                    "ref_id": "BIBREF13",
+                    "start": 945,
+                    "text": "[14]"
+                },
+                {
+                    "end": 954,
+                    "ref_id": "BIBREF14",
+                    "start": 950,
+                    "text": "[15]"
+                },
+                {
+                    "end": 1440,
+                    "ref_id": "BIBREF12",
+                    "start": 1438,
+                    "text": "13"
+                },
+                {
+                    "end": 1502,
+                    "ref_id": "BIBREF15",
+                    "start": 1500,
+                    "text": "16"
+                },
+                {
+                    "end": 1747,
+                    "ref_id": "BIBREF9",
+                    "start": 1745,
+                    "text": "10"
+                },
+                {
+                    "end": 2349,
+                    "ref_id": null,
+                    "start": 2344,
+                    "text": "17 18"
+                },
+                {
+                    "end": 2566,
+                    "ref_id": "BIBREF18",
+                    "start": 2564,
+                    "text": "19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Strengths and limitations of this study",
+            "text": "Despite recognition of the importance of the 2-2\u00bd year review both for supporting individual families and for collecting data to support planning and policies at a local and national population level, there is evidence that a substantial proportion of children still do not receive a 2-2\u00bd year review. Data from Public Health England (PHE) 'interim reporting metrics' (referred to as 'metrics' in this paper) indicate that 22% of eligible children in England did not have a record of 2-2\u00bd year review in 2018-2020, with substantial variation across the country (27%-97%). 6 12 PHE has now been replaced with Office for Health Improvement and Disparities (2021) so we refer to (ex)PHE. The Children's Commissioner and (ex)PHE both estimate that 9 out of 10 children receiving a 2-2\u00bd year review also had an ASQ-3 completed but other studies have found significant variability across England in the implementation and reporting of the ASQ-3. [13] [14] [15] The subuniversal reach of the 2-2\u00bd year review has prompted questions about whether some children are systematically more likely to miss out on a review. In 2020, the Children's Commissioner tried to ascertain if vulnerable children were differentially likely to have a 2-2\u00bd year review than their peers but found that most LAs did not collect the necessary data, concluding: 'There is little evidence that local areas are ensuring that their vulnerable young children are checked'. 13 Since then, (ex)PHE has published experimental statistics, 16 suggesting that the likelihood of receiving mandated reviews varies with ethnicity, and that children living in the most affluent areas of England were more likely to receive a mandated review than children living in the more deprived areas. 10 However, these emerging social patterns need further confirmation. Additionally, we do not know whether additional (non-mandated) contacts by the health visiting team are similarly patterned. It may be, for example, that the children who miss out on a mandated review are seeing members of the health visiting team regularly for other reasons. More recent experimental statistics from (ex)PHE (June 2021) suggested that children in the most deprived neighbourhoods are more likely to get additional contacts from the health visiting, but these analyses did not also include the mandated reviews. 17 18 AIM We aimed to ascertain whether certain groups of children were less likely to receive their 2-2\u00bd year review than other children. We used a national administrative dataset (the Community Services Dataset; CSDS) 19 to calculate the percentage of children in 2018/2019 who received their 2-2\u00bd year review, stratified by ethnic group, deprivation quintile, safeguarding vulnerability and Looked After Child Status. We investigated whether those that missed out on their 2-2\u00bd year review were seeing the health visiting team for other reasons in the same time period."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and setting",
+            "text": "This study comprises a cross-sectional analysis of coverage of the 2-2\u00bd year health visiting review and coverage and intensity of additional health visiting contacts for children aged 2 in England in 2018/2019, stratified by ethnic group, deprivation and 'vulnerability' indicators."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 337,
+                    "ref_id": null,
+                    "start": 329,
+                    "text": "15 29-44"
+                },
+                {
+                    "end": 1250,
+                    "ref_id": null,
+                    "start": 1245,
+                    "text": "10 16"
+                },
+                {
+                    "end": 1303,
+                    "ref_id": "BIBREF16",
+                    "start": 1301,
+                    "text": "17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 232,
+                    "ref_id": null,
+                    "start": 224,
+                    "text": "Figure 1"
+                }
+            ],
+            "section": "Data source",
+            "text": "The CSDS contains individual-level longitudinal administrative data from community services in England since 2015, including data on mandated and additional contacts with health visiting services. It is operated by National Figure 1 Delivery of the HCP by health visiting teams and use of ASQ-3 and ELIM in the 2-2\u00bd year review. 15 29-44 Open access Health Service (NHS) Digital, and providers of publicly funded community services (including NHS trusts, private providers and the voluntary sector) are legally mandated to submit data. CSDS captures basic child characteristics (age, ethnicity), contacts with health visiting services (type, frequency, length, date) and a wider range of identified needs in children such as referral from or to specialist services. Quintiles of deprivation are derived from the Index of Multiple Deprivation (IMD), based on the child's postcode of usual address. CSDS is the only child-level national source of information about health visiting in England but is a relatively new dataset, with outputs classified by NHS Digital as experimental. To our knowledge, the only published analysis of CSDS has been (ex)PHE's experimental statistics describing patterns in mandated reviews, cited by the Leadsom review 10 16 and (separately) patterns of additional contacts. 17 Our 'research-ready' subset of data We analysed a pseudonymised extract of CSDS that was held within (ex)PHE for the purpose of delivering (ex) PHE's core work programme and priorities, for contacts between 1 April 2018 and 31 March 2019. To account for variation in the completeness of CSDS data across England and over time, we developed and applied methods for identifying a subset of 'research-ready' CSDS data for analysis (full details in online supplemental material 1). The research-ready subset of data was restricted to LAs with a high level of data completeness. We checked the completeness of CSDS by comparing the number of eligible children and health visitor contacts recorded in CSDS with ONS data on births, health visitor contacts reported within (ex)PHE metrics and anonymised health visiting data obtained directly from three LAs."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data source",
+            "text": "Our research-ready dataset for analyses of the 2-2\u00bd year review in 2018/2019 included 181 130 children from 33 LAs. Children in the research-ready dataset were similarly deprived but less ethnically diverse than all children in England (see online supplemental material 1). We identified a further subset of 13 LAs with 18 240 children with sufficiently complete data (<10% missing) for analyses of Looked After Child Status and 7 LAs with 15 485 children with sufficiently complete data on the data item 'Safeguarding Vulnerability'."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analyses",
+            "text": "We estimated the percentage of eligible children who We calculated the percentage of children who received any face-to-face contact with a member of the heath visiting team for any reason (including the mandated 2-2\u00bd year review and additional contacts) in 2018/2019, by location of contact (home/any other location). We calculated the median and IQR for the number of all attended contacts per child (including letters and phone calls) and face-to-face 'attended' contacts. We quantified the number of children with a recorded ASQ-3 but no 2-2\u00bd year review recorded, as an indication of 2-2\u00bd year reviews that took place but might not have a 2-2\u00bd year review code attached."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 584,
+                    "ref_id": "BIBREF18",
+                    "start": 582,
+                    "text": "19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Analyses",
+            "text": "We stratified results by ethnicity, deprivation (IMD quintile) and vulnerability, where a 'vulnerable' child was defined as one with a code indicating a safeguarding vulnerability or Looked After Child at any point during 2018/2019. Both codes are entered manually by a member of the health visiting team as part of their usual care of the child. The 'safeguarding vulnerability' code indicates factors such as referral from police or children's social care, significant injury, known or suspected domestic abuse, worrying parent behaviour or concerns about parental mental health. 19 Analysis of these characteristics was only conducted for LAs with less than 10% missing data for these variables (N=13 for Looked After Children and N=7 for safeguarding vulnerability). As IMD was complete for all 33 LAs and ethnicity had a similar level of completeness (16%-23% missing) across all LAs, we included 33 LAs in analyses of these variables."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient and public involvement",
+            "text": "We did not conduct any patient or public involvement for this study."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS",
+            "text": "In our research-ready dataset, 74% of eligible children received their 2-2\u00bd year review, 76% had any face-to-face contact with the health visiting team in the previous 12 months (including a 2-2\u00bd year review and additional contacts) and 78% had any contact, including letters or phone calls (table 1). If we assume that all the children with an ASQ-3 record had a 2-2\u00bd year review, our estimate of children with a 2-2\u00bd year review increases to 81%."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS",
+            "text": "The most deprived quintile of children were less likely to have received a 2-2\u00bd year review (72%) than children in the least deprived quintile (78%), with a gradient across quintiles. This pattern was reversed (on a small scale) when additional contacts were taken into account (80% for the most deprived vs 78% for the least deprived quintile, table 1). Looked After Children were much less likely to have received a 2-2\u00bd year review recorded compared with other children (44% compared with 69%, table 1). However, this difference disappeared when all face-to-face additional contacts with the health visiting team were included. The lower proportion of 2-2\u00bd year reviews for Looked After Children was not explained by missed appointments: all 90 Looked After Children with scheduled 2-2\u00bd year reviews were recorded as 'attended'. "
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 315,
+                    "ref_id": "TABREF0",
+                    "start": 306,
+                    "text": "(table 1)"
+                }
+            ],
+            "section": "Open access",
+            "text": "The small number of children with a safeguarding vulnerability (n=205), were slightly less likely to have received a 2-2\u00bd year review (83%) than other children (86%) and this held true when additional contacts were taken into account. Three were no clear patterns of 2-2\u00bd year reviews across ethnic groups (table 1) . However, analyses that included additional contacts showed there was a lower proportion of white children receiving contacts (73%) than children in the other ethnic categories (80%-90%, table 1)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "The majority of all children (76%), children with safeguarding vulnerabilities recorded (78%) and Looked After children (71%), had a record of a contact with health visiting services, either for a 2-2\u00bd year review or as an additional contact (table 1). The most common face-to-face activities (n=110 780) for children aged 2, other than the 2-2\u00bd year review, were 'other' (31%, n=34 180), assessments (23%, n=26 015), counselling, advice or support (17%, n=18 875) and clinical interventions (15%, n=17 145), which include individualised care plans, for example parenting advice, support with behaviour and child development. These figures include multiple activities recorded for the same child (including on the same day)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 681,
+                    "ref_id": null,
+                    "start": 672,
+                    "text": "(table 2)"
+                }
+            ],
+            "section": "Open access",
+            "text": "A substantial proportion of all children (24%), children with a 'safeguarding vulnerability' recorded (22%) and Looked After children (29%) did not have a record of either a 2-2\u00bd year review or any other face-to-face contact (table 2). Most of the children without a face-toface contact did not have a record of letters or telephone calls from health visiting services, suggesting no contacts were attempted. On average, children that had any type of contact with health visiting services saw a member of the team once in this period, compared with three times for children with a safeguarding vulnerability code and five times for children with a Looked After Child code (table 2) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 268,
+                    "ref_id": "TABREF2",
+                    "start": 259,
+                    "text": "(table 3)"
+                }
+            ],
+            "section": "Open access",
+            "text": "Overall, 28% of children with a face-to-face contact were seen at home, and the percentage of at home contacts was greater for Looked After children (63%), children with safeguarding vulnerabilities (78%), and children living in the most deprived areas (38%) (table 3) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access",
+            "text": "However, if all contacts with missing data on location (12%; 8805/70 695) were in fact home visits, the proportion of all face-to-face contacts that were in a child's home could be as high as 40%."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Main findings",
+            "text": "The majority (>70%) of eligible children in our sample, including those defined as vulnerable, were engaged with health visiting services and received their 2-2\u00bd year review. Children in the most deprived areas were slightly more likely to miss out on a 2-2\u00bd year review and Looked After children were much more likely to miss out on this review. However, when all additional contacts were included, the pattern was reversed (for deprivation) or disappeared (for Looked After children). This highlights the importance of including additional contacts in analyses when investigating whether the delivery of health visiting in England is socially patterned. We also found that Looked After and the most deprived children who were in contact with the health vsiting sevice according to our data received more intensive health visiting than their peers, with more frequent face-to-face contacts. Although we found no evidence that children with a safeguarding vulnerability recorded were any more or less likely to receive a 2-2\u00bd year review or an additional contact than their peers, we did find that when this group had at least one face-to-face contact, they received more intensive health visiting than average."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 612,
+                    "ref_id": "BIBREF12",
+                    "start": 610,
+                    "text": "13"
+                },
+                {
+                    "end": 839,
+                    "ref_id": "BIBREF12",
+                    "start": 837,
+                    "text": "13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main findings",
+            "text": "Our results suggest that there are groups of high need children (eg, deprived children and Looked After children) who are engaged with the health visiting team but do not receive their mandated 2-2\u00bd year review. We could not ascertain how far children without a 2-2\u00bd year review were having their needs formally assessed through other routes such as a statutory Looked After Child review, as part of a Child Protection Plan or had developmental delay or additional needs identified by the health visiting team prior to the 2-2 \u00bd year review, as suggested by an analysis by the Children's Commissioner in 2020. 13 The same analysis by the Children's Commissioner reported Open access that some LAs had stated that the 2-2 \u00bd year review may not always be appropriate when reviewing children with complex heath needs or development delays. 13 Our findings raise similar questions about whether the 2-2\u00bd year review and/or the ASQ-3 is perceived as appropriate for high need groups in the population, both by professionals and parents/carers. Our results also suggest that there might be two distinct groups of vulnerable children with regard to the receipt of health visiting. We identified a majority group of vulnerable children who received multiple face-to-face contacts within a 12-month period, often in the child's home. This group appears to be receiving intensive health visiting, consistent with the model of proportionate universalism that underpins health visiting in England (a universal service for all children but with greater support and service provision for children in families with identified needs). The second group comprised a substantial minority of vulnerable children who were not in contact with the health visitor team at all: 22% of children with safeguarding vulnerabilities and 29% of Looked After children did not have a record of either a 2-2\u00bd year review or any other face-to-face additional contact in the year. As we did not find evidence of attempted contacts with these children in CSDS, there is a real possibility that these vulnerable children might not have heard from or seen a member of the health visiting team within the year."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 150,
+                    "ref_id": "BIBREF15",
+                    "start": 148,
+                    "text": "16"
+                },
+                {
+                    "end": 311,
+                    "ref_id": "BIBREF15",
+                    "start": 309,
+                    "text": "16"
+                },
+                {
+                    "end": 769,
+                    "ref_id": "BIBREF16",
+                    "start": 767,
+                    "text": "17"
+                },
+                {
+                    "end": 1879,
+                    "ref_id": "BIBREF19",
+                    "start": 1877,
+                    "text": "20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Main findings",
+            "text": "Our results on the 2-2\u00bd year review are largely consistent with the experimental statistics published by (ex) PHE, with the exception of ethnicity. 16 (Ex)PHE found that children from ethnic minority groups were less likely than white children to receive the mandated reviews, including the 2-2\u00bd year review. 16 The difference is likely due to poor data completeness in CSDS and different analytical approaches to dealing with this incompleteness (see online supplemental material 3). Our results on additional contacts are also largely consistent with the (ex)PHE experimental statistics, which suggest that children likely to have higher needs (eg, deprived children and receiving statutory child protection services) receive more additional contacts than average. 17 Our results build on the (ex)PHE statistics by bringing together mandated and additional contacts in one analysis, which facilitates for the first time estimates of children not seeing the health visiting team for any reason in the 12-month period. Although the health visiting service seems to be achieving a model of proportionate universalism for some children with known vulnerabilities (with multiple visits a year, often in the child's home), there was also a substantial minority of vulnerable children without any recorded contact from the health visiting team. This is of significant concern, given the likely concentration of health and welfare need in these groups and makes it unlikely that the current format and delivery of the 2-2\u00bd year review is helping to address inequalities in school readiness as intended. The secondary effects of the COVID-19 pandemic, including heightened need and reduced workforce capacity (particularly the number of qualified health visitors), are likely to exacerbate the shortfall both in universal reach and provision of extra intensive services where needed. 20 "
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 116,
+                    "ref_id": "BIBREF20",
+                    "start": 114,
+                    "text": "21"
+                },
+                {
+                    "end": 220,
+                    "ref_id": "BIBREF21",
+                    "start": 218,
+                    "text": "22"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 627,
+                    "ref_id": null,
+                    "start": 619,
+                    "text": "figure 1"
+                }
+            ],
+            "section": "CONCLUSIONS",
+            "text": "Since completion of this study, the HCP is being revised to be 'universal in reach and personalised in response'. 21 Our study evidences the gap between this policy ambition and the current reality of health visiting. 22 Further work is needed to establish reasons for low coverage of the 2-2\u00bd year review in Children Looked After and to generate recommendations about the most suitable way of delivering the 2-2\u00bd year review to (1) all children and (2) Looked After Children and other groups with known complex needs or vulnerabilities. Relevant factors may include skill mix (health visitor vs other team member, see figure 1 ), continuity of care, quality of reviews and referral pathways following identification of need."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 282,
+                    "ref_id": "BIBREF23",
+                    "start": 280,
+                    "text": "24"
+                },
+                {
+                    "end": 823,
+                    "ref_id": "BIBREF23",
+                    "start": 821,
+                    "text": "24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "CONCLUSIONS",
+            "text": "In order to produce reliable estimates, researchers require access to high quality national data from health visiting services linked to other datasets (such as primary care, hospital, social care and education) for the whole of England. 23 CSDS is not yet sufficiently complete. 24 NHS Digital and (ex)PHE have been undertaking quality improvement work to address this. The findings of this study suggest that policies and/or funding to accelerate the pace of CSDS quality improvements should be considered at a national level. Further work is needed both on how best to support local practitioners to improve data recording in their systems and on how data transfer from local systems into CSDS might be improved, given the evidence that some data on health visiting contacts in local systems do not make it into CSDS. 24 "
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 558,
+                    "ref_id": "BIBREF23",
+                    "start": 556,
+                    "text": "24"
+                },
+                {
+                    "end": 945,
+                    "ref_id": null,
+                    "start": 940,
+                    "text": "25 26"
+                },
+                {
+                    "end": 1630,
+                    "ref_id": "BIBREF26",
+                    "start": 1628,
+                    "text": "27"
+                },
+                {
+                    "end": 1729,
+                    "ref_id": "BIBREF27",
+                    "start": 1727,
+                    "text": "28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations",
+            "text": "Our data did not allow us to follow a child over time, which might mean we slightly underestimate 2-2\u00bd year reviews as some children may have had their 2-2\u00bd year review just before or after our study period. As administrative data, CSDS codes will not capture everything health visitors identify or deliver. Information might be coded with high accuracy on local systems but 'lost' in the transfer to NHS Digital, for example, with use of slightly different codes. There is some evidence of this, based on our comparison of two local areas with CSDS data. 24 Second, contacts may be miscoded. Although our analyses of ASQ-3 records provide some evidence of this, the consistency of our results with other data 24 suggests that miscoding does not explain the one in five children 'missing' a 2-2\u00bd year review. We know that much abuse and neglect of children will not be coded in administrative data, even if it is suspected by professionals 25 26 which will lead to underestimating differences between vulnerable and other children. Many data items were too poorly completed to use, for example, child disability and staff type (eg, health visitor, nursery nurse). CSDS does not capture quality or meaning of the interaction between health visitors and parents. To obtain a full picture of health visiting activity in England, and the contribution of this service to child health and well-being, all types of LAs need to be investigated using a triangulation of data sources, including CSDS, locally held data, surveys and in-depth qualitative data collected from professionals and families, as a study in Scotland is attempting 27 and as we have funding to do for children living with adverse childhood experiences in England. 28 Our results cannot be confidently generalised to all children in England. The children in the 'researchready' data were not nationally representative in terms of ethnicity (online supplemental material 1) and the excluded LAs might be systematically different from those we included which had more complete data. Although our findings should be treated as hypotheses, this study marks an important first step in making use of existing, routinely collected data to understand the coverage and intensity of health visiting services in England."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Caroline",
+                "last": "Fraser",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Katie",
+                "last": "Harron",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Jane",
+                "last": "Barlow",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Samantha",
+                "last": "Bennett",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Geoffrey",
+                "last": "Woods",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Jenny",
+                "last": "Shand",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Sally",
+                "last": "Kendall",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "j.woodman@ucl.ac.uk",
+                "first": "Jenny",
+                "last": "Woodman",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Variation in health visiting contacts for children in England: cross-sectional analysis of the 2-2\u00bd year review using administrative data (Community Services Dataset, CSDS) Original research"
+    },
+    "paper_id": "277399818ade69944f90b5aa7e7646ec9c2a9723",
     "ref_entries": {
         "FIGREF0": {
-            "text": "2\u00bd year review. Our denominator comprised all children aged 2 on 31 March 2019 minus the number of children who had the 2-2\u00bd year review and were aged 3 on 31 March 2019 (see online supplemental material 2) for full details). The numerator comprised children aged 2 on 31 March 2019 who had a 2-2\u00bd year review scheduled and coded as 'attended' or with missing attendance data (5% of all 2-2\u00bd year reviews).",
             "latex": null,
+            "text": "2\u00bd year review. Our denominator comprised all children aged 2 on 31 March 2019 minus the number of children who had the 2-2\u00bd year review and were aged 3 on 31 March 2019 (see online supplemental material 2) for full details). The numerator comprised children aged 2 on 31 March 2019 who had a 2-2\u00bd year review scheduled and coded as 'attended' or with missing attendance data (5% of all 2-2\u00bd year reviews).",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "The percentage of children aged 2 with any face-to-face contact may be lower than the percentage of children with a 2-2\u00bd year review because we reduced the number of children in the denominator for the 2-2\u00bd year review to account for children with the 2-2\u00bd year review aged 3 (based on age at end of 2018/2019), and a small number of 2-2\u00bd year reviews were not be face to face (see online supplemental material 2 for full explanation).IMD, Index of Multiple Deprivation; LAs, local authorities.",
             "latex": null,
+            "text": "The percentage of children aged 2 with any face-to-face contact may be lower than the percentage of children with a 2-2\u00bd year review because we reduced the number of children in the denominator for the 2-2\u00bd year review to account for children with the 2-2\u00bd year review aged 3 (based on age at end of 2018/2019), and a small number of 2-2\u00bd year reviews were not be face to face (see online supplemental material 2 for full explanation).IMD, Index of Multiple Deprivation; LAs, local authorities.",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "Index of Multiple Deprivation; LAs, local authorities.",
             "latex": null,
+            "text": "Index of Multiple Deprivation; LAs, local authorities.",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "Percentage of children aged 2 with a 2-2\u00bd year review or any contact (face-to-face or other medium) with a health visiting team",
             "latex": null,
+            "text": "Percentage of children aged 2 with a 2-2\u00bd year review or any contact (face-to-face or other medium) with a health visiting team",
             "type": "table"
         },
         "TABREF1": {
-            "text": "",
             "latex": null,
+            "text": "",
             "type": "table"
         },
         "TABREF2": {
-            "text": "Percentage of children aged 2 with a record of a face-to-face contact in any location and at home by child characteristic However, the scale of the difference and whether it exists for different ethnic groups remains uncertain, largely as a result of poor data completeness in CSDS (online supplemental material 3). Poor data remain a significant barrier to understanding how health visiting is currently delivered, and the available national data for England can only generate results which should be treated as hypotheses, with a need for further exploration.",
             "latex": null,
+            "text": "Percentage of children aged 2 with a record of a face-to-face contact in any location and at home by child characteristic However, the scale of the difference and whether it exists for different ethnic groups remains uncertain, largely as a result of poor data completeness in CSDS (online supplemental material 3). Poor data remain a significant barrier to understanding how health visiting is currently delivered, and the available national data for England can only generate results which should be treated as hypotheses, with a need for further exploration.",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "Acknowledgements We would like to thank individuals in Public Health England for their comments and advice on early drafts, including Wendy Nicholson within Nursing, Maternity and Early years and Kate Thurland and Helen Smith. We thank Professor Ruth Gilbert at UCL Great Ormond Street Institute of Child Health for input into study design, methods and drafts. We are grateful to Care City, Barking and Dagenham, Havering and Redbridge CCG, London Borough of Barking and Dagenham, East Sussex County Council and East Sussex Healthcare Trust and Kent",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "acknowledgement"
-        },
-        {
-            "text": "County Council and Community Health NHS Foundation Trust for access to their local data and knowledge and expertise. We thank individuals at the Institute of Health Visiting for comments on this paper and earlier drafts.Contributors JW and KH conceived of the study, were responsible for design of the study and supervised all analyses which were carried out by CF. JW, KH, CF, JB, SB, GW and JS all contributed substantially to the design of the study. CF, KH, JB, SB, GW, JS, SK and JW substantially contributed to interpretation of data. JS, GW and SB provided access to locally held data and gave expert advice on data and the service context. CF and JW drafted the paper and KH, JB, SB, GW, JS and SK substantially contributed to its intellectual content, including in multiple revisions. CF, KH, JB, SB, GW, JS, SK and JW approve the final version of the paper for publication. JW and KH are jointly responsible for the overall content as guarantors.Funding This study was funded by the National Institute for Health Research (NIHR) Policy Research Programme, funder reference: PR-PRU-1217-21301; UCL award code: 177763. The views expressed are those of the author(s) and not necessarily those of the NIHR or the Department of Health and Social Care. This project is delivered as part of (ex)PHE's 2020/2021 Life Course Intelligence business plan for child and maternal health in order to understand CSDS data quality and its suitability for further analysis to understand trends, variation and inequalities in health visiting and outcomes for children in the early years. Competing interests None declared.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "annex"
-        },
-        {
-            "text": "Ethics approval This study involves human participants and was approved by UCL Institute of Education Research Ethics Committee on 1. May 2020 (Ref 1333). This is a secondary analysis of non-identifiable administrative health data. It would not be feasible to obtain consent, because (1) we do not have access to names and addresses with which to contact individuals, and obtaining these contact details would require a further disclosure of personal information, and (2) we used data on 181 130 children. It would not be possible to contact this large number of families. However, CSDS does not contain any direct patient identifiers such as names, addresses, NHS numbers or full dates of birth. This means the threat to patient anonymity is very low.Provenance and peer review Not commissioned; externally peer reviewed.Data availability statement Data may be obtained from a third party and are not publicly available. The authors do not have permission for onward sharing of the individual-level data underlying this article. Requests to access the CSDS data can be made to NHS Digital.Supplemental material This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.Open access This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: https://creativecommons.org/ licenses/by/4.0/.ORCID iDs Sally Kendall http://orcid.org/0000-0002-2507-0350 Jenny Woodman http://orcid.org/0000-0002-9403-4177",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Patient consent for publication Not applicable."
-        }
-    ]
+    }
 }

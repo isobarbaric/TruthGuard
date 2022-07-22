@@ -1,1 +1,1527 @@
-{"paper_id": "27940da5e1b0cb605d437565bc2f163d997a3694", "metadata": {"title": "Clinical Outcomes Associated With Respiratory Virus Detection Before Allogeneic Hematopoietic Stem Cell Transplant", "authors": [{"first": "Angela", "middle": ["P"], "last": "Campbell", "suffix": "", "affiliation": {"laboratory": "", "institution": "Fred Hutchinson Cancer Research Center", "location": {}}, "email": ""}, {"first": "Katherine", "middle": ["A"], "last": "Guthrie", "suffix": "", "affiliation": {"laboratory": "", "institution": "Fred Hutchinson Cancer Research Center", "location": {}}, "email": ""}, {"first": "Janet", "middle": ["A"], "last": "Englund", "suffix": "", "affiliation": {"laboratory": "", "institution": "Fred Hutchinson Cancer Research Center", "location": {}}, "email": ""}, {"first": "Robert", "middle": ["M"], "last": "Farney", "suffix": "", "affiliation": {"laboratory": "", "institution": "Fred Hutchinson Cancer Research Center", "location": {}}, "email": ""}, {"first": "Elisa", "middle": ["L"], "last": "Minerich", "suffix": "", "affiliation": {"laboratory": "", "institution": "Fred Hutchinson Cancer Research Center", "location": {}}, "email": ""}, {"first": "Jane", "middle": [], "last": "Kuypers", "suffix": "", "affiliation": {"laboratory": "", "institution": "Fred Hutchinson Cancer Research Center", "location": {}}, "email": ""}, {"first": "Lawrence", "middle": [], "last": "Corey", "suffix": "", "affiliation": {"laboratory": "", "institution": "Fred Hutchinson Cancer Research Center", "location": {}}, "email": ""}, {"first": "Michael", "middle": [], "last": "Boeckh", "suffix": "", "affiliation": {"laboratory": "", "institution": "Fred Hutchinson Cancer Research Center", "location": {}}, "email": ""}]}, "abstract": [{"text": "Background. The management of respiratory virus infections prior to hematopoietic cell transplant (HCT) is difficult. We examined whether respiratory virus detection before HCT influenced the requirement for bronchoscopy, hospitalization, and overall survival following HCT.", "cite_spans": [], "ref_spans": [], "section": "Abstract"}, {"text": "Methods. Pre-HCT and weekly post-HCT nasal washes were collected through day 100 from patients with and without symptoms. Samples were tested by multiplex polymerase chain reaction for respiratory syncytial virus, parainfluenza viruses 1-4, influenza A and B, human metapneumovirus, adenovirus, and human rhinoviruses, coronaviruses, and bocavirus.", "cite_spans": [], "ref_spans": [], "section": "Abstract"}, {"text": "Results. Of 458 patients, 116 (25%) had respiratory viruses detected pre-HCT. Overall, patients with viruses detected pre-HCT had fewer days alive and out of the hospital and lower survival at day 100 (adjusted hazard ratio [aHR], 2.4; 95% confidence interval [CI], 1.3-4.5; P = .007) than patients with negative samples; this risk was also present with rhinovirus alone (aHR for mortality, 2.6; 95% CI, 1.2-5.5; P = .01). No difference in bronchoscopy incidence was seen in patients with and without respiratory viruses (aHR, 1.3; 95% CI, .8-2.0; P = .32). In symptomatic patients, those with respiratory viruses detected had increased overall mortality compared with patients without viruses detected (unadjusted HR, 3.5; 95% CI, 1.0-12.1; P = .05); among asymptomatic patients, detection of respiratory viruses was not associated with increased mortality.", "cite_spans": [], "ref_spans": [], "section": "Abstract"}, {"text": "Conclusions. These data support routine testing for respiratory viruses among symptomatic patients before HCT, and delay of transplant with virus detection when feasible, even for detection of rhinovirus alone. Further study is needed to address whether asymptomatic patients should undergo screening for respiratory virus detection before HCT.", "cite_spans": [], "ref_spans": [], "section": "Abstract"}], "body_text": [{"text": "The decision to proceed with hematopoietic cell transplant (HCT) in patients with new upper respiratory symptoms is challenging. Guidelines co-sponsored by national and international societies recommend delaying HCT in patients with pretransplant upper respiratory tract infections (URTIs) [1, 2] , although documentation of benefits of delaying is limited and the strength of evidence is low (BIII) [3] . Potential disadvantages of delay include progression of underlying disease and logistical issues regarding donor and patient availability.", "cite_spans": [{"start": 290, "end": 293, "text": "[1,", "ref_id": "BIBREF0"}, {"start": 294, "end": 296, "text": "2]", "ref_id": "BIBREF1"}, {"start": 400, "end": 403, "text": "[3]", "ref_id": "BIBREF2"}], "ref_spans": [], "section": ""}, {"text": "The benefit of delaying HCT may depend on specific viruses and symptoms present. One retrospective analysis of pretransplant URTI caused by respiratory syncytial virus (RSV) found that delaying HCT reduced the risk of pneumonia after transplant [3] . Another study evaluating parainfluenza virus (PIV) infections pre-HCT determined that complications were not increased after HCT [4] . Data in children are even more limited [5, 6] .", "cite_spans": [{"start": 245, "end": 248, "text": "[3]", "ref_id": "BIBREF2"}, {"start": 380, "end": 383, "text": "[4]", "ref_id": "BIBREF3"}, {"start": 425, "end": 428, "text": "[5,", "ref_id": "BIBREF4"}, {"start": 429, "end": 431, "text": "6]", "ref_id": "BIBREF5"}], "ref_spans": [], "section": ""}, {"text": "Many transplant centers test symptomatic patients for respiratory viruses by polymerase chain reaction (PCR) before HCT and delay transplant, if possible, when respiratory symptoms are present and respiratory viruses including influenza, PIV, RSV, or human metapneumovirus (HMPV) are detected [2] . For the most prevalent and now readily detectable viruses including human coronaviruses (HCoVs), human bocavirus (HBoV), and human rhinoviruses (HRVs), uncertainty exists regarding proceeding to HCT as consequences of mild URTI due to these viruses are unknown. For centers that collect screening pretransplant nasal specimens, the decision to proceed is problematic when asymptomatic viral shedding is detected.", "cite_spans": [{"start": 293, "end": 296, "text": "[2]", "ref_id": "BIBREF1"}], "ref_spans": [], "section": ""}, {"text": "We evaluated clinical outcomes associated with pretransplant respiratory viruses in patients followed prospectively before and through 100 days after HCT. Multiplex PCR testing for respiratory viruses was performed on nasal washes (NWs) and on lower respiratory tract samples, if available. We determined whether detection of a pretransplant respiratory virus, the type of virus, or accompanying symptoms influenced patient outcomes during the first 100 days after HCT. Primary outcome measures included lower respiratory tract disease requiring bronchoscopy, days alive and out of hospital, and overall mortality.", "cite_spans": [], "ref_spans": [], "section": ""}, {"text": "This prospective study was performed in allogeneic HCT recipients undergoing transplant between December 2005 and February 2010 at Fred Hutchinson Cancer Research Center. This study was part of a surveillance study among HCT recipients followed for 1 year after HCT. Following written informed consent, weekly virologic surveillance before and up to 100 days posttransplant was conducted.", "cite_spans": [], "ref_spans": [], "section": "Patients"}, {"text": "Respiratory samples in this study include those collected in the presence of clinical symptoms (\"symptomatic\") or for surveillance only (\"surveillance\"). NWs (or nasopharyngeal swabs if NWs were precluded clinically) and oropharyngeal swab specimens were obtained from participants at least once before and weekly after HCT. NWs were collected using 5 mL of saline per nostril for adults (2.5 mL/nostril for children), and combined with oropharyngeal swabs for testing. A research specimen was generally collected within 14 days before the scheduled HCT regardless of respiratory symptoms. During the study period, NWs were routinely collected for respiratory viruses from all patients with pretransplant respiratory symptoms; therefore, clinical samples may have been collected before, after, or instead of research samples. If a research sample was collected in the absence of a clinical sample, it was designated as asymptomatic surveillance. From December 2007 to April 2008, collection of pretransplant screening NW was instituted because of an RSV outbreak. The collection of pre-HCT surveillance specimens regardless of symptoms was routine for children aged <8 years until November 2009, when collection was extended to include children aged \u226417 years. Results of clinical viral testing from symptomatic patients, patients screened during RSV outbreaks, and children with surveillance NWs were known to the ordering provider per clinical practice. Pretransplant samples collected specifically for research were not tested and results were not reported in real time.", "cite_spans": [], "ref_spans": [], "section": "Respiratory Samples and Definitions"}, {"text": "Respiratory virus detection in clinical samples, particularly from symptomatic patients, may have delayed HCT; actual transplant may have occurred weeks to months after collection of the initial sample. All clinical and research respiratory samples collected between 60 days and 1 day pre-HCT were analyzed. Results from pre-HCT lower respiratory tract samples were also included. Post-HCT NW specimens were collected weekly through day 100.", "cite_spans": [], "ref_spans": [], "section": "Respiratory Samples and Definitions"}, {"text": "All research and most clinical samples were tested by qualitative laboratory-developed PCR assays for 12 respiratory viruses [7] [8] [9] [10] [11] [12] [13] . Samples were considered positive if the PCR amplification plot crossed the threshold at <40 cycles. Qualitative results from clinical specimens were reported to physicians. Some clinical samples were tested by conventional methods, including viral culture, shell vial culture, or direct fluorescent antibody testing [13] . All PCR methods were performed according to College of American Pathologists standards.", "cite_spans": [{"start": 125, "end": 128, "text": "[7]", "ref_id": "BIBREF6"}, {"start": 129, "end": 132, "text": "[8]", "ref_id": "BIBREF7"}, {"start": 133, "end": 136, "text": "[9]", "ref_id": "BIBREF8"}, {"start": 137, "end": 141, "text": "[10]", "ref_id": "BIBREF9"}, {"start": 142, "end": 146, "text": "[11]", "ref_id": "BIBREF10"}, {"start": 147, "end": 151, "text": "[12]", "ref_id": "BIBREF11"}, {"start": 152, "end": 156, "text": "[13]", "ref_id": "BIBREF12"}, {"start": 475, "end": 479, "text": "[13]", "ref_id": "BIBREF12"}], "ref_spans": [], "section": "Laboratory Testing"}, {"text": "We examined 3 primary outcomes: (1) need for bronchoscopy, as a potential marker for underlying pneumonia because bronchoscopy is performed routinely on all patients suspected of lower respiratory tract disease; (2) number of days alive and out of hospital, as a marker for resource utilization; and (3) overall mortality. We also described whether pretransplant respiratory viruses persisted or caused progressive disease following transplant.", "cite_spans": [], "ref_spans": [], "section": "Study Outcomes"}, {"text": "Patient characteristics were compared between patients with and without pre-HCT respiratory viruses via \u03c7 2 test for categorical data and t test for continuous data. Cumulative incidence curves were used to estimate probabilities of time-to-event outcomes: incidence of bronchoscopy and overall mortality in the first 100 days. Death in the first 100 days was treated as a competing risk for bronchoscopy. Statistical significance of differences in event rates was evaluated with the proportional hazards regression model. Linear regression models estimated differences in days alive and out of hospital between patient groups. Factors considered potential confounders were included in the model if a difference of \u226510% in the estimated coefficient of interest was seen.", "cite_spans": [], "ref_spans": [], "section": "Statistical Analysis"}, {"text": "Respiratory viruses were classified into 2 groups according to likelihood of complications based on literature: group 1 included the well-described respiratory viral pathogens RSV, HMPV, PIV, influenza A and B, and adenovirus; group 2 included viruses potentially less likely to cause complications, and included HRV, HCoV, and HBoV. Outcomes were compared for patients across 3 groups (group 1 viruses, group 2 viruses, and negative) in simple and adjusted models. We also examined outcomes for viral infections with specific antiviral therapy available (ie, influenza and RSV), as well as for patients with rhinovirus. In unadjusted models, outcomes were evaluated comparing patients with any respiratory virus to those without respiratory viruses among symptomatic and asymptomatic patients (groups shown in Figure 1 ). Reported P values are 2-sided, based on the Wald statistic. No adjustments were made for multiple comparisons.", "cite_spans": [], "ref_spans": [{"start": 811, "end": 819, "text": "Figure 1", "ref_id": "FIGREF0"}], "section": "Statistical Analysis"}, {"text": "Respiratory samples were collected from 458 patients between day \u221260 and day \u22121 prior to allogeneic HCT between December 2005 and February 2010 ( Figure 1 ). Altogether, 445 (97%) patients had respiratory samples tested by PCR, and 13 by conventional methods. At least 1 pretransplant NW was collected from 451 (98%) patients; 7 patients underwent bronchoscopy without upper respiratory specimens collected. A single pretransplant sample was collected from 267 (58%) patients, 2 samples from 87 (19%), and \u22653 samples from 104 (23%). Surveillance samples were collected from 308 (67%) patients and symptomatic samples from 150 (33%) patients.", "cite_spans": [], "ref_spans": [{"start": 146, "end": 154, "text": "Figure 1", "ref_id": "FIGREF0"}], "section": "RESULTS"}, {"text": "One or more respiratory viruses were detected in 1 or more NWs from 116 (25%) patients up to 60 days pre-HCT; samples were negative in 342 other patients with 1 or more samples. Patient characteristics within groups defined by pretransplant respiratory viruses are shown in Table 1 . Patients with respiratory viruses detected were on average younger (P = .002) and more Abbreviations: CMV, cytomegalovirus; HCT, hematopoietic cell transplant; PBSCs, peripheral blood stem cells. a \"Standard\" = congenital hematologic disorders (eg, sickle cell anemia), paroxysmal nocturnal hemaglobinuria, aplastic anemia, chronic myeloid leukemia in chronic phase (or other myeloproliferative diseases such as agnogenic myeloid metaplasia without increased blasts), myelodysplastic syndromes without excess blasts, and leukemia and lymphoma in remission. \"High\" = all congenital immunodeficiency diseases and all other hematologic malignancies. likely to have high-risk underlying diseases (P = .009) than those with negative samples. Patients with respiratory viruses detected had lower baseline lymphocyte levels than patients with negative samples (P < .001). Twenty-four of 52 (46%) pediatric patients aged <18 years had respiratory viruses detected compared with 92 of 406 (23%) patients aged >18 years (P < .001; Table 2 ). Forty-five patients had group 1 viruses and 71 patients had group 2 viruses. Only 3 (7%) of 45 group 1 viruses (1 RSV, 2 PIV) were detected by asymptomatic surveillance, compared with 23 (32%) group 2 viruses (P = .001; Table 2 ). Among 9 patients with RSV and 10 with influenza, 78% and 90%, respectively, received treatment and/or underwent delay to transplant (2 patients with RSV were treated, 7 delayed; 8 patients with influenza were treated, 9 delayed). The median day of last detection before HCT was 30, 23, and 11 days for RSV, influenza, and HRV, respectively.", "cite_spans": [], "ref_spans": [{"start": 274, "end": 281, "text": "Table 1", "ref_id": "TABREF0"}, {"start": 1305, "end": 1312, "text": "Table 2", "ref_id": "TABREF1"}, {"start": 1536, "end": 1543, "text": "Table 2", "ref_id": "TABREF1"}], "section": "RESULTS"}, {"text": "Bronchoscopy was performed by clinicians without access to study results, although clinical test results were known. No difference in bronchoscopy incidence within 100 days posttransplant was seen in patients with and without respiratory viruses (adjusted hazard ratio [aHR], 1.3; 95% confidence interval [CI], .8-2.0; P = .32; Table 3 ). Day 100 estimates of time to first bronchoscopy were 16.7% (95% confidence interval [CI], 12.7%-20.6%) in the virus-negative group and 23.3% (95% CI, 15.6%-31.0%) in the positive group ( Figure 2A) .", "cite_spans": [], "ref_spans": [{"start": 328, "end": 335, "text": "Table 3", "ref_id": "TABREF2"}, {"start": 526, "end": 536, "text": "Figure 2A)", "ref_id": "FIGREF2"}], "section": "Bronchoscopy"}, {"text": "The risk for requiring bronchoscopy was higher, although not significantly, in patients with group 1 viruses than in those without a pretransplant virus; bronchoscopy incidence did not differ between patients with group 2 viruses and those without pretransplant viruses (Table 3) . Day 100 probability estimates were 28.9% (95% CI, 15.6%-42.1%) for group 1 and 19.7% (95% CI, 10.5%-29.0%) for group 2 ( Figure 2B ). Patients with pretransplant influenza or RSV were more likely to undergo bronchoscopy than patients without pretransplant viruses (aHR, 2.2; 95% CI, 1.0-4.9; P = .05); patients with other viruses did not have higher bronchoscopy rates than respiratory virus-negative patients ( Table 3) .", "cite_spans": [], "ref_spans": [{"start": 270, "end": 279, "text": "(Table 3)", "ref_id": "TABREF2"}, {"start": 403, "end": 412, "text": "Figure 2B", "ref_id": "FIGREF2"}, {"start": 694, "end": 702, "text": "Table 3)", "ref_id": "TABREF2"}], "section": "Bronchoscopy"}, {"text": "Eighteen of 116 patients with pretransplant viruses had lower respiratory tract infection (LRTI) with viruses detected in bronchoalveolar lavage fluid or lung biopsy: 14 had LRTI before transplant: 5 had PIV, 2 HCoV, 2 adenovirus, 3 HRV, 1 influenza A, and 1 HMPV (Table 2 ). In half the cases, transplant was delayed after respiratory virus detection. Six patients with LRTI before transplant died before day 100; 2 deaths were related to pretransplant respiratory viruses and 4 had unrelated causes (Table 4 ) [14] . Four patients developed LRTI posttransplant; 1 with HRV pneumonia survived after a brief intensive care unit hospitalization and 3 died (1 each from HRV, influenza, and HMPV; Table 4 ).", "cite_spans": [{"start": 512, "end": 516, "text": "[14]", "ref_id": "BIBREF13"}], "ref_spans": [{"start": 264, "end": 272, "text": "(Table 2", "ref_id": "TABREF1"}, {"start": 501, "end": 509, "text": "(Table 4", "ref_id": "TABREF3"}, {"start": 694, "end": 701, "text": "Table 4", "ref_id": "TABREF3"}], "section": "Bronchoscopy"}, {"text": "The days alive and out of hospital during the first 100 days posttransplant was used as a measure of resource utilization. Patients with pretransplant respiratory viruses spent 8 fewer days, on average, alive and out of hospital than those without respiratory viruses detected (adjusted 95% CI, \u221213 to \u22123 days; P = .002) ( Table 3 ; Figure 3A ). The number of days patients were alive and out of hospital was similar between virus groups ( Figure 3B ). Patients in either group had significantly fewer such days than those without a pretransplant respiratory virus (Table 3 ). Patients with influenza or RSV infection did not have a difference in hospitalization, but patients with HRV or other respiratory viruses had significantly fewer average days alive and out of hospital posttransplant compared with patients without pretransplant viruses (Table 3) .", "cite_spans": [], "ref_spans": [{"start": 323, "end": 330, "text": "Table 3", "ref_id": "TABREF2"}, {"start": 333, "end": 342, "text": "Figure 3A", "ref_id": "FIGREF3"}, {"start": 440, "end": 449, "text": "Figure 3B", "ref_id": "FIGREF3"}, {"start": 565, "end": 573, "text": "(Table 3", "ref_id": "TABREF2"}, {"start": 846, "end": 855, "text": "(Table 3)", "ref_id": "TABREF2"}], "section": "Hospitalization"}, {"text": "Patients with pretransplant respiratory viruses had higher overall mortality at day 100 compared with patients without pretransplant viruses (aHR, 2.4; 95% CI, 1.3-4.5; P = .007; Table 3) . Figure 4A shows overall survival by viral status; day 100 survival estimates were 92.1% (95% CI, 88.7%-94.5%) in the group without respiratory viruses compared with 84.5% (95% CI, 76.5%-89.9%) in patients with respiratory viruses detected. Seven deaths occurred in virus group 1 and 11 deaths in group 2 ( Table 2) . Overall survival at day 100 was similar in both groups, with a significantly lower risk of survival compared with patients without pretransplant respiratory viruses ( Figure 4B ; Table 3 ). The risk of death was not different between patients with influenza or RSV and those without pretransplant viruses. However, pretransplant rhinovirus detection was significantly associated with increased risk of death at day 100 (aHR, 2.6; 95% CI, 1.2-5.5; P = .01; Table 3 ). Five of 18 deaths by day 100 in groups 1 and 2 (or 5 [0.9%] deaths of 458 patients overall) were directly related to the pretransplant respiratory virus infection (Table 4) .", "cite_spans": [], "ref_spans": [{"start": 179, "end": 187, "text": "Table 3)", "ref_id": "TABREF2"}, {"start": 190, "end": 199, "text": "Figure 4A", "ref_id": "FIGREF4"}, {"start": 496, "end": 504, "text": "Table 2)", "ref_id": "TABREF1"}, {"start": 674, "end": 683, "text": "Figure 4B", "ref_id": "FIGREF4"}, {"start": 686, "end": 693, "text": "Table 3", "ref_id": "TABREF2"}, {"start": 963, "end": 970, "text": "Table 3", "ref_id": "TABREF2"}, {"start": 1137, "end": 1146, "text": "(Table 4)", "ref_id": "TABREF3"}], "section": "Overall Mortality"}, {"text": "Ninety of 150 (60%) symptomatic patients had respiratory viruses detected pre-HCT compared with 26 of 308 (8%) asymptomatic patients. Asymptomatic patients were older, more likely to have a matched-related donor, to have received peripheral blood stem cells (PBSCs), and had lower baseline lymphocyte levels than symptomatic patients (Supplementary Table 1 ). Nine of 29 (31%) asymptomatic patients aged <18 years had respiratory viruses detected compared with 17 of 279 (6%) asymptomatic patients \u226518 years old.", "cite_spans": [], "ref_spans": [{"start": 349, "end": 356, "text": "Table 1", "ref_id": "TABREF0"}], "section": "Outcomes in Symptomatic and Asymptomatic Patients"}, {"text": "Incidence of bronchoscopy in 150 symptomatic patients was not significantly higher among those with respiratory viruses than those without (unadjusted HR, 1.5; 95% CI, .7-3.1; P = .25); no significant difference in hospitalization days was seen (unadjusted mean difference, \u22125; 95% CI, \u221215 to 5; P = .32). Symptomatic patients with respiratory viruses detected pretransplant had higher overall mortality at day 100 (unadjusted HR, 3.5; 95% CI, 1.0-12.1; P = .05) compared with virus-negative patients. Among 308 asymptomatic patients with pretransplant surveillance samples, no significant differences in unadjusted outcomes were observed between patients with and without respiratory viruses detected for risk of bronchoscopy (HR, 0.7; 95% CI, . .001) . B, Days alive and out of hospital within the first 100 days after HCT by pretransplant respiratory viral status, by virus group. Group 1 includes respiratory syncytial virus, human metapneumovirus, parainfluenza virus, influenza A and B, and adenovirus (P = .03); group 2 includes human rhinovirus, human coronavirus, and human bocavirus (P = .007). Boxes represent the 25th, 50th, and 75th percentiles, and whiskers show the 10th and 90th percentiles.", "cite_spans": [], "ref_spans": [{"start": 747, "end": 752, "text": ".001)", "ref_id": "FIGREF0"}], "section": "Outcomes in Symptomatic and Asymptomatic Patients"}, {"text": "detected during the pretransplant evaluation in patients of all ages. Infected patients had significantly fewer days alive and out of hospital and higher overall mortality by day 100 compared with uninfected patients, and mortality appeared to occur mainly in symptomatic infected patients.", "cite_spans": [], "ref_spans": [], "section": "Outcomes in Symptomatic and Asymptomatic Patients"}, {"text": "Specific pretransplant viral infections were analyzed. Pretransplant influenza and RSV conferred no increase in risk of death or differences in out-of-hospital days, although pre-HCT detection of these viruses was associated with a trend toward increased incidence of bronchoscopy. Patients with other pretransplant viruses, including HRV, had significantly fewer days alive and out of hospital. Patients with HRV had significantly higher day 100 mortality than uninfected patients. One possible reason for this difference is that most patients with RSV and influenza received either antiviral treatment or underwent delay to transplant, whereas fewer patients with HRV had transplant delayed and thus remained positive at conditioning. Although some studies have indicated that pretransplant rhinovirus infection may not be a serious problem [15] , HRV has been reported to cause lower respiratory tract disease, with outcomes similar to influenza and other respiratory viruses [16] [17] [18] .", "cite_spans": [{"start": 843, "end": 847, "text": "[15]", "ref_id": "BIBREF14"}, {"start": 979, "end": 983, "text": "[16]", "ref_id": "BIBREF15"}, {"start": 984, "end": 988, "text": "[17]", "ref_id": "BIBREF16"}, {"start": 989, "end": 993, "text": "[18]", "ref_id": "BIBREF17"}], "ref_spans": [], "section": "Outcomes in Symptomatic and Asymptomatic Patients"}, {"text": "Most patients in this study were asymptomatic when surveillance samples were collected. Unadjusted analysis of asymptomatic patients with surveillance samples found no increase in bronchoscopy incidence or overall mortality, but a borderline significant decrease was seen in days out-of-hospital in patients with a pre-HCT respiratory virus detected. This suggests that asymptomatic patients shedding respiratory viruses before HCT may require more care and utilize more resources after HCT, compared with those not shedding respiratory viruses before HCT. Patients with symptoms and any respiratory virus detected had no significant difference in bronchoscopy incidence or hospitalization days compared with uninfected patients, although there was a trend toward lower survival at day 100. This suggests that symptomatic patients with any pretransplant respiratory virus detected are at higher risk for adverse clinical outcomes than asymptomatic infected patients.", "cite_spans": [], "ref_spans": [], "section": "Outcomes in Symptomatic and Asymptomatic Patients"}, {"text": "This represents the largest published study to examine outcomes in patients utilizing pretransplant viral surveillance with molecular diagnosis. Our analysis of individual viruses remains limited by small numbers of patients; virus-specific conclusions are not straightforward. Similarly, we analyzed pediatric and adult patients together to increase the power of our analysis, making it difficult to draw separate conclusions for adults and children. Analysis of surveillance samples vs symptomatic samples was limited by the small number of events, precluding multivariable analysis. Because results of respiratory virus testing were known for symptomatic patients, management and outcomes may have been influenced. We also combined data for samples collected for clinical care, outbreak investigation, and research, potentially resulting in unforeseen differences between these groups. Although we are able to make broad conclusions about outcomes in patients with and without a pretransplant respiratory virus, and in those patients with and without symptoms, predictive algorithms for every situation are not possible. Respiratory virus testing closer to conditioning onset could be considered, particularly in patients with known infections (Table 4 ). In addition, a potential limitation of molecular testing is that detection of viral RNA in asymptomatic or previously treated patients may not represent replicating virus.", "cite_spans": [], "ref_spans": [{"start": 1247, "end": 1255, "text": "(Table 4", "ref_id": "TABREF3"}], "section": "Outcomes in Symptomatic and Asymptomatic Patients"}, {"text": "Current clinical practice guidelines regarding timing of transplant if respiratory viruses are present are largely based on expert opinion [1, 19] . Our study provides evidence that current recommendations regarding delaying transplant for symptomatic respiratory infections are justified. For some viruses or clinical situations, risks of proceeding to transplant may outweigh risks of waiting for viral clearance. Thoughtful deliberation must be given regarding underlying disease, transplant type, underlying immunosuppression, and specific viruses. This information may also assist decisions regarding type of stem cell donated (PBSCs vs bone marrow vs cord blood) [20] , or conditioning regimen utilized if symptomatic viral respiratory disease is diagnosed when transplant is urgently needed.", "cite_spans": [{"start": 139, "end": 142, "text": "[1,", "ref_id": "BIBREF0"}, {"start": 143, "end": 146, "text": "19]", "ref_id": "BIBREF18"}, {"start": 669, "end": 673, "text": "[20]", "ref_id": "BIBREF19"}], "ref_spans": [], "section": "Outcomes in Symptomatic and Asymptomatic Patients"}, {"text": "Our data strengthen current clinical practice guidelines advising that symptomatic patients should be tested and transplant delayed, when feasible. Our results suggest that even pretransplant rhinovirus infection is associated with poor outcomes and delay of transplant, or possibly, that milder conditioning regimens should be considered. This likely applies most to patients with symptomatic rhinovirus infection; further research to assess why rhinovirus is associated with poor outcomes is needed. Our data suggest that surveillance of asymptomatic patients without recent history of respiratory disease prior to HCT may not be necessary. However, further study to specifically address screening of asymptomatic patients before HCT is warranted. The application of this approach to children remains problematic, in part because relatively few children were studied, with high rates of pretransplant viruses detected (31% positivity in asymptomatic children). The high mortality in children aged <5 years (2 of 6 [33%]) with pre-HCT respiratory viruses is noteworthy. Because effective treatment is unavailable for many respiratory viruses and delay of HCT is often not feasible, these data emphasize the need for intensified prevention of respiratory virus acquisition before transplant and improved management strategies, including development of new antiviral agents and other prophylactic strategies.", "cite_spans": [], "ref_spans": [], "section": "Outcomes in Symptomatic and Asymptomatic Patients"}, {"text": "Supplementary materials are available at Clinical Infectious Diseases online (http://cid.oxfordjournals.org). Supplementary materials consist of data provided by the author that are published to benefit the reader. The posted materials are not copyedited. The contents of all supplementary data are the sole responsibility of the authors. Questions or messages regarding errors should be addressed to the author.", "cite_spans": [], "ref_spans": [], "section": "Supplementary Data"}], "bib_entries": {"BIBREF0": {"ref_id": "b0", "title": "Guidelines for preventing infectious complications among hematopoietic cell transplantation recipients: a global perspective", "authors": [{"first": "M", "middle": [], "last": "Tomblyn", "suffix": ""}, {"first": "T", "middle": [], "last": "Chiller", "suffix": ""}, {"first": "H", "middle": [], "last": "Einsele", "suffix": ""}], "year": 2009, "venue": "Biol Blood Marrow Transplant", "volume": "15", "issn": "", "pages": "1143--238", "other_ids": {}}, "BIBREF1": {"ref_id": "b1", "title": "ECIL-4): guidelines for diagnosis and treatment of human respiratory syncytial virus, parainfluenza virus, metapneumovirus, rhinovirus, and coronavirus", "authors": [{"first": "H", "middle": ["H"], "last": "Hirsch", "suffix": ""}, {"first": "R", "middle": [], "last": "Martino", "suffix": ""}, {"first": "K", "middle": ["N"], "last": "Ward", "suffix": ""}, {"first": "M", "middle": [], "last": "Boeckh", "suffix": ""}, {"first": "H", "middle": [], "last": "Einsele", "suffix": ""}, {"first": "P", "middle": [], "last": "Ljungman", "suffix": ""}], "year": 2013, "venue": "Fourth European Conference on Infections in Leukaemia", "volume": "56", "issn": "", "pages": "258--66", "other_ids": {}}, "BIBREF2": {"ref_id": "b2", "title": "Pretransplantation respiratory syncytial virus infection: impact of a strategy to delay transplantation", "authors": [{"first": "A", "middle": ["J"], "last": "Peck", "suffix": ""}, {"first": "L", "middle": [], "last": "Corey", "suffix": ""}, {"first": "M", "middle": [], "last": "Boeckh", "suffix": ""}], "year": 2004, "venue": "Clin Infect Dis", "volume": "39", "issn": "", "pages": "673--80", "other_ids": {}}, "BIBREF3": {"ref_id": "b3", "title": "Respiratory virus infection in immunocompromised patients", "authors": [{"first": "P", "middle": [], "last": "Ljungman", "suffix": ""}, {"first": "C", "middle": ["A"], "last": "Gleaves", "suffix": ""}, {"first": "J", "middle": ["D"], "last": "Meyers", "suffix": ""}], "year": 1989, "venue": "Bone Marrow Transplant", "volume": "4", "issn": "", "pages": "35--40", "other_ids": {}}, "BIBREF4": {"ref_id": "b4", "title": "Prospective study of respiratory viral infections in pediatric hemopoietic stem cell transplantation patients", "authors": [{"first": "R", "middle": ["G"], "last": "Bredius", "suffix": ""}, {"first": "K", "middle": ["E"], "last": "Templeton", "suffix": ""}, {"first": "S", "middle": ["A"], "last": "Scheltinga", "suffix": ""}, {"first": "E", "middle": ["C"], "last": "Claas", "suffix": ""}, {"first": "A", "middle": ["C"], "last": "Kroes", "suffix": ""}, {"first": "J", "middle": ["M"], "last": "Vossen", "suffix": ""}], "year": 2004, "venue": "Pediatr Infect Dis J", "volume": "23", "issn": "", "pages": "518--540", "other_ids": {}}, "BIBREF5": {"ref_id": "b5", "title": "Parainfluenza virus 3 infection pre-and post-haematopoietic stem cell transplantation: re-infection or persistence?", "authors": [{"first": "K", "middle": ["E"], "last": "Templeton", "suffix": ""}, {"first": "R", "middle": ["G"], "last": "Bredius", "suffix": ""}, {"first": "S", "middle": ["A"], "last": "Scheltinga", "suffix": ""}, {"first": "E", "middle": ["C"], "last": "Claas", "suffix": ""}, {"first": "J", "middle": ["M"], "last": "Vossen", "suffix": ""}, {"first": "A", "middle": ["C"], "last": "Kroes", "suffix": ""}], "year": 2004, "venue": "J Clin Virol", "volume": "29", "issn": "", "pages": "320--322", "other_ids": {}}, "BIBREF6": {"ref_id": "b6", "title": "Human bocavirus in French children", "authors": [{"first": "V", "middle": [], "last": "Foulongne", "suffix": ""}, {"first": "Y", "middle": [], "last": "Olejnik", "suffix": ""}, {"first": "V", "middle": [], "last": "Perez", "suffix": ""}, {"first": "S", "middle": [], "last": "Elaerts", "suffix": ""}, {"first": "M", "middle": [], "last": "Rodiere", "suffix": ""}, {"first": "M", "middle": [], "last": "Segondy", "suffix": ""}], "year": 2006, "venue": "Emerg Infect Dis", "volume": "12", "issn": "", "pages": "1251--1254", "other_ids": {}}, "BIBREF7": {"ref_id": "b7", "title": "Clinical disease in children associated with newly described coronavirus subtypes", "authors": [{"first": "J", "middle": [], "last": "Kuypers", "suffix": ""}, {"first": "E", "middle": ["T"], "last": "Martin", "suffix": ""}, {"first": "J", "middle": [], "last": "Heugel", "suffix": ""}, {"first": "N", "middle": [], "last": "Wright", "suffix": ""}, {"first": "R", "middle": [], "last": "Morrow", "suffix": ""}, {"first": "J", "middle": ["A"], "last": "Englund", "suffix": ""}], "year": 2007, "venue": "Pediatrics", "volume": "119", "issn": "", "pages": "70--76", "other_ids": {}}, "BIBREF8": {"ref_id": "b8", "title": "Detection and quantification of human metapneumovirus in pediatric specimens by real-time RT-PCR", "authors": [{"first": "J", "middle": [], "last": "Kuypers", "suffix": ""}, {"first": "N", "middle": [], "last": "Wright", "suffix": ""}, {"first": "L", "middle": [], "last": "Corey", "suffix": ""}, {"first": "R", "middle": [], "last": "Morrow", "suffix": ""}], "year": 2005, "venue": "J Clin Virol", "volume": "33", "issn": "", "pages": "299--305", "other_ids": {}}, "BIBREF9": {"ref_id": "b9", "title": "Comparison of real-time PCR assays with fluorescent-antibody assays for diagnosis of respiratory virus infections in children", "authors": [{"first": "J", "middle": [], "last": "Kuypers", "suffix": ""}, {"first": "N", "middle": [], "last": "Wright", "suffix": ""}, {"first": "J", "middle": [], "last": "Ferrenberg", "suffix": ""}], "year": 2006, "venue": "J Clin Microbiol", "volume": "44", "issn": "", "pages": "2382--2390", "other_ids": {}}, "BIBREF10": {"ref_id": "b10", "title": "Evaluation of quantitative and typespecific real-time RT-PCR assays for detection of respiratory syncytial virus in respiratory specimens from children", "authors": [{"first": "J", "middle": [], "last": "Kuypers", "suffix": ""}, {"first": "N", "middle": [], "last": "Wright", "suffix": ""}, {"first": "R", "middle": [], "last": "Morrow", "suffix": ""}], "year": 2004, "venue": "J Clin Virol", "volume": "31", "issn": "", "pages": "123--132", "other_ids": {}}, "BIBREF11": {"ref_id": "b11", "title": "Real-time reverse transcription-PCR assay for comprehensive detection of human rhinoviruses", "authors": [{"first": "X", "middle": [], "last": "Lu", "suffix": ""}, {"first": "B", "middle": [], "last": "Holloway", "suffix": ""}, {"first": "R", "middle": ["K"], "last": "Dare", "suffix": ""}], "year": 2008, "venue": "J Clin Microbiol", "volume": "46", "issn": "", "pages": "533--542", "other_ids": {}}, "BIBREF12": {"ref_id": "b12", "title": "Respiratory virus infection among hematopoietic cell transplant recipients: evidence for asymptomatic parainfluenza virus infection", "authors": [{"first": "A", "middle": ["J"], "last": "Peck", "suffix": ""}, {"first": "J", "middle": ["A"], "last": "Englund", "suffix": ""}, {"first": "J", "middle": [], "last": "Kuypers", "suffix": ""}], "year": 2007, "venue": "Blood", "volume": "110", "issn": "", "pages": "1681--1689", "other_ids": {}}, "BIBREF13": {"ref_id": "b13", "title": "Rhinovirus as a cause of fatal lower respiratory tract infection in adult stem cell transplantation Pretransplant Respiratory Viruses \u2022 CID", "authors": [{"first": "J", "middle": ["A"], "last": "Gutman", "suffix": ""}, {"first": "A", "middle": ["J"], "last": "Peck", "suffix": ""}, {"first": "J", "middle": [], "last": "Kuypers", "suffix": ""}, {"first": "M", "middle": [], "last": "Boeckh", "suffix": ""}], "year": 2007, "venue": "Bone Marrow Transplant", "volume": "40", "issn": "", "pages": "809--820", "other_ids": {}}, "BIBREF14": {"ref_id": "b14", "title": "Outcomes of hematopoietic SCT recipients with rhinovirus infection: a matched, case-control study", "authors": [{"first": "F", "middle": ["I"], "last": "Abandeh", "suffix": ""}, {"first": "M", "middle": [], "last": "Lustberg", "suffix": ""}, {"first": "S", "middle": [], "last": "Devine", "suffix": ""}, {"first": "P", "middle": [], "last": "Elder", "suffix": ""}, {"first": "L", "middle": [], "last": "Andritsos", "suffix": ""}, {"first": "S", "middle": ["I"], "last": "Martin", "suffix": ""}], "year": 2013, "venue": "Bone Marrow Transplant", "volume": "48", "issn": "", "pages": "1554--1561", "other_ids": {}}, "BIBREF15": {"ref_id": "b15", "title": "Human rhinovirus RNA detection in the lower respiratory tract of hematopoietic cell transplant recipients: association with mortality", "authors": [{"first": "S", "middle": [], "last": "Seo", "suffix": ""}, {"first": "M", "middle": [], "last": "Martin", "suffix": ""}, {"first": "H", "middle": [], "last": "Xie", "suffix": ""}], "year": 2013, "venue": "Biol Blood Marrow Transplant", "volume": "19", "issn": "", "pages": "167--175", "other_ids": {}}, "BIBREF16": {"ref_id": "b16", "title": "Rhinovirus infections in myelosuppressed adult blood and marrow transplant recipients", "authors": [{"first": "S", "middle": [], "last": "Ghosh", "suffix": ""}, {"first": "R", "middle": [], "last": "Champlin", "suffix": ""}, {"first": "R", "middle": [], "last": "Couch", "suffix": ""}], "year": 1999, "venue": "Clin Infect Dis", "volume": "29", "issn": "", "pages": "528--560", "other_ids": {}}, "BIBREF17": {"ref_id": "b17", "title": "Severity of human rhinovirus infection in immunocompromised adults is similar to that of 2009 H1N1 influenza", "authors": [{"first": "C", "middle": ["S"], "last": "Kraft", "suffix": ""}, {"first": "J", "middle": ["T"], "last": "Jacob", "suffix": ""}, {"first": "M", "middle": ["H"], "last": "Sears", "suffix": ""}, {"first": "E", "middle": ["M"], "last": "Burd", "suffix": ""}, {"first": "A", "middle": ["M"], "last": "Caliendo", "suffix": ""}, {"first": "G", "middle": ["M"], "last": "Lyon", "suffix": ""}], "year": 2012, "venue": "J Clin Microbiol", "volume": "50", "issn": "", "pages": "1061--1064", "other_ids": {}}, "BIBREF18": {"ref_id": "b18", "title": "European guidelines for prevention and management of influenza in hematopoietic stem cell transplantation and leukemia patients: summary of ECIL-4", "authors": [{"first": "D", "middle": [], "last": "Engelhard", "suffix": ""}, {"first": "B", "middle": [], "last": "Mohty", "suffix": ""}, {"first": "R", "middle": [], "last": "De La Camara", "suffix": ""}, {"first": "C", "middle": [], "last": "Cordonnier", "suffix": ""}, {"first": "P ;", "middle": [], "last": "Ljungman", "suffix": ""}, {"first": "", "middle": [], "last": "Ebmt", "suffix": ""}, {"first": "Ichs", "middle": [], "last": "Eortc", "suffix": ""}, {"first": "Eln", "middle": [], "last": "", "suffix": ""}], "year": 2011, "venue": "Transpl Infect Dis", "volume": "15", "issn": "", "pages": "219--251", "other_ids": {}}, "BIBREF19": {"ref_id": "b19", "title": "Outcome of respiratory syncytial virus lower respiratory tract disease in hematopoietic cell transplant recipients receiving aerosolized ribavirin: significance of stem cell source and oxygen requirement", "authors": [{"first": "S", "middle": [], "last": "Seo", "suffix": ""}, {"first": "A", "middle": ["P"], "last": "Campbell", "suffix": ""}, {"first": "H", "middle": [], "last": "Xie", "suffix": ""}], "year": 2013, "venue": "Biol Blood Marrow Transplant", "volume": "19", "issn": "", "pages": "589--96", "other_ids": {}}}, "ref_entries": {"FIGREF0": {"text": "Pretransplant respiratory virus samples collected in the presence of clinical symptoms (symptomatic) and for surveillance alone (surveillance). The diagram shows number of patients with samples collected for clinical care and/or for the prospective research study. Clinical care samples include samples from symptomatic patients, surveillance samples collected during a respiratory syncytial virus outbreak, and surveillance samples collected from children. Patients with these surveillance samples combined with the patients who provided research samples alone comprised the asymptomatic surveillance cohort.", "latex": null, "type": "figure"}, "FIGREF1": {"text": "2-2.3; P = .57) or risk of death (HR, 1.4; 95% CI, .4-4.6; P = .59). Patients with positive surveillance samples spent 10 fewer day as outpatients (95% CI, \u221220 to \u2212.2; P = .05), compared with patients with negative surveillance samples.DISCUSSIONThis large prospective longitudinal assessment of respiratory virus infections prior to HCT provides new data for this highrisk patient population. Sensitive virologic detection methods were utilized to test samples obtained by systematic weekly posttransplant surveillance. Respiratory viruses were commonly", "latex": null, "type": "figure"}, "FIGREF2": {"text": "A, Probability of at least 1 bronchoscopy by pretransplant respiratory viral status (P = .10). B, Probability of at least 1 bronchoscopy by pretransplant respiratory viral status, by virus group. Group 1 includes respiratory syncytial virus, human metapneumovirus, parainfluenza virus, influenza A and B, and adenovirus (P = .03); group 2 includes human rhinovirus, human coronavirus, and human bocavirus (P = .54).", "latex": null, "type": "figure"}, "FIGREF3": {"text": "A, Days alive and out of hospital within the first 100 days after hematopoietic cell transplant (HCT) by pretransplant respiratory viral status (P =", "latex": null, "type": "figure"}, "FIGREF4": {"text": "A, Overall mortality by pretransplant respiratory viral status (P = .02). B, Overall mortality by pretransplant respiratory viral status, by virus group. Group 1 includes respiratory syncytial virus, human metapneumovirus, parainfluenza virus, influenza A and B, and adenovirus (P = .08); group 2 includes human rhinovirus, human coronavirus, and human bocavirus (P = .05).", "latex": null, "type": "figure"}, "TABREF0": {"text": "Characteristics of Hematopoietic Cell Transplant Recipients With or Without a Pretransplant Respiratory Virus Detected (N = 458)", "latex": null, "type": "table", "html": "<html><body><table><tr><td>\u00a0</td><td>Without Pre-HCT\n</td><td>With Pre-HCT\n</td><td>P\n</td></tr><tr><td>Characteristic\n</td><td>Virus (n = 342)\n</td><td>Virus (n = 116)\n</td><td>Value\n</td></tr><tr><td>Median age, y (range) </td><td>51 (1-75) </td><td>44 (1-75) </td><td>.002\n</td></tr><tr><td>Age, y\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>&lt;5 </td><td>6 (2) </td><td>12 (10)\n</td><td>\u00a0</td></tr><tr><td>5-17 </td><td>22 (6) </td><td>12 (10)\n</td><td>\u00a0</td></tr><tr><td>18-75 </td><td>314 (92) </td><td>92 (79)\n</td><td>\u00a0</td></tr><tr><td>Male sex </td><td>213 (62) </td><td>73 (63) </td><td>.90\n</td></tr><tr><td>HCT donor type </td><td>\u00a0</td><td>\u00a0</td><td>.06\n</td></tr><tr><td>Matched-related </td><td>108 (32) </td><td>34 (29)\n</td><td>\u00a0</td></tr><tr><td>Mismatched-related </td><td>15 (4) </td><td>12 (10)\n</td><td>\u00a0</td></tr><tr><td>Unrelated </td><td>219 (64) </td><td>70 (60)\n</td><td>\u00a0</td></tr><tr><td>Stem cell source </td><td>\u00a0</td><td>\u00a0</td><td>.03\n</td></tr><tr><td>PBSCs </td><td>254 (74) </td><td>74 (64)\n</td><td>\u00a0</td></tr><tr><td>Bone marrow </td><td>54 (16) </td><td>31 (27)\n</td><td>\u00a0</td></tr><tr><td>Cord blood </td><td>34 (10) </td><td>11 (9)\n</td><td>\u00a0</td></tr><tr><td>Nonmyeloablative conditioning regimen\n</td><td>133 (39) </td><td>54 (47) </td><td>.15\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Underlying disease riska </td><td>\u00a0</td><td>\u00a0</td><td>.009\n</td></tr><tr><td>Standard </td><td>221 (65) </td><td>59 (51)\n</td><td>\u00a0</td></tr><tr><td>High </td><td>121 (35) </td><td>57 (49)\n</td><td>\u00a0</td></tr><tr><td>Recipient CMV seropositivity\n</td><td>194 (57) </td><td>68 (59) </td><td>.72\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>&lt;.001\n</td></tr><tr><td>Lymphocyte count, lymphocytes/\u03bcL\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>\u2264100 </td><td>93 (27) </td><td>19 (16)\n</td><td>\u00a0</td></tr><tr><td>&gt;100 to 300 </td><td>71 (21) </td><td>11 (9)\n</td><td>\u00a0</td></tr><tr><td>\u00a0</td><td>&gt;300 </td><td>178 (52) </td><td>86 (74)\n</td></tr></table></body></html>"}, "TABREF1": {"text": "Characteristics of Patients With Respiratory Virus Detected From Pretransplant Respiratory SpecimensAbbreviations: AdV, adenovirus; HBoV, human bocavirus; HCoV, human coronavirus; HCT, hematopoietic cell transplant; HMPV, human metapneumovirus; HRV, human rhinovirus; LRTI, lower respiratory tract infection; PIV, parainfluenza virus; RSV, respiratory syncytial virus. a Fourteen patients had 2 respiratory viruses detected before HCT. If separate in time, the virus detected closest to transplant was used for analysis, with the exception of HBoV. If simultaneous (n = 6), the virus more commonly known to be associated with complications was chosen, as follows: group 1 over group 2 viruses; HRV over HBoV; RSV and PIV1 over AdV. No patient with simultaneous detections died in the first 100 days after HCT.", "latex": null, "type": "table"}, "TABREF2": {"text": "Clinical Outcomes at Day 100 After Hematopoietic Cell Transplant (HCT), by Pre-HCT Respiratory Virus Status", "latex": null, "type": "table", "html": "<html><body><table><tr><td>\u00a0</td><td>\u00a0</td><td>Unadjusted </td><td>\u00a0</td><td>Adjusteda\n</td><td>\u00a0</td></tr><tr><td>Incidence of Bronchoscopy </td><td>No. (%)\n</td><td>HR (95% CI) </td><td>P Value </td><td>HR (95% CI) </td><td>P Value\n</td></tr><tr><td>By virus status\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>58/342 (17) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>. . .\n</td></tr><tr><td>Positive </td><td>27/116 (23) </td><td>1.5 (.9-2.3) </td><td>.10 </td><td>1.3 (.8-2.0) </td><td>.32\n</td></tr><tr><td>By virus group\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>58/342 (17) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>\u00a0</td></tr><tr><td>Group 1 virus </td><td>13/45 (29) </td><td>1.9 (1.1-3.5) </td><td>.03 </td><td>1.6 (.9-3.0) </td><td>.11\n</td></tr><tr><td>Group 2 virus </td><td>14/71 (20) </td><td>1.2 (.7-2.2) </td><td>.54 </td><td>1.0 (.6-1.9) </td><td>.87\n</td></tr><tr><td>By specific viruses\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>58/342 (17) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>\u00a0</td></tr><tr><td>Influenza A/B or RSV </td><td>7/19 (37) </td><td>2.6 (1.2-5.6) </td><td>.02 </td><td>2.2 (1.0-4.9) </td><td>.05\n</td></tr><tr><td>HRV </td><td>11/53 (21) </td><td>1.3 (.7-2.4) </td><td>.46 </td><td>1.1 (.6-2.1) </td><td>.79\n</td></tr><tr><td>Others </td><td>9/44 (20) </td><td>1.3 (.6-2.6) </td><td>.50 </td><td>1.1 (.5-2.3) </td><td>.80\n</td></tr><tr><td>Days Alive and out of Hospital </td><td>No. </td><td>Unadjusted Mean Difference (95% CI) </td><td>P Value </td><td>Adjustedb Mean Difference (95% CI) </td><td>P Value\n</td></tr><tr><td>By virus status\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>342 </td><td>0 </td><td>. . . </td><td>0 </td><td>. . .\n</td></tr><tr><td>Positive </td><td>116 </td><td>\u22129 (\u221215 to \u22124) </td><td>.001 </td><td>\u22128 (\u221213 to \u22123) </td><td>.002\n</td></tr><tr><td>By virus group\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>342 </td><td>0 </td><td>. . . </td><td>0 </td><td>. . .\n</td></tr><tr><td>Group 1 virus </td><td>45 </td><td>\u22129 (\u221217 to \u22121) </td><td>.03 </td><td>\u22128 (\u221216 to \u22121) </td><td>.03\n</td></tr><tr><td>Group 2 virus </td><td>71 </td><td>\u22129 (\u221216 to \u22123) </td><td>.007 </td><td>\u22128 (\u221214 to \u22122) </td><td>.01\n</td></tr><tr><td>By specific viruses\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>338 </td><td>0 </td><td>. . . </td><td>0 </td><td>. . .\n</td></tr><tr><td>Influenza A/B or RSV </td><td>19 </td><td>\u22124 (\u221216 to 8) </td><td>.51 </td><td>\u22126 (\u221217 to 6) </td><td>.32\n</td></tr><tr><td>HRV </td><td>53 </td><td>\u22129 (\u221217 to \u22121) </td><td>.02 </td><td>\u22129 (\u221216 to \u22122) </td><td>.02\n</td></tr><tr><td>Others </td><td>44 </td><td>\u221212 (\u221220 to \u22124) </td><td>.005 </td><td>\u22128 (\u221216 to \u22121) </td><td>.03\n</td></tr><tr><td>Day 100 Mortality </td><td>No. </td><td>Unadjusted HR (95% CI) </td><td>P Value </td><td>Adjustedc HR (95% CI) </td><td>P Value\n</td></tr><tr><td>By virus status\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>27/342 (8) </td><td>1.0 </td><td>\u00a0</td><td>\u00a0</td><td>. . .\n</td></tr><tr><td>Positive </td><td>18/116 (16) </td><td>2.1 (1.1-3.7) </td><td>.02 </td><td>2.4 (1.3-4.5) </td><td>.007\n</td></tr><tr><td>By virus group\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>27/342 (8) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>\u00a0</td></tr><tr><td>Group 1 virus </td><td>7/45 (16) </td><td>2.1 (.9-4.9) </td><td>.08 </td><td>2.6 (1.1-6.4) </td><td>.03\n</td></tr><tr><td>Group 2 virus </td><td>11/71 (15) </td><td>2.0 (1.0-4.1) </td><td>.05 </td><td>2.3 (1.0-4.7) </td><td>.03\n</td></tr><tr><td>By specific viruses\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>27/341 (8) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>\u00a0</td></tr><tr><td>Influenza A/B or RSV </td><td>2/19 (11) </td><td>1.4 (.3-5.8) </td><td>.67 </td><td>1.6 (.4-7.3) </td><td>.51\n</td></tr><tr><td>HRV </td><td>10/53 (19) </td><td>2.5 (1.2-5.2) </td><td>.01 </td><td>2.6 (1.2-5.5) </td><td>.01\n</td></tr><tr><td>Others </td><td>6/44 (14) </td><td>1.8 (.7-4.4) </td><td>.19 </td><td>2.3 (.9-5.9) </td><td>.07\n</td></tr></table></body></html>"}, "TABREF3": {"text": "Deaths Related to Pretransplant Respiratory Virus Infection Patient also acquired AdV post-HCT, died with diffuse alveolar damage attributed to HRV and AdV (positive on BAL day 20). Negative NW on days \u221213 (clinical sample) and \u22127 (research sample); persistent respiratory symptoms before and after HCT, and worsening pulmonary opacities after. BAL on day 48 and day 71 positive for HRV (and 400 colonies/mL of Pseudomonas aeruginosa in the 2nd BAL); other testing was negative. Died day 80[14]. HCT NW negative day \u221223 and \u221210 (clinical samples); proceeded to HCT after myeloablative conditioning, developed new symptoms on day 1 and was positive for HMPV. Research samples collected when patient was without symptoms on day \u22122 and day \u22121 and tested later per protocol were positive for HMPV. HCT NW negative by PCR on day \u221212 clinical sample, myeloablative conditioning began on day \u22128; patient developed rhinorrhea and sore throat on day \u22125. Decision made to proceed with HCT despite positive clinical NW on day \u22125. Developed worsening hypoxia and pulmonary infiltrates and died on day 32 from influenza pneumonia. Research sample collected when the patient was asymptomatic on day \u22127 was positive for influenza A when tested later per protocol.Abbreviations: AdV, adenovirus; BAL, bronchoalveolar lavage; CMV, cytomegalovirus; HCT, hematopoietic cell transplant; HMPV, human metapneumovirus; HRV, human rhinovirus; LRTI, lower respiratory tract infection; NW, nasal wash; PCR, polymerase chain reaction. a Clinical sample.", "latex": null, "type": "table"}}, "back_matter": [{"text": "Acknowledgments. We thank Cheryl Callais, Christi Dahlgren, Victor Chow, Deborah Reyes, Denise Della, Srilata Remala, Noelle Gichohi, Gynevill Jolly, Jennifer Klein, Jessica Johnson, and Hilary Stempel for study coordination and assistance; Chris Davis, George Counts, and Zachary Stednick for data management; Terry Stevens-Ayers, Tera Matson, Sam Chatterton-Kirchmeier, Elsa Garnace, Nancy Wright, Reggie Sampoleo, and Rohit Shankar for laboratory expertise.Financial support. A. P. C. received funding from the National Institutes of Health (grant numbers K23HL091059 and L40AI071572) and from the Seattle Children's Center for Clinical and Translational Research and the Clinical and Translational Science Award program (grant number ULI RR025014). M. B. received research support from the National Institutes of Health (grant numbers HL081595 and HL93294). The clinical database was supported by funding from the National Institutes of Health (grant numbers CA18029 and CA15704).Potential conflicts of interest. J. A. E. received research support from Gilead Sciences, Chimerix Inc, and Novartis, and served on a data safety monitoring board for GlaxoSmithKline and as a consultant for Gilead Sciences. M. B. served as a consultant for Gilead Sciences, Chimerix Inc, and Roche/Genentech, and from Ansun Biopharma, Chimerix Inc, and Gilead Sciences. All other authors report no potential conflicts.All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.", "cite_spans": [], "ref_spans": [], "section": "acknowledgement"}]}
+{
+    "abstract": [
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "Background. The management of respiratory virus infections prior to hematopoietic cell transplant (HCT) is difficult. We examined whether respiratory virus detection before HCT influenced the requirement for bronchoscopy, hospitalization, and overall survival following HCT."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "Methods. Pre-HCT and weekly post-HCT nasal washes were collected through day 100 from patients with and without symptoms. Samples were tested by multiplex polymerase chain reaction for respiratory syncytial virus, parainfluenza viruses 1-4, influenza A and B, human metapneumovirus, adenovirus, and human rhinoviruses, coronaviruses, and bocavirus."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "Results. Of 458 patients, 116 (25%) had respiratory viruses detected pre-HCT. Overall, patients with viruses detected pre-HCT had fewer days alive and out of the hospital and lower survival at day 100 (adjusted hazard ratio [aHR], 2.4; 95% confidence interval [CI], 1.3-4.5; P = .007) than patients with negative samples; this risk was also present with rhinovirus alone (aHR for mortality, 2.6; 95% CI, 1.2-5.5; P = .01). No difference in bronchoscopy incidence was seen in patients with and without respiratory viruses (aHR, 1.3; 95% CI, .8-2.0; P = .32). In symptomatic patients, those with respiratory viruses detected had increased overall mortality compared with patients without viruses detected (unadjusted HR, 3.5; 95% CI, 1.0-12.1; P = .05); among asymptomatic patients, detection of respiratory viruses was not associated with increased mortality."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "Conclusions. These data support routine testing for respiratory viruses among symptomatic patients before HCT, and delay of transplant with virus detection when feasible, even for detection of rhinovirus alone. Further study is needed to address whether asymptomatic patients should undergo screening for respiratory virus detection before HCT."
+        }
+    ],
+    "back_matter": [
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement",
+            "text": "Acknowledgments. We thank Cheryl Callais, Christi Dahlgren, Victor Chow, Deborah Reyes, Denise Della, Srilata Remala, Noelle Gichohi, Gynevill Jolly, Jennifer Klein, Jessica Johnson, and Hilary Stempel for study coordination and assistance; Chris Davis, George Counts, and Zachary Stednick for data management; Terry Stevens-Ayers, Tera Matson, Sam Chatterton-Kirchmeier, Elsa Garnace, Nancy Wright, Reggie Sampoleo, and Rohit Shankar for laboratory expertise.Financial support. A. P. C. received funding from the National Institutes of Health (grant numbers K23HL091059 and L40AI071572) and from the Seattle Children's Center for Clinical and Translational Research and the Clinical and Translational Science Award program (grant number ULI RR025014). M. B. received research support from the National Institutes of Health (grant numbers HL081595 and HL93294). The clinical database was supported by funding from the National Institutes of Health (grant numbers CA18029 and CA15704).Potential conflicts of interest. J. A. E. received research support from Gilead Sciences, Chimerix Inc, and Novartis, and served on a data safety monitoring board for GlaxoSmithKline and as a consultant for Gilead Sciences. M. B. served as a consultant for Gilead Sciences, Chimerix Inc, and Roche/Genentech, and from Ansun Biopharma, Chimerix Inc, and Gilead Sciences. All other authors report no potential conflicts.All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Tomblyn",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Chiller",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Einsele",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1143--238",
+            "ref_id": "b0",
+            "title": "Guidelines for preventing infectious complications among hematopoietic cell transplantation recipients: a global perspective",
+            "venue": "Biol Blood Marrow Transplant",
+            "volume": "15",
+            "year": 2009
+        },
+        "BIBREF1": {
+            "authors": [
+                {
+                    "first": "H",
+                    "last": "Hirsch",
+                    "middle": [
+                        "H"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Martino",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Ward",
+                    "middle": [
+                        "N"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Boeckh",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Einsele",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Ljungman",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "258--66",
+            "ref_id": "b1",
+            "title": "ECIL-4): guidelines for diagnosis and treatment of human respiratory syncytial virus, parainfluenza virus, metapneumovirus, rhinovirus, and coronavirus",
+            "venue": "Fourth European Conference on Infections in Leukaemia",
+            "volume": "56",
+            "year": 2013
+        },
+        "BIBREF10": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Kuypers",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Wright",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Morrow",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "123--132",
+            "ref_id": "b10",
+            "title": "Evaluation of quantitative and typespecific real-time RT-PCR assays for detection of respiratory syncytial virus in respiratory specimens from children",
+            "venue": "J Clin Virol",
+            "volume": "31",
+            "year": 2004
+        },
+        "BIBREF11": {
+            "authors": [
+                {
+                    "first": "X",
+                    "last": "Lu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Holloway",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Dare",
+                    "middle": [
+                        "K"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "533--542",
+            "ref_id": "b11",
+            "title": "Real-time reverse transcription-PCR assay for comprehensive detection of human rhinoviruses",
+            "venue": "J Clin Microbiol",
+            "volume": "46",
+            "year": 2008
+        },
+        "BIBREF12": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Peck",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Englund",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Kuypers",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1681--1689",
+            "ref_id": "b12",
+            "title": "Respiratory virus infection among hematopoietic cell transplant recipients: evidence for asymptomatic parainfluenza virus infection",
+            "venue": "Blood",
+            "volume": "110",
+            "year": 2007
+        },
+        "BIBREF13": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Gutman",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Peck",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Kuypers",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Boeckh",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "809--820",
+            "ref_id": "b13",
+            "title": "Rhinovirus as a cause of fatal lower respiratory tract infection in adult stem cell transplantation Pretransplant Respiratory Viruses \u2022 CID",
+            "venue": "Bone Marrow Transplant",
+            "volume": "40",
+            "year": 2007
+        },
+        "BIBREF14": {
+            "authors": [
+                {
+                    "first": "F",
+                    "last": "Abandeh",
+                    "middle": [
+                        "I"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Lustberg",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Devine",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Elder",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Andritsos",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Martin",
+                    "middle": [
+                        "I"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1554--1561",
+            "ref_id": "b14",
+            "title": "Outcomes of hematopoietic SCT recipients with rhinovirus infection: a matched, case-control study",
+            "venue": "Bone Marrow Transplant",
+            "volume": "48",
+            "year": 2013
+        },
+        "BIBREF15": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Seo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Martin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Xie",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "167--175",
+            "ref_id": "b15",
+            "title": "Human rhinovirus RNA detection in the lower respiratory tract of hematopoietic cell transplant recipients: association with mortality",
+            "venue": "Biol Blood Marrow Transplant",
+            "volume": "19",
+            "year": 2013
+        },
+        "BIBREF16": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Ghosh",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Champlin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Couch",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "528--560",
+            "ref_id": "b16",
+            "title": "Rhinovirus infections in myelosuppressed adult blood and marrow transplant recipients",
+            "venue": "Clin Infect Dis",
+            "volume": "29",
+            "year": 1999
+        },
+        "BIBREF17": {
+            "authors": [
+                {
+                    "first": "C",
+                    "last": "Kraft",
+                    "middle": [
+                        "S"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Jacob",
+                    "middle": [
+                        "T"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Sears",
+                    "middle": [
+                        "H"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Burd",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Caliendo",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Lyon",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1061--1064",
+            "ref_id": "b17",
+            "title": "Severity of human rhinovirus infection in immunocompromised adults is similar to that of 2009 H1N1 influenza",
+            "venue": "J Clin Microbiol",
+            "volume": "50",
+            "year": 2012
+        },
+        "BIBREF18": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Engelhard",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Mohty",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "De La Camara",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Cordonnier",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P ;",
+                    "last": "Ljungman",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "last": "Ebmt",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Ichs",
+                    "last": "Eortc",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Eln",
+                    "last": "",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "219--251",
+            "ref_id": "b18",
+            "title": "European guidelines for prevention and management of influenza in hematopoietic stem cell transplantation and leukemia patients: summary of ECIL-4",
+            "venue": "Transpl Infect Dis",
+            "volume": "15",
+            "year": 2011
+        },
+        "BIBREF19": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Seo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Campbell",
+                    "middle": [
+                        "P"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Xie",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "589--96",
+            "ref_id": "b19",
+            "title": "Outcome of respiratory syncytial virus lower respiratory tract disease in hematopoietic cell transplant recipients receiving aerosolized ribavirin: significance of stem cell source and oxygen requirement",
+            "venue": "Biol Blood Marrow Transplant",
+            "volume": "19",
+            "year": 2013
+        },
+        "BIBREF2": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Peck",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Corey",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Boeckh",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "673--80",
+            "ref_id": "b2",
+            "title": "Pretransplantation respiratory syncytial virus infection: impact of a strategy to delay transplantation",
+            "venue": "Clin Infect Dis",
+            "volume": "39",
+            "year": 2004
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "P",
+                    "last": "Ljungman",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Gleaves",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Meyers",
+                    "middle": [
+                        "D"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "35--40",
+            "ref_id": "b3",
+            "title": "Respiratory virus infection in immunocompromised patients",
+            "venue": "Bone Marrow Transplant",
+            "volume": "4",
+            "year": 1989
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "R",
+                    "last": "Bredius",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Templeton",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Scheltinga",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Claas",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Kroes",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Vossen",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "518--540",
+            "ref_id": "b4",
+            "title": "Prospective study of respiratory viral infections in pediatric hemopoietic stem cell transplantation patients",
+            "venue": "Pediatr Infect Dis J",
+            "volume": "23",
+            "year": 2004
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "K",
+                    "last": "Templeton",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Bredius",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Scheltinga",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Claas",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Vossen",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Kroes",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "320--322",
+            "ref_id": "b5",
+            "title": "Parainfluenza virus 3 infection pre-and post-haematopoietic stem cell transplantation: re-infection or persistence?",
+            "venue": "J Clin Virol",
+            "volume": "29",
+            "year": 2004
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "V",
+                    "last": "Foulongne",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Olejnik",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "last": "Perez",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Elaerts",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Rodiere",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Segondy",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1251--1254",
+            "ref_id": "b6",
+            "title": "Human bocavirus in French children",
+            "venue": "Emerg Infect Dis",
+            "volume": "12",
+            "year": 2006
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Kuypers",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Martin",
+                    "middle": [
+                        "T"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Heugel",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Wright",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Morrow",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Englund",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "70--76",
+            "ref_id": "b7",
+            "title": "Clinical disease in children associated with newly described coronavirus subtypes",
+            "venue": "Pediatrics",
+            "volume": "119",
+            "year": 2007
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Kuypers",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Wright",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Corey",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Morrow",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "299--305",
+            "ref_id": "b8",
+            "title": "Detection and quantification of human metapneumovirus in pediatric specimens by real-time RT-PCR",
+            "venue": "J Clin Virol",
+            "volume": "33",
+            "year": 2005
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Kuypers",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Wright",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Ferrenberg",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "2382--2390",
+            "ref_id": "b9",
+            "title": "Comparison of real-time PCR assays with fluorescent-antibody assays for diagnosis of respiratory virus infections in children",
+            "venue": "J Clin Microbiol",
+            "volume": "44",
+            "year": 2006
+        }
+    },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 293,
+                    "ref_id": "BIBREF0",
+                    "start": 290,
+                    "text": "[1,"
+                },
+                {
+                    "end": 296,
+                    "ref_id": "BIBREF1",
+                    "start": 294,
+                    "text": "2]"
+                },
+                {
+                    "end": 403,
+                    "ref_id": "BIBREF2",
+                    "start": 400,
+                    "text": "[3]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "The decision to proceed with hematopoietic cell transplant (HCT) in patients with new upper respiratory symptoms is challenging. Guidelines co-sponsored by national and international societies recommend delaying HCT in patients with pretransplant upper respiratory tract infections (URTIs) [1, 2] , although documentation of benefits of delaying is limited and the strength of evidence is low (BIII) [3] . Potential disadvantages of delay include progression of underlying disease and logistical issues regarding donor and patient availability."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 248,
+                    "ref_id": "BIBREF2",
+                    "start": 245,
+                    "text": "[3]"
+                },
+                {
+                    "end": 383,
+                    "ref_id": "BIBREF3",
+                    "start": 380,
+                    "text": "[4]"
+                },
+                {
+                    "end": 428,
+                    "ref_id": "BIBREF4",
+                    "start": 425,
+                    "text": "[5,"
+                },
+                {
+                    "end": 431,
+                    "ref_id": "BIBREF5",
+                    "start": 429,
+                    "text": "6]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "The benefit of delaying HCT may depend on specific viruses and symptoms present. One retrospective analysis of pretransplant URTI caused by respiratory syncytial virus (RSV) found that delaying HCT reduced the risk of pneumonia after transplant [3] . Another study evaluating parainfluenza virus (PIV) infections pre-HCT determined that complications were not increased after HCT [4] . Data in children are even more limited [5, 6] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 296,
+                    "ref_id": "BIBREF1",
+                    "start": 293,
+                    "text": "[2]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "Many transplant centers test symptomatic patients for respiratory viruses by polymerase chain reaction (PCR) before HCT and delay transplant, if possible, when respiratory symptoms are present and respiratory viruses including influenza, PIV, RSV, or human metapneumovirus (HMPV) are detected [2] . For the most prevalent and now readily detectable viruses including human coronaviruses (HCoVs), human bocavirus (HBoV), and human rhinoviruses (HRVs), uncertainty exists regarding proceeding to HCT as consequences of mild URTI due to these viruses are unknown. For centers that collect screening pretransplant nasal specimens, the decision to proceed is problematic when asymptomatic viral shedding is detected."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "",
+            "text": "We evaluated clinical outcomes associated with pretransplant respiratory viruses in patients followed prospectively before and through 100 days after HCT. Multiplex PCR testing for respiratory viruses was performed on nasal washes (NWs) and on lower respiratory tract samples, if available. We determined whether detection of a pretransplant respiratory virus, the type of virus, or accompanying symptoms influenced patient outcomes during the first 100 days after HCT. Primary outcome measures included lower respiratory tract disease requiring bronchoscopy, days alive and out of hospital, and overall mortality."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients",
+            "text": "This prospective study was performed in allogeneic HCT recipients undergoing transplant between December 2005 and February 2010 at Fred Hutchinson Cancer Research Center. This study was part of a surveillance study among HCT recipients followed for 1 year after HCT. Following written informed consent, weekly virologic surveillance before and up to 100 days posttransplant was conducted."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Respiratory Samples and Definitions",
+            "text": "Respiratory samples in this study include those collected in the presence of clinical symptoms (\"symptomatic\") or for surveillance only (\"surveillance\"). NWs (or nasopharyngeal swabs if NWs were precluded clinically) and oropharyngeal swab specimens were obtained from participants at least once before and weekly after HCT. NWs were collected using 5 mL of saline per nostril for adults (2.5 mL/nostril for children), and combined with oropharyngeal swabs for testing. A research specimen was generally collected within 14 days before the scheduled HCT regardless of respiratory symptoms. During the study period, NWs were routinely collected for respiratory viruses from all patients with pretransplant respiratory symptoms; therefore, clinical samples may have been collected before, after, or instead of research samples. If a research sample was collected in the absence of a clinical sample, it was designated as asymptomatic surveillance. From December 2007 to April 2008, collection of pretransplant screening NW was instituted because of an RSV outbreak. The collection of pre-HCT surveillance specimens regardless of symptoms was routine for children aged <8 years until November 2009, when collection was extended to include children aged \u226417 years. Results of clinical viral testing from symptomatic patients, patients screened during RSV outbreaks, and children with surveillance NWs were known to the ordering provider per clinical practice. Pretransplant samples collected specifically for research were not tested and results were not reported in real time."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Respiratory Samples and Definitions",
+            "text": "Respiratory virus detection in clinical samples, particularly from symptomatic patients, may have delayed HCT; actual transplant may have occurred weeks to months after collection of the initial sample. All clinical and research respiratory samples collected between 60 days and 1 day pre-HCT were analyzed. Results from pre-HCT lower respiratory tract samples were also included. Post-HCT NW specimens were collected weekly through day 100."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 128,
+                    "ref_id": "BIBREF6",
+                    "start": 125,
+                    "text": "[7]"
+                },
+                {
+                    "end": 132,
+                    "ref_id": "BIBREF7",
+                    "start": 129,
+                    "text": "[8]"
+                },
+                {
+                    "end": 136,
+                    "ref_id": "BIBREF8",
+                    "start": 133,
+                    "text": "[9]"
+                },
+                {
+                    "end": 141,
+                    "ref_id": "BIBREF9",
+                    "start": 137,
+                    "text": "[10]"
+                },
+                {
+                    "end": 146,
+                    "ref_id": "BIBREF10",
+                    "start": 142,
+                    "text": "[11]"
+                },
+                {
+                    "end": 151,
+                    "ref_id": "BIBREF11",
+                    "start": 147,
+                    "text": "[12]"
+                },
+                {
+                    "end": 156,
+                    "ref_id": "BIBREF12",
+                    "start": 152,
+                    "text": "[13]"
+                },
+                {
+                    "end": 479,
+                    "ref_id": "BIBREF12",
+                    "start": 475,
+                    "text": "[13]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Laboratory Testing",
+            "text": "All research and most clinical samples were tested by qualitative laboratory-developed PCR assays for 12 respiratory viruses [7] [8] [9] [10] [11] [12] [13] . Samples were considered positive if the PCR amplification plot crossed the threshold at <40 cycles. Qualitative results from clinical specimens were reported to physicians. Some clinical samples were tested by conventional methods, including viral culture, shell vial culture, or direct fluorescent antibody testing [13] . All PCR methods were performed according to College of American Pathologists standards."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study Outcomes",
+            "text": "We examined 3 primary outcomes: (1) need for bronchoscopy, as a potential marker for underlying pneumonia because bronchoscopy is performed routinely on all patients suspected of lower respiratory tract disease; (2) number of days alive and out of hospital, as a marker for resource utilization; and (3) overall mortality. We also described whether pretransplant respiratory viruses persisted or caused progressive disease following transplant."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis",
+            "text": "Patient characteristics were compared between patients with and without pre-HCT respiratory viruses via \u03c7 2 test for categorical data and t test for continuous data. Cumulative incidence curves were used to estimate probabilities of time-to-event outcomes: incidence of bronchoscopy and overall mortality in the first 100 days. Death in the first 100 days was treated as a competing risk for bronchoscopy. Statistical significance of differences in event rates was evaluated with the proportional hazards regression model. Linear regression models estimated differences in days alive and out of hospital between patient groups. Factors considered potential confounders were included in the model if a difference of \u226510% in the estimated coefficient of interest was seen."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 819,
+                    "ref_id": "FIGREF0",
+                    "start": 811,
+                    "text": "Figure 1"
+                }
+            ],
+            "section": "Statistical Analysis",
+            "text": "Respiratory viruses were classified into 2 groups according to likelihood of complications based on literature: group 1 included the well-described respiratory viral pathogens RSV, HMPV, PIV, influenza A and B, and adenovirus; group 2 included viruses potentially less likely to cause complications, and included HRV, HCoV, and HBoV. Outcomes were compared for patients across 3 groups (group 1 viruses, group 2 viruses, and negative) in simple and adjusted models. We also examined outcomes for viral infections with specific antiviral therapy available (ie, influenza and RSV), as well as for patients with rhinovirus. In unadjusted models, outcomes were evaluated comparing patients with any respiratory virus to those without respiratory viruses among symptomatic and asymptomatic patients (groups shown in Figure 1 ). Reported P values are 2-sided, based on the Wald statistic. No adjustments were made for multiple comparisons."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 154,
+                    "ref_id": "FIGREF0",
+                    "start": 146,
+                    "text": "Figure 1"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "Respiratory samples were collected from 458 patients between day \u221260 and day \u22121 prior to allogeneic HCT between December 2005 and February 2010 ( Figure 1 ). Altogether, 445 (97%) patients had respiratory samples tested by PCR, and 13 by conventional methods. At least 1 pretransplant NW was collected from 451 (98%) patients; 7 patients underwent bronchoscopy without upper respiratory specimens collected. A single pretransplant sample was collected from 267 (58%) patients, 2 samples from 87 (19%), and \u22653 samples from 104 (23%). Surveillance samples were collected from 308 (67%) patients and symptomatic samples from 150 (33%) patients."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 281,
+                    "ref_id": "TABREF0",
+                    "start": 274,
+                    "text": "Table 1"
+                },
+                {
+                    "end": 1312,
+                    "ref_id": "TABREF1",
+                    "start": 1305,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 1543,
+                    "ref_id": "TABREF1",
+                    "start": 1536,
+                    "text": "Table 2"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "One or more respiratory viruses were detected in 1 or more NWs from 116 (25%) patients up to 60 days pre-HCT; samples were negative in 342 other patients with 1 or more samples. Patient characteristics within groups defined by pretransplant respiratory viruses are shown in Table 1 . Patients with respiratory viruses detected were on average younger (P = .002) and more Abbreviations: CMV, cytomegalovirus; HCT, hematopoietic cell transplant; PBSCs, peripheral blood stem cells. a \"Standard\" = congenital hematologic disorders (eg, sickle cell anemia), paroxysmal nocturnal hemaglobinuria, aplastic anemia, chronic myeloid leukemia in chronic phase (or other myeloproliferative diseases such as agnogenic myeloid metaplasia without increased blasts), myelodysplastic syndromes without excess blasts, and leukemia and lymphoma in remission. \"High\" = all congenital immunodeficiency diseases and all other hematologic malignancies. likely to have high-risk underlying diseases (P = .009) than those with negative samples. Patients with respiratory viruses detected had lower baseline lymphocyte levels than patients with negative samples (P < .001). Twenty-four of 52 (46%) pediatric patients aged <18 years had respiratory viruses detected compared with 92 of 406 (23%) patients aged >18 years (P < .001; Table 2 ). Forty-five patients had group 1 viruses and 71 patients had group 2 viruses. Only 3 (7%) of 45 group 1 viruses (1 RSV, 2 PIV) were detected by asymptomatic surveillance, compared with 23 (32%) group 2 viruses (P = .001; Table 2 ). Among 9 patients with RSV and 10 with influenza, 78% and 90%, respectively, received treatment and/or underwent delay to transplant (2 patients with RSV were treated, 7 delayed; 8 patients with influenza were treated, 9 delayed). The median day of last detection before HCT was 30, 23, and 11 days for RSV, influenza, and HRV, respectively."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 335,
+                    "ref_id": "TABREF2",
+                    "start": 328,
+                    "text": "Table 3"
+                },
+                {
+                    "end": 536,
+                    "ref_id": "FIGREF2",
+                    "start": 526,
+                    "text": "Figure 2A)"
+                }
+            ],
+            "section": "Bronchoscopy",
+            "text": "Bronchoscopy was performed by clinicians without access to study results, although clinical test results were known. No difference in bronchoscopy incidence within 100 days posttransplant was seen in patients with and without respiratory viruses (adjusted hazard ratio [aHR], 1.3; 95% confidence interval [CI], .8-2.0; P = .32; Table 3 ). Day 100 estimates of time to first bronchoscopy were 16.7% (95% confidence interval [CI], 12.7%-20.6%) in the virus-negative group and 23.3% (95% CI, 15.6%-31.0%) in the positive group ( Figure 2A) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 279,
+                    "ref_id": "TABREF2",
+                    "start": 270,
+                    "text": "(Table 3)"
+                },
+                {
+                    "end": 412,
+                    "ref_id": "FIGREF2",
+                    "start": 403,
+                    "text": "Figure 2B"
+                },
+                {
+                    "end": 702,
+                    "ref_id": "TABREF2",
+                    "start": 694,
+                    "text": "Table 3)"
+                }
+            ],
+            "section": "Bronchoscopy",
+            "text": "The risk for requiring bronchoscopy was higher, although not significantly, in patients with group 1 viruses than in those without a pretransplant virus; bronchoscopy incidence did not differ between patients with group 2 viruses and those without pretransplant viruses (Table 3) . Day 100 probability estimates were 28.9% (95% CI, 15.6%-42.1%) for group 1 and 19.7% (95% CI, 10.5%-29.0%) for group 2 ( Figure 2B ). Patients with pretransplant influenza or RSV were more likely to undergo bronchoscopy than patients without pretransplant viruses (aHR, 2.2; 95% CI, 1.0-4.9; P = .05); patients with other viruses did not have higher bronchoscopy rates than respiratory virus-negative patients ( Table 3) ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 516,
+                    "ref_id": "BIBREF13",
+                    "start": 512,
+                    "text": "[14]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 272,
+                    "ref_id": "TABREF1",
+                    "start": 264,
+                    "text": "(Table 2"
+                },
+                {
+                    "end": 509,
+                    "ref_id": "TABREF3",
+                    "start": 501,
+                    "text": "(Table 4"
+                },
+                {
+                    "end": 701,
+                    "ref_id": "TABREF3",
+                    "start": 694,
+                    "text": "Table 4"
+                }
+            ],
+            "section": "Bronchoscopy",
+            "text": "Eighteen of 116 patients with pretransplant viruses had lower respiratory tract infection (LRTI) with viruses detected in bronchoalveolar lavage fluid or lung biopsy: 14 had LRTI before transplant: 5 had PIV, 2 HCoV, 2 adenovirus, 3 HRV, 1 influenza A, and 1 HMPV (Table 2 ). In half the cases, transplant was delayed after respiratory virus detection. Six patients with LRTI before transplant died before day 100; 2 deaths were related to pretransplant respiratory viruses and 4 had unrelated causes (Table 4 ) [14] . Four patients developed LRTI posttransplant; 1 with HRV pneumonia survived after a brief intensive care unit hospitalization and 3 died (1 each from HRV, influenza, and HMPV; Table 4 )."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 330,
+                    "ref_id": "TABREF2",
+                    "start": 323,
+                    "text": "Table 3"
+                },
+                {
+                    "end": 342,
+                    "ref_id": "FIGREF3",
+                    "start": 333,
+                    "text": "Figure 3A"
+                },
+                {
+                    "end": 449,
+                    "ref_id": "FIGREF3",
+                    "start": 440,
+                    "text": "Figure 3B"
+                },
+                {
+                    "end": 573,
+                    "ref_id": "TABREF2",
+                    "start": 565,
+                    "text": "(Table 3"
+                },
+                {
+                    "end": 855,
+                    "ref_id": "TABREF2",
+                    "start": 846,
+                    "text": "(Table 3)"
+                }
+            ],
+            "section": "Hospitalization",
+            "text": "The days alive and out of hospital during the first 100 days posttransplant was used as a measure of resource utilization. Patients with pretransplant respiratory viruses spent 8 fewer days, on average, alive and out of hospital than those without respiratory viruses detected (adjusted 95% CI, \u221213 to \u22123 days; P = .002) ( Table 3 ; Figure 3A ). The number of days patients were alive and out of hospital was similar between virus groups ( Figure 3B ). Patients in either group had significantly fewer such days than those without a pretransplant respiratory virus (Table 3 ). Patients with influenza or RSV infection did not have a difference in hospitalization, but patients with HRV or other respiratory viruses had significantly fewer average days alive and out of hospital posttransplant compared with patients without pretransplant viruses (Table 3) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 187,
+                    "ref_id": "TABREF2",
+                    "start": 179,
+                    "text": "Table 3)"
+                },
+                {
+                    "end": 199,
+                    "ref_id": "FIGREF4",
+                    "start": 190,
+                    "text": "Figure 4A"
+                },
+                {
+                    "end": 504,
+                    "ref_id": "TABREF1",
+                    "start": 496,
+                    "text": "Table 2)"
+                },
+                {
+                    "end": 683,
+                    "ref_id": "FIGREF4",
+                    "start": 674,
+                    "text": "Figure 4B"
+                },
+                {
+                    "end": 693,
+                    "ref_id": "TABREF2",
+                    "start": 686,
+                    "text": "Table 3"
+                },
+                {
+                    "end": 970,
+                    "ref_id": "TABREF2",
+                    "start": 963,
+                    "text": "Table 3"
+                },
+                {
+                    "end": 1146,
+                    "ref_id": "TABREF3",
+                    "start": 1137,
+                    "text": "(Table 4)"
+                }
+            ],
+            "section": "Overall Mortality",
+            "text": "Patients with pretransplant respiratory viruses had higher overall mortality at day 100 compared with patients without pretransplant viruses (aHR, 2.4; 95% CI, 1.3-4.5; P = .007; Table 3) . Figure 4A shows overall survival by viral status; day 100 survival estimates were 92.1% (95% CI, 88.7%-94.5%) in the group without respiratory viruses compared with 84.5% (95% CI, 76.5%-89.9%) in patients with respiratory viruses detected. Seven deaths occurred in virus group 1 and 11 deaths in group 2 ( Table 2) . Overall survival at day 100 was similar in both groups, with a significantly lower risk of survival compared with patients without pretransplant respiratory viruses ( Figure 4B ; Table 3 ). The risk of death was not different between patients with influenza or RSV and those without pretransplant viruses. However, pretransplant rhinovirus detection was significantly associated with increased risk of death at day 100 (aHR, 2.6; 95% CI, 1.2-5.5; P = .01; Table 3 ). Five of 18 deaths by day 100 in groups 1 and 2 (or 5 [0.9%] deaths of 458 patients overall) were directly related to the pretransplant respiratory virus infection (Table 4) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 356,
+                    "ref_id": "TABREF0",
+                    "start": 349,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Outcomes in Symptomatic and Asymptomatic Patients",
+            "text": "Ninety of 150 (60%) symptomatic patients had respiratory viruses detected pre-HCT compared with 26 of 308 (8%) asymptomatic patients. Asymptomatic patients were older, more likely to have a matched-related donor, to have received peripheral blood stem cells (PBSCs), and had lower baseline lymphocyte levels than symptomatic patients (Supplementary Table 1 ). Nine of 29 (31%) asymptomatic patients aged <18 years had respiratory viruses detected compared with 17 of 279 (6%) asymptomatic patients \u226518 years old."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 752,
+                    "ref_id": "FIGREF0",
+                    "start": 747,
+                    "text": ".001)"
+                }
+            ],
+            "section": "Outcomes in Symptomatic and Asymptomatic Patients",
+            "text": "Incidence of bronchoscopy in 150 symptomatic patients was not significantly higher among those with respiratory viruses than those without (unadjusted HR, 1.5; 95% CI, .7-3.1; P = .25); no significant difference in hospitalization days was seen (unadjusted mean difference, \u22125; 95% CI, \u221215 to 5; P = .32). Symptomatic patients with respiratory viruses detected pretransplant had higher overall mortality at day 100 (unadjusted HR, 3.5; 95% CI, 1.0-12.1; P = .05) compared with virus-negative patients. Among 308 asymptomatic patients with pretransplant surveillance samples, no significant differences in unadjusted outcomes were observed between patients with and without respiratory viruses detected for risk of bronchoscopy (HR, 0.7; 95% CI, . .001) . B, Days alive and out of hospital within the first 100 days after HCT by pretransplant respiratory viral status, by virus group. Group 1 includes respiratory syncytial virus, human metapneumovirus, parainfluenza virus, influenza A and B, and adenovirus (P = .03); group 2 includes human rhinovirus, human coronavirus, and human bocavirus (P = .007). Boxes represent the 25th, 50th, and 75th percentiles, and whiskers show the 10th and 90th percentiles."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcomes in Symptomatic and Asymptomatic Patients",
+            "text": "detected during the pretransplant evaluation in patients of all ages. Infected patients had significantly fewer days alive and out of hospital and higher overall mortality by day 100 compared with uninfected patients, and mortality appeared to occur mainly in symptomatic infected patients."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 847,
+                    "ref_id": "BIBREF14",
+                    "start": 843,
+                    "text": "[15]"
+                },
+                {
+                    "end": 983,
+                    "ref_id": "BIBREF15",
+                    "start": 979,
+                    "text": "[16]"
+                },
+                {
+                    "end": 988,
+                    "ref_id": "BIBREF16",
+                    "start": 984,
+                    "text": "[17]"
+                },
+                {
+                    "end": 993,
+                    "ref_id": "BIBREF17",
+                    "start": 989,
+                    "text": "[18]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcomes in Symptomatic and Asymptomatic Patients",
+            "text": "Specific pretransplant viral infections were analyzed. Pretransplant influenza and RSV conferred no increase in risk of death or differences in out-of-hospital days, although pre-HCT detection of these viruses was associated with a trend toward increased incidence of bronchoscopy. Patients with other pretransplant viruses, including HRV, had significantly fewer days alive and out of hospital. Patients with HRV had significantly higher day 100 mortality than uninfected patients. One possible reason for this difference is that most patients with RSV and influenza received either antiviral treatment or underwent delay to transplant, whereas fewer patients with HRV had transplant delayed and thus remained positive at conditioning. Although some studies have indicated that pretransplant rhinovirus infection may not be a serious problem [15] , HRV has been reported to cause lower respiratory tract disease, with outcomes similar to influenza and other respiratory viruses [16] [17] [18] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcomes in Symptomatic and Asymptomatic Patients",
+            "text": "Most patients in this study were asymptomatic when surveillance samples were collected. Unadjusted analysis of asymptomatic patients with surveillance samples found no increase in bronchoscopy incidence or overall mortality, but a borderline significant decrease was seen in days out-of-hospital in patients with a pre-HCT respiratory virus detected. This suggests that asymptomatic patients shedding respiratory viruses before HCT may require more care and utilize more resources after HCT, compared with those not shedding respiratory viruses before HCT. Patients with symptoms and any respiratory virus detected had no significant difference in bronchoscopy incidence or hospitalization days compared with uninfected patients, although there was a trend toward lower survival at day 100. This suggests that symptomatic patients with any pretransplant respiratory virus detected are at higher risk for adverse clinical outcomes than asymptomatic infected patients."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 1255,
+                    "ref_id": "TABREF3",
+                    "start": 1247,
+                    "text": "(Table 4"
+                }
+            ],
+            "section": "Outcomes in Symptomatic and Asymptomatic Patients",
+            "text": "This represents the largest published study to examine outcomes in patients utilizing pretransplant viral surveillance with molecular diagnosis. Our analysis of individual viruses remains limited by small numbers of patients; virus-specific conclusions are not straightforward. Similarly, we analyzed pediatric and adult patients together to increase the power of our analysis, making it difficult to draw separate conclusions for adults and children. Analysis of surveillance samples vs symptomatic samples was limited by the small number of events, precluding multivariable analysis. Because results of respiratory virus testing were known for symptomatic patients, management and outcomes may have been influenced. We also combined data for samples collected for clinical care, outbreak investigation, and research, potentially resulting in unforeseen differences between these groups. Although we are able to make broad conclusions about outcomes in patients with and without a pretransplant respiratory virus, and in those patients with and without symptoms, predictive algorithms for every situation are not possible. Respiratory virus testing closer to conditioning onset could be considered, particularly in patients with known infections (Table 4 ). In addition, a potential limitation of molecular testing is that detection of viral RNA in asymptomatic or previously treated patients may not represent replicating virus."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 142,
+                    "ref_id": "BIBREF0",
+                    "start": 139,
+                    "text": "[1,"
+                },
+                {
+                    "end": 146,
+                    "ref_id": "BIBREF18",
+                    "start": 143,
+                    "text": "19]"
+                },
+                {
+                    "end": 673,
+                    "ref_id": "BIBREF19",
+                    "start": 669,
+                    "text": "[20]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Outcomes in Symptomatic and Asymptomatic Patients",
+            "text": "Current clinical practice guidelines regarding timing of transplant if respiratory viruses are present are largely based on expert opinion [1, 19] . Our study provides evidence that current recommendations regarding delaying transplant for symptomatic respiratory infections are justified. For some viruses or clinical situations, risks of proceeding to transplant may outweigh risks of waiting for viral clearance. Thoughtful deliberation must be given regarding underlying disease, transplant type, underlying immunosuppression, and specific viruses. This information may also assist decisions regarding type of stem cell donated (PBSCs vs bone marrow vs cord blood) [20] , or conditioning regimen utilized if symptomatic viral respiratory disease is diagnosed when transplant is urgently needed."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Outcomes in Symptomatic and Asymptomatic Patients",
+            "text": "Our data strengthen current clinical practice guidelines advising that symptomatic patients should be tested and transplant delayed, when feasible. Our results suggest that even pretransplant rhinovirus infection is associated with poor outcomes and delay of transplant, or possibly, that milder conditioning regimens should be considered. This likely applies most to patients with symptomatic rhinovirus infection; further research to assess why rhinovirus is associated with poor outcomes is needed. Our data suggest that surveillance of asymptomatic patients without recent history of respiratory disease prior to HCT may not be necessary. However, further study to specifically address screening of asymptomatic patients before HCT is warranted. The application of this approach to children remains problematic, in part because relatively few children were studied, with high rates of pretransplant viruses detected (31% positivity in asymptomatic children). The high mortality in children aged <5 years (2 of 6 [33%]) with pre-HCT respiratory viruses is noteworthy. Because effective treatment is unavailable for many respiratory viruses and delay of HCT is often not feasible, these data emphasize the need for intensified prevention of respiratory virus acquisition before transplant and improved management strategies, including development of new antiviral agents and other prophylactic strategies."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Data",
+            "text": "Supplementary materials are available at Clinical Infectious Diseases online (http://cid.oxfordjournals.org). Supplementary materials consist of data provided by the author that are published to benefit the reader. The posted materials are not copyedited. The contents of all supplementary data are the sole responsibility of the authors. Questions or messages regarding errors should be addressed to the author."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {
+                    "institution": "Fred Hutchinson Cancer Research Center",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Angela",
+                "last": "Campbell",
+                "middle": [
+                    "P"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Fred Hutchinson Cancer Research Center",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Katherine",
+                "last": "Guthrie",
+                "middle": [
+                    "A"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Fred Hutchinson Cancer Research Center",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Janet",
+                "last": "Englund",
+                "middle": [
+                    "A"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Fred Hutchinson Cancer Research Center",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Robert",
+                "last": "Farney",
+                "middle": [
+                    "M"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Fred Hutchinson Cancer Research Center",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Elisa",
+                "last": "Minerich",
+                "middle": [
+                    "L"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Fred Hutchinson Cancer Research Center",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Jane",
+                "last": "Kuypers",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Fred Hutchinson Cancer Research Center",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Lawrence",
+                "last": "Corey",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Fred Hutchinson Cancer Research Center",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "Michael",
+                "last": "Boeckh",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Clinical Outcomes Associated With Respiratory Virus Detection Before Allogeneic Hematopoietic Stem Cell Transplant"
+    },
+    "paper_id": "27940da5e1b0cb605d437565bc2f163d997a3694",
+    "ref_entries": {
+        "FIGREF0": {
+            "latex": null,
+            "text": "Pretransplant respiratory virus samples collected in the presence of clinical symptoms (symptomatic) and for surveillance alone (surveillance). The diagram shows number of patients with samples collected for clinical care and/or for the prospective research study. Clinical care samples include samples from symptomatic patients, surveillance samples collected during a respiratory syncytial virus outbreak, and surveillance samples collected from children. Patients with these surveillance samples combined with the patients who provided research samples alone comprised the asymptomatic surveillance cohort.",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "latex": null,
+            "text": "2-2.3; P = .57) or risk of death (HR, 1.4; 95% CI, .4-4.6; P = .59). Patients with positive surveillance samples spent 10 fewer day as outpatients (95% CI, \u221220 to \u2212.2; P = .05), compared with patients with negative surveillance samples.DISCUSSIONThis large prospective longitudinal assessment of respiratory virus infections prior to HCT provides new data for this highrisk patient population. Sensitive virologic detection methods were utilized to test samples obtained by systematic weekly posttransplant surveillance. Respiratory viruses were commonly",
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "latex": null,
+            "text": "A, Probability of at least 1 bronchoscopy by pretransplant respiratory viral status (P = .10). B, Probability of at least 1 bronchoscopy by pretransplant respiratory viral status, by virus group. Group 1 includes respiratory syncytial virus, human metapneumovirus, parainfluenza virus, influenza A and B, and adenovirus (P = .03); group 2 includes human rhinovirus, human coronavirus, and human bocavirus (P = .54).",
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "latex": null,
+            "text": "A, Days alive and out of hospital within the first 100 days after hematopoietic cell transplant (HCT) by pretransplant respiratory viral status (P =",
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "latex": null,
+            "text": "A, Overall mortality by pretransplant respiratory viral status (P = .02). B, Overall mortality by pretransplant respiratory viral status, by virus group. Group 1 includes respiratory syncytial virus, human metapneumovirus, parainfluenza virus, influenza A and B, and adenovirus (P = .08); group 2 includes human rhinovirus, human coronavirus, and human bocavirus (P = .05).",
+            "type": "figure"
+        },
+        "TABREF0": {
+            "html": "<html><body><table><tr><td>\u00a0</td><td>Without Pre-HCT\n</td><td>With Pre-HCT\n</td><td>P\n</td></tr><tr><td>Characteristic\n</td><td>Virus (n = 342)\n</td><td>Virus (n = 116)\n</td><td>Value\n</td></tr><tr><td>Median age, y (range) </td><td>51 (1-75) </td><td>44 (1-75) </td><td>.002\n</td></tr><tr><td>Age, y\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>&lt;5 </td><td>6 (2) </td><td>12 (10)\n</td><td>\u00a0</td></tr><tr><td>5-17 </td><td>22 (6) </td><td>12 (10)\n</td><td>\u00a0</td></tr><tr><td>18-75 </td><td>314 (92) </td><td>92 (79)\n</td><td>\u00a0</td></tr><tr><td>Male sex </td><td>213 (62) </td><td>73 (63) </td><td>.90\n</td></tr><tr><td>HCT donor type </td><td>\u00a0</td><td>\u00a0</td><td>.06\n</td></tr><tr><td>Matched-related </td><td>108 (32) </td><td>34 (29)\n</td><td>\u00a0</td></tr><tr><td>Mismatched-related </td><td>15 (4) </td><td>12 (10)\n</td><td>\u00a0</td></tr><tr><td>Unrelated </td><td>219 (64) </td><td>70 (60)\n</td><td>\u00a0</td></tr><tr><td>Stem cell source </td><td>\u00a0</td><td>\u00a0</td><td>.03\n</td></tr><tr><td>PBSCs </td><td>254 (74) </td><td>74 (64)\n</td><td>\u00a0</td></tr><tr><td>Bone marrow </td><td>54 (16) </td><td>31 (27)\n</td><td>\u00a0</td></tr><tr><td>Cord blood </td><td>34 (10) </td><td>11 (9)\n</td><td>\u00a0</td></tr><tr><td>Nonmyeloablative conditioning regimen\n</td><td>133 (39) </td><td>54 (47) </td><td>.15\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Underlying disease riska </td><td>\u00a0</td><td>\u00a0</td><td>.009\n</td></tr><tr><td>Standard </td><td>221 (65) </td><td>59 (51)\n</td><td>\u00a0</td></tr><tr><td>High </td><td>121 (35) </td><td>57 (49)\n</td><td>\u00a0</td></tr><tr><td>Recipient CMV seropositivity\n</td><td>194 (57) </td><td>68 (59) </td><td>.72\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>&lt;.001\n</td></tr><tr><td>Lymphocyte count, lymphocytes/\u03bcL\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>\u2264100 </td><td>93 (27) </td><td>19 (16)\n</td><td>\u00a0</td></tr><tr><td>&gt;100 to 300 </td><td>71 (21) </td><td>11 (9)\n</td><td>\u00a0</td></tr><tr><td>\u00a0</td><td>&gt;300 </td><td>178 (52) </td><td>86 (74)\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "Characteristics of Hematopoietic Cell Transplant Recipients With or Without a Pretransplant Respiratory Virus Detected (N = 458)",
+            "type": "table"
+        },
+        "TABREF1": {
+            "latex": null,
+            "text": "Characteristics of Patients With Respiratory Virus Detected From Pretransplant Respiratory SpecimensAbbreviations: AdV, adenovirus; HBoV, human bocavirus; HCoV, human coronavirus; HCT, hematopoietic cell transplant; HMPV, human metapneumovirus; HRV, human rhinovirus; LRTI, lower respiratory tract infection; PIV, parainfluenza virus; RSV, respiratory syncytial virus. a Fourteen patients had 2 respiratory viruses detected before HCT. If separate in time, the virus detected closest to transplant was used for analysis, with the exception of HBoV. If simultaneous (n = 6), the virus more commonly known to be associated with complications was chosen, as follows: group 1 over group 2 viruses; HRV over HBoV; RSV and PIV1 over AdV. No patient with simultaneous detections died in the first 100 days after HCT.",
+            "type": "table"
+        },
+        "TABREF2": {
+            "html": "<html><body><table><tr><td>\u00a0</td><td>\u00a0</td><td>Unadjusted </td><td>\u00a0</td><td>Adjusteda\n</td><td>\u00a0</td></tr><tr><td>Incidence of Bronchoscopy </td><td>No. (%)\n</td><td>HR (95% CI) </td><td>P Value </td><td>HR (95% CI) </td><td>P Value\n</td></tr><tr><td>By virus status\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>58/342 (17) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>. . .\n</td></tr><tr><td>Positive </td><td>27/116 (23) </td><td>1.5 (.9-2.3) </td><td>.10 </td><td>1.3 (.8-2.0) </td><td>.32\n</td></tr><tr><td>By virus group\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>58/342 (17) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>\u00a0</td></tr><tr><td>Group 1 virus </td><td>13/45 (29) </td><td>1.9 (1.1-3.5) </td><td>.03 </td><td>1.6 (.9-3.0) </td><td>.11\n</td></tr><tr><td>Group 2 virus </td><td>14/71 (20) </td><td>1.2 (.7-2.2) </td><td>.54 </td><td>1.0 (.6-1.9) </td><td>.87\n</td></tr><tr><td>By specific viruses\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>58/342 (17) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>\u00a0</td></tr><tr><td>Influenza A/B or RSV </td><td>7/19 (37) </td><td>2.6 (1.2-5.6) </td><td>.02 </td><td>2.2 (1.0-4.9) </td><td>.05\n</td></tr><tr><td>HRV </td><td>11/53 (21) </td><td>1.3 (.7-2.4) </td><td>.46 </td><td>1.1 (.6-2.1) </td><td>.79\n</td></tr><tr><td>Others </td><td>9/44 (20) </td><td>1.3 (.6-2.6) </td><td>.50 </td><td>1.1 (.5-2.3) </td><td>.80\n</td></tr><tr><td>Days Alive and out of Hospital </td><td>No. </td><td>Unadjusted Mean Difference (95% CI) </td><td>P Value </td><td>Adjustedb Mean Difference (95% CI) </td><td>P Value\n</td></tr><tr><td>By virus status\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>342 </td><td>0 </td><td>. . . </td><td>0 </td><td>. . .\n</td></tr><tr><td>Positive </td><td>116 </td><td>\u22129 (\u221215 to \u22124) </td><td>.001 </td><td>\u22128 (\u221213 to \u22123) </td><td>.002\n</td></tr><tr><td>By virus group\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>342 </td><td>0 </td><td>. . . </td><td>0 </td><td>. . .\n</td></tr><tr><td>Group 1 virus </td><td>45 </td><td>\u22129 (\u221217 to \u22121) </td><td>.03 </td><td>\u22128 (\u221216 to \u22121) </td><td>.03\n</td></tr><tr><td>Group 2 virus </td><td>71 </td><td>\u22129 (\u221216 to \u22123) </td><td>.007 </td><td>\u22128 (\u221214 to \u22122) </td><td>.01\n</td></tr><tr><td>By specific viruses\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>338 </td><td>0 </td><td>. . . </td><td>0 </td><td>. . .\n</td></tr><tr><td>Influenza A/B or RSV </td><td>19 </td><td>\u22124 (\u221216 to 8) </td><td>.51 </td><td>\u22126 (\u221217 to 6) </td><td>.32\n</td></tr><tr><td>HRV </td><td>53 </td><td>\u22129 (\u221217 to \u22121) </td><td>.02 </td><td>\u22129 (\u221216 to \u22122) </td><td>.02\n</td></tr><tr><td>Others </td><td>44 </td><td>\u221212 (\u221220 to \u22124) </td><td>.005 </td><td>\u22128 (\u221216 to \u22121) </td><td>.03\n</td></tr><tr><td>Day 100 Mortality </td><td>No. </td><td>Unadjusted HR (95% CI) </td><td>P Value </td><td>Adjustedc HR (95% CI) </td><td>P Value\n</td></tr><tr><td>By virus status\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>27/342 (8) </td><td>1.0 </td><td>\u00a0</td><td>\u00a0</td><td>. . .\n</td></tr><tr><td>Positive </td><td>18/116 (16) </td><td>2.1 (1.1-3.7) </td><td>.02 </td><td>2.4 (1.3-4.5) </td><td>.007\n</td></tr><tr><td>By virus group\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>27/342 (8) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>\u00a0</td></tr><tr><td>Group 1 virus </td><td>7/45 (16) </td><td>2.1 (.9-4.9) </td><td>.08 </td><td>2.6 (1.1-6.4) </td><td>.03\n</td></tr><tr><td>Group 2 virus </td><td>11/71 (15) </td><td>2.0 (1.0-4.1) </td><td>.05 </td><td>2.3 (1.0-4.7) </td><td>.03\n</td></tr><tr><td>By specific viruses\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Negative </td><td>27/341 (8) </td><td>1.0 </td><td>\u00a0</td><td>1.0 </td><td>\u00a0</td></tr><tr><td>Influenza A/B or RSV </td><td>2/19 (11) </td><td>1.4 (.3-5.8) </td><td>.67 </td><td>1.6 (.4-7.3) </td><td>.51\n</td></tr><tr><td>HRV </td><td>10/53 (19) </td><td>2.5 (1.2-5.2) </td><td>.01 </td><td>2.6 (1.2-5.5) </td><td>.01\n</td></tr><tr><td>Others </td><td>6/44 (14) </td><td>1.8 (.7-4.4) </td><td>.19 </td><td>2.3 (.9-5.9) </td><td>.07\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "Clinical Outcomes at Day 100 After Hematopoietic Cell Transplant (HCT), by Pre-HCT Respiratory Virus Status",
+            "type": "table"
+        },
+        "TABREF3": {
+            "latex": null,
+            "text": "Deaths Related to Pretransplant Respiratory Virus Infection Patient also acquired AdV post-HCT, died with diffuse alveolar damage attributed to HRV and AdV (positive on BAL day 20). Negative NW on days \u221213 (clinical sample) and \u22127 (research sample); persistent respiratory symptoms before and after HCT, and worsening pulmonary opacities after. BAL on day 48 and day 71 positive for HRV (and 400 colonies/mL of Pseudomonas aeruginosa in the 2nd BAL); other testing was negative. Died day 80[14]. HCT NW negative day \u221223 and \u221210 (clinical samples); proceeded to HCT after myeloablative conditioning, developed new symptoms on day 1 and was positive for HMPV. Research samples collected when patient was without symptoms on day \u22122 and day \u22121 and tested later per protocol were positive for HMPV. HCT NW negative by PCR on day \u221212 clinical sample, myeloablative conditioning began on day \u22128; patient developed rhinorrhea and sore throat on day \u22125. Decision made to proceed with HCT despite positive clinical NW on day \u22125. Developed worsening hypoxia and pulmonary infiltrates and died on day 32 from influenza pneumonia. Research sample collected when the patient was asymptomatic on day \u22127 was positive for influenza A when tested later per protocol.Abbreviations: AdV, adenovirus; BAL, bronchoalveolar lavage; CMV, cytomegalovirus; HCT, hematopoietic cell transplant; HMPV, human metapneumovirus; HRV, human rhinovirus; LRTI, lower respiratory tract infection; NW, nasal wash; PCR, polymerase chain reaction. a Clinical sample.",
+            "type": "table"
+        }
+    }
+}

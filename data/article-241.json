@@ -1,2885 +1,2885 @@
 {
-    "paper_id": "2798c4a00eb66ccad3df64d28c6fbf0f72dfb3d6",
-    "metadata": {
-        "title": "Article 829665 1 (2022) Long-Term Kinetics of SARS-CoV-2 Antibodies and Impact of Inactivated Vaccine on SARS-CoV-2 Antibodies Based on a COVID-19 Patients Cohort",
-        "authors": [
-            {
-                "first": "Shihan",
-                "middle": [],
-                "last": "Zhang",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Southeast University",
-                    "location": {
-                        "settlement": "Nanjing",
-                        "country": "China"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Ke",
-                "middle": [],
-                "last": "Xu",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Chuchu",
-                "middle": [],
-                "last": "Li",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Lu",
-                "middle": [],
-                "last": "Zhou",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Xiaoxiao",
-                "middle": [],
-                "last": "Kong",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Jiefu",
-                "middle": [],
-                "last": "Peng",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Fengcai",
-                "middle": [],
-                "last": "Zhu",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Changjun",
-                "middle": [],
-                "last": "Bao",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Hui",
-                "middle": [],
-                "last": "Jin",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Southeast University",
-                    "location": {
-                        "settlement": "Nanjing",
-                        "country": "China"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Qiang",
-                "middle": [],
-                "last": "Gao",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Xing",
-                "middle": [],
-                "last": "Zhao",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Liguo",
-                "middle": [],
-                "last": "Zhu",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "David",
-                "middle": [],
-                "last": "Nemazee",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Wanbo",
-                "middle": [],
-                "last": "Tai",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Qunying",
-                "middle": [],
-                "last": "Mao",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Zhulg@jscdc",
-                "middle": [],
-                "last": "Cn",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Zhang",
-                "middle": [
-                    "S"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Xu",
-                "middle": [
-                    "K"
-                ],
-                "last": "Li",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "C",
-                "middle": [],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Zhou",
-                "middle": [
-                    "L"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Kong",
-                "middle": [
-                    "X"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Peng",
-                "middle": [
-                    "J"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Zhu",
-                "middle": [
-                    "F"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Bao",
-                "middle": [
-                    "C"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Jin",
-                "middle": [
-                    "H"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Gao",
-                "middle": [
-                    "Q"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Zhao",
-                "middle": [
-                    "X"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Zhu",
-                "middle": [
-                    "L"
-                ],
-                "last": "",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "Background: Understanding the long-term kinetic characteristics of SARS-CoV-2 antibodies and the impact of inactivated vaccines on SARS-CoV-2 antibodies in convalescent patients can provide information for developing and improving vaccination strategies in such populations.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Background: Understanding the long-term kinetic characteristics of SARS-CoV-2 antibodies and the impact of inactivated vaccines on SARS-CoV-2 antibodies in convalescent patients can provide information for developing and improving vaccination strategies in such populations."
         },
         {
-            "text": "Methods: In this cohort, 402 convalescent patients who tested positive for SARS-CoV-2 by RT-PCR from 1 January to 22 June 2020 in Jiangsu, China, were enrolled. The epidemiological data included demographics, symptom onset, and vaccination history. Blood samples were collected and tested for antibody levels of specific IgG, IgM, RBD-IgG, S-IgG, and neutralizing antibodies using a the commercial magnetic chemiluminescence enzyme immunoassay.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Methods: In this cohort, 402 convalescent patients who tested positive for SARS-CoV-2 by RT-PCR from 1 January to 22 June 2020 in Jiangsu, China, were enrolled. The epidemiological data included demographics, symptom onset, and vaccination history. Blood samples were collected and tested for antibody levels of specific IgG, IgM, RBD-IgG, S-IgG, and neutralizing antibodies using a the commercial magnetic chemiluminescence enzyme immunoassay."
         },
         {
-            "text": "Results: The median follow-up time after symptom onset was 15.6 months (IQR, 14.6 to 15.8). Of the 402 convalescent patients, 44 (13.84%) received an inactivated vaccine against COVID-19. A total of 255 (80.19%) patients were IgG-positive and 65 (20.44%) were IgM-positive. The neutralizing antibody was 83.02%. Compared with nonvaccinated individuals, the IgG antibody levels in vaccinated people were higher (P=0.007). Similarly, antibody levels for RBD-IgG, S-IgG, and neutralizing antibodies were all highly increased in vaccinated individuals (P<0.05). IgG levels were significantly higher after vaccination than before vaccination in the same population. IgG levels in those who received 'single dose and \u226514d' were similar to those with two doses (P>0.05). Similar conclusions were drawn for RBD-IgG and the neutralizing antibody.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Results: The median follow-up time after symptom onset was 15.6 months (IQR, 14.6 to 15.8). Of the 402 convalescent patients, 44 (13.84%) received an inactivated vaccine against COVID-19. A total of 255 (80.19%) patients were IgG-positive and 65 (20.44%) were IgM-positive. The neutralizing antibody was 83.02%. Compared with nonvaccinated individuals, the IgG antibody levels in vaccinated people were higher (P=0.007). Similarly, antibody levels for RBD-IgG, S-IgG, and neutralizing antibodies were all highly increased in vaccinated individuals (P<0.05). IgG levels were significantly higher after vaccination than before vaccination in the same population. IgG levels in those who received 'single dose and \u226514d' were similar to those with two doses (P>0.05). Similar conclusions were drawn for RBD-IgG and the neutralizing antibody."
         }
     ],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "Coronavirus disease 2019 (COVID- 19) is an infectious disease caused by the novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). It was first discovered in December 2019, in the city of Wuhan, China, and subsequently spread to countries around the world, causing a pandemic. As of 15 October 2021, there have been 239,437,517 confirmed cases, including 4,879,235 deaths, reported to the WHO (1) .",
-            "cite_spans": [
-                {
-                    "start": 33,
-                    "end": 36,
-                    "text": "19)",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 406,
-                    "end": 409,
-                    "text": "(1)",
-                    "ref_id": "BIBREF0"
-                }
-            ],
-            "ref_spans": [],
-            "section": "INTRODUCTION"
-        },
-        {
-            "text": "Based on serological studies of naturally infected populations, IgM antibodies are the first to be expressed and are mainly present in the circulation, promoting antigenic modulation (2, 3) . IgG antibodies begin to appear later in the immune response because they undergo affinity maturation through somatic mutations, resulting in high affinity for the target antigen and an enhanced ability to neutralise the pathogen (2) . SARS-CoV-2 particles contain four main structural proteins: spike protein (S), envelope protein (E), membrane protein (M), and nucleocapsid protein (N). Of these, spike protein (S) interacts with hosts' ACE2 and TMPRSS2 receptors for entry (4) . Therefore, in terms of protection, the S protein is considered to be the most relevant antigen causing key antibody responses (5) . Neutralizing antibodies play an important role in the prevention and vaccine development of COVID-19 (6) . Currently, there is still a large global population in various forms of temporary quarantine to limit the spread of the virus, resulting in severe disruptions to international travel and local socioeconomic activities (2) . Therefore, there is an urgent need to better understand the nature and duration of immunization against SARS-CoV-2 since almost all epidemiological models, vaccination campaigns, and public health measures assume some degree of immunity during the COVID-19 recovery period (7) (8) (9) . Some studies in Iceland and the United States have shown that antibodies persist for more than 4 months after infection, but other studies have reported rapid fading of antibodies within 3-4 months (10) . Most of the available studies have explored the outcome of specific antibodies at 6 months or even 1 year. Nevertheless, we urgently need to understand the long-term durability of SARS-CoV-2-specific IgG and IgM and neutralizing antibody (nAb) responses after symptom onset or RT-PCR confirmation, which is critical for learning the characteristics or patterns of antibody depletion. In addition, the increasing number of COVID-19 convalescent patients will want to know if they still need the vaccine and how many doses are sufficient.",
-            "cite_spans": [
-                {
-                    "start": 183,
-                    "end": 186,
-                    "text": "(2,",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 187,
-                    "end": 189,
-                    "text": "3)",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 421,
-                    "end": 424,
-                    "text": "(2)",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 667,
-                    "end": 670,
-                    "text": "(4)",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 799,
-                    "end": 802,
-                    "text": "(5)",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 906,
-                    "end": 909,
-                    "text": "(6)",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 1130,
-                    "end": 1133,
-                    "text": "(2)",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 1409,
-                    "end": 1412,
-                    "text": "(7)",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 1413,
-                    "end": 1416,
-                    "text": "(8)",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 1417,
-                    "end": 1420,
-                    "text": "(9)",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 1621,
-                    "end": 1625,
-                    "text": "(10)",
-                    "ref_id": "BIBREF10"
-                }
-            ],
-            "ref_spans": [],
-            "section": "INTRODUCTION"
-        },
-        {
-            "text": "In the first round of follow-up of 284 convalescent patients between August and October 2020, we obtained short-term characteristics of the dynamic changes in antibodies (3) . In the current study, we continued a second round of follow-up of 318 patients recovering from COVID-19 from December 2020 to June 2021, in addition to testing for specific antibodies IgG, IgM, and neutralizing antibodies, we also measured antibody levels for IgG subtypes and collected information on vaccination in these subjects. The aim was to understand the dynamic characteristics and duration of specific antibodies in the naturally infected population over a longer period of time, and the effect of vaccination on antibody levels in all aspects.",
-            "cite_spans": [
-                {
-                    "start": 170,
-                    "end": 173,
-                    "text": "(3)",
-                    "ref_id": "BIBREF2"
-                }
-            ],
-            "ref_spans": [],
-            "section": "INTRODUCTION"
-        },
-        {
-            "text": "A total of 402 COVID-19-cured patients (confirmed from January to June 2020) in Jiangsu Province, China, were followed up in two rounds between 26 August 2020 and 28 October 2020 (the first round) and between 8 December 2020 and 21 June 2021 (the second round) (Figure 1 ). Of these, 284 patients participated in the first follow-up visit, 318 in the second, and 228 in both rounds. According to the Diagnosis and Treatment Protocol for Novel Coronavirus Pneumonia released by the National Health Commission of the People's Republic of China, the detection of novel coronavirus nucleic acids in specimens such as nasal and oropharyngeal swabs, sputum and other lower respiratory secretions, blood, stool, and urine using real-time reverse transcriptase-polymerase chain reaction (RT-PCR) and (next-generation sequencing) (NGS) were the primary criteria for diagnosis. All subjects included in this cohort met the above criteria. As in the first round (3), blood samples were collected from the second round of follow-up to measure the level of specific antibodies against SARS-CoV-2 and to monitor the dynamics of the antibodies in the body. The clinical data included immunization history of inactivated vaccine against COVID-19, demographics, and acute phase disease severity classification (Version 8 Diagnosis and Treatment Protocol for COVID-19).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 261,
-                    "end": 270,
-                    "text": "(Figure 1",
-                    "ref_id": "FIGREF1"
-                }
-            ],
-            "section": "Patients and Data Collection"
-        },
-        {
-            "text": "CLIA-Based (Chemiluminescence Immunoassay) Detection of Specific Antibodies and Neutralizing Antibodies Against SARS-CoV-2",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Patients and Data Collection"
+            "section": "ACKNOWLEDGMENTS",
+            "text": "We are grateful for all patients who participated in this study. We also thank all the staff members who supported this study."
         },
         {
-            "text": "In the second round of follow-up, participants' serum samples were used to test the levels of the following antibodies: specific IgG, IgM, IgG subtypes (RBD-IgG, S-IgG, and N-IgG), and neutralizing antibodies. These specific antibodies were tested using the following commercial kits: Novel Coronavirus (2019-nCoV) IgM/IgG antibody diagnostic kit (plate CLIA) supplied by Bioscience Co. (China National Medical Products Administration, approval numbers 20203400183 [IgG] and 2 0 2 0 3 4 0 0 1 8 2 [ I g M ] ) o n a n a u t o m a t e d m a g n e t i c chemiluminescence analyzer (Axceed 260; Bioscience). Detailed information on the principle of the test, the procedure, and the sensitivity and specificity of this kit can be found in the first round of follow-up (3). The levels of neutralizing antibodies against SARS-CoV-2 were calculated using ACE2-RBD inhibiting antibody concentration using the research kit (Bioscience Co.) conducted on the same automated magnetic chemiluminescence analyser. The chemiluminescent signal was measured as a relative light unit (RLU) using the optical system of the analyser. The titres of SARS-CoV-2 ACE2 competitive antibodies in the serum sample were measured as S/CO (sample/ cut-off) by comparing the RLU of a sample to the cut-off determined from standard curves. If the S/CO value is \u22652.0, the test result is positive, while if the S/CO value is <1.0, the result is considered negative; if between 1.0-2.0, the judgment is indeterminate and comprehensive judgment is recommended. The detection performance of the MCLIA kits for neutralization antibodies was reported by the manufacturer and the coincidence rate was 85-90%.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Patients and Data Collection"
-        },
-        {
-            "text": "Continuous variables were expressed as means \u00b1 95%CI, and significance was calculated using the two-tailed t-test, one-way ANOVA or Wilcoxon rank sum (Mann-Whitney) test as appropriate, and categorical variables were presented as percentages, and significance was calculated using the chisquare test or Fisher's exact test as appropriate. The change in IgG positive rates over the follow-up period was presented as line plots and the change in the level of IgG quantification was shown as bar plots. Evaluation of the effectiveness of vaccination doses was shown on a violin plot. Multivariate regression analyses of antibody positive rates and levels with factors, such as sex, age, disease severity, and vaccination were performed to confirm the cross-effect between these factors. Stata (version 15.0) and GraphPad Prism (version 9.0) software were used for the statistical analysis. Statistical significance was considered at P<0.05 (ns: no signifi cance; *p<0.05; **p<0.01; ***p<0.001; ****p<0.0001). Table 1 . The female to male ratio was 52.8% vs. 47.2%. The age range varied from 8 to 91 years and was concentrated in the 30-39 years (24.84%) and 50-59 years (23.27%) age groups. The mean age of all patients was 45.21 years (IQR, . Depending on the severity of disease, the normal type accounted for the largest proportion (50.94%), followed by the asymptomatic type (28.93%). In these convalescent patients, 44(13.84%) received an inactivated vaccine against COVID-19. There were no statistically significant differences in the demographic and clinical characteristics between the vaccinated and unvaccinated groups.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 1006,
-                    "end": 1013,
-                    "text": "Table 1",
-                    "ref_id": "TABREF1"
-                }
-            ],
-            "section": "Statistical Analyses"
-        },
-        {
-            "text": "As shown in Table 2 , among the 318 individuals who participated in this round of follow-up, 255 (80.19%) were IgG-positive, and 65 (20.44%) were IgM-positive. The antibody level for IgG was 9.73 (95%CI, 8. 28-11.19 ) in those patients with positive IgG, meanwhile, the antibody level for IgM was 4.85 (95%CI, 2.85-6.86) in those patients with positive IgM. Compared with unvaccinated individuals, the IgG antibody levels of vaccinated people were higher (P=0.007). However, there was no statistically significant difference in IgM antibody levels between those with and without a history of vaccination. Table 2 and S1 illustrate the correlation of IgG positive rates with age and severity of disease in all convalescent patients and unvaccinated convalescent patients (P<0.05). Table S2 suggests that the rate of IgG positivity in vaccinated convalescent individuals was related to sex and disease severity (P<0.05). The IgG positive rate was significantly greater in females than in males (96.30% vs. 76.47%), and there was a positive correlation with disease severity. However, we did not observe an association between IgG levels, sex, and disease severity in the vaccinated population (P>0.05).",
-            "cite_spans": [
-                {
-                    "start": 207,
-                    "end": 215,
-                    "text": "28-11.19",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 12,
-                    "end": 19,
-                    "text": "Table 2",
-                    "ref_id": "TABREF0"
-                },
-                {
-                    "start": 605,
-                    "end": 612,
-                    "text": "Table 2",
-                    "ref_id": "TABREF0"
-                },
-                {
-                    "start": 780,
-                    "end": 788,
-                    "text": "Table S2",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Distribution of IgM/IgG Positive Rates and Antibody Levels"
-        },
-        {
-            "text": "Comparisons of IgM/IgG positive rates and antibody levels between convalescent patients with and without vaccination are shown in the Supplemental material (Tables S3-S6 ). The rate of IgG positivity was only slightly higher in the vaccinated women (P=0.042). However, IgG antibody levels were elevated in overall, male, 30-39 years age group, and asymptomatic and mild type subjects(P<0.05). Relative to the unvaccinated group, the IgM positive rate in the vaccinated group was only increased in the mild type, and IgM antibody levels were only increased in the 30-39 age group (P=0.028 and P=0.003, respectively).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 156,
-                    "end": 169,
-                    "text": "(Tables S3-S6",
-                    "ref_id": "TABREF3"
-                }
-            ],
-            "section": "Distribution of IgM/IgG Positive Rates and Antibody Levels"
-        },
-        {
-            "text": "15.6 months after symptom onset, the predominance of IgG single-positive was 62.58% at the end of the second follow-up. The percentage of IgM single-positive was 2.83%, IgM/IgG Table 3 .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 177,
-                    "end": 184,
-                    "text": "Table 3",
-                    "ref_id": "TABREF3"
-                }
-            ],
-            "section": "Distribution of IgM/IgG Combinations in Second-Round Follow-Up Subjects"
-        },
-        {
-            "text": "At the second follow-up, the positive rate of RBD-IgG was 89.31%, S-IgG was 91.51%, neutralizing antibody was 83.02%, and N-IgG was 78.93%. We found that the positive rates of IgG subtypes and neutralizing antibodies correlated with disease severity (P<0.05) and showed a positive correlation. No differences were found in the positive rates of IgG subtypes and neutralizing antibodies between those with and without vaccination (P>0.05). In terms of antibody levels, the mean for RBD-IgG was 11.37 (95% CI, 10. Table 4 .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 512,
-                    "end": 519,
-                    "text": "Table 4",
-                    "ref_id": "TABREF4"
-                }
-            ],
-            "section": "Distribution of Positive Rates and Antibody Levels for IgG Subtypes and Neutralizing Antibodies"
-        },
-        {
-            "text": "Comparisons of levels for IgG subtypes and neutralizing antibodies between convalescent patients with and without vaccination are shown in the Supplemental material (Tables S9-S12) . Remarkably, compared to the unvaccinated group, the level of RBD-IgG antibodies in vaccinees was significantly higher in males, 40-49 age group and patients with mild disease (P<0.05). For S-IgG, antibody levels were significantly higher in vaccinated individuals than in unvaccinated individuals, regardless of sex. Similar conclusions could be drawn for the 30-39 years and 40-49 years age groups and convalescent patients with mild and normal type disease (P<0.05). For neutralizing antibodies, we found that antibody levels were significantly higher in vaccinated individuals than in unvaccinated individuals, irrespective of sex and disease severity (P<0.05) ( Figure 2C ). In addition, similar findings were found in the 30-39, 50-59, and \u226560 age groups.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 165,
-                    "end": 180,
-                    "text": "(Tables S9-S12)",
-                    "ref_id": "TABREF0"
-                },
-                {
-                    "start": 849,
-                    "end": 858,
-                    "text": "Figure 2C",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Distribution of Positive Rates and Antibody Levels for IgG Subtypes and Neutralizing Antibodies"
-        },
-        {
-            "text": "Of the 402 patients that participated in the follow-up, the length of follow-up ranged from 5.4 months to 17.4 months. The horizontal axis was divided into seven equal parts: 5-6 months, 7-8 months, 9-10 months, 11-12 months, 13-14 months, 15-16 months and 17-18 months. The variation in the total positive rate, the positive rate in the unvaccinated group and the positive rate in the vaccinated group are shown in Figure 2A . There was an overall upward trend in the IgG positive rate over the months after symptom onset. The lowest positive rate of 60.87% was recorded at 5-6 months, reaching a maximum of 100% in 17-18 months. Interestingly, there was a sudden increase in the IgG positive rate at 7-8 months, after which it was stable. The positive rate for vaccinated individuals was greater than that of unvaccinated individuals at 87.80% by 15-16 months.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 416,
-                    "end": 425,
-                    "text": "Figure 2A",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Kinetics of the IgG Positive Rates and Antibody Levels During the Two Follow-up Rounds"
-        },
-        {
-            "text": "The IgG antibody levels for all subjects showed a fluctuating upward trend over time( Figure 2B) , from 5.20 to 12.85. There was a small peak at 11-12 months, when the IgG level reached 12.24. Remarkably, from 15-16 months onwards, a succession of patients had been vaccinated, it was evident that the IgG antibody levels were significantly higher in the vaccinated than in the unvaccinated ('17-18 months': 21.08 vs 9.32; '15-16 months': 13.81 vs 9.15) participants.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 86,
-                    "end": 96,
-                    "text": "Figure 2B)",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Kinetics of the IgG Positive Rates and Antibody Levels During the Two Follow-up Rounds"
-        },
-        {
-            "text": "A total of 44 patients received an inactivated COVID-19 vaccine by the second round of follow-up. It was observed that the IgG levels were significantly higher after vaccination than those before vaccination in the same population ( Figure 3A ) by comparing the IgG levels in the first and second follow-up. The participants were divided into four parts according to the dose and the inoculation days between the sampling and the last vaccination: '1 dose and inoculation time less than 14 d', '1 dose and \u226514 d', '2 doses and <14 d' and '2 dose and \u226514 d' (Figure 3) . IgG, RBD-IgG, and neutralizing antibodies were selected for At two-month intervals, the horizontal axis has been divided into seven equal parts, 5~6 months, 7~8 months, 9~10 months, 11~12 months, 13~14 months, 15~16 months and 17~18 months. (A) Trends in IgG positive rate over months after symptom onset in overall, unvaccinated and vaccinated convalescent patients. (B) Trends in IgG antibody levels over months after symptom onset in overall, unvaccinated and vaccinated convalescent patients. (C) Trends in neutralising antibody levels over months after symptom onset in overall, unvaccinated and vaccinated convalescent patients. P values were determined applying a two-tailed Mann-Whitney U test. P<0.05 was considered to be statistically significant.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 233,
-                    "end": 242,
-                    "text": "Figure 3A",
-                    "ref_id": "FIGREF3"
-                },
-                {
-                    "start": 557,
-                    "end": 567,
-                    "text": "(Figure 3)",
-                    "ref_id": "FIGREF3"
-                }
-            ],
-            "section": "Evaluation of the Effectiveness of Vaccination on Convalescent Patients"
-        },
-        {
-            "text": "evaluation. The comparison revealed that IgG levels in those who received 'single dose and \u226514 d' were significantly higher than those who received 'single dose and <14 d' (15.93 vs 3.55), and similar with those with '2 doses and <14 d' (16.32) and '2 dose and \u226514 d' (18.43) (P>0.05). Similar conclusions were drawn for RBD-IgG ( Figure 3B ) and neutralizing antibodies ( Figure 3C ).",
-            "cite_spans": [
-                {
-                    "start": 237,
-                    "end": 244,
-                    "text": "(16.32)",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 331,
-                    "end": 340,
-                    "text": "Figure 3B",
-                    "ref_id": "FIGREF3"
-                },
-                {
-                    "start": 373,
-                    "end": 382,
-                    "text": "Figure 3C",
-                    "ref_id": "FIGREF3"
-                }
-            ],
-            "section": "Evaluation of the Effectiveness of Vaccination on Convalescent Patients"
-        },
-        {
-            "text": "The recent emergence of multiple viral variants and cases of reinfection have led to a reflection on the duration of the antibodies produced by the interaction of SARS-CoV-2 with the immune system. One of the key issues in the current COVID-19 pandemic is to understand the magnitude and kinetics of protective humoral immunity to SARS-CoV-2 following natural infection, which will undoubtedly contribute to protection against re-infection, public health policy development and vaccine progression (5, 11) .",
-            "cite_spans": [
-                {
-                    "start": 498,
-                    "end": 501,
-                    "text": "(5,",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 502,
-                    "end": 505,
-                    "text": "11)",
-                    "ref_id": "BIBREF11"
-                }
-            ],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "In this study, we conducted the second round of follow-up with 318 convalescent patients in Jiangsu Province (the longest follow-up was about 18 months). To the best of our knowledge, our cohort of patients with COVID-19 has the longest follow-up period worldwide (5). The first round of follow-up obtained the short-term kinetics of SARS-CoV-2 specific and neutralizing antibodies over 7 months after symptom onset in COVID-19 patients (3). The long-term characteristics of anti-SARS-CoV-2 antibodies were explored by examining the magnitude and trend of specific antibodies in these subjects over time. Vaccination information was also collected from these participants to understand the effect of vaccination on antibody levels. Our research found that IgG positive rates remained high (80.19%) and that vaccinated individuals had higher levels of IgG antibody compared to unvaccinated individuals. A similar conclusion can (C) Effect of different doses and inoculation days on neutralising antibody levels. P values were determined applying a two-tailed Mann-Whitney U test. P < 0.05 was considered to be statistically significant (ns: no significance; ***p < 0.001; ****p < 0.0001).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "be drawn for IgG subtypes and neutralizing antibodies. These findings fill a gap in the kinetics of the long-term immune response to SARS-CoV-2 and highlight the need for vaccination of the convalescent population.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "Previous studies have shown that antibodies caused by SARS-CoV-2 appear 3 days after the onset of symptoms or 1 week after infection (12, 13) . Understanding population-level seroprevalence and humoral immune kinetics is essential for vaccination strategies (14) . However, little is known about the durability of the long-term humoral response against SARS-CoV-2 (15). Dan et al. showed that the SARS-CoV-2 specific IgG antibody could be maintained for up to 8 months (16) . He et al. found that participants maintained their anti-SARS-CoV-2 IgG antibodies for at least 9 months (15). Xiang et al. also found that most patients recovering from COVID-19 developed detectable SARS-CoV-2 specific IgG antibodies 1 year after the onset of symptoms (5) . In our study, the rate of IgG positivity remained high at 80.19% during the almost 18 months of follow-up after symptom onset, and the IgG antibody level was 9.73 (95%CI, 8.28-11.19) . Researchers have reported that IgG persisted for more than 2 years in patients recovering from SARS (17, 18) . Since SARS-CoV-2 shares 79.6% genomic sequence homology with SARS-Cov (19) , we assume that IgG has the potential to continue to exist. In addition, several studies have shown that anti-SARS-CoV-2 specific IgM levels decrease progressively over 3-5 months after infection (20) . Our study found that 20.44% of participants were positive for IgM 13-14 months after the onset of symptoms, which complements the results of existing studies. A previous study found that RBD-IgG persisted in 96.8% (31 of 32) of subjects at 14 months (21), which was slightly higher than 89.31% (284/318) at 15.6 months after symptom onset in our study. We also found that vaccinated individuals had higher antibody levels of IgG, RBD-IgG, S-IgG, N-IgG and neutralizing antibodies than unvaccinated individuals, consistent with the conclusions reached by Carlos et al. (22) .",
-            "cite_spans": [
-                {
-                    "start": 133,
-                    "end": 137,
-                    "text": "(12,",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 138,
-                    "end": 141,
-                    "text": "13)",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 258,
-                    "end": 262,
-                    "text": "(14)",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 370,
-                    "end": 380,
-                    "text": "Dan et al.",
-                    "ref_id": null
-                },
-                {
-                    "start": 469,
-                    "end": 473,
-                    "text": "(16)",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 476,
-                    "end": 485,
-                    "text": "He et al.",
-                    "ref_id": null
-                },
-                {
-                    "start": 745,
-                    "end": 748,
-                    "text": "(5)",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 922,
-                    "end": 933,
-                    "text": "8.28-11.19)",
-                    "ref_id": null
-                },
-                {
-                    "start": 1036,
-                    "end": 1040,
-                    "text": "(17,",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 1041,
-                    "end": 1044,
-                    "text": "18)",
-                    "ref_id": "BIBREF19"
-                },
-                {
-                    "start": 1117,
-                    "end": 1121,
-                    "text": "(19)",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 1319,
-                    "end": 1323,
-                    "text": "(20)",
-                    "ref_id": "BIBREF21"
-                },
-                {
-                    "start": 1894,
-                    "end": 1898,
-                    "text": "(22)",
-                    "ref_id": "BIBREF24"
-                }
-            ],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "This study also examined the relationship between positive rates and levels of specific antibodies, sex, age, and disease severity. Some reports have observed a correlation between antibody levels and male sex (23) (24) (25) , which is consistent with our findings on IgG antibody levels in vaccinated individuals. However, we also found that the IgG-positive rate was slightly higher in females, which could be an illusion due to the small number of vaccinees and the uneven ratio of males to females, to be further verified by expanding the sample size. There was evidence that IgG antibody levels were positively correlated with age (11, 23, 24, 26) , but we did not observe a significant difference in antibody levels between the age groups of 20-60 years and 60 years and above. In contrast, children and adolescents are more likely to be free of novel coronavirus or less symptomatic, and their immune response was not as violent as that of adults (27) (28) (29) (30) , consistent with our finding of lower antibody levels and positive rates in the <20 years age group. Compared to the other three clinical types, patients with the severe/critical type disease had higher antibody levels and positive rates, while those with the asymptomatic type disease had the lowest IgG levels and positive rates, which may be related to high levels of viral load or inflammatory storm in severe/critical patients (31) . Our study further confirmed the findings of a previous study (32) (33) (34) (35) . We performed multivariate regression analyses of antibody positive rate and level with the factors, incorporating the cross effect between these factors such as sex, age, disease severity, and vaccination into the model. The interaction between the factors was ultimately confirmed to be non-existent.",
-            "cite_spans": [
-                {
-                    "start": 210,
-                    "end": 214,
-                    "text": "(23)",
-                    "ref_id": "BIBREF25"
-                },
-                {
-                    "start": 215,
-                    "end": 219,
-                    "text": "(24)",
-                    "ref_id": "BIBREF26"
-                },
-                {
-                    "start": 220,
-                    "end": 224,
-                    "text": "(25)",
-                    "ref_id": "BIBREF27"
-                },
-                {
-                    "start": 636,
-                    "end": 640,
-                    "text": "(11,",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 641,
-                    "end": 644,
-                    "text": "23,",
-                    "ref_id": "BIBREF25"
-                },
-                {
-                    "start": 645,
-                    "end": 648,
-                    "text": "24,",
-                    "ref_id": "BIBREF26"
-                },
-                {
-                    "start": 649,
-                    "end": 652,
-                    "text": "26)",
-                    "ref_id": "BIBREF28"
-                },
-                {
-                    "start": 954,
-                    "end": 958,
-                    "text": "(27)",
-                    "ref_id": "BIBREF29"
-                },
-                {
-                    "start": 959,
-                    "end": 963,
-                    "text": "(28)",
-                    "ref_id": "BIBREF30"
-                },
-                {
-                    "start": 964,
-                    "end": 968,
-                    "text": "(29)",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 969,
-                    "end": 973,
-                    "text": "(30)",
-                    "ref_id": "BIBREF32"
-                },
-                {
-                    "start": 1407,
-                    "end": 1411,
-                    "text": "(31)",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 1475,
-                    "end": 1479,
-                    "text": "(32)",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 1480,
-                    "end": 1484,
-                    "text": "(33)",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 1485,
-                    "end": 1489,
-                    "text": "(34)",
-                    "ref_id": "BIBREF36"
-                },
-                {
-                    "start": 1490,
-                    "end": 1494,
-                    "text": "(35)",
-                    "ref_id": "BIBREF37"
-                }
-            ],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "The best indicator of vaccine protection is the epidemiological effectiveness of prevention. However, antibody levels can indirectly reflect the effectiveness of immune protection, as supported by Khoury et al. (36) . A key strength of this study was a 15.6 months-long follow-up of a population recovering from natural infection with COVID-19, incorporating inactivated vaccination as a factor for the first time, and assessing changes in the seroprevalence and kinetics of anti-SARS-CoV-2 antibodies, including IgG, RBD-IgG, and neutralizing antibodies. Compared to unvaccinated individuals, IgG antibody levels of vaccinated individuals were elevated in overall, male, 30-40 age group, and asymptomatic and mild type groups; levels of RBD-IgG and neutralizing antibodies were increased in vaccinated individuals. These data illustrate the importance of improving vaccination uptake and aid in future COVID-19 public health measures. In addition, our study aimed to examine the effects of vaccination doses on vaccinated individuals. We found that in those with a single dose of the vaccine, IgG and neutralizing antibody levels were similar to those who received two doses, which serves as an effective immune booster (37, 38) , supporting the notion that one dose is sufficient for patients with a novel coronavirus issued by the Technical Guidelines for Vaccination against Novel Coronavirus (1st Version) (39) .",
-            "cite_spans": [
-                {
-                    "start": 211,
-                    "end": 215,
-                    "text": "(36)",
-                    "ref_id": "BIBREF38"
-                },
-                {
-                    "start": 1221,
-                    "end": 1225,
-                    "text": "(37,",
-                    "ref_id": "BIBREF39"
-                },
-                {
-                    "start": 1226,
-                    "end": 1229,
-                    "text": "38)",
-                    "ref_id": "BIBREF41"
-                },
-                {
-                    "start": 1411,
-                    "end": 1415,
-                    "text": "(39)",
-                    "ref_id": "BIBREF42"
-                }
-            ],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "Our study had several limitations. First, a larger sample size is needed to draw more convincing conclusions. However, due to the need for continuous, prolonged follow-up of convalescent patients in this study, there was a lack of sufficient participants and loss to follow-up, resulting in an under-representation of severe/critical illness (n=4) and poor extrapolation of measurements. Presently, there is an increasing number of viral variants, and the extent and persistence of the human immune response to them has not yet been studied, a gap that needs to be addressed in future studies.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "In summary, we found that most convalescent COVID-19 patients were still positive for IgG antibodies 15.6 months after symptom onset, which suggested the possibility of long-term immunization. People vaccinated with one dose of inactivated vaccine produced higher levels of antibodies than unvaccinated individuals, which was similar to those who received two doses. These findings can help governments and health authorities to implement more suitable vaccination strategies for people recovering from natural infections.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "DISCUSSION"
-        },
-        {
-            "text": "The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "DATA AVAILABILITY STATEMENT"
-        },
-        {
-            "text": "The studies involving human participants were reviewed and approved by the Institutional Review Board of Jiangsu Provincial Center for Disease Control and Prevention (JSJK2021-B007-01). Written informed consent to participate in this study was provided by the participants' legal guardian/next of kin.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "ETHICS STATEMENT"
+            "section": "SUPPLEMENTARY MATERIAL",
+            "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fimmu.2022.829665/ full#supplementary-material Conflict of Interest: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest."
         }
     ],
     "bib_entries": {
         "BIBREF0": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b0",
             "title": "Who Coronavirus (Covid-19) Dashboard (2021)",
-            "authors": [],
-            "year": 2021,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF1": {
-            "ref_id": "b1",
-            "title": "Humoral Responses and Serological Assays in SARS-Cov-2 Infections",
             "authors": [
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Galipeau",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Greig",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Liu",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
                     "middle": [],
-                    "last": "Driedger",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Driedger",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Langlois",
                     "middle": [
                         "A"
                     ],
-                    "last": "Langlois",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Front Immunol",
-            "volume": "11",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.3389/fimmu.2020.610688"
                 ]
-            }
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "Kinetics of SARS-Cov-2 Specific and Neutralizing Antibodies Over Seven Months After Symptom Onset in COVID-19 Patients",
-            "authors": [
-                {
-                    "first": "L",
-                    "middle": [],
-                    "last": "Zhu",
-                    "suffix": ""
-                },
-                {
-                    "first": "X",
-                    "middle": [],
-                    "last": "Xu",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [],
-                    "last": "Zhu",
-                    "suffix": ""
-                },
-                {
-                    "first": "X",
-                    "middle": [],
-                    "last": "Guo",
-                    "suffix": ""
-                },
-                {
-                    "first": "K",
-                    "middle": [],
-                    "last": "Xu",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Song",
-                    "suffix": ""
-                }
-            ],
-            "year": 2021,
-            "venue": "Microbiol Spectr",
-            "volume": "9",
-            "issn": "2",
+            },
             "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1128/Spectrum.00590-21"
-                ]
-            }
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Mutational Landscape and Interaction of SARS-Cov-2 With Host Cellular Components. Microorganisms (2021)",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Srivastava",
-                    "suffix": ""
-                },
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Hall",
-                    "suffix": ""
-                },
-                {
-                    "first": "O",
-                    "middle": [
-                        "B"
-                    ],
-                    "last": "Omoru",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [
-                        "M"
-                    ],
-                    "last": "Gill",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Smith",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [
-                        "C"
-                    ],
-                    "last": "Janga",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "",
-            "volume": "9",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.3390/microorganisms9091794"
-                ]
-            }
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "Declining Levels of Neutralizing Antibodies Against SARS-Cov-2 in Convalescent",
-            "authors": [
-                {
-                    "first": "T",
-                    "middle": [],
-                    "last": "Xiang",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [],
-                    "last": "Liang",
-                    "suffix": ""
-                },
-                {
-                    "first": "Y",
-                    "middle": [],
-                    "last": "Fang",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Lu",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Li",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Wang",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Isolation of Potent SARS-Cov-2 Neutralizing Antibodies and Protection From Disease in a",
-            "authors": [
-                {
-                    "first": "T",
-                    "middle": [
-                        "F"
-                    ],
-                    "last": "Rogers",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [],
-                    "last": "Zhao",
-                    "suffix": ""
-                },
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Huang",
-                    "suffix": ""
-                },
-                {
-                    "first": "N",
-                    "middle": [],
-                    "last": "Beutler",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Burns",
-                    "suffix": ""
-                },
-                {
-                    "first": "W-T",
-                    "middle": [],
-                    "last": "He",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Small Animal Model. Science",
-            "volume": "369",
-            "issn": "6506",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1126/science.abc7520"
-                ]
-            }
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Novel Coronavirus 2019-Ncov (COVID-19): Early Estimation of Epidemiological Parameters and Epidemic Size Estimates",
-            "authors": [
-                {
-                    "first": "J",
-                    "middle": [
-                        "M"
-                    ],
-                    "last": "Read",
-                    "suffix": ""
-                },
-                {
-                    "first": "Jre",
-                    "middle": [],
-                    "last": "Bridgen",
-                    "suffix": ""
-                },
-                {
-                    "first": "Dat",
-                    "middle": [],
-                    "last": "Cummings",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Ho",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [
-                        "P"
-                    ],
-                    "last": "Jewell",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "Philos Trans R Soc B-Biological Sci",
-            "volume": "376",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1098/rstb.2020.0265"
-                ]
-            }
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Projecting the Transmission Dynamics of SARS-Cov-2 Through the Postpandemic Period",
-            "authors": [
-                {
-                    "first": "S",
-                    "middle": [
-                        "M"
-                    ],
-                    "last": "Kissler",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Tedijanto",
-                    "suffix": ""
-                },
-                {
-                    "first": "E",
-                    "middle": [],
-                    "last": "Goldstein",
-                    "suffix": ""
-                },
-                {
-                    "first": "Y",
-                    "middle": [
-                        "H"
-                    ],
-                    "last": "Grad",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Lipsitch",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Science",
-            "volume": "368",
-            "issn": "6493",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1126/science.abb5793"
-                ]
-            }
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "Early Dynamics of Transmission and Control of COVID-19: A",
-            "authors": [
-                {
-                    "first": "A",
-                    "middle": [
-                        "J"
-                    ],
-                    "last": "Kucharski",
-                    "suffix": ""
-                },
-                {
-                    "first": "T",
-                    "middle": [
-                        "W"
-                    ],
-                    "last": "Russell",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Diamond",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Mathematical Modelling Study",
-            "volume": "20",
-            "issn": "5",
-            "pages": "30251--30257",
-            "other_ids": {
-                "DOI": [
-                    "10.1016/s1473-3099(20)30251-6"
-                ]
-            }
+            "ref_id": "b1",
+            "title": "Humoral Responses and Serological Assays in SARS-Cov-2 Infections",
+            "venue": "Front Immunol",
+            "volume": "11",
+            "year": 2020
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "Neutralizing Antibody Titres in SARS-Cov-2 Infections",
             "authors": [
                 {
                     "first": "Ehy",
-                    "middle": [],
                     "last": "Lau",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Oty",
-                    "middle": [],
                     "last": "Tsang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Dsc",
-                    "middle": [],
                     "last": "Hui",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Myw",
-                    "middle": [],
                     "last": "Kwan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W-H",
-                    "middle": [],
                     "last": "",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Ss C",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Nat Commun",
-            "volume": "12",
             "issn": "1",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1038/s41467-020-20247-4"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b10",
+            "title": "Neutralizing Antibody Titres in SARS-Cov-2 Infections",
+            "venue": "Nat Commun",
+            "volume": "12",
+            "year": 2021
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "Naturally Acquired SARS-Cov-2 Immunity Persists for Up to 11 Months Following Infection",
             "authors": [
                 {
                     "first": "V",
-                    "middle": [],
                     "last": "De Giorgi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "West",
                     "middle": [
                         "A"
                     ],
-                    "last": "West",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Henning",
                     "middle": [
                         "N"
                     ],
-                    "last": "Henning",
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Chen",
                     "middle": [
                         "N"
                     ],
-                    "last": "Chen",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Holbrook",
                     "middle": [
                         "R"
                     ],
-                    "last": "Holbrook",
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Gross",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "J Infect Dis",
-            "volume": "224",
             "issn": "8",
-            "pages": "1294--304",
             "other_ids": {
                 "DOI": [
                     "10.1093/infdis/jiab295"
                 ]
-            }
+            },
+            "pages": "1294--304",
+            "ref_id": "b11",
+            "title": "Naturally Acquired SARS-Cov-2 Immunity Persists for Up to 11 Months Following Infection",
+            "venue": "J Infect Dis",
+            "volume": "224",
+            "year": 2021
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application",
             "authors": [
                 {
                     "first": "S",
+                    "last": "Lauer",
                     "middle": [
                         "A"
                     ],
-                    "last": "Lauer",
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Grantz",
                     "middle": [
                         "H"
                     ],
-                    "last": "Grantz",
                     "suffix": ""
                 },
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Bi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "F",
+                    "last": "Jones",
                     "middle": [
                         "K"
                     ],
-                    "last": "Jones",
                     "suffix": ""
                 },
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Zheng",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
+                    "last": "Meredith",
                     "middle": [
                         "R"
                     ],
-                    "last": "Meredith",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "",
-            "volume": "172",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.7326/m20-0504"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b12",
+            "title": "The Incubation Period of Coronavirus Disease 2019 (COVID-19) From Publicly Reported Confirmed Cases: Estimation and Application",
+            "venue": "",
+            "volume": "172",
+            "year": 2020
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "Persistence of Anti-SARS-Cov-2 Antibodies in non",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Bruni",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "V",
-                    "middle": [],
                     "last": "Cecatiello",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Diaz-Basabe",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Lattanzi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Mileti",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Monzani",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b13",
+            "title": "Persistence of Anti-SARS-Cov-2 Antibodies in non",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Convalescent Health Care Workers",
             "authors": [],
-            "year": 2020,
-            "venue": "J Clin Med",
-            "volume": "9",
             "issn": "10",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.3390/jcm9103188"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b14",
+            "title": "Convalescent Health Care Workers",
+            "venue": "J Clin Med",
+            "volume": "9",
+            "year": 2020
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "A Systematic Review of Antibody Mediated Immunity to Coronaviruses: Kinetics, Correlates of Protection, and Association With Severity",
             "authors": [
                 {
                     "first": "A",
+                    "last": "Huang",
                     "middle": [
                         "T"
                     ],
-                    "last": "Huang",
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Garcia-Carreras",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Mdt",
-                    "middle": [],
                     "last": "Hitchings",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Yang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Katzelnick",
                     "middle": [
                         "C"
                     ],
-                    "last": "Katzelnick",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Rattigan",
                     "middle": [
                         "M"
                     ],
-                    "last": "Rattigan",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Nat Commun",
-            "volume": "11",
             "issn": "1",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1038/s41467-020-18450-4"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b15",
+            "title": "A Systematic Review of Antibody Mediated Immunity to Coronaviruses: Kinetics, Correlates of Protection, and Association With Severity",
+            "venue": "Nat Commun",
+            "volume": "11",
+            "year": 2020
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "Seroprevalence and Humoral Immune Durability of Anti-SARS-Cov-2 Antibodies in Wuhan, China: A Longitudinal, Population-Level, Cross-Sectional Study",
             "authors": [
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "He",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Ren",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Yang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Guo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Feng",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Ma",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Lancet",
-            "volume": "397",
             "issn": "",
-            "pages": "1075--84",
             "other_ids": {
                 "DOI": [
                     "10.1016/S0140-6736(21)00238-5"
                 ]
-            }
+            },
+            "pages": "1075--84",
+            "ref_id": "b16",
+            "title": "Seroprevalence and Humoral Immune Durability of Anti-SARS-Cov-2 Antibodies in Wuhan, China: A Longitudinal, Population-Level, Cross-Sectional Study",
+            "venue": "Lancet",
+            "volume": "397",
+            "year": 2021
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "Immunological Memory to SARS-Cov-2 Assessed for Up to 8 Months After Infection",
             "authors": [
                 {
                     "first": "J",
+                    "last": "Dan",
                     "middle": [
                         "M"
                     ],
-                    "last": "Dan",
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Mateus",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Kato",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Hastie",
                     "middle": [
                         "M"
                     ],
-                    "last": "Hastie",
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Yu",
                     "middle": [
                         "D"
                     ],
-                    "last": "Yu",
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Faliti",
                     "middle": [
                         "E"
                     ],
-                    "last": "Faliti",
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Science",
-            "volume": "371",
             "issn": "6529",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1126/science.abf4063"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b17",
+            "title": "Immunological Memory to SARS-Cov-2 Assessed for Up to 8 Months After Infection",
+            "venue": "Science",
+            "volume": "371",
+            "year": 2021
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "Disappearance of Antibodies to SARS-Associated Coronavirus After Recovery",
             "authors": [
                 {
                     "first": "W-C",
-                    "middle": [],
                     "last": "Cao",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Liu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P-H",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Richardus",
                     "middle": [
                         "H"
                     ],
-                    "last": "Richardus",
                     "suffix": ""
                 }
             ],
-            "year": 2007,
-            "venue": "N Engl J Med",
-            "volume": "357",
             "issn": "11",
-            "pages": "1162--1165",
             "other_ids": {
                 "DOI": [
                     "10.1056/NEJMc070348"
                 ]
-            }
+            },
+            "pages": "1162--1165",
+            "ref_id": "b18",
+            "title": "Disappearance of Antibodies to SARS-Associated Coronavirus After Recovery",
+            "venue": "N Engl J Med",
+            "volume": "357",
+            "year": 2007
         },
         "BIBREF19": {
-            "ref_id": "b19",
-            "title": "Duration of Antibody Responses After Severe Acute Respiratory Syndrome",
             "authors": [
                 {
                     "first": "L-P",
-                    "middle": [],
                     "last": "Wu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N-C",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y-H",
-                    "middle": [],
                     "last": "Chang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X-Y",
-                    "middle": [],
                     "last": "Tian",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Na D-Y",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L-Y",
-                    "middle": [],
                     "last": "",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2007,
-            "venue": "Emerging Infect Dis",
-            "volume": "13",
             "issn": "10",
-            "pages": "1562--1566",
             "other_ids": {
                 "DOI": [
                     "10.3201/eid1310.070576"
                 ]
-            }
+            },
+            "pages": "1562--1566",
+            "ref_id": "b19",
+            "title": "Duration of Antibody Responses After Severe Acute Respiratory Syndrome",
+            "venue": "Emerging Infect Dis",
+            "volume": "13",
+            "year": 2007
         },
-        "BIBREF20": {
-            "ref_id": "b20",
-            "title": "Neutralizing Antibodies Against SARS-Cov-2 and Other Human Coronaviruses",
+        "BIBREF2": {
             "authors": [
                 {
-                    "first": "S",
+                    "first": "L",
+                    "last": "Zhu",
                     "middle": [],
-                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Xu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Zhu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "last": "Guo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Xu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Song",
                     "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "2",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/Spectrum.00590-21"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b2",
+            "title": "Kinetics of SARS-Cov-2 Specific and Neutralizing Antibodies Over Seven Months After Symptom Onset in COVID-19 Patients",
+            "venue": "Microbiol Spectr",
+            "volume": "9",
+            "year": 2021
+        },
+        "BIBREF20": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Jiang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
                     "last": "Hillyer",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Du",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Trends Immunol",
-            "volume": "",
             "issn": "5",
-            "pages": "355--364",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.it.2020.03.007"
                 ]
-            }
+            },
+            "pages": "355--364",
+            "ref_id": "b20",
+            "title": "Neutralizing Antibodies Against SARS-Cov-2 and Other Human Coronaviruses",
+            "venue": "Trends Immunol",
+            "volume": "",
+            "year": 2020
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Humoral Immune Responses and Neutralizing Antibodies Against SARS-Cov-2; Implications in Pathogenesis and Protective Immunity",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Carrillo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Izquierdo-Useros",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Avila-Nieto",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Pradenas",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Clotet",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Blanco",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Biochem Biophys Res Commun",
-            "volume": "538",
             "issn": "",
-            "pages": "187--91",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.bbrc.2020.10.108"
                 ]
-            }
+            },
+            "pages": "187--91",
+            "ref_id": "b21",
+            "title": "Humoral Immune Responses and Neutralizing Antibodies Against SARS-Cov-2; Implications in Pathogenesis and Protective Immunity",
+            "venue": "Biochem Biophys Res Commun",
+            "volume": "538",
+            "year": 2021
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "Longitudinal Observation of Antibody Responses for 14 Months After SARS",
             "authors": [
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Dehgani-Mobaraki",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Zaidi",
                     "middle": [
                         "K"
                     ],
-                    "last": "Zaidi",
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Yadav",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Floridi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Floridi",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b22",
+            "title": "Longitudinal Observation of Antibody Responses for 14 Months After SARS",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "Function Is More Reliable Than Quantity to Follow Up the Humoral Response to the Receptor Binding Domain of SARS-Cov-2 Spike Protein After Natural Infection or COVID-19 Vaccination. medRxiv: preprint server Health Sci (2021)",
             "authors": [
                 {
                     "first": "C",
+                    "last": "Sariol",
                     "middle": [
                         "A"
                     ],
-                    "last": "Sariol",
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Pantoja",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Serrano-Collazo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Rosa-Arocho",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Armina",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Cruz",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
-            "venue": "",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1101/2021.06.02.21257975"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b24",
+            "title": "Function Is More Reliable Than Quantity to Follow Up the Humoral Response to the Receptor Binding Domain of SARS-Cov-2 Spike Protein After Natural Infection or COVID-19 Vaccination. medRxiv: preprint server Health Sci (2021)",
+            "venue": "",
+            "volume": "",
+            "year": null
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "Clinical, Laboratory, and Temporal Predictors of Neutralizing Antibodies Against SARS-Cov-2 Among COVID-19 Convalescent Plasma Donor Candidates",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Boonyaratanakornkit",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Morishima",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Selke",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Zamora",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Mcguffin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Shapiro",
                     "middle": [
                         "E"
                     ],
-                    "last": "Shapiro",
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "J Clin Invest",
-            "volume": "131",
             "issn": "3",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1172/jci144930"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b25",
+            "title": "Clinical, Laboratory, and Temporal Predictors of Neutralizing Antibodies Against SARS-Cov-2 Among COVID-19 Convalescent Plasma Donor Candidates",
+            "venue": "J Clin Invest",
+            "volume": "131",
+            "year": 2021
         },
         "BIBREF26": {
-            "ref_id": "b26",
-            "title": "Convergent Antibody Responses to SARS-Cov-2 in Convalescent Individuals",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Robbiani",
                     "middle": [
                         "F"
                     ],
-                    "last": "Robbiani",
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Gaebler",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Muecksch",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Jcc",
-                    "middle": [],
                     "last": "Lorenzi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Cho",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Nature",
-            "volume": "584",
             "issn": "7821",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1038/s41586-020-2456-9"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b26",
+            "title": "Convergent Antibody Responses to SARS-Cov-2 in Convalescent Individuals",
+            "venue": "Nature",
+            "volume": "584",
+            "year": 2020
         },
         "BIBREF27": {
-            "ref_id": "b27",
-            "title": "Why Men Are More Vulnerable to Covid-19 Than Women?",
             "authors": [
                 {
                     "first": "G",
+                    "last": "Bwire",
                     "middle": [
                         "M"
                     ],
-                    "last": "Bwire",
                     "suffix": ""
                 },
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Coronavirus",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "SN Compr Clin Med",
-            "volume": "",
             "issn": "",
-            "pages": "1--3",
             "other_ids": {
                 "DOI": [
                     "10.1007/s42399-020-00341-w"
                 ]
-            }
+            },
+            "pages": "1--3",
+            "ref_id": "b27",
+            "title": "Why Men Are More Vulnerable to Covid-19 Than Women?",
+            "venue": "SN Compr Clin Med",
+            "volume": "",
+            "year": 2020
         },
         "BIBREF28": {
-            "ref_id": "b28",
-            "title": "Quick COVID-19 Healers Sustain Anti-SARS-Cov-2 Antibody Production",
             "authors": [
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Chen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Zuiani",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Fischinger",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Mullur",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Atyeo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Travers",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Cell",
-            "volume": "183",
             "issn": "6",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.cell.2020.10.051"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b28",
+            "title": "Quick COVID-19 Healers Sustain Anti-SARS-Cov-2 Antibody Production",
+            "venue": "Cell",
+            "volume": "183",
+            "year": 2020
         },
         "BIBREF29": {
-            "ref_id": "b29",
-            "title": "Features of 20133 UK Patients in Hospital With Covid-19 Using the ISARIC WHO Clinical Characterisation Protocol: Prospective Observational Cohort Study",
             "authors": [
                 {
                     "first": "A",
+                    "last": "Docherty",
                     "middle": [
                         "B"
                     ],
-                    "last": "Docherty",
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Harrison",
                     "middle": [
                         "M"
                     ],
-                    "last": "Harrison",
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Green",
                     "middle": [
                         "A"
                     ],
-                    "last": "Green",
                     "suffix": ""
                 },
                 {
                     "first": "H",
+                    "last": "Hardwick",
                     "middle": [
                         "E"
                     ],
-                    "last": "Hardwick",
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Pius",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Norman",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Bmj-British Med J",
-            "volume": "369",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1136/bmj.m1985"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b29",
+            "title": "Features of 20133 UK Patients in Hospital With Covid-19 Using the ISARIC WHO Clinical Characterisation Protocol: Prospective Observational Cohort Study",
+            "venue": "Bmj-British Med J",
+            "volume": "369",
+            "year": 2020
         },
-        "BIBREF30": {
-            "ref_id": "b30",
-            "title": "SARS-Cov-2 Infection in Children",
+        "BIBREF3": {
             "authors": [
                 {
-                    "first": "X",
+                    "first": "M",
+                    "last": "Srivastava",
                     "middle": [],
-                    "last": "Lu",
                     "suffix": ""
                 },
                 {
-                    "first": "L",
+                    "first": "D",
+                    "last": "Hall",
                     "middle": [],
-                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "last": "Omoru",
+                    "middle": [
+                        "B"
+                    ],
                     "suffix": ""
                 },
                 {
                     "first": "H",
+                    "last": "Gill",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Smith",
                     "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Janga",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/microorganisms9091794"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b3",
+            "title": "Mutational Landscape and Interaction of SARS-Cov-2 With Host Cellular Components. Microorganisms (2021)",
+            "venue": "",
+            "volume": "9",
+            "year": null
+        },
+        "BIBREF30": {
+            "authors": [
+                {
+                    "first": "X",
+                    "last": "Lu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Zhang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
                     "last": "Du",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
+                    "last": "Li",
                     "middle": [
                         "Y"
                     ],
-                    "last": "Li",
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Qu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "N Engl J Med",
-            "volume": "382",
             "issn": "17",
-            "pages": "1663--1668",
             "other_ids": {
                 "DOI": [
                     "10.1056/NEJMc2005073"
                 ]
-            }
+            },
+            "pages": "1663--1668",
+            "ref_id": "b30",
+            "title": "SARS-Cov-2 Infection in Children",
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "year": 2020
         },
         "BIBREF31": {
-            "ref_id": "b31",
-            "title": "Immune Responses to SARS-Cov-2 Infection in Hospitalized Pediatric and Adult Patients",
             "authors": [
                 {
                     "first": "C",
+                    "last": "Pierce",
                     "middle": [
                         "A"
                     ],
-                    "last": "Pierce",
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Preston-Hurlburt",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Dai",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Aschner",
                     "middle": [
                         "B"
                     ],
-                    "last": "Aschner",
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Cheshenko",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Galen",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Sci Trans Med",
-            "volume": "12",
             "issn": "564",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1126/scitranslmed.abd5487"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b31",
+            "title": "Immune Responses to SARS-Cov-2 Infection in Hospitalized Pediatric and Adult Patients",
+            "venue": "Sci Trans Med",
+            "volume": "12",
+            "year": 2020
         },
         "BIBREF32": {
-            "ref_id": "b32",
-            "title": "Distinct Antibody Responses to SARS-Cov-2 in Children and Adults Across the COVID-19 Clinical Spectrum",
             "authors": [
                 {
                     "first": "S",
+                    "last": "Weisberg",
                     "middle": [
                         "P"
                     ],
-                    "last": "Weisberg",
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Connors",
                     "middle": [
                         "J"
                     ],
-                    "last": "Connors",
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Zhu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Baldwin",
                     "middle": [
                         "R"
                     ],
-                    "last": "Baldwin",
                     "suffix": ""
                 },
                 {
                     "first": "W",
+                    "last": "Lin",
                     "middle": [
                         "H"
                     ],
-                    "last": "Lin",
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Wontakal",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Nat Immunol",
-            "volume": "22",
             "issn": "1",
-            "pages": "25--31",
             "other_ids": {
                 "DOI": [
                     "10.1038/s41590-020-00826-9"
                 ]
-            }
+            },
+            "pages": "25--31",
+            "ref_id": "b32",
+            "title": "Distinct Antibody Responses to SARS-Cov-2 in Children and Adults Across the COVID-19 Clinical Spectrum",
+            "venue": "Nat Immunol",
+            "volume": "22",
+            "year": 2021
         },
         "BIBREF33": {
-            "ref_id": "b33",
-            "title": "Different Longitudinal Patterns of Nucleic Acid and Serology Testing Results Based on Disease Severity of COVID-19 Patients",
             "authors": [
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Yongchen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Shen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Shi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Yan",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Emerg Microbes Infect",
-            "volume": "9",
             "issn": "1",
-            "pages": "833--839",
             "other_ids": {
                 "DOI": [
                     "10.1080/22221751.2020.1756699"
                 ]
-            }
+            },
+            "pages": "833--839",
+            "ref_id": "b33",
+            "title": "Different Longitudinal Patterns of Nucleic Acid and Serology Testing Results Based on Disease Severity of COVID-19 Patients",
+            "venue": "Emerg Microbes Infect",
+            "volume": "9",
+            "year": 2020
         },
         "BIBREF34": {
-            "ref_id": "b34",
-            "title": "Antibody Responses to SARS-Cov-2 in Patients With COVID-19",
             "authors": [
                 {
                     "first": "Q-X",
-                    "middle": [],
                     "last": "Long",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B-Z",
-                    "middle": [],
                     "last": "Liu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H-J",
-                    "middle": [],
                     "last": "Deng",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G-C",
-                    "middle": [],
                     "last": "Wu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Deng",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y-K",
-                    "middle": [],
                     "last": "Chen",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Nat Med",
-            "volume": "26",
             "issn": "6",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1038/s41591-020-0897-1"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b34",
+            "title": "Antibody Responses to SARS-Cov-2 in Patients With COVID-19",
+            "venue": "Nat Med",
+            "volume": "26",
+            "year": 2020
         },
         "BIBREF35": {
-            "ref_id": "b35",
-            "title": "Profile of Immunoglobulin G and Igm Antibodies Against Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-Cov-2)",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Qu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Wu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Z",
-                    "middle": [],
                     "last": "Jiang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Clin Infect Dis",
-            "volume": "71",
             "issn": "16",
-            "pages": "2255--2263",
             "other_ids": {
                 "DOI": [
                     "10.1093/cid/ciaa489"
                 ]
-            }
+            },
+            "pages": "2255--2263",
+            "ref_id": "b35",
+            "title": "Profile of Immunoglobulin G and Igm Antibodies Against Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-Cov-2)",
+            "venue": "Clin Infect Dis",
+            "volume": "71",
+            "year": 2020
         },
         "BIBREF36": {
-            "ref_id": "b36",
-            "title": "Dynamic Changes in Anti-SARS-Cov-2 Antibodies During SARS-Cov-2 Infection and Recovery From COVID-19",
             "authors": [
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Huang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Wu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Zhong",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Cai",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Nat Commun",
-            "volume": "11",
             "issn": "1",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1038/s41467-020-19943-y"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b36",
+            "title": "Dynamic Changes in Anti-SARS-Cov-2 Antibodies During SARS-Cov-2 Infection and Recovery From COVID-19",
+            "venue": "Nat Commun",
+            "volume": "11",
+            "year": 2020
         },
         "BIBREF37": {
-            "ref_id": "b37",
-            "title": "Clinical and Immunological Assessment of Asymptomatic SARS-Cov-2 Infections",
             "authors": [
                 {
                     "first": "Q",
+                    "last": "Long",
                     "middle": [
                         "X"
                     ],
-                    "last": "Long",
                     "suffix": ""
                 },
                 {
                     "first": "X",
+                    "last": "Tang",
                     "middle": [
                         "J"
                     ],
-                    "last": "Tang",
                     "suffix": ""
                 },
                 {
                     "first": "Q",
+                    "last": "Shi",
                     "middle": [
                         "L"
                     ],
-                    "last": "Shi",
                     "suffix": ""
                 },
                 {
                     "first": "Q",
-                    "middle": [],
                     "last": "Li",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
+                    "last": "Deng",
                     "middle": [
                         "J"
                     ],
-                    "last": "Deng",
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Yuan",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Nat Med",
-            "volume": "26",
             "issn": "8",
-            "pages": "1200--1204",
             "other_ids": {
                 "DOI": [
                     "10.1038/s41591-020-0965-6"
                 ]
-            }
+            },
+            "pages": "1200--1204",
+            "ref_id": "b37",
+            "title": "Clinical and Immunological Assessment of Asymptomatic SARS-Cov-2 Infections",
+            "venue": "Nat Med",
+            "volume": "26",
+            "year": 2020
         },
         "BIBREF38": {
-            "ref_id": "b38",
-            "title": "Neutralizing Antibody Levels Are Highly Predictive of Immune Protection From Symptomatic SARS-Cov-2 Infection",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Khoury",
                     "middle": [
                         "S"
                     ],
-                    "last": "Khoury",
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Cromer",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Reynaldi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "T",
+                    "last": "Schlub",
                     "middle": [
                         "E"
                     ],
-                    "last": "Schlub",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Wheatley",
                     "middle": [
                         "K"
                     ],
-                    "last": "Wheatley",
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Juno",
                     "middle": [
                         "A"
                     ],
-                    "last": "Juno",
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Nat Med",
-            "volume": "27",
             "issn": "7",
-            "pages": "1205--1216",
             "other_ids": {
                 "DOI": [
                     "10.1038/s41591-021-01377-8"
                 ]
-            }
+            },
+            "pages": "1205--1216",
+            "ref_id": "b38",
+            "title": "Neutralizing Antibody Levels Are Highly Predictive of Immune Protection From Symptomatic SARS-Cov-2 Infection",
+            "venue": "Nat Med",
+            "volume": "27",
+            "year": 2021
         },
         "BIBREF39": {
-            "ref_id": "b39",
-            "title": "Antibody Responses After a Single Dose of Chadox1 Ncov-19 Vaccine in Healthcare Workers Previously",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Havervall",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "U",
-                    "middle": [],
                     "last": "Marking",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Greilert-Norin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Ng",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Gordon",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Salomonsson",
                     "middle": [
                         "C"
                     ],
-                    "last": "Salomonsson",
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b39",
+            "title": "Antibody Responses After a Single Dose of Chadox1 Ncov-19 Vaccine in Healthcare Workers Previously",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
-        "BIBREF41": {
-            "ref_id": "b41",
-            "title": "Antibody Response to the BNT162b2 Mrna COVID-19 Vaccine in Subjects With Prior SARS-Cov-2 Infection",
+        "BIBREF4": {
             "authors": [
                 {
-                    "first": "F",
+                    "first": "T",
+                    "last": "Xiang",
                     "middle": [],
-                    "last": "Gobbi",
                     "suffix": ""
                 },
                 {
-                    "first": "D",
+                    "first": "B",
+                    "last": "Liang",
                     "middle": [],
-                    "last": "Buonfrate",
                     "suffix": ""
                 },
                 {
-                    "first": "L",
+                    "first": "Y",
+                    "last": "Fang",
                     "middle": [],
-                    "last": "Moro",
-                    "suffix": ""
-                },
-                {
-                    "first": "P",
-                    "middle": [],
-                    "last": "Rodari",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Piubelli",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Lu",
                     "middle": [],
-                    "last": "Caldrer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Li",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Viruses",
-            "volume": "13",
-            "issn": "3",
+            "issn": "",
+            "other_ids": {},
             "pages": "",
+            "ref_id": "b4",
+            "title": "Declining Levels of Neutralizing Antibodies Against SARS-Cov-2 in Convalescent",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF41": {
+            "authors": [
+                {
+                    "first": "F",
+                    "last": "Gobbi",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Buonfrate",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Moro",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Rodari",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Piubelli",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Caldrer",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "3",
             "other_ids": {
                 "DOI": [
                     "10.3390/v13030422"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b41",
+            "title": "Antibody Response to the BNT162b2 Mrna COVID-19 Vaccine in Subjects With Prior SARS-Cov-2 Infection",
+            "venue": "Viruses",
+            "volume": "13",
+            "year": 2021
         },
         "BIBREF42": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b42",
             "title": "The Technical Guidelines for Vaccination Against Novel Coronavirus (1st Version) (2021)",
-            "authors": [],
-            "year": 2021,
             "venue": "",
             "volume": "",
-            "issn": "",
+            "year": 2021
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "T",
+                    "last": "Rogers",
+                    "middle": [
+                        "F"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Zhao",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Huang",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Beutler",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Burns",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "W-T",
+                    "last": "He",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "6506",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abc7520"
+                ]
+            },
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b6",
+            "title": "Isolation of Potent SARS-Cov-2 Neutralizing Antibodies and Protection From Disease in a",
+            "venue": "Small Animal Model. Science",
+            "volume": "369",
+            "year": 2020
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Read",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "Jre",
+                    "last": "Bridgen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Dat",
+                    "last": "Cummings",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Ho",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Jewell",
+                    "middle": [
+                        "P"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1098/rstb.2020.0265"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b7",
+            "title": "Novel Coronavirus 2019-Ncov (COVID-19): Early Estimation of Epidemiological Parameters and Epidemic Size Estimates",
+            "venue": "Philos Trans R Soc B-Biological Sci",
+            "volume": "376",
+            "year": null
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Kissler",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Tedijanto",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Goldstein",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "last": "Grad",
+                    "middle": [
+                        "H"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Lipsitch",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "6493",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abb5793"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b8",
+            "title": "Projecting the Transmission Dynamics of SARS-Cov-2 Through the Postpandemic Period",
+            "venue": "Science",
+            "volume": "368",
+            "year": 2020
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Kucharski",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Russell",
+                    "middle": [
+                        "W"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Diamond",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "5",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/s1473-3099(20)30251-6"
+                ]
+            },
+            "pages": "30251--30257",
+            "ref_id": "b9",
+            "title": "Early Dynamics of Transmission and Control of COVID-19: A",
+            "venue": "Mathematical Modelling Study",
+            "volume": "20",
+            "year": 2020
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 36,
+                    "ref_id": "BIBREF20",
+                    "start": 33,
+                    "text": "19)"
+                },
+                {
+                    "end": 409,
+                    "ref_id": "BIBREF0",
+                    "start": 406,
+                    "text": "(1)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "Coronavirus disease 2019 (COVID- 19) is an infectious disease caused by the novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). It was first discovered in December 2019, in the city of Wuhan, China, and subsequently spread to countries around the world, causing a pandemic. As of 15 October 2021, there have been 239,437,517 confirmed cases, including 4,879,235 deaths, reported to the WHO (1) ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 186,
+                    "ref_id": "BIBREF1",
+                    "start": 183,
+                    "text": "(2,"
+                },
+                {
+                    "end": 189,
+                    "ref_id": "BIBREF2",
+                    "start": 187,
+                    "text": "3)"
+                },
+                {
+                    "end": 424,
+                    "ref_id": "BIBREF1",
+                    "start": 421,
+                    "text": "(2)"
+                },
+                {
+                    "end": 670,
+                    "ref_id": "BIBREF3",
+                    "start": 667,
+                    "text": "(4)"
+                },
+                {
+                    "end": 802,
+                    "ref_id": "BIBREF4",
+                    "start": 799,
+                    "text": "(5)"
+                },
+                {
+                    "end": 909,
+                    "ref_id": "BIBREF6",
+                    "start": 906,
+                    "text": "(6)"
+                },
+                {
+                    "end": 1133,
+                    "ref_id": "BIBREF1",
+                    "start": 1130,
+                    "text": "(2)"
+                },
+                {
+                    "end": 1412,
+                    "ref_id": "BIBREF7",
+                    "start": 1409,
+                    "text": "(7)"
+                },
+                {
+                    "end": 1416,
+                    "ref_id": "BIBREF8",
+                    "start": 1413,
+                    "text": "(8)"
+                },
+                {
+                    "end": 1420,
+                    "ref_id": "BIBREF9",
+                    "start": 1417,
+                    "text": "(9)"
+                },
+                {
+                    "end": 1625,
+                    "ref_id": "BIBREF10",
+                    "start": 1621,
+                    "text": "(10)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "Based on serological studies of naturally infected populations, IgM antibodies are the first to be expressed and are mainly present in the circulation, promoting antigenic modulation (2, 3) . IgG antibodies begin to appear later in the immune response because they undergo affinity maturation through somatic mutations, resulting in high affinity for the target antigen and an enhanced ability to neutralise the pathogen (2) . SARS-CoV-2 particles contain four main structural proteins: spike protein (S), envelope protein (E), membrane protein (M), and nucleocapsid protein (N). Of these, spike protein (S) interacts with hosts' ACE2 and TMPRSS2 receptors for entry (4) . Therefore, in terms of protection, the S protein is considered to be the most relevant antigen causing key antibody responses (5) . Neutralizing antibodies play an important role in the prevention and vaccine development of COVID-19 (6) . Currently, there is still a large global population in various forms of temporary quarantine to limit the spread of the virus, resulting in severe disruptions to international travel and local socioeconomic activities (2) . Therefore, there is an urgent need to better understand the nature and duration of immunization against SARS-CoV-2 since almost all epidemiological models, vaccination campaigns, and public health measures assume some degree of immunity during the COVID-19 recovery period (7) (8) (9) . Some studies in Iceland and the United States have shown that antibodies persist for more than 4 months after infection, but other studies have reported rapid fading of antibodies within 3-4 months (10) . Most of the available studies have explored the outcome of specific antibodies at 6 months or even 1 year. Nevertheless, we urgently need to understand the long-term durability of SARS-CoV-2-specific IgG and IgM and neutralizing antibody (nAb) responses after symptom onset or RT-PCR confirmation, which is critical for learning the characteristics or patterns of antibody depletion. In addition, the increasing number of COVID-19 convalescent patients will want to know if they still need the vaccine and how many doses are sufficient."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 173,
+                    "ref_id": "BIBREF2",
+                    "start": 170,
+                    "text": "(3)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION",
+            "text": "In the first round of follow-up of 284 convalescent patients between August and October 2020, we obtained short-term characteristics of the dynamic changes in antibodies (3) . In the current study, we continued a second round of follow-up of 318 patients recovering from COVID-19 from December 2020 to June 2021, in addition to testing for specific antibodies IgG, IgM, and neutralizing antibodies, we also measured antibody levels for IgG subtypes and collected information on vaccination in these subjects. The aim was to understand the dynamic characteristics and duration of specific antibodies in the naturally infected population over a longer period of time, and the effect of vaccination on antibody levels in all aspects."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 270,
+                    "ref_id": "FIGREF1",
+                    "start": 261,
+                    "text": "(Figure 1"
+                }
+            ],
+            "section": "Patients and Data Collection",
+            "text": "A total of 402 COVID-19-cured patients (confirmed from January to June 2020) in Jiangsu Province, China, were followed up in two rounds between 26 August 2020 and 28 October 2020 (the first round) and between 8 December 2020 and 21 June 2021 (the second round) (Figure 1 ). Of these, 284 patients participated in the first follow-up visit, 318 in the second, and 228 in both rounds. According to the Diagnosis and Treatment Protocol for Novel Coronavirus Pneumonia released by the National Health Commission of the People's Republic of China, the detection of novel coronavirus nucleic acids in specimens such as nasal and oropharyngeal swabs, sputum and other lower respiratory secretions, blood, stool, and urine using real-time reverse transcriptase-polymerase chain reaction (RT-PCR) and (next-generation sequencing) (NGS) were the primary criteria for diagnosis. All subjects included in this cohort met the above criteria. As in the first round (3), blood samples were collected from the second round of follow-up to measure the level of specific antibodies against SARS-CoV-2 and to monitor the dynamics of the antibodies in the body. The clinical data included immunization history of inactivated vaccine against COVID-19, demographics, and acute phase disease severity classification (Version 8 Diagnosis and Treatment Protocol for COVID-19)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Data Collection",
+            "text": "CLIA-Based (Chemiluminescence Immunoassay) Detection of Specific Antibodies and Neutralizing Antibodies Against SARS-CoV-2"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and Data Collection",
+            "text": "In the second round of follow-up, participants' serum samples were used to test the levels of the following antibodies: specific IgG, IgM, IgG subtypes (RBD-IgG, S-IgG, and N-IgG), and neutralizing antibodies. These specific antibodies were tested using the following commercial kits: Novel Coronavirus (2019-nCoV) IgM/IgG antibody diagnostic kit (plate CLIA) supplied by Bioscience Co. (China National Medical Products Administration, approval numbers 20203400183 [IgG] and 2 0 2 0 3 4 0 0 1 8 2 [ I g M ] ) o n a n a u t o m a t e d m a g n e t i c chemiluminescence analyzer (Axceed 260; Bioscience). Detailed information on the principle of the test, the procedure, and the sensitivity and specificity of this kit can be found in the first round of follow-up (3). The levels of neutralizing antibodies against SARS-CoV-2 were calculated using ACE2-RBD inhibiting antibody concentration using the research kit (Bioscience Co.) conducted on the same automated magnetic chemiluminescence analyser. The chemiluminescent signal was measured as a relative light unit (RLU) using the optical system of the analyser. The titres of SARS-CoV-2 ACE2 competitive antibodies in the serum sample were measured as S/CO (sample/ cut-off) by comparing the RLU of a sample to the cut-off determined from standard curves. If the S/CO value is \u22652.0, the test result is positive, while if the S/CO value is <1.0, the result is considered negative; if between 1.0-2.0, the judgment is indeterminate and comprehensive judgment is recommended. The detection performance of the MCLIA kits for neutralization antibodies was reported by the manufacturer and the coincidence rate was 85-90%."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 1013,
+                    "ref_id": "TABREF1",
+                    "start": 1006,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Statistical Analyses",
+            "text": "Continuous variables were expressed as means \u00b1 95%CI, and significance was calculated using the two-tailed t-test, one-way ANOVA or Wilcoxon rank sum (Mann-Whitney) test as appropriate, and categorical variables were presented as percentages, and significance was calculated using the chisquare test or Fisher's exact test as appropriate. The change in IgG positive rates over the follow-up period was presented as line plots and the change in the level of IgG quantification was shown as bar plots. Evaluation of the effectiveness of vaccination doses was shown on a violin plot. Multivariate regression analyses of antibody positive rates and levels with factors, such as sex, age, disease severity, and vaccination were performed to confirm the cross-effect between these factors. Stata (version 15.0) and GraphPad Prism (version 9.0) software were used for the statistical analysis. Statistical significance was considered at P<0.05 (ns: no signifi cance; *p<0.05; **p<0.01; ***p<0.001; ****p<0.0001). Table 1 . The female to male ratio was 52.8% vs. 47.2%. The age range varied from 8 to 91 years and was concentrated in the 30-39 years (24.84%) and 50-59 years (23.27%) age groups. The mean age of all patients was 45.21 years (IQR, . Depending on the severity of disease, the normal type accounted for the largest proportion (50.94%), followed by the asymptomatic type (28.93%). In these convalescent patients, 44(13.84%) received an inactivated vaccine against COVID-19. There were no statistically significant differences in the demographic and clinical characteristics between the vaccinated and unvaccinated groups."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 215,
+                    "ref_id": null,
+                    "start": 207,
+                    "text": "28-11.19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 19,
+                    "ref_id": "TABREF0",
+                    "start": 12,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 612,
+                    "ref_id": "TABREF0",
+                    "start": 605,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 788,
+                    "ref_id": "TABREF0",
+                    "start": 780,
+                    "text": "Table S2"
+                }
+            ],
+            "section": "Distribution of IgM/IgG Positive Rates and Antibody Levels",
+            "text": "As shown in Table 2 , among the 318 individuals who participated in this round of follow-up, 255 (80.19%) were IgG-positive, and 65 (20.44%) were IgM-positive. The antibody level for IgG was 9.73 (95%CI, 8. 28-11.19 ) in those patients with positive IgG, meanwhile, the antibody level for IgM was 4.85 (95%CI, 2.85-6.86) in those patients with positive IgM. Compared with unvaccinated individuals, the IgG antibody levels of vaccinated people were higher (P=0.007). However, there was no statistically significant difference in IgM antibody levels between those with and without a history of vaccination. Table 2 and S1 illustrate the correlation of IgG positive rates with age and severity of disease in all convalescent patients and unvaccinated convalescent patients (P<0.05). Table S2 suggests that the rate of IgG positivity in vaccinated convalescent individuals was related to sex and disease severity (P<0.05). The IgG positive rate was significantly greater in females than in males (96.30% vs. 76.47%), and there was a positive correlation with disease severity. However, we did not observe an association between IgG levels, sex, and disease severity in the vaccinated population (P>0.05)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 169,
+                    "ref_id": "TABREF3",
+                    "start": 156,
+                    "text": "(Tables S3-S6"
+                }
+            ],
+            "section": "Distribution of IgM/IgG Positive Rates and Antibody Levels",
+            "text": "Comparisons of IgM/IgG positive rates and antibody levels between convalescent patients with and without vaccination are shown in the Supplemental material (Tables S3-S6 ). The rate of IgG positivity was only slightly higher in the vaccinated women (P=0.042). However, IgG antibody levels were elevated in overall, male, 30-39 years age group, and asymptomatic and mild type subjects(P<0.05). Relative to the unvaccinated group, the IgM positive rate in the vaccinated group was only increased in the mild type, and IgM antibody levels were only increased in the 30-39 age group (P=0.028 and P=0.003, respectively)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 184,
+                    "ref_id": "TABREF3",
+                    "start": 177,
+                    "text": "Table 3"
+                }
+            ],
+            "section": "Distribution of IgM/IgG Combinations in Second-Round Follow-Up Subjects",
+            "text": "15.6 months after symptom onset, the predominance of IgG single-positive was 62.58% at the end of the second follow-up. The percentage of IgM single-positive was 2.83%, IgM/IgG Table 3 ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 519,
+                    "ref_id": "TABREF4",
+                    "start": 512,
+                    "text": "Table 4"
+                }
+            ],
+            "section": "Distribution of Positive Rates and Antibody Levels for IgG Subtypes and Neutralizing Antibodies",
+            "text": "At the second follow-up, the positive rate of RBD-IgG was 89.31%, S-IgG was 91.51%, neutralizing antibody was 83.02%, and N-IgG was 78.93%. We found that the positive rates of IgG subtypes and neutralizing antibodies correlated with disease severity (P<0.05) and showed a positive correlation. No differences were found in the positive rates of IgG subtypes and neutralizing antibodies between those with and without vaccination (P>0.05). In terms of antibody levels, the mean for RBD-IgG was 11.37 (95% CI, 10. Table 4 ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 180,
+                    "ref_id": "TABREF0",
+                    "start": 165,
+                    "text": "(Tables S9-S12)"
+                },
+                {
+                    "end": 858,
+                    "ref_id": "FIGREF2",
+                    "start": 849,
+                    "text": "Figure 2C"
+                }
+            ],
+            "section": "Distribution of Positive Rates and Antibody Levels for IgG Subtypes and Neutralizing Antibodies",
+            "text": "Comparisons of levels for IgG subtypes and neutralizing antibodies between convalescent patients with and without vaccination are shown in the Supplemental material (Tables S9-S12) . Remarkably, compared to the unvaccinated group, the level of RBD-IgG antibodies in vaccinees was significantly higher in males, 40-49 age group and patients with mild disease (P<0.05). For S-IgG, antibody levels were significantly higher in vaccinated individuals than in unvaccinated individuals, regardless of sex. Similar conclusions could be drawn for the 30-39 years and 40-49 years age groups and convalescent patients with mild and normal type disease (P<0.05). For neutralizing antibodies, we found that antibody levels were significantly higher in vaccinated individuals than in unvaccinated individuals, irrespective of sex and disease severity (P<0.05) ( Figure 2C ). In addition, similar findings were found in the 30-39, 50-59, and \u226560 age groups."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 425,
+                    "ref_id": "FIGREF2",
+                    "start": 416,
+                    "text": "Figure 2A"
+                }
+            ],
+            "section": "Kinetics of the IgG Positive Rates and Antibody Levels During the Two Follow-up Rounds",
+            "text": "Of the 402 patients that participated in the follow-up, the length of follow-up ranged from 5.4 months to 17.4 months. The horizontal axis was divided into seven equal parts: 5-6 months, 7-8 months, 9-10 months, 11-12 months, 13-14 months, 15-16 months and 17-18 months. The variation in the total positive rate, the positive rate in the unvaccinated group and the positive rate in the vaccinated group are shown in Figure 2A . There was an overall upward trend in the IgG positive rate over the months after symptom onset. The lowest positive rate of 60.87% was recorded at 5-6 months, reaching a maximum of 100% in 17-18 months. Interestingly, there was a sudden increase in the IgG positive rate at 7-8 months, after which it was stable. The positive rate for vaccinated individuals was greater than that of unvaccinated individuals at 87.80% by 15-16 months."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 96,
+                    "ref_id": "FIGREF2",
+                    "start": 86,
+                    "text": "Figure 2B)"
+                }
+            ],
+            "section": "Kinetics of the IgG Positive Rates and Antibody Levels During the Two Follow-up Rounds",
+            "text": "The IgG antibody levels for all subjects showed a fluctuating upward trend over time( Figure 2B) , from 5.20 to 12.85. There was a small peak at 11-12 months, when the IgG level reached 12.24. Remarkably, from 15-16 months onwards, a succession of patients had been vaccinated, it was evident that the IgG antibody levels were significantly higher in the vaccinated than in the unvaccinated ('17-18 months': 21.08 vs 9.32; '15-16 months': 13.81 vs 9.15) participants."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 242,
+                    "ref_id": "FIGREF3",
+                    "start": 233,
+                    "text": "Figure 3A"
+                },
+                {
+                    "end": 567,
+                    "ref_id": "FIGREF3",
+                    "start": 557,
+                    "text": "(Figure 3)"
+                }
+            ],
+            "section": "Evaluation of the Effectiveness of Vaccination on Convalescent Patients",
+            "text": "A total of 44 patients received an inactivated COVID-19 vaccine by the second round of follow-up. It was observed that the IgG levels were significantly higher after vaccination than those before vaccination in the same population ( Figure 3A ) by comparing the IgG levels in the first and second follow-up. The participants were divided into four parts according to the dose and the inoculation days between the sampling and the last vaccination: '1 dose and inoculation time less than 14 d', '1 dose and \u226514 d', '2 doses and <14 d' and '2 dose and \u226514 d' (Figure 3) . IgG, RBD-IgG, and neutralizing antibodies were selected for At two-month intervals, the horizontal axis has been divided into seven equal parts, 5~6 months, 7~8 months, 9~10 months, 11~12 months, 13~14 months, 15~16 months and 17~18 months. (A) Trends in IgG positive rate over months after symptom onset in overall, unvaccinated and vaccinated convalescent patients. (B) Trends in IgG antibody levels over months after symptom onset in overall, unvaccinated and vaccinated convalescent patients. (C) Trends in neutralising antibody levels over months after symptom onset in overall, unvaccinated and vaccinated convalescent patients. P values were determined applying a two-tailed Mann-Whitney U test. P<0.05 was considered to be statistically significant."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 244,
+                    "ref_id": null,
+                    "start": 237,
+                    "text": "(16.32)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 340,
+                    "ref_id": "FIGREF3",
+                    "start": 331,
+                    "text": "Figure 3B"
+                },
+                {
+                    "end": 382,
+                    "ref_id": "FIGREF3",
+                    "start": 373,
+                    "text": "Figure 3C"
+                }
+            ],
+            "section": "Evaluation of the Effectiveness of Vaccination on Convalescent Patients",
+            "text": "evaluation. The comparison revealed that IgG levels in those who received 'single dose and \u226514 d' were significantly higher than those who received 'single dose and <14 d' (15.93 vs 3.55), and similar with those with '2 doses and <14 d' (16.32) and '2 dose and \u226514 d' (18.43) (P>0.05). Similar conclusions were drawn for RBD-IgG ( Figure 3B ) and neutralizing antibodies ( Figure 3C )."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 501,
+                    "ref_id": "BIBREF4",
+                    "start": 498,
+                    "text": "(5,"
+                },
+                {
+                    "end": 505,
+                    "ref_id": "BIBREF11",
+                    "start": 502,
+                    "text": "11)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "The recent emergence of multiple viral variants and cases of reinfection have led to a reflection on the duration of the antibodies produced by the interaction of SARS-CoV-2 with the immune system. One of the key issues in the current COVID-19 pandemic is to understand the magnitude and kinetics of protective humoral immunity to SARS-CoV-2 following natural infection, which will undoubtedly contribute to protection against re-infection, public health policy development and vaccine progression (5, 11) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "In this study, we conducted the second round of follow-up with 318 convalescent patients in Jiangsu Province (the longest follow-up was about 18 months). To the best of our knowledge, our cohort of patients with COVID-19 has the longest follow-up period worldwide (5). The first round of follow-up obtained the short-term kinetics of SARS-CoV-2 specific and neutralizing antibodies over 7 months after symptom onset in COVID-19 patients (3). The long-term characteristics of anti-SARS-CoV-2 antibodies were explored by examining the magnitude and trend of specific antibodies in these subjects over time. Vaccination information was also collected from these participants to understand the effect of vaccination on antibody levels. Our research found that IgG positive rates remained high (80.19%) and that vaccinated individuals had higher levels of IgG antibody compared to unvaccinated individuals. A similar conclusion can (C) Effect of different doses and inoculation days on neutralising antibody levels. P values were determined applying a two-tailed Mann-Whitney U test. P < 0.05 was considered to be statistically significant (ns: no significance; ***p < 0.001; ****p < 0.0001)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "be drawn for IgG subtypes and neutralizing antibodies. These findings fill a gap in the kinetics of the long-term immune response to SARS-CoV-2 and highlight the need for vaccination of the convalescent population."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 137,
+                    "ref_id": "BIBREF12",
+                    "start": 133,
+                    "text": "(12,"
+                },
+                {
+                    "end": 141,
+                    "ref_id": "BIBREF13",
+                    "start": 138,
+                    "text": "13)"
+                },
+                {
+                    "end": 262,
+                    "ref_id": "BIBREF15",
+                    "start": 258,
+                    "text": "(14)"
+                },
+                {
+                    "end": 380,
+                    "ref_id": null,
+                    "start": 370,
+                    "text": "Dan et al."
+                },
+                {
+                    "end": 473,
+                    "ref_id": "BIBREF17",
+                    "start": 469,
+                    "text": "(16)"
+                },
+                {
+                    "end": 485,
+                    "ref_id": null,
+                    "start": 476,
+                    "text": "He et al."
+                },
+                {
+                    "end": 748,
+                    "ref_id": "BIBREF4",
+                    "start": 745,
+                    "text": "(5)"
+                },
+                {
+                    "end": 933,
+                    "ref_id": null,
+                    "start": 922,
+                    "text": "8.28-11.19)"
+                },
+                {
+                    "end": 1040,
+                    "ref_id": "BIBREF18",
+                    "start": 1036,
+                    "text": "(17,"
+                },
+                {
+                    "end": 1044,
+                    "ref_id": "BIBREF19",
+                    "start": 1041,
+                    "text": "18)"
+                },
+                {
+                    "end": 1121,
+                    "ref_id": "BIBREF20",
+                    "start": 1117,
+                    "text": "(19)"
+                },
+                {
+                    "end": 1323,
+                    "ref_id": "BIBREF21",
+                    "start": 1319,
+                    "text": "(20)"
+                },
+                {
+                    "end": 1898,
+                    "ref_id": "BIBREF24",
+                    "start": 1894,
+                    "text": "(22)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "Previous studies have shown that antibodies caused by SARS-CoV-2 appear 3 days after the onset of symptoms or 1 week after infection (12, 13) . Understanding population-level seroprevalence and humoral immune kinetics is essential for vaccination strategies (14) . However, little is known about the durability of the long-term humoral response against SARS-CoV-2 (15). Dan et al. showed that the SARS-CoV-2 specific IgG antibody could be maintained for up to 8 months (16) . He et al. found that participants maintained their anti-SARS-CoV-2 IgG antibodies for at least 9 months (15). Xiang et al. also found that most patients recovering from COVID-19 developed detectable SARS-CoV-2 specific IgG antibodies 1 year after the onset of symptoms (5) . In our study, the rate of IgG positivity remained high at 80.19% during the almost 18 months of follow-up after symptom onset, and the IgG antibody level was 9.73 (95%CI, 8.28-11.19) . Researchers have reported that IgG persisted for more than 2 years in patients recovering from SARS (17, 18) . Since SARS-CoV-2 shares 79.6% genomic sequence homology with SARS-Cov (19) , we assume that IgG has the potential to continue to exist. In addition, several studies have shown that anti-SARS-CoV-2 specific IgM levels decrease progressively over 3-5 months after infection (20) . Our study found that 20.44% of participants were positive for IgM 13-14 months after the onset of symptoms, which complements the results of existing studies. A previous study found that RBD-IgG persisted in 96.8% (31 of 32) of subjects at 14 months (21), which was slightly higher than 89.31% (284/318) at 15.6 months after symptom onset in our study. We also found that vaccinated individuals had higher antibody levels of IgG, RBD-IgG, S-IgG, N-IgG and neutralizing antibodies than unvaccinated individuals, consistent with the conclusions reached by Carlos et al. (22) ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 214,
+                    "ref_id": "BIBREF25",
+                    "start": 210,
+                    "text": "(23)"
+                },
+                {
+                    "end": 219,
+                    "ref_id": "BIBREF26",
+                    "start": 215,
+                    "text": "(24)"
+                },
+                {
+                    "end": 224,
+                    "ref_id": "BIBREF27",
+                    "start": 220,
+                    "text": "(25)"
+                },
+                {
+                    "end": 640,
+                    "ref_id": "BIBREF11",
+                    "start": 636,
+                    "text": "(11,"
+                },
+                {
+                    "end": 644,
+                    "ref_id": "BIBREF25",
+                    "start": 641,
+                    "text": "23,"
+                },
+                {
+                    "end": 648,
+                    "ref_id": "BIBREF26",
+                    "start": 645,
+                    "text": "24,"
+                },
+                {
+                    "end": 652,
+                    "ref_id": "BIBREF28",
+                    "start": 649,
+                    "text": "26)"
+                },
+                {
+                    "end": 958,
+                    "ref_id": "BIBREF29",
+                    "start": 954,
+                    "text": "(27)"
+                },
+                {
+                    "end": 963,
+                    "ref_id": "BIBREF30",
+                    "start": 959,
+                    "text": "(28)"
+                },
+                {
+                    "end": 968,
+                    "ref_id": "BIBREF31",
+                    "start": 964,
+                    "text": "(29)"
+                },
+                {
+                    "end": 973,
+                    "ref_id": "BIBREF32",
+                    "start": 969,
+                    "text": "(30)"
+                },
+                {
+                    "end": 1411,
+                    "ref_id": "BIBREF33",
+                    "start": 1407,
+                    "text": "(31)"
+                },
+                {
+                    "end": 1479,
+                    "ref_id": "BIBREF34",
+                    "start": 1475,
+                    "text": "(32)"
+                },
+                {
+                    "end": 1484,
+                    "ref_id": "BIBREF35",
+                    "start": 1480,
+                    "text": "(33)"
+                },
+                {
+                    "end": 1489,
+                    "ref_id": "BIBREF36",
+                    "start": 1485,
+                    "text": "(34)"
+                },
+                {
+                    "end": 1494,
+                    "ref_id": "BIBREF37",
+                    "start": 1490,
+                    "text": "(35)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "This study also examined the relationship between positive rates and levels of specific antibodies, sex, age, and disease severity. Some reports have observed a correlation between antibody levels and male sex (23) (24) (25) , which is consistent with our findings on IgG antibody levels in vaccinated individuals. However, we also found that the IgG-positive rate was slightly higher in females, which could be an illusion due to the small number of vaccinees and the uneven ratio of males to females, to be further verified by expanding the sample size. There was evidence that IgG antibody levels were positively correlated with age (11, 23, 24, 26) , but we did not observe a significant difference in antibody levels between the age groups of 20-60 years and 60 years and above. In contrast, children and adolescents are more likely to be free of novel coronavirus or less symptomatic, and their immune response was not as violent as that of adults (27) (28) (29) (30) , consistent with our finding of lower antibody levels and positive rates in the <20 years age group. Compared to the other three clinical types, patients with the severe/critical type disease had higher antibody levels and positive rates, while those with the asymptomatic type disease had the lowest IgG levels and positive rates, which may be related to high levels of viral load or inflammatory storm in severe/critical patients (31) . Our study further confirmed the findings of a previous study (32) (33) (34) (35) . We performed multivariate regression analyses of antibody positive rate and level with the factors, incorporating the cross effect between these factors such as sex, age, disease severity, and vaccination into the model. The interaction between the factors was ultimately confirmed to be non-existent."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 215,
+                    "ref_id": "BIBREF38",
+                    "start": 211,
+                    "text": "(36)"
+                },
+                {
+                    "end": 1225,
+                    "ref_id": "BIBREF39",
+                    "start": 1221,
+                    "text": "(37,"
+                },
+                {
+                    "end": 1229,
+                    "ref_id": "BIBREF41",
+                    "start": 1226,
+                    "text": "38)"
+                },
+                {
+                    "end": 1415,
+                    "ref_id": "BIBREF42",
+                    "start": 1411,
+                    "text": "(39)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "The best indicator of vaccine protection is the epidemiological effectiveness of prevention. However, antibody levels can indirectly reflect the effectiveness of immune protection, as supported by Khoury et al. (36) . A key strength of this study was a 15.6 months-long follow-up of a population recovering from natural infection with COVID-19, incorporating inactivated vaccination as a factor for the first time, and assessing changes in the seroprevalence and kinetics of anti-SARS-CoV-2 antibodies, including IgG, RBD-IgG, and neutralizing antibodies. Compared to unvaccinated individuals, IgG antibody levels of vaccinated individuals were elevated in overall, male, 30-40 age group, and asymptomatic and mild type groups; levels of RBD-IgG and neutralizing antibodies were increased in vaccinated individuals. These data illustrate the importance of improving vaccination uptake and aid in future COVID-19 public health measures. In addition, our study aimed to examine the effects of vaccination doses on vaccinated individuals. We found that in those with a single dose of the vaccine, IgG and neutralizing antibody levels were similar to those who received two doses, which serves as an effective immune booster (37, 38) , supporting the notion that one dose is sufficient for patients with a novel coronavirus issued by the Technical Guidelines for Vaccination against Novel Coronavirus (1st Version) (39) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "Our study had several limitations. First, a larger sample size is needed to draw more convincing conclusions. However, due to the need for continuous, prolonged follow-up of convalescent patients in this study, there was a lack of sufficient participants and loss to follow-up, resulting in an under-representation of severe/critical illness (n=4) and poor extrapolation of measurements. Presently, there is an increasing number of viral variants, and the extent and persistence of the human immune response to them has not yet been studied, a gap that needs to be addressed in future studies."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "In summary, we found that most convalescent COVID-19 patients were still positive for IgG antibodies 15.6 months after symptom onset, which suggested the possibility of long-term immunization. People vaccinated with one dose of inactivated vaccine produced higher levels of antibodies than unvaccinated individuals, which was similar to those who received two doses. These findings can help governments and health authorities to implement more suitable vaccination strategies for people recovering from natural infections."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT",
+            "text": "The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ETHICS STATEMENT",
+            "text": "The studies involving human participants were reviewed and approved by the Institutional Review Board of Jiangsu Provincial Center for Disease Control and Prevention (JSJK2021-B007-01). Written informed consent to participate in this study was provided by the participants' legal guardian/next of kin."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {
+                    "institution": "Southeast University",
+                    "laboratory": "",
+                    "location": {
+                        "country": "China",
+                        "settlement": "Nanjing"
+                    }
+                },
+                "email": "",
+                "first": "Shihan",
+                "last": "Zhang",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Ke",
+                "last": "Xu",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Chuchu",
+                "last": "Li",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Lu",
+                "last": "Zhou",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Xiaoxiao",
+                "last": "Kong",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Jiefu",
+                "last": "Peng",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Fengcai",
+                "last": "Zhu",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Changjun",
+                "last": "Bao",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Southeast University",
+                    "laboratory": "",
+                    "location": {
+                        "country": "China",
+                        "settlement": "Nanjing"
+                    }
+                },
+                "email": "",
+                "first": "Hui",
+                "last": "Jin",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Qiang",
+                "last": "Gao",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Xing",
+                "last": "Zhao",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Liguo",
+                "last": "Zhu",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "David",
+                "last": "Nemazee",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Wanbo",
+                "last": "Tai",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Qunying",
+                "last": "Mao",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Zhulg@jscdc",
+                "last": "Cn",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Zhang",
+                "last": "",
+                "middle": [
+                    "S"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Xu",
+                "last": "Li",
+                "middle": [
+                    "K"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "C",
+                "last": "",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Zhou",
+                "last": "",
+                "middle": [
+                    "L"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Kong",
+                "last": "",
+                "middle": [
+                    "X"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Peng",
+                "last": "",
+                "middle": [
+                    "J"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Zhu",
+                "last": "",
+                "middle": [
+                    "F"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Bao",
+                "last": "",
+                "middle": [
+                    "C"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Jin",
+                "last": "",
+                "middle": [
+                    "H"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Gao",
+                "last": "",
+                "middle": [
+                    "Q"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Zhao",
+                "last": "",
+                "middle": [
+                    "X"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Zhu",
+                "last": "",
+                "middle": [
+                    "L"
+                ],
+                "suffix": ""
+            }
+        ],
+        "title": "Article 829665 1 (2022) Long-Term Kinetics of SARS-CoV-2 Antibodies and Impact of Inactivated Vaccine on SARS-CoV-2 Antibodies Based on a COVID-19 Patients Cohort"
+    },
+    "paper_id": "2798c4a00eb66ccad3df64d28c6fbf0f72dfb3d6",
     "ref_entries": {
         "FIGREF0": {
-            "text": "A total of 318 COVID-19 convalescent patients participated in this round of follow-up from December 2020 to June 2021, with a median follow-up duration of 15.6 months (inter-quartile range [IQR], 14.6 to 15.8) and a maximum duration of 18 months. The demographic and clinical characteristics of the subjects are presented in",
             "latex": null,
+            "text": "A total of 318 COVID-19 convalescent patients participated in this round of follow-up from December 2020 to June 2021, with a median follow-up duration of 15.6 months (inter-quartile range [IQR], 14.6 to 15.8) and a maximum duration of 18 months. The demographic and clinical characteristics of the subjects are presented in",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "Timeline of the two rounds of follow-up. A total of 402 COVID-19-cured patients (confirmed from January to June 2020) participated in the follow-up visits. Of these, 284 underwent the first round of follow-up (blood draw period from 26 August to 28 October 2020) and 318 participated in the second round of follow-up (blood draw period from 8 December 2020 to 21 June 2021).",
             "latex": null,
+            "text": "Timeline of the two rounds of follow-up. A total of 402 COVID-19-cured patients (confirmed from January to June 2020) participated in the follow-up visits. Of these, 284 underwent the first round of follow-up (blood draw period from 26 August to 28 October 2020) and 318 participated in the second round of follow-up (blood draw period from 8 December 2020 to 21 June 2021).",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "Dynamics of the IgG positive rate and antibody levels during the two follow-up rounds. The length of follow-up ranged from 5.4 months to 17.4 months.",
             "latex": null,
+            "text": "Dynamics of the IgG positive rate and antibody levels during the two follow-up rounds. The length of follow-up ranged from 5.4 months to 17.4 months.",
             "type": "figure"
         },
         "FIGREF3": {
-            "text": "Evaluation of the effectiveness of vaccination on convalescent patients. The participants were divided into 4 parts according to the dose and the inoculation days between the sampling and the last vaccination: \"1 dose and <14d\", \"1 dose and \u226514d\", \"2 doses and <14d\" and \"2 dose and \u226514d\". (A) Effect of different doses and inoculation days on IgG antibody levels in two rounds of follow-up. (B) Effect of different doses and inoculation days on RBD-IgG antibody levels.",
             "latex": null,
+            "text": "Evaluation of the effectiveness of vaccination on convalescent patients. The participants were divided into 4 parts according to the dose and the inoculation days between the sampling and the last vaccination: \"1 dose and <14d\", \"1 dose and \u226514d\", \"2 doses and <14d\" and \"2 dose and \u226514d\". (A) Effect of different doses and inoculation days on IgG antibody levels in two rounds of follow-up. (B) Effect of different doses and inoculation days on RBD-IgG antibody levels.",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "Distribution of IgM/IgG among overall convalescent patients.",
             "latex": null,
+            "text": "Distribution of IgM/IgG among overall convalescent patients.",
             "type": "table"
         },
         "TABREF1": {
-            "text": "Demographic and clinical characteristics of the subjects in this round of follow-up.",
             "latex": null,
+            "text": "Demographic and clinical characteristics of the subjects in this round of follow-up.",
             "type": "table"
         },
         "TABREF3": {
-            "text": "Distribution of IgM/IgG combinations in second-round follow-up subjects.",
             "latex": null,
+            "text": "Distribution of IgM/IgG combinations in second-round follow-up subjects.",
             "type": "table"
         },
         "TABREF4": {
-            "text": "Distribution of positive rates and antibody levels for IgG subtypes and neutralizing antibodies.",
             "latex": null,
+            "text": "Distribution of positive rates and antibody levels for IgG subtypes and neutralizing antibodies.",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "We are grateful for all patients who participated in this study. We also thank all the staff members who supported this study.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "ACKNOWLEDGMENTS"
-        },
-        {
-            "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fimmu.2022.829665/ full#supplementary-material Conflict of Interest: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "SUPPLEMENTARY MATERIAL"
-        }
-    ]
+    }
 }

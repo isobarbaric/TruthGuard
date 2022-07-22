@@ -1,1414 +1,375 @@
 {
-    "paper_id": "27db7a2247949e02c841b62338c9071be7ab62c1",
-    "metadata": {
-        "title": "Physical activity, resilience, emotions, moods, and weight control, during the COVID-19 global crisis",
-        "authors": [
-            {
-                "first": "Sima",
-                "middle": [],
-                "last": "Zach",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Javier",
-                "middle": [],
-                "last": "Fernandez-Rio",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Aviva",
-                "middle": [],
-                "last": "Zeev",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Miki",
-                "middle": [],
-                "last": "Ophir",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Sigal",
-                "middle": [],
-                "last": "Eilat-Adar",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "Objectives: This study aimed at exploring the relationships between physical activity, weight control, and psychosocial aspects of the COVID-19 lockdown, which have characterized the Israeli population's behavior during the COVID-19 global crisis. Design: Cross-sectional survey research.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Objectives: This study aimed at exploring the relationships between physical activity, weight control, and psychosocial aspects of the COVID-19 lockdown, which have characterized the Israeli population's behavior during the COVID-19 global crisis. Design: Cross-sectional survey research."
         },
         {
-            "text": "Methods: Participants included 1855 men and women aged 18 and above, from different regions in the country and representing different sectors. They were recruited through the social media in a \"snowball\" sampling, and filled out a self-administered six-part survey: Demographic background, the International Physical Activity Questionnaire (IPAQ), the positive and negative affect scales (PANAS), the Conor and Davidson resilience scale, a questionnaire for measuring depressive symptoms, and questions regarding weight change based on the Israeli National Health and Nutrition (MABAT) survey. Results: Routine physical activity (PA) was reported by 76.3% of the participants before the lockdown, 19.3% stopped exercising during this period, and 9.3% began exercising during the lockdown. The participants who were physically active during the lockdown period reported a higher level of resilience and positive feelings, and a lower level of depression, compared with those who were not physically active. People who were physically active during the lockdown maintained their weight compared with those who were inactive. Concerning weight change, 44.8% of the respondents maintained their weight, and a higher percentage of people reported weight gain than those who reported weight loss. Conclusions: Continuous PA before and during the COVID-19 lockdown were associated with higher resilience and positive emotions, and depressive symptoms, in people aged 18 and above. Although a causal link cannot be established, in light of the results of the present study, encouraging physical activity may contribute to improving mental health and a sense of self-efficacy, as well as to maintaining weight during a crisis.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Methods: Participants included 1855 men and women aged 18 and above, from different regions in the country and representing different sectors. They were recruited through the social media in a \"snowball\" sampling, and filled out a self-administered six-part survey: Demographic background, the International Physical Activity Questionnaire (IPAQ), the positive and negative affect scales (PANAS), the Conor and Davidson resilience scale, a questionnaire for measuring depressive symptoms, and questions regarding weight change based on the Israeli National Health and Nutrition (MABAT) survey. Results: Routine physical activity (PA) was reported by 76.3% of the participants before the lockdown, 19.3% stopped exercising during this period, and 9.3% began exercising during the lockdown. The participants who were physically active during the lockdown period reported a higher level of resilience and positive feelings, and a lower level of depression, compared with those who were not physically active. People who were physically active during the lockdown maintained their weight compared with those who were inactive. Concerning weight change, 44.8% of the respondents maintained their weight, and a higher percentage of people reported weight gain than those who reported weight loss. Conclusions: Continuous PA before and during the COVID-19 lockdown were associated with higher resilience and positive emotions, and depressive symptoms, in people aged 18 and above. Although a causal link cannot be established, in light of the results of the present study, encouraging physical activity may contribute to improving mental health and a sense of self-efficacy, as well as to maintaining weight during a crisis."
         }
     ],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "The COVID-19 epidemic has become a pandemic and a global health threat. Within a year of the outbreak, COVID-19 infected over 120 million persons worldwide, with more than 2,671,764 confirmed deaths [1] . In Israel, according to the last update of the Israel Ministry of Health (March 17, 2021, 08:49 AM) [2] , a total of 823, 314 had tested positive, and 6051 deaths occurred [2] . The sudden and rapid spread of the COVID-19 pandemic has shattered the normality of daily life worldwide, and will surely have a long-term impact. On March 15th, 2020, a lockdown was imposed throughout the country. The entire K-12 education system and many jobs transitioned to online. Public places, restaurants, gyms, theaters, community centers, parks, and businesses were shut down to ensure social distancing, limit the movement of the population, and mitigate the effect of the pandemic. People could leave their home only if they were required as essential workers or needed to carry out necessary activities such as purchasing medicines or food. Although this strategy was reported to be efficient for containing the COVID-19 outbreak, the quarantine was also reported as being associated with harmful implications to society.",
-            "cite_spans": [
-                {
-                    "start": 199,
-                    "end": 202,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 305,
-                    "end": 308,
-                    "text": "[2]",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 377,
-                    "end": 380,
-                    "text": "[2]",
-                    "ref_id": "BIBREF1"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Lockdown is usually a debilitating experience. The loss of freedom, financial cost, uncertainty over disease status, separation from loved ones, boredom, frustration, and inadequate information may create dramatic harmful effects [3] . Negative outcomes, such as suicide [4] , the generation of substantial anger [5] , as well as an increase in violence and aggressiveness within the family [6] , are just a few examples that have been recorded. Results of a review [3] of 24 articles concerning the shortand the long-term impact of quarantine on psychological well-being, demonstrated that prolonged self-isolation has a negative impact on psychological responses, promoting post-traumatic stress symptoms, confusion, and anger. In addition, quarantine might lead to physical inactivity, which should be of major concern as a great deal of evidence has shown that lack of physical activity (PA) contributes to adverse health changes, such as affecting the immune system [7] [8] [9] , depression [10] , obesity [11] , and sleeping problems [12] . Therefore, the potential benefits of a mandatory mass lockdown need to be weighed carefully against the possible psychological costs [3] .",
-            "cite_spans": [
-                {
-                    "start": 230,
-                    "end": 233,
-                    "text": "[3]",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 271,
-                    "end": 274,
-                    "text": "[4]",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 313,
-                    "end": 316,
-                    "text": "[5]",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 391,
-                    "end": 394,
-                    "text": "[6]",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 466,
-                    "end": 469,
-                    "text": "[3]",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 971,
-                    "end": 974,
-                    "text": "[7]",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 975,
-                    "end": 978,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 979,
-                    "end": 982,
-                    "text": "[9]",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 996,
-                    "end": 1000,
-                    "text": "[10]",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 1011,
-                    "end": 1015,
-                    "text": "[11]",
-                    "ref_id": "BIBREF10"
-                },
-                {
-                    "start": 1040,
-                    "end": 1044,
-                    "text": "[12]",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 1180,
-                    "end": 1183,
-                    "text": "[3]",
-                    "ref_id": "BIBREF2"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Within several months into the pandemic, a myriad of research had already been conducted in many countries regarding its implications on various aspects related to health and lifestyle. Meyer et al. [13] , for example, conducted a cross-sectional study with 3052 US adults from all 50 states. Participants self-reported pre-and post-COVID-19 levels of moderate and vigorous PA, mental health and social aspects. Findings showed that PA was lower post-COVID among participants reporting being previously active, but largely unchanged among previously inactive participants. Lack of PA was associated with worsening mental health. Rhodes et al. [14] examined weekly moderate to vigorous physical activity (MVPA) frequency and duration of pre and post COVID-19 restrictions among 1055 Canadian participants aged 18+ years, and related psychosocial and environmental factors. Their findings revealed that participants had decreased weekly MVPA. Maher et al. [15] reported similar results among college students. They found that total minutes of PA were positively associated with positive affect before and during COVID-19 stay-at-home orders. Werneck et al. [16] focused their research on the association between depression and changes in PA and diet behaviors among 41,923 Brazilian adults. Their findings showed participants with a previous diagnosis of depression were at risk for incidence of unhealthy diet behaviors. Wang et al. [17] explored how COVID-19 affected the health-related quality of life (QoL) among 2289 Chinese adults who had been isolated at home for an average of 77 days. More than 50% of the respondents reported that their time engaged in daily PA decreased. During home isolation, 75.2% of the adults rated their sleep quality as very good, and 65% reported that they were satisfied with their QoL.",
-            "cite_spans": [
-                {
-                    "start": 199,
-                    "end": 203,
-                    "text": "[13]",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 643,
-                    "end": 647,
-                    "text": "[14]",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 954,
-                    "end": 958,
-                    "text": "[15]",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 1155,
-                    "end": 1159,
-                    "text": "[16]",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 1432,
-                    "end": 1436,
-                    "text": "[17]",
-                    "ref_id": "BIBREF16"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "In Israel, research has also been conducted regarding the relationship between PA and health behavior during the period of The COVID-19 pandemic [e.g., 18, 19, 20] . For example, Dor-Haim and his colleagues [18] surveyed 1202 trainees who exercised on a regular basis. They found that 70% trained less during the pandemic period, and 55% gained weight with an average increase of 1.2 kg. However, those who exhibited a higher physical activity level gained less weight. The Israeli Center for Disease Control [19] conducted a telephone survey with a representative sample of 2580 Israeli participants aged 21+ to examine the changes that have taken place in the use of medical services, and in their mental state, healthy behaviors, and nutrition. In addition, it checked citizens' compliance with government guidelines from the onset of the plague to the quarantine following the second wave of the plague. They reported that 56.8% of the respondents regularly engaged in physical activity before the Corona plague. Of all those who reported regular physical activity, 65.7% reported that their habits had changed since the Corona pandemic. Of the respondents who reported a change in physical activity habits, 62.1% reported a decrease in the frequency or duration of their activity, and 46.7% reported a decrease in intensity. As for weight control, 28.6% of respondents reported gaining weight since the onset of the Corona plague and 24.1% reported eating more. Lastly, Zach et al. [20] examined the differences between Israeli adults in the age group 70+ and two other age groups (45-59 and 60-69) concerning their healthy and active lifestyle. They surveyed 1202 people and found that in adults at 70+, the physical activity level, physical activity before and during the lockdown, emotions, sleeping hours, and weight change were similar to the other adult groups that were examined (45-59 and 60-69). However, in the older adults groups (70+ and 60-69), resilience and depression symptoms were lower than in the youngest age group.",
-            "cite_spans": [
-                {
-                    "start": 152,
-                    "end": 155,
-                    "text": "18,",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 156,
-                    "end": 159,
-                    "text": "19,",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 160,
-                    "end": 163,
-                    "text": "20]",
-                    "ref_id": "BIBREF19"
-                },
-                {
-                    "start": 207,
-                    "end": 211,
-                    "text": "[18]",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 509,
-                    "end": 513,
-                    "text": "[19]",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 1487,
-                    "end": 1491,
-                    "text": "[20]",
-                    "ref_id": "BIBREF19"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Considering the findings that emerged from these studies, the Chinese [17] study showed that the majority of the participants reported life satisfaction despite a long duration of isolation; the Brazilian study [16] focused on the association between PA, unhealthy diet behaviors, and depression; the Canadian study [14] focused on PA behavior change; and, the study conducted in the US [13] measured psychological, social, and PA behavior changes pre and post the COVID-19. Differences in the research goals of these studies might be related to cultural differences among the countries. We were interested in finding out similarities as well as the uniqueness of the Israeli population related to other populations that were reviewed.",
-            "cite_spans": [
-                {
-                    "start": 70,
-                    "end": 74,
-                    "text": "[17]",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 211,
-                    "end": 215,
-                    "text": "[16]",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 316,
-                    "end": 320,
-                    "text": "[14]",
-                    "ref_id": "BIBREF13"
-                },
-                {
-                    "start": 387,
-                    "end": 391,
-                    "text": "[13]",
-                    "ref_id": "BIBREF12"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Israel is a sunny country with some of the characteristics of a Mediterranean lifestyle, such as strong community life and cultural traditions [21, 22] . Greater community resiliencesocial, economic, infrastructural, and institutional, in addition to higher sunlight exposure, were associated with lower factors of mental health hazards [23] . The first lockdown's forced isolation and lower exposure to community life and to sunlight were both expected to be risk factors for a decrease in mental health aspects for Israelisprobably more than in other populations. Hence, the present study aimed to examine health behavior changes among Israeli participants. Specifically, we wanted to examine changes in the PA levels during the first lockdown imposed on the Israeli population during the COVID-19 pandemic, and to determine their relationships with weight control and psychological health.",
-            "cite_spans": [
-                {
-                    "start": 143,
-                    "end": 147,
-                    "text": "[21,",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 148,
-                    "end": 151,
-                    "text": "22]",
-                    "ref_id": "BIBREF21"
-                },
-                {
-                    "start": 337,
-                    "end": 341,
-                    "text": "[23]",
-                    "ref_id": "BIBREF22"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "We recruited people aged 18 or above living in Israel during the COVID-19 outbreak via different social networks such as e-mail, WhatsApp, Twitter, Instagram, and Facebook). A nonprobability snowball sampling strategy was used. It has been shown that the response rate to online snowball surveys is higher than when other strategies are used [24] . Participants were 1855 people, 566 males and 1289 females, aged 18-90, from all over the country, representing its seven main regions.",
-            "cite_spans": [
-                {
-                    "start": 342,
-                    "end": 346,
-                    "text": "[24]",
-                    "ref_id": "BIBREF24"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Methods"
-        },
-        {
-            "text": "A six-part survey was used, including:",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
+            "section": "Authors' contributions",
+            "text": "The author(s) read and approved the final manuscript."
         },
         {
-            "text": "The International Physical Activity Questionnaire (IPAQ) [25] the short version, relating to PA that was conducted during the previous week. Participants had to describe their level of PA, and the frequency, duration, and intensity (see the original instrument for further details). Reliability for the Hebrew version in terms of Alpha Cronbach ranged from 0.59 to 0.90 [26] . (c) Positive and Negative Affect Schedule -PANAS [27] . A 20-item questionnaire assessed positive affects (10 items; e.g. strong, inspired) and negative affects (10 items; e.g. worried, guilty) experienced by the participants in the previous month. Participants rated their feelings on a 5-point scale (1 = hardly at all or not at all; 5 = to a great extent). Reliabilities, in terms of Cronbach alphas, for the original scale were .89 for positive affect and .92 for negative affect [26] . Alphas for the Hebrew version of this scale were used in many previous studies (e.g. [27] ) ranged from .80 to .91. In the current study Cronbach alphas were .83 for positive affect and .86 for negative affect. (d) The Connor and Davidson Resilience Scale [28] The Connor-Davidson Resilience scale (CD-RISC) is comprised of 25 items, each rated on a 5-point scale (0-4), with a higher score reflecting greater resilience. Internal consistency of the original validation study was .89, and test-retest reliability demonstrated a high level of agreement between the two tests, with an intraclass correlation coefficient of .87. Factor analysis yielded the following five factors: (1) Personal competence, high standards, and tenacity; (2) Trust in one's instincts, tolerance of negative affect, and strengthening effects of stress;",
-            "cite_spans": [
-                {
-                    "start": 57,
-                    "end": 61,
-                    "text": "[25]",
-                    "ref_id": "BIBREF25"
-                },
-                {
-                    "start": 370,
-                    "end": 374,
-                    "text": "[26]",
-                    "ref_id": "BIBREF26"
-                },
-                {
-                    "start": 426,
-                    "end": 430,
-                    "text": "[27]",
-                    "ref_id": "BIBREF27"
-                },
-                {
-                    "start": 861,
-                    "end": 865,
-                    "text": "[26]",
-                    "ref_id": "BIBREF26"
-                },
-                {
-                    "start": 953,
-                    "end": 957,
-                    "text": "[27]",
-                    "ref_id": "BIBREF27"
-                },
-                {
-                    "start": 1124,
-                    "end": 1128,
-                    "text": "[28]",
-                    "ref_id": "BIBREF28"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
-        },
-        {
-            "text": "(3) Positive acceptance of change, and secure relationships; (4) Control; and (5) Spiritual influences. As mentioned above, in the current study we conducted factor analysis and came up with two factors: (1) Personal competence and self-control, and (2) Positive acceptance of change. Internal consistency ranged from .87 to .90.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
+            "section": "Authors' information",
+            "text": "Prof. Zach is the former Head of the School of Education at the Academic College at Wingate, Israel. She is currently the director of the Lab of Research on Teaching and Teacher Education in Physical Education. Her research interests are in sport psychology, physical education psychology, sport pedagogy, and psychology of leisure-time physical activity. Javier Fernandez-Rio javier.rio@uniovi.es is an full Professor in the Faculty of Teacher Training and Education at the University of Oviedo, Spain. He is also a member of EDAFIDES research group. His areas of research include education, physical activity, sport and health. He has published over 100 peer-reviewed articles and participated in over 10 funded research projects. Aviva Zeev Aviva Zeev avivaz@wincol.ac.il, studied mathematics (B.Sc.) and statistics (M.Sc.) at Tel Aviv University in Israel. She has served as a statistical advisor for research since 1975. Since 1991 she has been a member of the staff of The Academic College at Wingate, serving as Head of the Data Processing Unit in the Research Department. She has taken part in research on the topics of physical activity, education, health, and physical activity."
         },
         {
-            "text": "(e) A questionnaire for measuring depressive moods [29] Six questions on a 4-point scale measured depressive symptoms. Internal consistency for the current sample was .86.",
-            "cite_spans": [
-                {
-                    "start": 51,
-                    "end": 55,
-                    "text": "[29]",
-                    "ref_id": "BIBREF29"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
-        },
-        {
-            "text": "(f) Weight control is the term used to discuss managing and maintaining a healthy body weight.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
+            "section": "Miki Ophir",
+            "text": "Miki Ophir ophir-m@013.net is the head of Regev Program, The Excellence Program of Ministry Education, at The Academic College at Wingate Institute, Israel. She is also the Pedagogical Coordinator of the Physical Education Department, at the Academic College of Education at Givat Washington, Israel. Dr. Sigal Eilat-Adar sigaleilat70@gmail.com is a registered nutritionist and an epidemiologist. She did her postdoctoral project on the epidemiology of the association between the diet of American Indians and Native Alaskans and cardiovascular disease (CVD). Since then, her expertise has been the evaluation of nutritional public health and she is passionate about improving health and well-being. She is the Head of the Second Degree Program in Healthy and Active Lifestyle Education at The Academic College at Wingate, Wingate Institute, Israel."
         },
         {
-            "text": "Questions regarding weight control were based on the Israeli National Health and Nutrition (MABAT) survey, questions 50-54 [30] : \"What is your current weight (without shoes)?\", and \"what is your current height? (in cm without shoes)\"; the question \"did your weight change during the last 2 years?\" was changed to \"did your weight change since the enforcement of social isolation until the end of the complete lockdown?\"",
-            "cite_spans": [
-                {
-                    "start": 123,
-                    "end": 127,
-                    "text": "[30]",
-                    "ref_id": "BIBREF30"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
-        },
-        {
-            "text": "Confirmatory Factor analysis was conducted to reconfirm the following behavior measurement factors for the current cohort: Positive and Negative Affect Schedule -PANAS; The Connor and Davidson Resilience Scale; and a questionnaire for measuring depressive moods. The number of factors to retain was calculated using the Kaiser-Guttman rule (eigenvalue > 1) and the scree plot. Two factors were created for the resilience scale, one factor for the depression scale, and two factors for the PANAS scale with eigenvalues values > 1.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
-        },
-        {
-            "text": "The procedure of the questionnaire's translation followed the recommendations of other cross-cultural researchers (e.g., [31] [32] [33] [34] [35] ). All parts of the questionnaire were translated into Hebrew by back-translation and the committee approach. A group of three bilingual translators translated the questionnaire from the language of origin into the target language, and back again. Then errors in translation were corrected by the translating team. Following the translation, a committee discussed the final version of the questionnaire until full agreement was achieved.",
-            "cite_spans": [
-                {
-                    "start": 121,
-                    "end": 125,
-                    "text": "[31]",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 126,
-                    "end": 130,
-                    "text": "[32]",
-                    "ref_id": "BIBREF32"
-                },
-                {
-                    "start": 131,
-                    "end": 135,
-                    "text": "[33]",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 136,
-                    "end": 140,
-                    "text": "[34]",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 141,
-                    "end": 145,
-                    "text": "[35]",
-                    "ref_id": "BIBREF35"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
-        },
-        {
-            "text": "Data were collected during the complete lockdown between the dates April 8, 2020 to April 18, 2020. The survey was approved by the Institutional Review Board (IRB), permission [No. 250]. The questionnaire was distributed via e-mail, WhatsApp, Twitter and Facebook to a first wave of participants (the research team's personal and professional contacts). They were asked to share the link with their contacts and ask these to do the same to obtain a wider and less biased sample.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
-        },
-        {
-            "text": "Involvement in PA was defined as an answer to the question: \"Were you engaged in physical activity before the lockdown?\", along with the answer to the question: \"Are you doing physical activity during the lockdown?\", and categorized into a dichotomous variable: yes or no. Reported adherence to physical activity prior to the pandemic, and during the lockdown, was categorized into four groups: (a) No/Nodid not do physical activity before the lockdown/not doing physical activity during the lockdown; (b) No/Yesdid not do physical activity before the lockdown/doing physical activity during the lockdown; (c) Yes/Nodid physical activity before the lockdown/not doing physical activity during the lockdown; (d) Yes/Yesdid physical activity before the lockdown/ doing physical activity during the lockdown. The background characteristics of the four groups of physical activity behavior are presented by means and standard deviations for normal variables, and by frequencies for categorical data. One-way ANOVA was conducted to compare the reported psychological variables among the four groups of physical activity behavior, and a Chi Square test was used to compare weight change in those four groups. Multi-Dimensional Scaling Analysis was performed using the ALSCAL procedure in IBM SPSS (Version 25.0).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers."
-        },
-        {
-            "text": "The sample includes 1855 participants, 571 males (30/ 6%), and 135 non-Jewish (7% of the sample). Mean age 50.2 (S.D = 14.5), 5.1% at the age 18-24. 31.6% at the age 24-44, 47%.1 at the age 45-64, and 16.1% at the age 65+ . The current sample is not a representative sample of the population. The sample was made up of about 31% men compared to 51% in the population over the age of 18 in Israel; non-Jews constitute 7% of the sample, in contrast to their share in the population of 25.9%. The age distribution is also different: while 18-24 year-olds are 16.5% of the population aged 18 and over, in the sample they are only 5.1%. Ages 25-64 constitute the majority of the sample -78.7% compared to 72.1% in the Israeli population aged 18 and over. Those aged 65 and over have a higher representation in the sample (16.1%) than their percent in the population (11.4%).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Results"
-        },
-        {
-            "text": "Descriptive statistics of the four groups of PA according to the survey's background characteristics are presented in Table 1 .",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 118,
-                    "end": 125,
-                    "text": "Table 1",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Results"
-        },
-        {
-            "text": "The average number of stay-at-home days was 33.7 (Kg) \u00b1 4.2 (Median 32). Reported weight change was small (0.54 Kg \u00b1 2.06). Most of the participants (76.3%) reported being physically active before the lockdown, while 25% (n = 358) of them stopped during the lockdown. Among those who were not active before the lockdown (n = 440), 39% (n = 172) started PA during the lockdown. Participants who stopped engaging in PA during the lockdown were either slightly or significantly older compared with those who were not active before the lockdown. Those who reported being and staying physically active were also older than those who were not active before the lockdown, and they had a lower BMI compared with those who had not started PA and those who were active but stopped during the lockdown. According to the BMI, people were within the normal to overweight range (with average of normal weight) (25.46 \u00b1 4.47). Only those who reported being inactive before and during the lockdown were on average overweight and had a significantly higher BMI compared with all other groups. Those who were not active before and during the lockdown gained more weight during the lockdown compared with those who were active.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Results"
-        },
-        {
-            "text": "We examined the differences between the four categories of PA according to the following age groups: 18-24, 25-44, 45-64, and 65+. The majority of the sample (78.8%) was in the age range of 25-64. 14.8% of the participants reported being inactive both before and during the lockdown. A small percentage began exercising during the lockdown (9.3%), and more so among the age groups 25-44 and 45-64 than the younger and the older groups (data not shown). At the age range 45-64, 28% of the participants were physically active before the lockdown but stopped during the lockdown, which is significantly different and higher than the other age-range groups, especially compared with 16% at the age-range group 18-24 (p < 0.05). As for doing PA during the lockdown and being active before it began, it appears that the majority of the current cohort were active people.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Results"
-        },
-        {
-            "text": "Descriptive statistics for resilience, emotions, and depression symptoms according to the four categories of PA are presented in Table 2 . The number of respondents available for analysis in Table 2 includes those who answered the PA, resilience, and emotions questionnaires. There was no significant difference in PA distribution comparing those who replied to all the psychological questions as presented in Table 2 (n = 1681), to those who did not answer one or more of the psychological questions in the resilience and emotions questionnaires (p = 0.267).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 129,
-                    "end": 136,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 191,
-                    "end": 198,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 410,
-                    "end": 417,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                }
-            ],
-            "section": "Results"
-        },
-        {
-            "text": "Overall, in all four groups, positive feelings received higher scores than negative feelings. Participants who reported performing PA both before and during the lockdown had higher scores on positive acceptance of change, self-competence, and self-control compared with those who were not physically active either before or during the lockdown. Their positive acceptance of change was also higher than that of those who were not physically active before, and started PA during the lockdown. There was no difference between the groups in negative feelings.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Results"
-        },
-        {
-            "text": "The lowest depression symptoms score was demonstrated for those who were physically active before and during the lockdown. The second lowest score was for those who started PA during the lockdown (compared to those who were doing PA and stopped), while the group of participants who were not active before and during the lockdown had the highest level of depression.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Results"
-        },
-        {
-            "text": "Weight change was categorized into seven categories in the questionnaire (three of gaining weight, three of losing weight, and one of no change). However, due to the small number of participants in the extreme groups (losing or gaining over 5 kg), the categories were merged into five groups, as follows: 0%]kg. We examined the differences between the four categories of PA according to these five groups. About one-third to onehalf of the sample had no weight change. However, a The research integrates three domains: PA behavior, psycho-social aspects, and weight control during the lockdown. Therefore, a Multi-dimensional Clustering was performed (see Fig. 1 ) using the Euclidian distance between the variables. Figure 1 illustrates the group composite stimulus map summarizing the participants' scores on the three domains that were surveyed. As shown, the negative emotions (PANAS negative and depression symptoms) are not far from the origin and they are close to each other. Weight change is placed on the left quadrant, negative side, near the X axis, while PA is placed in the right quadrant, positive region of the Y axis. The positive emotions are assembled together near the negative Y axis. In other words, the location of the negative emotions is close to the beginning of the axes (0,0), meaning that they are quite low, but negative in relation to the other variables. On the other hand, the positive emotions are in the positive part of the X-axis but in the negative part of the Y-axis. That is, they have an opposite element to the negative (diagonally).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 656,
-                    "end": 662,
-                    "text": "Fig. 1",
-                    "ref_id": null
-                },
-                {
-                    "start": 717,
-                    "end": 725,
-                    "text": "Figure 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "Results"
-        },
-        {
-            "text": "In the current study we aimed at exploring the relationships between PA, psycho-social aspects, and weight control that characterized the current study population's behavior during the COVID-19 global crisis. The central focus of our survey was health behavior. More specifically, the focus was on PA habits. Two major results may have long-term implications. The first is that physically active peoplewhether or not they were physically active before the lockdownreported a lower level of depression symptoms compared with inactive people. This finding is along the lines of others who demonstrated the relationships between depression symptoms and PA (e.g. in a review by Kandola and colleagues [36] ), in the elderly (e.g. [37] ), in adults (e.g. [10, 16, 20] ), and in adolescence and childhood (e.g. [38] ). Moreover, our findings showed that not only was inactivity associated with depression, but changes in PA habits from being active pre-lockdown to becoming in-active during lockdown Fig. 1 Multi-dimensional scaling of the Euclidian distance between the research variables were related to increased depressive symptoms. Others [13, 14] found similar results in their studies, in which they examined the level of MVPA pre-COVID-19 to post COVID-19 and the associated depression. Both studies found that a decrease in MVPA is related to an increase in depression.",
-            "cite_spans": [
-                {
-                    "start": 697,
-                    "end": 701,
-                    "text": "[36]",
-                    "ref_id": "BIBREF36"
-                },
-                {
-                    "start": 726,
-                    "end": 730,
-                    "text": "[37]",
-                    "ref_id": "BIBREF37"
-                },
-                {
-                    "start": 750,
-                    "end": 754,
-                    "text": "[10,",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 755,
-                    "end": 758,
-                    "text": "16,",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 759,
-                    "end": 762,
-                    "text": "20]",
-                    "ref_id": "BIBREF19"
-                },
-                {
-                    "start": 805,
-                    "end": 809,
-                    "text": "[38]",
-                    "ref_id": "BIBREF38"
-                },
-                {
-                    "start": 1138,
-                    "end": 1142,
-                    "text": "[13,",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 1143,
-                    "end": 1146,
-                    "text": "14]",
-                    "ref_id": "BIBREF13"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 994,
-                    "end": 1000,
-                    "text": "Fig. 1",
-                    "ref_id": null
-                }
-            ],
-            "section": "Discussion"
-        },
-        {
-            "text": "Second, active people reported on having more positive emotions on. Since the lockdown was found to be related to risk behavior, such as suicide [3] , anger [4] , and violence and aggressiveness [6] , we expected the participants to report negative emotions during this period of time. However, active people differed significantly from inactive people: they reported on a significantly higher level of positive emotions compared with their counterparts who were not active. As others have asserted that the psychological construct of well-being includes both aspectslow rates of negative emotions along with high rates of positive ones (e.g. [13, 15, 38, 39] ), our results suggest that being active is associated with a better reported well-being compared with being inactive.",
-            "cite_spans": [
-                {
-                    "start": 145,
-                    "end": 148,
-                    "text": "[3]",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 157,
-                    "end": 160,
-                    "text": "[4]",
-                    "ref_id": "BIBREF3"
-                },
-                {
-                    "start": 195,
-                    "end": 198,
-                    "text": "[6]",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 643,
-                    "end": 647,
-                    "text": "[13,",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 648,
-                    "end": 651,
-                    "text": "15,",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 652,
-                    "end": 655,
-                    "text": "38,",
-                    "ref_id": "BIBREF38"
-                },
-                {
-                    "start": 656,
-                    "end": 659,
-                    "text": "39]",
-                    "ref_id": "BIBREF39"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "These results suggest that PA is a means for managing a healthy lifestyleboth physically and mentally, not only during routine times but also in a global, ongoing crisis atmosphere that creates pressure and uncertainty, and that decreases the likelihood of people to be at risk for developing negative feelings and behaviors (e.g. [6, 9, 11, 13, 17] ).",
-            "cite_spans": [
-                {
-                    "start": 331,
-                    "end": 334,
-                    "text": "[6,",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 335,
-                    "end": 337,
-                    "text": "9,",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 338,
-                    "end": 341,
-                    "text": "11,",
-                    "ref_id": "BIBREF10"
-                },
-                {
-                    "start": 342,
-                    "end": 345,
-                    "text": "13,",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 346,
-                    "end": 349,
-                    "text": "17]",
-                    "ref_id": "BIBREF16"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "As for the association between PA and weight, the majority of the participants maintained their original weight. Those who were active before the lockdown and continued to be active during the lockdown gained less weight than those who were not active during the lockdown, regardless of whether they were active before or not. In addition, participants who stopped exercising during the lockdown were older than those who continued to exercise, and their BMI was higher. Nevertheless, those who continued to exercise were older than those who did not exercise before the lockdown, and weighed less. The current results imply that active people have a regular set of behaviors, and even when facing the restrictions placed by a lockdown they do not change their healthy habits. Nevertheless, a recent publication from Israel concerning PA and healthy behavior during the COVID-19 pandemic found that.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "65.7% of those who reported being regularly active before the pandemic, reduced their level of PA. Among them, 59% reported not returning to their usual PA after the second lockdown [19] . As for weight changes, our results goes along this report, meaning that active people gained less weight. Along this line, Werneck et al. [16] found that active participants specifically demonstrated a higher frequency of vegetable or fruit consumption, and less frequency of ultra-processed food consumption.",
-            "cite_spans": [
-                {
-                    "start": 182,
-                    "end": 186,
-                    "text": "[19]",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 327,
-                    "end": 331,
-                    "text": "[16]",
-                    "ref_id": "BIBREF15"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "These two factors -weight control and PA together, probably contributed to positive psychological functioning: a high level of resilience, a high level of positive emotions, and a low level of depression.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "Some limitations should be addressed. Firstly, the current sample is not representative of the Israeli population, due to the \"snowball\" sampling strategy. The selection bias is also evident with the high percentage (56%) of those reporting to be physically active (yes/yes). Since the authors are from a sports college, it is probable that the questionnaire arrived to morebut not exclusivelyphysically active people. Still, another Israeli study with a representative sample of the adult population aged 21+ [18, 19] reported on similar rates of PA engagement. Secondly, it is a cross-sectional survey and therefore causal associations cannot be addressed. Thirdly, we should consider the meaning of over representation of female respondents on the study variables and the study implications. Lastly, the range of ages was centered mainly on two age groups; other age groups are not well represented.",
-            "cite_spans": [
-                {
-                    "start": 510,
-                    "end": 514,
-                    "text": "[18,",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 515,
-                    "end": 518,
-                    "text": "19]",
-                    "ref_id": "BIBREF18"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Discussion"
-        },
-        {
-            "text": "Continuous PA before and during the COVID-19 lockdown was associated with higher resilience and positive emotions, and low depressive symptoms. It should be noted that continuous PA before the lockdown might be interpreted that participants continued their habits only until the lockdown, while the study findings point to the unique combination of before and during (yes/yes).",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusions"
-        },
-        {
-            "text": "These results have several implications: The first lockdown during the COVID-19 pandemic period was an opportunity to assess the mental importance of exercising during a crisis. After the first lockdown additional lockdowns were imposed, and the economic crisis following COVID-19 is expected to remain, even in the period after the epidemic is eradicated. In light of the results of the present study, encouraging physical activity may contribute to improving mental health and a sense of self-efficacy, as well as contributing to maintaining weight during a crisis. Although a causal association cannot be established, we recommend that strategies be developed to enhance free PA in any future disasters/emergencies/catastrophic times. Some possible techniques are: using available free facilities in the public space (urban parks, gym equipment in outdoor public areas, etc.) and the private space (via the Internet). During lockdowns people should be allowed to carry out exercise in open space. Some of these conclusions were implemented in the second lockdown, in which people were allowed to exercise in open space. Organizations, systems and institutions such as the Ministry of Health, the health system, and the education system, together with employees, teachers and educators, should not only share these messages but also organize demonstrations of a variety of exercises for the population via the mass and social media. We join Neiman [8] , who stated that the COVID-19 pandemic is a wake-up calla tocsinto the world, in his conviction that primary prevention focused on health behaviors, including PA and weight control, is crucial.",
-            "cite_spans": [
-                {
-                    "start": 1450,
-                    "end": 1453,
-                    "text": "[8]",
-                    "ref_id": "BIBREF7"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Conclusions"
+            "section": "Competing interests",
+            "text": "The authors have no conflicts of interest that are directly relevant to the content of this paper, which remains their sole responsibility. "
         }
     ],
     "bib_entries": {
         "BIBREF0": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b0",
             "title": "Coronavirus COVID-19 dashboard by the Center for Systems Science and Engineering",
-            "authors": [],
-            "year": 2021,
             "venue": "",
             "volume": "26",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF1": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b1",
             "title": "Israeli Ministry of Health. COVID-19 in Israel -a general report",
-            "authors": [],
-            "year": 2021,
             "venue": "",
             "volume": "22",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "The psychological impact of quarantine and how to reduce it: rapid review of the evidence",
-            "authors": [
-                {
-                    "first": "S",
-                    "middle": [
-                        "K"
-                    ],
-                    "last": "Brooks",
-                    "suffix": ""
-                },
-                {
-                    "first": "R",
-                    "middle": [
-                        "K"
-                    ],
-                    "last": "Webster",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [
-                        "E"
-                    ],
-                    "last": "Smith",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [],
-                    "last": "Woodland",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Wessely",
-                    "suffix": ""
-                },
-                {
-                    "first": "N",
-                    "middle": [],
-                    "last": "Greenberg",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Lancet",
-            "volume": "39",
-            "issn": "",
-            "pages": "912--932",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Is there a case for quarantine? Perspectives from SARS to Ebola",
-            "authors": [
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Barbisch",
-                    "suffix": ""
-                },
-                {
-                    "first": "K",
-                    "middle": [
-                        "L"
-                    ],
-                    "last": "Koenig",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [
-                        "Y"
-                    ],
-                    "last": "Shih",
-                    "suffix": ""
-                }
-            ],
-            "year": 2015,
-            "venue": "Disaster Med Pub Health Prepared",
-            "volume": "9",
-            "issn": "5",
-            "pages": "547--53",
-            "other_ids": {
-                "DOI": [
-                    "10.1017/dmp.2015.38"
-                ]
-            }
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "The factors affecting household transmission dynamics and community compliance with Ebola control measures: a mixed-methods study in a rural village in Sierra Leone",
-            "authors": [
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Caleo",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Duncombe",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [],
-                    "last": "Jephcott",
-                    "suffix": ""
-                },
-                {
-                    "first": "K",
-                    "middle": [],
-                    "last": "Lokuge",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Mills",
-                    "suffix": ""
-                },
-                {
-                    "first": "E",
-                    "middle": [],
-                    "last": "Looijen",
-                    "suffix": ""
-                }
-            ],
-            "year": 2018,
-            "venue": "BMC Pub Health",
-            "volume": "18",
-            "issn": "",
-            "pages": "1--13",
-            "other_ids": {}
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "Danger in danger: interpersonal violence during COVID-19 quarantine",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Mazza",
-                    "suffix": ""
-                },
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Marano",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Lai",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [],
-                    "last": "Janiri",
-                    "suffix": ""
-                },
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Sani",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Psychiatry Res",
-            "volume": "289",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Immunological implications of physical inactivity among older adults during the covid-19 pandemic",
-            "authors": [
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Damiot",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [
-                        "J"
-                    ],
-                    "last": "Pinto",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [
-                        "E"
-                    ],
-                    "last": "Turner",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [],
-                    "last": "Gualano",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "Gerontol",
-            "volume": "66",
-            "issn": "",
-            "pages": "431--439",
-            "other_ids": {}
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Coronavirus disease-2019: a tocsin to our aging, unfit, corpulent, and immunodeficient society",
-            "authors": [
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Nieman",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "J Sport Health Sci",
-            "volume": "9",
-            "issn": "4",
-            "pages": "293--301",
-            "other_ids": {
-                "DOI": [
-                    "10.1016/j.jshs.2020.05.001"
-                ]
-            }
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "Department of Health and Human Services",
-            "authors": [
-                {
-                    "first": "U",
-                    "middle": [
-                        "S"
-                    ],
-                    "last": "",
-                    "suffix": ""
-                }
-            ],
-            "year": 2018,
-            "venue": "Physical activity guidelines for Americans",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "Cross-sectional and prospective relationships of passive and mentally active sedentary behaviours and physical activity with depression",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Hallgren",
-                    "suffix": ""
-                },
-                {
-                    "first": "N",
-                    "middle": [],
-                    "last": "Owen",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [],
-                    "last": "Stubbs",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [],
-                    "last": "Stubbs",
-                    "suffix": ""
-                },
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Vancampfort",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Lundin",
-                    "suffix": ""
-                }
-            ],
-            "year": 2019,
-            "venue": "Brit J Psychiat",
-            "volume": "217",
-            "issn": "2",
-            "pages": "413--422",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "COVID-19 pandemic \u2026 what about the obesity and inactivity \"pandemics\"?",
             "authors": [
                 {
                     "first": "J",
+                    "last": "Kirby",
                     "middle": [
                         "H"
                     ],
-                    "last": "Kirby",
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Duffett",
                     "middle": [
                         "G"
                     ],
-                    "last": "Duffett",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "27--30",
+            "ref_id": "b10",
+            "title": "COVID-19 pandemic \u2026 what about the obesity and inactivity \"pandemics\"?",
             "venue": "South Afr J Clin Nutr",
             "volume": "33",
-            "issn": "",
-            "pages": "27--30",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "COVID-19 pandemic and lockdown: cause of sleep disruption, depression, somatic pain, and increased screen exposure of office workers and students of India",
             "authors": [
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Majumdar",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Biswas",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Sahu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "8",
+            "other_ids": {},
+            "pages": "1191--200",
+            "ref_id": "b11",
+            "title": "COVID-19 pandemic and lockdown: cause of sleep disruption, depression, somatic pain, and increased screen exposure of office workers and students of India",
             "venue": "Chronobiol Int",
             "volume": "37",
-            "issn": "8",
-            "pages": "1191--200",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "Changes in physical activity and sedentary behavior in response to COVID-19 and their associations with mental health in 3052 US adults",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Meyer",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Mcdowell",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Lansing",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Brower",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Smith",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Tully",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "18",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b12",
+            "title": "Changes in physical activity and sedentary behavior in response to COVID-19 and their associations with mental health in 3052 US adults",
             "venue": "Int J Environ Res and Pub Health",
             "volume": "17",
-            "issn": "18",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "Correlates of perceived physical activity transitions during the COVID-19 pandemic among Canadian adults",
             "authors": [
                 {
                     "first": "R",
+                    "last": "Rhodes",
                     "middle": [
                         "E"
                     ],
-                    "last": "Rhodes",
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Liu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Lithopoulos",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Zhang",
                     "middle": [
                         "Q"
                     ],
-                    "last": "Zhang",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Garcia-Barrera",
                     "middle": [
                         "A"
                     ],
-                    "last": "Garcia-Barrera",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "4",
+            "other_ids": {},
+            "pages": "1157--82",
+            "ref_id": "b13",
+            "title": "Correlates of perceived physical activity transitions during the COVID-19 pandemic among Canadian adults",
             "venue": "Appl Psychol: Health Well-Being",
             "volume": "12",
-            "issn": "4",
-            "pages": "1157--82",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Physical activity is positively associated with college students' positive affect regardless of stressful life events during the COVID-19 pandemic",
             "authors": [
                 {
                     "first": "J",
+                    "last": "Maher",
                     "middle": [
                         "P"
                     ],
-                    "last": "Maher",
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [
-                        "J"
-                    ],
                     "last": "Hevel",
-                    "suffix": ""
-                },
-                {
-                    "first": "E",
                     "middle": [
                         "J"
                     ],
-                    "last": "Reifsteck",
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Reifsteck",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Drollette",
                     "middle": [
                         "S"
                     ],
-                    "last": "Drollette",
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Psychol Sport Exerc",
-            "volume": "52",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.psychsport.2020.101826"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b14",
+            "title": "Physical activity is positively associated with college students' positive affect regardless of stressful life events during the COVID-19 pandemic",
+            "venue": "Psychol Sport Exerc",
+            "volume": "52",
+            "year": 2021
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "Lifestyle behaviors changes during the COVID-19 pandemic quarantine among 6,881 Brazilian adults with depression and 35,143 without depression",
             "authors": [
                 {
                     "first": "A",
+                    "last": "Werneck",
                     "middle": [
                         "O"
                     ],
-                    "last": "Werneck",
                     "suffix": ""
                 },
                 {
                     "first": "D",
+                    "last": "Silva",
                     "middle": [
                         "R"
                     ],
-                    "last": "Silva",
                     "suffix": ""
                 },
                 {
                     "first": "D",
+                    "last": "Malta",
                     "middle": [
                         "C"
                     ],
-                    "last": "Malta",
                     "suffix": ""
                 },
                 {
                     "first": "P",
+                    "last": "Souza-J\u00fanior",
                     "middle": [
                         "R"
                     ],
-                    "last": "Souza-J\u00fanior",
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Azevedo",
                     "middle": [
                         "O"
                     ],
-                    "last": "Azevedo",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Barros",
                     "middle": [
                         "B"
                     ],
-                    "last": "Barros",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Ci\u00eancia Sa\u00fade Coletiva",
-            "volume": "25",
             "issn": "2",
-            "pages": "4151--4157",
             "other_ids": {
                 "DOI": [
                     "10.1590/1413-812320202510.2.27862020"
                 ]
-            }
+            },
+            "pages": "4151--4157",
+            "ref_id": "b15",
+            "title": "Lifestyle behaviors changes during the COVID-19 pandemic quarantine among 6,881 Brazilian adults with depression and 35,143 without depression",
+            "venue": "Ci\u00eancia Sa\u00fade Coletiva",
+            "volume": "25",
+            "year": 2020
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "Bidirectional influence of the COVID-19 pandemic lockdowns on health behaviors and quality of life among Chinese adults",
             "authors": [
                 {
                     "first": "X",
-                    "middle": [],
                     "last": "Wang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Lei",
                     "middle": [
                         "M"
                     ],
-                    "last": "Lei",
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Le",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Yang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Zhang",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Yao",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Int J Environ Res Public Health",
-            "volume": "17",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.3390/ijerph17155575"
@@ -1416,145 +377,199 @@
                 "PMID": [
                     "32748825"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b16",
+            "title": "Bidirectional influence of the COVID-19 pandemic lockdowns on health behaviors and quality of life among Chinese adults",
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "year": 2020
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "The impact of COVID-19 lockdown on physical activity and weight gain among active adult population in Israel. A cross-sectional study",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Dor-Haim",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Katzburg",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Revach",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Levin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Barak",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b17",
+            "title": "The impact of COVID-19 lockdown on physical activity and weight gain among active adult population in Israel. A cross-sectional study",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF18": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b18",
             "title": "Israeli Ministry of Health, the Israeli Center of Disease Control. 2020. Corona survey in 2020",
-            "authors": [],
-            "year": 2021,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF19": {
-            "ref_id": "b19",
-            "title": "Physical activity, resilience, emotions, moods, and weight control of older adults during the COVID-19 global crisis",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Zach",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Zeev",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Ophir",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Eilat-Adar",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "1--8",
+            "ref_id": "b19",
+            "title": "Physical activity, resilience, emotions, moods, and weight control of older adults during the COVID-19 global crisis",
             "venue": "Eur Rev Aging Phys Activ",
             "volume": "18",
+            "year": 2021
+        },
+        "BIBREF2": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Brooks",
+                    "middle": [
+                        "K"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Webster",
+                    "middle": [
+                        "K"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Smith",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Woodland",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Wessely",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Greenberg",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
             "issn": "",
-            "pages": "1--8",
-            "other_ids": {}
+            "other_ids": {},
+            "pages": "912--932",
+            "ref_id": "b2",
+            "title": "The psychological impact of quarantine and how to reduce it: rapid review of the evidence",
+            "venue": "Lancet",
+            "volume": "39",
+            "year": 2020
         },
         "BIBREF20": {
-            "ref_id": "b20",
-            "title": "Mediterranean diet pyramid today. Science and cultural updates",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Bach-Faig",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Berry",
                     "middle": [
                         "M"
                     ],
-                    "last": "Berry",
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Lairon",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Reguant",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Trichopoulou",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Dernini",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2011,
-            "venue": "Public Health Nutr",
-            "volume": "14",
             "issn": "12A",
-            "pages": "2274--84",
             "other_ids": {
                 "DOI": [
                     "10.1017/S1368980011002515"
@@ -1562,695 +577,1680 @@
                 "PMID": [
                     "22166184"
                 ]
-            }
+            },
+            "pages": "2274--84",
+            "ref_id": "b20",
+            "title": "Mediterranean diet pyramid today. Science and cultural updates",
+            "venue": "Public Health Nutr",
+            "volume": "14",
+            "year": 2011
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Jews in Israel: Contemporary social and cultural patterns",
             "authors": [
                 {
                     "first": "U",
-                    "middle": [],
                     "last": "Rebhun",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Waxman",
                     "middle": [
                         "I"
                     ],
-                    "last": "Waxman",
                     "suffix": ""
                 }
             ],
-            "year": 2004,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b21",
+            "title": "Jews in Israel: Contemporary social and cultural patterns",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2004
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "A spatial epidemiology case study of mentally unhealthy days (MUDs): air pollution, community resilience, and sunlight perspectives",
             "authors": [
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Ha",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Shao",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b22",
+            "title": "A spatial epidemiology case study of mentally unhealthy days (MUDs): air pollution, community resilience, and sunlight perspectives",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "Social research 2.0: virtual snowball sampling method using Facebook",
             "authors": [
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Baltar",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "I",
-                    "middle": [],
                     "last": "Brunet",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2012,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b24",
+            "title": "Social research 2.0: virtual snowball sampling method using Facebook",
             "venue": "Internet Res",
             "volume": "22",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2012
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "The IPAQ consensus group and the IPAQ reliability and validity study group. International physical activity questionnaire (IPAQ): 12-country reliability and validity",
             "authors": [
                 {
                     "first": "C",
+                    "last": "Craig",
                     "middle": [
                         "L"
                     ],
-                    "last": "Craig",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Marshall",
                     "middle": [
                         "L"
                     ],
-                    "last": "Marshall",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Sj\u00f6str\u00f6m",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Bauman",
                     "middle": [
                         "E"
                     ],
-                    "last": "Bauman",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Booth",
                     "middle": [
                         "L"
                     ],
-                    "last": "Booth",
                     "suffix": ""
                 },
                 {
                     "first": "B",
+                    "last": "Ainsworth",
                     "middle": [
                         "E"
                     ],
-                    "last": "Ainsworth",
                     "suffix": ""
                 }
             ],
-            "year": 2003,
-            "venue": "Med Sci Sports Exerc",
-            "volume": "35",
             "issn": "8",
-            "pages": "1381--95",
             "other_ids": {
                 "DOI": [
                     "10.1249/01.MSS.0000078924.61453.FB"
                 ]
-            }
+            },
+            "pages": "1381--95",
+            "ref_id": "b25",
+            "title": "The IPAQ consensus group and the IPAQ reliability and validity study group. International physical activity questionnaire (IPAQ): 12-country reliability and validity",
+            "venue": "Med Sci Sports Exerc",
+            "volume": "35",
+            "year": 2003
         },
         "BIBREF26": {
-            "ref_id": "b26",
-            "title": "Short Hebrew international physical activity questionnaire: reliability and validity",
             "authors": [
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Weissblueth",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2015,
-            "venue": "Balt J Health Phys Act",
-            "volume": "7",
             "issn": "1",
-            "pages": "7--13",
             "other_ids": {
                 "DOI": [
                     "10.29359/BJHPA.07.1.01"
                 ]
-            }
+            },
+            "pages": "7--13",
+            "ref_id": "b26",
+            "title": "Short Hebrew international physical activity questionnaire: reliability and validity",
+            "venue": "Balt J Health Phys Act",
+            "volume": "7",
+            "year": 2015
         },
         "BIBREF27": {
-            "ref_id": "b27",
-            "title": "Development and validation of brief measures of positive and negative affect: the PANAS scales",
             "authors": [
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Watson",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Clark",
                     "middle": [
                         "A"
                     ],
-                    "last": "Clark",
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Tellegen",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 1988,
-            "venue": "J Pers Soc Psychol",
-            "volume": "54",
             "issn": "6",
-            "pages": "1063--70",
             "other_ids": {
                 "DOI": [
                     "10.1037/0022-3514.54.6.1063"
                 ]
-            }
+            },
+            "pages": "1063--70",
+            "ref_id": "b27",
+            "title": "Development and validation of brief measures of positive and negative affect: the PANAS scales",
+            "venue": "J Pers Soc Psychol",
+            "volume": "54",
+            "year": 1988
         },
         "BIBREF28": {
-            "ref_id": "b28",
-            "title": "Development of a new resilience scale: the Connor-Davidson resilience scale (CD-RISC)",
             "authors": [
                 {
                     "first": "K",
+                    "last": "Connor",
                     "middle": [
                         "M"
                     ],
-                    "last": "Connor",
                     "suffix": ""
                 },
                 {
                     "first": "Jrt",
-                    "middle": [],
                     "last": "Davidson",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2003,
-            "venue": "Depression Anxiety",
-            "volume": "18",
             "issn": "2",
-            "pages": "76--82",
             "other_ids": {
                 "DOI": [
                     "10.1002/da.10113"
                 ]
-            }
+            },
+            "pages": "76--82",
+            "ref_id": "b28",
+            "title": "Development of a new resilience scale: the Connor-Davidson resilience scale (CD-RISC)",
+            "venue": "Depression Anxiety",
+            "volume": "18",
+            "year": 2003
         },
         "BIBREF29": {
-            "ref_id": "b29",
-            "title": "Epidemiology of depressive mood in adolescents: an empirical study",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Kandel",
                     "middle": [
                         "B"
                     ],
-                    "last": "Kandel",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Davies",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 1982,
-            "venue": "Arch Gen Psychiat",
-            "volume": "39",
             "issn": "10",
-            "pages": "1205--1217",
             "other_ids": {
                 "DOI": [
                     "10.1001/archpsyc.1982.04290100065011"
                 ]
-            }
+            },
+            "pages": "1205--1217",
+            "ref_id": "b29",
+            "title": "Epidemiology of depressive mood in adolescents: an empirical study",
+            "venue": "Arch Gen Psychiat",
+            "volume": "39",
+            "year": 1982
         },
-        "BIBREF30": {
-            "ref_id": "b30",
-            "title": "The Israeli National Health and Nutrition (MABAT) survey",
-            "authors": [],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF31": {
-            "ref_id": "b31",
-            "title": "Translating questionnaires and inventories using a cross-cultural translating technique",
+        "BIBREF3": {
             "authors": [
                 {
                     "first": "D",
+                    "last": "Barbisch",
                     "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Koenig",
+                    "middle": [
+                        "L"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Shih",
+                    "middle": [
+                        "Y"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "5",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/dmp.2015.38"
+                ]
+            },
+            "pages": "547--53",
+            "ref_id": "b3",
+            "title": "Is there a case for quarantine? Perspectives from SARS to Ebola",
+            "venue": "Disaster Med Pub Health Prepared",
+            "volume": "9",
+            "year": 2015
+        },
+        "BIBREF30": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b30",
+            "title": "The Israeli National Health and Nutrition (MABAT) survey",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF31": {
+            "authors": [
+                {
+                    "first": "D",
                     "last": "Banville",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Desrosiers",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Y",
-                    "middle": [],
                     "last": "Genet-Volet",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2000,
-            "venue": "J Teaching in Phys Educ",
-            "volume": "19",
             "issn": "3",
-            "pages": "374--87",
             "other_ids": {
                 "DOI": [
                     "10.1123/jtpe.19.3.374"
                 ]
-            }
+            },
+            "pages": "374--87",
+            "ref_id": "b31",
+            "title": "Translating questionnaires and inventories using a cross-cultural translating technique",
+            "venue": "J Teaching in Phys Educ",
+            "volume": "19",
+            "year": 2000
         },
         "BIBREF32": {
-            "ref_id": "b32",
-            "title": "Back-translation for cross-cultural research",
             "authors": [
                 {
                     "first": "R",
+                    "last": "Brislin",
                     "middle": [
                         "W"
                     ],
-                    "last": "Brislin",
                     "suffix": ""
                 }
             ],
-            "year": 1970,
-            "venue": "J Cross-Cult Psychol",
-            "volume": "1",
             "issn": "3",
-            "pages": "185--216",
             "other_ids": {
                 "DOI": [
                     "10.1177/135910457000100301"
                 ]
-            }
+            },
+            "pages": "185--216",
+            "ref_id": "b32",
+            "title": "Back-translation for cross-cultural research",
+            "venue": "J Cross-Cult Psychol",
+            "volume": "1",
+            "year": 1970
         },
         "BIBREF33": {
-            "ref_id": "b33",
-            "title": "Cross-cultural adaptation and validation of the SWAL-QoL questionnaire in Greek",
             "authors": [
                 {
                     "first": "V",
+                    "last": "Georgopoulos",
                     "middle": [
                         "C"
                     ],
-                    "last": "Georgopoulos",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Perdikogianni",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Mouskenteri",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Psychogiou",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Oikonomou",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
+                    "last": "Malandraki",
                     "middle": [
                         "A"
                     ],
-                    "last": "Malandraki",
                     "suffix": ""
                 }
             ],
-            "year": 2018,
-            "venue": "Dysphagia",
-            "volume": "33",
             "issn": "1",
-            "pages": "91--100",
             "other_ids": {
                 "DOI": [
                     "10.1007/s00455-017-9837-8"
                 ]
-            }
+            },
+            "pages": "91--100",
+            "ref_id": "b33",
+            "title": "Cross-cultural adaptation and validation of the SWAL-QoL questionnaire in Greek",
+            "venue": "Dysphagia",
+            "volume": "33",
+            "year": 2018
         },
         "BIBREF34": {
-            "ref_id": "b34",
-            "title": "Measurement in cross-cultural psychology: a review of comparison of strategies",
             "authors": [
                 {
                     "first": "C",
+                    "last": "Hui",
                     "middle": [
                         "H"
                     ],
-                    "last": "Hui",
                     "suffix": ""
                 },
                 {
                     "first": "H",
+                    "last": "Triandis",
                     "middle": [
                         "C"
                     ],
-                    "last": "Triandis",
                     "suffix": ""
                 }
             ],
-            "year": 1985,
-            "venue": "J Cross-Cultural Psychol",
-            "volume": "16",
             "issn": "2",
-            "pages": "131--52",
             "other_ids": {
                 "DOI": [
                     "10.1177/0022002185016002001"
                 ]
-            }
+            },
+            "pages": "131--52",
+            "ref_id": "b34",
+            "title": "Measurement in cross-cultural psychology: a review of comparison of strategies",
+            "venue": "J Cross-Cultural Psychol",
+            "volume": "16",
+            "year": 1985
         },
         "BIBREF35": {
-            "ref_id": "b35",
-            "title": "Instrument creation in cross-cultural perspective",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Zach",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Lidor",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2002,
+            "issn": "",
+            "other_ids": {},
+            "pages": "122--170",
+            "ref_id": "b35",
+            "title": "Instrument creation in cross-cultural perspective",
             "venue": "Bitnua",
             "volume": "6",
-            "issn": "",
-            "pages": "122--170",
-            "other_ids": {}
+            "year": 2002
         },
         "BIBREF36": {
-            "ref_id": "b36",
-            "title": "Physical activity and depression: towards understanding the antidepressant mechanisms of physical activity",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Kandola",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
-                    "middle": [],
                     "last": "Ashdown-Franks",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Hendrikse",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
+                    "last": "Sabiston",
                     "middle": [
                         "M"
                     ],
-                    "last": "Sabiston",
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Stubbs",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2019,
-            "venue": "Neurosci Biobehav Rev",
-            "volume": "107",
             "issn": "",
-            "pages": "525--564",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.neubiorev.2019.09.040"
                 ]
-            }
+            },
+            "pages": "525--564",
+            "ref_id": "b36",
+            "title": "Physical activity and depression: towards understanding the antidepressant mechanisms of physical activity",
+            "venue": "Neurosci Biobehav Rev",
+            "volume": "107",
+            "year": 2019
         },
         "BIBREF37": {
-            "ref_id": "b37",
-            "title": "Beyond METs: types of physical activity and depression among older adults",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Joshi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Mooney",
                     "middle": [
                         "J"
                     ],
-                    "last": "Mooney",
                     "suffix": ""
                 },
                 {
                     "first": "G",
+                    "last": "Kennedy",
                     "middle": [
                         "J"
                     ],
-                    "last": "Kennedy",
                     "suffix": ""
                 },
                 {
                     "first": "E",
+                    "last": "Benjamin",
                     "middle": [
                         "O"
                     ],
-                    "last": "Benjamin",
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Ompad",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Rundle",
                     "middle": [
                         "G"
                     ],
-                    "last": "Rundle",
                     "suffix": ""
                 }
             ],
-            "year": 2016,
-            "venue": "Age Ageing",
-            "volume": "45",
             "issn": "1",
-            "pages": "103--112",
             "other_ids": {
                 "DOI": [
                     "10.1093/ageing/afv164"
                 ]
-            }
+            },
+            "pages": "103--112",
+            "ref_id": "b37",
+            "title": "Beyond METs: types of physical activity and depression among older adults",
+            "venue": "Age Ageing",
+            "volume": "45",
+            "year": 2016
         },
         "BIBREF38": {
-            "ref_id": "b38",
-            "title": "Children's physical activity and depression: a meta-analysis",
             "authors": [
                 {
                     "first": "D",
+                    "last": "Korczak",
                     "middle": [
                         "J"
                     ],
-                    "last": "Korczak",
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Madigan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Colasanto",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2017,
-            "venue": "Pediat",
-            "volume": "139",
             "issn": "4",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1542/peds.2016-2266"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b38",
+            "title": "Children's physical activity and depression: a meta-analysis",
+            "venue": "Pediat",
+            "volume": "139",
+            "year": 2017
         },
         "BIBREF39": {
-            "ref_id": "b39",
-            "title": "The WHO-5 well-being index: a systematic review of the literature",
             "authors": [
                 {
                     "first": "C",
+                    "last": "Topp",
                     "middle": [
                         "W"
                     ],
-                    "last": "Topp",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "\u00d8stergaard",
                     "middle": [
                         "D"
                     ],
-                    "last": "\u00d8stergaard",
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "S\u00f8ndergaard",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Bech",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2015,
-            "venue": "Psychother Psychosom",
-            "volume": "84",
             "issn": "3",
-            "pages": "167--76",
             "other_ids": {
                 "DOI": [
                     "10.1159/000376585"
                 ]
-            }
+            },
+            "pages": "167--76",
+            "ref_id": "b39",
+            "title": "The WHO-5 well-being index: a systematic review of the literature",
+            "venue": "Psychother Psychosom",
+            "volume": "84",
+            "year": 2015
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "G",
+                    "last": "Caleo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Duncombe",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Jephcott",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Lokuge",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Mills",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Looijen",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1--13",
+            "ref_id": "b4",
+            "title": "The factors affecting household transmission dynamics and community compliance with Ebola control measures: a mixed-methods study in a rural village in Sierra Leone",
+            "venue": "BMC Pub Health",
+            "volume": "18",
+            "year": 2018
         },
         "BIBREF40": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b40",
             "title": "Publisher's Note",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF41": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b41",
             "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
+            "year": null
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Mazza",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Marano",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Lai",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Janiri",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Sani",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b5",
+            "title": "Danger in danger: interpersonal violence during COVID-19 quarantine",
+            "venue": "Psychiatry Res",
+            "volume": "289",
+            "year": 2020
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Damiot",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Pinto",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Turner",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Gualano",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "431--439",
+            "ref_id": "b6",
+            "title": "Immunological implications of physical inactivity among older adults during the covid-19 pandemic",
+            "venue": "Gerontol",
+            "volume": "66",
+            "year": 2020
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Nieman",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "4",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jshs.2020.05.001"
+                ]
+            },
+            "pages": "293--301",
+            "ref_id": "b7",
+            "title": "Coronavirus disease-2019: a tocsin to our aging, unfit, corpulent, and immunodeficient society",
+            "venue": "J Sport Health Sci",
+            "volume": "9",
+            "year": 2020
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "U",
+                    "last": "",
+                    "middle": [
+                        "S"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b8",
+            "title": "Department of Health and Human Services",
+            "venue": "Physical activity guidelines for Americans",
+            "volume": "",
+            "year": 2018
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Hallgren",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Owen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Stubbs",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Stubbs",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Vancampfort",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Lundin",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "2",
+            "other_ids": {},
+            "pages": "413--422",
+            "ref_id": "b9",
+            "title": "Cross-sectional and prospective relationships of passive and mentally active sedentary behaviours and physical activity with depression",
+            "venue": "Brit J Psychiat",
+            "volume": "217",
+            "year": 2019
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 202,
+                    "ref_id": "BIBREF0",
+                    "start": 199,
+                    "text": "[1]"
+                },
+                {
+                    "end": 308,
+                    "ref_id": "BIBREF1",
+                    "start": 305,
+                    "text": "[2]"
+                },
+                {
+                    "end": 380,
+                    "ref_id": "BIBREF1",
+                    "start": 377,
+                    "text": "[2]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "The COVID-19 epidemic has become a pandemic and a global health threat. Within a year of the outbreak, COVID-19 infected over 120 million persons worldwide, with more than 2,671,764 confirmed deaths [1] . In Israel, according to the last update of the Israel Ministry of Health (March 17, 2021, 08:49 AM) [2] , a total of 823, 314 had tested positive, and 6051 deaths occurred [2] . The sudden and rapid spread of the COVID-19 pandemic has shattered the normality of daily life worldwide, and will surely have a long-term impact. On March 15th, 2020, a lockdown was imposed throughout the country. The entire K-12 education system and many jobs transitioned to online. Public places, restaurants, gyms, theaters, community centers, parks, and businesses were shut down to ensure social distancing, limit the movement of the population, and mitigate the effect of the pandemic. People could leave their home only if they were required as essential workers or needed to carry out necessary activities such as purchasing medicines or food. Although this strategy was reported to be efficient for containing the COVID-19 outbreak, the quarantine was also reported as being associated with harmful implications to society."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 233,
+                    "ref_id": "BIBREF2",
+                    "start": 230,
+                    "text": "[3]"
+                },
+                {
+                    "end": 274,
+                    "ref_id": "BIBREF3",
+                    "start": 271,
+                    "text": "[4]"
+                },
+                {
+                    "end": 316,
+                    "ref_id": "BIBREF4",
+                    "start": 313,
+                    "text": "[5]"
+                },
+                {
+                    "end": 394,
+                    "ref_id": "BIBREF5",
+                    "start": 391,
+                    "text": "[6]"
+                },
+                {
+                    "end": 469,
+                    "ref_id": "BIBREF2",
+                    "start": 466,
+                    "text": "[3]"
+                },
+                {
+                    "end": 974,
+                    "ref_id": "BIBREF6",
+                    "start": 971,
+                    "text": "[7]"
+                },
+                {
+                    "end": 978,
+                    "ref_id": "BIBREF7",
+                    "start": 975,
+                    "text": "[8]"
+                },
+                {
+                    "end": 982,
+                    "ref_id": "BIBREF8",
+                    "start": 979,
+                    "text": "[9]"
+                },
+                {
+                    "end": 1000,
+                    "ref_id": "BIBREF9",
+                    "start": 996,
+                    "text": "[10]"
+                },
+                {
+                    "end": 1015,
+                    "ref_id": "BIBREF10",
+                    "start": 1011,
+                    "text": "[11]"
+                },
+                {
+                    "end": 1044,
+                    "ref_id": "BIBREF11",
+                    "start": 1040,
+                    "text": "[12]"
+                },
+                {
+                    "end": 1183,
+                    "ref_id": "BIBREF2",
+                    "start": 1180,
+                    "text": "[3]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Lockdown is usually a debilitating experience. The loss of freedom, financial cost, uncertainty over disease status, separation from loved ones, boredom, frustration, and inadequate information may create dramatic harmful effects [3] . Negative outcomes, such as suicide [4] , the generation of substantial anger [5] , as well as an increase in violence and aggressiveness within the family [6] , are just a few examples that have been recorded. Results of a review [3] of 24 articles concerning the shortand the long-term impact of quarantine on psychological well-being, demonstrated that prolonged self-isolation has a negative impact on psychological responses, promoting post-traumatic stress symptoms, confusion, and anger. In addition, quarantine might lead to physical inactivity, which should be of major concern as a great deal of evidence has shown that lack of physical activity (PA) contributes to adverse health changes, such as affecting the immune system [7] [8] [9] , depression [10] , obesity [11] , and sleeping problems [12] . Therefore, the potential benefits of a mandatory mass lockdown need to be weighed carefully against the possible psychological costs [3] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 203,
+                    "ref_id": "BIBREF12",
+                    "start": 199,
+                    "text": "[13]"
+                },
+                {
+                    "end": 647,
+                    "ref_id": "BIBREF13",
+                    "start": 643,
+                    "text": "[14]"
+                },
+                {
+                    "end": 958,
+                    "ref_id": "BIBREF14",
+                    "start": 954,
+                    "text": "[15]"
+                },
+                {
+                    "end": 1159,
+                    "ref_id": "BIBREF15",
+                    "start": 1155,
+                    "text": "[16]"
+                },
+                {
+                    "end": 1436,
+                    "ref_id": "BIBREF16",
+                    "start": 1432,
+                    "text": "[17]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Within several months into the pandemic, a myriad of research had already been conducted in many countries regarding its implications on various aspects related to health and lifestyle. Meyer et al. [13] , for example, conducted a cross-sectional study with 3052 US adults from all 50 states. Participants self-reported pre-and post-COVID-19 levels of moderate and vigorous PA, mental health and social aspects. Findings showed that PA was lower post-COVID among participants reporting being previously active, but largely unchanged among previously inactive participants. Lack of PA was associated with worsening mental health. Rhodes et al. [14] examined weekly moderate to vigorous physical activity (MVPA) frequency and duration of pre and post COVID-19 restrictions among 1055 Canadian participants aged 18+ years, and related psychosocial and environmental factors. Their findings revealed that participants had decreased weekly MVPA. Maher et al. [15] reported similar results among college students. They found that total minutes of PA were positively associated with positive affect before and during COVID-19 stay-at-home orders. Werneck et al. [16] focused their research on the association between depression and changes in PA and diet behaviors among 41,923 Brazilian adults. Their findings showed participants with a previous diagnosis of depression were at risk for incidence of unhealthy diet behaviors. Wang et al. [17] explored how COVID-19 affected the health-related quality of life (QoL) among 2289 Chinese adults who had been isolated at home for an average of 77 days. More than 50% of the respondents reported that their time engaged in daily PA decreased. During home isolation, 75.2% of the adults rated their sleep quality as very good, and 65% reported that they were satisfied with their QoL."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 155,
+                    "ref_id": "BIBREF17",
+                    "start": 152,
+                    "text": "18,"
+                },
+                {
+                    "end": 159,
+                    "ref_id": "BIBREF18",
+                    "start": 156,
+                    "text": "19,"
+                },
+                {
+                    "end": 163,
+                    "ref_id": "BIBREF19",
+                    "start": 160,
+                    "text": "20]"
+                },
+                {
+                    "end": 211,
+                    "ref_id": "BIBREF17",
+                    "start": 207,
+                    "text": "[18]"
+                },
+                {
+                    "end": 513,
+                    "ref_id": "BIBREF18",
+                    "start": 509,
+                    "text": "[19]"
+                },
+                {
+                    "end": 1491,
+                    "ref_id": "BIBREF19",
+                    "start": 1487,
+                    "text": "[20]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "In Israel, research has also been conducted regarding the relationship between PA and health behavior during the period of The COVID-19 pandemic [e.g., 18, 19, 20] . For example, Dor-Haim and his colleagues [18] surveyed 1202 trainees who exercised on a regular basis. They found that 70% trained less during the pandemic period, and 55% gained weight with an average increase of 1.2 kg. However, those who exhibited a higher physical activity level gained less weight. The Israeli Center for Disease Control [19] conducted a telephone survey with a representative sample of 2580 Israeli participants aged 21+ to examine the changes that have taken place in the use of medical services, and in their mental state, healthy behaviors, and nutrition. In addition, it checked citizens' compliance with government guidelines from the onset of the plague to the quarantine following the second wave of the plague. They reported that 56.8% of the respondents regularly engaged in physical activity before the Corona plague. Of all those who reported regular physical activity, 65.7% reported that their habits had changed since the Corona pandemic. Of the respondents who reported a change in physical activity habits, 62.1% reported a decrease in the frequency or duration of their activity, and 46.7% reported a decrease in intensity. As for weight control, 28.6% of respondents reported gaining weight since the onset of the Corona plague and 24.1% reported eating more. Lastly, Zach et al. [20] examined the differences between Israeli adults in the age group 70+ and two other age groups (45-59 and 60-69) concerning their healthy and active lifestyle. They surveyed 1202 people and found that in adults at 70+, the physical activity level, physical activity before and during the lockdown, emotions, sleeping hours, and weight change were similar to the other adult groups that were examined (45-59 and 60-69). However, in the older adults groups (70+ and 60-69), resilience and depression symptoms were lower than in the youngest age group."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 74,
+                    "ref_id": "BIBREF16",
+                    "start": 70,
+                    "text": "[17]"
+                },
+                {
+                    "end": 215,
+                    "ref_id": "BIBREF15",
+                    "start": 211,
+                    "text": "[16]"
+                },
+                {
+                    "end": 320,
+                    "ref_id": "BIBREF13",
+                    "start": 316,
+                    "text": "[14]"
+                },
+                {
+                    "end": 391,
+                    "ref_id": "BIBREF12",
+                    "start": 387,
+                    "text": "[13]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Considering the findings that emerged from these studies, the Chinese [17] study showed that the majority of the participants reported life satisfaction despite a long duration of isolation; the Brazilian study [16] focused on the association between PA, unhealthy diet behaviors, and depression; the Canadian study [14] focused on PA behavior change; and, the study conducted in the US [13] measured psychological, social, and PA behavior changes pre and post the COVID-19. Differences in the research goals of these studies might be related to cultural differences among the countries. We were interested in finding out similarities as well as the uniqueness of the Israeli population related to other populations that were reviewed."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 147,
+                    "ref_id": "BIBREF20",
+                    "start": 143,
+                    "text": "[21,"
+                },
+                {
+                    "end": 151,
+                    "ref_id": "BIBREF21",
+                    "start": 148,
+                    "text": "22]"
+                },
+                {
+                    "end": 341,
+                    "ref_id": "BIBREF22",
+                    "start": 337,
+                    "text": "[23]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Israel is a sunny country with some of the characteristics of a Mediterranean lifestyle, such as strong community life and cultural traditions [21, 22] . Greater community resiliencesocial, economic, infrastructural, and institutional, in addition to higher sunlight exposure, were associated with lower factors of mental health hazards [23] . The first lockdown's forced isolation and lower exposure to community life and to sunlight were both expected to be risk factors for a decrease in mental health aspects for Israelisprobably more than in other populations. Hence, the present study aimed to examine health behavior changes among Israeli participants. Specifically, we wanted to examine changes in the PA levels during the first lockdown imposed on the Israeli population during the COVID-19 pandemic, and to determine their relationships with weight control and psychological health."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 346,
+                    "ref_id": "BIBREF24",
+                    "start": 342,
+                    "text": "[24]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Methods",
+            "text": "We recruited people aged 18 or above living in Israel during the COVID-19 outbreak via different social networks such as e-mail, WhatsApp, Twitter, Instagram, and Facebook). A nonprobability snowball sampling strategy was used. It has been shown that the response rate to online snowball surveys is higher than when other strategies are used [24] . Participants were 1855 people, 566 males and 1289 females, aged 18-90, from all over the country, representing its seven main regions."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "A six-part survey was used, including:"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 61,
+                    "ref_id": "BIBREF25",
+                    "start": 57,
+                    "text": "[25]"
+                },
+                {
+                    "end": 374,
+                    "ref_id": "BIBREF26",
+                    "start": 370,
+                    "text": "[26]"
+                },
+                {
+                    "end": 430,
+                    "ref_id": "BIBREF27",
+                    "start": 426,
+                    "text": "[27]"
+                },
+                {
+                    "end": 865,
+                    "ref_id": "BIBREF26",
+                    "start": 861,
+                    "text": "[26]"
+                },
+                {
+                    "end": 957,
+                    "ref_id": "BIBREF27",
+                    "start": 953,
+                    "text": "[27]"
+                },
+                {
+                    "end": 1128,
+                    "ref_id": "BIBREF28",
+                    "start": 1124,
+                    "text": "[28]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "The International Physical Activity Questionnaire (IPAQ) [25] the short version, relating to PA that was conducted during the previous week. Participants had to describe their level of PA, and the frequency, duration, and intensity (see the original instrument for further details). Reliability for the Hebrew version in terms of Alpha Cronbach ranged from 0.59 to 0.90 [26] . (c) Positive and Negative Affect Schedule -PANAS [27] . A 20-item questionnaire assessed positive affects (10 items; e.g. strong, inspired) and negative affects (10 items; e.g. worried, guilty) experienced by the participants in the previous month. Participants rated their feelings on a 5-point scale (1 = hardly at all or not at all; 5 = to a great extent). Reliabilities, in terms of Cronbach alphas, for the original scale were .89 for positive affect and .92 for negative affect [26] . Alphas for the Hebrew version of this scale were used in many previous studies (e.g. [27] ) ranged from .80 to .91. In the current study Cronbach alphas were .83 for positive affect and .86 for negative affect. (d) The Connor and Davidson Resilience Scale [28] The Connor-Davidson Resilience scale (CD-RISC) is comprised of 25 items, each rated on a 5-point scale (0-4), with a higher score reflecting greater resilience. Internal consistency of the original validation study was .89, and test-retest reliability demonstrated a high level of agreement between the two tests, with an intraclass correlation coefficient of .87. Factor analysis yielded the following five factors: (1) Personal competence, high standards, and tenacity; (2) Trust in one's instincts, tolerance of negative affect, and strengthening effects of stress;"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "(3) Positive acceptance of change, and secure relationships; (4) Control; and (5) Spiritual influences. As mentioned above, in the current study we conducted factor analysis and came up with two factors: (1) Personal competence and self-control, and (2) Positive acceptance of change. Internal consistency ranged from .87 to .90."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 55,
+                    "ref_id": "BIBREF29",
+                    "start": 51,
+                    "text": "[29]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "(e) A questionnaire for measuring depressive moods [29] Six questions on a 4-point scale measured depressive symptoms. Internal consistency for the current sample was .86."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "(f) Weight control is the term used to discuss managing and maintaining a healthy body weight."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 127,
+                    "ref_id": "BIBREF30",
+                    "start": 123,
+                    "text": "[30]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "Questions regarding weight control were based on the Israeli National Health and Nutrition (MABAT) survey, questions 50-54 [30] : \"What is your current weight (without shoes)?\", and \"what is your current height? (in cm without shoes)\"; the question \"did your weight change during the last 2 years?\" was changed to \"did your weight change since the enforcement of social isolation until the end of the complete lockdown?\""
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "Confirmatory Factor analysis was conducted to reconfirm the following behavior measurement factors for the current cohort: Positive and Negative Affect Schedule -PANAS; The Connor and Davidson Resilience Scale; and a questionnaire for measuring depressive moods. The number of factors to retain was calculated using the Kaiser-Guttman rule (eigenvalue > 1) and the scree plot. Two factors were created for the resilience scale, one factor for the depression scale, and two factors for the PANAS scale with eigenvalues values > 1."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 125,
+                    "ref_id": "BIBREF31",
+                    "start": 121,
+                    "text": "[31]"
+                },
+                {
+                    "end": 130,
+                    "ref_id": "BIBREF32",
+                    "start": 126,
+                    "text": "[32]"
+                },
+                {
+                    "end": 135,
+                    "ref_id": "BIBREF33",
+                    "start": 131,
+                    "text": "[33]"
+                },
+                {
+                    "end": 140,
+                    "ref_id": "BIBREF34",
+                    "start": 136,
+                    "text": "[34]"
+                },
+                {
+                    "end": 145,
+                    "ref_id": "BIBREF35",
+                    "start": 141,
+                    "text": "[35]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "The procedure of the questionnaire's translation followed the recommendations of other cross-cultural researchers (e.g., [31] [32] [33] [34] [35] ). All parts of the questionnaire were translated into Hebrew by back-translation and the committee approach. A group of three bilingual translators translated the questionnaire from the language of origin into the target language, and back again. Then errors in translation were corrected by the translating team. Following the translation, a committee discussed the final version of the questionnaire until full agreement was achieved."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "Data were collected during the complete lockdown between the dates April 8, 2020 to April 18, 2020. The survey was approved by the Institutional Review Board (IRB), permission [No. 250]. The questionnaire was distributed via e-mail, WhatsApp, Twitter and Facebook to a first wave of participants (the research team's personal and professional contacts). They were asked to share the link with their contacts and ask these to do the same to obtain a wider and less biased sample."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Participants reported their weight and height, and body mass index (BMI) was calculated by the researchers.",
+            "text": "Involvement in PA was defined as an answer to the question: \"Were you engaged in physical activity before the lockdown?\", along with the answer to the question: \"Are you doing physical activity during the lockdown?\", and categorized into a dichotomous variable: yes or no. Reported adherence to physical activity prior to the pandemic, and during the lockdown, was categorized into four groups: (a) No/Nodid not do physical activity before the lockdown/not doing physical activity during the lockdown; (b) No/Yesdid not do physical activity before the lockdown/doing physical activity during the lockdown; (c) Yes/Nodid physical activity before the lockdown/not doing physical activity during the lockdown; (d) Yes/Yesdid physical activity before the lockdown/ doing physical activity during the lockdown. The background characteristics of the four groups of physical activity behavior are presented by means and standard deviations for normal variables, and by frequencies for categorical data. One-way ANOVA was conducted to compare the reported psychological variables among the four groups of physical activity behavior, and a Chi Square test was used to compare weight change in those four groups. Multi-Dimensional Scaling Analysis was performed using the ALSCAL procedure in IBM SPSS (Version 25.0)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results",
+            "text": "The sample includes 1855 participants, 571 males (30/ 6%), and 135 non-Jewish (7% of the sample). Mean age 50.2 (S.D = 14.5), 5.1% at the age 18-24. 31.6% at the age 24-44, 47%.1 at the age 45-64, and 16.1% at the age 65+ . The current sample is not a representative sample of the population. The sample was made up of about 31% men compared to 51% in the population over the age of 18 in Israel; non-Jews constitute 7% of the sample, in contrast to their share in the population of 25.9%. The age distribution is also different: while 18-24 year-olds are 16.5% of the population aged 18 and over, in the sample they are only 5.1%. Ages 25-64 constitute the majority of the sample -78.7% compared to 72.1% in the Israeli population aged 18 and over. Those aged 65 and over have a higher representation in the sample (16.1%) than their percent in the population (11.4%)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 125,
+                    "ref_id": "TABREF0",
+                    "start": 118,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Results",
+            "text": "Descriptive statistics of the four groups of PA according to the survey's background characteristics are presented in Table 1 ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results",
+            "text": "The average number of stay-at-home days was 33.7 (Kg) \u00b1 4.2 (Median 32). Reported weight change was small (0.54 Kg \u00b1 2.06). Most of the participants (76.3%) reported being physically active before the lockdown, while 25% (n = 358) of them stopped during the lockdown. Among those who were not active before the lockdown (n = 440), 39% (n = 172) started PA during the lockdown. Participants who stopped engaging in PA during the lockdown were either slightly or significantly older compared with those who were not active before the lockdown. Those who reported being and staying physically active were also older than those who were not active before the lockdown, and they had a lower BMI compared with those who had not started PA and those who were active but stopped during the lockdown. According to the BMI, people were within the normal to overweight range (with average of normal weight) (25.46 \u00b1 4.47). Only those who reported being inactive before and during the lockdown were on average overweight and had a significantly higher BMI compared with all other groups. Those who were not active before and during the lockdown gained more weight during the lockdown compared with those who were active."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results",
+            "text": "We examined the differences between the four categories of PA according to the following age groups: 18-24, 25-44, 45-64, and 65+. The majority of the sample (78.8%) was in the age range of 25-64. 14.8% of the participants reported being inactive both before and during the lockdown. A small percentage began exercising during the lockdown (9.3%), and more so among the age groups 25-44 and 45-64 than the younger and the older groups (data not shown). At the age range 45-64, 28% of the participants were physically active before the lockdown but stopped during the lockdown, which is significantly different and higher than the other age-range groups, especially compared with 16% at the age-range group 18-24 (p < 0.05). As for doing PA during the lockdown and being active before it began, it appears that the majority of the current cohort were active people."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 136,
+                    "ref_id": "TABREF1",
+                    "start": 129,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 198,
+                    "ref_id": "TABREF1",
+                    "start": 191,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 417,
+                    "ref_id": "TABREF1",
+                    "start": 410,
+                    "text": "Table 2"
+                }
+            ],
+            "section": "Results",
+            "text": "Descriptive statistics for resilience, emotions, and depression symptoms according to the four categories of PA are presented in Table 2 . The number of respondents available for analysis in Table 2 includes those who answered the PA, resilience, and emotions questionnaires. There was no significant difference in PA distribution comparing those who replied to all the psychological questions as presented in Table 2 (n = 1681), to those who did not answer one or more of the psychological questions in the resilience and emotions questionnaires (p = 0.267)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results",
+            "text": "Overall, in all four groups, positive feelings received higher scores than negative feelings. Participants who reported performing PA both before and during the lockdown had higher scores on positive acceptance of change, self-competence, and self-control compared with those who were not physically active either before or during the lockdown. Their positive acceptance of change was also higher than that of those who were not physically active before, and started PA during the lockdown. There was no difference between the groups in negative feelings."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results",
+            "text": "The lowest depression symptoms score was demonstrated for those who were physically active before and during the lockdown. The second lowest score was for those who started PA during the lockdown (compared to those who were doing PA and stopped), while the group of participants who were not active before and during the lockdown had the highest level of depression."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 662,
+                    "ref_id": null,
+                    "start": 656,
+                    "text": "Fig. 1"
+                },
+                {
+                    "end": 725,
+                    "ref_id": null,
+                    "start": 717,
+                    "text": "Figure 1"
+                }
+            ],
+            "section": "Results",
+            "text": "Weight change was categorized into seven categories in the questionnaire (three of gaining weight, three of losing weight, and one of no change). However, due to the small number of participants in the extreme groups (losing or gaining over 5 kg), the categories were merged into five groups, as follows: 0%]kg. We examined the differences between the four categories of PA according to these five groups. About one-third to onehalf of the sample had no weight change. However, a The research integrates three domains: PA behavior, psycho-social aspects, and weight control during the lockdown. Therefore, a Multi-dimensional Clustering was performed (see Fig. 1 ) using the Euclidian distance between the variables. Figure 1 illustrates the group composite stimulus map summarizing the participants' scores on the three domains that were surveyed. As shown, the negative emotions (PANAS negative and depression symptoms) are not far from the origin and they are close to each other. Weight change is placed on the left quadrant, negative side, near the X axis, while PA is placed in the right quadrant, positive region of the Y axis. The positive emotions are assembled together near the negative Y axis. In other words, the location of the negative emotions is close to the beginning of the axes (0,0), meaning that they are quite low, but negative in relation to the other variables. On the other hand, the positive emotions are in the positive part of the X-axis but in the negative part of the Y-axis. That is, they have an opposite element to the negative (diagonally)."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 701,
+                    "ref_id": "BIBREF36",
+                    "start": 697,
+                    "text": "[36]"
+                },
+                {
+                    "end": 730,
+                    "ref_id": "BIBREF37",
+                    "start": 726,
+                    "text": "[37]"
+                },
+                {
+                    "end": 754,
+                    "ref_id": "BIBREF9",
+                    "start": 750,
+                    "text": "[10,"
+                },
+                {
+                    "end": 758,
+                    "ref_id": "BIBREF15",
+                    "start": 755,
+                    "text": "16,"
+                },
+                {
+                    "end": 762,
+                    "ref_id": "BIBREF19",
+                    "start": 759,
+                    "text": "20]"
+                },
+                {
+                    "end": 809,
+                    "ref_id": "BIBREF38",
+                    "start": 805,
+                    "text": "[38]"
+                },
+                {
+                    "end": 1142,
+                    "ref_id": "BIBREF12",
+                    "start": 1138,
+                    "text": "[13,"
+                },
+                {
+                    "end": 1146,
+                    "ref_id": "BIBREF13",
+                    "start": 1143,
+                    "text": "14]"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 1000,
+                    "ref_id": null,
+                    "start": 994,
+                    "text": "Fig. 1"
+                }
+            ],
+            "section": "Discussion",
+            "text": "In the current study we aimed at exploring the relationships between PA, psycho-social aspects, and weight control that characterized the current study population's behavior during the COVID-19 global crisis. The central focus of our survey was health behavior. More specifically, the focus was on PA habits. Two major results may have long-term implications. The first is that physically active peoplewhether or not they were physically active before the lockdownreported a lower level of depression symptoms compared with inactive people. This finding is along the lines of others who demonstrated the relationships between depression symptoms and PA (e.g. in a review by Kandola and colleagues [36] ), in the elderly (e.g. [37] ), in adults (e.g. [10, 16, 20] ), and in adolescence and childhood (e.g. [38] ). Moreover, our findings showed that not only was inactivity associated with depression, but changes in PA habits from being active pre-lockdown to becoming in-active during lockdown Fig. 1 Multi-dimensional scaling of the Euclidian distance between the research variables were related to increased depressive symptoms. Others [13, 14] found similar results in their studies, in which they examined the level of MVPA pre-COVID-19 to post COVID-19 and the associated depression. Both studies found that a decrease in MVPA is related to an increase in depression."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 148,
+                    "ref_id": "BIBREF2",
+                    "start": 145,
+                    "text": "[3]"
+                },
+                {
+                    "end": 160,
+                    "ref_id": "BIBREF3",
+                    "start": 157,
+                    "text": "[4]"
+                },
+                {
+                    "end": 198,
+                    "ref_id": "BIBREF5",
+                    "start": 195,
+                    "text": "[6]"
+                },
+                {
+                    "end": 647,
+                    "ref_id": "BIBREF12",
+                    "start": 643,
+                    "text": "[13,"
+                },
+                {
+                    "end": 651,
+                    "ref_id": "BIBREF14",
+                    "start": 648,
+                    "text": "15,"
+                },
+                {
+                    "end": 655,
+                    "ref_id": "BIBREF38",
+                    "start": 652,
+                    "text": "38,"
+                },
+                {
+                    "end": 659,
+                    "ref_id": "BIBREF39",
+                    "start": 656,
+                    "text": "39]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "Second, active people reported on having more positive emotions on. Since the lockdown was found to be related to risk behavior, such as suicide [3] , anger [4] , and violence and aggressiveness [6] , we expected the participants to report negative emotions during this period of time. However, active people differed significantly from inactive people: they reported on a significantly higher level of positive emotions compared with their counterparts who were not active. As others have asserted that the psychological construct of well-being includes both aspectslow rates of negative emotions along with high rates of positive ones (e.g. [13, 15, 38, 39] ), our results suggest that being active is associated with a better reported well-being compared with being inactive."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 334,
+                    "ref_id": "BIBREF5",
+                    "start": 331,
+                    "text": "[6,"
+                },
+                {
+                    "end": 337,
+                    "ref_id": "BIBREF8",
+                    "start": 335,
+                    "text": "9,"
+                },
+                {
+                    "end": 341,
+                    "ref_id": "BIBREF10",
+                    "start": 338,
+                    "text": "11,"
+                },
+                {
+                    "end": 345,
+                    "ref_id": "BIBREF12",
+                    "start": 342,
+                    "text": "13,"
+                },
+                {
+                    "end": 349,
+                    "ref_id": "BIBREF16",
+                    "start": 346,
+                    "text": "17]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "These results suggest that PA is a means for managing a healthy lifestyleboth physically and mentally, not only during routine times but also in a global, ongoing crisis atmosphere that creates pressure and uncertainty, and that decreases the likelihood of people to be at risk for developing negative feelings and behaviors (e.g. [6, 9, 11, 13, 17] )."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "As for the association between PA and weight, the majority of the participants maintained their original weight. Those who were active before the lockdown and continued to be active during the lockdown gained less weight than those who were not active during the lockdown, regardless of whether they were active before or not. In addition, participants who stopped exercising during the lockdown were older than those who continued to exercise, and their BMI was higher. Nevertheless, those who continued to exercise were older than those who did not exercise before the lockdown, and weighed less. The current results imply that active people have a regular set of behaviors, and even when facing the restrictions placed by a lockdown they do not change their healthy habits. Nevertheless, a recent publication from Israel concerning PA and healthy behavior during the COVID-19 pandemic found that."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 186,
+                    "ref_id": "BIBREF18",
+                    "start": 182,
+                    "text": "[19]"
+                },
+                {
+                    "end": 331,
+                    "ref_id": "BIBREF15",
+                    "start": 327,
+                    "text": "[16]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "65.7% of those who reported being regularly active before the pandemic, reduced their level of PA. Among them, 59% reported not returning to their usual PA after the second lockdown [19] . As for weight changes, our results goes along this report, meaning that active people gained less weight. Along this line, Werneck et al. [16] found that active participants specifically demonstrated a higher frequency of vegetable or fruit consumption, and less frequency of ultra-processed food consumption."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "These two factors -weight control and PA together, probably contributed to positive psychological functioning: a high level of resilience, a high level of positive emotions, and a low level of depression."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 514,
+                    "ref_id": "BIBREF17",
+                    "start": 510,
+                    "text": "[18,"
+                },
+                {
+                    "end": 518,
+                    "ref_id": "BIBREF18",
+                    "start": 515,
+                    "text": "19]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion",
+            "text": "Some limitations should be addressed. Firstly, the current sample is not representative of the Israeli population, due to the \"snowball\" sampling strategy. The selection bias is also evident with the high percentage (56%) of those reporting to be physically active (yes/yes). Since the authors are from a sports college, it is probable that the questionnaire arrived to morebut not exclusivelyphysically active people. Still, another Israeli study with a representative sample of the adult population aged 21+ [18, 19] reported on similar rates of PA engagement. Secondly, it is a cross-sectional survey and therefore causal associations cannot be addressed. Thirdly, we should consider the meaning of over representation of female respondents on the study variables and the study implications. Lastly, the range of ages was centered mainly on two age groups; other age groups are not well represented."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions",
+            "text": "Continuous PA before and during the COVID-19 lockdown was associated with higher resilience and positive emotions, and low depressive symptoms. It should be noted that continuous PA before the lockdown might be interpreted that participants continued their habits only until the lockdown, while the study findings point to the unique combination of before and during (yes/yes)."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 1453,
+                    "ref_id": "BIBREF7",
+                    "start": 1450,
+                    "text": "[8]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions",
+            "text": "These results have several implications: The first lockdown during the COVID-19 pandemic period was an opportunity to assess the mental importance of exercising during a crisis. After the first lockdown additional lockdowns were imposed, and the economic crisis following COVID-19 is expected to remain, even in the period after the epidemic is eradicated. In light of the results of the present study, encouraging physical activity may contribute to improving mental health and a sense of self-efficacy, as well as contributing to maintaining weight during a crisis. Although a causal association cannot be established, we recommend that strategies be developed to enhance free PA in any future disasters/emergencies/catastrophic times. Some possible techniques are: using available free facilities in the public space (urban parks, gym equipment in outdoor public areas, etc.) and the private space (via the Internet). During lockdowns people should be allowed to carry out exercise in open space. Some of these conclusions were implemented in the second lockdown, in which people were allowed to exercise in open space. Organizations, systems and institutions such as the Ministry of Health, the health system, and the education system, together with employees, teachers and educators, should not only share these messages but also organize demonstrations of a variety of exercises for the population via the mass and social media. We join Neiman [8] , who stated that the COVID-19 pandemic is a wake-up calla tocsinto the world, in his conviction that primary prevention focused on health behaviors, including PA and weight control, is crucial."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Sima",
+                "last": "Zach",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Javier",
+                "last": "Fernandez-Rio",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Aviva",
+                "last": "Zeev",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Miki",
+                "last": "Ophir",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Sigal",
+                "last": "Eilat-Adar",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Physical activity, resilience, emotions, moods, and weight control, during the COVID-19 global crisis"
+    },
+    "paper_id": "27db7a2247949e02c841b62338c9071be7ab62c1",
     "ref_entries": {
         "FIGREF0": {
-            "text": "(a) (\u2212 10)-(\u2212 2) [11%], (b) (\u2212 2)-(\u2212 0.5) [29.4%], (c) No change -(\u2212 0.5)-(0.5) [41.8%], (d) 0.5-2 [12.5%], and (e) 2-10 [5.",
             "latex": null,
+            "text": "(a) (\u2212 10)-(\u2212 2) [11%], (b) (\u2212 2)-(\u2212 0.5) [29.4%], (c) No change -(\u2212 0.5)-(0.5) [41.8%], (d) 0.5-2 [12.5%], and (e) 2-10 [5.",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "Doing physical activity before/during the lockdown (N = 1855)",
             "latex": null,
+            "text": "Doing physical activity before/during the lockdown (N = 1855)",
             "type": "table"
         },
         "TABREF1": {
-            "text": "",
             "latex": null,
+            "text": "",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "The author(s) read and approved the final manuscript.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Authors' contributions"
-        },
-        {
-            "text": "Prof. Zach is the former Head of the School of Education at the Academic College at Wingate, Israel. She is currently the director of the Lab of Research on Teaching and Teacher Education in Physical Education. Her research interests are in sport psychology, physical education psychology, sport pedagogy, and psychology of leisure-time physical activity. Javier Fernandez-Rio javier.rio@uniovi.es is an full Professor in the Faculty of Teacher Training and Education at the University of Oviedo, Spain. He is also a member of EDAFIDES research group. His areas of research include education, physical activity, sport and health. He has published over 100 peer-reviewed articles and participated in over 10 funded research projects. Aviva Zeev Aviva Zeev avivaz@wincol.ac.il, studied mathematics (B.Sc.) and statistics (M.Sc.) at Tel Aviv University in Israel. She has served as a statistical advisor for research since 1975. Since 1991 she has been a member of the staff of The Academic College at Wingate, serving as Head of the Data Processing Unit in the Research Department. She has taken part in research on the topics of physical activity, education, health, and physical activity.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Authors' information"
-        },
-        {
-            "text": "Miki Ophir ophir-m@013.net is the head of Regev Program, The Excellence Program of Ministry Education, at The Academic College at Wingate Institute, Israel. She is also the Pedagogical Coordinator of the Physical Education Department, at the Academic College of Education at Givat Washington, Israel. Dr. Sigal Eilat-Adar sigaleilat70@gmail.com is a registered nutritionist and an epidemiologist. She did her postdoctoral project on the epidemiology of the association between the diet of American Indians and Native Alaskans and cardiovascular disease (CVD). Since then, her expertise has been the evaluation of nutritional public health and she is passionate about improving health and well-being. She is the Head of the Second Degree Program in Healthy and Active Lifestyle Education at The Academic College at Wingate, Wingate Institute, Israel.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Miki Ophir"
-        },
-        {
-            "text": "The authors have no conflicts of interest that are directly relevant to the content of this paper, which remains their sole responsibility. ",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Competing interests"
-        }
-    ]
+    }
 }

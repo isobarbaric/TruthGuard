@@ -1,751 +1,751 @@
 {
-    "paper_id": "27c407986e8c1034b3c7022a3df5e41eb49d3751",
-    "metadata": {
-        "title": "Public pension shortfalls and state economic growth: a preliminary examination",
-        "authors": [
-            {
-                "first": "Charles",
-                "middle": [],
-                "last": "Steindel",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "National Association for Business Economics",
-                    "institution": "",
-                    "location": {
-                        "postCode": "2020"
-                    }
-                },
-                "email": ""
-            }
-        ]
-    },
     "abstract": [
         {
-            "text": "Public pension funding problems may contribute to a state's poor economic performance. This paper examines that proposition, using state-level data on public pensions developed by the Pew Trust, and jointly by the Federal Reserve Board and the Bureau of Economic Analysis. There is little evidence that measures of the level of unfunded pension plan liabilities lead directly to a state's soft economic performance, though growth in unfunded liabilities appear to be associated with lower growth. While these results suggest that reductions in the growth of a state's pension debt may be beneficial, they arguably do not imply that dramatic action to reduce liabilities is necessarily called for. In that regard, the implications are comparable to those of Lenney et al. (2019) , that suggest that reasonable goals for some presumed highly troubled systems are stabilization of the ratio of their unfunded liabilities to their state's nominal GDP, rather than outright elimination of the debt.",
             "cite_spans": [
                 {
-                    "start": 757,
                     "end": 777,
-                    "text": "Lenney et al. (2019)",
-                    "ref_id": "BIBREF3"
+                    "ref_id": "BIBREF3",
+                    "start": 757,
+                    "text": "Lenney et al. (2019)"
                 }
             ],
             "ref_spans": [],
-            "section": "Abstract"
+            "section": "Abstract",
+            "text": "Public pension funding problems may contribute to a state's poor economic performance. This paper examines that proposition, using state-level data on public pensions developed by the Pew Trust, and jointly by the Federal Reserve Board and the Bureau of Economic Analysis. There is little evidence that measures of the level of unfunded pension plan liabilities lead directly to a state's soft economic performance, though growth in unfunded liabilities appear to be associated with lower growth. While these results suggest that reductions in the growth of a state's pension debt may be beneficial, they arguably do not imply that dramatic action to reduce liabilities is necessarily called for. In that regard, the implications are comparable to those of Lenney et al. (2019) , that suggest that reasonable goals for some presumed highly troubled systems are stabilization of the ratio of their unfunded liabilities to their state's nominal GDP, rather than outright elimination of the debt."
         }
     ],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "Public sector pension systems began to experience serious funding problems early this century. The sharp decline in the stock market connected to the end of the Internet bubble resulted in marked losses for many funds. This came at a time when the retirement of the large baby-boomer generation of workers was starting and payments of benefits began to ramp up. The 2007-2009 financial crisis and recession led to another round of losses to funds. Since then, large market gains, increased government contributions and, in some cases, restrictions on benefits offered to current workers, as well as boosts to employee contributions, led (through the end of 2019) to a rebound in fund balances. Still, there are widespread concerns over the capability of state and local governments to pay the pension benefits pledged to current workers and retirees, and there is much discussion and analysis of potential reforms.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": ""
+            "section": "acknowledgement",
+            "text": "Acknowledgements Thanks to the attendees at the NYU-NY Fed Fiscal Breakfast Meeting, the NABE-AUBER Economic Policy Conference, and the Eastern Economic Association meeting, and to Andy Haughwout, Jason Hecht, and Michelle Roche for helpful comments, as well as to David Draine of the Pew Charitable Trust for clarification of a data issue. All conclusions are my own."
         },
         {
-            "text": "While pension concerns are continually on the minds of officials responsible for public finances, investors in municipal securities, and rating agencies, the potential for broad economic spillovers from these problems has been relatively unexamined. Given the fairly long period in which pension problems have been viewed to be consequential, and the disparate conditions of funds across the nation, it is reasonable to think that one might find evidence that pension woes will contribute to economic softness: other things equal, areas with more intense pension problems might be expected to have had poorer performance. This paper examines that proposition, using state-level datasets on public pensions developed by the Pew Trust and jointly by the Federal Reserve Board and the Bureau of Economic Analysis (FRB-BEA). The analysis finds that there is, at most, limited evidence that the typical metric used to gauge pension problems-the gap between fund assets and vested benefits, usually referred to as the \"unfunded liability,\" scaled by a state's nominal GDP-foreshadows lagging aggregate economic performance in a state. However, growth in the ratio of pension debt to GDP in a state may be linked to reduced economic growth. The results that the absolute size of such debt may not, by itself, weigh on the growth of a state's economy, but that increases in that debt may impinge growth, suggest that curbing the growth of, or reducing, pension liabilities would be desirable. However, these results do not provide clear guidance as to what the optimal long-run size of pension debt might be. In that regard, the implications are comparable to those of Lenney et al. (2019) , who suggest that reasonable goals for some presumed highly troubled systems are stabilization of the ratio of their unfunded liabilities to their state's nominal GDP, rather than the outright elimination of the unfunded liabilities.",
-            "cite_spans": [
-                {
-                    "start": 1661,
-                    "end": 1681,
-                    "text": "Lenney et al. (2019)",
-                    "ref_id": "BIBREF3"
-                }
-            ],
-            "ref_spans": [],
-            "section": ""
-        },
-        {
-            "text": "The next section points out potential connections between pension problems and an area's economy. This is followed by a discussion of possible policies to be pursued to address the problems, and their implications, at the national level, for state and local spending. It is then followed by the statistical analysis relating pension fund shortfalls to a state's economic performance, and the conclusion.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": ""
-        },
-        {
-            "text": "Why should public pension problems impinge on a state's economy? There are a number of possible channels:",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Pension problems and a state's economy"
-        },
-        {
-            "text": "1. It is reasonable to think-though it is a matter that could be subject to various sorts of legal challenges, as well as negotiation-that public employers are obliged to pay benefits to current retirees, and vested benefits to current employees, even if a pension fund's assets are depleted. Unlike the federal government (which always has the option of financing its growing social security and other entitlement obligations through debt issuance, including expansion of the monetary base), states, and local government sponsors of pension plans, would typically need to replenish pension plan funds through some combina-tion of tax increases and reductions in spending, and, potentially, sales of government assets. These actions could increase the cost of doing business, as well as reduce aggregate demand, and thereby depress economic activity. Resources being diverted to augment pension plan funds do not boost either government transfer payments to persons, or spending on goods and services, so there would be no offsetting increase in demand. 2. Even if no actions are taken to address pension problems in the short-term, the perception that in the future a government may be forced to make major fiscal adjustments to pay benefits could discourage business activity, and might also depress property values. Conceivably, such a perception could also make the hiring of public employees more difficult, since there could be fears that current levels of promised pension benefits will not be sustained. 3. Pension problems are often associated with downgrades of the ratings on public debt. While a downgrade does not typically affect the cost of servicing existing debt, and the subsequent higher rates on new issues may not materially affect outlays, the perception of negative assessments of an area might weigh on business location and expansion plans.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Pension problems and a state's economy"
-        },
-        {
-            "text": "These channels suggest the possibility that pension problems are associated with poorer growth: the economic tires may be leaking air. The bigger the leak, the slower the car Table 7 .24. Assets are total financial assets less claims of plans on sponsors. can move down the road. The next section describes data on pension funding conditions.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 175,
-                    "end": 182,
-                    "text": "Table 7",
-                    "ref_id": null
-                }
-            ],
-            "section": "Pension problems and a state's economy"
-        },
-        {
-            "text": "There are literally thousands of public sector pension plans in the United States. With the rise in attention to their status, there has been a remarkable increase in the availability of plan data. The Retirement Center of Boston University maintains a comprehensive database with many statistics from 190 plans (https ://crr.bc.edu/data/publi c-plans -datab ase/). The Pew Charitable Trust has estimates of aggregate plan data at the state level (https ://www.pewtr usts.org/en/ proje cts/publi c-secto r-retir ement -syste ms). The Federal Reserve Board, working from data developed by BEA to better estimate personal income, also has state-level data (Hoops et al. 2016 and https ://www.feder alres erve.gov/relea ses/z1/datav iz/pensi on/; Boyd 2019, and Lenze 2019 discuss BEA's state-level estimates). Of course, the Census Bureau's annual survey of pensions (https ://www.censu s.gov/progr ams-surve ys/aspp.html) has some of the key state-level numbers on pension plans. Figure 1 shows the aggregate numbers on the assets of state and local defined-benefit pension plans, their benefit payments, and the contributions from employer (government) sponsors. The drop in asset values after the bursting of the Internet bubble, the even sharper decline in 2007-2009 (nearly $1 trillion from 2007:Q4 to 2009:Q1, according to the quarterly data contained in the Financial Accounts), and the rebound since are clearly visible. By the end of 2018, pension funds had assets of around $4 trillion-about 75% higher than the value of holdings at the end of 2000 (the Financial Accounts report further substantial gains in 2019). Benefit payments, though, more than tripled in this period, reflecting the wave of retirements of baby-boomer workers. With benefits rising so rapidly, and asset growth held down by the negative shocks to market values, government sponsors have ramped up contributions, from a bit less than $40 billion in fiscal year 2000 to over $165 billion in 2018. 1 The general view is that, in most instances, current levels of pension fund assets are inadequate by themselves to pay for current pensions and the benefits earned by, but not yet being paid to, current workers. The size of pension problems is usually gauged by comparing assets to a liability measure computed by estimating the present value of accrued future pension benefits. What can be deemed \"pension debt\" is the difference between liabilities and assets.",
-            "cite_spans": [
-                {
-                    "start": 654,
-                    "end": 672,
-                    "text": "(Hoops et al. 2016",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 1977,
-                    "end": 1978,
-                    "text": "1",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 979,
-                    "end": 987,
-                    "text": "Figure 1",
-                    "ref_id": "FIGREF1"
-                }
-            ],
-            "section": "Data on pension conditions"
-        },
-        {
-            "text": "There are long-standing disputes about how to measure pension liabilities. A traditional method has been to compute the present value of accrued future benefits by discounting them at the rate of return assumed to be earned on pension fund investments. This technique has often been criticized. Aside from concerns that assumed rates of return may be unreasonably high. 2 It is argued that future pension benefit payments are essentially certain, and so a low certain rate should be used in estimating their present value (Novy-Marx and Rauh 2009; Brown and Wilcox 2009) . Using a lower rate of discount will boost the value of liabilities, and thus boost estimates of the debt of plans. 3 The Pew Trust data show liabilities computed using projected asset rates of return as the discount factor. These are numbers that have been traditionally issued by plans and discussed (the Trust, in its publications, notes the concerns about using this method). 4 The Federal Reserve Board and the Bureau of Economic Analysis (FRB-BEA) discount future benefits using a common, lower, rate for all systems (the rate has varied over time; it is currently 4%). The Pew data also come from a smaller number of funds. Thus, for both reasons, the FRB-BEA numbers show substantially higher aggregate net pension liabilities. 5 The FRB-BEA state-level series also start and end a bit earlier than Pew's. 1 Employee contributions have grown much less rapidly-from $25.7 billion in 2000 to $58.7 billion in 2018. 2 There is also the issue that even if a high average rate of return is plausible, realized rates can vary substantially from year to year. Taking account of the distribution of returns can readily result in scenarios in which periods of losses risk fund insolvency (Yin and Boyd 2018) . 3 The Government Accounting Standard Board (GASB) requires plans to compute the present value of liabilities using a third method. According to paragraph 26 of GASB Statement 68 (https ://www. gasb.org/jsp/GASB/Docum ent_C/Docum entPa ge?cid=11761 60220 621&accep tedDi sclai mer=true), \"The discount rate should be the single rate that reflects the following:",
-            "cite_spans": [
-                {
-                    "start": 522,
-                    "end": 547,
-                    "text": "(Novy-Marx and Rauh 2009;",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 548,
-                    "end": 570,
-                    "text": "Brown and Wilcox 2009)",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 688,
-                    "end": 689,
-                    "text": "3",
-                    "ref_id": null
-                },
-                {
-                    "start": 1493,
-                    "end": 1494,
-                    "text": "2",
-                    "ref_id": null
-                },
-                {
-                    "start": 1759,
-                    "end": 1778,
-                    "text": "(Yin and Boyd 2018)",
-                    "ref_id": "BIBREF7"
-                },
-                {
-                    "start": 1781,
-                    "end": 1782,
-                    "text": "3",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "Data on pension conditions"
-        },
-        {
-            "text": "a. The long-term expected rate of return on pension plan investments that are expected to be used to finance the payment of benefits, to the extent that (1) the pension plan's fiduciary net position is pro-jected\u2026 to be sufficient to make projected benefit payments\u2026 pension plan assets are expected to be invested using a strategy to achieve that return. b. A yield or index rate for 20-year, tax-exempt general obligation municipal bonds with an average rating of AA/Aa or higher (or equivalent quality on another rating scale), to the extent that the conditions in (a) are not met.\". 4 Despite all the criticisms of this method, it is the way actuaries compute the size of employer contributions needed to ensure both the amortization of a plan's unfunded liability and the full funding of the accrual of expected benefits to current workers (this is the \"ARC\"actuarially required contribution-or \"ADC\"-actuarially defined contribution). The use of the expected asset rate of return in this calculation remains controversial. 5 Pew reports pension assets at their \"actuarial value.\" Many plans report this as a smoothed average of market values. The FRB-BEA measures of assets are reported at market value. Also, the Pew data are for the end of fiscal years; the FRB-BEA numbers are for the end of calendar years. Figure 2 plots the two national pension debt aggregates, shown as shares of nominal GDP. Although, as noted, the FRB-BEA series is notably larger than Pew's, the two are reasonably correlated (for the years 2003-2017, when they overlap, the correlation of their levels is 0.932 and the correlation of their annual growth rates is 0.296). The data on the aggregate value of outstanding explicit state and local liabilities (from the Financial Accounts) are also plotted. The Pew pension debt figure is smaller than aggregate explicit liabilities, but the FRB-BEA measure is comparable in size. In both instances, acknowledging pension debt would greatly augment state and local liabilities. 6 In the early years of both datasets, several states recorded negative pension debt: their liabilities were computed to have been less than their assets. Some states in recent years continue to show quite low levels of pension debt. On the flip side, the FRB-BEA data show that Illinois has always had, far and away, the highest level of pension debt relative to state GDP; Pew numbers show New Jersey has in recent years typically been in the top spot. The difference in rankings reflects not only the technicalities of recomputing the present value of pension liabilities by the lower interest rate used by the FRB-BEA, but most likely also to the FRB-BEA's inclusion of more plans. 7 This paper's empirical analysis will use the ratio of pension debt to state GDP as the burden measure. Annual state real GDP growth as reported by BEA will be the primary measure of state economic activity, though results will also be reported using payroll employment growth. The hypothesis is that, other things equal, states with higher pension debt burdens experienced lower real growth. Before looking at the statistical evidence, the budgetary implications of a number of approaches to cap or eliminate pension debt will be discussed.",
-            "cite_spans": [
-                {
-                    "start": 2007,
-                    "end": 2008,
-                    "text": "6",
-                    "ref_id": null
-                },
-                {
-                    "start": 2693,
-                    "end": 2694,
-                    "text": "7",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 1317,
-                    "end": 1325,
-                    "text": "Figure 2",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Data on pension conditions"
-        },
-        {
-            "text": "The standard recommendation seems to be that policy aimed at ameliorating pension problems would (or should) involve putting pension debt on the road to elimination, through some combination of higher contributions and, possibly, reduced benefits. Such actions could involve considerable costs. An alternative might be holding flat the nominal value of pension debt or stabilizing the ratio of pension debt to GDP. Table 1 examines the implications for the aggregate national amount of government employer contributions of these policies, using data from fiscal year 2018. The first is boosting contributions to a rate that would start to amortize Recognition of \"Other Post-Employment Benefits\" (OPED), mainly retiree medical benefits, would swell the liability numbers even further. However, estimates of the present value of OPED is even more problematic than that of pension benefits, since it is so dependent on estimates of future medical costs and take-up, and governments may have more legal flexibility in determining future access and the share of costs to be paid by beneficiaries than they do to change accrued pension benefits. that debt. At the start of the year (mid-2017), aggregate state and local pension debt, according to the FRB-BEA estimate, totaled $4.152 trillion. 8 A first-year payment to amortize that debt over 30 years, assuming a 4% discount rate (the rate that was used to compute the value of the debt) and a 3% annual increase in payments, would have been $158 billion. During that fiscal year, state and local defined-benefit plans expended approximately $335 billion in benefits, withdrawals, and administrative costs. 9 The Financial Accounts report that the present value of all pension liabilities owed to current and retired workers rose $280 billion over the course of that fiscal year. 10 Current workers made roughly $58 billion in cash contributions to the plans in fiscal year 2018. If these figures were known at the start of the fiscal year, and plan sponsors anticipated earning investment income (including capital gains) of $280 billion (just about equal to a 7% return on the $4.031 trillion value of assets at that time), a total of $455 billion in government employer contributions would have been needed to meet all current needs and start amortizing the debt. Actual cash contributions by state and local governments to their defined-benefit pension plans were about $169 billion in fiscal year 2018, which was a little more than one-third the amount required. 11 The $286 billion difference between this estimated contribution and the actual one was more than 1% of national GDP. A sudden diversion of public resources on that scale-involving tax increases and/or cuts in other spending-to augmenting a type of outlay with, plausibly a zero marginal propensity to consume, 12 would surely have marked negative economic effects. If a 4% return was assumed for assets, the gap between target and actual contributions was an even larger $406 billion, which is more than one-third the aggregate wage bill of state and local general government employers. Policy 2 is holding the nominal value of pension debt flat. In that case, the required employer contribution in fiscal 2018 was $297 billion, leaving a substantial gap of $128 billion from actual contributions. 13 If a 4% rate of return on 12 Zero, since increased funding of pension plans does not involve higher benefit payments. It may be arguable that a program that shores up the finances of plans creates greater certainty in the minds of current workers about the security of their pensions, and might therefore reduce precautionary saving. On the other hand, retired workers often do not live in the states from which they are receiving pensions, so any increase in their spending would be highly unlikely to boost demand in the locality from which the pension payments are made. 13 The Pew Trust (2019) reports that actual employer contributions in fiscal 2018 were $25 billion less than what would have been needed to keep the value of pension debt flat. Since the Pew aggregate accounts for about half of all pension assets, it would seem that the estimate shown here of a $128 billion gap could be a bit high. However, it is possible that Pew, using the figures reported by the plans, factored in a higher rate of return on assets than 7%. Also, since Pew be a substantial fraction of the estimated amortization amount (New Jersey plans are an example of that; aggregate employer contributions, including local employers as well as the state, are well over half that needed amount). However, these reports are based on computing the present value of future benefits-including the \"normal cost,\" which is the present value of benefits accruing to current employees over the course of a year-using discount rates often substantially higher than 4%.",
-            "cite_spans": [
-                {
-                    "start": 1654,
-                    "end": 1655,
-                    "text": "9",
-                    "ref_id": null
-                },
-                {
-                    "start": 3893,
-                    "end": 3895,
-                    "text": "13",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 415,
-                    "end": 422,
-                    "text": "Table 1",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Budgetary implications of curbing pension debt"
-        },
-        {
-            "text": "Footnote 11 (continued) assets was assumed, there was a $248 billion gap in contributions. Policy 3 involves holding the ratio of pension debt to GDP constant. Assuming a trend in nominal GDP of 3 \u00bd%-possibly a low, but not implausible figure 14that would mean pension debt could have been projected to increase as much as $145 billion in fiscal 2018 and still not rise as a share of GDP-and employers were contributing more than was necessary to achieve that goal. 15 If a 4% rate of return was assumed on assets, though, there would have been a $103 billion gap between actual contributions and the amount anticipated to keep the pension debt/GDP ratio flat. The upshot is that holding flat the nominal value of pension debt would imply substantive fiscal contractions at the state and local level (recall that these estimates are for the nation as a whole; in some states the changes, as a proportion of state GDP, would be much larger), while the adjustment would be very much larger if the aim is immediately moving to amortize the debt. Holding the ratio of debt to nominal GDP constant might involve little or no change in contribution levels (or their ongoing trends, considering the recent brisk growth of contributions). Indeed, Fig. 2 suggests that the aggregate ratio of pension debt to GDP has been little-changed in recent years, though obviously the unusually strong performance of financial markets made a major contribution to this outcome.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 1239,
-                    "end": 1245,
-                    "text": "Fig. 2",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Budgetary implications of curbing pension debt"
-        },
-        {
-            "text": "It is possible that this stability could continue. Lenney et al. (2019) note that only fairly modest changes in contribution policy (defined as the ratio of employer contributions to wages) would be needed to achieve stabilization of the debt-to-state-GDP ratio of numbers of large public plans that are ordinarily viewed as troubled. They note that many of the forces driving the rapid growth in benefit payments will be easing as the surge in retirement of the baby-boomer generation ceases. Their Fig. 2 shows that the ratio of aggregate state and local pension benefits paid to GDP is on a trajectory to peak in the early 2030s at a level not greatly above the current one.",
-            "cite_spans": [
-                {
-                    "start": 51,
-                    "end": 71,
-                    "text": "Lenney et al. (2019)",
-                    "ref_id": "BIBREF3"
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 500,
-                    "end": 506,
-                    "text": "Fig. 2",
-                    "ref_id": "FIGREF2"
-                }
-            ],
-            "section": "Budgetary implications of curbing pension debt"
-        },
-        {
-            "text": "Lenney et al. point out that a goal of stability in the pension debt/GDP ratio, not outright retirement of the debt, is in line with standard public finance analysis. Stabilization of debt/GDP ratios typically imply that the ratio of debt service to output will also stabilize, which means there will be no further need to boost tax rates or cut spending trajectories in order to service the debt. In the case of pensions, the servicing cost is government employer contributions. The implication of a policy aimed at stabilizing the ratio of pension debt to GDP in an environment in which, in the not too distant future, the growth of benefits will likely slow relative to GDP is that the growth rate of employer contributions will ease, though their dollar amount will continue to grow. Amortization promises that at some point in the distant future contributions will fall back to the level needed to cover the \"normal cost\" of pensions (the present value of the benefits accrued annually to current workers), but there will be large increases, threatening to crowd out other spending or boost taxes, before that period begins. The empirical analysis will examine whether the evidence of weakness in a state's economy stemming from pension debt is sufficiently strong enough to suggest that a remedy like amortization appears to be necessary.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Budgetary implications of curbing pension debt"
-        },
-        {
-            "text": "Both the Pew and the FRB-BEA pension debt datasets will be used to estimate the effect of pension debt on state economic growth. Both have virtues and limitations in being used for this. Pew has the advantage of being limited to plans overseen at the state level; the consequences of the problems of such plans should be immediately evident to state government finance and policy. The problems of a plan oveseen by a local government could, conceivably, be left unaddressed by a state. Moreover, even if local pension problems impinge on the locality's economy, other areas of the state may gain activity from the troubled area, leaving the state's economy as a whole unaffected. Using the FRB-BEA data implicitly assumes that a state bears some responsibility for the financial commitments of its subordinate jurisdictions, and that pension debt-related economic problems in a locality could hurt the state as a whole. Moreover, the consistent rate of return assumption used to construct the FRB-BEA measures is advantageous in comparing problems across states.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "The two data sets start after the 2001 recession, and so include two business cycle expansions as well as the 2008-2009 recession. 16 Both show a wide range of state Footnote 13 (continued) is using the plans' own estimates, as the discussion in note 12 points out, the \"normal cost\" portion of the increase in pension liability (the present value of future benefits vested by an addition year of service of current workers) will be much lower than that for the same group of workers in the FRB-BEA data, since the discount rates used in such calculations would generally be higher than the 4% used by FRB-BEA. 14 Assuming 2% growth in real potential output and 1 \u00bd% growth in the GDP price index (the GDP price index tends to grow at a slower rate than the consumer inflation measures of interest to the Federal Reserve). 15 The change reported in aggregate pension debt in the Financial Accounts, both pre-and post-revision, was smaller than the $152 billion gap assumed in the example (indeed, the revised figure shows a small decline), due to actual investment returns in Fiscal Year 2018 exceeding the assumed 7%. pension debt relative to output. It is not unreasonable to think that if state pension debts are associated with economic weakness, econometric analysis should uncover it. Figure 3 shows for the two measures the scatter of average state real GDP growth against the average ratios of pension debt to nominal GDP. The pension debt averages are computed for periods one year earlier than the GDP growth averages. 17 The regression lines summarizing the relationships are also plotted. Table 2 reports the estimates of the regression lines plotted in Fig. 3 . The coefficients on the ratio of pension debt to GDP are negative, and by the usual standards, can be regarded as statistically significantly different from zero.",
-            "cite_spans": [
-                {
-                    "start": 131,
-                    "end": 133,
-                    "text": "16",
-                    "ref_id": null
-                },
-                {
-                    "start": 823,
-                    "end": 825,
-                    "text": "15",
-                    "ref_id": null
-                },
-                {
-                    "start": 1529,
-                    "end": 1531,
-                    "text": "17",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 1291,
-                    "end": 1299,
-                    "text": "Figure 3",
-                    "ref_id": "FIGREF3"
-                },
-                {
-                    "start": 1601,
-                    "end": 1608,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 1666,
-                    "end": 1672,
-                    "text": "Fig. 3",
-                    "ref_id": "FIGREF3"
-                }
-            ],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "The Pew data, based on the results shown in column 1 of Table 2 , suggest that a state with its ratio of pension debt to GDP averaging roughly 5 percentage points higher than another would have been expected to have seen 0.5 percentage points lower average real GDP growth. The FRB-BEA data, based on the results shown in column 2, suggest that a state with its ratio of pension debt to GDP averaging 13 points higher than another would have been expected to have seen 0.5 percentage point lower average real GDP growth. However, a glance at the scatter plots indicates that there are clearly many other factors affecting one state's performance relative to another. For instance, North Dakota's remarkable growth would be reasonably credited to the surge in shale oil production, rather than to the state's handling of its public pensions. Wisconsin's low levels of pension debt have not been reflected in unusually high output growth, and, perhaps most remarkably, Illinois' real growth has been substantially higher than the figure predicted by the FRB-BEA's astonishingly high estimate of the state's pension debt. When the column 2 regression is re-estimated without the large outliers of North Dakota and Illinois, the coefficient on the pension debt/GDP term is slightly smaller in magnitude (\u2212 0.033 vs \u2212 0.037) and its standard error increases to 0.0178, which implies that it would not be regarded as statistically significant from zero. 17 Slow growth in a state's real GDP will likely also be reflected in slow growth in the state's nominal GDP, which will tend to boost its pension debt/GDP ratio. Lagging the pension debt/GDP ratios lessens the possibility of deeming this correlation a causal linkage from pension debt to real growth. Additionally, a lag is plausible to allow agents to make better estimates of the size of pension debt. some rationale for this surge, the starting year for analysis should be 2002.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 56,
-                    "end": 63,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                }
-            ],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "Footnote 16 (continued)",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "The regression models of Table 3 , looking at annual, not average, real growth, show the effect of controlling for factors affecting a state's growth other than these measures of pension debt. Columns 1 and 3 begin by simply redoing the Table 2 regressions with the annual data. The coefficients and their statistical significance are comparable to their Table 2 counterparts. However, the introduction of some basic controls-state fixed effects and time dummieschanges the results substantially. In both cases-columns 2 and 4-the estimated coefficient on the pension variables shrinks in magnitude and its statistical significance falls below standard levels of acceptance as nonzero.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 25,
-                    "end": 32,
-                    "text": "Table 3",
-                    "ref_id": null
-                },
-                {
-                    "start": 237,
-                    "end": 244,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 355,
-                    "end": 362,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                }
-            ],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "While it appears that one can reject the hypothesis that there is a common negative effect of pension debt on a state's real GDP growth, it may be that there are examples of states where such effects can be unearthed. Accordingly, the regressions of columns 2 and 4 of Table 2 were reestimated with each state allowed to have its own pension effect. Figures 4 and 5 plot the estimated coefficients (these are semi-elasticities-the percentage change in a state's growth rate estimated to result from a 1-percentage point increase in the ratio of pension debt to nominal GDP in the prior year), along with the absolute values of the computed t-statistics. Alaska and Wyoming are the only states in which there is evidence of statistically significant negative coefficients. Alaska and Wyoming have been troubled by shifts in the demand for the fossil fuels they produce, just as North Dakota has benefitted by the advances in oil fracking technology. These changes would not be accounted for by state effects fixed for the entire sample period or any macroeconomic effects captured in time dummy variables. In both Alaska and Wyoming it appears that, essentially for the lack of other controls, rising pension debt was linked with weaker growth, though one would reasonably infer that lackluster revenues stemming from that weaker growth was a major, chronic, contributor to the rise in pension debt.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 269,
-                    "end": 276,
-                    "text": "Table 2",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 350,
-                    "end": 365,
-                    "text": "Figures 4 and 5",
-                    "ref_id": "FIGREF5"
-                }
-            ],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "These results, by themselves, do not imply that pension problems do not burden a state's economy. One can argue Table 3 Pension debt and annual state real GDP growth (standard errors of coefficients in parentheses) *P value less than 5%; **P value less than 1%",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 112,
-                    "end": 119,
-                    "text": "Table 3",
-                    "ref_id": null
-                }
-            ],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "(1)",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "(2) (3) Semi-elas\u019fcity of real GDP growth with respect to one percentage point rise in pension debt/GDP ra\u019fo. Fig. 4 Effect of pension debt on state real GDP growth, Pew measure that the sample periods were too short to uncover the effects. More substantively, one would like to model the funding decisions of pension plans and how they interact with other factors affecting public finances and state growth. It is possible, though, that such an approach would not necessarily result in a simple connection between measures of pension debt and state growth. That would be in line with the results shown above, which suggest that conventional estimates of pension debt are not satisfactory summary measures of the relative aggregate economic importance of pension problems in one state compared to another. Indeed, it appears difficult to find instances of states in which the size of pension debt measures can be plausibly linked to poor performance, though the negative coefficients found across Tables 2 and 3 suggest there may be some connections of the hypothesized type. Table 4 repeats the Table 3 regressions using the growth in a state's payroll employment as the dependent variable. There is even less evidence that pension debt measures are associated with weakness in a state's growth, even, when using the Pew measure, no controls are included for fixed and aggregate effects.",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 110,
-                    "end": 116,
-                    "text": "Fig. 4",
-                    "ref_id": null
-                },
-                {
-                    "start": 997,
-                    "end": 1011,
-                    "text": "Tables 2 and 3",
-                    "ref_id": "TABREF1"
-                },
-                {
-                    "start": 1076,
-                    "end": 1103,
-                    "text": "Table 4 repeats the Table 3",
-                    "ref_id": "TABREF4"
-                }
-            ],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "While there seems to be little evidence that high levels of pension debt, relative to GDP, can be viewed as contributing to low growth in a state, increases in pension debt may be harmful. Table 5 augments the models of columns 2 and 4 of Tables 3 and 4 by adding another lag to the pension debt/GDP variables. The coefficients on the two pension debt terms are consistently effectively equal in magnitude, opposite in sign, and generally statistically significant. The coefficient on the first lag is negative, and that on the second lag is positive. The implication is that an increase in pension debt appears to weigh on a state's growth the following year. This finding suggests that a period of rising pension debt would be accompanied by harmful consequences, and reducing pension debt may boost growth. For example, Illinois' ratio of pension debt to its GDP rose (according to the FRB-BEA measure) an average of 2 percentage points a year from 2002 to 2016; according to the estimated coefficients Semi-elas\u019fcity of real GDP growth with respect to one percentage point rise in pension debt/GDP ra\u019fo. in column 3 of Table 5 that rise was associated with a reduction in the state's real GDP growth of about 0.7 percentage points a year from 2003 to 2017-this is close to equal to the difference in average growth between Illinois and Wisconsin (which saw essentially no change in the ratio of its pension debt to GDP) in this period. However, the burden on Illinois's growth in this period compared to its neighbor appears to be related to the growth of its pension debt, not to its starting with a noticeably higher level of pension debt than Wisconsin. 18 As the Illinois-Wisconsin comparison suggests, it is not necessarily the case that pension debt problems are merely proxies for a state's region. In the Midwest, for instance, Indiana is comparable to Wisconsin, with relatively little pension debt, while Ohio and Michigan have larger burdens (far less than Illinois; however, Michigan's GDP growth has been slower). Slow-growing New Jersey and Connecticut have large amounts of pension debt, but Delaware, another slow-growing Northeast state, has little. Massachusetts, whose growth has been fairly rapid compared to other Northeast states, has significant amounts of pension debt.",
-            "cite_spans": [
-                {
-                    "start": 1661,
-                    "end": 1663,
-                    "text": "18",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 189,
-                    "end": 196,
-                    "text": "Table 5",
-                    "ref_id": "TABREF5"
-                },
-                {
-                    "start": 1123,
-                    "end": 1130,
-                    "text": "Table 5",
-                    "ref_id": "TABREF5"
-                }
-            ],
-            "section": "Empirical analysis"
-        },
-        {
-            "text": "As noted, working to achieve outright reductions in pension debt would apparently necessitate marked fiscal consolidation, implying some combination of substantial tax increases and cuts in other types of public spending (and, at an extreme, cuts in benefits being paid to current retirees and accrued by current workers). Using the FRB-BEA data, Table 1 suggests that moving immediately to amortize pension debt would involve, in the aggregate, boosting employer contributions by an amount equal to more than 1% of GDP (assuming a 7% rate of return on assets; with a 4% rate assumption the needed shift would be about 2% of GDP). Even immediately stabilizing the nominal value of the debt would imply increasing contributions by approximately \u00bd to 1% of GDP (depending on the rate of return assumption). Such moves would likely have significant negative shortterm consequences. If the level of pension debt in a state is currently impinging its growth, it is possible such large moves will be worthwhile. The results shown in Tables 3  and 4 suggest that levels of state pension debt do not seem to be associated in any simple way with weak economic performance, but a state's growth does appear to be weaker in the aftermath of an expansion in the ratio of its pension debt to GDP. The implication is that current levels of pension debt may not be impinging growth, but that reductions in the ratio of pension debt to GDP could be beneficial-or at the least, in states that have seen rapid growth in pension debt, stabilization of that ratio could be desirable. It is arguable that the current levels of pension debt reflect a perfect storm that struck systems over the last generation: two major financial corrections occurring at a time when a tsunami of retirements was occurring, and with these events beginning to fade into the past the growth of pension debt will ebb. Even if rates of return move down, it is likely that only moderate boosts to contributions (slower than the average annual increases of 8% seen since 2012) will be Table 5 were re-estimated with each state having its own individual pension effect. For the model with the Pew data, only Alaska and Wyoming had the anticipated negative and statistically significant coefficient on the change in the pension debt/ GDP ratio. Using the FEB-BEA data, 34 states had coefficients negative and statistically significant at the 5% level (most also at the 1% level). In addition, the point estimates for the states were typically more negative than that indicated by column 3 of Table 5 . This suggests that the short-run impact on a state's GDP growth of a runup in pension debt may typically be larger than that suggested in column 3, but it is by no means uniform: for states with statistically significant impacts, the coefficients range from \u2212 .5 (Mississippi) to \u2212 1.9 (Indiana). sufficient to stabilize the ratio of pension debt to GDP at a level within a percentage point of the recently seen ones. 19 States that have experienced unusually slow growth in nominal GDP may have greater difficulties stabilizing pension debt. Seven states (Alaska, Wyoming, Louisiana, Connecticut, New Mexico, West Virginia, and Mississippi) saw nominal GDP grow at less than a 2 \u00bd% compound annual rate from 2010 to 2018, and so may be in this position. This rather benign conclusion rests in part on the assumption that the aggregate revenues of a state (including those of lower levels of government sponsoring pensions) will grow at the same rate as a state's GDP, meaning that the state can afford to boost contributions at about that rate or slightly higher for a spell. In some states that may not be a reasonable assumption without wrenching policy changes; in others there may be the issue of altering transfer mechanisms from state to local governments to ease the mechanics of making pension contributions. 20 Will striving to achieve marked reductions in pension debt be a worthwhile goal? The econometric evidence appears to suggest that reductions in that debt could lead to faster growth (at least in the immediate aftermath of the reduction). However, over the period examined there is not, for both pension data sets, any example of a state achieving a major reduction in the ratio of its pension debt to GDP, 21 which suggests that one should be wary of applying estimates made from samples from this period to predict the results of policies addressed at achieving major reductions.",
-            "cite_spans": [
-                {
-                    "start": 2974,
-                    "end": 2976,
-                    "text": "19",
-                    "ref_id": null
-                },
-                {
-                    "start": 3874,
-                    "end": 3876,
-                    "text": "20",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [
-                {
-                    "start": 347,
-                    "end": 354,
-                    "text": "Table 1",
-                    "ref_id": "TABREF0"
-                },
-                {
-                    "start": 1027,
-                    "end": 1042,
-                    "text": "Tables 3  and 4",
-                    "ref_id": "TABREF4"
-                },
-                {
-                    "start": 2041,
-                    "end": 2048,
-                    "text": "Table 5",
-                    "ref_id": "TABREF5"
-                },
-                {
-                    "start": 2546,
-                    "end": 2553,
-                    "text": "Table 5",
-                    "ref_id": "TABREF5"
-                }
-            ],
-            "section": "Conclusion: what does this mean for addressing pension concerns?"
-        },
-        {
-            "text": "These results also have bearing for businesses operating, or considering operating, in a state with reported high levels of pension debt. The buildup of the debt may have held growth down, and future growth in the debt may be a negative. Of course, efforts to curb or reduce accumulated debt through tax increases or cuts in public spending may offset any positive effect from shrinkage of pension debt. A key point, though, is that the mere existence of high levels of pension debt does not seem to be an independent factor that would by itself hold down future growth.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusion: what does this mean for addressing pension concerns?"
-        },
-        {
-            "text": "The sharp losses in asset values in early 2020 with the onset of the COVID-19 pandemic raised concerns about renewed runups in public pension debt, although the pronounced market rebound in the spring should have alleviated much of the initial blow to pension fund assets (this is being written in June 2020; naturally markets could have fluctuated greatly since then). These fears would be augmented by the stress the associated economic downturn and added prevention-related expenses has created for state and local budgets, and thus for the governments' ability to maintain employer contributions to pension funds. The pandemic's impact has not been uniform, and as a result the near-term path of pension debt could vary among the states. These differences in pension debt growth may differentially impact state growth in the near term. However, the analysis of this paper suggests that any runups in pension debt, assuming they are short-lived, will not, by themselves, affect a state's longer-run outlook. 19 This is assuming a 4% rate of return, that aggregate liabilities will grow at a 3.5% rate, benefits and other expenses increase at a 3.8% pace, employee contributions grow at a 3.5% rate, and employer contributions grow 6.5% a year. 20 There are multiple situations of both types. For instance, consider states without personal income taxes. Property and sales tax revenues could well grow at markedly different rates than a state's nominal GDP, especially on a year-to-year basis. New Hampshire, with neither income nor sales taxes, would be expected to have state revenue growth that could well be at odds with state GDP. Other states can have technical problems sustaining funding which have nothing to do with the local economy or even the tax structure, due to peculiarities of the dedication of revenues. For instance, New Jersey's income tax revenue cannot, under the state's constitution, be used to fund state-level functions, such as contributions to state employee pension funds. Another complication is that a state with sustained rapid growth in per capita income-which would likely be associated with rapid growth in overall GDP-could ultimately receive less federal aid, putting more burdens on its own revenues to fund public services. All in all, though, the assumption that the aggregate revenue of a state will grow at roughly the same pace as its nominal GDP looks reasonable in most instances (Alaska might be an exception; general revenue from its own sources in recent years has badly trailed its nominal GDP growth and is only half its late 1990s peak.). 21 The largest reduction was Oklahoma's, in the Pew dataset: a total of 2.9 percentage points-.2 percentage points a year-from 2003 to 2017.",
-            "cite_spans": [
-                {
-                    "start": 1011,
-                    "end": 1013,
-                    "text": "19",
-                    "ref_id": null
-                },
-                {
-                    "start": 2593,
-                    "end": 2595,
-                    "text": "21",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "Conclusion: what does this mean for addressing pension concerns?"
+            "section": "annex",
+            "text": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. "
         }
     ],
     "bib_entries": {
         "BIBREF0": {
-            "ref_id": "b0",
-            "title": "The Bureau of Economic Analysis's State-level Public Pension Estimates. Presented at the BEA Advisory Group Meeting",
             "authors": [
                 {
                     "first": "Don",
-                    "middle": [],
                     "last": "Boyd",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2019,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b0",
+            "title": "The Bureau of Economic Analysis's State-level Public Pension Estimates. Presented at the BEA Advisory Group Meeting",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2019
         },
         "BIBREF1": {
-            "ref_id": "b1",
-            "title": "Discounting State and Local Pension Liabilities",
             "authors": [
                 {
                     "first": "Jeffrey",
+                    "last": "Brown",
                     "middle": [
                         "R"
                     ],
-                    "last": "Brown",
                     "suffix": ""
                 },
                 {
                     "first": "David",
+                    "last": "Wilcox",
                     "middle": [
                         "W"
                     ],
-                    "last": "Wilcox",
                     "suffix": ""
                 }
             ],
-            "year": 2009,
+            "issn": "2",
+            "other_ids": {},
+            "pages": "538--542",
+            "ref_id": "b1",
+            "title": "Discounting State and Local Pension Liabilities",
             "venue": "American Economic Review",
             "volume": "99",
-            "issn": "2",
-            "pages": "538--542",
-            "other_ids": {}
+            "year": 2009
         },
         "BIBREF2": {
-            "ref_id": "b2",
-            "title": "State and Local Pension Funding in the Enhanced Financial Accounts. Feds Notes",
             "authors": [
                 {
                     "first": "Matthew",
-                    "middle": [],
                     "last": "Hoops",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Paul",
-                    "middle": [],
                     "last": "Smith",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Irina",
-                    "middle": [],
                     "last": "Stefanescu",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b2",
+            "title": "State and Local Pension Funding in the Enhanced Financial Accounts. Feds Notes",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2016
         },
         "BIBREF3": {
-            "ref_id": "b3",
-            "title": "The Sustainability of State and Local Government Pension Plans: A Public Finance Approach",
             "authors": [
                 {
                     "first": "Jamie",
-                    "middle": [],
                     "last": "Lenney",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Bryon",
-                    "middle": [],
                     "last": "Lutz",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Louise",
-                    "middle": [],
                     "last": "Sheiner",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2019,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b3",
+            "title": "The Sustainability of State and Local Government Pension Plans: A Public Finance Approach",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2019
         },
         "BIBREF4": {
-            "ref_id": "b4",
-            "title": "Transactions of State and Local Government Defined Benefit Pension Plans: New Experimental Data on a State-by-State Basis. Presented at the BEA Advisory Group Meeting",
             "authors": [
                 {
                     "first": "David",
+                    "last": "Lenze",
                     "middle": [
                         "G"
                     ],
-                    "last": "Lenze",
                     "suffix": ""
                 }
             ],
-            "year": 2019,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b4",
+            "title": "Transactions of State and Local Government Defined Benefit Pension Plans: New Experimental Data on a State-by-State Basis. Presented at the BEA Advisory Group Meeting",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2019
         },
         "BIBREF5": {
-            "ref_id": "b5",
-            "title": "The Liabilities and Risks of State-Sponsored Pension Plans",
             "authors": [
                 {
                     "first": "Robert",
-                    "middle": [],
                     "last": "Novy-Marx",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Joshua",
+                    "last": "Rauh",
                     "middle": [
                         "D"
                     ],
-                    "last": "Rauh",
                     "suffix": ""
                 }
             ],
-            "year": 2009,
+            "issn": "4",
+            "other_ids": {},
+            "pages": "191--210",
+            "ref_id": "b5",
+            "title": "The Liabilities and Risks of State-Sponsored Pension Plans",
             "venue": "Journal of Economic Perspectives",
             "volume": "23",
-            "issn": "4",
-            "pages": "191--210",
-            "other_ids": {}
+            "year": 2009
         },
         "BIBREF6": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b6",
             "title": "The State Pension Funding Gap",
-            "authors": [],
-            "year": 2017,
             "venue": "Pew Charitable Trust",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2017
         },
         "BIBREF7": {
-            "ref_id": "b7",
-            "title": "Analyzing the Interplay Between Public-Pension Finances and Government Finances: Lessons from Linking and Economic Model to a Pension Fund Model",
             "authors": [
                 {
                     "first": "Yimeng",
-                    "middle": [],
                     "last": "Yin",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "Dan",
-                    "middle": [],
                     "last": "Boyd",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b7",
+            "title": "Analyzing the Interplay Between Public-Pension Finances and Government Finances: Lessons from Linking and Economic Model to a Pension Fund Model",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2018
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "",
+            "text": "Public sector pension systems began to experience serious funding problems early this century. The sharp decline in the stock market connected to the end of the Internet bubble resulted in marked losses for many funds. This came at a time when the retirement of the large baby-boomer generation of workers was starting and payments of benefits began to ramp up. The 2007-2009 financial crisis and recession led to another round of losses to funds. Since then, large market gains, increased government contributions and, in some cases, restrictions on benefits offered to current workers, as well as boosts to employee contributions, led (through the end of 2019) to a rebound in fund balances. Still, there are widespread concerns over the capability of state and local governments to pay the pension benefits pledged to current workers and retirees, and there is much discussion and analysis of potential reforms."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 1681,
+                    "ref_id": "BIBREF3",
+                    "start": 1661,
+                    "text": "Lenney et al. (2019)"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "While pension concerns are continually on the minds of officials responsible for public finances, investors in municipal securities, and rating agencies, the potential for broad economic spillovers from these problems has been relatively unexamined. Given the fairly long period in which pension problems have been viewed to be consequential, and the disparate conditions of funds across the nation, it is reasonable to think that one might find evidence that pension woes will contribute to economic softness: other things equal, areas with more intense pension problems might be expected to have had poorer performance. This paper examines that proposition, using state-level datasets on public pensions developed by the Pew Trust and jointly by the Federal Reserve Board and the Bureau of Economic Analysis (FRB-BEA). The analysis finds that there is, at most, limited evidence that the typical metric used to gauge pension problems-the gap between fund assets and vested benefits, usually referred to as the \"unfunded liability,\" scaled by a state's nominal GDP-foreshadows lagging aggregate economic performance in a state. However, growth in the ratio of pension debt to GDP in a state may be linked to reduced economic growth. The results that the absolute size of such debt may not, by itself, weigh on the growth of a state's economy, but that increases in that debt may impinge growth, suggest that curbing the growth of, or reducing, pension liabilities would be desirable. However, these results do not provide clear guidance as to what the optimal long-run size of pension debt might be. In that regard, the implications are comparable to those of Lenney et al. (2019) , who suggest that reasonable goals for some presumed highly troubled systems are stabilization of the ratio of their unfunded liabilities to their state's nominal GDP, rather than the outright elimination of the unfunded liabilities."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "",
+            "text": "The next section points out potential connections between pension problems and an area's economy. This is followed by a discussion of possible policies to be pursued to address the problems, and their implications, at the national level, for state and local spending. It is then followed by the statistical analysis relating pension fund shortfalls to a state's economic performance, and the conclusion."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Pension problems and a state's economy",
+            "text": "Why should public pension problems impinge on a state's economy? There are a number of possible channels:"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Pension problems and a state's economy",
+            "text": "1. It is reasonable to think-though it is a matter that could be subject to various sorts of legal challenges, as well as negotiation-that public employers are obliged to pay benefits to current retirees, and vested benefits to current employees, even if a pension fund's assets are depleted. Unlike the federal government (which always has the option of financing its growing social security and other entitlement obligations through debt issuance, including expansion of the monetary base), states, and local government sponsors of pension plans, would typically need to replenish pension plan funds through some combina-tion of tax increases and reductions in spending, and, potentially, sales of government assets. These actions could increase the cost of doing business, as well as reduce aggregate demand, and thereby depress economic activity. Resources being diverted to augment pension plan funds do not boost either government transfer payments to persons, or spending on goods and services, so there would be no offsetting increase in demand. 2. Even if no actions are taken to address pension problems in the short-term, the perception that in the future a government may be forced to make major fiscal adjustments to pay benefits could discourage business activity, and might also depress property values. Conceivably, such a perception could also make the hiring of public employees more difficult, since there could be fears that current levels of promised pension benefits will not be sustained. 3. Pension problems are often associated with downgrades of the ratings on public debt. While a downgrade does not typically affect the cost of servicing existing debt, and the subsequent higher rates on new issues may not materially affect outlays, the perception of negative assessments of an area might weigh on business location and expansion plans."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 182,
+                    "ref_id": null,
+                    "start": 175,
+                    "text": "Table 7"
+                }
+            ],
+            "section": "Pension problems and a state's economy",
+            "text": "These channels suggest the possibility that pension problems are associated with poorer growth: the economic tires may be leaking air. The bigger the leak, the slower the car Table 7 .24. Assets are total financial assets less claims of plans on sponsors. can move down the road. The next section describes data on pension funding conditions."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 672,
+                    "ref_id": "BIBREF2",
+                    "start": 654,
+                    "text": "(Hoops et al. 2016"
+                },
+                {
+                    "end": 1978,
+                    "ref_id": null,
+                    "start": 1977,
+                    "text": "1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 987,
+                    "ref_id": "FIGREF1",
+                    "start": 979,
+                    "text": "Figure 1"
+                }
+            ],
+            "section": "Data on pension conditions",
+            "text": "There are literally thousands of public sector pension plans in the United States. With the rise in attention to their status, there has been a remarkable increase in the availability of plan data. The Retirement Center of Boston University maintains a comprehensive database with many statistics from 190 plans (https ://crr.bc.edu/data/publi c-plans -datab ase/). The Pew Charitable Trust has estimates of aggregate plan data at the state level (https ://www.pewtr usts.org/en/ proje cts/publi c-secto r-retir ement -syste ms). The Federal Reserve Board, working from data developed by BEA to better estimate personal income, also has state-level data (Hoops et al. 2016 and https ://www.feder alres erve.gov/relea ses/z1/datav iz/pensi on/; Boyd 2019, and Lenze 2019 discuss BEA's state-level estimates). Of course, the Census Bureau's annual survey of pensions (https ://www.censu s.gov/progr ams-surve ys/aspp.html) has some of the key state-level numbers on pension plans. Figure 1 shows the aggregate numbers on the assets of state and local defined-benefit pension plans, their benefit payments, and the contributions from employer (government) sponsors. The drop in asset values after the bursting of the Internet bubble, the even sharper decline in 2007-2009 (nearly $1 trillion from 2007:Q4 to 2009:Q1, according to the quarterly data contained in the Financial Accounts), and the rebound since are clearly visible. By the end of 2018, pension funds had assets of around $4 trillion-about 75% higher than the value of holdings at the end of 2000 (the Financial Accounts report further substantial gains in 2019). Benefit payments, though, more than tripled in this period, reflecting the wave of retirements of baby-boomer workers. With benefits rising so rapidly, and asset growth held down by the negative shocks to market values, government sponsors have ramped up contributions, from a bit less than $40 billion in fiscal year 2000 to over $165 billion in 2018. 1 The general view is that, in most instances, current levels of pension fund assets are inadequate by themselves to pay for current pensions and the benefits earned by, but not yet being paid to, current workers. The size of pension problems is usually gauged by comparing assets to a liability measure computed by estimating the present value of accrued future pension benefits. What can be deemed \"pension debt\" is the difference between liabilities and assets."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 547,
+                    "ref_id": "BIBREF5",
+                    "start": 522,
+                    "text": "(Novy-Marx and Rauh 2009;"
+                },
+                {
+                    "end": 570,
+                    "ref_id": "BIBREF1",
+                    "start": 548,
+                    "text": "Brown and Wilcox 2009)"
+                },
+                {
+                    "end": 689,
+                    "ref_id": null,
+                    "start": 688,
+                    "text": "3"
+                },
+                {
+                    "end": 1494,
+                    "ref_id": null,
+                    "start": 1493,
+                    "text": "2"
+                },
+                {
+                    "end": 1778,
+                    "ref_id": "BIBREF7",
+                    "start": 1759,
+                    "text": "(Yin and Boyd 2018)"
+                },
+                {
+                    "end": 1782,
+                    "ref_id": null,
+                    "start": 1781,
+                    "text": "3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data on pension conditions",
+            "text": "There are long-standing disputes about how to measure pension liabilities. A traditional method has been to compute the present value of accrued future benefits by discounting them at the rate of return assumed to be earned on pension fund investments. This technique has often been criticized. Aside from concerns that assumed rates of return may be unreasonably high. 2 It is argued that future pension benefit payments are essentially certain, and so a low certain rate should be used in estimating their present value (Novy-Marx and Rauh 2009; Brown and Wilcox 2009) . Using a lower rate of discount will boost the value of liabilities, and thus boost estimates of the debt of plans. 3 The Pew Trust data show liabilities computed using projected asset rates of return as the discount factor. These are numbers that have been traditionally issued by plans and discussed (the Trust, in its publications, notes the concerns about using this method). 4 The Federal Reserve Board and the Bureau of Economic Analysis (FRB-BEA) discount future benefits using a common, lower, rate for all systems (the rate has varied over time; it is currently 4%). The Pew data also come from a smaller number of funds. Thus, for both reasons, the FRB-BEA numbers show substantially higher aggregate net pension liabilities. 5 The FRB-BEA state-level series also start and end a bit earlier than Pew's. 1 Employee contributions have grown much less rapidly-from $25.7 billion in 2000 to $58.7 billion in 2018. 2 There is also the issue that even if a high average rate of return is plausible, realized rates can vary substantially from year to year. Taking account of the distribution of returns can readily result in scenarios in which periods of losses risk fund insolvency (Yin and Boyd 2018) . 3 The Government Accounting Standard Board (GASB) requires plans to compute the present value of liabilities using a third method. According to paragraph 26 of GASB Statement 68 (https ://www. gasb.org/jsp/GASB/Docum ent_C/Docum entPa ge?cid=11761 60220 621&accep tedDi sclai mer=true), \"The discount rate should be the single rate that reflects the following:"
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 2008,
+                    "ref_id": null,
+                    "start": 2007,
+                    "text": "6"
+                },
+                {
+                    "end": 2694,
+                    "ref_id": null,
+                    "start": 2693,
+                    "text": "7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 1325,
+                    "ref_id": "FIGREF2",
+                    "start": 1317,
+                    "text": "Figure 2"
+                }
+            ],
+            "section": "Data on pension conditions",
+            "text": "a. The long-term expected rate of return on pension plan investments that are expected to be used to finance the payment of benefits, to the extent that (1) the pension plan's fiduciary net position is pro-jected\u2026 to be sufficient to make projected benefit payments\u2026 pension plan assets are expected to be invested using a strategy to achieve that return. b. A yield or index rate for 20-year, tax-exempt general obligation municipal bonds with an average rating of AA/Aa or higher (or equivalent quality on another rating scale), to the extent that the conditions in (a) are not met.\". 4 Despite all the criticisms of this method, it is the way actuaries compute the size of employer contributions needed to ensure both the amortization of a plan's unfunded liability and the full funding of the accrual of expected benefits to current workers (this is the \"ARC\"actuarially required contribution-or \"ADC\"-actuarially defined contribution). The use of the expected asset rate of return in this calculation remains controversial. 5 Pew reports pension assets at their \"actuarial value.\" Many plans report this as a smoothed average of market values. The FRB-BEA measures of assets are reported at market value. Also, the Pew data are for the end of fiscal years; the FRB-BEA numbers are for the end of calendar years. Figure 2 plots the two national pension debt aggregates, shown as shares of nominal GDP. Although, as noted, the FRB-BEA series is notably larger than Pew's, the two are reasonably correlated (for the years 2003-2017, when they overlap, the correlation of their levels is 0.932 and the correlation of their annual growth rates is 0.296). The data on the aggregate value of outstanding explicit state and local liabilities (from the Financial Accounts) are also plotted. The Pew pension debt figure is smaller than aggregate explicit liabilities, but the FRB-BEA measure is comparable in size. In both instances, acknowledging pension debt would greatly augment state and local liabilities. 6 In the early years of both datasets, several states recorded negative pension debt: their liabilities were computed to have been less than their assets. Some states in recent years continue to show quite low levels of pension debt. On the flip side, the FRB-BEA data show that Illinois has always had, far and away, the highest level of pension debt relative to state GDP; Pew numbers show New Jersey has in recent years typically been in the top spot. The difference in rankings reflects not only the technicalities of recomputing the present value of pension liabilities by the lower interest rate used by the FRB-BEA, but most likely also to the FRB-BEA's inclusion of more plans. 7 This paper's empirical analysis will use the ratio of pension debt to state GDP as the burden measure. Annual state real GDP growth as reported by BEA will be the primary measure of state economic activity, though results will also be reported using payroll employment growth. The hypothesis is that, other things equal, states with higher pension debt burdens experienced lower real growth. Before looking at the statistical evidence, the budgetary implications of a number of approaches to cap or eliminate pension debt will be discussed."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 1655,
+                    "ref_id": null,
+                    "start": 1654,
+                    "text": "9"
+                },
+                {
+                    "end": 3895,
+                    "ref_id": null,
+                    "start": 3893,
+                    "text": "13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 422,
+                    "ref_id": "TABREF0",
+                    "start": 415,
+                    "text": "Table 1"
+                }
+            ],
+            "section": "Budgetary implications of curbing pension debt",
+            "text": "The standard recommendation seems to be that policy aimed at ameliorating pension problems would (or should) involve putting pension debt on the road to elimination, through some combination of higher contributions and, possibly, reduced benefits. Such actions could involve considerable costs. An alternative might be holding flat the nominal value of pension debt or stabilizing the ratio of pension debt to GDP. Table 1 examines the implications for the aggregate national amount of government employer contributions of these policies, using data from fiscal year 2018. The first is boosting contributions to a rate that would start to amortize Recognition of \"Other Post-Employment Benefits\" (OPED), mainly retiree medical benefits, would swell the liability numbers even further. However, estimates of the present value of OPED is even more problematic than that of pension benefits, since it is so dependent on estimates of future medical costs and take-up, and governments may have more legal flexibility in determining future access and the share of costs to be paid by beneficiaries than they do to change accrued pension benefits. that debt. At the start of the year (mid-2017), aggregate state and local pension debt, according to the FRB-BEA estimate, totaled $4.152 trillion. 8 A first-year payment to amortize that debt over 30 years, assuming a 4% discount rate (the rate that was used to compute the value of the debt) and a 3% annual increase in payments, would have been $158 billion. During that fiscal year, state and local defined-benefit plans expended approximately $335 billion in benefits, withdrawals, and administrative costs. 9 The Financial Accounts report that the present value of all pension liabilities owed to current and retired workers rose $280 billion over the course of that fiscal year. 10 Current workers made roughly $58 billion in cash contributions to the plans in fiscal year 2018. If these figures were known at the start of the fiscal year, and plan sponsors anticipated earning investment income (including capital gains) of $280 billion (just about equal to a 7% return on the $4.031 trillion value of assets at that time), a total of $455 billion in government employer contributions would have been needed to meet all current needs and start amortizing the debt. Actual cash contributions by state and local governments to their defined-benefit pension plans were about $169 billion in fiscal year 2018, which was a little more than one-third the amount required. 11 The $286 billion difference between this estimated contribution and the actual one was more than 1% of national GDP. A sudden diversion of public resources on that scale-involving tax increases and/or cuts in other spending-to augmenting a type of outlay with, plausibly a zero marginal propensity to consume, 12 would surely have marked negative economic effects. If a 4% return was assumed for assets, the gap between target and actual contributions was an even larger $406 billion, which is more than one-third the aggregate wage bill of state and local general government employers. Policy 2 is holding the nominal value of pension debt flat. In that case, the required employer contribution in fiscal 2018 was $297 billion, leaving a substantial gap of $128 billion from actual contributions. 13 If a 4% rate of return on 12 Zero, since increased funding of pension plans does not involve higher benefit payments. It may be arguable that a program that shores up the finances of plans creates greater certainty in the minds of current workers about the security of their pensions, and might therefore reduce precautionary saving. On the other hand, retired workers often do not live in the states from which they are receiving pensions, so any increase in their spending would be highly unlikely to boost demand in the locality from which the pension payments are made. 13 The Pew Trust (2019) reports that actual employer contributions in fiscal 2018 were $25 billion less than what would have been needed to keep the value of pension debt flat. Since the Pew aggregate accounts for about half of all pension assets, it would seem that the estimate shown here of a $128 billion gap could be a bit high. However, it is possible that Pew, using the figures reported by the plans, factored in a higher rate of return on assets than 7%. Also, since Pew be a substantial fraction of the estimated amortization amount (New Jersey plans are an example of that; aggregate employer contributions, including local employers as well as the state, are well over half that needed amount). However, these reports are based on computing the present value of future benefits-including the \"normal cost,\" which is the present value of benefits accruing to current employees over the course of a year-using discount rates often substantially higher than 4%."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 1245,
+                    "ref_id": "FIGREF2",
+                    "start": 1239,
+                    "text": "Fig. 2"
+                }
+            ],
+            "section": "Budgetary implications of curbing pension debt",
+            "text": "Footnote 11 (continued) assets was assumed, there was a $248 billion gap in contributions. Policy 3 involves holding the ratio of pension debt to GDP constant. Assuming a trend in nominal GDP of 3 \u00bd%-possibly a low, but not implausible figure 14that would mean pension debt could have been projected to increase as much as $145 billion in fiscal 2018 and still not rise as a share of GDP-and employers were contributing more than was necessary to achieve that goal. 15 If a 4% rate of return was assumed on assets, though, there would have been a $103 billion gap between actual contributions and the amount anticipated to keep the pension debt/GDP ratio flat. The upshot is that holding flat the nominal value of pension debt would imply substantive fiscal contractions at the state and local level (recall that these estimates are for the nation as a whole; in some states the changes, as a proportion of state GDP, would be much larger), while the adjustment would be very much larger if the aim is immediately moving to amortize the debt. Holding the ratio of debt to nominal GDP constant might involve little or no change in contribution levels (or their ongoing trends, considering the recent brisk growth of contributions). Indeed, Fig. 2 suggests that the aggregate ratio of pension debt to GDP has been little-changed in recent years, though obviously the unusually strong performance of financial markets made a major contribution to this outcome."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 71,
+                    "ref_id": "BIBREF3",
+                    "start": 51,
+                    "text": "Lenney et al. (2019)"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 506,
+                    "ref_id": "FIGREF2",
+                    "start": 500,
+                    "text": "Fig. 2"
+                }
+            ],
+            "section": "Budgetary implications of curbing pension debt",
+            "text": "It is possible that this stability could continue. Lenney et al. (2019) note that only fairly modest changes in contribution policy (defined as the ratio of employer contributions to wages) would be needed to achieve stabilization of the debt-to-state-GDP ratio of numbers of large public plans that are ordinarily viewed as troubled. They note that many of the forces driving the rapid growth in benefit payments will be easing as the surge in retirement of the baby-boomer generation ceases. Their Fig. 2 shows that the ratio of aggregate state and local pension benefits paid to GDP is on a trajectory to peak in the early 2030s at a level not greatly above the current one."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Budgetary implications of curbing pension debt",
+            "text": "Lenney et al. point out that a goal of stability in the pension debt/GDP ratio, not outright retirement of the debt, is in line with standard public finance analysis. Stabilization of debt/GDP ratios typically imply that the ratio of debt service to output will also stabilize, which means there will be no further need to boost tax rates or cut spending trajectories in order to service the debt. In the case of pensions, the servicing cost is government employer contributions. The implication of a policy aimed at stabilizing the ratio of pension debt to GDP in an environment in which, in the not too distant future, the growth of benefits will likely slow relative to GDP is that the growth rate of employer contributions will ease, though their dollar amount will continue to grow. Amortization promises that at some point in the distant future contributions will fall back to the level needed to cover the \"normal cost\" of pensions (the present value of the benefits accrued annually to current workers), but there will be large increases, threatening to crowd out other spending or boost taxes, before that period begins. The empirical analysis will examine whether the evidence of weakness in a state's economy stemming from pension debt is sufficiently strong enough to suggest that a remedy like amortization appears to be necessary."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical analysis",
+            "text": "Both the Pew and the FRB-BEA pension debt datasets will be used to estimate the effect of pension debt on state economic growth. Both have virtues and limitations in being used for this. Pew has the advantage of being limited to plans overseen at the state level; the consequences of the problems of such plans should be immediately evident to state government finance and policy. The problems of a plan oveseen by a local government could, conceivably, be left unaddressed by a state. Moreover, even if local pension problems impinge on the locality's economy, other areas of the state may gain activity from the troubled area, leaving the state's economy as a whole unaffected. Using the FRB-BEA data implicitly assumes that a state bears some responsibility for the financial commitments of its subordinate jurisdictions, and that pension debt-related economic problems in a locality could hurt the state as a whole. Moreover, the consistent rate of return assumption used to construct the FRB-BEA measures is advantageous in comparing problems across states."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 133,
+                    "ref_id": null,
+                    "start": 131,
+                    "text": "16"
+                },
+                {
+                    "end": 825,
+                    "ref_id": null,
+                    "start": 823,
+                    "text": "15"
+                },
+                {
+                    "end": 1531,
+                    "ref_id": null,
+                    "start": 1529,
+                    "text": "17"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 1299,
+                    "ref_id": "FIGREF3",
+                    "start": 1291,
+                    "text": "Figure 3"
+                },
+                {
+                    "end": 1608,
+                    "ref_id": "TABREF1",
+                    "start": 1601,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 1672,
+                    "ref_id": "FIGREF3",
+                    "start": 1666,
+                    "text": "Fig. 3"
+                }
+            ],
+            "section": "Empirical analysis",
+            "text": "The two data sets start after the 2001 recession, and so include two business cycle expansions as well as the 2008-2009 recession. 16 Both show a wide range of state Footnote 13 (continued) is using the plans' own estimates, as the discussion in note 12 points out, the \"normal cost\" portion of the increase in pension liability (the present value of future benefits vested by an addition year of service of current workers) will be much lower than that for the same group of workers in the FRB-BEA data, since the discount rates used in such calculations would generally be higher than the 4% used by FRB-BEA. 14 Assuming 2% growth in real potential output and 1 \u00bd% growth in the GDP price index (the GDP price index tends to grow at a slower rate than the consumer inflation measures of interest to the Federal Reserve). 15 The change reported in aggregate pension debt in the Financial Accounts, both pre-and post-revision, was smaller than the $152 billion gap assumed in the example (indeed, the revised figure shows a small decline), due to actual investment returns in Fiscal Year 2018 exceeding the assumed 7%. pension debt relative to output. It is not unreasonable to think that if state pension debts are associated with economic weakness, econometric analysis should uncover it. Figure 3 shows for the two measures the scatter of average state real GDP growth against the average ratios of pension debt to nominal GDP. The pension debt averages are computed for periods one year earlier than the GDP growth averages. 17 The regression lines summarizing the relationships are also plotted. Table 2 reports the estimates of the regression lines plotted in Fig. 3 . The coefficients on the ratio of pension debt to GDP are negative, and by the usual standards, can be regarded as statistically significantly different from zero."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 63,
+                    "ref_id": "TABREF1",
+                    "start": 56,
+                    "text": "Table 2"
+                }
+            ],
+            "section": "Empirical analysis",
+            "text": "The Pew data, based on the results shown in column 1 of Table 2 , suggest that a state with its ratio of pension debt to GDP averaging roughly 5 percentage points higher than another would have been expected to have seen 0.5 percentage points lower average real GDP growth. The FRB-BEA data, based on the results shown in column 2, suggest that a state with its ratio of pension debt to GDP averaging 13 points higher than another would have been expected to have seen 0.5 percentage point lower average real GDP growth. However, a glance at the scatter plots indicates that there are clearly many other factors affecting one state's performance relative to another. For instance, North Dakota's remarkable growth would be reasonably credited to the surge in shale oil production, rather than to the state's handling of its public pensions. Wisconsin's low levels of pension debt have not been reflected in unusually high output growth, and, perhaps most remarkably, Illinois' real growth has been substantially higher than the figure predicted by the FRB-BEA's astonishingly high estimate of the state's pension debt. When the column 2 regression is re-estimated without the large outliers of North Dakota and Illinois, the coefficient on the pension debt/GDP term is slightly smaller in magnitude (\u2212 0.033 vs \u2212 0.037) and its standard error increases to 0.0178, which implies that it would not be regarded as statistically significant from zero. 17 Slow growth in a state's real GDP will likely also be reflected in slow growth in the state's nominal GDP, which will tend to boost its pension debt/GDP ratio. Lagging the pension debt/GDP ratios lessens the possibility of deeming this correlation a causal linkage from pension debt to real growth. Additionally, a lag is plausible to allow agents to make better estimates of the size of pension debt. some rationale for this surge, the starting year for analysis should be 2002."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical analysis",
+            "text": "Footnote 16 (continued)"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 32,
+                    "ref_id": null,
+                    "start": 25,
+                    "text": "Table 3"
+                },
+                {
+                    "end": 244,
+                    "ref_id": "TABREF1",
+                    "start": 237,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 362,
+                    "ref_id": "TABREF1",
+                    "start": 355,
+                    "text": "Table 2"
+                }
+            ],
+            "section": "Empirical analysis",
+            "text": "The regression models of Table 3 , looking at annual, not average, real growth, show the effect of controlling for factors affecting a state's growth other than these measures of pension debt. Columns 1 and 3 begin by simply redoing the Table 2 regressions with the annual data. The coefficients and their statistical significance are comparable to their Table 2 counterparts. However, the introduction of some basic controls-state fixed effects and time dummieschanges the results substantially. In both cases-columns 2 and 4-the estimated coefficient on the pension variables shrinks in magnitude and its statistical significance falls below standard levels of acceptance as nonzero."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 276,
+                    "ref_id": "TABREF1",
+                    "start": 269,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 365,
+                    "ref_id": "FIGREF5",
+                    "start": 350,
+                    "text": "Figures 4 and 5"
+                }
+            ],
+            "section": "Empirical analysis",
+            "text": "While it appears that one can reject the hypothesis that there is a common negative effect of pension debt on a state's real GDP growth, it may be that there are examples of states where such effects can be unearthed. Accordingly, the regressions of columns 2 and 4 of Table 2 were reestimated with each state allowed to have its own pension effect. Figures 4 and 5 plot the estimated coefficients (these are semi-elasticities-the percentage change in a state's growth rate estimated to result from a 1-percentage point increase in the ratio of pension debt to nominal GDP in the prior year), along with the absolute values of the computed t-statistics. Alaska and Wyoming are the only states in which there is evidence of statistically significant negative coefficients. Alaska and Wyoming have been troubled by shifts in the demand for the fossil fuels they produce, just as North Dakota has benefitted by the advances in oil fracking technology. These changes would not be accounted for by state effects fixed for the entire sample period or any macroeconomic effects captured in time dummy variables. In both Alaska and Wyoming it appears that, essentially for the lack of other controls, rising pension debt was linked with weaker growth, though one would reasonably infer that lackluster revenues stemming from that weaker growth was a major, chronic, contributor to the rise in pension debt."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 119,
+                    "ref_id": null,
+                    "start": 112,
+                    "text": "Table 3"
+                }
+            ],
+            "section": "Empirical analysis",
+            "text": "These results, by themselves, do not imply that pension problems do not burden a state's economy. One can argue Table 3 Pension debt and annual state real GDP growth (standard errors of coefficients in parentheses) *P value less than 5%; **P value less than 1%"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Empirical analysis",
+            "text": "(1)"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 116,
+                    "ref_id": null,
+                    "start": 110,
+                    "text": "Fig. 4"
+                },
+                {
+                    "end": 1011,
+                    "ref_id": "TABREF1",
+                    "start": 997,
+                    "text": "Tables 2 and 3"
+                },
+                {
+                    "end": 1103,
+                    "ref_id": "TABREF4",
+                    "start": 1076,
+                    "text": "Table 4 repeats the Table 3"
+                }
+            ],
+            "section": "Empirical analysis",
+            "text": "(2) (3) Semi-elas\u019fcity of real GDP growth with respect to one percentage point rise in pension debt/GDP ra\u019fo. Fig. 4 Effect of pension debt on state real GDP growth, Pew measure that the sample periods were too short to uncover the effects. More substantively, one would like to model the funding decisions of pension plans and how they interact with other factors affecting public finances and state growth. It is possible, though, that such an approach would not necessarily result in a simple connection between measures of pension debt and state growth. That would be in line with the results shown above, which suggest that conventional estimates of pension debt are not satisfactory summary measures of the relative aggregate economic importance of pension problems in one state compared to another. Indeed, it appears difficult to find instances of states in which the size of pension debt measures can be plausibly linked to poor performance, though the negative coefficients found across Tables 2 and 3 suggest there may be some connections of the hypothesized type. Table 4 repeats the Table 3 regressions using the growth in a state's payroll employment as the dependent variable. There is even less evidence that pension debt measures are associated with weakness in a state's growth, even, when using the Pew measure, no controls are included for fixed and aggregate effects."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 1663,
+                    "ref_id": null,
+                    "start": 1661,
+                    "text": "18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 196,
+                    "ref_id": "TABREF5",
+                    "start": 189,
+                    "text": "Table 5"
+                },
+                {
+                    "end": 1130,
+                    "ref_id": "TABREF5",
+                    "start": 1123,
+                    "text": "Table 5"
+                }
+            ],
+            "section": "Empirical analysis",
+            "text": "While there seems to be little evidence that high levels of pension debt, relative to GDP, can be viewed as contributing to low growth in a state, increases in pension debt may be harmful. Table 5 augments the models of columns 2 and 4 of Tables 3 and 4 by adding another lag to the pension debt/GDP variables. The coefficients on the two pension debt terms are consistently effectively equal in magnitude, opposite in sign, and generally statistically significant. The coefficient on the first lag is negative, and that on the second lag is positive. The implication is that an increase in pension debt appears to weigh on a state's growth the following year. This finding suggests that a period of rising pension debt would be accompanied by harmful consequences, and reducing pension debt may boost growth. For example, Illinois' ratio of pension debt to its GDP rose (according to the FRB-BEA measure) an average of 2 percentage points a year from 2002 to 2016; according to the estimated coefficients Semi-elas\u019fcity of real GDP growth with respect to one percentage point rise in pension debt/GDP ra\u019fo. in column 3 of Table 5 that rise was associated with a reduction in the state's real GDP growth of about 0.7 percentage points a year from 2003 to 2017-this is close to equal to the difference in average growth between Illinois and Wisconsin (which saw essentially no change in the ratio of its pension debt to GDP) in this period. However, the burden on Illinois's growth in this period compared to its neighbor appears to be related to the growth of its pension debt, not to its starting with a noticeably higher level of pension debt than Wisconsin. 18 As the Illinois-Wisconsin comparison suggests, it is not necessarily the case that pension debt problems are merely proxies for a state's region. In the Midwest, for instance, Indiana is comparable to Wisconsin, with relatively little pension debt, while Ohio and Michigan have larger burdens (far less than Illinois; however, Michigan's GDP growth has been slower). Slow-growing New Jersey and Connecticut have large amounts of pension debt, but Delaware, another slow-growing Northeast state, has little. Massachusetts, whose growth has been fairly rapid compared to other Northeast states, has significant amounts of pension debt."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 2976,
+                    "ref_id": null,
+                    "start": 2974,
+                    "text": "19"
+                },
+                {
+                    "end": 3876,
+                    "ref_id": null,
+                    "start": 3874,
+                    "text": "20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "end": 354,
+                    "ref_id": "TABREF0",
+                    "start": 347,
+                    "text": "Table 1"
+                },
+                {
+                    "end": 1042,
+                    "ref_id": "TABREF4",
+                    "start": 1027,
+                    "text": "Tables 3  and 4"
+                },
+                {
+                    "end": 2048,
+                    "ref_id": "TABREF5",
+                    "start": 2041,
+                    "text": "Table 5"
+                },
+                {
+                    "end": 2553,
+                    "ref_id": "TABREF5",
+                    "start": 2546,
+                    "text": "Table 5"
+                }
+            ],
+            "section": "Conclusion: what does this mean for addressing pension concerns?",
+            "text": "As noted, working to achieve outright reductions in pension debt would apparently necessitate marked fiscal consolidation, implying some combination of substantial tax increases and cuts in other types of public spending (and, at an extreme, cuts in benefits being paid to current retirees and accrued by current workers). Using the FRB-BEA data, Table 1 suggests that moving immediately to amortize pension debt would involve, in the aggregate, boosting employer contributions by an amount equal to more than 1% of GDP (assuming a 7% rate of return on assets; with a 4% rate assumption the needed shift would be about 2% of GDP). Even immediately stabilizing the nominal value of the debt would imply increasing contributions by approximately \u00bd to 1% of GDP (depending on the rate of return assumption). Such moves would likely have significant negative shortterm consequences. If the level of pension debt in a state is currently impinging its growth, it is possible such large moves will be worthwhile. The results shown in Tables 3  and 4 suggest that levels of state pension debt do not seem to be associated in any simple way with weak economic performance, but a state's growth does appear to be weaker in the aftermath of an expansion in the ratio of its pension debt to GDP. The implication is that current levels of pension debt may not be impinging growth, but that reductions in the ratio of pension debt to GDP could be beneficial-or at the least, in states that have seen rapid growth in pension debt, stabilization of that ratio could be desirable. It is arguable that the current levels of pension debt reflect a perfect storm that struck systems over the last generation: two major financial corrections occurring at a time when a tsunami of retirements was occurring, and with these events beginning to fade into the past the growth of pension debt will ebb. Even if rates of return move down, it is likely that only moderate boosts to contributions (slower than the average annual increases of 8% seen since 2012) will be Table 5 were re-estimated with each state having its own individual pension effect. For the model with the Pew data, only Alaska and Wyoming had the anticipated negative and statistically significant coefficient on the change in the pension debt/ GDP ratio. Using the FEB-BEA data, 34 states had coefficients negative and statistically significant at the 5% level (most also at the 1% level). In addition, the point estimates for the states were typically more negative than that indicated by column 3 of Table 5 . This suggests that the short-run impact on a state's GDP growth of a runup in pension debt may typically be larger than that suggested in column 3, but it is by no means uniform: for states with statistically significant impacts, the coefficients range from \u2212 .5 (Mississippi) to \u2212 1.9 (Indiana). sufficient to stabilize the ratio of pension debt to GDP at a level within a percentage point of the recently seen ones. 19 States that have experienced unusually slow growth in nominal GDP may have greater difficulties stabilizing pension debt. Seven states (Alaska, Wyoming, Louisiana, Connecticut, New Mexico, West Virginia, and Mississippi) saw nominal GDP grow at less than a 2 \u00bd% compound annual rate from 2010 to 2018, and so may be in this position. This rather benign conclusion rests in part on the assumption that the aggregate revenues of a state (including those of lower levels of government sponsoring pensions) will grow at the same rate as a state's GDP, meaning that the state can afford to boost contributions at about that rate or slightly higher for a spell. In some states that may not be a reasonable assumption without wrenching policy changes; in others there may be the issue of altering transfer mechanisms from state to local governments to ease the mechanics of making pension contributions. 20 Will striving to achieve marked reductions in pension debt be a worthwhile goal? The econometric evidence appears to suggest that reductions in that debt could lead to faster growth (at least in the immediate aftermath of the reduction). However, over the period examined there is not, for both pension data sets, any example of a state achieving a major reduction in the ratio of its pension debt to GDP, 21 which suggests that one should be wary of applying estimates made from samples from this period to predict the results of policies addressed at achieving major reductions."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion: what does this mean for addressing pension concerns?",
+            "text": "These results also have bearing for businesses operating, or considering operating, in a state with reported high levels of pension debt. The buildup of the debt may have held growth down, and future growth in the debt may be a negative. Of course, efforts to curb or reduce accumulated debt through tax increases or cuts in public spending may offset any positive effect from shrinkage of pension debt. A key point, though, is that the mere existence of high levels of pension debt does not seem to be an independent factor that would by itself hold down future growth."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 1013,
+                    "ref_id": null,
+                    "start": 1011,
+                    "text": "19"
+                },
+                {
+                    "end": 2595,
+                    "ref_id": null,
+                    "start": 2593,
+                    "text": "21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusion: what does this mean for addressing pension concerns?",
+            "text": "The sharp losses in asset values in early 2020 with the onset of the COVID-19 pandemic raised concerns about renewed runups in public pension debt, although the pronounced market rebound in the spring should have alleviated much of the initial blow to pension fund assets (this is being written in June 2020; naturally markets could have fluctuated greatly since then). These fears would be augmented by the stress the associated economic downturn and added prevention-related expenses has created for state and local budgets, and thus for the governments' ability to maintain employer contributions to pension funds. The pandemic's impact has not been uniform, and as a result the near-term path of pension debt could vary among the states. These differences in pension debt growth may differentially impact state growth in the near term. However, the analysis of this paper suggests that any runups in pension debt, assuming they are short-lived, will not, by themselves, affect a state's longer-run outlook. 19 This is assuming a 4% rate of return, that aggregate liabilities will grow at a 3.5% rate, benefits and other expenses increase at a 3.8% pace, employee contributions grow at a 3.5% rate, and employer contributions grow 6.5% a year. 20 There are multiple situations of both types. For instance, consider states without personal income taxes. Property and sales tax revenues could well grow at markedly different rates than a state's nominal GDP, especially on a year-to-year basis. New Hampshire, with neither income nor sales taxes, would be expected to have state revenue growth that could well be at odds with state GDP. Other states can have technical problems sustaining funding which have nothing to do with the local economy or even the tax structure, due to peculiarities of the dedication of revenues. For instance, New Jersey's income tax revenue cannot, under the state's constitution, be used to fund state-level functions, such as contributions to state employee pension funds. Another complication is that a state with sustained rapid growth in per capita income-which would likely be associated with rapid growth in overall GDP-could ultimately receive less federal aid, putting more burdens on its own revenues to fund public services. All in all, though, the assumption that the aggregate revenue of a state will grow at roughly the same pace as its nominal GDP looks reasonable in most instances (Alaska might be an exception; general revenue from its own sources in recent years has badly trailed its nominal GDP growth and is only half its late 1990s peak.). 21 The largest reduction was Oklahoma's, in the Pew dataset: a total of 2.9 percentage points-.2 percentage points a year-from 2003 to 2017."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {
+                    "institution": "",
+                    "laboratory": "National Association for Business Economics",
+                    "location": {
+                        "postCode": "2020"
+                    }
+                },
+                "email": "",
+                "first": "Charles",
+                "last": "Steindel",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Public pension shortfalls and state economic growth: a preliminary examination"
+    },
+    "paper_id": "27c407986e8c1034b3c7022a3df5e41eb49d3751",
     "ref_entries": {
         "FIGREF0": {
-            "text": "Year Assets (le\u014c scale) Benefit Payments and Withdrawals (right scale) Employer Contribu\u019fons (right scale) Source: Financial Accounts of the United States; BEA NIPA",
             "latex": null,
+            "text": "Year Assets (le\u014c scale) Benefit Payments and Withdrawals (right scale) Employer Contribu\u019fons (right scale) Source: Financial Accounts of the United States; BEA NIPA",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "Assets, benefit payments, and employer contributions of state and local defined-benefit pension plans (billions of dollars)",
             "latex": null,
+            "text": "Assets, benefit payments, and employer contributions of state and local defined-benefit pension plans (billions of dollars)",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "Aggregate pension debt-GDP ratio, % 6 GASB statement 68 requires governments to report estimates of their pension liabilities in their overall financial statements. These estimates are computed according to the procedure noted in note 5.",
             "latex": null,
+            "text": "Aggregate pension debt-GDP ratio, % 6 GASB statement 68 requires governments to report estimates of their pension liabilities in their overall financial statements. These estimates are computed according to the procedure noted in note 5.",
             "type": "figure"
         },
         "FIGREF3": {
-            "text": "Axis: Average Pension Debt-GDP Ra\u019fo; Y-Axis: Average Real GDP Growth Average state real GDP growth and pension debt-GDP ratio",
             "latex": null,
+            "text": "Axis: Average Pension Debt-GDP Ra\u019fo; Y-Axis: Average Real GDP Growth Average state real GDP growth and pension debt-GDP ratio",
             "type": "figure"
         },
         "FIGREF5": {
-            "text": "Effect of pension debt on state GDP growth, 2003-2017, FRB-BEA measure",
             "latex": null,
+            "text": "Effect of pension debt on state GDP growth, 2003-2017, FRB-BEA measure",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "Potential employer contribution needs, fiscal year 2018 (billions of dollars) Policy 2: hold value of pension debt flat Policy 3: hold ratio of pension debt to GDP flat (assuming 3 1/2% trend in nominal GDP)",
             "latex": null,
+            "text": "Potential employer contribution needs, fiscal year 2018 (billions of dollars) Policy 2: hold value of pension debt flat Policy 3: hold ratio of pension debt to GDP flat (assuming 3 1/2% trend in nominal GDP)",
             "type": "table"
         },
         "TABREF1": {
-            "text": "",
             "latex": null,
+            "text": "",
             "type": "table"
         },
         "TABREF4": {
-            "text": "Pension debt and annual state payroll employment growth (standard errors of coefficients in parentheses)",
             "latex": null,
+            "text": "Pension debt and annual state payroll employment growth (standard errors of coefficients in parentheses)",
             "type": "table"
         },
         "TABREF5": {
-            "text": "Growth of pension debt and state economic performance (standard errors of coefficients in parentheses, state and time fixed effects included) *P value less than 5%; **P value less than 1%",
             "latex": null,
+            "text": "Growth of pension debt and state economic performance (standard errors of coefficients in parentheses, state and time fixed effects included) *P value less than 5%; **P value less than 1%",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "Acknowledgements Thanks to the attendees at the NYU-NY Fed Fiscal Breakfast Meeting, the NABE-AUBER Economic Policy Conference, and the Eastern Economic Association meeting, and to Andy Haughwout, Jason Hecht, and Michelle Roche for helpful comments, as well as to David Draine of the Pew Charitable Trust for clarification of a data issue. All conclusions are my own.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "acknowledgement"
-        },
-        {
-            "text": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. ",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "annex"
-        }
-    ]
+    }
 }

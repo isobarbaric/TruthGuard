@@ -1,1993 +1,1993 @@
 {
-    "paper_id": "27805b0ec10c9dd7fc74cba4d1f8c698431a2757",
-    "metadata": {
-        "title": "",
-        "authors": []
-    },
     "abstract": [],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "Food insecurity is a reality experienced globally, but this is especially true in many countries of Africa. The State of Food Security and Nutrition in the World (SOFI) report from FAO, IFAD, UNICEF, WFP, and the World Health Organization (WHO) states that in 2020 over 2.3 million of Africa's people were suffering from acute food insecurity [1] . Eighty percent of food production in Africa relies on smallholder farmers who have little access to and/or cannot afford advanced farming technologies [2] . Many factors can exacerbate the vulnerability of people to food insecurity. These include but are not limited to violent insurgencies and counterinsurgencies leading to displacement and livelihood disruptions, limited state presence, and competition over access and use of agricultural land and natural resources [3] . Extremes in climate variability due to climate change and degraded resources attributed to overuse and abuse of the land are also stressors that make sufficient production difficult to achieve [3, 4] .",
-            "cite_spans": [
-                {
-                    "start": 343,
-                    "end": 346,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 500,
-                    "end": 503,
-                    "text": "[2]",
-                    "ref_id": "BIBREF1"
-                },
-                {
-                    "start": 819,
-                    "end": 822,
-                    "text": "[3]",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 1018,
-                    "end": 1021,
-                    "text": "[3,",
-                    "ref_id": "BIBREF2"
-                },
-                {
-                    "start": 1022,
-                    "end": 1024,
-                    "text": "4]",
-                    "ref_id": "BIBREF3"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Since March 2020, the world has been dealing with an additional stressor, the COVID-19 pandemic, which currently pushes the world economy into a recession. The progress made in recent years regarding the UN SDGs has either halted or regressed worldwide [5, 6] . In Africa, the COVID-19 pandemic and subsequent restraint measures are driving countries toward an economic and social crisis where not only health care but all spheres of life are affected, including food security. Most African countries rely heavily on local commercial and subsistence agriculture production for food security. Despite this, even before the pandemic, many regions and countries of Africa were food insecure. The SOFI report identifies an increase of 3% in the number of hungry people in Africa; in a period of only one year, from 2019 to 2020 (21% of the population), the increase was the sharpest in Western Africa [1] .",
-            "cite_spans": [
-                {
-                    "start": 253,
-                    "end": 256,
-                    "text": "[5,",
-                    "ref_id": "BIBREF4"
-                },
-                {
-                    "start": 257,
-                    "end": 259,
-                    "text": "6]",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 897,
-                    "end": 900,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "In Africa, women play a critical role in agriculture, representing two thirds of farm labourers; although Palacios-Lopez et al. argued that this number was more like 40%, this representation only included crop production [7, 8] . Women are generally responsiblepartly or entirely-for food production, distribution, and utilization [9, 10] . The restrictive measures put in place to reduce the risk of transmission of the COVID-19 virus have increased the food insecurity of many individuals [11] . Given that women have such a prominent role to play in agriculture and food security, it is possible (likely even) that they have been disproportionately affected by the pandemic in terms of food security. For example, and as documented in the latest report on the State of Food Security and Nutrition in the World 2021, the gender gap in the prevalence of moderate or severe food insecurity has increased worldwide during the COVID-19 pandemic, as women were 10% more likely to be moderately or severely food insecure than men in 2020 as compared to 6% in 2019 [1] . It has been reported that, even prior to the pandemic, women faced higher levels of food insecurity than men [1] . Women often are burdened with responsibilities linked to unpaid work (e.g., providing care), or in food system-related roles [12, 13] .",
-            "cite_spans": [
-                {
-                    "start": 221,
-                    "end": 224,
-                    "text": "[7,",
-                    "ref_id": "BIBREF6"
-                },
-                {
-                    "start": 225,
-                    "end": 227,
-                    "text": "8]",
-                    "ref_id": "BIBREF8"
-                },
-                {
-                    "start": 331,
-                    "end": 334,
-                    "text": "[9,",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 335,
-                    "end": 338,
-                    "text": "10]",
-                    "ref_id": "BIBREF10"
-                },
-                {
-                    "start": 491,
-                    "end": 495,
-                    "text": "[11]",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 1060,
-                    "end": 1063,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 1175,
-                    "end": 1178,
-                    "text": "[1]",
-                    "ref_id": "BIBREF0"
-                },
-                {
-                    "start": 1306,
-                    "end": 1310,
-                    "text": "[12,",
-                    "ref_id": "BIBREF12"
-                },
-                {
-                    "start": 1311,
-                    "end": 1314,
-                    "text": "13]",
-                    "ref_id": "BIBREF13"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "In addition to food security, it has been predicted that other gender disparities, such as gender-based violence, would increase due to pandemic stressors [14, 15] . However, whether speaking about food security or gender-based violence, or both, such reports lack clear evidence to support that those increases have happened or are lockdown-driven, and instead, tend to be more predictive and based on past crises (e.g., the Ebola epidemic; [16, 17] ) and media reports; see Saalim et al. for a comprehensive list of examples [18, 19] . While the assessment of past crises and current media are valuable ways to help predict and mitigate gender inequalities driven by the current evolving crisis, neither provide concrete evidence that there is a link.",
-            "cite_spans": [
-                {
-                    "start": 155,
-                    "end": 159,
-                    "text": "[14,",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 160,
-                    "end": 163,
-                    "text": "15]",
-                    "ref_id": "BIBREF15"
-                },
-                {
-                    "start": 442,
-                    "end": 446,
-                    "text": "[16,",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 447,
-                    "end": 450,
-                    "text": "17]",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 527,
-                    "end": 531,
-                    "text": "[18,",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 532,
-                    "end": 535,
-                    "text": "19]",
-                    "ref_id": "BIBREF19"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "Here, we examined how the countries' restrictive measures against the pandemic affected or exacerbated inequalities between women and men. The objective of this rapid review was to examine the various aspects of gender inequality when people are confronted with food insecurity related to the COVID-19 pandemic in Africa.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "While articles are emerging on the impact of the COVID-19 pandemic on the economy and health, few report evidence related specifically to how power relations between women and men influence food security, or the reverse. Furthermore, few articles address food security and how it affects other issues that in turn affect women (e.g., pregnancy, mentalhealth, and well-being). We wanted to extract as much information as possible about the issues related to gender disparity linked to food security in this context using both scientific literature (using a PRISMA protocol) and grey literature (government and humanitarian group reports) to better understand the current view of the situation and especially identify the knowledge gaps. This research project assesses the impact of the pandemic and the measures implemented on food security and on gender relationships within communities within the pillars of food security (availability, access, utilization, and stability) in rural Burkina Faso and Senegal. Therefore, we expected that results from this review contribute to this research project to inform policy makers and humanitarian providers about how pandemics and various types of restrictions might affect food security to draw lessons for future pandemics.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Introduction"
-        },
-        {
-            "text": "While this rapid review was initially planned to address West Africa alone, only nine out of 28 articles were found that reported associations between COVID-19, food security, and gender inclusively (only five of which were not based on predictions of what may happen rather than evidence of what has happened). We therefore expanded the review to consider all of Africa. The initial step of this rapid review was conducted using PRISMA protocols, as explained in Vasseur et al. [11] . Briefly, PRISMA is an internationally recognized set of guidelines that are followed to create robust, repeatable review methodologies (see Tricco et al., 2018 for further details [20] ). The original protocol from Vasseur et al. [11] is also registered on the Open Science Framework (https://doi.org/10.17605/OSF.10/PKH98, accessed on 13 January 2022). The first search was conducted in March 2021, while an updated search was performed on October 2021 at Brock University (Niagara Region, ON, Canada; ISP address 70.54.102.247). In addition to these searches, a new search was conducted by adding the search terms \"AND (gender OR wom* OR female* OR girl*) to the previous search string. Articles that did not focus on COVID-19, gender and food security inclusively were discarded.",
-            "cite_spans": [
-                {
-                    "start": 479,
-                    "end": 483,
-                    "text": "[11]",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 626,
-                    "end": 645,
-                    "text": "Tricco et al., 2018",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 666,
-                    "end": 670,
-                    "text": "[20]",
-                    "ref_id": "BIBREF20"
-                },
-                {
-                    "start": 716,
-                    "end": 720,
-                    "text": "[11]",
-                    "ref_id": "BIBREF11"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Materials and Methods"
-        },
-        {
-            "text": "Any article that focused on or mentioned any pre-determined gender-related terms (i.e., \"gender\", \"wom\", \"female\", \"girl\", \"marginal\", \"vulnerable\") was retained for further screening (phrases were detected by using a search feature (in Adobe \u00ae Acrobat \u00ae software on the entire article). Relevant 'hits' were then checked for context/relevance of any of the terms that were present in the respective document. If any additional relevant references were discovered during the assessment of returned articles, they were also retained and screened as secondary findings. Once all articles were screened and relevant documents pooled together, each were subjected to an in-depth reading and extraction process.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Materials and Methods"
-        },
-        {
-            "text": "Each article retained for final extraction was categorized according to the location of reference (either a country or region), which of the four pillars of food security that the article touched upon (availability, access, utilization, or stability), the type of article that was being considered (e.g., grey or peer-reviewed, qualitative and/or quantitative), and whether it was an original study, opinion, report or review. Media outlet documents were not considered for this review. Each article was further evaluated for whether or not it provided evidence or only predictions concerning the effect of COVID-19 and food security on existing inequalities between women and men in Africa (i.e., 'category'). Finally, for those articles that were considered to provide evidence, a qualitative rating was applied to describe the overall message according to the evidence presented (this process was also applied separately to predictive documents). Ratings indicated whether inequalities between women and men remained neutral, were negative (i.e., women experienced less inequality than normal), positive (i.e., women experienced higher inequality than normal), or mixed (i.e., both women and men experienced context-dependent inequalities, sometimes higher, sometimes lower, sometimes both depending on the parameter) for women relative to men, or unknown based on insufficient evidence.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Materials and Methods"
-        },
-        {
-            "text": "Of the 4583 screened documents, 1005 (22%) underwent a full text review with a further 76 (8%) subjected to the Adobe \u00ae gender search term locator strategy. By the end, 28 of the 76 articles (37%) were retained for information extraction, three of which were used strictly as background material (see S1 for PRISMA flow chart). Of the 25 retained articles, 10 reported some evidence of how COVID-19 and food security was influencing preexisting inequalities between women and men in Africa (Ghana = 1, Kenya = 2 including 1 that also focuses on Uganda, Nigeria = 4, South Africa = 2 and West Africa, including Ghana, Nigeria, Niger, Liberia, Sierra Leone, and Guinea = 1). Seven of the evidence-based articles were peer reviewed. All other articles (n = 15) reported predictive information based on what may happen due to previous pandemics, gender disparities, or anecdotal information (Table 1) . Therefore, on the initial 1005 articles that went for a full review, only 25 (i.e., 2%) had the combination of COVID-19 pandemic x food security x gender/women issues. 1 Type: Qn = quantitative, Ql = qualitative, P = peer reviewed, G = grey, R = research, Re = review, Rp = report, O = opinion; 2 As it relates to gender; 3 inequalities experienced by women as compared to men (neutral = no change, lower = women experienced less inequality than normal, higher = women experienced more inequality than normal, mixed = context-dependent changes between women and men both lower and higher, unknown = insufficient evidence to assign a rating).",
-            "cite_spans": [],
-            "ref_spans": [
-                {
-                    "start": 887,
-                    "end": 896,
-                    "text": "(Table 1)",
-                    "ref_id": "TABREF0"
-                }
-            ],
-            "section": "Results and Discussion"
-        },
-        {
-            "text": "Regarding food security, four out of the ten evidence-based articles focused on all four pillars (i.e., availability, access, utilization, and stability), albeit not always leading to the potential for interpretation of contextual error. The least referred to pillars were those of utilization (n = 4) and stability (n = 5) while access was referred to in no less than nine articles (availability n = 6). Of the retained predictive documents, more than half referred to all four pillars together (n = 8/15), and each individual pillar was found to be represented in over 50% of the retained articles. A more detailed discussion regarding the effects of the COVID-19 pandemic on food security pillars is presented in Vasseur et al. [11] . Predictions were clearly different than evidence-based research methods, and we must do a better job of designing research that focuses on all four pillars (preferably at the same time, as they are all connected).",
-            "cite_spans": [
-                {
-                    "start": 731,
-                    "end": 735,
-                    "text": "[11]",
-                    "ref_id": "BIBREF11"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Pillars"
-        },
-        {
-            "text": "Four of the 10 evidence-based articles analyzed in this study were interpreted as reporting neutral gender inequalities linked to COVID-19 and food security. Three were interview-based studies targeting mainly respondents with post-secondary education, which may have been due to the use of internet-driven surveys. Since an internet platform is often not accessible to all individuals in a population, these studies should be acknowledged as being somewhat unrepresentative of countries in general. Folayan et al. reported mixed results when interviewing 4439 Nigerians (53% of whom were women and 80.9% of whom had tertiary education) [25] . Overall, women and men reported similar financial losses (when no other variables were considered-with men reporting slightly higher at 58% compared to 55% for women). Food security was similar between men and women, with only 1% more women reporting being food insecure than men (21% vs. 20%). Overall, the odds of males being more food insecure were found to be lower than females; however, the authors admitted that gender was reported but not investigated to its fullest extent. Additionally, respondents who reported a negative impact of the pandemic on their daily life were mainly those with a primary school education. A separate gender analysis within this sub-sample was not conducted.",
-            "cite_spans": [
-                {
-                    "start": 637,
-                    "end": 641,
-                    "text": "[25]",
-                    "ref_id": "BIBREF25"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Neutral and Mixed"
-        },
-        {
-            "text": "A study conducted by the Bayero University Kano's Centre for Dryland Agriculture in Nigeria found that 75% of the women interviewed reported that no discrimination was placed on them by farm operators when attending markets [24] . However, these statistics must be interpreted carefully, as only 7/26 of those interviewed were women. The authors go on to suggest that this may have been due to women having higher workloads (e.g., care economy) due to restrictions and the inability to attend markets. It is also worth noting that individuals interviewed were mainly university staff, employed, and living in an urban setting, which does not necessarily give an accurate representation of the situation, as surveys would not have represented more vulnerable populations such as rural subsistence farmers, women-headed households or individuals that are not highly educated. Iddi et al. reported that 12% of Ghanaians surveyed through an online questionnaire about stress levels linked to well-being felt stressed about the possibility of getting COVID-19, thus causing food insecurity [21] . The study group was mainly composed of young people (56% under 34, 86% under 44, and 44% having no children), 79% lived in urban Ghana, 98.7% possessed a post-secondary education level, and 72% were employed by the government. Males and females' feelings in this group were found to be quite similar. A more inclusive interview process (e.g., all ages, all occupations, inclusive of rural environments) would present a clearer picture as to the current situation. Furthermore, HSRC echoed a similar sentiment regarding the lack of disaggregated data being a problem in South African studies [28] . Thus, disaggregation of any data that reports on women and men is an urgent need for future research.",
-            "cite_spans": [
-                {
-                    "start": 224,
-                    "end": 228,
-                    "text": "[24]",
-                    "ref_id": "BIBREF24"
-                },
-                {
-                    "start": 1085,
-                    "end": 1089,
-                    "text": "[21]",
-                    "ref_id": "BIBREF21"
-                },
-                {
-                    "start": 1683,
-                    "end": 1687,
-                    "text": "[28]",
-                    "ref_id": "BIBREF28"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Neutral and Mixed"
-        },
-        {
-            "text": "A few studies looked at food security at the household level by performing a gender analysis using the head of the household. Although better than using data that are not disaggregated, looking at the gender issue at the level of head of household does not necessarily present a complete understanding of the situation that women face. For example, Ibukun and Adebayo conducted interviews to evaluate the state of food security at the household level during the COVID-19 pandemic in Nigeria [26] . Gender was not specifically analyzed, and results indicated that, education level income, and wealth status determined whether households reported being food insecure-of which more than half reported being severely food insecure. Moreover, the authors report that 10% of households in the North are female headed as opposed to 25% of the households in the South. The difference is significant and demonstrates that regional discrepancies may occur, and research should be conducted and reported accordingly so as not over-generalize. Furthermore, such studies completely omit the male and female relationships and how decisions are made within a household. This concern underlines the need for on the ground analysis of the conditions and the importance of interviewing women and men separately, as conditions can differ greatly.",
-            "cite_spans": [
-                {
-                    "start": 491,
-                    "end": 495,
-                    "text": "[26]",
-                    "ref_id": "BIBREF26"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Neutral and Mixed"
-        },
-        {
-            "text": "Chitiga et al. present an interesting model that demonstrates differences in loss of income between female-headed and male-headed households (i.e., women losing more) using micromodel simulations based on gender differences in employment sectors to assess redistributive impacts of economic scenarios on poverty [31] . Their simulations indicated a higher impact on female poverty (increase by 5% from 46% to 51% in the severe scenario). Some of the model inputs relied on 2012 statistical data (e.g., poverty rates), and it wasn't clear whether they accounted for any sort of government COVID-19 and food security assistance that could have been applied. It must also be understood that the model itself is still just predictive and not necessarily a reflection of what is happening. In addition, the simulation looks at the impact on household poverty and does not provide direct information about food security within households.",
-            "cite_spans": [
-                {
-                    "start": 312,
-                    "end": 316,
-                    "text": "[31]",
-                    "ref_id": "BIBREF32"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Neutral and Mixed"
-        },
-        {
-            "text": "The remaining two articles in the neutral category focused on a more heterogeneous population. Chiwona-Karltun et al. found no differences between men and women's likelihood of increased worries; however, they noted that 70% of respondents were from urban areas, supporting a need to understand whether differences would be found in rural settings [16] . Their conclusions were based mainly on predictions from past crises and evidence of gender disparity in other contexts (some from the 1990s). The complexity of highlighting gendered differences due to the social-construct of the concept of \"foodworry\" should be noted. Maula recommended that more work needed to be done towards collecting, reporting, and disseminating better data surrounding gender impacts, as the data were poor [15] . It is therefore difficult to confirm that gender inequalities continue to happen at the alarming rate with what is currently being reported in the literature, (even though many would agree that it is) or if COVID-19 is aggravating current situations.",
-            "cite_spans": [
-                {
-                    "start": 348,
-                    "end": 352,
-                    "text": "[16]",
-                    "ref_id": "BIBREF16"
-                },
-                {
-                    "start": 786,
-                    "end": 790,
-                    "text": "[15]",
-                    "ref_id": "BIBREF15"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Neutral and Mixed"
-        },
-        {
-            "text": "Only two evidence articles were found to report higher inequalities faced by women linked to COVID-19 pandemic and food security. Liverpool-Tasie et al. conducted surveys focused mainly on hidden components of food supply chains and how they were negatively affected during initial pandemic stages [26] . While only two points were given concerning impacts to women, they were related to loss of employment and therefore a critical component of food security (e.g., Nigerian fish businesses went from supporting 20% to 2% female employment between February-pre-pandemic and April; however, males were also impacted, but to a lesser extent, with total man workers dropping to 20% from 50% during same period). In South Africa, interviews (n = 40; women = 22, men = 18) provided insight into women vs. men farmers [29] . While in general there were no formal reports about differences in gender, the study found that only women farmers lost access to land (n = 2), and five out of six farmers who had to halt production completely were women (two women farmers voluntarily stopped work to stay at home to care for family). In both articles, results suggest that women are losing their jobs more readily than men. Future research should examine the reasons and how jobs are lost i.e., whether women are leaving of their own free will or whether they are laid off in greater proportion than men.",
-            "cite_spans": [
-                {
-                    "start": 298,
-                    "end": 302,
-                    "text": "[26]",
-                    "ref_id": "BIBREF26"
-                },
-                {
-                    "start": 812,
-                    "end": 816,
-                    "text": "[29]",
-                    "ref_id": "BIBREF30"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Higher Effect Reporting"
-        },
-        {
-            "text": "Most predictive articles reported likelihoods of higher inequalities to be experienced by women related to COVID-19 and food security (n = 10/15). Many predicted that more women would experience increased food insecurity under COVID-19 than men [9, 34, 36, 38] , many also warned of increases in gender-based violence [14, 18, 30, 32, 37] . However, Tom and Chipenda [30] did not offer actual evidence of such occurrences and a few documents seemed to base their predictions on global statistics [17, 32, 37] , which did not necessarily provide an actual picture of the current conditions in Africa. Breakfast's and Nomarwayi's predictions of increased violence linked to food security and the pandemic suggested that this was more likely to occur in rural settings, where police presence was typically lower, indicating a need to target future research in such settings [14] . Overall, the number of predictive documents that reported increases in female and male inequalities underlined the urgent need for research focusing on on-the-ground, real-time evidence collection in African nations, particularly in rural regions. Understanding how women deal with food insecurity, pandemics, and power struggles can also define how these factors impact their health and capacity to continue providing, especially for their children.",
-            "cite_spans": [
-                {
-                    "start": 245,
-                    "end": 248,
-                    "text": "[9,",
-                    "ref_id": "BIBREF9"
-                },
-                {
-                    "start": 249,
-                    "end": 252,
-                    "text": "34,",
-                    "ref_id": "BIBREF35"
-                },
-                {
-                    "start": 253,
-                    "end": 256,
-                    "text": "36,",
-                    "ref_id": "BIBREF37"
-                },
-                {
-                    "start": 257,
-                    "end": 260,
-                    "text": "38]",
-                    "ref_id": "BIBREF39"
-                },
-                {
-                    "start": 318,
-                    "end": 322,
-                    "text": "[14,",
-                    "ref_id": "BIBREF14"
-                },
-                {
-                    "start": 323,
-                    "end": 326,
-                    "text": "18,",
-                    "ref_id": "BIBREF18"
-                },
-                {
-                    "start": 327,
-                    "end": 330,
-                    "text": "30,",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 331,
-                    "end": 334,
-                    "text": "32,",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 335,
-                    "end": 338,
-                    "text": "37]",
-                    "ref_id": "BIBREF38"
-                },
-                {
-                    "start": 367,
-                    "end": 371,
-                    "text": "[30]",
-                    "ref_id": "BIBREF31"
-                },
-                {
-                    "start": 496,
-                    "end": 500,
-                    "text": "[17,",
-                    "ref_id": "BIBREF17"
-                },
-                {
-                    "start": 501,
-                    "end": 504,
-                    "text": "32,",
-                    "ref_id": "BIBREF33"
-                },
-                {
-                    "start": 505,
-                    "end": 508,
-                    "text": "37]",
-                    "ref_id": "BIBREF38"
-                },
-                {
-                    "start": 871,
-                    "end": 875,
-                    "text": "[14]",
-                    "ref_id": "BIBREF14"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Higher Effect Reporting"
-        },
-        {
-            "text": "Only a single evidence study and none of the predictive studies alluded to a possible lower rate of inequality experienced by women due to the COVID-19 pandemic and food security-related conditions. Surveys conducted by Kansiime et al. found that both Kenya and Uganda food insecurity increased (especially in low-income households), but that the only clear difference between women and men was that men reported COVID-attributed income loss 11% more than female respondents [23] . However, surveys were conducted through the internet, with most respondents having tertiary education levels (85% in Kenya and 97% in Uganda), and 50% to 73% of respondents were salaried employees. Therefore, a large portion of the vulnerable and rural populations was likely missed. The authors also indicated that two thirds of the respondents were male (from mainly male headed households), which questioned how many individuals and women of the vulnerable or rural population (in this case women) were missed entirely.",
-            "cite_spans": [
-                {
-                    "start": 475,
-                    "end": 479,
-                    "text": "[23]",
-                    "ref_id": "BIBREF23"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Lower or Unknown Reporting"
-        },
-        {
-            "text": "The final four documents considered in the study (evidence n = 2, predictive n = 2) were categorized as drawing unknown conclusions yet were worthy of consideration. Shupler et al. reported that since the onset of the pandemic, nine out of ten households considered themselves to be more food insecure due to loss of income [22] . The main issue with this article was that while women versus men were considered in the initial baseline survey, data were combined in the follow-up survey, making it impossible to determine who was most affected. While Saalim et al. presented a very structured PRISMA media review that focused somewhat on women and pandemic food security specifically, the authors made many predictions based on information gathered from the previous Ebola epidemic [19] . Much of the media reviewed used terms such as \"at-risk\" or \"serious concerns about\" when referring to the safety and security of women. Children might have been the most vulnerable in terms of food security and violence (assumingly, both girls and boys were reported together). They only mentioned one article that reported gender-based violence both before and after the onset of the COVID-19 pandemic (i.e., in Liberia). However, upon closer investigation, they did not provide clear details on comparisons between pre-and post-COVID numbers. Their study showed that the media, although mainly anecdotal in nature, reported a great deal of information concerning current gender-based disparities. Caution should be taken when using media materials, as there could be bias. A media-review should be used with a critical eye on the sources of the materials.",
-            "cite_spans": [
-                {
-                    "start": 324,
-                    "end": 328,
-                    "text": "[22]",
-                    "ref_id": "BIBREF22"
-                },
-                {
-                    "start": 782,
-                    "end": 786,
-                    "text": "[19]",
-                    "ref_id": "BIBREF19"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Lower or Unknown Reporting"
-        },
-        {
-            "text": "Badu et al. did not examine food insecurity-driven gender disparities of the pandemic but mentioned the probability of increased gender-based violence [33] . The authors suggested that mitigation protocols should be put in place to help any potential food security or gender disparity issues. They also mentioned the need to support vulnerable groups, yet they do not specifically include women as being part of vulnerable groups (instead they indicate that they are referring to low income, senior and disabled individuals). Lung'aho also mentioned in passing that food security policy should focus on gender as well as to allow for marginalized people to actively participate in the crafting of such policy without offering up much information on what the status of either is currently [35] . Mitigation strategies being implemented based on predictions are one way to help women during the COVID-19 crisis, but we must also consider where and how such strategies are initiated, and if they are working or even utilized.",
-            "cite_spans": [
-                {
-                    "start": 151,
-                    "end": 155,
-                    "text": "[33]",
-                    "ref_id": "BIBREF34"
-                },
-                {
-                    "start": 788,
-                    "end": 792,
-                    "text": "[35]",
-                    "ref_id": "BIBREF36"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Lower or Unknown Reporting"
-        },
-        {
-            "text": "There are several limitations that apply to this study, including the decision to completely disregard media reports. In some cases, media reports may be the only way to access information that applies to some of the more remote areas of Africa, especially during the pandemic. The lack of evidence-based information from remote rural areas and/or vulnerable populations does not mean that these individuals are not experiencing insecurities and inequalities, only that they have not yet been reported on reliability or formally recognized. Saalim et al., for example, used such a media review [19] . They identified women and children as the most discussed vulnerable groups in media during the pandemic and food insecurity and poverty as cross-cutting issues for the vulnerable populations. While their data may suggest self-reporting for occurrences of gender-based violence and other health issues, bias may exist in such analysis and may not explain the root causes of the issues.",
-            "cite_spans": [
-                {
-                    "start": 594,
-                    "end": 598,
-                    "text": "[19]",
-                    "ref_id": "BIBREF19"
-                }
-            ],
-            "ref_spans": [],
-            "section": "Limitations of the Review and Needs"
-        },
-        {
-            "text": "This review shows that a clear disparity exists in the number of available statistics in terms of how many studies and reports disseminate clear and consistent gender information. Obtaining data that include separation by sex as well as actual methodological reporting is crucial to better understand the situation on the ground and push for the implementation of gender-sensitive policy changes. Since PRISMA protocols were used to search the English literature, it may also be beneficial to conduct searches for French language publications, including more local journals, given that many West African countries are mainly French speaking. During any pandemic or other disasters, there is a tendency to rapidly acquire data to demonstrate impacts without having a detailed understanding of the conditions on the ground. Unfortunately, most measures, policies and even aid are based on such rapid assessments that do not consider gender issues, power relations between men and women, and social classes, among many aspects of a crisis such as a pandemic.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Limitations of the Review and Needs"
-        },
-        {
-            "text": "The COVID-19 pandemic in Africa has exposed the need to better understand what is happening on-the-ground in terms of the food insecurity and other inequalities faced by women. There is a need to explore not just how we think individuals may be affected but how they are being effectively affected, and how to create better reporting options and support for occurrences of gender-based violence and the like. There is an urgent need to better understand the needs of individuals, particularly women (e.g., farmers, caregivers, traders) and to apply gender specific variables/questions to all research that seeks to address socially negative, pandemic-related effects on their health, wellbeing, and conditions due to food insecurity. When investigating concepts such as food security, there is an additional need to address all four pillars (i.e., availability, access, utilization, and stability), as each pillar is intimately connected to the other.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Limitations of the Review and Needs"
-        },
-        {
-            "text": "This study investigates what is currently known about the association between the COVID-19 pandemic in terms of the restrictive measures and the effects on food security, and gender disparities as they exist in Africa. Results demonstrated that disparities exist in the reporting of data regarding rural versus urban and women versus men. It was further found that a large portion of the literature focuses on predictions surrounding what may happen during the COVID-19 pandemic, most of which predicted women would be subjected to increased inequality. No literature was found about the impact of the pandemic-related stress on power relationships between genders. Less literature investigated actual evidence that supported what was being predicted; however, reporting disparities between gender within communities and households and a general lack of on-the-ground, well-designed, evidence-based research suggests that we are missing the full picture. The study also highlighted a lack of evidence and studies conducted in West Africa, and furthermore an absence of studies on gender impact during COVID-19 in Burkina Faso and Senegal, especially on women, their food insecurity, and their health. Further studies that focus on collecting disaggregated data from rural settings that also consider media reports prior to designing research questions is recommended.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusions"
-        },
-        {
-            "text": "Supplementary Materials: The following supporting information can be downloaded at: https: //www.mdpi.com/article/10.3390/ijerph19042065/s1, Document S1: PRISMA Flow Diagram.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conclusions"
+            "section": "Conflicts of Interest:",
+            "text": "The authors declare that they have no conflicts of interest."
         }
     ],
     "bib_entries": {
         "BIBREF0": {
+            "authors": [
+                {
+                    "first": "",
+                    "last": "Fao; Ifad; Unicef; Wfp; Who",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b0",
             "title": "The State of Food Security and Nutrition in the World 2021; Transforming Food Systems for Food Security, Improved Nutrition, and Affordable Healthy Diets for All",
-            "authors": [
-                {
-                    "first": "",
-                    "middle": [],
-                    "last": "Fao; Ifad; Unicef; Wfp; Who",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF1": {
+            "authors": [
+                {
+                    "first": "",
+                    "last": "Fao",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "last": "The",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b1",
             "title": "Economic Lives of Smallholder Farmers. An Analysis Based on Household Data from Nine Countries",
-            "authors": [
-                {
-                    "first": "",
-                    "middle": [],
-                    "last": "Fao",
-                    "suffix": ""
-                },
-                {
-                    "first": "",
-                    "middle": [],
-                    "last": "The",
-                    "suffix": ""
-                }
-            ],
-            "year": 2015,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF2": {
-            "ref_id": "b2",
-            "title": "Sustainable Land Management, Food Security, and Greenhouse Gas Fluxes in Terrestrial Ecosystems",
-            "authors": [
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Mbow",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Rosenzweig",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [
-                        "G"
-                    ],
-                    "last": "Barioni",
-                    "suffix": ""
-                },
-                {
-                    "first": "T",
-                    "middle": [
-                        "G"
-                    ],
-                    "last": "Benton",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Herrero",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Krishnapillai",
-                    "suffix": ""
-                },
-                {
-                    "first": "P",
-                    "middle": [],
-                    "last": "Liwenga",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [
-                        "G"
-                    ],
-                    "last": "Pradhan",
-                    "suffix": ""
-                },
-                {
-                    "first": "T",
-                    "middle": [],
-                    "last": "Rivera-Ferre",
-                    "suffix": ""
-                },
-                {
-                    "first": "F",
-                    "middle": [
-                        "N"
-                    ],
-                    "last": "Sapkota",
-                    "suffix": ""
-                }
-            ],
-            "year": 2019,
-            "venue": "Climate Change and Land: An IPCC Special Report on Climate Change, Desertification, Land Degradation",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Climate Change, Trade, and Global Food Security: A Global Assessment of Transboundary Climate Risks in Agricultural Commodity Flows",
-            "authors": [
-                {
-                    "first": "K",
-                    "middle": [
-                        "M"
-                    ],
-                    "last": "Adams",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Benzie",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Croft",
-                    "suffix": ""
-                },
-                {
-                    "first": "S",
-                    "middle": [],
-                    "last": "Sadowski",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "SEI Report",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "The Sustainable Development Goals Report",
-            "authors": [],
-            "year": 2021,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "Postscript: Covid-19 and SDG progress",
-            "authors": [
-                {
-                    "first": "S",
-                    "middle": [
-                        "A"
-                    ],
-                    "last": "Macht",
-                    "suffix": ""
-                },
-                {
-                    "first": "R",
-                    "middle": [
-                        "L"
-                    ],
-                    "last": "Chapman",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [
-                        "A"
-                    ],
-                    "last": "Fitzgerald",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "J. Manag. Organ",
-            "volume": "26",
-            "issn": "",
-            "pages": "1073--1076",
-            "other_ids": {
-                "DOI": [
-                    "10.1017/jmo.2020.42"
-                ]
-            }
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "Women in Agriculture Worldwide: Key Issues and Practical Approaches",
-            "authors": [
-                {
-                    "first": "A",
-                    "middle": [
-                        "J"
-                    ],
-                    "last": "Fletcher",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "How much of the labor in African agriculture is provided by women? Food Policy",
-            "authors": [
-                {
-                    "first": "A",
-                    "middle": [],
-                    "last": "Palacios-Lopez",
-                    "suffix": ""
-                },
-                {
-                    "first": "L",
-                    "middle": [],
-                    "last": "Christiaensen",
-                    "suffix": ""
-                },
-                {
-                    "first": "T",
-                    "middle": [],
-                    "last": "Kilic",
-                    "suffix": ""
-                }
-            ],
-            "year": 2017,
-            "venue": "",
-            "volume": "67",
-            "issn": "",
-            "pages": "52--63",
-            "other_ids": {
-                "DOI": [
-                    "10.1016/j.foodpol.2016.09.017"
-                ]
-            }
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "The potential intersections of Covid-19, gender and food securitiy in Africa",
-            "authors": [
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Doss",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
-                    "middle": [],
-                    "last": "Njuki",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Mika",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "J. Gend. Agric. Food Secur",
-            "volume": "2020",
-            "issn": "",
-            "pages": "41--48",
-            "other_ids": {
-                "DOI": [
-                    "10.19268/JGAFS.512020.4"
-                ]
-            }
+            "year": 2015
         },
         "BIBREF10": {
-            "ref_id": "b10",
-            "title": "Women's Roles in the West African Food System: Implications and Prospects for Food Security and Resilience",
             "authors": [
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Gnisci",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2016,
-            "venue": "",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1787/5jlpl4mh1hxn-en"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b10",
+            "title": "Women's Roles in the West African Food System: Implications and Prospects for Food Security and Resilience",
+            "venue": "",
+            "volume": "",
+            "year": 2016
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "The effects of pandemics on the vulnerability of food security in West Africa-A scoping review",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Vasseur",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "H",
-                    "middle": [],
                     "last": "Vanvolkenburg",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "I",
-                    "middle": [],
                     "last": "Vandeplas",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Tour\u00e9",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Sanfo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "F",
+                    "last": "Bald\u00e9",
                     "middle": [
                         "L"
                     ],
-                    "last": "Bald\u00e9",
                     "suffix": ""
                 }
             ],
-            "year": null,
-            "venue": "",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.3390/su132212888"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b11",
+            "title": "The effects of pandemics on the vulnerability of food security in West Africa-A scoping review",
+            "venue": "",
+            "volume": "",
+            "year": null
         },
         "BIBREF12": {
-            "ref_id": "b12",
-            "title": "Impacts of COVID-19 on Food Security and Nutrition: Developing Effective Policy Responses to Address the Hunger and Malnutrition Pandemic",
             "authors": [],
-            "year": 2020,
-            "venue": "High Level Panel of Experts (HLPE)",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.4060/cb1000en"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b12",
+            "title": "Impacts of COVID-19 on Food Security and Nutrition: Developing Effective Policy Responses to Address the Hunger and Malnutrition Pandemic",
+            "venue": "High Level Panel of Experts (HLPE)",
+            "volume": "",
+            "year": 2020
         },
         "BIBREF13": {
-            "ref_id": "b13",
-            "title": "The COVID-19 pandemic has increased the care burden of women and families",
             "authors": [
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Power",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Sustain. Sci. Pract. Policy",
-            "volume": "16",
             "issn": "",
-            "pages": "67--73",
             "other_ids": {
                 "DOI": [
                     "10.1080/15487733.2020.1776561"
                 ]
-            }
+            },
+            "pages": "67--73",
+            "ref_id": "b13",
+            "title": "The COVID-19 pandemic has increased the care burden of women and families",
+            "venue": "Sustain. Sci. Pract. Policy",
+            "volume": "16",
+            "year": 2020
         },
         "BIBREF14": {
-            "ref_id": "b14",
-            "title": "Food insecurity among African women residing in rural and informal urban areas during lockdown in South Africa",
             "authors": [
                 {
                     "first": "N",
+                    "last": "Breakfast",
                     "middle": [
                         "B"
                     ],
-                    "last": "Breakfast",
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Nomarwayi",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "17410--17418",
+            "ref_id": "b14",
+            "title": "Food insecurity among African women residing in rural and informal urban areas during lockdown in South Africa",
             "venue": "Gend. Behav",
             "volume": "19",
-            "issn": "",
-            "pages": "17410--17418",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF15": {
-            "ref_id": "b15",
-            "title": "Impact of Covid-19 on Gender Equality and Women's Empowerment in East and Sothern Africa; UN Women and UNFPA, East and Southern Africa Regional Offices",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Maula",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b15",
+            "title": "Impact of Covid-19 on Gender Equality and Women's Empowerment in East and Sothern Africa; UN Women and UNFPA, East and Southern Africa Regional Offices",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF16": {
-            "ref_id": "b16",
-            "title": "Covid-19: From health crises to food security anxiety and policy implications",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Chiwona-Karltun",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "F",
-                    "middle": [],
                     "last": "Amuakwa-Mensah",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Wamala-Larsson",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Amuakwa-Mensah",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Hatab",
                     "middle": [
                         "A"
                     ],
-                    "last": "Hatab",
                     "suffix": ""
                 },
                 {
                     "first": "N",
-                    "middle": [],
                     "last": "Made",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Ambio",
-            "volume": "50",
             "issn": "",
-            "pages": "794--811",
             "other_ids": {
                 "DOI": [
                     "10.1007/s13280-020-01481-y"
                 ]
-            }
+            },
+            "pages": "794--811",
+            "ref_id": "b16",
+            "title": "Covid-19: From health crises to food security anxiety and policy implications",
+            "venue": "Ambio",
+            "volume": "50",
+            "year": 2021
         },
         "BIBREF17": {
-            "ref_id": "b17",
-            "title": "Planning and informal food traders under covid-19: The South African case",
             "authors": [
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Skinner",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "V",
-                    "middle": [],
                     "last": "Watson",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Town Plan. Rev",
-            "volume": "92",
             "issn": "",
-            "pages": "301--307",
             "other_ids": {
                 "DOI": [
                     "10.3828/tpr.2020.38"
                 ]
-            }
+            },
+            "pages": "301--307",
+            "ref_id": "b17",
+            "title": "Planning and informal food traders under covid-19: The South African case",
+            "venue": "Town Plan. Rev",
+            "volume": "92",
+            "year": 2020
         },
         "BIBREF18": {
-            "ref_id": "b18",
-            "title": "The covid-19 pandemic and the crisis of lockdowns in Nigeria: The household food security perspective",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Amusan",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Agunyai",
                     "middle": [
                         "C"
                     ],
-                    "last": "Agunyai",
                     "suffix": ""
                 }
             ],
-            "year": null,
-            "venue": "APSDPR",
-            "volume": "2021",
             "issn": "10",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.4102/apsdpr.v9i1.484"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b18",
+            "title": "The covid-19 pandemic and the crisis of lockdowns in Nigeria: The household food security perspective",
+            "venue": "APSDPR",
+            "volume": "2021",
+            "year": null
         },
         "BIBREF19": {
-            "ref_id": "b19",
-            "title": "Reported health and social consequences of the covid-19 pandemic on vulnerable populations and implemented solutions in six West African countries: A media content analysis",
             "authors": [
                 {
                     "first": "K",
-                    "middle": [],
                     "last": "Saalim",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "K",
+                    "last": "Sakyi",
                     "middle": [
                         "S"
                     ],
-                    "last": "Sakyi",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Fatema-Tuz-Zohra",
                     "middle": [
                         "E"
                     ],
-                    "last": "Fatema-Tuz-Zohra",
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Owusu",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Dalglish",
                     "middle": [
                         "L"
                     ],
-                    "last": "Dalglish",
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Kanyangarara",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "PLoS ONE",
-            "volume": "16",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1371/journal.pone.0252890"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b19",
+            "title": "Reported health and social consequences of the covid-19 pandemic on vulnerable populations and implemented solutions in six West African countries: A media content analysis",
+            "venue": "PLoS ONE",
+            "volume": "16",
+            "year": 2021
         },
-        "BIBREF20": {
-            "ref_id": "b20",
-            "title": "PRISMA extension for scoping reviews (PRISMA-ScR): Checklist and explanation",
+        "BIBREF2": {
             "authors": [
                 {
-                    "first": "A",
-                    "middle": [
-                        "C"
-                    ],
-                    "last": "Tricco",
-                    "suffix": ""
-                },
-                {
-                    "first": "E",
+                    "first": "C",
+                    "last": "Mbow",
                     "middle": [],
-                    "last": "Lillie",
                     "suffix": ""
                 },
                 {
-                    "first": "W",
+                    "first": "C",
+                    "last": "Rosenzweig",
                     "middle": [],
-                    "last": "Zarin",
-                    "suffix": ""
-                },
-                {
-                    "first": "K",
-                    "middle": [
-                        "K"
-                    ],
-                    "last": "O&apos;brien",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Colquhoun",
-                    "suffix": ""
-                },
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Levac",
-                    "suffix": ""
-                },
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Moher",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [
-                        "D J"
-                    ],
-                    "last": "Peters",
-                    "suffix": ""
-                },
-                {
-                    "first": "T",
-                    "middle": [],
-                    "last": "Horsley",
                     "suffix": ""
                 },
                 {
                     "first": "L",
+                    "last": "Barioni",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Benton",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Herrero",
                     "middle": [],
-                    "last": "Weeks",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Krishnapillai",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Liwenga",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Pradhan",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Rivera-Ferre",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "Sapkota",
+                    "middle": [
+                        "N"
+                    ],
                     "suffix": ""
                 }
             ],
-            "year": 2018,
-            "venue": "Ann. Intern. Med",
-            "volume": "169",
             "issn": "",
-            "pages": "467--473",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b2",
+            "title": "Sustainable Land Management, Food Security, and Greenhouse Gas Fluxes in Terrestrial Ecosystems",
+            "venue": "Climate Change and Land: An IPCC Special Report on Climate Change, Desertification, Land Degradation",
+            "volume": "",
+            "year": 2019
+        },
+        "BIBREF20": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Tricco",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Lillie",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "last": "Zarin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "O&apos;brien",
+                    "middle": [
+                        "K"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Colquhoun",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Levac",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Moher",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Peters",
+                    "middle": [
+                        "D J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Horsley",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Weeks",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
             "other_ids": {
                 "DOI": [
                     "10.7326/M18-0850"
                 ]
-            }
+            },
+            "pages": "467--473",
+            "ref_id": "b20",
+            "title": "PRISMA extension for scoping reviews (PRISMA-ScR): Checklist and explanation",
+            "venue": "Ann. Intern. Med",
+            "volume": "169",
+            "year": 2018
         },
         "BIBREF21": {
-            "ref_id": "b21",
-            "title": "Coping strategies adapted by Ghanaians during the covid-19 crisis and lockdown: A population-based study",
             "authors": [
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Iddi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Obiri-Yeboah",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "I",
+                    "last": "Aboh",
                     "middle": [
                         "K"
                     ],
-                    "last": "Aboh",
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Quansah",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Owusu",
                     "middle": [
                         "A"
                     ],
-                    "last": "Owusu",
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Enyan",
                     "middle": [
                         "I E"
                     ],
-                    "last": "Enyan",
                     "suffix": ""
                 },
                 {
                     "first": "R",
+                    "last": "Kodom",
                     "middle": [
                         "V"
                     ],
-                    "last": "Kodom",
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Nsabimana",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "S",
-                    "middle": [],
                     "last": "Jansen",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Ekumah",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "PLoS ONE",
-            "volume": "16",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1371/journal.pone.0253800"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b21",
+            "title": "Coping strategies adapted by Ghanaians during the covid-19 crisis and lockdown: A population-based study",
+            "venue": "PLoS ONE",
+            "volume": "16",
+            "year": 2021
         },
         "BIBREF22": {
-            "ref_id": "b22",
-            "title": "Covid-19 impacts on household energy & food security in a Kenyan informal settlement: The need for integrated approaches to the SDGs",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Shupler",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Mwitari",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Gohole",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "R",
-                    "middle": [],
                     "last": "Aderson De Cuevas",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Puzzolo",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "I",
-                    "middle": [],
                     "last": "\u010cuki\u0107",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Nix",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "D",
-                    "middle": [],
                     "last": "Pope",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Renew. Sust. Energ. Rev",
-            "volume": "144",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.rser.2021.111018"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b22",
+            "title": "Covid-19 impacts on household energy & food security in a Kenyan informal settlement: The need for integrated approaches to the SDGs",
+            "venue": "Renew. Sust. Energ. Rev",
+            "volume": "144",
+            "year": 2021
         },
         "BIBREF23": {
-            "ref_id": "b23",
-            "title": "Covid-19 implications on household income and food security in Kenya and Uganda: Findings from a rapid assessment",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Kansiime",
                     "middle": [
                         "K"
                     ],
-                    "last": "Kansiime",
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Tambo",
                     "middle": [
                         "A"
                     ],
-                    "last": "Tambo",
                     "suffix": ""
                 },
                 {
                     "first": "I",
-                    "middle": [],
                     "last": "Mugambi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Bundi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Kara",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Owuor",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "World Dev",
-            "volume": "137",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.1016/j.worlddev.2020.105199"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b23",
+            "title": "Covid-19 implications on household income and food security in Kenya and Uganda: Findings from a rapid assessment",
+            "venue": "World Dev",
+            "volume": "137",
+            "year": 2021
         },
         "BIBREF24": {
-            "ref_id": "b24",
-            "title": "Food from the campus: Understanding Africa's transition to sustainable urban food security during the covid-19 pandemic",
             "authors": [
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Barau",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "J",
+                    "last": "Jibrin",
                     "middle": [
                         "M"
                     ],
-                    "last": "Jibrin",
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Badamasi",
                     "middle": [
                         "M"
                     ],
-                    "last": "Badamasi",
                     "suffix": ""
                 },
                 {
                     "first": "A",
-                    "middle": [],
                     "last": "Mustapha",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Res. Sq",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.21203/rs.3.rs-40800/v1"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b24",
+            "title": "Food from the campus: Understanding Africa's transition to sustainable urban food security during the covid-19 pandemic",
+            "venue": "Res. Sq",
+            "volume": "",
+            "year": 2020
         },
         "BIBREF25": {
-            "ref_id": "b25",
-            "title": "Factors associated with financial security, food security and quality of daily lives of residents in Nigeria during the first wave of the covid-19 pandemic",
             "authors": [
                 {
                     "first": "M",
+                    "last": "Folayan",
                     "middle": [
                         "O"
                     ],
-                    "last": "Folayan",
                     "suffix": ""
                 },
                 {
                     "first": "O",
-                    "middle": [],
                     "last": "Ibigbami",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "El Tantawi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Brown",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "N",
+                    "last": "Aly",
                     "middle": [
                         "M"
                     ],
-                    "last": "Aly",
                     "suffix": ""
                 },
                 {
                     "first": "O",
-                    "middle": [],
                     "last": "Ezechi",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "G",
+                    "last": "Abelda\u00f1o",
                     "middle": [
                         "F"
                     ],
-                    "last": "Abelda\u00f1o",
                     "suffix": ""
                 },
                 {
                     "first": "E",
-                    "middle": [],
                     "last": "Ara",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Ayanore",
                     "middle": [
                         "A"
                     ],
-                    "last": "Ayanore",
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Ellakany",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Int. J. Environ",
-            "volume": "18",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.3390/ijerph18157925"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b25",
+            "title": "Factors associated with financial security, food security and quality of daily lives of residents in Nigeria during the first wave of the covid-19 pandemic",
+            "venue": "Int. J. Environ",
+            "volume": "18",
+            "year": 2021
         },
         "BIBREF26": {
-            "ref_id": "b26",
-            "title": "Household food security and the covid-19 pandemic in Nigeria",
             "authors": [
                 {
                     "first": "C",
+                    "last": "Ibukun",
                     "middle": [
                         "O"
                     ],
-                    "last": "Ibukun",
                     "suffix": ""
                 },
                 {
                     "first": "A",
+                    "last": "Adebayo",
                     "middle": [
                         "A"
                     ],
-                    "last": "Adebayo",
                     "suffix": ""
                 }
             ],
-            "year": 2021,
-            "venue": "Afr. Dev. Rev",
-            "volume": "33",
             "issn": "",
-            "pages": "75--87",
             "other_ids": {
                 "DOI": [
                     "10.1111/1467-8268.12515"
                 ]
-            }
+            },
+            "pages": "75--87",
+            "ref_id": "b26",
+            "title": "Household food security and the covid-19 pandemic in Nigeria",
+            "venue": "Afr. Dev. Rev",
+            "volume": "33",
+            "year": 2021
         },
         "BIBREF27": {
-            "ref_id": "b27",
-            "title": "Essential non-essentials\": Covid-19 policy missteps in Nigeria rooted in persistent myths about African food supply chains",
             "authors": [
                 {
                     "first": "L",
+                    "last": "Liverpool-Tasie",
                     "middle": [
                         "S O"
                     ],
-                    "last": "Liverpool-Tasie",
                     "suffix": ""
                 },
                 {
                     "first": "T",
-                    "middle": [],
                     "last": "Reardon",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "B",
-                    "middle": [],
                     "last": "Belton",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "Appl. Econ. Perspect. Policy",
-            "volume": "43",
             "issn": "",
-            "pages": "205--224",
             "other_ids": {
                 "DOI": [
                     "10.1002/aepp.13139"
                 ]
-            }
+            },
+            "pages": "205--224",
+            "ref_id": "b27",
+            "title": "Essential non-essentials\": Covid-19 policy missteps in Nigeria rooted in persistent myths about African food supply chains",
+            "venue": "Appl. Econ. Perspect. Policy",
+            "volume": "43",
+            "year": 2020
         },
         "BIBREF28": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b28",
             "title": "In The Status of Population, Food Security, Nutrition and Sustainable Development during the Covid-19 and Lockdown Period in South Africa",
-            "authors": [],
-            "year": 2021,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF29": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b29",
             "title": "HSRC, 134 Pretorius Street",
-            "authors": [],
-            "year": 2021,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
-        "BIBREF30": {
-            "ref_id": "b30",
-            "title": "The impact of covid-19 on black farmers in South Africa",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Wegerif",
-                    "suffix": ""
-                }
-            ],
-            "year": 2021,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1080/03031853.2021.1971097"
-                ]
-            }
-        },
-        "BIBREF31": {
-            "ref_id": "b31",
-            "title": "Covid-19, lockdown and the family in Zimbabwe",
-            "authors": [
-                {
-                    "first": "T",
-                    "middle": [],
-                    "last": "Tom",
-                    "suffix": ""
-                },
-                {
-                    "first": "C",
-                    "middle": [],
-                    "last": "Chipenda",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "J. Comp. Fam. Stud",
-            "volume": "51",
-            "issn": "",
-            "pages": "3--4",
-            "other_ids": {
-                "DOI": [
-                    "10.3138/jcfs.51.3-4.005"
-                ]
-            }
-        },
-        "BIBREF32": {
-            "ref_id": "b32",
-            "title": "How covid-19 pandemic worsens the economic situation of women in South Africa",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Chitiga",
-                    "suffix": ""
-                },
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Henseler",
-                    "suffix": ""
-                },
-                {
-                    "first": "R",
-                    "middle": [
-                        "E"
-                    ],
-                    "last": "Mabugu",
-                    "suffix": ""
-                },
-                {
-                    "first": "H",
-                    "middle": [],
-                    "last": "Maisonnave",
-                    "suffix": ""
-                }
-            ],
-            "year": 2021,
-            "venue": "Eur. J. Dev. Res",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {
-                "DOI": [
-                    "10.1057/s41287-021-00441-w"
-                ]
-            }
-        },
-        "BIBREF33": {
-            "ref_id": "b33",
-            "title": "The Secondary Impacts of Covid-19 on Women and Girls in Sub-Saharan Africa; Duration Development Trust, UK Department for International Development",
-            "authors": [
-                {
-                    "first": "T",
-                    "middle": [],
-                    "last": "Rafaeli",
-                    "suffix": ""
-                },
-                {
-                    "first": "G",
-                    "middle": [],
-                    "last": "Hutchinson",
-                    "suffix": ""
-                }
-            ],
-            "year": 2020,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF34": {
-            "ref_id": "b34",
-            "title": "Africa's response to the covid-19 pandemic: A review of the nature of the virus, impacts and implications for preparedness",
+        "BIBREF3": {
             "authors": [
                 {
                     "first": "K",
-                    "middle": [],
-                    "last": "Badu",
-                    "suffix": ""
-                },
-                {
-                    "first": "J",
+                    "last": "Adams",
                     "middle": [
-                        "P R"
+                        "M"
                     ],
-                    "last": "Thorn",
                     "suffix": ""
                 },
                 {
-                    "first": "N",
+                    "first": "M",
+                    "last": "Benzie",
                     "middle": [],
-                    "last": "Goonoo",
-                    "suffix": ""
-                },
-                {
-                    "first": "N",
-                    "middle": [],
-                    "last": "Dukhi",
-                    "suffix": ""
-                },
-                {
-                    "first": "A",
-                    "middle": [
-                        "F"
-                    ],
-                    "last": "Fagbamigbe",
-                    "suffix": ""
-                },
-                {
-                    "first": "B",
-                    "middle": [
-                        "W"
-                    ],
-                    "last": "Kulohoma",
-                    "suffix": ""
-                },
-                {
-                    "first": "K",
-                    "middle": [],
-                    "last": "Oyebola",
                     "suffix": ""
                 },
                 {
                     "first": "S",
+                    "last": "Croft",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Sadowski",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b3",
+            "title": "Climate Change, Trade, and Global Food Security: A Global Assessment of Transboundary Climate Risks in Agricultural Commodity Flows",
+            "venue": "SEI Report",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF30": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Wegerif",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/03031853.2021.1971097"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b30",
+            "title": "The impact of covid-19 on black farmers in South Africa",
+            "venue": "",
+            "volume": "",
+            "year": 2021
+        },
+        "BIBREF31": {
+            "authors": [
+                {
+                    "first": "T",
+                    "last": "Tom",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Chipenda",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3138/jcfs.51.3-4.005"
+                ]
+            },
+            "pages": "3--4",
+            "ref_id": "b31",
+            "title": "Covid-19, lockdown and the family in Zimbabwe",
+            "venue": "J. Comp. Fam. Stud",
+            "volume": "51",
+            "year": 2020
+        },
+        "BIBREF32": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Chitiga",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Henseler",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Mabugu",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Maisonnave",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1057/s41287-021-00441-w"
+                ]
+            },
+            "pages": "",
+            "ref_id": "b32",
+            "title": "How covid-19 pandemic worsens the economic situation of women in South Africa",
+            "venue": "Eur. J. Dev. Res",
+            "volume": "",
+            "year": 2021
+        },
+        "BIBREF33": {
+            "authors": [
+                {
+                    "first": "T",
+                    "last": "Rafaeli",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Hutchinson",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b33",
+            "title": "The Secondary Impacts of Covid-19 on Women and Girls in Sub-Saharan Africa; Duration Development Trust, UK Department for International Development",
+            "venue": "",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF34": {
+            "authors": [
+                {
+                    "first": "K",
+                    "last": "Badu",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Thorn",
+                    "middle": [
+                        "P R"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Goonoo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "last": "Dukhi",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Fagbamigbe",
+                    "middle": [
+                        "F"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Kulohoma",
+                    "middle": [
+                        "W"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Oyebola",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Abdelsalam",
                     "middle": [
                         "I"
                     ],
-                    "last": "Abdelsalam",
                     "suffix": ""
                 },
                 {
                     "first": "W",
-                    "middle": [],
                     "last": "Doorsamy",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "O",
-                    "middle": [],
                     "last": "Awe",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
-            "venue": "",
-            "volume": "",
             "issn": "",
-            "pages": "",
             "other_ids": {
                 "DOI": [
                     "10.12688/aasopenres.13060.1"
                 ]
-            }
+            },
+            "pages": "",
+            "ref_id": "b34",
+            "title": "Africa's response to the covid-19 pandemic: A review of the nature of the virus, impacts and implications for preparedness",
+            "venue": "",
+            "volume": "",
+            "year": null
         },
         "BIBREF35": {
-            "ref_id": "b35",
-            "title": "10 recommendations for African governments to ensure food security for poor and vulnerable populations during COVID-19. Food Secur",
             "authors": [
                 {
                     "first": "L",
-                    "middle": [],
                     "last": "Lawson-Lartego",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "M",
+                    "last": "Cohen",
                     "middle": [
                         "J"
                     ],
-                    "last": "Cohen",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
-            "venue": "",
-            "volume": "12",
             "issn": "",
-            "pages": "899--902",
             "other_ids": {
                 "DOI": [
                     "10.1007/s12571-020-01062-7"
                 ]
-            }
+            },
+            "pages": "899--902",
+            "ref_id": "b35",
+            "title": "10 recommendations for African governments to ensure food security for poor and vulnerable populations during COVID-19. Food Secur",
+            "venue": "",
+            "volume": "12",
+            "year": 2020
         },
         "BIBREF36": {
-            "ref_id": "b36",
-            "title": "Bouncing back from the covid-19 pandemic in Africa wil take more than a vaccine",
             "authors": [
                 {
                     "first": "M",
-                    "middle": [],
                     "last": "Lung&apos;aho",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2021,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b36",
+            "title": "Bouncing back from the covid-19 pandemic in Africa wil take more than a vaccine",
             "venue": "Afr. J. Food Agric. Nutr. Dev",
             "volume": "2020",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2021
         },
         "BIBREF37": {
-            "ref_id": "b37",
-            "title": "Covid-19 and Food Security: Gendered Dimensions",
             "authors": [
                 {
                     "first": "J",
-                    "middle": [],
                     "last": "Montalvao",
+                    "middle": [],
                     "suffix": ""
                 },
                 {
                     "first": "P",
-                    "middle": [],
                     "last": "Van De Velde",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b37",
+            "title": "Covid-19 and Food Security: Gendered Dimensions",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF38": {
-            "ref_id": "b38",
-            "title": "Government responses and socio-economic implications of covid-19 in Africa: Gender responsive and food security",
             "authors": [
                 {
                     "first": "L",
+                    "last": "Mzini",
                     "middle": [
                         "B"
                     ],
-                    "last": "Mzini",
                     "suffix": ""
                 }
             ],
-            "year": 2020,
+            "issn": "",
+            "other_ids": {},
+            "pages": "16988--17006",
+            "ref_id": "b38",
+            "title": "Government responses and socio-economic implications of covid-19 in Africa: Gender responsive and food security",
             "venue": "Gend. Behav",
             "volume": "18",
-            "issn": "",
-            "pages": "16988--17006",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF39": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b39",
             "title": "Covid-19 Pandemic through a Gender Lens",
-            "authors": [],
-            "year": null,
             "venue": "In Africa Knowledge in Time Policy Brief",
             "volume": "",
+            "year": null
+        },
+        "BIBREF4": {
+            "authors": [],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b4",
+            "title": "The Sustainable Development Goals Report",
+            "venue": "",
+            "volume": "",
+            "year": 2021
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Macht",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Chapman",
+                    "middle": [
+                        "L"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Fitzgerald",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/jmo.2020.42"
+                ]
+            },
+            "pages": "1073--1076",
+            "ref_id": "b5",
+            "title": "Postscript: Covid-19 and SDG progress",
+            "venue": "J. Manag. Organ",
+            "volume": "26",
+            "year": 2020
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Fletcher",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b6",
+            "title": "Women in Agriculture Worldwide: Key Issues and Practical Approaches",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Palacios-Lopez",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Christiaensen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Kilic",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.foodpol.2016.09.017"
+                ]
+            },
+            "pages": "52--63",
+            "ref_id": "b8",
+            "title": "How much of the labor in African agriculture is provided by women? Food Policy",
+            "venue": "",
+            "volume": "67",
+            "year": 2017
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "C",
+                    "last": "Doss",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Njuki",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "last": "Mika",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {
+                "DOI": [
+                    "10.19268/JGAFS.512020.4"
+                ]
+            },
+            "pages": "41--48",
+            "ref_id": "b9",
+            "title": "The potential intersections of Covid-19, gender and food securitiy in Africa",
+            "venue": "J. Gend. Agric. Food Secur",
+            "volume": "2020",
+            "year": null
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 346,
+                    "ref_id": "BIBREF0",
+                    "start": 343,
+                    "text": "[1]"
+                },
+                {
+                    "end": 503,
+                    "ref_id": "BIBREF1",
+                    "start": 500,
+                    "text": "[2]"
+                },
+                {
+                    "end": 822,
+                    "ref_id": "BIBREF2",
+                    "start": 819,
+                    "text": "[3]"
+                },
+                {
+                    "end": 1021,
+                    "ref_id": "BIBREF2",
+                    "start": 1018,
+                    "text": "[3,"
+                },
+                {
+                    "end": 1024,
+                    "ref_id": "BIBREF3",
+                    "start": 1022,
+                    "text": "4]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Food insecurity is a reality experienced globally, but this is especially true in many countries of Africa. The State of Food Security and Nutrition in the World (SOFI) report from FAO, IFAD, UNICEF, WFP, and the World Health Organization (WHO) states that in 2020 over 2.3 million of Africa's people were suffering from acute food insecurity [1] . Eighty percent of food production in Africa relies on smallholder farmers who have little access to and/or cannot afford advanced farming technologies [2] . Many factors can exacerbate the vulnerability of people to food insecurity. These include but are not limited to violent insurgencies and counterinsurgencies leading to displacement and livelihood disruptions, limited state presence, and competition over access and use of agricultural land and natural resources [3] . Extremes in climate variability due to climate change and degraded resources attributed to overuse and abuse of the land are also stressors that make sufficient production difficult to achieve [3, 4] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 256,
+                    "ref_id": "BIBREF4",
+                    "start": 253,
+                    "text": "[5,"
+                },
+                {
+                    "end": 259,
+                    "ref_id": "BIBREF5",
+                    "start": 257,
+                    "text": "6]"
+                },
+                {
+                    "end": 900,
+                    "ref_id": "BIBREF0",
+                    "start": 897,
+                    "text": "[1]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Since March 2020, the world has been dealing with an additional stressor, the COVID-19 pandemic, which currently pushes the world economy into a recession. The progress made in recent years regarding the UN SDGs has either halted or regressed worldwide [5, 6] . In Africa, the COVID-19 pandemic and subsequent restraint measures are driving countries toward an economic and social crisis where not only health care but all spheres of life are affected, including food security. Most African countries rely heavily on local commercial and subsistence agriculture production for food security. Despite this, even before the pandemic, many regions and countries of Africa were food insecure. The SOFI report identifies an increase of 3% in the number of hungry people in Africa; in a period of only one year, from 2019 to 2020 (21% of the population), the increase was the sharpest in Western Africa [1] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 224,
+                    "ref_id": "BIBREF6",
+                    "start": 221,
+                    "text": "[7,"
+                },
+                {
+                    "end": 227,
+                    "ref_id": "BIBREF8",
+                    "start": 225,
+                    "text": "8]"
+                },
+                {
+                    "end": 334,
+                    "ref_id": "BIBREF9",
+                    "start": 331,
+                    "text": "[9,"
+                },
+                {
+                    "end": 338,
+                    "ref_id": "BIBREF10",
+                    "start": 335,
+                    "text": "10]"
+                },
+                {
+                    "end": 495,
+                    "ref_id": "BIBREF11",
+                    "start": 491,
+                    "text": "[11]"
+                },
+                {
+                    "end": 1063,
+                    "ref_id": "BIBREF0",
+                    "start": 1060,
+                    "text": "[1]"
+                },
+                {
+                    "end": 1178,
+                    "ref_id": "BIBREF0",
+                    "start": 1175,
+                    "text": "[1]"
+                },
+                {
+                    "end": 1310,
+                    "ref_id": "BIBREF12",
+                    "start": 1306,
+                    "text": "[12,"
+                },
+                {
+                    "end": 1314,
+                    "ref_id": "BIBREF13",
+                    "start": 1311,
+                    "text": "13]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "In Africa, women play a critical role in agriculture, representing two thirds of farm labourers; although Palacios-Lopez et al. argued that this number was more like 40%, this representation only included crop production [7, 8] . Women are generally responsiblepartly or entirely-for food production, distribution, and utilization [9, 10] . The restrictive measures put in place to reduce the risk of transmission of the COVID-19 virus have increased the food insecurity of many individuals [11] . Given that women have such a prominent role to play in agriculture and food security, it is possible (likely even) that they have been disproportionately affected by the pandemic in terms of food security. For example, and as documented in the latest report on the State of Food Security and Nutrition in the World 2021, the gender gap in the prevalence of moderate or severe food insecurity has increased worldwide during the COVID-19 pandemic, as women were 10% more likely to be moderately or severely food insecure than men in 2020 as compared to 6% in 2019 [1] . It has been reported that, even prior to the pandemic, women faced higher levels of food insecurity than men [1] . Women often are burdened with responsibilities linked to unpaid work (e.g., providing care), or in food system-related roles [12, 13] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 159,
+                    "ref_id": "BIBREF14",
+                    "start": 155,
+                    "text": "[14,"
+                },
+                {
+                    "end": 163,
+                    "ref_id": "BIBREF15",
+                    "start": 160,
+                    "text": "15]"
+                },
+                {
+                    "end": 446,
+                    "ref_id": "BIBREF16",
+                    "start": 442,
+                    "text": "[16,"
+                },
+                {
+                    "end": 450,
+                    "ref_id": "BIBREF17",
+                    "start": 447,
+                    "text": "17]"
+                },
+                {
+                    "end": 531,
+                    "ref_id": "BIBREF18",
+                    "start": 527,
+                    "text": "[18,"
+                },
+                {
+                    "end": 535,
+                    "ref_id": "BIBREF19",
+                    "start": 532,
+                    "text": "19]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "In addition to food security, it has been predicted that other gender disparities, such as gender-based violence, would increase due to pandemic stressors [14, 15] . However, whether speaking about food security or gender-based violence, or both, such reports lack clear evidence to support that those increases have happened or are lockdown-driven, and instead, tend to be more predictive and based on past crises (e.g., the Ebola epidemic; [16, 17] ) and media reports; see Saalim et al. for a comprehensive list of examples [18, 19] . While the assessment of past crises and current media are valuable ways to help predict and mitigate gender inequalities driven by the current evolving crisis, neither provide concrete evidence that there is a link."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "Here, we examined how the countries' restrictive measures against the pandemic affected or exacerbated inequalities between women and men. The objective of this rapid review was to examine the various aspects of gender inequality when people are confronted with food insecurity related to the COVID-19 pandemic in Africa."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction",
+            "text": "While articles are emerging on the impact of the COVID-19 pandemic on the economy and health, few report evidence related specifically to how power relations between women and men influence food security, or the reverse. Furthermore, few articles address food security and how it affects other issues that in turn affect women (e.g., pregnancy, mentalhealth, and well-being). We wanted to extract as much information as possible about the issues related to gender disparity linked to food security in this context using both scientific literature (using a PRISMA protocol) and grey literature (government and humanitarian group reports) to better understand the current view of the situation and especially identify the knowledge gaps. This research project assesses the impact of the pandemic and the measures implemented on food security and on gender relationships within communities within the pillars of food security (availability, access, utilization, and stability) in rural Burkina Faso and Senegal. Therefore, we expected that results from this review contribute to this research project to inform policy makers and humanitarian providers about how pandemics and various types of restrictions might affect food security to draw lessons for future pandemics."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 483,
+                    "ref_id": "BIBREF11",
+                    "start": 479,
+                    "text": "[11]"
+                },
+                {
+                    "end": 645,
+                    "ref_id": "BIBREF20",
+                    "start": 626,
+                    "text": "Tricco et al., 2018"
+                },
+                {
+                    "end": 670,
+                    "ref_id": "BIBREF20",
+                    "start": 666,
+                    "text": "[20]"
+                },
+                {
+                    "end": 720,
+                    "ref_id": "BIBREF11",
+                    "start": 716,
+                    "text": "[11]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods",
+            "text": "While this rapid review was initially planned to address West Africa alone, only nine out of 28 articles were found that reported associations between COVID-19, food security, and gender inclusively (only five of which were not based on predictions of what may happen rather than evidence of what has happened). We therefore expanded the review to consider all of Africa. The initial step of this rapid review was conducted using PRISMA protocols, as explained in Vasseur et al. [11] . Briefly, PRISMA is an internationally recognized set of guidelines that are followed to create robust, repeatable review methodologies (see Tricco et al., 2018 for further details [20] ). The original protocol from Vasseur et al. [11] is also registered on the Open Science Framework (https://doi.org/10.17605/OSF.10/PKH98, accessed on 13 January 2022). The first search was conducted in March 2021, while an updated search was performed on October 2021 at Brock University (Niagara Region, ON, Canada; ISP address 70.54.102.247). In addition to these searches, a new search was conducted by adding the search terms \"AND (gender OR wom* OR female* OR girl*) to the previous search string. Articles that did not focus on COVID-19, gender and food security inclusively were discarded."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods",
+            "text": "Any article that focused on or mentioned any pre-determined gender-related terms (i.e., \"gender\", \"wom\", \"female\", \"girl\", \"marginal\", \"vulnerable\") was retained for further screening (phrases were detected by using a search feature (in Adobe \u00ae Acrobat \u00ae software on the entire article). Relevant 'hits' were then checked for context/relevance of any of the terms that were present in the respective document. If any additional relevant references were discovered during the assessment of returned articles, they were also retained and screened as secondary findings. Once all articles were screened and relevant documents pooled together, each were subjected to an in-depth reading and extraction process."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods",
+            "text": "Each article retained for final extraction was categorized according to the location of reference (either a country or region), which of the four pillars of food security that the article touched upon (availability, access, utilization, or stability), the type of article that was being considered (e.g., grey or peer-reviewed, qualitative and/or quantitative), and whether it was an original study, opinion, report or review. Media outlet documents were not considered for this review. Each article was further evaluated for whether or not it provided evidence or only predictions concerning the effect of COVID-19 and food security on existing inequalities between women and men in Africa (i.e., 'category'). Finally, for those articles that were considered to provide evidence, a qualitative rating was applied to describe the overall message according to the evidence presented (this process was also applied separately to predictive documents). Ratings indicated whether inequalities between women and men remained neutral, were negative (i.e., women experienced less inequality than normal), positive (i.e., women experienced higher inequality than normal), or mixed (i.e., both women and men experienced context-dependent inequalities, sometimes higher, sometimes lower, sometimes both depending on the parameter) for women relative to men, or unknown based on insufficient evidence."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 896,
+                    "ref_id": "TABREF0",
+                    "start": 887,
+                    "text": "(Table 1)"
+                }
+            ],
+            "section": "Results and Discussion",
+            "text": "Of the 4583 screened documents, 1005 (22%) underwent a full text review with a further 76 (8%) subjected to the Adobe \u00ae gender search term locator strategy. By the end, 28 of the 76 articles (37%) were retained for information extraction, three of which were used strictly as background material (see S1 for PRISMA flow chart). Of the 25 retained articles, 10 reported some evidence of how COVID-19 and food security was influencing preexisting inequalities between women and men in Africa (Ghana = 1, Kenya = 2 including 1 that also focuses on Uganda, Nigeria = 4, South Africa = 2 and West Africa, including Ghana, Nigeria, Niger, Liberia, Sierra Leone, and Guinea = 1). Seven of the evidence-based articles were peer reviewed. All other articles (n = 15) reported predictive information based on what may happen due to previous pandemics, gender disparities, or anecdotal information (Table 1) . Therefore, on the initial 1005 articles that went for a full review, only 25 (i.e., 2%) had the combination of COVID-19 pandemic x food security x gender/women issues. 1 Type: Qn = quantitative, Ql = qualitative, P = peer reviewed, G = grey, R = research, Re = review, Rp = report, O = opinion; 2 As it relates to gender; 3 inequalities experienced by women as compared to men (neutral = no change, lower = women experienced less inequality than normal, higher = women experienced more inequality than normal, mixed = context-dependent changes between women and men both lower and higher, unknown = insufficient evidence to assign a rating)."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 735,
+                    "ref_id": "BIBREF11",
+                    "start": 731,
+                    "text": "[11]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Pillars",
+            "text": "Regarding food security, four out of the ten evidence-based articles focused on all four pillars (i.e., availability, access, utilization, and stability), albeit not always leading to the potential for interpretation of contextual error. The least referred to pillars were those of utilization (n = 4) and stability (n = 5) while access was referred to in no less than nine articles (availability n = 6). Of the retained predictive documents, more than half referred to all four pillars together (n = 8/15), and each individual pillar was found to be represented in over 50% of the retained articles. A more detailed discussion regarding the effects of the COVID-19 pandemic on food security pillars is presented in Vasseur et al. [11] . Predictions were clearly different than evidence-based research methods, and we must do a better job of designing research that focuses on all four pillars (preferably at the same time, as they are all connected)."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 641,
+                    "ref_id": "BIBREF25",
+                    "start": 637,
+                    "text": "[25]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Neutral and Mixed",
+            "text": "Four of the 10 evidence-based articles analyzed in this study were interpreted as reporting neutral gender inequalities linked to COVID-19 and food security. Three were interview-based studies targeting mainly respondents with post-secondary education, which may have been due to the use of internet-driven surveys. Since an internet platform is often not accessible to all individuals in a population, these studies should be acknowledged as being somewhat unrepresentative of countries in general. Folayan et al. reported mixed results when interviewing 4439 Nigerians (53% of whom were women and 80.9% of whom had tertiary education) [25] . Overall, women and men reported similar financial losses (when no other variables were considered-with men reporting slightly higher at 58% compared to 55% for women). Food security was similar between men and women, with only 1% more women reporting being food insecure than men (21% vs. 20%). Overall, the odds of males being more food insecure were found to be lower than females; however, the authors admitted that gender was reported but not investigated to its fullest extent. Additionally, respondents who reported a negative impact of the pandemic on their daily life were mainly those with a primary school education. A separate gender analysis within this sub-sample was not conducted."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 228,
+                    "ref_id": "BIBREF24",
+                    "start": 224,
+                    "text": "[24]"
+                },
+                {
+                    "end": 1089,
+                    "ref_id": "BIBREF21",
+                    "start": 1085,
+                    "text": "[21]"
+                },
+                {
+                    "end": 1687,
+                    "ref_id": "BIBREF28",
+                    "start": 1683,
+                    "text": "[28]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Neutral and Mixed",
+            "text": "A study conducted by the Bayero University Kano's Centre for Dryland Agriculture in Nigeria found that 75% of the women interviewed reported that no discrimination was placed on them by farm operators when attending markets [24] . However, these statistics must be interpreted carefully, as only 7/26 of those interviewed were women. The authors go on to suggest that this may have been due to women having higher workloads (e.g., care economy) due to restrictions and the inability to attend markets. It is also worth noting that individuals interviewed were mainly university staff, employed, and living in an urban setting, which does not necessarily give an accurate representation of the situation, as surveys would not have represented more vulnerable populations such as rural subsistence farmers, women-headed households or individuals that are not highly educated. Iddi et al. reported that 12% of Ghanaians surveyed through an online questionnaire about stress levels linked to well-being felt stressed about the possibility of getting COVID-19, thus causing food insecurity [21] . The study group was mainly composed of young people (56% under 34, 86% under 44, and 44% having no children), 79% lived in urban Ghana, 98.7% possessed a post-secondary education level, and 72% were employed by the government. Males and females' feelings in this group were found to be quite similar. A more inclusive interview process (e.g., all ages, all occupations, inclusive of rural environments) would present a clearer picture as to the current situation. Furthermore, HSRC echoed a similar sentiment regarding the lack of disaggregated data being a problem in South African studies [28] . Thus, disaggregation of any data that reports on women and men is an urgent need for future research."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 495,
+                    "ref_id": "BIBREF26",
+                    "start": 491,
+                    "text": "[26]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Neutral and Mixed",
+            "text": "A few studies looked at food security at the household level by performing a gender analysis using the head of the household. Although better than using data that are not disaggregated, looking at the gender issue at the level of head of household does not necessarily present a complete understanding of the situation that women face. For example, Ibukun and Adebayo conducted interviews to evaluate the state of food security at the household level during the COVID-19 pandemic in Nigeria [26] . Gender was not specifically analyzed, and results indicated that, education level income, and wealth status determined whether households reported being food insecure-of which more than half reported being severely food insecure. Moreover, the authors report that 10% of households in the North are female headed as opposed to 25% of the households in the South. The difference is significant and demonstrates that regional discrepancies may occur, and research should be conducted and reported accordingly so as not over-generalize. Furthermore, such studies completely omit the male and female relationships and how decisions are made within a household. This concern underlines the need for on the ground analysis of the conditions and the importance of interviewing women and men separately, as conditions can differ greatly."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 316,
+                    "ref_id": "BIBREF32",
+                    "start": 312,
+                    "text": "[31]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Neutral and Mixed",
+            "text": "Chitiga et al. present an interesting model that demonstrates differences in loss of income between female-headed and male-headed households (i.e., women losing more) using micromodel simulations based on gender differences in employment sectors to assess redistributive impacts of economic scenarios on poverty [31] . Their simulations indicated a higher impact on female poverty (increase by 5% from 46% to 51% in the severe scenario). Some of the model inputs relied on 2012 statistical data (e.g., poverty rates), and it wasn't clear whether they accounted for any sort of government COVID-19 and food security assistance that could have been applied. It must also be understood that the model itself is still just predictive and not necessarily a reflection of what is happening. In addition, the simulation looks at the impact on household poverty and does not provide direct information about food security within households."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 352,
+                    "ref_id": "BIBREF16",
+                    "start": 348,
+                    "text": "[16]"
+                },
+                {
+                    "end": 790,
+                    "ref_id": "BIBREF15",
+                    "start": 786,
+                    "text": "[15]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Neutral and Mixed",
+            "text": "The remaining two articles in the neutral category focused on a more heterogeneous population. Chiwona-Karltun et al. found no differences between men and women's likelihood of increased worries; however, they noted that 70% of respondents were from urban areas, supporting a need to understand whether differences would be found in rural settings [16] . Their conclusions were based mainly on predictions from past crises and evidence of gender disparity in other contexts (some from the 1990s). The complexity of highlighting gendered differences due to the social-construct of the concept of \"foodworry\" should be noted. Maula recommended that more work needed to be done towards collecting, reporting, and disseminating better data surrounding gender impacts, as the data were poor [15] . It is therefore difficult to confirm that gender inequalities continue to happen at the alarming rate with what is currently being reported in the literature, (even though many would agree that it is) or if COVID-19 is aggravating current situations."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 302,
+                    "ref_id": "BIBREF26",
+                    "start": 298,
+                    "text": "[26]"
+                },
+                {
+                    "end": 816,
+                    "ref_id": "BIBREF30",
+                    "start": 812,
+                    "text": "[29]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Higher Effect Reporting",
+            "text": "Only two evidence articles were found to report higher inequalities faced by women linked to COVID-19 pandemic and food security. Liverpool-Tasie et al. conducted surveys focused mainly on hidden components of food supply chains and how they were negatively affected during initial pandemic stages [26] . While only two points were given concerning impacts to women, they were related to loss of employment and therefore a critical component of food security (e.g., Nigerian fish businesses went from supporting 20% to 2% female employment between February-pre-pandemic and April; however, males were also impacted, but to a lesser extent, with total man workers dropping to 20% from 50% during same period). In South Africa, interviews (n = 40; women = 22, men = 18) provided insight into women vs. men farmers [29] . While in general there were no formal reports about differences in gender, the study found that only women farmers lost access to land (n = 2), and five out of six farmers who had to halt production completely were women (two women farmers voluntarily stopped work to stay at home to care for family). In both articles, results suggest that women are losing their jobs more readily than men. Future research should examine the reasons and how jobs are lost i.e., whether women are leaving of their own free will or whether they are laid off in greater proportion than men."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 248,
+                    "ref_id": "BIBREF9",
+                    "start": 245,
+                    "text": "[9,"
+                },
+                {
+                    "end": 252,
+                    "ref_id": "BIBREF35",
+                    "start": 249,
+                    "text": "34,"
+                },
+                {
+                    "end": 256,
+                    "ref_id": "BIBREF37",
+                    "start": 253,
+                    "text": "36,"
+                },
+                {
+                    "end": 260,
+                    "ref_id": "BIBREF39",
+                    "start": 257,
+                    "text": "38]"
+                },
+                {
+                    "end": 322,
+                    "ref_id": "BIBREF14",
+                    "start": 318,
+                    "text": "[14,"
+                },
+                {
+                    "end": 326,
+                    "ref_id": "BIBREF18",
+                    "start": 323,
+                    "text": "18,"
+                },
+                {
+                    "end": 330,
+                    "ref_id": "BIBREF31",
+                    "start": 327,
+                    "text": "30,"
+                },
+                {
+                    "end": 334,
+                    "ref_id": "BIBREF33",
+                    "start": 331,
+                    "text": "32,"
+                },
+                {
+                    "end": 338,
+                    "ref_id": "BIBREF38",
+                    "start": 335,
+                    "text": "37]"
+                },
+                {
+                    "end": 371,
+                    "ref_id": "BIBREF31",
+                    "start": 367,
+                    "text": "[30]"
+                },
+                {
+                    "end": 500,
+                    "ref_id": "BIBREF17",
+                    "start": 496,
+                    "text": "[17,"
+                },
+                {
+                    "end": 504,
+                    "ref_id": "BIBREF33",
+                    "start": 501,
+                    "text": "32,"
+                },
+                {
+                    "end": 508,
+                    "ref_id": "BIBREF38",
+                    "start": 505,
+                    "text": "37]"
+                },
+                {
+                    "end": 875,
+                    "ref_id": "BIBREF14",
+                    "start": 871,
+                    "text": "[14]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Higher Effect Reporting",
+            "text": "Most predictive articles reported likelihoods of higher inequalities to be experienced by women related to COVID-19 and food security (n = 10/15). Many predicted that more women would experience increased food insecurity under COVID-19 than men [9, 34, 36, 38] , many also warned of increases in gender-based violence [14, 18, 30, 32, 37] . However, Tom and Chipenda [30] did not offer actual evidence of such occurrences and a few documents seemed to base their predictions on global statistics [17, 32, 37] , which did not necessarily provide an actual picture of the current conditions in Africa. Breakfast's and Nomarwayi's predictions of increased violence linked to food security and the pandemic suggested that this was more likely to occur in rural settings, where police presence was typically lower, indicating a need to target future research in such settings [14] . Overall, the number of predictive documents that reported increases in female and male inequalities underlined the urgent need for research focusing on on-the-ground, real-time evidence collection in African nations, particularly in rural regions. Understanding how women deal with food insecurity, pandemics, and power struggles can also define how these factors impact their health and capacity to continue providing, especially for their children."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 479,
+                    "ref_id": "BIBREF23",
+                    "start": 475,
+                    "text": "[23]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Lower or Unknown Reporting",
+            "text": "Only a single evidence study and none of the predictive studies alluded to a possible lower rate of inequality experienced by women due to the COVID-19 pandemic and food security-related conditions. Surveys conducted by Kansiime et al. found that both Kenya and Uganda food insecurity increased (especially in low-income households), but that the only clear difference between women and men was that men reported COVID-attributed income loss 11% more than female respondents [23] . However, surveys were conducted through the internet, with most respondents having tertiary education levels (85% in Kenya and 97% in Uganda), and 50% to 73% of respondents were salaried employees. Therefore, a large portion of the vulnerable and rural populations was likely missed. The authors also indicated that two thirds of the respondents were male (from mainly male headed households), which questioned how many individuals and women of the vulnerable or rural population (in this case women) were missed entirely."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 328,
+                    "ref_id": "BIBREF22",
+                    "start": 324,
+                    "text": "[22]"
+                },
+                {
+                    "end": 786,
+                    "ref_id": "BIBREF19",
+                    "start": 782,
+                    "text": "[19]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Lower or Unknown Reporting",
+            "text": "The final four documents considered in the study (evidence n = 2, predictive n = 2) were categorized as drawing unknown conclusions yet were worthy of consideration. Shupler et al. reported that since the onset of the pandemic, nine out of ten households considered themselves to be more food insecure due to loss of income [22] . The main issue with this article was that while women versus men were considered in the initial baseline survey, data were combined in the follow-up survey, making it impossible to determine who was most affected. While Saalim et al. presented a very structured PRISMA media review that focused somewhat on women and pandemic food security specifically, the authors made many predictions based on information gathered from the previous Ebola epidemic [19] . Much of the media reviewed used terms such as \"at-risk\" or \"serious concerns about\" when referring to the safety and security of women. Children might have been the most vulnerable in terms of food security and violence (assumingly, both girls and boys were reported together). They only mentioned one article that reported gender-based violence both before and after the onset of the COVID-19 pandemic (i.e., in Liberia). However, upon closer investigation, they did not provide clear details on comparisons between pre-and post-COVID numbers. Their study showed that the media, although mainly anecdotal in nature, reported a great deal of information concerning current gender-based disparities. Caution should be taken when using media materials, as there could be bias. A media-review should be used with a critical eye on the sources of the materials."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 155,
+                    "ref_id": "BIBREF34",
+                    "start": 151,
+                    "text": "[33]"
+                },
+                {
+                    "end": 792,
+                    "ref_id": "BIBREF36",
+                    "start": 788,
+                    "text": "[35]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Lower or Unknown Reporting",
+            "text": "Badu et al. did not examine food insecurity-driven gender disparities of the pandemic but mentioned the probability of increased gender-based violence [33] . The authors suggested that mitigation protocols should be put in place to help any potential food security or gender disparity issues. They also mentioned the need to support vulnerable groups, yet they do not specifically include women as being part of vulnerable groups (instead they indicate that they are referring to low income, senior and disabled individuals). Lung'aho also mentioned in passing that food security policy should focus on gender as well as to allow for marginalized people to actively participate in the crafting of such policy without offering up much information on what the status of either is currently [35] . Mitigation strategies being implemented based on predictions are one way to help women during the COVID-19 crisis, but we must also consider where and how such strategies are initiated, and if they are working or even utilized."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 598,
+                    "ref_id": "BIBREF19",
+                    "start": 594,
+                    "text": "[19]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Limitations of the Review and Needs",
+            "text": "There are several limitations that apply to this study, including the decision to completely disregard media reports. In some cases, media reports may be the only way to access information that applies to some of the more remote areas of Africa, especially during the pandemic. The lack of evidence-based information from remote rural areas and/or vulnerable populations does not mean that these individuals are not experiencing insecurities and inequalities, only that they have not yet been reported on reliability or formally recognized. Saalim et al., for example, used such a media review [19] . They identified women and children as the most discussed vulnerable groups in media during the pandemic and food insecurity and poverty as cross-cutting issues for the vulnerable populations. While their data may suggest self-reporting for occurrences of gender-based violence and other health issues, bias may exist in such analysis and may not explain the root causes of the issues."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations of the Review and Needs",
+            "text": "This review shows that a clear disparity exists in the number of available statistics in terms of how many studies and reports disseminate clear and consistent gender information. Obtaining data that include separation by sex as well as actual methodological reporting is crucial to better understand the situation on the ground and push for the implementation of gender-sensitive policy changes. Since PRISMA protocols were used to search the English literature, it may also be beneficial to conduct searches for French language publications, including more local journals, given that many West African countries are mainly French speaking. During any pandemic or other disasters, there is a tendency to rapidly acquire data to demonstrate impacts without having a detailed understanding of the conditions on the ground. Unfortunately, most measures, policies and even aid are based on such rapid assessments that do not consider gender issues, power relations between men and women, and social classes, among many aspects of a crisis such as a pandemic."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations of the Review and Needs",
+            "text": "The COVID-19 pandemic in Africa has exposed the need to better understand what is happening on-the-ground in terms of the food insecurity and other inequalities faced by women. There is a need to explore not just how we think individuals may be affected but how they are being effectively affected, and how to create better reporting options and support for occurrences of gender-based violence and the like. There is an urgent need to better understand the needs of individuals, particularly women (e.g., farmers, caregivers, traders) and to apply gender specific variables/questions to all research that seeks to address socially negative, pandemic-related effects on their health, wellbeing, and conditions due to food insecurity. When investigating concepts such as food security, there is an additional need to address all four pillars (i.e., availability, access, utilization, and stability), as each pillar is intimately connected to the other."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions",
+            "text": "This study investigates what is currently known about the association between the COVID-19 pandemic in terms of the restrictive measures and the effects on food security, and gender disparities as they exist in Africa. Results demonstrated that disparities exist in the reporting of data regarding rural versus urban and women versus men. It was further found that a large portion of the literature focuses on predictions surrounding what may happen during the COVID-19 pandemic, most of which predicted women would be subjected to increased inequality. No literature was found about the impact of the pandemic-related stress on power relationships between genders. Less literature investigated actual evidence that supported what was being predicted; however, reporting disparities between gender within communities and households and a general lack of on-the-ground, well-designed, evidence-based research suggests that we are missing the full picture. The study also highlighted a lack of evidence and studies conducted in West Africa, and furthermore an absence of studies on gender impact during COVID-19 in Burkina Faso and Senegal, especially on women, their food insecurity, and their health. Further studies that focus on collecting disaggregated data from rural settings that also consider media reports prior to designing research questions is recommended."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions",
+            "text": "Supplementary Materials: The following supporting information can be downloaded at: https: //www.mdpi.com/article/10.3390/ijerph19042065/s1, Document S1: PRISMA Flow Diagram."
+        }
+    ],
+    "metadata": {
+        "authors": [],
+        "title": ""
+    },
+    "paper_id": "27805b0ec10c9dd7fc74cba4d1f8c698431a2757",
     "ref_entries": {
         "FIGREF0": {
-            "text": "This review constitutes the knowledge base for an IDRC-funded research project implemented by the Centre d'\u00e9tudes et de cooperation internationale (CECI) based in Canada, in partnership with the Centre d'\u00c9tudes, de Documentation et de recherche \u00c9conomique et Sociale (CEDRES) in Burkina Faso, the \u00c9cole Nationale Sup\u00e9rieur d'Agriculture (ENSA) de Thi\u00e9s in Senegal, and Brock University in Canada: \"COVID-19, food security, and opportunities for reconfiguring unequal gender relations in Burkina Faso and Senegal\".",
             "latex": null,
+            "text": "This review constitutes the knowledge base for an IDRC-funded research project implemented by the Centre d'\u00e9tudes et de cooperation internationale (CECI) based in Canada, in partnership with the Centre d'\u00c9tudes, de Documentation et de recherche \u00c9conomique et Sociale (CEDRES) in Burkina Faso, the \u00c9cole Nationale Sup\u00e9rieur d'Agriculture (ENSA) de Thi\u00e9s in Senegal, and Brock University in Canada: \"COVID-19, food security, and opportunities for reconfiguring unequal gender relations in Burkina Faso and Senegal\".",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "A summary of the extraction information for the 25 retained articles including category, location, type, pillars addressed, direction of women inequality changes, and article citations.",
             "latex": null,
+            "text": "A summary of the extraction information for the 25 retained articles including category, location, type, pillars addressed, direction of women inequality changes, and article citations.",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "The authors declare that they have no conflicts of interest.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "Conflicts of Interest:"
-        }
-    ]
+    }
 }

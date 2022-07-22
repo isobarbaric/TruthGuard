@@ -1,503 +1,503 @@
 {
-    "paper_id": "2777407dbbae581aa02f0db15cc4375d7ed1d9ab",
-    "metadata": {
-        "title": "Journal Pre-proof Community COVID-19 activity level and nursing home staff testing for active SARS- CoV-2 infection in Indiana Community COVID-19 activity level and nursing home staff testing for active SARS-CoV- 2 infection in Indiana",
-        "authors": [
-            {
-                "first": "Justin",
-                "middle": [],
-                "last": "Blackburn",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Fairbanks School of Public Health at Indianapolis",
-                    "location": {
-                        "settlement": "Indianapolis",
-                        "region": "IN",
-                        "country": "USA"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Lindsay",
-                "middle": [],
-                "last": "Weaver",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Liza",
-                "middle": [],
-                "last": "Cohen",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Regenstrief Institute, Inc",
-                    "location": {
-                        "region": "Indianapolis, IN",
-                        "country": "USA"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Nir",
-                "middle": [],
-                "last": "Menachemi",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Fairbanks School of Public Health at Indianapolis",
-                    "location": {
-                        "settlement": "Indianapolis",
-                        "region": "IN",
-                        "country": "USA"
-                    }
-                },
-                "email": ""
-            },
-            {
-                "first": "Dan",
-                "middle": [],
-                "last": "Rusyniak",
-                "suffix": "",
-                "affiliation": {},
-                "email": ""
-            },
-            {
-                "first": "Kathleen",
-                "middle": [
-                    "T"
-                ],
-                "last": "Unroe",
-                "suffix": "",
-                "affiliation": {
-                    "laboratory": "",
-                    "institution": "Regenstrief Institute, Inc",
-                    "location": {
-                        "region": "Indianapolis, IN",
-                        "country": "USA"
-                    }
-                },
-                "email": ""
-            }
-        ]
-    },
     "abstract": [],
-    "body_text": [
+    "back_matter": [
         {
-            "text": "Nursing home residents have been disproportionately affected by the coronavirus 2019 30 pandemic. In the US, 33-82% of COVID-19 deaths are residents of long-term care 31 facilities, a proportion similar to Canada and across Europe. 1, 2 Underlying conditions, including 32 type 2 diabetes mellitus, serious heart conditions, and chronic kidney disease, make residents at 33 high risk for complications of infection from severe acute respiratory coronavirus 2 (SARS-CoV-34 2). 3,4 Until recently, facilities had largely shut down visitation and only allowed essential staff, 35 who are screened for SARS-CoV-2 symptoms, to enter and provide care for residents and 36 monitor their health status. 4 Despite these measures, 50,000-80,000 deaths have occurred in 37 long-term care facilities as of October 1, 2020. 2,5 As cases continue to rise, surveillance of 38 infected staff is paramount to protecting nursing home residents. 39 Asymptomatic transmission of SARS-CoV-2 by staff, followed by rapid spread, is 40 believed to be the major contributing factor to outbreaks in nursing homes. 6,7 On May 18, 2020, 41 CMS first recommended weekly testing of all nursing home staff, but advised that local and state 42 governments could adjust this frequency according to local factors. 8 Resource limitations 43 including testing supply shortages (e.g. swabs, reagents), costs, reporting delays, and logistical 44 issues have challenged states and facilities to develop and implement comprehensive weekly 45 testing programs. [9] [10] [11] CMS has begun to distribute 15,000 point-of-care testing machines, along 46 with an initial supply of testing materials, to every nursing home in the United States. 12 Indiana's data, in order to capture all facilities with a positive staff (i.e., sensitivity of 100%), the 116 testing threshold must be set at 1% county positivity rate; consequently, this would also test 97% 117 of facilities without any positive staff. As evidenced by AUC values near 0.5, the use of community COVID-19 activity was slightly better than chance at distinguishing facilities with 119 positive cases versus none.",
-            "cite_spans": [
-                {
-                    "start": 232,
-                    "end": 234,
-                    "text": "1,",
-                    "ref_id": null
-                },
-                {
-                    "start": 235,
-                    "end": 236,
-                    "text": "2",
-                    "ref_id": null
-                },
-                {
-                    "start": 574,
-                    "end": 576,
-                    "text": "35",
-                    "ref_id": null
-                },
-                {
-                    "start": 794,
-                    "end": 814,
-                    "text": "October 1, 2020. 2,5",
-                    "ref_id": null
-                },
-                {
-                    "start": 927,
-                    "end": 929,
-                    "text": "39",
-                    "ref_id": null
-                },
-                {
-                    "start": 1303,
-                    "end": 1305,
-                    "text": "43",
-                    "ref_id": null
-                },
-                {
-                    "start": 1520,
-                    "end": 1523,
-                    "text": "[9]",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 1524,
-                    "end": 1528,
-                    "text": "[10]",
-                    "ref_id": null
-                },
-                {
-                    "start": 1529,
-                    "end": 1533,
-                    "text": "[11]",
-                    "ref_id": "BIBREF11"
-                },
-                {
-                    "start": 1607,
-                    "end": 1609,
-                    "text": "46",
-                    "ref_id": null
-                },
-                {
-                    "start": 1699,
-                    "end": 1701,
-                    "text": "12",
-                    "ref_id": null
-                }
-            ],
-            "ref_spans": [],
-            "section": "29"
-        },
-        {
-            "text": "Other findings from this statewide testing initiative suggest key characteristics of staff 121 and facilities may require additional monitoring. Among CNAs, infections were nearly 9 122 percentage points greater than expected based on their proportional make-up, and 3 percentage 123 points greater for LPNs. Both roles provide direct patient care and present higher risk of staff-to-124 resident or resident-to-staff transmission than other roles. Likewise, facilities with the most staff 125 were overrepresented with positive cases, perhaps because of more potential exposures by staff 126 outside the facility or because these were located in areas with greater transmission. Although its 127 usefulness is limited in guiding testing efforts, per our results, we do observe facilities are more 128 likely to have SARS-CoV-2 infected staff in areas with higher COVID-19 activity. As the 129 nursing home industry, state and federal governments grapple with the logistics and costs of 130 ongoing staff testing, thresholds to determine frequencies needed to identify outbreaks quickly 131 will require continued examination.",
             "cite_spans": [],
             "ref_spans": [],
-            "section": "120"
+            "section": "acknowledgement",
+            "text": "Acknowledgements: This work was supported by the Indiana State Department of Health. We would like to acknowledge the contributions of Matt Foster and Brenda Buroker from the Indiana State Department of Health, and Russ Evans of Probari, Inc."
         },
         {
-            "text": "Our analyses have limitations which include using cross-sectional data not suited for 133 determining cause-and-effect. Although we used the official state counts for community COVID-134 19 spread, we recognize that the data systems and reporting procedures are rapidly evolving and 135 could affect our conclusions as data quality improves. Missing information and staff refusal rates 136 may have affected our conclusions, as approximately 21% of the estimated number of staff had 137 missing data. A considerable number of staff were on extended leave due to COVID-19 concerns 138 and likely contributed to this proportion with missing data. This missing data also highlight 139 challenges to facilities in administering and coordinating testing efforts and the lack of any prior 140 infrastructure for facilities to report results for state officials to monitor. Furthermore, per current but consultants and contractors as well. The small numbers of physicians and advance practice 143 providers who were tested during this state-sponsored initiative may reflect additional challenges 144 in coordinating testing or receiving test results from outside laboratories for these providers 145 within narrow timeframes. long-term care facilities as of October 1, 2020. 2,5 As cases continue to rise, surveillance of 38 infected staff is paramount to protecting nursing home residents.",
-            "cite_spans": [
-                {
-                    "start": 580,
-                    "end": 583,
-                    "text": "138",
-                    "ref_id": null
-                }
-            ],
+            "cite_spans": [],
             "ref_spans": [],
-            "section": "132"
-        },
-        {
-            "text": "Asymptomatic transmission of SARS-CoV-2 by staff, followed by rapid spread, is 40 believed to be the major contributing factor to outbreaks in nursing homes. 6,7 On May 18, 2020, 41 CMS first recommended weekly testing of all nursing home staff, but advised that local and state 42 governments could adjust this frequency according to local factors. 8 Resource limitations 43 including testing supply shortages (e.g. swabs, reagents), costs, reporting delays, and logistical 44 issues have challenged states and facilities to develop and implement comprehensive weekly 45 testing programs. [9] [10] [11] CMS has begun to distribute 15,000 point-of-care testing machines, along 46 with an initial supply of testing materials, to every nursing home in the United States. 12 Testing capacity is also being supplemented by the distribution of Abbott BinaxNOW point-of-care 48 antigen test cards by the Department of Health and Human Services. 13 New guidance issued by 49 CMS on August 26, 2020 has set the minimum frequency of routine staff testing based on 50 community COVID-19 activity: <5% monthly, 5% to 10% weekly, >10% twice weekly. 14 51 J o u r n a l P r e -p r o o f consequences. 14 A new SARS-CoV-2 infection in any staff member is considered an outbreak by 53 CMS; 15 relying on community COVID-19 activity level remains an untested strategy to identify 54 any facility with at least one infected staff member. ",
-            "cite_spans": [
-                {
-                    "start": 590,
-                    "end": 593,
-                    "text": "[9]",
-                    "ref_id": "BIBREF5"
-                },
-                {
-                    "start": 594,
-                    "end": 598,
-                    "text": "[10]",
-                    "ref_id": null
-                },
-                {
-                    "start": 599,
-                    "end": 603,
-                    "text": "[11]",
-                    "ref_id": "BIBREF11"
-                }
-            ],
-            "ref_spans": [],
-            "section": "39"
+            "section": "annex",
+            "text": "J o u r n a l P r e -p r o o f"
         }
     ],
     "bib_entries": {
         "BIBREF1": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b1",
             "title": "Epidemiology of Covid-19 in a long-term care facility in King County",
-            "authors": [],
-            "year": null,
             "venue": "Washington. N Engl J",
             "volume": "178",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF3": {
-            "ref_id": "b3",
-            "title": "Nursing Home Reopening Recommendations 180 for State and Local Officials",
-            "authors": [],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF4": {
-            "ref_id": "b4",
-            "title": "Baltimore (MD): HHS",
-            "authors": [],
-            "year": 2020,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF5": {
-            "ref_id": "b5",
-            "title": "More than half of nursing homes",
-            "authors": [
-                {
-                    "first": "D",
-                    "middle": [],
-                    "last": "Brown",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "ALFs report difficulty with labs processing",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF6": {
-            "ref_id": "b6",
-            "title": "COVID-19 tests",
-            "authors": [],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF7": {
-            "ref_id": "b7",
-            "title": "McKnight's Long-Term Care News",
-            "authors": [],
-            "year": 2020,
-            "venue": "",
-            "volume": "2",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF8": {
-            "ref_id": "b8",
-            "title": "House Briefing: COVID-19 in Nursing Homes \"Blasted the Doors Open of a 187",
-            "authors": [
-                {
-                    "first": "M",
-                    "middle": [],
-                    "last": "Flynn",
-                    "suffix": ""
-                }
-            ],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
-        },
-        "BIBREF9": {
-            "ref_id": "b9",
-            "title": "System that Was Already Failing",
-            "authors": [],
-            "year": null,
-            "venue": "",
-            "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF10": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b10",
             "title": "Skilled Nursing News",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "11",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF11": {
-            "ref_id": "b11",
-            "title": "To Curb COVID-19 Nursing Home Deaths, States Design their Own Testing 192",
             "authors": [
                 {
                     "first": "C",
-                    "middle": [],
                     "last": "Kukka",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b11",
+            "title": "To Curb COVID-19 Nursing Home Deaths, States Design their Own Testing 192",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF13": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b13",
             "title": "The National Academy for State Health Policy",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "25",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF14": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b14",
             "title": "194 nursing-home-deaths-states-design-their-own-testing-strategies/ Resources to Protect Nursing Home Residents Against COVID-19",
-            "authors": [],
-            "year": 2020,
             "venue": "Baltimore",
             "volume": "197",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF15": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b15",
             "title": "Distribution to Nursing Homes and Assisted Living Facilities",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "202",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF16": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b16",
             "title": "Additional Policy and Regulatory Revisions in Response to the COVID-19 Public Health 207 Emergency related to Long-Term Care (LTC) Facility Testing Requirements and",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF17": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b17",
             "title": "COVID-19 Focused Survey Tool",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF18": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b18",
             "title": "Baltimore (MD): HHS",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": 2020
         },
         "BIBREF19": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b19",
             "title": "Centers for Disease Control and Prevention. Testing Guidelines for Nursing Homes: Interim",
-            "authors": [],
-            "year": null,
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF20": {
-            "ref_id": "b20",
-            "title": "Testing Guidelines for Nursing Home Residents and Healthcare Personnel 212",
             "authors": [
                 {
                     "first": "",
-                    "middle": [],
                     "last": "Sars-Cov-2",
+                    "middle": [],
                     "suffix": ""
                 }
             ],
-            "year": null,
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b20",
+            "title": "Testing Guidelines for Nursing Home Residents and Healthcare Personnel 212",
             "venue": "",
             "volume": "",
-            "issn": "",
-            "pages": "",
-            "other_ids": {}
+            "year": null
         },
         "BIBREF21": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
             "ref_id": "b21",
             "title": "HHS",
-            "authors": [],
-            "year": 2020,
             "venue": "",
             "volume": "",
+            "year": 2020
+        },
+        "BIBREF3": {
+            "authors": [],
             "issn": "",
+            "other_ids": {},
             "pages": "",
-            "other_ids": {}
+            "ref_id": "b3",
+            "title": "Nursing Home Reopening Recommendations 180 for State and Local Officials",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF4": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b4",
+            "title": "Baltimore (MD): HHS",
+            "venue": "",
+            "volume": "",
+            "year": 2020
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Brown",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b5",
+            "title": "More than half of nursing homes",
+            "venue": "ALFs report difficulty with labs processing",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF6": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b6",
+            "title": "COVID-19 tests",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF7": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b7",
+            "title": "McKnight's Long-Term Care News",
+            "venue": "",
+            "volume": "2",
+            "year": 2020
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Flynn",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b8",
+            "title": "House Briefing: COVID-19 in Nursing Homes \"Blasted the Doors Open of a 187",
+            "venue": "",
+            "volume": "",
+            "year": null
+        },
+        "BIBREF9": {
+            "authors": [],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b9",
+            "title": "System that Was Already Failing",
+            "venue": "",
+            "volume": "",
+            "year": null
         }
     },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 234,
+                    "ref_id": null,
+                    "start": 232,
+                    "text": "1,"
+                },
+                {
+                    "end": 236,
+                    "ref_id": null,
+                    "start": 235,
+                    "text": "2"
+                },
+                {
+                    "end": 576,
+                    "ref_id": null,
+                    "start": 574,
+                    "text": "35"
+                },
+                {
+                    "end": 814,
+                    "ref_id": null,
+                    "start": 794,
+                    "text": "October 1, 2020. 2,5"
+                },
+                {
+                    "end": 929,
+                    "ref_id": null,
+                    "start": 927,
+                    "text": "39"
+                },
+                {
+                    "end": 1305,
+                    "ref_id": null,
+                    "start": 1303,
+                    "text": "43"
+                },
+                {
+                    "end": 1523,
+                    "ref_id": "BIBREF5",
+                    "start": 1520,
+                    "text": "[9]"
+                },
+                {
+                    "end": 1528,
+                    "ref_id": null,
+                    "start": 1524,
+                    "text": "[10]"
+                },
+                {
+                    "end": 1533,
+                    "ref_id": "BIBREF11",
+                    "start": 1529,
+                    "text": "[11]"
+                },
+                {
+                    "end": 1609,
+                    "ref_id": null,
+                    "start": 1607,
+                    "text": "46"
+                },
+                {
+                    "end": 1701,
+                    "ref_id": null,
+                    "start": 1699,
+                    "text": "12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "29",
+            "text": "Nursing home residents have been disproportionately affected by the coronavirus 2019 30 pandemic. In the US, 33-82% of COVID-19 deaths are residents of long-term care 31 facilities, a proportion similar to Canada and across Europe. 1, 2 Underlying conditions, including 32 type 2 diabetes mellitus, serious heart conditions, and chronic kidney disease, make residents at 33 high risk for complications of infection from severe acute respiratory coronavirus 2 (SARS-CoV-34 2). 3,4 Until recently, facilities had largely shut down visitation and only allowed essential staff, 35 who are screened for SARS-CoV-2 symptoms, to enter and provide care for residents and 36 monitor their health status. 4 Despite these measures, 50,000-80,000 deaths have occurred in 37 long-term care facilities as of October 1, 2020. 2,5 As cases continue to rise, surveillance of 38 infected staff is paramount to protecting nursing home residents. 39 Asymptomatic transmission of SARS-CoV-2 by staff, followed by rapid spread, is 40 believed to be the major contributing factor to outbreaks in nursing homes. 6,7 On May 18, 2020, 41 CMS first recommended weekly testing of all nursing home staff, but advised that local and state 42 governments could adjust this frequency according to local factors. 8 Resource limitations 43 including testing supply shortages (e.g. swabs, reagents), costs, reporting delays, and logistical 44 issues have challenged states and facilities to develop and implement comprehensive weekly 45 testing programs. [9] [10] [11] CMS has begun to distribute 15,000 point-of-care testing machines, along 46 with an initial supply of testing materials, to every nursing home in the United States. 12 Indiana's data, in order to capture all facilities with a positive staff (i.e., sensitivity of 100%), the 116 testing threshold must be set at 1% county positivity rate; consequently, this would also test 97% 117 of facilities without any positive staff. As evidenced by AUC values near 0.5, the use of community COVID-19 activity was slightly better than chance at distinguishing facilities with 119 positive cases versus none."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "120",
+            "text": "Other findings from this statewide testing initiative suggest key characteristics of staff 121 and facilities may require additional monitoring. Among CNAs, infections were nearly 9 122 percentage points greater than expected based on their proportional make-up, and 3 percentage 123 points greater for LPNs. Both roles provide direct patient care and present higher risk of staff-to-124 resident or resident-to-staff transmission than other roles. Likewise, facilities with the most staff 125 were overrepresented with positive cases, perhaps because of more potential exposures by staff 126 outside the facility or because these were located in areas with greater transmission. Although its 127 usefulness is limited in guiding testing efforts, per our results, we do observe facilities are more 128 likely to have SARS-CoV-2 infected staff in areas with higher COVID-19 activity. As the 129 nursing home industry, state and federal governments grapple with the logistics and costs of 130 ongoing staff testing, thresholds to determine frequencies needed to identify outbreaks quickly 131 will require continued examination."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 583,
+                    "ref_id": null,
+                    "start": 580,
+                    "text": "138"
+                }
+            ],
+            "ref_spans": [],
+            "section": "132",
+            "text": "Our analyses have limitations which include using cross-sectional data not suited for 133 determining cause-and-effect. Although we used the official state counts for community COVID-134 19 spread, we recognize that the data systems and reporting procedures are rapidly evolving and 135 could affect our conclusions as data quality improves. Missing information and staff refusal rates 136 may have affected our conclusions, as approximately 21% of the estimated number of staff had 137 missing data. A considerable number of staff were on extended leave due to COVID-19 concerns 138 and likely contributed to this proportion with missing data. This missing data also highlight 139 challenges to facilities in administering and coordinating testing efforts and the lack of any prior 140 infrastructure for facilities to report results for state officials to monitor. Furthermore, per current but consultants and contractors as well. The small numbers of physicians and advance practice 143 providers who were tested during this state-sponsored initiative may reflect additional challenges 144 in coordinating testing or receiving test results from outside laboratories for these providers 145 within narrow timeframes. long-term care facilities as of October 1, 2020. 2,5 As cases continue to rise, surveillance of 38 infected staff is paramount to protecting nursing home residents."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 593,
+                    "ref_id": "BIBREF5",
+                    "start": 590,
+                    "text": "[9]"
+                },
+                {
+                    "end": 598,
+                    "ref_id": null,
+                    "start": 594,
+                    "text": "[10]"
+                },
+                {
+                    "end": 603,
+                    "ref_id": "BIBREF11",
+                    "start": 599,
+                    "text": "[11]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "39",
+            "text": "Asymptomatic transmission of SARS-CoV-2 by staff, followed by rapid spread, is 40 believed to be the major contributing factor to outbreaks in nursing homes. 6,7 On May 18, 2020, 41 CMS first recommended weekly testing of all nursing home staff, but advised that local and state 42 governments could adjust this frequency according to local factors. 8 Resource limitations 43 including testing supply shortages (e.g. swabs, reagents), costs, reporting delays, and logistical 44 issues have challenged states and facilities to develop and implement comprehensive weekly 45 testing programs. [9] [10] [11] CMS has begun to distribute 15,000 point-of-care testing machines, along 46 with an initial supply of testing materials, to every nursing home in the United States. 12 Testing capacity is also being supplemented by the distribution of Abbott BinaxNOW point-of-care 48 antigen test cards by the Department of Health and Human Services. 13 New guidance issued by 49 CMS on August 26, 2020 has set the minimum frequency of routine staff testing based on 50 community COVID-19 activity: <5% monthly, 5% to 10% weekly, >10% twice weekly. 14 51 J o u r n a l P r e -p r o o f consequences. 14 A new SARS-CoV-2 infection in any staff member is considered an outbreak by 53 CMS; 15 relying on community COVID-19 activity level remains an untested strategy to identify 54 any facility with at least one infected staff member. "
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {
+                    "institution": "Fairbanks School of Public Health at Indianapolis",
+                    "laboratory": "",
+                    "location": {
+                        "country": "USA",
+                        "region": "IN",
+                        "settlement": "Indianapolis"
+                    }
+                },
+                "email": "",
+                "first": "Justin",
+                "last": "Blackburn",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Lindsay",
+                "last": "Weaver",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Regenstrief Institute, Inc",
+                    "laboratory": "",
+                    "location": {
+                        "country": "USA",
+                        "region": "Indianapolis, IN"
+                    }
+                },
+                "email": "",
+                "first": "Liza",
+                "last": "Cohen",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Fairbanks School of Public Health at Indianapolis",
+                    "laboratory": "",
+                    "location": {
+                        "country": "USA",
+                        "region": "IN",
+                        "settlement": "Indianapolis"
+                    }
+                },
+                "email": "",
+                "first": "Nir",
+                "last": "Menachemi",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "Dan",
+                "last": "Rusyniak",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Regenstrief Institute, Inc",
+                    "laboratory": "",
+                    "location": {
+                        "country": "USA",
+                        "region": "Indianapolis, IN"
+                    }
+                },
+                "email": "",
+                "first": "Kathleen",
+                "last": "Unroe",
+                "middle": [
+                    "T"
+                ],
+                "suffix": ""
+            }
+        ],
+        "title": "Journal Pre-proof Community COVID-19 activity level and nursing home staff testing for active SARS- CoV-2 infection in Indiana Community COVID-19 activity level and nursing home staff testing for active SARS-CoV- 2 infection in Indiana"
+    },
+    "paper_id": "2777407dbbae581aa02f0db15cc4375d7ed1d9ab",
     "ref_entries": {
         "FIGREF0": {
-            "text": "the recommended 5% county positivity rate to guide weekly testing of all nursing 149 home staff may miss asymptomatic staff in these facilities. Further data on results of all-staff 150 testing efforts, particularly with the implementation of new widespread strategies such as point-151 of-care testing, is needed to guide policy to protect high risk nursing home residents and staff. COVID-19 outbreaks in care homes: early international evidence. International Long-155 Term Care Policy Network [Internet]. 3 May 2020 [cited 2020 Aug 11]. Available from: 156 https://ltccovid.org/wp-content/uploads/2020/05/Mortality-associated-with-COVID-J, Hall C, Orgera K, Singer N, Mengistu S, Tian M, et al. State data and policy 159 actions to address coronavirus [Internet]. San Francisco (CA): Henry J. Kaiser Family 160 Foundation; 2020 Aug 17 [cited 2020 Oct 1]. Available from: https://www.kff.org/health-161 costs/issue-brief/state-data-and-policy-actions-to-address-coronavirus/ 162 3. Centers for Disease Control and Prevention. Coronavirus Disease 2019 (COVID-19) 163 [Internet]. Washington (DC): HHS; 30 Jul 2020 [cited 2020 Aug 11]. Available from: 164 https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-165 conditions.html 166 4. Centers for Medicare and Medicaid Services. Guidance for Infection Control and Prevention 167 of Coronavirus Disease 2019 (COVID-19) in Nursing Homes [Internet]. Baltimore (MD): 168 HHS; 13 Mar 2020 [cited 2020 Aug 11]. Available from: 169 https://www.cms.gov/files/document/3-13-2020-nursing-home-guidance-covid-19.pdf 170 5. Centers for Medicare and Medicaid Services. COVID-19 Nursing Home Data. [Internet]. 171 Baltimore (MD): HHS; 13 Mar 2020 [cited 2020 Oct 1]. Available from: 172 https://data.cms.gov/stories/s/COVID-19-Nursing-Home-Data/bkwz-xpvg/ Receiver curve for detecting any positive staff using county cases per 10,000. B, ROC curve for identifying 3 or 220 more positive staff using county cases per 10,000. C, ROC curve for identifying any positive staff using county 221 positivity rate. D, ROC curve for identifying 3 or more positive staff using county positivity rate. Source: Authors' 222 calculations based upon Indiana State Department of Health data from staff tested for SARS-CoV-2 during the 223 month of June 2020 and county-reported cases and percent of positive tests. Indiana county population data were 224 obtained from the American Communities Survey for 2019 (1-year estimate). Notes: Data represent 44,065 nursing 225 home staff in 544 facilities statewide. AUC = area under the curve.",
             "latex": null,
+            "text": "the recommended 5% county positivity rate to guide weekly testing of all nursing 149 home staff may miss asymptomatic staff in these facilities. Further data on results of all-staff 150 testing efforts, particularly with the implementation of new widespread strategies such as point-151 of-care testing, is needed to guide policy to protect high risk nursing home residents and staff. COVID-19 outbreaks in care homes: early international evidence. International Long-155 Term Care Policy Network [Internet]. 3 May 2020 [cited 2020 Aug 11]. Available from: 156 https://ltccovid.org/wp-content/uploads/2020/05/Mortality-associated-with-COVID-J, Hall C, Orgera K, Singer N, Mengistu S, Tian M, et al. State data and policy 159 actions to address coronavirus [Internet]. San Francisco (CA): Henry J. Kaiser Family 160 Foundation; 2020 Aug 17 [cited 2020 Oct 1]. Available from: https://www.kff.org/health-161 costs/issue-brief/state-data-and-policy-actions-to-address-coronavirus/ 162 3. Centers for Disease Control and Prevention. Coronavirus Disease 2019 (COVID-19) 163 [Internet]. Washington (DC): HHS; 30 Jul 2020 [cited 2020 Aug 11]. Available from: 164 https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-165 conditions.html 166 4. Centers for Medicare and Medicaid Services. Guidance for Infection Control and Prevention 167 of Coronavirus Disease 2019 (COVID-19) in Nursing Homes [Internet]. Baltimore (MD): 168 HHS; 13 Mar 2020 [cited 2020 Aug 11]. Available from: 169 https://www.cms.gov/files/document/3-13-2020-nursing-home-guidance-covid-19.pdf 170 5. Centers for Medicare and Medicaid Services. COVID-19 Nursing Home Data. [Internet]. 171 Baltimore (MD): HHS; 13 Mar 2020 [cited 2020 Oct 1]. Available from: 172 https://data.cms.gov/stories/s/COVID-19-Nursing-Home-Data/bkwz-xpvg/ Receiver curve for detecting any positive staff using county cases per 10,000. B, ROC curve for identifying 3 or 220 more positive staff using county cases per 10,000. C, ROC curve for identifying any positive staff using county 221 positivity rate. D, ROC curve for identifying 3 or more positive staff using county positivity rate. Source: Authors' 222 calculations based upon Indiana State Department of Health data from staff tested for SARS-CoV-2 during the 223 month of June 2020 and county-reported cases and percent of positive tests. Indiana county population data were 224 obtained from the American Communities Survey for 2019 (1-year estimate). Notes: Data represent 44,065 nursing 225 home staff in 544 facilities statewide. AUC = area under the curve.",
             "type": "figure"
         },
         "FIGREF1": {
-            "text": "Receiver operator characteristic curves (ROC) representing community COVID-19 activity levels to guide nursing home staff testing in Indiana. ROC curve for detecting any positive staff using county cases per 10,000. B, ROC curve for identifying 3 or more positive staff using county cases per 10,000. C, ROC curve for identifying any positive staff using county positivity rate. D, ROC curve for identifying 3 or more positive staff using county positivity rate. Source: Authors' calculations based upon Indiana State Department of Health data from staff tested for SARS-CoV-2 during the month of June 2020 and county-reported cases and percent of positive tests. Indiana county population data COVID-19) pandemic. In the US, 33-82% of COVID-19 deaths are residents of long-term care 31 facilities, a proportion similar to Canada and across Europe.1,2  Underlying conditions, including 32 type 2 diabetes mellitus, serious heart conditions, and chronic kidney disease, make residents at33 high risk for complications of infection from severe acute respiratory coronavirus 2 (SARS-CoV-34 2). 3,4 Until recently, facilities had largely shut down visitation and only allowed essential staff, 35 who are screened for SARS-CoV-2 symptoms, to enter and provide care for residents and 36 monitor their health status. 4 Despite these measures, 50,000-80,000 deaths have occurred in 37",
             "latex": null,
+            "text": "Receiver operator characteristic curves (ROC) representing community COVID-19 activity levels to guide nursing home staff testing in Indiana. ROC curve for detecting any positive staff using county cases per 10,000. B, ROC curve for identifying 3 or more positive staff using county cases per 10,000. C, ROC curve for identifying any positive staff using county positivity rate. D, ROC curve for identifying 3 or more positive staff using county positivity rate. Source: Authors' calculations based upon Indiana State Department of Health data from staff tested for SARS-CoV-2 during the month of June 2020 and county-reported cases and percent of positive tests. Indiana county population data COVID-19) pandemic. In the US, 33-82% of COVID-19 deaths are residents of long-term care 31 facilities, a proportion similar to Canada and across Europe.1,2  Underlying conditions, including 32 type 2 diabetes mellitus, serious heart conditions, and chronic kidney disease, make residents at33 high risk for complications of infection from severe acute respiratory coronavirus 2 (SARS-CoV-34 2). 3,4 Until recently, facilities had largely shut down visitation and only allowed essential staff, 35 who are screened for SARS-CoV-2 symptoms, to enter and provide care for residents and 36 monitor their health status. 4 Despite these measures, 50,000-80,000 deaths have occurred in 37",
             "type": "figure"
         },
         "FIGREF2": {
-            "text": "State Department of Health (ISDH) aimed to test all Indiana nursing home 58 staff in the month of June, 2020. Consistent with the CMS definition, staff included employees, 59 consultants, contractors, volunteers, or other individuals regularly providing care within and on 60 behalf of the facility. Nursing homes acquired samples from staff using test kits provided by 61 ISDH, or requested on-site sampling. All samples were taken using nasopharyngeal swabs for a 62 polymerase chain reaction (PCR)-based test by a laboratory contracted with the ISDH. Facilities 63 could also report results from PCR-based testing done elsewhere. Staff with a documented prior 64 positive PCR test were exempted. Employee demographic information, role, facility name (only 65one could be chosen), test date, any close contact with a person infected with SARS-CoV-2, and 66 current symptoms were collected during registration for those tested onsite with ISDH test kits.67Individuals with inconclusive results were retested. Staff with multiple tests were identified by 68 matching name (first and last) and date of birth, and only the most recent test was included.69Employee data were aggregated to the facility-level. Facility-level measures were 70 calculated to represent the total number of staff tested and the total that tested positive. Facility 71 location was linked with county COVID-19 activity level, for the month of June, as was 72 displayed on the ISDH public dashboard. This included the number of reported cases, number of but consultants and contractors as well. The small numbers of physicians and advance practice 143 providers who were tested during this state-sponsored initiative may reflect additional challenges 144 in coordinating testing or receiving test results from outside laboratories for these providers the recommended 5% county positivity rate to guide weekly testing of all nursing 149 home staff may miss asymptomatic staff in these facilities. Further data on results of all-staff 150 testing efforts, particularly with the implementation of new widespread strategies such as point-151 of-care testing, is needed to guide policy to protect high risk nursing home residents and staff.",
             "latex": null,
+            "text": "State Department of Health (ISDH) aimed to test all Indiana nursing home 58 staff in the month of June, 2020. Consistent with the CMS definition, staff included employees, 59 consultants, contractors, volunteers, or other individuals regularly providing care within and on 60 behalf of the facility. Nursing homes acquired samples from staff using test kits provided by 61 ISDH, or requested on-site sampling. All samples were taken using nasopharyngeal swabs for a 62 polymerase chain reaction (PCR)-based test by a laboratory contracted with the ISDH. Facilities 63 could also report results from PCR-based testing done elsewhere. Staff with a documented prior 64 positive PCR test were exempted. Employee demographic information, role, facility name (only 65one could be chosen), test date, any close contact with a person infected with SARS-CoV-2, and 66 current symptoms were collected during registration for those tested onsite with ISDH test kits.67Individuals with inconclusive results were retested. Staff with multiple tests were identified by 68 matching name (first and last) and date of birth, and only the most recent test was included.69Employee data were aggregated to the facility-level. Facility-level measures were 70 calculated to represent the total number of staff tested and the total that tested positive. Facility 71 location was linked with county COVID-19 activity level, for the month of June, as was 72 displayed on the ISDH public dashboard. This included the number of reported cases, number of but consultants and contractors as well. The small numbers of physicians and advance practice 143 providers who were tested during this state-sponsored initiative may reflect additional challenges 144 in coordinating testing or receiving test results from outside laboratories for these providers the recommended 5% county positivity rate to guide weekly testing of all nursing 149 home staff may miss asymptomatic staff in these facilities. Further data on results of all-staff 150 testing efforts, particularly with the implementation of new widespread strategies such as point-151 of-care testing, is needed to guide policy to protect high risk nursing home residents and staff.",
             "type": "figure"
         },
         "FIGREF3": {
-            "text": "Receiver curve for detecting any positive staff using county cases per 10,000. B, ROC curve for identifying 3 or 220 more positive staff using county cases per 10,000. C, ROC curve for identifying any positive staff using county221 positivity rate. D, ROC curve for identifying 3 or more positive staff using county positivity rate. Source: Authors' 222 calculations based upon Indiana State Department of Health data from staff tested for SARS-CoV-2 during the 223 month of June 2020 and county-reported cases and percent of positive tests. Indiana county population data were 224 obtained from the American Communities Survey for 2019 (1-year estimate). Notes: Data represent 44,065 nursing 225 home staff in 544 facilities statewide. AUC = area under the curve. 2020, overall and by those testing positive for active infection.",
             "latex": null,
+            "text": "Receiver curve for detecting any positive staff using county cases per 10,000. B, ROC curve for identifying 3 or 220 more positive staff using county cases per 10,000. C, ROC curve for identifying any positive staff using county221 positivity rate. D, ROC curve for identifying 3 or more positive staff using county positivity rate. Source: Authors' 222 calculations based upon Indiana State Department of Health data from staff tested for SARS-CoV-2 during the 223 month of June 2020 and county-reported cases and percent of positive tests. Indiana county population data were 224 obtained from the American Communities Survey for 2019 (1-year estimate). Notes: Data represent 44,065 nursing 225 home staff in 544 facilities statewide. AUC = area under the curve. 2020, overall and by those testing positive for active infection.",
             "type": "figure"
         },
         "TABREF0": {
-            "text": "Testing capacity is also being supplemented by the distribution of Abbott BinaxNOW point-of-care antigen test cards by the Department of Health and Human Services. 13 New guidance issued by If the goal of the CMS testing strategy is to identify all asymptomatic SARS-Cov-2 infected nursing home staff, 14,15 results from Indiana's statewide all-staff testing initiative reveal that some outbreaks may be missed if thresholds are set using community COVID-19 activity. For example, if weekly testing occurred only in facilities within Indiana counties with a positivity rate of 5% or greater, 47.7% of facilities with a positive case would be identified and 113 21.2% of facilities without a case would be tested. This strategy may miss over half of the 114 facilities with a SARS-CoV-2 infected staff member, particularly if asymptomatic. Based on",
             "latex": null,
+            "text": "Testing capacity is also being supplemented by the distribution of Abbott BinaxNOW point-of-care antigen test cards by the Department of Health and Human Services. 13 New guidance issued by If the goal of the CMS testing strategy is to identify all asymptomatic SARS-Cov-2 infected nursing home staff, 14,15 results from Indiana's statewide all-staff testing initiative reveal that some outbreaks may be missed if thresholds are set using community COVID-19 activity. For example, if weekly testing occurred only in facilities within Indiana counties with a positivity rate of 5% or greater, 47.7% of facilities with a positive case would be identified and 113 21.2% of facilities without a case would be tested. This strategy may miss over half of the 114 facilities with a SARS-CoV-2 infected staff member, particularly if asymptomatic. Based on",
             "type": "table"
         },
         "TABREF1": {
-            "text": "Characteristics of nursing home staff tested for SARS-CoV-2 infection in Indiana during June 2020, overall and by those testing positive for active infection. not collected for staff members with confirmed PCR-based test results from outside laboratories.Source: Authors' calculations based upon Indiana Department of Health data from staff tested for SARS-CoV-2",
             "latex": null,
+            "text": "Characteristics of nursing home staff tested for SARS-CoV-2 infection in Indiana during June 2020, overall and by those testing positive for active infection. not collected for staff members with confirmed PCR-based test results from outside laboratories.Source: Authors' calculations based upon Indiana Department of Health data from staff tested for SARS-CoV-2",
             "type": "table"
         },
         "TABREF2": {
-            "text": "Number of staff and measures of community spread of SARS-CoV-2 for nursing home facilities in Indiana during June 2020. Source: Authors' calculations based upon Indiana Department of Health data from staff tested for SARS-CoV-2 during the month of June 2020 and county-reported cases and percent of positive tests. Indiana county population",
             "latex": null,
+            "text": "Number of staff and measures of community spread of SARS-CoV-2 for nursing home facilities in Indiana during June 2020. Source: Authors' calculations based upon Indiana Department of Health data from staff tested for SARS-CoV-2 during the month of June 2020 and county-reported cases and percent of positive tests. Indiana county population",
             "type": "table"
         },
         "TABREF3": {
-            "text": "Number of staff and measures of community spread of SARS-CoV-2 for nursing home facilities in Indiana during June 2020. Source: Authors' calculations based upon Indiana Department of Health data from staff tested for SARS-CoV-2 during the month of June 2020 and county-reported cases and percent of positive tests. Indiana county population data were obtained from the American Communities Survey for 2019 (1-year estimate).",
             "latex": null,
+            "text": "Number of staff and measures of community spread of SARS-CoV-2 for nursing home facilities in Indiana during June 2020. Source: Authors' calculations based upon Indiana Department of Health data from staff tested for SARS-CoV-2 during the month of June 2020 and county-reported cases and percent of positive tests. Indiana county population data were obtained from the American Communities Survey for 2019 (1-year estimate).",
             "type": "table"
         }
-    },
-    "back_matter": [
-        {
-            "text": "Acknowledgements: This work was supported by the Indiana State Department of Health. We would like to acknowledge the contributions of Matt Foster and Brenda Buroker from the Indiana State Department of Health, and Russ Evans of Probari, Inc.",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "acknowledgement"
-        },
-        {
-            "text": "J o u r n a l P r e -p r o o f",
-            "cite_spans": [],
-            "ref_spans": [],
-            "section": "annex"
-        }
-    ]
+    }
 }

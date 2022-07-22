@@ -1,1 +1,2187 @@
-{"paper_id": "2773edf2734f65d63b4c83a727bbda6d3f23c380", "metadata": {"title": "Lower Respiratory Tract Virus Findings in Mechanically Ventilated Patients With Severe Community-Acquired Pneumonia", "authors": [{"first": "J", "middle": [], "last": "Karhu", "suffix": "", "affiliation": {}, "email": ""}, {"first": "T", "middle": ["I"], "last": "Ala-Kokko", "suffix": "", "affiliation": {}, "email": ""}, {"first": "T", "middle": [], "last": "Vuorinen", "suffix": "", "affiliation": {"laboratory": "", "institution": "University of Turku", "location": {"country": "Finland"}}, "email": ""}, {"first": "P", "middle": [], "last": "Ohtonen", "suffix": "", "affiliation": {}, "email": ""}, {"first": "H", "middle": [], "last": "Syrj\u00e4l\u00e4", "suffix": "", "affiliation": {"laboratory": "", "institution": "Medical Research Center Oulu", "location": {}}, "email": ""}]}, "abstract": [{"text": "See the Editorial Commentary by Ruuskanen and J\u00e4rvinen on pages 71-3.)", "cite_spans": [], "ref_spans": [], "section": "Abstract"}, {"text": "Background. The role of viral infections in the etiology of severe community-acquired pneumonia (SCAP) was prospectively evaluated from 2008 to 2012 at a university-level intensive care unit.", "cite_spans": [], "ref_spans": [], "section": "Abstract"}, {"text": "Methods. Clinical data and microbiological tests were assessed: blood cultures, urine pneumococcal and legionella antigens, Mycoplasma pneumoniae and Chlamydia pneumoniae antibodies from paired serums, and respiratory virus detection by multiplex, real-time polymerase chain reaction (PCR) from nasopharyngeal swabs and lower tracheal specimens via intubation tube.", "cite_spans": [], "ref_spans": [], "section": "Abstract"}, {"text": "Results. Of 49 mechanically ventilated SCAP patients (21 men and 28 women; median age, 54 years), the etiology was identified in 45 cases (92%). There were 21 pure bacterial infections (43%), 5 probably pure viral infections (10%), and 19 mixed bacterial-viral infections (39%), resulting in viral etiology in 24 patients (49%). Of 26 viruses, 21 (81%) were detected from bronchial specimens and 5 (19%) from nasopharyngeal swabs. Rhinovirus (15 cases, 58%) and adenovirus (4 cases, 15%) were the most common viral findings. The bacterial-viral etiology group had the highest peak C-reactive protein levels (median, 356 [25th-75th percentiles, 294-416], P = .05), whereas patients with probably viral etiology had the lowest peak procalcitonin levels (1.7 [25th-75th percentiles, 1.6-1.7]). The clinical characteristics of pure bacterial and mixed bacterial-viral etiologies were comparable. Hospital stay was longest among the bacterial group (17 vs 14 days; P = .02).", "cite_spans": [], "ref_spans": [], "section": "Abstract"}, {"text": "Conclusions. Viral findings were demonstrated in almost half of the SCAP patients. Clinical characteristics were similar between the pure bacterial and mixed bacterial-viral infections groups. The frequency of viral detection depends on the availability of PCR techniques and lower respiratory specimens.", "cite_spans": [], "ref_spans": [], "section": "Abstract"}], "body_text": [{"text": "Community-acquired pneumonia (CAP) is a complex disease. Twenty percent to 40% of patients with CAP are hospitalized. One-tenth of inpatients with severe CAP (SCAP) require treatment in intensive care units (ICUs), typically requiring ventilatory support or septic shock treatment [1] .", "cite_spans": [{"start": 281, "end": 284, "text": "[1]", "ref_id": "BIBREF0"}], "ref_spans": [], "section": ""}, {"text": "The bacterial etiologies of CAP and SCAP are well defined. The most common bacterium affecting all patient groups is Streptococcus pneumoniae; Mycoplasma pneumoniae and Chlamydia pneumoniae are predominantly found among young CAP patients. Legionella pneumophila comprises an important cause of CAP worldwide [2] .", "cite_spans": [{"start": 309, "end": 312, "text": "[2]", "ref_id": "BIBREF1"}], "ref_spans": [], "section": ""}, {"text": "Approximately 200 million viral CAP cases occur annually, half of such cases among adults [3] . New molecular diagnostic assays, such as the polymerase chain reaction (PCR) tests that have been introduced over the past 10 years, have increased the ability to detect respiratory viruses [4, 5] . According to published studies, viruses account for 11%-55% of CAP cases among adults [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] .", "cite_spans": [{"start": 90, "end": 93, "text": "[3]", "ref_id": "BIBREF2"}, {"start": 286, "end": 289, "text": "[4,", "ref_id": "BIBREF3"}, {"start": 290, "end": 292, "text": "5]", "ref_id": "BIBREF4"}, {"start": 381, "end": 384, "text": "[6]", "ref_id": "BIBREF5"}, {"start": 385, "end": 388, "text": "[7]", "ref_id": "BIBREF6"}, {"start": 389, "end": 392, "text": "[8]", "ref_id": "BIBREF7"}, {"start": 393, "end": 396, "text": "[9]", "ref_id": "BIBREF8"}, {"start": 397, "end": 401, "text": "[10]", "ref_id": "BIBREF9"}, {"start": 402, "end": 406, "text": "[11]", "ref_id": "BIBREF10"}, {"start": 407, "end": 411, "text": "[12]", "ref_id": "BIBREF11"}, {"start": 412, "end": 416, "text": "[13]", "ref_id": "BIBREF12"}, {"start": 417, "end": 421, "text": "[14]", "ref_id": "BIBREF13"}, {"start": 422, "end": 426, "text": "[15]", "ref_id": "BIBREF14"}, {"start": 427, "end": 431, "text": "[16]", "ref_id": "BIBREF15"}, {"start": 432, "end": 436, "text": "[17]", "ref_id": "BIBREF16"}, {"start": 437, "end": 441, "text": "[18]", "ref_id": "BIBREF17"}], "ref_spans": [], "section": ""}, {"text": "To the best of the authors' knowledge, there are only 2 published studies focusing on the viral etiology of SCAP [16, 17] . The purpose of this prospective study was to evaluate the presence and clinical course of viral infections in mechanically ventilated SCAP patients, using multiplex PCR methodology.", "cite_spans": [{"start": 113, "end": 117, "text": "[16,", "ref_id": "BIBREF15"}, {"start": 118, "end": 121, "text": "17]", "ref_id": "BIBREF16"}], "ref_spans": [], "section": ""}, {"text": "The study population consisted of a cohort of SCAP patients admitted to our mixed ICU in a tertiary referral university hospital between June 2008 and May 2012. For the purposes of this study, severe CAP was defined as an acute lower respiratory tract infection with fever or hypothermia, cough, or dyspnea acquired outside the hospital. The presence of pneumonia was confirmed by chest radiography demonstrating a new pulmonary infiltrate. All patients fulfilled the criteria for severe sepsis [19] . Adult patients (aged >18 years) with SCAP who were expected to require intensive care treatment for >48 hours and who were started on mechanical ventilation during the first 48 hours following ICU admission were included in this study. Patients with a life expectancy <24 hours due to the severity of their disease or whose hospital stay was >2 days prior to ICU admission were excluded. The hospital ethics committee approved the study protocol, and written informed consent was requested from each patient or their next of kin.", "cite_spans": [{"start": 495, "end": 499, "text": "[19]", "ref_id": null}], "ref_spans": [], "section": "MATERIALS AND METHODS"}, {"text": "The following data were obtained: age, sex, body mass index, preexisting comorbidities (chronic pulmonary disease, coronary artery and vascular diseases, diabetes, alcoholism, smoking, immunosuppressive medications, malignancy), Acute Physiology and Chronic Health Evaluation II (APACHE II) score [20] , New Simplified Acute Physiology Score (SAPS II) [21] , and daily Sequential Organ Failure Assessment (SOFA) score [22] . Laboratory data were also obtained (daily C-reactive protein [CRP] level, procalcitonin [PCT] [Siemens Centaur XP, Advia Centaur BRAHMS PCT], white cell count, platelet count, lactate level, creatinine level, and other biochemical parameters), as were radiological and clinical findings, including antibiotic treatment prior to hospital and ICU admission and blood cultures prior to and during ICU stay. Septic shock upon admission, as well as the need for mechanical ventilation, was recorded. Pulmonary complications, such as pleural fluid, empyema, and alveolar edema, were registered. The sum of Pneumonia Severity Index (PSI) [23] , CURB-65 (confusion, urea, respiratory rate, blood pressure) score [24] , and Infectious Diseases Society of America/American Thoracic Society (IDAS/ATS) major criteria (need for invasive mechanical ventilation or septic shock requiring vasopressor [noradrenaline] infusion) and minor criteria for SCAP [2] were also calculated. The length of ICU and hospital stays and ICU, hospital, and 28-day mortalities were analyzed.", "cite_spans": [{"start": 297, "end": 301, "text": "[20]", "ref_id": "BIBREF19"}, {"start": 352, "end": 356, "text": "[21]", "ref_id": "BIBREF20"}, {"start": 418, "end": 422, "text": "[22]", "ref_id": "BIBREF21"}, {"start": 1056, "end": 1060, "text": "[23]", "ref_id": "BIBREF22"}, {"start": 1129, "end": 1133, "text": "[24]", "ref_id": "BIBREF23"}, {"start": 1365, "end": 1368, "text": "[2]", "ref_id": "BIBREF1"}], "ref_spans": [], "section": "MATERIALS AND METHODS"}, {"text": "The definition of acute kidney injury was based on renal SOFA score as SOFA 3 (serum creatinine level = 300-440 \u00b5mol/L or daily diuresis of <500 mL/day) or SOFA 4 (serum creatinine level >440 \u00b5mol/L or daily diuresis of <200 mL/day) during the ICU stay. Septic shock was defined according to standard criteria [19] .", "cite_spans": [{"start": 310, "end": 314, "text": "[19]", "ref_id": null}], "ref_spans": [], "section": "Definitions"}, {"text": "During the first 24 hours after ICU admission, at least 2 blood samples were obtained from each patient for blood culture using the automatic blood culture monitoring system (BacT/ Alert), tracheobronchial aspirates for respiratory bacterial diagnostics, and a urine sample for BinaxNOW S. pneumoniae urine antigen and L. pneumophila antigen detection (Binax-NOW, Alere Scarborough). Pleural fluid was cultured if pleural punctures or drainages were required. Paired serum samples for serological detection of M. pneumoniae and C. pneumoniae were also obtained upon ICU admission and before hospital discharge.", "cite_spans": [], "ref_spans": [], "section": "Bacteria"}, {"text": "Bronchial specimens underwent Gram staining. Purulent samples (leukocyte/epithelial cell ratio >5) were considered significant findings if they yielded 1-2 different bacteria. Pleural fluid and bronchoalveolar lavage (BAL) samples were stained and quantitatively cultured for bacterial pathogens and fungi. In addition, BAL samples were subjected to Papanicolau and May-Grunwald-Giemsa staining to obtain cellular differential counts, as well as Gomori methenamine silver staining for Pneumocystis jirovecii. Mycobacteria were detected by staining, culturing, or PCR.", "cite_spans": [], "ref_spans": [], "section": "Bacteria"}, {"text": "A microorganism was considered a definite cause of SCAP if it was cultured from blood. A bacterium was considered as the etiology of SCAP only if it grew from good-quality bronchial aspirates (cutoff \u226510 5 colony-forming units [CFU]) or BAL (cutoff \u226510 4 CFU), or if urine antigen testing for S. pneumoniae or L. pneumoniae was positive. The presence of immunoglobulin M antibodies and/or a significant increase (at least 2-fold rise) in immunoglobulin G antibody levels between paired serum samples was considered to signify an acute M. pneumoniae or C. pneumoniae infection. The median interval between paired serum samples was 11 days.", "cite_spans": [], "ref_spans": [], "section": "Bacteria"}, {"text": "Three sets of nasopharyngeal (NP) swabs were collected for the detection of respiratory viruses. The NP swabs were obtained using a Copan brush, and each swab was stored in a sterile sample tube and deep-frozen at \u221275\u00b0C until analysis. Over the first 2 ICU days, BAL for respiratory viral diagnostics was performed whenever possible. The BAL samples were sent to this hospital's microbiology and pathology laboratories for further diagnostics, in accordance with normal practice. Two 3-mL samples of BAL fluid were also stored at \u221275\u00b0C for a PCR analysis at a later date. When a BAL study was not possible, normal bronchoscopy was performed or a bronchial suction aspirate sample was collected via the intubation tube for virus detection. The NP swabs and 2 samples of BAL fluid or bronchial suction aspirates were sent for analysis of respiratory viruses to the Virus Diagnostics Laboratory, University of Turku.", "cite_spans": [], "ref_spans": [], "section": "Viruses"}, {"text": "All nasopharyngeal swabs, bronchial aspirates, and BAL samples were analyzed by PCR. A multiplex PCR test kit (Anyplex RV16, Seegene, South Korea) was used to detect adenovirus, influenza A and B viruses, parainfluenza virus types 1-4, rhinovirus, respiratory syncytial viruses A and B, bocavirus, coronaviruses 229E, NL63, and OC43, metapneumovirus, and enteroviruses. In addition, an in-house PCR test was used to detect enteroviruses and rhinoviruses, as previously described [25] . Viruses were considered to be a probable cause of SCAP when they were detected in NP swabs by PCR. A definite diagnosis of a viral cause of SCAP required a positive PCR result in the lower respiratory tract specimens.", "cite_spans": [{"start": 479, "end": 483, "text": "[25]", "ref_id": "BIBREF24"}], "ref_spans": [], "section": "Viruses"}, {"text": "Etiological types of SCAP were classified as follows: pure bacterial infection, if etiological examinations revealed only bacteria; probably pure viral infection, if only viral findings were recovered; and mixed bacterial-viral infection, if etiological examinations yielded both bacterial and viral findings. There was also a \"no etiology\" group, consisting of 4 patients in whom both bacterial and viral examinations remained negative.", "cite_spans": [], "ref_spans": [], "section": "Classification of SCAP Patients"}, {"text": "For continuous variables, medians with 25th-75th percentiles were used, and counts (%) were used for categorical variables. The probably pure viral group was excluded from statistical comparisons due to the small number of cases. Comparisons of continuous variables between pure bacterial and mixed bacterial-viral groups were analyzed using Student t-test or the Mann-Whitney U test; categorical variables were analyzed using \u03c7 2 or Fisher exact tests. Two-tailed P values were calculated. All analyses were performed using SPSS for Windows version 20.0 (IBM SPSS, Armonk, New York).", "cite_spans": [], "ref_spans": [], "section": "Statistical Analysis"}, {"text": "A total of 67 SCAP patients under mechanical ventilation were applicable for the study. Of these, 18 patients were excluded for the following reasons: life expectancy <24 hours due to disease severity (n = 4), long hospital stay before transfer to ICU (n = 3), and no study personnel available (n = 11). After exclusions, the final study group consisted of 49 SCAP patients.", "cite_spans": [], "ref_spans": [], "section": "RESULTS"}, {"text": "The following samples were collected and tests performed after examination for all 49 SCAP patients: blood cultures, urine pneumococcal and Legionella antigen testing, NP swabs at admission, and paired serum samples for M. pneumoniae and C. pneumoniae antibody detection. Lower tracheal specimens were available from all patients, including a fiber-optic bronchoscopic BAL specimen from 31 patients (63%); bronchial aspirates were obtained through the intubation tube from 18 patients (37%).", "cite_spans": [], "ref_spans": [], "section": "RESULTS"}, {"text": "The etiology of SCAP was defined in 45 (92%) cases. A pure bacterial etiology was diagnosed for 21 (43%) patients. The microbiological findings among pure bacterial and bacterial-viral groups are shown in Table 1 . Streptococcus pneumoniae was the most commonly identified bacterium, and was found in 28 (57%) cases of pure bacterial or bacterial-viral infections. Pneumococcus was the sole pathogen in 15 cases. Of 28 patients, S. pneumoniae was cultured in 16 (57%) patients in the blood and 16 (57%) patients in the bronchial aspirate, and the pneumococcal antigen was positive in the urine of 25 cases (89%). An acute M. pneumoniae infection was observed in 8 cases (16%), and was the only etiologic microbe in 4 cases, whereas it was present as a copathogen in the remaining patients (Table 1 ). All identified bacteria were susceptible to the antibiotics used for the treatment of pneumonia. There were no cases of C. pneumoniae, L. pneumophila, P. jirovecii, or Mycobacterium tuberculosis. Two patients in the pure bacterial group and 1 patient in the probable pure viral group developed empyema later on during their hospital stay.", "cite_spans": [], "ref_spans": [{"start": 205, "end": 212, "text": "Table 1", "ref_id": "TABREF0"}, {"start": 789, "end": 797, "text": "(Table 1", "ref_id": "TABREF0"}], "section": "RESULTS"}, {"text": "A viral etiology of SCAP was diagnosed in 24 patients (49%). Viruses were identified as the only cause of SCAP in 5 cases (10%), and were identified together with bacteria in 19 cases (39%) ( Table 1) . Twenty-six viruses were detected among 24 SCAP patients (Table 1) . Of 26 viruses identified, 21 (81%) were detected from bronchial specimens, 5 (19%) were detected from NP swabs only, and both NP and bronchial PCR were positive in 7 cases.", "cite_spans": [], "ref_spans": [{"start": 192, "end": 200, "text": "Table 1)", "ref_id": "TABREF0"}, {"start": 259, "end": 268, "text": "(Table 1)", "ref_id": "TABREF0"}], "section": "RESULTS"}, {"text": "The most common virus was rhinovirus, being identified in 15 (57.7%) cases (Table 1) . Rhinovirus was detected 11 times from bronchial specimens and 4 times from nasopharyngeal swabs. The commercial PCR test missed 8 patients (53.3%) with positive rhinovirus findings identified by in-house PCR test. Adenovirus was found in 4 (15%) cases. The other virus findings were as follows: 2 cases with coronavirus, 2 cases with enterovirus, and 1 case with influenza A, respiratory syncytial virus, and parainfluenza 3. Two patients (8%) had 2 positive viral tests. Five patients suffered a probably pure viral SCAP (Table 1 ). In the mixed bacterial-viral group, the most common combination was S. pneumoniae and rhinovirus, which occurred in 6 cases (32%). Table 2 depicts the patient characteristics and the occurrence of organ failure during ICU treatment. The groups with pure bacterial infections and bacterial-viral infections were comparable. At hospital admission, antibiotic therapy had already been initiated in 18 patients (37%): 7 in the bacterial group (33%), 7 in the bacterial-viral group (37%), 3 in the viral The comparisons of laboratory findings and outcome data for the groups ( pure bacterial, mixed bacterial-viral infection, probably pure viral, and \"no etiology\") are presented in Table 3 . On admission, each patient fulfilled the IDSA/ATS major criteria (Table 4) : 47 patients required mechanical ventilation; the remaining 2 patients were in septic shock requiring vasopressors, and their condition later deteriorated so that they also required mechanical ventilation. According to median values, the SCAP patients in all 4 etiology groups belonged to PSI severity group IV and the median CURB-65 scores for the groups varied (Table 4 ); there were no significant differences between the groups ( Table 4) . As Table 4 also shows, the pure bacteria group had the highest APACHE II scores on admission (P = .05). The median ICU stay did not differ between the groups (Table 3) , whereas the hospital stay was longest among the bacterial group (P = .02) ( Table 3) .", "cite_spans": [], "ref_spans": [{"start": 75, "end": 84, "text": "(Table 1)", "ref_id": "TABREF0"}, {"start": 609, "end": 617, "text": "(Table 1", "ref_id": "TABREF0"}, {"start": 752, "end": 759, "text": "Table 2", "ref_id": "TABREF4"}, {"start": 1299, "end": 1306, "text": "Table 3", "ref_id": "TABREF5"}, {"start": 1374, "end": 1383, "text": "(Table 4)", "ref_id": "TABREF6"}, {"start": 1748, "end": 1756, "text": "(Table 4", "ref_id": "TABREF6"}, {"start": 1819, "end": 1827, "text": "Table 4)", "ref_id": "TABREF6"}, {"start": 1833, "end": 1840, "text": "Table 4", "ref_id": "TABREF6"}, {"start": 1988, "end": 1997, "text": "(Table 3)", "ref_id": "TABREF5"}, {"start": 2076, "end": 2084, "text": "Table 3)", "ref_id": "TABREF5"}], "section": "RESULTS"}, {"text": "Almost half of the SCAP patients in this study exhibited evidence of a viral etiology based on multiplex, real-time PCR tests. Eighty percent of the viral findings were detected from samples obtained from the lower respiratory tract, which underscores the etiological importance of these viral findings. Clinical characteristics and outcomes were similar between the pure bacterial and mixed bacterial-viral infections groups; however, the APACHE II score was the highest on admission, and hospital stay was the longest in the bacterial group.", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION"}, {"text": "A major strength of this study was that it was a prospective study in which one investigator (J. K.) systematically treated all patients, allowing for a high success rate of etiological examinations using bronchoscopic and large-scale microbiological methods, including multiple viral PCR techniques. The etiology of SCAP was defined in 92% of cases, which is one of the highest rates of diagnosis reported thus far. One-third of the SCAP patients were on antibiotics when etiological examinations were performed, and they therefore had positive blood cultures 2.8-fold less often than patients without previous antibiotics. (10) (11) (12) (13) .02", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION"}, {"text": "ICU mortality 0 (0) 3 (15.8) 0 (0) 0 (0) .1 28-day mortality 1 (5) 4 (21) 0 (0) 0 (0) .17", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION"}, {"text": "Hospital mortality 2 (10) 4 (21) 0 (0) 0 (0) .4", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION"}, {"text": "Values are presented as No. (%) or median (25th-75th percentile).", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION"}, {"text": "Abbreviations: CRP, C-reactive protein; ICU, intensive care unit; PCT, procalcitonin; WBC, white blood cell. a Comparison between bacterial-only infection and bacterial-viral infection groups. A potential weakness of this study was that it was performed in a single center, which may limit the generalizability of the results for other centers. Furthermore, the findings from this study only represent the situation encountered in intubated SCAP patients whose ICU stay was >48 hours. Unfortunately, samples could not be obtained from >10% of cases (11 of 60 SCAP patients) due to an unavailability of study personnel. Finally, the relatively small sample size may affect the statistical analysis; for example, multivariate logistic regression analyses could not be calculated. Despite the limited number of study patients, this is the largest study with bronchoscopic PCR sampling of mechanically ventilated SCAP patients thus far reported.", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION"}, {"text": "Literature on the viral etiology of SCAP is sparse. In a recent Korean single-center SCAP study, viruses were detected in 41% of SCAP patients [16] . In a 3-year multicenter SCAP study conducted in the United States, the proportion of viruses detected varied from 11% between May and July to 32% during October [17] . Viruses were identified in 49% of patients in the present SCAP series.", "cite_spans": [{"start": 143, "end": 147, "text": "[16]", "ref_id": "BIBREF15"}, {"start": 311, "end": 315, "text": "[17]", "ref_id": "BIBREF16"}], "ref_spans": [], "section": "DISCUSSION"}, {"text": "When PCR was performed from NP swabs, viruses were detected in 24% of the SCAP patients, whereas 29% of hospitalized Swedish CAP patients and 23% of patients in a US multicenter SCAP study demonstrated a viral infection [15, 17] . The use of NP swabs has also been criticized, as they may not represent actual lower respiratory findings [15, 16] . This may have been the case for 5 SCAP patients in the present study in whom virus was detected only with the use of NP swabs. In the present investigation, the recovery of viral PCR was 1.8-fold higher in lower respiratory tract specimens than in NP swabs. Rhinovirus was discovered in 31% of the SCAP patients, which is higher than has previously been reported [16, 17] . In this study, 11 of 15 (73%) of the rhinovirus findings were detected in lower respiratory tract samples. The importance of lower respiratory tract samples for viral detection was also seen during the H1N1 influenza pandemic in 2009 [26, 27] . The PCR method selected may also influence the results; a commercial PCR test would have missed 53% of the rhinovirus SCAP cases compared with our in-house test. Taken together, the systematic use of invasive respiratory sampling methods and our custom in-house virus test may explain the higher total yield of viruses in the present series compared with earlier publications involving hospitalized CAP or SCAP patients [16, 17] . Viral analysis of the BAL fluid has been particularly useful for immunocompromised patients [28] [29] [30] . In this series, the presence of viruses in respiratory samples in SCAP patients was demonstrated in almost half of the cases. This result may have implications regarding the point of transmission of respiratory viruses in the ICU, especially among noninvasive ventilated SCAP patients. Larger studies are needed to demonstrate the prognostic importance of possible transmission of respiratory viral infections in the critical care environment.", "cite_spans": [{"start": 220, "end": 224, "text": "[15,", "ref_id": "BIBREF14"}, {"start": 225, "end": 228, "text": "17]", "ref_id": "BIBREF16"}, {"start": 337, "end": 341, "text": "[15,", "ref_id": "BIBREF14"}, {"start": 342, "end": 345, "text": "16]", "ref_id": "BIBREF15"}, {"start": 711, "end": 715, "text": "[16,", "ref_id": "BIBREF15"}, {"start": 716, "end": 719, "text": "17]", "ref_id": "BIBREF16"}, {"start": 956, "end": 960, "text": "[26,", "ref_id": "BIBREF25"}, {"start": 961, "end": 964, "text": "27]", "ref_id": "BIBREF26"}, {"start": 1387, "end": 1391, "text": "[16,", "ref_id": "BIBREF15"}, {"start": 1392, "end": 1395, "text": "17]", "ref_id": "BIBREF16"}, {"start": 1490, "end": 1494, "text": "[28]", "ref_id": "BIBREF27"}, {"start": 1495, "end": 1499, "text": "[29]", "ref_id": "BIBREF28"}, {"start": 1500, "end": 1504, "text": "[30]", "ref_id": "BIBREF29"}], "ref_spans": [], "section": "DISCUSSION"}, {"text": "In general, polymicrobial infections in CAP have been considered to cause more severe inflammation and clinical disease than single microbial infections [11, [31] [32] [33] . In the present series, the mixed bacterial-viral infection group seemed to need a longer period of noradrenaline infusion than the pure bacterial infection group. Experimental studies have shown that in cases of respiratory bacterial-viral coinfections, the eradication of bacteria did not prevent fatal outcomes as a result of influenza infection [34] . On the other hand, in the present study and in a recent Korean SCAP study, the presence of viruses did not appear to affect outcomes [16] . This neutral finding has been shown among CAP patients as well [10, 18] . These findings may suggest that viral coinfection in the context of SCAP does not necessarily have any prognostic importance. The small numbers of patients in all of these studies prevent robust conclusions, however, considering the importance of viral infections on outcome.", "cite_spans": [{"start": 153, "end": 157, "text": "[11,", "ref_id": "BIBREF10"}, {"start": 158, "end": 162, "text": "[31]", "ref_id": "BIBREF30"}, {"start": 163, "end": 167, "text": "[32]", "ref_id": "BIBREF31"}, {"start": 168, "end": 172, "text": "[33]", "ref_id": "BIBREF32"}, {"start": 523, "end": 527, "text": "[34]", "ref_id": "BIBREF33"}, {"start": 663, "end": 667, "text": "[16]", "ref_id": "BIBREF15"}, {"start": 733, "end": 737, "text": "[10,", "ref_id": "BIBREF9"}, {"start": 738, "end": 741, "text": "18]", "ref_id": "BIBREF17"}], "ref_spans": [], "section": "DISCUSSION"}, {"text": "In this series, patients with bacterial SCAP were more severely ill on admission, based on APACHE II scores, and had the longest hospital stay compared with the mixed bacterial-viral group. The duration of symptoms did not differ between the 4 etiological groups, however, suggesting that viruses may have an essential role in the pathogenesis of SCAP.", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION"}, {"text": "In the present study, both CRP and PCT values seemed to be higher in the mixed bacterial-viral group compared with pure bacterial SCAP patients. Whether this difference was caused by more intensive inflammation in the mixed bacterial-viral group will remain an open question. The lowest PCT levels were found in the group of probably pure viral infections. These patients, however, had much higher PCT concentrations than has been thus far suggested as a level to differentiate between bacterial and viral infections [35, 36] . Furthermore, 3 patients in our series from the probably pure viral infection group had actually received antibiotics before respiratory sampling. Moreover, if PCR tests for the common bacterial causes of CAP and M. pneumoniae would have been available, at least some of the probably pure viral infections may have proved to be bacterial-viral infections [37] .", "cite_spans": [{"start": 517, "end": 521, "text": "[35,", "ref_id": "BIBREF34"}, {"start": 522, "end": 525, "text": "36]", "ref_id": "BIBREF35"}, {"start": 882, "end": 886, "text": "[37]", "ref_id": "BIBREF36"}], "ref_spans": [], "section": "DISCUSSION"}, {"text": "The present study demonstrated that, to achieve a higher yield of viral diagnoses in SCAP patients, highly qualified multiplex PCR methods with invasive sampling are needed. The wider use of this approach should be carefully considered until antiviral agents for the treatment of common respiratory viruses are readily available. Antiviral agents are currently available for the influenza virus and adenovirus [38] [39] [40] . If the PCR results of the study population would have been available, 4 patients may have used cidofovir treatment.", "cite_spans": [{"start": 410, "end": 414, "text": "[38]", "ref_id": "BIBREF37"}, {"start": 415, "end": 419, "text": "[39]", "ref_id": "BIBREF38"}, {"start": 420, "end": 424, "text": "[40]", "ref_id": "BIBREF39"}], "ref_spans": [], "section": "DISCUSSION"}, {"text": "The major findings of this study were as follows: The etiology of SCAP was diagnosed in 92% of study patients, and respiratory viruses were detected in 49%. Viral etiology did not have an impact on disease severity or on clinical outcome.", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION"}, {"text": "In conclusion, a viral etiology is more common in SCAP than has been reported thus far. The recovery of viruses in patients with SCAP is influenced by the availability of modern multiplex PCR techniques and the ability to use invasive methods to obtain lower respiratory specimens. The presence of viral etiology does not, however, appear to affect the outcomes of SCAP patients.", "cite_spans": [], "ref_spans": [], "section": "DISCUSSION"}], "bib_entries": {"BIBREF0": {"ref_id": "b0", "title": "Severe community-acquired pneumonia: use of intensive care services and evaluation of American and British Thoracic Society diagnostic criteria", "authors": [{"first": "D", "middle": ["C"], "last": "Angus", "suffix": ""}, {"first": "T", "middle": ["J"], "last": "Marrie", "suffix": ""}, {"first": "D", "middle": ["S"], "last": "Obrosky", "suffix": ""}], "year": 2002, "venue": "Am J Respir Crit Care Med", "volume": "166", "issn": "", "pages": "717--740", "other_ids": {}}, "BIBREF1": {"ref_id": "b1", "title": "Infectious Diseases Society of America/American Thoracic Society consensus guidelines on the management of community-acquired pneumonia in adults", "authors": [{"first": "L", "middle": ["A"], "last": "Mandell", "suffix": ""}, {"first": "R", "middle": ["G"], "last": "Wunderink", "suffix": ""}, {"first": "A", "middle": [], "last": "Anzueto", "suffix": ""}], "year": 2007, "venue": "Clin Infect Dis", "volume": "44", "issn": "", "pages": "27--72", "other_ids": {}}, "BIBREF2": {"ref_id": "b2", "title": "Viral pneumonia", "authors": [{"first": "O", "middle": [], "last": "Ruuskanen", "suffix": ""}, {"first": "E", "middle": [], "last": "Lahti", "suffix": ""}, {"first": "L", "middle": ["C"], "last": "Jennings", "suffix": ""}, {"first": "D", "middle": ["R"], "last": "Murdoch", "suffix": ""}], "year": 2011, "venue": "Lancet", "volume": "377", "issn": "", "pages": "1264--75", "other_ids": {}}, "BIBREF3": {"ref_id": "b3", "title": "Improved diagnosis of the etiology of community-acquired pneumonia with real-time polymerase chain reaction", "authors": [{"first": "K", "middle": ["E"], "last": "Templeton", "suffix": ""}, {"first": "S", "middle": ["A"], "last": "Scheltinga", "suffix": ""}, {"first": "W", "middle": ["C"], "last": "Van Den Eeden", "suffix": ""}, {"first": "A", "middle": ["W"], "last": "Graffelman", "suffix": ""}, {"first": "P", "middle": ["J"], "last": "Van Den Broek", "suffix": ""}, {"first": "E", "middle": ["C"], "last": "Claas", "suffix": ""}], "year": 2005, "venue": "Clin Infect Dis", "volume": "41", "issn": "", "pages": "345--51", "other_ids": {}}, "BIBREF4": {"ref_id": "b4", "title": "Comparative evaluation of the Seegene Seeplex RV15 and real-time PCR for respiratory virus detection", "authors": [{"first": "D", "middle": ["F"], "last": "Bibby", "suffix": ""}, {"first": "I", "middle": [], "last": "Mcelarney", "suffix": ""}, {"first": "J", "middle": [], "last": "Breuer", "suffix": ""}, {"first": "D", "middle": ["A"], "last": "Clark", "suffix": ""}], "year": 2011, "venue": "J Med Virol", "volume": "83", "issn": "", "pages": "1469--75", "other_ids": {}}, "BIBREF5": {"ref_id": "b5", "title": "Viral community-acquired pneumonia in nonimmunocompromised adults", "authors": [{"first": "A", "middle": [], "last": "De Roux", "suffix": ""}, {"first": "M", "middle": ["A"], "last": "Marcos", "suffix": ""}, {"first": "E", "middle": [], "last": "Garcia", "suffix": ""}], "year": 2004, "venue": "Chest", "volume": "125", "issn": "", "pages": "1343--51", "other_ids": {}}, "BIBREF6": {"ref_id": "b6", "title": "The role of viruses in the aetiology of community-acquired pneumonia in adults", "authors": [{"first": "Angeles", "middle": [], "last": "Marcos", "suffix": ""}, {"first": "M", "middle": [], "last": "Camps", "suffix": ""}, {"first": "M", "middle": [], "last": "Pumarola", "suffix": ""}, {"first": "T", "middle": [], "last": "", "suffix": ""}], "year": 2006, "venue": "Antivir Ther", "volume": "11", "issn": "", "pages": "351--360", "other_ids": {}}, "BIBREF7": {"ref_id": "b7", "title": "Prospective multicenter study of the causative organisms of community-acquired pneumonia in adults in Japan", "authors": [{"first": "A", "middle": [], "last": "Saito", "suffix": ""}, {"first": "S", "middle": [], "last": "Kohno", "suffix": ""}, {"first": "T", "middle": [], "last": "Matsushima", "suffix": ""}], "year": 2006, "venue": "J Infect Chemother", "volume": "12", "issn": "", "pages": "63--72", "other_ids": {}}, "BIBREF8": {"ref_id": "b8", "title": "Viral infection in adults hospitalized with community-acquired pneumonia: prevalence, pathogens, and presentation", "authors": [{"first": "J", "middle": [], "last": "Johnstone", "suffix": ""}, {"first": "S", "middle": ["R"], "last": "Majumdar", "suffix": ""}, {"first": "J", "middle": ["D"], "last": "Fox", "suffix": ""}, {"first": "T", "middle": ["J"], "last": "Marrie", "suffix": ""}], "year": 2008, "venue": "Chest", "volume": "134", "issn": "", "pages": "1141--1149", "other_ids": {}}, "BIBREF9": {"ref_id": "b9", "title": "Incidence and characteristics of viral community-acquired pneumonia in adults", "authors": [{"first": "L", "middle": ["C"], "last": "Jennings", "suffix": ""}, {"first": "T", "middle": ["P"], "last": "Anderson", "suffix": ""}, {"first": "K", "middle": ["A"], "last": "Beynon", "suffix": ""}], "year": 2008, "venue": "Thorax", "volume": "63", "issn": "", "pages": "42--50", "other_ids": {}}, "BIBREF10": {"ref_id": "b10", "title": "Etiology of community-acquired pneumonia in hospitalized patients in Chile: the increasing prevalence of respiratory viruses among classic pathogens", "authors": [{"first": "A", "middle": [], "last": "Diaz", "suffix": ""}, {"first": "P", "middle": [], "last": "Barria", "suffix": ""}, {"first": "M", "middle": [], "last": "Niederman", "suffix": ""}], "year": 2007, "venue": "Chest", "volume": "131", "issn": "", "pages": "779--87", "other_ids": {}}, "BIBREF11": {"ref_id": "b11", "title": "The etiology of community-acquired pneumonia in Australia: why penicillin plus doxycycline or a macrolide is the most appropriate therapy", "authors": [{"first": "P", "middle": ["G"], "last": "Charles", "suffix": ""}, {"first": "M", "middle": [], "last": "Whitby", "suffix": ""}, {"first": "A", "middle": ["J"], "last": "Fuller", "suffix": ""}], "year": 2008, "venue": "Clin Infect Dis", "volume": "46", "issn": "", "pages": "1513--1534", "other_ids": {}}, "BIBREF12": {"ref_id": "b12", "title": "Aetiological diagnosis of community acquired pneumonia: utility of rapid microbiological methods with respect to disease severity", "authors": [{"first": "U", "middle": [], "last": "Hohenthal", "suffix": ""}, {"first": "R", "middle": [], "last": "Vainionp\u00e4\u00e4", "suffix": ""}, {"first": "O", "middle": [], "last": "Meurman", "suffix": ""}], "year": 2008, "venue": "Scand J Infect Dis", "volume": "40", "issn": "", "pages": "131--139", "other_ids": {}}, "BIBREF13": {"ref_id": "b13", "title": "The role of rhinoviruses and enteroviruses in community acquired pneumonia in adults", "authors": [{"first": "U", "middle": [], "last": "Hohenthal", "suffix": ""}, {"first": "R", "middle": [], "last": "Vainionpaa", "suffix": ""}, {"first": "J", "middle": [], "last": "Nikoskelainen", "suffix": ""}, {"first": "P", "middle": [], "last": "Kotilainen", "suffix": ""}], "year": 2008, "venue": "Thorax", "volume": "63", "issn": "", "pages": "658--667", "other_ids": {}}, "BIBREF14": {"ref_id": "b14", "title": "Etiology of community-acquired pneumonia: increased microbiological yield with new diagnostic methods", "authors": [{"first": "N", "middle": [], "last": "Johansson", "suffix": ""}, {"first": "M", "middle": [], "last": "Kalin", "suffix": ""}, {"first": "A", "middle": [], "last": "Tiveljung-Lindell", "suffix": ""}, {"first": "C", "middle": ["G"], "last": "Giske", "suffix": ""}, {"first": "J", "middle": [], "last": "Hedlund", "suffix": ""}], "year": 2010, "venue": "Clin Infect Dis", "volume": "50", "issn": "", "pages": "202--211", "other_ids": {}}, "BIBREF15": {"ref_id": "b15", "title": "Viral infection in patients with severe pneumonia requiring intensive care unit admission", "authors": [{"first": "S", "middle": ["H"], "last": "Choi", "suffix": ""}, {"first": "S", "middle": ["B"], "last": "Hong", "suffix": ""}, {"first": "G", "middle": ["B"], "last": "Ko", "suffix": ""}], "year": 2012, "venue": "Am J Respir Crit Care Med", "volume": "186", "issn": "", "pages": "325--357", "other_ids": {}}, "BIBREF16": {"ref_id": "b16", "title": "Incidence of respiratory viruses in patients with community-acquired pneumonia admitted to the intensive care unit; results from Severe Influenza Pneumonia Surveillance (SIPS) project", "authors": [{"first": "T", "middle": [], "last": "Wiemken", "suffix": ""}, {"first": "P", "middle": [], "last": "Peyran", "suffix": ""}, {"first": "K", "middle": [], "last": "Bryant", "suffix": ""}], "year": 2013, "venue": "Eur J Clin Microbiol Infect Dis", "volume": "32", "issn": "", "pages": "705--715", "other_ids": {}}, "BIBREF17": {"ref_id": "b17", "title": "Community-acquired pneumonia in Chile: the clinical relevance in the detection of viruses and atypical bacteria", "authors": [{"first": "V", "middle": [], "last": "Luchsinger", "suffix": ""}, {"first": "M", "middle": [], "last": "Ruiz", "suffix": ""}, {"first": "E", "middle": [], "last": "Zunino", "suffix": ""}], "year": 2013, "venue": "Thorax", "volume": "68", "issn": "", "pages": "1000--1006", "other_ids": {}}, "BIBREF19": {"ref_id": "b19", "title": "APACHE II: a severity of disease classification system", "authors": [{"first": "W", "middle": ["A"], "last": "Knaus", "suffix": ""}, {"first": "E", "middle": ["A"], "last": "Draper", "suffix": ""}, {"first": "D", "middle": ["P"], "last": "Wagner", "suffix": ""}, {"first": "J", "middle": ["E"], "last": "Zimmerman", "suffix": ""}], "year": 1985, "venue": "Crit Care Med", "volume": "13", "issn": "", "pages": "818--847", "other_ids": {}}, "BIBREF20": {"ref_id": "b20", "title": "A new simplified acute physiology score (SAPS II) based on a European/North American multicenter study", "authors": [{"first": "Le", "middle": [], "last": "Gall", "suffix": ""}, {"first": "J", "middle": ["R"], "last": "Lemeshow", "suffix": ""}, {"first": "S", "middle": [], "last": "Saulnier", "suffix": ""}, {"first": "F", "middle": [], "last": "", "suffix": ""}], "year": 1993, "venue": "JAMA", "volume": "270", "issn": "", "pages": "2957--63", "other_ids": {}}, "BIBREF21": {"ref_id": "b21", "title": "The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure. On behalf of the Working Group on Sepsis-Related Problems of the European Society of Intensive Care Medicine", "authors": [{"first": "J", "middle": ["L"], "last": "Vincent", "suffix": ""}, {"first": "R", "middle": [], "last": "Moreno", "suffix": ""}, {"first": "J", "middle": [], "last": "Takala", "suffix": ""}], "year": 1996, "venue": "Intensive Care Med", "volume": "22", "issn": "", "pages": "707--717", "other_ids": {}}, "BIBREF22": {"ref_id": "b22", "title": "A prediction rule to identify lowrisk patients with community-acquired pneumonia", "authors": [{"first": "M", "middle": ["J"], "last": "Fine", "suffix": ""}, {"first": "T", "middle": ["E"], "last": "Auble", "suffix": ""}, {"first": "D", "middle": ["M"], "last": "Yealy", "suffix": ""}], "year": 1997, "venue": "N Engl J Med", "volume": "336", "issn": "", "pages": "243--50", "other_ids": {}}, "BIBREF23": {"ref_id": "b23", "title": "Defining community acquired pneumonia severity on presentation to hospital: an international derivation and validation study", "authors": [{"first": "W", "middle": ["S"], "last": "Lim", "suffix": ""}, {"first": "M", "middle": ["M"], "last": "Van Der Eerden", "suffix": ""}, {"first": "R", "middle": [], "last": "Laing", "suffix": ""}], "year": 2003, "venue": "Thorax", "volume": "58", "issn": "", "pages": "377--82", "other_ids": {}}, "BIBREF24": {"ref_id": "b24", "title": "Rhinovirus transmission within families with children: incidence of symptomatic and asymptomatic infections", "authors": [{"first": "V", "middle": [], "last": "Peltola", "suffix": ""}, {"first": "M", "middle": [], "last": "Waris", "suffix": ""}, {"first": "R", "middle": [], "last": "\u00d6sterback", "suffix": ""}, {"first": "P", "middle": [], "last": "Susi", "suffix": ""}, {"first": "O", "middle": [], "last": "Ruuskanen", "suffix": ""}, {"first": "T", "middle": [], "last": "Hyypi\u00e4", "suffix": ""}], "year": 2008, "venue": "J Infect Dis", "volume": "197", "issn": "", "pages": "382--391", "other_ids": {}}, "BIBREF25": {"ref_id": "b25", "title": "Comparison of combined nose-throat swabs with nasopharyngeal aspirates for detection of pandemic influenza A/H1N1 2009 virus by real-time reverse transcriptase PCR", "authors": [{"first": "", "middle": [], "last": "De La Tabla", "suffix": ""}, {"first": "", "middle": [], "last": "Vo", "suffix": ""}, {"first": "M", "middle": [], "last": "Masia", "suffix": ""}, {"first": "P", "middle": [], "last": "Antequera", "suffix": ""}], "year": 2010, "venue": "J Clin Microbiol", "volume": "48", "issn": "", "pages": "3492--3497", "other_ids": {}}, "BIBREF26": {"ref_id": "b26", "title": "Diagnosis of influenza in intensive care units: lower respiratory tract samples are better than nose-throat swabs", "authors": [{"first": "P", "middle": [], "last": "Lopez Roa", "suffix": ""}, {"first": "B", "middle": [], "last": "Rodriguez-Sanchez", "suffix": ""}, {"first": "P", "middle": [], "last": "Catalan", "suffix": ""}], "year": 2012, "venue": "Am J Respir Crit Care Med", "volume": "186", "issn": "", "pages": "929--959", "other_ids": {}}, "BIBREF27": {"ref_id": "b27", "title": "Detection of human cytomegalovirus in bronchoalveolar lavage fluid of lung transplant recipients reflects local virus replication and not contamination from the throat", "authors": [{"first": "E", "middle": [], "last": "Puchhammer-St\u00f6ckl", "suffix": ""}], "year": 2010, "venue": "J Clin Microbiol", "volume": "48", "issn": "", "pages": "4273--4277", "other_ids": {}}, "BIBREF28": {"ref_id": "b28", "title": "Which patients should be tested for viruses on bronchoalveolar lavage fluid?", "authors": [{"first": "S", "middle": [], "last": "Jouneau", "suffix": ""}, {"first": "J", "middle": ["S"], "last": "Poineuf", "suffix": ""}, {"first": "S", "middle": [], "last": "Minjolle", "suffix": ""}], "year": 2013, "venue": "Eur J Clin Microbiol Infect Dis", "volume": "32", "issn": "", "pages": "671--678", "other_ids": {}}, "BIBREF29": {"ref_id": "b29", "title": "The impact of viral respiratory tract infections on long-term morbidity and mortality following lung transplantation: a retrospective cohort study using a multiplex PCR panel", "authors": [{"first": "J", "middle": [], "last": "Magnusson", "suffix": ""}, {"first": "J", "middle": [], "last": "Westin", "suffix": ""}, {"first": "L", "middle": ["M"], "last": "Andersson", "suffix": ""}, {"first": "R", "middle": [], "last": "Brittain-Long", "suffix": ""}, {"first": "G", "middle": ["C"], "last": "Riise", "suffix": ""}], "year": 2013, "venue": "Transplantation", "volume": "95", "issn": "", "pages": "383--391", "other_ids": {}}, "BIBREF30": {"ref_id": "b30", "title": "Disease severity in patients with simultaneous influenza and bacterial pneumonia", "authors": [{"first": "M", "middle": [], "last": "Seki", "suffix": ""}, {"first": "K", "middle": [], "last": "Kosai", "suffix": ""}, {"first": "K", "middle": [], "last": "Yanagihara", "suffix": ""}], "year": 2007, "venue": "Intern Med", "volume": "46", "issn": "", "pages": "953--961", "other_ids": {}}, "BIBREF31": {"ref_id": "b31", "title": "Streptococcus pneumoniae coinfection is correlated with the severity of H1N1 pandemic influenza", "authors": [{"first": "G", "middle": [], "last": "Palacios", "suffix": ""}, {"first": "M", "middle": [], "last": "Hornig", "suffix": ""}, {"first": "D", "middle": [], "last": "Cisterna", "suffix": ""}], "year": 2009, "venue": "PLoS One", "volume": "4", "issn": "", "pages": "", "other_ids": {}}, "BIBREF32": {"ref_id": "b32", "title": "Community-acquired polymicrobial pneumonia in the intensive care unit: aetiology and prognosis", "authors": [{"first": "C", "middle": [], "last": "Cill\u00f3niz", "suffix": ""}, {"first": "S", "middle": [], "last": "Ewig", "suffix": ""}, {"first": "M", "middle": [], "last": "Ferrer", "suffix": ""}], "year": 2011, "venue": "Crit Care", "volume": "15", "issn": "", "pages": "", "other_ids": {}}, "BIBREF33": {"ref_id": "b33", "title": "Role of tissue protection in lethal respiratory viral-bacterial coinfection", "authors": [{"first": "A", "middle": ["M"], "last": "Jamieson", "suffix": ""}, {"first": "L", "middle": [], "last": "Pasman", "suffix": ""}, {"first": "S", "middle": [], "last": "Yu", "suffix": ""}], "year": 2013, "venue": "Science", "volume": "340", "issn": "", "pages": "1230--1234", "other_ids": {}}, "BIBREF34": {"ref_id": "b34", "title": "Bacterial complications of respiratory tract viral illness: a comprehensive evaluation", "authors": [{"first": "A", "middle": [], "last": "Falsey", "suffix": ""}, {"first": "K", "middle": ["L"], "last": "Becker", "suffix": ""}, {"first": "A", "middle": ["J"], "last": "Swinburne", "suffix": ""}], "year": 2013, "venue": "JID", "volume": "208", "issn": "", "pages": "432--473", "other_ids": {}}, "BIBREF35": {"ref_id": "b35", "title": "Procalcitonin algorithms for antibiotic therapy decisions: a systematic review of randomized controlled trials and recommendations for clinical algorithms", "authors": [{"first": "P", "middle": [], "last": "Schuetz", "suffix": ""}, {"first": "V", "middle": [], "last": "Chiappa", "suffix": ""}, {"first": "M", "middle": [], "last": "Briel", "suffix": ""}, {"first": "J", "middle": ["L"], "last": "Greenwald", "suffix": ""}], "year": 2011, "venue": "Arch Intern Med", "volume": "171", "issn": "", "pages": "1322--1353", "other_ids": {}}, "BIBREF36": {"ref_id": "b36", "title": "Molecular analysis improves pathogen identification and epidemiologic study of pediatric parapneumonic empyema", "authors": [{"first": "A", "middle": ["J"], "last": "Blaschke", "suffix": ""}, {"first": "C", "middle": [], "last": "Heyrend", "suffix": ""}, {"first": "C", "middle": ["L"], "last": "Byington", "suffix": ""}], "year": 2011, "venue": "Pediatr Infect Dis J", "volume": "30", "issn": "", "pages": "289--94", "other_ids": {}}, "BIBREF37": {"ref_id": "b37", "title": "Differential susceptibility of adenovirus clinical isolates to cidofovir and ribavirin is not related to species alone", "authors": [{"first": "F", "middle": [], "last": "Morfin", "suffix": ""}, {"first": "S", "middle": [], "last": "Dupuis-Girod", "suffix": ""}, {"first": "E", "middle": [], "last": "Frobert", "suffix": ""}], "year": 2009, "venue": "Antivir Ther", "volume": "14", "issn": "", "pages": "55--61", "other_ids": {}}, "BIBREF38": {"ref_id": "b38", "title": "The use of antiviral agents for the management of severe influenza", "authors": [{"first": "J", "middle": ["R"], "last": "Smith", "suffix": ""}, {"first": "R", "middle": ["E"], "last": "Ariano", "suffix": ""}, {"first": "S", "middle": [], "last": "Toovey", "suffix": ""}], "year": 2010, "venue": "Crit Care Med", "volume": "38", "issn": "", "pages": "43--51", "other_ids": {}}, "BIBREF39": {"ref_id": "b39", "title": "Antiviral agents for the treatment and chemoprophylaxis of influenza-recommendations of the Advisory Committee on Immunization Practices (ACIP)", "authors": [{"first": "A", "middle": ["E"], "last": "Fiore", "suffix": ""}, {"first": "A", "middle": [], "last": "Fry", "suffix": ""}, {"first": "D", "middle": [], "last": "Shay", "suffix": ""}, {"first": "L", "middle": [], "last": "Gubareva", "suffix": ""}, {"first": "J", "middle": ["S"], "last": "Bresee", "suffix": ""}, {"first": "T", "middle": ["M"], "last": "Uyeki", "suffix": ""}], "year": 2011, "venue": "Centers for Disease Control and Prevention (CDC)", "volume": "60", "issn": "", "pages": "1--24", "other_ids": {}}}, "ref_entries": {"FIGREF0": {"text": "60%), and 1 of the 4 patients with no discernible etiology. Blood cultures were positive for 50% of 32 patients without previous antibiotics and 18% of 17 patients with antibiotics (P = .034). The patients in the mixed bacterial-viral infection group seemed to need a longer period of noradrenaline infusion than the pure bacterial infection group, but the difference was not statistically significant (P = .48).", "latex": null, "type": "figure"}, "FIGREF1": {"text": "The findings for the pure bacterial and mixed bacterial-viral infection groups were comparable. The bacterial-viral group had higher peak CRP levels (356 [294-416] vs 299 [213-350]; P = .05). The pure viral infection group, with 5 patients, had the lowest PCT values (1.4 [1.0-1.4]).", "latex": null, "type": "figure"}, "TABREF0": {"text": "Microbiological Etiologies of Study Groups", "latex": null, "type": "table", "html": "<html><body><table><tr><td>Sex </td><td>Age </td><td>Bacteria </td><td>Trachea </td><td>Blood Culture </td><td>U-Stpnag </td><td>Mycoplasma </td><td>Virus </td><td>NP </td><td>Trachea </td><td>BAL\n</td></tr><tr><td>Pure bacterial group (n = 21)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>M </td><td>52 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>52 </td><td>S. pneumoniae </td><td>\u2212 </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>74 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>22 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>49 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>85 </td><td>E. coli </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>37 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>58 </td><td>S. pneumoniae </td><td>\u2212 </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>56 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>47 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>55 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>83 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>56 </td><td>S. aureus </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>68 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>24 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>F </td><td>49 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>73 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>48 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>F </td><td>53 </td><td>K. pneumoniae </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>+b </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>56 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>49 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>84 </td><td>Probably pure viral group (n = 5)\n\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Coronavirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>40 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Influenza A virus </td><td>+ </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>F </td><td>48 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>+ </td><td>\u2212\n</td></tr><tr><td>M </td><td>44 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Adenovirus </td><td>\u2212 </td><td>\u2212 </td><td>+\n</td></tr><tr><td>M </td><td>57 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>Bacterial-viral group (n = 19)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>M </td><td>55 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>+\n</td></tr><tr><td>M </td><td>51 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Parainfluenza virus 3 </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>M </td><td>81 </td><td>P. aeruginosa </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>73 </td><td>H. influenzae\n</td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>\u2212 </td><td>+\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>M. catarrhalis\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>F </td><td>69 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Coronavirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>59 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>43 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Adenovirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>54 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>59 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>Respiratory syncytial virus </td><td>+ </td><td>+ </td><td>+\n</td></tr><tr><td>M </td><td>39 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>+a </td><td>Enterovirus </td><td>+ </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>44 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>+ </td><td>+\n</td></tr><tr><td>F </td><td>75 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>+ </td><td>+\n</td></tr><tr><td>F </td><td>73 </td><td>S. pneumoniae </td><td>\u2212 </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>+ </td><td>\u2212\n</td></tr><tr><td>F </td><td>60 </td><td>S. pneumoniae </td><td>\u2212 </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Adenovirus\n</td><td>\u2212\n</td><td>\u2212\n</td><td>+\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>Enterovirus\n</td><td>\u2212\n</td><td>+\n</td><td>+\n</td></tr><tr><td>F </td><td>29 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>+b </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>37 </td><td>S. aureus </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>60 </td><td>H. influenzae </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>+\n</td></tr><tr><td>M </td><td>47 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>\u2212 </td><td>+\n</td></tr><tr><td>F </td><td>39 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>Rhinovirus\n</td><td>\u2212\n</td><td>\u2212\n</td><td>+\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>Adenovirus\n</td><td>\u2212\n</td><td>\u2212\n</td><td>+\n</td></tr></table></body></html>"}, "TABREF2": {"text": "", "latex": null, "type": "table"}, "TABREF4": {"text": "Baseline Characteristics of 49 Patients With Severe Community-Acquired Pneumonia", "latex": null, "type": "table", "html": "<html><body><table><tr><td>\u00a0</td><td>Pure Bacterial Group\n</td><td>Bacterial-Viral Group\n</td><td>Probably Pure Viral\n</td><td>No Etiology Group\n</td><td>P\n</td></tr><tr><td>Variable\n</td><td>(n = 21)\n</td><td>(n = 19)\n</td><td>Group (n = 5)\n</td><td>(n = 4)\n</td><td>Valuea\n</td></tr><tr><td>Age, y </td><td>53 (49-58) </td><td>55 (44-65) </td><td>48 (44-57) </td><td>62 (46-72) </td><td>&gt;.9\n</td></tr><tr><td>Male sex </td><td>10 (48) </td><td>8 (42) </td><td>2 (40) </td><td>1 (25) </td><td>.76\n</td></tr><tr><td>BMI </td><td>24 (22-32) </td><td>26 (24-29) </td><td>29 (28-29) </td><td>30 (27-31) </td><td>.9\n</td></tr><tr><td>Comorbidity </td><td>15 (71) </td><td>13 (68) </td><td>4 (80) </td><td>4 (100) </td><td>&gt;.9\n</td></tr><tr><td>Smoking </td><td>9 (45) </td><td>9 (47) </td><td>3 (60) </td><td>1 (25) </td><td>&gt;.9\n</td></tr><tr><td>Alcoholism </td><td>3 (14) </td><td>5 (26) </td><td>0 (0) </td><td>0 (0) </td><td>.44\n</td></tr><tr><td>Duration of symptoms before pneumonia diagnosis, d\n</td><td>2 (0-4) </td><td>3 (1-4) </td><td>2 (0-2) </td><td>4 (1-5) </td><td>.81\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Antibiotics before hospital admission </td><td>7 (33) </td><td>7 (37) </td><td>3 (60) </td><td>1 (25) </td><td>&gt;.9\n</td></tr><tr><td>Antibiotics before blood cultures </td><td>6 (29) </td><td>8 (42) </td><td>2 (40) </td><td>1 (25) </td><td>.51\n</td></tr><tr><td>Chest radiography diffuse infiltration </td><td>15 (71) </td><td>13 (68) </td><td>4 (80) </td><td>4 (100) </td><td>&gt;.9\n</td></tr><tr><td>Septic shock on admission </td><td>10 (48) </td><td>8 (42) </td><td>2 (40) </td><td>1 (25) </td><td>.76\n</td></tr><tr><td>Acute kidney injury </td><td>7 (35) </td><td>2 (11) </td><td>0 (0) </td><td>1 (25) </td><td>.13\n</td></tr><tr><td>Time on mechanical ventilation, h </td><td>110 (47-153) </td><td>102 (45-134) </td><td>130 (91-147) </td><td>37 (26-50) </td><td>.66\n</td></tr><tr><td>Time on noradrenaline infusion, h </td><td>45 (30-96) </td><td>85 (56-118) </td><td>74 (73-151) </td><td>39 (25-51) </td><td>.48\n</td></tr><tr><td>PF ratio at ICU admission </td><td>128 (90-225) </td><td>113 (75-188) </td><td>135 (105-300) </td><td>135 (113-158) </td><td>.37\n</td></tr><tr><td>PF ratiob </td><td>120 (75-143) </td><td>98 (68-143) </td><td>90 (83-98) </td><td>135 (113-158) </td><td>.89\n</td></tr></table></body></html>"}, "TABREF5": {"text": "Comparison of Admission Parameters and Outcome Data Among Patients With Severe Community-Acquired Pneumonia", "latex": null, "type": "table", "html": "<html><body><table><tr><td>Parameter\n</td><td>Pure Bacterial Group (n = 21)\n</td><td>Bacterial-Viral Group (n = 19)\n</td><td>Probably Pure Viral Group (n = 5)\n</td><td>No Etiology Group (n = 4)\n</td><td>P\nValuea\n</td></tr><tr><td>CRP, admission, mg/L </td><td>206 (144-338) </td><td>229 (180-323) </td><td>152 (120-154) </td><td>195 (56-314) </td><td>.77\n</td></tr><tr><td>CRP, mg/L, peak </td><td>299 (213-350) </td><td>356 (294-416) </td><td>152 (120-192) </td><td>234 (149-314) </td><td>.05\n</td></tr><tr><td>PCT, admission, \u00b5g/L </td><td>14.3 (2.7-63.5) </td><td>20.1 (5.4-40.2) </td><td>1.4 (1.0-1.4) </td><td>11.0 (1.1-37.0) </td><td>.21\n</td></tr><tr><td>PCT, \u00b5g/L, peak </td><td>14.3 (3.1-63.5) </td><td>24.3 (6.2-40.4) </td><td>1.7 (1.6-1.7) </td><td>11.0 (1.1-37.0) </td><td>.68\n</td></tr><tr><td>WBC count, \u00d7 109/L </td><td>7.6 (4.6-11.2) </td><td>7.0 (3.8-12.3) </td><td>13.5 (13.1-17.7) </td><td>16.2 (9.4-22.8) </td><td>.66\n</td></tr><tr><td>Platelets, \u00d7 109/L </td><td>171 (148-235) </td><td>171 (110-238) </td><td>262 (220-417) </td><td>255 (222-266) </td><td>.7\n</td></tr><tr><td>ICU stay, d </td><td>8 (5-11) </td><td>7 (5-9) </td><td>10 (8-14) </td><td>4 (4-5) </td><td>.26\n</td></tr><tr><td>Hospital stay, d </td><td>17 (12-25) </td><td>14 (11-17) </td><td>21 (20-39) </td><td>11 (10-13) </td><td>.02\n</td></tr><tr><td>ICU mortality </td><td>0 (0) </td><td>3 (15.8) </td><td>0 (0) </td><td>0 (0) </td><td>.1\n</td></tr><tr><td>28-day mortality </td><td>1 (5) </td><td>4 (21) </td><td>0 (0) </td><td>0 (0) </td><td>.17\n</td></tr><tr><td>Hospital mortality </td><td>2 (10) </td><td>4 (21) </td><td>0 (0) </td><td>0 (0) </td><td>.4\n</td></tr></table></body></html>"}, "TABREF6": {"text": "Severity Scores of 49 Patients With Severe Community-Acquired Pneumonia", "latex": null, "type": "table", "html": "<html><body><table><tr><td>\u00a0</td><td>Pure Bacterial Group\n</td><td>Bacterial-Viral Group\n</td><td>Probably Pure Viral\n</td><td>No Etiology Group\n</td><td>P\n</td></tr><tr><td>Parameter\n</td><td>(n = 21)\n</td><td>(n = 19)\n</td><td>Group (n = 5)\n</td><td>(n = 4)\n</td><td>Valuea\n</td></tr><tr><td>APACHE II </td><td>22 (18-25) </td><td>16 (12-21) </td><td>13 (11-20) </td><td>17 (15-19) </td><td>.05\n</td></tr><tr><td>SAPS II </td><td>45 (38-57) </td><td>40 (33-47) </td><td>35 (33-39) </td><td>47 (40-51) </td><td>.19\n</td></tr><tr><td>SOFA (24 h)a </td><td>9 (7-11) </td><td>7 (5-11) </td><td>7 (5-8) </td><td>6 (5-9) </td><td>.61\n</td></tr><tr><td>IDSA/ATSmajor criteria fulfilled [2] </td><td>21 (100) </td><td>19 (100) </td><td>5 (100) </td><td>4 (100)\n</td><td>\u00a0</td></tr><tr><td>Need for mechanical ventilationb </td><td>19 (91) </td><td>19 (100) </td><td>5 (100) </td><td>4 (100) </td><td>.49\n</td></tr><tr><td>Septic shock with need for vasopressors\n</td><td>8 (38) </td><td>10 (53) </td><td>2 (40) </td><td>2 (50) </td><td>.53\n</td></tr><tr><td>Pneumonia Severity Index [23] </td><td>123 (85-138) </td><td>103 (87-143) </td><td>107 (78-134) </td><td>112 (87-148) </td><td>.66\n</td></tr><tr><td>CURB-65 [24] </td><td>3 (2-3) </td><td>3 (2-4) </td><td>2 (2-3) </td><td>4 (2-4) </td><td>.73\n</td></tr></table></body></html>"}}, "back_matter": [{"text": "Acknowledgments. The authors warmly thank Sinikka S\u00e4lki\u00f6, RN, for her assistance with patient screening and the study samples.Financial support. This work was supported by the State Funding for Health Research and by the Finnish Medical Society Duodecim.Potential conflicts of interest. All authors: No reported conflicts. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.", "cite_spans": [], "ref_spans": [], "section": "acknowledgement"}]}
+{
+    "abstract": [
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "See the Editorial Commentary by Ruuskanen and J\u00e4rvinen on pages 71-3.)"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "Background. The role of viral infections in the etiology of severe community-acquired pneumonia (SCAP) was prospectively evaluated from 2008 to 2012 at a university-level intensive care unit."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "Methods. Clinical data and microbiological tests were assessed: blood cultures, urine pneumococcal and legionella antigens, Mycoplasma pneumoniae and Chlamydia pneumoniae antibodies from paired serums, and respiratory virus detection by multiplex, real-time polymerase chain reaction (PCR) from nasopharyngeal swabs and lower tracheal specimens via intubation tube."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "Results. Of 49 mechanically ventilated SCAP patients (21 men and 28 women; median age, 54 years), the etiology was identified in 45 cases (92%). There were 21 pure bacterial infections (43%), 5 probably pure viral infections (10%), and 19 mixed bacterial-viral infections (39%), resulting in viral etiology in 24 patients (49%). Of 26 viruses, 21 (81%) were detected from bronchial specimens and 5 (19%) from nasopharyngeal swabs. Rhinovirus (15 cases, 58%) and adenovirus (4 cases, 15%) were the most common viral findings. The bacterial-viral etiology group had the highest peak C-reactive protein levels (median, 356 [25th-75th percentiles, 294-416], P = .05), whereas patients with probably viral etiology had the lowest peak procalcitonin levels (1.7 [25th-75th percentiles, 1.6-1.7]). The clinical characteristics of pure bacterial and mixed bacterial-viral etiologies were comparable. Hospital stay was longest among the bacterial group (17 vs 14 days; P = .02)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract",
+            "text": "Conclusions. Viral findings were demonstrated in almost half of the SCAP patients. Clinical characteristics were similar between the pure bacterial and mixed bacterial-viral infections groups. The frequency of viral detection depends on the availability of PCR techniques and lower respiratory specimens."
+        }
+    ],
+    "back_matter": [
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement",
+            "text": "Acknowledgments. The authors warmly thank Sinikka S\u00e4lki\u00f6, RN, for her assistance with patient screening and the study samples.Financial support. This work was supported by the State Funding for Health Research and by the Finnish Medical Society Duodecim.Potential conflicts of interest. All authors: No reported conflicts. All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed."
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Angus",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Marrie",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Obrosky",
+                    "middle": [
+                        "S"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "717--740",
+            "ref_id": "b0",
+            "title": "Severe community-acquired pneumonia: use of intensive care services and evaluation of American and British Thoracic Society diagnostic criteria",
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "166",
+            "year": 2002
+        },
+        "BIBREF1": {
+            "authors": [
+                {
+                    "first": "L",
+                    "last": "Mandell",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Wunderink",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Anzueto",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "27--72",
+            "ref_id": "b1",
+            "title": "Infectious Diseases Society of America/American Thoracic Society consensus guidelines on the management of community-acquired pneumonia in adults",
+            "venue": "Clin Infect Dis",
+            "volume": "44",
+            "year": 2007
+        },
+        "BIBREF10": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Diaz",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Barria",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Niederman",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "779--87",
+            "ref_id": "b10",
+            "title": "Etiology of community-acquired pneumonia in hospitalized patients in Chile: the increasing prevalence of respiratory viruses among classic pathogens",
+            "venue": "Chest",
+            "volume": "131",
+            "year": 2007
+        },
+        "BIBREF11": {
+            "authors": [
+                {
+                    "first": "P",
+                    "last": "Charles",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Whitby",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Fuller",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1513--1534",
+            "ref_id": "b11",
+            "title": "The etiology of community-acquired pneumonia in Australia: why penicillin plus doxycycline or a macrolide is the most appropriate therapy",
+            "venue": "Clin Infect Dis",
+            "volume": "46",
+            "year": 2008
+        },
+        "BIBREF12": {
+            "authors": [
+                {
+                    "first": "U",
+                    "last": "Hohenthal",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Vainionp\u00e4\u00e4",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "last": "Meurman",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "131--139",
+            "ref_id": "b12",
+            "title": "Aetiological diagnosis of community acquired pneumonia: utility of rapid microbiological methods with respect to disease severity",
+            "venue": "Scand J Infect Dis",
+            "volume": "40",
+            "year": 2008
+        },
+        "BIBREF13": {
+            "authors": [
+                {
+                    "first": "U",
+                    "last": "Hohenthal",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Vainionpaa",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Nikoskelainen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Kotilainen",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "658--667",
+            "ref_id": "b13",
+            "title": "The role of rhinoviruses and enteroviruses in community acquired pneumonia in adults",
+            "venue": "Thorax",
+            "volume": "63",
+            "year": 2008
+        },
+        "BIBREF14": {
+            "authors": [
+                {
+                    "first": "N",
+                    "last": "Johansson",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Kalin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Tiveljung-Lindell",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Giske",
+                    "middle": [
+                        "G"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Hedlund",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "202--211",
+            "ref_id": "b14",
+            "title": "Etiology of community-acquired pneumonia: increased microbiological yield with new diagnostic methods",
+            "venue": "Clin Infect Dis",
+            "volume": "50",
+            "year": 2010
+        },
+        "BIBREF15": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Choi",
+                    "middle": [
+                        "H"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Hong",
+                    "middle": [
+                        "B"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Ko",
+                    "middle": [
+                        "B"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "325--357",
+            "ref_id": "b15",
+            "title": "Viral infection in patients with severe pneumonia requiring intensive care unit admission",
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "186",
+            "year": 2012
+        },
+        "BIBREF16": {
+            "authors": [
+                {
+                    "first": "T",
+                    "last": "Wiemken",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Peyran",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Bryant",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "705--715",
+            "ref_id": "b16",
+            "title": "Incidence of respiratory viruses in patients with community-acquired pneumonia admitted to the intensive care unit; results from Severe Influenza Pneumonia Surveillance (SIPS) project",
+            "venue": "Eur J Clin Microbiol Infect Dis",
+            "volume": "32",
+            "year": 2013
+        },
+        "BIBREF17": {
+            "authors": [
+                {
+                    "first": "V",
+                    "last": "Luchsinger",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Ruiz",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Zunino",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1000--1006",
+            "ref_id": "b17",
+            "title": "Community-acquired pneumonia in Chile: the clinical relevance in the detection of viruses and atypical bacteria",
+            "venue": "Thorax",
+            "volume": "68",
+            "year": 2013
+        },
+        "BIBREF19": {
+            "authors": [
+                {
+                    "first": "W",
+                    "last": "Knaus",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Draper",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Wagner",
+                    "middle": [
+                        "P"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Zimmerman",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "818--847",
+            "ref_id": "b19",
+            "title": "APACHE II: a severity of disease classification system",
+            "venue": "Crit Care Med",
+            "volume": "13",
+            "year": 1985
+        },
+        "BIBREF2": {
+            "authors": [
+                {
+                    "first": "O",
+                    "last": "Ruuskanen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Lahti",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Jennings",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Murdoch",
+                    "middle": [
+                        "R"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1264--75",
+            "ref_id": "b2",
+            "title": "Viral pneumonia",
+            "venue": "Lancet",
+            "volume": "377",
+            "year": 2011
+        },
+        "BIBREF20": {
+            "authors": [
+                {
+                    "first": "Le",
+                    "last": "Gall",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Lemeshow",
+                    "middle": [
+                        "R"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Saulnier",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "last": "",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "2957--63",
+            "ref_id": "b20",
+            "title": "A new simplified acute physiology score (SAPS II) based on a European/North American multicenter study",
+            "venue": "JAMA",
+            "volume": "270",
+            "year": 1993
+        },
+        "BIBREF21": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Vincent",
+                    "middle": [
+                        "L"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Moreno",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Takala",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "707--717",
+            "ref_id": "b21",
+            "title": "The SOFA (Sepsis-related Organ Failure Assessment) score to describe organ dysfunction/failure. On behalf of the Working Group on Sepsis-Related Problems of the European Society of Intensive Care Medicine",
+            "venue": "Intensive Care Med",
+            "volume": "22",
+            "year": 1996
+        },
+        "BIBREF22": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Fine",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Auble",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Yealy",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "243--50",
+            "ref_id": "b22",
+            "title": "A prediction rule to identify lowrisk patients with community-acquired pneumonia",
+            "venue": "N Engl J Med",
+            "volume": "336",
+            "year": 1997
+        },
+        "BIBREF23": {
+            "authors": [
+                {
+                    "first": "W",
+                    "last": "Lim",
+                    "middle": [
+                        "S"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Van Der Eerden",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Laing",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "377--82",
+            "ref_id": "b23",
+            "title": "Defining community acquired pneumonia severity on presentation to hospital: an international derivation and validation study",
+            "venue": "Thorax",
+            "volume": "58",
+            "year": 2003
+        },
+        "BIBREF24": {
+            "authors": [
+                {
+                    "first": "V",
+                    "last": "Peltola",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Waris",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "\u00d6sterback",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Susi",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "last": "Ruuskanen",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Hyypi\u00e4",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "382--391",
+            "ref_id": "b24",
+            "title": "Rhinovirus transmission within families with children: incidence of symptomatic and asymptomatic infections",
+            "venue": "J Infect Dis",
+            "volume": "197",
+            "year": 2008
+        },
+        "BIBREF25": {
+            "authors": [
+                {
+                    "first": "",
+                    "last": "De La Tabla",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "last": "Vo",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Masia",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Antequera",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "3492--3497",
+            "ref_id": "b25",
+            "title": "Comparison of combined nose-throat swabs with nasopharyngeal aspirates for detection of pandemic influenza A/H1N1 2009 virus by real-time reverse transcriptase PCR",
+            "venue": "J Clin Microbiol",
+            "volume": "48",
+            "year": 2010
+        },
+        "BIBREF26": {
+            "authors": [
+                {
+                    "first": "P",
+                    "last": "Lopez Roa",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "last": "Rodriguez-Sanchez",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Catalan",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "929--959",
+            "ref_id": "b26",
+            "title": "Diagnosis of influenza in intensive care units: lower respiratory tract samples are better than nose-throat swabs",
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "186",
+            "year": 2012
+        },
+        "BIBREF27": {
+            "authors": [
+                {
+                    "first": "E",
+                    "last": "Puchhammer-St\u00f6ckl",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "4273--4277",
+            "ref_id": "b27",
+            "title": "Detection of human cytomegalovirus in bronchoalveolar lavage fluid of lung transplant recipients reflects local virus replication and not contamination from the throat",
+            "venue": "J Clin Microbiol",
+            "volume": "48",
+            "year": 2010
+        },
+        "BIBREF28": {
+            "authors": [
+                {
+                    "first": "S",
+                    "last": "Jouneau",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Poineuf",
+                    "middle": [
+                        "S"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Minjolle",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "671--678",
+            "ref_id": "b28",
+            "title": "Which patients should be tested for viruses on bronchoalveolar lavage fluid?",
+            "venue": "Eur J Clin Microbiol Infect Dis",
+            "volume": "32",
+            "year": 2013
+        },
+        "BIBREF29": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Magnusson",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Westin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Andersson",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Brittain-Long",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "last": "Riise",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "383--391",
+            "ref_id": "b29",
+            "title": "The impact of viral respiratory tract infections on long-term morbidity and mortality following lung transplantation: a retrospective cohort study using a multiplex PCR panel",
+            "venue": "Transplantation",
+            "volume": "95",
+            "year": 2013
+        },
+        "BIBREF3": {
+            "authors": [
+                {
+                    "first": "K",
+                    "last": "Templeton",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Scheltinga",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "last": "Van Den Eeden",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Graffelman",
+                    "middle": [
+                        "W"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "last": "Van Den Broek",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Claas",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "345--51",
+            "ref_id": "b3",
+            "title": "Improved diagnosis of the etiology of community-acquired pneumonia with real-time polymerase chain reaction",
+            "venue": "Clin Infect Dis",
+            "volume": "41",
+            "year": 2005
+        },
+        "BIBREF30": {
+            "authors": [
+                {
+                    "first": "M",
+                    "last": "Seki",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Kosai",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Yanagihara",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "953--961",
+            "ref_id": "b30",
+            "title": "Disease severity in patients with simultaneous influenza and bacterial pneumonia",
+            "venue": "Intern Med",
+            "volume": "46",
+            "year": 2007
+        },
+        "BIBREF31": {
+            "authors": [
+                {
+                    "first": "G",
+                    "last": "Palacios",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Hornig",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Cisterna",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b31",
+            "title": "Streptococcus pneumoniae coinfection is correlated with the severity of H1N1 pandemic influenza",
+            "venue": "PLoS One",
+            "volume": "4",
+            "year": 2009
+        },
+        "BIBREF32": {
+            "authors": [
+                {
+                    "first": "C",
+                    "last": "Cill\u00f3niz",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Ewig",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Ferrer",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "",
+            "ref_id": "b32",
+            "title": "Community-acquired polymicrobial pneumonia in the intensive care unit: aetiology and prognosis",
+            "venue": "Crit Care",
+            "volume": "15",
+            "year": 2011
+        },
+        "BIBREF33": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Jamieson",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Pasman",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Yu",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1230--1234",
+            "ref_id": "b33",
+            "title": "Role of tissue protection in lethal respiratory viral-bacterial coinfection",
+            "venue": "Science",
+            "volume": "340",
+            "year": 2013
+        },
+        "BIBREF34": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Falsey",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Becker",
+                    "middle": [
+                        "L"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Swinburne",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "432--473",
+            "ref_id": "b34",
+            "title": "Bacterial complications of respiratory tract viral illness: a comprehensive evaluation",
+            "venue": "JID",
+            "volume": "208",
+            "year": 2013
+        },
+        "BIBREF35": {
+            "authors": [
+                {
+                    "first": "P",
+                    "last": "Schuetz",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "last": "Chiappa",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Briel",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Greenwald",
+                    "middle": [
+                        "L"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1322--1353",
+            "ref_id": "b35",
+            "title": "Procalcitonin algorithms for antibiotic therapy decisions: a systematic review of randomized controlled trials and recommendations for clinical algorithms",
+            "venue": "Arch Intern Med",
+            "volume": "171",
+            "year": 2011
+        },
+        "BIBREF36": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Blaschke",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Heyrend",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "last": "Byington",
+                    "middle": [
+                        "L"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "289--94",
+            "ref_id": "b36",
+            "title": "Molecular analysis improves pathogen identification and epidemiologic study of pediatric parapneumonic empyema",
+            "venue": "Pediatr Infect Dis J",
+            "volume": "30",
+            "year": 2011
+        },
+        "BIBREF37": {
+            "authors": [
+                {
+                    "first": "F",
+                    "last": "Morfin",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Dupuis-Girod",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Frobert",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "55--61",
+            "ref_id": "b37",
+            "title": "Differential susceptibility of adenovirus clinical isolates to cidofovir and ribavirin is not related to species alone",
+            "venue": "Antivir Ther",
+            "volume": "14",
+            "year": 2009
+        },
+        "BIBREF38": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Smith",
+                    "middle": [
+                        "R"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "last": "Ariano",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Toovey",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "43--51",
+            "ref_id": "b38",
+            "title": "The use of antiviral agents for the management of severe influenza",
+            "venue": "Crit Care Med",
+            "volume": "38",
+            "year": 2010
+        },
+        "BIBREF39": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Fiore",
+                    "middle": [
+                        "E"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "last": "Fry",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Shay",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "last": "Gubareva",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Bresee",
+                    "middle": [
+                        "S"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Uyeki",
+                    "middle": [
+                        "M"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1--24",
+            "ref_id": "b39",
+            "title": "Antiviral agents for the treatment and chemoprophylaxis of influenza-recommendations of the Advisory Committee on Immunization Practices (ACIP)",
+            "venue": "Centers for Disease Control and Prevention (CDC)",
+            "volume": "60",
+            "year": 2011
+        },
+        "BIBREF4": {
+            "authors": [
+                {
+                    "first": "D",
+                    "last": "Bibby",
+                    "middle": [
+                        "F"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "last": "Mcelarney",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Breuer",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "last": "Clark",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1469--75",
+            "ref_id": "b4",
+            "title": "Comparative evaluation of the Seegene Seeplex RV15 and real-time PCR for respiratory virus detection",
+            "venue": "J Med Virol",
+            "volume": "83",
+            "year": 2011
+        },
+        "BIBREF5": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "De Roux",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Marcos",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "last": "Garcia",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1343--51",
+            "ref_id": "b5",
+            "title": "Viral community-acquired pneumonia in nonimmunocompromised adults",
+            "venue": "Chest",
+            "volume": "125",
+            "year": 2004
+        },
+        "BIBREF6": {
+            "authors": [
+                {
+                    "first": "Angeles",
+                    "last": "Marcos",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Camps",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "last": "Pumarola",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "351--360",
+            "ref_id": "b6",
+            "title": "The role of viruses in the aetiology of community-acquired pneumonia in adults",
+            "venue": "Antivir Ther",
+            "volume": "11",
+            "year": 2006
+        },
+        "BIBREF7": {
+            "authors": [
+                {
+                    "first": "A",
+                    "last": "Saito",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Kohno",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Matsushima",
+                    "middle": [],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "63--72",
+            "ref_id": "b7",
+            "title": "Prospective multicenter study of the causative organisms of community-acquired pneumonia in adults in Japan",
+            "venue": "J Infect Chemother",
+            "volume": "12",
+            "year": 2006
+        },
+        "BIBREF8": {
+            "authors": [
+                {
+                    "first": "J",
+                    "last": "Johnstone",
+                    "middle": [],
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "last": "Majumdar",
+                    "middle": [
+                        "R"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "last": "Fox",
+                    "middle": [
+                        "D"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Marrie",
+                    "middle": [
+                        "J"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "1141--1149",
+            "ref_id": "b8",
+            "title": "Viral infection in adults hospitalized with community-acquired pneumonia: prevalence, pathogens, and presentation",
+            "venue": "Chest",
+            "volume": "134",
+            "year": 2008
+        },
+        "BIBREF9": {
+            "authors": [
+                {
+                    "first": "L",
+                    "last": "Jennings",
+                    "middle": [
+                        "C"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "last": "Anderson",
+                    "middle": [
+                        "P"
+                    ],
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "last": "Beynon",
+                    "middle": [
+                        "A"
+                    ],
+                    "suffix": ""
+                }
+            ],
+            "issn": "",
+            "other_ids": {},
+            "pages": "42--50",
+            "ref_id": "b9",
+            "title": "Incidence and characteristics of viral community-acquired pneumonia in adults",
+            "venue": "Thorax",
+            "volume": "63",
+            "year": 2008
+        }
+    },
+    "body_text": [
+        {
+            "cite_spans": [
+                {
+                    "end": 284,
+                    "ref_id": "BIBREF0",
+                    "start": 281,
+                    "text": "[1]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "Community-acquired pneumonia (CAP) is a complex disease. Twenty percent to 40% of patients with CAP are hospitalized. One-tenth of inpatients with severe CAP (SCAP) require treatment in intensive care units (ICUs), typically requiring ventilatory support or septic shock treatment [1] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 312,
+                    "ref_id": "BIBREF1",
+                    "start": 309,
+                    "text": "[2]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "The bacterial etiologies of CAP and SCAP are well defined. The most common bacterium affecting all patient groups is Streptococcus pneumoniae; Mycoplasma pneumoniae and Chlamydia pneumoniae are predominantly found among young CAP patients. Legionella pneumophila comprises an important cause of CAP worldwide [2] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 93,
+                    "ref_id": "BIBREF2",
+                    "start": 90,
+                    "text": "[3]"
+                },
+                {
+                    "end": 289,
+                    "ref_id": "BIBREF3",
+                    "start": 286,
+                    "text": "[4,"
+                },
+                {
+                    "end": 292,
+                    "ref_id": "BIBREF4",
+                    "start": 290,
+                    "text": "5]"
+                },
+                {
+                    "end": 384,
+                    "ref_id": "BIBREF5",
+                    "start": 381,
+                    "text": "[6]"
+                },
+                {
+                    "end": 388,
+                    "ref_id": "BIBREF6",
+                    "start": 385,
+                    "text": "[7]"
+                },
+                {
+                    "end": 392,
+                    "ref_id": "BIBREF7",
+                    "start": 389,
+                    "text": "[8]"
+                },
+                {
+                    "end": 396,
+                    "ref_id": "BIBREF8",
+                    "start": 393,
+                    "text": "[9]"
+                },
+                {
+                    "end": 401,
+                    "ref_id": "BIBREF9",
+                    "start": 397,
+                    "text": "[10]"
+                },
+                {
+                    "end": 406,
+                    "ref_id": "BIBREF10",
+                    "start": 402,
+                    "text": "[11]"
+                },
+                {
+                    "end": 411,
+                    "ref_id": "BIBREF11",
+                    "start": 407,
+                    "text": "[12]"
+                },
+                {
+                    "end": 416,
+                    "ref_id": "BIBREF12",
+                    "start": 412,
+                    "text": "[13]"
+                },
+                {
+                    "end": 421,
+                    "ref_id": "BIBREF13",
+                    "start": 417,
+                    "text": "[14]"
+                },
+                {
+                    "end": 426,
+                    "ref_id": "BIBREF14",
+                    "start": 422,
+                    "text": "[15]"
+                },
+                {
+                    "end": 431,
+                    "ref_id": "BIBREF15",
+                    "start": 427,
+                    "text": "[16]"
+                },
+                {
+                    "end": 436,
+                    "ref_id": "BIBREF16",
+                    "start": 432,
+                    "text": "[17]"
+                },
+                {
+                    "end": 441,
+                    "ref_id": "BIBREF17",
+                    "start": 437,
+                    "text": "[18]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "Approximately 200 million viral CAP cases occur annually, half of such cases among adults [3] . New molecular diagnostic assays, such as the polymerase chain reaction (PCR) tests that have been introduced over the past 10 years, have increased the ability to detect respiratory viruses [4, 5] . According to published studies, viruses account for 11%-55% of CAP cases among adults [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 117,
+                    "ref_id": "BIBREF15",
+                    "start": 113,
+                    "text": "[16,"
+                },
+                {
+                    "end": 121,
+                    "ref_id": "BIBREF16",
+                    "start": 118,
+                    "text": "17]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "",
+            "text": "To the best of the authors' knowledge, there are only 2 published studies focusing on the viral etiology of SCAP [16, 17] . The purpose of this prospective study was to evaluate the presence and clinical course of viral infections in mechanically ventilated SCAP patients, using multiplex PCR methodology."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 499,
+                    "ref_id": null,
+                    "start": 495,
+                    "text": "[19]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS",
+            "text": "The study population consisted of a cohort of SCAP patients admitted to our mixed ICU in a tertiary referral university hospital between June 2008 and May 2012. For the purposes of this study, severe CAP was defined as an acute lower respiratory tract infection with fever or hypothermia, cough, or dyspnea acquired outside the hospital. The presence of pneumonia was confirmed by chest radiography demonstrating a new pulmonary infiltrate. All patients fulfilled the criteria for severe sepsis [19] . Adult patients (aged >18 years) with SCAP who were expected to require intensive care treatment for >48 hours and who were started on mechanical ventilation during the first 48 hours following ICU admission were included in this study. Patients with a life expectancy <24 hours due to the severity of their disease or whose hospital stay was >2 days prior to ICU admission were excluded. The hospital ethics committee approved the study protocol, and written informed consent was requested from each patient or their next of kin."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 301,
+                    "ref_id": "BIBREF19",
+                    "start": 297,
+                    "text": "[20]"
+                },
+                {
+                    "end": 356,
+                    "ref_id": "BIBREF20",
+                    "start": 352,
+                    "text": "[21]"
+                },
+                {
+                    "end": 422,
+                    "ref_id": "BIBREF21",
+                    "start": 418,
+                    "text": "[22]"
+                },
+                {
+                    "end": 1060,
+                    "ref_id": "BIBREF22",
+                    "start": 1056,
+                    "text": "[23]"
+                },
+                {
+                    "end": 1133,
+                    "ref_id": "BIBREF23",
+                    "start": 1129,
+                    "text": "[24]"
+                },
+                {
+                    "end": 1368,
+                    "ref_id": "BIBREF1",
+                    "start": 1365,
+                    "text": "[2]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "MATERIALS AND METHODS",
+            "text": "The following data were obtained: age, sex, body mass index, preexisting comorbidities (chronic pulmonary disease, coronary artery and vascular diseases, diabetes, alcoholism, smoking, immunosuppressive medications, malignancy), Acute Physiology and Chronic Health Evaluation II (APACHE II) score [20] , New Simplified Acute Physiology Score (SAPS II) [21] , and daily Sequential Organ Failure Assessment (SOFA) score [22] . Laboratory data were also obtained (daily C-reactive protein [CRP] level, procalcitonin [PCT] [Siemens Centaur XP, Advia Centaur BRAHMS PCT], white cell count, platelet count, lactate level, creatinine level, and other biochemical parameters), as were radiological and clinical findings, including antibiotic treatment prior to hospital and ICU admission and blood cultures prior to and during ICU stay. Septic shock upon admission, as well as the need for mechanical ventilation, was recorded. Pulmonary complications, such as pleural fluid, empyema, and alveolar edema, were registered. The sum of Pneumonia Severity Index (PSI) [23] , CURB-65 (confusion, urea, respiratory rate, blood pressure) score [24] , and Infectious Diseases Society of America/American Thoracic Society (IDAS/ATS) major criteria (need for invasive mechanical ventilation or septic shock requiring vasopressor [noradrenaline] infusion) and minor criteria for SCAP [2] were also calculated. The length of ICU and hospital stays and ICU, hospital, and 28-day mortalities were analyzed."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 314,
+                    "ref_id": null,
+                    "start": 310,
+                    "text": "[19]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Definitions",
+            "text": "The definition of acute kidney injury was based on renal SOFA score as SOFA 3 (serum creatinine level = 300-440 \u00b5mol/L or daily diuresis of <500 mL/day) or SOFA 4 (serum creatinine level >440 \u00b5mol/L or daily diuresis of <200 mL/day) during the ICU stay. Septic shock was defined according to standard criteria [19] ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Bacteria",
+            "text": "During the first 24 hours after ICU admission, at least 2 blood samples were obtained from each patient for blood culture using the automatic blood culture monitoring system (BacT/ Alert), tracheobronchial aspirates for respiratory bacterial diagnostics, and a urine sample for BinaxNOW S. pneumoniae urine antigen and L. pneumophila antigen detection (Binax-NOW, Alere Scarborough). Pleural fluid was cultured if pleural punctures or drainages were required. Paired serum samples for serological detection of M. pneumoniae and C. pneumoniae were also obtained upon ICU admission and before hospital discharge."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Bacteria",
+            "text": "Bronchial specimens underwent Gram staining. Purulent samples (leukocyte/epithelial cell ratio >5) were considered significant findings if they yielded 1-2 different bacteria. Pleural fluid and bronchoalveolar lavage (BAL) samples were stained and quantitatively cultured for bacterial pathogens and fungi. In addition, BAL samples were subjected to Papanicolau and May-Grunwald-Giemsa staining to obtain cellular differential counts, as well as Gomori methenamine silver staining for Pneumocystis jirovecii. Mycobacteria were detected by staining, culturing, or PCR."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Bacteria",
+            "text": "A microorganism was considered a definite cause of SCAP if it was cultured from blood. A bacterium was considered as the etiology of SCAP only if it grew from good-quality bronchial aspirates (cutoff \u226510 5 colony-forming units [CFU]) or BAL (cutoff \u226510 4 CFU), or if urine antigen testing for S. pneumoniae or L. pneumoniae was positive. The presence of immunoglobulin M antibodies and/or a significant increase (at least 2-fold rise) in immunoglobulin G antibody levels between paired serum samples was considered to signify an acute M. pneumoniae or C. pneumoniae infection. The median interval between paired serum samples was 11 days."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Viruses",
+            "text": "Three sets of nasopharyngeal (NP) swabs were collected for the detection of respiratory viruses. The NP swabs were obtained using a Copan brush, and each swab was stored in a sterile sample tube and deep-frozen at \u221275\u00b0C until analysis. Over the first 2 ICU days, BAL for respiratory viral diagnostics was performed whenever possible. The BAL samples were sent to this hospital's microbiology and pathology laboratories for further diagnostics, in accordance with normal practice. Two 3-mL samples of BAL fluid were also stored at \u221275\u00b0C for a PCR analysis at a later date. When a BAL study was not possible, normal bronchoscopy was performed or a bronchial suction aspirate sample was collected via the intubation tube for virus detection. The NP swabs and 2 samples of BAL fluid or bronchial suction aspirates were sent for analysis of respiratory viruses to the Virus Diagnostics Laboratory, University of Turku."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 483,
+                    "ref_id": "BIBREF24",
+                    "start": 479,
+                    "text": "[25]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Viruses",
+            "text": "All nasopharyngeal swabs, bronchial aspirates, and BAL samples were analyzed by PCR. A multiplex PCR test kit (Anyplex RV16, Seegene, South Korea) was used to detect adenovirus, influenza A and B viruses, parainfluenza virus types 1-4, rhinovirus, respiratory syncytial viruses A and B, bocavirus, coronaviruses 229E, NL63, and OC43, metapneumovirus, and enteroviruses. In addition, an in-house PCR test was used to detect enteroviruses and rhinoviruses, as previously described [25] . Viruses were considered to be a probable cause of SCAP when they were detected in NP swabs by PCR. A definite diagnosis of a viral cause of SCAP required a positive PCR result in the lower respiratory tract specimens."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Classification of SCAP Patients",
+            "text": "Etiological types of SCAP were classified as follows: pure bacterial infection, if etiological examinations revealed only bacteria; probably pure viral infection, if only viral findings were recovered; and mixed bacterial-viral infection, if etiological examinations yielded both bacterial and viral findings. There was also a \"no etiology\" group, consisting of 4 patients in whom both bacterial and viral examinations remained negative."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis",
+            "text": "For continuous variables, medians with 25th-75th percentiles were used, and counts (%) were used for categorical variables. The probably pure viral group was excluded from statistical comparisons due to the small number of cases. Comparisons of continuous variables between pure bacterial and mixed bacterial-viral groups were analyzed using Student t-test or the Mann-Whitney U test; categorical variables were analyzed using \u03c7 2 or Fisher exact tests. Two-tailed P values were calculated. All analyses were performed using SPSS for Windows version 20.0 (IBM SPSS, Armonk, New York)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS",
+            "text": "A total of 67 SCAP patients under mechanical ventilation were applicable for the study. Of these, 18 patients were excluded for the following reasons: life expectancy <24 hours due to disease severity (n = 4), long hospital stay before transfer to ICU (n = 3), and no study personnel available (n = 11). After exclusions, the final study group consisted of 49 SCAP patients."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS",
+            "text": "The following samples were collected and tests performed after examination for all 49 SCAP patients: blood cultures, urine pneumococcal and Legionella antigen testing, NP swabs at admission, and paired serum samples for M. pneumoniae and C. pneumoniae antibody detection. Lower tracheal specimens were available from all patients, including a fiber-optic bronchoscopic BAL specimen from 31 patients (63%); bronchial aspirates were obtained through the intubation tube from 18 patients (37%)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 212,
+                    "ref_id": "TABREF0",
+                    "start": 205,
+                    "text": "Table 1"
+                },
+                {
+                    "end": 797,
+                    "ref_id": "TABREF0",
+                    "start": 789,
+                    "text": "(Table 1"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "The etiology of SCAP was defined in 45 (92%) cases. A pure bacterial etiology was diagnosed for 21 (43%) patients. The microbiological findings among pure bacterial and bacterial-viral groups are shown in Table 1 . Streptococcus pneumoniae was the most commonly identified bacterium, and was found in 28 (57%) cases of pure bacterial or bacterial-viral infections. Pneumococcus was the sole pathogen in 15 cases. Of 28 patients, S. pneumoniae was cultured in 16 (57%) patients in the blood and 16 (57%) patients in the bronchial aspirate, and the pneumococcal antigen was positive in the urine of 25 cases (89%). An acute M. pneumoniae infection was observed in 8 cases (16%), and was the only etiologic microbe in 4 cases, whereas it was present as a copathogen in the remaining patients (Table 1 ). All identified bacteria were susceptible to the antibiotics used for the treatment of pneumonia. There were no cases of C. pneumoniae, L. pneumophila, P. jirovecii, or Mycobacterium tuberculosis. Two patients in the pure bacterial group and 1 patient in the probable pure viral group developed empyema later on during their hospital stay."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 200,
+                    "ref_id": "TABREF0",
+                    "start": 192,
+                    "text": "Table 1)"
+                },
+                {
+                    "end": 268,
+                    "ref_id": "TABREF0",
+                    "start": 259,
+                    "text": "(Table 1)"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "A viral etiology of SCAP was diagnosed in 24 patients (49%). Viruses were identified as the only cause of SCAP in 5 cases (10%), and were identified together with bacteria in 19 cases (39%) ( Table 1) . Twenty-six viruses were detected among 24 SCAP patients (Table 1) . Of 26 viruses identified, 21 (81%) were detected from bronchial specimens, 5 (19%) were detected from NP swabs only, and both NP and bronchial PCR were positive in 7 cases."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "end": 84,
+                    "ref_id": "TABREF0",
+                    "start": 75,
+                    "text": "(Table 1)"
+                },
+                {
+                    "end": 617,
+                    "ref_id": "TABREF0",
+                    "start": 609,
+                    "text": "(Table 1"
+                },
+                {
+                    "end": 759,
+                    "ref_id": "TABREF4",
+                    "start": 752,
+                    "text": "Table 2"
+                },
+                {
+                    "end": 1306,
+                    "ref_id": "TABREF5",
+                    "start": 1299,
+                    "text": "Table 3"
+                },
+                {
+                    "end": 1383,
+                    "ref_id": "TABREF6",
+                    "start": 1374,
+                    "text": "(Table 4)"
+                },
+                {
+                    "end": 1756,
+                    "ref_id": "TABREF6",
+                    "start": 1748,
+                    "text": "(Table 4"
+                },
+                {
+                    "end": 1827,
+                    "ref_id": "TABREF6",
+                    "start": 1819,
+                    "text": "Table 4)"
+                },
+                {
+                    "end": 1840,
+                    "ref_id": "TABREF6",
+                    "start": 1833,
+                    "text": "Table 4"
+                },
+                {
+                    "end": 1997,
+                    "ref_id": "TABREF5",
+                    "start": 1988,
+                    "text": "(Table 3)"
+                },
+                {
+                    "end": 2084,
+                    "ref_id": "TABREF5",
+                    "start": 2076,
+                    "text": "Table 3)"
+                }
+            ],
+            "section": "RESULTS",
+            "text": "The most common virus was rhinovirus, being identified in 15 (57.7%) cases (Table 1) . Rhinovirus was detected 11 times from bronchial specimens and 4 times from nasopharyngeal swabs. The commercial PCR test missed 8 patients (53.3%) with positive rhinovirus findings identified by in-house PCR test. Adenovirus was found in 4 (15%) cases. The other virus findings were as follows: 2 cases with coronavirus, 2 cases with enterovirus, and 1 case with influenza A, respiratory syncytial virus, and parainfluenza 3. Two patients (8%) had 2 positive viral tests. Five patients suffered a probably pure viral SCAP (Table 1 ). In the mixed bacterial-viral group, the most common combination was S. pneumoniae and rhinovirus, which occurred in 6 cases (32%). Table 2 depicts the patient characteristics and the occurrence of organ failure during ICU treatment. The groups with pure bacterial infections and bacterial-viral infections were comparable. At hospital admission, antibiotic therapy had already been initiated in 18 patients (37%): 7 in the bacterial group (33%), 7 in the bacterial-viral group (37%), 3 in the viral The comparisons of laboratory findings and outcome data for the groups ( pure bacterial, mixed bacterial-viral infection, probably pure viral, and \"no etiology\") are presented in Table 3 . On admission, each patient fulfilled the IDSA/ATS major criteria (Table 4) : 47 patients required mechanical ventilation; the remaining 2 patients were in septic shock requiring vasopressors, and their condition later deteriorated so that they also required mechanical ventilation. According to median values, the SCAP patients in all 4 etiology groups belonged to PSI severity group IV and the median CURB-65 scores for the groups varied (Table 4 ); there were no significant differences between the groups ( Table 4) . As Table 4 also shows, the pure bacteria group had the highest APACHE II scores on admission (P = .05). The median ICU stay did not differ between the groups (Table 3) , whereas the hospital stay was longest among the bacterial group (P = .02) ( Table 3) ."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "Almost half of the SCAP patients in this study exhibited evidence of a viral etiology based on multiplex, real-time PCR tests. Eighty percent of the viral findings were detected from samples obtained from the lower respiratory tract, which underscores the etiological importance of these viral findings. Clinical characteristics and outcomes were similar between the pure bacterial and mixed bacterial-viral infections groups; however, the APACHE II score was the highest on admission, and hospital stay was the longest in the bacterial group."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "A major strength of this study was that it was a prospective study in which one investigator (J. K.) systematically treated all patients, allowing for a high success rate of etiological examinations using bronchoscopic and large-scale microbiological methods, including multiple viral PCR techniques. The etiology of SCAP was defined in 92% of cases, which is one of the highest rates of diagnosis reported thus far. One-third of the SCAP patients were on antibiotics when etiological examinations were performed, and they therefore had positive blood cultures 2.8-fold less often than patients without previous antibiotics. (10) (11) (12) (13) .02"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "ICU mortality 0 (0) 3 (15.8) 0 (0) 0 (0) .1 28-day mortality 1 (5) 4 (21) 0 (0) 0 (0) .17"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "Hospital mortality 2 (10) 4 (21) 0 (0) 0 (0) .4"
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "Values are presented as No. (%) or median (25th-75th percentile)."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "Abbreviations: CRP, C-reactive protein; ICU, intensive care unit; PCT, procalcitonin; WBC, white blood cell. a Comparison between bacterial-only infection and bacterial-viral infection groups. A potential weakness of this study was that it was performed in a single center, which may limit the generalizability of the results for other centers. Furthermore, the findings from this study only represent the situation encountered in intubated SCAP patients whose ICU stay was >48 hours. Unfortunately, samples could not be obtained from >10% of cases (11 of 60 SCAP patients) due to an unavailability of study personnel. Finally, the relatively small sample size may affect the statistical analysis; for example, multivariate logistic regression analyses could not be calculated. Despite the limited number of study patients, this is the largest study with bronchoscopic PCR sampling of mechanically ventilated SCAP patients thus far reported."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 147,
+                    "ref_id": "BIBREF15",
+                    "start": 143,
+                    "text": "[16]"
+                },
+                {
+                    "end": 315,
+                    "ref_id": "BIBREF16",
+                    "start": 311,
+                    "text": "[17]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "Literature on the viral etiology of SCAP is sparse. In a recent Korean single-center SCAP study, viruses were detected in 41% of SCAP patients [16] . In a 3-year multicenter SCAP study conducted in the United States, the proportion of viruses detected varied from 11% between May and July to 32% during October [17] . Viruses were identified in 49% of patients in the present SCAP series."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 224,
+                    "ref_id": "BIBREF14",
+                    "start": 220,
+                    "text": "[15,"
+                },
+                {
+                    "end": 228,
+                    "ref_id": "BIBREF16",
+                    "start": 225,
+                    "text": "17]"
+                },
+                {
+                    "end": 341,
+                    "ref_id": "BIBREF14",
+                    "start": 337,
+                    "text": "[15,"
+                },
+                {
+                    "end": 345,
+                    "ref_id": "BIBREF15",
+                    "start": 342,
+                    "text": "16]"
+                },
+                {
+                    "end": 715,
+                    "ref_id": "BIBREF15",
+                    "start": 711,
+                    "text": "[16,"
+                },
+                {
+                    "end": 719,
+                    "ref_id": "BIBREF16",
+                    "start": 716,
+                    "text": "17]"
+                },
+                {
+                    "end": 960,
+                    "ref_id": "BIBREF25",
+                    "start": 956,
+                    "text": "[26,"
+                },
+                {
+                    "end": 964,
+                    "ref_id": "BIBREF26",
+                    "start": 961,
+                    "text": "27]"
+                },
+                {
+                    "end": 1391,
+                    "ref_id": "BIBREF15",
+                    "start": 1387,
+                    "text": "[16,"
+                },
+                {
+                    "end": 1395,
+                    "ref_id": "BIBREF16",
+                    "start": 1392,
+                    "text": "17]"
+                },
+                {
+                    "end": 1494,
+                    "ref_id": "BIBREF27",
+                    "start": 1490,
+                    "text": "[28]"
+                },
+                {
+                    "end": 1499,
+                    "ref_id": "BIBREF28",
+                    "start": 1495,
+                    "text": "[29]"
+                },
+                {
+                    "end": 1504,
+                    "ref_id": "BIBREF29",
+                    "start": 1500,
+                    "text": "[30]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "When PCR was performed from NP swabs, viruses were detected in 24% of the SCAP patients, whereas 29% of hospitalized Swedish CAP patients and 23% of patients in a US multicenter SCAP study demonstrated a viral infection [15, 17] . The use of NP swabs has also been criticized, as they may not represent actual lower respiratory findings [15, 16] . This may have been the case for 5 SCAP patients in the present study in whom virus was detected only with the use of NP swabs. In the present investigation, the recovery of viral PCR was 1.8-fold higher in lower respiratory tract specimens than in NP swabs. Rhinovirus was discovered in 31% of the SCAP patients, which is higher than has previously been reported [16, 17] . In this study, 11 of 15 (73%) of the rhinovirus findings were detected in lower respiratory tract samples. The importance of lower respiratory tract samples for viral detection was also seen during the H1N1 influenza pandemic in 2009 [26, 27] . The PCR method selected may also influence the results; a commercial PCR test would have missed 53% of the rhinovirus SCAP cases compared with our in-house test. Taken together, the systematic use of invasive respiratory sampling methods and our custom in-house virus test may explain the higher total yield of viruses in the present series compared with earlier publications involving hospitalized CAP or SCAP patients [16, 17] . Viral analysis of the BAL fluid has been particularly useful for immunocompromised patients [28] [29] [30] . In this series, the presence of viruses in respiratory samples in SCAP patients was demonstrated in almost half of the cases. This result may have implications regarding the point of transmission of respiratory viruses in the ICU, especially among noninvasive ventilated SCAP patients. Larger studies are needed to demonstrate the prognostic importance of possible transmission of respiratory viral infections in the critical care environment."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 157,
+                    "ref_id": "BIBREF10",
+                    "start": 153,
+                    "text": "[11,"
+                },
+                {
+                    "end": 162,
+                    "ref_id": "BIBREF30",
+                    "start": 158,
+                    "text": "[31]"
+                },
+                {
+                    "end": 167,
+                    "ref_id": "BIBREF31",
+                    "start": 163,
+                    "text": "[32]"
+                },
+                {
+                    "end": 172,
+                    "ref_id": "BIBREF32",
+                    "start": 168,
+                    "text": "[33]"
+                },
+                {
+                    "end": 527,
+                    "ref_id": "BIBREF33",
+                    "start": 523,
+                    "text": "[34]"
+                },
+                {
+                    "end": 667,
+                    "ref_id": "BIBREF15",
+                    "start": 663,
+                    "text": "[16]"
+                },
+                {
+                    "end": 737,
+                    "ref_id": "BIBREF9",
+                    "start": 733,
+                    "text": "[10,"
+                },
+                {
+                    "end": 741,
+                    "ref_id": "BIBREF17",
+                    "start": 738,
+                    "text": "18]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "In general, polymicrobial infections in CAP have been considered to cause more severe inflammation and clinical disease than single microbial infections [11, [31] [32] [33] . In the present series, the mixed bacterial-viral infection group seemed to need a longer period of noradrenaline infusion than the pure bacterial infection group. Experimental studies have shown that in cases of respiratory bacterial-viral coinfections, the eradication of bacteria did not prevent fatal outcomes as a result of influenza infection [34] . On the other hand, in the present study and in a recent Korean SCAP study, the presence of viruses did not appear to affect outcomes [16] . This neutral finding has been shown among CAP patients as well [10, 18] . These findings may suggest that viral coinfection in the context of SCAP does not necessarily have any prognostic importance. The small numbers of patients in all of these studies prevent robust conclusions, however, considering the importance of viral infections on outcome."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "In this series, patients with bacterial SCAP were more severely ill on admission, based on APACHE II scores, and had the longest hospital stay compared with the mixed bacterial-viral group. The duration of symptoms did not differ between the 4 etiological groups, however, suggesting that viruses may have an essential role in the pathogenesis of SCAP."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 521,
+                    "ref_id": "BIBREF34",
+                    "start": 517,
+                    "text": "[35,"
+                },
+                {
+                    "end": 525,
+                    "ref_id": "BIBREF35",
+                    "start": 522,
+                    "text": "36]"
+                },
+                {
+                    "end": 886,
+                    "ref_id": "BIBREF36",
+                    "start": 882,
+                    "text": "[37]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "In the present study, both CRP and PCT values seemed to be higher in the mixed bacterial-viral group compared with pure bacterial SCAP patients. Whether this difference was caused by more intensive inflammation in the mixed bacterial-viral group will remain an open question. The lowest PCT levels were found in the group of probably pure viral infections. These patients, however, had much higher PCT concentrations than has been thus far suggested as a level to differentiate between bacterial and viral infections [35, 36] . Furthermore, 3 patients in our series from the probably pure viral infection group had actually received antibiotics before respiratory sampling. Moreover, if PCR tests for the common bacterial causes of CAP and M. pneumoniae would have been available, at least some of the probably pure viral infections may have proved to be bacterial-viral infections [37] ."
+        },
+        {
+            "cite_spans": [
+                {
+                    "end": 414,
+                    "ref_id": "BIBREF37",
+                    "start": 410,
+                    "text": "[38]"
+                },
+                {
+                    "end": 419,
+                    "ref_id": "BIBREF38",
+                    "start": 415,
+                    "text": "[39]"
+                },
+                {
+                    "end": 424,
+                    "ref_id": "BIBREF39",
+                    "start": 420,
+                    "text": "[40]"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "The present study demonstrated that, to achieve a higher yield of viral diagnoses in SCAP patients, highly qualified multiplex PCR methods with invasive sampling are needed. The wider use of this approach should be carefully considered until antiviral agents for the treatment of common respiratory viruses are readily available. Antiviral agents are currently available for the influenza virus and adenovirus [38] [39] [40] . If the PCR results of the study population would have been available, 4 patients may have used cidofovir treatment."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "The major findings of this study were as follows: The etiology of SCAP was diagnosed in 92% of study patients, and respiratory viruses were detected in 49%. Viral etiology did not have an impact on disease severity or on clinical outcome."
+        },
+        {
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION",
+            "text": "In conclusion, a viral etiology is more common in SCAP than has been reported thus far. The recovery of viruses in patients with SCAP is influenced by the availability of modern multiplex PCR techniques and the ability to use invasive methods to obtain lower respiratory specimens. The presence of viral etiology does not, however, appear to affect the outcomes of SCAP patients."
+        }
+    ],
+    "metadata": {
+        "authors": [
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "J",
+                "last": "Karhu",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "T",
+                "last": "Ala-Kokko",
+                "middle": [
+                    "I"
+                ],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "University of Turku",
+                    "laboratory": "",
+                    "location": {
+                        "country": "Finland"
+                    }
+                },
+                "email": "",
+                "first": "T",
+                "last": "Vuorinen",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {},
+                "email": "",
+                "first": "P",
+                "last": "Ohtonen",
+                "middle": [],
+                "suffix": ""
+            },
+            {
+                "affiliation": {
+                    "institution": "Medical Research Center Oulu",
+                    "laboratory": "",
+                    "location": {}
+                },
+                "email": "",
+                "first": "H",
+                "last": "Syrj\u00e4l\u00e4",
+                "middle": [],
+                "suffix": ""
+            }
+        ],
+        "title": "Lower Respiratory Tract Virus Findings in Mechanically Ventilated Patients With Severe Community-Acquired Pneumonia"
+    },
+    "paper_id": "2773edf2734f65d63b4c83a727bbda6d3f23c380",
+    "ref_entries": {
+        "FIGREF0": {
+            "latex": null,
+            "text": "60%), and 1 of the 4 patients with no discernible etiology. Blood cultures were positive for 50% of 32 patients without previous antibiotics and 18% of 17 patients with antibiotics (P = .034). The patients in the mixed bacterial-viral infection group seemed to need a longer period of noradrenaline infusion than the pure bacterial infection group, but the difference was not statistically significant (P = .48).",
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "latex": null,
+            "text": "The findings for the pure bacterial and mixed bacterial-viral infection groups were comparable. The bacterial-viral group had higher peak CRP levels (356 [294-416] vs 299 [213-350]; P = .05). The pure viral infection group, with 5 patients, had the lowest PCT values (1.4 [1.0-1.4]).",
+            "type": "figure"
+        },
+        "TABREF0": {
+            "html": "<html><body><table><tr><td>Sex </td><td>Age </td><td>Bacteria </td><td>Trachea </td><td>Blood Culture </td><td>U-Stpnag </td><td>Mycoplasma </td><td>Virus </td><td>NP </td><td>Trachea </td><td>BAL\n</td></tr><tr><td>Pure bacterial group (n = 21)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>M </td><td>52 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>52 </td><td>S. pneumoniae </td><td>\u2212 </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>74 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>22 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>49 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>85 </td><td>E. coli </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>37 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>58 </td><td>S. pneumoniae </td><td>\u2212 </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>56 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>47 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>55 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>83 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>56 </td><td>S. aureus </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>68 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>24 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>F </td><td>49 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>73 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>48 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>F </td><td>53 </td><td>K. pneumoniae </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>+b </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>56 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>49 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>F </td><td>84 </td><td>Probably pure viral group (n = 5)\n\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Coronavirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>40 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Influenza A virus </td><td>+ </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>F </td><td>48 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>+ </td><td>\u2212\n</td></tr><tr><td>M </td><td>44 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Adenovirus </td><td>\u2212 </td><td>\u2212 </td><td>+\n</td></tr><tr><td>M </td><td>57 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>Bacterial-viral group (n = 19)\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>M </td><td>55 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>+\n</td></tr><tr><td>M </td><td>51 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Parainfluenza virus 3 </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>M </td><td>81 </td><td>P. aeruginosa </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>73 </td><td>H. influenzae\n</td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>\u2212 </td><td>+\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>M. catarrhalis\n</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>F </td><td>69 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Coronavirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>59 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>43 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Adenovirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>54 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>59 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>\u2212 </td><td>Respiratory syncytial virus </td><td>+ </td><td>+ </td><td>+\n</td></tr><tr><td>M </td><td>39 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>+a </td><td>Enterovirus </td><td>+ </td><td>+ </td><td>NA\n</td></tr><tr><td>F </td><td>44 </td><td>S. pneumoniae </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>+ </td><td>+\n</td></tr><tr><td>F </td><td>75 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>+ </td><td>+\n</td></tr><tr><td>F </td><td>73 </td><td>S. pneumoniae </td><td>\u2212 </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>+ </td><td>\u2212\n</td></tr><tr><td>F </td><td>60 </td><td>S. pneumoniae </td><td>\u2212 </td><td>\u2212 </td><td>+ </td><td>\u2212 </td><td>Adenovirus\n</td><td>\u2212\n</td><td>\u2212\n</td><td>+\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>Enterovirus\n</td><td>\u2212\n</td><td>+\n</td><td>+\n</td></tr><tr><td>F </td><td>29 </td><td>S. pneumoniae </td><td>+ </td><td>+ </td><td>+ </td><td>+b </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>\u2212\n</td></tr><tr><td>M </td><td>37 </td><td>S. aureus </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>NA\n</td></tr><tr><td>M </td><td>60 </td><td>H. influenzae </td><td>+ </td><td>+ </td><td>\u2212 </td><td>\u2212 </td><td>Rhinovirus </td><td>+ </td><td>\u2212 </td><td>+\n</td></tr><tr><td>M </td><td>47 </td><td>S. pneumoniae </td><td>\u2212 </td><td>+ </td><td>+ </td><td>\u2212 </td><td>Rhinovirus </td><td>\u2212 </td><td>\u2212 </td><td>+\n</td></tr><tr><td>F </td><td>39 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>\u2212 </td><td>+a </td><td>Rhinovirus\n</td><td>\u2212\n</td><td>\u2212\n</td><td>+\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>Adenovirus\n</td><td>\u2212\n</td><td>\u2212\n</td><td>+\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "Microbiological Etiologies of Study Groups",
+            "type": "table"
+        },
+        "TABREF2": {
+            "latex": null,
+            "text": "",
+            "type": "table"
+        },
+        "TABREF4": {
+            "html": "<html><body><table><tr><td>\u00a0</td><td>Pure Bacterial Group\n</td><td>Bacterial-Viral Group\n</td><td>Probably Pure Viral\n</td><td>No Etiology Group\n</td><td>P\n</td></tr><tr><td>Variable\n</td><td>(n = 21)\n</td><td>(n = 19)\n</td><td>Group (n = 5)\n</td><td>(n = 4)\n</td><td>Valuea\n</td></tr><tr><td>Age, y </td><td>53 (49-58) </td><td>55 (44-65) </td><td>48 (44-57) </td><td>62 (46-72) </td><td>&gt;.9\n</td></tr><tr><td>Male sex </td><td>10 (48) </td><td>8 (42) </td><td>2 (40) </td><td>1 (25) </td><td>.76\n</td></tr><tr><td>BMI </td><td>24 (22-32) </td><td>26 (24-29) </td><td>29 (28-29) </td><td>30 (27-31) </td><td>.9\n</td></tr><tr><td>Comorbidity </td><td>15 (71) </td><td>13 (68) </td><td>4 (80) </td><td>4 (100) </td><td>&gt;.9\n</td></tr><tr><td>Smoking </td><td>9 (45) </td><td>9 (47) </td><td>3 (60) </td><td>1 (25) </td><td>&gt;.9\n</td></tr><tr><td>Alcoholism </td><td>3 (14) </td><td>5 (26) </td><td>0 (0) </td><td>0 (0) </td><td>.44\n</td></tr><tr><td>Duration of symptoms before pneumonia diagnosis, d\n</td><td>2 (0-4) </td><td>3 (1-4) </td><td>2 (0-2) </td><td>4 (1-5) </td><td>.81\n</td></tr><tr><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td><td>\u00a0</td></tr><tr><td>Antibiotics before hospital admission </td><td>7 (33) </td><td>7 (37) </td><td>3 (60) </td><td>1 (25) </td><td>&gt;.9\n</td></tr><tr><td>Antibiotics before blood cultures </td><td>6 (29) </td><td>8 (42) </td><td>2 (40) </td><td>1 (25) </td><td>.51\n</td></tr><tr><td>Chest radiography diffuse infiltration </td><td>15 (71) </td><td>13 (68) </td><td>4 (80) </td><td>4 (100) </td><td>&gt;.9\n</td></tr><tr><td>Septic shock on admission </td><td>10 (48) </td><td>8 (42) </td><td>2 (40) </td><td>1 (25) </td><td>.76\n</td></tr><tr><td>Acute kidney injury </td><td>7 (35) </td><td>2 (11) </td><td>0 (0) </td><td>1 (25) </td><td>.13\n</td></tr><tr><td>Time on mechanical ventilation, h </td><td>110 (47-153) </td><td>102 (45-134) </td><td>130 (91-147) </td><td>37 (26-50) </td><td>.66\n</td></tr><tr><td>Time on noradrenaline infusion, h </td><td>45 (30-96) </td><td>85 (56-118) </td><td>74 (73-151) </td><td>39 (25-51) </td><td>.48\n</td></tr><tr><td>PF ratio at ICU admission </td><td>128 (90-225) </td><td>113 (75-188) </td><td>135 (105-300) </td><td>135 (113-158) </td><td>.37\n</td></tr><tr><td>PF ratiob </td><td>120 (75-143) </td><td>98 (68-143) </td><td>90 (83-98) </td><td>135 (113-158) </td><td>.89\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "Baseline Characteristics of 49 Patients With Severe Community-Acquired Pneumonia",
+            "type": "table"
+        },
+        "TABREF5": {
+            "html": "<html><body><table><tr><td>Parameter\n</td><td>Pure Bacterial Group (n = 21)\n</td><td>Bacterial-Viral Group (n = 19)\n</td><td>Probably Pure Viral Group (n = 5)\n</td><td>No Etiology Group (n = 4)\n</td><td>P\nValuea\n</td></tr><tr><td>CRP, admission, mg/L </td><td>206 (144-338) </td><td>229 (180-323) </td><td>152 (120-154) </td><td>195 (56-314) </td><td>.77\n</td></tr><tr><td>CRP, mg/L, peak </td><td>299 (213-350) </td><td>356 (294-416) </td><td>152 (120-192) </td><td>234 (149-314) </td><td>.05\n</td></tr><tr><td>PCT, admission, \u00b5g/L </td><td>14.3 (2.7-63.5) </td><td>20.1 (5.4-40.2) </td><td>1.4 (1.0-1.4) </td><td>11.0 (1.1-37.0) </td><td>.21\n</td></tr><tr><td>PCT, \u00b5g/L, peak </td><td>14.3 (3.1-63.5) </td><td>24.3 (6.2-40.4) </td><td>1.7 (1.6-1.7) </td><td>11.0 (1.1-37.0) </td><td>.68\n</td></tr><tr><td>WBC count, \u00d7 109/L </td><td>7.6 (4.6-11.2) </td><td>7.0 (3.8-12.3) </td><td>13.5 (13.1-17.7) </td><td>16.2 (9.4-22.8) </td><td>.66\n</td></tr><tr><td>Platelets, \u00d7 109/L </td><td>171 (148-235) </td><td>171 (110-238) </td><td>262 (220-417) </td><td>255 (222-266) </td><td>.7\n</td></tr><tr><td>ICU stay, d </td><td>8 (5-11) </td><td>7 (5-9) </td><td>10 (8-14) </td><td>4 (4-5) </td><td>.26\n</td></tr><tr><td>Hospital stay, d </td><td>17 (12-25) </td><td>14 (11-17) </td><td>21 (20-39) </td><td>11 (10-13) </td><td>.02\n</td></tr><tr><td>ICU mortality </td><td>0 (0) </td><td>3 (15.8) </td><td>0 (0) </td><td>0 (0) </td><td>.1\n</td></tr><tr><td>28-day mortality </td><td>1 (5) </td><td>4 (21) </td><td>0 (0) </td><td>0 (0) </td><td>.17\n</td></tr><tr><td>Hospital mortality </td><td>2 (10) </td><td>4 (21) </td><td>0 (0) </td><td>0 (0) </td><td>.4\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "Comparison of Admission Parameters and Outcome Data Among Patients With Severe Community-Acquired Pneumonia",
+            "type": "table"
+        },
+        "TABREF6": {
+            "html": "<html><body><table><tr><td>\u00a0</td><td>Pure Bacterial Group\n</td><td>Bacterial-Viral Group\n</td><td>Probably Pure Viral\n</td><td>No Etiology Group\n</td><td>P\n</td></tr><tr><td>Parameter\n</td><td>(n = 21)\n</td><td>(n = 19)\n</td><td>Group (n = 5)\n</td><td>(n = 4)\n</td><td>Valuea\n</td></tr><tr><td>APACHE II </td><td>22 (18-25) </td><td>16 (12-21) </td><td>13 (11-20) </td><td>17 (15-19) </td><td>.05\n</td></tr><tr><td>SAPS II </td><td>45 (38-57) </td><td>40 (33-47) </td><td>35 (33-39) </td><td>47 (40-51) </td><td>.19\n</td></tr><tr><td>SOFA (24 h)a </td><td>9 (7-11) </td><td>7 (5-11) </td><td>7 (5-8) </td><td>6 (5-9) </td><td>.61\n</td></tr><tr><td>IDSA/ATSmajor criteria fulfilled [2] </td><td>21 (100) </td><td>19 (100) </td><td>5 (100) </td><td>4 (100)\n</td><td>\u00a0</td></tr><tr><td>Need for mechanical ventilationb </td><td>19 (91) </td><td>19 (100) </td><td>5 (100) </td><td>4 (100) </td><td>.49\n</td></tr><tr><td>Septic shock with need for vasopressors\n</td><td>8 (38) </td><td>10 (53) </td><td>2 (40) </td><td>2 (50) </td><td>.53\n</td></tr><tr><td>Pneumonia Severity Index [23] </td><td>123 (85-138) </td><td>103 (87-143) </td><td>107 (78-134) </td><td>112 (87-148) </td><td>.66\n</td></tr><tr><td>CURB-65 [24] </td><td>3 (2-3) </td><td>3 (2-4) </td><td>2 (2-3) </td><td>4 (2-4) </td><td>.73\n</td></tr></table></body></html>",
+            "latex": null,
+            "text": "Severity Scores of 49 Patients With Severe Community-Acquired Pneumonia",
+            "type": "table"
+        }
+    }
+}
