@@ -1,0 +1,445 @@
+{
+    "paper_id": "278138d952a54a46c690226044c6b9b16d7c2288",
+    "metadata": {
+        "title": "Original Russian Text \u00a9",
+        "authors": [
+            {
+                "first": "E",
+                "middle": [
+                    "P"
+                ],
+                "last": "Goncharova",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "P"
+                ],
+                "last": "Kovpak",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "E",
+                "middle": [
+                    "I"
+                ],
+                "last": "Ryabchikova",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "D",
+                "middle": [
+                    "A"
+                ],
+                "last": "Konevets",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "V",
+                "middle": [
+                    "N"
+                ],
+                "last": "Sil&apos;nikov",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "M",
+                "middle": [
+                    "A"
+                ],
+                "last": "Zenkova",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "V",
+                "middle": [
+                    "V"
+                ],
+                "last": "Vlasov",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "RNA-containing viruses cause many serious diseases of domestic and wild animals and are among the most dangerous for humans. The highly pathogenic RNA-containing viruses, such as the avian influenza virus [1], tick-borne encephalitis [2], Dengue virus [3] , coronavirus (SARS) [4] , etc., pose constant threats to population health and determine the urgency of development of new tools and methods for their inactivation.",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 255,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 277,
+                    "end": 280,
+                    "text": "[4]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Currently, viruses are inactivated by physical methods (irradiation with ultraviolet light, ionizing radiation, or heating at increased pressure) and with the aid of many chemical agents (formalin, \u03b2 -propiolactone, ethylenimine, some detergents, and polyvinylpyrrolidone and iodine mixture (PVD-I)), which differ in the mechanism of action, virus inactivation efficiency, the field of application, toxicity, and cost [5] . The spectrum of reagents that make it possible to obtain inactivated virus for preparing whole-virion vaccines is limited by several compounds including formaldehyde, \u03b2 -propiolactone [6], and ethylenimine and its derivatives [7] makes it possible to obtain inactivated virus. It is known that virus treatment with such compounds partially destroys viral antigenic determinants and, as a result, attenuates immunogenic properties of vaccines and that selective destruction of antigenic determinants of viral surface glycoproteins with formalin may induce the development of an imbalanced immune response [8] .",
+            "cite_spans": [
+                {
+                    "start": 418,
+                    "end": 421,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 650,
+                    "end": 653,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1028,
+                    "end": 1031,
+                    "text": "[8]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In this work, we suggest a principally new method of inactivation of RNA-containing viruses-destruction of viral genomic RNA by artificial ribonucleases (hereinafter, aRNases), low-molecular-weight compounds that can efficiency cleave RNA under physiological conditions. We showed that the artificial ribonuclease ABL3C3 [9] efficiently inactivates the influenza virus A/WSN/33 (H1N1) and the tick-borne encephali-tis virus in vitro. The study of the mechanism of action of this agent on the influenza virus confirmed that this chemical ribonuclease destroys viral RNA. In addition, our studies revealed membranolytic activity of this compound, facilitating its penetration into the virion and subsequent virus inactivation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In this study, we used the influenza virus strain A/WSN/33 (H1N1), which was kindly provided by Dr. N.B. Kaverin (Ivanovsky Institute of Virology, Russian Academy of Medical Science). Virus-containing allantoic fluid, obtained by infecting ten-day-old embryonated chicken eggs (ECEs), was aliquoted and stored at \u2212 80\u00b0C until use. In some experiments we used a virus that was purified by centrifugation in 20% sucrose. Virus purification, virus titration on DCEs, and hemagglutination reaction were performed by the conventional procedures [10] .",
+            "cite_spans": [
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "[10]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The experiments on studying the inactivation of the tick-borne encephalitis (TBE) virus strain Sofjin were performed with 10% brain suspension obtained from TBE-infected mice. The titer of the TBE virus was determined by the plaque-forming unit (PFU) method on a monolayer of pig embryonic kidney cells during incubation of serial tenfold dilutions of the virus at 37\u00b0\u00eb for 5 days. The cells were fixed with formaldehyde, and the plaques were visualized by staining with crystal violet.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "To assess the efficiency of the influenza virus inactivation by the ABL3C3 aRNase, the virus-containing fluid was incubated in the presence of this agent at concentrations from 10 -7 to 10 -3 M at 25 or 37\u00b0\u00eb in a buffer containing 50 mM Tris-HCl (pH 7.0), 0.2 M KCl, and 0.2 mM EDTA. The titer of the virus after the treatment with the aRNase was determined by the hemagglutination reaction and by the focus-forming unit (FFU) method. The native virus and the virus incubated under the same conditions in the absence of the test compound were used as controls.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "To determine the titer of the virus by the FFU method, MDCK cells were cultured in 96-well Costar",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "RNA-containing viruses cause many serious diseases of domestic and wild animals and are among the most dangerous for humans. The highly pathogenic RNA-containing viruses, such as the avian influenza virus [1] , tick-borne encephalitis [2] , Dengue virus [3] , coronavirus (SARS) [4] , etc., pose constant threats to population health and determine the urgency of development of new tools and methods for their inactivation.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 208,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 235,
+                    "end": 238,
+                    "text": "[2]",
+                    "ref_id": null
+                },
+                {
+                    "start": 254,
+                    "end": 257,
+                    "text": "[3]",
+                    "ref_id": null
+                },
+                {
+                    "start": 279,
+                    "end": 282,
+                    "text": "[4]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Currently, viruses are inactivated by physical methods (irradiation with ultraviolet light, ionizing radiation, or heating at increased pressure) and with the aid of many chemical agents (formalin, \u03b2 -propiolactone, ethylenimine, some detergents, and polyvinylpyrrolidone and iodine mixture (PVD-I)), which differ in the mechanism of action, virus inactivation efficiency, the field of application, toxicity, and cost [5] . The spectrum of reagents that make it possible to obtain inactivated virus for preparing whole-virion vaccines is limited by several compounds including formaldehyde, \u03b2 -propiolactone [6] , and ethylenimine and its derivatives [7] makes it possible to obtain inactivated virus. It is known that virus treatment with such compounds partially destroys viral antigenic determinants and, as a result, attenuates immunogenic properties of vaccines and that selective destruction of antigenic determinants of viral surface glycoproteins with formalin may induce the development of an imbalanced immune response [8] .",
+            "cite_spans": [
+                {
+                    "start": 418,
+                    "end": 421,
+                    "text": "[5]",
+                    "ref_id": null
+                },
+                {
+                    "start": 608,
+                    "end": 611,
+                    "text": "[6]",
+                    "ref_id": null
+                },
+                {
+                    "start": 651,
+                    "end": 654,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1029,
+                    "end": 1032,
+                    "text": "[8]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In this work, we suggest a principally new method of inactivation of RNA-containing viruses-destruction of viral genomic RNA by artificial ribonucleases (hereinafter, aRNases), low-molecular-weight compounds that can efficiency cleave RNA under physiological conditions. We showed that the artificial ribonuclease ABL3C3 [9] efficiently inactivates the influenza virus A/WSN/33 (H1N1) and the tick-borne encephali-tis virus in vitro. The study of the mechanism of action of this agent on the influenza virus confirmed that this chemical ribonuclease destroys viral RNA. In addition, our studies revealed membranolytic activity of this compound, facilitating its penetration into the virion and subsequent virus inactivation.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 324,
+                    "text": "[9]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In this study, we used the influenza virus strain A/WSN/33 (H1N1), which was kindly provided by Dr. N.B. Kaverin (Ivanovsky Institute of Virology, Russian Academy of Medical Science). Virus-containing allantoic fluid, obtained by infecting ten-day-old embryonated chicken eggs (ECEs), was aliquoted and stored at \u2212 80\u00b0C until use. In some experiments we used a virus that was purified by centrifugation in 20% sucrose. Virus purification, virus titration on DCEs, and hemagglutination reaction were performed by the conventional procedures [10] .",
+            "cite_spans": [
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "[10]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The experiments on studying the inactivation of the tick-borne encephalitis (TBE) virus strain Sofjin were performed with 10% brain suspension obtained from TBE-infected mice. The titer of the TBE virus was determined by the plaque-forming unit (PFU) method on a monolayer of pig embryonic kidney cells during incubation of serial tenfold dilutions of the virus at 37\u00b0\u00eb for 5 days. The cells were fixed with formaldehyde, and the plaques were visualized by staining with crystal violet.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To assess the efficiency of the influenza virus inactivation by the ABL3C3 aRNase, the virus-containing fluid was incubated in the presence of this agent at concentrations from 10 -7 to 10 -3 M at 25 or 37\u00b0\u00eb in a buffer containing 50 mM Tris-HCl (pH 7.0), 0.2 M KCl, and 0.2 mM EDTA. The titer of the virus after the treatment with the aRNase was determined by the hemagglutination reaction and by the focus-forming unit (FFU) method. The native virus and the virus incubated under the same conditions in the absence of the test compound were used as controls.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To The morphology of viral particles after the incubation with ABL3C3 aRNase was studied by electron microscopy after negative staining. For this purpose, the study samples were adsorbed for 1.5 min on support copper grids covered with a Formvar film, after which the fluid was removed and the grids were dried and placed for 45 s into 2% solution of phosphotungstic acid. Then, the remained solution was removed, and the grids were dried. Four to six grids for each sample were prepared and studied under a Hitachi-H800 electron transmission microscope at magnifications of 10000 to 200000 \u00d7 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Artificial ribonucleases, the low-molecular-weight compounds that can efficiently cleave RNA, were developed at the Institute of Chemical Biology and Fundamental Medicine, Siberian Branch, Russian Academy of Science. Of special importance are aRNases with the general formula ABL k C m , where A is a lipophilic residue, B is the RNA-binding fragment substituted with 1.4-diazobicyclo[2.2.2]octane, L is the oligomethylene linker linking domains A and B, k is the number of methylene units (1, (3) (4) (5) , and C is the catalytic domain. Index m indicates the domain type: C1, histamine; C2, histidine methyl ester; and C3, histidine with R 1 = H, R 2 = COCH 3 , and R 3 = COOH for C1, C2, and C3, respectively) (Fig. 1) . These compounds highly efficiently catalyze the trans-esterification reaction. The structure of these compounds is based on the block principle (combining in one molecule of functional groups exhibiting affinity for RNA (1.4-diazobicyclo[2.2.2]octane residue) and groups that can catalyze the cleavage of phosphodiester bonds in RNA (imidazole and carboxylic groups). The study of the properties of this and other similar compounds led us to assume that aRNases can be used as agents efficiently inactivating RNA-containing viruses and, possibly, as antiviral drugs. In this study, we used the ABL3C3 aRNase.",
+            "cite_spans": [
+                {
+                    "start": 490,
+                    "end": 493,
+                    "text": "(1,",
+                    "ref_id": null
+                },
+                {
+                    "start": 494,
+                    "end": 497,
+                    "text": "(3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 498,
+                    "end": 501,
+                    "text": "(4)",
+                    "ref_id": null
+                },
+                {
+                    "start": 502,
+                    "end": 505,
+                    "text": "(5)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 713,
+                    "end": 721,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The virucidal effect of artificial ribonucleases was studied using inactivation of the influenza virus A/WSN/33 (H1N1) and the TBE virus strain Sofjin as examples. In these experiments, the influenza virus (either purified virus or virus-containing allantoic fluid) was incubated in the presence of ABL3C3 aRNase at concentrations from 0.1 \u00b5 M to 1 mM at 25 or 37 \u00b0 C for 2 or 18 h, after which the virus titer was determined by the FFU method. Similarly, the TBE virus was incubated with ABL3C3 aRNase in the same concentration range at 4 and 37 \u00b0 C, after which its titer was deter- At aRNase concentrations below 0.5 mM, the virus was inactivated incompletely even if the duration of its incubation with this agent was significantly increased. In view of this, we determined the ABL3C3 aRNase amount required for inactivation of one viral FFU. In these experiments, ABL3C3 aRNase was used at concentrations of 0.5 and 1 mM, whereas the virus titer (the FFU number) in the reaction mixture was varied. On the basis of these data it can be concluded that ABL3C3 aRNase at a concentration of 0.5 mM completely inactivated the virus suspension whose titer did not exceed 7-7.5 log FFU/ml. Similar results were obtained for the TBE virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To determine the mechanism of virus inactivation by ABL3C3 aRNase, we studied the effect of this aRNase on the genomic RNA of the influenza virus and the proteins contained in the structural part of the viral particle as well as on the virus morphology. For this purpose, the virus was incubated in the presence of ABL3C3 aRNase, after which the virus sample was divided into four parts. One part was used to determine the titer of the virus and confirm the completeness of its inactivation. The second part was fixed in 4% formaldehyde and used for electron-microscopic preparations. The remaining virus sample was used to isolate viral RNA (by phenolic deproteinization [11] after the incubation of the virus suspension in the presence of proteinase K) and viral proteins.",
+            "cite_spans": [
+                {
+                    "start": 672,
+                    "end": 676,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Electron-microscopic study of the morphology of viral particles inactivated with ABL3C3 aRNase revealed damages and breaks of the membrane envelope of virions. In some viral particles, the thickness of the envelope changed; however, the peplomers on the surface of viral envelope were retained (Fig. 2) . The degree of damage of the structure of virions directly depended on the ABL3C3 aRNase concentration and increased as the latter increased from 10 -7 to 10 -3 M. Nevertheless, according to the electron-microscopic data, even after a long-term treatment of the virus with 0.5 mM aRNase, many virions retained the envelope and peplomers. The results of electron-microscopic study suggest that ABL3C3 aRNase damages lipid The analysis of viral proteins isolated from the preparations of the native virus and the virus that was completely inactivated with ABL3C3 aRNase by electrophoresis according to Laemmli [12] revealed no differences in the composition of viral proteins and their electrophoretic mobility. This finding indicates that incubation of influenza virus in the presence of ABL3C3 aRNase causes no significant changes in the structural proteins of the virion (primary data not shown).",
+            "cite_spans": [
+                {
+                    "start": 912,
+                    "end": 916,
+                    "text": "[12]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 294,
+                    "end": 302,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "RT-PCR analysis of full-length viral RNAs in the preparations of total RNA isolated from the influenza virus that had been completely inactivated with ABL3C3 aRNase showed that the viral RNAs encoding the proteins of the polymerase complex are degraded first of all, which may be determined by their localization at the ends of nucleoprotein complexes of the influenza virus [13] . RT-PCR data showed that ABL3C3 aRNase effectively cleaves genomic RNA contained in the viral particle (primary data not shown).",
+            "cite_spans": [
+                {
+                    "start": 375,
+                    "end": 379,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Thus, our studies demonstrated the possibility of targeted destruction of viral genomic RNA by aRNase without destroying viral proteins. The treatment of the virus with ABL3C3 aRNase (0.5 mM) at 37\u00b0\u00eb for 18 h results in complete inactivation of the virus with retaining the composition of viral proteins and their electrophoretic mobility. Similar results were obtained for the TBE virus. These data indicate that ABL3C3 aRNase affects RNA-containing viruses with different genome organization (the influenza virus has a segmented genome with a negative polarity, whereas the unsegmented genome of the TBE virus has a positive polar-ity). The results of this study demonstrate the necessity of further studying and broadening the scope of application of aRNases, which can be used both as antiviral agents, taking into account the high virucidal activity of these compounds and their fairly low toxicity, as well as for inactivation of RNA-containing viruses in creating vaccines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "BioTechniques",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chattopadhyay",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kher",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Godbole",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "",
+            "volume": "15",
+            "issn": "",
+            "pages": "24--26",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Proc. Natl. Acad. Sci. USA",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Area",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Martin-Benito",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gastaminza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "",
+            "volume": "101",
+            "issn": "",
+            "pages": "308--313",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "determine the titer of the virus by the FFU method, MDCK cells were cultured in 96-well Costar Viral Genome Cleavage with Artificial Ribonucleases: A New Method to Inactivate RNA-Containing Viruses E. P. Goncharova, M. P. Kovpak, E. I. Ryabchikova, D. A. Konevets, V. N. Sil'nikov, M. A. Zenkova, and Academician V. V. Vlasov GONCHAROVA et al. plates in DMEM supplemented with 10% fetal calf serum and 2 mM glutamine until monolayer formation. Then, the culture medium was removed; the cells were washed with the medium for virus titration (DMEM supplemented with 2 \u00b5 g/ml trypsin) and infected with the native virus or the virus treated with aRNase under different conditions (at different dilutions). After incubation at 37\u00b0\u00eb for 24 h, the medium was removed, the cells were washed with phosphate-buffered saline (PBS) and fixed for 10-15 min in chilled acetone (100 \u00b5 l acetone per well). After fixation, the cells were washed twice with PBS and then treated with monoclonal antibodies to the NP protein of influenza virus A (Chemicon) at 37 \u00b0 C for 30 min. After the incubation with the antibodies, the cells were washed again with PBS and treated with antispecies antibodies conjugated with horseradish peroxidase (Sigma). The presence of peroxidase in complexes on the surface of infected cells was detected in the enzymatic reaction with the chromogenic substrate 3-amino-9-ethylcarbazole (AEC, Sigma). Virus-infected stained cells (foci) were counted under a LOMO inversion microscope (St. Petersburg).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Electron micrographs of influenza virus particles. Negative staining with phosphotungstic acid. In the intact virus (left top image), peplomers on the spherical particle can be seen, envelopes are not damaged. Other images show the influenza virus treated with 0.5 mM ABL3C3 aRNase at 37 \u00b0 C for 18 h. Peplomers on the surface of virus particles can be seen; virus particles are deformed, envelopes are broken. Scale, 50 nm. GONCHAROVA et al. complexes in virion envelopes but has no marked effect on peplomers. Thus, the destruction of lipid envelopes of virions is one of the mechanisms of the virucidal effect of aRNase.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Fig. 1. Artificial ribonuclease ABL3C3 type ABL k C m .",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

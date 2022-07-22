@@ -1,0 +1,1361 @@
+{
+    "paper_id": "27737eb1174464c624adad7880bee232e514280b",
+    "metadata": {
+        "title": "A Multifaceted Evaluation of a COVID-19 Contact Tracing Program in King County, Washington",
+        "authors": [
+            {
+                "first": "Julia",
+                "middle": [
+                    "E"
+                ],
+                "last": "Hood",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rachel",
+                "middle": [
+                    "W"
+                ],
+                "last": "Kubiak",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tigran",
+                "middle": [],
+                "last": "Avoundjian",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Eli",
+                "middle": [],
+                "last": "Kern",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Meaghan",
+                "middle": [],
+                "last": "Fagalde",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hannah",
+                "middle": [
+                    "N"
+                ],
+                "last": "Collins",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Elizabeth",
+                "middle": [],
+                "last": "Meacham",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Megan",
+                "middle": [],
+                "last": "Baldwin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Richard",
+                "middle": [
+                    "J"
+                ],
+                "last": "Lechtenberg",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Amy",
+                "middle": [],
+                "last": "Bennett",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Christina",
+                "middle": [
+                    "S"
+                ],
+                "last": "Thibault",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sarah",
+                "middle": [],
+                "last": "Stewart",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jeffrey",
+                "middle": [
+                    "S"
+                ],
+                "last": "Duchin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Matthew",
+                "middle": [
+                    "R"
+                ],
+                "last": "Golden",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Washington",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Drs",
+                "middle": [],
+                "last": "Hood",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Messrs",
+                "middle": [],
+                "last": "Golden",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Kern",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mss",
+                "middle": [],
+                "last": "Lechtenberg",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Fagalde",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Collins",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Meacham",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Baldwin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Bennett",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Stewart",
+                "middle": [],
+                "last": "Thibault",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Context: Despite the massive scale of COVID-19 case investigation and contact tracing (CI/CT) programs operating worldwide, the evidence supporting the intervention's public health impact is limited. Objective: To evaluate the Public Health-Seattle & King County (PHSKC) CI/CT program, including its reach, timeliness, effect on isolation and quarantine (I&Q) adherence, and potential to mitigate pandemic-related hardships. Design: This program evaluation used descriptive statistics to analyze surveillance records, case and contact interviews, referral records, and survey data provided by a sample of cases who had recently ended isolation. Setting: The PHSKC is one of the largest governmental local health departments in the United States. It serves more than 2.2 million people who reside in Seattle and 38 other municipalities. Participants: King County residents who were diagnosed with COVID-19 between July 2020 and June 2021. Intervention: The PHSKC integrated COVID-19 CI/CT with prevention education and service provision. Results: The PHSKC CI/CT team interviewed 42 900 cases (82% of cases eligible for CI/CT), a mean of 6.1 days after symptom onset and 3.4 days after SARS-CoV-2 testing. Cases disclosed the names and addresses of 10 817 unique worksites (mean = 0.8/interview) and 11 432 other recently visited locations (mean = 0.5/interview) and provided contact information for 62 987 household members (mean = 2.7/interview) and 14 398 nonhousehold contacts (mean = 0.3/interview). The CI/CT team helped arrange COVID-19 testing for 5650 contacts, facilitated grocery delivery for 7253 households, and referred 9127 households for financial assistance. End of I&Q Survey participants (n = 304, 54% of sampled) reported self-notifying an average of 4 nonhousehold contacts and 69% agreed that the information and referrals provided by the CI/CT team helped them stay in isolation. Conclusions: In the 12-month evaluation period, CI/CT reached 42 611 households and identified thousands of exposure venues. The timing of CI/CT relative to infectiousness and difficulty eliciting nonhousehold contacts may have attenuated the intervention's effect. Through promotion of I&Q guidance and services, CI/CT can help mitigate pandemic-related hardships.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "develop large-scale CI/CT programs designed to interview COVID-19 cases, elicit their contacts and notify them of exposure, and encourage adherence to isolation and quarantine (I&Q) guidance. [1] [2] [3] Efforts to rapidly bring COVID-19 contact tracing to scale presented substantial challenges. These included difficulties commonly encountered by CI/CT programs designed to control other infectious diseases, including the inability to locate accurate phone numbers; nonresponse to call attempts; reluctance to disclose information; imperfect informatics systems; communication barriers; and multiagency coordination. 4, 5 The biology and unprecedented scale of COVID-19 also posed unique challenges to CI/CT programs. 6 The short transmission interval and period of asymptomatic transmissible infection associated with SARS-CoV-2 necessitated that outreach to cases and contacts occurs as quickly as possible, especially in the context of variants such as Delta and Omicron. [6] [7] [8] [9] [10] When case counts exceed programmatic capacity, CI/CT programs had to choose how to prioritize case interviews, outbreak investigations, and follow up with contacts. 2 Given these novel disease dynamics, COVID-19 CI/CT program activities and outcomes differ from other infectious disease CI/CT activities and are not widely documented in the scientific literature.",
+            "cite_spans": [
+                {
+                    "start": 192,
+                    "end": 195,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 196,
+                    "end": 199,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 200,
+                    "end": 203,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 620,
+                    "end": 622,
+                    "text": "4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 978,
+                    "end": 981,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 982,
+                    "end": 985,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 986,
+                    "end": 989,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 990,
+                    "end": 993,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 994,
+                    "end": 998,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Health departments in the United States and many other nations have now provided CI/CT to millions of people. Despite the massive scale of COVID-19 CI/CT, the evidence supporting its public health impact is limited and derived largely from mathematical models, many of which were parameterized without programmatic data. [11] [12] [13] [14] Empiric studies of COVID-19 contact tracing have, to date, focused primarily on metrics such as the percentage of cases interviewed, number of contacts elicited and notified of exposure, and timeliness of case and contact interview, [15] [16] [17] [18] with little data on how CI/CT may have affected adherence to I&Q guidelines or rates of infection. 19 Most evaluations have also ignored the role of CI/CT programs in linkage to services and the corresponding impact of CI/CT in mitigating pandemic-related hardships that disproportionately affect communities that are lower-income, historically marginalized, and have experienced the highest rates of COVID- 19. In early 2022, national public health agencies recommended that health departments cease to provide universal CI/CT and instead prioritize cases occurring in specific venues (eg, high-risk congregate settings) and populations where benefits may be greatest. 20 This recommendation reflected both changes in the COVID-19 epidemic and the tools available to confront it, and the realization that universal contact tracing was not feasible when COVID-19 case numbers were very high. In this article, we describe the implementation of the Public Health-Seattle & King County (PHSKC) CI/CT program and evaluate its reach, timeliness, patient-reported impact on adherence to isolation guidelines, and provision of support services. Our experience can help inform decisions regarding how to adapt the CI/CT strategy in the current stage of the pandemic.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 325,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 326,
+                    "end": 330,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 331,
+                    "end": 335,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 336,
+                    "end": 340,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 574,
+                    "end": 578,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 579,
+                    "end": 583,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 584,
+                    "end": 588,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1002,
+                    "end": 1005,
+                    "text": "19.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "After reporting the United States' first COVID-19 death on February 27, 2020, both PHSKC and the Washington State Department of Health (WADOH) began developing large-scale CI/CT programs. The PHSKC designed its program to be maximally responsive to local needs and coordinated it with WADOH to ensure consistency in data collection and enhance statewide capacity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Overview and history"
+        },
+        {
+            "text": "The scale of the epidemic necessitated deploying staff and resources from across the health department to the COVID-19 response. In consultation with and oversight from the Communicable Disease Epidemiology & Immunization Section, the PHSKC HIV/STD Section implemented and managed day-to-day operations of the COVID-19 CI/CT program. Starting with 6 members, the PHSKC CI/CT team expanded to its largest size by late November 2020, comprising 86 contact tracers, 1 medical officer, 3 managers, 3 epidemiologists, 1 trainer, and 2 administrative specialists; all but 8 were King County employees. Approximately 40% of contact tracers were bilingual in Spanish and English. Figure 1 visually depicts the PHSKC CI/CT model. Similar to PHSKC's approach to HIV surveillance and linkage to care, 21 the COVID-19 CI/CT program integrated service referrals into case and contact interviews. After initially seeking to speak with each adult in the household, the program shifted to communicating primarily with a single household point of contact to collect names, dates of birth, and testing and symptom status of each household member, discuss I&Q guidelines tailored to each household member, and coordinate support services. This approach was more acceptable to participants and time efficient than speaking with each household member individually. The following support services were offered to all households reached by the PHSKC CI/CT team: temporary housing and supervised care FIGURE 1 Depiction of COVID-19 Case Surveillance, Contact Tracing, and Response in King County, Washington, July 2020 to June 2021 a a After a patient underwent SARS-CoV-2 testing, his or her specimen was sent to a laboratory for analysis. As a notifiable condition in Washington State, laboratories and health providers are legally required to report COVID-19 suspected or confirmed cases to local or state public health authorities along with the following information: dates corresponding to test order, specimen collection, and availability of test results; test result; ordering provider details; laboratory details; and patient date of birth, sex, and address. Laboratories typically submit this information through the Washington Electronic Laboratory Reporting System (WELRS). The WADOH manages WELRS, processes data received through it and other sources, and creates case reports in the Washington Disease Reporting System (WDRS) that are subsequently assigned to CI/CT teams across the state for investigation. During the case interview, PHSKC contact tracers collected the following information: language preference, race, ethnicity, and affiliation with an immigrant community; symptom status and onset; reason for testing; vaccination status; suspected source of infection; participation in WA Notify exposure notification; and detailed information about places recently visited, including worksites, schools, daycares, health care and behavioral health facilities, long-term care facilities, correctional facilities, airports and other modes of transportation, bars/restaurants, gyms, places of worship, salons and spas, and community and social events. This information was subsequently analyzed and summarized for the public, public health decision makers, and outbreak response teams. Cases were also asked to provide the names, dates of birth, and COVID-19 symptom and testing status of each person in their household, as well as other persons they had been within 6 ft for at least 15 minutes during their infectious period. Finally, PHSKC contact tracers discussed the I&Q guidance tailored to the household's circumstance, assessed need for clinical and support services, and referred to support services team accordingly. This figure is available in color online (www.JPHMP.com).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 672,
+                    "end": 680,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Overview and history"
+        },
+        {
+            "text": "at an I/Q facility; one-time grocery delivery; immediate one-time cash stipend (December 2020 only) or bill payment (March 2021 to present) averaging US $1212; help applying for health insurance or finding a health care provider, longer-term assistance programs (Temporary Assistance for Needy Families, Supplemental Nutrition Assistance Program, charity care, and discounted utility programs); and free COVID-19 testing. COVID-19 contact tracers could refer cases with severe symptoms to a physician for a telephone evaluation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PHSKC CI/CT program description"
+        },
+        {
+            "text": "The PHSKC CI/CT team extensively used automated text messaging, though the role and scale of this communication modality evolved over time. Our texting strategy reached its most mature stage by February 2021, when 2 automated texts were generated shortly after case surveillance records were created: one from WADOH instructing cases to report their COVID-19 diagnosis to the WA Notify Exposure Notification smartphone tool and another from PHSKC that instructed cases to go to kingcounty.gov/nextsteps for information about self-care, I&Q guidelines, contact notification, support services, CI/CT, and vaccination. After the case interview, PHSKC tracers used 2-way texting to exchange information tailored to specific questions or needs identified during the case interview. Each household also received daily automated texts encouraging them to respond with questions or concerns.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PHSKC CI/CT program description"
+        },
+        {
+            "text": "In alignment with Centers for Disease Control and Prevention's recommendation, we prioritized cases tested within the prior 6 days and linked to high-risk transmission settings. Still, the number of COVID-19 cases oftentimes exceeded PHSKC capacity, prompting us to develop a prioritization approach that utilized area-based demographic and socioeconomic indicators summarized together in the Social and Economic Risk Index (SERI; described later), which enabled our team to focus on disproportionately impacted communities. Cases not meeting the PHSKC prioritization threshold were assigned to the WADOH CI/CT team. When the number of cases surpassed the capacity of both teams, cases not known to have the aforementioned risk factors were sent texts that screened via text for connections to congregate settings; those with connections were assigned for interviews and those without were texted instructions to isolate, notify contacts, and reply to text with questions or service requests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case prioritization"
+        },
+        {
+            "text": "In March 2021, the PHSKC CI/CT team surveyed a random sample of cases aged 18 years and older who had completed their isolation period the prior day. The survey assessed cases' adherence to isolation guidance, their uninfected household members' adherence to quarantine guidance, and perceptions of CI/CT, including its impact on their adherence to isolation recommendations. Selected cases were texted a link to the survey and received a followup call if they did not respond the same day. Of 1449 eligible cases, 577 were randomly selected and 304 (53%) participated in the survey. One-third of the participants self-administered the survey via the texted link; the remaining participants completed an interviewer-administered survey. Survey participants did not significantly differ in terms of demographics or language from all survey eligible cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "End of I&Q survey"
+        },
+        {
+            "text": "This evaluation assessed the impact of PHSKC case prioritization approach on case assignments and service referrals, participation in and timeliness of case interview, disclosure of contact and workplace information during case interview, mode of exposure notification, and referrals for support services. The exposure period was defined as the 3 to 14 days preceding symptom onset or date tested if asymptomatic. The infectious period was defined as the 2 days preceding symptom onset or test date to the date of interview for symptomatic and asymptomatic cases, respectively. Unique exposure venues reported in case interviews were identified using geocoded venue addresses and fuzzy matching (using Jaro-Winkler string distance) of venue names and nongeocodeable venue addresses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis"
+        },
+        {
+            "text": "The PHSKC used an internally developed SERI to prioritize case investigations based on geography. 22 The PHSKC applied confirmatory factor analysis to census tract-level indicators from the American Community Survey to create a standardized index score. These indicators were grouped into the following subfactors: race/ethnicity, language, and place of birth; household size; essential health care workers; essential non-health care workers; educational attainment; and poverty. To create the final SERI score, scores for each subfactor were added together and standardized to range between 0 and 5. A higher score was indicative of greater COVID-19 risk. More details about the SERI are available elsewhere. 22",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis"
+        },
+        {
+            "text": "Between July 2020 and June 2021, 101 731 King County residents tested polymerase chain reaction (PCR) or antigen-positive for SARS-CoV-2. The per capita incidence rate, relative to non-Hispanic White (287 per 10 000) and Asian (300 per 10 000) residents, was higher among Hispanic residents (878 per 10 000) and non-Hispanic residents from the following backgrounds: Pacific Islander (1339 per 10 000), Black (685 per 10 000), American Indian/Alaska Native (585 per 10 000), and other and multiracial groups (497 per 10 000). The incidence rate in South King County (662 per 10 000) was double that in Seattle and the areas north and east of Seattle (see Supplemental Digital Content Table 1 , available at http://links.lww.com/JPHMP/A956).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 684,
+                    "end": 691,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Case interview"
+        },
+        {
+            "text": "Contact tracers attempted to reach 88% of cases diagnosed between July 2020 and June 2021, with 53% of cases assigned to the PHSKC CI/CT team and 35% assigned to the WADOH CI/CT team. Twelve percent of cases were not assigned to either team, due to a greater than 14-day laboratory reporting delay (5%), case numbers that surpassed the collective capacity of the PHSKC and WADOH (5%), or some other reason (2%). Supplemental Digital Content Figure 1 , available at http://links.lww.com/JPHMP/A957, illustrates how prioritization and assignment of cases varied with program capacity and epidemiologic trends. All subsequent results are limited to cases assigned to the PHSKC CI/CT team between July 2020 and June 2021.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 441,
+                    "end": 449,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Case interview"
+        },
+        {
+            "text": "Among cases who the PHSKC CI/CT team attempted to reach, the percentage participating in the case interview significantly declined over time from 87% in July-September 2020 to 76% in April-June 2021 (P < .001). Participation in CI/CT did not substantially vary by demographics, region, or SERI level (see Supplemental Digital Content Table 1 , available at http://links.lww.com/JPHMP/A956). Of the 42 900 interviews completed by the PHSKC CI/CT team, 18% (n = 7825) were completed in Spanish or with an interpreter and 47% were interviewed the same day as assigned. Cases completed the case interview a mean of 3.4 days following the date of specimen collection; symptomatic cases completed the interview a mean of 6.1 days after symptom onset. Figure 2 shows the distribution of the provision of CI/CT relative to symptom onset and the estimated distribution of PCR CT values-a surrogate for SARS-CoV-2 infectiousness. 23 This illustrates the extent to which CI/CT's impact may be influenced by its timeliness and the biology of SARS-CoV-2. A Multifaceted Evaluation of a COVID-19 Contact Tracing Program ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 334,
+                    "end": 341,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 745,
+                    "end": 753,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Case interview"
+        },
+        {
+            "text": "Among case interviews conducted by PHSKC, 83% of cases disclosed information about household members, with an average of 2.7 household members documented for each interviewed case, excluding the interviewed case (Table 1) . Thirteen percent of cases disclosed the name and phone numbers of 1 and more nonhousehold contact, with an average of 0.3 nonhousehold contacts documented for each interviewed case. In total, PHSKC provided direct or indirect outreach to 62 987 household members of index cases and direct outreach to 14 398 nonhousehold contacts in this 12-month period.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 221,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Exposure notification and provision of information for PHSKC outreach and investigation"
+        },
+        {
+            "text": "A total of 14 395 (34%) interviewed cases reported that they went to work in-person during their infectious period, of whom 93% reported that they had notified their employer of their diagnosis prior to their case interview and 78% disclosed their workplace name and address to PHSKC CI/CT staff. Interviewed cases provided detailed information about 10 817 unique workplaces. Approximately one-third of interviewed cases provided the name and address of a nonworkplace venue visited during their exposure or infectious periods, identifying a total of 11 432 unique potential exposure venues.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exposure notification and provision of information for PHSKC outreach and investigation"
+        },
+        {
+            "text": "The percentage of PHSKC-interviewed cases who reported having WA Notify activated on their phones decreased from 19% to 11% between January and June 2021 (WA Notify launched in December 2020). Since WA Notify must be activated prior to diagnosis to send notifications to potential contacts, this limited the number of cases who could use the system to notify possible contacts. Overall, 8% of cases had reported their COVID-19 diagnosis to WA Notify prior to the case interview, and 9% were provided instructions to report the diagnosis to WA Notify following the case interview.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exposure notification and provision of information for PHSKC outreach and investigation"
+        },
+        {
+            "text": "Most participants in the End of I&Q Survey (n = 304) reported notifying contacts without CI/CT assistance; 97% of participants reported that they had notified household members of their diagnosis; and 82% reported notifying 1 and more nonhousehold contact. In contrast to the low number of nonhousehold contacts elicited during the case interview, survey respondents reported that they directly notified a median of 2 (interquartile range: 1-5) nonhousehold contacts of their COVID-19 diagnosis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exposure notification and provision of information for PHSKC outreach and investigation"
+        },
+        {
+            "text": "The PHSKC CI/CT team arranged delivery of food and essential items to 7253 households that were home to approximately 10 240 COVID-19 cases and 15 045 contacts. The number of households reached by this service varied with program capacity and epidemic trends, growing from 187 households in July 2020 to 1115 households in April 2021 ( Figure 3 ). Receipt of this service varied by SERI level, with 26% of case households in highest SERI quartile census tracts receiving groceries versus 12% in the lowest SERI quartile.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 336,
+                    "end": 344,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Service referrals"
+        },
+        {
+            "text": "The CI/CT team referred 9127 households, home to approximately 12 724 COVID-19 cases and 19 293 contacts, for financial assistance. When COVID relief-funded cash stipends or bill payment assistance was available, 49% of households located in highest SERI quartile census tracts and 20% of households in the lowest SERI quartile census tracts were referred; 1621 (34%) referred households received this support through the care coordination (CC) team. When the cash stipend and bill assistance programs were not operating, 24% of households located in highest SERI quartile census tracts and 7% of households in the lowest SERI quartile census tracts were referred to speak with the CC team about long-standing public assistance programs and their application processes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Service referrals"
+        },
+        {
+            "text": "The CI/CT team assisted 5650 contacts (8% of all elicited contacts) from 2969 households to receive COVID-19 testing. They also referred 3601 (8%) households to the CC team to discuss health insurance and/or health care service providers, connected 563 (1%) cases with severe symptoms and without access to a PHSKC medical doctor, and referred 304 (<1%) individuals to a King County I&Q Facility.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Service referrals"
+        },
+        {
+            "text": "During the case interview, 58% of cases reported not leaving home since symptom onset and 85% since date of testing (23% of cases did not answer this question). Among cases who completed the End of I&Q Survey, 81% indicated that they had stayed home during their isolation period and nearly all believed in the importance of isolation (Table 2) . Among cases with one or more household contact, 30% reported that at least 1 household contact left home when they should have remained in quarantine, 43% reported spending time in the same room with a household contact not known to have COVID-19 during their isolation period, and 72% reported that all household contacts had recently tested for COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 335,
+                    "end": 344,
+                    "text": "(Table 2)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Compliance with and perceptions of public health guidance and outreach"
+        },
+        {
+            "text": "Most survey participants had a positive experience interacting with the PHSKC CI/CT team, with 91% indicating that the outreach was helpful, 70% indicating that the CI/CT team facilitated connections to services, 77% indicating that they better understood COVID-19 prevention strategies, and 69% indicating that CI/CT helped them stay at home in isolation. Among 147 participants who provided qualitative feedback, 68% indicated appreciation for the services and/or information provided by the CI/CT team and 9% indicated a complaint-typically regarding the frequency of the daily texting program.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with and perceptions of public health guidance and outreach"
+        },
+        {
+            "text": "This evaluation of the PHSKC CI/CT program highlights both successes and weaknesses associated with the COVID-19 CI/CT strategy. We interviewed nearly 42 000 people with COVID-19 living in households with more than 90 000 people in a 12-month period. Case investigation and contact tracing was acceptable to the population, with 82% of cases agreeing to be interviewed, a percentage that exceeds the weighted average reported in a study of 14 jurisdictions. 17 Our adoption of a prioritization strategy that utilized area-based demographic and socioeconomic indicators allowed our team to focus outreach on parts of the county most impacted by the pandemic with a CI/CT intervention model that emphasized integrated prevention education and service provision. The team facilitated the provision of groceries to more than 7000 households comprising more than 25 000 people, referred over 9000 households with more than 30 000 people for financial assistance, and helped more than 8000 people get COVID-19 testing and/or medical care. We believe that these services helped mitigate pandemic-related hardships. Moreover, two-thirds of End of I&Q Survey participants indicated that outreach from PHSKC following their COVID-19 diagnosis helped them adhere to isolation guidance, suggesting that our model of service may have decreased SARS-CoV-2 transmission, though we cannot estimate the number of infections averted by the intervention's effect on isolation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "While we believe that many parts of our CI/CT program were successful, the program also faced significant challenges that diminished its impact on COVID-19 transmission, though in some instances, the challenges faced reflected the success of other parts of King County's COVID-19 response. Cases were often unwilling to provide the names and phone numbers of nonhousehold contacts, though most End of I&Q Survey participants indicated that they selfnotified at least some nonhousehold contacts without the direct involvement of CI/CT staff. Similarly, most cases who had reported that they recently worked",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Left home for nonmedical reason during isolation period. 19% Shared room with any uninfected household contact(s). a 43% A household contact left home after known exposure. a 30% All household contacts tested for COVID-19. a 72% Attitudes toward \"public health guidelines to stay at home and away from others after being diagnosed with COVID-19\" I believed the guidelines were important to stopping the spread of COVID-19. 93% The guidelines interfered with my ability to meet responsibilities at home, work, or school. 33% I was worried that following the guidelines would mean losing income. 28% Perceptions of contact tracing experience b",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with isolation and quarantine"
+        },
+        {
+            "text": "Overall, it was helpful to talk to the contact tracer. 91% The contact tracing team helped me or my family get connected to services. 70% After speaking with the contact tracing team, I better understood how I could protect others from getting COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with isolation and quarantine"
+        },
+        {
+            "text": "The information and referrals provided by the contact tracing team helped me stay home and away from others.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "77%"
+        },
+        {
+            "text": "The contact tracing team repeated the same questions I had already answered for another group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "69%"
+        },
+        {
+            "text": "I felt annoyed or upset after speaking with the contact tracing team. 6% I felt annoyed by daily text messages sent by contact tracing team. c 8% a Restricted to cases who reported to living with 1 or more people who had not been diagnosed with The response options were \"agree,\" \"disagree,\" and \"neutral\"; \"percent agree\" is reported in the table. c Restricted to cases who received daily text messages from case investigation and contact tracing team.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "43%"
+        },
+        {
+            "text": "in-person said that they directly reported their diagnosis to a workplace representative, and most cases indicated that they had stayed home since getting tested. These findings suggest that efforts to educate the public on what to do following a COVID-19 diagnosis had success, limiting the potential for CI/CT to further enhance prevention behaviors. Uptake of WA Notify exposure notification smartphone tool among cases interviewed by PHSKC was modest, and its impact is uncertain. A modeling study estimated that an adoption of 15% of a digital exposure notification app by King County residents could decrease total infections by 4% to 6% and total deaths by 2% to 7%. 24 Our ability to follow up with facility-level investigations based on information ascertained through CI/CT was limited owing largely to the overwhelming number of potential transmission venues identified during the case interview. Equipping a larger number of worksites, businesses, services sites, and other venues linked to a recent COVID-19 diagnosis with tools to minimize the risk of onward transmission might have expanded the reach and impact of the PHSKC CI/CT program.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "43%"
+        },
+        {
+            "text": "A key area of uncertainty related to the effectiveness of CI/CT in interrupting transmission is the timing of the intervention relative to SARS-CoV-2 infectiousness. Some studies suggest that infectiousness peaks around the time of symptom onset, while others suggest that infectiousness peaks up to 4 days later. 23 Variants that are highly infectious at an earlier stage of infection may diminish CI/CT impact in preventing onward transmission and necessitate very rapid provision of CI/CT. Similar to reports from other health departments, 6,17,25 PHSKC case interviews typically occurred 6 days following symptom onset, with symptomatic cases seeking testing 2 to 3 days after symptom onset. Test-seeking could potentially be expedited through increased accessibility of SARS-CoV-2 tests (particularly rapid tests), more widespread exposure notification, and promotion of test-seeking and home isolation as soon as one becomes aware of an exposure or symptom. The multistep process that occurs between specimen collection and case interview (ie, specimen transport and testing, surveillance data reporting and processing, and repeated call attempts to cases) was typically completed within 3 to 4 days with limited opportunity for acceleration. Other models of CI/CT (eg, provider-initiated CI/CT, digital CI/CT) could theoretically improve the timeliness of the intervention but carry other limitations, such as challenges with differentiating between new positives and repeat positive results, standardization of the intervention, and providing tailored I&Q counseling and referrals for support services.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "43%"
+        },
+        {
+            "text": "There are limitations of this evaluation. First, its generalizability is limited by its reliance on data collected from persons who completed PHSKC COVID-19 case interviews who are not representative of all King County COVID-19 cases. Also, the acceptability and impact of the PHSKC CI/CT program in June 2020 to July 2021 may not be generalizable to other jurisdictions with greater government mistrust or less capacity to provide CI/CT or support services, or to later stages in the pandemic with less support of and implementation of COVID-19 control strategies. Second, results from the End of I&Q Survey may be affected by nonresponse, recall, and social desirability biases. Third, we could not directly measure the impact of the PHSKC CI/CT program on SARS-CoV-2 transmission. Although the End of I&Q Survey suggested that CI/CT facilitated compliance with isolation, we cannot definitively attribute improved I&Q adherence to CI/CT, nor can we estimate how much improved adherence might have prevented transmission. In addition, we did not attempt to implement backward contact tracing. However, given cases' limited willingness to name nonhousehold contacts encountered from 2 days prior to symptom onset to their date of interview, we are skeptical that elicitation of contacts using a longer contact period would meet substantial success. Finally, this evaluation did not report costs, an important factor in deciding how scarce public health resources should be allocated. 25 In conclusion, the integration of COVID-19 CI/CT with support services provided tens of thousands of households directly impacted by COVID-19 with prevention education and guidance, groceries, and referrals for financial assistance and other services, which likely improved cases' adherence with isolation guidelines and diminished the effects of the pandemic on disproportionately impacted communities. Despite this, the epidemiologic impact of the intervention is uncertain, and many and perhaps most people received CI/CT outreach after their period of greatest infectiousness. Whether CI/CT can be accelerated enough to prevent the transmission of SARS-CoV-2, particularly transmission of variants with short transmission intervals and high transmission probabilities in the period before symptom onset, is uncertain. The uncertainty needs to be weighed against CI/CT's demonstrated potential to mitigate the hardships that COVID-19 imposes on disproportionately affected and vulnerable populations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "43%"
+        },
+        {
+            "text": "\u25a0 The evaluation of the PHSKC CI/CT program demonstrated that the integration of COVID-19 CI/CT with support services provided tens of thousands of households directly impacted by COVID-19 with prevention education and guidance, groceries, and referrals for financial assistance and other services, which may have improved cases' adherence with isolation guidelines and diminished the effects of the pandemic on disproportionately impacted communities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for Policy & Practice"
+        },
+        {
+            "text": "\u25a0 Despite this, the epidemiologic impact of the intervention is uncertain, given cases' reluctance to name nonhousehold contacts and the fact that most infected persons likely received the intervention after their period of greatest infectiousness.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for Policy & Practice"
+        },
+        {
+            "text": "\u25a0 The uncertainty of CI/CT's impact on disease transmission needs to be weighed against CI/CT's demonstrated potential in advancing health equity objectives, especially as public health agencies consider programmatic priorities for managing endemic COVID-19 on a longer time horizon.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for Policy & Practice"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Press release: new contact tracing playbook provides guidance to public health officials on nationwide efforts to contain COVID-19",
+            "authors": [],
+            "year": 2021,
+            "venue": "Resolve to Save Lives",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Interim guidance on developing a COVID-19 case investigation & contact tracing plan: overview",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Centers for Disease Control and Prevention. Scaling up staffing roles in case investigation and contact tracing",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Encouraging Participation and Cooperation in Contact Tracing: Lessons From Survey Research",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "COVID-19 case investigation and contact tracing in central Washington State",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bonacci",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lash",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Community Health",
+            "volume": "46",
+            "issn": "5",
+            "pages": "918--921",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Outcomes of contact tracing in San Francisco, California-test and trace during shelter-inplace",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sachdev",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Brosnan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mja",
+                    "middle": [],
+                    "last": "Reid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "JAMA Intern Med",
+            "volume": "181",
+            "issn": "3",
+            "pages": "381--383",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Impact of delays on effectiveness of contact tracing strategies for COVID-19: a modelling study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kretzschmar",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rozhnova",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mcj",
+                    "middle": [],
+                    "last": "Bootsma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Boven",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van De Wijgert",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjm",
+                    "middle": [],
+                    "last": "Bonten",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Public Health",
+            "volume": "5",
+            "issn": "8",
+            "pages": "452--459",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Quantifying competitive advantages of mutant strains in a population involving importation and mass vaccination rollout",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cheke",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Infect Dis Model",
+            "volume": "6",
+            "issn": "",
+            "pages": "988--996",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The interval between successive cases of an infectious disease",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Fine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Am J Epidemiol",
+            "volume": "158",
+            "issn": "11",
+            "pages": "1039--1047",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Serial interval of COVID-19 among publicly reported confirmed cases",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cowling",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Meyers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Infect Dis",
+            "volume": "26",
+            "issn": "6",
+            "pages": "1341--1343",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Effectiveness of isolation, testing, contact tracing, and physical distancing on reducing transmission of SARS-CoV-2 in different settings: a mathematical modelling study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Klepac",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ajk",
+                    "middle": [],
+                    "last": "Conlan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "10",
+            "pages": "1151--1160",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Feasibility of controlling COVID-19 outbreaks by isolation of cases and contacts",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hellewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gimma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Health",
+            "volume": "8",
+            "issn": "4",
+            "pages": "488--496",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Contact tracing efficiency, transmission heterogeneity, and accelerating COVID-19 epidemics",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gardner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kilpatrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "PLoS Comput Biol",
+            "volume": "17",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Transmission of SARS-CoV-2 before and after symptom onset: impact of nonpharmaceutical interventions in China",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bushman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Worby",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mug",
+                    "middle": [],
+                    "last": "Kraemer",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hanage",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Eur J Epidemiol",
+            "volume": "36",
+            "issn": "4",
+            "pages": "429--439",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Evaluating case investigation and contact tracing success",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Global strategies and effectiveness for COVID-19 prevention through contact tracing, screening, quarantine, and isolation: a systematic review",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Girum",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lentiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Geremew",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Migora",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shewamare",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Trop Med Health",
+            "volume": "48",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "COVID-19 case investigation and contact tracing in the US",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Lash",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Moonan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Byers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Netw Open",
+            "volume": "4",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "COVID-19 case investigation and contact tracing efforts from health departments-United States",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Spencer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Stargel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "70",
+            "issn": "3",
+            "pages": "83--87",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Measuring the scientific effectiveness of contact tracing: evidence from a natural experiment",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fetzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Graeber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "118",
+            "issn": "33",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Public health agencies transitioning away from universal case investigation and contact tracing for individual cases of COVID-19",
+            "authors": [],
+            "year": 2022,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Integrating HIV surveillance and field services: data quality and care continuum in",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hood",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Bennett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Am J Public Health",
+            "volume": "107",
+            "issn": "12",
+            "pages": "1938--1943",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Social & economic inequities in COVID-19 testing and outcomes in King County census tracts. Public Health Seattle & King County; communicable disease epidemiology section, analytics & informatics unit",
+            "authors": [
+                {
+                    "first": "Tsa",
+                    "middle": [],
+                    "last": "Avoundjian",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pogosjans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Inferred duration of infectious period of SARS-CoV-2: rapid scoping review and analysis of available evidence for asymptomatic and symptomatic COVID-19 cases",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Byrne",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mcevoy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ Open",
+            "volume": "10",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Modeling the effect of exposure notification and non-pharmaceutical interventions on COVID-19 transmission in Washington state",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Abueg",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hinch",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "NPJ Digit Med",
+            "volume": "4",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Coronavirus disease contact tracing outcomes and cost",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fields",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kracalik",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Carthel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Infect Dis",
+            "volume": "27",
+            "issn": "12",
+            "pages": "2999--3008",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Timing of Case Interview Relative to Inferred Duration of Infectiousness Period of SARS-CoV-2 a a The area under the dotted line represents the distribution of when case interview was conducted relative to onset of symptoms. The underlying pastel curves are reproduced from Byrne et al23 and represent SARS-CoV-2 viral shedding relative to symptom onset. Three curves are depicted as there remains uncertainty as to whether peak viral shedding occurs prior to, at, or after symptom onset, and how the temporality of infectiousness varies by SARS-CoV-2 variant. This figure is available in color online (www. JPHMP.com).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Number (Bars) and Percentage of Case-Households That Received Groceries or Were Referred for Financial Assistance by Social and Economic Risk Index of Residential (SERI) Census Tract Abbreviations: HH, households; SERI, Social and Economic Risk Index; SES, socioeconomic status. a The COVID-19 relief funded one-time cash stipend and bill assistance programs operated in December 2020 and March-present, respectively. bThe bars and percentages are limited to HH with one or more COVID-19 cases, whereas the total number of HH includes all households received or were referred to service, including those in which only contacts resided. This figure is available in color online (www.JPHMP.com).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Disclosure of Contacts and Places Visited During COVID-19 Case Interview and Case-Initiated Exposure NotificationCases diagnosed between July 2020 and June 2021 who completed PHSKC case interview (n = 42 900) Case disclosure of actionable information for \u22651 Named any household contacts and number contacts named (excluding index case) a",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

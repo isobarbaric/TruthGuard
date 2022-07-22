@@ -1,0 +1,4477 @@
+{
+    "paper_id": "27b2c055e36b8ff22f0b14e23785ccaaef5948ab",
+    "metadata": {
+        "title": "Marine Products as a Source of Antiviral Drug Leads",
+        "authors": [
+            {
+                "first": "Chun-Tao",
+                "middle": [],
+                "last": "Che",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Illinois at Chicago",
+                    "location": {
+                        "settlement": "Chicago",
+                        "region": "Illinois"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "INTRODUCTION TERPENOIDS NUCLEOSIDES POLYSACCHARIDES MISCELLANEOUS COMPOUNDS CRUDE EXTRACTS SHOWING ANTIVIRAL ACTIVITY CONCLUDING REMARKS ACKNOWLEDGMENTS REFERENCES ALKALOIDS AND OTHER NITROGEN-CONTAINING COMPOUNDS ABSTRACT Che, C.4.: Marine products as a source of antiviral drug leads. Drug Dev. Res. 23:201-218,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "A survey is presented of the occurrence of organic compounds from aquatic organisms that have been reported to have antiviral activities. Studies of the chemical structures and antiviral properties of unusual metabolic products of aquatic life have demonstrated that marine organisms offer excellent prospects in the search for antiviral drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Antiviral chemotherapy began to evolve 3 decades ago following the successful treatment of herpes simplex keratitis with idoxuridine [Kaufman, 19621. Since then, the progress of antiviral drug development has been slow, and until now the few U.S. Food and Drug Administration-approved antiviral drugs (acyclovir, amantadine, idoxuridine, ribavirin, trifluridine, vidarabine, and zidovudine) have only limited applications in a few viral diseases. The demand for new antiviral therapies is thus great. In the last few years the development of antiviral drugs has been revolutionized by two events. First, the clinical success of acyclovir has demonstrated that selective inhibition of virus-specific processes is a realistic target; second, the discovery of zidovudine soon after the identification of the human immunodeficiency virus (HIV) as a causative agent of the acquired immunodeficiency syndrome (AIDS) has initiated international concerns and interests in the search for anti-HIV agents.",
+            "cite_spans": [
+                {
+                    "start": 133,
+                    "end": 149,
+                    "text": "[Kaufman, 19621.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "There are generally two approaches in the search for pharmaceutical leads; namely, activity screening and rational drug design. For antiviral drug discovery, the screening approach remains the most common and productive method. Candidates from different sources, synthetic or natural, have been evaluated in a variety of test systems to determine their biological activities. Apart from the synthetic compounds, such as the purine-pyrimidine antimetabolites, many natural products from terrestrial plants and microorganisms have demonstrated antiviral potentials [for reviews, see Hudson, 1989; Che, 1991a,b] . There is also sufficient basis for the belief that aquatic organisms offer great promise as a source of prospective antiviral substances. Recent years have witnessed growing attention to marine organisms for their biomedical applications, and they have become the subject of many chemical and pharmaceutical investigations. Consequently, a large number of novel chemical structures have been discovered from aquatic animals, plants, and microbes [for reviews, see Scheuer, 1978 Scheuer, -1983 Okuda et al., 1982; Faulkner, 1984a Faulkner, ,b, 1986 Faulkner, , 1987 . Attention to pharmacologically active substances from marine flora and fauna was first drawn by Emerson and Taft (1945) , and subsequently many marine products were found to have interesting pharmacological actions [for reviews, see Nigrelli et al., 1967; Burkholder and Sharma, 1969; Der Marderosian, 1969; Ruggieri, 1976; Grant and Mackie, 1977; Kaul, 1981; Rinehart et al., 1981~; Harnden and Planterose, 1985; Braekman and Daloze, 1986; Cardellina, 1986; Kaul and Daftari, 1986; Krebs, 1986; Okami, 1986; Munro et al., 1987; Kitagawa, 1988; Scheuer, 19891. Although marine natural products have never been intensely studied for their antiviral properties, available literature data clearly indicate that a number of secondary metabolites from aquatic organisms display in vitro antiviral activities in bioassay systems. The present review summarizes these results, with the objective of demonstrating that aquatic organisms can provide an array of leads with diverse chemical structures that may have potential for being developed into antiviral drugs.",
+            "cite_spans": [
+                {
+                    "start": 581,
+                    "end": 594,
+                    "text": "Hudson, 1989;",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 595,
+                    "end": 608,
+                    "text": "Che, 1991a,b]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1075,
+                    "end": 1088,
+                    "text": "Scheuer, 1978",
+                    "ref_id": null
+                },
+                {
+                    "start": 1089,
+                    "end": 1103,
+                    "text": "Scheuer, -1983",
+                    "ref_id": null
+                },
+                {
+                    "start": 1104,
+                    "end": 1123,
+                    "text": "Okuda et al., 1982;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1124,
+                    "end": 1139,
+                    "text": "Faulkner, 1984a",
+                    "ref_id": null
+                },
+                {
+                    "start": 1140,
+                    "end": 1158,
+                    "text": "Faulkner, ,b, 1986",
+                    "ref_id": null
+                },
+                {
+                    "start": 1159,
+                    "end": 1175,
+                    "text": "Faulkner, , 1987",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1274,
+                    "end": 1297,
+                    "text": "Emerson and Taft (1945)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1411,
+                    "end": 1433,
+                    "text": "Nigrelli et al., 1967;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 1434,
+                    "end": 1462,
+                    "text": "Burkholder and Sharma, 1969;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1463,
+                    "end": 1485,
+                    "text": "Der Marderosian, 1969;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1486,
+                    "end": 1501,
+                    "text": "Ruggieri, 1976;",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 1502,
+                    "end": 1525,
+                    "text": "Grant and Mackie, 1977;",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1526,
+                    "end": 1537,
+                    "text": "Kaul, 1981;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1538,
+                    "end": 1561,
+                    "text": "Rinehart et al., 1981~;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1562,
+                    "end": 1591,
+                    "text": "Harnden and Planterose, 1985;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 1592,
+                    "end": 1618,
+                    "text": "Braekman and Daloze, 1986;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1619,
+                    "end": 1636,
+                    "text": "Cardellina, 1986;",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1637,
+                    "end": 1660,
+                    "text": "Kaul and Daftari, 1986;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1661,
+                    "end": 1673,
+                    "text": "Krebs, 1986;",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1674,
+                    "end": 1686,
+                    "text": "Okami, 1986;",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 1687,
+                    "end": 1706,
+                    "text": "Munro et al., 1987;",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 1707,
+                    "end": 1722,
+                    "text": "Kitagawa, 1988;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1723,
+                    "end": 1738,
+                    "text": "Scheuer, 19891.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "From the deepwater sponge Epipolasis reiswigi, reiswigins A (1) and B (2) were isolated and found to have potent in vitro antiviral activity [Kashman et al., 19871 . Being noncytotoxic at 2 pg levels, both compounds completely inhibited herpes simplex virus type 1 (HSV-1) and vesicular stomatitis virus (VSV). Antiviral activity was also observed at 20 bg levels against coronavirus A59.",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 163,
+                    "text": "[Kashman et al., 19871",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "TERPENOIDS"
+        },
+        {
+            "text": "Spongiadiol (3), epispongiadiol (4), and isospongiadiol ( 5 ) are furanoditerpenes obtained from a Caribbean deepwater sponge of the genus Spongia [Kohmoto et al., 19871 . They exhibited antiviral activity against HSV-I, with IC,, values of 0.25, 12.5, and 2 pgiml, respectively. These compounds were also cytotoxic to P388 cells. Groweiss et al. [1988] Other diterpene lactones, such as briantheins V (9), Y (10) and Z (11) from the gorgonian coral Briareum asbestinum, were found to have weak antiviral activity [Coval et al., 19881 . They exhibited IC,, values of 400, 80, and 50 pg/ml, respectively, against coronavirus. Brianthein Z (11) was also active against HSV-1 at 80 pg/ml. Avarol (12) and avarone (1 3), two antimitotic and antimutagenic sesquiterpenes from the sea sponge Dysidea avara, inhibited in vitro HIV replication without showing any cytotoxic effects to noninfected cells at a concentration of 0.1 kg/ml [Sarin et al., 19871 . Derivatives of these sesquiterpenes were also claimed to be active and have been patented for their antiviral properties [Mueller, 19881 . These compounds were further demonstrated to cause T-lymphotrophic cytostatic effect in murine and human lymphocytes and have low in vivo toxicity in mice [Muller et al., 19861. Avarol (12) was able to induce y-interferon in human peripheral blood lymphocytes [Voth et al., 1988) .",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 169,
+                    "text": "[Kohmoto et al., 19871",
+                    "ref_id": null
+                },
+                {
+                    "start": 331,
+                    "end": 353,
+                    "text": "Groweiss et al. [1988]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 514,
+                    "end": 534,
+                    "text": "[Coval et al., 19881",
+                    "ref_id": null
+                },
+                {
+                    "start": 927,
+                    "end": 947,
+                    "text": "[Sarin et al., 19871",
+                    "ref_id": null
+                },
+                {
+                    "start": 1071,
+                    "end": 1086,
+                    "text": "[Mueller, 19881",
+                    "ref_id": null
+                },
+                {
+                    "start": 1244,
+                    "end": 1278,
+                    "text": "[Muller et al., 19861. Avarol (12)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1349,
+                    "end": 1368,
+                    "text": "[Voth et al., 1988)",
+                    "ref_id": "BIBREF93"
+                }
+            ],
+            "ref_spans": [],
+            "section": "TERPENOIDS"
+        },
+        {
+            "text": "Snader and Higa [ 19861 have patented the chamigrene derivatives ( 14), obtained from the digestive gland of the sea hare Aplysia dactylomela, as antiviral agents against HSV and v s v . Carter and Rinehart [1978a] reported the chemical structure of aplidiasphingosine (15) from a marine tunicate (Aplidium sp.). In addition to the antimicrobial and cytotoxic activities, aplidiasphingosine was antiviral against HSV-1. The compound has been synthesized to define the stereochemistry [Mori and Umemura, 1981; Umemura and Mori, 19871. From an extract of Laurencia venusta, a red alga collected in Okinawan waters, three active compounds were isolated by Sakemi et al. [ 19861 following activity-guided fractionation procedures. The compounds were determined to be thyrsiferol (16), thyrsiferyl 23acetate (17), and venustatriol (18), all of which are tetracyclic ethers of triterpenoid origin active against HSV-1 and VSV. Anderson et al. [ 19891 evaluated 24 saponins and saponin-like substances from starfish and brittle-stars for antibacterial, cytotoxic, and antiviral activities. Of the 18 compounds tested for antiviral effects, only two reduced about 25% of the pseudorabies virus plaque formation at 10 pgiml levels. They were crossasterosides B (19) and D (20), obtained from Crossaster papposus.",
+            "cite_spans": [
+                {
+                    "start": 187,
+                    "end": 214,
+                    "text": "Carter and Rinehart [1978a]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 484,
+                    "end": 508,
+                    "text": "[Mori and Umemura, 1981;",
+                    "ref_id": null
+                },
+                {
+                    "start": 509,
+                    "end": 533,
+                    "text": "Umemura and Mori, 19871.",
+                    "ref_id": null
+                },
+                {
+                    "start": 653,
+                    "end": 666,
+                    "text": "Sakemi et al.",
+                    "ref_id": null
+                },
+                {
+                    "start": 921,
+                    "end": 957,
+                    "text": "Anderson et al. [ 19891 evaluated 24",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "TERPENOIDS"
+        },
+        {
+            "text": "Among the few licenced antiviral drugs in the United States, vidarabine (adenine arabinoside; Ara-A) (21) is the only naturally occurring compound, and the first to be given systemically for the treatment of herpes simplex keratitis and herpes simplex encephalitis [De Clercq, 19841 . Ara-A has been obtained from both marine and microbial sources, including the Mediterranean gorgonian Eunicella cavolini [Cimino et al., 19841 and the jellyfish Stomolophus meleagris [Betz and Der Marderosian, 19871 . Inhibition of viral DNA synthesis seems to be its major target of antiviral action, although other less specific mechanisms, such as inhibition of nucleic acid methylation by blocking the S-adenosyl homocysteine hydrolase, may contribute to the overall antiviral action. The pharmacological properties and clinical applications of ara-A have been reviewed by Muller 119791; North and Cohen [1984] ; and Buchanan and Hess [1985] .",
+            "cite_spans": [
+                {
+                    "start": 265,
+                    "end": 282,
+                    "text": "[De Clercq, 19841",
+                    "ref_id": null
+                },
+                {
+                    "start": 406,
+                    "end": 427,
+                    "text": "[Cimino et al., 19841",
+                    "ref_id": null
+                },
+                {
+                    "start": 468,
+                    "end": 500,
+                    "text": "[Betz and Der Marderosian, 19871",
+                    "ref_id": null
+                },
+                {
+                    "start": 862,
+                    "end": 876,
+                    "text": "Muller 119791;",
+                    "ref_id": null
+                },
+                {
+                    "start": 877,
+                    "end": 899,
+                    "text": "North and Cohen [1984]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 906,
+                    "end": 930,
+                    "text": "Buchanan and Hess [1985]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "NUCLEOSIDES"
+        },
+        {
+            "text": "Thymine arabinoside (spongothymidine, Ara-T) (22), originally isolated from the sponge Cryptoethya crypta [Bergmann and Feeney, 19511 and more recently from the jellyfish Stomolophus meleagris [Betz and Der Marderosian, 19871 , has also been well documented as an antiviral agent [North and Cohen, 19841 . It is phosphorylated by the herpes virus-induced thymidine kinase, and in its triphosphate form it inhibits the DNA polymerase reaction.",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 133,
+                    "text": "[Bergmann and Feeney, 19511",
+                    "ref_id": null
+                },
+                {
+                    "start": 193,
+                    "end": 225,
+                    "text": "[Betz and Der Marderosian, 19871",
+                    "ref_id": null
+                },
+                {
+                    "start": 280,
+                    "end": 303,
+                    "text": "[North and Cohen, 19841",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "NUCLEOSIDES"
+        },
+        {
+            "text": "A number of nucleoside analogs have been identified for their potent antiviral activities [North and Cohen, 1984; Robins and Revankar, 19881 . Despite their antiviral efficacy, the therapeutic value of many nucleosides is limited because of the mutagenic, teratogenic, carcinogenic, or cytotoxic side effects. In recent years, however, the selectivity of this class of compounds has been enhanced through structure-activity relationship studies. The success of acyclovir [9-(2-hydroxyethoxymethyl)guanine] in clinical trials demonstrates not only that structural modifications can improve the therapeutic value of lead compounds but, more importantly, that selective inhibition of viral replication is a valid approach to antiviral therapy. ",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 113,
+                    "text": "[North and Cohen, 1984;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 114,
+                    "end": 140,
+                    "text": "Robins and Revankar, 19881",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "NUCLEOSIDES"
+        },
+        {
+            "text": "From a Caribbean tunicate, Eudistoma olivaceum, seventeen 6-carboline alkaloids (eudistomins) have been isolated Rinehart et al., 1984 Rinehart et al., , 1987 Rinehart, 19891 . They belong to four structural groups, including simple P-carbolines, pyrrolyl pcarbolines, pyrrolinyl P-carbolines , and tetrahydro-P-carbolines containing an oxathiazepine ring. Among these metabolites, eudistomins C (23) and E (24), bearing the oxathiazepine moiety, were most active against HSV-1 (5-10 ng/disk) and HSV-2 (25 ng/disk). Eudistomins D (29), H (33), K (25), L (28), N (30), and P (34) were less active (100-500 ng/disk). Metabolites of the same class have also been obtained from the unrelated New Zealand ascidian Ritterella sigillinoides Lake et al., 1988, 19891 ; they included eudistomin C (23), eudistomin K (25), eudistomin K sulfoxide (26), debromoeudistomin K (27), eudistomin 0 (31), and P-carboline (32). Debromoeudistomin K (27) and eudistomin K sulfoxide (26) showed antiviral activity against HSV-1 at concentration levels of 400 ng/disk, while eudistornin 0 (31) and the @-carboline (32) were less active (500-2,000 ng/disk). The antiviral applications of eudistomins A (35) and M (36), or their pharmaceutically acceptable salts, have also been patented [Rinehart, 19851. A series of bis-indole alkaloids including topsentin (37), bromotopsentin (38), and 4,5-dihydro-6-deoxybromotopsentin (39), were isolated from a Mediterranean shallow water sponge Topsentia genitrix by Bartik et al. [I9871 as defense chemicals. Tsujii et al. [1988] obtained the same compounds from a Caribbean deep sea sponge of the genus Spongosorites and reported the antiviral activity of these metabolites. Topsentin (37) showed activity against HSV-1 (50 pg/disk), coronavirus A59 (2 pg/disk), and VSV; bromotopsentin (38) was active against HSV-1 (200 kg/disk) and coronavirus A59 (10 pg/disk), whereas dihydrodeoxybromotopsentin (39) was active only against coronavirus A59 (2 kgidisk). These compounds also had varying degrees of cytotoxicity against P388 cells.",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 134,
+                    "text": "Rinehart et al., 1984",
+                    "ref_id": null
+                },
+                {
+                    "start": 135,
+                    "end": 158,
+                    "text": "Rinehart et al., , 1987",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 159,
+                    "end": 174,
+                    "text": "Rinehart, 19891",
+                    "ref_id": null
+                },
+                {
+                    "start": 735,
+                    "end": 759,
+                    "text": "Lake et al., 1988, 19891",
+                    "ref_id": null
+                },
+                {
+                    "start": 1264,
+                    "end": 1281,
+                    "text": "[Rinehart, 19851.",
+                    "ref_id": null
+                },
+                {
+                    "start": 1484,
+                    "end": 1547,
+                    "text": "Bartik et al. [I9871 as defense chemicals. Tsujii et al. [1988]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "ALKALOIDS AND OTHER NITROGEN-CONTAINING COMPOUNDS"
+        },
+        {
+            "text": "A pentacyclic aromatic alkaloid dercitin (40) was isolated from a deepsea sponge (Dercitus sp.) and found to be anti-HIV at concentrations of 5 Fgiwell [Gunawardana et al., 19881. The compound also exhibited cytotoxic and immunosuppressive activities. Sakai and Higa [1987] isolated tubastrine (41) from Tubastrea aurea at the coral reefs of Okinawa. The compound was active against HSV-1 and VSV.",
+            "cite_spans": [
+                {
+                    "start": 152,
+                    "end": 179,
+                    "text": "[Gunawardana et al., 19881.",
+                    "ref_id": null
+                },
+                {
+                    "start": 252,
+                    "end": 273,
+                    "text": "Sakai and Higa [1987]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "ALKALOIDS AND OTHER NITROGEN-CONTAINING COMPOUNDS"
+        },
+        {
+            "text": "Acarnidines a-c (42-44), containing substituted homospermidine skeleton, were isolated from the sponge Acarnus erithacus from the Gulf of California [Carter and Rinehart, 1978bj . They exhibited antiviral activity against HSV-I at 80 pg/disk levels. Didemnins are a group of cyclic depsipeptides isolated from a Caribbean tunicate (Trididemnum sp.). In addition to dideninins A (49), B (50), and C (51), initially obtained by Rinehart et al. [1981a-c] , more than ten members of this class have now been isolated or chemically prepared [Rinehart et al., 19901 . These compounds not only possess antiviral properties but also have antitumor and immunosuppressive activities. Didemnins A (49) and B (50) inhibited the replication of HSV-1 and HSV-2, at concentrations of 1 and 0.05 pM, respectively. Similar efficacy was demonstrated against cosxackie virus A2 1, equine rhinovirus, and parainfluenza virus 3 [Rinehart et al., 1981a,b] . When the study was extended to other RNA viruses, including the highly virulent human pathogens Rift Valley fever virus, Venezuelan equine encephalomyelitis virus, and yellow fever virus, inhibition was observed at concentrations ranging from 0.08 to 1.4 pgiml. Doses of 1.25-5.0 mgikg didemnin A and 0.25 mgikg didemnin B administered subcutaneously for 5 days to mice infected with a lethal dose of Rift Valley fever virus significantly increased the numbers of survivors, although drug-related toxicity was also observed [Canonico et al., 19821 . Additionally, when didemnin A was applied intravaginally to HSV-2-infected mice at a dose of 1 mgiml, three times per day for 3 days, 60% of the animals were protected. Didemnin B was as effective, even at lower doses (0.23 mgiml) [Rinehart et al., 19831 . Despite the significant antiviral properties, didemnins are cytotoxic and inhibitory to cellular DNA, RNA, and protein synthesis at concentrations close to those at which viral growth was affected [Rinehart et al., 19831 . Consequently, they have both a low antiviral selectivity and therapeutic index. Nevertheless, some improvement in antiviralicytotoxicity ratios have been achieved through structural modifications, and further investigations are warranted to yield better results.",
+            "cite_spans": [
+                {
+                    "start": 149,
+                    "end": 177,
+                    "text": "[Carter and Rinehart, 1978bj",
+                    "ref_id": null
+                },
+                {
+                    "start": 426,
+                    "end": 451,
+                    "text": "Rinehart et al. [1981a-c]",
+                    "ref_id": null
+                },
+                {
+                    "start": 536,
+                    "end": 559,
+                    "text": "[Rinehart et al., 19901",
+                    "ref_id": null
+                },
+                {
+                    "start": 907,
+                    "end": 933,
+                    "text": "[Rinehart et al., 1981a,b]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1460,
+                    "end": 1483,
+                    "text": "[Canonico et al., 19821",
+                    "ref_id": null
+                },
+                {
+                    "start": 1717,
+                    "end": 1740,
+                    "text": "[Rinehart et al., 19831",
+                    "ref_id": null
+                },
+                {
+                    "start": 1940,
+                    "end": 1963,
+                    "text": "[Rinehart et al., 19831",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "ALKALOIDS AND OTHER NITROGEN-CONTAINING COMPOUNDS"
+        },
+        {
+            "text": "Rinehart and his associates have reported a series of dimeric bromopyrroles from the sponges Agelas coniferin and A. cf. mauritiana [Rinehart, 1988 [Rinehart, , 1989 Rinehart et al., 19901, including the previously known sceptrin (52) [Walker et al., 19811 , its debromo (53)-and dibromo (54)-derivatives, oxysceptrins (55, 56), and ageliferins (57-59). These compounds all showed antiviral activity against HSV-1 at concentrations as low as 20 pg/disk.",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 147,
+                    "text": "[Rinehart, 1988",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 148,
+                    "end": 165,
+                    "text": "[Rinehart, , 1989",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 166,
+                    "end": 189,
+                    "text": "Rinehart et al., 19901,",
+                    "ref_id": null
+                },
+                {
+                    "start": 235,
+                    "end": 256,
+                    "text": "[Walker et al., 19811",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "ALKALOIDS AND OTHER NITROGEN-CONTAINING COMPOUNDS"
+        },
+        {
+            "text": "The antiviral activity of polysaccharides has been recognized for a number of years. As early as 1947, polysaccharides from diverse sources were found to inhibit viral growth [Ginsberg et al., 1947; Green and Wooley, 1947; Horsfall and McCarty, 19471. Gerber et al. [1958] then reported the antiviral effects of a polysaccharide extract from seaweeds against influenza B virus and mumps virus in embryonated eggs. Later, agar polysaccharides were also demonstrated to inhibit replications of encephalomyocarditis virus, poliovirus, and herpes virus [Schulze, 1964; Takemoto and Fabisch, 1964; Takemoto and Spicer, 19651. Kathan [1965] examined extracts of kelp and reported inhibitory activities against the multiplication of influenza virus and viral neuraminidases. The polysaccharide-rich fractions from two marine red algae, Cryptosyphonia woodii and Farlowia mollis, were found to exhibit in vitro antiviral activity against HSV-1 and HSV-2, vaccinia virus, and VSV [Deig et al., 1974; Richards et al., 19781. The extracts were also shown to protect mice from HSV-2 infection but had no therapeutic effects when applied postinfectiously .",
+            "cite_spans": [
+                {
+                    "start": 175,
+                    "end": 198,
+                    "text": "[Ginsberg et al., 1947;",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 199,
+                    "end": 222,
+                    "text": "Green and Wooley, 1947;",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 223,
+                    "end": 272,
+                    "text": "Horsfall and McCarty, 19471. Gerber et al. [1958]",
+                    "ref_id": null
+                },
+                {
+                    "start": 549,
+                    "end": 564,
+                    "text": "[Schulze, 1964;",
+                    "ref_id": "BIBREF86"
+                },
+                {
+                    "start": 565,
+                    "end": 592,
+                    "text": "Takemoto and Fabisch, 1964;",
+                    "ref_id": "BIBREF89"
+                },
+                {
+                    "start": 593,
+                    "end": 634,
+                    "text": "Takemoto and Spicer, 19651. Kathan [1965]",
+                    "ref_id": null
+                },
+                {
+                    "start": 971,
+                    "end": 990,
+                    "text": "[Deig et al., 1974;",
+                    "ref_id": null
+                },
+                {
+                    "start": 991,
+                    "end": 1014,
+                    "text": "Richards et al., 19781.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "POLYSACCHARIDES"
+        },
+        {
+            "text": "In recent years, sulfated polysaccharides have been demonstrated to inhibit in vitro replication of many enveloped viruses, including the HIV [Baba et al., 1988; Sugawara et al., 19891. A sulfated polysaccharide called SAE, isolated from the sea alga Schizyrnenia pacifca, also displayed inhibitory effects on HIV replication and on reverse transcriptase activity [Nakashima et al., 1987a,b] . Sulfated polysaccharides are an interesting class of compounds showing potent in vitro antiviral activity, presumably due to the interference with the viral adsorption process. Although many of them have become useful probes for antiviral research, cytotoxicity, and other undesirable side effects (such as anticoagulation) may preclude any clinical application. Low oral bioavailability of these compounds also constitutes a hindrance in drug development.",
+            "cite_spans": [
+                {
+                    "start": 142,
+                    "end": 161,
+                    "text": "[Baba et al., 1988;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 162,
+                    "end": 178,
+                    "text": "Sugawara et al.,",
+                    "ref_id": "BIBREF88"
+                },
+                {
+                    "start": 364,
+                    "end": 391,
+                    "text": "[Nakashima et al., 1987a,b]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "POLYSACCHARIDES"
+        },
+        {
+            "text": "In a screen of New Zealand marine invertebrates, a sponge of the genus Mycale showed significant in vitro and in vivo antiviral activities [Perry et al., 19881 . The extract protected coronavirus-infected mice at a dose of 0.1 mg/kg. Subsequently, two active metabolites were determined to be mycalamides A (60) and B (61) [Perry et al., 1988, 19901 . Both compounds were very active against HSV-1 and poliovirus I (MICs 3.5-5 @disk and 1-2 ngidisk, respectively, for mycalamides A and B). No in vivo results have been reported for these compounds. metabolite onnamide A (62) was isolated by Sakemi et al. [ 19881. It displayed potent in vitro antiviral activity against HSV-1, VSV, and coronavirus A59. From an unidentified marine bacterium, Gustafson et al. [1989b] reported eight new secondary metabolites. One of them, macrolactin A (63), showed significant inhibition of HSV-1 and HSV-2 (IC,,s 5.0 and 8.3 pgiml, respectively). More importantly, it protected T-lymphoblast cells against HIV replication, at concentrations of 10 pgiml. Gustafson et al. [ 1989al isolated a group of sulfonic acid-containing glycolipids (64-67) from anti-HIV extracts of the cyanobacteria (blue-green algae) Lyngbya lagerheimii and Pkormidium tenue. These sulfolipids represent a new structural class of anti-HIV compounds currently under preclinical investigation at the National Cancer Institute. Several other cyanobacterial culture extracts showing positive test results for the presence of sulfolipids were also active in the in vitro anti-HIV assay.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 159,
+                    "text": "[Perry et al., 19881",
+                    "ref_id": null
+                },
+                {
+                    "start": 323,
+                    "end": 349,
+                    "text": "[Perry et al., 1988, 19901",
+                    "ref_id": null
+                },
+                {
+                    "start": 592,
+                    "end": 614,
+                    "text": "Sakemi et al. [ 19881.",
+                    "ref_id": null
+                },
+                {
+                    "start": 743,
+                    "end": 767,
+                    "text": "Gustafson et al. [1989b]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1040,
+                    "end": 1058,
+                    "text": "Gustafson et al. [",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "MISCELLANEOUS COMPOUNDS"
+        },
+        {
+            "text": "Li and his associates have studied a number of extracts from marine animals for antibacterial and antiviral activities. Their results indicated that some macromolecules (probably glycoproteins or mucoproteins) present in abalone (Haliotis rufescens), oyster (Crassustreu virginica), clam (Mercenaria mercenaria), queen conch (Stmrnbus gigas), squid (Lofigo pealii), and sea snail (Tegula ga1lina)'possessed significant antibacterial and antiviral activities both in vitro and in vivo [Li, 1960; Li et al., 1962a,b; Prescott et al., 19641 . The antiviral fraction, designated as Paolin 2, from abalone and oyster extracts inhibited the replication of polyoma virus, influenza A virus, and poliovirus in tissue cultures, and protected mice infected with poliovirus and influenza virus [Li et al., 1962a,b] . Additionally, ammonium sulfate extracts prepared from the common clam have been demonstrated to suppress in vitro replication of HSV and adenovirus type 12 and reduce tumor formation in hamsters induced by the adenovirus [Li et a1 . , 19651. Anderson et al. [ identified as Sarcotragus sp. and Zrcinia sp., displayed significant in vitro antiviral activity against HSV-1 and poliovirus I [Barrow et al., 1988a,b] . A group of furanosesterterpene tetronic acids, of which variabilin (68) was the major component, were isolated, but none of them displayed significant antiviral activity. The active principle(s) present in these extracts remain unknown.",
+            "cite_spans": [
+                {
+                    "start": 484,
+                    "end": 494,
+                    "text": "[Li, 1960;",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 495,
+                    "end": 514,
+                    "text": "Li et al., 1962a,b;",
+                    "ref_id": null
+                },
+                {
+                    "start": 515,
+                    "end": 537,
+                    "text": "Prescott et al., 19641",
+                    "ref_id": null
+                },
+                {
+                    "start": 783,
+                    "end": 803,
+                    "text": "[Li et al., 1962a,b]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1027,
+                    "end": 1065,
+                    "text": "[Li et a1 . , 19651. Anderson et al. [",
+                    "ref_id": null
+                },
+                {
+                    "start": 1194,
+                    "end": 1218,
+                    "text": "[Barrow et al., 1988a,b]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "CRUDE EXTRACTS SHOWING ANTIVIRAL ACTIVITY"
+        },
+        {
+            "text": "Recent years have witnessed great advances in antiviral chemotherapy. The discovery of acyclovir and zidovudine has produced a marked impact on antiviral drug development. For many years, antiviral research was hampered by inherent problems such as inconsistency of testing assays, lack of appropriate animal models, and incomplete understanding of viral pathogenesis. The biggest problem lies in the fact that viruses share many common cellular mechanisms with infected cells, and it is thus difficult to interfere selectively with viral growth without affecting normal cell growth. As our knowledge of the molecular details of virion structure and viral replication expands, it will be possible to design target-oriented assay systems to detect chemicals that can selectively interfere with the viral life cycle. It seems also possible to design compounds that are activated only by virus-induced enzymes in the infected cells, so that normal cells will not be affected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUDING REMARKS"
+        },
+        {
+            "text": "Despite the fact that most antiviral studies have focused on synthetic compounds such as the nucleoside analogs, results presented in this review clearly indicate that a variety of marine natural products possess antiviral potential. It may be true that many of these compounds may never be developed into therapeutic preparations for different reasons (e .g., toxicity, unfavorable pharmacological properties, or bioavailability problems), but it is likely that among them there are several selectively toxic substances that may eventually become useful in the clinic. It has also to be realized that, until now, only a small number of marine products have been tested for antiviral activity; most have never been evaluated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUDING REMARKS"
+        },
+        {
+            "text": "There are several reasons to believe that marine products are an interesting group of compounds for antiviral investigation. First, for many years marine organisms have been relatively unexplored from a chemical and pharmaceutical point of view. Major problems were mostly technical ones, such as unavailability of marine specimens, uncertainty of taxonomic classification of marine organisms, difficulties in recollection of the same species, and scarity of isolated compounds for structural and biological determinations. The past few decades have witnessed substantial progress in oceanography and separation chemistry for overcoming these problems. With a close collaboration between marine biologists, organic chemists, and virologists, the abundant marine flora and fauna would become an important source of materials for pharmaceutical research, including antiviral drug development. Second, natural products have been known to be a rich source of enzyme inhibitors, many of which possess significant selectivity against specific enzymes. It is therefore reasonable to believe that, among the enormous variety of marine products, there are selective inhibitors of virus-coded enzymes that may possess the potency and selectivity required for an antiviral agent. Third, difficulties in finding effective antiviral drugs have been partly due to the frequent mutation of the virus into drug-resistant strains. Consequently, combination therapy using drugs of different mechanisms of action may be of benefit. Therefore, a strategy in the search for antiviral compounds is to obtain leads of diverse chemical structures with different action mechanisms. The aquatic habitat enables living organisms to biosynthesize a variety of secondary metabolites whose structures are unlike any compound found in terrestrial species or chemically synthesized. These unique structures may interact with biological systems in novel manners and thus can serve as models in the development of new drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUDING REMARKS"
+        },
+        {
+            "text": "In summary, literature data have demonstrated that aquatic organisms are producing a variety of unique chemical compounds displaying antiviral activity. It is reasonable to postulate that some of these metabolites, or their derivatives, can be further developed into antiviral drugs. Moreover, as a class of natural products that has been relatively unexplored, marine products certainly deserve further attention from chemists and pharmacologists.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUDING REMARKS"
+        },
+        {
+            "text": "I thank Prof. Norman R. Farnsworth providing valuable suggestions during the preparation of this manuscript. I also acknowledge the NAPRALERT database and its staff at the Program for Collaborative Research in the Pharmaceutical Sciences, College of Pharmacy, University of Illinois at Chicago, for providing part of the literature data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Biological activity of saponins and saponin-like compounds from starfish and brittle-stars",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bohlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Iorizzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Riccio",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Minale",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Moreno-Lopez",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Toxicon",
+            "volume": "27",
+            "issn": "",
+            "pages": "179--188",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Studies of Swedish marine organisms. I. Screening of biological activity",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Anderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lidgren",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bohlin",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Magni",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ogren",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Afzelius",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Acta Pharmacol. Suecica",
+            "volume": "20",
+            "issn": "",
+            "pages": "401--414",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Sulfated polysaccharides are potent and selective inhibitors of various enveloped viruses, including simplex virus, cytomegalovirus, vesicular stomatitis virus, and human immunodificiency virus",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baba",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Snoeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pauwels",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Clercq",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Antimicrob. Agent Chemother",
+            "volume": "32",
+            "issn": "",
+            "pages": "1742--1745",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Variabilin and related compounds from a sponge of the genus Surcotragus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Barrow",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Blunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Munro",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J. Nat. Prod",
+            "volume": "51",
+            "issn": "",
+            "pages": "275--281",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Oxygenated furanosesterterpene tetronic acids from a sponge of the genus Ircinia",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Barrow",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Blunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Munro",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J. Nat. Prod",
+            "volume": "51",
+            "issn": "",
+            "pages": "1294--1298",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Topsentins, new toxic bis-indole alklaoids from the marine sponge Topsentia genirrix",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bartik",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Braekman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Daloze",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Stoller",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huysecom",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Vandevyver",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ottinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Can. J. Chem",
+            "volume": "",
+            "issn": "",
+            "pages": "652118--2121",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Contribution to the study of marine products. XXXII. The nucleosides of sponges",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Bergmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Feeney",
+                    "suffix": ""
+                }
+            ],
+            "year": 1951,
+            "venue": "J. Org. Chem",
+            "volume": "16",
+            "issn": "",
+            "pages": "981--987",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Antiviraliantineoplastic agents from a jellyfish (Stomolophus meleagris L. Agassiz 1860)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Betz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Der Marderosian",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Abstract No. 113, twenty-eighth Annual Meeting of the American Society of Pharmacognosy",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The stereochemistry of eudistomins C",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Blunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lake",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Munro",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "; K"
+                    ],
+                    "last": "Toyokuni",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "",
+            "volume": "28",
+            "issn": "",
+            "pages": "1825--1826",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Chemical defence in sponges",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Braekman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Daloze",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Pure Appl. Chem",
+            "volume": "58",
+            "issn": "",
+            "pages": "357--364",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Vidarabine (Vira-A), pharmacology and clinical experience",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Buchanan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hess",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Inhibition of RNA viruses in vitro and in Rift Valley fever infected mice by didemnins A and B",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Burkholder",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Canonico",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Pannier",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Huggins",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                }
+            ],
+            "year": 1969,
+            "venue": "Antimicrob. Agents Chemother",
+            "volume": "32",
+            "issn": "",
+            "pages": "696--697",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Marine natural products as lead to new pharmaceutical and agrochemical agents",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cardellina",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Pure Appl. Chem",
+            "volume": "11",
+            "issn": "",
+            "pages": "365--374",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Revised structures for the polyandrocarpidines",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Carte",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Faulkner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "Tetrahedron Lett",
+            "volume": "23",
+            "issn": "",
+            "pages": "3863--3866",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Aplidiasphingosine, an antimicrobial and antitumor terpenoid from an Aplidium sp. (marine tunicate)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "J. Am. Chem. Soc",
+            "volume": "100",
+            "issn": "",
+            "pages": "7441--7442",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Acarnidines, novel antiviral and antimicrobial compounds from the sponge Acarnus erithacus",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "J. Am. Chem. SOC",
+            "volume": "100",
+            "issn": "",
+            "pages": "4302--4304",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Plants as a source of potential antiviral agents",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Che",
+                    "suffix": ""
+                }
+            ],
+            "year": 1991,
+            "venue": "Economic and Medicinal Plant Research",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Potential antiviral agents from microbial organisms",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Che",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Polyandrocarpidines: antimicrobial and cytotoxic agents from a marine tunicate (Polyandrocarpa sp.) from the Gulf of California",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Am. Chem. Soc",
+            "volume": "100",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Antiviral agents from a gorgonian",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cimino",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "De Rosa",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "De Stefano",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Eunicella cavolini",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Antiherpes drugs: Promise and pitfalls",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "De Clercq",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Eur. J. Clin. Microbiol",
+            "volume": "3",
+            "issn": "",
+            "pages": "96--107",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "J: Inhibition of herpesvirus replication by Der Marderosian, A,: Marine pharmaceuticals",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Deig",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ehresmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hatch",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Riedlinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 1969,
+            "venue": "J. Pharmacol. Sci",
+            "volume": "58",
+            "issn": "33",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Pharmacologically active agents from the sea",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Emerson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Taft",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Texas Rep. Biol. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Marine natural products: Metabolites of marine invertebrates",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Faulkner",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat. Prod. Rep",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Marine natural products: metabolites of marine algae and herbivorous marine molluscs",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Faulkner",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Marine natural products",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Faulkner",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Faulkner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Nat. Prod. Rep",
+            "volume": "3",
+            "issn": "33",
+            "pages": "4539--576",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Marine natural products",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Faulkner",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Nat. Prod. Rep",
+            "volume": "5",
+            "issn": "",
+            "pages": "613--663",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Protective effect of seaweed extracts for chicken embryos infected with influenza B of mumps virus",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dutcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Adams",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sherman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Proc. Soc. Exp. Biol. Med",
+            "volume": "99",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Inhibition of mumps virus multiplication by a polysaccharide",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ginsberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Goebel",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Horsfall",
+                    "suffix": ""
+                }
+            ],
+            "year": 1947,
+            "venue": "Proc. Soc. Exp. Biol. Med",
+            "volume": "66",
+            "issn": "",
+            "pages": "99--100",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Sur I'activite antiherpetique d'extraits de vegetaux d'origine marine our terrestre et la standardisation de l'etude des proprietes antivirales",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Girre",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Amoros",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Conan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Percehais",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zerial",
+                    "suffix": ""
+                }
+            ],
+            "year": 1945,
+            "venue": "Antimicrob. Agents Chemother",
+            "volume": "58",
+            "issn": "",
+            "pages": "590--593",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Drugs from the sea-Fact of fantasy?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Grant",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mackie",
+                    "suffix": ""
+                }
+            ],
+            "year": 1977,
+            "venue": "Nature",
+            "volume": "267",
+            "issn": "",
+            "pages": "786--788",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Inhibition by certain polysaccharides of hemagglutination and inultiplication of influenza virus",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Wooley",
+                    "suffix": ""
+                }
+            ],
+            "year": 1947,
+            "venue": "J. Exp. Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "5--6",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Solenolides, new antiinflammatory and antiviral diterpenoids from a marine octocoral of the genus Solenopodium",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Groweiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Look",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fenical",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J. Org. Chem",
+            "volume": "53",
+            "issn": "",
+            "pages": "2401--2406",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Dercitin, a new biologically active acridine alkaloid from a deep water marine sponge, Dercitus sp",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gunawardana",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kohmoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gunasekera",
+                    "suffix": ""
+                },
+                {
+                    "first": ".",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcconnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Koehn",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J. Am. Chem. SOC",
+            "volume": "110",
+            "issn": "",
+            "pages": "4856--4858",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "AIDS-antiviral sulfolipids from cyanobacteria (blue-green algae)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gustafson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Cardellina",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fuller",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Weislow",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Kisers",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Snader",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M L"
+                    ],
+                    "last": "Patterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Boyd",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "JNCI",
+            "volume": "81",
+            "issn": "",
+            "pages": "1254--1258",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "The macrolactins, a novel class of antiviral and cytotoxic macrolides from a deepsea marine bacterium",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gustafson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Roman",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Fenical",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "J. Am. Chem. Soc",
+            "volume": "111",
+            "issn": "",
+            "pages": "7519--7524",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Screening leads-Natural products",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Harnden",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Planterose",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "The modifying effects of certain substances of bacterial origin on the course of infection with pneumonia virus of mice (PVM)",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Horsfall",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mccarty",
+                    "suffix": ""
+                }
+            ],
+            "year": 1947,
+            "venue": "J. Exp. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "85623--646",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Antiviral Compounds From Plants",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hudson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Reiswigins A and B, novel antiviral diterpenes from",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kashman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Koehn",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cross",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Kelp extracts as antiviral substances",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kathan",
+                    "suffix": ""
+                }
+            ],
+            "year": 1965,
+            "venue": "Ann. N.Y. Acad. Sci",
+            "volume": "130",
+            "issn": "",
+            "pages": "390--397",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Clinical cure of herpes simplex keratitis by 5-iodo-2'-deoxyuridine",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kaufman",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Proc. SOC. Exp",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Compounds from the sea with actions on the cardiovascular and central nervous systems",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kaul",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Marine pharmacology: bioactive molecules from the sea",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kaul",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Daftari",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Annu. Rev. Phar-Kitagawa, I",
+            "volume": "108",
+            "issn": "",
+            "pages": "398--416",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "hydroxy-, pyrrolyl-, and 1-pyrrolinyl-P-carbolines from the antiviral Caribbean tunicate Eudistomu olivaceum",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harbour",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gilmore",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Eudistomins",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "J. Am. Chem. SOC",
+            "volume": "106",
+            "issn": "",
+            "pages": "1526--1528",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Isospongiadiol, a cytotoxic and antiviral diterpene from a Caribbean deep water marine sponge, Spongiu sp",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kohmoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Mcconnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wright",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cross",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Chem. Lett",
+            "volume": "",
+            "issn": "",
+            "pages": "1687--1690",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Recent developments in the field of marine natural products with emphasis on biologically active compounds",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Krebs",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "",
+            "volume": "49",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Eudistomins from the New Zealand ascidian Ritterella sigillinoides",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lake",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Blunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Munro",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Aust. J. Chem",
+            "volume": "42",
+            "issn": "",
+            "pages": "1201--1206",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Eudistomin K sulfoxide, an antiviral sulfoxide from the New Zealand ascidian Ritterella sigillinoides",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lake",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brennan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Blunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Munro",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pannell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Tetrahedron Lett. a deepwater sponge",
+            "volume": "",
+            "issn": "",
+            "pages": "285461--5464",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Proc",
+            "authors": [],
+            "year": 1962,
+            "venue": "",
+            "volume": "109",
+            "issn": "",
+            "pages": "117--142",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Antimicrobial effect of abalone juice",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 1960,
+            "venue": "Proc. SOC. Exp. Biol. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "103522--524",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Antiviral activity of paolins from clams",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Prescott",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Eddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Caldes",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Green",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Martino",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Young",
+                    "suffix": ""
+                }
+            ],
+            "year": 1965,
+            "venue": "Ann. N.Y. Acad. Sci",
+            "volume": "130",
+            "issn": "",
+            "pages": "374--382",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Antiviral activity of a fraction of abalone juice",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Prescott",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Jahnes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1962,
+            "venue": "Proc. SOC. Exp. Biol. Med",
+            "volume": "",
+            "issn": "",
+            "pages": "109534--538",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Antimicrobial agents from mollusks",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Prescott",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Jahnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Martino",
+                    "suffix": ""
+                }
+            ],
+            "year": 1962,
+            "venue": "Trans. N.Y. Acad. Sci., Series",
+            "volume": "11",
+            "issn": "",
+            "pages": "504--509",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Stereochemistry of aplidiasphingosine as proposed by the asymmetric synthesis and 13C-NMR study of sphingosine relatives",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mori",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Uniemura",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Tetrahedron Lett",
+            "volume": "",
+            "issn": "",
+            "pages": "224433--4436",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Pharmaceuticals containing avarone or avarol for the treatment of AIDS and AIDSrelated complex",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "E G"
+                    ],
+                    "last": "Mueller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Ger. Offen. DE",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Mechanisms of action and pharmacology: Chemical agents",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "E G"
+                    ],
+                    "last": "Muller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1979,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Biphasic and differential effects of the cytostatic agents avarone and avarol on DNA metabolism of human and murine T and B lymphocytes",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "E G"
+                    ],
+                    "last": "Muller",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sobel",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sachsse",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Diehl-Seifert",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Zahn",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Eich",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Kljajic&gt;",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Schroder",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Eur. J. Cancer Clin. Oncol",
+            "volume": "22",
+            "issn": "",
+            "pages": "473--476",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "The search for antiviral and anticancer compounds from marine organisms",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Munro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Leibrand",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Blunt",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Bioorganic Marine Chemistry",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Antiretroviral activity in a marine red alga: reverse transcriptase inhibition by an aqueous extract of Schizymenia pacifca",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nakashima",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kido",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Motoki",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Neushul",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "J. Cancer Res. Clin. Oncol",
+            "volume": "113",
+            "issn": "",
+            "pages": "413--416",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Purification and characterization of an avian myeloblastosis and human immunodeficiency virus reverse transcriptase inhibitor, sulfated polysaccharides extracts from sea algae",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Nakashima",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kido",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Motoki",
+                    "suffix": ""
+                },
+                {
+                    "first": ".",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Neushul",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Yamamoto",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Antimicrob. Agent Chemother",
+            "volume": "31",
+            "issn": "",
+            "pages": "1524--1528",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Substances of potential biomedical importance from marine organisms",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Nigrelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Stempien",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ruggieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Liguori",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Cecil",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "North",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1967,
+            "venue": "Viral Chemotherapy",
+            "volume": "26",
+            "issn": "",
+            "pages": "1197--1205",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Marine natural products, the past twenty years and beyond",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Okami",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Okuka",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kinnel",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Scheuer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1982,
+            "venue": "Pure Appl. Chem",
+            "volume": "12",
+            "issn": "",
+            "pages": "1907--1914",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Mycalamide A, an antiviral compound from a New Zealand sponge of the genus Mycale",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Blunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Munro",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pannell",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J. Am. Chem. SOC",
+            "volume": "110",
+            "issn": "",
+            "pages": "4850--4851",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Antiviral and antitumor agents from a New Zealand sponge, Mycale sp. 2. Structures and solution conformations of mycalamides A and B",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Blunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Munro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J. Org. Chem",
+            "volume": "55",
+            "issn": "",
+            "pages": "223--227",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Isolation and characterization of antiviral substances from marine animals",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Prescott",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Martino",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Caldes",
+                    "suffix": ""
+                }
+            ],
+            "year": 1964,
+            "venue": "Fed. Proc",
+            "volume": "23508",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Antiviral activity of extracts from marine algae",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Richards",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kern",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Glasgow",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Overall",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Deig",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hatch",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "Antimicrob. Agents Chemother",
+            "volume": "14",
+            "issn": "",
+            "pages": "24--30",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Antibiotics eudistomins",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "Eur. Pat. Appl. EP",
+            "volume": "133",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Antiviral and antibacterial bromopyrroles from Agelas coniferin and halo derivatives thereof",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Chem. Abstr",
+            "volume": "737",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Biologically active marine natural products",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Pure Appl. Chem",
+            "volume": "",
+            "issn": "",
+            "pages": "61525--528",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Structures of the didemnins, antiviral and cytotoxic depsipeptides from a Caribbean tunicate",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gloer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mizsak",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Scahill",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Am. Chem. SOC",
+            "volume": "103",
+            "issn": "",
+            "pages": "1857--1859",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Didemnins, antiviral and antitumor depsipeptides from a Caribbean tunicate",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gloer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Renis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mcgovren",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Swynenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stringfellow",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kuentzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Science",
+            "volume": "212",
+            "issn": "",
+            "pages": "933--935",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Antiviral and antitumor compounds from tunicates",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gloer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Renis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mcgovren",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "Fed. Proc",
+            "volume": "42",
+            "issn": "",
+            "pages": "87--90",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Bioactive compounds from aquatic and terrestrial sources",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Holt",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Fregeau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Keifer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Perun",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jr",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sakai",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Stroh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shield",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Seigler",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J P"
+                    ],
+                    "last": "Grimmelikhuijzen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gade",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J. Nat. Prod",
+            "volume": "53",
+            "issn": "",
+            "pages": "771--792",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Eudistomins A-Q, P-carbolines from the antiviral Caribbean tunicate Eudisroma olivaceurn",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kobayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harbour",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gilmore",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mascal",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Holt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shield",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lafargue",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "J. Am. Chem. SOC",
+            "volume": "109",
+            "issn": "",
+            "pages": "3378--3387",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Marine natural products as sources of antiviral, antimicrobial, and antineoplastic agents",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Shield",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gloer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Harbour",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E S"
+                    ],
+                    "last": "Koker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Samain",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tymiak",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Weller",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Carter",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H G"
+                    ],
+                    "last": "Munro",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Renis",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Swynenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stringfellow",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Vavra",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Coats",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Zurenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kuentzel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bakus",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Brusca",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Craft",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Young",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Connor",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "Pure Appl. Chem",
+            "volume": "53",
+            "issn": "",
+            "pages": "795--817",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Design of nucleoside analogs as potential antiviral agents",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Robins",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Revankar",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Drugs from the sea",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ruggieri",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "Science",
+            "volume": "194",
+            "issn": "",
+            "pages": "491--497",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Tubastrine, a new guanidinostyrene from the coral Tubasfrea aurea",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sakai",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Higa",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Chem. Lett",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Venustatriol, a new antiviral triterpene tetracyclic ether from Laurencia venusta",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sakemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Higa",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Jefford",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Bernardinelli",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Tetrahedron Lett",
+            "volume": "27",
+            "issn": "",
+            "pages": "4287--4290",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Isolation and structure elucidation of onnaniide A, a new bioactive metabolite of a marine sponge, Theonella sp",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sakemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Ichiba",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kohmoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Saucy",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Higa",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J. Am. Chem. Soc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "Inhibition of replication of the etiologic agent of acquired immune deficiency syndrome (human T-lymphotropic retrovirusilymphadenopathyassociated virus) by avarol and avarone",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sarin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thornton",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E G"
+                    ],
+                    "last": "Muller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "JNCI",
+            "volume": "78",
+            "issn": "",
+            "pages": "110--485",
+            "other_ids": {}
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Marine natural products and biomedicine",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Scheuer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "Med. Res. Rev",
+            "volume": "",
+            "issn": "",
+            "pages": "9535--545",
+            "other_ids": {}
+        },
+        "BIBREF86": {
+            "ref_id": "b86",
+            "title": "Reversible inhibition of type 2 dengue virus by agar polysaccharide",
+            "authors": [
+                {
+                    "first": "1",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Schulze",
+                    "suffix": ""
+                }
+            ],
+            "year": 1964,
+            "venue": "Virology",
+            "volume": "22",
+            "issn": "",
+            "pages": "79--90",
+            "other_ids": {}
+        },
+        "BIBREF87": {
+            "ref_id": "b87",
+            "title": "Antiviral chemigrene derivative",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Snader",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Higa",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "PCT Int. Appl. WO",
+            "volume": "86",
+            "issn": "03",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF88": {
+            "ref_id": "b88",
+            "title": "Further characterization of sulfated homopolysaccharides as anti-HIV agents",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Sugawara",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Itoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Mori",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shimada",
+                    "suffix": ""
+                }
+            ],
+            "year": 1989,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "45996--998",
+            "other_ids": {}
+        },
+        "BIBREF89": {
+            "ref_id": "b89",
+            "title": "Inhibition of herpes virus by natural and synthetic acid polysaccharides",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Takemoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Fabisch",
+                    "suffix": ""
+                }
+            ],
+            "year": 1964,
+            "venue": "Proc. Soc. Exp. Biol. Med",
+            "volume": "116",
+            "issn": "",
+            "pages": "140--144",
+            "other_ids": {}
+        },
+        "BIBREF90": {
+            "ref_id": "b90",
+            "title": "Effects of natural and synthetic sulfated polysaccharides on viruses and cells",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Takemoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Spicer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Ann. N.Y. Acad. Sci",
+            "volume": "130",
+            "issn": "5",
+            "pages": "365--373",
+            "other_ids": {}
+        },
+        "BIBREF91": {
+            "ref_id": "b91",
+            "title": "Topsentin, bromotopsentin, and dihydrodeoxybromotopsentin, antiviral and antitumor bis(indo1yl)imidazoles from Caribbean deepsea sponges of the family Halichondriidae. Structural and synthetic studies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Tsujii",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rinehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Gunasekera",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kashman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cross",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lui",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pomponi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Diaz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J. Org. Chem",
+            "volume": "",
+            "issn": "",
+            "pages": "533446--5453",
+            "other_ids": {}
+        },
+        "BIBREF92": {
+            "ref_id": "b92",
+            "title": "Synthesis of both 2,3-eryihro-and 2,3-rhreo-isomers of aplidiasphingosine, a marine terpenoid",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Umemura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mori",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Agric. Biol. Chem",
+            "volume": "51",
+            "issn": "",
+            "pages": "217--224",
+            "other_ids": {}
+        },
+        "BIBREF93": {
+            "ref_id": "b93",
+            "title": "Induction of y-interferon by avarol in human peripheral blood lymphocytes",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Voth",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rossol",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hess",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Laubenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H M"
+                    ],
+                    "last": "Buschenfelde",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Schroder",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bachmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Reuter",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E G"
+                    ],
+                    "last": "Muller",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "Jap. J. Cancer Res. (Gann)",
+            "volume": "79",
+            "issn": "",
+            "pages": "647--655",
+            "other_ids": {}
+        },
+        "BIBREF94": {
+            "ref_id": "b94",
+            "title": "Sceptrin, an antimicrobial agent from the sponge Agelas sceptrum",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": ":",
+                    "middle": [
+                        "D J"
+                    ],
+                    "last": "Faulkner",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Van Engen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Clardy",
+                    "suffix": ""
+                }
+            ],
+            "year": 1981,
+            "venue": "J. Am. Chem. Soc",
+            "volume": "103",
+            "issn": "",
+            "pages": "6772--6773",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "' = o-C5H,,COO-. B-H; R ' = H, 13,14-EpoV-7 R' = u-OAC, B-H; R' = Ac; 3,4;13,14Diepoxy-8 R' = 0; R'= H; 13.14-Dehydro-9 10 R' = COC,H+ R ' = AC 11 R'= R' = AC R' = R' = COC,H, Structures of compounds 1-1 I. and solenolide E (8) suppressed rhinovirus (IC,, 12.5 pg/ml), herpes virus, and Ann Arbor virus.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "= H; 18P-OH. ISp Me 17 R = Ac; 18P-OH. I Y p Me 18 R = H; I8a-OH. lYa MC Br Structures of compounds 12-18.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "OMe-Xyl-(l-2)-3-OMe-Xyl 20 R 1 = XyI-(1-2)-3-OMe-X?I.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "From a colonial tunicate (Polyandrocarpa sp.), Cheng and Rinehart [ 19781 reported two antibacterial, cytotoxic and antiviral substances called polyandrocarpidines I and 11. Later, Carte and Faulkner [ 19821 demonstrated that these compounds were isomeric mixtures of four components, polyandrocarpidines A-D (45 -48). A mixture of these compounds displayed weak antiviral activity against HSV-1[Cheng and Rinehart, 19781.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "NCNH(CH,),N(CH,),NHCOCH=CCH~ I 43 R = -CO(CH,),CH=CH(CH,)ICH, (cis) Structures of compounds 40-48.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "= CH,CH(OH)CO-Structures of compounds 49-51.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "From a sponge of the genus Theonella collected in Okinawan waters, an antiviral '= H; R'= CH'OH 61 R' = Me; R'= CH'OH 62 R' = H; 0 coon R' = WN -+NM> NH Structures of compounds 52-62",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "19831 examined extracts from 25 marine organisms collected along 'he Swedish coast for biological activities, including the inhibition of plaque formation with HSV-1 and influenza virus (WSN strain). Only four extracts exhibited suppressive effects on HSV-I at concentrations of 100 pgiml without showing toxicity. They were, namely, chloroform extract of Fucus serrutus (brown seaweed), petroleum ether extract of Laminuria digituta (brown seaweed), petroleum ether extract of Geodiu baretti (sponge), and petroleum ether extract of Eckinus esculentus (sea urchin). Organisms showing both antiviral and toxic effects included Halidrys siliquosa (brown seaweed), Laminaria succharina (brown seaweed), Cerarniurn rubrum (red seaweed), Chondrus crispus (red seaweed), Phakellia ventilubrum (sponge), Halichondria bowerbanki (sponge), Flustra foliacea (bryozoan), Alcyonidium hirsutum (bryozoan), Macandrevia cranium (brachiopoda), Asterias rubens (common starfish), Ascidia rnentula (tunicate), and Ascidia obliqua (tunicate). Girre et al. [I9871 reported that an extract of the marine alga Ascophyllum nodosurn inhibited the replication of HSV-1. The MeOHitoluene extracts of two sponge specimens,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Structures of compounds 63-68",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "isolated six novel diterpene lactones, solenolides A-F, from a new species of marine octocoral Solenopodium. When tested in antiviral bioassays, solenolide A (6) inhibited rhinovirus 0.39 pgiml), poliovirus 111, herpes virus, Ann Arbor virus, and Maryland virus; solenolide D (7) inhibited Semliki forest virus and Ann Arbor virus;",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Fig. 3. Structures of compounds 19-28.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "37 R1= H; R' = OH 38 R1 = Br; R* = OH Fig. 4. Structures of compounds 29-39.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

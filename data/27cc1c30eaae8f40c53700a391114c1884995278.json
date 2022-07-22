@@ -1,0 +1,917 @@
+{
+    "paper_id": "27cc1c30eaae8f40c53700a391114c1884995278",
+    "metadata": {
+        "title": "Clinical Infectious Diseases BRIEF REPORT \u2022 cid 2020:XX (XX XXXX) \u2022 1 Clinical Infectious Diseases \u00ae 2020;XX(XX):0-0 Characteristics of Adults Aged 18-49 Years Without Underlying Conditions Hospitalized With Laboratory-Confirmed Coronavirus",
+        "authors": [
+            {
+                "first": "Daniel",
+                "middle": [],
+                "last": "Owusu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CDC COVID-NET Team",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Lindsay",
+                "middle": [],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CDC COVID-NET Team",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Alissa",
+                "middle": [],
+                "last": "O&apos;halloran",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CDC COVID-NET Team",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Michael",
+                "middle": [],
+                "last": "Whitaker",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CDC COVID-NET Team",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Alexandra",
+                "middle": [
+                    "M"
+                ],
+                "last": "Piasecki",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CDC COVID-NET Team",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Arthur",
+                "middle": [],
+                "last": "Reingold",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nisha",
+                "middle": [
+                    "B"
+                ],
+                "last": "Alden",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Amber",
+                "middle": [],
+                "last": "Maslar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Evan",
+                "middle": [
+                    "J"
+                ],
+                "last": "Anderson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Emory University School of Medicine",
+                    "location": {
+                        "addrLine": "10 Emerging Infections Program",
+                        "settlement": "Atlanta, Atlanta",
+                        "region": "Georgia, USA, Georgia",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Patricia",
+                "middle": [
+                    "A"
+                ],
+                "last": "Ryan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Maryland Department of Health",
+                    "location": {
+                        "settlement": "Baltimore",
+                        "region": "Maryland",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sue",
+                "middle": [],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kathryn",
+                "middle": [],
+                "last": "Como-Sabetti",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Emily",
+                "middle": [
+                    "B"
+                ],
+                "last": "Hancock",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Alison",
+                "middle": [],
+                "last": "Muse",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nancy",
+                "middle": [
+                    "M"
+                ],
+                "last": "Bennett",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Rochester",
+                    "location": {
+                        "settlement": "Rochester",
+                        "region": "New York",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Laurie",
+                "middle": [
+                    "M"
+                ],
+                "last": "Billing",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Melissa",
+                "middle": [],
+                "last": "Sutton",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Oregon Health Authority",
+                    "location": {
+                        "settlement": "Portland",
+                        "region": "Oregon",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "H",
+                "middle": [],
+                "last": "Keipp Talbot",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Vanderbilt University Medical Center",
+                    "location": {
+                        "settlement": "Nashville",
+                        "region": "Tennessee",
+                        "country": "USA,"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jake",
+                "middle": [],
+                "last": "Ortega",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lynnette",
+                "middle": [],
+                "last": "Brammer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CDC COVID-NET Team",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Alicia",
+                "middle": [
+                    "M"
+                ],
+                "last": "Fry",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CDC COVID-NET Team",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Aron",
+                "middle": [
+                    "J"
+                ],
+                "last": "Hall",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CDC COVID-NET Team",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Shikha",
+                "middle": [],
+                "last": "Garg",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "CDC COVID-NET Team",
+                    "institution": "",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Surveillance",
+                "middle": [],
+                "last": "Team",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "22% were admitted to an intensive care unit, 10% required mechanical ventilation, and 3 patients died (0.6%). These data demonstrate that healthy younger adults can develop severe COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Among 513 adults aged 18-49 years without underlying medical conditions hospitalized with coronavirus disease 2019 (COVID-19) during March 2020-August 2020, 22% were admitted to an intensive care unit, 10% required mechanical ventilation, and 3 patients died (0.6%). These data demonstrate that healthy younger adults can develop severe COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Keywords. SARS-CoV-2; COVID-19; COVID-NET; hospitalization; young adults.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Existing evidence indicates that the majority of people infected with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the virus that causes coronavirus disease 2019 (COVID-19), experience mild symptoms, but some people may experience severe illness that requires hospitalization and intensive care [1] . The majority of COVID-19-associated hospitalizations occur in adults aged \u226565 years and/or those with underlying conditions [2, 3] . Adults aged <50 years can also be hospitalized with COVID-19 [3] ; yet, data about this group are limited.",
+            "cite_spans": [
+                {
+                    "start": 312,
+                    "end": 315,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 442,
+                    "end": 445,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 446,
+                    "end": 448,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 512,
+                    "end": 515,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The US Centers for Disease Control and Prevention's (CDC) COVID-19-Associated Hospitalization Surveillance Network (COVID-NET) conducts population-based surveillance for laboratory-confirmed COVID-19-associated hospitalizations in all ages. COVID-NET data show that weekly hospitalization rates among younger adults aged 18-49 years increased during the summer months and peaked during the week ending 18 July 2020 [4] . Using COVID-NET data from 1 March 2020-1 August 2020, we describe the epidemiology, characteristics, and outcomes of nonpregnant adults aged 18-49 years without underlying conditions hospitalized with COVID-19 in the United States.",
+            "cite_spans": [
+                {
+                    "start": 415,
+                    "end": 418,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "COVID-NET surveillance is conducted in 99 counties in 14 US states and covers approximately 10% of the US population [3] . This analysis used data from 13 states (California, Colorado, Connecticut, Georgia, Maryland, Michigan, Minnesota, New Mexico, New York, Ohio, Oregon, Tennessee, and Utah). Eligible patients were COVID-NET catchment area residents with a positive SARS-CoV-2 test by real-time reverse-transcription polymerase chain reaction within 14 days prior to or during hospitalization. SARS-CoV-2 testing is requested at the discretion of treating healthcare providers or based on facility testing policies. Trained personnel identified patients who met the case definition through active review of hospital, laboratory, and reportable diseases databases and used a standard case report form to conduct medical chart abstractions for each case. This analysis was limited to patients with completed medical chart abstractions and a discharge disposition (ie, discharged or died in-hospital).",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 120,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "We described epidemiologic and clinical characteristics for a convenience sample of hospitalized nonpregnant adults aged 18-49 years with no underlying conditions (see Supplementary  Table 1 for list of underlying conditions). Obesity was defined as body mass index \u226530 kg/m 2 or by International Classification of Diseases discharge diagnosis codes (E66.0-E66.9). Any medication prescribed solely for treatment of SARS-CoV-2 was classified as a COVID-19-associated treatment. We collected information on whether or not patients were documented to be healthcare personnel (yes/no). Invasive mechanical ventilation, bilevel positive airway pressure, continuous positive airway pressure, and high-flow nasal cannula were defined based on the highest level of respiratory support received; data were not collected on oxygen delivered via standard nasal cannula. This activity was determined by the CDC to meet the requirements of public health surveillance as defined in 45 CFR 46.102(l) (2) . Participating sites received approval from their respective state and local institutional review boards, as required.",
+            "cite_spans": [
+                {
+                    "start": 985,
+                    "end": 988,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 168,
+                    "end": 190,
+                    "text": "Supplementary  Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "METHODS"
+        },
+        {
+            "text": "We calculated frequencies and percentages for categorical variables and median and interquartile range (IQR) for continuous variables. Data analysis was completed in SAS statistical software version 9.4 (SAS Institute Inc., Cary, NC, USA). Among nonpregnant adults aged 18-49 years (median age, 38 years; IQR, 30-44) without underlying conditions, 378 (73.7%) were men, 216 (42.1%) were Hispanic or Latino, 46 (9.0%) were healthcare personnel, and 70 (13.7%) were current tobacco smokers ( Table 1 ). The most common symptoms present at admission were cough (67.1%), fever/chills (64.7%), and shortness of breath (63.4%). In total, 34.9% of patients (n = 179) were prescribed treatment for COVID-19, and 22.0% (113) were admitted to the intensive care unit (ICU). The median number of days from symptom onset to admission was 7 (IQR, 4-9). The median hospital length of stay was 4 days (IQR, 2-7), and the median length of ICU stay (among those admitted to an ICU) was 5 days (IQR, 1-10). The highest respiratory support received was as follows: invasive mechanical ventilation (9.9%), bilevel positive airway pressure or continuous positive airway pressure (1.2%), and high-flow nasal cannula (6.2%). Based on discharge summaries, 51.1% of patients had pneumonia, 37.4% developed acute respiratory failure, and 16.6% developed sepsis during hospitalization.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 490,
+                    "end": 497,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "METHODS"
+        },
+        {
+            "text": "Three patients (0.6%) died during hospitalization. For these 3 patients, the number of days from symptom onset to admission ranged from 6 to 15, number of days in the hospital ranged from 13 to 36 , and all were admitted to the ICU and required invasive mechanical ventilation and vasopressors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "During"
+        },
+        {
+            "text": "Within a large, geographically diverse surveillance network of laboratory-confirmed COVID-19-associated hospitalizations during 1 March 2020-1 August 2020, adults aged 18-49 years accounted for about one-third of all hospitalizations. In contrast, adults aged 18-49 years have made up 13%-23% of patients hospitalized with influenza over the past 5 seasons [5] . In this convenience sample, approximately 14% of adults aged 18-49 years had no underlying medical conditions. Although in-hospital deaths were rare, 22% of these healthy, younger adults were admitted to the ICU, and 17% required invasive or noninvasive respiratory support, excluding oxygen administered by nasal cannula. These findings suggest that adults aged 18-49 years without underlying medical conditions can experience severe COVID-19-related illness. While evidence shows that older age and certain underlying conditions are risk factors for severe COVID-19 [2, 3] , the mechanisms behind severe COVID-19 in younger adults without underlying conditions is not well understood. Emerging evidence suggests that biological factors may explain why some individuals develop severe COVID-19 and others do not. One biological factor that may explain individual differences in COVID-19 severity is angiotensin-converting enzyme 2 (ACE2), a known receptor of coronavirus that facilitates entry of the virus into host cells [6] such that individuals with higher levels of ACE2 may be more vulnerable to SARS-CoV-2 infection. Evidence suggests that ACE2 levels may be influenced by sex hormones, with males showing increased ACE2 expression compared with females [7] . These sex differences in ACE2 and the role of sex hormones have been offered as potential biological explanations for the increased risk of severe COVID-19 in males [7, 8] . In our analysis, we found that approximately 74% of adults aged 18-49 years without underlying conditions who were hospitalized with COVID-19 were males. These findings suggest that, in the absence of underlying conditions, male sex may increase the risk of severe COVID-19, leading to hospitalization and the need for intensive care in adults aged <50 years [8, 9] .",
+            "cite_spans": [
+                {
+                    "start": 357,
+                    "end": 360,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 931,
+                    "end": 934,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 935,
+                    "end": 937,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1387,
+                    "end": 1390,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1625,
+                    "end": 1628,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1796,
+                    "end": 1799,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1800,
+                    "end": 1802,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 2164,
+                    "end": 2167,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 2168,
+                    "end": 2170,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In addition to male sex, racial and ethnic disparities in severe COVID-19 have been reported. Data from Baltimore, Maryland-Washington, D.C. [10] , and our earlier report [3] indicate that COVID-19 disproportionately affects minority populations including Hispanic or Latino and non-Hispanic Black or African American persons. In the present study, we found that although Hispanic or Latino persons represent only 16% of the 18-to 49-year-old population under surveillance within the COVID-NET catchment area, 42% of hospitalized adults aged 18-49 years without underlying conditions in the COVID-NET study sample were Hispanic or Latino. To determine whether our convenience sampling over-selected for Hispanic or Latino persons, we compared the proportions of patients aged 18-49 years who were Hispanic or Latino among those with and without completed medical chart abstractions, and found the proportions to be 35% and 42%, respectively, indicating that we did not over-select Hispanic or Latino persons. (Supplementary Table 2 ). One possible explanation for the observed disparities is that younger Hispanic or Latino adults are overrepresented in occupations with limited opportunities for social distancing [11, 12] , which may place them at increased risk for SARS-CoV-2 There are several limitations to this analysis. Since SARS-CoV-2 testing was conducted at the discretion of healthcare providers, COVID-NET may not capture all COVID-19-associated hospitalizations. We included a convenience sample of hospitalized patients with a discharge disposition and for whom completed medical chart abstractions were available; therefore, our findings may not be representative of all patients aged 18-49 years who reside within the COVID-NET catchment area or hospitalized with COVID-19. Although COVID-NET covers about 10% of the US population, its limited geographic coverage means that the findings may not be generalizable to the US population. While detailed chart abstractions were conducted to ascertain the presence of underlying conditions at admission, it is possible that persons from certain racial and ethnic minority groups may have had undiagnosed underlying medical conditions due to limited healthcare access, leading to possible misclassification and inclusion of some patients in our analysis with undiagnosed medical conditions.",
+            "cite_spans": [
+                {
+                    "start": 141,
+                    "end": 145,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 171,
+                    "end": 174,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1215,
+                    "end": 1219,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1220,
+                    "end": 1223,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1009,
+                    "end": 1031,
+                    "text": "(Supplementary Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our study showed that among younger adults hospitalized with COVID-19, more than 1 in 5 of those without underlying medical conditions experienced severe illness that required ICU-level care and other interventions. Our findings reinforce the need for social distancing, rigorous hand hygiene, and use of masks to prevent infection, even among younger adults considered to be at relatively lower risk for severe COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Supplementary materials are available at Clinical Infectious Diseases online. Consisting of data provided by the authors to benefit the reader, the posted materials are not copyedited and are the sole responsibility of the authors, so questions or comments should be addressed to the corresponding author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Data"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Characteristics of and important lessons from the coronavirus disease 2019 (COVID-19) outbreak in China: summary of a report of 72 314 cases from the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1239--1281",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Factors associated with hospital admission and critical illness among 5279 people with coronavirus disease 2019 in New York City: prospective cohort study",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Petrilli",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Hospitalization rates and characteristics of patients hospitalized with laboratory-confirmed coronavirus disease 2019-COVID-NET, 14 states",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Garg",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Whitaker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "458--64",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Laboratory-confirmed COVID-19-associated hospitalizations",
+            "authors": [
+                {
+                    "first": "Cdc",
+                    "middle": [],
+                    "last": "Covid-Net",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "FluView interactive: laboratory-confirmed influenza hospitalizations",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Angiotensin-converting enzyme 2 is a functional receptor for the SARS coronavirus",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Vasilieva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Nature",
+            "volume": "426",
+            "issn": "",
+            "pages": "450--454",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Sexspecific SARS-CoV-2 mortality: among hormone-modulated ACE2 expression, risk of venous thromboembolism and hypovitaminosis D",
+            "authors": [
+                {
+                    "first": "La",
+                    "middle": [],
+                    "last": "Vignera",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cannarella",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Condorelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Torre",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Aversa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Calogero",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Mol Sci",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Sex and gender differences in health: what the COVID-19 pandemic can teach us",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Spagnolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Manson",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Joffe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "173",
+            "issn": "",
+            "pages": "385--391",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Biological sex impacts COVID-19 outcomes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dhakal",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ursin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Deshpande",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sandberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mauvais-Jarvis",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS Pathog",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "SARS-CoV-2 positivity rate for Latinos in the",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Martinez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "324",
+            "issn": "",
+            "pages": "392--397",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Profile: Hispanic/Latino Americans",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Job flexibilities and work schedules summary",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "1 March 2020-1 August 2020, 44 865 patients hospitalized with COVID-19 were identified through COVID-NET. Adults aged 18-49 years represented 29.3% (n = 13 167) of all hospitalized patients. Of the 13 167 patients aged 18-49 years, 3720 (28.3%) had medical chart abstractions completed (Supplementary Figure 1). Among these 3720 patients, 2.7% (n = 101) did not have information on underlying conditions. Of the remaining 3619 patients, 14.2% (n = 513) had no underlying conditions and were included in the analysis.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Characteristics and Outcomes of US Adults Aged 18-49 Years Without Underlying Medical Conditions Hospitalized With Laboratory-Confirmed Coronavirus Disease 2019: COVID-NET, 1 March 2020-1 August 2020",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "as well as transport, food service, housekeeping, volunteers, and maintenance personnel. c The treatments listed are not mutually exclusive.d Limited to azithromycin prescribed in combination with other antivirals. e Not used for treatment of human immunodeficiency virus. f Among patients who were admitted to the ICU. g Invasive mechanical ventilation, bilevel positive airway pressure/continuous positive airway pressure, and high-flow nasal cannula were defined based on the highest level of respiratory support received. h Discharge diagnoses associated with coronavirus disease 2019-associated hospitalization.Discharge diagnoses are not mutually exclusive.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Continuedinfection. Further studies are needed to better explain why Hispanic or Latino persons may be overrepresented in COVID-19-related hospitalizations in otherwise healthy adults aged 18-49 years.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "AbbVie, personal fees from Pfizer, personal fees from Sanofi Pasteur, grants from MedImmune, grants from Regeneron, grants from PaxVax, grants from Pfizer, grants from GSK, grants from Merck, grants from Novavax, grants from Sanofi-Pasteur, grants from Micron, grants from Janssen, personal fees from Kentucky BioProcessing, Inc. W. S. reports personal fees from VBI Vaccines. J. S. is recipient of an Epidemiology and Laboratory Capacity (ELC) and Immunizations and Vaccines for Children (VFC) grant funding from the CDC to support vaccine preventable disease epidemiology staffing. All remaining authors: No reported conflicts of interest.All authors have submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        }
+    ]
+}

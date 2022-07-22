@@ -1,0 +1,1947 @@
+{
+    "paper_id": "2790a06b1004ef907e7d706290a6036e15b07203",
+    "metadata": {
+        "title": "Boram Han (Data curation), Sung Won Park (Data curation), Yongsun Jang (Data curation), Chang Yong Yoon (Data curation)",
+        "authors": [
+            {
+                "first": "Ah-Young",
+                "middle": [],
+                "last": "Lim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sungkyunkwan University School of Medicine",
+                    "location": {
+                        "settlement": "Suwon",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Hae-Kwan",
+                "middle": [],
+                "last": "Cheong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sungkyunkwan University School of Medicine",
+                    "location": {
+                        "settlement": "Suwon",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yoon",
+                "middle": [
+                    "Ju"
+                ],
+                "last": "Oh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jae",
+                "middle": [
+                    "Kap"
+                ],
+                "last": "Lee",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jae",
+                "middle": [],
+                "last": "Bum",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "So",
+                "middle": [
+                    "B"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Hyun",
+                "middle": [
+                    "Jin"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Boram",
+                "middle": [],
+                "last": "Han",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sung",
+                "middle": [
+                    "Won"
+                ],
+                "last": "Park",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yongsun",
+                "middle": [],
+                "last": "Jang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chang",
+                "middle": [
+                    "Yong"
+                ],
+                "last": "Yoon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sungkyunkwan University School of Medicine",
+                    "location": {
+                        "addrLine": "2066 Seobu-ro, Jangan-gu, 217 Bangchuk-ro, Dong-gu",
+                        "postCode": "16419, 22532",
+                        "settlement": "Incheon, Suwon, Incheon",
+                        "country": "Korea, Korea, Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yun",
+                "middle": [
+                    "Ok"
+                ],
+                "last": "Park",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sungkyunkwan University School of Medicine",
+                    "location": {
+                        "addrLine": "2066 Seobu-ro, Jangan-gu, 217 Bangchuk-ro, Dong-gu",
+                        "postCode": "16419, 22532",
+                        "settlement": "Incheon, Suwon, Incheon",
+                        "country": "Korea, Korea, Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jong-Hun",
+                "middle": [],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sungkyunkwan University School of Medicine",
+                    "location": {
+                        "settlement": "Suwon",
+                        "country": "Korea"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jin",
+                "middle": [
+                    "Yong"
+                ],
+                "last": "Kim",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "\uf09f The duration of isolation for COVID-19 patients remains uncertain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\uf09f Viral loads peaked within 4 days after symptom onset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\uf09f After reaching the peak, the viral loads rapidly decreased until days 10-15.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\uf09f The time to negative conversion was longer in symptomatic patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\uf09f Different quarantine policies should be applied depending on disease severity. J o u r n a l P r e -p r o o f 3 ABSTRACT Objective: To investigate the duration and peak of severe acute respiratory syndrome coronavirus 2 shedding as infectivity markers for determining the isolation period. Methods: In total, 2,558 upper respiratory tract (URT) and lower respiratory tract (LRT) specimens from 138 patients with laboratory-confirmed coronavirus disease were analyzed. Measurements of sequential viral loads were aggregated using the cubic spline smoothing function of a generalized additive model. The time to negative conversion was compared between symptom groups using survival analysis. Results: In URT samples, viral RNA levels peaked on day 4 after symptom onset and rapidly decreased until day 10 for both E and RdRp genes, whereas those in LRT samples immediately peaked from symptom onset and decreased until days 15.6 and 15.0 for E and RdRp genes, respectively. Median (interquartile range) time to negative conversion was significantly longer in symptomatic (18.0 [13.0-25.0] days) patients than in asymptomatic (13.0 [9.5-17.5] days) patients. The more types of symptoms a patient had, the longer was the time to negative conversion. J o u r n a l P r e -p r o o f 4 Conclusions: The viral load rapidly changes depending on the time after symptom onset; viral shedding period may be longer with more clinical symptoms. Different isolation policies should be applied depending on disease severity. for collecting clinical data. J o u r n a l P r e -p r o o f Zhu J, Guo J, Xu Y, Chen X. Viral dynamics of SARS-CoV-2 in saliva from infected patients. J Infect 2020;81(3):e48-e50. Zhurakivska K, Troiano G, Pannone G, Caponio VCA, Lo Muzio L. An overview of the temporal shedding of SARS-CoV-2 RNA in clinical specimens. Frontiers in Public Health 2020;8. J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "From the beginning of the coronavirus disease & Prevention, 2020) , consistent with the findings from an initial study in China that reported that 81% of COVID-19 cases were mild (Wu and McGoogan, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 46,
+                    "end": 65,
+                    "text": "& Prevention, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 179,
+                    "end": 202,
+                    "text": "(Wu and McGoogan, 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "To minimize additional person-to-person transmission of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), it is important to identify and immediately isolate persons with a confirmed infection until they are no longer infectious. Currently, the diagnostic testing and isolation of COVID-19 patients depend on the result of a real-time polymerase chain reaction (RT-PCR) test for SARS-CoV-2, the result (positive or negative) of which is interpreted using the cycle threshold (Ct) value. Although a positive RT-PCR result may not necessarily mean that a person is infectious, a lower Ct value (inversely related J o u r n a l P r e -p r o o f to the viral load) could indicate a higher viral load and consequently, higher infectivity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Understanding the time series data of Ct values from early infection to disease recovery could guide the prediction of disease progression and clinical decisions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "To date, numerous studies have been published on the viral kinetics of SARS-CoV-2, its clinical features, and the prognosis of COVID-19 patients. Many of the studies have been published in China, mostly focusing on severe to critical cases (Han et al., 2020; He et al., 2020; Qi et al., 2020; To et al., 2020; Xu et al., 2020; Yu et al., 2020; Zheng et al., 2020; Zhu et al., 2020) . Although many studies have addressed the temporal aspects of viral kinetics in COVID-19 patients, evidence pertaining to the viral load during the first few days is limited owing to the lack of data on the results of serial RT-PCR testing.",
+            "cite_spans": [
+                {
+                    "start": 240,
+                    "end": 258,
+                    "text": "(Han et al., 2020;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 259,
+                    "end": 275,
+                    "text": "He et al., 2020;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 276,
+                    "end": 292,
+                    "text": "Qi et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 293,
+                    "end": 309,
+                    "text": "To et al., 2020;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 310,
+                    "end": 326,
+                    "text": "Xu et al., 2020;",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 327,
+                    "end": 343,
+                    "text": "Yu et al., 2020;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 344,
+                    "end": 363,
+                    "text": "Zheng et al., 2020;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 364,
+                    "end": 381,
+                    "text": "Zhu et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Since the early phase of the epidemic, Korea has performed active surveillance through immediate contact tracing, widespread diagnostic testing, and isolation of confirmed COVID-19 patients in a designated facility. This has enabled the detection of asymptomatic, presymptomatic, and mildly symptomatic patients in the early phase of the disease course. Thus, it has been possible to assess RT-PCR results as a proxy measure of disease severity and clinical progression (COVID-19 National Emergency Response Center et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 470,
+                    "end": 528,
+                    "text": "(COVID-19 National Emergency Response Center et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Incheon Medical Center (IMC) is a public general hospital in Korea located in the Incheon metropolitan area, which has a population of approximately 3 million. Because of its close proximity to Incheon International Airport, IMC has been on the front line of the management of various imported infectious diseases, and the first Korean patient with COVID-19 was treated at IMC. As of October 31, 2020, more than 900 COVID-19 cases have been reported in the city, the second largest number among the six metropolitan cities in Korea.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In this study, we aimed to describe the temporal patterns of viral load from symptom onset to negative conversion and to assess the factors associated with the natural history of COVID-19 and delayed negative conversion among 138 mild or asymptomatic patients.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "This retrospective cohort study included 138 patients with laboratory-confirmed COVID-19 who were admitted to IMC between January 19 and June 24, 2020. IMC is classified as a group B medical institution that treats patients aged 15-65 years with underlying diseases or patients aged > 65 years without underlying diseases. Therefore, most of our study participants were middle-aged patients with mild to moderate COVID-19 symptoms. The patients' demographic information and clinical data, including data on initially observed signs and symptoms (e.g., fever, cough, sore throat, sputum production, and headache), comorbidities, and onset date of the first symptom, were collected at hospital admission.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and participants"
+        },
+        {
+            "text": "Daily clinical characteristics such as body temperature, heart rate, respiration rate, blood pressure, type of treatment (e.g., admission to the intensive care unit, noninvasive ventilation, high-flow nasal cannula oxygen therapy, and antiviral treatment), and clinical outcome assessed using the clinical severity score were recorded in a standardized clinical record form during hospitalization. Clinical severity was classified on an eight-category ordinal scale developed by Sung et al. (2020) , a modified version of the scale developed by Marshall et al. (2020) . In this study, clinical severity scores were grouped into three categories: \"mild,\" defined as scores 1-2 (without limitation of daily activities or with J o u r n a l P r e -p r o o f limitation of daily activities but without a need for supplemental oxygen therapy); \"moderate,\" defined as scores 3-4 (with a need for supplemental oxygen therapy); and \"severe,\" defined as scores 5-8 (with a need for noninvasive mechanical ventilation or death). By using the daily clinical data recorded for each patient, the median (interquartile range [IQR]) duration of clinical symptoms (i.e., from the initial symptom onset to the last symptom manifestation), real-time RT-PCR positivity (i.e., from the first positive RT-PCR result to the first and second negative results of two consecutive RT-PCR tests), and hospitalization (i.e., from diagnosis or hospital admission to discharge) were calculated.",
+            "cite_spans": [
+                {
+                    "start": 479,
+                    "end": 497,
+                    "text": "Sung et al. (2020)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 545,
+                    "end": 567,
+                    "text": "Marshall et al. (2020)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study design and participants"
+        },
+        {
+            "text": "The cessation of patient isolation was decided on the basis of two consecutive negative results obtained 24 h apart, at 1-2 weeks after the initial diagnosis, following the guidelines of the Korean Center for Disease Control and Prevention (KCDC).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and participants"
+        },
+        {
+            "text": "Patients were confirmed to have the infection if they had a positive RT-PCR result from both upper respiratory tract (URT) and lower respiratory tract (LRT) specimens collected following the guidelines of the KCDC. URT specimens were collected from both nasopharyngeal and oropharyngeal swabs obtained by trained medical staff. Although sputum collection has not been mandatory for mild patients since the publication of the seventh edition of the KCDC guidelines on March 2, 2020, even mild patients admitted to IMC were instructed to collect sputum in a specimen cup, if possible (for patient safety, sputum induction was not performed). Specimen collection was repeatedly performed at a median of 3-day intervals for each patient during hospital admission. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Specimen collection and RT-PCR assays"
+        },
+        {
+            "text": "Categorical variables are presented as frequencies and proportions. Continuous variables are summarized as medians and IQRs. Differences in means were compared using Student's t-test, whereas differences in medians were compared using the Kruskal-Wallis rank-sum test. We described and compared the sequential trends of Ct values based on the patients' demographic and clinical characteristics, including (a) age, (b) changes in clinical severity status between hospital admission and discharge, (c) number and types of clinical symptoms that appeared after hospital admission, and (d) whether negative conversion was delayed or not. Sequential data of viral loads obtained from both URT and LRT specimens were aggregated using the cubic spline smoothing function of a generalized additive model:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "where t refers to the day of observation, Yt denotes the observed Ct value at time t, s denotes a smoothing function, and time denotes the number of days from symptom onset. The time at which the peak viral load was observed and the related confidence interval (CI) were estimated through breakpoint analysis, which detects a change point in spline curves by fitting piecewise linear regressions (Muggeo, 2003 (Muggeo, , 2017 . This analysis indicated the time when the viral load reached a peak and the time when it no longer decreased by a statistically J o u r n a l P r e -p r o o f significant amount. Survival analysis (Kaplan-Meier method) and log-rank tests were used to compare the time from hospital admission to negative conversion between the different symptom groups. The symptom groups were defined according to (a) the presence of symptoms (i.e., asymptomatic, presymptomatic, and symptomatic) and (b) the number and types of symptoms.",
+            "cite_spans": [
+                {
+                    "start": 396,
+                    "end": 409,
+                    "text": "(Muggeo, 2003",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 410,
+                    "end": 425,
+                    "text": "(Muggeo, , 2017",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "A P-value of < 0.05 was considered to indicate statistical significance when interpreting the results. All statistical analyses were performed using R software (version 3.6.3).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The median age of the patients was 38.0 (12.0-68.0) years. Nearly half (46.4%) of the patients were aged 20-39 years, followed by those aged 40-59 years (34.8%), and 67 (48.6%) patients were female. Of the 138 patients, 7 were referred to a tertiary hospital because of symptom exacerbation, 131 were discharged, and none died (Table 1) . Six patients had at least one comorbidity. The patients' comorbidities included obesity (N = 4, 2.9%), diabetes without complications (N = 3, 2.2%), and hypertension (N = 3, 2.2%). One patient had both obesity and hypertension. Seven patients were current smokers (5.1%). Fever (N = 57, 41.3%) and cough (N = 39, 28.3%) were the most common symptoms at hospital admission, followed by sore throat (N = 22, 15.9%) and sputum production (N = 17, 12.3%) ( Table 1 ). The median (IQR) duration between symptom onset and admission was 2.0 (0.0-7.0) days, and that between symptom onset and the last clinical symptom was 15.0 (11.0-25.0) days. The median (IQR) durations from hospital admission to the first and last negative J o u r n a l P r e -p r o o f RT-PCR results were 18.0 (13.0-24.0) and 19.0 (14.0-26.0) days, respectively. In general, the median (IQR) duration from hospital admission to discharge was 19.5 (15.0-26.0) days, and the median (IQR) number of RT-PCR tests per patient was 8.0 (6.0-12.0), with a 3-day median test interval (Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 327,
+                    "end": 336,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 792,
+                    "end": 799,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 1380,
+                    "end": 1389,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Clinical characteristics and prognosis"
+        },
+        {
+            "text": "Of the 138 patients, 23 (16.7%) were asymptomatic at hospital admission, 16 (11.6%) developed symptoms later (presymptomatic), and 3 showed progression from a moderate to severe state (Figure 1 ). Of the 111 patients who were mildly symptomatic during the first 24 h of admission, 18 showed progression to a moderate or severe state (13.1%). In summary, most (N = 106, 76.8%) of the patients were classified to have mild disease, defined as having no activity limitations or having activity limitations but without oxygen requirements (Table 1) . Fifteen patients (10.9%) were classified to have moderate disease, whereas only 10 (7.2%) had severe disease. None of the patients included in this study died or required invasive ventilation or extracorporeal membrane oxygenation (ECMO).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 184,
+                    "end": 193,
+                    "text": "(Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 535,
+                    "end": 544,
+                    "text": "(Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Clinical characteristics and prognosis"
+        },
+        {
+            "text": "A total of 2,558 samples from 138 patients were collected, comprising 1,286 URT samples and 1,272 sputum samples. The mean Ct value was lower in the LRT samples than in the URT samples, indicating a higher viral load in the LRT samples; however, the difference was not statistically significant for both E and RdRp genes (Supplementary Table 1 ). The differences in mean Ct values of were not significant between the symptomatic (including presymptomatic patients) and asymptomatic groups (Supplementary Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 336,
+                    "end": 343,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 504,
+                    "end": 511,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Viral load kinetics of SARS-CoV-2 infection"
+        },
+        {
+            "text": "Spline curves suggested that in the URT samples, the E gene RNA levels peaked on day 4 (95% CI 2.6-5.4 days) after symptom onset and rapidly decreased until day 10 (95% CI 9.2-11.9 days) (Figure 2A ). Similar patterns were observed for the RdRp gene in the URT J o u r n a l P r e -p r o o f samples ( Figure 2B ). In contrast, the viral RNA levels in sputum samples immediately peaked from disease onset and rapidly decreased until 15.6 days (95% CI 13.2-18.0 days) after symptom onset for the E gene and 15.0 days (95% CI 12.6-17.3 days) after symptom onset for the RdRp gene ( Figure 2C, D) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 187,
+                    "end": 197,
+                    "text": "(Figure 2A",
+                    "ref_id": null
+                },
+                {
+                    "start": 302,
+                    "end": 311,
+                    "text": "Figure 2B",
+                    "ref_id": null
+                },
+                {
+                    "start": 580,
+                    "end": 593,
+                    "text": "Figure 2C, D)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Viral load kinetics of SARS-CoV-2 infection"
+        },
+        {
+            "text": "The temporal trends and peak viral loads differed according to age group ( Figure   3A ). For both URT and LRT specimens, the viral load observed in the early phase of the disease course was higher in patients older than 60 years than in those younger than 60 years ( Figure 3A ). The peak viral load occurred 2-3 days after symptom onset in mild and stable patients, whereas patients with aggravated symptoms during hospitalization (mild to severe)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 75,
+                    "end": 86,
+                    "text": "Figure   3A",
+                    "ref_id": null
+                },
+                {
+                    "start": 268,
+                    "end": 277,
+                    "text": "Figure 3A",
+                    "ref_id": null
+                }
+            ],
+            "section": "Viral load kinetics of SARS-CoV-2 infection"
+        },
+        {
+            "text": "showed an immediate peak in viral load on the day of symptom onset ( Figure 3B ). In addition, patients with fever, respiratory symptoms (e.g., cough, sputum production, sore throat, runny nose, and dyspnea), and other symptoms (e.g., diarrhea, headache, and vomiting) during hospitalization showed higher viral loads in the early disease course than those with respiratory symptoms alone ( Figure 3C ). Higher levels of SARS-CoV-2 RNA in the early course of the disease were associated with a longer time (> 17 days) from hospital admission to the first negative RT-PCR result ( Figure 3D ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 69,
+                    "end": 78,
+                    "text": "Figure 3B",
+                    "ref_id": null
+                },
+                {
+                    "start": 391,
+                    "end": 400,
+                    "text": "Figure 3C",
+                    "ref_id": null
+                },
+                {
+                    "start": 580,
+                    "end": 589,
+                    "text": "Figure 3D",
+                    "ref_id": null
+                }
+            ],
+            "section": "Viral load kinetics of SARS-CoV-2 infection"
+        },
+        {
+            "text": "The median (IQR) duration from hospital admission to negative results of two consecutive RT-PCR tests was 18.0 (13.0-24.0) days, and no statistically significant difference in duration was found according to sex (P =0.63) and age (P = 0.58) (Supplementary Table 3 Table 3) . A Kaplan-Meier plot showed that the proportions of patients with negative conversion at days 14 and 21 from hospital admission were 20.8% and 54.2% among those with all types of symptoms and 50.0% and 87.5% in those with respiratory symptoms alone, respectively (P = 0.04) ( Figure 4B ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 256,
+                    "end": 263,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 264,
+                    "end": 272,
+                    "text": "Table 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 550,
+                    "end": 559,
+                    "text": "Figure 4B",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Comparison of time to negative conversion between the groups"
+        },
+        {
+            "text": "CoV-2 transmission, evidence is lacking on the viral load in the early days before or after the onset of symptoms and its relationship to clinical progression, owing to the time delays from symptom onset to diagnosis and hospital admission. In Korea, aggressive contact tracing, widespread diagnostic testing, and immediate quarantine since the beginning of the COVID-symptomatic patients in a designated facility. This has allowed researchers to investigate the association between viral load and disease severity in mildly symptomatic patients from the early disease course.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Although there have been numerous studies on the temporal dynamics of SARS-"
+        },
+        {
+            "text": "Our study revealed that the SARS-CoV-2 viral load peaked on day 4 after symptom onset for both the E and RdRp genes. Several other studies have reported that viral loads from respiratory specimens peaked a few days after symptom onset or hospital admission (He et al., 2020; Huang et al., 2020; Tan et al., 2020; Widders et al., 2020; Zhurakivska et al., 2020) ; however, these patterns were reported based on the aggregation of relatively small datasets.",
+            "cite_spans": [
+                {
+                    "start": 257,
+                    "end": 274,
+                    "text": "(He et al., 2020;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 275,
+                    "end": 294,
+                    "text": "Huang et al., 2020;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 295,
+                    "end": 312,
+                    "text": "Tan et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 313,
+                    "end": 334,
+                    "text": "Widders et al., 2020;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 335,
+                    "end": 360,
+                    "text": "Zhurakivska et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Although there have been numerous studies on the temporal dynamics of SARS-"
+        },
+        {
+            "text": "Therefore, the trends in viral load during the first days of the COVID-19 course remain uncertain. Comparisons of viral RNA levels between URT and LRT samples showed longer detection of viral RNA in LRT samples (decreased until days 15.6 and 15 for the E and RdRp genes, respectively) than in URT samples (decreased until days 10.6 and 10.5 for the E and RdRp genes, respectively), which is consistent with previous findings (Walsh et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 425,
+                    "end": 445,
+                    "text": "(Walsh et al., 2020)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Although there have been numerous studies on the temporal dynamics of SARS-"
+        },
+        {
+            "text": "Additionally, whereas several previous studies have reported that sputum samples had higher viral loads and showed viral load peaks later than URT samples Liu R. et al., 2020; Liu W. D. et al., 2020; W\u00f6lfel et al., 2020; Zheng et al., 2020) , we observed that the viral loads in sputum samples peaked at the time of symptom onset, and there was no difference in the mean viral load between the two sample types.",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 175,
+                    "text": "Liu R. et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 176,
+                    "end": 199,
+                    "text": "Liu W. D. et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 200,
+                    "end": 220,
+                    "text": "W\u00f6lfel et al., 2020;",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 221,
+                    "end": 240,
+                    "text": "Zheng et al., 2020)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Although there have been numerous studies on the temporal dynamics of SARS-"
+        },
+        {
+            "text": "The viral RNA levels in URT and LRT samples decreased until days 10 and 15 after symptom onset, respectively, which has important implications for the release of patients from isolation. As prolonged isolation of patients and repeated diagnostic tests impose social and economic burdens, the World Health Organization and the governments of each participating country have modified the strategies for discontinuing the isolation of confirmed COVID-19 patients from a laboratory-based to a symptom-based approach. For example,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Although there have been numerous studies on the temporal dynamics of SARS-"
+        },
+        {
+            "text": "France has reduced the quarantine period from 10 to 7 days (Atlani-Duault et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 59,
+                    "end": 87,
+                    "text": "(Atlani-Duault et al., 2020)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Despite growing evidence showing that the period of detection of viral RNA by RT-PCR may be longer than the period of infectivity and that the viral load considerably decreases after the first week of illness, there is still a lack of quality data on the actual time when the viral load peaks and when it no longer decreases. Our findings confirmed that viral loads from respiratory specimens peaked at 4 days after symptom onset, showed a rapid decrease, and stopped significantly decreasing beyond day 10 for URT specimens and day 15 for LRT specimens.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "We also discovered that a higher viral load at the beginning of the disease course could indicate aggravated clinical disease, clinical manifestation of more types of symptoms, and longer (delayed) time to negative conversion (> 17 days). Recent studies have revealed a longer time to negative conversion in patients with severe disease (Lee P. H. et al., 2020; Xu et al., 2020) . However, our data showed no significant difference in the time to negative conversion between the mild and severe groups. This is possibly because severe or critical patients, defined as those who needed invasive mechanical ventilation or ECMO (Sung et al., 2020) , were not included in this study. Patients showing progression to a severe or critical status were immediately referred to a tertiary hospital.",
+            "cite_spans": [
+                {
+                    "start": 337,
+                    "end": 361,
+                    "text": "(Lee P. H. et al., 2020;",
+                    "ref_id": null
+                },
+                {
+                    "start": 362,
+                    "end": 378,
+                    "text": "Xu et al., 2020)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 625,
+                    "end": 644,
+                    "text": "(Sung et al., 2020)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "The duration of viral shedding was longer in symptomatic patients than in asymptomatic patients, and the time to negative conversion was significantly different between the two groups, consistent with the results of previous studies. reported negative conversion rates of 33.7% and 29.6% at 2 weeks after diagnosis among asymptomatic and symptomatic patients, respectively. During this period, the viral load in the symptomatic group tended to decrease more slowly than that in the asymptomatic group.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Additionally, the more types of symptoms a patient had, the longer was the duration to negative conversion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "This study had some limitations. First, the patients included in this study were mostly limited to those who satisfied the criteria for admission to IMC, a group B medical institution where only patients with mild to moderate symptoms are admitted. Because severe cases were immediately referred to a tertiary hospital, it was difficult to investigate the association between viral load and clinical severity among patients with severe or critical disease.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Second, as asymptomatic cases may be underrepresented, our findings cannot be generalized to the community at large, given that other studies have reported that 30-40% of patients in Korea were asymptomatic Workman, 2020) .",
+            "cite_spans": [
+                {
+                    "start": 207,
+                    "end": 221,
+                    "text": "Workman, 2020)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Despite these limitations, a total of 2,558 specimens obtained from both the URT and LRT were included in this study, nearly one-fifth (N = 492, 19.2%) of which were collected within the first 5 days after symptom onset. This represents a reasonably large amount of data contributing to evidence on the early period of the disease course. This was possible because the median duration from symptom onset to hospital admission was only 2 days, which seems to be the result of aggressive testing and quarantine, as mentioned above.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "In summary, we quantitatively assessed the time trends of viral loads in COVID-19 patients from symptom onset to disease recovery by aggregating RT-PCR results obtained from 2,558 respiratory specimens from 138 patients. The viral load of COVID-19 patients peaked in the first few days (2-4 days) after symptom onset and continued to decrease until days 10-15 of the illness. Viral loads represented by Ct values could be used for monitoring clinical progression and for making decisions regarding intervention. Although the symptombased strategy, rather than the previous laboratory-based strategy, is recommended for deciding whether to discontinue the isolation of COVID-19 patients, assessing the viral load J o u r n a l P r e -p r o o f at any point of the disease course could provide necessary evidence when determining the need for intervention or prolonged hospitalization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "The authors have no conflicts of interest to declare.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest"
+        },
+        {
+            "text": "This project was supported by the Government-wide R&D Fund Project for Infectious Disease Research (GFID), Republic of Korea (grant No. HG18C0088).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding Source"
+        },
+        {
+            "text": "This study was approved by the institutional review board of IMC (approval no. 115288-202010-HR-048-01). Clinical severity score (maximum score during hospitalization) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethical Approval"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19: France grapples with the pragmatics of isolation",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Atlani-Duault",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lina",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Malvy",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yazdanpanah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chauvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Delfraissy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Public Health",
+            "volume": "5",
+            "issn": "11",
+            "pages": "573--577",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Epidemiology & Case Management Team, Korea Centers for Disease Control & Prevention. Contact transmission of COVID-19 in",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "South Korea: novel investigation techniques for tracing contacts",
+            "authors": [],
+            "year": 2020,
+            "venue": "Osong Public Health Res Perspect",
+            "volume": "11",
+            "issn": "1",
+            "pages": "60--63",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Analysis of factors affecting the prognosis of COVID-19 patients and viral shedding duration",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Epidemiol Infect",
+            "volume": "148",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Temporal dynamics in viral shedding and transmissibility of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ehy",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "5",
+            "pages": "672--677",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Chronological changes of viral shedding in adult Inpatients with COVID-19 in",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Ran",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ran",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Clinical course and outcomes of patients with Severe Acute Respiratory Syndrome Coronavirus 2 infection: a preliminary report of the first 28 patients from the Korean cohort study on COVID-19",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "13",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Korea Centers for Disease Control & Prevention. The updates on COVID-19 in Korea as of",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Associations of viral ribonucleic acid (RNA) shedding patterns with clinical illness and immune responses in Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) infection",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tay",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sutjipto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Fong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Swx",
+                    "middle": [],
+                    "last": "Ong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Wei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Transl Immunology",
+            "volume": "9",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Clinical course and molecular viral shedding among asymptomatic and symptomatic patients with SARS-CoV-2 infection in a community treatment center in the Republic of Korea",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rhee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Viral load dynamics in sputum and nasopharyngeal swab in patients with COVID-19",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Dent Res",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Prolonged virus shedding even after seroconversion in a patient with COVID-19",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "81",
+            "issn": "2",
+            "pages": "318--56",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A minimal common outcome measure set for COVID-19 clinical research",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Marshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Murthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Diaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Adhikari",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Angus",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Arabi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Infectious Diseases",
+            "volume": "20",
+            "issn": "8",
+            "pages": "192--199",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Estimating regression models with unknown break-points",
+            "authors": [
+                {
+                    "first": "Vmr",
+                    "middle": [],
+                    "last": "Muggeo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Statistics in Medicine",
+            "volume": "22",
+            "issn": "",
+            "pages": "3055--71",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Interval estimation for the breakpoint in segmented regression: a smoothed score-based approach",
+            "authors": [
+                {
+                    "first": "Vmr",
+                    "middle": [],
+                    "last": "Muggeo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Australian & New Zealand Journal of Statistics",
+            "volume": "59",
+            "issn": "3",
+            "pages": "311--333",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Factors associated with the duration of viral shedding in adults with COVID-19 outside of Wuhan",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Clinical course and outcomes of 3,060 patients with ocronavirus disease 2019 in Korea",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Heo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Seo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Korean Med Sci",
+            "volume": "35",
+            "issn": "30",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Viral Kinetics and Antibody Responses in Patients with COVID-19",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Temporal profiles of viral load in posterior oropharyngeal saliva samples and serum antibody responses during infection by SARS-CoV-2: an observational cohort study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "To",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tsang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "5",
+            "pages": "565--74",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "SARS-CoV-2 detection, viral load and infectivity over the course of an infection",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Walsh",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jordan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Clyne",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rohde",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Drummond",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Byrne",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect",
+            "volume": "81",
+            "issn": "3",
+            "pages": "357--71",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "SARS-CoV-2: The viral shedding vs infectivity dilemma",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Widders",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Broom",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Broom",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect Dis Health",
+            "volume": "25",
+            "issn": "3",
+            "pages": "210--215",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Virological assessment of hospitalized patients with COVID-2019",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "W\u00f6lfel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Corman",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guggemos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seilmaier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zange",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "581",
+            "issn": "7809",
+            "pages": "465--474",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The proportion of COVID-19 cases that are asymptomatic in South Korea: Comment on Nishiura et al",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Workman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "96",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Characteristics of and important lessons from the coronavirus disease 2019 (COVID-19) outbreak in China: summary of a report of 72314 cases from the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Factors associated with prolonged viral RNA shedding in patients with coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "71",
+            "issn": "15",
+            "pages": "799--806",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "SARS-CoV-2 viral load in sputum correlates with risk of COVID-19 progression",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit Care",
+            "volume": "24",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Viral load dynamics and disease severity in patients infected with SARS-CoV-2 in Zhejiang province, China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "ECMO, extracorporeal membrane oxygenation. The clinical severity scores were based on the eight-category ordinal scale developed by",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "outbreak in January 2020 through October 31, 2020, a total of 22,756 patients have been infected and 464 deaths have been recorded in Korea. Sporadic community outbreaks with unknown sources of infection have persisted. The proportion of infected young people aged 20-39 years reached 32.9%, and the vast majority (90.9%) of cases were mild (Korea Centers for Disease Control",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "RT-PCR assays, PowerCheck 2019-nCoV (KogeneBiotech, Seoul, Korea) was used until June 14, 2020, and Real-Q 2019-nCoV (BioSewoom Inc., Seoul, Korea) was used J o u r n a l P r e -p r o o f from June 15, 2020. Both kits use E and RNA-dependent RNA polymerase (RdRp) genes as genetic markers. The cutoff value of the cycle threshold (Ct), which is inversely correlated with the amount of viral RNA present, was 35 for the KogeneBiotech kit and 38 for the BioSewoom kit. The test result was interpreted as positive only when the Ct values of both genes were lower than the cutoff value.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": ").According to the Kaplan-Meier analysis, the proportions of patients with negative conversion at days 14 and 21 from diagnosis were 57.1% and 85.2% in the asymptomatic J o u r n a l P r e -p r o o f group and 32.8% and 59.5% in the symptomatic (including presymptomatic patients) group, respectively (P = 0.10) (Figure 4A). The median (IQR) time from hospital admission (diagnosis) to the first negative conversion was 13.0 (9.5-17.5) days in asymptomatic patients and 18.0 (13.0-25.0) days in symptomatic (including presymptomatic) patients; however, the difference was not significant (P = 0.10).When stratified by types of clinical symptoms, more than half of the patients (N = 81, 58.7%) showed at least both fever and respiratory symptoms. The median (IQR) duration from admission to the first negative RT-PCR result was longer in patients with fever, respiratory symptoms, and other symptoms(20.0 [15.0-29.0] days) than in those who had fever alone (11 [6.5-18.5] days) or respiratory symptoms alone(14.5 [12.8-18.0] days), whereas asymptomatic patients had an even shorter time to negative conversion (13 [9.5-17.5] days) (P = 0.01) (Supplementary",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": ": HKC, JYK, JHK Data curation: AYL, YJO, JKL, JBS, HJK, BH, SWP, YJ, CYY, YOP, JYK Formal analysis: AYL, JHK Methodology: AYL, HKC, JYK, JHK Visualization: AYL, JHK Writing-original draft & editing: AYL, HKC, JYK, JHK",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Disease progression in the study patientsClinical severity was classified according to the eight-category ordinal scale developed bySung et al. (2020). \"Mild\" means 1) without limitations in daily activities or 2) with limitations in daily activities but without a need for supplemental oxygen therapy. \"Moderate to severe\" refers to the need for 3) supplemental oxygen therapy through a nasal cannula, 4) supplemental oxygen therapy through a facial mask, or 5) high-flow supplemental oxygen therapy or noninvasive mechanical ventilation. None of the patients in this study 6) needed invasive ventilation or 8) died.Time trends of viral loads for the E and RdRp genes in upper and lower respiratory tract specimens from all patientsRed numbers indicate the time point in days (95% confidence interval) of the spline curve peak to the lowest cycle threshold value (inversely related to the highest viral load). Blue numbers indicate the time point when the viral load shows no further significant decrease. For data consistency, only real-time polymerase chain reaction assays performed up to June 14, 2020, using the same type of test kit were included. Comparisons of temporal patterns of viral load according to age group, clinical severity, clinical symptoms, and days from admission to negative conversion (A) age group; (B) changes in clinical severity score from the first 24 h of hospital admission and the maximum score during hospitalization; (C) type of symptoms observed from hospital admission to discharge (respiratory symptoms included cough, sputum production, sore throat, runny nose, and dyspnea; other symptoms included those listed inTable 1other than fever and respiratory symptoms); (D) delayed time to negative conversion (17 days based on the median duration from admission to the first negative real-time polymerase chain reaction [RT-PCR] result). The dashed line refers to the cutoff value for negative RT-PCR results. Only results for the E gene from upper respiratory tract (URT) specimens are presented here, as URT specimenswere collected from all patients, and E gene is used as a screening test in the RT-PCR protocols.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Comparison of proportions of negative conversion between symptom groupsComparison of the days from hospital admission to the first negative result of two consecutive RT-PCR results, depending on the (A) presence of symptoms; and (B) type of symptoms.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Baseline characteristics of the patients",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Comparison of mean cycle threshold values between upper and lower respiratory tract specimens SD, standard deviation J o u r n a l P r e -p r o o f Supplementary Table 2. Comparison of mean cycle threshold values between symptomatic and asymptomatic patients RT-PCR, real-time polymerase chain reaction; SD, standard deviation; URT, upper respiratory tract; LRT, lower respiratory tract",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "J o u r n a l P r e -p r o o f",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        }
+    ]
+}

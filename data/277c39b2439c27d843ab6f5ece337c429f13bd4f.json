@@ -1,0 +1,3199 @@
+{
+    "paper_id": "277c39b2439c27d843ab6f5ece337c429f13bd4f",
+    "metadata": {
+        "title": "High throughput detection and genetic epidemiology of SARS-CoV-2 using COVIDSeq next-generation sequencing",
+        "authors": [
+            {
+                "first": "Rahul",
+                "middle": [
+                    "C"
+                ],
+                "last": "Bhoyar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Abhinav",
+                "middle": [],
+                "last": "Jain",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Paras",
+                "middle": [],
+                "last": "Sehgal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mohit",
+                "middle": [],
+                "last": "Kumar Divakar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Disha",
+                "middle": [],
+                "last": "Sharma",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mohamed",
+                "middle": [],
+                "last": "Imran",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Bani",
+                "middle": [],
+                "last": "Jolly",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Gyan",
+                "middle": [],
+                "last": "Ranjanid",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mercy",
+                "middle": [],
+                "last": "Rophina",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sumit",
+                "middle": [],
+                "last": "Sharma",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sanjay",
+                "middle": [],
+                "last": "Siwach",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kavita",
+                "middle": [],
+                "last": "Pandhare",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Swayamprabha",
+                "middle": [],
+                "last": "Sahoo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Maheswata",
+                "middle": [],
+                "last": "Sahoo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ananya",
+                "middle": [],
+                "last": "Nayak",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Siksha \"O\" Anusandhan (Deemed to be University)",
+                    "location": {
+                        "settlement": "Bhubaneswar",
+                        "region": "Odisha",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jatindra",
+                "middle": [
+                    "Nath"
+                ],
+                "last": "Mohanty",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Siksha \"O\" Anusandhan (Deemed to be University)",
+                    "location": {
+                        "settlement": "Bhubaneswar",
+                        "region": "Odisha",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jayashankar",
+                "middle": [],
+                "last": "Das",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Siksha \"O\" Anusandhan (Deemed to be University)",
+                    "location": {
+                        "settlement": "Bhubaneswar",
+                        "region": "Odisha",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sudhir",
+                "middle": [],
+                "last": "Bhandari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Siksha \"O\" Anusandhan (Deemed to be University)",
+                    "location": {
+                        "settlement": "Bhubaneswar",
+                        "region": "Odisha",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sandeep",
+                "middle": [
+                    "K"
+                ],
+                "last": "Mathur",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sawai Man Singh Medical College",
+                    "location": {
+                        "settlement": "Jaipur",
+                        "region": "Rajasthan",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anshul",
+                "middle": [],
+                "last": "Kumarid",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sawai Man Singh Medical College",
+                    "location": {
+                        "settlement": "Jaipur",
+                        "region": "Rajasthan",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rahul",
+                "middle": [],
+                "last": "Sahlot",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sawai Man Singh Medical College",
+                    "location": {
+                        "settlement": "Jaipur",
+                        "region": "Rajasthan",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pallavali",
+                "middle": [],
+                "last": "Rojarani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kurnool Medical College",
+                    "location": {
+                        "addrLine": "Andhra Pradesh",
+                        "settlement": "Kurnool",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Juturu",
+                "middle": [
+                    "Vijaya"
+                ],
+                "last": "Lakshmi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kurnool Medical College",
+                    "location": {
+                        "addrLine": "Andhra Pradesh",
+                        "settlement": "Kurnool",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Avileli",
+                "middle": [],
+                "last": "Surekha",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kurnool Medical College",
+                    "location": {
+                        "addrLine": "Andhra Pradesh",
+                        "settlement": "Kurnool",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chandra",
+                "middle": [],
+                "last": "Sekhar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Kurnool Medical College",
+                    "location": {
+                        "addrLine": "Andhra Pradesh",
+                        "settlement": "Kurnool",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shelly",
+                "middle": [],
+                "last": "Mahajan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shet",
+                "middle": [],
+                "last": "Masih",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Pawan",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vipin",
+                "middle": [],
+                "last": "Kumar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Blessy",
+                "middle": [],
+                "last": "Jose",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vidur",
+                "middle": [],
+                "last": "Mahajan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vivek",
+                "middle": [],
+                "last": "Gupta",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rakesh",
+                "middle": [],
+                "last": "Guptaid",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Prabhakar",
+                "middle": [],
+                "last": "Arumugam",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anjali",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ananya",
+                "middle": [],
+                "last": "Nandy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ragavendran",
+                "middle": [
+                    "P V"
+                ],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rakesh",
+                "middle": [
+                    "Mohan"
+                ],
+                "last": "Jha",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Anupama",
+                "middle": [],
+                "last": "Kumari",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sheetal",
+                "middle": [],
+                "last": "Gandotra",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vivek",
+                "middle": [],
+                "last": "Rao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mohammed",
+                "middle": [],
+                "last": "Faruq",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sanjeev",
+                "middle": [],
+                "last": "Kumar",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Betsy",
+                "middle": [],
+                "last": "Reshma",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "G",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Narendra",
+                "middle": [],
+                "last": "Varma",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shuvra",
+                "middle": [
+                    "Shekhar"
+                ],
+                "last": "Royid",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Antara",
+                "middle": [],
+                "last": "Sengupta",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sabyasachi",
+                "middle": [],
+                "last": "Chattopadhyay",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Khushboo",
+                "middle": [],
+                "last": "Singhal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Shalini",
+                "middle": [],
+                "last": "Pradhan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Diksha",
+                "middle": [],
+                "last": "Jha",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Salwa",
+                "middle": [],
+                "last": "Naushin",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Saruchi",
+                "middle": [],
+                "last": "Wadhwa",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Nishu",
+                "middle": [],
+                "last": "Tyagi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mukta",
+                "middle": [],
+                "last": "Poojary",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vinod",
+                "middle": [],
+                "last": "Scaria Id",
+                "suffix": "",
+                "affiliation": {},
+                "email": "vinods@igib.res.invs"
+            },
+            {
+                "first": "Sridhar",
+                "middle": [],
+                "last": "Sivasubbu",
+                "suffix": "",
+                "affiliation": {},
+                "email": "*s.sivasubbu@igib.res.inss"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The rapid emergence of coronavirus disease 2019 (COVID-19) as a global pandemic affecting millions of individuals globally has necessitated sensitive and high-throughput approaches for the diagnosis, surveillance, and determining the genetic epidemiology of SARS-CoV-2. In the present study, we used the COVIDSeq protocol, which involves multiplex-PCR, barcoding, and sequencing of samples for high-throughput detection and deciphering the genetic epidemiology of SARS-CoV-2. We used the approach on 752 clinical samples in duplicates, amounting to a total of 1536 samples which could be sequenced on a single S4 sequencing flow cell on NovaSeq 6000. Our analysis suggests a high concordance between technical duplicates and a high concordance of detection of SARS-CoV-2 between the COVIDSeq as well as RT-PCR approaches. An in-depth analysis revealed a total of six samples in which COVIDSeq detected SARS-CoV-2 in high confidence which were negative in RT-PCR. Additionally, the assay could detect SARS-CoV-2 in 21 samples and 16 samples which were classified inconclusive and pan-sarbeco positive respectively suggesting that COVIDSeq could be used as a confirmatory test. The sequencing approach also enabled insights into the evolution and genetic epidemiology of the SARS-CoV-2 samples. The samples were classified into a total of 3 clades. This study reports two lineages",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Citation: Bhoyar RC, Jain A, Sehgal P, Divakar MK, Sharma D, Imran M, et al. (2021) High throughput detection and genetic epidemiology of SARS-CoV-2 using COVIDSeq next-generation sequencing. PLoS ONE 16(2): e0247115. https://doi.org/ 10.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "B.1.112 and B.1.99 for the first time in India. This study also revealed 1,143 unique single nucleotide variants and added a total of 73 novel variants identified for the first time. To the best of our knowledge, this is the first report of the COVIDSeq approach for detection and genetic epidemiology of SARS-CoV-2. Our analysis suggests that COVIDSeq could be a potential high sensitivity assay for the detection of SARS-CoV-2, with an additional advantage of enabling the genetic epidemiology of SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "High throughput detection of SARS-CoV-2 using COVIDSeq test PLOS ONE | https://doi.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "a1111111111 a1111111111 a1111111111 a1111111111 a1111111111",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Coronavirus Disease 2019 (COVID-19) has emerged as a global epidemic affecting millions of individuals globally and imposes a huge burden on the socio-economic welfare and healthcare systems of nations. At present, the need for assays for rapid detection for diagnosis and surveillance, understanding the genetic epidemiology and evolution of the virus would be central for managing the spread of the epidemic [1, 2] . The advantage of quick sequencing of the SARS-CoV-2 genome led to the development of polymerase chain reaction (PCR) based diagnostic assays that leveraged rapid identification of infected individuals to get fast medical support or quantization essential to both patient management and incidence tracking [3] . Identification of early imported cases in France helped to prevent immediate secondary transmission [4] . Singapore's enhanced surveillance and containment strategy also led to the suppressed expansion of SARS-CoV-2 [5] . On similar grounds, The Royal College of General Practitioners (RCGP) Research and Surveillance Centre (RSC) have rapidly expanded their national surveillance system to combat SARS-CoV-2 [6] . Coupled with a highly accurate and high-throughput method of detection, this approach is expected to become more effective in dealing with COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 410,
+                    "end": 413,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 414,
+                    "end": 416,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 724,
+                    "end": 727,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 830,
+                    "end": 833,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 946,
+                    "end": 949,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1139,
+                    "end": 1142,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A number of approaches have been widely used for the detection of SARS-CoV-2 from clinical samples. Some of these approaches have also been adapted to enable higher throughputs. These methods are majorly subdivided into antigen-antibody based serological assays, nucleic acid-based amplification assays, and sequencing-based assays. While serological assays are rapid detection tests, they have low sensitivity and specificity [7] . Nucleic acid-based amplification such as quantitative real-time PCR (qRT-PCR) has been the gold standard in detection and diagnosis, but a negative RT-PCR does not eliminate the possibility of infection in clinically suspected cases [8] . Such results should be carefully interpreted to avoid false-negative reporting [9] . Moreover, these tests have been developed for diagnostic purposes and do not provide much information on the nature of the virus, its genetic information, and evolutionary pattern. In this regard, recently developed next-generation sequencing-based methods are potentially a good alternative for the detection of SARS-CoV-2 [10] .",
+            "cite_spans": [
+                {
+                    "start": 427,
+                    "end": 430,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 666,
+                    "end": 669,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 751,
+                    "end": 754,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1081,
+                    "end": 1085,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The rapid advancement of next-generation sequencing technology and analysis methods has enabled understanding the genetic makeup of SARS-CoV-2 and interpreting its evolutionary epidemiology. Viral RNA sequencing from the initial cluster of cases deciphered the full genome sequence of SARS-CoV-2 [11] . This led to other sequencing-based studies for detailed genomic characterization of the virus [12] . Combined genetic and epidemiological studies have been suggested to provide insights into the spread of the infection, evolutionary patterns, and genetic diversity of the virus, [1, 2] for effective management and preventive measures. Genomic surveillance coupled with agent-based modeling in Australia has been observed as an excellent approach to investigate and regulate COVID-19 transmission [13] . Towards these efforts, several openly available databases have also been developed such as the Global Initiative on Sharing All Influenza Data (GISAID) that facilitates rapid and open sharing of SARS-CoV-2 genome sequences [14] . Thus, along with detection, sequencing-based methods may also provide an added advantage of understanding the genetic epidemiology of the outbreak.",
+            "cite_spans": [
+                {
+                    "start": 296,
+                    "end": 300,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 397,
+                    "end": 401,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 582,
+                    "end": 585,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 586,
+                    "end": 588,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 800,
+                    "end": 804,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1030,
+                    "end": 1034,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the present study, we describe the application of the COVIDSeq protocol recently approved by the United States Food and Drug Administration (US FDA) for clinical use. This protocol envisages high-throughput detection and genetic epidemiology of SARS-CoV-2 isolates using a multiplex PCR amplicon-based enrichment followed by barcoding with a throughput of 1536 samples in a single sequencing run using NovaSeq S4 flow cell. Our analysis suggests that the COVIDSeq protocol could be a sensitive approach for detection with additional insights offered through genetic epidemiology with respect to the genetic lineages. To the best of our knowledge, this is the first real-life evaluation of COVIDSeq protocol.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The sample panel consisted of a total of 752 samples. Among these, 655 (87.1%) were SARS-CoV-2 positive on RT-PCR as per the diagnostic guidelines laid out by the Indian Council for Medical Research (ICMR). We included 19 samples that were RT-PCR negative (2.5%) and 43 samples (5.7%) were categorised as pan-sarbeco, since they were positive for the E gene primers only. E gene is conserved across all betacoronaviruses and its detection in the sample indicates the presence of either SARS-CoV or SARS-CoV-2 or other bat-CoVs. A total of 35 samples (4.6%) were considered inconclusive as the samples had one of the two genes (i.e. ORF1ab gene) tested positive. In these samples, the E gene was tested negative hence these samples were termed inconclusive. Apart from this, the sequencing panel consisted of 8 COV-IDSeq Positive Control HT (CPC HT) and 8 no template control (NTC) as internal process controls making total samples to 768. The quality of the pooled library was checked by agarose gel electrophoresis and fragment analyzer which showed the fragment size to be around 300bp. The panel was sequenced in technical duplicates making it a total of 1536 samples in total. The sequencing was performed for 36 cycles. The runtime of the sequencer was 11 hours. Sequencing generated a total of 705.64 Gb of data with 86.90% cluster passing filter and 95.62% above the quality cutoff of (QC) 30. Sequencing generated on an average of approximately 8.4 million reads for the 1,536 samples. The schematic of the COVIDSeq pipeline is depicted in Fig 1. The COVID-19 detection was performed using the DRAGEN COVIDSeq Test pipeline that implements SARS-CoV-2 detection criteria of at least 5 SARS-CoV-2 targets to be considered as positive. Out of the 1,504 samples, the DRAGEN COVIDSeq Test pipeline successfully annotated 1,352 samples. Further 136 samples were classified as undetected, and 16 failed the internal quality check. This corresponds to 676 unique samples in which SARS-CoV-2 was detected, 68 unique samples in which SARS-CoV2 was undetected, and 8 unique samples that failed the assay. There was no discordance in the annotations between any of the 752 sample duplicates considered, suggesting a cent percent concordance in the detection. The total runtime for the DRAGEN COVIDSeq pipeline was 374 minutes. The stepwise runtime is summarised in the S1 Table. All samples were also further considered for in-depth alignment and on average 8.4 million raw reads were generated for 1,536 samples, which were trimmed at base quality Q30 and read length of 30 bps that lead to an average of 7.9 million reads. The trimmed reads were further aligned to the human reference genome (GRCh38/hg38) and SARS-CoV-2 genome (NC_045512.2). On average we found 2.4 million human reads with a mapping percentage of 30.73% and 5.04 million SARS-CoV-2 reads with a mapping percentages of 63.89% ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1548,
+                    "end": 1554,
+                    "text": "Fig 1.",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2368,
+                    "end": 2374,
+                    "text": "Table.",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "respectively. The unmapped reads from the human aligned files were extracted and mapped to the SARS-CoV-2 reference genome (NC_045512.2) to increase its specificity and 4.4 million such reads (79.34%) mapped to it with 6322X coverage. Fig 2 summarises the concordance of aligning reads as well as genome coverage across the duplicates. The data has been summarized in the S2 Table. The mean coverage was also plotted for all the samples across 98 PCR amplicons covering the whole SARS-CoV-2 genome represented in Fig 3. The mean coverage across the amplicons was~14256x for the positive samples considered (706 samples with genome coverage >5%). We have found 20 amplicons had coverage \u00b12 standard deviations (SD) of this value, out of which 16 amplicons had coverage <2 SD and 4 amplicons had >2 SD.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 235,
+                    "end": 251,
+                    "text": "Fig 2 summarises",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 375,
+                    "end": 381,
+                    "text": "Table.",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 513,
+                    "end": 519,
+                    "text": "Fig 3.",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "The technical duplicates had a correlation coefficient of 0.99 (p-value < 0.00001) for reads and 0.984 (p-value < 0.00001) for the coverage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "For further genome assembly and variant calling, the alignment files were merged and variants were called using VarScan. Only 495 samples that had at least 99% of the genome covered were considered for the variant call. Out of these 495 samples, 91 samples were from Andhra Pradesh, 63 from Odisha, and 341 samples were from Delhi.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "The analysis identified a total of 1,143 unique variants. 73 genetic variants were found to be novel in comparison with other Indian and global genome data and were reported for the first time. The median for the number of variants called was 12. The distribution of the variants per Table. Analysis of frequency of the variants across the genomes revealed a total of 89 variants that had a frequency \ufffd 1% and were polymorphic. The variants were also mapped across the genes. The ORF1ab gene had the largest number of variants. Normalised for the length of the genes, the ORF3a gene had the highest number of variants. Similarly, for non-synonymous variants, the ORF1ab gene had the highest number of variants and ORF3a had the highest normalized for the length of the gene.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 284,
+                    "end": 290,
+                    "text": "Table.",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "To get an insight into the genetic epidemiology, the genomes were analyzed for their phylogenetic distribution. Phylogenetic reconstruction was done for 2193 genomes, including 469 genomes from this study and samples previously sequenced from Indian laboratories. The genome Wuhan/WH01 (EPI_ISL_406798) was used as the reference for constructing the tree. Clades were assigned according to the nomenclature defined by Nextstrain [15] The resulting phylogenetic tree suggests that out of 469 COVIDSeq genomes, 451 genomes (96%) fell into the A2a clade while 14 genomes (3%) mapped to the I/A3i clade, a distinct clade previously defined for genomes from India [16] . A total of 4 genomes mapped to the B4 clade. The phylogenetic clusters for the genomes are summarised in The sensitivity of the assay was benchmarked across 649 RT-PCR as well as COVIDSeq confirmed dataset. The analysis revealed the assay had a sensitivity of 97.53% compared to RT-PCR. Since we had only 19 RT-PCR negative samples, we did not assess the specificity of the assay. The comparison of RT-PCR with COVIDSeq assay has been summarized in S5 Table. Notwithstanding, the DRAGEN COVIDSeq protocol identified SARS-CoV-2 in the samples which were negative for RT-PCR for SARS-CoV-2. Additionally, SARS-CoV-2 was detected by the protocol in 21 samples that were inconclusive and 16 samples that were ",
+            "cite_spans": [
+                {
+                    "start": 429,
+                    "end": 433,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 659,
+                    "end": 663,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1118,
+                    "end": 1124,
+                    "text": "Table.",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "High throughput detection of SARS-CoV-2 using COVIDSeq test annotated pan-sarbeco. We further analysed these samples in great detail to check whether multiple genomic regions were covered in the sequencing experiments. Fig 7 summarises the coverage plots across the genome for the 6 samples which were negative in RT-PCR and detected by COVIDSeq pipeline. The coverage plots for the samples which were inconclusive and pan-sarbeco in RT-PCR were detected by COVIDSeq assay represented in S1 Fig. Consistently, the samples have over 5% of the genomic region covered in the COVIDSeq protocol suggesting that the protocol could provide for a potentially more sensitive detection assay compared to RT-PCR.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 219,
+                    "end": 235,
+                    "text": "Fig 7 summarises",
+                    "ref_id": "FIGREF8"
+                },
+                {
+                    "start": 491,
+                    "end": 495,
+                    "text": "Fig.",
+                    "ref_id": null
+                }
+            ],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "Since the RNA samples were derived from multiple protocols for RNA extraction, we could also get an insight into the compatibility of the protocols with the COVIDSeq test. Of the samples which were SARS-CoV-2 positive on RT-PCR, 182 samples were processed using ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "PLOS ONE"
+        },
+        {
+            "text": "A number of high-throughput approaches have recently been employed for the detection as well as sequencing of SARS-CoV-2, while RT-PCR based approaches are widely considered as the gold-standard for detection. These include shotgun approaches [17] , capture-based [18, 19] as well as amplicon-based [20] approaches followed by next-generation sequencing. Typically the multiplex barcoded library sequencing has been implemented for sample numbers less than 96. A number of approaches have been suggested to increase the throughput of sequencing using barcoded libraries [21, 22] . There is a paucity of data on higher-order multiplex barcoding and sequencing approaches in clinical samples.",
+            "cite_spans": [
+                {
+                    "start": 243,
+                    "end": 247,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 264,
+                    "end": 268,
+                    "text": "[18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 269,
+                    "end": 272,
+                    "text": "19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 299,
+                    "end": 303,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 570,
+                    "end": 574,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 575,
+                    "end": 578,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion and conclusions"
+        },
+        {
+            "text": "In the present report, we evaluated the COVIDSeq approach for high-throughput detection of SARS-CoV-2 which uses multiplex PCR followed by barcoded libraries and sequencing on a next-generation sequencing platform that envisages sequencing 1536 samples per flow cell. We analysed 752 clinical samples in technical duplicates.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and conclusions"
+        },
+        {
+            "text": "Our analysis suggests a high concordance between technical duplicates and a high concordance of detection of SARS-CoV-2 between the COVIDSeq as well as RT-PCR approaches. Our comparative analysis of SARS-CoV-2 detection with RT-PCR and COVIDSeq test showed that the COVIDseq test has comparable sensitivity, precision and accuracy compared to RT-PCR. COVIDSeq protocol detected SARS-CoV-2 in samples previously categorised as inconclusive (21/35), pan-sarbeco (16/43), and negative (6/19) using RT-PCR assays suggesting a comparable sensitivity of the sequencing-based assay compared to RT-PCR. This corresponded to an additional 43/97 samples and a potential gain of 5.71% of samples of the whole dataset and 44.33% of the samples which were considered inconclusive (N = 97), suggesting that the sequencing approach could be used as a potential orthogonal approach to confirm cases that are doubtful or inconclusive in RT-PCR. Notwithstanding the advantage, 16 samples that were annotated positive in RT-PCR were missed in the COVIDSeq approach. Our analysis also suggests the protocol is compatible with different approaches for RNA isolation suggesting wider applicability in clinical settings where pooling from different labs becomes inevitable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and conclusions"
+        },
+        {
+            "text": "The COVIDSeq approach additionally provided insights into the genetic epidemiology and evolution of the SARS-CoV-2 isolates. The phylogenetic analysis could be performed for a significantly large number of genomes which gave insights into the prevalent lineage/clades of the virus [23] [24] [25] . This analysis also reports two lineages B.1.112 and B.1.99 for the first time in India. B.1.112 and B.1.99 have been previously reported from the USA and UK respectively, implying their origin and distribution beyond India and their possible introductions in India through travelers from these countries, although more data would be needed to confirm this hypothesis.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 285,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 286,
+                    "end": 290,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 291,
+                    "end": 295,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion and conclusions"
+        },
+        {
+            "text": "Furthermore, a total of 1,143 unique variants were contributed by this analysis to the global repertoire of genetic variants. As expected, a significant number of variants were non-synonymous in nature [26, 27] . The present analysis adds a total of 73 novel variants identified for the first time in genomes. Apart from the throughput of sample analysis, the COVIDSeq approach is also remarkable in terms of speed, with a sequencing time of 11 hours and an analysis timeline of 6 hours. Given that the NovaSeq6000 sequencer used in the present study can handle two S4 flow cells in parallel, this could be potentially scaled to a throughput of 1536x2 samples that can be handled in parallel.",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 206,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 207,
+                    "end": 210,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion and conclusions"
+        },
+        {
+            "text": "In conclusion, our analysis suggests that COVIDSeq is a high-throughput sequencingbased approach that is sensitive for the detection of SARS-CoV-2. In addition, COVIDSeq has an additional advantage of enabling the genetic epidemiology of SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion and conclusions"
+        },
+        {
+            "text": "The study was approved by the Institutional Human Ethics Committee of CSIR-Institute of Genomics and Integrative Biology (IHEC No. Dated CSIR-IGIB/IHEC/2020-21/01) and the patient consent has been waived by the ethics committee. Samples from nasal, nasopharyngeal, and oropharyngeal swabs were obtained according to the standard protocol and collected in 3 ml sterile viral transport medium (VTM) tube or 1ml of TRIzol reagent (Invitrogen). All the samples were transported to the laboratory at a cold temperature (2-8\u02daC) within 72 hours post collection, and stored at -80\u02daC till further used.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and samples"
+        },
+        {
+            "text": "RNA extraction was carried out in a pre-amplification environment with a Biosafety level 2 (BSL-2) facility. RNA isolation was done using four different methods. For manual RNA extraction, a total of 140 \u03bcl of the VTM medium was used; prior to isolation, the VTM samples were subjected to heat inactivation at 50\u02daC for 30 minutes. After heat inactivation, the RNA was extracted from 140 \u03bcl of VTM samples using QIAamp 1 Viral RNA Mini kit (QIAGEN) as per the manufacturer's instructions. For the automated magnetic bead-based extraction method, 200 \u03bcl of VTM was transferred to a 96-well deep well cartridge plate supplied with the kit (VN143), and extraction was performed on Nextractor 1 NX-48S instrument (Genolution Inc.) as instructed by the manufacturer. After a bead-based capture and washing process, the RNA sample was eluted in 40 \u03bcl of the elution buffer. For RNA isolation using Trueprep AUTO v2 universal cartridge-based sample prep device, (Molbio Diagnostics Pvt. Ltd.) 500 \u03bcl of the VTM was added to the 2.5 ml of lysis buffer provided with the kit. After pipette mixing, 3 ml of the mixture was dispensed in the provided cartridge; the final RNA was eluted in 50 \u03bcl of elution buffer. For RNA from TRIzol reagent, the tubes containing swabs were vortexed briefly. The overall content of the TRIzol tube was transferred into a 1.5 ml tube, followed by the addition of 200 \u03bcl of chloroform and mixed by inverting the tubes several times. After 5 minutes of incubation, the 1.5 ml tubes were centrifuged for 15 minutes at 12,000 RPM at 4\u02daC. The upper clear aqueous layer which contains the RNA was transferred to new tubes. An equal amount of isopropanol was added to the tubes containing the RNA. Contents of the tubes were mixed by inverting the tubes several times and tubes were incubated for 10 minutes on ice followed by centrifugation for 10 minutes at 12,000 RPM at 4\u02daC. The supernatant was discarded and the RNA pellet was dissolved in 30 \u03bcl of RNase-free water after 2 ethanol washes. TURBO DNase (Ambion, Applied Biosystems) treatment was given to the isolated RNA to remove genomic DNA contamination in the samples followed by RNA purification using the phenol/chloroform method.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RNA isolation"
+        },
+        {
+            "text": "To detect SARS-CoV-2 viral infection, a one-step Real-Time PCR assay was performed using STANDARD M nCoV Real-Time detection kit (SD Biosensor, Korea), targeting the nCoV2 specific ORF1ab (RdRp) and pan-sarbeco specific E genes on LightCycler 1 480 System (Roche) and ABI 7500 Fast DX (Applied Biosystems) as per the manufacturer's instructions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Real-time PCR for SARS-CoV-2"
+        },
+        {
+            "text": "The libraries were prepared using Illumina COVIDSeq protocol (Illumina Inc, USA). The first strand synthesis was carried out on RNA samples isolated using different extraction methods individually, in Biosafety level 2 (BSL-2) plus environment following standard protocols. The synthesized cDNA was amplified using a multiplex polymerase chain reaction (PCR) protocol, producing 98 amplicons across the SARS-CoV-2 genome (https://artic.network/). The primer pool additionally had primers targeting human RNA, producing an additional 11 amplicons. The PCR amplified product was later processed for tagmentation and adapter ligation using IDT for Illumina Nextera UD Indexes Set A, B, C, D (384 indexes, 384 samples). Further enrichment and cleanup was performed as per protocols provided by the manufacturer (Illumina Inc). All samples were processed as batches in a 96-well plate that consisted of one of COVIDSeq positive control HT (CPC HT) and one no template control (NTC); these 96 libraries were pooled together in a tube. Pooled samples were quantified using Qubit 2.0 fluorometer (Invitrogen Inc.) and fragment sizes were analyzed in Agilent Fragment analyzer 5200 (Agilent Inc). The pooled library was further normalized to 4nM concentration and 25 \u03bcl of each normalized pool containing index adapter set A, B, C, and D were combined in a new microcentrifuge tube to a final concentration of 100pM and 120pM. For sequencing, pooled libraries were denatured and neutralized with 0.2N NaOH and 400mM Tris-HCL (pH-8).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Library preparation and sequencing"
+        },
+        {
+            "text": "Replicas of each 384 sample pools were loaded onto the S4-flow cell following NovaSeq-XP workflow as per the manufacturer's instructions (Illumina Inc). Dual indexed single-end sequencing with 36bp read length was carried out on NovaSeq 6000 platform.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Library preparation and sequencing"
+        },
+        {
+            "text": "The raw data generated in binary base call (BCL) format from NovaSeq 6000 was processed using DRAGEN COVIDSeq Test Pipeline (Illumina Inc.) on the Illumina DRAGEN v3.6 Bio-IT platform as per standard protocol. The analysis involves sample sheet validation, data quality check, FASTQ generation, and SARS-CoV-2 detection when at least 5 SARS-CoV-2 probes are detected. Further samples with SARS-CoV-2 and at least 90 targets detected were processed for alignment, variant calling and consensus sequence generation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data processing"
+        },
+        {
+            "text": "For an in-depth analysis, we additionally analysed the data using a custom pipeline. This included demultiplexing the raw data to FASTQ files using bcl2fastq (v2.20) followed by a quality assessment of the FASTQ files using Trimmomatic (v0.39) [28] . An average base quality of Q30 and read length cut-off of 30 bps were used for trimming, apart from the adapter sequences. We followed a recently published protocol to perform reference-based assembly [29] . As per protocol, the trimmed reads were aligned to the human reference genome (GRCh38 / hg38) and severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) Wuhan-Hu-1 reference genome (NC_045512.2) using HISAT2-2.1 [30] . The reads mapped to hg38 were further discarded and the unaligned reads were extracted using samtools (v 1.10) [31] . The unaligned reads were further mapped to the Wuhan Hu-1 genome and the alignment statistics were evaluated [3] . The data was merged for duplicates for the variant calling and consensus sequence generation. Variant calling was performed using VarScan (v2.4.4) for samples with genome coverage greater than 99% [32] . Samtools (v 1.10) [31] , bcftools (v 1.10.2), and seqtk (version 1.3-r114) [33] were used to generate the consensus sequence. We have also evaluated the correlation coefficient with a p-value <0.01 between the duplicates total reads and genome coverage.",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 248,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 452,
+                    "end": 456,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 677,
+                    "end": 681,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 795,
+                    "end": 799,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 911,
+                    "end": 914,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1114,
+                    "end": 1118,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1139,
+                    "end": 1143,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1196,
+                    "end": 1200,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data processing"
+        },
+        {
+            "text": "The variants were systematically annotated using ANNOVAR [34] . Annotations on genomic loci and functional consequences of the protein were retrieved from RefSeq. Custom databases were created for annotations on functional consequences, potential immune epitopes, protein domains, and evolutionary conservation scores. Genomic loci associated with common errorprone sites and diagnostic primer/probe regions were manually curated and were systematically converted to data tables compatible with ANNOVAR for added annotation options. The functional relevance of the identified genetic variants was also analyzed. The variants were systematically compared with a manually curated compendium of SARS-CoV-2 variations with potential functional impacts compiled from literature reports [35] . All the filtered variants were checked with other viral genomes submitted from India and worldwide. Genomes with alignment percentage of at least 99 and gap percentage <1 were filtered as high quality. A total of 1372 high-quality genomes from India out of 1888 submitted till July 28, 2020, were included in the analysis. Similarly, global genomes submitted till August 07, 2020, were included, accounting for 29,177 high-quality genomes out of 79,764. Details of the samples, originating and submitting laboratories are listed in the S7 Table. Mutation information provided by Nextstrain [33] till August 08, 2020, was also used for comparison.",
+            "cite_spans": [
+                {
+                    "start": 57,
+                    "end": 61,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 781,
+                    "end": 785,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1378,
+                    "end": 1382,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1327,
+                    "end": 1333,
+                    "text": "Table.",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Annotation of genetic variants and comparison with existing datasets"
+        },
+        {
+            "text": "A total of 495 samples that had at least 99% genome coverage were considered for this analysis, along with the dataset of SARS-CoV-2 genomes from India deposited in GISAID. The sample names and the name of the originating and submitting institutions are listed in S8 Table. We followed a previously described protocol for phylogenetic clustering [36] . A total of 26 COV-IDSeq genomes having Ns > 5% were removed from the analysis. Genomes from GISAID having Ns > 5% and ambiguous dates of sample collection were also excluded from the analysis. The phylogenetic network was built using the analysis protocol for SARS-CoV-2 genomes provided by Nextstrain [15] . The genome sequences were aligned using MAFFT to the reference genome and problematic variant positions were masked [37] . A raw phylogenetic tree was constructed using IQTREE and the raw tree was refined to construct a molecular-clock phylogeny, infer mutations, and identify clades [38] . The resulting phylogenetic tree was viewed using Auspice, an interactive visualization web-application provided by Nextstrain. Lineages were also assigned to the genomes using the Phylogenetic Assignment of Named Global Outbreak LINeages (PANGOLIN) package [39] . The phylogenetic distribution of the lineages was visualized and annotated using iToL [40] .",
+            "cite_spans": [
+                {
+                    "start": 346,
+                    "end": 350,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 655,
+                    "end": 659,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 778,
+                    "end": 782,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 946,
+                    "end": 950,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1210,
+                    "end": 1214,
+                    "text": "[39]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1303,
+                    "end": 1307,
+                    "text": "[40]",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 267,
+                    "end": 273,
+                    "text": "Table.",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Phylogenetic analysis"
+        },
+        {
+            "text": "Initially, all the samples underwent RT-PCR based screening for the presence of SARS-CoV-2 RNA. Out of these 752 samples, 655 (87.1%) samples were RT-PCR positive, 43 (5.7%) were pan-sarbeco, 35 (4.6%) were inconclusive and 19 (2.5%) were negative. We compared the sample type (e.g. positive, pan-sarbeco, inconclusive, and negative) WGS output and calculated the percent of the genome covered, sensitivity, specificity, accuracy, precision, and gain of detection rate. The methodology adopted in this study has been represented in Fig 1. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 532,
+                    "end": 538,
+                    "text": "Fig 1.",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Comparison of RT-PCR test with the sequencing-based COVIDSeq test"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Genomic Epidemiology of SARS-CoV-2 in Guangdong Province",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Du Plessis",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Cell",
+            "volume": "181",
+            "issn": "",
+            "pages": "997--1003",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cell.2020.04.023"
+                ],
+                "PMID": [
+                    "32359424"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Rapid implementation of SARS-CoV-2 sequencing to investigate cases of health-care associated COVID-19: a prospective genomic surveillance study",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Meredith",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hamilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Warne",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Houldcroft",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hosmillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jahun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "30562--30566",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099%2820%2930562-4"
+                ],
+                "PMID": [
+                    "32679081"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A new coronavirus associated with human respiratory disease in China",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y-M",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wang",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z-G",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "579",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2008-3"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "First cases of coronavirus disease 2019 (COVID-19) in France: surveillance, investigations and control measures, January 2020",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bernard Stoecklin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Rolland",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Silue",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mailles",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Campese",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Simondon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.6.2000094"
+                ],
+                "PMID": [
+                    "32070465"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Emergence of a Novel Coronavirus (COVID-19): Protocol for Extending Surveillance Used by the Royal College of General Practitioners Research and Surveillance Centre and Public Health England",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "De Lusignan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lopez",
+                    "middle": [],
+                    "last": "Bernal",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zambon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Akinyemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Amirthalingam",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Andrews",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JMIR Public Health Surveill",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/18606"
+                ],
+                "PMID": [
+                    "32240095"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Evaluation of the Effectiveness of Surveillance and Containment Measures for the First 100 Patients with COVID-19 in Singapore",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Chua",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Er",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "307--311",
+            "other_ids": {
+                "DOI": [
+                    "10.15585/mmwr.mm6911e1"
+                ],
+                "PMID": [
+                    "32191691"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Rapid point-of-care testing for SARS-CoV-2 in a community screening setting shows low sensitivity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "D\u00f6hla",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Boesecke",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schulte",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Diegmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sib",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Richter",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Public Health",
+            "volume": "182",
+            "issn": "",
+            "pages": "170--172",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.puhe.2020.04.009"
+                ],
+                "PMID": [
+                    "32334183"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Combination of RT-qPCR testing and clinical features for diagnosis of COVID-19 facilitates management of SARS-CoV-2 outbreak",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "92",
+            "issn": "",
+            "pages": "538--539",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25721"
+                ],
+                "PMID": [
+                    "32096564"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Variation in False-Negative Rate of Reverse Transcriptase Polymerase Chain Reaction-Based SARS-CoV-2 Tests by Time Since Exposure",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kucirka",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Laeyendecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Boon",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lessler",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Ann Intern Med",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M20-1495"
+                ],
+                "PMID": [
+                    "32422057"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "First NGS-based COVID-19 diagnostic",
+            "authors": [],
+            "year": 2020,
+            "venue": "Nat Biotechnol",
+            "volume": "38",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41587-020-0608-y"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--733",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001017"
+                ],
+                "PMID": [
+                    "31978945"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30251--30259",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736%2820%2930251-8"
+                ],
+                "PMID": [
+                    "32007145"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Revealing COVID-19 transmission in Australia by SARS-CoV-2 genome sequencing and agent-based modeling",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rockett",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Arnott",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sadsad",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Timms",
+                    "suffix": ""
+                },
+                {
+                    "first": "K-A",
+                    "middle": [],
+                    "last": "Gray",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-1000-7"
+                ],
+                "PMID": [
+                    "32647358"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Global initiative on sharing all influenza data-from vision to reality",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mccauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Gisaid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Euro Surveill",
+            "volume": "22",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2017.22.13.30494"
+                ],
+                "PMID": [
+                    "28382917"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Nextstrain: real-time tracking of pathogen evolution",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hadfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Megill",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Huddleston",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Potter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Callender",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Bioinformatics",
+            "volume": "34",
+            "issn": "",
+            "pages": "4121--4123",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/bty407"
+                ],
+                "PMID": [
+                    "29790939"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "A distinct phylogenetic cluster of Indian SARS-CoV-2 isolates. Open Forum Infectious Diseases",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Banu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Jolly",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mukherjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zaveri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ofid/ofaa434"
+                ],
+                "PMID": [
+                    "33200080"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "SARS-CoV-2 Whole Genome Amplification and Sequencing for Effective Population-Based Surveillance and Control of Viral Transmission",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Harilal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ramaswamy",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Loney",
+                    "suffix": ""
+                },
+                {
+                    "first": "Al",
+                    "middle": [],
+                    "last": "Suwaidi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Khansaheb",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Alkhaja",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Chem",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/clinchem/hvaa187"
+                ],
+                "PMID": [
+                    "32715310"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "High-coverage SARS-CoV-2 genome sequences acquired by target capture sequencing",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.26116"
+                ],
+                "PMID": [
+                    "32492196"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Multiple approaches for massively parallel sequencing of SARS-CoV-2 genomes directly from clinical samples",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ji",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Genome Med",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13073-020-00751-4"
+                ],
+                "PMID": [
+                    "32605661"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "CoronaHiT: large scale multiplexing of SARS-CoV-2 genomes using Nanopore sequencing",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Kay",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Aydin",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Le-Viet",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rudder",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Tedim",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.06.24.162156"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "REMBRANDT: A high-throughput barcoded sequencing approach for COVID-19 screening",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Palmieri",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Siddiqui",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gardner",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Fishel",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Miles",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Molecular Biology. bioRxiv",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Population-Scale COVID-19 Diagnostics Using Combinatorial Barcoding",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schmid-Burgk",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schmithausen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hollstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ben-Shmuel",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Israeli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Standardized phylogenetic and molecular evolutionary analysis applied to species across the microbial tree of life",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Shakya",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Davenport",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Flynn",
+                    "suffix": ""
+                },
+                {
+                    "first": "C-C",
+                    "middle": [],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Psg",
+                    "middle": [],
+                    "last": "Chain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Rep",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-020-58356-1"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Genome-Scale Phylogeny and Evolutionary Analysis of Ross River Virus Reveals Periodic Sweeps of Lineage Dominance in Western Australia, 1977-2014",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Michie",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Dhanasekaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mda",
+                    "middle": [],
+                    "last": "Lindsay",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Neville",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Nicholson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jardine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Virol",
+            "volume": "94",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.01234-19"
+                ],
+                "PMID": [
+                    "31666378"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Genome-wide evolutionary dynamics of influenza B viruses on a global scale",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Langat",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Raghwani",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dudas",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bowden",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Edwards",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS Pathog",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.ppat.1006749"
+                ],
+                "PMID": [
+                    "29284042"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Natural selection for nucleotide usage at synonymous and nonsynonymous sites in influenza A virus genes",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kryazhimskiy",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bazykin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dushoff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Virol",
+            "volume": "82",
+            "issn": "",
+            "pages": "4938--4945",
+            "other_ids": {
+                "DOI": [
+                    "10.1128/JVI.02415-07"
+                ],
+                "PMID": [
+                    "18321967"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "On the origin and continuing evolution of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "National Science Review",
+            "volume": "7",
+            "issn": "",
+            "pages": "1012--1023",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nsr/nwaa036"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Trimmomatic: a flexible trimmer for Illumina sequence data",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bolger",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lohse",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Usadel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Bioinformatics",
+            "volume": "30",
+            "issn": "",
+            "pages": "2114--2120",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btu170"
+                ],
+                "PMID": [
+                    "24695404"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Computational Protocol for Assembly and Analysis of SARS-nCoV-2 Genomes. rr",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Poojary",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shantaraman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Jolly",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Scaria",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "HISAT: a fast spliced aligner with low memory requirements",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Langmead",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Salzberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Nat Methods",
+            "volume": "12",
+            "issn": "",
+            "pages": "357--360",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nmeth.3317"
+                ],
+                "PMID": [
+                    "25751142"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The Sequence Alignment/Map format and SAMtools",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Handsaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wysoker",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Fennell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Homer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Bioinformatics",
+            "volume": "25",
+            "issn": "",
+            "pages": "2078--2079",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btp352"
+                ],
+                "PMID": [
+                    "19505943"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "VarScan: variant detection in massively parallel sequencing of individual and pooled samples",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Koboldt",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wylie",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Larson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mardis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Bioinformatics",
+            "volume": "25",
+            "issn": "",
+            "pages": "2283--2285",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btp373"
+                ],
+                "PMID": [
+                    "19542151"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "SeqKit: A Cross-Platform and Ultrafast Toolkit for FASTA/Q File Manipulation",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Le",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLoS One",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0163962"
+                ],
+                "PMID": [
+                    "27706213"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hakonarson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nucleic Acids Res",
+            "volume": "38",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkq603"
+                ],
+                "PMID": [
+                    "20601685"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "FaviCoV -a comprehensive manually curated resource for functional genetic variants in SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rophina",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pandhare",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mangla",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shamnath",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Jolly",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sethi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Computational Analysis and Phylogenetic clustering of SARS-nCov-2 genomes",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Jolly",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Scaria",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "MjVoziU1Zq0/edit?usp=embed_facebook",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Recent developments in the MAFFT multiple sequence alignment program",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Katoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Toh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Brief Bioinform",
+            "volume": "9",
+            "issn": "",
+            "pages": "286--298",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bib/bbn013"
+                ],
+                "PMID": [
+                    "18372315"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies",
+            "authors": [
+                {
+                    "first": "L-T",
+                    "middle": [],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "Von",
+                    "middle": [],
+                    "last": "Haeseler",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Minh",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Mol Biol Evol",
+            "volume": "32",
+            "issn": "",
+            "pages": "268--274",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/molbev/msu300"
+                ],
+                "PMID": [
+                    "25371430"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "A dynamic nomenclature proposal for SARS-CoV-2 lineages to assist genomic epidemiology",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rambaut",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c1",
+                    "middle": [],
+                    "last": "O&apos;toole",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hill",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Mccrone",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Ruis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Microbiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41564-020-0770-5"
+                ],
+                "PMID": [
+                    "32669681"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Interactive tree of life (iTOL) v3: an online tool for the display and annotation of phylogenetic and other trees",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Letunic",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bork",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nucleic Acids Res",
+            "volume": "44",
+            "issn": "",
+            "pages": "242--247",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/gkw290"
+                ],
+                "PMID": [
+                    "27095192"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Schematic summary of the analysis in this study. The methodology adopted in the sampling, library preparation, sequencing and analysis involving custom based pipeline and COVIDSeq pipeline employed in this study.https://doi.org/10.1371/journal.pone.0247115.g001",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Concordance among replicate samples considered in the analysis. A) Total number of read counts B) The coverage percentage among replicates. R1-Replicate 1, and R2-Replicate 2. https://doi.org/10.1371/journal.pone.0247115.g002",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The line plot for the mean coverage of SARS-CoV-2 genome. The mean coverage for the 98 amplicons across the SARS-CoV-2 genome. https://doi.org/10.1371/journal.pone.0247115.g003 genome is summarised in Fig 4A. Of the 1,143 unique variants, a total of 1,104 variants were in the exonic region and 39 were in the downstream or upstream region. Of the 1,104 exonic variants, 639 variants were non-synonymous while 452 were synonymous. A total of 13 were found to be stopgain. The variant annotation data is summarized in Fig 4B. The detailed annotations of the variants have been tabulated in the S3 Table. On evaluating the functional importance of the variants, there are 38 genetic variants with potential functional implications reported in the literature. The variants functional annotation for 38 variants are listed in the S4",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "The distribution of lineages assigned by PANGOLIN suggests a dominant occurrence of the lineages B.1 (n = 286) and B.1.113 (n = 134) as compared to other Indian genomes which show a dominance of B.6 and B.1 lineages. We also found 2 lineages in our dataset, B.1.112 (n = 8) and B.1.99 (n = 1), which have not been previously reported from India. Fig 6 summarises the phylogenetic distribution of the lineages.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Variant number per genome and their annotation. (A) Distribution of variants in the genomes with \ufffd 99% coverage (B) Summary of the variant annotations. https://doi.org/10.1371/journal.pone.0247115.g004",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Phylogenetic distribution of Indian SARS-CoV-2 genomes. A) Phylogenetic trees generated by Nextstrain. 469 COVIDseq genomes reported from this study are highlighted. The 469 genomes cluster under clade A2a, I/A3i and B4, with A2a being the dominant clade. B) The proportion of clades and PANGOLIN lineages representing the Indian genomes. B.1 and B.1.113 are the dominant lineages in COVIDseq genomes whereas other Indian genomes show a dominance of B.6 and B.1 lineages. https://doi.org/10.1371/journal.pone.0247115.g005",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Viral RNA Mini kit, 264 samples using Nextractor 1 NX-48S (Genolution, Korea), 201 samples on Trueprep 1 AUTO v2 (Molbio Diagnostics Pvt. Ltd.), and 8 samples using TRizol based extraction method. Of these, COVIDSeq detected SARS-CoV-2 in 168 of 182 samples (92.3%) from the QIAamp 1 extracted samples, 263 of 264 samples (99.6%) from the bead-based automated method using Nextractor 1 NX-48S, 194 of 201 samples (96.5%) from",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Phylogenetic distribution of PANGOLIN lineages in COVIDseq genomes. The distribution of lineages assigned by PANGOLIN in 469 COVIDseq genomes with the Wuhan/WH01 (EPI_ISL_406798) as reference. https://doi.org/10.1371/journal.pone.0247115.g006 the Truprep extraction method and 7 of 8 samples (87.5%) from TRizol based method suggesting compatibility with different extraction methods. The details of the RT-PCR and COVID-Seq samples are summarized in S6Table.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "The coverage plot across the SARS-CoV-2 genome. The coverage plot constructed using Integrative Genome Viewer (IGV) for samples that were negative on RT-PCR assays but detected by DRAGEN COVIDSeq Pipeline.https://doi.org/10.1371/journal.pone.0247115.g007",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Fig. Coverage plots for 37 samples that were inconclusive and pan-sarbeco by RT-PCR and detected positive for SARS-CoV-2 by sequencing. (TIF) S1",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "COVIDSeq test pipeline time summary for each task. (PDF) S2 Table. Data summary of the COVIDSeq, RT-PCR, and custom pipeline analysis. NA-Not Applicable. (PDF) S3 Table. Summary of functional annotation of the genetic variants reported in the study. (PDF) S4 Table. Compilation of details of genetic variants with reported functional relevance. (PDF) S5 Table. Summary of the COVIDSeq assay comparison with RT-PCR. (PDF) S6 Table. Comparison of different RNA extraction methods and detection of the SARS-CoV-2 with RT-PCR and COVIDSeq test. (PDF) S7 Table. GISAID acknowledgement table for global genomes used in the study. (PDF) S8 Table. GISAID acknowledgement table for Indian genomes used in the study. (PDF)",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Authors acknowledge Samatha Mathew for reviewing the manuscript and providing constructive criticism. Authors acknowledge Vigneshwar Senthivel for creating the graphical abstract of the COVIDSeq pipeline. AJ, MD, BJ, PS acknowledges research fellowships from CSIR and MP acknowledges a research fellowship from BINC-DBT. DS acknowledges a research fellowship from Intel. The authors SS, MS, AN acknowledge the SOAU for their PhD fellowship.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        }
+    ]
+}

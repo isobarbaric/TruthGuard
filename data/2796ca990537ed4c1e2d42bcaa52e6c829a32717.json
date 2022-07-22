@@ -1,0 +1,4104 @@
+{
+    "paper_id": "2796ca990537ed4c1e2d42bcaa52e6c829a32717",
+    "metadata": {
+        "title": "ODSearch: A Fast and Resource Efficient On-device Information Retrieval for Mobile and Wearable Devices",
+        "authors": [
+            {
+                "first": "Y",
+                "middle": [
+                    "I"
+                ],
+                "last": "Rong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Boston University",
+                    "location": {
+                        "region": "US, US"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Reza",
+                "middle": [],
+                "last": "Rawassizadeh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Boston University",
+                    "location": {
+                        "region": "US, US"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Mobile and wearable technologies have promised significant changes to the healthcare industry. Although cutting-edge communication and cloud-based technologies have allowed for these upgrades, their implementation and popularization in low-income countries have been challenging. We propose ODSearch, an On-device Search framework equipped with a natural language interface for mobile and wearable devices. To implement search, ODSearch employs compression and Bloom filter, it provides near real-time search query responses without network dependency. Our experiments were conducted on a mobile phone and smartwatch. We compared ODSearch with current state-of-the-art search mechanisms, and it outperformed them on average by 55 times in execution time 1 , 26 times in energy usage, and 2.3% in memory utilization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Implementation of mHealth applications in low-income countries is associated with three significant challenges: (i) network availability, (ii) privacy and security, and (iii) literacy level and IT skills.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Network availability: a large number of the mHealth applications are designed based on expensive communication technologies, such as 5G networks [12] , Blockchain [40, 66] , and Cloud Services [25] , and require integration of complex resource-intensive machine learning algorithms into their applications [36] . The \"network\" is a barrier to large-scale deployment of mHealth applications in low-income countries, since deployment of mHealth is highly dependent on Internet and local human resources for maintenance. Coverage, accessibility of networks, and Internet availability are not guaranteed in all areas of low-income countries [3, 57] .",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 163,
+                    "end": 167,
+                    "text": "[40,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 168,
+                    "end": 171,
+                    "text": "66]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 193,
+                    "end": 197,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 637,
+                    "end": 640,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 641,
+                    "end": 644,
+                    "text": "57]",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Privacy and Security: The major challenge related to cloud services is \"security and privacy, \" such as unauthorized data alteration, unauthorized data access, and unauthorized sharing [2, 32] . This is a significant issue in low-income countries that often suffer from authoritarian governments and lack proper regulation to prevent access to users' digital information [23] .",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 188,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 189,
+                    "end": 192,
+                    "text": "32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 371,
+                    "end": 375,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Literacy and IT skills: Low IT skills and literacy is another hurdle required to adapt mHealth technologies in lowincome countries [37, 48] . Studies reveal that literacy is directly correlated with the Gross Domestic Product (GDP) of a country [45] , and low-income countries suffer from literacy and low IT skills.",
+            "cite_spans": [
+                {
+                    "start": 131,
+                    "end": 135,
+                    "text": "[37,",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 136,
+                    "end": 139,
+                    "text": "48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 245,
+                    "end": 249,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Users with the described features could benefit from mHealth applications, by keeping all the computation and data on-device and via Natural Language Interfaces (NLI), facilitating communication with applications. By using NLI, even users with low literacy and low IT skills can benefit from mobile applications as well [37] . NLI uses natural language to interact with an application and can solve the literacy problem that Graphical User Interfaces (GUI) present when interacting with mHealth applications [41, 53] . Traditional Information Retrieval (IR) systems are based on distributed servers or resource-intensive processes [28] . To enable reliable user interaction with an mHealth application, we introduce an alternative on-device approach.",
+            "cite_spans": [
+                {
+                    "start": 320,
+                    "end": 324,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 508,
+                    "end": 512,
+                    "text": "[41,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 513,
+                    "end": 516,
+                    "text": "53]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 631,
+                    "end": 635,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Here we propose ODSearch an On-Device Search framework for mobile and wearable devices with NLI. ODSearch enables mHealth applications to search for users' Personal Heath Records (PHRs) using natural language, completely independent from the network itself. Several promising approaches have been proposed including an on-device natural language query interface [53], on-device classification [36, 55] , and on-device clustering [52] . However, the IR component, in particular the search function, is still absent; our work aims to bridge this gap. ODSearch consists of a pipeline of four modules: Query Translator bridges the language gap between the natural language query and the machine query, Bloom Filter, which queries the membership with efficient search space, Compression (i.e., Huffman Coding) which compresses and decompresses the stored dataset and thus facilitates the search, and finally, Answer Translator which presents the results in the natural language, computed from the machine query results.",
+            "cite_spans": [
+                {
+                    "start": 393,
+                    "end": 397,
+                    "text": "[36,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 398,
+                    "end": 401,
+                    "text": "55]",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 429,
+                    "end": 433,
+                    "text": "[52]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "This research provides the following novel contributions:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\u2022 We employ two algorithms (Bloom-filter and Huffman coding) to execute on-device data query and search, in real-time or close to real-time. Our approach outperforms all state-of-the-art methods in response time and battery utilization, and outperforms most for memory utilization. \u2022 We propose a fast and resource-efficient search framework that can operate on small devices, even smartwatches.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "To our knowledge, information retrieval mechanisms on wearables have not been extensively studied. Our experiment shows that state-of-the-art mobile data storage and information retrieval approaches are not suitable for use in small wearables (e.g. smartwatches).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\u2022 We quantify the scalability limitations of current, state-of-the-art methods for searching data on battery-powered devices, including smartwatches and smartphones.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Technological advancements and widespread adoption of mobile and wearable technologies has transformed healthcare services and improved the quality of delivery by offering convenient low-cost apparatuses that provide inexpensive health monitoring and prognosis [12, 25, 27, 39, 73] . Consequently, new scientific disciplines have arisen, such as mobile health (mHealth) or employing wearables for symptom diagnosis, and their popularity has increased from the Covid-19 outbreak [1, 20, 50] . As a result, the demand for mHealth integration into the current healthcare system is also increasing [47] . One primary application of mHealth is operating the devices as a data collection and repository for Personal Health Records (PHRs) [17, 33, 59] that are either manually entered by users [8] , or automatically collected by device sensors, such as physical activities [35, 65] and heart rate [46] . mHealth services provide affordable access to medical facilities, especially in low-income countries with limited resources [3] , which promises to improve the quality of healthcare in those regions. However, despite continuous efforts, mHealth has not yet been extensively adapted [4, 11] .",
+            "cite_spans": [
+                {
+                    "start": 261,
+                    "end": 265,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 266,
+                    "end": 269,
+                    "text": "25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 270,
+                    "end": 273,
+                    "text": "27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 274,
+                    "end": 277,
+                    "text": "39,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 278,
+                    "end": 281,
+                    "text": "73]",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 478,
+                    "end": 481,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 482,
+                    "end": 485,
+                    "text": "20,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 486,
+                    "end": 489,
+                    "text": "50]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 594,
+                    "end": 598,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 732,
+                    "end": 736,
+                    "text": "[17,",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 737,
+                    "end": 740,
+                    "text": "33,",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 741,
+                    "end": 744,
+                    "text": "59]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 787,
+                    "end": 790,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 867,
+                    "end": 871,
+                    "text": "[35,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 872,
+                    "end": 875,
+                    "text": "65]",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 891,
+                    "end": 895,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 1022,
+                    "end": 1025,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1180,
+                    "end": 1183,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1184,
+                    "end": 1187,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "\u2022 We compare compression rate and average encoding/decoding time for lossless compression algorithms for use on battery powered devices.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "This section reviews studies that mitigate IR challenges for mobile and wearable devices. We have organized them into three categories: (i) indexing and information retrieval on resource-constrained devices, (ii) on-device databases and search frameworks, and (iii) text compression algorithms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RELATED WORK"
+        },
+        {
+            "text": "Mobile IR and indexing focus on finding appropriate ways to help users analyze collected contextual data [68] . Although there are advances to on-device machine learning [16] , extensive exploration of mobile IR is still lacking.",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "[68]",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Efficient Information Retrieval and Indexing"
+        },
+        {
+            "text": "Information Retrieval: There are some promising resource-efficient approaches for IR systems such as, Gupta et al. [26] who demonstrated a term-weighting schema-based ranking function, where ranking function was based on fuzzy logic to improve the accuracy of retrieving relevant documents. Subhashini and Kumar et al. [63] concentrated on improving search accuracy through optimizing natural language processing techniques, by considering only nouns and verbs. Rawassizadeh et al. [53] proposed an on-device natural language query interface that can parse closed domain queries, but it does not include information retrieval. These studies did not investigate the issue of searching large amounts of data on small devices.",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 119,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 319,
+                    "end": 323,
+                    "text": "[63]",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 482,
+                    "end": 486,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Efficient Information Retrieval and Indexing"
+        },
+        {
+            "text": "Indexing: Another common approach to facilitate access to large-scale data is indexing. Bia\u0142ecki et al. [7] proposed Apache Lucene 2 , a full-text search engine, that uses an inverted index as a kernel and is widely used as a practical platform in the industry. Yang et al. [72] proposed 'Anserini', an extension toolkit on top of Lucene, that adds a scalable inverted index, streamlined IR, and an architecture enabling multi-stage ranking. Tan et al. [64] designed and implemented an upgraded inverted index combined with a hash function to simplify the inverted index that makes the corresponding query more accurate and memory efficient. Rawassizadeh et al. [52] used spatio-temporal clustering as index construction to facilitate search and reduce the search space by leveraging spatio-temporal indices.",
+            "cite_spans": [
+                {
+                    "start": 104,
+                    "end": 107,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 274,
+                    "end": 278,
+                    "text": "[72]",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 453,
+                    "end": 457,
+                    "text": "[64]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 662,
+                    "end": 666,
+                    "text": "[52]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Efficient Information Retrieval and Indexing"
+        },
+        {
+            "text": "We chose to compare our approach with Lucene [7] , because it is widely used as an inverted index on different platforms. We also benefited from a descriptive solution to design our search framework by employing the temporal filtering mechanism used by Rawassizadeh et al. [52] to reduce the search space.",
+            "cite_spans": [
+                {
+                    "start": 45,
+                    "end": 48,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 273,
+                    "end": 277,
+                    "text": "[52]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Efficient Information Retrieval and Indexing"
+        },
+        {
+            "text": "Tan et al. [64] built one of the earliest resource-efficient search engines that could work on embedded devices with a top-k query algorithm, by using a buffer cache and an inverted index. Their approach is limited to keyword search and not range queries. Lyu et al. [43] proposed an empirical study that local databases often employ as the on-device IR system to provide users data storage and retrieval. They also analyzed and identified that the most frequently used databases in Android are SQLite, Oracle, and Realm. However, continuously using the local databases can lead to excessive power consumption or security problems [43] . Moreover, there are other local databases that can operate on mobile phones and smartwatches with exceptional performance, such as the H2 3 , LevelDB [14] , and ObjectBox [70] .",
+            "cite_spans": [
+                {
+                    "start": 11,
+                    "end": 15,
+                    "text": "[64]",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 267,
+                    "end": 271,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 631,
+                    "end": 635,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 788,
+                    "end": 792,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 809,
+                    "end": 813,
+                    "text": "[70]",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [],
+            "section": "On-device Databases and Search Engines"
+        },
+        {
+            "text": "We chose to compare our approach to three popular databases that run locally on Android devices: SQLLite 4 , Realm 5 , and H2 databases. From a technical perspective, H2 and SQLLite both use a combination of B-tree index and brute force method for searching the data, while Realm only uses B+Tree indices. Therefore, from a lower-level perspective, we are comparing our approach with B-Tree and B+Tree indices. To our knowledge, there is no empirical analysis for databases or search engines that can search data collected by the smartwatch. We compared the execution time, memory utilization, and energy usage in the search tasks on mobile phones and smartwatches of ODSearch against the aforementioned listed databases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "On-device Databases and Search Engines"
+        },
+        {
+            "text": "The majority of lossless compression algorithms can be classified as either statistical-based approaches or dictionarybased approaches [61, 71] . Statistical-based approaches take advantage of each character's frequency and some popular examples are Run-length encoding [24] , Shannon-Fano encoding [19, 62] , Arithmetic encoding [49] , and Huffman encoding [31] . Run-length encoding can effectively compress consecutive repeated characters in a text. Shannon-Fano encoding can construct prefix code to compress symbols based on their probabilities, but it is challenging to achieve optimal compression efficiency [61] . Arithmetic encoding can approximate the optimal compression ratio, but encoding and decoding are very time-consuming [51] . Huffman encoding can approach the optimal compression rate if the frequencies of characters are very large [51] . Huffman encoding is also used in recent federated learning architectures [44] for reducing communication with the server while transferring neural network weights back and forth.",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 139,
+                    "text": "[61,",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 140,
+                    "end": 143,
+                    "text": "71]",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 270,
+                    "end": 274,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 299,
+                    "end": 303,
+                    "text": "[19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 304,
+                    "end": 307,
+                    "text": "62]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 330,
+                    "end": 334,
+                    "text": "[49]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 358,
+                    "end": 362,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 615,
+                    "end": 619,
+                    "text": "[61]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 739,
+                    "end": 743,
+                    "text": "[51]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 853,
+                    "end": 857,
+                    "text": "[51]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 933,
+                    "end": 937,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Text Compression Algorithms"
+        },
+        {
+            "text": "Conversely, dictionary-based approaches store all recurring patterns, including single characters and strings of different lengths, while keeping the mapping relation between patterns and their codes in a dictionary. This makes dictionary-based approaches relatively efficient, but their search process is computationally expensive [51] , possibly resulting in excessive encoding and decoding time. A popular example, Lempel-Ziv-Welch (LZW) compression, also uses a Linux based operating systems [18] .",
+            "cite_spans": [
+                {
+                    "start": 332,
+                    "end": 336,
+                    "text": "[51]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 496,
+                    "end": 500,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Text Compression Algorithms"
+        },
+        {
+            "text": "We compared listed lossless compression later and report our rationale for our decision.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Text Compression Algorithms"
+        },
+        {
+            "text": "IR algorithms refer to algorithms used for indexing and retrieving structured or unstructured information from text, video, images, and audio. Hersh et al. [28] explained that four modules are required for building an IR system for health applications: content, metadata, search engine, and queries. In line with those principles, ODSearch includes four modules: two focused on searching the content and two focused on connecting natural language queries with the search engines. Those modules are (i) Query Translator, (ii) Bloom Filter, (iii) Compression, and (iv) Answer Translator.",
+            "cite_spans": [
+                {
+                    "start": 156,
+                    "end": 160,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "Among these modules, ODSearch builds a pipeline of query, search, and information retrieval, and operates in two phases shown in Figure 1 (a) and (b). The first phase, \"Preprocessing\", focuses on constructing indices for the underlying datasets. It operates periodically, such as once per day, and processes the new data that was added to the system. This phase transfers the raw data from local storage to the Bloom filter and compresses it with Huffman encoding. Bloom filter constructs bit arrays for each day's data entries, which we call the \"Bit Catalogue\". Huffman encoding performs the compression on the original data, and stores it in \"Compressed Local Storage\" (CLS).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 129,
+                    "end": 137,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "METHODS"
+        },
+        {
+            "text": "The second phase is \"Query Execution\". In this phase, the framework uses the \"Query Translator\" to obtain keywords from the natural language query entered by the user. Next, query keywords are searched in Bit Catalogue. If a positive result is returned (i.e., keywords may exist in the content), then the query keywords will be subsequently searched in the CLS. If the keywords do not exist and the result of the Bit Catalogue check is negative, subsequent searching in the CLS and \"Huffman Decoding\" will be skipped. Finally, the \"Answer Translator\" calculates all search results from the previous step and presents the final query result in natural language. The term \"calculate\" here, refers to summation, minimum, maximum, and average. Figure 1 shows the architecture of the ODSearch framework. We have separated the Preprocessing phase from Query Execution for clarity. Each component of Figure 1 will be explained later in more detail.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 740,
+                    "end": 748,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 893,
+                    "end": 901,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "METHODS"
+        },
+        {
+            "text": "With this architecture, we were able to get a near real-time response even with very large amounts of data on a resource-constrained device such as a smartwatch.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS"
+        },
+        {
+            "text": "To conduct our experiments, we used two real-world datasets, one from smartphones and one from smartwatches. We used the \"Ubiqlog\" dataset [59] , generated from a lifelogging tool on mobile phones, and the \"Insight for Wear\" dataset [58] , generated from a continuous sensing tool on a smartwatch. Both UbiqLog 6 and Insight for Wear 7 datasets are publicly available for research purposes.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 143,
+                    "text": "[59]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 233,
+                    "end": 237,
+                    "text": "[58]",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Datasets"
+        },
+        {
+            "text": "Mobile and wearable devices can provide robust and affordable means to access data regarding a users' heart rate, step count, and activity type [21, 22, 30, 34] . Moreover, these are the de-facto standard information objects generated from mobile and wearable device sensors, and they are among the most frequently asked values when users query their PHRs [53] . We use heart rate, step count, and activity type from the \"Insight for Wear\" dataset and the step count and activity type data from the \"UbiqLog\" dataset. Missing data due to a variety of sensors within different devices is inherent in these datasets [54] . Therefore, we chose the user from each dataset (two users total) with the most available data and consequently the fewest missing data points. Choosing the largest dataset available simulates the worst case of a real world search.",
+            "cite_spans": [
+                {
+                    "start": 144,
+                    "end": 148,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 149,
+                    "end": 152,
+                    "text": "22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 153,
+                    "end": 156,
+                    "text": "30,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 157,
+                    "end": 160,
+                    "text": "34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 356,
+                    "end": 360,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 614,
+                    "end": 618,
+                    "text": "[54]",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Datasets"
+        },
+        {
+            "text": "Original PHR data collected from mobile or wearable sensors are all associated with time. A PHR record, r, can be represented within a 3-tuple arrangement: =< , , >. S denotes the sensor name, T is the record's timestamp, and D is the sensor data. We define the combination of S, T, D as the metadata of the content. Among the three categories of the dataset, heart-rate data is recorded as beats per minute (bpm), step count refers to the total number of steps taken in a day. The activity types, including \"still\", \"tilting\", \"onfoot\", \"invehicle\", and \"unkonwn\", were extracted by the Google To demonstrate the scalability of our approach, we created synthetic datasets based on the two real users we selected.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Datasets"
+        },
+        {
+            "text": "The synthetic data is simply a repetition of the original data segment, ignoring the data distribution. The size of the synthetic segments varied between 30 Kb and 48 Mb. According to the number of records, the largest synthetic dataset simulates approximately over three years worth of data. Moreover, the upper limit of 48 Mb was based on the processing capacity of both devices. Table 1 provides a summary of the number of instances that occured in the real-world and synthetic datasets.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 382,
+                    "end": 389,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Datasets"
+        },
+        {
+            "text": "The Bloom filter [13, 42] is a space-efficient probabilistic data structure used to search for member existence within a dataset. A Bloom filter consists of an array of m bits, which can represent n elements in a set = { 1 , 2 , ..., }. Initially, all bits are set to zero. In the process of inserting elements into a database that has a Bloom filter, each element \u2208 is We implemented Bloom filters through Guava [5] Java library. To support Bloom filter query based on time, we insert records from different dates to different Bloom filter instances. It means, we created an independent bit array for each day's data. Bit arrays were collected and stored in the \"Bit Catalogue\". Our \"Bit Catalogue\" a key-value pair data structure whose keys are unique, used date as a key and a bit array as value.",
+            "cite_spans": [
+                {
+                    "start": 17,
+                    "end": 21,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 22,
+                    "end": 25,
+                    "text": "42]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 413,
+                    "end": 416,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Bloom Filter"
+        },
+        {
+            "text": "The process of implementing the Bloom filter module is shown in Figure 2 . First, we extracted the three metadata attributes S, T, D from the original data in local storage, then we assigned the date of T as the key of the Bit Catalogue, and inserted S and D into the bit array, which is the corresponding value for the key. This approach makes each pair (date and bit array) unique and independent in the Bit Catalogue. When a user queries data of a certain period, it can retrieve all dates in the given period and use them to look for the corresponding bit array in the Bit Catalogue. If the queried bit arrays return any positive result, the algorithm proceeds with a query to the next step, which fetches all records containing the keyword. If none of the queried Bloom filters returns a positive result, the searched keyword never appears in the given period. Then, no further search will be done. In other words, the Bloom filter module operates as an 'initial filter' before searching the content of data files. This approach enhances the efficiency of the search and enriches the functionalities of the search framework.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 64,
+                    "end": 72,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Bloom Filter"
+        },
+        {
+            "text": "A Bloom filter is prone to false positives because it could claim an element belongs to a set even when it is absent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. 2. Bloom filter module workflow"
+        },
+        {
+            "text": "However, within our framework, getting false-positive results just means the queried element will be further searched in the next step. The evaluation section demonstrates the significant impact of using the Bloom filter.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Fig. 2. Bloom filter module workflow"
+        },
+        {
+            "text": "Information storage is not typically an issue with cloud systems, but every query involves delays, both in the cloud and on-device. [15, 57, 74] . To reduce the delay, we analyzed several lossless text compression algorithms including, Run-length encoding, Shannon-Fano encoding, Arithmetic encoding, Huffman encoding, and LZW compression [61] .",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 136,
+                    "text": "[15,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 137,
+                    "end": 140,
+                    "text": "57,",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 141,
+                    "end": 144,
+                    "text": "74]",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 339,
+                    "end": 343,
+                    "text": "[61]",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Huffman Encoding and Decoding"
+        },
+        {
+            "text": "Furthermore, based on the results of our analysis, we chose to use Huffman encoding to compress data and facilitate data retrieval from the encoded data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Huffman Encoding and Decoding"
+        },
+        {
+            "text": "Huffman encoding replaces characters that occur more frequently with binary codes that require fewer bits, and replaces less frequent characters with binary codes that require more bits. The process of Huffman encoding starts from counting the frequency of each character, and then a Huffman tree (a type of binary tree) is constructed based on those frequencies. Therefore, a binary representation for each character can be inferred from the Huffman tree. In simple words, Huffman encoding, and the later decoding, are character-based, and suitable for compressing textual content.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Huffman Encoding and Decoding"
+        },
+        {
+            "text": "The implementation of Huffman coding in this work is customized from the existing work in Algorithms [60] . The process flow of Huffman coding is shown in Figure 3 . This module begins with counting the frequency of each character in the sensor data, and then it generates a Huffman tree. Since almost all mobile and wearable health related queries are time-dependent [53] , therefore we compressed the data by time to enable temporal query, and we developed a CLS that included a \"Nested Dictionary\". Here a Nested Dictionary refers to key-value storage, and it uses a dictionary as a value to allocate data by their dates and sensor types. In other words, the CLS is a two-layer dictionary with a nested structure.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "[60]",
+                    "ref_id": null
+                },
+                {
+                    "start": 368,
+                    "end": 372,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 155,
+                    "end": 163,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Huffman Encoding and Decoding"
+        },
+        {
+            "text": "The outer dictionary uses the T as a key and an inner dictionary uses T as a value. It means, we create a new dictionary Manuscript submitted to ACM for each T. The internal dictionary assigns S, sensor name, as a key and a collection of the sensor data's binary codes as value. All of the sensor data's binary codes will be collected in an array and stored in the value of the inner dictionary.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Huffman Encoding and Decoding"
+        },
+        {
+            "text": "For instance, if we refer to an activity type PHR on 08/01/2021 showing \"onfoot\" as the sensor data, it will be encoded as 001011011100001010. And if we define the content between curly braces as a dictionary (i.e., key: value) and the content between square brackets as an array, the sensor reading will be stored in the Nested Dictionary as {\"08-01-2021\":",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Huffman Encoding and Decoding"
+        },
+        {
+            "text": "{\"activity\": [001011011100001010]}}. Inside the Nested Dictionary, \"08-01-2021\" is the key of the outer dictionary and \"activity\" is the key of the inner dictionary, and [001011011100001010] is the value of the inner dictionary. Using this compression level, we can process keyword-based queries for sensor data, sensor type, and date. We encoded the query keyword (keyword is extracted from user query) from the constructed Huffman tree and then searched for them in the CLS. After fetching all the compressed results matching the three criteria (date, sensor type, and keyword for sensor data), we used \"Huffman Decoding\" to translate the query results into human-understandable text. However, if the query does not search for a specific keyword, all records that match the date and sensor type will be retrieved.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Huffman Encoding and Decoding"
+        },
+        {
+            "text": "We report the difference between using and not using this type of Huffman coding in the \"Experimental Evaluation\" section. In Figure 3 , the dotted lines show that the execution of Huffman encoding depends on keyword-based queries and the presence of the keyword. However, since results will always be decoded from the CLS, we do not use a dotted line for Huffman decoding.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 126,
+                    "end": 134,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Huffman Encoding and Decoding"
+        },
+        {
+            "text": "To enable the NLI, we designed a translation component (Query Translator) between users' questions (natural-language query) and machine understandable language. \"Query Translator\" extracts keywords from users' queries and organize Rawassizadeh et al. [53] proposed that user's natural language query can be processed with four dictionaries of keywords including: (a) question words, such as \"how many\" or \"what\"; (b) temporal notion, such as \"today\" or \"this",
+            "cite_spans": [
+                {
+                    "start": 251,
+                    "end": 255,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Query Translator and Answer Translator"
+        },
+        {
+            "text": "week\"; (c) sensor name, such as \"heart rate\" or \"activity\"; and (d) aggregation words, such as \"total\" or \"average\". However, there is no implementation proposal that execute the query on the underlying dataset. Therefore, we implemented \"Query Translator\" to bridge this gap, and it implements query classifications proposed by previous works [38] to construct the machine query. Figure 4 presents the workflow of the \"Query Translator\" and \"Answer Translator\" modules. Query Translator begins by identifying four query keywords: a question word, a subject word, a temporal notion, and an aggregation word. This classification and possible types of questions that users could ask about their PHR, have been proposed in previous works [53] .",
+            "cite_spans": [
+                {
+                    "start": 344,
+                    "end": 348,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 735,
+                    "end": 739,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 381,
+                    "end": 389,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Query Translator and Answer Translator"
+        },
+        {
+            "text": "We identified query types by conducting a manual qualitative analysis of the question dataset proposed in [53] .",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 110,
+                    "text": "[53]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Query Translator and Answer Translator"
+        },
+        {
+            "text": "Two researchers performed theme analysis and their Fleiss-Kappa score was 82%, indicating a substantial agreement.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Query Translator and Answer Translator"
+        },
+        {
+            "text": "The descriptions of query types are shown in Table 2, and Table 3 presents examples of parsing five different query types. We take the query type to refine essential information of the natural language query and use it to control the \"Answer Translator\". For example, one of the query types is \"keyword existence\", which means the query only asks for the membership of a keyword; hence only Bit Catalogue will be queried, and subsequent search on the CLS will be skipped. After the keywords and the query type are identified, the \"Query Processing\" component, which consists of the Bloom Filter and Huffman Coding, will search the preprocessed data and return records matching the query keywords. However, before presenting returned records to users the \"Answer Translator\" decorates them and converts them to natural language text. In particular, the \"Answer Translator\" performs two tasks: (i) it calculates the query results based on the query type; and (ii) it performs natural language decoration on the query result. The computed result can be either boolean or numeric results. In both cases, they are decorated in a human-readable expression, and the final query result is presented on the user interface. For example, if a user query is \"How many times did I run this month?\", the query type will be \"keyword count\" and the query type calculator will return a numeric value. Assuming that the result is '7', the natural language decorator will tell the user \"You did it 7 times\", which the value '7' is wrapped in a human-readable text.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 45,
+                    "end": 65,
+                    "text": "Table 2, and Table 3",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Query Translator and Answer Translator"
+        },
+        {
+            "text": "Query Type Description keyword existence Check the membership of a keyword in a specific period keyword count Count the frequency of a keyword in a specific period period max/min Calculate the maximum/minimum value in a specific period, such as maximum daily steps in a month period sum Calculate the sum value in a specific period, such as the total steps in a week period average Calculate the average value in a specific period, such as the average heart rate in a one day ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Query Translator and Answer Translator"
+        },
+        {
+            "text": "In this section, we first evaluate the compression efficiency of the listed lossless compression algorithms. Next, we report the impact of using or not using the Bloom filter or Huffman coding in our approach. We then provide a comparison between state-of-the-art search methods (SOTA) and ODSearch. To perform this comparison, we measured query response time, memory usage, energy consumption, and scalability on smartphones and smartwatches.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "EXPERIMENTAL EVALUATION"
+        },
+        {
+            "text": "All search experiments were implemented on a mobile phone and a smartwatch. We built a mHealth conversational interface, based on UbiqLog architecture [59] for both mobile phones and smartwatches to query a user's PHRs, and then obtain performance metrics (response time, memory utilization, and energy usage) for each experiment.",
+            "cite_spans": [
+                {
+                    "start": 151,
+                    "end": 155,
+                    "text": "[59]",
+                    "ref_id": "BIBREF58"
+                }
+            ],
+            "ref_spans": [],
+            "section": "EXPERIMENTAL EVALUATION"
+        },
+        {
+            "text": "The mobile phone device we used for experiments is Oukitel C12, equipped with 2 GB RAM, 16 GB Storage, and a 3300 mAh battery. The smartwatch device is TicWatch S2, which has only 512 MB RAM, 4 GB storage, and a 415 mAh battery. The smartphone's operating system is Android OS version 8.1, and the smartwatch is wearOS version 2.32.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Experiments Setup"
+        },
+        {
+            "text": "To cover different states of information retrieval in our experiments, we made five sample queries (see Table 3 ), covering various question words, temporal terms, subjects, and aggregation words. Henceforth, we will refer to these queries using their alphabetical acronym (symbols in Table 3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 104,
+                    "end": 111,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 285,
+                    "end": 292,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Experiments Setup"
+        },
+        {
+            "text": "To reduce the stochasticity of experiments each of our experiment has been repeated five times and the average number is reported as a result. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Experiments Setup"
+        },
+        {
+            "text": "We compared five well-known lossless compression algorithms [61] to encode and decode a set of sensor data. To make our experiment dataset as stochastic as the real-world data, we synthesized random sensor data. The synthesized data was from the existing real-world data, but its sensor values were permuted. The size of the synthetic dataset was 188,889 Bytes which was made up of 30,000 records, including 10,000 entries for activity type, 10,000 entries for step number, and 10,000 entries for heart rate. LZW encoding had the highest computational complexity among the five algorithms, and achieved the highest compression ratio. Due to its complexity it required the longest time for encoding, 18 times more than Huffman encoding's time.",
+            "cite_spans": [
+                {
+                    "start": 60,
+                    "end": 64,
+                    "text": "[61]",
+                    "ref_id": "BIBREF60"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Compression Algorithms Comparison"
+        },
+        {
+            "text": "Manuscript submitted to ACM Based on the results presented in Table 4 , we selected Huffman encoding because (i) Huffman encoding presented the best time efficiency based on the sum of encoding and decoding time, and were very close to the best result; (ii) although LZW had the best compression ratio, it is computationally too expensive for encoding, which is a significant issue on resource-constrained devices such as smartwatches; and (iii) compared with other compression methods in the experiment, Huffman encoding outperformed all in at least one aspects of compression ratio, encoding time, and decoding time.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 62,
+                    "end": 69,
+                    "text": "Table 4",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Compression Algorithms Comparison"
+        },
+        {
+            "text": "The backbone of our search framework is Bloom filters and compression (Huffman Coding ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Bloom Filter and Huffman Coding Impact"
+        },
+        {
+            "text": "This section reports execution time, memory utilization, and energy usage of our approach compared to four State-ofthe-Art (SOTA) methods. Three SOTA databases that are used on mobile or wearable devices were selected, including SQLLite, Realm and H2. Lucene was also selected even though it is not a database itself, but because it is a popular indexing mechanism that is implemented on mobile devices [7, 9, 10] .",
+            "cite_spans": [
+                {
+                    "start": 403,
+                    "end": 406,
+                    "text": "[7,",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 407,
+                    "end": 409,
+                    "text": "9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 410,
+                    "end": 413,
+                    "text": "10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Comparison with State-of-The-Art"
+        },
+        {
+            "text": "To enable ODSearch implementation on real-world mHealth applications, an essential factor that directly affects the user experience is the execution time (a.k.a. response time) [56, 67] . The execution time starts when the user sends a query and ends when the user receives the answer. As described above, we used SQLite, Realm, H2, and Lucene.",
+            "cite_spans": [
+                {
+                    "start": 177,
+                    "end": 181,
+                    "text": "[56,",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 182,
+                    "end": 185,
+                    "text": "67]",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Execution Time"
+        },
+        {
+            "text": "Additionally, we added a brute force search as a baseline.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Execution Time"
+        },
+        {
+            "text": "The mobile phone and smartwatch execution time results are shown separately in Table 6 (a) and (b). In addition, Figure 5 presents the average execution time of the five queries from Table 6 . Results in Figure 5 shows that our approach significantly outperforms all other search mechanisms on both devices. For both smartphone and smartwatch, on average, the execution time is 55 times faster than SOTA methods and 6 times faster than the fastest SOTA method,",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 79,
+                    "end": 86,
+                    "text": "Table 6",
+                    "ref_id": "TABREF10"
+                },
+                {
+                    "start": 113,
+                    "end": 121,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF6"
+                },
+                {
+                    "start": 183,
+                    "end": 190,
+                    "text": "Table 6",
+                    "ref_id": "TABREF10"
+                },
+                {
+                    "start": 204,
+                    "end": 212,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Execution Time"
+        },
+        {
+            "text": "i.e., Realm. Although it is not common to report, we also report the execution time of the preprocessing for each search method. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Execution Time"
+        },
+        {
+            "text": "In comparison to conventional computers, another limited resource in mobile or wearable devices is memory [6] . We use the memory profiler 9 in Android Studio to collect the memory usage of the device in real-time. Memory profiler identified that the preprocessing of all search tools required the most amount of memory. ",
+            "cite_spans": [
+                {
+                    "start": 106,
+                    "end": 109,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 139,
+                    "end": 140,
+                    "text": "9",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Memory Utilization"
+        },
+        {
+            "text": "Mobile and wearable devices are known for their limited battery capacity [29, 58] and energy utilization directly affects the usability of the device [69] . We report the energy usage for query execution to identify the energy impact of ODSearch. Energy usage monitoring started when a query input was entered into the GUI and ended when the user received the answer. To monitor the battery usage in millijoules ( ) or joules ( ), we analyzed the battery changes at its current ampere ( ) and voltage ( ). Since we know the interval of a query or reprocessing (in second, ), we can compute the energy consumption based on the following equation: 1 (1000 ) = 1 \u00d7 1 \u00d7 1 Table 8 shows the average energy usage in millijoules for the five repeated queries, on both devices. Moreover, Figure   7 presents the average results of the five sample queries from ",
+            "cite_spans": [
+                {
+                    "start": 73,
+                    "end": 77,
+                    "text": "[29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 78,
+                    "end": 81,
+                    "text": "58]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 150,
+                    "end": 154,
+                    "text": "[69]",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 668,
+                    "end": 675,
+                    "text": "Table 8",
+                    "ref_id": null
+                },
+                {
+                    "start": 780,
+                    "end": 790,
+                    "text": "Figure   7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Energy Usage"
+        },
+        {
+            "text": "To measure scalability, we examined how the performance of the different search methods changes as the data size increased. We used synthetic datasets with increasing sizes for this experiment. As discussed, the synthetic datasets were constructed from the real-world data of users, but the sizes of synthetic datasets varied, i.e., 30kB, 3MB, 6MB, 12MB, 18MB, 24MB, 30MB, 36MB, 42MB, 48MB.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Scalability"
+        },
+        {
+            "text": "4.8.1 Scalability on Mobile Phone. First, we measured the memory utilization of preprocessing for each data size. If the data size was too large, the preprocessing would be terminated and is shown as an \"ERROR\" representing Java \"Out Of Memory Error\" in our report. We also explored the changes in response time as a function of the size of the dataset. Since the difference among the query response times is too large to visualize, we report the response times for the five sample queries with logarithmic scale (see Figure 8 ). In all of these experiments, ODSearch outperforms all other methods. Another advantage of",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 518,
+                    "end": 526,
+                    "text": "Figure 8",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Scalability"
+        },
+        {
+            "text": "ODSearch is its constant efficiency as illustrated by queries a and c (see Figure 8 ). This is because both queries a and c are membership queries and ODSearch uses Bloom filter to query membership with (1) complexity for our synthetic datasets.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 75,
+                    "end": 83,
+                    "text": "Figure 8",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Scalability"
+        },
+        {
+            "text": "Moreover, we report the energy usage for querying different sizes of data. Since the energy usage also differs for different dataset sizes, we use a logarithmic scale to present five charts for the five sample queries in Figure 9 . ODSearch consumed the least amount of energy and also outperformed all other methods in terms of energy consumption. 10 Based on our experiment 1MB of data is an average data for one week and existing fitness trackers are usually presenting data for one week. Table 10 . Maximum memory utilization (in MB) of preprocessing synthetic dataset on smartwatch. \"Error\" here refers to Java \"Out of Memory Error\".",
+            "cite_spans": [
+                {
+                    "start": 349,
+                    "end": 351,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 221,
+                    "end": 229,
+                    "text": "Figure 9",
+                    "ref_id": "FIGREF10"
+                },
+                {
+                    "start": 492,
+                    "end": 500,
+                    "text": "Table 10",
+                    "ref_id": null
+                }
+            ],
+            "section": "Scalability"
+        },
+        {
+            "text": "We also report marginal memory utilization on a smartwatch. These results are calculated between their maximal loadable synthetic dataset (30 MB For clarity the Y axis is presented in logarithmic scale. Note that the intervals between data sizes on X axis are not equal. Fig. 11 . Energy usage of querying synthetic data on smartwatch. For clarity the Y axis is presented in logarithmic scale. Note that the intervals between data sizes on X axis are not equal. Figure 10 presents the query response time on a smartwatch, and Figure 11 presents the energy usage for the five sample queries. According to the response time and energy utilization results, ODSearch is the most energy-efficient and the fastest method. These results also verify that, even on the smartwatch, ODSearch can answer a query between 0.01 seconds and 0.7 second, which can be considered as a real-time response.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 144,
+                    "text": "(30 MB",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 271,
+                    "end": 278,
+                    "text": "Fig. 11",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 462,
+                    "end": 471,
+                    "text": "Figure 10",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 526,
+                    "end": 535,
+                    "text": "Figure 11",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Scalability on Smartwatch."
+        },
+        {
+            "text": "In this work, we describe ODSearch, a network-independent, fast, and resource-efficient search framework that interacts with natural language and answers queries on mobile phones and wearables in real-time or near real-time. Our method consists of four modules, of which Query Translator and Answer Translator modules are designed for natural language interaction, and Bloom Filter and Huffman Coding modules are built for efficient information retrieval. We have experimented with several loss-less compression algorithms and demonstrate that Huffman coding is the best compression algorithm for ODSearch, and it can significantly improve the execution time of the search operation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION AND FUTURE WORK"
+        },
+        {
+            "text": "Furthermore, we present that ODSearch can query in real-time on mobile phone and smartwatch devices and outperform state-of-the-art search methods on large or small datasets, in execution time, energy utilization and memory use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION AND FUTURE WORK"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Can mHealth technology help mitigate the effects of the COVID-19 pandemic?",
+            "authors": [
+                {
+                    "first": "Stacy",
+                    "middle": [],
+                    "last": "Catherine P Adans-Dester",
+                    "suffix": ""
+                },
+                {
+                    "first": "Francesco",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Bamberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "Brian",
+                    "middle": [],
+                    "last": "Bertacchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kara",
+                    "middle": [],
+                    "last": "Caulfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "Danilo",
+                    "middle": [],
+                    "last": "Chappie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kelley",
+                    "middle": [],
+                    "last": "Demarchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Juan",
+                    "middle": [],
+                    "last": "Erb",
+                    "suffix": ""
+                },
+                {
+                    "first": "Eric",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Estrada",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Fabara",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Freni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE Open Journal of Engineering in Medicine and Biology",
+            "volume": "1",
+            "issn": "",
+            "pages": "243--248",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "2020. mHealth communication framework using blockchain and IoT technologies",
+            "authors": [
+                {
+                    "first": "Tanweer",
+                    "middle": [],
+                    "last": "Alam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Scientific & Technology Research",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Systematic review on what works, what does not work and why of implementation of mobile health (mHealth) projects in Africa",
+            "authors": [
+                {
+                    "first": "Neo",
+                    "middle": [],
+                    "last": "Clara B Aranda-Jan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Svetla",
+                    "middle": [],
+                    "last": "Mohutsiwa-Dibe",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Loukanova",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "BMC public health",
+            "volume": "14",
+            "issn": "",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Factors affecting implementation of digital health interventions for people with psychosis or bipolar disorder, and their family and friends: a systematic review",
+            "authors": [
+                {
+                    "first": "Golnar",
+                    "middle": [],
+                    "last": "Aref-Adib",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tayla",
+                    "middle": [],
+                    "last": "Mccloud",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jamie",
+                    "middle": [],
+                    "last": "Ross",
+                    "suffix": ""
+                },
+                {
+                    "first": "O&apos;",
+                    "middle": [],
+                    "last": "Puffin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Victoria",
+                    "middle": [],
+                    "last": "Hanlon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sarah",
+                    "middle": [],
+                    "last": "Appleton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elizabeth",
+                    "middle": [],
+                    "last": "Rowe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sonia",
+                    "middle": [],
+                    "last": "Murray",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fiona",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lobban",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "The Lancet Psychiatry",
+            "volume": "6",
+            "issn": "",
+            "pages": "257--266",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Getting Started with Google Guava",
+            "authors": [
+                {
+                    "first": "Bill",
+                    "middle": [],
+                    "last": "Bejeck",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Sparsification and separation of deep learning layers for constrained resource inference on wearables",
+            "authors": [
+                {
+                    "first": "Sourav",
+                    "middle": [],
+                    "last": "Bhattacharya",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nicholas",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Lane",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Proceedings of the 14th ACM Conference on Embedded Network Sensor Systems CD-ROM",
+            "volume": "",
+            "issn": "",
+            "pages": "176--189",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Grant Ingersoll, and Lucid Imagination",
+            "authors": [
+                {
+                    "first": "Andrzej",
+                    "middle": [],
+                    "last": "Bia\u0142ecki",
+                    "suffix": ""
+                },
+                {
+                    "first": "Robert",
+                    "middle": [],
+                    "last": "Muir",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "SIGIR 2012 workshop on open source information retrieval",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Patient health record systems scope and functionalities: literature review and future directions",
+            "authors": [
+                {
+                    "first": "Lina",
+                    "middle": [],
+                    "last": "Bouayad",
+                    "suffix": ""
+                },
+                {
+                    "first": "Anna",
+                    "middle": [],
+                    "last": "Ialynytchev",
+                    "suffix": ""
+                },
+                {
+                    "first": "Balaji",
+                    "middle": [],
+                    "last": "Padmanabhan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of medical Internet research",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A mobile phone information search engine based on Heritrix and Lucene",
+            "authors": [
+                {
+                    "first": "Jianxia",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wei",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chunzhi",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "7th International Conference on Computer Science & Education (ICCSE)",
+            "volume": "",
+            "issn": "",
+            "pages": "1602--1604",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Semantic Search of Mobile Applications Using Word Embeddings",
+            "authors": [
+                {
+                    "first": "Jo\u00e3o",
+                    "middle": [],
+                    "last": "Coelho",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ant\u00f3nio",
+                    "middle": [],
+                    "last": "Neto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Miguel",
+                    "middle": [],
+                    "last": "Tavares",
+                    "suffix": ""
+                },
+                {
+                    "first": "Carlos",
+                    "middle": [],
+                    "last": "Coutinho",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ricardo",
+                    "middle": [],
+                    "last": "Ribeiro",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fernando",
+                    "middle": [],
+                    "last": "Batista",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "10th Symposium on Languages, Applications and Technologies (SLATE 2021). Schloss Dagstuhl-Leibniz-Zentrum f\u00fcr Informatik",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "mHealth interventions in low-income countries to address maternal health: a systematic review",
+            "authors": [
+                {
+                    "first": "Daniela",
+                    "middle": [],
+                    "last": "Colaci",
+                    "suffix": ""
+                },
+                {
+                    "first": "Simran",
+                    "middle": [],
+                    "last": "Chaudhri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ashwin",
+                    "middle": [],
+                    "last": "Vasan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Annals of global health",
+            "volume": "82",
+            "issn": "",
+            "pages": "922--935",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "5G in healthcare: how fast will be the transformation?",
+            "authors": [
+                {
+                    "first": "Sathian",
+                    "middle": [],
+                    "last": "Dananjayan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gerard",
+                    "middle": [],
+                    "last": "Marshall Raj",
+                    "suffix": ""
+                }
+            ],
+            "year": 1971,
+            "venue": "Irish Journal of Medical Science",
+            "volume": "190",
+            "issn": "",
+            "pages": "497--501",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "BloomFlash: Bloom filter on flash-based storage",
+            "authors": [
+                {
+                    "first": "Biplob",
+                    "middle": [],
+                    "last": "Debnath",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sudipta",
+                    "middle": [],
+                    "last": "Sengupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jin",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "David Hc",
+                    "middle": [],
+                    "last": "Lilja",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "2011 31st International Conference on Distributed Computing Systems",
+            "volume": "",
+            "issn": "",
+            "pages": "635--644",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Getting started with LevelDB",
+            "authors": [
+                {
+                    "first": "Andy",
+                    "middle": [],
+                    "last": "Dent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "On-device machine learning: An algorithms and learning theory perspective",
+            "authors": [
+                {
+                    "first": "Sauptik",
+                    "middle": [],
+                    "last": "Dhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Junyao",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiayi",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Samarth",
+                    "middle": [],
+                    "last": "Tripathi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Unmesh",
+                    "middle": [],
+                    "last": "Kurup",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mohak",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1911.00623"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Unmesh Kurup, and Mohak Shah. 2021. A survey of on-device machine learning: An algorithms and learning theory perspective",
+            "authors": [
+                {
+                    "first": "Sauptik",
+                    "middle": [],
+                    "last": "Dhar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Junyao",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiayi",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Samarth",
+                    "middle": [],
+                    "last": "Tripathi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "ACM Transactions on Internet of Things",
+            "volume": "2",
+            "issn": "",
+            "pages": "1--49",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Detecting physical activity within lifelogs towards preventing obesity and aiding ambient assisted living",
+            "authors": [
+                {
+                    "first": "Chelsea",
+                    "middle": [],
+                    "last": "Dobbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elaheh",
+                    "middle": [],
+                    "last": "Momeni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Neurocomputing",
+            "volume": "230",
+            "issn": "",
+            "pages": "110--132",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Hybrid Control-Flow Checking with On-Line Statistics",
+            "authors": [
+                {
+                    "first": "Maro",
+                    "middle": [],
+                    "last": "Duricek",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tibor",
+                    "middle": [],
+                    "last": "Krajcovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "4th Eastern European Regional Conference on the Engineering of Computer Based Systems",
+            "volume": "",
+            "issn": "",
+            "pages": "122--125",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The transmission of information",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rm Fano",
+                    "suffix": ""
+                }
+            ],
+            "year": 1949,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Mehdi Hosseinzadeh, and Reza Rawassizadeh. 2021. 11 Years with Wearables: Quantitative Analysis of Social Media, Academia, News Agencies, and Lead User Community from 2009-2020 on Wearable Technologies. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+            "authors": [
+                {
+                    "first": "Yanglei",
+                    "middle": [],
+                    "last": "Gan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tianyi",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alireza",
+                    "middle": [],
+                    "last": "Javaheri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elaheh",
+                    "middle": [],
+                    "last": "Momeni-Ortner",
+                    "suffix": ""
+                },
+                {
+                    "first": "Milad",
+                    "middle": [],
+                    "last": "Dehghani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "1--26",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Can wearable devices accurately measure heart rate variability? A systematic review",
+            "authors": [
+                {
+                    "first": "Konstantinos",
+                    "middle": [],
+                    "last": "Georgiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andreas",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Larentzakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Nehal",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Khamis",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ghadah I Alsuhaibani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yasser",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elias",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Alaska",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Giallafos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Folia medica",
+            "volume": "60",
+            "issn": "",
+            "pages": "7--20",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Deep neural networks for human activity recognition with wearable sensors: Leave-one-subject-out cross-validation for model selection",
+            "authors": [
+                {
+                    "first": "Davoud",
+                    "middle": [],
+                    "last": "Gholamiangonabadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nikita",
+                    "middle": [],
+                    "last": "Kiselov",
+                    "suffix": ""
+                },
+                {
+                    "first": "Katarina",
+                    "middle": [],
+                    "last": "Grolinger",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE Access",
+            "volume": "8",
+            "issn": "",
+            "pages": "133982--133994",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The information dilemma: How ICT strengthen or weaken authoritarian rule",
+            "authors": [
+                {
+                    "first": "Christian",
+                    "middle": [],
+                    "last": "G\u00f6bel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Statsvetenskaplig tidskrift",
+            "volume": "115",
+            "issn": "",
+            "pages": "367--384",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Run-length encodings (corresp.)",
+            "authors": [
+                {
+                    "first": "Solomon",
+                    "middle": [],
+                    "last": "Golomb",
+                    "suffix": ""
+                }
+            ],
+            "year": 1966,
+            "venue": "IEEE transactions on information theory",
+            "volume": "12",
+            "issn": "",
+            "pages": "399--401",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Verifiable privacy-preserving monitoring for cloud-assisted mhealth systems",
+            "authors": [
+                {
+                    "first": "Linke",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yuguang",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ming",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pan",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "2015 IEEE Conference on Computer Communications (INFOCOM)",
+            "volume": "",
+            "issn": "",
+            "pages": "1026--1034",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A new fuzzy logic based ranking function for efficient information retrieval system",
+            "authors": [
+                {
+                    "first": "Yogesh",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ashish",
+                    "middle": [],
+                    "last": "Saini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Saxena",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Expert Systems with Applications",
+            "volume": "42",
+            "issn": "",
+            "pages": "1223--1234",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Securing electronic healthcare records: A mobile-based biometric authentication approach",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jigna",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sudeep",
+                    "middle": [],
+                    "last": "Hathaliya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Richard",
+                    "middle": [],
+                    "last": "Tanwar",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Evans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Information Security and Applications",
+            "volume": "53",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Information retrieval: A biomedical and health perspective",
+            "authors": [
+                {
+                    "first": "William",
+                    "middle": [],
+                    "last": "Hersh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hersh",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Weston",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Understanding Smartwatch Battery Utilization in the Wild",
+            "authors": [
+                {
+                    "first": "Morteza",
+                    "middle": [],
+                    "last": "Homayounfar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Amirhossein",
+                    "middle": [],
+                    "last": "Malekijoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aku",
+                    "middle": [],
+                    "last": "Visuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chelsea",
+                    "middle": [],
+                    "last": "Dobbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ella",
+                    "middle": [],
+                    "last": "Peltonen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Eugene",
+                    "middle": [],
+                    "last": "Pinsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kia",
+                    "middle": [],
+                    "last": "Teymourian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sensors",
+            "volume": "20",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Validity of FitBit, Jawbone UP, Nike+ and other wearable devices for level and stair walking",
+            "authors": [
+                {
+                    "first": "Yangjian",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Junkai",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bo",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Peter B",
+                    "middle": [],
+                    "last": "Shull",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Gait & posture",
+            "volume": "48",
+            "issn": "",
+            "pages": "36--41",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "A method for the construction of minimum-redundancy codes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "David",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Huffman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1952,
+            "venue": "Proceedings of the IRE",
+            "volume": "40",
+            "issn": "",
+            "pages": "1098--1101",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Security and privacy for mhealth and uhealth systems: A systematic mapping study",
+            "authors": [
+                {
+                    "first": "Leonardo",
+                    "middle": [],
+                    "last": "Horn Iwaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aakash",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M Ali",
+                    "middle": [],
+                    "last": "Babar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "IEEE Access",
+            "volume": "8",
+            "issn": "",
+            "pages": "150081--150112",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Memento: An emotion-driven lifelogging system with wearables",
+            "authors": [
+                {
+                    "first": "Shiqi",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhenjiang",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pengfei",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mo",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "ACM Transactions on Sensor Networks (TOSN)",
+            "volume": "15",
+            "issn": "",
+            "pages": "1--23",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Recommendations for determining the validity of consumer wearable and smartphone step count: expert statement and checklist of the INTERLIVE network",
+            "authors": [
+                {
+                    "first": "William",
+                    "middle": [],
+                    "last": "Johnston",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pedro",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Judice",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pablo",
+                    "middle": [
+                        "Molina"
+                    ],
+                    "last": "Garc\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jan",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "M\u00fchlen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Esben",
+                    "middle": [
+                        "Lykke"
+                    ],
+                    "last": "Skovgaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "Julie",
+                    "middle": [],
+                    "last": "Stang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Moritz",
+                    "middle": [],
+                    "last": "Schumann",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shulin",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wilhelm",
+                    "middle": [],
+                    "last": "Bloch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jan",
+                    "middle": [
+                        "Christian"
+                    ],
+                    "last": "Br\u00f8nd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "British Journal of Sports Medicine",
+            "volume": "55",
+            "issn": "",
+            "pages": "780--793",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Amine Bahi, and Carole Frindel. 2020. Privacy-Preserving IoT framework for activity recognition in personal healthcare monitoring",
+            "authors": [
+                {
+                    "first": "Th\u00e9o",
+                    "middle": [],
+                    "last": "Jourdan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Antoine",
+                    "middle": [],
+                    "last": "Boutet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACM Transactions on Computing for Healthcare",
+            "volume": "2",
+            "issn": "",
+            "pages": "1--22",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Sefr: A fast linear-time classifier for ultra-low power devices",
+            "authors": [
+                {
+                    "first": "Hamidreza",
+                    "middle": [],
+                    "last": "Keshavarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Mohammad Saniee Abadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2006.04620"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "How a Conversational Agent Might Help Farmers in the Field",
+            "authors": [
+                {
+                    "first": "Bevan",
+                    "middle": [],
+                    "last": "Koopman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Guido",
+                    "middle": [],
+                    "last": "Zuccon",
+                    "suffix": ""
+                },
+                {
+                    "first": "Scott",
+                    "middle": [],
+                    "last": "Chapman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yash",
+                    "middle": [],
+                    "last": "Dang",
+                    "suffix": ""
+                },
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Lawrence",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "SIGIR 3th International Workshop on Conversational Approaches to Information Retrieval (CAIR'20)",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "NaLIR: an interactive natural language interface for querying relational databases",
+            "authors": [
+                {
+                    "first": "Fei",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Hosagrahar",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Jagadish",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Proceedings of the 2014 ACM SIGMOD international conference on Management of data",
+            "volume": "",
+            "issn": "",
+            "pages": "709--712",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Just-in-time but not too much: Determining treatment timing in mobile health",
+            "authors": [
+                {
+                    "first": "Peng",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Walter",
+                    "middle": [],
+                    "last": "Dempsey",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hillol",
+                    "middle": [],
+                    "last": "Sarker",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mustafa",
+                    "middle": [],
+                    "last": "Syed Monowar Hossain",
+                    "suffix": ""
+                },
+                {
+                    "first": "Predrag",
+                    "middle": [],
+                    "last": "Al&apos;absi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Susan",
+                    "middle": [],
+                    "last": "Klasnja",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Murphy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proceedings of the ACM on interactive, mobile, wearable and ubiquitous technologies",
+            "volume": "2",
+            "issn": "",
+            "pages": "1--21",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Blockchain Technology in Healthcare: A Scientific and Technological Driving Force",
+            "authors": [
+                {
+                    "first": "Chang",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shu",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Irena",
+                    "middle": [],
+                    "last": "Vodenska",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lou",
+                    "middle": [],
+                    "last": "Chitkushev",
+                    "suffix": ""
+                },
+                {
+                    "first": "Guanglan",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shahin",
+                    "middle": [],
+                    "last": "Gheitanchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "2021 IEEE 34th International Symposium on Computer-Based Medical Systems (CBMS)",
+            "volume": "",
+            "issn": "",
+            "pages": "550--555",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Toward Accurate and Efficient Feature Selection for Speaker Recognition on Wearables",
+            "authors": [
+                {
+                    "first": "Rui",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Kotz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the 2017 Workshop on Wearable Systems and Applications",
+            "volume": "",
+            "issn": "",
+            "pages": "41--46",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Optimizing bloom filter: Challenges, solutions, and comparisons",
+            "authors": [
+                {
+                    "first": "Lailong",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Deke",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Richard",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ori",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xueshan",
+                    "middle": [],
+                    "last": "Rottenstreich",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "IEEE Communications Surveys & Tutorials",
+            "volume": "21",
+            "issn": "",
+            "pages": "1912--1949",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "An empirical study of local database usage in android applications",
+            "authors": [
+                {
+                    "first": "Yingjun",
+                    "middle": [],
+                    "last": "Lyu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiaping",
+                    "middle": [],
+                    "last": "Gui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mian",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "William Gj",
+                    "middle": [],
+                    "last": "Halfond",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "2017 IEEE International Conference on Software Maintenance and Evolution (ICSME)",
+            "volume": "",
+            "issn": "",
+            "pages": "444--455",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Morteza Homayounfar, Farshid Alizadeh-Shabdiz, and Reza Rawassizadeh. 2021. FEDZIP: A Compression Framework for Communication-Efficient Federated Learning",
+            "authors": [
+                {
+                    "first": "Amirhossein",
+                    "middle": [],
+                    "last": "Malekijoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mohammad",
+                    "middle": [
+                        "Javad"
+                    ],
+                    "last": "Fadaeieslam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hanieh",
+                    "middle": [],
+                    "last": "Malekijou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2102.01593"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Health expenditure, literacy and economic growth: PMG evidence from Asian countries",
+            "authors": [
+                {
+                    "first": "Bilal",
+                    "middle": [],
+                    "last": "Mehmood",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shabana",
+                    "middle": [],
+                    "last": "Syed Hassan Raza",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mureed",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Euro-Asian Journal of Economics and Finance",
+            "volume": "2",
+            "issn": "",
+            "pages": "408--417",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Heartsense: Ubiquitous accurate multi-modal fusion-based heart rate estimation using smartphones",
+            "authors": [
+                {
+                    "first": "Reham",
+                    "middle": [],
+                    "last": "Mohamed",
+                    "suffix": ""
+                },
+                {
+                    "first": "Moustafa",
+                    "middle": [],
+                    "last": "Youssef",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+            "volume": "1",
+            "issn": "",
+            "pages": "1--18",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Mobile health applications for disease screening and treatment support in low-and middle-income countries: A narrative review",
+            "authors": [
+                {
+                    "first": "Ernest",
+                    "middle": [],
+                    "last": "Osei",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Tivani",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mashamba-Thompson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Heliyon",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "The mhealth",
+            "authors": [
+                {
+                    "first": "Alessia",
+                    "middle": [],
+                    "last": "Paglialonga",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alfonso",
+                    "middle": [],
+                    "last": "Mastropietro",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elisa",
+                    "middle": [],
+                    "last": "Scalco",
+                    "suffix": ""
+                },
+                {
+                    "first": "Giovanna",
+                    "middle": [],
+                    "last": "Rizzo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "m_Health Current and Future Applications",
+            "volume": "",
+            "issn": "",
+            "pages": "5--17",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Source coding algorithms for fast data compression",
+            "authors": [
+                {
+                    "first": "Richard",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pasco",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1976,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Wearable sensor data and self-reported symptoms for COVID-19 detection",
+            "authors": [
+                {
+                    "first": "Giorgio",
+                    "middle": [],
+                    "last": "Quer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Matteo",
+                    "middle": [],
+                    "last": "Jennifer M Radin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Katie",
+                    "middle": [],
+                    "last": "Gadaleta",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lauren",
+                    "middle": [],
+                    "last": "Baca-Motes",
+                    "suffix": ""
+                },
+                {
+                    "first": "Edward",
+                    "middle": [],
+                    "last": "Ariniello",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vik",
+                    "middle": [],
+                    "last": "Ramos",
+                    "suffix": ""
+                },
+                {
+                    "first": "Eric",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kheterpal",
+                    "suffix": ""
+                },
+                {
+                    "first": "Steven",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Topol",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Steinhubl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nature Medicine",
+            "volume": "27",
+            "issn": "",
+            "pages": "73--77",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Burrows-Wheeler Transform Based Lossless Text Compression Using Keys and Huffman Coding",
+            "authors": [
+                {
+                    "first": "Atiqur",
+                    "middle": [],
+                    "last": "Rahman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mohamed",
+                    "middle": [],
+                    "last": "Hamada",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Indexing multivariate mobile data through spatio-temporal event detection and clustering",
+            "authors": [
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chelsea",
+                    "middle": [],
+                    "last": "Dobbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mohammad",
+                    "middle": [],
+                    "last": "Akbari",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Pazzani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sensors",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "A natural language query interface for searching personal information on smartwatches",
+            "authors": [
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chelsea",
+                    "middle": [],
+                    "last": "Dobbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "Manouchehr",
+                    "middle": [],
+                    "last": "Nourizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zahra",
+                    "middle": [],
+                    "last": "Ghamchili",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Pazzani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "2017 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)",
+            "volume": "",
+            "issn": "",
+            "pages": "679--684",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Ghost imputation: Accurately reconstructing missing data of the off period",
+            "authors": [
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hamidreza",
+                    "middle": [],
+                    "last": "Keshavarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Pazzani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "IEEE Transactions on Knowledge and Data Engineering",
+            "volume": "32",
+            "issn": "",
+            "pages": "2185--2197",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Scalable daily human behavioral pattern mining from multivariate temporal data",
+            "authors": [
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elaheh",
+                    "middle": [],
+                    "last": "Momeni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chelsea",
+                    "middle": [],
+                    "last": "Dobbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "Joobin",
+                    "middle": [],
+                    "last": "Gharibshah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Pazzani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "IEEE Transactions on Knowledge and Data Engineering",
+            "volume": "28",
+            "issn": "",
+            "pages": "3098--3112",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Lesson Learned from Collecting Quantified Self Information via Mobile and Wearable Devices",
+            "authors": [
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elaheh",
+                    "middle": [],
+                    "last": "Momeni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chelsea",
+                    "middle": [],
+                    "last": "Dobbins",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pejman",
+                    "middle": [],
+                    "last": "Mirza-Babaei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ramin",
+                    "middle": [],
+                    "last": "Rahnamoun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Sensor and Actuator Networks",
+            "volume": "4",
+            "issn": "",
+            "pages": "315--335",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "NoCloud: Exploring network disconnection through on-device data analysis",
+            "authors": [
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Timothy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ronald",
+                    "middle": [],
+                    "last": "Pierson",
+                    "suffix": ""
+                },
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Peterson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kotz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "IEEE Pervasive Computing",
+            "volume": "17",
+            "issn": "",
+            "pages": "64--74",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Energy-efficient integration of continuous context sensing and prediction into smartwatches",
+            "authors": [
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Martin",
+                    "middle": [],
+                    "last": "Tomitsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Manouchehr",
+                    "middle": [],
+                    "last": "Nourizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Elaheh",
+                    "middle": [],
+                    "last": "Momeni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aaron",
+                    "middle": [],
+                    "last": "Peery",
+                    "suffix": ""
+                },
+                {
+                    "first": "Liudmila",
+                    "middle": [],
+                    "last": "Ulanova",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Pazzani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Sensors",
+            "volume": "15",
+            "issn": "",
+            "pages": "22616--22645",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "UbiqLog: a generic mobile phone-based life-log framework",
+            "authors": [
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Martin",
+                    "middle": [],
+                    "last": "Tomitsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "Katarzyna",
+                    "middle": [],
+                    "last": "Wac",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Tjoa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Personal and ubiquitous computing",
+            "volume": "17",
+            "issn": "",
+            "pages": "621--637",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "A comparative study of text compression algorithms",
+            "authors": [
+                {
+                    "first": "Senthil",
+                    "middle": [],
+                    "last": "Shanmugasundaram",
+                    "suffix": ""
+                },
+                {
+                    "first": "Robert",
+                    "middle": [],
+                    "last": "Lourdusamy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "International Journal of Wisdom Based Computing",
+            "volume": "1",
+            "issn": "",
+            "pages": "68--76",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "A mathematical theory of communication. The Bell system technical journal",
+            "authors": [
+                {
+                    "first": "Claude",
+                    "middle": [
+                        "Elwood"
+                    ],
+                    "last": "Shannon",
+                    "suffix": ""
+                }
+            ],
+            "year": 1948,
+            "venue": "",
+            "volume": "27",
+            "issn": "",
+            "pages": "379--423",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "A framework for efficient information retrieval using NLP techniques",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Subhashini",
+                    "suffix": ""
+                },
+                {
+                    "first": "V Jawahar Senthil",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "International Conference on Advances in Communication, Network, and Computing",
+            "volume": "",
+            "issn": "",
+            "pages": "391--393",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Microsearch: A search engine for embedded devices used in pervasive computing",
+            "authors": [
+                {
+                    "first": "Bo",
+                    "middle": [],
+                    "last": "Chiu C Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Haodong",
+                    "middle": [],
+                    "last": "Sheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qun",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "ACM Transactions on Embedded Computing Systems (TECS)",
+            "volume": "9",
+            "issn": "",
+            "pages": "1--29",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Defining adherence: Making sense of physical activity tracker data",
+            "authors": [
+                {
+                    "first": "Ming",
+                    "middle": [],
+                    "last": "Lie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jochen",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Daniel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kevin",
+                    "middle": [],
+                    "last": "Epstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lina",
+                    "middle": [],
+                    "last": "Bragg",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adrian",
+                    "middle": [],
+                    "last": "Engelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Judy",
+                    "middle": [],
+                    "last": "Bauman",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+            "volume": "2",
+            "issn": "",
+            "pages": "1--22",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "A Blockchain-Enabled Framework for mHealth Systems",
+            "authors": [
+                {
+                    "first": "Dragos",
+                    "middle": [],
+                    "last": "Daniel Taralunga",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bogdan",
+                    "middle": [
+                        "Cristian"
+                    ],
+                    "last": "Florea",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Sensors",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Quantifying interactive user experience on thin clients",
+            "authors": [
+                {
+                    "first": "Niraj",
+                    "middle": [],
+                    "last": "Tolia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mahadev",
+                    "middle": [],
+                    "last": "David G Andersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Satyanarayanan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Computer",
+            "volume": "39",
+            "issn": "3",
+            "pages": "46--52",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Introduction to mobile information retrieval",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Flora",
+                    "suffix": ""
+                },
+                {
+                    "first": "Minoru",
+                    "middle": [],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xing",
+                    "middle": [],
+                    "last": "Etoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wang-Chien",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qiang",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "IEEE Intell. Syst",
+            "volume": "25",
+            "issn": "",
+            "pages": "11--15",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Quantifying sources and types of smartwatch usage sessions",
+            "authors": [
+                {
+                    "first": "Aku",
+                    "middle": [],
+                    "last": "Visuri",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhanna",
+                    "middle": [],
+                    "last": "Sarsenbayeva",
+                    "suffix": ""
+                },
+                {
+                    "first": "Niels",
+                    "middle": [],
+                    "last": "Van Berkel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jorge",
+                    "middle": [],
+                    "last": "Goncalves",
+                    "suffix": ""
+                },
+                {
+                    "first": "Reza",
+                    "middle": [],
+                    "last": "Rawassizadeh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+            "volume": "",
+            "issn": "",
+            "pages": "3569--3581",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Comparative analysis of database systems dedicated for Android",
+            "authors": [
+                {
+                    "first": "Kamil",
+                    "middle": [],
+                    "last": "Wa\u0142achowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "Grzegorz",
+                    "middle": [],
+                    "last": "Kozie\u0142",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Computer Sciences Institute",
+            "volume": "15",
+            "issn": "",
+            "pages": "126--132",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "A technique for high-performance data compression",
+            "authors": [
+                {
+                    "first": "Terry",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Welch",
+                    "suffix": ""
+                }
+            ],
+            "year": 1984,
+            "venue": "Computer",
+            "volume": "17",
+            "issn": "",
+            "pages": "8--19",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Anserini: Enabling the use of lucene for information retrieval research",
+            "authors": [
+                {
+                    "first": "Peilin",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hui",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jimmy",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+            "volume": "",
+            "issn": "",
+            "pages": "1253--1256",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "2021. Passive Health Monitoring Using Large Scale Mobility Data",
+            "authors": [
+                {
+                    "first": "Yunke",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fengli",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tong",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Vassilis",
+                    "middle": [],
+                    "last": "Kostakos",
+                    "suffix": ""
+                },
+                {
+                    "first": "Pan",
+                    "middle": [],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yong",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+            "volume": "5",
+            "issn": "",
+            "pages": "1--23",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "On-device Learning Systems for Edge Intelligence: A Software and Hardware Synergy Perspective",
+            "authors": [
+                {
+                    "first": "Qihua",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhihao",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Song",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Boyuan",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jingcai",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhenda",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rajendra",
+                    "middle": [],
+                    "last": "Akerkar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "IEEE Internet of Things Journal",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Two phases of ODSearch process flow",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The following are examples of each sensor reading in JSON format: {\"sensor_name\":\"HeartRate\",\"timestamp\":\"Mon Apr 17 15:00:35 EDT 2017\",\"sensor_data\":{\"bpm\": 60}} {\"sensor_name\":\"ActivFit\",\"timestamp\":\"Thu Apr 06 23:50:24 EDT 2017\",\"time_stamp\":\"Thu Apr 6 23:50:24 EDT 2017\",\"sensor_data\":{\"step_counts\":755,\"step_delta\":13}} {\"Activity\": {\"start\":\"4-2-2017 19:41:00\",\"end\": \"4-2-2017 19:41:00\",\"type\":\"onfoot\",\"condfidence\": \"80\"}}.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "hashed with k hash functions (\u210e ( ), 1 \u2264 \u2264 ), and mapped to random numbers uniformly distributed among the indices of the bit array. In the meantime, the mapped bit \u210e ( ) is set to one. When an element is queried, it may exist in the S, only if all the bits \u210e ( ) are set (bits are equal to one) and it does not exist if any of \u210e ( ) bit does not set (bits are equal to zero). Bloom filters are constructed from original datasets, and in the preprocessing phase, their results are saved in the \"Bit Catalogue\".",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Huffman coding module workflow. Green shapes indicate Huffman coding parts, yellow shapes indicate Query parts.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Workflow of Query Translator and Answer Translator (yellow shapes indicate user interface, green shapes indicate Query Translator and Answer Translator, blue shapes indicate Bloom filter and Huffman coding)the keywords for the underlying search. The \"Answer Translator\" receives the query results, performs necessary calculations on query results, and decorates the results (either numerical or textual) in human-readable language.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "b) reports the execution time results on a mobile phone and a smartwatch based on the experimental sample data of one user (total 10,265 records). Bloom filters' results for query b, d, and e are marked as \"N/A\", because these queries are not membership queries.Note that the Bloom Filter can only answer queries a and c, which query for membership. Taking the average of both smartphone and smartwatch experiments on query a and query c, ODSearch takes on average 0.0007 seconds more than Bloom Filter alone, but takes 72% less time than Huffman Coding as expected since Bloom Filter is very efficient for membership query. ODSearch only takes on average 7% more time than Huffman coding for queries b, d, and e, indicating that the extra computational burden of the Bloom filter is very insignificant. Therefore, we combine them to provide complete functionality for queries and improve their comprehensive efficiency. Clearly, ODSearch is significantly faster than the Brute force method.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Average execution time (in seconds) of querying the experimental sample data of one user with five queries",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "presents the memory utilization results on mobile phones and smartwatches separately for the preprocessing phase. In both mobile phone and smartwatch experiments, ODSearch outperformed all other SOTA methods in terms of memory usage. Compared with the average performance of SOTA methods, ODSearch requires 1.9% less memory on the mobile phone and 2.7% less memory on the smartwatch. Furthermore, ODSearch takes 0.2% less memory on the mobile phone and 0.4% less memory on the smartwatch than SQLite, which is the most memory-efficient SOTA method.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Memory utilization (in MegaBytes) of preprocessing the sample dataset",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Response time of querying synthetic data on mobile phone. For clarity the Y axis is presented in logarithmic scale. Note that the intervals between dataset sizes on X axis are not equal.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "Energy usage of querying synthetic data on mobile phone. For clarity the Y axis is presented in logarithmic scale. Note that the intervals between dataset sizes on X axis are not equal.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "Response time of querying synthetic data on smartwatch.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Descriptions of five different query types that have been extracted from literature review[38,53]",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Five sample queries used for experiments.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "reports the compression ratio, encoding, and decoding time of the five compression algorithms. The difference among compression algorithms was a tradeoff between compression ratio and execution time, which means a computationally complex algorithm, such as LZW, achieved higher compression but required more resources to perform encoding or decoding.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "The results of applying five compression algorithms on the synthetic dataset.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Since ODSearch is a combination of Bloom Filter and Huffman Coding, we can measure the impact of each through control variates or the \"leave one out\" method. In other words, if we compare ODSearch with Huffman coding, we can analyze how the Bloom filter contributes to our method; and if we compare ODSearch with the Bloom filter, we can understand how much time is required for compression. We present the brute force method as a baseline.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "Execution time (in seconds) while using Bloom Filter and Compression versus not using them.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF10": {
+            "text": "Execution time (in seconds) of querying the experimental sample dataset.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF12": {
+            "text": "It is evident that ODSearch outperforms all other methods, in terms of energy use. In particular on mobile phones, the SOTA methods consume 20 times more energy on average than ODSearch, and this difference increases to 32 times on the smartwatch. Compared with ODSearch, the Energy usage (in mJ) of querying experimental sample data of one userFig. 7. Average energy usage (in mJ) with five queries",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF13": {
+            "text": "presents the memory utilization for each method. The Brute Force method does not have a preprocessing step, hence it is excluded. Our experiments reveal that ODSearch can preprocess a maximum 42 MB of data at once on the experimental smartphone. Although both SQLite and Lucene could preprocess 48MBdataset, for all datasets less than 42MB, ODSearch required the least amount of memory, as shown inTable 9.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF14": {
+            "text": "Maximum memory utilization (in MB) of preprocessing synthetic dataset on the mobile phone used for our experiments. second objective was to determine the marginal increase in memory usage as data size increased. In other words, how much extra memory would be required when we have to preprocess 1 MB 10 more data? To answer this question we calculated the average memory usage for data sizes between 30 KB and the maximum loadable datasets for each search method. To preprocess an extra 1 MB of data, ODSearch only required 0.58 MB memory, while SQLite required 2.53 MB memory, Realm required 1.06 MB memory, Lucene required 2.26 MB memory, and H2 required 1.71 MB memory. Therefore, ODSearch outperforms all other methods in terms of marginal memory utilization.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF15": {
+            "text": "Table 10 reports the maximum memory used for each search tool on the smartwatch. SQLite, Realm, and H2 cannot preprocess 30 MB datasets. Conversely, although both ODSearch and Lucene have the",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF16": {
+            "text": "preprocessing capacity of at least 30 MB, ODSearch required 19% less memory than Lucene, indicating that ODSearch outperforms all other methods on memory utilization on smartwatches.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF17": {
+            "text": "or 24 MB) and 30 KB datasets. To preprocess an extra 1 MB of data, ODSearch required the least amount of memory, 0.67 MB, while SQLite required 2.23 MB, Realm required 1.15 MB, Lucene required 1.99 MB, and H2 required 2.45 MB. Therefore, ODSearch outperforms all other methods in terms of marginal memory utilization.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Additionally, ODSearch is among the most scalable search methods that can handle large data searches, while consuming the minimum amount of memory and energy. Future work will focus on building a conversational agent based on ODSearch, and conduct a user study to analyze the impact of using conversational agents instead of traditional graphbased data representation that is common in fitness applications currently.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        }
+    ]
+}

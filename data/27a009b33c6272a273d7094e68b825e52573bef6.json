@@ -1,0 +1,1112 @@
+{
+    "paper_id": "27a009b33c6272a273d7094e68b825e52573bef6",
+    "metadata": {
+        "title": "Psychometric Properties of the Nine-Item Problematic Internet Use Questionnaire (PIUQ-9) in a Lithuanian Sample of Students",
+        "authors": [
+            {
+                "first": "Mike",
+                "middle": [
+                    "Z"
+                ],
+                "last": "Yao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ni",
+                "middle": [],
+                "last": "Fan",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Julius",
+                "middle": [],
+                "last": "Burkauskas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lithuanian University of Health Sciences",
+                    "location": {
+                        "settlement": "Palanga",
+                        "country": "Lithuania"
+                    }
+                },
+                "email": "julius.burkauskas@lsmuni.lt"
+            },
+            {
+                "first": "Orsolya",
+                "middle": [],
+                "last": "Kir\u00e1ly",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ELTE Eotvos Lorand University",
+                    "location": {
+                        "settlement": "Budapest",
+                        "country": "Hungary"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Zsolt",
+                "middle": [],
+                "last": "Demetrovics",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "ELTE Eotvos Lorand University",
+                    "location": {
+                        "settlement": "Budapest",
+                        "country": "Hungary"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Aurelija",
+                "middle": [],
+                "last": "Podlipskyte",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lithuanian University of Health Sciences",
+                    "location": {
+                        "settlement": "Palanga",
+                        "country": "Lithuania"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vesta",
+                "middle": [],
+                "last": "Steibliene",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Lithuanian University of Health Sciences",
+                    "location": {
+                        "settlement": "Palanga",
+                        "country": "Lithuania"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objectives: To date, there is no reliable instrument which could be used to assess problematic Internet use (PIU) in Lithuania. The nine-item Problematic Internet Use Questionnaire (PIUQ-9) previously validated in multiple countries, could be a potential tool for measuring PIU severity. The main objective of the present study was to explore the psychometric properties of the Lithuanian version of the questionnaire.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods: A total of 272 students (17% men, mean age 27 \u00b1 9 years) completed the PIUQ-9, the Patient Health Questionnaire (PHQ) and answered questions about the impairment of daily functioning caused by PIU in an online survey.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results: A confirmatory factor analysis indicated that a bi-factor model with one general factor \"general problem\" and two-specific factors \"obsession\" and \"neglect + control disorder\" fitted the data well. The presence of a strong global factor was supported by the common variance index in the bi-factor model indicating that the \"general problem\" factor explained 67.7% of common variance. The multiple indicators multiple causes (MIMIC) model showed that psychiatric symptoms (\u03b2 = 0.25) had a moderate, while impairment due to PIU (\u03b2 = 0.41) had a moderate-to-strong direct effect on the factor \"general problem\" supporting the construct validity of the scale.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The Lithuanian version of the PIUQ-9 has appropriate psychometric properties to be used in measuring PIU severity in student samples.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "There is a growing global concern about the public health problems and societal costs of problematic Internet use (PIU), which has an estimated prevalence of 1-27% within the general population (1) . PIU is increasingly recognized as disproportionately impacting young people and represents an emerging mental health research challenge (2) . Excessive social media use, online streaming, gaming, gambling, online shopping, email checking and pornography viewing are all examples of behaviors that have the potential to cause significant impairment of everyday functioning. Various factors may contribute to PIU including age, gender, socioeconomic status as well as symptoms of mental health conditions or personality traits leading to even more advanced engagement in problematic online behaviors. Furthermore, there is a huge risk that any of these behaviors could have the tendency to increase during and after the COVID-19 quarantine period (3) and may require professional intervention and support. However, it is crucial to have adequate adapted measurements for PIU before developing appropriate tailored interventions.",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 197,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 336,
+                    "end": 339,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 945,
+                    "end": 948,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "National health authorities are now expressing concern over the potential impact of PIU. However, there remains both a lack of agreement on what constitutes PIU and scientific data on its prevalence, clinical parameters, and socio-economic burden (2) . In order to start answering these important scientific questions, we need an operational definition and reliable tools to measure PIU severity.",
+            "cite_spans": [
+                {
+                    "start": 247,
+                    "end": 250,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "While the National Department of Statistics in Lithuania reports that in 2019 \u223c98% of people aged 16-24 and 95% of people aged 25-34 had been using the Internet daily, there are only few studies investigating PIU prevalence. However, most of the existing studies in European countries which include Lithuania have focused on problematic online behaviors in children and teenagers (4, 5) . In a cross-sectional study of 1806 13-18 years old schoolchildren in Lithuania, 9.1% of the study subjects showed markedly expressed symptoms of internet addiction as measured with the Young Diagnostic Questionnaire (6) . This particular study also found that symptoms of Internet addiction were also more prevalent among male than female teenagers. Nevertheless, no studies have investigated PIU in young adults and only two reliable questionnaires were used to assess symptoms of Internet addiction in teenagers (4, 5) . Therefore, it is crucial to investigate this particular study group of young adults and identify a questionnaire which could be suitable for a specific assessment. A recent publication by Laconi et al. (7) investigated the psychometric properties of the Nine-Item Problematic Internet Use Questionnaire (PIUQ-9) across various different language-based samples of European internet users, highlighting that a brief scale consisting of only nine questions could reliably screen for PIU. The scale has not been used in Lithuania before and its psychometric properties, validated in other cultural backgrounds, show promising results.",
+            "cite_spans": [
+                {
+                    "start": 380,
+                    "end": 383,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 384,
+                    "end": 386,
+                    "text": "5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 605,
+                    "end": 608,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 903,
+                    "end": 906,
+                    "text": "(4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 907,
+                    "end": 909,
+                    "text": "5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1114,
+                    "end": 1117,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Our report attempts to validate a Lithuanian language version of the PIUQ-9 scale. To the best of our knowledge, Lithuania does not a have an adapted measure for PIU severity. Given the brevity of the scale, PIUQ-9 would be useful for researchers, clinicians and educators interested in measuring PIU severity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Participants completed an online survey, which provided information about the study (i.e., the study objectives and assurances of anonymity and confidentiality). An online survey was made available from 2019 September until 2019 November using Google Forms. A snowballing technique was used to develop convenience sample targeting students. Firsthand networks of study volunteers and student council assistants were employed by researchers to spread the link. The initial link was shared to Lithuanian University of Health Sciences students using social network services and messenger services such as Facebook or Skype. Researchers encouraged participants to send the link to other students, helping to reach an adequate study sample. However, the engagement rate was not monitored. A formal online consent was provided for each participant to tick before starting the survey. No incentives were given upon completion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHOD Procedure"
+        },
+        {
+            "text": "The study received approval from the Bioethics committee and conformed to the principles outlined in the Declaration of Helsinki. The survey included sociodemographic information, the PIUQ-9 questionnaire, and several subscales of the Patient Health Questionnaire (PHQ).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHOD Procedure"
+        },
+        {
+            "text": "Besides collecting basic information on age and gender, we also assessed impairment due to PIU by asking study participants a single question with yes/no answer on whether they thought that internet usage impacted their ability to perform daily activities and/or engage in desired social interactions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Measures"
+        },
+        {
+            "text": "The nine-item version of the Problematic Internet Use Questionnaire (PIUQ-9) was used to assess PIU (8) (Refer to the Lithuanian language version in Appendix A). The PIUQ-9 is a short version of the 18-item Problematic Internet Use Questionnaire [PIUQ; (9) ]. Originally, both scales were reported to have three subscales: obsession, neglect, and control disorder. Based on the previous study examining the psychometric properties of the PIUQ-9, the short scale has a bi-factor structure including one \"general problem\" factor and two-specific factors of \"obsession\" and \"neglect + control disorder.\" The severity of PIU is assessed through a five point Likert scale, ranging from \"never\" to \"always/almost always.\" The sum score of the questionnaire ranges from nine to 45. A Higher score indicates a higher risk of PIU. The internal consistency of the PIUQ-9 was 0.89 in this particular study sample. As in previous studies (7), all survey questions were translated from English to Lithuanian using the procedure of double back-translation. An experienced psychiatrist (VS) conducted the translation and the back translation was performed by a clinical psychologist (JB). The final consensus was reached by discussing significant differences in the back translation as compared to the original English version.",
+            "cite_spans": [
+                {
+                    "start": 253,
+                    "end": 256,
+                    "text": "(9)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Measures"
+        },
+        {
+            "text": "Psychiatric disorder symptoms were assessed using the Patient Health Questionnaire (PHQ) (10) . The PHQ consists of several modules assessing symptoms of several psychiatric disorders, including depressive disorder, anxiety disorders, somatoform disorder and alcohol abuse/dependence. The depression module consisted of nine items questioning depression severity over a 2 weeks period with possible scores ranging from zero (\"not at all\") to three (\"nearly everyday\"). The sum score of depression symptomatology ranged from zero to 27. The anxiety module contained seven questions regarding the severity of anxiety symptom levels during a 4 weeks period. Each question was rated on a scale ranging from zero (\"not at all\") to two (\"more than half the days\") and resulting in a total score ranging from zero to 14. The somatoform module consisted of 13 items regarding physical problems that bothered individuals over a 4 weeks period. Each item ranged from zero (\"not bothered\") to two (\"bothered a lot\") resulting in a total score ranging from zero to 26. The alcohol abuse/dependence module contained five questions with answers \"yes\" and \"no\" asking about the presence of problematic behaviors related to alcohol use occurring more than once in the past 6 months. The total score for the module ranged from zero to five. For the statistical modeling, a general score for the questionnaire summing up the four aforementioned modules was used in order to evaluate the global severity of any psychiatric symptomatology. The internal consistency of PHQ in the current sample was 0.91.",
+            "cite_spans": [
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "(10)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Measures"
+        },
+        {
+            "text": "The SPSS for Windows, version 17.0 (SPSS Inc., Chicago, Illinois) and Mplus 8 (11) were employed for statistical procedures. All statistical procedures were based on the Laconi et al. study validating the psychometric properties of the PIUQ-9 (7). Using Student's t-tests we have also compared the PIUQ-9 scores and impairment to engage in daily activities and social life due to excessive internet use between genders. In brief, four alternative factor structures were tested: (i) the three-factor model proposed in the study by Koronczai et al. (8) , (ii) a two-factor model where control disorder and neglect factors were merged into one due to the high correlation, (iii) a bi-factor model comprising a dimension of global severity on which each item is loaded, plus three specific factors on which the items belonging to the obsession, neglect and control disorder were loaded and where the correlations between specific factors were fixed at zero; (iii) a bi-factor model representing a global severity dimension plus two specific factors (obsession and neglect + control disorder). The correlations between specific factors were also fixed at zero. The degree of fit of the factor models were measured through confirmatory factor analysis (CFA) with maximum likelihood estimation with robust standard errors (MLR).",
+            "cite_spans": [
+                {
+                    "start": 530,
+                    "end": 550,
+                    "text": "Koronczai et al. (8)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The following fit indices were used to evaluate model fit: the ratio of the chi-square to its degrees of freedom (\u03c7 2 /df ratio), the comparative fit index (CFI), the Tucker-Lewis Index (TLI), the goodness of fit index (GFI), the root mean square error of approximation (RMSEA) and its p close value, and the standardized root mean residual (SRMR). The following values were required to indicate adequate fits: \u03c7 2 /df ratio \u2264 5 and preferably \u2264 2; CFI \u2265 0.95; TLI \u2265 0.95; GFI \u2265 0.9, RMSEA < 0.08, SRMR \u2264 0.10 (12) .",
+            "cite_spans": [
+                {
+                    "start": 510,
+                    "end": 514,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "The explained common variance (ECV) index was used to measure the degree of unidimensionality in the bi-factor model and the percentage of general factor common variance. Omega and omega hierarchical indices were chosen to measure the ability of the PIUQ-9 scores to estimate the combination of factorial constructs, as well as specific target constructs. The index of construct replicability or H index was used for the evaluation of specific factors (\u22650.70 was considered as high).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "CFA with covariates or multiple indicators multiple causes (MIMIC) confirmatory factor analysis was performed in the Lithuanian language sample to test the construct validity of the best fitting structure (i.e., the bi-factor-model with two specific factors) by exploring correlations between the general and specific factors and four probable predictors (i.e., age, gender, psychiatric symptoms severity, and impairment due to PIU).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "This study consisted of 291 students studying at the Lithuanian University of Health Sciences. Nineteen participants (7%) refused to participate in the study, leaving the total study sample of 272 participants (83% women and 17% men, mean age 27 \u00b1 9 years). Thirty-nine participants (14%) indicated that PIU caused significant impairment in their daily living and/or social activities. Neither the PIUQ-9 scores, nor impairment to engage in daily activities and social life due to excessive internet use differed between genders (p > 0.05).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive Statistics"
+        },
+        {
+            "text": "The X 2 test was significant in all four factor models. The bi-factor model comprising two specific factors appeared to be the best fitting model according to the fit indices CFI, TLI, RMSEA, and SRMR ( Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 203,
+                    "end": 211,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "The Model of the PIUQ-9"
+        },
+        {
+            "text": "Factor loadings for the bi-factor model with two specific factors are presented in Table 2 . All nine items had significant factor loadings on the global PIU factor. The ninth item for the specific factor \"obsession\" was found to be non-significant; however, this item had strong significant loadings on the main factor. This was the case for items five, seven, and eight in the specific factor \"neglect + control, \" as these items were not significant on the specific factor, despite having strong significant loadings on the general problem factor.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 83,
+                    "end": 90,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "The Model of the PIUQ-9"
+        },
+        {
+            "text": "According to the ECV index of the bi-factor model, the general problem factor in the PIUQ-9 explained 67.7% of common variance, supporting a strong global factor. Table 3 shows ECV indices of specific factors. Evaluation of the precision of a questionnaire to assess the combination of general and specific factors, and a particular target construct was carried out through the calculation of the omega and omega hierarchical coefficients. For the Lithuanian sample, the specific factor \"obsession\" omega coefficient was 80.7 and 82.7% for the merged specific factor. The omega hierarchical coefficient for the \"obsession\" specific factor was 20.9% and in the case of the merged specific factor it was 12.8%. With the specific factors explaining \u223c13-21% of the PIU score these coefficients are considered significant. The H value above >0.70 (i.e., 0.89) indicated the \"neglect + control disorder\" to have good construct replicability. The obsession factor had a good replicability as well with the H value of 0.92.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 163,
+                    "end": 170,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "The Model of the PIUQ-9"
+        },
+        {
+            "text": "The MIMIC model shown in Table 4 indicates correlations between the general and specific factors and PIU predictors, such as age, gender, psychiatric symptoms, and impairment due to PIU. Generally, psychiatric symptoms had a moderate direct effect on the general problem factor (\u03b2 = 0.26). Impairment caused due to PIU had a moderate-to-strong direct effect on the general problem factor (\u03b2 = 0.41). The effect of psychiatric symptoms on the two specific factors, namely \"obsession\" and \"neglect + control disorder\" was also moderate (\u03b2 = 0.21; \u03b2 = 0.24, respectively). Furthermore, very similar effects of the PIUQ-9, Problematic Internet Use Questionnaire 9-item version; \u03c7 2 , Chi-square; df, degrees of freedom; CFI, comparative fit index; TLI, Tucker-Levis Index; GFI, goodness-of-fit index; RMSEA, root-mean-square error of approximation; 90% CI, 90% confidence interval of the RMSEA; SRMR, standardized root mean residual; SSABIC, Sample size adjusted Bayesian Information Criteria. PIUQ-9, Problematic Internet Use Questionnaire 9-item version. All loadings were significant at p < 0.005, except when mentioned ns, not significant. impairment due to PIU were observed on the two specific factors (\u03b2 = 0.39; \u03b2 = 0.38, respectively).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 25,
+                    "end": 32,
+                    "text": "Table 4",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "The Model of the PIUQ-9"
+        },
+        {
+            "text": "The main objective of the present study was to explore the psychometric characteristics of the PIUQ-9. Descriptive results available in our study correspond to the Laconi et al. data (7), for example the mean age of the German sample was 27 \u00b1 10, the mean age of the total sample was 26 \u00b1 9, while the mean age in our sample was 27 \u00b1 9 years. The percentage of men involved in the study dramatically varied between countries in the aforementioned international study (7) ranging from 0.4 to 97% with a mean of 38%. Our study involved a relatively low number of male individuals comprising 17% of the sample. While many of the PIU studies are overrepresented by male subjects (2), our study might better reflect characteristics of Internet use in female students. However, PIUQ-9 scores as well as impairment related to the performance of daily and social activities due to excessive Internet use did not differ between genders. The mean score of 18.4 \u00b1 6.3 of PIUQ-9 in the Lithuanian sample was very close to the mean score of the Polish sample reported in Laconi et al.'s study (7) . Lithuania is culturally closest to Poland, thus it is possible that PIU symptomatology severity corresponds. The percentage of impairment caused by PIU (14%) corresponds to the data on the European PIU prevalence in youth from 11 countries (13) . However, the impairment percent in our study is slightly higher than in the Lithuanian study investigating schoolchildren (6) . Several reasons might explain the discrepancy. First, students are the group with the most expressed Internet consumption. Secondly, problematic use and true clinical impairment due to PIU while overlapping are still two different concepts, which measured with different questionnaires might produce discrepancy. Thus, it is crucial to have a questionnaire which could reliably identify PIU symptomatology in prevalence studies.",
+            "cite_spans": [
+                {
+                    "start": 1080,
+                    "end": 1083,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1326,
+                    "end": 1330,
+                    "text": "(13)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1455,
+                    "end": 1458,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our results have confirmed good fit indices for the bi-factor model, with one \"general problem\" factor and two specific factors of \"obsession\" and \"neglect + control disorder.\" Psychiatric symptoms had a moderate direct effect on the general problem factor in the Lithuanian sample, showing good construct validity of the scale. Impairment related to the performance of daily and social activities due to excessive Internet use was a moderate-tostrong predictor of PIU.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The major limitation of the present study is the crosssectional design, thereby precluding us from making causal assumptions. The Lithuanian sample consisted of students attending one university and was a comparatively small sample size. Furthermore, the gender distribution of the sample was skewed, with a considerably higher proportion of female students. Thus, the results may not represent general or clinical populations and may be subject to selection bias. Questions on educational level (14) , and socioeconomic status were not included into our survey, limiting a broader scope of the PIU context in students. While we changed the time spent online covariate with the perceived impairment one, we consider that not including this criterion is a significant limitation of this study. Differentiating time spent online on weekend might have further contributed to the general factor of the questionnaire (7).",
+            "cite_spans": [
+                {
+                    "start": 496,
+                    "end": 500,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "To the best of our knowledge this is the first study validating the PIUQ-9 questionnaire in the Lithuanian language. The Lithuanian version of the PIUQ-9 has demonstrated appropriate psychometric characteristics and is suitable for screening PIU in university students. Self-reported perceived impairment related to Internet usage is a strong predictor of general PIU psychopathology. Our current study adds PIUQ-9 as a validated tool for clinicians and educators to screen for the risk and severity of PIU. During a time with an increased Internet usage due to COVID-19 requirements to self-isolate or study remotely, PIUQ-9 could be a potential tool in measuring PIU severity. Future longitudinal studies should observe PIU changes over time and establish a cut-off threshold to define individuals who are at possible risk of PIU and therefore should be advised to seek treatment.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "In summary, the PIUQ-9 has good psychometric characteristics and can be applied in research, as well as for educational and clinical purposes, to screen for the risk and severity of PIU.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The raw data supporting the conclusions of this article will be made available by the authors, without undue reservation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT"
+        },
+        {
+            "text": "The studies involving human participants were reviewed and approved by Lithuanian University of Health Sciences Bioethics Center. The patients/participants provided their written informed consent to participate in this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ETHICS STATEMENT"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Internet addiction: a systematic review of epidemiological research for the last decade",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Kuss",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Griffiths",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Karila",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Billieux",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Curr Pharm Design",
+            "volume": "20",
+            "issn": "",
+            "pages": "4026--52",
+            "other_ids": {
+                "DOI": [
+                    "10.2174/13816128113199990617"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Manifesto for a European research network into problematic usage of the internet",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fineberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Demetrovics",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stein",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ioannidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Potenza",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gr\u00fcnblatt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Eur Neuropsychopharmacol",
+            "volume": "28",
+            "issn": "",
+            "pages": "1232--1278",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.euroneuro.2018.08.004"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Preventing problematic internet use during the COVID-19 pandemic: consensus guidance",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Kir\u00e1ly",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Potenza",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stein",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hodgins",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Saunders",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Compr Psychiatry",
+            "volume": "100",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.comppsych.2020.152180"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Excessive internet use in European adolescents: what determines differences in severity?",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Blinka",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "\u0160karupov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "\u0160ev\u010d\u00edkov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "W\u00f6lfling",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "M\u00fcller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dreier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Int J Public Health",
+            "volume": "60",
+            "issn": "",
+            "pages": "249--56",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00038-014-0635-x"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Excessive internet use and its association with negative experiences: quasi-validation of a short scale in 25 European countries",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "\u0160karupov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "\u00d3lafsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Blinka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Comp Human Behav",
+            "volume": "53",
+            "issn": "",
+            "pages": "118--141",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.chb.2015.06.047"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Problematic computer game use as expression of internet addiction and its association with self-rated health in the Lithuanian adolescent population",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ustinavi\u010diene",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "\u0160kemiene",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Luk\u0161iene",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Radi\u0161auskas",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kaliniene",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vasilavi\u010dius",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Medicina",
+            "volume": "52",
+            "issn": "",
+            "pages": "199--204",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.medici.2016.04.002"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Psychometric evaluation of the nine-item Problematic Internet Use Questionnaire (PIUQ-9) in nine European samples of internet users",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Laconi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Urb\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kaliszewska-Czeremska",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kuss",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gnisci",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Sergi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Front Psychiatry",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fpsyt.2019.00136"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Confirmation of the three-factor model of problematic internet use on offline adolescent and adult samples",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Koronczai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Urb\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "K\u00f6k\u00f6nyei",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Paksi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Papp",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Cyberpsychol Behav Soc Netw",
+            "volume": "14",
+            "issn": "",
+            "pages": "657--64",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/cyber.2010.0345"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The three-factor model of internet addiction: the development of the Problematic Internet Use Questionnaire",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Demetrovics",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Szeredi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "R\u00f3zsa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Behav Res Methods",
+            "volume": "40",
+            "issn": "",
+            "pages": "563--74",
+            "other_ids": {
+                "DOI": [
+                    "10.3758/BRM.40.2.563"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Validity and utility of the PRIME-MD patient health questionnaire in assessment of 3000 obstetric-gynecologic patients: the PRIME-MD Patient Health Questionnaire Obstetrics-Gynecology Study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Spitzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kroenke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hornyak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcmurray",
+                    "suffix": ""
+                },
+                {
+                    "first": "Phqo-Gs",
+                    "middle": [],
+                    "last": "Group",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Am J Obstetr Gynecol",
+            "volume": "183",
+            "issn": "",
+            "pages": "759--69",
+            "other_ids": {
+                "DOI": [
+                    "10.1067/mob.2000.106580"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Mplus User's Guide",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Muth\u00e9n",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Muth\u00e9n",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Confirmatory Factor Analysis for Applied Research",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Prevalence of pathological internet use among adolescents in Europe: demographic and social factors",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Durkee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaess",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Carli",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Parzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wasserman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Floderus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Addiction",
+            "volume": "107",
+            "issn": "",
+            "pages": "2210--2232",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1360-0443.2012.03946.x"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "The reliability of psychological instruments in community samples: a cautionary note",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Shepperd",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Emanuel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Dodd",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Logan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Health Psychol",
+            "volume": "21",
+            "issn": "",
+            "pages": "2033--2074",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1359105315569859~"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Confirmatory factor analysis of four measurement models of PIUQ-9.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Indicators",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Multiple indicators multiple causes (MIMIC) model with standardized coefficients (gender and age were both controlled for in the models). Impairment to engage in daily activities and social life due to excessive internet use (NO/YES) Gender and age were introduced in the models as control variables. MIMIC model with standardized coefficients.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "JB, VS, ZD, and OK conceived and designed the study. VS and JB were responsible for data collection and evaluation. Statistical analyses were performed by AP. JB prepared the manuscript. All authors contributed to the article and approved the submitted version. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "AUTHOR CONTRIBUTIONS"
+        },
+        {
+            "text": "This publication is based upon work from COST Action CA16207 European Network for Problematic Usage of the Internet, supported by COST (European Cooperation in Science and Technology). www.cost.eu.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGMENTS"
+        },
+        {
+            "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fpsyt. 2020.565769/full#supplementary-material",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SUPPLEMENTARY MATERIAL"
+        }
+    ]
+}

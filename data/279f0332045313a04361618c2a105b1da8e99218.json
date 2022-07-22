@@ -1,0 +1,1645 @@
+{
+    "paper_id": "279f0332045313a04361618c2a105b1da8e99218",
+    "metadata": {
+        "title": "Combining predictive markers for severe COVID-19: Torquetenovirus DNA load and SARS-CoV-2 RNAemia",
+        "authors": [
+            {
+                "first": "Morgane",
+                "middle": [],
+                "last": "Solis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire de Virologie",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Floriane",
+                "middle": [],
+                "last": "Gallais",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire de Virologie",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sabrina",
+                "middle": [],
+                "last": "Garnier-Kepka",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nicolas",
+                "middle": [],
+                "last": "Lefebvre",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Service des Maladies Infectieuses et Tropicales",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ilies",
+                "middle": [],
+                "last": "Benotmane",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire de Virologie",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pierre-Olivier",
+                "middle": [],
+                "last": "Ludes",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vincent",
+                "middle": [],
+                "last": "Castelain",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Ferhat",
+                "middle": [],
+                "last": "Meziani",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sophie",
+                "middle": [],
+                "last": "Caillard",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "UMR_S1109",
+                    "institution": "Universit\u00e9 de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "region": "LabEx",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Olivier",
+                "middle": [],
+                "last": "Collange",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Samira",
+                "middle": [],
+                "last": "Fafi-Kremer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire de Virologie",
+                    "institution": "H\u00f4pitaux Universitaires de Strasbourg",
+                    "location": {
+                        "settlement": "Strasbourg",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "SARS-CoV-2 pandemic has now caused millions of COVID-19 cases worldwide. Epidemiological data demonstrate that severe illness can occur in adults of any age [1, 2] . On these grounds, there is a need of reliable risk stratification markers for disease severity and outcome.",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 160,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 161,
+                    "end": 163,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "SARS-CoV-2 RNAemia has been shown to be a feature of severe disease [3] [4] [5] [6] . However, more than viral damage, COVID-19 severity has rather been linked to an overreacting immune response possibly leading to a cytokine storm [7] . Therefore, a reliable marker of immunity may be a suitable candidate to predict COVID-19 severity.",
+            "cite_spans": [
+                {
+                    "start": 68,
+                    "end": 71,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 72,
+                    "end": 75,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 76,
+                    "end": 79,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 80,
+                    "end": 83,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 232,
+                    "end": 235,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Torquetenovirus (TTV) is a non-pathogenic DNA virus highly prevalent in humans (up to 90% in healthy individuals). Its replication increases with age and is higher in males than females [8] , and has been demonstrated to be associated with the immune status of the host. Immunocompetent individuals display low and stable TTV DNA loads, typically under 10,000 copies/mL [9] , whereas immunocompromised patients, especially transplant patients, show much higher TTV DNA loads correlating with the intensity of their immunosuppression [10] . Low TTV DNA load, mirroring strong immune levels, is a marker of graft rejection risk [10, 11] in these populations, whereas high TTV DNA load, reflecting poor immunity, is associated with microbial infection occurrence [12] .",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 189,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 370,
+                    "end": 373,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 533,
+                    "end": 537,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 626,
+                    "end": 630,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 631,
+                    "end": 634,
+                    "text": "11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 760,
+                    "end": 764,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this study, we analyzed TTV DNA load and SARS-CoV-2 RNAemia in severe and mild-moderate COVID-19 patients and investigated whether the combination of the two markers might predict the severity and the outcome of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This monocentric retrospective longitudinal cohort study was approved by the institutional review boards of the Strasbourg University Hospitals (Clinical Trials.gov identifier: NCT04405726). All subjects enrolled in this study completed written informed consent. No commercial sponsor was involved in the study. Only persons listed as authors contributed to the writing of the manuscript. All authors vouch for the completeness and accuracy of the data and the fidelity of the study to the protocol.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and ethics"
+        },
+        {
+            "text": "Patients with RT-PCR (real-time reverse transcriptase polymerase chain reaction)confirmed COVID-19 admitted to the Strasbourg University Hospitals from March 7th, 2020, to April 7th, 2020, with available plasma samples were enrolled in the study. Patients were classified as mild-moderate or severe cases [13] . Mild-moderate patients were those with nonpneumonia or mild pneumonia not requiring invasive mechanical ventilation. Patients admitted to the ICU to benefit from invasive mechanical ventilation, or that died without being admitted to the ICU, were classified as severe [14] . To analyze the risk of clinical worsening leading to ICU admission, only patients admitted to the Emergency Department with initially mild/moderate symptoms and that were subsequently discharged, hospitalized or admitted to the ICU at least one day after ER admission were selected.",
+            "cite_spans": [
+                {
+                    "start": 305,
+                    "end": 309,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 581,
+                    "end": 585,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study population"
+        },
+        {
+            "text": "Nucleic acid extraction was performed using the MagNAPure96\u00ae instrument (Roche Diagnostics) with 200 \u00b5l of sample eluted into 100 \u00b5l of extract. TTV DNA load was measured using the TTV R-GENE\u00ae kit (bioM\u00e9rieux, Marcy l'Etoile, France). This kit provides standards to generate a standard curve allowing to measure TTV DNA load values in copies/mL. TTV R-GENE\u00ae kit LLOD is 250 copies/mL. This kit also comprises a sensitivity control, with a low viral load around the LLOD, which was detected for all runs. RT-PCR tests for SARS-CoV2 nucleic acid used primer and probe sequences targeting two regions on the RdRp gene specific to SARS-CoV-2 [15] . Assay sensitivity is around 10 copies/reaction. SARS-CoV-2 RNAemia was considered positive if at least one of the targets led to positive amplification. SARS-CoV-2 IgM and IgG directed against the Receptor Binding Domain (RBD) of the SARS-CoV-2 Spike protein were detected using the COVID-19 BSS IgG/IgM rapid test, Biosynex\u00ae [16] . Seroconversion was defined as the presence of specific antibodies (IgM and/or IgG). Rapid assay results were analysed as positive or negative, as well as in a semi-quantitative manner for IgG sample line intensity (see Supplementary)(16).",
+            "cite_spans": [
+                {
+                    "start": 638,
+                    "end": 642,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 971,
+                    "end": 975,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Virological testing"
+        },
+        {
+            "text": "The distributions of continuous data were compared using nonparametric Mann-Whitney and Kruskal-Wallis tests when comparing different groups of patients. The distribution of categorical variables was compared using Fisher's exact test. Linear correlations were estimated using Pearson's correlation coefficient. TTV DNA load cutoff was decided based on the highest likelihood ratio of the ROC curve for TTV DNA load measurement as a marker of severe COVID-19 infection. ROC curves were also computed for TTV DNA load at week 1 and 2 after symptom onset as a marker of severe COVID-19 infection. Multivariable logistic regression was performed to assess an adjusted odds ratio between TTV and clinical outcome using R software version 4.1.2. Kaplan-Meier analyses were used to estimate the association between TTV DNA load together with SARS-CoV-2 RNAemia and severe COVID-19 cases occurrence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Patients presented at a median of 7 days after symptom onset (range, 0-33 days). Mean patient age was 64 years (range, 18-93 years) and the M/F sex ratio was 2.41. Of the 215 patients, 128 (59.5%) were mild cases, 87 (40.5%) were severe cases of which 25 (11.6%) died. Univariate analysis between severe and mild-moderate cases showed a larger proportion of male patients in severe cases but no difference in age, body mass index or underlying diseases (diabetes, high blood pressure, COPD, asthma or other respiratory diseases, chronic renal or cardiac failure, and smoking) ( Table 1) . However, the patients who died were significantly older than those who survived (74.1 and 65.3 years, respectively, p = 0.0024). Thirteen patients could be qualified as immunocompromised: 7 solid organ transplant recipients, 2 hematopoietic stem cell transplant recipients, and 4 receiving immunosuppressive drugs for other pathologies. Four of them developed severe COVID-19. Four hundred and three plasma samples were available: 83 (for 77 patients) in the first week after symptom onset, 154 (for 140 patients) in the second week, 110 (for 103 patients) in the third week and 56 (for 52 patients) thereafter. In total, 81 patients had one sample available during follow-up, 86 had two, 41 had three and 7 had four or more.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 578,
+                    "end": 586,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Patients' characteristics"
+        },
+        {
+            "text": "Biological parameters such as SARS-CoV-2 RNAemia and lymphocyte counts were investigated according to disease severity (severe and mild-moderate groups). In the first week after symptom onset, 43.4% (33/76) of patients displayed SARS-CoV-2 RNAemia vs 29.9% (40/134) in the second week and 14.6% (15/103) in the third week (Fig. 1) . In severe patients, SARS-CoV-2 RNAemia positivity rates were higher compared to mild-moderate cases at any timepoint. In the first week after symptom onset, 70.4% of severe cases displayed SARS-CoV-2 RNAemia vs 28.6% of mild-moderate cases (p = 0.0006); in the second week after symptom onset, 47.5% of severe cases displayed SARS-CoV-2 RNAemia vs 16.0% of mild cases (p = 0.0001); in the third week after symptom onset, 21.0% of severe cases displayed SARS-CoV-2 RNAemia vs 4.9% of mild cases (p = 0.025). Furthermore, SARS-CoV-2 viral loads were higher in the severe group, with 40.7% of RNAemiapositive patients in this group displaying SARS-CoV-2 viral loads higher than 100 copies/mL, versus only 16.1% of RNAemia-positive patients of the mild-moderate group. Interestingly, lymphocyte counts and lymphocytes/neutrophils ratio were similar in severe and mildmoderate cases in the first week after symptom onset, whereas these values became significantly lower in severe cases during the second week after symptom onset (p = 0.025 and p<0.0001 for lymphocyte counts and lymphocytes/neutrophils ratios, respectively).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 322,
+                    "end": 330,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Evolution of SARS-CoV-2 RNAemia and lymphocyte counts after symptom onset"
+        },
+        {
+            "text": "TTV DNA loads were investigated in the first and second week after symptom onset, at which timepoints disease severity was analyzed according to TTV groups. TTV DNA load (median: 741 copies/mL, range: 0-933 000 copies/ml) were not correlated with age (Pearson correlation coefficient = -0.03, p = 0.65) nor sex (p = 0.24). TTV DNA loads were poorly correlated to nasopharyngeal SARS-CoV-2 Ct values (detailed in Supplementary) when compared in the same week after symptom onset (Spearman r = -0.17, p = 0.024). However, TTV DNA loads were significantly lower in severe patients compared to mild-moderate patients (537 vs 1059 copies/mL, respectively, p = 0.027) ( Figure S1 ). TTV DNA load ROC curves differentiated severe from mild-moderate cases with a TTV DNA load threshold of 700 copies/mL ( Figure S2 ). In patients with TTV loads < 700 copies/mL (low) in the first week, the rate of severe cases was 55.2% vs 23.4% in patients with TTV loads > 700 copies/mL (high) (likelihood ratio 2.23, p = 0.0069) (Fig. 2 ). In patients with TTV loads \u3008 700 copies/mL in the second week, severe cases rate was 58.3% vs 31.1% in patients with TTV loads \u3009 700 copies/mL (likelihood ratio 1.83, p = 0.0017). After adjustement for sex, TTV DNA load lower than the threshold of 700 copies/mL was associated with an higher risk of severe COVID (odds ratio=2.80 [95% CI 1.58-4.71]).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 664,
+                    "end": 673,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 797,
+                    "end": 806,
+                    "text": "Figure S2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1008,
+                    "end": 1015,
+                    "text": "(Fig. 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Disease severity according to TTV DNA load"
+        },
+        {
+            "text": "Seroconversion rates and semi-quantitative IgG scoring were analyzed in the first and second week after symptom onset according to TTV groups. Patients with low TTV loads in the first week had a higher rate of seroconversion (75.9%, 22/29 vs 48.9%, 23/47, p = 0,030). Moreover, in the first week after symptom onset, semi-quantitative IgG results were higher in patients with TTV DNA loads lower than 700 copies/mL, with a mean score of 0.93, vs 0.28 in patients with TTV DNA loads over this threshold (p = 0.0087). Seroconversion rates also tended to be higher in the second week for patients with low TTV loads (91.7%, 55/60 vs 86.5%, 64/74, ns), as well as semi-quantitative IgG results (mean score of 0.92 vs 0.66, ns). For the 13 immunocompromised patients, median TTV DNA load was 1060 copies/mL, suggesting that these patients were not under major immunosuppression at that time. Indeed, mean lymphocyte count in these patients was 1027/mm 3 vs 1019/mm 3 in the cohort, and all of them seroconverted in the second week after symptom onset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "TTV DNA load and anti-SARS-CoV-2 antibodies"
+        },
+        {
+            "text": "TTV DNA load and SARS-CoV-2 RNAemia were then combined to predict the evolution toward severe disease in 138 patients who had a plasma sample available at admission in the emergency department before being discharged, hospitalized or admitted to the ICU. Patients with TTV DNA load < 700 copies/mL and SARS-CoV-2 RNAemia were further admitted to the ICU in 46.7% (n = 7/15) of the cases, vs 26.9% (n = 7/26) for patients TTV DNA load > 700 copies/mL and RNAemia; 19.5% (n = 8/41) for patients with TTV DNA load < 700 copies/mL and no RNAemia; and 3.6% (n = 2/56) for patients with TTV DNA load > 700 copies/mL and no RNAemia (p = 0.0009, Log-rank test) (Fig. 3) . The hazard ratio between patients with two \"favorable\" markers (high TTV load and no SARS-CoV-2 RNAemia) and those with two \"unfavorable\" markers (low TTV load and SARS-CoV-2 RNAemia) was 12.4 (95% CI: 6.0 to 140, Log-rank test). This higher risk of being admitted to the ICU depending on TTV DNA load and SARS-CoV-2 RNAemia was constantly observed, whether patients presented in the mergency department in the first or in the second week after symptom onset (p = 0.006 and p = 0.003, respectively) ( Figure S3 ). Using both markers further classified patient risk, with an aforementioned hazard ratio of 12.4 between patients with two \u00ab favorable \u00bb or \u00ab unfavorable \u00bb values, whereas hazard ratios for each marker alone were lower (3.62 [95% CI: 2.04-12.13] for SARS-CoV-2 RNAemia, 2.38 [95% CI: 1.13-5.72] for TTV) ( Figure S4 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 653,
+                    "end": 661,
+                    "text": "(Fig. 3)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1165,
+                    "end": 1174,
+                    "text": "Figure S3",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1483,
+                    "end": 1492,
+                    "text": "Figure S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Prediction of disease severity based on TTV DNA load and SARS-CoV-2 RNAemia measurement at admission"
+        },
+        {
+            "text": "In this study involving 215 patients, we demonstrate that i) SARS-CoV-2 RNAemia positivity rate is higher in severe cases, ii) the rate of severe cases is higher in patients with low TTV DNA load, and iii) TTV DNA load combined with SARS-CoV-2 RNAemia may predict the outcome of COVID-19 infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "SARS-CoV-2 RNAemia positivity can range from 0% to 41%, with much higher rates up to 100% having been reported in severe or critically ill patients [3] [4] [5] [6] 17] . In our cohort, SARS-CoV-2 RNAemia was detected in 40.7% of patients. This percentage decreased with time, from 43.4% in the first week after symptom onset to 14.6% in the third week after symptom onset, and was significantly higher in severe cases compared to mild-moderate patients at all timepoints after symptom onset.",
+            "cite_spans": [
+                {
+                    "start": 148,
+                    "end": 151,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 152,
+                    "end": 155,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 156,
+                    "end": 159,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 160,
+                    "end": 163,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 164,
+                    "end": 167,
+                    "text": "17]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Studies on healthy individuals and transplant recipients have demonstrated that low levels of TTV mirror strong immune responses, while high levels correlate with age and reflect weak immune responses [8, 12, 18, 19] . Since COVID-19 severity and mortality rates have been associated to strong immune response and inflammation, we investigated whether plasma levels of TTV may predict the outcome of COVID-19 patients. Using a threshold of 700 copies/ml of TTV DNA load, we observed that severe cases were more frequent in patients with low TTV DNA load as early as the first week after symptom onset. This implies that in situations affecting or provoked by immunity changes, irrespective of age, TTV DNA load quickly adapts and can be a useful marker of severe COVID-19. Furthermore, SARS-CoV-2 seroconversion occurred earlier in patients with low TTV DNA load -mirroring stronger immunity-which suggests a correlation between the intensity of global immunity and of specific anti-SARS-CoV-2 humoral immunity.",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 204,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 205,
+                    "end": 208,
+                    "text": "12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 209,
+                    "end": 212,
+                    "text": "18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 213,
+                    "end": 216,
+                    "text": "19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Additionally, these data highlight the central role of the immune response in COVID-19 progression and corroborate increasingly important findings involving immunity and inflammation in COVID-19 severity. Interestingly, differences in lymphocyte count and lymphocytes/neutrophils ratio between severe and mild-moderate cases did not appear until the second week after symptom onset, whereas TTV DNA load were already lower in severe patients in the first week after symptom onset. This supports the previous perception that TTV DNA load rapidly readjusts in COVID-19 context and could be an early predictive marker of disease progression.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "We combined TTV DNA load and SARS-CoV-2 RNAemia measured on the same plasma sample to stratify patients at admission and analyze their outcome. Here, we show that patients displaying low TTV DNA load and SARS-CoV-2 RNAemia have a 12-fold higher risk of being admitted to the ICU in the following days. Low TTV DNA load and SARS-CoV-2 RNAemia detection may be effective markers reflecting disease severity and poor outcome that could be conveniently used in clinical laboratory settings. These are non-invasive markers that could be measured as soon as COVID-19 diagnosis is made based on positive SARS-CoV-2 RT-PCR on respiratory samples. Specific soluble immunological markers such as IL-6 [20] or the IL-6/IFN-\u03b3 ratio [21] have been described and could be combined with TTV DNA load and SARS-CoV-2 RNAemia. Lymphocyte count, CRP or procalcitonin levels have also been used as predictors of COVID-19 prognosis and have been suggested to be used in conjunction with each other as an overall \u00ab score \u00bb [22] [23] [24] [25] in the aim of reflecting different aspects of the immune response, while no marker reflecting the globality of the immune function had previously been investigated in the context of COVID-19. Indeed, due to its nature as an endogenous virus, the sole use of TTV DNA load may reflect the strength of the overall immune response. As a matter of fact, in solid organ transplantation, low TTV DNA loads have been shown to predict all types of graft rejection, whether its origin was cellular, humoral or mixed. However, while TTV DNA load is useful to estimate the overall intensity of the immune response, the interplay of the different elements of the immunity involved in the pathophysiology of SARS-CoV-2 infection still remain to be elucidated. Non-infected patients (SARS-CoV-2 negative controls) were not included in this study. Another limitation is the unavailability of pre-COVID-19 plasma samples to determine TTV levels and kinetics upon SARS-CoV-2 infection.",
+            "cite_spans": [
+                {
+                    "start": 691,
+                    "end": 695,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 720,
+                    "end": 724,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1001,
+                    "end": 1005,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1006,
+                    "end": 1010,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1011,
+                    "end": 1015,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1016,
+                    "end": 1020,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The analysis of TTV DNA load and SARS-CoV-2 RNAemia in our wellcharacterized cohort allows both to confirm the role of the immune response in severe COVID-19 cases and to identify patients who are most at risk of an unfavorable outcome. Indeed, despite the retrospective nature of the study, analyzing these biological data at the time at which patients seek medical help and their association with disease outcome closely mimics the possible use of these markers in actual clinical practice. Prospective longitudinal studies on larger cohorts could strenghten these findings and define guidelines for the use of TTV DNA load in COVID-19 patients. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Characteristics and clinical outcomes of adult patients hospitalized with COVID-19 -Georgia",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A W"
+                    ],
+                    "last": "Gold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "MMWR Morb Mortal Wkly Rep",
+            "authors": [],
+            "year": 2020,
+            "venue": "CDCMMWR. Severe outcomes among patients with coronavirus disease 2019 (COVID-19) -United States",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Detectable 2019-nCoV viral RNA in blood is a strong indicator for the further clinical severity",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg. Microbes Infect",
+            "volume": "9",
+            "issn": "1",
+            "pages": "469--473",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "SARS-CoV-2 viremia is associated with COVID-19 severity and predicts clinical outcomes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jacobs",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Bain",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Naqvi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Staines",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M S"
+                    ],
+                    "last": "Castanha",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Clin. Infect. Dis. Off Publ. Infect. Dis. Soc. Am",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Onadmission SARS-CoV-2 RNAemia as a single potent predictive marker of critical condition development and mortality in COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Miki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Horiuchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Miyata",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yoshimura",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Miyazaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "PLoS ONE",
+            "volume": "16",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "SARS-CoV-2 RNAemia predicts clinical deterioration and extrapulmonary complications from COVID-19",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ram-Mohan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zudock",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hashemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tjandra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Clin. Infect. Dis. Off Publ. Infect. Dis. Soc. Am",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "COVID-19: consider cytokine storm syndromes and immunosuppression, The Lancet",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mcauley",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tattersall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Manson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "1033--1034",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Puchhammer-St\u00f6ckl E. TTV DNA plasma load and its association with age, gender, and HCMV IgG serostatus in healthy adults",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Haloschan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bettesch",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "G\u00f6rzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Weseslindtner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kundi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Age Dordr. Neth",
+            "volume": "36",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Development of a standardized real time PCR for Torque teno viruses (TTV) viral load detection and quantification: a new tool for immune monitoring",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kulifaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Durgueil-Lariviere",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Meynier",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Munteanu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Pichon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dub\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Clin. Virol. Off Publ. Pan. Am. Soc. Clin. Virol. Ao\u00fbt",
+            "volume": "105",
+            "issn": "",
+            "pages": "118--127",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Torquetenovirus viremia for early prediction of graft rejection after kidney transplantation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Solis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Velay",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gantner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bausson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Filipputtu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Freitag",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Infect",
+            "volume": "79",
+            "issn": "1",
+            "pages": "56--60",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Puchhammer-St\u00f6ckl, Association between plasma torque teno virus level and chronic lung allograft dysfunction after lung transplantation",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "G\u00f6rzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Jaksch",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Strassl",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Klepetko",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Heart Lung Transplant Off Publ. Int. Soc. Heart Transplant Mars",
+            "volume": "36",
+            "issn": "3",
+            "pages": "366--368",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Quantification of torque teno virus viremia as a prospective biomarker for infectious disease in kidney allograft recipients",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Strassl",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schiemann",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Doberer",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "G\u00f6rzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Puchhammer-St\u00f6ckl",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Eskandary",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J. Infect. Dis",
+            "volume": "218",
+            "issn": "8",
+            "pages": "1191--1199",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Characteristics of SARS-CoV-2 and COVID-19",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "- L"
+                    ],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Rev. Microbiol",
+            "volume": "6",
+            "issn": "",
+            "pages": "1--14",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "ICU re-organisation to face the first COVID-19 epidemic wave in a tertiary hospital",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Collange",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sammour",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Souli\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Castelain",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mertes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Anaesth Crit. Care Pain Med",
+            "volume": "39",
+            "issn": "6",
+            "pages": "731--732",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Protocol: real-time RT-PCR assays for the detection of SARS-CoV-2 Institut Pasteur",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "3662",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Evaluation of the performance of SARS-CoV-2 serological tools and their positioning in COVID-19 diagnostic strategies",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Velay",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gallais",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Benotmane",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wendling",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Danion",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Collange",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diagn Microbiol. Infect. Dis",
+            "volume": "98",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "SARS-CoV-2 RNAemia with a higher nasopharyngeal viral load is strongly associated with disease severity and mortality in patients with COVID-19",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Kawasuji",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Morinaga",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yoshida",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Takegoshi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kaneda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2022,
+            "venue": "J. Med. Virol",
+            "volume": "94",
+            "issn": "1",
+            "pages": "147--153",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Torquetenovirus: the human virome from bench to bedside",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Focosi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Antonelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pistello",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Maggi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Clin. Microbiol. Infect. Off Publ. Eur. Soc. Clin. Microbiol. Infect. Dis",
+            "volume": "22",
+            "issn": "7",
+            "pages": "589--593",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Torque teno virus monitoring in transplantation: the quest for standardization",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Focosi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Maggi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Am. J. Transplant Off J. Am. Soc. Transplant Am. Soc. Transpl. Surg",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Detectable serum SARS-CoV-2 viral load (RNAaemia) is closely correlated with drastically elevated interleukin 6 (IL-6) level in critically ill COVID-19 patients",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin. Infect. Dis. Off Publ. Infect. Dis. Soc. Am",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "High IL-6/IFN-\u03b3 ratio could be associated with severe disease in COVID-19 patients",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lagunas-Rangel",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Ch\u00e1vez-Valencia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Med. Virol",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Predictors of COVID-19 severity: a literature review",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gallo Marin",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Aghagoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lavine",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Siff",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Rev. Med. Virol",
+            "volume": "31",
+            "issn": "1",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Predicting disease severity and outcome in COVID-19 patients: a review of multiple biomarkers",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tjendra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mana",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Espejo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Akgun",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Millan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gomez-Fernandez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Arch. Pathol. Lab Med",
+            "volume": "144",
+            "issn": "12",
+            "pages": "1465--1474",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Clinical decision support tool and rapid point-of-care platform for determining disease severity in patients with COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Mcrae",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Simmons",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Christodoulides",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fenyo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lab Chip",
+            "volume": "20",
+            "issn": "12",
+            "pages": "2075--2085",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Prediction of criticality in patients with severe Covid-19 infection using three clinical features: a machine learning-based prognostic model with clinical data in Wuhan",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "- T"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.27.20028027v2"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Evolution of SARS-CoV-2 RNAemia prevalence in severe and nonsevere cases. Samples were available at week one (W1) after symptom onset for 27 severe cases and 49 non-severe cases, at week two (W2) after symptom onset for 59 severe cases and 75 non-severe cases and at week three (W3) after symptom onset for 62 severe cases and 51 non-severe cases.Fig. 2. Distribution of severe COVID-19 cases according to TTV DNA load measured in the first or second week after symptom onset. Samples were available for 76 patients in the first week and 134 in the second. Severe cases rate was 2.23 times higher for patients with low TTV DNA load in the first week (p = 0.0069) and 1,83 times higher for patients with low TTV DNA load in the second week (p = 0.0017).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "TTV DNA load and SARS-CoV-2 RNAemia help predict COVID-19 cases outcome. Kaplan-Meier curves represent ICU admission cumulative incidence according to TTV DNA load and SARS-CoV-2 RNAemia at patient admission in the emergency department. Numbers at risk are indicated at each timepoint.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "CRediT authorship contribution statementMorgane Solis: Conceptualization, Methodology, Formal analysis, Investigation, Resources, Supervision, Project administration, Writingoriginal draft. Floriane Gallais: Conceptualization, Methodology, Formal analysis, Investigation, Resources, Supervision, Writingreview & editing. Sabrina Garnier-Kepka: Resources, Writingreview & editing. Nicolas Lefebvre: Resources, Writingreview & editing. Ilies Benotmane: Resources, Writingreview & editing. Pierre-Olivier Ludes: Resources, Writingreview & editing. Vincent Castelain: Resources, Writingreview & editing. Ferhat Meziani: Resources, Writingreview & editing. Sophie Caillard: Resources, Writingreview & editing. Olivier Collange: Resources, Writingreview & editing. Samira Fafi-Kremer: Conceptualization, Resources, Visualization, Writingreview & editing.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Patients' characteristics. Data available for 79 patients in the severe group and 121 patients in the mild-moderate group.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We thank H\u00e9l\u00e8ne Hamm for technical assistance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.jcv.2022.105120.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary materials"
+        }
+    ]
+}

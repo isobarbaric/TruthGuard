@@ -1,0 +1,1595 @@
+{
+    "paper_id": "27785a7409cd095dc2d9990b63b9b0f0f82f397e",
+    "metadata": {
+        "title": "Time patterns of precautionary health behaviours during an easing phase of the COVID-19 pandemic in Europe",
+        "authors": [
+            {
+                "first": "Anik\u00f3",
+                "middle": [],
+                "last": "B\u00edr\u00f3",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "R\u00e9ka",
+                "middle": [],
+                "last": "Branyiczki",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "P\u00e9ter"
+                ],
+                "last": "Elek",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Using data from the COVID-19 questionnaire of the Survey of Health, Ageing and Retirement in Europe (SHARE), we investigate the time patterns of precautionary health behaviours of individuals aged 50 years and above during the summer of 2020, an easing phase of the COVID-19 pandemic in Europe. We also examine how these health behaviours differ by the presence of chronic conditions such as hypertension, high cholesterol level, heart disease, diabetes or chronic bronchitis, which can be considered as risk factors for COVID-19. Our results suggest that while on average, people became less precautious during the analysed time period, this is less so for those who are at higher risk. We also document large regional differences in precautionary health behaviours and show that higher-risk individuals are on average more cautious in all regions. We conclude that people adjusted their health behaviours in line with the generally understood risk of the COVID-19 disease. At the same time, our results also point out divergences in the level of willingness to take different precautionary steps.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Until a sufficiently large share of the population becomes vaccinated, changing individual behaviour is key to contain the spread of COVID-19. Accordingly, some of our everyday activities have changed drastically since the outbreak of the pandemic as governments urged citizens to take precautionary steps, stemming from recommending hand sanitising and mandating wearing a mask in public to staying at home, often forced by a curfew. Using data from the Survey of Health, Ageing and Retirement in Europe (SHARE), we investigate the time patterns of several precautionary health behaviours among the European population above age 50 years during the summer (June and July) of 2020. We can consider this period as an easing phase of the COVID-19 pandemic since it falls between the \"first wave\" (spring of 2020) and the \"second wave\" (autumn of 2020). Although there were heterogeneities across countries, average death rates due to COVID-19 slightly decreased (WHO 2020) and COVID-19-related policies became on average less stringent (Hale et al. 2021 ) over this period.",
+            "cite_spans": [
+                {
+                    "start": 1034,
+                    "end": 1051,
+                    "text": "(Hale et al. 2021",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We assess how precautionary health behaviours are shaped by the presence of chronic diseases across European regions. Do we see that cautious behaviour of older people is spreading or is it rather fading over time? Are there any differences based on health status in the precautionary steps they take and the time pattern of such steps? Given the substantially larger COVID-19 mortality risk of older people (it was 3.7 times higher in the age group above 60/65 years than in the general population; also, 90 per cent or more of reported COVID-19 deaths occurred in this age group during the first wave of the pandemic in European countries, see OECD and European Union 2020, p. 55.), especially of those suffering from chronic diseases, it is important to understand the dynamics of different health behaviours to curb the number of fatalities due to the virus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Drivers of health behaviour are complex; ecological models provide a comprehensive framework of the multiple and interacting levels of factors that influence health behaviour, grouped into intrapersonal, interpersonal, organisational, community and public policy levels (Sallis et al. 2008; Richard et al. 2011) . Given the substantial negative externalities arising from irresponsible individual behaviour during a pandemic, governments introduced restrictions of individual behaviour in most European countries with varying levels of policy stringency (Hale et al. 2021) . Apart from policy stringency, the likelihood of compliant behaviour also varies both across and within countries. Accordingly, some of the recent scholarly attention has focused on understanding the factors behind adhering to cautious health behaviour under COVID-19. The assessed factors are diverse, and the results are mixed, and some found that in the USA partisanship is the single most consistent factor that differentiates health behaviours (Gadarian et al. 2020) , and others (Harper et al. 2020 ) found no effect of politically relevant variables and named simply the fear of COVID-19 as the predictor of positive behaviour change, i.e. of improved hand hygiene and physical distancing (or, using the terminology of Harper et al. social distancing) . Wise et al. (2020) also reported that the strongest predictor of physical distancing was the perceived likelihood of personally being infected. A Japanese study highlights the importance of awareness and knowledge as being informed about COVID-19 was associated with a more precautious behaviour (Shiina et al. 2020) . Based on a sample of students in Switzerland, Franzen and W\u00f6hner (2021) found that personal interests in staying at home (i.e. having high-risk relatives) increased compliance. Clark et al. (2020) observed that belief in the effectiveness of health precautions against COVID-19 and prioritising one's health in general made a difference. Similarly, Bourassa et al. (2020) demonstrated that physical distancing is associated with conventional health behaviours and healthier habits in general.",
+            "cite_spans": [
+                {
+                    "start": 270,
+                    "end": 290,
+                    "text": "(Sallis et al. 2008;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 291,
+                    "end": 311,
+                    "text": "Richard et al. 2011)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 554,
+                    "end": 572,
+                    "text": "(Hale et al. 2021)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1023,
+                    "end": 1045,
+                    "text": "(Gadarian et al. 2020)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1059,
+                    "end": 1078,
+                    "text": "(Harper et al. 2020",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1300,
+                    "end": 1332,
+                    "text": "Harper et al. social distancing)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1335,
+                    "end": 1353,
+                    "text": "Wise et al. (2020)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1631,
+                    "end": 1651,
+                    "text": "(Shiina et al. 2020)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1700,
+                    "end": 1725,
+                    "text": "Franzen and W\u00f6hner (2021)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1831,
+                    "end": 1850,
+                    "text": "Clark et al. (2020)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 2003,
+                    "end": 2025,
+                    "text": "Bourassa et al. (2020)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The rapidly expanding COVID literature has yet collected less evidence specifically about the behaviour of older people, though Clark et al. (2020) found that age was generally unrelated to voluntary compliant behaviours during the pandemic. In general, the public discourse during the pandemic characterised older people as a rather homogeneous vulnerable group that society needs to protect even at the cost of sacrificing much of their social life and that of other generations as well . Although the ageing process and older people are diverse, their health status, attitudes and behaviour vary (Th\u00f8gersen-Ntoumani et al. 2011) . For instance, not only actual age but positive views on ageing in general and a younger subjective age (or a more youthful identity) are often associated with health-promoting activities, such as walking Montepare, 2020) . Similarly, self-efficacy, in other words perceived competency, has a beneficial effect on health behaviour, and it may explain part of the relationship between socio-economic status and health status (Grembowski et al. 1993) . Apart from diverging attitudes, the health status of older people varies as well. For example, there are profound disparities in the prevalence of chronic diseases in the European Union by socio-economic status (OECD and European Union 2020). Thus, it is worth studying the heterogeneities of the older age group to better understand their behaviour.",
+            "cite_spans": [
+                {
+                    "start": 128,
+                    "end": 147,
+                    "text": "Clark et al. (2020)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 599,
+                    "end": 631,
+                    "text": "(Th\u00f8gersen-Ntoumani et al. 2011)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 838,
+                    "end": 854,
+                    "text": "Montepare, 2020)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1057,
+                    "end": 1081,
+                    "text": "(Grembowski et al. 1993)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Our simple theoretical framework of individual-level drivers of health behaviour covers the perceived probability of getting infected and the perceived health risk of an infection, which together influence the general level of risk aversion related to COVID-19. Then, deciding about each precautionary step involves a subjective cost-benefit analysis of the behaviour shift. Note that some precautionary behaviours, such as wearing a mask, can have positive externalities by reducing the risk of infecting others (Salani\u00e9 and Treich 2020) . Here, we assume that people take into account only the subjective cost and benefit of each precautionary step, which might include an altruistic motive. We suspect that the perceived health risk is influenced by objective (or wellestablished) risk factors, such as age, chronic diseases and being a male that are all positively related to the health risk imposed by COVID-19 (Ssentongo et al. 2020; O'Driscoll et al. 2021) , and by the knowledge and awareness of these risk factors, which are usually associated with educational level. Regarding the individual-level cost-benefit analysis of changing a behaviour, we have several considerations. First, some precautionary steps are in general less costly than others (i.e. hand washing vs. not meeting family) and thus we expect them to be more widespread. Second, the same precautionary step may impose different levels of costs to different people. For example, we expect that those who are employed and those who live alone are less likely to stay at home and to give up personal social interactions as that would mean a larger sacrifice from them.",
+            "cite_spans": [
+                {
+                    "start": 513,
+                    "end": 538,
+                    "text": "(Salani\u00e9 and Treich 2020)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 916,
+                    "end": 939,
+                    "text": "(Ssentongo et al. 2020;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 940,
+                    "end": 963,
+                    "text": "O'Driscoll et al. 2021)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "We contribute to the existing literature about health behavioural responses to a pandemic by focusing on the risk group of older people and the role of their health status. Given the large sample size and variation in interview times, we are also able to demonstrate time trends of average levels of precaution, and we show regional differences in precautionary behaviour across Europe, indicative of the role of the cultural and policy context. Our paper is structured as follows. First, we briefly introduce the data and the health behaviour, health status and control variables we use. Then, we show the time patterns of different health behaviours over the summer, both together and separately for individuals with and without a chronic condition. We also demonstrate regional differences of health behaviour, while keeping the decomposition by chronic condition. Finally, we turn to our linear probability models of different health behaviour changes, where next to the baseline associations some of the regressions allow differing time trends of behaviour by health status and age. We conclude with discussing our results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Our analysis is primarily based on the SHARE-COVID-19 data (B\u00f6rsch-Supan 2020a, b). We restrict the SHARE-COVID-19 sample to those observations that were recorded during the eight weeks between 8 June 2020 and 2 August 2020. Thus, we exclude the last three weeks of the SHARE-COVID-19 fieldwork when relatively few interviews were conducted (omitting 4.5% of the sample or 2593 observations, 61.9% of them being from a single country, Austria). Also, the education indicator-which comes from the SHARE Wave 7 data, see below-is missing for 7496 observations. Taking into account the small number of item non-responses, the final sample size used in the analyses is 46,040 from 26 European countries and Israel. (The Netherlands cannot be included in the analysis due to not participating in SHARE Wave 7.) The included countries are Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Israel, Italy, Latvia, Lithuania, Luxembourg, Malta, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden and Switzerland.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "The variables that are in the focus of our analysis are eight indicators of health behaviour from the SHARE-COVID-19 survey. They capture how people changed their health behaviours in response to the outbreak of the COVID-19 pandemic. To ease the interpretation of the results, we dichotomise all eight indicators as follows. (1) No walks equals one if someone has not left home since the outbreak or responds \"not any more\" to the question whether he/she went out for a walk since the outbreak, zero otherwise. (2) No shopping equals one if someone has not left home since the outbreak or responds \"not any more\" to the question about going shopping since the outbreak, zero otherwise. (3) No meeting with family equals one if someone has not left home since the outbreak or responds \"not any more\" to the question about visiting other family members since the outbreak, zero otherwise. (4) No meeting with others equals one if someone has not left home since the outbreak or responds \"not any more\" to the question about meeting more than five people outside the household since outbreak, zero otherwise. (5) Distance to others equals one if someone responds \"always\" to the question about keeping distance from others in public. (6) Wearing mask equals one if someone responds \"always\" to the question about wearing a face mask in public. (The latter two variables are not defined for those who have not left home since the outbreak, around 18% of the sample.) (7) More hand washing equals one if someone responds \"yes\" to the question about washing hands more than usual. (8) More hand sanitising equals one if someone responds \"yes\" to the question about using hand sanitiser or disinfection fluids more than usual.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "To capture the health status and COVID-19 risk of individuals, we use binary indicators of drugs taken regularly for high blood cholesterol, high blood pressure, heart disease (including coronary or cerebrovascular diseases and other heart diseases), diabetes and chronic bronchitis. These are well-established risk factors for COVID-19 severity and mortality (see e.g. the meta-analyses Nandy et al. 2020; Ssentongo et al. 2020; Zaki et al. 2020 ; there is some disagreement on the effect of chronic bronchitis but its presence definitely increases the perceived risk). We classify a respondent as high risk (66.5% of the sample) if he/she takes drugs regularly for any of the above-listed conditions. In addition, we use the risk factors for overweight ) and obesity (BMI 30 and above) from SHARE Wave 7 as control variables.",
+            "cite_spans": [
+                {
+                    "start": 388,
+                    "end": 406,
+                    "text": "Nandy et al. 2020;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 407,
+                    "end": 429,
+                    "text": "Ssentongo et al. 2020;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 430,
+                    "end": 446,
+                    "text": "Zaki et al. 2020",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data"
+        },
+        {
+            "text": "The demographic and socio-economic control variables are the following. We use gender and age, the latter split into four similar sized categories (age up to 63, 64-70, 71-76 and above 76), or simply into two categories (cut at 70 years) in some analyses (47.6% of the sample is above 70 years). We generate a binary indicator of being employed (including self-employment) at the time of the COVID-19 outbreak and a binary indicator of living alone (i.e. of the household size being equal to one, which was asked in Wave 8 and is imputed from Wave 7 if it is missing there). Finally, based on ISCED-97 (International Standard Classification of Education) codes in the SHARE Wave 7 data, we create three categories of education level: primary, secondary and tertiary education (ISCED-97 levels 0-1, 2-4 and 5-6, respectively). Table 1 shows descriptive statistics of the demographic, socio-economic and health indicators.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 826,
+                    "end": 833,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Data"
+        },
+        {
+            "text": "As a starting point, we display the weekly averages of the eight indicators of health behaviour during the eight examined weeks. In doing so, we net out country effects because different countries conducted the survey at different pace during the summer. Afterwards, we show the weekly averages separately for those with at least one chronic condition and those without any.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analytic approach"
+        },
+        {
+            "text": "Next, to illustrate the regional differences in health behaviour during our analysed period, we split the European SHARE countries into three groups: West and North (Austria, Belgium, Denmark, Finland, France, Germany, Luxembourg, Sweden, Switzerland), South (Cyprus, Greece, Italy, Malta, Portugal, Spain) and East (Bulgaria, the Czech Republic, Croatia, Estonia, Hungary, Latvia, Lithuania, Poland, Romania, Slovakia, Slovenia). For each country group, we show the average of the eight indicators of health behaviour separately for those with and without the presence of at least one chronic condition.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analytic approach"
+        },
+        {
+            "text": "A limitation of the descriptive approach is that the interview date is not random; thus, the observed time patterns might partly be driven by composition changes of the respondents. To address this issue, we apply regression models, controlling for a rich set of individual characteristics that might be related both to health behaviours and to interview timing. We fit linear probability models of the eight health behaviour indicators using a linear time trend, the presence of the five specific chronic conditions, gender, age, education level, employment status at the time of the outbreak, the binary variable of living alone and country indicators (fixed effects) as explanatory variables. The results do not change qualitatively if logit models are used instead. To check for the presence of nonlinear time trends, we re-estimate the regression models with replacing the linear time trend with bi-weekly interview week effects.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analytic approach"
+        },
+        {
+            "text": "To examine the presence of differential time trends across health status, we also estimate linear probability models that contain the interaction term between having (at least one) chronic condition and the time trend. Besides, to analyse specifically whether the different time trends by health status arise from the relatively older or the younger population, we also estimate models with threeway interaction terms between the presence of chronic conditions, the time trend and the binary indicator of being above 70 years old.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analytic approach"
+        },
+        {
+            "text": "All analyses were performed with Stata Statistical Software: Release 16. College Station, TX: StataCorp LLC.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analytic approach"
+        },
+        {
+            "text": "According to Fig. 1 , on average, around 85% of respondents washed hands and the same proportion used hand sanitiser or disinfection fluids more than usual after the start of the pandemic. Also, if leaving their home, 76% always kept distance and 59% always wore a face mask in public. Fifty-three per cent of respondents stayed at home or did not visit other family members and 63% did not meet more than five people outside the household since the outbreak. (These two indicators will be referred to as \"no meeting\" indicators below.) Even the most substantial changes in health behaviour-never leaving home for walking and for shopping since the outbreak-were reported by 31% and 27%, respectively. A gradual loosening of the behavioural changes during the eight examined weeks is especially visible for the two \"no meeting\" and the \"distance in public\" indicators. Meanwhile, the proportion of those who always wear a mask in public or use sanitiser more often seem to increase. Figure 2 shows these descriptive time trends split by the health status of the respondents. People with chronic conditions were in general more cautious. The differences by health status are the strongest for the no walks, no shopping and the two \"no meeting\" indicators, while negligible for hand washing and hand sanitising. The graphs also indicate that regarding the two \"no meeting\" measures, people with chronic conditions-compared to healthy respondents-rather kept their cautiousness during the summer. For the other measures, we do not see clear evidence for diverging time patterns by health status. Figure 3 displays the average values of the health behaviour indicators by country groups and health status. Within each country group and for each indicator, we again see that people with chronic conditions were more careful. The differences by health status are the strongest for the no walks, no shopping and the two \"no meeting\" indicators, while they are negligible for hand washing and hand sanitising. We also see that on average, people in Western and Northern Europe were the least cautious during the analysed period, especially about going for walks, shopping, meeting with family members and wearing masks. We do not see major differences in precautionary health behaviours between Southern and Eastern Europe, although some of them are slightly more prevalent in the South than in the East. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 13,
+                    "end": 19,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 983,
+                    "end": 991,
+                    "text": "Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1593,
+                    "end": 1601,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Time patterns of health behaviours"
+        },
+        {
+            "text": "Turning to the regression results, we first note that our main health behaviour indicators will be the first four measures (\"no walks\", \"no shopping\" and the \"no meeting\" indicators) because the \"distance\" and the \"mask\" variables are only defined on the selected sample of those who responded that they left their home since the outbreak, while \"hand washing\" and \"hand sanitising\" seem the least costly interventions and were performed by the vast majority of respondents. Table 2 displays the effect of specific chronic conditions and the time trend after controlling for individual characteristics and country indicators. Diagnosed hypertension and high blood cholesterol increase the prevalence of precautionary health behaviour measures generally by 1-2%points, while the more severe conditions (heart disease, diabetes and chronic bronchitis) increase the first four (main) indicators by 2-9%points but do not generally have a substantial effect on the other four measures. On the other hand, apart from the hand washing and hand sanitising indicators, being overweight or obese does not unequivocally imply more cautiousness.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 475,
+                    "end": 482,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Regression results"
+        },
+        {
+            "text": "In line with the descriptive graphs, the \"no meeting\" and the \"distance\" indicators decrease in time (by around 6%points during the eight examined weeks), while the prevalence of wearing masks and more hand sanitising increases (statistically significantly at the 1% level) by 2-5%points during the period.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regression results"
+        },
+        {
+            "text": "The effects of the control variables are roughly in line with the theoretical framework presented in \"Introduction.\" Older people are more severely affected by the disease and are more risk averse; hence, their health behaviour changed more substantially for the main indicators. Compared to people aged 50-63 (plus a few individuals aged under 50), the no walks, no shopping and no meeting indicators are 0-3%points higher at ages 64-70, 4-10%points higher at ages 71-76 and 14-28%points higher at ages 77 and above. We do not see such differences by age for the \"distance\", \"mask\" and \"hand washing\" indicators, while the prevalence of hand sanitising even decreases with age. Females, although face smaller objective risk, are more risk averse, and their indicators are 2-7%points higher than those of males. The effect of the level of education is ambiguous as it decreases the main indicators and increases the others. Finally, since the employed have more social interactions in any case and people living alone need more social interactions to maintain their everyday activities, both groups changed their health behaviour less radically (apart from the \"hand washing\" and \"hand sanitising\" indicators for the employed).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regression results"
+        },
+        {
+            "text": "To assess nonlinear time effects, we include indicators of bi-weekly interview dates instead of the linear trend. Table 3 shows a gradual decrease of up to 4-6%points in the prevalence of the \"no meeting\" and \"distance\" indicators and a gradual increase of up to 3.3%points in the prevalence of wearing masks. We see some evidence for nonlinear time patterns in the other four behavioural indicators; however, the magnitudes of the estimated time effects on these outcomes are small (at most 2.2%points). Table 4 displays the estimation results from models that allow differing time trends by health status. The two \"no meeting\" and the \"distance to others\" indicators show significant heterogeneities in their trends: they decreased by 8-10%points in the eight weeks for the healthy and only by 4-5% points for the chronically ill population. Also, hand washing became less prevalent only in the healthy group. As the lower panel of the table indicates, heterogeneity by health status is more substantial (and statistically significant for six out of the eight indicators) for the population aged 70 years or above.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 114,
+                    "end": 121,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 505,
+                    "end": 512,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Regression results"
+        },
+        {
+            "text": "We analysed the time patterns of precautionary health behaviours during eight weeks of an early easing phase of the COVID-19 pandemic in Europe. The number of COVID-19-related death cases per million population decreased from 0.31 in the first week of our observation period to 0.14 in the fifth week and only went up to 0.19 by the last week (July 27-August 2) (WHO, 2020 statistics, weighted by our sample). At the same time, governments gradually eased the COVID-19-related policy restrictions during this time period, as shown by the stringency indicator of the University of Oxford (Hale et al. 2021) . Our results suggest that the time patterns of precautionary health behaviours differ by the costliness of the behaviours. We do not see Table 3 Linear probability models of health behaviours with bi-weekly interview time effects Robust standard errors in brackets, **p < 0.01, *p < 0.05. All regressions include the individual-level control variables and country dummies of major changes in the least adapted, most costly behaviours (not going out for walks or shopping). We see decreasing patterns in the costly but more widely adapted behaviours (not meeting with family members, with others and keeping distance in public places). Note that the decreasing patterns might be the joint consequence of the easing of restrictive policy measures, of the decrease of COVID-19-related death cases and also of changing risk attitudes and risk perceptions of individuals. It is beyond the scope of this study to disentangle these various mechanisms. Finally, the least costly behaviours are found to be the most persistent; we even see increasing patterns in wearing mask and hand sanitising. Our analysis also revealed that individuals with a higher health risk due to chronic conditions acted differently and were more likely to take even the costly precautionary steps over the summer across all three European regions. On average, people in Western and Northern Europe were the least cautious during the analysed period. The regional differences cannot be explained by differences in the rate of COVID-19-related death cases or policy stringency as, on average, Western and Northern Europe is characterised by similar cumulative COVID-19-related death rates (as measured by WHO 2020) and stringency indicators (as measured by Hale et al. 2021) as Southern Europe. Also, precautionary behaviours were rather similar in the East and South, despite the lower COVID-19-related death rates and stringency in the East.",
+            "cite_spans": [
+                {
+                    "start": 587,
+                    "end": 605,
+                    "text": "(Hale et al. 2021)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 2332,
+                    "end": 2349,
+                    "text": "Hale et al. 2021)",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 744,
+                    "end": 751,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The presence of a chronic condition led to the maintenance of more cautious behaviours especially among those above age 70 years, highlighting how the interaction between different risk factors drives health behaviour.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our study is subject to some limitations. The data used refer to a specific early phase of the COVID-19 pandemic; hence, it remains for future research to analyse later changes in precautionary behaviours. Also, the analysis is based on cross-sectional data, making use of variations in the timing of the interview. Therefore, we could not analyse individual-level changes in precautionary behaviours Table 4 Linear probability models of health behaviours with heterogeneous time patterns Robust standard errors in brackets, **p < 0.01, *p < 0.05. Linear trend starts on 8 June and corresponds to 8 weeks. All regressions include individual-level control variables and country dummies. The sample sizes are the same as in Table 2 throughout the COVID-19 pandemic. A further limitation is that the sample used is not a representative sample of the population partly due to item and unit non-response, partly due to the restriction of the sample to interviews conducted during the analysed eight weeks. Nevertheless, as the sample restrictions are not based on individual characteristics and we include a rich set of control variables in our regression models, our results likely reveal patterns that are present in the entire population of Europe.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 401,
+                    "end": 408,
+                    "text": "Table 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 722,
+                    "end": 729,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The main results are robust to the exclusion of the first two weeks of the fieldwork from the analysis, when some countries had not started the fieldwork yet. Also, specification checks indicate that estimating bi-weekly interview week effects instead of the linear time effect in our regression models does not alter substantially the results. Our findings point to the divergence in the level of willingness to take different precautionary steps since subjective costs of forgoing social interactions are higher than the individual-level costs of increased personal hygiene. We also observe substantial heterogeneities among older people in the level and time trends of their health behaviour as objective risk factors such as a chronic condition or older age affect the level of precaution. From a policy point of view, it is reassuring that more vulnerable people take more efforts to avoid an infection, highlighting the importance of raising awareness about the risk factors related to the pandemic. At the same time, considering the positive externalities of precautionary behaviours, it can be desirable to maintain high levels of precautions even among the less vulnerable groups. Our findings also underline that some of the older people may need more assistance, for example to do the shopping or to fight the mental health implications of loneliness and increased stress during a lockdown.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Survey of Health, Ageing and Retirement in Europe (SHARE) wave8. COVID-19 survey 1 interview date",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "B\u00f6rsch-Supan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.6103/SHARE.w8caintdbeta.001"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Survey of health, ageing and retirement in Europe (SHARE) wave 8. COVID-19 survey 1. Release version: 0.0.1. beta. SHARE-ERIC",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "B\u00f6rsch-Supan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.6103/SHARE.w8cabeta.001"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Data resource profile: the survey of health, ageing and retirement in europe (SHARE)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "B\u00f6rsch-Supan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brandt",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hunkler",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kneip",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Korbmacher",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Malter",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Schaan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stuck",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zuber",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Int J Epidemiol",
+            "volume": "42",
+            "issn": "4",
+            "pages": "992--1001",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ije/dyt088"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Social distancing as a health behavior: County-level movement in the United States during the COVID-19 pandemic is associated with conventional health behaviors",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Bourassa",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sbarra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Caspi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Moffitt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Behav Med",
+            "volume": "54",
+            "issn": "8",
+            "pages": "548--556",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/abm/kaaa049"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Predictors of COVID-19 voluntary compliance behaviors: an international investigation",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Davila",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Regis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kraus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Glob Transit",
+            "volume": "2",
+            "issn": "",
+            "pages": "76--82",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.glt.2020.06.003"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Coronavirus risk perception and compliance with social distancing measures in a sample of young adults: evidence from Switzerland",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Franzen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "W\u00f6hner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "PLoS ONE",
+            "volume": "16",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0247447"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Partisanship, health behavior, and policy attitudes in the early stages of the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gadarian",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Goodman",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Pepinsky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "SSRN Electron J",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3562796"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Self-efficacy and health behavior among older adults",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Grembowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Patrick",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Diehr",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Durham",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Beresford",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kay",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hecht",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "J Health Soc Behav",
+            "volume": "34",
+            "issn": "2",
+            "pages": "89--104",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "A global panel database of pandemic policies (Oxford COVID-19 Government Response Tracker)",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hale",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Angrist",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Goldszmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kira",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Petherick",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Phillips",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Tatlow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nat Hum Behav",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41562-021-01079-8"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Functional fear predicts public health compliance in the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Harper",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Satchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fido",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Latzman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Ment Health Addict",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11469-020-00281-5"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Current directions in views on ageing",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Klusmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kornadt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Ageing",
+            "volume": "17",
+            "issn": "",
+            "pages": "383--386",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10433-020-00585-4"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Views on ageing: a lifespan perspective",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kornadt",
+                    "suffix": ""
+                },
+                {
+                    "first": "E-M",
+                    "middle": [],
+                    "last": "Kessler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wurm",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bowen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gabrian",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Klusmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Ageing",
+            "volume": "17",
+            "issn": "",
+            "pages": "387--401",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10433-019-00535-9"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "An exploration of subjective age, actual age, age awareness, and engagement in everyday behaviors",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Montepare",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Ageing",
+            "volume": "17",
+            "issn": "",
+            "pages": "299--307",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10433-019-00534-w"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Coronavirus disease (COVID-19): A systematic review and meta-analysis to evaluate the impact of various comorbidities on serious events",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nandy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Salunke",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Pathak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pandey",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Doctor",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Puj",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jain",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Warikoo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Metab Syndr",
+            "volume": "14",
+            "issn": "5",
+            "pages": "1017--1025",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.dsx.2020.06.064"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Age-specific mortality and immunity patterns of SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "O&apos;driscoll",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dos",
+                    "middle": [],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Azman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Paireau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Salje",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nature",
+            "volume": "590",
+            "issn": "7844",
+            "pages": "140--145",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2918-0"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Health at a glance: Europe 2020: State of health in the EU cycle",
+            "authors": [
+                {
+                    "first": "European",
+                    "middle": [],
+                    "last": "Oecd",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Union",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1787/82129230-en"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Ecological models revisited: their uses and evolution in health promotion over two decades",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Richard",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gauvin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Raine",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1146/annurev-publhealth-031210-101141"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Public and private incentives for self-protection",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Salani\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Treich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Geneva Risk Insur Rev",
+            "volume": "45",
+            "issn": "2",
+            "pages": "104--113",
+            "other_ids": {
+                "DOI": [
+                    "10.1057/s10713-020-00050-3"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Ecological models of health behavior",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Sallis",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Owen",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fisher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Theory, research, and practice",
+            "volume": "",
+            "issn": "",
+            "pages": "465--482",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Collecting survey data among the 50+ population during the COVID-19 outbreak: The Survey of Health, Ageing and Retirement in Europe (SHARE)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Scherpenzeel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Axt",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bergmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Douhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Oepen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sand",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Schuller",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stuck",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wagner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "B\u00f6rsch-Supan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Surv Res Methods",
+            "volume": "14",
+            "issn": "2",
+            "pages": "217--221",
+            "other_ids": {
+                "DOI": [
+                    "10.18148/srm/2020.v14i2.7738"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Relationship between perception and anxiety about COVID-19 infection and risk behaviors for spreading infection: a national survey in Japan",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shiina",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Niitsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Kobori",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Idemoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hashimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sasaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Igarashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Shimizu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nakazato",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hashimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Iyo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain Behav Immun -Health",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bbih.2020.100101"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Association of cardiovascular disease and 10 other pre-existing comorbidities with COVID-19 mortality: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ssentongo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ssentongo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Heilbrunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ba",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Chinchilli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "PLoS ONE",
+            "volume": "15",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0238215"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Health and well-being profiles of older European adults",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Th\u00f8gersen-Ntoumani",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Barkoukis",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Grano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Lucidi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lindwall",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liukkonen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Raudsepp",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Young",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Eur J Ageing",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10433-011-0186-4"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Mobbs D (2020) Changes in risk perception and protective behavior during the first week of the COVID-19 pandemic in the United States",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wise",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Zbozinek",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Michelini",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hagan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "WHO Coronavirus Disease (COVID-19) Dashboard data",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1098/rsos.200742"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Association of hypertension, diabetes, stroke, cancer, kidney disease, and high-cholesterol with COVID-19 disease severity and fatality: A systematic review",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Alashwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ibrahim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes & Metab Syndr",
+            "volume": "14",
+            "issn": "",
+            "pages": "1133--1142",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.dsx.2020.07.005"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "TABREF0": {
+            "text": "Descriptive statistics Sample size: 46,040. The age indicator ranges between 23 and 105 years, with 99.5% being 50 and above. The other variables are binary indicators with values 0 or 1. Data: SHARE Wave 7 Release 7.1.1 and Wave 8 Release 0.0.1 beta",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Linear probability models of health behaviours Robust standard errors in brackets, **p < 0.01, *p < 0.05. Linear trend starts on 8 June and corresponds to 8 weeks. Data: SHARE Wave 7",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "The sample sizes are the same as inTable 2. Data: SHARE Wave 7 Release 7.1.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": ". Data: SHARE Wave 7 Release 7.1.1 and Wave 8 Release 0.0.1 beta No meeting No meeting Distance Wearing More hand No walks No shopping with family with others to others mask washing sanitising",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements This paper uses data from SHARE Waves 7 and 8 (DOIs: https:// doi. org/ 10. 6103/ SHARE. w7. 711, https:// doi. org/ 10. 6103/ SHARE. w8cab eta. 001), see B\u00f6rsch-Supan et al. (2013) and Scherpenzeel et al. (2020) for methodological details. The SHARE data collection has been funded by the European Commis Funding B\u00edr\u00f3, Branyiczki and Elek were supported by the \"Lend\u00fclet\" program of the Hungarian Academy of Sciences (grant number: LP2018-2/2018). Elek was supported by the J\u00e1nos Bolyai Research Scholarship of the Hungarian Academy of Sciences.",
+            "cite_spans": [
+                {
+                    "start": 172,
+                    "end": 198,
+                    "text": "B\u00f6rsch-Supan et al. (2013)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 203,
+                    "end": 229,
+                    "text": "Scherpenzeel et al. (2020)",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "The authors declare that they have no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of interest"
+        }
+    ]
+}

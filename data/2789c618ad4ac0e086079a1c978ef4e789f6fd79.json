@@ -1,0 +1,2773 @@
+{
+    "paper_id": "2789c618ad4ac0e086079a1c978ef4e789f6fd79",
+    "metadata": {
+        "title": "Optimising the assignment of swabs and reagent for PCR testing during a viral epidemic Journal Pre-proof Optimising the assignment of swabs and reagent for PCR testing during a viral epidemic Optimising the assignment of swabs and reagent for PCR testing during a viral epidemic",
+        "authors": [
+            {
+                "first": "Alberto",
+                "middle": [],
+                "last": "Santini",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universitat Pompeu Fabra",
+                    "location": {
+                        "settlement": "Barcelona",
+                        "country": "Spain"
+                    }
+                },
+                "email": "-alberto.santini@upf.edu"
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Please cite this article as: Alberto Santini, Optimising the assignment of swabs and reagent for PCR testing during a viral epidemic, Omega (2020), doi: https://doi.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\u2022 Large-scale quick testing is of primary importance during a viral epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\u2022 Tests are hindered by the lack of chemical reagents, acting as a bottleneck.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\u2022 We show how optimising the allocation of reagents increases test capabilities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "\u2022 We encourage cross-regional collaboration to expand a country's test capacity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Early large-scale swab testing is a fundamental tool for health authorities to assess the prevalence of a virus and enact appropriate mitigation measures during an epidemic. The COVID-19 pandemic has shown that the availability of chemical reagent required to carry out the tests is often a bottleneck in increasing a country's testing capacity. Further, demand is unevenly spread between more a ected regions (which require more tests they can perform) and less a ected ones (which have spare capacity). These issues hint at the opportunity of increasing test capacity via the optimal allocation of swabs and reagent to laboratories. We prove that this is the case, proposing an Integer Programming formulation to maximise the number of tests a country can perform and validating our approach on both real-life data from Italy and synthetic instances. Our results show that increased inter-regional collaboration and a steadier supply of reagent (i.e., coming from local production sites rather than international shipments) can dramatically increase testing capacity. Accordingly, we propose short-term and long-term recommendations for policy makers and health authorities.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Viruses are pathogens that replicate after penetrating the living cells of other organisms. Outside cells, a virus is nothing more than genetic material (DNA or RNA) surrounded by protective layers of proteins and lipids. Once inside a host cell, the virus uses the cell's structures to replicate its genetic material and assembly its protective layers, thus creating a copy of itself. At the end, it kills the cell to release both the original and the copy.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Viruses cause a host of human diseases, ranging from the common cold to AIDS. Of particular interest for this work is the recent Coronavirus disease 2019 (COVID- 19) pandemic. Under particular circumstances, a virus (and the disease it causes) can spread to a large part of a population in a short time, leading to an epidemic. When the epidemic spreads across national borders and infects people worldwide, it is termed a pandemic. SARS-CoV-2, the virus spreading COVID-19, for example, possessed the right characteristics to turn its associated disease into a pandemic: people carrying the virus do not show symptoms for an average of ve days, during which they can spread the virus to others [44] ; its basic reproduction number has been estimated between 1.4 and 5.7, i.e., each infected person in turns infects an average of up to 5.7 people [33] ; up to 44% of patients show no symptoms at all during the infection period, making their diagnosis di cult [29] .",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 165,
+                    "text": "19)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 695,
+                    "end": 699,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 847,
+                    "end": 851,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 960,
+                    "end": 964,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Massive testing of the population is a fundamental part of the response against epidemics and pandemics. When carriers of the virus remain asymptomatic while infecting others, as for COVID-19, testing is one of the main tools health authorities can deploy to contain the spread of the disease [37] .",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 297,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Viruses such as SARS-CoV-2 are RNA viruses, i.e., they contain a single strand of nucleotides rather than the \"double helix\" typical of DNA. For this brief introduction, we call the four nucleotides composing the RNA chain with their initials: A, C, G, U. The quickest available test for RNA viruses uses real-time reverse transcription polymerase chain reaction (rRT-PCR). A popular test consists in collecting a sample of nasal secretions on a swab [7] , looking for an RNA subsequence which is unique to the virus. To identify this subsequence, the tester uses inverse RNA: a sequence of nucleotides which pairs those they are looking for (remember that A pairs with U and C with G). If the sample contains viral RNA, it will pair with the chain injected by the tester. Once the nucleotides are paired, they e ectively transform the single-strand RNA into double-strand DNA. To detect a signi cant presence of the viral DNA, the genetic material goes through an ampli cation process, the polymerase chain reaction [6] . Both transforming RNA into DNA, and amplifying it, cannot happen without certain enzymes, commonly called reagents. While this simpli ed description is enough to introduce our problem, we refer the reader to the reviews of Bustin [4] and Freeman, Walker, and Vrana [16] for a more accurate description of the rRT-PCR technique. Figure 1 is an example of a protocol for rRT-PCR tests used by the United Kingdom's National Health Service. During the COVID-19 pandemic, laboratory capacities and reagent availability have become the bottleneck for increasing the number of tests in much of Europe, North America and Asia [13, 1, 43, 27] . Therefore, health authorities need to optimise the allocation of resources to their test laboratories, starting from the distribution of reagent and the assignments of testing tasks. With this work, we use tools from Operational Research to help decision makers maximise the number of tests they can conduct while limited by reagent availability and logistic constraints.",
+            "cite_spans": [
+                {
+                    "start": 451,
+                    "end": 454,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1017,
+                    "end": 1020,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1253,
+                    "end": 1256,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1288,
+                    "end": 1292,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1641,
+                    "end": 1645,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1646,
+                    "end": 1648,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1649,
+                    "end": 1652,
+                    "text": "43,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 1653,
+                    "end": 1656,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1351,
+                    "end": 1359,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "Our main contributions are the following.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "\u2022 We introduce the problem of maximising a country's test capacity for rRT-PCR tests, during the outbreak of an epidemic. In such a situation, (i) reagent scarcity is often a bottleneck for testing, and (ii) some regions are foci of the disease, requiring more tests than others. These two conditions provide an opportunity to optimise the allocation of reagent and swabs, with the aim of maximising the number of swabs tested and reducing the wait time for results.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "\u2022 We provide an Integer Programming formulation for this problem, extend it to consider the real-world case in which the health-care system is decentralised at the regional level, and consider a hierarchical multi-objective version of the problem. Because commercial software such as Gurobi solves the formulation in a few minutes, this model is suitable for direct use by public health decision makers and to run what-if analyses.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "\u2022 We conduct two case studies to validate our approach. In the rst one, we use real-life data referring to the Italian situation during the COVID-19 pandemic. Our analysis con rms that fostering inter-regional collaboration can increase by up to +40% the number of swabs tested during a 13-day planning horizon.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In the second one, we use synthetic data to determine the most important factors which impact testing capacity. We conclude that a strong industrial network able to provide a steady supply of reagent provides the greatest advantage, vs. procuring reagent via sporadic shipments, even when the total purchased quantity stays the same. Further, countries with limited lab infrastructure should prioritise acquiring more machines and training more personnel, while increasing inter-regional coordination helps those countries with a developed laboratory network.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "\u2022 We make available both our data and the code we used, under an open-source license [35] .",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 89,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In our problem, a set of laboratories L = {1, . . . , |L|} has to perform rRT-PCR tests on swabs during a time horizon T = {1, . . . , |T |} (each time unit corresponds to a day). We assume, without loss of generality, that for each swab a lab needs one unit of reagent. This allows to consider di erent testing routines, such as group testing, by rescaling the amount of reagent needed to test one swab. Each lab l \u2208 L starts with a reserve \u03c1 l 0 of reagent at the beginning of the time horizon. The labs can receive further units of reagent from factories R = {1, . . . , |R|}, limited by their production capacity. Each factory r \u2208 R produces f r t units of reagent on day t \u2208 T . Factories also store an initial amount \u03c1 r 0 of reagent at the beginning of the planning horizon. A factory can also model other types of facilities; for example, a warehouse receiving new reagent once per week, or even a one-time shipment from a foreign country.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Problem description"
+        },
+        {
+            "text": "Each laboratory l has a capacity Q l of swabs it can test during one day. This capacity applies even if the lab has a larger amount of reagent, due to limitations on available machinery and workforce. The e ective testing capacity of l, then, is the minimum between Q l and the amount of reagent available at l.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Problem description"
+        },
+        {
+            "text": "A lab l \u2208 L is tasked with testing m l t swabs on day t, according to a prede ned schedule to meet epidemiological needs. If a laboratory does not have enough reagent to test all the swabs, the decision-maker has three options: (i) moving some reagent from a factory to the lab, (ii) moving some swabs to another lab, or (iii) storing the swabs and schedule their testing for another day.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Problem description"
+        },
+        {
+            "text": "Remark. We assume the planner has already chosen the laboratory to which he assigns the swabs. More generally, though, a planner might need that swabs be tested in a given region, without any constraint on which speci c lab performs the test, as long as they are geographically close to the point where the swabs were collected. In Section 5.1, we will extend the model to take into account this general case, making the number of swabs assigned to each lab a decision variable. We also refer the reader to Section 5.2, in which we introduce a fourth possibility for the decision maker: to move some reagent from a lab which has a surplus to one which is lacking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Problem description"
+        },
+        {
+            "text": "The amount of reagent and swabs that a planner can move between locations each day is bounded by q rg and q sw , respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Problem description"
+        },
+        {
+            "text": "Remark. We assume that quantities q rg and q sw are global capacity limits on the total amount of reagent and swab movements. Such an assumption rests on the observation that, during an epidemic, a central decision-maker manages logistic resources and can reallocate them from one area to another. If this were not the case, it would not be hard to enforce local limits, e.g., on the number of swabs that the planner can move out of a single laboratory. In a model extensions presented in Section 5.1, locations are partitioned in regions and we impose region-speci c capacity limits.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Problem description"
+        },
+        {
+            "text": "Given this input data, a planner must determine, for each day of the planning horizon, (i) how many units of reagent to move from the factories to the laboratories, and (ii) how many swabs to move between laboratories, with the aim of maximising the number of tests carried out.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Problem description"
+        },
+        {
+            "text": "Remark. While the main objective of the planner is to maximise the number of swabs tested, it is possible to account for secondary objectives. For example, because e ective testing must be both large-scale and quick, one might want to minimise the average time swabs spend waiting at lab facilities. In Section 5.3 we propose a multi-objective extension of the problem in which, among all solutions which maximise the number of tests carried out, we select the one with lowest average waiting time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Problem description"
+        },
+        {
+            "text": "Our problem, described in Section 2, resembles super cially problems in the area of production planning, material requirement planning and supply chain optimisation (for a complete overview on these topics see, e.g., Pochet and Wolsey [30] ). In our case, carrying out tests corresponds to manufacturing a product using two raw materials (swabs and reagent); for us, though, the nished product demand (tested swabs) always matches one of the raw materials' availability (swabs), while the other (reagent) acts as a bottleneck for production. As in production planning, we deal with the ow of goods over time, including shipments of raw material and inventory carry-over. We also allow the creation of backlogs, i.e., the storage of swabs which cannot be tested on the day of collection. Other characteristics of our problem, however, are not frequently considered in production planning optimisation: the geographic position of suppliers and production facilities (in our case, laboratories) and their regional subdivision; the possibility of reassigning orders between facilities, subject to logistics constraints; the uneven demand between regions.",
+            "cite_spans": [
+                {
+                    "start": 235,
+                    "end": 239,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Related work"
+        },
+        {
+            "text": "Most importantly, unlike problems in production planning, we disregard costs and focus exclusively on maximising production (in our case, number of tests). To this end, we do not consider transport, production, storage, raw material, order placement, personnel, nor opportunity costs, which instead have a prominent role when optimising commercial supply chains and production processes. In the standard case, in fact, the aim of the planner is pure cost minimisation [30] and satisfying the demand in full could even be sub-optimal, if the cost of producing one more unit is larger than the opportunity cost of missing a sale. Other approaches commonly used in production planning include multi-objective optimisation in which cost minimisation is tackled together with secondary objectives, such as demand satisfaction [26] , steadiness of production rates [40] or environmental performance [2] . Even in the healthcare sector, if considering times when authorities are not responding to an emergency, costs are taken into account. For example, Zhao et al. [48] consider a drugs production planning problem in which they minimise both costs (avoiding over-production of drugs) and the duration of the trial. Other works (e.g., [10, 14] ) have considered the production and supply optimisation problems in the clinical area, but have focused on production and distribution of drugs in \"normal\" times, rather than during an emergency response to a sudden epidemic event.",
+            "cite_spans": [
+                {
+                    "start": 468,
+                    "end": 472,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 821,
+                    "end": 825,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 859,
+                    "end": 863,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 893,
+                    "end": 896,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1059,
+                    "end": 1063,
+                    "text": "[48]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 1229,
+                    "end": 1233,
+                    "text": "[10,",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1234,
+                    "end": 1237,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Related work"
+        },
+        {
+            "text": "Literature focusing speci cally on allocation of medical resources during emergencies mainly concentrates on the distribution of (life-saving) medical devices. As such, most models optimise the assignment of existing material to hospitals or individual patients, rather than the production and allocation of new material. Xiang and Zhuang [46] , for example, consider the problem of assigning medical resources to patients, taking into account that the conditions of patients left untreated will deteriorate over time. Cao and Huang [5] use a simulation approach in which they consider di erent strategies to allocate scarce medical resources (e.g., milder patients rst, critical patients rst, randomly) and complement an analysis of the utility of each strategy with ethical considerations on prioritising some patients over others.",
+            "cite_spans": [
+                {
+                    "start": 339,
+                    "end": 343,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 533,
+                    "end": 536,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Related work"
+        },
+        {
+            "text": "In the wake of the COVID-19 epidemics, the optimisation community has rushed to provide decision support tools for decision-makers involved in the ght against the virus. Similar to our work, researchers at MIT's Operations Research Center [9, 8] have shown the advantages of inter-regional collaboration in sharing automatic ventilators across U.S. states. Mehrotra et al. [23] consider the same problem and use a stochastic model to show how sharing ventilators across states, even when each state is averse to the risk of not having enough machines for its own patients, can reduce the probability of shortages. The problem of allocating ventilator during in uenza epidemics was already considered in the literature, e.g., by Huang et al. [19] , Meltzer et al. [24] , and Zaza et al. [47] .",
+            "cite_spans": [
+                {
+                    "start": 239,
+                    "end": 242,
+                    "text": "[9,",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 243,
+                    "end": 245,
+                    "text": "8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 373,
+                    "end": 377,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 741,
+                    "end": 745,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 763,
+                    "end": 767,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 786,
+                    "end": 790,
+                    "text": "[47]",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Related work"
+        },
+        {
+            "text": "Lampariello and Sagratella [22] study a problem that, like ours, concerns diagnostic tests during the COVID-19 pandemics. The authors consider the problem of deciding how many swabs each region should collect to provide an accurate estimate of the prevalence of the disease among its population, while restricted by a nation-wide capacity limit on the number of tests performed. The problem is motivated by the practice employed in Italy during the early period of the epidemic, of double-checking at one single central laboratory (located in Rome) the results of each positive test conducted by local labs. The capacity of the central lab limits, in this case, the number of total expected positive results coming from all other labs in the country. Note how a decision maker working under the assumptions of [22] can use the model therein to generate regional demands m it , which they can then feed to our model.",
+            "cite_spans": [
+                {
+                    "start": 27,
+                    "end": 31,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 810,
+                    "end": 814,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Related work"
+        },
+        {
+            "text": "Finally, Seccia [36] considers the problem of devising balanced rosters for nurses in hospitals while, due to the virus outbreak, there is both a peak in demand for nurses' services and fewer available health professionals, because many are COVID-19-positive and con ned at home.",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 20,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Related work"
+        },
+        {
+            "text": "We propose an Integer Programming model using the following sets of variables. The number of units of reagent moved from factory r \u2208 R to lab l \u2208 L on day t \u2208 T is denoted by variable x r l t \u2208 Z + . Variables l 1 l 2 t \u2208 Z + represents the number of swabs going from laboratory l 1 \u2208 L to l 2 \u2208 L on day t \u2208 T . The quantities of reagent stored, respectively, at factory r \u2208 R and lab l \u2208 L on day t \u2208 T are denoted by variables \u03c1 r t \u2208 Z + and \u03c1 l t \u2208 Z + . Variables z l t \u2208 Z + represent the number of swabs stored at lab l \u2208 L during day t \u2208 T . Laboratories store swabs if they cannot carry out the tests on day t because of a lack of reagent necessary for the rRT-PCR procedure. We assume without loss of generality that, at the beginning of the time horizon, labs do not have any stored swab (z l 0 = 0 for all l \u2208 L).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model formulation"
+        },
+        {
+            "text": "Maximising the number of tests corresponds to minimising the number of swabs stored at labs at the end of the time horizon. The objective function, then, is:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model formulation"
+        },
+        {
+            "text": "The bounds on the quantities of reagent and swabs moved each day translate into the following two constraints:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model formulation"
+        },
+        {
+            "text": "The next constraints limit the number of tests carried out at each lab on a given day, based on the quantity of reagent available and lab capacities. To this end, it is convenient to introduce an auxiliary variable w l t \u2208 Z + representing the number of tests carried out at lab l \u2208 L on day t \u2208 T . Quantities m l t (number of tests requested each day), l \u2208L, l l ll t (swabs moving from l to other labs), l \u2208L, l l l l t (swabs moving from other labs to l), z l ,t \u22121 (swabs backlog from the previous day) and z l t (swabs stored at the end of the day) uniquely determine the value of w l t , according to the linking relation Figure 2 shows this relation visually. In the gure, each node represents lab l on a di erent day and arrows display the ow of swabs in and out of the laboratory.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 629,
+                    "end": 637,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Model formulation"
+        },
+        {
+            "text": "With linking variables w l t , we can constrain the number of tests performed with the following inequalities:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model formulation"
+        },
+        {
+            "text": "Next, we consider ow balance equations analogous to eq. (4), relative to the number of reagent stored at factories and laboratories: Constraint (7) states that the quantity of reagent in the factory's inventory at the beginning of the day, plus the quantity produced, is equal to the quantity in inventory at the end of the day, plus the quantity shipped to the labs. Constraint (8) equates, on the left-hand side, the quantity of reagent in the lab's inventory at the start of the day and the total amount received with, on the right-hand side, the inventory at the end of the day, plus the quantity of reagent used (or, which is the same, the number of tests performed). Because all variables are non-negative, constraint (8) makes constraint (5) redundant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model formulation"
+        },
+        {
+            "text": "Model (1)-(8), together with the following variable domain de nitions, is the Base Model for our problem.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model formulation"
+        },
+        {
+            "text": "x r l t \u2208 Z + \u2200r \u2208 R, \u2200l \u2208 L, \u2200t \u2208 T (9)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model formulation"
+        },
+        {
+            "text": "A disadvantage of the Base Model (1)- (12) is that it su ers from symmetry. For example, consider any solution with slack capacity to transport swabs between two labs l 1 , l 2 \u2208 L during a day t \u2208 T . One can get another solution of the same cost in which, on day t, l 1 sends one more swab to l 2 and l 2 sends one more swab to l 1 . To reduce symmetry, we impose two restrictions on the transport of swabs between labs: (i) a lab l can ship out swabs only if it is already working at full capacity, i.e., it is testing Q l swabs or it ran out of reagent; (ii) a lab can only send or receive swabs during a given day, but not both.",
+            "cite_spans": [
+                {
+                    "start": 38,
+                    "end": 42,
+                    "text": "(12)",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model strengthening"
+        },
+        {
+            "text": "To tackle the rst restriction, we introduce indicator variables \u03b3 l t \u2208 {0, 1}, which take value 1 i lab l \u2208 L is running at full capacity during day t \u2208 T . These variables link to variables w and \u03c1 via the following indicator constraints (see, e.g., [3] ):",
+            "cite_spans": [
+                {
+                    "start": 252,
+                    "end": 255,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model strengthening"
+        },
+        {
+            "text": "The restriction is, then, enforced with another indicator constraint:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model strengthening"
+        },
+        {
+            "text": "Constraint (16) guarantees that laboratory l cannot ship out swabs unless it is at full capacity.",
+            "cite_spans": [
+                {
+                    "start": 11,
+                    "end": 15,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model strengthening"
+        },
+        {
+            "text": "To address the second restriction, we can add two more sets of indicator variables and constraints, keeping track of whether a lab sends out or receives swabs. Note that the black-box commercial solver we use (Gurobi) converts all indicator constraints presented in this section into linear constraints. The new variables are \u03b3 + l t , \u03b3 \u2212 l t \u2208 {0, 1}, which assume value 1 i , respectively, lab l sends or receives swabs on day t. The necessary constraints to link these variables and enforce the restriction are:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model strengthening"
+        },
+        {
+            "text": "Constraint (19) enforces that each lab, on each day, cannot both send and receive swabs. This restriction also avoids that a laboratory works as a relay, receiving and instantly re-shipping (i.e., \"teleporting\") swabs between otherwise distant labs.",
+            "cite_spans": [
+                {
+                    "start": 11,
+                    "end": 15,
+                    "text": "(19)",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model strengthening"
+        },
+        {
+            "text": "The solutions produced by the Base Model can have another property which is undesirable in real-life applications: consider two laboratories l 1 , l 2 \u2208 L and two reagent factories r 1 , r 2 \u2208 R such that l 1 is closer to r 1 than to r 2 and l 2 is closer to r 2 than to r 1 . The model allows l 1 to buy reagent from the more distant factory r 2 while l 2 buys reagent from r 1 . To avoid this counter-intuitive situation which represents a sub-optimal use of logistic resources, we introduce parameter d lr \u2208 R + representing the distance between lab l \u2208 L and factory r \u2208 R and add the following constraint to the model:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model strengthening"
+        },
+        {
+            "text": "While (20) refers to reagent, we add an analogous constraint to prevent moving swabs ine ciently:",
+            "cite_spans": [
+                {
+                    "start": 6,
+                    "end": 10,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Model strengthening"
+        },
+        {
+            "text": "where d ll \u2208 R + is the distance between labs l \u2208 L and l \u2208 L.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model strengthening"
+        },
+        {
+            "text": "In this section we propose extensions to the model presented above, to account for more realistic scenarios. We present an Extended Model, taking into account these considerations, in Appendix A.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model extensions"
+        },
+        {
+            "text": "In Section 2 we mentioned two limitations of the Base Model which might not hold true in real-life applications. The rst limitation is that there is a xed quantity of swabs assigned to each laboratory. In most countries, central or regional health authorities oversee and plan testing. Swabs collected in a region, for example, might be sent for testing to any laboratory in the same region. The second limitation is that tests (and reagent) can move overnight from any location to any other location subject to global capacity limits. When applying the model to large countries, though, logistic constraints might impose that movement of material only happen between geographically close locations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regional partitioning"
+        },
+        {
+            "text": "To address these aspects, we extend the initial problem formulation as follows. The set of laboratories is partitioned as L = L 1 \u222a . . . \u222a L n (with L i \u2229 L j = \u2205 for any two i, j \u2208 {1, . . . , n}, i j). We call each set composing the partition a region.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regional partitioning"
+        },
+        {
+            "text": "The planner receives as input the number of swabs to test each day in each region L i , denoted as m it , but must determine how to split the swabs between the region's labs. A parameter \u03b4 r l \u2208 {0, 1} determines whether a factory r \u2208 R can ship reagent overnight to laboratory l \u2208 L. Analogously, parameter \u00b5 l 1 l 2 \u2208 {0, 1} determines whether two labs l 1 , l 2 \u2208 L can send each other swabs overnight.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regional partitioning"
+        },
+        {
+            "text": "In our model, logistic capacities refer to each region. We consider, respectively, quantities q rg i and q sw i of reagent and swabs that can be shipped to region i \u2208 {1, . . . , n} in a day. Depending on the logistic infrastructure, a planner could specify bounds at di erent levels of aggregation and for both inbound and outbound movements. For example, one might consider a maximum quantity of reagent shipped out of a factory, or a group of factories. Although we present here regional-level inbound capacities, our formulation is exible enough to allow a wide array of modelling options.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Regional partitioning"
+        },
+        {
+            "text": "A limitation of the Base Model is that it allows to move swabs but not reagent between laboratories. This re ects the conservative stance of laboratories, which are often unwilling to part with a scarce resource even if they have it in surplus, out of fear of running out later and not seeing their \"favour\" returned.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transshipments of reagent"
+        },
+        {
+            "text": "Without capacities, moving swabs and reagent would be equivalent. For example, a lab l 1 could send a swab it cannot test to another lab l 2 , because l 1 does not have enough reagent to test it; or, which is the same, l 2 could send one unit of reagent to l 1 , which could test their swab by themselves. In the presence of capacities determined by equipment and personnel availability, though, the two options are not interchangeable. In the example above, l 2 might not have the capacity to test one more swab, while l 1 could have it if provided with the necessary reagent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transshipments of reagent"
+        },
+        {
+            "text": "In light of the above considerations, we propose an extension of the model in which reagent can be forwarded between labs: a practice which goes by the name of transshipment. A planner can also use transshipments as a way to extend the radius at which factories send their products, by rst storing them at a lab to which the factory ships and, when the need arises, forwarding them to other labs -even if these labs were not originally reachable from the factory with an overnight shipment. Because reagent take one day to move between labs, we are indirectly introducing distance-based lead times in the reagent supply chain.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transshipments of reagent"
+        },
+        {
+            "text": "To account for transshipment of reagent, we extend the model introducing a new set of variables x l 1 l 2 t \u2208 Z + indicating the amount of reagent moved from lab l 1 \u2208 L to lab l 2 \u2208 L on day t \u2208 T . We assume that transshipments happen between laboratories which are close enough (\u00b5 l 1 l 2 = 1) and that a unit sent on day t is available on day t + 1. Figure 3 : Flow of reagent for a lab l \u2208 L at time intervals from t \u22121 to t +1, when accounting for transshipments. Figure 3 shows the ow of reagent for a lab l \u2208 L when accounting for transshipments. Each day, the lab has in its availability the reagent already stored there, plus that received from factories and from other laboratories. At the same time, it uses some units of reagent to perform tests and eventually sends some to other labs; the remaining units go to the inventory for next day. In the model, we replace constraint (8) with the following:",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 354,
+                    "end": 362,
+                    "text": "Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 470,
+                    "end": 478,
+                    "text": "Figure 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Transshipments of reagent"
+        },
+        {
+            "text": "where x l ,l ,t \u22121 = 0 if t = 0, and constraint (2) with:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transshipments of reagent"
+        },
+        {
+            "text": "Lastly, we add a constraint analogous to (20) and (21) to ensure that reagent move e ciently between labs:",
+            "cite_spans": [
+                {
+                    "start": 41,
+                    "end": 45,
+                    "text": "(20)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Transshipments of reagent"
+        },
+        {
+            "text": "x l 2 l 1 t = 0 \u2228 x l 1 l 2 t = 0 \u2200t \u2208 T , \u2200l 1 , l 1 , l 2 , l 2 \u2208 L : d l 1 l 1 < d l 2 l 1 and d l 2 l 2 < d l 1 l 2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transshipments of reagent"
+        },
+        {
+            "text": "As discussed in Section 2, the number of tests carried out is not the only important parameter for an e ective testing campaign. Having fast results also helps assessing the disease's spread and enact appropriate and well-timed con nement and mitigation measures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multi-objective model"
+        },
+        {
+            "text": "We propose, then, a Multi-Objective Optimisation (MOO) approach to the problem. For a recent review of MOO applications in optimisation, we refer the reader to Gunantara [17] and Kalyanmoy [20] . In the following, we consider the hierarchical objective approach, in which the planner rst optimises for their main objective (number of tests performed) and then, among all the solutions which give an optimal objective value, looks for the one optimising a secondary objective (mean test waiting time).",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 174,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 189,
+                    "end": 193,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Multi-objective model"
+        },
+        {
+            "text": "Let Z * be the optimal objective value of model (27)-(53). We can obtain the solution to the hierarchical problem by solving the following Hierarchical Model:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multi-objective model"
+        },
+        {
+            "text": "where eq. (25) minimises the sum of all amounts of swabs stored at labs waiting to be tested and eq. (26) imposes that the considered solutions match the optimal value with respect to objective function (27) . Objective function (25) is equivalent to minimising the average swab waiting time because (26) xes the total number of swabs tested. When minimising the primary objective, two untested swabs collected, respectively, on the rst and last day of the time horizon would contribute the same penalty. Adding the secondary objective avoids solution where old swabs remain untested for a long time, while newer ones get tested quickly.",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 105,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 203,
+                    "end": 207,
+                    "text": "(27)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 300,
+                    "end": 304,
+                    "text": "(26)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Multi-objective model"
+        },
+        {
+            "text": "A planner could also add further objectives. For example, if he wants to guarantee a more equitable distribution of swabs to laboratories, he might want to minimise their avereage workload. To this end, we introduce a new variable W \u2208 R + such that W \u2265 1 Q l t \u2208T w l t for all labs l \u2208 L. Minmising W corresponds to minimising the highest average workload across all labs. Alternatively, if W \u2265 w l t Q l for all l \u2208 L and t \u2208 T , then minimising W amounts to minimising the peak workload over all labs and all days of the planning horizon.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Multi-objective model"
+        },
+        {
+            "text": "We want to assess the impact of optimising the allocation of reagent and swabs to laboratories on the testing capacity of a country. We present two case studies. In the rst, we perform an analysis on a realistic dataset relative to the Italian response to the COVID-19 pandemic, during the period from April 1 st to April 13 th , 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Computational analysis"
+        },
+        {
+            "text": "In the second, we use synthetic data to do a sensitivity analysis highlighting the decisions a planner can take to most increase testing capacity and lower waiting times. The datasets and the code used are available at Santini [35] . We use the Hierarchical Model, which we solve using commercial solver Gurobi [18] with a time limit of 15 minutes for the primary and 5 minutes for the secondary objective, on a laptop equipped with a 4-core Intel i7 processor running at 1.6GHz. This time limit proved enough to solve to optimality the majority of instances, while those that remain open all show gaps smaller than 5% and, often, smaller than 1%.",
+            "cite_spans": [
+                {
+                    "start": 227,
+                    "end": 231,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 311,
+                    "end": 315,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Computational analysis"
+        },
+        {
+            "text": "We create a set of instances based on data sources relative to the COVID-19 pandemic in Italy [32, 25, 28, 38, 12] . We use data for the period 01-13 April, 2020 for the entire national territory. Figure 4a shows the distribution of laboratories and reagent factories in Italy [25] : dots represents labs which are o cially authorised to execute COVID-19 swab tests by the Italian Health Ministry, while stars represent factories whose testing kits (including reagent, extraction kits, probes, negative controls) have been certi ed for use in COVID-19 swab testing. Figure 4b reports the number of swabs analysed in Italy during the period 01-13 April, 2020, on a regional basis. We note that there is no publicly available data on the average wait times between swab collection and analysis.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 98,
+                    "text": "[32,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 99,
+                    "end": 102,
+                    "text": "25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 103,
+                    "end": 106,
+                    "text": "28,",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 107,
+                    "end": 110,
+                    "text": "38,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 111,
+                    "end": 114,
+                    "text": "12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 277,
+                    "end": 281,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 197,
+                    "end": 206,
+                    "text": "Figure 4a",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 566,
+                    "end": 575,
+                    "text": "Figure 4b",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Italy, April 1-13, 2020"
+        },
+        {
+            "text": "(a) Map of rRT-PCR laboratories (dots) and reagent factories (stars).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Italy, April 1-13, 2020"
+        },
+        {
+            "text": "(b) Number of swabs analysed per region, over the period from April, 1 to April, 13, 2020. We analyse the number of swabs tested, day by day and region by region, using ve di erent scenarios. The rst uses the o cial numbers released by Italy's \"Dipartimento della Protezione Civile\", which we refer to as Real Data. Next, we consider the output obtained by the Hierarchical Model, under the following hypotheses. Swabs collected in a region cannot be sent to other regions, but can be allocated to any laboratory within the collection region (for this reason we label this data as Model -Regional). In modelling terms, this corresponds to setting \u00b5 l 1 l 2 = 1 if and only if, for two labs l 1 , l 2 \u2208 L, there is a region L k such that l 1 , l 2 \u2208 L k . We use this hypothesis to model how testing happens in Italy, with local laboratories and regional \"reference laboratories\" collecting swabs from all-over the region and providing double checks before non-urgent hospital admissions (emergency patients are admitted even before test results are ready) and discharges. Also remind that the Italian healthcare system is managed on a regional basis, with ample autonomy given to the local health authorities but little inter-regional interaction [15] . We assume that labs can procure reagent from their geographically closest factory, and that procurement is optimised by a planner deciding the quantities of reagent sent to each laboratory, to maximise the number of tested swabs. This assumption re ects how Italian regions were procuring supplies autonomously, before the central government created and rendered operational a COVID-19 Commissariat which also acted as a national procurement centre [11, Art. 122 ].",
+            "cite_spans": [
+                {
+                    "start": 1247,
+                    "end": 1251,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1703,
+                    "end": 1707,
+                    "text": "[11,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1708,
+                    "end": 1716,
+                    "text": "Art. 122",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Italy, April 1-13, 2020"
+        },
+        {
+            "text": "Because news sources and press releases by regional health authorities (we found statements by authorities of Basilicata, Campania, Emilia-Romagna, Marche, Lombardia, Piemonte, Puglia, Sardegna, Sicilia, Toscana, Umbria and Veneto, i.e., 12 out of the 20 Italian regions) hint that reagent was a major bottleneck in expanding test capabilities, we expect this model to be able to increase the number of swabs tested even if it does not allow inter-regional swab reassignment, just by optimising reagent assignment. Figure 5a shows how laboratories cluster within each region: an edge between two laboratories means that they belong to the same region. Finally, we consider the output obtained from the Hierarchical Model, but allowing for reallocation of swabs between laboratories in di erent regions. This assumption e ectively means that regional daily demand can be shared across regions. Because swabs would need to move within a short time (e.g., overnight) we put limitations on the inter-laboratory distance that allows swab transfer. We consider three thresholds of 100Km, 200Km and 400Km and we denote the corresponding data as Model -100Km, Model -200Km and Model -400Km. (We make an exception for the island region of Sardinia, for which moving swabs outside of the region would be unfeasible even if there are other laboratories within 400Km.) Figure 5b shows how laboratories can transfer swabs when using the 200Km threshold. Compare Figures 5a and 5b to note how inter-regional collaboration gives a central planner more opportunities to move swabs between regions in case there should be a day with a demand peak in a particular area. We refer the reader to [35] for the full description of the instance generation process and to [34] for an interactive dashboard presenting the results of the analysis. Figure 6 shows the number of swabs tested, day-by-day, when using our proposed models Regional, 100Km, 200Km, and 400Km. Note how Model -400Km fully uses the system's capacity during the last period of the time horizon, where the number of tested swabs becomes a at line. During some days, a model with fewer lab transfer capabilities gives more tested swabs than a model in which more transfers are allowed. For example, on April 6, using Model -400Km results in fewer tests than Model -200Km and Model -100Km. This is not surprising if we consider that the models maximise the number of swabs tested over the whole planning horizon, even if this results in fewer tests on any particular day. Table 1 reports detailed results of the analysis. Each row corresponds to one day, and the columns list the real data and the results obtained using the model. Columns #tests report the number of swabs tested during that day. Columns %gain are the percentage gains obtained using the models, compared to the number of swabs actually tested in Italy in the described period. The last row gives aggregate results for the whole country. Note how using optimisation techniques results in a testing capacity increase between 14% and 39%, under the hypotheses explained above. In particular, assuming that tests in Italy were largely limited by the unavailability of reagent due to a poor allocation of supplies and low inter-regional collaboration, optimising these two aspects can allow to perform up to 250 000 more tests (the increase between Real Data and Model -400Km) during 13 days. Figure 7 shows example results from the Regional and 400Km models, for four representative Italian regions from the north (Piemonte and Emilia-Romagna), the centre (Lazio) and the south (Sicilia) of the country. Each Model with intra-regional (orange column) and inter-regional (green, pink and blue lines) swab transfers. line inter-regional transfer radii considered are 100, 200 and 400Km. chart reports the number of swabs analysed per day. Note how, for three of the four regions, the results of the Regional model agree with the real data, validating our modelling assumptions and hinting that regions managed resources locally e ciently. In all four regions, during the last period of the planning horizon, the models use the full laboratory capacity and their curves appear at, i.e., the limiting factor is not reagent availability anymore, but structural limitations such as testing machines or lab personnel. Note how, in Sicily during the middle period, the 400Km model provides a solution with fewer tested swabs than the Regional model and the Real Data, for two days. However, there was a catch-up on the tests during the last part of the planning horizon, resulting in more tests carried out in total.",
+            "cite_spans": [
+                {
+                    "start": 1675,
+                    "end": 1679,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1747,
+                    "end": 1751,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 515,
+                    "end": 524,
+                    "text": "Figure 5a",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1357,
+                    "end": 1366,
+                    "text": "Figure 5b",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1441,
+                    "end": 1466,
+                    "text": "Compare Figures 5a and 5b",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 1821,
+                    "end": 1829,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 2515,
+                    "end": 2522,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 3400,
+                    "end": 3408,
+                    "text": "Figure 7",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "Italy, April 1-13, 2020"
+        },
+        {
+            "text": "By conducting a scenario analysis on synthetic data, we want to learn how some aspects of the healthcare system of the area hit by an epidemic can a ect its ability to perform large-scale testing of the population. The factors we analyse are:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthetic data"
+        },
+        {
+            "text": "1. The e ects of having a healthcare system with a large level of independent decision-making at the sub-national level (as is the case, e.g., of Italian regions, Spanish autonomous communities, German lander or the United States) and the bene ts of increased cross-regional collaboration, common planning, and resource sharing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthetic data"
+        },
+        {
+            "text": "2. The capillarity and production capacity of bio-chemical and pharmaceutical industries able to prepare the reagent needed to carry out rRT-PCR tests, especially in light of the increasing trend to o -shore such manufacturing capabilities to developing countries (see, e.g., [21, 42] ).",
+            "cite_spans": [
+                {
+                    "start": 276,
+                    "end": 280,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 281,
+                    "end": 284,
+                    "text": "42]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Synthetic data"
+        },
+        {
+            "text": "3. Reagent-independent laboratory capacity, i.e., the test capacity deriving by the number of available machines and personnel. This corresponds to the full laboratory capacity in the ideal case in which any amount of reagent were immediately available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthetic data"
+        },
+        {
+            "text": "4. The logistic capabilities of the country, i.e., how labs can procure reagent from manufacturing facilities and transfer swabs away from saturated labs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Synthetic data"
+        },
+        {
+            "text": "We list in the following the characteristics of the instances we generate. We consider |L| = 100 laboratories, which we distribute in the square S = [0, 100] 2 in the euclidean plane as explained below. First, we de ne parameter \u03bb L\u00d7R , which is the expected size of regions, i.e., the expected number of labs in each region. Next, we select n = |L|/\u03bb L\u00d7R random points in [10, 90] 2 which we use as initial centroids for the regions (note how we excluded the external boundary of S). We place the labs in S by rst choosing a random centroid and then a random point in S which lies at distance of at most 20 from the centroid, and repeating this procedure |L| times. In this way, we aim at placing clusters in loose regional clusters. To complete the assignment of labs to regions, we assign each lab to its closest centroid.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instance generation"
+        },
+        {
+            "text": "(a) Spatial set-up of the instance. Dots represent laboratories, with their size proportional to the average daily demand in their region. Stars represent factories and lines are regional boundaries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instance generation"
+        },
+        {
+            "text": "(b) Daily reagent production. Each smaller bar represents one factory and the larger bars represent the total daily production. Another parameter, \u03bb F\u00d7R , determines how distributed is the country's reagent production capacity; this parameters represents the expected number of reagent factories per region. We place |R| = n \u00b7 \u03bb F\u00d7R factories at random in S. Figure 8a shows an example distribution of labs and factories. Dots represent laboratories, stars denote factories, and lines are the Voronoi boundaries (see, e.g., [31, Ch. 5] ) associated with regional centroids (i.e., the lines delimit the regions).",
+            "cite_spans": [
+                {
+                    "start": 524,
+                    "end": 528,
+                    "text": "[31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 529,
+                    "end": 535,
+                    "text": "Ch. 5]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 359,
+                    "end": 368,
+                    "text": "Figure 8a",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Instance generation"
+        },
+        {
+            "text": "To determine the demand of each region, we assume that 40% of the regions will have a criticality, such as a focus of the illness, and will thus require more tests. where \u03b5 is a noise term distributed according to a truncated normal distribution between 0.95 and 1.05. The de nition of m it is justi ed by the assumption that the number of swabs to test depends on regional population, which correlates positively with the number of laboratories in the region. The dot size in Figure 8a is directly proportional to the lab's region average demand in the example instance; note how two bordering regions are \"critical\".",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 477,
+                    "end": 486,
+                    "text": "Figure 8a",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Instance generation"
+        },
+        {
+            "text": "Lab capacities are then de ned as a fraction of the ideal number of tests assigned to each lab: Q l =m\u03bb LC , where \u03bb LC is a parameter. Values of the parameter larger than 1 correspond to a situation in which reagent availability is the main bottleneck for testing, while smaller values indicate that laboratories have structural de ciencies which limit the number of swabs they can test, even when reagent is abundant. Each lab can procure reagent from its \u03bb LF closest factories, and can send swabs to other laboratories in the same region. A parameter \u03bb LL gives the maximum distance at which two labs in di erent regions can exchange swabs. In particular, when \u03bb LL = 0 we forbid cross-regional collaboration and sharing of testing capacity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instance generation"
+        },
+        {
+            "text": "Regional inbound capacities for reagent (q rg i ) and for swabs (q sw i ) are determined as:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instance generation"
+        },
+        {
+            "text": "for 80% of the regions m \u00b7 |L i | \u00b7 0.75 for 20% \"impervious\" regions q sw i = m \u00b7 |L i | \u00b7 0.25 for 80% of the regions m \u00b7 |L i | \u00b7 0.10 for 20% \"impervious\" regions,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instance generation"
+        },
+        {
+            "text": "We assume here that the \"impervious\" regions have tighter logistical constraints; for example, islands, mountainous areas, or regions with poorer infrastructure. We set the initial amount of reagent stored at labs and factories to a minimal amount, as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instance generation"
+        },
+        {
+            "text": "where \u03b5 is distributed according to a truncated normal distribution between 0 and 0.25. Such a choice corresponds to labs and factories having a small fraction of their daily, respectively needed and produced, reagent in the initial stock -a situation that can commonly occur during an epidemic, when safety stocks are quickly depleted.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instance generation"
+        },
+        {
+            "text": "Next, we describe how we determine factories' daily production. We propose two production patterns (selected via parameter \u03bb PP ): steady and bumpy. Under the steady pattern, each factory r produces f r t =m \u00b7 \u03bb L\u00d7R \u03bb F\u00d7R \u00b7 \u03bb FP \u00b7 \u03b5 units of reagent each day, where \u03b5 follows a truncated normal distribution between 0.95 and 1.05 and \u03bb FP is a parameter. Note how \u03bb FP < 1 drives the total factory production capacity to be smaller than the total demand, indicating a situation in which there is less reagent than the nation needs. Values of \u03bb FP \u2265 1 drive the total reagent production towards meeting the demand; in this case, tests not performed because of lack of reagent are more likely due to poor resource allocation over the national territory, rather than an absolute scarcity of reagent. Under the bumpy pattern, for each factory we rst choose two random days of the week \u03c4 1 r , \u03c4 2 r \u2208 {0, . . . , 6}, which we call \"release days\". The factory will produce reagent at the same rate as under Table 3 : Results of a linear regression analysis using the parameters as independent variables and the primary (number of swabs tested, expressed as a percentage of the total demand) and secondary (average waiting time of a swab before it is tested) objectives as dependent variables. Columns coef report the linear regression coe cients, after centring and standardising the inputs. All independent variables resulted signi cant, with",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1002,
+                    "end": 1009,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Instance generation"
+        },
+        {
+            "text": "p-values always smaller than 0.001.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Instance generation"
+        },
+        {
+            "text": "the steady pattern, but will not make them available until the current day t corresponds to one of the two \u03c4 1 r , \u03c4 2 r (i.e., t = 0 mod \u03c4 1 r or t = 0 mod \u03c4 2 r ). At that point, it is ready to ship all the reagent produced since the last release day. This second pattern simulates a situation in which it is infeasible, due to logistic constraints, to have daily shipments out of the factories. Figure 8b shows an example of bumpy production. The coloured bars correspond to the quantities released by the factories on their release days, while grey background bars count the total amount of reagent released on that day, by all factories. The gure shows that, even if factories have, in principle, a steady production rate (only uctuating between \u22125% and +5% due to the noise term \u03b5), making new reagent available twice per week produces an uneven total daily distribution.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 398,
+                    "end": 407,
+                    "text": "Figure 8b",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Instance generation"
+        },
+        {
+            "text": "Last, we introduce transshipment parameter \u03bb TS , which takes values yes or no. This parameter does not a ect instance generation; rather, it enables or disables the transshipment of reagent between laboratories in the model. If transshipments are not allowed, it forces all variables x ll t to take value zero. Table 2 summarises all instance generation parameters we used. Because in our scenario analysis we vary each parameter independently, we ran the Hierarchical Model over the full grid of 60 480 instances. We ran the model twice for each instance, once enabling and once disabling transshipments.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 312,
+                    "end": 319,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Instance generation"
+        },
+        {
+            "text": "We report the results of our scenario analysis, highlighting how the parameters a ect the testing capacity and commenting on which real-life decisions a planner can take to increase the number of swabs tested. A better testing capacity depends on both structural factors (such as a strong reagent industrial base) which require long-term decisions, and organisational factors (such as more inter-regional collaboration) which are in uenced by operational decisions. Figure 9 shows the percentage of swabs tested within the end of the time horizon, over all the swabs collected and available for testing. In other words, if the planner manages to allocate swabs to laboratories in such a way that all swabs are tested within the considered time horizon, then this percentage would be 100%. Each chart corresponds to one parameter; we use line charts for the seven numeric parameters, and box plots for \u03bb PP and \u03bb TS , which are categorical. In each chart, the x axis reports the value taken by the parameter. The axis reports the percentage of swabs tested when solving instances generated with the corresponding parameter. For the line charts, the solid line denotes the average percentage of swabs tested over all instances generated with the given parameter value, while the shaded area is the 95% con dence interval obtained via bootstrapping (using 1000 iterations). For the box plots, each box denotes the two central quartiles, the horizontal line is the median, and whiskers extend to the rest of the distribution. Figure 9 : Variation in the percentage of swabs tested ( axis), when varying each parameter (x axis). In each chart, the line shows the average over all instances generated with the given parameter value and the shaded area around the line is the 95% con dence interval. For parameters \u03bb PP and \u03bb TS , as they take categorical values, we show a box plot instead of a line plot. The central line indicates the median, the box spans the two central quartiles, while whiskers extend to the rest of the distribution (excluding outliers).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 466,
+                    "end": 474,
+                    "text": "Figure 9",
+                    "ref_id": null
+                },
+                {
+                    "start": 1522,
+                    "end": 1530,
+                    "text": "Figure 9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Scenario analysis"
+        },
+        {
+            "text": "Two linear regression analyses provide additional ndings. They use the instance parameters as independent variables. We centre and standardise numeric parameters, and transform \u03bb PP and \u03bb TS into numeric parameters, respectively, with value 0 if the production was steady and 1 if bumpy, and 0 when transshipments are not allowed and 1 when they are. The percentage of swabs tested and the average time a swab spent in a lab waiting to be tested are, respectively, the dependent variables in the two analyses. Table 3 reports the results, while in the following we comment on the insights obtained.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 510,
+                    "end": 517,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Scenario analysis"
+        },
+        {
+            "text": "Steadiness of reagent supply. Parameter \u03bb PP is the one with the largest impact in our analysis: a steady availability of reagent allows the laboratories to operate without interruptions, testing more swabs and with shorter delays. The average percentage of swabs tested when \u03bb PP = steady is double than when \u03bb PP = bumpy. Recall that a factory in our model can represent a real production site, but also a warehouse or a shipment from abroad. A physical factory will be able to maintain a steadier production rate, while relying on shipments will resemble more the \"bumpy\" scenario. The analysis, thus, hints to the fact that a solid industrial sector and a well-function supply chain can have the greatest impact on testing capacity; not necessarily because they allow to procure more reagent in total, but because they provide a steadier ow of it. A country that cannot count on such production capacity can mitigate the adverse e ects of irregular supply with larger orders (see the positive impact of parameter \u03bb FP ), more inventory capacity and a quick dispatch of reagent to labs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Scenario analysis"
+        },
+        {
+            "text": "Capillarity of the reagent industry. Having more small reagent production sites works better than having few, larger ones (parameter \u03bb F\u00d7R ). When \u03bb F\u00d7R moves from 0.1 to 1.0, the average percentage of swabs tested climbs from 40.83% to 51.46%. An e cient supply chain which is able to move material over longer distances (parameter \u03bb LF ) also has a positive impact on testing capacity. When each lab can procure from its closest factory (\u03bb LF = 1), the analysis shows that 41.36% of swabs are tested. This number increases to 47.86% and then to 49.61%, when \u03bb LF increases to, respectively, 2 and 3. Figure 10 : Variation in the percentage of swabs tested ( axis), when varying parameter \u03bb LL (x axis). The chart on the left refers to instances with \u03bb LC < 1, while that on the right, to instances with \u03bb LC \u2265 1.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 602,
+                    "end": 611,
+                    "text": "Figure 10",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Scenario analysis"
+        },
+        {
+            "text": "Lab capacity and inter-regional capacity sharing. Other two factors which impact the amount of swabs tested are lab capacity and the degree to which regions can share this capacity by transferring swabs between each other. Parameter \u03bb LC clearly in uences testing capabilities: for \u03bb LC < 1 largely less than half of the swabs are tested within the end of the time horizon. When \u03bb LC \u2265 1, i.e., when the total lab capacity is at least as large as the average demand, gains are marginal, as exhibited by the curve attening in Figure 9 . It is at this point that we would expect capacity sharing via increased inter-regional collaboration to have the greatest e ect. The extent at which capacity is shared depends on parameter \u03bb LL . It might appear, looking at Figure 9 , that the impact of \u03bb LL is small. However, if we divide the analysis of its impact between instances with \u03bb LC < 1 and instances with \u03bb LC \u2265 1, the situation is di erent, as reported in Figure 10 . Note how the curve referring to instances with \u03bb LC \u2265 1 is much steeper, corresponding to a larger percentage increase in swabs tested. We can conclude that countries with insu cient lab infrastructures should primarily focus on procuring test machinery and training personnel to carry out rRT-PCR tests. Countries which already have a developed test lab network, on the other hand, bene t more from inter-regional collaboration and centralised planning than they do from increasing lab capacity.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 525,
+                    "end": 533,
+                    "text": "Figure 9",
+                    "ref_id": null
+                },
+                {
+                    "start": 760,
+                    "end": 768,
+                    "text": "Figure 9",
+                    "ref_id": null
+                },
+                {
+                    "start": 957,
+                    "end": 966,
+                    "text": "Figure 10",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Scenario analysis"
+        },
+        {
+            "text": "Other factors. Allowing transshipments produces an increase in swabs tested, from 43.30% to 45.85% on average (an increase of +5.03%), placing parameter \u03bb TS 's impact behind several others. We suspect that the reason is that there are few cases in which moving reagent in one direction gives di erent results compared to moving swabs in the opposite direction, as mentioned in Section 5.2. Transshipments' e ect is larger if we focus on instances with bumpy reagent production. In this case they increase the number of swabs tested by +11.14%. This result suggests that transshipments can smooth irregular production patterns: a country which cannot procure reagent steadily should increase internal collaboration by moving both swabs and reagent. The percentage of swabs tested decreases when there are fewer, larger regions (parameter \u03bb L\u00d7R ). This is because, with fewer regions, the impact of one region being critical, i.e., with larger demands m it , is proportionally larger. The e ect of region size is rather modest, as indicated by a small regression coe cient associated with \u03bb L\u00d7R . Regarding the planning horizon length |T |, its impact is unclear. On one hand, a longer time horizon allows more opportunities for optimisation. On the other hand, there is a reduction in tested swabs when moving from |T | = 5 to |T | = 7, which is hard to explain. In practice, a planner would want to balance the advantages usually conferred by longer-term planning with the quality of the demand predictions that he can obtain from epidemiological models. Finally, while the signs of the regression coe cients in the two regression analyses tend to coincide (meaning that parameters which have a positive impact on the number of swabs tested also have a positive impact on shortening wait times), the signs disagree for parameters \u03bb L\u00d7R and |T |, making it di cult to derive actionable recommendations for decision makers based on these two parameters. Table 4 : Relation between the percentage of swabs moved between laboratories (column \"% swabs moved\") over all swabs collected, and the success of the testing campaign as indicated by the percentage of swabs tested over all swabs collected (column \"avg % swabs tested\"). The second column contains averages over all values of the rst column belonging to each interval.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1953,
+                    "end": 1960,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Scenario analysis"
+        },
+        {
+            "text": "To summarise the impact of resource sharing, Table 4 shows how the quantity of swabs tested changes depending on the quantity of swabs moved. Indicator \"% swabs moved\" is the percentage of swabs sent from one lab to another, over the total number of swabs collected. The table shows the correlation between swabs sharing and the e ectiveness of the test campaign, independently from how swab sharing was achieved. In our simulations swab sharing depends on instance generation parameters, but in real life it can depend on actions taken by the planner.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 45,
+                    "end": 52,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Scenario analysis"
+        },
+        {
+            "text": "We have proposed a model for the problem of assigning reagent and swabs to laboratories in a country which wants to maximise the number of rRT-PCR tests during a viral epidemic. After describing an Integer Programming model for a basic version of the problem, we have strengthened and extended the formulation to include real-life aspects of the organisation of healthcare systems. The complete model takes into account that many countries manage healthcare at a regional level and that labs can function as reagent transshipment points, and allows to optimise two hierarchical objectives: primarily, maximising the number of tests performed and, secondarily, minimising the average time a swab waits before it is tested.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "We performed two computational studies: the rst based on real-life data from Italy and the second on synthetic instances. Under the assumptions we used, the main one being that reagent availability is often a bottleneck for testing more swabs (see, e.g., [13, 1, 43] ), the analysis has revealed two main ndings:",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 259,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 260,
+                    "end": 262,
+                    "text": "1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 263,
+                    "end": 266,
+                    "text": "43]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "\u2022 Increased inter-regional coordination has the potential of increasing the testing capabilities of the country as a whole, as shown by the analysis of Italian data. In particular, moving swabs from critical regions to regions with spare capacity produced an increase of up to 40% in the number of swabs tested in the Italian scenario. The study performed on synthetic data con rmed this nding, but found a more modest e ect. The recommendation, in fact, is that countries which do not have adequate lab infrastructure (i.e., which would have insu cient test capacity even if fully stocked with reagent) rst focus on expanding their lab network, e.g., by purchasing new machines and training more lab personnel. Countries with an advanced laboratory infrastructure, instead, will bene t more from inter-regional collaboration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "\u2022 Steady availability of reagent has a large impact on the number of swabs tested and their waiting time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "A solid chemical industrial base, with many (although possibly small) factories producing reagent daily gives an advantage compared with having to rely on a discontinuous supply, e.g., when purchasing from international markets. If the supply is not steady, then we recommend to allow labs to work as small warehouses by letting them forward reagent to other labs, i.e., enabling transshipments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "On the short term, increasing inter-regional collaboration requires political will and an e cient supply chain which can be used to move swabs and reagent. On the other hand, increasing reagent production capacity involves longer-term investments and balancing the economic interests of pharmaceutical companies with national interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Future research on optimising the delivery of mass-scale test programmes can develop integrating other test types, such as immunological tests, i.e., tests which detect the presence of antibodies which a person has developed in response to the viral infection. These tests are too slow for early detection of positive patients; e.g., T and B cells response to COVID-19 were detected around one week after the onset of symptoms [39] , while swab tests can identify the virus even before symptoms appear. However, because antibodies persist in the blood even after a patient does not host the virus any longer, health authorities use immunological tests for mass-screening of populations (including asymptomatic patients) with the aim of assessing the prevalence of the virus, the level of population immunity and other epidemiological dynamics. It would be interesting to study not only how to increase capacity for immunological tests, but also to study the problem of selecting the patients to test with higher priority, in order to create an accurate epidemiological picture of the population while using a restricted supply of antibody tests such as ELISA (enzyme-linked immunosorbent assay) [41] or neutralization assays [45] .",
+            "cite_spans": [
+                {
+                    "start": 427,
+                    "end": 431,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1195,
+                    "end": 1199,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1225,
+                    "end": 1229,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Why Widespread Coronavirus Testing Isn't Coming Anytime Soon",
+            "authors": [
+                {
+                    "first": "Robert",
+                    "middle": [],
+                    "last": "Baird",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The New Yorker",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Assessing alternative production options for eco-e cient food supply chains using multiobjective optimization",
+            "authors": [
+                {
+                    "first": "Aleksander",
+                    "middle": [],
+                    "last": "Banasik",
+                    "suffix": ""
+                },
+                {
+                    "first": "Argyris",
+                    "middle": [],
+                    "last": "Kanellopoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "Frits",
+                    "middle": [],
+                    "last": "Claassen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jacqueline",
+                    "middle": [],
+                    "last": "Bloemhof-Ruwaard",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jack",
+                    "middle": [],
+                    "last": "Van Der",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Vorst",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Annals of Operations Research",
+            "volume": "250",
+            "issn": "2",
+            "pages": "341--362",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10479-016-2199-z"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "On mathematical programming with indicator constraints",
+            "authors": [
+                {
+                    "first": "Pierre",
+                    "middle": [],
+                    "last": "Bonami",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrea",
+                    "middle": [],
+                    "last": "Lodi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrea",
+                    "middle": [],
+                    "last": "Tramontani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Sven",
+                    "middle": [],
+                    "last": "Wiese",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Mathematical programming",
+            "volume": "151",
+            "issn": "",
+            "pages": "191--223",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10107-015-0891-4"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Quanti cation of mRNA using real-time reverse transcription PCR (RT-PCR): trends and problems",
+            "authors": [
+                {
+                    "first": "Stephen",
+                    "middle": [],
+                    "last": "Bustin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Journal of molecular endocrinology",
+            "volume": "29",
+            "issn": "",
+            "pages": "23--39",
+            "other_ids": {
+                "DOI": [
+                    "10.1677/jme.0.0290023"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Principles of scarce medical resource allocation in natural disaster relief: a simulation approach",
+            "authors": [
+                {
+                    "first": "Hui",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Simin",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Medical Decision Making",
+            "volume": "32",
+            "issn": "3",
+            "pages": "470--476",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Revision: 03. U.S. Department of Health and Human Services",
+            "authors": [],
+            "year": 2020,
+            "venue": "Center for Disease Control and Prevention. CDC 2019-Novel Coronavirus (2019-nCoV) Real-Time RT-PCR Diagnostic Panel",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Processing of Sputum Specimens for Nucleic Acid Extraction",
+            "authors": [],
+            "year": 2020,
+            "venue": "Tech. rep. U.S. Department of Health and Human Services",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Optimization can solve the ventilator shortage",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Operations Research",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Center",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Ventilator Pooling: Formulation and Data Sources",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Operations Research",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Center",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Simulation-optimization approach to clinical trial supply chain management with demand scenario forecast",
+            "authors": [
+                {
+                    "first": "Ye",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Linas",
+                    "middle": [],
+                    "last": "Mockus",
+                    "suffix": ""
+                },
+                {
+                    "first": "Seza",
+                    "middle": [],
+                    "last": "Orcun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gintaras",
+                    "middle": [],
+                    "last": "Reklaitis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Computers & Chemical Engineering",
+            "volume": "40",
+            "issn": "",
+            "pages": "82--96",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.compchemeng.2012.01.007"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Misure di potenziamento del Servizio sanitario nazionale e di sostegno economico per famiglie, lavoratori e imprese connesse all'emergenza epidemiologica da COVID-19. Gazzetta U ciale della Repubblica Italiana",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Open Data Coronavirus",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Covid19italia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "European Centre for Disease Prevention and Control. Coronavirus disease 2019 (COVID-19) pandemic: increased transmission in the EU/EEA and the UK. Tech. rep. Seventh update",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Positioning Inventory in Clinical Trial Supply Chains",
+            "authors": [
+                {
+                    "first": "Adam",
+                    "middle": [],
+                    "last": "Fleischhacker",
+                    "suffix": ""
+                },
+                {
+                    "first": "Anh",
+                    "middle": [],
+                    "last": "Ninh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yao",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "24",
+            "issn": "",
+            "pages": "991--1011",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/poms.12302"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "The Italian health-care system",
+            "authors": [
+                {
+                    "first": "George",
+                    "middle": [],
+                    "last": "France",
+                    "suffix": ""
+                },
+                {
+                    "first": "Francesco",
+                    "middle": [],
+                    "last": "Taroni",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrea",
+                    "middle": [],
+                    "last": "Donatini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "In: Health Economics",
+            "volume": "14",
+            "issn": "",
+            "pages": "187--202",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Quantitative RT-PCR: pitfalls and potential",
+            "authors": [
+                {
+                    "first": "Willard",
+                    "middle": [],
+                    "last": "Freeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Stephen",
+                    "middle": [],
+                    "last": "Walker",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kent",
+                    "middle": [],
+                    "last": "Vrana",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Biotechniques",
+            "volume": "26",
+            "issn": "",
+            "pages": "112--125",
+            "other_ids": {
+                "DOI": [
+                    "10.2144/99261rv01"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "A review of multi-objective optimization: Methods and its applications",
+            "authors": [
+                {
+                    "first": "Nyoman",
+                    "middle": [],
+                    "last": "Gunantara",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cogent Engineering",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/23311916.2018.1502242"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Gurobi Optimization LLC. Gurobi Optimizer Reference Manual",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Stockpiling ventilators for in uenza pandemics",
+            "authors": [
+                {
+                    "first": "Hsin-Chan",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ozgur",
+                    "middle": [],
+                    "last": "Araz",
+                    "suffix": ""
+                },
+                {
+                    "first": "David",
+                    "middle": [],
+                    "last": "Morton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gregory",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paul",
+                    "middle": [],
+                    "last": "Damien",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bruce",
+                    "middle": [],
+                    "last": "Clements",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lauren",
+                    "middle": [
+                        "Ancel"
+                    ],
+                    "last": "Meyers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Emerging Infectious Diseases",
+            "volume": "23",
+            "issn": "",
+            "pages": "914--921",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2306.161417"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Multi-Objective Optimization",
+            "authors": [
+                {
+                    "first": "Deb",
+                    "middle": [],
+                    "last": "Kalyanmoy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Seach Methodologies",
+            "volume": "",
+            "issn": "",
+            "pages": "403--449",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-1-4614-6940-7_15"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "The Geography of Prescription Pharmaceuticals Supplied to the US: Levels, Trends and Implications",
+            "authors": [
+                {
+                    "first": "Yashna",
+                    "middle": [],
+                    "last": "Neriman Beste Kaygisiz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rena",
+                    "middle": [],
+                    "last": "Shivdasani",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ernst",
+                    "middle": [],
+                    "last": "Conti",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Berndt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "National Bureau of Economic Research",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3386/w26524"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "E ectively managing diagnostic tests to monitor the COVID-19 outbreak in Italy",
+            "authors": [
+                {
+                    "first": "Lorenzo",
+                    "middle": [],
+                    "last": "Lampariello",
+                    "suffix": ""
+                },
+                {
+                    "first": "Simone",
+                    "middle": [],
+                    "last": "Sagratella",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "A Model of Supply-Chain Decisions for Resource Sharing withan Application to Ventilator Allocation to Combat COVID-19",
+            "authors": [
+                {
+                    "first": "Sanjay",
+                    "middle": [],
+                    "last": "Mehrotra",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hamed",
+                    "middle": [],
+                    "last": "Rahimian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Fengqiao",
+                    "middle": [],
+                    "last": "Masoud Barah",
+                    "suffix": ""
+                },
+                {
+                    "first": "Schantz",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Karolina",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Estimates of the demand for mechanical ventilation in the United States during an in uenza pandemic",
+            "authors": [
+                {
+                    "first": "Martin",
+                    "middle": [],
+                    "last": "Meltzer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Anita",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adebola",
+                    "middle": [],
+                    "last": "Ajao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Scott",
+                    "middle": [],
+                    "last": "Nystrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lisa",
+                    "middle": [],
+                    "last": "Koonin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Clinical Infectious Diseases",
+            "volume": "60",
+            "issn": "",
+            "pages": "52--57",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/civ089"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Pandemia di COVID-19 -Aggiornamento delle indicazioni sui test diagnostici e sui criteri da adottare nella determinazione delle priorit\u00e0. Aggiornamento delle indicazioni relative alla diagnosi di laboratorio",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A multi-objective robust optimization model for multi-product multi-site aggregate production planning in a supply chain under uncertainty",
+            "authors": [
+                {
+                    "first": "Hooman",
+                    "middle": [],
+                    "last": "Mohammad Mirzapour Al-E-Hashem",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mir",
+                    "middle": [],
+                    "last": "Malekly",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bahador Aryanezhad",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "International Journal of Production Economics",
+            "volume": "134",
+            "issn": "",
+            "pages": "28--42",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijpe.2011.01.027"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "UNICEF provides COVID-19 testing reagents to support national pandemic response in Thailand",
+            "authors": [
+                {
+                    "first": "Iman",
+                    "middle": [],
+                    "last": "Morooka",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nattha",
+                    "middle": [],
+                    "last": "Keenapan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Open Data Covid19",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Opentoscana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Asymptomatic cases in a family cluster with SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "Xingfei",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dexiong",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yong",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xinwei",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tangsheng",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xueting",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Liyang",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jing",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "The Lancet Infectious Diseases",
+            "volume": "20",
+            "issn": "",
+            "pages": "30114--30120",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099(20"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Production Planning by Mixed Integer Programming",
+            "authors": [
+                {
+                    "first": "Yves",
+                    "middle": [],
+                    "last": "Pochet",
+                    "suffix": ""
+                },
+                {
+                    "first": "Laurence",
+                    "middle": [],
+                    "last": "Wolsey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Operations Research and Financial Engineering",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/0-387-33477-7"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Computational Geometry: an Introduction",
+            "authors": [
+                {
+                    "first": "Francom",
+                    "middle": [],
+                    "last": "Preparata",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [
+                        "Ian"
+                    ],
+                    "last": "Shamos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-1-4612-1098-6"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "COVID-19 Italia: Monitoraggio della Situazione",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "High Contagiousness and Rapid Spread of Severe Acute Respiratory Syndrome Coronavirus 2",
+            "authors": [
+                {
+                    "first": "Steveb",
+                    "middle": [],
+                    "last": "Sanche",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yen",
+                    "middle": [],
+                    "last": "Ting Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chonggang",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ethan",
+                    "middle": [],
+                    "last": "Romero-Severson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nick",
+                    "middle": [],
+                    "last": "Hengartner",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rulan",
+                    "middle": [],
+                    "last": "Ke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "In: Emerging infectious diseases",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2607.200282"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Increase COVID-19 Swab Testing Capacity via Optimisation",
+            "authors": [
+                {
+                    "first": "Alberto",
+                    "middle": [],
+                    "last": "Santini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Optimisation tools for the COVID-19 pandemic. Github repository",
+            "authors": [
+                {
+                    "first": "Alberto",
+                    "middle": [],
+                    "last": "Santini",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.5281/zenodo.3952105"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "The Nurse Rostering Problem in COVID-19 emergency scenario",
+            "authors": [
+                {
+                    "first": "Ruggiero",
+                    "middle": [],
+                    "last": "Seccia",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Recent advances in diagnostic testing for viral infections",
+            "authors": [
+                {
+                    "first": "Selma",
+                    "middle": [],
+                    "last": "Souf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Bioscience Horizons 9",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/biohorizons/hzw010"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Istituto Superiore di Sanit\u00e0. Epidemia COVID-19, Aggiornamento Nazionale",
+            "authors": [],
+            "year": 2020,
+            "venue": "Task force COVID-19 del Dipartimento Malattie Infettive e Servizio di Informatica",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "The trinity of COVID-19: immunity, in ammation and intervention",
+            "authors": [
+                {
+                    "first": "Chek",
+                    "middle": [
+                        "Meng"
+                    ],
+                    "last": "Matthew Zirui Tay",
+                    "suffix": ""
+                },
+                {
+                    "first": "Laurent",
+                    "middle": [],
+                    "last": "Poh",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paul",
+                    "middle": [],
+                    "last": "R\u00e9nia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lisa",
+                    "middle": [],
+                    "last": "Macary",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Reviews Immunology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41577-020-0311-8"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Integrated production planning and control: a multi-objective optimization model",
+            "authors": [
+                {
+                    "first": "Cheng",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Xiao-Bing",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Journal of Industrial Engineering and Management",
+            "volume": "6",
+            "issn": "",
+            "pages": "815--830",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Unique epidemiological and clinical features of the emerging 2019 novel coronavirus pneumonia (COVID-19) implicate special control measures",
+            "authors": [
+                {
+                    "first": "Yixuan",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yuyi",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yan",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qingsong",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Medical Virology",
+            "volume": "92",
+            "issn": "",
+            "pages": "568--576",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.25748"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Safeguarding Pharmaceutical Supply Chains in a Global Economy",
+            "authors": [
+                {
+                    "first": "Janet",
+                    "middle": [],
+                    "last": "Woodcock",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Advice on the use of point-of-care immunodiagnostic tests for COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "The SARS-CoV-2 outbreak: what we know",
+            "authors": [
+                {
+                    "first": "Di",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tiantian",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qun",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Zhicong",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Infectious Diseases",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2020.03.004"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Neutralizing antibody responses to SARS-CoV-2 in a COVID-19 recovered patient cohort and their implications",
+            "authors": [
+                {
+                    "first": "Fan",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Aojie",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mei",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Qimin",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jun",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shuai",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yun",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yuling",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jingna",
+                    "middle": [],
+                    "last": "Xun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lu",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Shibo",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hongzhou",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Yumei",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jinghe",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "A medical resource allocation model for serving emergency victims with deteriorating health conditions",
+            "authors": [
+                {
+                    "first": "Yisha",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jun",
+                    "middle": [],
+                    "last": "Zhuang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Annals of Operations Research",
+            "volume": "236",
+            "issn": "1",
+            "pages": "177--196",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s10479-014-1716-1"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "A conceptual framework for allocation of federally stockpiled ventilators during large-scale public health emergencies",
+            "authors": [
+                {
+                    "first": "Stephanie",
+                    "middle": [],
+                    "last": "Zaza",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lisa",
+                    "middle": [],
+                    "last": "Koonin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Adebola",
+                    "middle": [],
+                    "last": "Ajao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Scott",
+                    "middle": [],
+                    "last": "Nystrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "Richard",
+                    "middle": [],
+                    "last": "Branson",
+                    "suffix": ""
+                },
+                {
+                    "first": "Anita",
+                    "middle": [],
+                    "last": "Patel",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bruce",
+                    "middle": [],
+                    "last": "Bray",
+                    "suffix": ""
+                },
+                {
+                    "first": "Michael",
+                    "middle": [],
+                    "last": "Iademarco",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Health security",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/hs.2015.0043"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "A multi-objective production planning problem with the consideration of time and cost in clinical trials",
+            "authors": [
+                {
+                    "first": "Hui",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Edward",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Runliang",
+                    "middle": [],
+                    "last": "Dou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kan",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Expert Systems with Applications",
+            "volume": "124",
+            "issn": "",
+            "pages": "25--38",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.eswa.2019.01.038"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "United Kingdom National Health Service's protocol for rRT-PCR analysis of samples from swabs, to detect COVID-19.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Linking relation between parameter m and variables , z and w for a lab l \u2208 L at time intervals from t \u2212 1 to t + 1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Regional-level data for Italy.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "can only be transported between labs in the same region.(b) Laboratories in the same region or within 200Km can send swabs.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Map of testing laboratories in Italy. An edge connects two laboratories if they can send swabs between each other overnight.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Number of swab tests performed on the national territory, per day. The dashed line reports o cial numbers from the Civil Defence agency. The other lines represent the results from applying the Hierarchical",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Number of swab tests performed in four Italian regions. The dashed line reports o cial numbers from the Civil Defence agency. The solid lines represents results obtained with our Hierarchical Model allowing intra-regional (orange line) and inter-regional (blue line) swab transfers.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Example of a synthetic instance with bumpy reagent production at factories.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "(For example, during the COVID-19 pandemics, the Chinese province of Wuhan, northern Italian regions, the autonomous communities of La Rioja, Madrid and Castilla-La Mancha in Spain, or the states of Washington and New York in the U.S.A. were foci in their respective countries.) The other regions might, instead, have some spare capacity which they can use, if resources are properly coordinated, to help saturated regions. Letm = 100 be an ideal number of tests to perform per lab per day (assuming ideal conditions), and let |L i | be the number of labs in region i. The number of tests requested in region i on day t is",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Table 1: Number of swabs tested on the national territory, day by day, from o cial real data and from the results obtained using our model. Columns #tests represent the number of swabs tested each day. Columns %gain are the percentage gains obtained using the model, compared to the real data.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Synthetic instance generation parameters.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "% swabs moved avg % swabs tested",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The author would like to thank Michele Iacono of Roche Diagnostics S.p.A. and Xavier Jim\u00e9nez F\u00e0brega of the Health Department of Catalonia for comments and fruitful discussions on this work. The author would also like to thank two anonymous reviewers for suggesting important improvements to this paper.Funding: the author was partially supported by grant \"RTI2018-095197-B-I00\" from the Spanish Ministry of Economy and Competitiveness.Declarations of interest: none.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "The extended model, which incorporates the considerations made in Section 5, uses a new variable u l t \u2208 Z + , which represents the number of new swabs assigned to lab l \u2208 L on day t \u2208 T . The model reads as follows:x r l t = 0 \u2200r \u2208 R, \u2200l \u2208 L : \u03b4 r l = 0, \u2200t \u2208 T (30)x r l t \u2200l \u2208 L, \u2200t \u2208 T (35)x r l t \u2200r \u2208 R, \u2200t \u2208 T (37)x ll t \u2200l \u2208 L, \u2200t \u2208 T (38)x r 2 l 1 t = 0 \u2228 x r 1 l 2 t = 0 \u2200t \u2208 T , \u2200l 1 , l 2 \u2208 L, \u2200r 1 , r 2 \u2208 R : (46)\u03c1 l t , z l t , w l t , u l t \u2208 Z + \u2200l \u2208 L, \u2200t \u2208 T (52)Without loss of generality, one can linearise indicator constraints of the type = 0 \u2192 ax \u2264 b, for a binary variable and a non-negative integer variable x, introducing a non-negative slack variable s and transforming inequality ax \u2264 b into ax + s \u2264 b. Then the \"big-M\" inequality s \u2264 M enforces the indicator constraint.Similarly, one can linearise constraints of type (x = 0)\u2228( = 0), where both x and are integer an non-negative. Consider two binary variables s x , s which will take value 1 if, respectively, x and are strictly positive. Then the following three inequalities linearise the original constraint: x \u2264 Ms x , \u2264 Ms , s x + s \u2264 1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Extended Model formulation"
+        },
+        {
+            "text": "Alberto Santini: everything. Other authors: no other authors. 26 ",
+            "cite_spans": [
+                {
+                    "start": 62,
+                    "end": 64,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Author-Statement"
+        }
+    ]
+}

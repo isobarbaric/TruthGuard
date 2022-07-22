@@ -1,0 +1,1508 @@
+{
+    "paper_id": "278bf49e24eddc2d084cec670d0ab84f7af353b6",
+    "metadata": {
+        "title": "Stakeholder Involvement 41.7% (30.6",
+        "authors": [
+            {
+                "first": "Kamal",
+                "middle": [
+                    "Kumar"
+                ],
+                "last": "Singhal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Joseph",
+                "middle": [
+                    "L"
+                ],
+                "last": "Mathew",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jeanne",
+                "middle": [
+                    "M"
+                ],
+                "last": "Dsouza",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [],
+                "last": "Surbhi Agrawal",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ipsa",
+                "middle": [],
+                "last": "Kutlehrria",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u00b7",
+                "middle": [
+                    "Meenu"
+                ],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective To systematically identify and critically appraise the methodological quality of pediatric guidelines applicable to management of COVID-19 in India. Methods Pediatric COVID-19 guidelines applicable to India, published until 30 April 2021, were identified through a systematic search across ten databases. Each was critically appraised for methodological quality using the AGREE-II tool, by at least two appraisers. Median (interquartile range) of the total score and domain-wise scores were calculated, and compared for Indian vs. foreign guidelines, updated vs. original versions of guidelines, and those developed earlier vs. later in the pandemic. Results A total of 62 guidelines was identified. Only 8 (12.9%) were published in India. The overall AGREE-II score ranged from 4.7% to 72.8%; with median (IQR) 37.9% (29.4, 48.6). This suggested overall low(er) methodological quality. The median (IQR) domain-wise scores were as follows: Scope and Purpose 66.0, 45.8). This suggested diversity in quality of different aspects of the guidelines, with very low quality in the critical domain of methodological rigor. There were no statistically significant differences in the overall scores of Indian vs. foreign guidelines, updated versions vs. original versions, and those developed earlier vs. later in the pandemic. Conclusion The currently available pediatric COVID-19 guidelines have low methodological quality, adversely affecting their credibility, validity, and applicability. Urgent corrective strategies are presented for consideration.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The coronavirus disease 2019 (COVID-19) pandemic has affected several million lives, strained healthcare systems, and dramatically changed the lives of people, globally. Being a novel disease with dreaded consequences, desperate measures were tried in clinical practice, public health, and research settings to manage the condition, resulting in the prescription and promotion of several interventions without adequate supporting evidence [1] . The evidence base for pediatric management is even less robust, and often extrapolated from practices in adults. Governmental agencies, public health institutions, and professional societies, struggled to meet the challenges of the pandemic by rapidly developing guidelines to assist health care providers and the public [2] .",
+            "cite_spans": [
+                {
+                    "start": 439,
+                    "end": 442,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 766,
+                    "end": 769,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "However, guidelines should be produced through a formal process involving systematic search, critical appraisal, and synthesis of evidence on specific clinical questions [3] . Such guidelines produce evidence-based recommendations, coupled with judgements on the evidence strength and quality [2] . In contrast, the urgency created by the pandemic resulted in the publication of a large number of documents bypassing the formal process, but labelled as guidelines [3] . Sadly, these well-intentioned (and sometimes helpful) documents may not be entirely trustworthy, due to methodological limitations, or conflicts of interest [2] . In some situations, they may result in implementing strategies that are not only ineffective, but possibly harmful [4] . The situation is worse for pediatric guidelines owing to the limited quantity and quality of primary evidence in children. Therefore, many pediatric guidelines have either been extrapolated from adult studies or are based on 'expert opinions,' adversely affecting their reliability. Even well-developed guidelines are generally applicable for the healthcare settings for which they are developed. However, during the COVID pandemic, many guidelines developed for entirely different settings were freely extrapolated to other settings.",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 173,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 293,
+                    "end": 296,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 464,
+                    "end": 467,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 627,
+                    "end": 630,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 748,
+                    "end": 751,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "These issues necessitate a thorough appraisal of currently available guidelines to evaluate their quality. However, there are no data on the methodological quality of COVID-19 guidelines applicable to pediatric practice in India. This study was undertaken to address this knowledge gap. The objective was to identify guidelines related to COVID-19 management in children, in the Indian healthcare setting, and formally appraise their methodological quality. This would enable health care professionals (and even the public) to take into consideration the quality of guidelines (and hence their reliability), when implementing them.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A systematic search was conducted to identify guidelines published on any aspect of COVID-19 management in children that could be applicable in India. Applicability was considered based on (i) presence of the clinical problem in India, (ii) availability of the intervention in India, (iii) feasibility of implementing the intervention in India. Guidelines developed by Indian agencies were assumed to be applicable in India. The search was carried out through Medline (via Pubmed), and websites of the Government of India (GoI) Ministry of Health & Family Welfare, Indian Academy of Pediatrics (IAP), World Health Organization (WHO), American Academy of Pediatrics (AAP), Centers for Disease Control and Prevention (CDC), National Institutes of Health (NIH), National Institute of Health and Clinical Excellence (NICE), and American College of Rheumatology (ACR). Google and Google Scholar were also searched for additional guidelines. The searches were run without restricting the time limit, and updated till 30 April 2021. The search strategy and output from each database is summarized in Supplementary material S1.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Guidelines developed for children (< 18 y) including neonates, published in English, and available in the public domain were included. Guidelines that were not developed specifically for COVID-19, those developed for both adults and children wherein the pediatric component could not be separately analyzed, and those not designed for human application were excluded.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "After eliminating duplicate publications, step-wise screening of the title was undertaken, followed by Abstract (or Introduction section), and then full text. Guidelines not fulfilling the eligibility criteria were eliminated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Each included guideline was independently appraised by at least two trained appraisers using the \"Appraisal of Guidelines for Research and Evaluation II\" (AGREE II) tool [5] . This is the current gold standard for guideline appraisal. It comprises 23 items, categorized into 6 domains viz. Scope and Purpose (3 items), Stakeholder Involvement (3 items), Rigor of Development (8 items), Clarity of Presentation (3 items), Applicability (4 items), and Editorial Independence (2 items). As per the instruction manual [5] , the appraisers scored each item on a 7-point scale ranging from 1 to 7. Thus, for each guideline evaluated across 23 items, the total score by a single appraiser could range from 23 to 161. As per the AGREE-II manual, the scores of independent appraisers were added, so that the total score for each guideline could range from 46 to 322.",
+            "cite_spans": [
+                {
+                    "start": 170,
+                    "end": 173,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 514,
+                    "end": 517,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Then the following parameters were calculated:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "Scores were expressed as percentages. Each appraiser underwent training on a set of guidelines (different from the included ones), to learn the process. Thereafter, a pilot appraisal was undertaken on another set of guidelines, before the appraisal of the guidelines included in this study. After the appraisers finalized their scores, items having an inter-rater difference in score of \u2265 2, were reappraised. If the difference persisted, the appraisers discussed their scores, and if required, arbitration was done by the senior author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "The median and interquartile range (IQR) of overall scores and domain scores were calculated. Spearman rank correlation coefficient (rho) was calculated for each guideline to assess the relationship of the scores assigned by the independent appraisers. Median (IQR) rho was also calculated across the included guidelines. Three comparative analyses of the median (IQR) scores were undertaken, viz. (i) Indian vs. foreign guidelines, (ii) the first half of the included guidelines based on date of publication vs. the second half, and (iii) original versions vs. updated versions of guidelines having updates. Mann-Whitney test was used for the first two comparisons, and Wilcoxon signed rank sum test for the third.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "This study was approved by the Institute Ethics Committee of PGIMER Chandigarh vide INT/IEC/2021/SPL-251 dated 13/02/2021.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and Methods"
+        },
+        {
+            "text": "The systematic literature search identified 1526 guidelines, of which 1520 remained after removing duplicates. Among these, 1381 guidelines were excluded based on screening titles, followed by abstract/introduction. The eligibility criteria were applied to the full text of the remaining 139 guidelines, resulting in elimination of 77 guidelines. Thus, 62 guidelines were included in this analysis (Fig. 1 ). Only 8 of these were published in India [6] [7] [8] [9] [10] [11] [12] [13] .",
+            "cite_spans": [
+                {
+                    "start": 449,
+                    "end": 452,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 453,
+                    "end": 456,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 457,
+                    "end": 460,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 461,
+                    "end": 464,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 465,
+                    "end": 469,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 470,
+                    "end": 474,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 475,
+                    "end": 479,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 480,
+                    "end": 484,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 398,
+                    "end": 405,
+                    "text": "(Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Of the 62 guidelines, 25 (40.3%) covered clinical diagnosis, diagnostic tests, clinical management, drug therapy, supportive care and preventive therapy. Another 25 (40.3%) were related only to prevention. Eight (12.9%) guidelines covered both clinical management and prevention.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "The overall AGREE-II score of the 62 guidelines ranged from 4.7% to 72.8%, with median (IQR) 37.9% (29.4, 48.6) . The median (IQR) domain scores are summarized in Table 1 , and overall scores of the 62 guidelines are presented in Fig. 2 . Only 3 (4.8%) guidelines had an overall score > 60%, the threshold commonly used to define 'good' quality, and only one guideline crossed the 70% threshold.",
+            "cite_spans": [
+                {
+                    "start": 99,
+                    "end": 111,
+                    "text": "(29.4, 48.6)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 163,
+                    "end": 170,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 230,
+                    "end": 236,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Among the six domains, the highest median score was in Domain 1, followed by Domain 4. The lowest score was in Domain 6. However, the widest variation was also observed in Domain 6. Two-thirds of the guidelines crossed the 60% threshold for Domain 1 (Scope and Purpose), whereas only 3.2% achieved this for Domain 3 (Rigor of Development). Table 2 summarizes the distribution of the domain-wise AGREE-II scores. Supplementary material S2 presents the domain scores of each included guideline.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 340,
+                    "end": 347,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Comparing Indian versus foreign guidelines (Table 3) , the median (IQR) overall score of the former was slightly lower, but the difference was not statistically significant. However, the Indian guidelines had statistically significant lower scores for two domains viz. Rigor of Development and Applicability. This was despite the foreign guidelines themselves having low scores.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 43,
+                    "end": 52,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Nine (14.5%) guidelines had been updated during the study period. The median, overall and domain scores of these guidelines were higher in the updated versions, but the differences were not statistically significant (Table 3) . Only 3/9 guidelines showed meaningful improvement in the critically important domain on 'Rigor of Development'.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 216,
+                    "end": 225,
+                    "text": "(Table 3)",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Comparing the AGREE-II scores of the first half (i.e., first 31) versus second half of the published guidelines showed no statistically significant improvement in any of the domain scores ( Table 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 190,
+                    "end": 198,
+                    "text": "Table 3)",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "The median (IQR) correlation coefficient between the scores of the two appraisers ( Fig. 3 ) was 0.80 (0.69, 0.83), suggesting strong correlation. About 75% of the guidelines showed correlation coefficient \u2265 0.7. Only two guidelines had correlation coefficient < 0.50.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 84,
+                    "end": 90,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "This systematic literature search identified several pediatric guidelines applicable to the Indian healthcare scenario, but the overall methodological quality was low. There were no significant differences between Indian and international guidelines, or those published earlier in the pandemic versus later. Even updated/revised guidelines did not show improvement in methodological quality. Among the various domains, the critical one reflecting rigor of development remained weak across the guidelines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Early during the pandemic, two studies analyzing guidelines available by March 2020 and April 2020, highlighted the problem of low methodological quality [14, 15] . Although most guidelines clarified their scope and purpose, the methodological process was seriously compromised. As few as 4% guidelines were developed through systematic reviews of evidence, and most were based on informal expert consensus [15] . Almost similar findings were observed in another analysis that included guidelines published till August 2020 [16] . Analysis of guidelines restricted to various medical specialties such as Anesthesiology [17] , and Surgery [18] , as well as guidelines focused on specific aspects of COVID-19 management [19] , also showed low methodological quality.",
+            "cite_spans": [
+                {
+                    "start": 154,
+                    "end": 158,
+                    "text": "[14,",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 159,
+                    "end": 162,
+                    "text": "15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 407,
+                    "end": 411,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 524,
+                    "end": 528,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 619,
+                    "end": 623,
+                    "text": "[17]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 638,
+                    "end": 642,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 718,
+                    "end": 722,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As far as the authors know, this study is the first systematic appraisal of a large number of pediatric guidelines. Previous studies were either limited in focus or approach [20, 21] . One study on 20 pediatric guidelines separately assessed their methodological as well as reporting quality [22] , and found no guidelines having high quality. The methodological quality and reporting quality of most guidelines went hand-in-hand, suggesting that low methodological quality was not related to inadequate reporting alone [22] .",
+            "cite_spans": [
+                {
+                    "start": 174,
+                    "end": 178,
+                    "text": "[20,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 179,
+                    "end": 182,
+                    "text": "21]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 292,
+                    "end": 296,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 520,
+                    "end": 524,
+                    "text": "[22]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The present findings in pediatric guidelines, that are aligned to observations in guidelines of other specialties, raise several important questions. First, is the problem unique to COVID guidelines? Most COVID-19 guidelines were developed under challenging circumstances of a raging pandemic by a hitherto unknown virus, urgent need for guidance despite lack of robust evidence, and the need for policy-makers and healthcare professionals to take action. However, this perception is belied by the authors' observation that guidelines developed later during the pandemic also did not show better methodological quality, nor did those that were revised or updated. Further, these are specific processes for the rapid development of guidelines to meet public health emergencies [23, 24] . In addition, comparison of guidelines developed for viral outbreaks causing public health emergencies, showed that the methodological quality of COVID guidelines was inferior to those developed for outbreaks of SARS-CoV, MERS-CoV, Ebola virus, and Zika virus [25] . These diverse pieces of evidence suggest that the COVID-19 guidelines are somehow especially inferior in quality. The second question is why this is happening. It could be because COVID-19 spread much faster (compared to previous outbreaks), affected the whole world (compared to limited geographies in other public health emergencies), and involved millions of people, pressuring Governments and healthcare systems to respond urgently. However, these theories still do not explain why more recent guidelines failed to reflect better methodological quality.",
+            "cite_spans": [
+                {
+                    "start": 776,
+                    "end": 780,
+                    "text": "[23,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 781,
+                    "end": 784,
+                    "text": "24]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1046,
+                    "end": 1050,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Third, what is the impact of poor methodological quality of guidelines? Some may argue that even if more robust methodology (consuming greater time and resources) had been employed, the resultant guidance may not have been different. This view is inappropriate for two reasons. Studies have shown that guidelines developed with inadequate methodology resulted in discrepant recommendations even for a limited set of interventions [22, 26] , often promoting therapies later conclusively proven to be ineffective [22, 27] and recommended not to be used. The ethical, clinical and economic consequences of such practices have also been highlighted [1] .",
+            "cite_spans": [
+                {
+                    "start": 430,
+                    "end": 434,
+                    "text": "[22,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 435,
+                    "end": 438,
+                    "text": "26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 511,
+                    "end": 515,
+                    "text": "[22,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 516,
+                    "end": 519,
+                    "text": "27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 645,
+                    "end": 648,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The authors wondered whether the AGREE-II tool could be somehow inadequate or inappropriate for COVID-19 guidelines, given the unique context and challenges. This question is relevant because guidance documents developed by prestigious guideline agencies also had low scores. In this context, it is worth noting that some items in the tool are open to interpretation, resulting in variable scoring. Further the tool itself lacks a provision for awarding an overall score. After completing the item-by-item assessment objectively, appraisers are expected to provide two subjective judgements viz. their assessment of the quality of the guideline, and whether they would recommend using the guideline [5] . Further, there is no absolute cut-off score that categorises guideline quality as 'high' or 'low', although higher scores reflect better quality, and vice versa. Despite this, some experts use cutoffs such as 60% as a minimum criterion to consider guidelines in their practice; and some classify 70% as the threshold for high(er) quality. On account of such challenges, some authors suggested alternate tools for critical appraisal of COVID-19 guidelines, with a focus on the implementation context [28, 29] , but these also have limitations and inconsistencies. What is the way forward? The authors believe that it is essential to improve guideline quality, with attention to methodological and other issues that can limit bias during Fig. 3 Correlation coefficient of the scores assigned by two appraisers for each of the 62 guidelines. The x-axis shows the guidelines, and the yaxis the correlation coefficient (rho) development. Some issues may be relatively easier to resolve than others. For example, almost all the included guidelines scored poorly in the domain of 'editorial independence', on account of poor reporting of funding sources and sponsors. For guidelines developed without vested interests, this should be relatively easy to rectify. Other issues are more complex, requiring methodological expertise to frame questions, conduct systematic reviews, appraise evidence, and use it to develop recommendations. Needless to mention, the process of evidence-based guideline development is resource intensive. Therefore, an alternate approach could be that guidelines need not be separately developed by each and every healthcare agency. Instead robust evidence-based guidelines developed by agencies recognized for producing trustworthy guidance, can be considered for implementation in local healthcare settings. The international collaborative 'COVID-19 Recommendations Map project' provides a detailed catalogue of methodologically-appraised guidelines and recommendations, through a single user-friendly portal [2, 30] . Instead of developing new local guidelines, stakeholders can enhance efficiency by accessing the available guideline recommendations and then deciding to adopt (without modifications), or adapt (with locally appropriate modifications) them.",
+            "cite_spans": [
+                {
+                    "start": 699,
+                    "end": 702,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1204,
+                    "end": 1208,
+                    "text": "[28,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1209,
+                    "end": 1212,
+                    "text": "29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 2734,
+                    "end": 2737,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 2738,
+                    "end": 2741,
+                    "text": "30]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1441,
+                    "end": 1447,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study had several strengths including systematic search for guidelines relevant to management of COVID-19 in children. The key aspect of guideline appraisal was conducted in a robust and transparent manner, minimizing several sources of bias. There are several limitations, notably searching through a limited number of databases, restricting to English language guidelines, excluding guidelines applicable to both adults and children, and curtailing the search till 30 April 2021. The nature of the AGREE-II tool, and its application by appraisers with varying levels of expertise and experience can also create observer biases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This systematic search identified several guidelines for the management of COVID-19 among children in India. However, the overall methodological quality was low, raising concerns about the credibility of the guideline development process. The low methodological quality pervaded across Indian as well as international guidelines, those published during the early part of the pandemic as well as more recent guidelines, and even among updated versions of guidelines. The authors identified several issues that can be resolved, and suggested a way forward to improve the situation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The online version contains supplementary material available at https:// doi. org/ 10. 1007/ s12098-022-04081-8.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Information"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Low-value medical care in the pandemic-is this what the doctor ordered?",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhaumik",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "John",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Jha",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Lancet Glob Health",
+            "volume": "9",
+            "issn": "",
+            "pages": "1203--1207",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Getting trustworthy guidelines into the hands of decision-makers and supporting their consideration of contextual factors for implementation globally: recommendation mapping of COVID-19 guidelines",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lotfi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Stevens",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Akl",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Ecovid Collaborators",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Clin Epidemiol",
+            "volume": "135",
+            "issn": "",
+            "pages": "182--188",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Low-value health care in the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mathew",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Lancet Glob Health",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Low-value health care in the COVID-19 pandemic. Lancet Glob Health",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Naik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "AGREE II: advancing guideline development, reporting and evaluation in health care",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Brouwers",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Kho",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Browman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "CMAJ",
+            "volume": "182",
+            "issn": "",
+            "pages": "839--881",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Perinatal-Neonatal management of COVID-19 infection. guidelines of the federation of obstetric and gynaecological societies of India (FOGSI), National Neonatology Forum of India (NNF), and Indian Academy of Pediatrics (IAP)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chawla",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chirla",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dalwai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Indian Pediatr",
+            "volume": "57",
+            "issn": "",
+            "pages": "536--584",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Ministry of Health and Family Welfare, Directorate General of Health Services. Clinical Management Protocol: COVID-19. Government of India",
+            "authors": [
+                {
+                    "first": "India",
+                    "middle": [],
+                    "last": "Government Of",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Manag ement Proto colfo rCOVI D19da ted03 072020. pdf. Accessed on",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Protocol for Management of Covid-19 in the Paediatric Age Group. Government of India, Ministry of Health and family welfare. 2166939/2021/ CMO(EMR)",
+            "authors": [
+                {
+                    "first": "India",
+                    "middle": [],
+                    "last": "Government Of",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Ministry of Health and Family Welfare",
+            "volume": "2021",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Available at: https:// iapin dia. org/ pdf/ IAP-Guide lines-COVID-19. pdf. Accessed on",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Parekh",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Basavaraj",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Available at: https:// iapin dia. org/ pdf/ Strat egies-forcrowd ed-OPD-COVID-19. pdf. Accessed on",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Indian Academy of Pediatrics guidelines on school reopening, remote learning and curriculum in and after the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ghate",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Parekh",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Thapar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Indian Pediatr",
+            "volume": "57",
+            "issn": "",
+            "pages": "1153--65",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "COVID-19 management for 1 month -19 years old: statement by Indian Academy of Pediatrics",
+            "authors": [],
+            "year": 2021,
+            "venue": "DmtbU 4R05M_ IAP% 20Cov id% 2019% 20man ageme ntGui delin es% 20for% 20Ped iatri cian% 20V1.1% 20Apr%",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Pediatric ophthalmology, strabismus and neuro-ophthalmology practice in the COVID-19 era: All India Ophthalmological Society guidelines",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Saxena",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jethani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Indian J Ophthalmol",
+            "volume": "68",
+            "issn": "",
+            "pages": "1300--1305",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Scope, quality, and inclusivity of clinical guidelines produced early in the COVID-19 pandemic: rapid review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dagens",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sigfrid",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "369",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The methodological quality is insufficient in clinical practice guidelines in the context of COVID-19: systematic review",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stamm",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Andrews",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mosor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Clin Epidemiol",
+            "volume": "135",
+            "issn": "",
+            "pages": "125--160",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Consistency of recommendations and methodological quality of guidelines for the diagnosis and treatment of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Evid Based Med",
+            "volume": "14",
+            "issn": "",
+            "pages": "40--55",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Anesthesia guidelines for COVID-19 patients: a narrative review and appraisal",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ong",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ong",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Korean J Anesthesiol",
+            "volume": "73",
+            "issn": "",
+            "pages": "486--502",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "A methodological evaluation of the published consensus statements, recommendations and guidelines about surgical management in the course of coronavirus disease pandemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bertolaccini",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Iacono",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mazzella",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Prisciandaro",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sedda",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Spaggiari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Asian Cardiovasc Thorac Ann",
+            "volume": "29",
+            "issn": "",
+            "pages": "361--369",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Recommendations for SARS-CoV-2/COVID-19 testing: a scoping review of current guidance",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Arevalo-Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Seron",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Buitrago-Garc\u00eda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "BMJ Open",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Management in the paediatric wards facing novel coronavirus infection: a rapid review of guidelines and consensuses",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ Open",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Quality assessment of clinical practice guidelines for the management of paediatric dental emergencies applicable to the COVID-19 pandemic, using the AGREE II instrument. A systematic review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Arieta-Miranda",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Alcaychahua",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Santos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Heliyon",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Quality and consistency of clinical practice guidelines for treating children with COVID-19",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Ann Transl Med",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Health emergency interim guidelines: a WHO guideline development framework and toolkit. 1st ed. Geneva: The Network",
+            "authors": [],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Developing WHO rapid advice guidelines in the setting of a public health emergency",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Garritty",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Norris",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Moher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Clin Epidemiol",
+            "volume": "82",
+            "issn": "",
+            "pages": "47--60",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "COVID-19 evidence and recommendations working group. A quality evaluation of guidelines on five different viruses causing public health emergencies of international concern",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Transl Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Critical Review of the Scientific Evidence and Recommendations in COVID-19 Management Guidelines",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Open Forum Infect Dis",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Quality and methodology of clinical practice guidelines on antiviral pharmacotherapy for COVID-19 during the early phase of the pandemic",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Mejza",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Lesniak",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jaeschke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Pol Arch Intern Med",
+            "volume": "131",
+            "issn": "",
+            "pages": "356--60",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "EMERGE\": Construction of a simple quality appraisal tool for rapid review of laparoscopic surgery guidelines during COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Agrawal",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Yadav",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Agarwal",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Br J Surg",
+            "volume": "107",
+            "issn": "",
+            "pages": "518--527",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Development and validation of a tool to appraise guidelines on SARS-CoV-2 infection control strategies in healthcare workers",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Subramaniam",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ponnapa",
+                    "middle": [],
+                    "last": "Reddy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kadam",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Aust Crit Care",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.aucc.2021.06.015"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "COVID19 Recommendations and Gateway to Contextualization. Available at: https:// covid 19. recmap. org. Accessed on 9",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Overall score for a guideline = (Sum of scores of two appraisers \u2212 46) 322 \u2212 46 \u00d7 100 Domain score = (Sum of item scores for the domain \u2212 Minimum possible score for the domain) (Maximum possible score for the domain \u2212 Minimum possible score for the domain)\u00d7 100",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "PRISMA flow diagram for selection of pediatric guidelines. AAP American Academy of Pediatrics; ACR American College of Rheumatology; CDC Centers for Disease Control; GoI Government of India; IAP Indian Academy of Pediatrics; NICE National Institute of Health and Clinical Excellence (UK); NIH National Institutes of Health;",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "AGREE-II scores of pediatric guidelines (n = 62) arranged alphabetically. The x-axis shows the guidelines and the y-axis the overall score (%)",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "AGREE-II scores of the included guidelines (n = 62)",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Comparison of AGREE-II scores of Indian versus foreign guidelines; updated versions versus original versions of guidelines (n = 9); and first half versus second half of the guidelines",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors are grateful to Stephanie Duda (McMaster University, Hamilton, Canada) for conducting the training to use the AGREE-II tool.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Authors' Contributions KKS undertook the literature search for the systematic review, data collection, data analysis, and drafted the manuscript; JLM conceptualized the study, supervised literature search, critical appraisal of literature, data collection, data analysis, and finalized the manuscript; JMD undertook literature review, data analysis, critical appraisal and revised the manuscript; SA participated in data collection and critical appraisal; IK participated in data collection and critical appraisal; MS served as Co-guide for the thesis study of KKS. JLM will act as the guarantor for this paper.Data Availability Available to anyone for academic purposes, on reasonable request.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "Ethics Approval This study was approved by the Institute Ethics Committee of PGIMER Chandigarh vide Letter INT/IEC/2021/SPL-251 dated 13/02/2021.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declarations"
+        },
+        {
+            "text": "None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflict of Interest"
+        }
+    ]
+}

@@ -1,0 +1,2358 @@
+{
+    "paper_id": "278b5dd0acd9235d3d8a8e60178658786c29f996",
+    "metadata": {
+        "title": "Supplementary Information Harnessing peak transmission around symptom onset for non-pharmaceutical intervention and containment of the COVID-19 pandemic",
+        "authors": [
+            {
+                "first": "Liang",
+                "middle": [],
+                "last": "Tian",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xuefei",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fei",
+                "middle": [],
+                "last": "Qi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Qian-Yuan",
+                "middle": [],
+                "last": "Tang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Viola",
+                "middle": [],
+                "last": "Tang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jiang",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Zhiyuan",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xingye",
+                "middle": [],
+                "last": "Cheng",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xuanxuan",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yingchen",
+                "middle": [],
+                "last": "Shi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Haiguang",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lei-Han",
+                "middle": [],
+                "last": "Tang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "In this Supplementary Information, a stochastic model of COVID-19 transmission in a homogeneous population is presented and analysed. Disease progression of an individual is compartmentalised into latent (L), pre-symptomatic infectious (A) and symptomatic (S) phases. To better accommodate the transmission characteristics of COVID-19 at the population level, the A phase is further split into two sub-periods, A 1 before the infectiousness peak with a variable duration, and A 2 after the infectiousness peak with a fixed duration. With regard to the transmission capacity, the A 2 phase and the S phase are treated as a single stretch of declining infectiousness. For a sufficiently large population, the size of infected subpopulations satisfies an integral renewal equation. We derive the kernel function from the model and calibrate it against clinical case studies. Analytical and numerical solutions of the integral equation with and without intervention are presented.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "From a mathematical point of view, our model can be considered as a special case of the general class of epidemic models originally introduced by Kermack and McKendrick [1] and expanded over the years. For a historical review and modern treatment, we refer the reader to Refs. [2, 3, 4] . We would like to thank the anonymous reviewers for bringing these classical works to our attention.",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 283,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 284,
+                    "end": 286,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "In this Supplementary Information, a stochastic model of COVID-19 transmission in a homogeneous population is presented and analysed. Disease progression of an individual is compartmentalised into latent (L), pre-symptomatic infectious (A) and symptomatic (S) phases. To better accommodate the transmission characteristics of COVID-19 at the population level, the A phase is further split into two sub-periods, A 1 before the infectiousness peak with a variable duration, and A 2 after the infectiousness peak with a fixed duration. With regard to the transmission capacity, the A 2 phase and the S phase are treated as a single stretch of declining infectiousness. For a sufficiently large population, the size of infected subpopulations satisfies an integral renewal equation. We derive the kernel function from the model and calibrate it against clinical case studies. Analytical and numerical solutions of the integral equation with and without intervention are presented.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "From a mathematical point of view, our model can be considered as a special case of the general class of epidemic models originally introduced by Kermack and McKendrick [1] and expanded over the years. For a historical review and modern treatment, we refer the reader to Refs. [2, 3, 4] . We would like to thank the anonymous reviewers for bringing these classical works to our attention. ",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 157,
+                    "text": "Kermack and",
+                    "ref_id": null
+                },
+                {
+                    "start": 169,
+                    "end": 172,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 277,
+                    "end": 280,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 281,
+                    "end": 283,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 284,
+                    "end": 286,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The basic structure of our model follows Main Text Figure 1 , with model parameters defined in Supplementary Figure 1 . The disease progression parameters \u03b1 A and \u03b1 L (t L ) are taken to be universal, while the transmission rates \u03b2 A and \u03b2 B (t B ) may vary significantly from community to community.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 51,
+                    "end": 59,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 95,
+                    "end": 117,
+                    "text": "Supplementary Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "Supplementary Figure 1 : A stochastic model for disease progression and transmission. Disease progression of an infected individual is assumed to be described by a renewal process following the sequence of latent (L), pre-symptomatic infectious (A 1 and A 2 ) and symptomatic (S) phases. The transition rate from L to A 1 is given by \u03b1 L (t L ) which depends on the dwell time t L in the latent phase. The transition from A 1 to A 2 , which coincides with peak infectiousness, is Poisson at a constant rate \u03b1 A . The A 2 phase has a fixed duration \u03b8 P , after which the patient enters S phase. All three phases A 1 , A 2 and S are infectious, with transmission rates to reproduce secondary cases given by \u03b2 A (A 1 phase) and \u03b2 B (t B ) (A 2 and S phases combined), respectively. The latter is a function of t B , the number of days since the start of the A 2 phase.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 22,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "We now consider groups of infected individuals in L, A 1 , A 2 and S in a large and well-mixed population, using italic symbols to denote their size. We shall also assume that the number of individuals in each of the disease phases is sufficiently large, so that stochasticity arising from the random transition events to enter the next phase is averaged out, leading to deterministic equations at the population level. Our experience with numerical simulations of the stochastic model indicates that ten is already a good size for the subpopulations for this purpose. Unless otherwise specified, we will use the capital letter T to denote calendar time, and the lower case letters t, t A , t B to denote elapsed times since infection and upon entering the A 1 and A 2 phases, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "In a closed community, the number of new infections per unit time (also known as \"incidence\") at time T is given by,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "(S1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "The first term is due to transmission by infected individuals in the A 1 phase. The second term is due to individuals who have transited to the post A 1 phase at an earlier time T \u2212 t B . Each newly infected individual then follows the disease progression path shown by the blue arrows in Supplementary Figure 1 , with the transition rates as specified. In particular, the mean flux to A 1 at time T due to a group infected in the time interval (T \u2212 t, T \u2212 t + dt) is given by,",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 289,
+                    "end": 311,
+                    "text": "Supplementary Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "is the probability that an individual remains in the latent phase L on day t since infection. Adding up contributions from all such groups, we obtain",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "Given that the exit rate from the A 1 phase is given by \u03b1 A , we may write,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "The last line is obtained with the help of the identity,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "Equations (S1) and (S3) allow us to obtain the following closed equation,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "Here",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "is the mean reproduction rate of a viral carrier in day t since infection. The first term on the right-hand side of (S6) is quite obvious. To obtain the second term, we write the term inside the square brackets of Eq. (S3) as,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "where we have used Eq. (S4) for the last step. Furthermore,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "as required.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "Equation (S5) implies that the temporal evolution of any linear function of J L in the form",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "satisfies the renewal equation",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "This can be shown easily as follows:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "Equations (S5) and (S7), with the kernel function r(t) given by (S6), constitute the fundamental dynamical equations for epidemic development at the population level. To include imported cases at the beginning or during an outbreak, a source term should be added to Eq. (S5), as we illustrate in Sec. 4.5.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The model and governing equations"
+        },
+        {
+            "text": "The symptom onset separates the A 2 phase from the S phase. In our model, the A 2 phase is assigned a fixed duration \u03b8 P , the time lag between the peak infectiousness and the symptom onset. Consequently, we may express the symptom onset time as,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease progression and symptom onset time"
+        },
+        {
+            "text": "where t L and t A1 are the times an infected person spent in the latent and A 1 phases, respectively. Since the statistics of t A1 follows a Markov process with a time constant 1/\u03b1 A in our model, one may infer the statistics of t L from the statistics of t O . This then allows us to determine the kernel function r(t) and other quantities of interest in terms of the symptom onset time distribution p O (t), which can be estimated from clinical data (see the section below). The function p O (t) is also known as the incubation period distribution. We use the two terms interchangeably both in SI and in the Main Text.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease progression and symptom onset time"
+        },
+        {
+            "text": "In Supplementary Table 1 we give the probabilities for an individual to be in one of the four phases on day t since infection. Expressions in the last two rows are quite obvious. The transition probability current from A 1 to A 2 at time t is given by \u03b1 A q A 1 (t), which is the same as the probability density for symptom onset at a later time t + \u03b8 P . This gives the expression for q A 1 (t) in Supplementary Table 1 . The expression for q L (t) is obtained simply by requiring that the sum of the probabilities is equal to one.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 24,
+                    "text": "Supplementary Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 399,
+                    "end": 420,
+                    "text": "Supplementary Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Disease progression and symptom onset time"
+        },
+        {
+            "text": "From the expression for q L (t) in Supplementary Table 1 , we obtain its Laplace transform,",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 35,
+                    "end": 56,
+                    "text": "Supplementary Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Disease progression and symptom onset time"
+        },
+        {
+            "text": "where we have set p O (t) = 0 for t < \u03b8 P . The Laplace transform of \u03b1 L (t)q L (t) = \u2212q L (t) is given by 1 \u2212 \u03bbq L (\u03bb). Noting that Eq. (S6) is in the form of a convolution integral, we obtain, ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Disease progression and symptom onset time"
+        },
+        {
+            "text": "The self-sustained growth rate \u03bb of an epidemic can be obtained by seeking a solution X(T ) = e \u03bb(T \u2212T 0 ) to Eq. (S7). Simple algebra givesr",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "In the epidemiological literature, it is customary to express the growth rate \u03bb in terms of the mean reproduction number",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "where we have used Eq. (S9). The first term on the right-hand-side gives the contribution to R E from the pre-symptomatic A 1 phase, and the second term from the rest. Alternatively, noting that\u03b2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "being the mean reproduction numbers in the pre-symptomatic and symptomatic phases, respectively. Dividing both sides of (S10) by R E and making use of Eqs. (S9) and (S11), we obtain upon inversion,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "At \u03bb = 0, R E = 1, as required, independent of the model parameters. Equation (S12) defines the fundamental relation between the mean reproduction number of infected individuals and the growth rate of the epidemic. The distribution p O (t) plays an essential role in this relation. One immediate result from Eq. (S12) is that R E = 0 is at the pole ofp O (\u03bb). For an exponentially decaying p O (t) \u223c e \u2212\u03bbt at large t, the pole is at \u03bb = \u2212\u03bb O , which yields the rate of decay when transmission stops completely.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "Wallinga and Lipsitch [5] proposed a general equation between R E and \u03bb based on the normalised \"generation interval distribution\",",
+            "cite_spans": [
+                {
+                    "start": 22,
+                    "end": 25,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "(S13)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "At the observed epidemic growth rate \u03bb, each individual produces R E (\u03bb) offspring. Consequently,g",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "known as the Lotka-Euler estimating equation. This equation is equivalent to (S12).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "Supplementary Table 2 : Percentage of the infected population in each of the disease phases when the epidemic grows at a rate \u03bb. Table 1 ,",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 21,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 129,
+                    "end": 136,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Exponential growth/decay"
+        },
+        {
+            "text": "Latent L Q L (\u03bb) 1 \u2212 1 + \u03bb \u03b1 A e \u03bb\u03b8 Pp O (\u03bb) Pre-symptomatic Infectious A 1 Q A 1 (\u03bb) \u03bb \u03b1 A e \u03bb\u03b8 Pp O (\u03bb) Pre-symptomatic Infectious A 2 Q A 2 (\u03bb) e \u03bb\u03b8 P \u2212 1 p O (\u03bb) Symptomatic S Q S (\u03bb)p O (\u03bb)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phase Probability Expression"
+        },
+        {
+            "text": "(S14)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Percentage of subpopulations during exponential growth"
+        },
+        {
+            "text": "For easy reference, the percentages of subpopulations are collected in Supplementary Table 2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Percentage of subpopulations during exponential growth"
+        },
+        {
+            "text": "In this section, we present technical details on the estimation of model parameters from case studies reported in the literature. In line with our modelling framework, we first examine the statistics of the symptom onset time and perform a maximum likelihood analysis to determine a parametric representation of the data. We then determine the mean infectiousness of COVID-19 patients from the serial interval statistics collected during the early days of the epidemic in China. These analyses yield estimates for the transmission parameters introduced in the previous section.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Calibration against Case Studies"
+        },
+        {
+            "text": "The incubation periods of individual patients before symptom onset were summarised in three articles: 59 cases collected by Men et al. [6] , 105 cases collected by Xia et al. [7] , and 181 cases collected by Bi et al. [8] . In total, we examined N = 347 cases with their incubation periods. In most cases, the infection date can only be assigned to a time interval of more than one day. Therefore, the actual incubation period falls between IPl i and IPu i , i = 1, ..., N , where IPl i and IPu i set the lower and upper bounds for the incubation period of case i, respectively. The raw statistics of the three datasets is shown in Main Text Figure 2a . This is done by simply assign equal weight to the possible values within the reported window [IPl i , IPu i ] for each of the patients. The nominal probability distribution of the incubation period from each dataset (or the aggregated one) is then obtained by taking a simple average over all the cases within the set. Although there is general consistency with regard to the overall shape of the distributions obtained, there are also significant deviations particularly outside the peak region. While part of the variations can be attributed to statistical fluctuations when the sample size is limited, it is also plausible that systematic bias exists under the equal probability assumption when dealing with uncertainties related to finite exposure windows.",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 138,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 175,
+                    "end": 178,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 218,
+                    "end": 221,
+                    "text": "[8]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 642,
+                    "end": 651,
+                    "text": "Figure 2a",
+                    "ref_id": null
+                }
+            ],
+            "section": "Symptom onset time distribution"
+        },
+        {
+            "text": "Below we perform a more refined analysis, i.e., maximum likelihood estimation, of the underlying symptom onset time distribution p O (\u03b8, t), with \u03b8 being the parameter set. Following the scheme proposed by Reich et al. [9] , we consider the following likelihood function,",
+            "cite_spans": [
+                {
+                    "start": 219,
+                    "end": 222,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Symptom onset time distribution"
+        },
+        {
+            "text": "Eyeballing the data in Main Text Figure 2a , we hypothesise the tail of the distribution to be an exponential function. This motivates us to consider the following two hybrid functional forms for p O (\u03b8, t) and perform the maximum likelihood estimation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 33,
+                    "end": 42,
+                    "text": "Figure 2a",
+                    "ref_id": null
+                }
+            ],
+            "section": "Symptom onset time distribution"
+        },
+        {
+            "text": "The log-normal distribution is commonly used for the incubation period in the epidemiological literature. We connect it to a simple exponential decay at t e :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid log-normal distribution with an exponential tail"
+        },
+        {
+            "text": "(S16)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid log-normal distribution with an exponential tail"
+        },
+        {
+            "text": "Here the log-normal probability density function (PDF) p ln (t) is parametrised by \u00b5 and \u03c3:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid log-normal distribution with an exponential tail"
+        },
+        {
+            "text": "where erf(x) is the Gauss error function. Continuity of the derivatives at t e demands",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid log-normal distribution with an exponential tail"
+        },
+        {
+            "text": ".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid log-normal distribution with an exponential tail"
+        },
+        {
+            "text": "(S19) Therefore, we have in total three independent parameters \u03b8 = (t e , \u00b5, \u03c3) in the above model. Through numerically optimising the likelihood function with the Nelder-Mead simplex algorithm, we obtained the optimal parameter sets for different t e , which is shown in Supplementary  Table 3 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 272,
+                    "end": 294,
+                    "text": "Supplementary  Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hybrid log-normal distribution with an exponential tail"
+        },
+        {
+            "text": "Supplementary Table 3 : Maximum likelihood estimation of parameters in Eq. (S16). Results are from bootstrap re-sampling of the data described in the text, with 1000 realisations (95% confidence interval shown in parentheses). The maximal likelihood is achieved at t e = 6. It should be noted that the exponent \u03b3 is quite stable around 0.31/day. The bottom row gives results for the full log-normal distribution (t e = \u221e), which has a smaller likelihood value than the hybrid one at t e = 6.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 21,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hybrid log-normal distribution with an exponential tail"
+        },
+        {
+            "text": "For the second class of functions, we use the Weibull distribution to connect with an exponential tail:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid Weibull distribution with an exponential tail"
+        },
+        {
+            "text": "(S20)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid Weibull distribution with an exponential tail"
+        },
+        {
+            "text": "Here the Weibull PDF p wb (t) is parametrised by k (shape parameter) and \u03bb (scale parameter):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid Weibull distribution with an exponential tail"
+        },
+        {
+            "text": "The normalisation factor is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid Weibull distribution with an exponential tail"
+        },
+        {
+            "text": "Continuity of derivatives at t e yields",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Hybrid Weibull distribution with an exponential tail"
+        },
+        {
+            "text": "This model has three independent parameters \u03b8 = (t e , k, \u03bb). We numerically optimised the likelihood function through the Nelder-Mead simplex algorithm at different t e , with results given in Supplementary Table 4 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 194,
+                    "end": 215,
+                    "text": "Supplementary Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hybrid Weibull distribution with an exponential tail"
+        },
+        {
+            "text": "Supplementary Table 4 : Maximum likelihood estimation of parameters in Eq. (S20). Results are from bootstrap re-sampling of the data described in the text, with 1000 realisations (95% confidence interval shown in parentheses). The maximal likelihood is achieved at t e = 4. The likelihood for t e = \u221e is lower which suggests that our hybrid function is more faithful to the data than the full Weibull distribution.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 21,
+                    "text": "Table 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hybrid Weibull distribution with an exponential tail"
+        },
+        {
+            "text": "The estimated value for \u03b3 here is very similar to the result presented in Supplementary Table  3 . However, the optimal likelihood obtained under the hybrid Weibull distribution is quite a bit less than that of the hybrid log-normal distribution. Therefore, we adopt the log-normal distribution with an exponential tail as the best estimate for p O (t) and use it in our numerical calculations.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 96,
+                    "text": "Supplementary Table  3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Hybrid Weibull distribution with an exponential tail"
+        },
+        {
+            "text": "Confidence intervals given in Supplementary Tables 3 and 4 are obtained following a bootstrap scheme [9] . This is done by generating 1000 re-sampled copies of the initial 347 cases dataset. The maximum likelihood estimation is then performed for each of the re-sampled copy. ",
+            "cite_spans": [
+                {
+                    "start": 101,
+                    "end": 104,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 30,
+                    "end": 58,
+                    "text": "Supplementary Tables 3 and 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Uncertainty analysis through bootstrap re-sampling"
+        },
+        {
+            "text": "Records of disease transmission by individual patients through the course of their disease progression are scarce in the public domain. We therefore estimated the transmission parameters defined in Supplementary Figure 1 indirectly using the reported infector-infectee pairs. Such a procedure is subject to bias arising from the data collection process. For example, intra-family transmission tends to be over-represented [10, 11] . Keeping potential shortcomings of this type in mind, we present below quantification of our model using the data provided by He et al. [12] The dataset contains 74 infector-infectee pairs. Among them, 66 pairs have a unique symptom onset date (see Source Data). They are used in our analysis. As illustrated in Supplementary Figure Below, we quantify the statistics of disease transmission time with a probability density function p I (\u03b8, t), with t measured from the symptom onset of the infector, and \u03b8 the set of parameters to be determined. Then maximum likelihood estimation is applied to fit the discrete exposure window data [9] . The likelihood function is given by:",
+            "cite_spans": [
+                {
+                    "start": 422,
+                    "end": 426,
+                    "text": "[10,",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 427,
+                    "end": 430,
+                    "text": "11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 568,
+                    "end": 572,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1065,
+                    "end": 1068,
+                    "text": "[9]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 198,
+                    "end": 220,
+                    "text": "Supplementary Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 758,
+                    "end": 764,
+                    "text": "Figure",
+                    "ref_id": null
+                }
+            ],
+            "section": "Infectiousness around symptom onset"
+        },
+        {
+            "text": "Given the limited resolution for the exposure window in integral values, we shall limit ourselves to the following parametrisation of p I (\u03b8, t): a conglomerate of two exponential wings and its extensions with either a flat or a smooth cap. We consider each of them separately.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Infectiousness around symptom onset"
+        },
+        {
+            "text": "We first consider the case of two exponential functions joined directly at \u03b8 P :",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A conglomerate of two exponential wings"
+        },
+        {
+            "text": "This model has three independent parameters \u03b8 = (\u03b1 A , \u03b1 B , \u03b8 P ). The normalisation factor A is simply",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A conglomerate of two exponential wings"
+        },
+        {
+            "text": "By numerically optimising the likelihood function through the Nelder-Mead simplex algorithm, we obtained the optimal parameter set shown in Supplementary Table 5 . ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 140,
+                    "end": 161,
+                    "text": "Supplementary Table 5",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "A conglomerate of two exponential wings"
+        },
+        {
+            "text": "Expanding the peak of the function defined by (S25) into a flat cap of size , we have,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential wings with a flat cap"
+        },
+        {
+            "text": "Here,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential wings with a flat cap"
+        },
+        {
+            "text": "The normalisation factor is simply",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential wings with a flat cap"
+        },
+        {
+            "text": "This model has four independent parameters \u03b8 = (\u03b1 A , \u03b1 B , \u03b8 P , ). Through numerical optimisation of the likelihood functions at different values of , we obtained the optimal parameter sets, which are shown in Supplementary Table 6 . It can be seen from the above table that the likelihood increases with decreasing cap width , reaching its maximum at = 0 which is treated above.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 212,
+                    "end": 233,
+                    "text": "Supplementary Table 6",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Exponential wings with a flat cap"
+        },
+        {
+            "text": "We now consider the case of a smooth cap as defined by:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential wings with a smooth cap"
+        },
+        {
+            "text": "The shape of the quadratic function in the middle is parametrised by \u03c7, with its peak located at \u03b8 P . The normalisation factor is",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential wings with a smooth cap"
+        },
+        {
+            "text": ".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential wings with a smooth cap"
+        },
+        {
+            "text": "(S31) Smoothness requires continuity of derivatives at \u03b8 P1 and \u03b8 P2 , respectively, which yields:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Exponential wings with a smooth cap"
+        },
+        {
+            "text": "Therefore, there are four independent parameters \u03b8 = (\u03b1 A , \u03b1 B , \u03b8 P , \u03c7). Note that in the limit of \u03c7 \u2192 \u221e this model reduces to the first model with two exponential functions joining at \u03b8 P . We numerically optimised the likelihood functions through the Nelder-Mead simplex algorithm at different \u03c7. Optimal parameter sets in each case are shown in Supplementary Table 7 . Note that the likelihood increases with increasing \u03c7, which indicates that the optimal estimation is achieved at vanishing cap size.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 351,
+                    "end": 372,
+                    "text": "Supplementary Table 7",
+                    "ref_id": "TABREF6"
+                }
+            ],
+            "section": "Exponential wings with a smooth cap"
+        },
+        {
+            "text": "In Main Text Figure 2b , we show the infectiousness curves obtained from the first model, the second model at = 1.0, and the third model at \u03c7 = 1.0.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 13,
+                    "end": 22,
+                    "text": "Figure 2b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supplementary"
+        },
+        {
+            "text": "We performed bootstrap analysis to determine uncertainties in the estimated p I (t). This is done by generating 1000 re-sampled copies of the exposure window dataset of 66 transmission pairs. The maximum likelihood estimation for p I (t) is then performed for each of the re-sampled copy. The p I (t) for each of the re-sampled copied are shown as the grey lines in Main Text Figure  2b (for the conglomerate of two exponentials). The 95% confidence intervals for the estimated parameters are shown in Supplementary Table 5 and the Main Text Table I ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 376,
+                    "end": 386,
+                    "text": "Figure  2b",
+                    "ref_id": null
+                },
+                {
+                    "start": 502,
+                    "end": 549,
+                    "text": "Supplementary Table 5 and the Main Text Table I",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Uncertainty analysis through bootstrap re-sampling"
+        },
+        {
+            "text": "Du et al. [10] , Xu et al. [11] , and He et al. [12] reported the statistics of the serial intervals of infector-infectee pairs in 468, 679, and 66 confirmed serial infection cases, respectively, which we use to compare against the symptom onset distribution function as well as the infectiousness function obtained above.",
+            "cite_spans": [
+                {
+                    "start": 10,
+                    "end": 14,
+                    "text": "[10]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 27,
+                    "end": 31,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 48,
+                    "end": 52,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Serial interval statistics"
+        },
+        {
+            "text": "In a pairwise transmission event i \u2192 j, the serial interval t SI is the sum of the time of transmission \u2206t with respect to the symptom onset of the index patient i, and the symptom onset time t O,j of the infectee j, as illustrated in Supplementary Figure 2 . Assuming statistical independence between the latter two in the clinical samples collected, we may write the serial interval distribution as a convolutional integral, Table I in the Main Text. As noted in earlier studies [11, 13] , the empirical serial interval distributions can be skewed by shifts in the transmission window of the index patients surveyed. For example, travel delays move the effective p I (\u2206t) in the positive direction, while isolation of symptomatic patients move the effective p I (\u2206t) in the negative direction. In each case, p SI (t SI ) shifts correspondingly in the same direction.",
+            "cite_spans": [
+                {
+                    "start": 481,
+                    "end": 485,
+                    "text": "[11,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 486,
+                    "end": 489,
+                    "text": "13]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 235,
+                    "end": 257,
+                    "text": "Supplementary Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 427,
+                    "end": 434,
+                    "text": "Table I",
+                    "ref_id": null
+                }
+            ],
+            "section": "Serial interval statistics"
+        },
+        {
+            "text": "With the symptom onset time distribution p O (t) and the parameters \u03b1 A and \u03b8 P estimated from clinical and transmission case studies, we may proceed to compute the probabilities for an infected person to be in each of the disease phases on day t since infection. This can be done by numerically evaluating the expressions presented in Supplementary Table 1. Supplementary Figure 3 shows the probability q L (t) for the latent phase and the corresponding exit rate \u03b1 L (t). Good agreement is seen for q L (t) under the two parametrisation schemes adopted. The curves for \u03b1 L (t) = \u2212q L (t)/q L (t) also exhibit the same trend, although discrepancies exist in the actual shape. On the first day since infection, the transition rate to the infectious phase is low which explains the low value of \u03b1 L (t) in this period. This is followed by an accelerated transition rate and a faster than exponential decay of q L (t), reaching a peak value of 0.6 day \u22121 or above. After that the transition rate decelerates and reaches a plateau value of approximately 0.3 day \u22121 on the fifth day onward. Given that both \u03b1 A and \u03b1 B as given in Supplementary Table 5 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 373,
+                    "end": 381,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 1127,
+                    "end": 1148,
+                    "text": "Supplementary Table 5",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Non-Markovian transition rate from latent to infectious phase"
+        },
+        {
+            "text": "In Sec. 1 we expressed various quantities in terms of the Laplace transform of p O (t). Here we consider simplifying approximations, which allow for more direct relations to be derived.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Simplifying Approximations"
+        },
+        {
+            "text": "As an explicit example, we consider disease transmission in a homogeneous population following the infectiousness curve shown in Main Text Figure 2b . The peak infectiousness happens at \u03b8 P = \u22120.68 days before the symptom onset, yielding \u03b8 P = 0.68 days. The left and right wings are well fitted to exponential functions with decay rates \u03b1 A 0.43 day \u22121 and \u03b1 B 0.54 day \u22121 , respectively. For the right wing, we may write",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 148,
+                    "text": "Figure 2b",
+                    "ref_id": null
+                }
+            ],
+            "section": "An approximate formula for the mean reproduction rate"
+        },
+        {
+            "text": "where t B is measured from the beginning of the A 2 phase, e.g., \u03b8 P days before the symptom onset. The mean infectiousness curve on the left also matches well with the exponential distribution of the duration of the A 1 phase in the model introduced in Sec. 1, with a decay rate \u03b1 A . From Eq. (S34), we obtain the Laplace transform,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "An approximate formula for the mean reproduction rate"
+        },
+        {
+            "text": "Substituting Eq. (S35) into (S9), we obtain,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "An approximate formula for the mean reproduction rate"
+        },
+        {
+            "text": "For \u03bb \u03b1 B , we may approximate",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "An approximate formula for the mean reproduction rate"
+        },
+        {
+            "text": "Introducing",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "An approximate formula for the mean reproduction rate"
+        },
+        {
+            "text": "we may then write,r",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "An approximate formula for the mean reproduction rate"
+        },
+        {
+            "text": "This yields a very simple expression for the reproduction rate,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "An approximate formula for the mean reproduction rate"
+        },
+        {
+            "text": "with R E = (\u03b2 A /\u03b1 A ) + (\u03b2 A /\u03b1 B ). Equation (S13) then identifies p O (t + \u03b8 S ) with the generation time interval distribution g(t).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "An approximate formula for the mean reproduction rate"
+        },
+        {
+            "text": "A few remarks with regard to the re-parameterised model (S39) are in order. The parameter R E , which sets the overall scale of transmission, incorporates total contribution from both presymptomatic and symptomatic individuals (Main Text Figure 1 ). The shift parameter \u03b8 S , on the other hand, depends on how fast transmission decays on the symptomatic side. As seen from Eq. (S37), a small decay rate \u03b1 B may change \u03b8 S into the negative. Using the parameter values determined from Sec. 2, we obtain \u03b8 S \u22120.15 day. In this case, the peakshift of the infectiousness curve to the pre-symptomatic side is compensated by transmission from symptomatic patients. As reported in Ref. [13] , the latter could vary over time depending on the isolation measures applied to symptomatic patients.",
+            "cite_spans": [
+                {
+                    "start": 679,
+                    "end": 683,
+                    "text": "[13]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 238,
+                    "end": 246,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "An approximate formula for the mean reproduction rate"
+        },
+        {
+            "text": "A number of modelling studies in the literature adopt a Markovian setup with \u03b1 L (t) = const. which is a special case of our more general non-Markovian approach (see, e.g., Ref. [4] ). Skipping the A 2 phase by setting \u03b8 P = 0, we have,",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 181,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "A Markov model"
+        },
+        {
+            "text": "The onset time distribution in this case is given by",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Markov model"
+        },
+        {
+            "text": "with its mean and variance given by,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Markov model"
+        },
+        {
+            "text": "Substituting Eq. (S40) into Eq. (S9), we obtain the Laplace transform of the kernel function,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Markov model"
+        },
+        {
+            "text": "Below we consider a situation where \u03b2 B (t B ) decays to zero rapidly, i.e., the symptomatic transmission is much reduced. The second factor on the right-hand side of Eq. (S42) can then be approximated as,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Markov model"
+        },
+        {
+            "text": "where R E is given by Eq. (S11) and \u03b1 A,eff = \u03b1 A [1 + \u03b1 A\u03b2 B (0)/R E ], with\u03b2 B (0) being the derivative of\u03b2 B (\u03bb) at \u03bb = 0. It follows that",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Markov model"
+        },
+        {
+            "text": "The inverse transform of the above expression yields",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Markov model"
+        },
+        {
+            "text": "Under the effective kernel function (S43), Eq. (S10) takes the form,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Markov model"
+        },
+        {
+            "text": "i.e., a parabola with two nodes at \u03bb L \u2212\u03b1 L and \u03bb A \u2212\u03b1 A,eff .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "A Markov model"
+        },
+        {
+            "text": "In this section, we consider the effects of various intervention and containment measures aimed at a significant reduction of the mean reproduction number R E from its nominal number of 3 or above in an unprotected population, within the framework of the model described in Sec. 1. When these measures are implemented in combination, reductions multiply. Some of these measures, such as social distancing and wearing face masks, are aiming at an overall reduction of COVID-19 transmission in the population, while others are targeting more specifically at breaking down the transmission chain. Considering the difficulty in achieving a three-fold reduction of R E under any single measure, one is left with no option other than adopting as many of these measures as circumstances allow.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Model Exploration under Intervention"
+        },
+        {
+            "text": "Quarantine of infected individuals cuts down disease transmission. Naturally, the biggest challenge is to identify such individuals and isolate them sufficiently to stop transmission. We consider several scenarios below.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Quarantine of infected individuals"
+        },
+        {
+            "text": "Let t be the time interval between infection and identification of a given infected individual.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mean reproduction number from day t onward since infection"
+        },
+        {
+            "text": "Supplementary Table 8 gives the mean reproduction number from day t onward. The result depends on which phase the patient is in. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 21,
+                    "text": "Table 8",
+                    "ref_id": "TABREF9"
+                }
+            ],
+            "section": "Mean reproduction number from day t onward since infection"
+        },
+        {
+            "text": "L & A 1 R E entering A 2 at t 1 < t \u2206R B (t \u2212 t 1 ) = \u221e t\u2212t 1 \u03b2 B (t 2 )dt 2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary"
+        },
+        {
+            "text": "Testing and quarantining of infected individuals is practiced in South Korea during the early stages of the pandemic with great intensity. In the simplest scenario, a suspected individual undergoes one time test of COVID-19 infection. It takes a day or so for the test result to come back. If it is positive, the person will be quarantined and hence removed from the active infected population. Oral nucleic acid test only reports cases with a sufficiently high viral load. Therefore the test needs to be done around the time of symptom onset. However, by then the person may have already infected other people. Within our probabilistic framework, the efficiency of this procedure can be assessed as follows.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Testing and quarantine"
+        },
+        {
+            "text": "We assume that the test protocol is implemented in such a way that a person on day t since infection is tested at a rate \u03b7 testing (t), i.e., the probability that he/she is tested during the time interval (t, t + dt) is \u03b7 testing (t)dt, with \u221e 0 \u03b7 testing (t)dt \u2264 1. We shall also assume that the test result, which is returned after \u03c4 d days, will be positive only when the infected has already passed the latent phase on the day of testing. With the help of the results in Supplementary  Table 8 , we may write the reduction in the mean reproduction number R E at the population level,",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 475,
+                    "end": 497,
+                    "text": "Supplementary  Table 8",
+                    "ref_id": "TABREF9"
+                }
+            ],
+            "section": "Testing and quarantine"
+        },
+        {
+            "text": "In the extreme case that all infected are tested on day t test of their infection, we have \u03b7 testing (t) = \u03b4(t \u2212 t test ). Under Eqs. (S34) and (S46), the relative reduction of R E is given by,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Testing and quarantine"
+        },
+        {
+            "text": "(S47) According to the expression in Supplementary Table 1, q A 1 (t test ) is peaked one day before the peak of the symptom onset time distribution. Consequently, the maximum reduction is also achieved when t test is chosen to be around that day. For smaller t test , the chance of returning a positive test result is low, while for larger t test , the patient in question is likely to have already infected others by the time of the test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Testing and quarantine"
+        },
+        {
+            "text": "In contact tracing, a high percentage of close contacts of a newly confirmed viral carrier (primary case) are identified and quarantined soon after the contact took place, without testing. This procedure is more effective when performed sufficiently close to the contact date, as it also covers secondary cases that are still in the latent phase of their disease progression. For the secondary cases, their r(t) is truncated on the day they are located, while transmission to tertiary cases could happen before that time. At an overall success rate q c , we assume infectees are traced down within a time window t trace since infection. The reduction of R E is then given by,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Contact tracing"
+        },
+        {
+            "text": "where we have used Eq. (S39). Expression for q S (t) is given in Supplementary Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 65,
+                    "end": 86,
+                    "text": "Supplementary Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Contact tracing"
+        },
+        {
+            "text": "Considering the dual-effects of mask-wearing in reducing both virus inhalation by susceptible individuals and exhalation by infectious individuals (including pre-symptomatic and asymptomatic groups), we calculated the reduction of transmission rate \u03b2 against mask efficacy and the percentage of the population wearing masks under a simplifying approximation. We assumed that there are COVID-19 positive (P) and negative (N) individuals. p m is the percentage of the population that wear masks: p mP for positive individuals and p mN for negative individuals. Here, e denotes the efficacy of masks measured by the percentage of virus trapped by the mask: from inhalation (e in , important for COVID-19 negative individuals) and exhalation (e ex , important for COVID-19 positive individuals). In the absence of masks, the rate of transmission by a positive individual contacting a negative individual is \u03b2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Therefore, the averaged chance of transmission is:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Supplementary Table 9 : Four types of encounters between a positive and a negative individual and reduction of the transmission rate \u03b2.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 21,
+                    "text": "Table 9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Prob. of contact type P wearing mask N wearing mask Chance of transmission p mP \u00b7 p mN Yes Yes",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Under the totally symmetric assumption e ex = e in = e, p mN = p mP = p m , the result becomes:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Note that this equation can be applied separately to pre-symptomatic and symptomatic transmission, with their own p m . In the numerical examples presented below and in the Main Text, we used the same p m for both types of transmission. In the more general case, the reduction of \u03b2 can be calculated when contributions of the two types to the total are known.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Supplementary Figure 4 : Estimation on the impact of mask-wearing on the transmission rate. a. Schematic representation on the dual-effects of masks in reducing \u03b2. b. Relationship between the factor multiplying \u03b2 (heatmap color) with the mask efficacy (x-axis) and the fraction of the population wearing masks (y-axis). Black lines show the contours for reducing \u03b2 to 0.75, 0.5, 0.27 of its original value.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 14,
+                    "end": 22,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "The above discussion shows, in a semi-quantitative way, that mask-wearing brings benefits to one-self if not infected but more importantly to others. Even with masks at a moderate efficacy of 50%, reduction of the transmission rate can be substantial when practiced by the whole population.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Previous research on influenza suggested that surgical mask reduces 70% of the viral aerosol shedding [14] . Also, WHO suggested that respiratory droplets (> 5 \u223c 10 \u00b5m in diameter) and contacts are the primary routes for COVID-19 to transmit between people [15] . Surgical mask reduces more than 90% of droplets in this size range [16] . However, general public may not be able to fully comply with the usage guidance of surgical masks. Therefore, in generating results in the Main Text, we take a simpler assumption that the efficacy of surgical masks is at 50%.",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 106,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 257,
+                    "end": 261,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 331,
+                    "end": 335,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Regarding potential concerns on the effectiveness of mask-wearing in reducing the epidemics, we provided additional references and descriptions in the following.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "In the laboratory setting, there is evidence that masks are able to filter in the relevant droplet size range for COVID-19, as well as efficacy in blocking droplets and particles from the wearer in a range higher or near the efficacy of 50% [17, 18] . For seasonal coronaviruses, surgical masks for source control were effective at blocking coronavirus droplets of all sizes for every subject [19] . Personal protection is more challenging than source control, since the inhaling particles are smaller. According to World Health Organisation's \"Advice on the use of masks in the context of COVID-19\" [20] , the penetration for surgical masks is 50%-60% , which is the range we used in our simplified model.",
+            "cite_spans": [
+                {
+                    "start": 241,
+                    "end": 245,
+                    "text": "[17,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 246,
+                    "end": 249,
+                    "text": "18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 393,
+                    "end": 397,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 600,
+                    "end": 604,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "There are already several experimental measurements on the efficacy of different types of masks against coronavirus, both as source control [19, 21, 22] and personal protection equipment [20, 23, 24] . In summary, there is laboratory-based evidence that surgical or N95 masks have satisfying filtration capacity in the relevant droplet size range of coronavirus. The experimental reports are included in the references.",
+            "cite_spans": [
+                {
+                    "start": 140,
+                    "end": 144,
+                    "text": "[19,",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 145,
+                    "end": 148,
+                    "text": "21,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 149,
+                    "end": 152,
+                    "text": "22]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 187,
+                    "end": 191,
+                    "text": "[20,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 192,
+                    "end": 195,
+                    "text": "23,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 196,
+                    "end": 199,
+                    "text": "24]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Several recent modelling works focusing on the effect of population-wide mask-wearing converge to similar conclusions that masks of intermediate filtering efficacy exhibit aggregate effect at the population level. For example, in the work of Stutt et al. [25] , they found that with a policy that all individuals must wear a mask all of the time, a median effective COVID-19 R E of below 1 could be reached, even with mask effectiveness of 50% (for R E = 2.2) or mask effectiveness of 75% (for R E = 4). Similarly, models from Kai et al. [26] estimated that 80-90% masking would eventually eliminate the disease. Work from Fisman et al. [27] also showed similar results.",
+            "cite_spans": [
+                {
+                    "start": 255,
+                    "end": 259,
+                    "text": "[25]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 538,
+                    "end": 542,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 637,
+                    "end": 641,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "We particularly considered the situation that the filtering efficacy of masks being relatively low, and asked whether masks with intermediate efficacy in personal protection (for example, only filtering 50% of viruses) can have an aggregate effect when applied on a populationwide scale. In Supplementary Figure 4 , masks with different filtering efficacy are considered. The results show that even masks only trapping 20% of the virus can bring a significant impact when generally adopted by the population. Also, in the model shown in http://www.zhiyuanlab.xyz/MASK 0906.html, more details related to the effect of populationwide mask-wearing were considered, such as infections relying on non-respiratory routes, and the different filtering efficacies for masks as source control and personal protection.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 291,
+                    "end": 313,
+                    "text": "Supplementary Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Last but not least, via comparing cases in German regions with and without masks and weighing various estimates, Mitze et al. [28] concluded that 20 days after becoming mandatory face masks had reduced the number of new infections by around 45%, with economic costs close to zero compared to other public health measures.",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 130,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mask wearing"
+        },
+        {
+            "text": "Border control measures can effectively stop imported cases of viral carriers. To examine the time needed for their effect to take place, let us first consider growth driven by imported cases when unchecked. Under a daily flux J ext (T ) of imported cases into the phase A 1 , Eq. (S3) is modified to,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Solution with imported cases"
+        },
+        {
+            "text": "Consider a simple situation where the imported cases grow exponentially with a rate \u03bb, i.e. J ext (T ) = J I e \u03bb I (T \u2212T 0 ) . Let's seek an exponentially growing solution where the local population is driven by the imported cases (i.e., the local growth rate in the absence of imported cases is less than \u03bb I ),",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Solution with imported cases"
+        },
+        {
+            "text": ".",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Solution with imported cases"
+        },
+        {
+            "text": "In many cases, the ratio of imported and local infections is known. Equation (S51) can then be used to calibrate the level of local transmission when the imported cases grow exponentially at a rate greater than the one given in Supplementary Table 2 for local outbreaks.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 242,
+                    "end": 249,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "The fraction of local infections after the initial transient is given by,"
+        },
+        {
+            "text": "We consider here a situation where the disease transmission rate per infected individual in a given community gradually weakens according to the schedule,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Crossover behaviour under linear transmission reduction"
+        },
+        {
+            "text": "Here T i is the starting date of the intervention and \u03c4 is the duration of the crossover period. For T < T i and T > T i + \u03c4 , \u03b7(T ) is equal to 1 and \u03b7 1 , respectively. For sufficiently slow variation of \u03b7(T ), i.e., \u03c4 is significantly greater than the width of the infectiousness peak which lasts for 2-3 days, we may take the \"adiabatic approximation\" R E (T ) \u03b7(T )R 0 . Equation (S2) then takes the form, The situation represented by blue and red curves is initially driven by imported cases whose number grows exponentially at a rate \u03bb 0 = 0.2/day prior to the lockdown, with an amplitude that decreases linearly and vanishes on the 10th day after the lockdown. No imported cases were introduced to generate the black curve. Taken at face value, our model can reproduce fast or slow crossovers seen in the data from various provinces of China. On the scale of tens of millions of people, Eq. (S52) can only be considered as representing an aggregated trend helped by the linear nature of the model. As the epidemic spreads into disparate communities, there could be huge variations in the level of transmission from community to community, particularly as the policies tighten. Occasional outbreaks are evident from the scattered data in the declining phase of the pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Crossover behaviour under linear transmission reduction"
+        },
+        {
+            "text": "The situation on the cruise ship Diamond Princess is close to a sudden complete confinement of the passengers. Such a scenario is described by the schedule function",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homestay"
+        },
+        {
+            "text": "Under the Markovian approximations introduced in Sec. 3.2, the change over from exponential growth to exponential decay can be solved analytically. Take A 1 (T ) = A 0 e \u03bb 0 (T \u2212T i ) for T < T i , we may rewrite Eq. (S52) as,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homestay"
+        },
+        {
+            "text": "where",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homestay"
+        },
+        {
+            "text": "Performing the Laplace transform of Eq. (S53) with",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homestay"
+        },
+        {
+            "text": "whereS",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homestay"
+        },
+        {
+            "text": "Under the Markov approximation Eq. (S43), we hav\u1ebd",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homestay"
+        },
+        {
+            "text": "Consequently,\u00c3",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homestay"
+        },
+        {
+            "text": "Carrying out the inverse Laplace transform of Eq. (S55), we obtain",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homestay"
+        },
+        {
+            "text": "Here,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Homestay"
+        },
+        {
+            "text": "Note thatr(\u03bb 0 ) = 1 according to Eq. (S10). Figure 6 , where we assumed the \"daily confirmed\" cases to be proportional to A 1 (T ). Note that the duration of the crossover is set by \u03b1 \u22121 L 3 days for the parameters chosen. At \u03b7 1 = 1 (no homestay order), we have \u03bb + = \u03bb 0 and B + = 1, as can be verified from the expressions given above. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 45,
+                    "end": 53,
+                    "text": "Figure 6",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Homestay"
+        },
+        {
+            "text": "The reported COVID-19 infection cases in various countries and regions typically show exponential growth with time during the initial outbreak of the disease. The growth rate \u03bb is of great interest not only to epidemiologists, but also to the general public. In theory, \u03bb can be determined by fitting the cumulative number of confirmed cases to an exponential function of time (days). However, when the number of cases is small, growth tends to be affected by chance events (e.g., super-spreaders) and also by family cases where the transmission pattern can be quite different from that of typical social contacts. Furthermore, it may be dominated by imported cases which do not reflect much of the spreading characteristics in the local community. Therefore caution is required in using the data to extract the epidemic growth rate which itself may vary with time due to the mitigation and intervention measures introduced.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of exponential growth rates during initial outbreaks"
+        },
+        {
+            "text": "In their study of epidemic data for dengue fever in Brazil, Favier et al. [29] proposed to plot the daily new cases \u2206N against the cumulative confirmed cases N (T ) and to fit the data with a linear function to determine \u03bb. For perfect exponential growth, we have",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 78,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Estimation of exponential growth rates during initial outbreaks"
+        },
+        {
+            "text": "where \u2206T = 1 day. Therefore the slope of the scatter plot \u2206N (T ) against N (T ) can be used to estimate \u03bb. The next step is to determine the interval over which the fitting is carried out. Following the work by Favier et al., we performed linear fits of \u2206N (T ) against N (T ), each time using one more data point, through which we obtain the slope and goodness-of-fit of these linear regressions as a function of cumulative number of confirmed cases. Then considering the 80th percentile of the slopes left to the minimum goodness-of-fit with goodness-of-fit smaller than 0.5 as the exponential phase, we obtain an estimate of the growth rate. The data and fitted linear functions are shown in Supplementary Figure 7 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 696,
+                    "end": 718,
+                    "text": "Supplementary Figure 7",
+                    "ref_id": "FIGREF8"
+                }
+            ],
+            "section": "Estimation of exponential growth rates during initial outbreaks"
+        },
+        {
+            "text": "In Supplementary Table 10 , we collect the estimated growth rates using the above scheme, along with the statistics of the linear regression (R-squared and p-value for the F-test) and also the total case number in the exponential growth phase for different countries/regions. Where applicable, the estimated values are in good agreement with the location of the plateaus in Main Text Figure 6d . Given the many technical issues involved, we prefer not to include this particular analysis in the Main Text but instead have made revisions to the effect that the epidemic growth rate generally varied from place to place.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 3,
+                    "end": 25,
+                    "text": "Supplementary Table 10",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 384,
+                    "end": 393,
+                    "text": "Figure 6d",
+                    "ref_id": "FIGREF7"
+                }
+            ],
+            "section": "Estimation of exponential growth rates during initial outbreaks"
+        },
+        {
+            "text": "Solving for \u03bb in Eq. (S57), we obtain,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Estimation of exponential growth rates during initial outbreaks"
+        },
+        {
+            "text": "Therefore we may also think of the above procedure as computing the instantaneous growth rates from the ln N (T ) against T curve, with \u2206T chosen suitably to minimize irregularities in testing and reporting. Given the mean incubation period of about 6 days for COVID-19, \u03bb(T ) is expected to be a slow-varying quantity with a typical timescale of a week or longer. Five examples of \u03bb(T ) versus N (T ) during the initial local outbreaks are given in Main Text Figure  6d of the Main Text. Reasonably good agreement is seen between the plateau value of \u03bb(T ) and the growth rates listed in Supplementary Table 10 in four of the five countries, with the exception of Italy, where the substantially lower value of 0.26/day in the table corresponds to the second plateau shown in Main Text Figure 6d . Provincial epidemic growth in China after the Wuhan lockdown has a large component of imported cases. The epidemic development in the Hubei province, on the other hand, is subject to swift intervention and containment measures such as isolation of patients in Fangcang hospitals [30] . The situation in South Korea is also special due to a well-documented outbreak in Daegu in the second half of February [31] . Therefore the growth rates listed in Supplementary Table 10 in these locations need to be interpreted differently. Table 10 : Estimated exponential growth rate \u03bb, linear regression statistics (coefficient of determination R 2 and p-value for the one-sided F -test), and total case number in exponential growth phase since January 23, 2020 for different countries/regions, following the scheme of Favier et al. [29] . The calculated mean reproduction number R E is also shown (95% confidence interval shown in parentheses). ",
+            "cite_spans": [
+                {
+                    "start": 1077,
+                    "end": 1081,
+                    "text": "[30]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1203,
+                    "end": 1207,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 1620,
+                    "end": 1624,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 460,
+                    "end": 470,
+                    "text": "Figure  6d",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 589,
+                    "end": 611,
+                    "text": "Supplementary Table 10",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 786,
+                    "end": 795,
+                    "text": "Figure 6d",
+                    "ref_id": "FIGREF7"
+                },
+                {
+                    "start": 1325,
+                    "end": 1333,
+                    "text": "Table 10",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Estimation of exponential growth rates during initial outbreaks"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "A contribution to the mathematical theory of epidemics",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Kermack",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mckendrick",
+                    "suffix": ""
+                }
+            ],
+            "year": 1927,
+            "venue": "Proc R Soc Lond A",
+            "volume": "115",
+            "issn": "",
+            "pages": "700--721",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "On the definition and the computation of the basic reproduction ratio R 0 in models for infectious diseases in heterogeneous populations",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Diekmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A P"
+                    ],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A J"
+                    ],
+                    "last": "Metz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J Math Biol",
+            "volume": "28",
+            "issn": "",
+            "pages": "365--382",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The concept of R 0 in epidemic theory",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A P"
+                    ],
+                    "last": "Heesterbeek",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dietz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1996,
+            "venue": "Statistica Neerlandica",
+            "volume": "50",
+            "issn": "",
+            "pages": "89--110",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "On the formulation of epidemic models (an appraisal of Kermack and McKendrick)",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Breda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Biol Dyn",
+            "volume": "6",
+            "issn": "",
+            "pages": "103--117",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "How generation intervals shape the relationship between growth rates and reproductive numbers",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wallinga",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Proc R Soc B Biol Sci",
+            "volume": "274",
+            "issn": "",
+            "pages": "599--604",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Estimate the incubation period of coronavirus",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Men",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.02.24.20027474"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Transmission of corona virus disease 2019 during the incubation period may lead to a quarantine loophole",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Epidemiology and transmission of COVID-19 in 391 cases and 1286 of their close contacts in Shenzhen, China: a retrospective cohort study",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "",
+            "pages": "911--919",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Estimating incubation period distributions with coarse data",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Reich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Stat Med",
+            "volume": "28",
+            "issn": "",
+            "pages": "2769--2784",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Serial Interval of COVID-19 among Publicly Reported Confirmed Cases Emerg Infect Dis",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "26",
+            "issn": "",
+            "pages": "1341--1343",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Reconstruction of transmission pairs for novel coronavirus disease 2019 (COVID-19) in mainland China: estimation of super-spreading events, serial interval, and hazard of infection",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa790"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Temporal dynamics in viral shedding and transmissibility of COVID-19",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "672--675",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Serial interval of SARS-CoV-2 was shortened over time by nonpharmaceutical interventions",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "369",
+            "issn": "",
+            "pages": "1106--1109",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Influenza virus aerosols in human exhaled breath: particle size, culturability, and effect of surgical masks",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Milton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Pathog",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Modes of transmission of virus causing COVID-19: implications for IPC precaution recommendations",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Standard Test Method for Evaluating the Bacterial Filtration Efficiency (BFE) of Medical Face Mask Materials, Using a Biological Aerosol of Staphylococcus aureus",
+            "authors": [],
+            "year": 2019,
+            "venue": "ASTM F2101-19",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Reducing transmission of SARS-COV-2",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Prather",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Schooley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "1422--1424",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The role of particle size in aerosolised pathogen transmission: a review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gralton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Infect",
+            "volume": "62",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Respiratory virus shedding in exhaled breath and efficacy of face masks",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Med",
+            "volume": "26",
+            "issn": "",
+            "pages": "676--680",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Advice on the use of masks in the context of COVID-19 -interim guidance",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Surgical mask partition reduces the risk of non-contact transmission in a golden syrian hamster model for coronavirus disease 2019 (covid-19)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": ".-W",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa644"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Face coverings, aerosol dispersion and mitigation of virus transmission risk",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Viola",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2005.10720"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Comparison of filtration efficiency and pressure drop in anti-yellow sand masks, quarantine masks, medical masks, general masks, and handkerchiefs",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Aerosol Air Qual Res",
+            "volume": "14",
+            "issn": "",
+            "pages": "991--1002",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Visualizing the effectiveness of face masks in obstructing respiratory jets",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Verma",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dhanak",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Frankenfield",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Phys Fluids",
+            "volume": "32",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Modelling framework to assess the likely effectiveness of facemasks in combination with lock-down in managing the covid-19 pandemic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Stutt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc Royal Soc A",
+            "volume": "476",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Universal masking is urgent in the covid-19 pandemic: SEIR and agent based models, empirical validation, policy recommendations",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2004.13553"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Brief research report: Bidirectional impact of imperfect mask use on reproduction number of covid-19: A next generation matrix approach",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Fisman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Greer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tuite",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect Dis Model",
+            "volume": "5",
+            "issn": "",
+            "pages": "405--408",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Face masks considerably reduce COVID-19 cases in Germany",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mitze",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kosfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rode",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "W\u00e4lde",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc Natl Acad Sci U S A",
+            "volume": "117",
+            "issn": "",
+            "pages": "32293--32301",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Early determination of the reproductive number for vector-borne diseases: the case of dengue in Brazil",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Favier",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Trop Med Int Health",
+            "volume": "5",
+            "issn": "",
+            "pages": "332--340",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Fangcang shelter hospitals: a novel concept for responding to public health emergencies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "1305--1319",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Transmission potential and severity of COVID-19 in South Korea",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Shim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "93",
+            "issn": "",
+            "pages": "339--344",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "model and governing equations . . . . . . . . . . . . . . . . . . . . . . . . . 3 1.2 Disease progression and symptom onset time . . . . . . . . . . . . . . . . . . . . 5 1.3 Exponential growth/decay . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 1.4 Percentage of subpopulations during exponential growth . . . . . . . . . . . . . onset time distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "J L (T ) = J L (T 0 )e \u03bb(T \u2212T 0 ) be the flux of newly infected individuals. The population size in each phase can be expressed as Laplace transforms of expressions in Supplementary",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Results for p O (t) so estimated are shown as the grey lines in Main Text Figure 2a.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "2, each transmission pair i is associated with an exposure window W i = [Wl i , Wu i ], where Wl i and Wu i are integers that together specify an exposure window around the symptom onset of the infector (see Supplementary Figure 2). Supplementary Figure 2: Temporal events in a pairwise disease transmission. The index patient i transmits the virus to infectee j within an exposure window measured from the symptom onset of patient i. The two symptom onsets are indicated by black bars along the time axis, while the actual transmission event is indicated by the red bar. t SI is the serial interval, t O,j is the incubation period of infectee j. \u2206t is the time difference between the transmission event and the symptom onset of infector i, which can be either negative (pre-symptomatic transmission) or positive (post-symptomatic transmission). Wl i and Wu i are the left and right bounds of the exposure window, w.r.t the symptom onset of infector i.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Main Text Figure 2c, we show the calculated serial interval distribution (red line) using Eq. (S33) and the estimated p O (t) [Eq. (S16) at t e = 6] and p I (\u2206t) [Eq. (S25), with t replaced by \u2206t], with the parameter values given in Supplementary Tables 3 and 5 and",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "are greater than 0.4 day \u22121 , we see that the long-time tails of the incubation period p O (t) and the serial interval distribution p SI (t) (Main Text Figure 2c) can be attributed to the long-time tail of the latent phase. Non-Markovian exit rates from the latent phase. a. Probability of an individual to remain in the latent phase on day t since infection. b. Rate to exit from the latent phase against t. The curves are computed numerically from the equation for q L (t) given in Supplementary",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Simulation of the number of daily confirmed cases with a linear decay of transmission per infected individual. The number of daily confirmed cases in Hubei, Guangdong and China (excluding Hubei) are re-plotted for comparison. Note that the lockdown in Wuhan was started on the date Jan 23. Cluster infections result in occasional bursts in the time series which are not modeled in this work. The time shown in the legend corresponds to the value of \u03c4 in each case. We used Eq. (S52) to simulate the epidemic development curves in China after the Wuhan lockdown (Main Text Figures 4a and 4b), taking \u03b7 1 = 0. The starting time of the social distancing policy T i is chosen to be one week after the lockdown. The blue, red and black curves in Supplementary Figure 5 correspond to three different values of \u03c4 given in the legend.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "Simulation of daily confirmed infections under a sudden reduction of R E . The epidemic initially grows at a rate \u03bb 0 = 0.3/day before the jump, corresponding to R E = R 0 = 3.8. Different curves correspond to different values of R 1 = \u03b7 1 R 0 under the new policy that starts on day T = T i . Here \u03b1 L = 0.3/day, \u03b1 A,eff = 0.5/day.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "Linear regression of the number of daily confirmed cases as a function of the cumulative number of confirmed cases in the beginning of the COVID-19 pandemic in selected countries/regions.Supplementary",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "1.1 Hybrid log-normal distribution with an exponential tail . . . . . . . . . . 8 2.1.2 Hybrid Weibull distribution with an exponential tail . . . . . . . . . . . . 9 2.1.3 Uncertainty analysis through bootstrap re-sampling . . . . . . . . . . . . 10 2.2 Transmission characteristics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 2.2.1 Infectiousness around symptom onset . . . . . . . . . . . . . . . . . . . . 10 2.2.2 A conglomerate of two exponential wings . . . . . . . . . . . . . . . . . . 11 2.2.3 Exponential wings with a flat cap . . . . . . . . . . . . . . . . . . . . . . . 12 2.2.4 Exponential wings with a smooth cap . . . . . . . . . . . . . . . . . . . . 12 2.2.5 Uncertainty analysis through bootstrap re-sampling . . . . . . . . . . . . 13",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Probabilities for an individual to be in each of the disease phases on day t since infection.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Maximum likelihood estimation of the parameters in Eq. (S25) with 1000 bootstrap re-samplings (95% confidence interval shown in parentheses).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Maximum likelihood estimation of parameters in Eq. (S27).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Maximum likelihood estimation of parameters in Eq. (S30).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": ".",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "using the estimated incubation period distribution p O (t) of this section (black: hybrid log-normal distribution; red: hybrid Weibull distribution). Values for \u03b1 A and \u03b8 P are given inSupplementary Table 5.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF9": {
+            "text": "Mean reproduction number from day t onward since infection.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

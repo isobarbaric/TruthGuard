@@ -1,0 +1,4567 @@
+{
+    "paper_id": "2789e5c4c8f81f3fe2b7d8de4a4352ca1517a47c",
+    "metadata": {
+        "title": "Nanoconjugates-Based Stem Cell Therapy for the Management of COVID-19",
+        "authors": [
+            {
+                "first": "Drashti",
+                "middle": [],
+                "last": "Desai",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Pravin",
+                "middle": [],
+                "last": "Shende",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "A potential ability of stem cells (SCs) is to regenerate and repair tissues in the human body by providing great prospects for therapeutic applications in the field of medicine. Currently, SC therapy is used in various conditions like diabetes, neurodegenerative disorders, etc. but faces some limitations like patient biocompatibility and chances of cross-infection. SCs are further modulated with nanoconjugates to overcome such challenges and will offer an advantage in the treatment of COVID-19. This pandemic requires design and development of proper treatment to save the life of human beings. Advancements in SC-based nanoconjugated therapy will open new avenues and create a significant impact in the development of futuristic nanomedicine. It may also emerge as a potential therapy for the management of infection in patients suffering from SARS-CoV-2 and related diseases such as pneumonia and virus-induced lung injuries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The whole world is facing the problem of corona virus infection, caused by the severe acute respiratory syndrome corona virus 2 (SARS-CoV-2), also known as COVID- 19 . Approximately, 40 million cases are reported till October 2020 worldwide due to this pandemic but still there is no reliable treatment or therapy. Thus, the countries around the world are enforcing social distancing and lockdown to prevent and impede the spread of this disease [1, 2] .",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 165,
+                    "text": "19",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 446,
+                    "end": 449,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 450,
+                    "end": 452,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Scientists around the world are engaged in drug discovery whereas healthcare professionals are providing symptomatic treatment with the help of conventional dosage forms like tablets, capsules and parenteral for cold, cough and fever using antibiotics, anti-inflammatory and antiviral agents like macrolides, steroids, etc. The drug delivery to the targeted organ is necessary with immediate action to stop the damage of lungs and reduce the rate of mortality. Hence, novel drug delivery is implemented in the form of plasma therapy as an alternative treatment for the management of COVID-19. Bioengineered nanomaterials in the form of stem cell (SC)based nanoconjugated therapy will be considered as an innovative approach to fight against COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The impact of SC therapy showed a significant role in various conditions like diabetes, neurodegenerative and cardiovascular-related disorders and is considered as a future of medicine in the fields of biotechnology and drug delivery. These human generic cells are capable of self-replication and differentiation to produce specialized functions by replacing the damage or dysfunctional cells [3, 4] . SCs are obtained from various sources like umbilical cord blood, bone marrow, amniotic fluid, allografts and adipose tissue [5] [6] [7] [8] . The hematopoietic cells are further cultivated and differentiated to obtain different blood cells like B-cells, T-cells, platelets, etc. as shown in Fig. 1 .",
+            "cite_spans": [
+                {
+                    "start": 393,
+                    "end": 396,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 397,
+                    "end": 399,
+                    "text": "4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 526,
+                    "end": 529,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 530,
+                    "end": 533,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 534,
+                    "end": 537,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 538,
+                    "end": 541,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 693,
+                    "end": 699,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "SC Therapy"
+        },
+        {
+            "text": "In 2006, SC therapy took a turning point when adult SCs were reprogrammed to the pluripotent state for patient customization and biocompatibility. This opened new avenues in the medical field for SC transplantation, arthroplasty, rejuvenation by cell programming, tissue regeneration, neurodegenerative diseases, etc.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SC Therapy"
+        },
+        {
+            "text": "Mesenchymal SCs provide antibacterial activity in acute infective models against gram-negative bacilli whereas, in animal models with septic complications and better survival rates. Affected patients by sepsis and acute respiratory distress syndrome in intensive care showed effective action by treating with mesenchymal SCs. It was observed to be effective against wound bacterium like S. aureus with enhanced wound healing action due to enhancement of neutrophils and bacterial phagocytosis [9] [10] [11] [12] .",
+            "cite_spans": [
+                {
+                    "start": 493,
+                    "end": 496,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 497,
+                    "end": 501,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 502,
+                    "end": 506,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 507,
+                    "end": 511,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SCs in Bacterial Infections"
+        },
+        {
+            "text": "Mesenchymal SCs are used as a vehicle for drug delivery against microbial infections and showed better effectiveness and inhibition of drug resistance compared to conventional antimicrobial agents. They are considered as a novel therapy for the treatment of autoimmune diseases due to their influence on antimicrobial immunity. The growth of Candida albicans is inhibited by mesenchymal SCs as it contains IL-17+ subset and protection against Mycobacterium tuberculosis by the presence of CD 271+ in the SCs. Animal studies showed mesenchymal SCs were effective against malaria as it improved liver functioning and stimulated regeneration of hepatic cells in the patients suffering from hepatic fibrosis. Potential therapeutic treatment using mesenchymal SCs is considered as an effective alternative against cystic fibrosis by antimicrobial peptide LL-37 secretion to impact for antimicrobial potency [13, 14] .",
+            "cite_spans": [
+                {
+                    "start": 902,
+                    "end": 906,
+                    "text": "[13,",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 907,
+                    "end": 910,
+                    "text": "14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SCs in Microbial Infections"
+        },
+        {
+            "text": "Mesenchymal SCs are useful in treating various viral infections like Coxsackie virus B 3 , hepatitis B virus, influenza virus, human immunodeficiency virus, etc. SCs fight against viruses by specific gene expression like interferons, help in inflammation reduction and improve the immune system. Similar functions of SCs are used for the management of corona virus due to their immunomodulatory and reconstruction properties leading to the inhibition of infected lung tissue [15] [16] [17] [18] [19] .",
+            "cite_spans": [
+                {
+                    "start": 475,
+                    "end": 479,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 480,
+                    "end": 484,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 485,
+                    "end": 489,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 490,
+                    "end": 494,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 495,
+                    "end": 499,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SCs in Viral Infections"
+        },
+        {
+            "text": "SC therapy possesses diverse applications in healthcare but sometimes it shows limitations due to patient incompatibility, graft rejections, availability, epigenetic change or chromosomal abnormalities, prevention from contamination, cell differentiation, teratoma formation, administration of type and quantity of cells and maintenance of pluripotency. To overcome these issues, several methods are developed to culture and store the cells appropriately by modifying the growth factors and proteins, contactless feeder layer, somatic cell nuclear transfer establishment. Moreover, ethical approval for final formulation is a major challenge for implementation and use of SC therapy in the management and treatment of the diseases [20] .",
+            "cite_spans": [
+                {
+                    "start": 731,
+                    "end": 735,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SCs in Viral Infections"
+        },
+        {
+            "text": "The pathogen SARS-CoV-2 was confirmed by World Health Organization (WHO) and named the disease caused by the virus as COVID-19 which led to serious social, economic and psychological issues. Generally, COVID-19 consists of approximately 3000 nucleotides encoding clove-shaped spike protein, envelope protein, membrane protein, nucleocapsid protein and single-stranded RNA present on the inner capsid of the structure as shown in Fig. 2a . The main routes for the transmission were found to be respiratory droplet, physical contact as well as mother-to-infant transmission. There are asymptomatic clinical manifestations or symptomatic conditions like dry cough, fatigue, loss of taste and fever whereas few patients experience sore throat, running nose, abdominal and gastrointestinal discomfort [21] . The routes of transmission, common symptoms, prevention, safety and treatment of COVID-19 are shown in Fig. 2b . Infected individual organs especially cause liver function abnormality due to bile duct cell disruption and hepatocytes impairment. Major population face pneumonia infection with dysfunction in oxygen supply due to abnormalities in lung which created a need for large numbers of ventilators globally. This infection further leads to respiratory tract inflammation and organ failure resulting to death among severely affected patients with low immunity.",
+            "cite_spans": [
+                {
+                    "start": 796,
+                    "end": 800,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 429,
+                    "end": 436,
+                    "text": "Fig. 2a",
+                    "ref_id": null
+                },
+                {
+                    "start": 906,
+                    "end": 913,
+                    "text": "Fig. 2b",
+                    "ref_id": null
+                }
+            ],
+            "section": "Corona Virus"
+        },
+        {
+            "text": "To enter into the host cell, SAR-CoV-2 possesses densely arranged trimeric class I glycosylate spike protein to undergo rearrangement during fusion process with the host membrane. This is an important function representing the guidance for vaccine development as an antibody-mediated neutralization of the target [22, 23] . A receptor S protein found in SARS-CoV-2 is angiotensin-converting-enzyme-2 (ACE2) binds to the infected host for facilitating the invasion of a virus into the host cell causing human-to-human transmission [24, 25] . Distribution of ACE2 on the alveolar epithelial cell surface supports cell penetration of the foreign body. In children, these enzymes are imperfectly developed resulting in low susceptibility for SARS-CoV-2. Children with a low level of adaptive immune response are prone to COVID-19 infection due to inadequate development of innate immunity.",
+            "cite_spans": [
+                {
+                    "start": 313,
+                    "end": 317,
+                    "text": "[22,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 318,
+                    "end": 321,
+                    "text": "23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 530,
+                    "end": 534,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 535,
+                    "end": 538,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Corona Virus"
+        },
+        {
+            "text": "Spike protein binds to ACE2 with greater affinity than SARS to enable easy spread among the population. The nucleocapsid protein binds with the terminal end of the drug, thus preventing the replication of RNA and transcription (Fig. 3) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 227,
+                    "end": 235,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Corona Virus"
+        },
+        {
+            "text": "The virus enters into the body by attaching the spike protein to the ACE2 receptor exclusively present in the lungs. This protein undergoes proteolytic cleavage by enzymes (proteases like trypsin and furin) present in the host to release a fusion peptide for membrane activation or endocytosis. The viral genome is released from the ribosomes causing conformational changes in the spike protein followed by proteolysis of cathepsin L for virus opening into the cytoplasm and uncoating the nucleocapsid for endogenous protein hydrolysis. The viral polymerase reaction takes place in host receptor with the help of binding mechanism where host proteases cleave the spike protein to form single-stranded RNA and release it into the cytoplasm for replication and transcription of subgenomic proteins. Such proteins like spike envelope and membrane proteins translate in the Endoplasmic Reticulum (ER) and later transferred to the intermediate compartment (ER-Golgi) to initiate the process of maturation. These subgenomic proteins bind to the nucleocapsid within the intermediate compartment in the cytoplasm to self-assemble into the newer form of matured virions inside the Golgi vesicle for exocytosis to infect other cells [26] .",
+            "cite_spans": [
+                {
+                    "start": 1223,
+                    "end": 1227,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Corona Virus"
+        },
+        {
+            "text": "Many agents especially antiviral drugs and monoclonal antibodies showed positive response for symptomatic and asymptomatic CoV disease. Drugs like chloroquine and theophylline are proved as a potential RNA binding inhibitor by preventing N-terminal nucleocapsid protein in contact with the RNA strand [27] [28] [29] [30] . SARS-CoV-2 replication is inhibited by: 1) antiviral drugs via ACE2 receptor attachment to prevent viral polymerase protein translation and 2) monoclonal antibodies by binding to Vascular Endothelial Growth Factor (VEGF) for inhibition of angiogenesis.",
+            "cite_spans": [
+                {
+                    "start": 301,
+                    "end": 305,
+                    "text": "[27]",
+                    "ref_id": null
+                },
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 311,
+                    "end": 315,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 316,
+                    "end": 320,
+                    "text": "[30]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Corona Virus"
+        },
+        {
+            "text": "Though many drugs (remdesvir, fapinavir, etc.) and immunity boosters (vitamin C, zinc, etc.) are found to be useful in SARS-CoV-2 infection, scientists are working to develop effective management and treatment using vaccine and plasma therapy for complete eradication of COVID-19. Nanoparticulatebased therapy conjugated with SCs show the potential to emerge as a curative measure in the treatment of corona virus infection.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Corona Virus"
+        },
+        {
+            "text": "Conjugated nanoparticles display immense interest in the diagnosis and drug delivery using the concepts of cell engineering, genetic modification and functionalization for cellular targeting. Nanoconjugates (NCs) are found effective in cardiovascular diseases, autoimmune disorders, cancer, etc. by promoting Nk-cells and stimulating T cell [31] . Polymers, metals, enzymes or bioconjugates are widely used in various therapies for treating cancer, diabetes, CNS disorders and acted as a regenerative medicine [32] [33] [34] [35] . NC is widely explored in the field of biomedicine to improve therapeutic efficacy as well as drug delivery but SCs on conjugation with nanoparticles show better bioavailability, higher drug loading capacity and lower drug resistance. NCs are the complex structures of actives in the form of nanocarriers like nanosponges, nanobubbles, nanoflowers, etc. for sitespecific therapeutic action in the prolonged fashion [36] [37] [38] . Some commonly used nanomaterials for drug delivery in the class of nanomedicine are shown in Table 1 .",
+            "cite_spans": [
+                {
+                    "start": 341,
+                    "end": 345,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 510,
+                    "end": 514,
+                    "text": "[32]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 515,
+                    "end": 519,
+                    "text": "[33]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 520,
+                    "end": 524,
+                    "text": "[34]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 525,
+                    "end": 529,
+                    "text": "[35]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 946,
+                    "end": 950,
+                    "text": "[36]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 951,
+                    "end": 955,
+                    "text": "[37]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 956,
+                    "end": 960,
+                    "text": "[38]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1056,
+                    "end": 1063,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "SC-Based Nanoconjugate Therapy"
+        },
+        {
+            "text": "SC-based nanotechnology is an interdisciplinary field useful in drug delivery systems for tissue engineering, antiviral and antibacterial actions, etc. Polymeric nanoparticles, liposomes and dendrimers are widely used for transporting the non-viral vectors and improving the efficacy of gene delivery. Drug encapsulation and modulation of controlled or targeted drug/gene therapy were observed due to the alteration in SC properties by adding polymer-or lipid-based materials. SC metallic nanoparticles act as nanobiosensors on functionalization with DNA, peptides, receptors, etc. in biomedical engineering [49] . Invivo reconstitution of embryonic SC nanoparticles show therapeutic action for degenerative diseases like Parkinsonism, Alzheimer's disease, depression, etc. and regulation of genetic conditions. Carbon nanotubes, nanowires and nanofibers emerge as a potential nanovehicle for the development and delivery of biomolecules to mesenchymal SCs to create novel electroactive for biomedical and bioengineering applications. Antibiotics loaded with adipose-derived, bone marrow-derived or mesenchymal SCs showed effective antibacterial and antimicrobial activities against drug-resistant infections in the cases of cancer, cardiac complications, etc. [50] Use of silver nanoparticles altered the embryonic SC structure and displayed antimicrobial effect due to the overproduction of Reactive Oxygen Species (ROS) [51] . SC-based nanoparticles inhibit the replication of viruses by inactivating their attachment to the host cells. Nanoparticles showed antiviral effects against various viruses like lentivirus, dengue virus, human papilloma virus, etc. SCcoated to nanoparticles like nanoflowers, quantum dots, Table 2 depicts some important applications in the field of biomedical sciences.",
+            "cite_spans": [
+                {
+                    "start": 608,
+                    "end": 612,
+                    "text": "[49]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1261,
+                    "end": 1265,
+                    "text": "[50]",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1423,
+                    "end": 1427,
+                    "text": "[51]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1720,
+                    "end": 1727,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "SC-Based Nanoconjugate Therapy"
+        },
+        {
+            "text": "SC-based NCs are considered as a promising hybrid nanostructure in lung injury and now employed in the treatment of SARS-CoV-2 using nasal spray. This formulation showed promising delivery to the targeted cells with better stability and biocompatibility in comparison to SCs [58, 59] . Acute lung injury is caused by many viruses like influenza, CoV, respiratory syncytial virus, etc. and further leads to respiratory failure. Several therapeutic agents like ribavirin, foscarnet, zanamivir, remdesvir, etc. are identified to restrict the entry in the cell culture or replication of virus, however, complete recovery depends on the patient resistance [60] [61] [62] .",
+            "cite_spans": [
+                {
+                    "start": 275,
+                    "end": 279,
+                    "text": "[58,",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 280,
+                    "end": 283,
+                    "text": "59]",
+                    "ref_id": "BIBREF59"
+                },
+                {
+                    "start": 651,
+                    "end": 655,
+                    "text": "[60]",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 656,
+                    "end": 660,
+                    "text": "[61]",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 661,
+                    "end": 665,
+                    "text": "[62]",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [],
+            "section": "SC-Based NC Therapy in COVID-19"
+        },
+        {
+            "text": "Recovery of pulmonary environment in a shorter time is due to the entrapment of mesenchymal SC in lungs by reducing edema and fibrosis. These applications of mesenchymal SC promote neovascularization and consider as a therapeutic",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SC-Based NC Therapy in COVID-19"
+        },
+        {
+            "text": "Translation of viral structural proteins Drug and gene delivery systems [48] solution for lung dysfunctions. Use of mesenchymal SC showed beneficial effects in inflammatory lung disorders, considering similar mechanism in SARS-CoV2 immunopathogenesis displayed therapeutic potential in the management of this pandemic. The major application of mesenchymal SC is utilized to regulate the inflammatory response and immunological tolerance against antigens for betterment of pulmonary functionality [63, 64] . Mesenchymal SC-based therapy prevents the cytokines release from the immune system, lowers C-reactive protein level and enhances the recovery of epithelial and endothelial cells. Further, these cells secrete keratinocyte growth factor and angiopoietin-1 to promote microbial and alveolar fluid clearance and revival of infected lungs. This shows a potential treatment for virus-induced respiratory distress in adults. Moreover, SARS-CoV-2 uses ACE2 receptor to enter into cells but shows resistance to the infection due to its absence in the mesenchymal SC. In case of corona virus infected patients, SCs are beneficial due to their antioxidant, immunomodulatory and self-reparatory actions from extracellular vesicles. To attenuate lung edema development, anti-inflammatory and immunomodulatory models were used by stabilizing endothelial fluid leakage [65] [66] [67] [68] [69] [70] . Different cell models of alveolar and lung epithelial cells were studied to confirm the biological effect against influenza virus using various mechanisms by inhibiting CD8+ T-cells, restoring alveolar fluid and enhancing alveolar protein permeation [71] [72] [73] . The variations in the results remain unclear due to the implementation of different approaches like administration route of SCs, host age and disease history and inflammatory patterns. Antivirals, antibiotics and monoclonal antibodies are the primary drugs used as a symptomatic treatment in COVID-19 infected patients suffering from various conditions like pneumonia and respiratory epithelium damage, but at the same time the treatment for inflammation and regenerative process in the lungs showed limitation [74, 75] . Pretreatment of mesenchymal SCs with TNF-\u03b1 or IFN-\u03b3 stipulates licensing approach for the effectiveness in the clearance of immune response and better repairing of lung tissue [76] .",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 76,
+                    "text": "[48]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 496,
+                    "end": 500,
+                    "text": "[63,",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 501,
+                    "end": 504,
+                    "text": "64]",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1361,
+                    "end": 1365,
+                    "text": "[65]",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1366,
+                    "end": 1370,
+                    "text": "[66]",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 1371,
+                    "end": 1375,
+                    "text": "[67]",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 1376,
+                    "end": 1380,
+                    "text": "[68]",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 1381,
+                    "end": 1385,
+                    "text": "[69]",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 1386,
+                    "end": 1390,
+                    "text": "[70]",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 1643,
+                    "end": 1647,
+                    "text": "[71]",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 1648,
+                    "end": 1652,
+                    "text": "[72]",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 1653,
+                    "end": 1657,
+                    "text": "[73]",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 2171,
+                    "end": 2175,
+                    "text": "[74,",
+                    "ref_id": null
+                },
+                {
+                    "start": 2176,
+                    "end": 2179,
+                    "text": "75]",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 2358,
+                    "end": 2362,
+                    "text": "[76]",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "RNA replication Subgenomic (nested) transcription"
+        },
+        {
+            "text": "Pre-clinical models showed positive response towards SC therapy in virus-induced lung damage and hence this therapy is considered as an effective approach in lung injury, still CoV-induced lung damage pre-clinical models are under investigation. Inflammatory monocytes-macrophages and neutrophils generate effective secretion of cytokines or chemokines with T cell response. Various immunosuppressive molecules like IL-6, IL-10, PGE2, etc. are produced by mesenchymal SCs further helpful for proliferation of T-cells and NK-cells. CoV-induced lung injury is modulated using mesenchymal SCs by enhancing the immunoregulatory properties leading to elevation in cell regenerations like T-cells, NK cells, B-cells, neutrophils, etc. for the development of new lung cells. To establish this therapy in a better way, the safety and efficacy profiles are studied in clinical trials (CTs) to explore the potential in bronchopulmonary dysplasia and lung diseases [77, 78] . CTs in COVID-19 patients with respiratory complications administered with mesenchymal SCs showed higher recovery and patient survival rates, using intravenous mesenchymal SCs for significant reduction in inflammation and improvement in pulmonary function [2] . Genetically modified human stimulated pluripotent SCs are still under research as a novel therapeutics in the treatment of SARS-CoV-2 infections [79] . Some current updates on CTs of COVID-19 are shown in Table 3 .",
+            "cite_spans": [
+                {
+                    "start": 954,
+                    "end": 958,
+                    "text": "[77,",
+                    "ref_id": "BIBREF78"
+                },
+                {
+                    "start": 959,
+                    "end": 962,
+                    "text": "78]",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 1220,
+                    "end": 1223,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1371,
+                    "end": 1375,
+                    "text": "[79]",
+                    "ref_id": "BIBREF80"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1431,
+                    "end": 1438,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Fig. 3 Overview of replication cycle of corona virus"
+        },
+        {
+            "text": "The urgent need for medication in this pandemic shows rigorous investigations and pre-CT for the development of effective therapy. Use of mesenchymal SCs demonstrated a lack of explanation of their effectiveness against viruses especially in in-vivo study, so further investigation is required. There are findings related to virus-induced lung injuries into lung models but there is no pre-clinical data available for mesenchymal SCs administration in CoV respiratory infection models. Some animal models like mice and non-human primates were observed for intranasal administration but the negative clinical pulmonary disease resulted in humans with the signs of weight loss, secretory cell hyperplasia, accumulation of macrophages, etc. The limited data availability and understanding of potential SC-based NCs effect in lung injury models need to be developed with clinical investigations and uphold the standards of therapy to meet the human usage and safety. FDA recently licensed cord-based blood products for Dinh et al. demonstrated inhalation-based SC therapy to find the efficacy on ex-vivo and animal models. It showed potential on various models of lung injury and pulmonary fibrosis by reducing collagen accumulation and myofibroblast proliferation. Because of such advantages, this therapy emerges as a therapeutic potential in COVID-19 for lung regeneration. Hence, SC-based NCs need further evaluation to facilitate therapeutic testing in SARS-CoV-2 models to represent viral replication and pathology signs with comparative mortality levels [81] [82] [83] [84] . Many challenges must be tackled for optimization of SC-based NC formulations like dose of active, scale-up, quality control and storage condition. Moreover, limited access to the clinical data due to the nonavailability of COVID-19 model increases the risk of treatment. After the availability of cellular therapy for corona virus, surveillance from the regulatory authorities is strictly needed to control the unethical and unapproved products for SC therapy.",
+            "cite_spans": [
+                {
+                    "start": 1557,
+                    "end": 1561,
+                    "text": "[81]",
+                    "ref_id": "BIBREF81"
+                },
+                {
+                    "start": 1562,
+                    "end": 1566,
+                    "text": "[82]",
+                    "ref_id": "BIBREF82"
+                },
+                {
+                    "start": 1567,
+                    "end": 1571,
+                    "text": "[83]",
+                    "ref_id": "BIBREF83"
+                },
+                {
+                    "start": 1572,
+                    "end": 1576,
+                    "text": "[84]",
+                    "ref_id": "BIBREF84"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Challenges and Future Perspectives"
+        },
+        {
+            "text": "Mesenchymal SCs conjugated nanosystems are proposed as a potential therapy to treat CoV-induced lung injury and thus, further pre-clinical studies are needed for clinical evaluation with stringent guidelines. Moreover, to confirm the manifestation differences in the different age groups, delivery routes, clinical indices and unexplored mechanisms further investigations are required. Though, there are more than 17 ongoing CTs mostly involved with intravenously administered mesenchymal SCs but the major barriers are the risks associated with transmission and cell adaption. To achieve NC SC-based therapy, patient randomization is a necessary protocol to emphasis the opportunities and progression in order to achieve a successful preventive or curative therapy. The SC-based NC may result as a novel biological breakthrough in the management and treatment of CoV2 infections in near future.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "COVID-19 Weekly Epidemiological Update. World health organization (received from national authorities, as of",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Stem cell-based therapy for coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Stem Cells and Development",
+            "volume": "29",
+            "issn": "11",
+            "pages": "679--681",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Umbilical cord stem cells: Background, processing and applications",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Alatyyat",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Alasmari",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Aleid",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Abdel-Maksoud",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Elsherbiny",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Tissue and Cell",
+            "volume": "65",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Heat shock proteins and their protective roles in stem cell biology",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shende",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhandarkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Prabhakar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Stem Cell Reviews and Reports",
+            "volume": "15",
+            "issn": "5",
+            "pages": "637--651",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Introduction to stem cell therapy",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jesse",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Biehl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "The Journal of Cardiovascular Nursing",
+            "volume": "24",
+            "issn": "2",
+            "pages": "98--105",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Stem cells: Past, present, and future",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zakrzewski",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dobrzy\u0144ski",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Szymonowicz",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Rybak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Stem Cell Research and Therapy",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Role of liposomes-based stem cell for multimodal Cancer therapy",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mandpe",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Prabhakar",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shende",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Stem Cell Reviews and Reports",
+            "volume": "16",
+            "issn": "",
+            "pages": "103--117",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Pathophysiology, mechanisms and applications of mesenchymal stem cells for the treatment of spinal cord injury",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shende",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Subedi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Biomedicine & Pharmacotherapy",
+            "volume": "91",
+            "issn": "",
+            "pages": "693--706",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Mesenchymal stem cells-Their antimicrobial effects and their promising future role as novel therapies of infectious complications in high risk patients",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Al-Anazi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jasser",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Progress in Stem Cell Transplantation",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Antibacterial effect of human mesenchymal stem cells is mediated in part from secretion of the antimicrobial peptide LL-37",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Krasnodembskaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Serikov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Matthay",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Stem Cells",
+            "volume": "28",
+            "issn": "12",
+            "pages": "2229--2238",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Activated mesenchymal stem cells interact with antibiotics and host innate immune responses to control chronic bacterial infections",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Norman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Coy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kurihara",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Regan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Scientific Reports",
+            "volume": "7",
+            "issn": "1",
+            "pages": "1--18",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Antibacterial activity of human mesenchymal stem cells mediated directly by constitutively secreted factors and indirectly by activation of innate immune effector cells",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chow",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Impastato",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Coy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Strumpf",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dow",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Stem Cells Translational Medicine",
+            "volume": "9",
+            "issn": "2",
+            "pages": "235--249",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Antimicrobial properties of mesenchymal stem cells: Therapeutic potential for cystic fibrosis infection, and treatment",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Sutton",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fletcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ghosh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Weinberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Van Heeckeren",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kaur",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Sadeghi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hijaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Reese",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lazarus",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lennon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Stem cells international",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Mesenchymal stem cells enhance pulmonary antimicrobial immunity and prevent following bacterial infection",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Stem Cells International",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Role of mesenchymal stem cells (MSC) in HIV-1 associated bone and lipid toxicities",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Cotter",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Maughan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Doran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "In Stem Cells and Cancer Stem Cells",
+            "volume": "8",
+            "issn": "",
+            "pages": "79--90",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Mesenchymal stem cells improve murine acute coxsackievirus B3-induced myocarditis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Linthout",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Savvatis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Miteva",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ringe",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Warstat",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Schmidt-Lucke",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sittinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Schultheiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tsch\u00f6pe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "European Heart Journal",
+            "volume": "32",
+            "issn": "17",
+            "pages": "2168--2178",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Mesenchymal stromal cells and viral infection",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Thanunchai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hongeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thitithanyanont",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Stem Cells International",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Intrinsic immunity shapes viral resistance of stem cells",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "L D"
+                    ],
+                    "last": "Thi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Billerbeck",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Saha",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hoffmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A V"
+                    ],
+                    "last": "Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sarbanes",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Andrus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Cell",
+            "volume": "172",
+            "issn": "3",
+            "pages": "423--438",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Mesenchymal stem cell therapy for COVID-19: Present or future",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Golchin",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Seyedjafari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ardeshirylajimi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Stem Cell Reviews and Reports",
+            "volume": "",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Stem cells: Promises versus limitations",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Choumerianou",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dimitriou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kalmanti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Tissue Engineering Part B: Reviews",
+            "volume": "14",
+            "issn": "1",
+            "pages": "53--60",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Insight into COVID-2019 for paediatricians",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pediatric Pulmonology",
+            "volume": "55",
+            "issn": "5",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wrapp",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Corbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hsieh",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Abiona",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Mclellan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "367",
+            "issn": "6483",
+            "pages": "1260--1263",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Novel 2019 coronavirus structure, mechanism of action, antiviral drug promises and rule out against its treatment",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Boopathi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Poma",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kolandaivel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Genomic characterisation and epidemiology of 2019 novel coronavirus: Implications for virus origins and receptor binding",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Holmes",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "395",
+            "issn": "",
+            "pages": "565--574",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Stem cell therapies for COVID-19: Strategy and application",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Darabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Cellular Biochemistry",
+            "volume": "121",
+            "issn": "",
+            "pages": "4696--4698",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "A review on the cleavage priming of the spike protein on coronavirus by angiotensin-converting enzyme-2 and furin",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hasan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Paray",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hussain",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Qadir",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Attar",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Aziz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sharifi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Derakhshankhah",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Rasti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mehrabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Shahpasand",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Saboury",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Falahati",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Biomolecular Structure and Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "In-silico homology assisted identification of inhibitor of RNA binding against 2019-nCoV N-protein (N terminal domain)",
+            "authors": [],
+            "year": null,
+            "venue": "Journal of Biomolecular Structure & Dynamics",
+            "volume": "",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Chloroquine in controlling biological infections",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "P\u0142usa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lengier-Krajewska",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Baranowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Krawczyk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Polski merkuriusz lekarski: organ Polskiego Towarzystwa Lekarskiego",
+            "volume": "48",
+            "issn": "285",
+            "pages": "199--203",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "A human monoclonal antibody blocking SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Drabek",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Okba",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Van Haperen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Osterhaus",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Van Kuppeveld",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Haagmans",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Grosveld",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bosch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Communications",
+            "volume": "11",
+            "issn": "1",
+            "pages": "1--6",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Monoclonal antibody as a potential anti-COVID-19",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jahanshahlu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Rezaei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biomedicine & Pharmacotherapy",
+            "volume": "129",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Responsive exosome nano-bioconjugates for synergistic cancer therapy",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Nie",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Angewandte Chemie",
+            "volume": "132",
+            "issn": "5",
+            "pages": "2034--2038",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Au-CGKRK nanoconjugates for combating cancer through T-cell-driven therapeutic RNA interference",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Gulla",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kotcherlakota",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nimushakavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Nimmu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Khalid",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Patra",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chaudhuri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "ACS omega",
+            "volume": "3",
+            "issn": "8",
+            "pages": "8663--8676",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Chitosan-modified cationic amino acid nanoparticles as a novel oral delivery system for insulin",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbad",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Waddad",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Munyendo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Journal of Biomedical Nanotechnology",
+            "volume": "11",
+            "issn": "3",
+            "pages": "486--499",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Use of nanoparticles in tissue engineering and regenerative medicine",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fathi-Achachelouei",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Knopf-Marques",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ribeiro Da Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Barth\u00e8s",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bat",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tezcaner",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Vrana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Frontiers in Bioengineering and Biotechnology",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Crossing the blood-brain-barrier with transferrin conjugated carbon dots: A zebrafish model study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dallman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Othman",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Blackwelder",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leblanc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Colloids and Surfaces B: Biointerfaces",
+            "volume": "145",
+            "issn": "",
+            "pages": "251--256",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Role of solid-gas interface of nanobubbles for therapeutic applications. Critical Reviews\u2122 in Therapeutic Drug Carrier Systems",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shende",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gaud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "35",
+            "issn": "",
+            "pages": "469--494",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Hybrid Nanosponges. Nanosponges: Synthesis and Applications",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shende",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gaud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "173--192",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Drug-free Cyclodextrin-based nanosponges for antimicrobial activity",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Desai",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shende",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Pharmaceutical Innovation",
+            "volume": "",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Metal nanoparticles and nanoalloys",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Johnston",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Frontiers of Nanoscience",
+            "volume": "3",
+            "issn": "",
+            "pages": "1--42",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Recent advances in metal decorated Nanomaterials and their various biological applications: A review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Yaqoob",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Parveen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahmad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Oves",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ismail",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Qari",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Umar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Ibrahim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Frontiers in Chemistry",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Polymeric nanoparticles: Potent vectors for vaccine delivery targeting cancer and infectious diseases",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bolhassani",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Javanzad",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Saleh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hashemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Aghasadeghi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sadat",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Human Vaccines & Immunotherapeutics",
+            "volume": "10",
+            "issn": "2",
+            "pages": "321--332",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Polymer nanoparticles for smart drug delivery. Application of nanotechnology in drug delivery",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bennet",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "257--310",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Quantum dots in imaging, drug delivery and sensor applications",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Matea",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mocan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Tabaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pop",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Mosteanu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Puia",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Iancu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mocan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "International Journal of Nanomedicine",
+            "volume": "12",
+            "issn": "",
+            "pages": "5421--5431",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Enzyme bioconjugated PAMAM dendrimers for estimation of glucose in saliva",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shende",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sahu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Polymeric Materials and Polymeric Biomaterials",
+            "volume": "",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "A combinatorial approach of inclusion complexation and dendrimer synthesization for effective targeting EGFR-TK",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Shende",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Patil",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Gaud",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Materials Science and Engineering: C",
+            "volume": "76",
+            "issn": "",
+            "pages": "959--965",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Dendrimers: Synthesis, applications, and properties",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Abbasi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Aval",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Akbarzadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Milani",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Nasrabadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Joo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hanifehpour",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nejati-Koshki",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pashaei-Asl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Nanoscale Research Letters",
+            "volume": "9",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Lipid-based nanoparticles as pharmaceutical drug carriers: From concepts to clinic",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Puri",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Loomis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yavlovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Heldman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Blumenthal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Critical Reviews\u2122 in Therapeutic Drug Carrier Systems",
+            "volume": "",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Nanotechnology: An effective tool for enhancing bioavailability and bioactivity of phytomedicine",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gunasekaran",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Haile",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nigusse",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Dhanaraju",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Asian Pacific Journal of Tropical Biomedicine",
+            "volume": "4",
+            "issn": "",
+            "pages": "1--7",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "The impact of metallic nanoparticles on stem cell proliferation and differentiation",
+            "authors": [
+                {
+                    "first": "Abdal",
+                    "middle": [],
+                    "last": "Dayem",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nanomaterials",
+            "volume": "8",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Combinational therapy with antibiotics and antibiotic-loaded adipose-derived stem cells reduce abscess formation in implant-related infection in rats",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yoshitani",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kabata",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Arakawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kato",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Nojima",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hayashi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tokoro",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sugimoto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kajino",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Inoue",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ueoka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Scientific Reports",
+            "volume": "10",
+            "issn": "1",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Recent review of the effect of nanomaterials on stem cells",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Z",
+            "volume": "8",
+            "issn": "32",
+            "pages": "17656--17676",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Antiviral potential of nanoparticles-Can nanoparticles fight against coronaviruses? Nanomaterials",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gurunathan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Qasim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Do",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Advances and prospect of nanotechnology in stem cells",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ruan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Nanoscale Research Letters",
+            "volume": "4",
+            "issn": "7",
+            "pages": "593--605",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Emerging nanotechnology for stem cell therapy",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Khurana",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kwatra",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mandal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mitra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Stem Cell Rev and Rep Emerging Nanotechnologies for Diagnostics",
+            "volume": "",
+            "issn": "",
+            "pages": "85--103",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Recent nanotechnology approaches for prevention and treatment of biofilm-associated infections on medical devices",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ramasamy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "BioMed Research International",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Nanoparticle technology and stem cell therapy team up against neurodegenerative disorders",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Vissers",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ming",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Advanced Drug Delivery Reviews",
+            "volume": "148",
+            "issn": "",
+            "pages": "239--251",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Drug-loaded nanoparticle systems and adult stem cells: A potential marriage for the treatment of malignant glioma?",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Auffinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Morshed",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tobias",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lesniak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Oncotarget",
+            "volume": "4",
+            "issn": "3",
+            "pages": "378--396",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Nanoconjugation and encapsulation strategies for improving drug delivery and therapeutic efficacy of poorly water-soluble drugs",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Tran",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pharmaceutics",
+            "volume": "11",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Prospective vaccination of COVID-19 using shRNA-plasmid-LDH nanoconjugate",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Acharya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Medical Hypotheses",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Inhibition of SARS coronavirus infection in vitro with clinically approved antiviral drugs",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ooi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Stanton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Emerging Infectious Diseases",
+            "volume": "10",
+            "issn": "4",
+            "pages": "581--586",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Stem cell therapy: A potential approach for treatment of influenza virus and coronavirus-induced acute lung injury",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lian",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Stem Cell Research & Therapy",
+            "volume": "11",
+            "issn": "1",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Severe acute respiratory syndrome coronavirus as an agent of emerging and reemerging infection",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Woo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Clinical Microbiology Reviews",
+            "volume": "20",
+            "issn": "4",
+            "pages": "660--694",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Application of Mesenchymal stem cell and secretome for combating mortality and morbidity in COVID-19 patients: A brief review",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mahajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhattacharyya",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biomedical Journal",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "The use of mesenchymal stromal cells in the treatment of coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Canham",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mountford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Translational Medicine",
+            "volume": "18",
+            "issn": "1",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Mesenchymal stem cells-derived extracellular vesicles in acute respiratory distress syndrome: A review of current literature and potential future treatment options",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Predescu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Predescu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clinical and Translational Medicine",
+            "volume": "8",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Mesenchymal stem cell therapy for acute respiratory distress syndrome: From basic to clinics",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Protein & Cell",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Challenges and controversies in human mesenchymal stem cell therapy",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Lukomska",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Stanaszek",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Zuba-Surma",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Legosz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sarzynska",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Drela",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Stem cells international",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Mesenchymal stem cell infusion shows promise for combating coronavirus (COVID-19)-induced pneumonia",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Shetty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aging and Disease",
+            "volume": "11",
+            "issn": "2",
+            "pages": "462--464",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Current status of cell-based therapies for respiratory virus infections: Applicability to COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Khoury",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cuenca",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Cruz",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Figueroa",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rocco",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Weiss",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "European Respiratory Journal",
+            "volume": "55",
+            "issn": "6",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Can stem cells beat COVID-19: Advancing stem cells and extracellular vesicles toward mainstream medicine for lung injuries associated with SARS-CoV-2 infections",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Chrzanowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mcclements",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Frontiers in Bioengineering and Biotechnology",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Mesenchymal stem cell-derived extracellular vesicles attenuate influenza virusinduced acute lung injury in a pig model",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Khatri",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Meulia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Stem Cell Research & Therapy",
+            "volume": "9",
+            "issn": "1",
+            "pages": "1--13",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Mesenchymal stromal cells inhibit proliferation of virus-specific CD8+ T cells",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Malcherek",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "H\u00fcckelhoven",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Gern",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Diehlmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wuchter",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schmitt",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Leukemia",
+            "volume": "28",
+            "issn": "12",
+            "pages": "2388--2394",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Therapeutic implications of human umbilical cord Mesenchymal stromal cells in attenuating influenza a (H5N1) virus-associated acute lung injury",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Loy",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Kuok",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hui",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Nicholls",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Peiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "The Journal of Infectious Diseases",
+            "volume": "219",
+            "issn": "2",
+            "pages": "186--196",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Coronavirus endoribonuclease activity in porcine epidemic diarrhea virus suppresses type I and type III interferon responses",
+            "authors": [],
+            "year": null,
+            "venue": "Journal of Virology",
+            "volume": "",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Transplantation of ACE2-mesenchymal stem cells improves the outcome of patients with COVID-19 pneumonia",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Leng",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Aging and Disease",
+            "volume": "11",
+            "issn": "2",
+            "pages": "216--228",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Primed'Mesenchymal stem cells: A potential novel therapeutic for COVID19 patients",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Raza",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Seth",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Stem Cell Reviews and Reports",
+            "volume": "",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Mesenchymal stem cells for the prevention of bronchopulmonary dysplasia",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Namba",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Pediatrics International",
+            "volume": "",
+            "issn": "10",
+            "pages": "945--950",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Clinical study of mesenchymal stem cell treatment for acute respiratory distress syndrome induced by epidemic influenza A (H7N9) infection: A",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Review of trials currently testing stem cells for treatment of respiratory diseases: Facts known to date and possible applications to COVID-19",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Majolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Da Silva",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vieira",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F S M"
+                    ],
+                    "last": "Timmers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Laufer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Goettert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Stem Cell Reviews and Reports",
+            "volume": "",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Nonhuman primate models of respiratory disease: Past, present, and future",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Royer",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Pinkerton",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Schelegle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "ILAR Journal",
+            "volume": "58",
+            "issn": "2",
+            "pages": "269--280",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "Approved cellular and gene therapy products",
+            "authors": [],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF83": {
+            "ref_id": "b83",
+            "title": "Inhalation of lung spheroid cell secretome and exosomes promotes lung repair in pulmonary fibrosis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "U C"
+                    ],
+                    "last": "Dinh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Paudel",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Brochu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Popowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Gracieux",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cores",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Hensley",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Harrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Vandergriff",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "George",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature Communications",
+            "volume": "11",
+            "issn": "1",
+            "pages": "1--14",
+            "other_ids": {}
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "Reinfection could not occur in SARS-CoV-2 infected rhesus macaques",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Bao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Lv",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF85": {
+            "ref_id": "b85",
+            "title": "Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Pneumonia in severe casesSAR virus is spread via respiratory dropletsStaying in contact of the infected personIn-touch of the viruses exposed surfaces Touching face, mouth or eyes with exposed hands . 2 a. Structural representation of COVID-19 virus (SARS-CoV-2) and b. General information for COVID-19Stem Cell Rev and Rep polymeric nanocarriers, etc. may block the direct attachment of virus to the host (ACE2 receptor) cell and prevent the SARS-CoV-2 infection[52].",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Commonly used nanomaterials in nanomedicine",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Infusion of cord blood mesenchymal SC M.D. Anderson Cancer Center, US 11 Clinical use of SC for the treatment of COVID-19Azidus Brasil, Brazil various therapies in SC transplantion, cancer, genetic disorder, wounds and cartilage defect but not a single product is approved for COVID-19 treatment.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Conflict of Interest Authors declare there is no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compliance with Ethical Standards"
+        }
+    ]
+}

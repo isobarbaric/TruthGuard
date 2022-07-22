@@ -1,0 +1,867 @@
+{
+    "paper_id": "278e65a28f09b34b2ef8c6933fecf1bbe8ccb5e3",
+    "metadata": {
+        "title": "",
+        "authors": []
+    },
+    "abstract": [
+        {
+            "text": "Prior to the coronavirus disease 2019 (COVID-19) pandemic, telehealth was rarely utilized for oncologic care in metropolitan areas. Our large New York City based outpatient breast/ gynecologic cancer clinic administered an 18-question survey to patients from March to June 2020, to assess the perceptions of the utility of telehealth medicine. Of the 622 patients, 215 (35%) completed the survey, and of the 215 respondents, 74 (35%) had participated in a telehealth visit. We evaluated the use of telehealth services using the validated Service User Technology Acceptability Questionnaire. Sixty-eight patients (92%) reported that telehealth services saved them time, 54 (73%) reported telehealth increased access to care, and 58 (82%) reported telehealth improved their health. Overall, 67 (92%) of patients expressed satisfaction with the use of telehealth services for oncologic care during the COVID-19 pandemic. Telehealth services should be carefully adopted as an addition to in-person clinical care of patients with cancer.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "included minimizing in-person appointments to prevent the spread of COVID-19 [8] . Although the current guidelines from the American Society of Clinical Oncology provide that telemedicine should be utilized to expand service capabilities, telemedicine has, historically, rarely been utilized in providing oncologic care [9] . A meta-analysis by Chen et al. [10] , studied the psychosocial outcomes of telehealth interventions on breast cancer patients; however, it did not evaluate patients' perceptions of the care they were receiving. A systematic review by Cox et al. [11] studied cancer survivors' experience with telehealth. However, none of the participants included in their review were actively receiving treatment. Despite these shortcomings, both Chen et al. and Cox et al.' s findings [10, 11] support the positive impact of telemedicine on patients. Chen et al. [10] found that telehealth interventions resulted in greater alleviation of stress and had a positive effect on patients' quality of life, perceived distress, and self-efficacy. Cox et al. [11] concluded that telemedicine had the potential to provide cancer survivors with a greater sense of independence.",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 80,
+                    "text": "[8]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 320,
+                    "end": 323,
+                    "text": "[9]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 357,
+                    "end": 361,
+                    "text": "[10]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 571,
+                    "end": 575,
+                    "text": "[11]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 773,
+                    "end": 784,
+                    "text": "Cox et al.'",
+                    "ref_id": null
+                },
+                {
+                    "start": 796,
+                    "end": 800,
+                    "text": "[10,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 801,
+                    "end": 804,
+                    "text": "11]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 874,
+                    "end": 878,
+                    "text": "[10]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1063,
+                    "end": 1067,
+                    "text": "[11]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Although the only studies that assess cancer patients' experiences with telemedicine are from programs that serve rural populations, these studies also paint an overwhelmingly positive reception of telemedicine. Several studies from programs in rural areas including Texas, Tennessee, Mississippi, Arkansas, and Newfoundland and Labrador all reported high patient satisfaction from the majority of patients, as well as other benefits such as convenience and cost effectiveness [12, 13] . It is likely that these individuals would have different experiences from those living in a metropolitan area during a global pandemic. Cancer patients living through COVID-19 may feel an increased sense of isolation and fear, and have less access to social support due to social distancing and quarantine [4] . At our large NYC-based outpatient breast and gynecologic cancer clinic, telehealth services were quickly adopted for visits that could be completed outside of the clinic, in order to limit patient exposure to SARS-CoV-2. These services consisted of video-based telehealth visits through the electronic medical system. These visits were typically 15 to 30 minutes in duration, with patient assessed vital signs (when indicated), limited physical exam based on visual inspection, and patient and provider-based discussion of the patient's oncologic care. These services replaced nonessential in-person visits but did not replace essential visits required for physical exams, laboratory checks, chemotherapy, or other treatment administration. Any concerns that could not be addressed via telehealth required the scheduling of an in-person visit.",
+            "cite_spans": [
+                {
+                    "start": 477,
+                    "end": 481,
+                    "text": "[12,",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 482,
+                    "end": 485,
+                    "text": "13]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 794,
+                    "end": 797,
+                    "text": "[4]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "This survey-based study aimed to assess patients' perceptions of the utility of telehealth in their oncologic care during a time of national crisis and its impact on various quality of life measures. An 18-question survey was administered to all patients receiving care at our outpatient breast and gynecologic cancer treatment center from March 1, 2020 to June 30, 2020 (Appendix 1). Patients were included if they were seen in the clinic during that time, as well as if they had visits delayed or cancelled during this period. The survey was administered both by email through REDCap and physical copies given at the clinic, wherein the survey was returned anonymously through a drop-box. All responses were de-identified and personal data was not available to the researchers. This study received approval from the Mount Sinai Hospital institutional review board [IRB] (IRB-20-03619). The study was exempt from requiring the patient's completion of a consent form. Consent was obtained by completion of the survey itself and the patient's review of the exemption form which was attached to the survey. Survey responses were summarized by number (%) using SAS version 9.4 (SAS Institute Inc., Cary, USA). No hypothesis testing was performed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "For telehealth-specific questions, we adopted the validated Service User Technology Acceptability Questionnaire (SUTAQ) because the population it has been reliability tested for most closely fits the breast and gynecologic cancer patient population we serve-those with long-term health conditions or with social care needs [14, 15] . The SUTAQ assesses patient acceptability of telehealth services via measures of accessibility, comfort, usability, privacy and security, confidentiality, satisfaction, convenience, and health benefits with in-home telemonitoring. For all survey questions using the SUTAQ scale, \"agreement\" was considered if the patient selected mildly, moderately, or strongly agreed on the 6-point scale (Appendix 2).",
+            "cite_spans": [
+                {
+                    "start": 323,
+                    "end": 327,
+                    "text": "[14,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 328,
+                    "end": 331,
+                    "text": "15]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Of the 622 patients who received the survey via REDCap online or through a physical copy given at the clinic, 215 (35%) completed the survey. Of the 188 patients who responded to the question about their diagnostic history, 55 (29%) had a history of ductal carcinoma in situ (DCIS)/atypical ductal hyperplasia (ADH)/lobular carcinoma in situ (LCIS), 96 (51%) had a history of invasive breast cancer, 7 (4%) had a gynecologic malignancy, and 30 (16%) responded \"other.\"",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Of the 212 patients who responded to the question on whether they had participated in a telehealth visit during the COVID-19 pandemic, 74 (35%) responded that they participated in a telehealth visit during the 4-month evaluation period. Of the patients who participated in telehealth visits, 68 (92%) felt that the telehealth services saved them time as they did not have to visit their oncology clinic as often. Fifty-four (73%) felt that the telehealth services increased their access to care (health or social care professionals) and 58 (82%) reported that the telehealth services helped improve their health. Forty-five patients (63%) reported that telehealth services made them more actively involved in their own health, and 50 (68%) felt that these services allowed the people looking after them to better monitor them and their condition.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Overall, 67 (92%) patients were satisfied with the telehealth services they received, with 42 (57.5%) reporting that they \"strongly agreed\" that they were satisfied with the telehealth services (Figure 1) . Of the respondents, 66 (89%) would recommend these services to people with similar health conditions. Twenty-seven (37%) felt that telehealth can be a replacement for their normal health care and 69 (93%) reported it could be a good addition to their care. Fifty-six (76%) would be interested in participating in telehealth visits in the future. Figure 1 . Patient satisfaction with telehealth services. Answer to the statement \"I am satisfied with the telehealth services I received.\" Overall, 58% of patients \"strongly agreed\" that they were satisfied with the telehealth services, 20% moderately agreed, 14% mildly agreed, 3% mildly disagreed, 5% moderately disagreed, and 0% strongly disagreed.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 194,
+                    "end": 204,
+                    "text": "(Figure 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 553,
+                    "end": 561,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "Very few patients reported concerns regarding the safety or confidentiality of the telehealth services. Only 8 (11%) patients felt that the telehealth services made them feel uncomfortable (physically or emotionally) and 5 (7%) worried about confidentiality related to telehealth usage. However, 48 (65%) patients felt that telehealth services were not as suitable as regular face-to-face consultations. Additional responses to all telehealth survey questions can be found in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 476,
+                    "end": 483,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "The COVID-19 pandemic led to major changes in the structure of oncologic care for the patients in our NYC center as we experienced the first peak of the pandemic from March through June 2020. The adaptation of telehealth services was one of the greatest changes to our practice, with telehealth visits increasing from rare usage to accounting for about 30% of all visits. Overall, patients with breast and gynecologic malignancies expressed satisfaction with the use of telehealth services for oncologic care during the COVID-19 pandemic. Although most patients do not feel that this is a suitable replacement for their in-person care, they expressed that it was certainly a good addition to their care. A large majority of patients expressed interest in continuing to participate in telehealth visits in the future. Based on this data and prior studies, telehealth services should be carefully adopted as a long-term addition to the in-person clinical care of patients with cancer, including those being treated in metropolitan areas. There were several strengths to this study. First, the COVID-19 pandemic provided a rare opportunity to assess the rapid implementation of telehealth on a large scale, which otherwise likely would not have occurred. Secondly, it allowed us to receive rapid feedback regarding use of these services during an emergency public health situation. Based on the results of our study, telehealth is an excellent option for care of breast and gynecologic patients during times when in-person visits may need to be limited. These results also support the use of telehealth services in metropolitan areas and in high-risk oncology patients-patient groups in which the perception of telehealth has rarely been explored.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Limitations of this study include that a large percentage of patients were undergoing routine follow-up for less active oncologic disorders such as DCIS/ADH/LCIS. From this study, we cannot identify the percentage of patients who were receiving active chemotherapy or systemic therapy for metastatic disease. We also were not able to stratify patient perception of telehealth by disease type, as the survey was anonymous. We are unable to assess longterm outcomes in this study population as that would take many years of follow up.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We acknowledge that there are inherent challenges in the incorporation of telehealth for care of cancer patients. These visits cannot replace in-person care, full assessment of vital signs, certain aspects of the physical exam (including breast exam) and chemotherapy, and other treatment administration which are specific to this population. The safety of telehealth services for breast and gynecologic cancer patients has not been specifically established, although major safety issues have not been reported in prior studies [10, 11] . During the COVID-19 pandemic, benefits of telehealth outweighed the risks, and it was widely adapted. This study reported subjective measures of patient satisfaction but did not evaluate objective measures of patient safety and cancer-related outcomes which will need to be established in future large-scale studies with prolonged follow-up. However, in this study reported here, patients did not report any specific safety-related concerns in the comments section of the survey.",
+            "cite_spans": [
+                {
+                    "start": 528,
+                    "end": 532,
+                    "text": "[10,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 533,
+                    "end": 536,
+                    "text": "11]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In conclusion, telehealth services can be utilized in addition to in-person care of patients with breast and gynecologic cancer in order to optimize patient satisfaction, save time and increase access to care, especially in times of public health crises. The findings of this study can likely be extrapolated to patients with other types of cancer in order to provide increased access to care for patients in metropolitan areas. https://ejbc.kr https://doi.org/10.4048/jbc.2020.23.e56",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Telehealth Services for Oncology Care during the COVID-19 Pandemic 7. The telehealth services have allowed me to be less concerned about my health and/or social care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "8. The telehealth services have made me more actively involved in my health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "9. The telehealth services make me worried about the confidentiality of the private information being exchanged through it.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "10. The telehealth services allows the people looking after me to better monitor me and my condition.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "11. I am satisfied with the telehealth services I received.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "12. The telehealth services should be recommended to people in a similar condition to mine.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "13. The telehealth services can be a replacement for my regular health or social care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "14. The telehealth services can certainly be a good addition to my regular health or social care. 15 . The telehealth services are not as suitable as regular face to face consultations with the people looking after me.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "507--520",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The outbreak of COVID-19: an overview",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Chin Med Assoc",
+            "volume": "83",
+            "issn": "",
+            "pages": "217--237",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "A novel coronavirus from patients with pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--760",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "A practical approach to the management of cancer patients during the novel coronavirus disease 2019 (COVID-19) pandemic: an international collaborative group",
+            "authors": [
+                {
+                    "first": "Al-Shamsi",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Alhazzani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alhuraiji",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Coomes",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chemaly",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Almuhanna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Oncologist",
+            "volume": "25",
+            "issn": "",
+            "pages": "936--981",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Cancer patients in SARS-CoV-2 infection: a nationwide analysis in China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Oncol",
+            "volume": "21",
+            "issn": "",
+            "pages": "335--342",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Full spectrum of cancer patients in SARS-CoV-2 infection still being described",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Oncol (R Coll Radiol)",
+            "volume": "32",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "SARS-CoV-2 transmission in patients with cancer at a tertiary care hospital in Wuhan, China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ouyang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chua",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Oncol",
+            "volume": "6",
+            "issn": "",
+            "pages": "1108--1118",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A practical approach to the management of breast cancer in the COVID-19 era and beyond",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Luther",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Agrawal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ecancermedicalscience",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Resource for Management Options of Breast Cancer during COVID-19. Rosemont: Society of Surgical Oncology",
+            "authors": [],
+            "year": 2020,
+            "venue": "Society of Surgical Oncology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Effect of telehealth intervention on breast cancer patients' quality of life and psychological outcomes: a meta-analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Telemed Telecare",
+            "volume": "24",
+            "issn": "",
+            "pages": "157--67",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Cancer survivors' experience with telehealth: a systematic review and thematic synthesis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cox",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lucas",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Marcu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Piano",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Grosvenor",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Mold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Med Internet Res",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Evaluating the experience of rural individuals with prostate and breast cancer participating in research via telehealth",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Scurrey",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Garland",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Thoms",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Laing",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Rural Remote Health",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Extending oncology clinical services to rural areas of Texas via teleoncology",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gross",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Oncol Pract",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The service user technology acceptability questionnaire: psychometric evaluation of the Norwegian version",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Torbj\u00f8rnsen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Sm\u00e5stuen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jenum",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "\u00c5rsand",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ribu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "JMIR Human Factors",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Quantifying beliefs regarding telehealth: development of the whole systems demonstrator service user technology acceptability questionnaire",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hirani",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rixon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Beynon",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cartwright",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Cleanthous",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Selva",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Telemed Telecare",
+            "volume": "23",
+            "issn": "",
+            "pages": "460--469",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "TABREF1": {
+            "text": "The telehealth services I received have saved me time in that I did not have to visit my oncology clinic as often.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors wish to acknowledge the support of the Biostatistics Shared Resource Facility funded by the National Cancer Institute Cancer Center Support Grant P30CA196521-01 for analysis and interpretation of data and preparation of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ACKNOWLEDGEMENTS"
+        },
+        {
+            "text": "Please complete the following survey in order to help your doctors understand the impact of COVID-19 on the perception of your oncology care.By completing the survey, you will be providing consent for your data to be published. These survey results will in no way affect your future oncologic care.This survey is anonymous. Thank you for your responses to this questionnaire, please check that you have answered all items. Your responses will be kept confidential",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Dubin Breast Center COVID-19 Care Questionnaire"
+        }
+    ]
+}

@@ -1,0 +1,2964 @@
+{
+    "paper_id": "278fd78d2d3008f204fdd3e35999dcaf2be98616",
+    "metadata": {
+        "title": "",
+        "authors": [
+            {
+                "first": "Jos\u00e9-Juli\u00e1n",
+                "middle": [],
+                "last": "Escario",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Zaragoza",
+                    "location": {
+                        "country": "Spain). Address"
+                    }
+                },
+                "email": "jescario@unizar.es"
+            },
+            {
+                "first": "Carla",
+                "middle": [],
+                "last": "Rodriguez-Sanchez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Alicante",
+                    "location": {
+                        "country": "Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jesus",
+                "middle": [],
+                "last": "Valero-Gil",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Zaragoza",
+                    "location": {
+                        "addrLine": "Gran V\u00eda 2",
+                        "postCode": "50005",
+                        "settlement": "Zaragoza",
+                        "country": "Spain). Address:, Spain"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Luis",
+                "middle": [
+                    "V"
+                ],
+                "last": "Casal\u00f3",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Zaragoza",
+                    "location": {
+                        "addrLine": "Plaza de la Constituci\u00f3n, s/n, Plaza de la Constituci\u00f3n, s/n",
+                        "postCode": "22001, 22001",
+                        "settlement": "Huesca, Huesca",
+                        "country": "Spain). Address:, Spain., Spain"
+                    }
+                },
+                "email": "lcasalo@unizar.es."
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "J o u r n a l P r e -p r o o f 2 COVID-19 related policies: the role of environmental concern in understanding citizens' preferences ABSTRACT COVID-19 has led to an unprecedented health and economic crisis worldwide. Many governments of the world have accelerated an adoption of public policies to address this crisis; however, a trade-off between the economy and public health exists. Previous studies in this area have mainly focused on the impact of COVID-19 on human life and the environment. This work adds to the literature by analyzing how individual environmental concern can affect citizens' preferences for public policies that deal with COVID-19. A data set of 26,131 participants from 26 countries was used to test the research model. Results indicate that environmental concern is positively associated with a preference for long-term oriented altruistic policies, and it shapes the relationship between economic and health problems at the country level on our dependent variable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Specifically, as the level of environmental concern increases, the negative effect of COVID-19's economic problems on the preference for long-term altruistic policies is diminished. In turn, in the case of health problems, the impact on the preference for longterm altruistic policies increases as environmental concern increases. Also, both individual-level and country-level characteristics affect citizens' preferences for policies related to the COVID-19 pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "During the COVID-19 pandemic, more than 3.5 million people have died (June 2021, WHO, 2021) . This shock is comparable to other fatal historical events such as the Great War (21.5 million deaths) or the Vietnam War (2.5 million deaths). Like these other important incidents, COVID-19 has affected all aspects of everyday life for most people and it has heavily impacted the global economy and national health systems. To cope with the consequences of COVID-19, many governments of the world have increased public spending to boost recovery. For instance, the European Commission (EC) created the largest stimulus package ever financed in Europe to help the continent rebuild after COVID-19: a total of \u20ac1.8 trillion has been budgeted (European Commission, 2021) . This financial instrument is designed not only to deal with the short-term economic effects of COVID-19, but also to improve health policies (e.g., scientific research or new health programs) and to develop more altruistic policies based on social and environmental protection (e.g., fighting climate change or tackling social inequality) in the long-term.",
+            "cite_spans": [
+                {
+                    "start": 81,
+                    "end": 91,
+                    "text": "WHO, 2021)",
+                    "ref_id": null
+                },
+                {
+                    "start": 734,
+                    "end": 761,
+                    "text": "(European Commission, 2021)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "This response by governments indicates that although the COVID-19 crisis has had a dramatic social and economic impact, other crises that humanity faces should not be forgotten, as in the case of the climate and environmental crisis. In fact, according to the UK Royal Society, the impact on ecosystems on the part of changes in socioeconomic systems (e.g., intensive agriculture) plays a role in creating or aggravating epidemic risk (Johnson et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 435,
+                    "end": 457,
+                    "text": "(Johnson et al., 2020)",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "These policy aims (long-term altruistic vs. short-term and less altruistic) are often framed as opposites in public discourse, and many citizens perceive them as such (EPRS, 2020) . Therefore, in order to re-balance this perception toward a more eco-social political economy-oriented perspective, an in-depth analysis of the factors that underlie preference for long-term altruistic policies is required. This knowledge can assist policymakers in J o u r n a l P r e -p r o o f achieving a more inclusive and sustainable economy and society after the crisis of COVID-19 subsides. This may be even more relevant in the European Union, which represents a political and economic union of 27-member states, and where accepting longterm altruistic policies may be crucial to guarantee the success of the Union. Specifically, policy preference is defined as \"an evaluative attitude of preferring, liking, agreeing with, and being 'for' a given policy\" (PytlikZillig et al., 2018, p. 91) . A plethora of individual, psychological, and contextual factors influence an individual's policy preference (Margalit, 2013) . Therefore, contextual factors such as COVID-19-related public health and economic problems in a country may have an influence on this preference for longterm altruistic policies. For example, in Spain, where dramatic effects on the economy have been observed due to COVID-19 consequences, a significant proportion of public opinion supports the idea that short-term economic measures should be valued above long-term ones focused on health and social issues (Olmos, 2020) . Furthermore, individual characteristics such as age, gender, or educational level may also determine a preference for long-term altruistic policies.",
+            "cite_spans": [
+                {
+                    "start": 167,
+                    "end": 179,
+                    "text": "(EPRS, 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 946,
+                    "end": 980,
+                    "text": "(PytlikZillig et al., 2018, p. 91)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1091,
+                    "end": 1107,
+                    "text": "(Margalit, 2013)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1568,
+                    "end": 1581,
+                    "text": "(Olmos, 2020)",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "As several researchers have pointed out (e.g. Hepburn et al., 2020; Manzanedo & Manning, 2020) , the global emergency related to climate and environmental preservation shares many similarities with COVID-19 (e.g., international cooperation, scientific research, political leadership, etc.); however, the climate and environmental emergency occurs in slow motion and it is much graver in the long-term (Manzanedo and Manning, 2020) . As a result of these similarities, several researchers have focused on how to link COVID-19 with the effort to protect the environment, mainly by analyzing the effects of the pandemic on natural and environmental management (see e.g. Elsaid et al., 2021; Hantoko et al., 2021) . However, an important and unexplored question that arises in this context is whether environmental perception also plays a role in the preference for long-J o u r n a l P r e -p r o o f term altruistic policies. It has been demonstrated that some restrictive policies for controlling the coronavirus (e.g., compulsory quarantines and lockdown) have had positive consequences on the environment (Elsaid et al., 2021) . However, these measures have also had negative effects on the economy (World Bank, 2020) . This vision of incompatibility between policies can foster a rejection of socio-environmental policies, which are more long-term oriented, among citizens due to the perception that they are less necessary than economic measures that have greater visible and short-term effects.",
+            "cite_spans": [
+                {
+                    "start": 46,
+                    "end": 67,
+                    "text": "Hepburn et al., 2020;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 68,
+                    "end": 94,
+                    "text": "Manzanedo & Manning, 2020)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 401,
+                    "end": 430,
+                    "text": "(Manzanedo and Manning, 2020)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 667,
+                    "end": 687,
+                    "text": "Elsaid et al., 2021;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 688,
+                    "end": 709,
+                    "text": "Hantoko et al., 2021)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 1106,
+                    "end": 1127,
+                    "text": "(Elsaid et al., 2021)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1200,
+                    "end": 1218,
+                    "text": "(World Bank, 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In this sense, environmental concern can be an important driver of COVID-19 policy preferences towards a more common point of view, since environmental concern has been linked to greater levels of altruism, an avoidance of materialism and egoism (Gatersleben et al., 2010; Stern et al., 1993) , and a greater long-term vision (Greitemeyer, 2013) .",
+            "cite_spans": [
+                {
+                    "start": 246,
+                    "end": 272,
+                    "text": "(Gatersleben et al., 2010;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 273,
+                    "end": 292,
+                    "text": "Stern et al., 1993)",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 326,
+                    "end": 345,
+                    "text": "(Greitemeyer, 2013)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The present study addresses the above issues and aims to analyze whether distinct levels of environmental concern are related to citizens' preference for long-term altruistic policies. Furthermore, country-level COVID-19 public health and economy-related problems are also proposed as important factors for the policy preference of citizens. At this point, not only the direct relationship between environmental concern and citizens' preference for long-term altruistic policies is hypothesized, but it is also considered interaction effects between environmental concern and COVID-19-related problems on such a preference. Finally, to complement the analyses, links between individual sociodemographic characteristics and relevant country-level features and the preference for long-term altruistic policies are also explored. This paper offers various contributions to the literature that are worth remarking on.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "First, this paper contributes to the understanding of how preferences towards long-term altruistic policies have been developed during the COVID-19 pandemic. Second, we provide a demonstration of how policymakers can improve future global crisis J o u r n a l P r e -p r o o f management by adding new drivers that facilitate quicker policy acceptance and institutional support. Third, results provide empirical evidence on the importance of facilitating the design and implementation of institutional measures that are focused on incrementing levels of individual environmental concern.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "1.1. Literature review and research hypotheses In response to the global spread of the virus, compulsory quarantines and lockdowns of many activities were adopted by various countries; this approach has resulted in large economic losses (Elsaid et al., 2021) . Among others consequences, a pandemic can cause shocks in demand (e.g., lower consumption) and investment (e.g., greater uncertainty) (Lin and Meissner, 2020) . As a result, studies have suggested that there was a reduction in economic growth (e.g., World Bank, 2020) and an increase in unemployment rates (Park et al., 2020) on account of COVID-19, which has caused a significant loss of income, especially in countries that rely heavily on the service sector (Suthar et al., 2021) .",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 258,
+                    "text": "(Elsaid et al., 2021)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 395,
+                    "end": 419,
+                    "text": "(Lin and Meissner, 2020)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 567,
+                    "end": 586,
+                    "text": "(Park et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 722,
+                    "end": 743,
+                    "text": "(Suthar et al., 2021)",
+                    "ref_id": "BIBREF70"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In addition, countries have had to exert additional effort in health-related interventions to deal with COVID-19 (Suthar et al., 2021) ; for example, countries have had to \"secure the availability of health-related materials (e.g., masks), infrastructures (e.g., hospitals) or personnel (e.g., doctors) to address the pandemic\" (Cheng et al., 2020, p.758) .",
+            "cite_spans": [
+                {
+                    "start": 113,
+                    "end": 134,
+                    "text": "(Suthar et al., 2021)",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 328,
+                    "end": 355,
+                    "text": "(Cheng et al., 2020, p.758)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "In sum, COVID-19 has produced both a public health and an economic crisis (Shutar et al., 2021) . In response to this situation, many governments in the world have accelerated the adoption of public policies (Cheng et al., 2020) , which has resulted in more proactive government interventions (Shutar et al., 2021) , especially in health and economy context (Cheng et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 74,
+                    "end": 95,
+                    "text": "(Shutar et al., 2021)",
+                    "ref_id": null
+                },
+                {
+                    "start": 208,
+                    "end": 228,
+                    "text": "(Cheng et al., 2020)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 293,
+                    "end": 314,
+                    "text": "(Shutar et al., 2021)",
+                    "ref_id": null
+                },
+                {
+                    "start": 358,
+                    "end": 378,
+                    "text": "(Cheng et al., 2020)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Even though previous studies have suggested that policies that aim at reducing mortality during a pandemic (e.g., stay-at-home orders) do not necessarily have adverse economic effects (Lin & Meissner, 2020; Correia et al., 2020) , a trade-off between the economy and public health can appear in the context of COVID-19. For example, some politicians such as Donald Trump (US) or Jair Bolsonaro (Brazil) have argued that, in order to save the economy from the effects of the pandemic, imposing the measures to reduce face-to-face interactions should be avoided. However, the avoidance of these measures resulted in many fatalities (Brauner et al., 2021) . Also, current re-openings of economies, which can enhance spending and employment, can also cause a spread of the virus. Therefore, previous studies have looked at a trade-off between measures that are capable of containing the contagion and those that are capable of avoiding economic collapse (e.g. Fabbri et al., 2021) . Focusing on contagion, social protection and equity measures have been revealed to be important instruments against the pandemic combined with a strong health system (Alberti et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 206,
+                    "text": "(Lin & Meissner, 2020;",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 207,
+                    "end": 228,
+                    "text": "Correia et al., 2020)",
+                    "ref_id": null
+                },
+                {
+                    "start": 630,
+                    "end": 652,
+                    "text": "(Brauner et al., 2021)",
+                    "ref_id": null
+                },
+                {
+                    "start": 956,
+                    "end": 976,
+                    "text": "Fabbri et al., 2021)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1145,
+                    "end": 1167,
+                    "text": "(Alberti et al., 2020)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "In this context, adopting public policies and initiatives that are aligned with citizens' preferences is crucial to guarantee the success of these efforts (Belanche et al., 2016; Rodriguez-Sanchez et al., 2018) . The importance of this point has been also confirmed in the case of COVID-19 policies (Lazarus et al., 2021) . However, citizens' preferences may depend on the country's situation. Focusing on the two main problems caused by the pandemic, we expected that citizens will prefer the adoption of short-term and less altruistic policies in those countries where COVID-19 has resulted in a worse economic situation. The economic situation in a country was evaluated using the variation of the unemployment rate, as job losses are the main consequence of the reduction in spending caused by COVID-19 (Chetty et al., 2020) . In turn, we expected that citizens will prefer the adoption of long-term altruistic policies in those countries where COVID-19 has J o u r n a l P r e -p r o o f caused a diminished health situation. Total cases in a country are used to evaluate health problems that were caused by COVID-19, as the number of people that were infected may be a sign of a health emergency caused by a disease outbreak. Therefore, we propose that:",
+            "cite_spans": [
+                {
+                    "start": 155,
+                    "end": 178,
+                    "text": "(Belanche et al., 2016;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 179,
+                    "end": 210,
+                    "text": "Rodriguez-Sanchez et al., 2018)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 299,
+                    "end": 321,
+                    "text": "(Lazarus et al., 2021)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 807,
+                    "end": 828,
+                    "text": "(Chetty et al., 2020)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "H1: Citizens' preference for long-term altruistic policies is negatively associated with a variation of the unemployment rate in a given country.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "H2: Citizens' preference for long-term altruistic policies is positively associated with total cases of COVID-19 in a given country.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Previous studies have mainly described the impact of COVID-19 on human life and the environment (e.g. Elsaid et al., 2021; Hantoko et al., 2021) . On the one hand, several benefits have been observed for the environment during lockdown periods, such as lower gas emissions (Elsaid et al., 2021) or better air quality (Mostafa et al., 2021) . On the other hand, other problems, such as an increase in the solid waste generated, have arisen due to the COVID-19 pandemic (e.g. Elsaid et al., 2021) ; this crisis has motivated great innovations due to challenges in waste management, for instance (Hantoko et al., 2021) .",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 122,
+                    "text": "Elsaid et al., 2021;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 123,
+                    "end": 144,
+                    "text": "Hantoko et al., 2021)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 273,
+                    "end": 294,
+                    "text": "(Elsaid et al., 2021)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 317,
+                    "end": 339,
+                    "text": "(Mostafa et al., 2021)",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 474,
+                    "end": 494,
+                    "text": "Elsaid et al., 2021)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 593,
+                    "end": 615,
+                    "text": "(Hantoko et al., 2021)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Environmental concern and preferences for long-term altruistic policies"
+        },
+        {
+            "text": "Nevertheless, it appears that the impact of COVID-19 on the natural environment has been positive probably because of the reduction of many pollution sources (e.g. Elsaid et al., 2021) .",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 184,
+                    "text": "Elsaid et al., 2021)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Environmental concern and preferences for long-term altruistic policies"
+        },
+        {
+            "text": "However, not only does COVID-19 affect the environment, the pandemic also affirms the relevance that is given to the environment by citizens, and is therefore linked to certain values (Dietz et al., 2002) . This relevance is associated with citizens' preferences regarding public policies that deal with the pandemic. Previous studies have mainly focused on the relationship between environmental concern and the acceptance of environmental policies; for example, Zahran et al., (2006) discovered that citizens' J o u r n a l P r e -p r o o f concern regarding climate change drives support for costly climate change policies.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 204,
+                    "text": "(Dietz et al., 2002)",
+                    "ref_id": null
+                },
+                {
+                    "start": 464,
+                    "end": 485,
+                    "text": "Zahran et al., (2006)",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Environmental concern and preferences for long-term altruistic policies"
+        },
+        {
+            "text": "However, environmental concern is defined as the degree to which (1) people are aware of environmental problems, (2) they support efforts to solve these problems, and (3) they are willing to contribute personally to the solution (e.g. Dunlap & Jones, 2002) .",
+            "cite_spans": [
+                {
+                    "start": 235,
+                    "end": 256,
+                    "text": "Dunlap & Jones, 2002)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Environmental concern and preferences for long-term altruistic policies"
+        },
+        {
+            "text": "Additionally, far from exemplifying a materialist attitude, this concern moves beyond economic or physical security issues (Casal\u00f3 & Escario, 2016; Meeusen, 2014) . Therefore, environmental concerns can shape citizens' preferences for further public policies, which is crucial to guaranteeing their success. However, the impact of how individual environmental concern affects general preferences for public policies to deal with COVID-19 remains unexplored.",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 147,
+                    "text": "(Casal\u00f3 & Escario, 2016;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 148,
+                    "end": 162,
+                    "text": "Meeusen, 2014)",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Environmental concern and preferences for long-term altruistic policies"
+        },
+        {
+            "text": "Environmental concern has been linked with future-orientation and increased levels of consideration of future consequences (Greitemeyer, 2013; Kortenkamp & Moore, 2006) . These constructs differentiate between people who consider the long-term, future consequences of their behaviors from those persons who are more likely to consider shortterm or immediate consequences (Strathman et al., 1994) . Persons with long-term orientation can assess grand societal challenges such as the COVID-19 crisis or environmental problems by giving more weight to future potential damage, as they have more of an \"an eye toward the future\" which considers distant outcomes of their current behaviors that allows them to act accordingly (Xu et al., 2015) . As Carmi and Bartal (2014) point out, citizens can judge the priorities of a threat according to their temporal proximity to it, and a greater level of future-orientation can reduce the temporal gap. In sum, persons who are concerned about the environment have enough foresight to perceive the present and future threat of COVID-19, which affirms a preference towards long-term policies over their short-term counterparts.",
+            "cite_spans": [
+                {
+                    "start": 123,
+                    "end": 142,
+                    "text": "(Greitemeyer, 2013;",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 143,
+                    "end": 168,
+                    "text": "Kortenkamp & Moore, 2006)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 371,
+                    "end": 395,
+                    "text": "(Strathman et al., 1994)",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 721,
+                    "end": 738,
+                    "text": "(Xu et al., 2015)",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 744,
+                    "end": 767,
+                    "text": "Carmi and Bartal (2014)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Environmental concern and preferences for long-term altruistic policies"
+        },
+        {
+            "text": "In addition, previous literature on social psychology has suggested that citizens' environmental concern is positively related to altruism and it is negatively related to selfinterest (e.g. Stern et al., 1993) , traditionalism (e.g. Dietz et al., 2002) , and materialism or egoism (e.g. Gatersleben et al., 2010) . In this situation, we expected that citizens with a higher environmental concern will show a stronger preference for altruistic policies, on account of their disinterested and selfless concern for the well-being of others. In addition, under identical circumstances, environmental concern serves to diminish the negative link between variations of the unemployment rate and a preference for long-term altruistic policies; furthermore, it reinforces a positive link between the total deaths caused by COVID-19 and a preference for long-term altruistic policies. As a result, we propose:",
+            "cite_spans": [
+                {
+                    "start": 190,
+                    "end": 209,
+                    "text": "Stern et al., 1993)",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 233,
+                    "end": 252,
+                    "text": "Dietz et al., 2002)",
+                    "ref_id": null
+                },
+                {
+                    "start": 287,
+                    "end": 312,
+                    "text": "Gatersleben et al., 2010)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "H3: Citizens' preference for long-term altruistic policies is positively associated with environmental concern.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "H4a: The negative association between citizens' preference for long-term altruistic policies and the variation of the unemployment rate in a given country is reduced as environmental concern increases. H4b: The positive association between citizens' preference for long-term altruistic policies and the total cases of COVID-19 in a given country is increased as environmental concern increases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "For the sake of completeness, this study also considered links between sociodemographic characteristics and relevant country-level characteristics with a preference for long-term altruistic policies. In particular, the sociodemographic characteristics of gender, age, education level, social class, and political ideology were included into the research model. Previous studies have uncovered that women tend to be J o u r n a l P r e -p r o o f more concerned about quality of life (Belanche Gracia et al., 2015) and they show a stronger care ethic compared to men (Zelezny et al., 2000) . Therefore, we expected women to have a stronger preference for long-term altruistic policies. In terms of age, we expected a u-shape association with a preference for long-term altruistic policies, as younger people are typically more concerned about participating in new forms of engagement with social issues (Earl et al., 2017; Gifford & Nilsson, 2014) ; whereas older people may prefer more altruistic policies focused on health and social issues since fatality rate for disease like COVID-19 is greater as age increases. In addition, following Inglehart (1995) , when persons become more affluent, they become less worried about economic restrictions, and they pursue post-materialistic goals. Therefore, we expected a greater preference for long-term altruistic policies for individuals with higher education levels and those who belong to a higher social class. Finally, we also included political ideology, as left-wing attitudes strongly relate with altruism due to an overlap regarding concerns for social equality (Zettler & Hilbig, 2010) .",
+            "cite_spans": [
+                {
+                    "start": 483,
+                    "end": 513,
+                    "text": "(Belanche Gracia et al., 2015)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 566,
+                    "end": 588,
+                    "text": "(Zelezny et al., 2000)",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 902,
+                    "end": 921,
+                    "text": "(Earl et al., 2017;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 922,
+                    "end": 946,
+                    "text": "Gifford & Nilsson, 2014)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1140,
+                    "end": 1156,
+                    "text": "Inglehart (1995)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1616,
+                    "end": 1640,
+                    "text": "(Zettler & Hilbig, 2010)",
+                    "ref_id": "BIBREF80"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Other relevant factors associated with a preference for health-and social-oriented policies over economic policies"
+        },
+        {
+            "text": "On the country level, we considered three variables that may influence preferences for public policies in this context. First, population density: given that social distancing has become an approach to diminish virus infections since the start of the pandemic (e.g. Hantoko et al., 2021) , individuals that live in countries with higher population density may be more concerned about health-and social-oriented problems, prioritizing altruistic policies. Second, gross domestic product (GDP) per capita represents the current economic situation of a country; therefore, individuals from countries that are in a worse economic situation may be more likely to prioritize short-term policies to recover the economy. Third, countries differ in their cultural dimensions; that is: in their collective mental programming which distinguishes one group of people from another (Hofstede Insights, 2020) . In this respect, the individualism vs. collectivism cultural dimension J o u r n a l P r e -p r o o f (Hofstede Insights, 2021) is crucial, as collectivistic cultures are tightly-knit societies in which individuals look after each other to a greater extent than non-collectivist cultures. Therefore, we expected people who are living in collectivistic countries will be more concerned about others and prefer altruistic policies. Given these factors, we summarize our research model in Figure 1 .",
+            "cite_spans": [
+                {
+                    "start": 266,
+                    "end": 287,
+                    "text": "Hantoko et al., 2021)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 878,
+                    "end": 893,
+                    "text": "Insights, 2020)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 998,
+                    "end": 1023,
+                    "text": "(Hofstede Insights, 2021)",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1382,
+                    "end": 1390,
+                    "text": "Figure 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Other relevant factors associated with a preference for health-and social-oriented policies over economic policies"
+        },
+        {
+            "text": "In order to implement the empirical model, data analyzed in this paper was taken from several sources. Data at the individual level comes from the Standard Eurobarometer 93.1 (B. European Commission, 2021). Standard Eurobarometer surveys are conducted twice a year and they are considered to be the flagship public opinion surveys of the European Commission. Participants in this survey are randomly selected to achieve at least 1,000 respondents aged 15 years and older per country, except for countries or territories with less than one million inhabitants, where the sample size minimum is reduced to 500 persons. This survey interviewed 33,059 persons between July 9 and August 26 in 2020. Data at the country level comes from Eurostat, the European Centre for Disease Prevention and Control, and the Hofstede Insight Organization.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and variables"
+        },
+        {
+            "text": "The dependent variable, Preference for Long-Term Altruistic Policies, was computed as an index of preference for long-term altruistic-oriented policy versus short-term nonaltruistic policy measures; this analysis used the response to the question Q074 -SE022:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data and variables"
+        },
+        {
+            "text": "\"And what should the European Union now prioritize in its response to the Coronavirus outbreak?\" Respondents could choose three of the following thirteen items. Each item J o u r n a l P r e -p r o o f was classified (after carrying out a pretest 1 involving 170 participants), as altruisticoriented (value = 1), non-altruistic (value = -1), or without a clear classification (value = 0). Consequently, the summation of the values of the three selected items ranged from -3 (i.e., there is higher preference for non-altruistic measures) to 3 (i.e., there is higher preference for altruistic-oriented measures). In addition, we included an open question for each item to know other citizens' perceptions about these policies, observing that altruistic policies were also perceived as more strategic and long-term oriented than nonaltruistic ones. Therefore, we named now our dependent variable as preference for longterm altruistic policies. Table 1 reproduces the items and the values assigned, and Figure   1 shows the frequency distribution of the computed dependent variable.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 941,
+                    "end": 948,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 999,
+                    "end": 1009,
+                    "text": "Figure   1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Data and variables"
+        },
+        {
+            "text": "The key explanatory variables are the following. COVID-19 Economic Problems Environmental concern (EC: This index is computed with Eurobarometer's question Q094 -SE036: \"In your opinion, which of the following objectives should be given top priority in a European Green Deal?\" Respondents can tick a maximum of 4 options among a list of nine options and the index varies from 0 to 4, which indicates how many objectives they have selected). The resulting index is conveniently treated as a continuous variable in the regression (Johnson & Creech, 1983; Robitzsch, 2020) ",
+            "cite_spans": [
+                {
+                    "start": 528,
+                    "end": 552,
+                    "text": "(Johnson & Creech, 1983;",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 553,
+                    "end": 569,
+                    "text": "Robitzsch, 2020)",
+                    "ref_id": "BIBREF62"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data and variables"
+        },
+        {
+            "text": "In order to analyze the hypotheses postulated, it is assumed that the dependent variable is a function of the explanatory variables plus an error term, that captures the effect of the omitted variables, more concretely: (1) where j is the parameter associated with the corresponding variable, i is the error term, the i subscript indicates that the variable varies at the individual level, and the c subscript indicates that the predictor varies at the country level. In order to study the association between the dependent variable and the explanatory variables, two specifications for the J o u r n a l P r e -p r o o f function f in Equation (1) are assumed. First, a linear function, to be estimated with Ordinary Least Squares (OLS). Second, an exponential function to be estimated with count data regression models, concretely, Poisson and Negative Binomial II regressions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "There is not, a priori, knowledge about the true functional form, consequently, the loglikelihood and the Akaike Information Criterion will be used in order to select the model that best fit to the data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Given that interactions between the concern index and the two variables that measure health and economic consequences, as it is related to the Coronavirus pandemic, are quantitatively difficult to interpret, marginal effects were computed and plotted in order to provide a better picture of the association. All analyses were carried out with R software (version 4.0.5).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "After merging the Eurobarometer with information at the country or territory level, the final sample included 26 countries or territories with 26,131 participants. Table 2 reports a brief descriptive analysis and the list of countries and territories. The mean of the dependent variable, 1.19, is higher than the mean value of the range, 0. This is consistent with the results in Figure 1 that show that most of participants indicated positive values. Moreover, 54.5% of respondents are females. The self-reported social class is broken down as follows: 40.6% declared to belong to a lower social class, 50.2% to the middle class, and 9.2% to a higher social class. Finally, the environmental concern mean was quite elevated. Table 3 reports regression estimates of the three models considered. Both the loglikelihood and the AIC criterion indicate that the ordinary least squares regression fits the data better than the count regression models. The NB2 regression model has convergence problems and the estimates are almost identical to the Poisson regression model. This is because the Poisson regression model shows some under dispersion with a dispersion parameter below unity, 0.439, and the NB2 regression model is only adequate when there is over dispersion. According to these results, the focus will be focused in the ordinary least squares regression.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 164,
+                    "end": 171,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 380,
+                    "end": 388,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 726,
+                    "end": 733,
+                    "text": "Table 3",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "In general, the results of this analysis are consistent with theoretical intuition and with the hypotheses postulated. Focusing on the full model, a negative association was uncovered between economic problems and the dependent variable, which is in accordance with Hypothesis 1. Moreover, the positive association between COVID-19 health problems and a preference for more long-term altruistic policy measures agrees with Hypothesis 2. Environmental concern is also positively associated with the dependent variable, which provides some support in favor of Hypothesis 3. Estimates' results are also in agreement with Hypotheses 4a and 4b, which show a significant and positive coefficient for the two interaction terms. In this sense, Figure 3 and Figure 4 graphically represent how environmental concern modifies the association between economic/health problems and our dependent variable. Particularly, it can be observed that as the level of environmental concern grows, the negative association between COVID-19's economic problems and citizens' preference for long-term altruistic policies fades. In the case of health problems, although to a lesser extent, as environmental J o u r n a l P r e -p r o o f concern increases, the relationship between COVID-19 health problems' and long-term altruistic policy preferences becomes stronger. indicate that a preference for long-term altruistic policy measures is higher among females, among those with more left-wing political inclinations, and among respondents in more affluent classes. Moreover, a U-shaped association was discovered between the dependent variable and the age predictor. According to our estimation, the association decreases until around 44-45 years, and then it increases. In terms of country-level control variables, the results confirm that density population and GDP per capita are positively associated with a higher preference for long-term altruistic policies and, on the contrary, individualism is negatively associated with this variable.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 736,
+                    "end": 744,
+                    "text": "Figure 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 749,
+                    "end": 757,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF5"
+                }
+            ],
+            "section": "INSERT TABLE 3 ABOUT HERE --------------------------------------------"
+        },
+        {
+            "text": "This paper employs a dataset with more than 26,000 European citizens to improve understanding about the policy preferences of individuals related to the COVID-19 pandemic. To the best of our knowledge, this is the first attempt to analyze the relationship between environmental concern and the preference for specific public policies to deal with COVID-19. Several researchers have focused on analyzing the effects of the pandemic on natural and environmental management (see e.g. Elsaid et al., 2021; Hantoko et al., 2021) , but our goal is the other way around: to analyze whether environmental concern play a role in the preference for certain public policies. Doing so, we focus not only on environmental concern, but also on contextual factors (COVID-19related public health and economic problems in a country) and individual factors that may J o u r n a l P r e -p r o o f determine citizen's policy preferences. Additionally, we also take into account how environmental concern may shape the influence of these contextual factors on determining citizens' policy preferences.",
+            "cite_spans": [
+                {
+                    "start": 481,
+                    "end": 501,
+                    "text": "Elsaid et al., 2021;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 502,
+                    "end": 523,
+                    "text": "Hantoko et al., 2021)",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Pandemic management has left an important dilemma among policy-makers that are trying to alleviate the pandemic's effects on society, public policies in this case have usually dealt with health-social and economic policies, which exhibit conflicting positions (Cheng et al., 2020; Klenert et al., 2020) . On the one hand, authorities intended to control the infection and to avoid health systems collapse through lockdowns, quarantines, and social life limitations which have caused serious negative economic consequences. On the other hand, it is also appreciable how national institutions have had various levels of tolerance in applying social restrictions and priorities to prevent economic failure that have undoubtedly been connected to the evolution in the number of contagions. Additionally, the resource capacity on the part of nations has been forced to prioritize between supporting social-and health-oriented policies and protecting the economic system. Therefore, an appropriate combination of both types of policies and their associated measures have been shown to be an important antecedent of the successful management of the pandemic (Allain-Dupr\u00e9, 2020; Haug et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 260,
+                    "end": 280,
+                    "text": "(Cheng et al., 2020;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 281,
+                    "end": 302,
+                    "text": "Klenert et al., 2020)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 1172,
+                    "end": 1190,
+                    "text": "Haug et al., 2020)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Policymakers thus have to deal with many different interests, but citizens' acceptance of long-term altruistic policies may be crucial to achieve a more inclusive and sustainable economy and society after the crisis of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "As was expected by the authors, the different levels of economic and health-social stress caused by the virus were decisive in constructing policy preferences. In terms of public policy priorities, we showed that COVID-19-related health and economic problems' indicators are related with long-term altruistic priorities. These indicators affect an individual's understanding of the importance of every problem, and it assists in J o u r n a l P r e -p r o o f building individual priorities and a general opinion in this regard. As a result, total COVID-19 cases per million boosted the prevalence of long-term altruistic policy preferences, whereas a growth in unemployment rate levels boosted short-term and less altruistic preferences. Thus, populations that are affected by higher levels of COVID-19 infection shift their preferences towards a government strategy that is focused on protecting the long-term of the whole society (e.g., health and social welfare). By contrast, when economic problems come to the surface, citizens are more likely to prefer shortterm and less altruistic efforts (e.g. economic protection).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Responding to the question of whether environmental perceptions play a role in this policy trade-off, we have verified whether environmental concern affects long-term altruistic preferences construction in the specific case of COVID-19. We have confirmed that higher levels of individual environmental concern are related to preferences toward long-term altruistic policies. This result corroborates similar findings regarding the COVID-19 pandemic and the emergency management of environmental problems (Hepburn et al., 2020; Klenert et al., 2020; Manzanedo & Manning, 2020) . Our results also are consistent with the idea that environmental concern is related to values that enable people to see beyond short-term and less altruistic issues such as economic ones (Escario et al., 2020; Meeusen, 2014) . Therefore, the negative relationship between environmental concern and self-interest (e.g. Stern et al., 1993) , traditionalism (e.g. Dietz et al., 2002) and/or materialism or egoism (e.g. Gatersleben et al., 2010) are in accordance with our results that explain why people concerned about environmental issues are more likely to prefer long-term altruistic policy measures. However, our findings not only detect a direct relationship, but also show how environmental concern moderates the associations between COVID-19-related problems and policy preferences. In particular, the presence of environmental concern softens (economic problems) and sharpens (health problems) J o u r n a l P r e -p r o o f the associations with long-term altruistic policy preferences, respectively. Thus, our results confirms previous authors in line with the idea of that long-term vision is greatly detected in people with higher levels of environmental concern (Greitemeyer, 2013; Kortenkamp & Moore, 2006) . This perspective can assist people in interpreting problems and signals with an integral and long-term vision that is able to analyze the future consequences of COVID-19 policies. Thus, previous research has found that environmental concern is associated with greater long-term risk perceptions -for example, regarding health and environment connection (Subiza-P\u00e9rez et al., 2020)-, and that some of these risk perceptions, like heat-related health burdens, make people more oriented to health policies (Ban et al., 2019; Madrigano et al., 2018) .",
+            "cite_spans": [
+                {
+                    "start": 504,
+                    "end": 526,
+                    "text": "(Hepburn et al., 2020;",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 527,
+                    "end": 548,
+                    "text": "Klenert et al., 2020;",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 549,
+                    "end": 575,
+                    "text": "Manzanedo & Manning, 2020)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 765,
+                    "end": 787,
+                    "text": "(Escario et al., 2020;",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 788,
+                    "end": 802,
+                    "text": "Meeusen, 2014)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 896,
+                    "end": 915,
+                    "text": "Stern et al., 1993)",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 939,
+                    "end": 958,
+                    "text": "Dietz et al., 2002)",
+                    "ref_id": null
+                },
+                {
+                    "start": 994,
+                    "end": 1019,
+                    "text": "Gatersleben et al., 2010)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1771,
+                    "end": 1796,
+                    "text": "Kortenkamp & Moore, 2006)",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 2302,
+                    "end": 2320,
+                    "text": "(Ban et al., 2019;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 2321,
+                    "end": 2344,
+                    "text": "Madrigano et al., 2018)",
+                    "ref_id": "BIBREF50"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Finally, we observed that both individual-level and country-level characteristics, which act as control variables in our research model, are associated with citizens' preference for long-term altruistic policies. On the individual level, citizens with specific socio-demographic characteristics (e.g., females, young persons and elders, persons in a higher social-class, and persons with advanced degrees) exhibit a higher preference for long-term altruistic policies. As previous literature suggests (Belanche Gracia et al., 2015; Earl et al., 2017; Inglehart, 1995; Gifford & Nilsson, 2014; Zelezny et al., 2000) , sociodemographic characteristics are associated with certain values and goals (e.g., stronger care ethic, quality of life, engagement with social issues, post-materialistic thinking, etc.) that may explain this preference. These results allow us to determine the sociodemographic profiles of citizens with long-term altruistic vs. short-term non-altruistic policy preferences. Additionally, our results confirm that left-leaning individuals show a greater preference for long-term altruistic policies, as previous studies that drew attention to political ideology suggest (e.g. Margalit, 2013; Shaw and Shapiro 2005; Shapiro 2009; Zettler & Hilbig, 2010) . On the country level, the results indicate that not only stresses J o u r n a l P r e -p r o o f caused by the virus in each country, but also the country's particular characteristics, are decisive in constructing policy preferences. In this way, similarly to what happens with the growth in the unemployment rate levels caused by COVID-19, a preference for shortterm non-altruistic policies is higher among citizens from countries with a lower GDP per capita (as they are in a worst economic situation in general). In addition, in those countries with a higher population density, which may make it more difficult to guarantee social distancing, the preference for altruistic policies is higher. Finally, our results are in line with the proposals of Hofstede's cultural dimensions framework (Hofstede Insights, 2020). Specifically, persons living in collectivistic countries, probably as a result of the values associated to these cultures (i.e., looking after each other to a greater extent), have a greater preference for long-term altruistic policies.",
+            "cite_spans": [
+                {
+                    "start": 501,
+                    "end": 531,
+                    "text": "(Belanche Gracia et al., 2015;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 532,
+                    "end": 550,
+                    "text": "Earl et al., 2017;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 551,
+                    "end": 567,
+                    "text": "Inglehart, 1995;",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 568,
+                    "end": 592,
+                    "text": "Gifford & Nilsson, 2014;",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 593,
+                    "end": 614,
+                    "text": "Zelezny et al., 2000)",
+                    "ref_id": "BIBREF79"
+                },
+                {
+                    "start": 1195,
+                    "end": 1210,
+                    "text": "Margalit, 2013;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1211,
+                    "end": 1233,
+                    "text": "Shaw and Shapiro 2005;",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 1234,
+                    "end": 1247,
+                    "text": "Shapiro 2009;",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 1248,
+                    "end": 1271,
+                    "text": "Zettler & Hilbig, 2010)",
+                    "ref_id": "BIBREF80"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The results of this study offer interesting implications for public management.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Implications for policy management"
+        },
+        {
+            "text": "Overall, policy-makers might exploit the results revealed by our study in order to achieve a more integrated approach to policy-making where economic, health, altruistic, and environmental actions reinforce each other rather than compete among each other (Allain-Dupr\u00e9, 2020). In times of crisis, such as the one we are currently experiencing, people tend to behave more selfishly and they prioritize economic and health policies that have an immediate effect on their person, instead of pursuing more altruistic approaches that benefit society as a whole (Margalit, 2013) . Therefore, it has never been more important to make the response strategies to COVID-19 distinct from any economic recovery plans that have ever been seen before (UNEP, 2020) . This study offers a valuable contribution for policy-makers in this regard, because it is proposed different factors that contribute to a preference for long-term altruistic policies among citizens.",
+            "cite_spans": [
+                {
+                    "start": 556,
+                    "end": 572,
+                    "text": "(Margalit, 2013)",
+                    "ref_id": null
+                },
+                {
+                    "start": 737,
+                    "end": 749,
+                    "text": "(UNEP, 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Implications for policy management"
+        },
+        {
+            "text": "As many international organizations have highlighted (e.g., OECD), recovery investment strategies ought to align with ambitious, long-term policies that tackle climate change and environmental damage. As Allain-Dupr\u00e9, a division head in OECD, stated \"post-crisis recovery strategies are a unique opportunity for governments to allocate recovery funds to sustainable initiatives\" (Allain-Dupr\u00e9 et al., 2020, p. 59) . Thus, policymakers ought to discover ways of promoting an environmentally-sound and altruisticresponsible vision. Based on our findings, environmental concern can have an important role in this effort, since persons that are environmentally concerned have enough of a farsighted view to perceive future threats of COVID-19, which affects their preference towards social, environmental, and long-term altruistic-oriented policies over the shortterm non-altruistic counterparts. To increase citizens' environmental concern, policy administrators are benefited by developing public strategies that can consider the experiences and lessons learned during this crisis, since personal experience is the strongest predictor of environmental concern (Gifford and Nilsson, 2014) . For example, policy administrators can make use of scientific findings generated during this crisis that imply socially-responsible behavior (e.g., reducing private transportation, recycling, etc.) that have helped to improve the environment (Elsaid et al., 2021) . This approach would show that it is still possible to combat climate change and address the environmental emergency by putting into the spotlight of public debate the need to change behavior towards those integrating long-term vision of the problem. Furthermore, governments can be benefited by convincing citizens that environmental policies are aligned with economic growth, for example by focusing on key sustainable areas (e.g., deployment of renewable energy and energy-efficient industries) that yield substantial economic growth and millions of decent jobs (UNEP, 2020).",
+            "cite_spans": [
+                {
+                    "start": 379,
+                    "end": 413,
+                    "text": "(Allain-Dupr\u00e9 et al., 2020, p. 59)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1158,
+                    "end": 1185,
+                    "text": "(Gifford and Nilsson, 2014)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 1430,
+                    "end": 1451,
+                    "text": "(Elsaid et al., 2021)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "This study also demonstrates that if governments want to effectively introduce longterm, socially sustainable policies in response to the COVID-19 crisis, it is necessary to consider the peculiarities of the country they are being implemented in. This is especially important in supranational governments, such as the European Union, where a common response to the coronavirus pandemic is being coordinated. Thus, our results provide evidence that depending on the COVID-19-related public health and economic problems suffered in the country, citizens have a stronger preference towards one specific type of policy that moves away from a more integrated vision. Therefore, in those countries where COVID-19 has had a greater impact on their economies, the effort of governments towards a more altruistic and environmental citizen-oriented perspective ought to be greater. At this point, our study highlights, again, the importance of developing environmental campaigns since this type of campaigns can diminish the national vision that is focused only on economic aspects and can increase disinterested and selfless concern for the well-being of others (altruism). Furthermore, this study indicates that supranational governments should pay special attention to those countries with a lower GDP per capita and an individualistic culture when introducing environmental, health, and social policies. Thus, although the response to this crisis is carried out jointly in different countries, the way in which policies are introduced must differ in order to achieve greater acceptance by citizens. Finally, this study also assists policy-makers in determining the sociodemographic profiles of citizens with long-term altruistic policy preferences. This knowledge can be used by policy administrators to develop bettertailored public strategies to increase support for certain policies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "To sum up, the results of our study can improve future global crisis management by adding new drivers that facilitate quicker policy acceptance and support by citizens. It is important to highlight, in this sense, that global crises will become more and more usual J o u r n a l P r e -p r o o f in the future decades. Contagious diseases that cause global health problems will become increasingly relevant as a consequence of human expansion and interference with remote ecosystems and the natural environment (Johnson et al., 2020; Settele et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 511,
+                    "end": 533,
+                    "text": "(Johnson et al., 2020;",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 534,
+                    "end": 555,
+                    "text": "Settele et al., 2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "J o u r n a l P r e -p r o o f"
+        },
+        {
+            "text": "Despite the interesting results uncovered, this research has some limitations that suggest possibilities for further research. First, even though the survey used in this study provides nationally representative data from several European countries, the estimates rely on cross-sectional data to test a relationship between our independent variables (i.e., environmental concern, country-level and individual-level characteristics) and citizens' preference for long-term altruistic policies. As a result, the association tests cannot establish causal influences and additional research should go a step further by collecting longitudinal data. Second, we used several sources to construct our data set, but two key variables of our research (i.e., environmental concern and citizens' preference for longterm altruistic policies) were obtained from the Eurobarometer, for which the main purpose is not identical to the research goals of this study. The authors did not participate in the questionnaire development and we could not propose additional and more appropriate measurement scales, nor consider other variables than those provided. Third, due to the previous limitations, R 2 levels are quite low as it is usual when working with cross-sectional data. Including personality traits of the respondents could have been helpful to explain their policy preference, but we were limited to the information included in the survey. Fourth, this paper focuses on a specific pandemic, COVID-19, which has unique characteristics. Therefore, replications of the research model in future pandemics can produce different results depending on the characteristics of the pandemic (e.g., mortality). Finally, we have to take into account that our research draws attention to initial stages of the pandemic, where there was not any campaign of vaccination ongoing, there J o u r n a l P r e -p r o o f were still plenty of restrictions in movements, and the population had even suffered a lack of available health services in some hard moments. Analyzing how crucial achievements (e.g. vaccine authorization and availability, reducing travel restrictions, COVID vaccination passports, etc.) alter citizens' preferences may be of great interest too.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations and future work"
+        },
+        {
+            "text": "Bearing all these factors in mind, researchers should be cautious in considering these results to be conclusive or generalizable; but, to these authors' knowledge, this is the first investigation of the role of environmental concern in understanding citizens' preferences for policies that deal with COVID-19; this study contributes to an emerging body of literature and provides a possible starting point for further research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Limitations and future work"
+        },
+        {
+            "text": "In general, this study contributes to understanding how a preference towards longterm altruistic policies ha been constructed during the COVID-19 crisis. This understanding is significant since successful responses to this crisis require more integrated approaches where long-term social, environmental, and health aspects also play a prominent role. Our results indicate that that a wide range of factors influence preferences for long-term altruistic policies. On the one hand, these preferences are explained by country-level characteristics such as COVID-19-related problems and intrinsic country variables (e.g., population density, GDP, and individualism vs collectivism). On the other hand, at the individual level, this study shows that citizens with some specific socio-demographic characteristics (e.g., females, younger persons and elders, persons in high social classes, and persons with advanced degrees) exhibit a higher preference for long-term altruistic policies. Therefore, governments ought to pay attention to these characteristics when introducing policies to mitigate COVID-19 effects and other related future policy efforts. Finally, the most important conclusion derived from this study is the importance of improving the design and implementation of institutional J o u r n a l P r e -p r o o f measures that focus on incrementing levels of individual environmental concern. As can be seen from the results presented, environmental concern plays an important role as a facilitating lever for the successful introduction of long-term altruistic policies (e.g., socially-responsible and health-oriented). In this sense, it was discovered that environmental concern not only acts as a motivator for these policy preferences, but it can also help reduce the opposing vision of materialistic policies in instances where health and economic effects of the crisis have been high in the country. 1 Developing the financial means to find a treatment or vaccine +1 2 Ensure the management and coordination of a reserve of strategic medical devices that is common to all the Member States of the European Union +1 3 Ensure coordination between the Member States of the European Union on a financial level -1 4 Increase the budget of the European Union -1 5 Promote the transfer of industries to the European Union -1 6 Provide more financial support to the most affected regions of the European Union +1 7 Impose stricter control of the external borders of the European Union -1 8 Allow the Member States of the European Union to support their economy, for example through state aid 0 9 Establish a strategy to deal with a similar crisis in the future +1 10 Promote dialogue and solidarity among the Member States of the European Union +1 11 Review the principle of free movement between the Member States of the European Union -1 12 Developing a European health policy +1 13 Investing more money in the economy to achieve a sustainable, inclusive and equitable recovery in all Member States of the European Union +1 J o u r n a l P r e -p r o o f ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSIONS"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Equitable pandemic preparedness and rapid response: lessons from COVID-19 for pandemic health equity",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Alberti",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lantz",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wilkins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Health Polit. Policy Law",
+            "volume": "45",
+            "issn": "",
+            "pages": "921--935",
+            "other_ids": {
+                "DOI": [
+                    "10.1215/03616878-8641469"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The multi-level governance imperative",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Allain-Dupr\u00e9",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Br. J. Polit. Int. Relations",
+            "volume": "22",
+            "issn": "",
+            "pages": "800--808",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1369148120937984"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The territorial impact of COVID-19 : managing the crisis across levels of government",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Allain-Dupr\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Chatry",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Michalun",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Moisio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Health-risk perception and its mediating effect on protective behavioral adaptation to heat waves",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ban",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Environ. Res",
+            "volume": "172",
+            "issn": "",
+            "pages": "27--33",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.envres.2019.01.006"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "City attachment and use of urban services: Benefits for smart cities",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Belanche",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Casal\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Or\u00fas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Cities",
+            "volume": "50",
+            "issn": "",
+            "pages": "75--81",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The effect of culture in forming e-loyalty intentions: A cross-cultural analysis between Argentina and Spain",
+            "authors": [
+                {
+                    "first": "Belanche",
+                    "middle": [],
+                    "last": "Gracia",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Casal\u00f3 Ari\u00f1o",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Guinal\u00edu Blasco",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "BRQ Bus. Res. Q",
+            "volume": "18",
+            "issn": "",
+            "pages": "275--292",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.brq.2015.02.003"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Inferring the effectiveness of government interventions against COVID-19. Science (80-. ). 371",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kulveit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.abd9338"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Perception of Environmental Threat in the Shadow of War: The Effect of Future Orientation",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Carmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bartal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Hum. Ecol. Risk Assess",
+            "volume": "20",
+            "issn": "",
+            "pages": "872--886",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Intergenerational association of environmental concern: Evidence of parents' and children's concern",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Casal\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Escario",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Environ. Psychol",
+            "volume": "48",
+            "issn": "",
+            "pages": "65--74",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "COVID-19 Government Response Event Dataset (CoronaNet v.1.0)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Barcel\u00f3",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hartnett",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kubinec",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Messerschmidt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Hum. Behav",
+            "volume": "4",
+            "issn": "",
+            "pages": "756--768",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41562-020-0909-7"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "How did covid-19 and stabilization policies affect spending and employment? A new real-time economic",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Chetty",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Friedman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hendren",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stepner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3561560"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Environmental concern: Conceptual and measurement issues",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dunlap",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Handb. Environ. Sociol",
+            "volume": "3",
+            "issn": "",
+            "pages": "482--254",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Youth, activism, and social movements",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Earl",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Maher",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Elliott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Sociol. Compass",
+            "volume": "11",
+            "issn": "",
+            "pages": "1--14",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/soc4.12465"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Effects of COVID-19 on the environment: An overview on air, water, wastewater, and solid waste",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Elsaid",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Olabi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Sayed",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wilberforce",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Abdelkareem",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J. Environ. Manage",
+            "volume": "292",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "EPRS, 2020. BRIEFING EU response to the coronavirus pandemic : Citizens ' views and expectations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The influence of environmental attitudes and perceived effectiveness on recycling, reducing, and reusing packaging materials in Spain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Escario",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rodriguez-Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Casal\u00f3",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Waste Manag",
+            "volume": "113",
+            "issn": "",
+            "pages": "251--260",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Recovery plan for Europe | European Commission [WWW Document",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "GESIS Data Archive, Cologne. ZA7649 Data file Version",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "European Commission",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.4232/1.13746.https:/doi.org/10.4232/1.13696"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Verification results for age-structured models of economic-epidemics dynamics",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fabbri",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gozzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zanco",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J. Math. Econ",
+            "volume": "93",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Values and sustainable lifestyles",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Gatersleben",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "White",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Abrahamse",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Jackson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Uzzell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Archit. Sci. Rev",
+            "volume": "53",
+            "issn": "",
+            "pages": "37--50",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Personal and social factors that influence proenvironmental concern and behaviour: A review",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gifford",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nilsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Int. J. Psychol",
+            "volume": "49",
+            "issn": "",
+            "pages": "141--157",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Beware of climate change skeptic films",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Greitemeyer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Environ. Psychol",
+            "volume": "35",
+            "issn": "",
+            "pages": "105--109",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jenvp.2013.06.002"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Challenges and practices on waste management and disposal during COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Hantoko",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pariatamby",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yoshikawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Horttanainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J. Environ. Manage",
+            "volume": "286",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Ranking the effectiveness of worldwide COVID-19 government interventions",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Haug",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Geyrhofer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Londei",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dervic",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Desvars-Larrive",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Loreto",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pinior",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thurner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Klimek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat. Hum. Behav",
+            "volume": "4",
+            "issn": "",
+            "pages": "1303--1312",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Will COVID-19 fiscal recovery packages accelerate or retard progress on climate change?",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hepburn",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "O&apos;callaghan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Stiglitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zenghelis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Oxford Rev. Econ. Policy",
+            "volume": "36",
+            "issn": "",
+            "pages": "359--381",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/oxrep/graa015"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "National Culture [WWW Document",
+            "authors": [
+                {
+                    "first": "Hofstede",
+                    "middle": [],
+                    "last": "Insights",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "What do we mean by \"culture",
+            "authors": [
+                {
+                    "first": "Hofstede",
+                    "middle": [],
+                    "last": "Insights",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Public support for environmental protection: Objective problems and subjective values in 43 societies",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Inglehart",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Polit. Sci. Polit",
+            "volume": "28",
+            "issn": "",
+            "pages": "57--72",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Global shifts in mammalian population trends reveal key predictors of virus spillover risk",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hitchens",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Pandit",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rushmore",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C W"
+                    ],
+                    "last": "Young",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Doyle",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc. R. Soc. B Biol. Sci",
+            "volume": "287",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1098/rspb.2019.2736"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Ordinal measures in multiple indicator models: A simulation study of categorization error",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Creech",
+                    "suffix": ""
+                }
+            ],
+            "year": 1983,
+            "venue": "American Sociological Review",
+            "volume": "48",
+            "issn": "",
+            "pages": "398--407",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Five Lessons from COVID-19 for Advancing Climate Change Mitigation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klenert",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Funke",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mattauch",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "O&apos;callaghan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environ. Resour. Econ",
+            "volume": "76",
+            "issn": "",
+            "pages": "751--778",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Time, uncertainty, and individual differences in decisions to cooperate in resource dilemmas",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Kortenkamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Moore",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Personal. Soc. Psychol. Bull",
+            "volume": "32",
+            "issn": "",
+            "pages": "603--615",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0146167205284006"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "A global survey of potential acceptance of a COVID-19 vaccine",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Lazarus",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Ratzan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Palayew",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Gostin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Larson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Rabin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kimball",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "El-Mohandes",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nat. Med",
+            "volume": "27",
+            "issn": "",
+            "pages": "225--228",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-1124-9"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Health vs. wealth? public health policies and the economy during covid-19",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Meissner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "COVID-19: Lessons for the climate change emergency",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Manzanedo",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Manning",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci. Total Environ",
+            "volume": "742",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Awareness, Risk Perception, and Protective Behaviors for Extreme Heat and Climate Change in New York City",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Madrigano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lane",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Petrovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Blum",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Matte",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Int. J. Environ. Res. Public Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Explaining social policy preferences: Evidence from the great recession",
+            "authors": [],
+            "year": 2013,
+            "venue": "Am. Polit. Sci. Rev",
+            "volume": "107",
+            "issn": "",
+            "pages": "80--103",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijerph15071433Margalit"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "The intergenerational transmission of environmental concern: The influence of parents and communication patterns within the family",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Meeusen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Environ. Educ",
+            "volume": "45",
+            "issn": "",
+            "pages": "77--90",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/00958964.2013.846290"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "The impact of COVID 19 on air pollution levels and other environmental indicators -A case study of Egypt",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mostafa",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gamal",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wafiq",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J. Environ",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Coronavirus: El dilema entre salud p\u00fablica y econom\u00eda que plantea el Covid-19 | Alternativas | EL PA\u00cdS",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Olmos",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "How trust and emotions influence policy acceptance: The case of the Irish water charges",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Rodriguez-Sanchez",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Schuitema",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Claudy",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sancho-Esper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Why ordinal variables can (almost) always be treated as continuous variables: Clarifying assumptions of robust continuous and ordinal factor analysis estimation methods",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Robitzsch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Frontiers in Education",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Annual Fall Research Conference of the Association of Public Policy Analysis and Management",
+            "authors": [
+                {
+                    "first": "Shapiro",
+                    "middle": [],
+                    "last": "Robert",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "5--7",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Polling America: An Encyclopedia of Public Opinion",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Shapiro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "880--892",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Value Orientations, Gender, and Environmental Concern",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stern",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dietz",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Kalof",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Environ. Behav",
+            "volume": "25",
+            "issn": "",
+            "pages": "322--348",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0013916593255002"
+                ]
+            }
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "The Consideration of Future Consequences",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Strathman",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gleicher",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Boninger",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Edwards",
+                    "suffix": ""
+                }
+            ],
+            "year": 1994,
+            "venue": "J. Pers. Soc. Psychol",
+            "volume": "66",
+            "issn": "",
+            "pages": "742--752",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Who feels a greater environmental risk? Women, younger adults and pro-environmentally friendly people express higher concerns about a set of environmental exposures",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Subiza-P\u00e9rez",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Santa Marina",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Irizar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gallastegi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Anabitarte",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Urbieta",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Babarro",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Molinuevo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Vozmediano",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ibarluzea",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "Epidemiology and diagnosis, environmental resources quality and socio-economic perspectives for COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Suthar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nagpure",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Madhurantakam",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Tiwari",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gahlot",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Tyagi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J. Environ. Manage",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jenvman.2020.111700"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "The post-COVID-19 recovery : How to articulate integrated responses to the health, economic and climate crises in Latin America & the Caribbean",
+            "authors": [],
+            "year": 2020,
+            "venue": "UNEP",
+            "volume": "",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {}
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "WHO, 2021. WHO Coronavirus (COVID-19) Dashboard | WHO Coronavirus",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Dashboard With Vaccination Data [WWW Document",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "The Global Economic Outlook During the COVID-19 Pandemic: A Changed World",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "The moderating role of individual differences in responses to benefit and temporal framing of messages promoting residential energy saving",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Arpan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Fei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Environ. Psychol",
+            "volume": "44",
+            "issn": "",
+            "pages": "95--108",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Climate change vulnerability and policy support",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zahran",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Brody",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Grover",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vedlitz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Soc. Nat. Resour",
+            "volume": "19",
+            "issn": "",
+            "pages": "771--789",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Elaborating on gender differences in J o u r n a l P r e -p r o o f environmentalism",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Zelezny",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Chua",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Aldrich",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J. Soc. Issues",
+            "volume": "56",
+            "issn": "",
+            "pages": "443--457",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/0022-"
+                ]
+            }
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "Attitudes of the selfless: Explaining political orientation with altruism",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Zettler",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hilbig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Personality and Individual Differences",
+            "volume": "48",
+            "issn": "3",
+            "pages": "338--342",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "declare the following financial interests/personal relationships which may be considered as potential competing interests",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.paid.2009.11.002"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "CEP: Percent change in the country's unemployment rate, where is compared at the end of the second quarter of 2019 and at the end of the second quarter of 2020; this is the last figure available before the Eurobarometer was conducted. COVID-19 Health Problems (CHP: COVID-19 cases per million of inhabitants collected at the end of June 2020);",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ", since the last two hypotheses consider the interaction of this variable with economic and health related problems caused by COVID-19. The individual and country level control variables are the following. Female (1 = yes, 0 = otherwise); Age (age of the respondent); Age Squared; Political Ideology (index score from 1 [the most to the left] to 10 [the most to the right]); Education (index from 1 to 10 indicating if respondent has up to 14, 15, etc. years of education); Class Low, Cass Middle and Class High (three dichotomous variables indicating if the respondent selfreported that they belongs to each class; Class Low is the reference category); Population Density (country's population density); GDP pc 2019 (Gross Domestic Product per capita in 2019 of the participant's country); Individualism (Hofstede index).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "-------------------------------------------INSERT TABLE 2 ABOUT HERE --------------------------------------------J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "------------------------------------------Regarding the rest of the self-reported sociodemographic predictors, the results",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "DISTRIBUTION FREQUENCY OF THE DEPENDENT VARIABLE.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "ENVIRONMENTAL CONCERN AND COVID-19 HEALTHPROBLEMS INTERACTION EFFECTS ON POLICY PREFERENCES TABLE 1. MEASURES OF PREFERENCE FOR LONG-TERM ALTRUISTICPOLICIES ItemsClassification",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Population Densityc + 9 GDP pc 2019c + 10 Individualismc + 11 CEPc + 12 CHPc + 13 ECi + 14 CEP*ECi + 15 CHP*ECi)+ i",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "The authors declare no conflict of interest.tracker based on private sector data (No. 27431).Correia, S., Luck, S., Verner, E., 2020. Pandemics depress the economy, public health Notes: Solid lines represent direct associations (blue lines represent positive association, red lines represent negative association and yellow line represents u-shape association). Dashed lines represent interactions between environmental concern and country-level COVID-related problems.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "DESCRIPTIVE ANALYSIS Data come from: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, and Sweden.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "REGRESSION ESTIMATES <0.001 1.028 1.013 -1.044 <0.001 1.028 1.013 -1.044 <0.001 J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

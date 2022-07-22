@@ -1,0 +1,3080 @@
+{
+    "paper_id": "27760d44d866fdfd4406a1c11db9489d7ac23d2d",
+    "metadata": {
+        "title": "A study on catalytic and non-catalytic sites of H5N1 and H1N1 neuraminidase as the target for chalcone inhibitors",
+        "authors": [
+            {
+                "first": "Pandu",
+                "middle": [],
+                "last": "Hariyono",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jasvidianto",
+                "middle": [],
+                "last": "Chriza Kotta",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Christophorus",
+                "middle": [],
+                "last": "Fideluno Adhipandito",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Eko",
+                "middle": [],
+                "last": "Aprilianto",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Evan",
+                "middle": [
+                    "Julian"
+                ],
+                "last": "Candaya",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Habibah",
+                "middle": [
+                    "A"
+                ],
+                "last": "Wahab",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Maywan",
+                "middle": [],
+                "last": "Hariono",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The H1N1 pandemic in 2009 and the H5N1 outbreak in 2005 have shocked the world as millions of people were infected and hundreds of thousands died due to the infections by the influenza virus. Oseltamivir, the most common drug to block the viral life cycle by inhibiting neuraminidase (NA) enzyme, has been less effective in some resistant cases due to the virus mutation. Presently, the binding of 10 chalcone derivatives towards H5N1 and H1N1 NAs in the non-catalytic and catalytic sites was studied using molecular docking. The in silico study was also conducted for its drug-like likeness such as Lipinski Rule, mutagenicity, toxicity and pharmacokinetic profiles. The result demonstrates that two chalcones (1c and 2b) have the potential for future NA inhibitor development. Compound 1c inhibits H5N1 NA and H1N1 NA with IC 50 of 27.63 \u00b5M and 28.11 \u00b5M, respectively, whereas compound 2b inhibits NAs with IC 50 of 87.54 \u00b5M and 73.17 \u00b5M for H5N1 and H1N1, respectively. The in silico drug-like likeness prediction reveals that 1c is 62% better than 2b (58%) in meeting the criteria. The results suggested that 1c and 2b have potencies to be developed as non-competitive inhibitors of neuraminidase for the future development of anti-influenza drugs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The novel Severe Acute Respiratory Syndrome (SARS) coronavirus, SARS-CoV-2, which was first discovered in December 2019 in Wuhan, China, infected approximately 64,000 people with about 1400 deaths announced at that time, mainly in China [1] . At almost the same time, the country was also reportedly dealing with an outbreak of the deadly H5N1 avian influenza in Hunan, an area that borders Hubei, the province where the new coronavirus emerged, according to the South China Morning Post [2] . As of February 1, 2020, local authorities had culled 17,828 poultries after the H5N1 outbreak, according to China's Ministry of Agriculture and Rural Affairs statement [3] .",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 240,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 488,
+                    "end": 491,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 662,
+                    "end": 665,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Fortunately, there are no reported human cases of this H5N1 avian flu, although the transmission of the disease to humans had been reported since the first infection to humans recorded in 2003 [4] .",
+            "cite_spans": [
+                {
+                    "start": 193,
+                    "end": 196,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Since the H5N1 outbreak in 2005, the world has been prepared for the impending influenza pandemic, and in 2009, H1N1 strains emerged and threatened humanity with its spread in more than 70 countries [5] . However, the severity of the 2009 H1N1 pandemic was modest compared to the H5N1 outbreak. H5N1 strain is considered particularly dangerous because of its human fatality rate of over 50% to date and because of the risk that the virus may develop the ability to pass efficiently between humans. As of October 2020, the World Health Organization (WHO) reported a total of 861 confirmed human cases which resulted in the deaths of 455 people since 2003 [6] . Thus, these instances in history warrant an enhanced pandemic preparedness, especially in this COVID-19 season. Although there have been no detected complications across the population in either seasonal or pandemic H1N1 influenza, the elderly patient has a higher risk for hospitalization and mortality during the seasonal H1N1 influenza [7] . In particular, patients having specific chronic conditions such as heart disorder, lung disease, hyperglycemia, renal failure, rheumatics, dementia, and thromboembolism are at high risk of influenza complications [8, 9] .",
+            "cite_spans": [
+                {
+                    "start": 199,
+                    "end": 202,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 654,
+                    "end": 657,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 999,
+                    "end": 1002,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1218,
+                    "end": 1221,
+                    "text": "[8,",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1222,
+                    "end": 1224,
+                    "text": "9]",
+                    "ref_id": "BIBREF8"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The influenza virus is known to be rapidly mutated in which oral anti-influenza, oseltamivir (Tamiflu), has been less potent to the H1N1 infection [10] . Therefore, a study on finding a new anti-influenza agent should be continuously encouraged. Neuraminidase is the most common targeted protein in the therapy of influenza, although hemaglutinin and M2 ion channels were also studied [11] . NA has an important role in cleaving new virions from the infected cell [12] . Once it is blocked, the new virus could not spread over other organs [13] . Reverting to the problem of virus resistance, a new chemical that has not been recognized by the virus is highly desired [14] .",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 151,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 385,
+                    "end": 389,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 464,
+                    "end": 468,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 540,
+                    "end": 544,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 668,
+                    "end": 672,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "A series of chalcone compounds have been reported to demonstrate anti-neuraminidase activity [15] together with their quantitative-structure activity relationships (QSARs) study. The QSAR model suggested that a functional group having electronic characters would increase the activity of the chalcone. In contrast, the steric effect would decrease its activity against H1N1 NA. Other chalcones having anti-NA activities were isolated from Glycyrrhiza uralensis [16] , Erythrina addisoniae [17] , Glycyrrhiza inflate [18] , Polygala karensium [18] , and Angelica keiskei [19] further supporting the claim of chalcones as potential NA inhibitors.",
+            "cite_spans": [
+                {
+                    "start": 93,
+                    "end": 97,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 461,
+                    "end": 465,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 489,
+                    "end": 493,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 516,
+                    "end": 520,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 542,
+                    "end": 546,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 570,
+                    "end": 574,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "However, upon inspection of the chemical structure, chalcone might not be a favorable scaffold for NA inhibitors which usually belong to the shikimic acid structure. The shikimic acid inhibitors such as oseltamivir and zanamivir bind to the catalytic site of NA, which is a small pocket surrounded by basic sub-pocket, acidic subpocket as well as hydrophobic sub-pocket alongside its conserved amino acid residues [20] . Chalcone is a phenyl ring extended by an \u03b1,\u03b2-unsaturated carbonyl with various alkyl or aryl moieties next to the carbonyl group, making it too bulky to fit into the NA catalytic site [21] . A chalcone compound, namely 2-amino-5-[3-[4-[(E)-4chloro-3-oxobut-1-enyl]anilino]propyl]-4-methyl-1H-pyrimidin-6-one (NSC89853) is reported to show H5N1 NA inhibition from the screening of 20 compounds from NCI database. This inhibition may be due to the binding to the protein with an alternative mode, that is different from the known drugs (oseltamivir or zanamivir). Although the potency of such a compound was not as strong as the known drugs, it may overcome the drug i.e. H274Y for the N1 protein [22] .",
+            "cite_spans": [
+                {
+                    "start": 414,
+                    "end": 418,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 605,
+                    "end": 609,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1116,
+                    "end": 1120,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In one of the more recent research, safflomin A (SA) was reported to show inhibition against NAs from H1N1 and H3N2 influenza viruses. The antiviral assay using MDCK cells which was infected by H1N1 and H3N2 influenza virus exhibited the synergistic effect of SA with oseltamivir in viral cell proliferation. The kinetics study of SA demonstrated a non-competitive inhibition against N1 and N2 NA. Furthermore, a molecular docking study predicted that SA interacted with N1 and N2 NA at the non-catalytic site. These results suggested that SA, which has a chalcone backbone, may serve as a potential therapeutic option to the currently available anti-influenza agents to overcome the drug resistance [23] . The structure of NSC89853, SA, oseltamivir and zanamivir are presented in Fig. 1 .",
+            "cite_spans": [
+                {
+                    "start": 700,
+                    "end": 704,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 781,
+                    "end": 787,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "In this present study, we examined 10 chalcone derivatives for their predicted binding affinities into the noncatalytic site of H1N1 and H5N1 NA using a molecular docking study. The non-catalytic location is at the back of the NA's catalytic site within loop 150. Molecular docking of chalcones into the NA catalytic site was also conducted to compare their predicted binding affinities with the ones in the non-catalytic site. Further in silico studies to predict the drug-like likeness were also carried out employing Lipinski Rule, pharmacokinetic profile and toxicity prediction. The study was then followed by testing for their biological activities against H5N1 and H1N1 NA using in vitro MUNANA assay. In addition, the safety index was also calculated by studying the cytotoxicity effect of the most active compound toward a normal cell. Two chalcones demonstrated potential activity as neuraminidase of H5N1 and H1N1 inhibitors, respectively, with low toxicities to the normal cell lines and predicted to have considerably good drug-like structures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The ten chalcone derivatives have been predicted for their molecular interactions using docking study as presented in Table 1 . The \u0394G bind ranged at \u2212 6.12 to \u2212 7.97 kcal/mol and \u2212 6.34 to \u2212 8.31 kcal/mol at H1N1 NA and H5N1 NA non-catalytic sites, respectively. These results describe that chalcone has a potency from a low to moderate micromolar activity (K i 32.71 to 1.44 \u00b5M at H1N1 NA; and K i 22.58 to 0.82 \u00b5M at H5N1 NA) to bind at this non-catalytic site and disrupt the enzyme activity. The superimposition of ten chalcone derivatives in the non-catalytic site of H1N1 and H5N1 NAs is illustrated in Fig. 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 118,
+                    "end": 125,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 610,
+                    "end": 616,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Molecular docking"
+        },
+        {
+            "text": "To compare the binding mode of the ligands to the common site, a molecular docking study was also conducted into the H1N1 and H5N1 NA catalytic sites. The parameterization of molecular docking was controlled by re-docking oseltamivir-triazole into the H1N1 NA and oseltamivir into the H5N1 NA catalytic site. This resulted in RMSD 1.02 \u00c5 of the most populated cluster (85%) with \u0394G bind \u2212 9.35 kcal/mol at H1N1 NA, whereas the RMSD of oseltamivir at H5N1 NA active site was 1.9 \u00c5 of the most populated cluster (74%) with the lowest energy (\u0394G bind \u2212 7.52 kcal/mol). This defines that the parameter is accepted for further docking of chalcone compounds. The control docking pose of ligands to their individual NA which are overlapped with its initial pose is presented in Additional file 1: Figure S1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 790,
+                    "end": 799,
+                    "text": "Figure S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Molecular docking"
+        },
+        {
+            "text": "The control docking pose closely interacts with the conserved amino acid residues such as ARG118, ASP151, TRP179, ARG293, ARG368 and TYR402 via hydrogen bondings. The parameter of that control docking is then used to dock 10 chalcone derivatives into both H1N1 and H5N1 NA active site binding pockets. The docking results of 10 chalcone derivatives are presented in Table 2 represented by the \u0394G bind , interacting residues and the predicted K i . The docking into H1N1 results in \u0394G bind Fig. 1 The structure of a NSC89853, and b SA, which are suggested to be non-catalytic site inhibitors of H5N1 and H1N1, respectively, whereas c oseltamivir, and d zanamivir are known NA inhibitors targetting the catalytic sites Fig. 3 . The calculated energies of docked chalcones into the H1N1 catalytic site are likely lower than that of H1N1 at the non-catalytic one.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 366,
+                    "end": 373,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 489,
+                    "end": 495,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 717,
+                    "end": 723,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Molecular docking"
+        },
+        {
+            "text": "In contrast, the chalcones docked into the H5N1 have ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Molecular docking"
+        },
+        {
+            "text": "According to the Lipinski Rule, an ideal drug should have a molecular weight (MW) which is less than 500 Da, < 5 log P, \u2264 5 Hydrogen Bond Donor (HBD), \u2264 10 Hydrogen Bond Acceptor (HBA), \u2264 10 rotatable bonds, and \u2264 140 \u00c5 surface area [24, 25] . The potency of the compound to be drug is commonly expressed by IC 50 , which is affected by its MW. The more potent drug should have a higher MW to minimize its dose in performing a pharmacological activity. Nevertheless, the MW should not be higher than 500 considering the drug absorption via the intestinal membrane [24] . The log P is the concentration of the compound in n-octanol divided by its concentration in water. Therefore, it reflects the balance of the compound's solubility in water during oral dissolution steps with its oral bioavailability in the blood system [24, 25] . The ideal log P < 5 indicates that the compounds are well soluble in the body fluid as well as absorbed through the gastrointestinal cell membrane, which then be transferred into the blood vascular. On the other hand, the number of HBD or HBA is associated with polarity to interact with water during the dissolution process as well as their molecular interaction via hydrogen bond with its receptor [24] . The rotatable bonds may influence their stability during ADME (absorption, distribution, metabolism, and excretion) and the receptor binding. Thus, the less flexible the chain in the molecule, the more stable the drug is to perform its activity [25] . The Polar Surface Area (PSA) is related to the permeability of drugs across the cell membrane in which the higher the PSA, the poorer the cell permeability (oral bioavailability) is [25] .",
+            "cite_spans": [
+                {
+                    "start": 233,
+                    "end": 237,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 238,
+                    "end": 241,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 564,
+                    "end": 568,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 823,
+                    "end": 827,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 828,
+                    "end": 831,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1234,
+                    "end": 1238,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1486,
+                    "end": 1490,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1675,
+                    "end": 1679,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Lipinski rule"
+        },
+        {
+            "text": "In general, the results show that all chalcones meet the MW, the number of HBD, HBA and the rotatable bonds requirements. However, compounds 2b and 3b slightly deviate on the log P limit, whereas compounds 2c, 3c and 4b do not fulfill the limit of the surface area requirement. Table 3 presents the chalcones with their Lipinski Rule profiles.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 278,
+                    "end": 285,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                }
+            ],
+            "section": "Lipinski rule"
+        },
+        {
+            "text": "The in silico toxicity predictions have become a routine before processing compounds to be drug candidates. In this study, we also predicted the mutagenicity and toxicity profiles of the 10 chalcones. Generally, a compound's mutagenic properties are usually confirmed using the AMES test [26, 27] . The human Maximum Tolerated Dose (hMTD) is acceptable when the predicted toxic dose threshold in humans is more than 0.477. The potassium channels that mediate the cardiac repolarization in humans are represented by the values of hERG I and II. Hence, inhibiting this kind of protein would cause a long QT syndrome development that might lead to a fatal arrhythmia. The in vivo toxicity is often expressed LOAEL (lowest-observed-adverse-effect level) associates with the compound's lowest concentration which causes an adverse effect in human physiology. This is indicated by the alteration of morphology, function, growth, or development. The safety of a compound is higher as the LOAEL value increases. The liver injury commonly reflects the drug hepatotoxic properties, whereas the potential dermal adverse effects are determined by skin sensitization properties. The value of toxic endpoints, however, is measured by T. pyriformis and minnow toxicity [28] .",
+            "cite_spans": [
+                {
+                    "start": 288,
+                    "end": 292,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 293,
+                    "end": 296,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 1254,
+                    "end": 1258,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Mutagenicity and toxicity profiles"
+        },
+        {
+            "text": "Nowadays, the drugs' safety to the environment is a concern. Low environmental damage is demonstrated by the values of T. pyriformis and minnow toxicity which are to be respectively higher than 0.5 and \u2212 0.3. Based on the AMES test, two compounds i.e. 2a and 4b are predicted not to be toxic, while 4b might have the possibility to be hepatotoxic. No chalcones inhibit the hERG I protein, but 1c, 2b, 2c and 3c inhibit hERG II. Most of the chalcones have a low maximum dose which is weakly tolerated in humans, except for 2a, 2b and 4b. In addition, all chalcones exhibit no skin sensitization. The oral rat acute toxicity LD 50 can be classified as very toxic (\u2264 5 mg/kg), toxic or moderately toxic (> 5 to < 500 mg/kg), harmful or slightly toxic (> 500 to < 2000 mg/kg), and non-toxic (> 2000 mg/kg) [29] . All compounds are predicted to be potentially less toxic with LD 50 ranging from 194.01 to 399 mg/kg. Oral rat LOAEL value shows that the ingestion chronic toxicity is relative to the limit of concentration and length of exposure, however, LOAEL does not solely represent drug safety accurately [30, 31] . This prediction showed that compounds 2a, 2c, 3a and 4b have lower values than the other compounds, which can be interpreted as they are able to cause any observable chronic toxicity at the lower amount and/or shorter time of exposure. Several compounds (2c, 3a, 3b and 3c) demonstrate T. Pyriformis toxicity potency, whereas, based on the minnow toxicity prediction, compounds 1a, 2a, 3a and 4b are deemed to be safe. Table 4 presents the AMES test results of the chalcones for mutagenicity prediction along with other toxicity profiles. Table 5 demonstrates that all chalcones are well absorbed through the human intestinal with near values to 100% into the blood system. In general, the water solubility of all chalcones are most likely poor as their log S value are lower than \u2212 4, except for 3a which has a log S value of \u2212 2.601; indicating that it may dissolve readily in the dissolution step. Furthermore, oral absorption prediction using Caco2 cell model [32] with the required value is higher than 0.90. Therefore, except for 2c and 4b, chalcones show good human gastrointestinal absorption. The skin permeability of chalcones is most likely suitable for the transdermal route because the values are approximately \u2212 2.5. A protein transport namely P-glycoprotein (P-gp) is crucial during the pharmacokinetics steps, however, this could have either advantages or disadvantages in therapeutic effect [33] . A compound is supposed to not inhibit P-gp, either P-gp I or P-gp II. In the ideal situation, it should not be acting as P-gp substrate either. According to the prediction, compounds 1c and 2b are predicted to inhibit the P-gp I activity, whereas compounds 2c, 3c, and 4b inhibited both P-gp I and P-gp II. In contrast, 2a acts like the substrate for P-gp, accordingly.",
+            "cite_spans": [
+                {
+                    "start": 802,
+                    "end": 806,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 1104,
+                    "end": 1108,
+                    "text": "[30,",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1109,
+                    "end": 1112,
+                    "text": "31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 2079,
+                    "end": 2083,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 2523,
+                    "end": 2527,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1534,
+                    "end": 1541,
+                    "text": "Table 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1654,
+                    "end": 1661,
+                    "text": "Table 5",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Mutagenicity and toxicity profiles"
+        },
+        {
+            "text": "One of the distribution parameters is defined by the number of VDss or volume of distribution at a steady state, which is directly proportional with the amount of drug distributed into tissue; a higher V D indicates a greater amount of tissue distribution. As a rule, VDss should be \u2265 \u2212 0.15. Among the 10 chalcones, three compounds (2c, 3a, and 3c) do not meet these criteria. The fraction unbound (fu) for all chalcones are predicted to be \u2264 0.15, indicating that more fractions of drug molecule are bound to the plasma protein. Besides VDss, the chalcones were also predicted for their ability to cross the brain membrane which is important as the compounds may affect the Central Nervous System (CNS) [34] . Values < \u2212 1 indicate poor Blood-Brain Barrier (BBB) permeability and < \u2212 3 for CNS permeability. In other words, the compound is poorly distributed to the brain and unable to penetrate CNS. From the results, all the 10 compounds should be carefully managed as there is potential for these chalcones to enter the CNS especially for 1a, 1b, 2b and 3b which can also penetrate BBB. The distribution profiles of the chalcones as predicted by software are presented in Table 6 .",
+            "cite_spans": [
+                {
+                    "start": 705,
+                    "end": 709,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1177,
+                    "end": 1184,
+                    "text": "Table 6",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Pharmacokinetic profiles"
+        },
+        {
+            "text": "Metabolisms are also an important indicator of good drug-like properties. CYP1A2, CYP2C9, CYP2C19, CYP2D6, CYP3A4 are among the cytochrome P450 subfamilies, which play significant roles in drug metabolism [35] . CYP2D6 and CYP3A4 are found in the brain and intestines, respectively, and are most likely responsible to metabolize the drug in their surrounding areas. Furthermore, CYP3A4 also affects oral bioavailability by first-pass metabolism. A compound that binds strongly to these CYPs could be acting as the substrate or inhibitor leading to the lower / higher bioavailability as well as activity of other drugs. This could be potential for the drug causing clinical drug-drug interactions, leading to adverse reactions or therapeutic failures. In this prediction, neither chalcones act as the substrate nor inhibitor for CYP2D6. However, except for 3a, all compounds act as CYP3A4 substrate, whereas 2c and 3c act as this enzyme's inhibitor. Furthermore, chalcones are likely to inhibit the CYP1A2, CYP2C19, and CYP2C9 presented in Table 7 , which should be of concern when the compound is consumed with other drugs.",
+            "cite_spans": [
+                {
+                    "start": 205,
+                    "end": 209,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1039,
+                    "end": 1046,
+                    "text": "Table 7",
+                    "ref_id": "TABREF5"
+                }
+            ],
+            "section": "Pharmacokinetic profiles"
+        },
+        {
+            "text": "Total clearance describes the compound's rate while being removed from the body [36] . One of the main renal uptake transporters to remove the drug from the blood is the OCT2 transporter. It plays a pivotal role in the removal and renal clearance of mostly cationic drugs as well as endogenous compounds [37] . Inhibition of OCT2 (such as by cimetidine) elevates OCT2-dependent renal clearance drugs, hence altering pharmacokinetics and pharmacodynamics profiles. Compound 3a is predicted to be the fastest compound excreted from the body due to its highest total clearance. In contrast, compound 2b is the slowest compound to be removed from the body due to its lowest total clearance. All chalcones have low total clearance (log Cl < 0.763), yet, it is generally desirable to develop a drug for oral administration without a high dosage regimen [38] . One chalcone, 2b, is predicted to act as renal OCT2 substrate that might lead to undesirable side effects. Figure 4 illustrates the total clearance of all chalcones that reflects their rate to be eliminated from the body system.",
+            "cite_spans": [
+                {
+                    "start": 80,
+                    "end": 84,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 304,
+                    "end": 308,
+                    "text": "[37]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 847,
+                    "end": 851,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 961,
+                    "end": 969,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Pharmacokinetic profiles"
+        },
+        {
+            "text": "The chalcone derivatives have been examined for their inhibitions toward the activity of H1N1 and H5N1 influenza neuraminidase. The first screening using 100 \u00b5g/ ml of the sample's concentration showed that five compounds exhibited 0-10% inhibition toward H1N1 NA, while only one compound showed activity in the same range against H5N1. Furthermore, three compounds exhibited 10-50% inhibition toward H1N1, while five compounds demonstrated inhibition against H5N1 at the same inhibition percentage. In the H5N1 NA inhibition assay, two compounds (1b and 2c) were inactive. Interestingly, two compounds (1c and 2b) showed more than 50% inhibition to both H5N1 and H1N1. Therefore, they were selected to be further studied on their IC 50 as well as CC 50 . Table 8 presents the assay results of ten chalcone compounds compared to vanillin as the positive control. Fig. 4 The histogram of total renal clearance profiles of the chalcones with its OCT2-dependence clearance, green block = OCT2-independent and yellow block = OCT2-dependent",
+            "cite_spans": [
+                {
+                    "start": 751,
+                    "end": 753,
+                    "text": "50",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 756,
+                    "end": 763,
+                    "text": "Table 8",
+                    "ref_id": null
+                },
+                {
+                    "start": 863,
+                    "end": 869,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Neuraminidase assay"
+        },
+        {
+            "text": "The IC 50 of 1c was then estimated as 28.11 \u00b5M and 27.63 \u00b5M for H1N1 and H5N1, respectively. Compound 2b also demonstrated similar % inhibition toward H1N1 and H5N1 NA with its IC 50 87.54 \u00b5M and 73.17 \u00b5M, respectively. This is quite interesting because the compound showed similar IC 50 when it was applied to both H5N1 and H1N1 NA. Figure 6 presents the drug-dose depending curve of 1c and 2b in inhibiting the H1N1 and H5N1 NA.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 334,
+                    "end": 342,
+                    "text": "Figure 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Neuraminidase assay"
+        },
+        {
+            "text": "In the cytotoxicity assay results (Fig. 7) , 1c showed a high concentration to inhibit the Vero cell proliferation with CC 50 968.16 \u00b5M. The safety index of this compound calculated with the safety index (SI) values was 34.44 and 35.69 for H1N1 and H5N1 NA, respectively. In addition, 2b showed CC 50 757.18 \u00b5M with the SI values = 8.65 and 10.35 for H1N1 and H5N1, respectively. The graph plotting log concentration of 1c and 2b vs % cell viability against Vero cell in the cytotoxicity studies is presented in Fig. 7a . Furthermore, the cell imaging in Fig. 7b exhibited the cell proliferation survival, when there was no treatment to the cell, which was indicated by the formation of formazan crystals upon MTT reaction. Formazan crystal indicates the ability of the cell to express NADPHdependent oxidoreductase to reduce the MTT, which leads to cell proliferation. In contrast, the formazan crystal formation will be reduced along with the treatment of 1c and 2b on the Vero cell leading to their cytotoxicity properties (Fig. 7a) . Table 8 The assay result of ten chalcone compounds with their R side chains as depicted in Fig. 5 (100 ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 34,
+                    "end": 42,
+                    "text": "(Fig. 7)",
+                    "ref_id": null
+                },
+                {
+                    "start": 512,
+                    "end": 519,
+                    "text": "Fig. 7a",
+                    "ref_id": null
+                },
+                {
+                    "start": 555,
+                    "end": 562,
+                    "text": "Fig. 7b",
+                    "ref_id": null
+                },
+                {
+                    "start": 1026,
+                    "end": 1035,
+                    "text": "(Fig. 7a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1038,
+                    "end": 1045,
+                    "text": "Table 8",
+                    "ref_id": null
+                },
+                {
+                    "start": 1129,
+                    "end": 1140,
+                    "text": "Fig. 5 (100",
+                    "ref_id": null
+                }
+            ],
+            "section": "Cytotoxicity assay"
+        },
+        {
+            "text": "The chalcone backbone scaffold of 10 chalcone derivatives Fig. 6 The drug-dose depending curve of 1c and 2b in inhibiting H1N1 and H5N1 NA",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 58,
+                    "end": 64,
+                    "text": "Fig. 6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Fig. 5"
+        },
+        {
+            "text": "The 2009 H1N1 NA is one of several 2009 pandemic influenza virus mutants in which the I223 changed to R223 (I223R). This mutation results in shrinkage of the enzyme's active site affecting the binding of NA inhibitor [39] . Another mutant is H274Y (H1N1), which was also reported to be resistant to oseltamivir as confirmed in about 20% isolates from humans in Europe [40, 41] . NA's active site is composed of eight functional residues (ARG118, ASP151, ARG152, ARG224, GLU276, ARG292, ARG371 and TYR406) and surrounded by 11 framework residues (GLU119, ARG156, TRP178, SER179, ASP198, ILE222, GLU227, HIS274, GLU277, ASN294 and GLU425) [42] . Structurally, chalcone consists of one aromatic ring extended by a predominantly trans-configuration of \u03b1,\u03b2unsaturated carbonyl. The relatively short carbon-carbon distance between \u03b1,\u03b2-unsaturated alongside the relatively long C-C distances is 1.326 \u00c5 and 1.46 \u00c5, which is consistent with a localized double bond in the enone unit in this structure [43] . The chain next to the carbonyl group is usually prolonged by either alkyl or aryl moieties with various functional groups being attached. The conjugated double bond could make this type of compound less flexible. However, the C=O bond can present as either S-cis or S-trans conformation with respect to the vinylic double bond due to the free rotation along with the single bond between C-carbonylic and C\u03b1. This, therefore, could increase the conformation stability of such compounds during a dynamic environment [44] .",
+            "cite_spans": [
+                {
+                    "start": 217,
+                    "end": 221,
+                    "text": "[39]",
+                    "ref_id": null
+                },
+                {
+                    "start": 368,
+                    "end": 372,
+                    "text": "[40,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 373,
+                    "end": 376,
+                    "text": "41]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 637,
+                    "end": 641,
+                    "text": "[42]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 993,
+                    "end": 997,
+                    "text": "[43]",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1514,
+                    "end": 1518,
+                    "text": "[44]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The combination of in silico and in vitro studies has suggested a new binding mode for chalcone compounds into N1 NA. The active site of NA is decorated by a relatively small pocket surrounded by some sub-pockets determining the binding region of such enzyme with a particularly striking feature in the catalytic domain referred to as the '150 loop' [39, 45] . The shikimic acid scaffold has been classically patterned for NA inhibitors due to its capability to form a stable chair conformation transition state of the non-aromatic six-member ring with the rather flat oxonium cation, and thereby arrange the position of important residues to interact with the shikimic binding groups [45] . Taking this into consideration, some aromatic compounds have been devised to mimic this transition state leading to their inhibition against NA [46, 47] .",
+            "cite_spans": [
+                {
+                    "start": 350,
+                    "end": 354,
+                    "text": "[39,",
+                    "ref_id": null
+                },
+                {
+                    "start": 355,
+                    "end": 358,
+                    "text": "45]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 685,
+                    "end": 689,
+                    "text": "[45]",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 836,
+                    "end": 840,
+                    "text": "[46,",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 841,
+                    "end": 844,
+                    "text": "47]",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In the present study, two chalcones (1c and 2b) have been observed to have the best in vitro results compared to the other 8 chalcones. Figures 8 and 9 illustrate the molecular interactions of 1c and 2b, respectively, while binding into the H1N1 (non-and catalytic sites) and H5N1 (non-and catalytic sites). During the binding into the non-catalytic site of H1N1 NA, 1c interacts via H-bond with only THR438. The other interactions are vdW interactions with ASN146 and HIS144; amide pi-stacked with HIS144 and ILE149; and pi-alkyl interactions with VAL116, ALA138 and SER145. In contrast, the binding to the catalytic site of H1N1 NA shows that 1c interacts with ASP151, ARG293, ASN344, ARG368, and TYR402 via H-bonds, whereas pi-alkyl and alkylalkyl interactions are also observed with LYS150 and LEU134, respectively. In addition, pi-anion interaction is observed with GLU119. Compound 1c interacts with the non-catalytic site of H5N1 NA via H-bonds with VAL116, ARG118, and ARG430; amide pi-stacked with ILE117; and pi-alkyl with VAL116, ARG118, ARG430 and PRO431. Furthermore, in its catalytic site, the interactions are observed via H-bonds with ARG152, ARG371, TYR347, and ARG430; alkyl interactions with TRP178, ARG224, and PRO431; pi-cation as well as Fig. 7 The cytotoxicity profiles of 1c and 2b plotting a log concentration of vs % Vero cell viability of 1c and 2b, whereas b is the Vero cell imaging without any compound exposure (negative control), and c with 1c treatment to the cells. The orange arrows indicate the formazan crystal formation which is higher in 1c absence than its presence, accordingly pi-cation interactions are observed with ARG118 and ASP151, respectively.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 136,
+                    "end": 151,
+                    "text": "Figures 8 and 9",
+                    "ref_id": null
+                },
+                {
+                    "start": 1260,
+                    "end": 1266,
+                    "text": "Fig. 7",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The second best compound (2b) also interacts via H-bond with the non-catalytic site of H1N1 NA with LYS150; pi-alkyl with PRO154, VAL177, PRO198 and VAL205. In contrast, the interactions with the catalytic site via H-bonds are absent. However, the remaining interactions of 2b are observed with ARG118 and ARG152 via pi-alkyl interactions; GLU277, ARG293 and ASN295 via pi-halogen interactions; with TRP179 via pi-lone pair electron interaction. The non-catalytic site of H5N1 NA shows interactions with chalcones via H-bonds with GLY147 and pi-alkyl with VAL116, ALA138, VAL149. In addition, amide pi-stacked with HIS155 is also observed. In the H5N1 NA catalytic site, chalcones make interactions via H-bonds with ARG118, ARG156 and ARG371. Furthermore, there are also amide pi-stacked interaction with TYR347, as well as pi-cation/anion with ASP151 and ARG292, respectively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The possibility of chalcone to interact with the active site of NA is only in one aromatic ring augmented by the binding group such as OH or OCH 3 . The \u03b1,\u03b2-unsaturated chain most likely protruded outside of the active pocket. Although the \u0394G bind of chalcone in the active site is considered acceptable, it is inconsistent with the in vitro results. Compound 1c has relatively higher \u0394G bind in both NAs' active sites than other compounds with poor inhibition against NAs. However, the in vitro results showed that 1c is the most active compared to others; indicating a poor correlation between in vitro and in silico studies. In contrast, although 2c is inactive against NAs in vitro, the \u0394G bind in both NA's active sites is considered fair.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Notably, compounds with -NO 2 group (2a and 4b) show the lowest binding energy in either non-catalytic or catalytic sites for both H1N1 and H5N1 NAs. However, the in vitro results demonstrated a low percentage of inhibition toward both NAs. Nitro group is the strongest electron-withdrawing, which reactively interacts with atoms having an electron-donating group to form Fig. 8 The molecular interactions of 1c with a non-catalytic H1N1, b catalytic H1N1, c non-catalytic H5N1, and d catalytic H5N1 NA sites. The green, pale green, purple, magenta, pink, cyan, and orange represent H-bond, vdW, pi-sigma, amide pi-stacked, pi-alkyl, pi-halogen, and pi-cation/anion, respectively H-bond as well as electronic interactions [48] . This falsepositive results could be due to the stability of the -NO 2 group, which is easily reduced by the acidic pH turning into an amine group (nitro reduction) [49] , which is measured in pH 6.5 in this MUNANA system. This conversion could make the 2b and 4b lose their interactions as suggested by the docking study, leading to their low inhibition against NA. The inconsistent results of 2b and 3b are not fully understood as well. Therefore, we suggest that a molecular dynamics simulation is performed to elucidate this phenomenon in future studies. On the other hand, there are inconsistent results between docking and in vitro results when the chalcones were docked into either non-catalytic and catalytic sites of H5N1. Therefore, it is recommended to study the kinetics of NA inhibition for the two most active compounds (1c and 2b) to confirm whether the mode of inhibition is competitive or non-competitive.",
+            "cite_spans": [
+                {
+                    "start": 722,
+                    "end": 726,
+                    "text": "[48]",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 893,
+                    "end": 897,
+                    "text": "[49]",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 372,
+                    "end": 378,
+                    "text": "Fig. 8",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The kinetic assay can be carried out using methods such as Biacore or Isothermal Titration Calorimetry (ITC). Biacore measures the real-time binding association and dissociation rates using Surface Plasmon Resonance (SPR). In this method, the protein is immobilised onto a biosensor surface while the drug ligand is continuously flowing across the biosensor surface, where it binds to the immobilised receptor. The binding is measured by the kinetic association and dissociation rates (k a / k d ) for several different ligand concentrations [50] .",
+            "cite_spans": [
+                {
+                    "start": 542,
+                    "end": 546,
+                    "text": "[50]",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The second method is ITC, which measures the heat transfer during binding that enables accurate determination of binding constants (K D ), reaction stoichiometry (n), enthalpy (\u2206H) and entropy (\u0394S). This provides a complete thermodynamic profile of the molecular interaction. This deeper understanding of structure-function relationships enables more confident decision making in hit selection and lead optimization [51] .",
+            "cite_spans": [
+                {
+                    "start": 416,
+                    "end": 420,
+                    "text": "[51]",
+                    "ref_id": "BIBREF49"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this present study, an array of in silico predictions has been performed on the chalcones including Lipinski Rule, mutagenicity, toxicity and pharmacokinetic profiles. The chalcones have diverse functional groups conferring the distinction of their drug-like properties, mutagenicity, toxicity, and pharmacokinetics, which will Fig. 9 The molecular interactions of 2b with a non-catalytic H1N1, b catalytic H1N1, c non-catalytic H5N1, and d catalytic H5N1 NA sites. The green, pale green, purple, magenta, pink, cyan, yellowish-green and orange represent H-bond, vdW, pi-sigma, amide pi-stacked, pi-alkyl, pi-halogen, pi-lone pair electrons, and pi-cation/anion, respectively contribute to their overall therapeutic effects. Given that the two compounds (1c and 2b) are active in the in vitro study, we are motivated to understand the possibility of these compounds to be considered as lead candidates for optimization. They have good Lipinski Rule profiles by meeting the requirements of MW, log P, number of HBD-HBA, number of rotatable bonds and the surface area. Both compounds are also not responsive against the AMES test describing their non-mutagenic potency. Unfortunately, 2b is predicted to have a low tolerance in the maximum dose. In addition, both compounds are responsive toward hERG II as inhibitors and having an acute toxic dose of around 200 mg/kg, but irresponsive to hERG I as an inhibitor, not toxic in chronic ingestion, and neither hepatotoxic nor skin sensitized. In environmental damage, both are non-toxic to T. pyriformis as well as minnow species.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 331,
+                    "end": 337,
+                    "text": "Fig. 9",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "These two compounds are insoluble in water. Thus, consideration should be given for a suitable delivery system. They have good in Caco2 permeability, intestinal human absorption and skin permeability; reflecting their good absorption profile either in oral or topical administration. Both compounds have potencies to inhibit the protein carrier during absorption but neither of them acts as the protein substrate. In the distribution profiles, both compounds bind tightly in the plasma protein, which could reduce the therapeutic dose. Furthermore, the BBB and CNS permeability should be taken into account. Interaction with other drugs should be evaluated as well, as these two compounds are predicted to act as the CYP3A4 substrate, CYP1A2, CYP2C19, and CYP2C9 inhibitors. In contrast, they are irresponsive toward CYP2D6 and CYP3A4. The excretion of 1c is faster than 2b since the total clearance of 1c is higher than 2b in addition to the potential of this compound as Renal OCT2's substrate. Overall, 1c meets the requirements of drug-like properties at approximately 62%, whereas 2b is at 58%. These percentages are above 50%, therefore, these two compounds should be given the opportunity to be optimized and developed further as drug candidates. This conclusion is supported by the in vitro cytotoxicity study against normal cell lines confirming that both compounds have a good safety index augmenting their potency as the potential H5N1 and H1N1 NA inhibitors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The chalcone compounds (Fig. 10) were synthesized using the established method in our laboratory [21, 52, 53] . We scale up the production of the compounds and confirm their purity using a thin-layer chromatographic method and melting point test with the data of published compounds as the reference.",
+            "cite_spans": [
+                {
+                    "start": 97,
+                    "end": 101,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 102,
+                    "end": 105,
+                    "text": "52,",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 106,
+                    "end": 109,
+                    "text": "53]",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 23,
+                    "end": 32,
+                    "text": "(Fig. 10)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Chemistry"
+        },
+        {
+            "text": "The proteins used are the resistant I223R NA mutant of H1N1 2009 pandemic influenza virus (PDB ID 4B7M)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Molecular docking"
+        },
+        {
+            "text": "[39] and the wild type H5N1 NA (PDB ID 2HU0) [54] . The protein structure was processed using AutoDock-Tools 1.5.6 (www. autod ock. scrip ps. edu) with the ligand separated from the protein. The grid for docking to the non-catalytic site of H1N1 NA and H5N1 NA was set to 94 \u00d7 72 \u00d7 96 and 80 \u00d7 80 \u00d7 80 with its spacing set to 0.375 \u00c5. The center of mass of the ligand was set to x = 26.852, y = \u2212 32.014, z = \u2212 1.019 for H1N1 NA, and x = \u2212 7.07, y = 28.242, z = 107.729 for H5N1 NA. Genetic Algorithm was chosen for docking calculation in Auto-Dock 4.2.3. The searching parameters were set to the default values (Population size = 150, maximum number of evals = 2,500,000, maximum of generations = 27,000, maximum number of top individuals that automatically survives = 1). The number of GA run was set to 100. Docking parameters such as random number generation, energy parameters, and step size were also set to the default values. The results were analyzed by checking the RMSD values, ligand-protein interactions, free energy of binding (FEB) as well as the number of conformations that exist in a population cluster [55] . For the subsequent molecular docking, the chalcone structure derivatives were sketched and energetically optimized using Hyperchem Professional version 8.0 (www. hyper. com) with MM + force field and Polak-Ribiere (Conjugate Gradient). The visualization of ligand-protein interaction Fig. 10 The structure of 10 chalcone derivatives (1a-4b) with different set of functional groups was conducted using Biovia Discovery Studio 2016 (www. accel rys. com).",
+            "cite_spans": [
+                {
+                    "start": 45,
+                    "end": 49,
+                    "text": "[54]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 1121,
+                    "end": 1125,
+                    "text": "[55]",
+                    "ref_id": "BIBREF53"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1412,
+                    "end": 1419,
+                    "text": "Fig. 10",
+                    "ref_id": null
+                }
+            ],
+            "section": "Molecular docking"
+        },
+        {
+            "text": "The docking of compounds to the catalytic site of NA was carried out by using PDB 2HU0 (H5N1 NA in complex with oseltamivir) [54] as well as PDB 6HP0 (H1N1 NA in complex with oseltamivir triazole) [56] with the same default protocol being used in PDB 4B7M, except for the number of points and its center of mass. For 6HP0, the number of points is 40 \u00d7 40 \u00d7 40 with the center of mass (x = 43.641; y = 0.53; z = 20.263). For 2HU0, the number of points is 40 \u00d7 40 \u00d7 40 with the center of mass (x = 1.763; y = 19.33; z = 108.34).",
+            "cite_spans": [
+                {
+                    "start": 125,
+                    "end": 129,
+                    "text": "[54]",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 197,
+                    "end": 201,
+                    "text": "[56]",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Molecular docking"
+        },
+        {
+            "text": "The Lipinski Rule profiles were individually predicted by inputting SMILES string, which is automatically done by the server. The value of molecular weight (MW), log P, the number of hydrogen bond donors (HBD), the number of hydrogen bond acceptors (HBA), the number of rotatable bonds and the surface area were observed and then tabulated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Lipinski rule of five"
+        },
+        {
+            "text": "Using the same protocol as in \"Lipinski rule of five\" section, the mutagenic potency of the ligands was represented by the AMES test results. Other parameters such as maximum tolerated dose (human) (hMTD), hERG I inhibitor, hERG II inhibitor, oral rat acute toxicity (log LD 50 ), oral rat chronic toxicity (log LOAEL), hepatotoxicity, skin sensitization, T. pyriformis toxicity, and minnow toxicity represented the toxicity properties of the ligands.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mutagenicity and toxicity studies"
+        },
+        {
+            "text": "Using the same protocol in 4.3, the ADME (absorption, distribution, metabolism, and excretion) profiles of the ligands were predicted. Subsequently, the absorption is influenced by water solubility, Caco2 permeability, skin permeability, P-glycoprotein substrate, P-glycoprotein I inhibitor, and P-glycoprotein II inhibitor instead of human gastrointestinal absorption. The distribution is represented by VDss (human), fraction unbound (human), blood-brain barrier (BBB) permeability, and central nervous system (CNS) permeability. The metabolism is represented by the CYP2D6 substrate, CYP3A4 substrate, CYP1A2 inhibitor, CYP2C19 inhibitor, CYP2C9 inhibitor, CYP2D6 inhibitor, and CYP3A4 inhibitor. Lastly, the excretion is represented by the total clearance and renal OCT2 substrate. The Lipinski Rule, mutagenicity, toxicity and pharmacokinetic prediction were carried out using pkCSM online tool (http:// biosig. unime lb. edu. au/ pkcsm/ predi ction) [28] .",
+            "cite_spans": [
+                {
+                    "start": 956,
+                    "end": 960,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Pharmacokinetics study"
+        },
+        {
+            "text": "The H1N1 NA assay followed the general procedure of Fluorometric Neuraminidase Assay [57] . The H1N1 NA (A/California/04/2009) and H5N1 NA (A/Anhui/1/2005) enzymes were purchased from Sinobio. The fixed concentrations of H1N1 NA (0.3 u/mL) and MUNANA (100 mM) were optimized employing the previously described method. Vanillin was used as the positive control inhibitors [58] , and the H1N1 neuraminidase assay was prepared by mixing an assay buffer, tested samples (at concentrations 100 \u03bcg/mL in 1% of DMSO-Buffer), and a constant 0.3 unit/mL of neuraminidase which were pre-incubated at 37 \u00b0C for 30 min with 200 rpm. After the addition of 100 \u03bcM substrates, the reaction assays were incubated at 37 \u00b0C for 60 min with 200 rpm. To stop the reaction, 100 \u03bcl of glycine stop solution was added. The assays were carried out in triplicate. The assay protocol for H5N1 inhibition assay is similar to that of H1N1 but the concentrations being used were 0.15 u/mL, and 50 \u00b5M for the enzyme and substrate, respectively. A series of concentrations were prepared for those demonstrating > 50% of enzyme inhibition to calculate the IC 50 . The fluorescence intensity of NANA was measured by Modulus Microplate Reader with a UV optical kit at \u03bb 340/440 nm. The drug-dose dependent curve and its statistical analysis (95% confident interval) were generated using GraphPad Prism 5.0 (https:// graph pad-prism. softw are. infor mer. com/5. 0/).",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 89,
+                    "text": "[57]",
+                    "ref_id": "BIBREF55"
+                },
+                {
+                    "start": 371,
+                    "end": 375,
+                    "text": "[58]",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 1127,
+                    "end": 1129,
+                    "text": "50",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Neuraminidase assay"
+        },
+        {
+            "text": "The cytotoxicity of each compound on Vero cells was determined using MTT assay. Vero cell is a non-tumorigenic cell from the kidney tissue of African green monkeys [59] . Cells will proliferate by expressing the NADPH-dependent oxidoreductase in mitochondria that reduces the MTT reagent into the reduction state of formazan crystal [60] . Cells (1 \u00d7 10 4 /well) were seeded in 96-well flat-bottomed plates and incubated with each sample at various concentrations for 24 h. Compound solutions were prepared in the following concentrations: 10, 20, 40, 80, 160, 320, 640 and 1280 \u00b5g/mL. 30 \u03bcL of MTT solution (5 mg/mL in PBS) was added to each well and the plate was incubated at 37 \u00b0C for another 4 h. Then, the medium was discarded and 150 \u00b5l of DMSO was added to dissolve the formazan crystals. The absorbance of each sample was read at 595 nm using a microplate reader. Results were expressed as a percentage of cell viability with respect to untreated control cells (as 100%) [61] . The drug-dose dependent curve and its statistical analysis (95% confident interval) were generated using GraphPad Prism 5.0 (https:// graph pad-prism. softw are. infor mer. com/5. 0/).",
+            "cite_spans": [
+                {
+                    "start": 164,
+                    "end": 168,
+                    "text": "[59]",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 333,
+                    "end": 337,
+                    "text": "[60]",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 980,
+                    "end": 984,
+                    "text": "[61]",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Cytotoxicity assay"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "30211--30218",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(20)30211-7"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "China reports outbreak of deadly bird flu among chickens in Hunan province, close to coronavirus epicentre of Wuhan",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "China reports H5N1 bird flu outbreak in Hunan province",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Reuters",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "South China Morning Post (2020) H5N1 bird flu virus",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Emerging infectious diseases in southeast Asia: regional challenges to control",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Coker",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hunter",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Rudge",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Lancet",
+            "volume": "377",
+            "issn": "10",
+            "pages": "62004--62005",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736(10)62004-1"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "WHO (2020) Cumulative number of confirmed human cases for avian influenza A (H5N1) reported to WHO",
+            "authors": [],
+            "year": 2003,
+            "venue": "Epidemic Pandemic Alert Response World Heal Organ",
+            "volume": "1",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Complications of seasonal and pandemic influenza",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Rothberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Haessler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Crit Care Med",
+            "volume": "38",
+            "issn": "",
+            "pages": "91--97",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/CCM.0b013e3181c92eeb"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Survey of underlying conditions of persons hospitalized with acute respiratory disease during influenza epidemics in Houston, 1978-1981",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Glezen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Decker",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Perrotta",
+                    "suffix": ""
+                }
+            ],
+            "year": 1987,
+            "venue": "Am Rev Respir Dis",
+            "volume": "136",
+            "issn": "",
+            "pages": "550--555",
+            "other_ids": {
+                "DOI": [
+                    "10.1164/ajrccm/136.3.550"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Influenza and the rates of hospitalization for respiratory disease among infants and young children",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Izurieta",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Thompson",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kramarz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "N Engl J Med",
+            "volume": "342",
+            "issn": "",
+            "pages": "232--239",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJM200001273420402"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Crystal structures of oseltamivirresistant influenza virus neuraminidase mutants",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Haire",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Nature",
+            "volume": "453",
+            "issn": "",
+            "pages": "1258--1261",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature06956"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The war against influenza: discovery and development of sialidase inhibitors",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Von Itzstein",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Nat Rev Drug Discov",
+            "volume": "6",
+            "issn": "",
+            "pages": "967--974",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nrd2400"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Novel insights into proteolytic cleavage of influenza virus hemagglutinin",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bertram",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Glowacka",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Steffen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Rev Med Virol",
+            "volume": "20",
+            "issn": "",
+            "pages": "298--310",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/rmv.657"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "A virtual screening approach for identifying plants with anti H5N1 neuraminidase activity",
+            "authors": [
+                {
+                    "first": "Nkk",
+                    "middle": [],
+                    "last": "Ikram",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Durrant",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Muchtaridi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Chem Inf Model",
+            "volume": "55",
+            "issn": "",
+            "pages": "308--316",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/ci500405g"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "H274Y's effect on oseltamivir resistance: what happens before the drug enters the binding site",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yusuf",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mohamed",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mohamad",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Chem Inf Model",
+            "volume": "56",
+            "issn": "",
+            "pages": "82--100",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.jcim.5b00331"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "QSAR, in silico docking and in vitro evaluation of chalcone derivatives as potential inhibitors for H1N1 virus neuraminidase",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yaeghoobi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Frimayanti",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Chee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Med Chem Res",
+            "volume": "25",
+            "issn": "",
+            "pages": "2133--2142",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00044-016-1636-5"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Inhibition of neuraminidase activity by polyphenol compounds isolated from the roots of Glycyrrhiza uralensis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ryu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S-J",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Bioorg Med Chem Lett",
+            "volume": "20",
+            "issn": "",
+            "pages": "971--974",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bmcl.2009.12.106"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "New stilbenoid with inhibitory activity on viral neuraminidases from Erythrina addisoniae",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Na",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Dao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Bioorg Med Chem Lett",
+            "volume": "20",
+            "issn": "",
+            "pages": "6430--6434",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bmcl.2010.09.077"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Chalcones as novel influenza A (H1N1) neuraminidase inhibitors from Glycyrrhiza inflata",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Dao",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Nguyen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Bioorg Med Chem Lett",
+            "volume": "21",
+            "issn": "",
+            "pages": "294--298",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bmcl.2010.11.016"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Characteristic of alkylated chalcones from Angelica keiskei on influenza virus neuraminidase inhibition",
+            "authors": [
+                {
+                    "first": "J-Y",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jeong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Bioorg Med Chem Lett",
+            "volume": "21",
+            "issn": "",
+            "pages": "5602--5604",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bmcl.2011.06.130"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Decaffeination and neuraminidase inhibitory activity of arabica green coffee (Coffea arabica) beans: chlorogenic acid as a potential bioactive compound",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Muchtaridi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lestari",
+                    "suffix": ""
+                },
+                {
+                    "first": "Khairul",
+                    "middle": [],
+                    "last": "Ikram",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Gazzali",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Hariono",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wahab",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Molecules",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/molecules26113402"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Anti-cholinesterase activity of chalcone derivatives: synthesis, in vitro assay and molecular docking study",
+            "authors": [
+                {
+                    "first": "Fdo",
+                    "middle": [],
+                    "last": "Riswanto",
+                    "suffix": ""
+                },
+                {
+                    "first": "Msa",
+                    "middle": [],
+                    "last": "Rawa",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Murugaiyah",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "66619",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2174/1573406415666191206095032"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "A computational model for docking of noncompetitive neuraminidase inhibitors and probing their binding interactions with neuraminidase of influenza virus H5N1",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chintakrindi",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Martis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gohil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Curr Comput Aided-Drug Des",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2174/1573409912666160713111242"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Safflomin A inhibits neuraminidase activity and influenza virus replication",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "RSC Adv",
+            "volume": "5",
+            "issn": "",
+            "pages": "94053--94066",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/C5RA17336A"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Drug-like properties and the causes of poor solubility and poor permeability",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lipinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "J Pharmacol Toxicol Methods",
+            "volume": "44",
+            "issn": "00",
+            "pages": "107--113",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1056-8719(00)00107-6"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Structure-based drug discovery: an overview",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Armstrong",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Hubbard",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Farrell",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Maiguashca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Cancer control opportunities in low-and middleincome countries",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Huerta",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Grey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Preclinical evaluation of carcinogenicity using standard-bred and genetically engineered rodent models",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Mccormick",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "pkCSM: predicting smallmolecule pharmacokinetic and toxicity properties using graph-based signatures",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "De Pires",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Blundell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ascher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Med Chem",
+            "volume": "58",
+            "issn": "",
+            "pages": "4066--4072",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.jmedchem.5b00104"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "SAR and QSAR modeling of a large collection of LD50 rat acute oral toxicity data",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gadaleta",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Vukovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Toma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Cheminform",
+            "volume": "11",
+            "issn": "",
+            "pages": "1--16",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13321-019-0383-2"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Use of the benchmark dose approach in risk assessment",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Barlow",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chesson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "EFSA J",
+            "volume": "1150",
+            "issn": "",
+            "pages": "1--72",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Approaches to the development of human health toxicity values for active pharmaceutical ingredients in the environment",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Sorell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "AAPS J",
+            "volume": "18",
+            "issn": "",
+            "pages": "92--101",
+            "other_ids": {
+                "DOI": [
+                    "10.1208/s12248-015-9818-5"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Caco-2 cells as a model for intestinal absorption",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "De Angelis",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Turco",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Curr Protoc Toxicol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/0471140856.tx2006s47"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Role of P-glycoprotein in pharmacokinetics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yamazaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Clin Pharmacokinet",
+            "volume": "42",
+            "issn": "",
+            "pages": "59--98",
+            "other_ids": {
+                "DOI": [
+                    "10.2165/00003088-200342010-00003"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "The blood-brain barrier: an overview: structure, regulation, and clinical implications",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ballabh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Braun",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Nedergaard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Neurobiol Dis",
+            "volume": "16",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.nbd.2003.12.016"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Drug metabolism and ageing",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kinirons",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "O&apos;mahony",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Br J Clin Pharmacol",
+            "volume": "57",
+            "issn": "",
+            "pages": "540--544",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2125.2004.02096.x"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Basic pharmacokinetics and pharmacodynamics, an integrated textbook and computer simulations",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Rosenbaum",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2125.2011.04077.x"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Metformin and cimetidine: physiologically based pharmacokinetic modelling to investigate transporter mediated drug-drug interactions",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Burt",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Neuhoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Almond",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Eur J Pharm Sci",
+            "volume": "88",
+            "issn": "",
+            "pages": "70--82",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ejps.2016.03.020"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "H1N1 2009 pandemic influenza virus: resistance of the I223R neuraminidase mutant explained by kinetic and structural analysis",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Toutain",
+                    "suffix": ""
+                },
+                {
+                    "first": "A ;",
+                    "middle": [],
+                    "last": "Bousquet-M\u00e9lou",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Collins",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Vachieri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Vet Pharmacol Ther",
+            "volume": "27",
+            "issn": "",
+            "pages": "415--425",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.ppat.1002914"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Emergence of resistance to oseltamivir among influenza A(H1N1) viruses in Europe",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lackenby",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Hungnes",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Dudman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Eurosurveillance",
+            "volume": "13",
+            "issn": "",
+            "pages": "3--4",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/ese.13.05.08026-en"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Emergence of H274Y oseltamivir-resistant A(H1N1) influenza viruses in Japan during the 2008-2009 season",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Baranovich",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Saito",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Suzuki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Clin Virol",
+            "volume": "47",
+            "issn": "",
+            "pages": "23--28",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcv.2009.11.003"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Influenza virus resistance to neuraminidase inhibitors",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Samson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pizzorno",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Abed",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Boivin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Antiviral Res",
+            "volume": "98",
+            "issn": "",
+            "pages": "174--185",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.antiviral.2013.03.014"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Structural studies of organic crystals of pharmaceutical relevance. Correlation of crystal structure analysis with recognised nonbonded structural motifs in the organic solid state",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Essandoh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Chemical and structural properties of chalcones I",
+            "authors": [
+                {
+                    "first": "Evranos",
+                    "middle": [],
+                    "last": "Aks\u00f6z",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Ertan",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Fabad J Pharm Sci",
+            "volume": "36",
+            "issn": "",
+            "pages": "223--242",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Neuraminidase inhibitors as antiinfluenza virus agents",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Mendel",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Antivir Chem Chemother",
+            "volume": "10",
+            "issn": "",
+            "pages": "141--154",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/095632029901000401"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Structures of aromatic inhibitors of influenza virus neuraminidase",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jedrzejas",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Brouillette",
+                    "suffix": ""
+                }
+            ],
+            "year": 1995,
+            "venue": "Biochemistry",
+            "volume": "34",
+            "issn": "",
+            "pages": "3144--3151",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/bi00010a003"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Design and synthesis of benzoic acid derivatives as influenza neuraminidase inhibitors using structurebased drug design 1",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chand",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Babu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bantia",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "J Med Chem",
+            "volume": "40",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/jm970479e"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Effect of electron-donating and electron-withdrawing groups on peptide/single-walled carbon nanotube interactions",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Poenitzsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Winters",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Am Chem Soc",
+            "volume": "129",
+            "issn": "",
+            "pages": "14724--14732",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/ja0750827"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Simple and chemoselective reduction of aromatic nitro compounds to aromatic amines: reduction with hydriodic acid revisited",
+            "authors": [
+                {
+                    "first": "Jsd",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Toyokuni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Tetrahedron Lett",
+            "volume": "42",
+            "issn": "",
+            "pages": "1083--1091",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0040-4039(01)01083-8"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Overview of Biacore systems and their applications",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Jason-Moller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bruno",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Curr Protoc Protein Sci",
+            "volume": "19",
+            "issn": "13",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/0471142301.ps1914s45"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Isothermal titration calorimetry",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lewis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Methods Mol Biol",
+            "volume": "305",
+            "issn": "",
+            "pages": "1--16",
+            "other_ids": {
+                "DOI": [
+                    "10.1385/1-59259-912-5:001"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Abdul Rahim AS (2012) 2-Bromo-4-(3,4-dimethyl-5-phenyl-1,3-oxazolidin-2-yl)-6-methoxyphenol",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hariono",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Ngah",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wahab",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Acta Crystallogr Sect E Struct Rep Online",
+            "volume": "68",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1107/S1600536811051269"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Benzyl-6-benzylsulfanyl-9 H-purin-2-amine",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hariono",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Wahab",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Acta Crystallogr Sect E Struct Rep Online",
+            "volume": "9",
+            "issn": "",
+            "pages": "40019--86",
+            "other_ids": {
+                "DOI": [
+                    "10.1107/S1600536814001986"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "The structure of H5N1 avian influenza neuraminidase suggests new opportunities for drug design",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Russell",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Haire",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Stevens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Nature",
+            "volume": "443",
+            "issn": "",
+            "pages": "45--49",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nature05114"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "Molecular docking",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lim-Wilby",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "365--382",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Investigation of flexibility of neuraminidase 150-loop using tamiflu derivatives in influenza A viruses H1N1 and H5N1",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zima",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Albi\u00f1ana",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Roj\u00edkov\u00e1",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Bioorg Med Chem",
+            "volume": "27",
+            "issn": "",
+            "pages": "2935--2947",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bmc.2019.05.024"
+                ]
+            }
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Fluorometric assay of neuraminidase with a sodium (4-methylumbelliferyl-\u03b1-d-N-acetylneuraminate) substrate",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Potier",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mameli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "B\u00e9lisle",
+                    "suffix": ""
+                }
+            ],
+            "year": 1979,
+            "venue": "Anal Biochem",
+            "volume": "94",
+            "issn": "",
+            "pages": "90362--90364",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0003-2697(79)90362-2"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Potential new H1N1 neuraminidase inhibitors from ferulic acid and vanillin: molecular modelling, synthesis and in vitro assay",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hariono",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Abdullah",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Damodaran",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Sci Rep",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/srep38692"
+                ]
+            }
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Activation of metastatic potential in African green monkey kidney cell lines by prolonged in vitro culture",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Contreras",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bather",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Furesz",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Becker",
+                    "suffix": ""
+                }
+            ],
+            "year": 1985,
+            "venue": "In Vitro Cell Dev Biol",
+            "volume": "21",
+            "issn": "",
+            "pages": "649--652",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Bioguided fractionation of local plants against matrix metalloproteinase9 and its cytotoxicity against breast cancer cell models: in silico and in vitro study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hariono",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rollando",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Karamoy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Molecules",
+            "volume": "25",
+            "issn": "",
+            "pages": "1--17",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/molecules25204691"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "A simple method to measure cell viability in proliferation and cytotoxicity assays",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Borra",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lotufo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gagioti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Braz Oral Res",
+            "volume": "23",
+            "issn": "",
+            "pages": "255--262",
+            "other_ids": {
+                "DOI": [
+                    "10.1590/S1806-83242009000300006"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Publisher's Note",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "The superimposition of 10 chalcone derivatives (yellow sticks) in the non-catalytic site of a H1N1 and b H5N1 NA. The NA is presented in the surface model and the ligands are in the stick models, docked in the behind of the catalytic site (yellow circles)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "The superimposition of 10 chalcone derivatives (yellow sticks) in the active site of a H1N1 NA (blue) and b H5N1 NA (red) in the ribbon model by LD 50 value which can be defined as the required dose given to cause 50% death of a group of rats in evaluating a compound acute toxicity represented by ORAT (log LD 50 value) prediction.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "The docking results of 10 chalcone derivatives in the non-catalytic site of H1N1 and H5N1 NA",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "The docking results of 10 chalcone derivatives in the catalytic site of H1N1 and H5N1 NA",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "The drug-like likeness profile of 10 chalcones was studied as NA inhibitors The AMES test result of the chalcones for mutagenicity prediction along with other toxicity profiles",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "The absorption profiles of chalcones as predicted by the software",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "The distribution profile of chalcones as predicted by the software",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "The interaction between chalcones with a diverse CYP subfamily",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "\u00b5g/mL) against H5N1 and H1N1 NA compared to vanillin as the positive control",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Computational studies using molecular docking, ADME-Tox prediction and in vitro study, including their H5N1 and mutant H1N1 NA inhibitory activity and cytotoxicity towards Vero cells of the 10 synthesized chalcone derivatives have been employed to predict and evaluate the inhibitory mechanism and the safety of these chalcone derivatives. In conclusion, 1c ((E)-3-(4-butoxyphenyl)-1-(4-hydroxy-3-methoxyphenyl)prop-2-en-1-one) and 2b ((E)-1-(3-(cyclopentyloxy)phenyl)-3-(4-fluorophenyl) prop-2-en-1-one) have potencies to be developed as antiinfluenza drugs by inhibiting H5N1 and H1N1 NA in the non-catalytic site.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "The online version contains supplementary material available at https:// doi. org/ 10. 1186/ s13765-021-00639-w.Additional file 1: Figure S1 . The control docking results of a oseltamivir triazole into H1N1 catalytic site and b oseltamivir into H5N1 catalytic site.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 140,
+                    "text": "Figure S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Supplementary Information"
+        }
+    ]
+}

@@ -1,0 +1,2421 @@
+{
+    "paper_id": "277d4ab3ab8603a5ee0ceb397d8a7cbcb4698b4d",
+    "metadata": {
+        "title": "Seroprevalence of severe acute respiratory syndrome coronavirus 2 in Slovenia: results of two rounds of a nationwide population study on a probability-based sample, challenges and lessons learned",
+        "authors": [
+            {
+                "first": "Mario",
+                "middle": [],
+                "last": "Poljak",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anja",
+                "middle": [
+                    "O"
+                ],
+                "last": "Strbenk Valen Cak",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Erik",
+                "middle": [],
+                "last": "Strumbelj",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Polona",
+                "middle": [],
+                "last": "Maver Vodi Car",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Vasja",
+                "middle": [],
+                "last": "Vehovar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Katarina",
+                "middle": [
+                    "Resman"
+                ],
+                "last": "Rus",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mi",
+                "middle": [],
+                "last": "Sa Korva",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nata",
+                "middle": [],
+                "last": "Sa Knap",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Katja",
+                "middle": [],
+                "last": "Seme",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Miroslav",
+                "middle": [],
+                "last": "Petrovec",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Bla Z Zupan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Janez",
+                "middle": [],
+                "last": "Dem Sar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Slavko",
+                "middle": [],
+                "last": "Kurdija",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tatjana",
+                "middle": [],
+                "last": "Av Si C Zupanc",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Ljubljana",
+                    "location": {
+                        "settlement": "Ljubljana",
+                        "country": "Slovenia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "The coronavirus disease 2019 (COVID-19) pandemic has already affected over 120 million people, with over 2.6 million COVID-19related deaths as of 16 March 2021. Detecting severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) RNA in nasopharyngeal swabs is a COVID-19 reference diagnostic standard [1, 2] .",
+            "cite_spans": [
+                {
+                    "start": 146,
+                    "end": 148,
+                    "text": "16",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 304,
+                    "end": 307,
+                    "text": "[1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 308,
+                    "end": 310,
+                    "text": "2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "However, because of a significant number of asymptomatic/mild infections, demanding implementation and scale-up of molecular testing and frequent changes in testing strategies, the SARS-CoV-2 RNA positives identified represent only the tip of the pandemic iceberg [2e4] . As a result, seroprevalence surveys measuring the population immune response to SARS-CoV-2 remain integral for understanding cumulative population exposure and insight into pandemic dynamics during the COVID-19 pre-vaccination era [4, 5] . As far as we know, and as summarized in Table 1 and the Supplementary material (Table S6 ), all population-based seroprevalence surveys published in peer-reviewed literature until 31 January 2021 were conducted during or just following the pandemic's first wave [4,6e17] . The most recent systematic review and meta-analysis, also assessing non-peer-reviewed seroprevalence surveys deposited in open-access preprint repositories or posted at websites, showed a general lack of peer-reviewed population-based studies from much of the world and significant data heterogeneity, and called for longitudinal surveys to continually monitor seroprevalence around the globe [2] .",
+            "cite_spans": [
+                {
+                    "start": 264,
+                    "end": 269,
+                    "text": "[2e4]",
+                    "ref_id": null
+                },
+                {
+                    "start": 503,
+                    "end": 506,
+                    "text": "[4,",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 507,
+                    "end": 509,
+                    "text": "5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 774,
+                    "end": 782,
+                    "text": "[4,6e17]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1178,
+                    "end": 1181,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 552,
+                    "end": 600,
+                    "text": "Table 1 and the Supplementary material (Table S6",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Introduction"
+        },
+        {
+            "text": "Here we present SARS-CoV-2 seroprevalence estimates for Slovenia assessed in the same participants in two rounds of a nationwide population study on a probability-based sample: at the end of the first epidemic wave (April 2020) and during exponential growth of the second epidemic wave (October/November 2020). Both study rounds were accompanied by significant logistical and methodological challenges. Although performed only 6 months apart, each round had a unique set of challenges, with several important lessons learned.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The Slovenian nationwide population study is the first using a probability-based sample representative of the entire country and across all age categories, combined with a longitudinal follow up of the entire cohort over the next 6 months [6] . The study design and results of baseline SARS-CoV-2 RNA testing were detailed previously [6] . Briefly, a sample of 3000 residents was selected from the Central Population Register and PCR testing of nasopharyngeal swabs (n \u00bc 1366) performed in late April 2020 showed SARS-CoV-2 RNA prevalence of 0.15% (posterior mean 0.18%, 95% CI 0.03%e 0.47%) [6] .",
+            "cite_spans": [
+                {
+                    "start": 239,
+                    "end": 242,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 334,
+                    "end": 337,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 592,
+                    "end": 595,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study design and population"
+        },
+        {
+            "text": "All participants provided written informed consent before enrolment and for individuals younger than 18 years a parent or legal guardian provided consent. The Slovenian National Medical Ethics Committee (consent number 0120-199/2020/19) approved the study protocol. The study is registered with ClinicalTrials.gov (NCT04376996).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and population"
+        },
+        {
+            "text": "To assess SARS-CoV-2 seroprevalence, participants provided two blood samples: the first-round sample in April 2020 and the second-round sample in October/November 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Study design and population"
+        },
+        {
+            "text": "First-round sera were tested in early May 2020 using the enzyme-linked immunosorbent assay anti-SARS-CoV-2 ELISA IgG (ELISA; Euroimmun, L\u00fcbeck, Germany) targeting the S1-domain of the spike (S) protein of SARS-CoV-2. The manufacturer's evaluation for ELISA showed 99.6% specificity and 99.4% sensitivity, and our internal evaluation showed 100% specificity (see Supplementary material, item S2). ELISA specificity in other evaluations varied significantly (Supplementary material, item S3). Due to uncertain seroprevalence estimates based on ELISA results, anonymized firstround sera were retested in early November 2020 using two electrochemiluminescence double-antigen sandwich immunoassays concomitantly: Elecsys Anti-SARS-CoV-2 (Elecsys-N) and Elecsys Anti-SARS-CoV-2 S (Elecsys-S) (Roche Diagnostics, Mannheim, Germany) on a cobas e411 analyser following the manufacturer's instructions, using cut-off values for positive results of 1.0 and 0.8 U/mL, respectively. Second-round sera were tested in early November 2020 using the same Elecsys-N/Elecsys-S combined approach. Additionally, all second-round sera positive by either Elecsys-N or Elecsys-S as well as 50 anti-SARS-CoV-2negative samples were tested further by neutralization test.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Serological testing"
+        },
+        {
+            "text": "Elecsys-N is an assay for qualitative detection of total anti-SARS-CoV-2 antibodies against SARS-CoV-2 nucleoprotein (N). The manufacturer's extensive evaluation showed 99.80% specificity and 99.5% sensitivity, and manufacturer-independent evaluations even with values spanning manufacturer claims [3,5,18e24 ] (see Supplementary material, item S5).",
+            "cite_spans": [
+                {
+                    "start": 298,
+                    "end": 308,
+                    "text": "[3,5,18e24",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Serological testing"
+        },
+        {
+            "text": "Elecsys-S is an assay for quantitative detection of total anti-SARS-CoV-2 antibodies against the S1 receptor binding domain. The manufacturer's extensive evaluation showed 99.98% specificity and 98.8% sensitivity, and our internal unpublished Elecsys-N/Elecsys-S head-to-head comparison showed overall agreement of both assays of 98.68% [20] (see Supplementary material, item S5).",
+            "cite_spans": [
+                {
+                    "start": 337,
+                    "end": 341,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Serological testing"
+        },
+        {
+            "text": "A neutralization test (NT) was performed in a BSL-3 laboratory using SARS-CoV-2 (strain Slovenia/SI-4265/20, D614G; EVA-GLOBAL-Ref-SKU: 005V-03961). NT was based on the standardized protocol [25] . Briefly, Vero E6 cells were seeded in a concentration of 10 5 /well (96-well plate) 1 day before NT was performed. Triplicate serial dilutions of heat-inactivated plasma samples (56 C, 30 min) were incubated with 100 TCID 50 of SARS-CoV-2 for 1 h at 37 C. The plasmaevirus mixture was added to the cells and incubated at 37 C with 5% CO 2 for 4 days. The neutralization end-point titre was determined as the end-point plasma dilution that inhibited the SARS-CoV-2-induced cytopathic effect. For the presence of neutralizing anti-SARS-CoV-2 antibodies the NT titre 1:20 was considered positive if inhibition occurred in at least two out of three parallels; and NT titre 1:10 was considered positive if inhibition occurred in all three parallels.",
+            "cite_spans": [
+                {
+                    "start": 191,
+                    "end": 195,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Serological testing"
+        },
+        {
+            "text": "We used three different but related models to estimate seroprevalence, as detailed in the Supplementary material (item S1). Model 1 is the baseline model for estimating seroprevalence from test results where the assay's sensitivity or specificity is not 100%. Model 2 is an extension of Model 1, where two tests are performed simultaneously. Model 3 is an extension of Model 1 that allows for inclusion of more than one source of estimates of specificity. We also corrected the estimates for seroprevalence for non-response bias using post-stratification on age group, sex, region and settlement type (urban/rural, size). However, because no significant differences were observed between estimates, post-stratification results are not shown. To provide the most reliable seroprevalence assessment for the challenging second-round period, two estimates of seroprevalence for October/November 2020 were calculated: (a) an estimate of the lower bound of the seroprevalence at the end of the sample collection period and (b) an upper bound of seroprevalence 14 days before the first samples were collected (see Supplementary material, item S6).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The analysis was performed in R and we implemented the models in the Stan probabilistic programming language and used the built-in Hamiltonian Monte Carlo-based Markov Chain Monte Carlo sampler [26] . We set the number of sampling iterations to a number sufficient for the sampling-based approximation error to be lower than the number of decimal places reported. The results are reported as the posterior mean and a 95% highest density interval (95% HDI).",
+            "cite_spans": [
+                {
+                    "start": 194,
+                    "end": 198,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "From 1368 and 1245 participants in the first and second rounds, respectively, 1316 and 1211 blood samples were collected between 20 April and 1 May 2020 and 17 October and 10 November 2020, respectively. As detailed in the Supplementary material (item S7), the populations of both rounds matched the overall population well (n \u00bc 3000) without observed statistically significant mismatches in sex (p \u00bc 0.187 and p \u00bc 0.216) and region (p \u00bc 0.43 and p \u00bc 0.44). Minor differences were observed in settlement type, where individuals from a rural settlement with <2000 inhabitants were more likely to participate (p \u00bc 0.011), and in the age structure, where children in the age groups 0e10 years were less likely to be included and adults in the age group 51e60 years more likely (both p \u00bc 0.000).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "As detailed in the Supplementary material (items S1 and S4), after testing 1316 blood samples, four different estimates of SARS-CoV-2 seroprevalence in Slovenia for late April 2020 were calculated: three based on ELISA results and one based on concomitant Elecsys-N/Elecsys-S testing results. Uncorrected crude seroprevalence based on ELISA results was estimated at 3.11% (posterior mean 3.15%, 95% HDI 2.23%e4.10%), seroprevalence corrected for the manufacturer's estimate of ELISA specificity at 2.78% (95% HDI 1.81%e3.80%) and seroprevalence corrected for the estimate of ELISA specificity based on our meta-analysis (see Supplementary material, item S3) at 0.93% (95% CI 0.00%e2.65%). The unadjusted lower limit of anti-SARS-CoV-2 seroprevalence estimate for the first round based on the Elecsys-N/Elecsys-S results corrected for the manufacturers' estimates of the specificities of both assays was 0.87% (95% HDI 0.40%e1.38%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "For the second round, based on Elecsys-N/Elecsys-S concomitant testing of 1211 blood samples and as detailed in the Supplementary material (item S6), the unadjusted lower limit of anti-SARS-CoV-2 seroprevalence in Slovenia on 11 November 2020 was 4.06% (95% HDI 2.97%e5.16%) and on 3 October 2020 the unadjusted upper limit of seroprevalence was 4.29% (95% HDI 3.18%e5.47%). Unadjusted age-specific anti-SARS-CoV-2 seroprevalence estimates for four age categories (0e20, 21e40, 41e60 and > 60 years) are presented in the Supplementary material (Table S4) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 544,
+                    "end": 554,
+                    "text": "(Table S4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "All 50 anti-SARS-CoV-2-negative samples tested negative by NT and three-quarters of second-round anti-SARS-CoV-2-positive samples contained measurable levels of anti-SARS-CoV-2 neutralizing antibodies. The unadjusted lower limits of prevalence of anti-SARS-CoV-2 neutralizing antibodies in Slovenia on 11 November 2020, as well as the unadjusted upper limit of prevalence on 3 October 2020, were 2.97% (95% HDI 2.06%e3.87%).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "Seroprevalence surveys on a probability-based sample provide crucial information on cumulative SARS-CoV-2 exposure in communities. Such serosurveys are particularly useful in settings where limited SARS-CoV-2 RNA testing and/or contact tracing capacity prevents reliable assessment of the COVID-19 burden through cumulative incidence data from official notification systems, which is an unfortunate reality in most of the world. To address this knowledge gap, in March 2020 the WHO recommended nationwide population-based, age-stratified epidemiological surveys and designed a flexible investigation study protocol to facilitate the collection and sharing of COVID-19 epidemiological data in a standardized format [27] . As a result, numerous SARS-CoV-2 seroprevalence surveys on a probability-based sample were performed, but so far the majority have resulted in reports deposited in open-access preprint repositories or posted on websites [2] , and only a dozen have had results published in peerreviewed literature [4,6e17] . Comparing the results of published seroprevalence surveys is complicated because serological assay combinations with substantially different performance characteristics and different approaches regarding estimate calculations and interpretation of the results were used and, despite being labelled as probability-based sample surveys, the great majority excluded children or adolescents, or included only individuals seeking various health-care services, resulting in underrepresentation of younger cohorts. In addition, with the start of large-scale vaccination against SARS-CoV-2, the value and purpose of populationbased seroprevalence surveys will shift from past/current aims toward the duration and dynamic of protective immunity after vaccination to dictate the future course of public health measures and mitigating strategies [28] .",
+            "cite_spans": [
+                {
+                    "start": 714,
+                    "end": 718,
+                    "text": "[27]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 941,
+                    "end": 944,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1018,
+                    "end": 1026,
+                    "text": "[4,6e17]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1864,
+                    "end": 1868,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As of 31 January 2021, all published pre-vaccination SARS-CoV-2 serosurveys were conducted during or just following the first wave of the COVID-19 pandemic (Table 1 and Supplementary material  Table S6 ) [4,6e17] . Our study estimated the SARS-CoV-2 seroprevalence in Slovenia in two time periods: at the end of the relatively mild first epidemic wave (April 2020) and during the devastating exponential growth phase of the second epidemic wave (October/ November 2020). Due to considerably different circumstances, each study round dealt with distinct logistical and methodological challenges, resulting in several practical and informative lessons learned.",
+            "cite_spans": [
+                {
+                    "start": 204,
+                    "end": 212,
+                    "text": "[4,6e17]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 156,
+                    "end": 201,
+                    "text": "(Table 1 and Supplementary material  Table S6",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Slovenia was relatively spared during the first COVID-19 epidemic wave, with approximately 1400 cumulative laboratory-confirmed COVID-19 cases and 50 deaths/million reported (Fig. 1) . After 2 months of draconian containment measures, based on favourable incidence data from the national official notification system and supported by low active COVID-19 prevalence estimates in a nationwide study on a probability-based sample [6] , the restrictions in the country started to loosen in May 2020, ultimately leading to Slovenia being the first country in Europe to officially declare the end of the first wave of the epidemic as of 31 May 2020. However, because of an initially very conservative national diagnostic strategy (mainly due to a limited supply of reagents and consumables), it was predicted that the cumulative number of laboratory-confirmed COVID-19 cases captured through the official national notification system poorly reflected actual cumulative SARS-CoV-2 exposure during the first wave. When deciding in late April 2020 which anti-SARS-CoV-2 assay to use for testing the firstround samples, we and many others had no other choice than to use assay(s) with largely unproven performance, with very limited real-life experience in daily diagnostics and in population-based studies, heavily relying on the manufacturer's evaluation data and/or limited independent evaluation data, with the assay's performance assessed on a very limited number of samples and on a potentially biased sample population. As a result of extreme containment measures at that time (total lockdown, border closure), the only assay with relatively reliable performance data and with the assay quantities available to us for timely testing of all first-round samples was Euroimmun's ELISA. From today's perspective it is obvious that our initial estimate of SARS-CoV-2 seroprevalence in Slovenia for late April 2020 corrected for the manufacturer's estimate of ELISA specificity (2.78%) was an overestimation that was later corrected using two completely different week 52 in 2020 captured though the national official notification system. New laboratory-confirmed COVID-19 cases per week are presented using blue bars, and the corresponding numbers are on the right y-axis. The cumulative number of laboratory-confirmed COVID-19 cases is presented by the dotted line, and corresponding numbers are on the left y-axis. For a nationwide seroprevalence population study on a probability-based sample, blood samples were collected between 20 April and 1 May 2020 (first study round) and 17 October and 10 November 2020 (second study round). National official notification system row data are available at https://www.nijz.si/sl/dnevno-spremljanje-okuzb-s-sars-cov-2-covid-19. Total data are presented from week 5 to week 52 in 2020; detailed data from week 9 to week 20 in 2020 are presented in the magnified window. approaches. First, after accumulation of published manufacturerindependent ELISA performance data, we innovatively corrected the first-round seroprevalence using pooled 'meta-specificity' (see Supplementary material, item S3). Second, when it became clear that concomitant use of highly-specific serological assays targeting different SARS-CoV-2 proteins offers reliable seroprevalence estimates in low-prevalence settings [3, 5, 18, 19, 24, 29, 30] , all firstround samples were retested in November 2020 using an Elecsys-N/Elecsys-S combination. Interestingly, using these two different approachesdcorrection of suboptimal ELISA results using pooled 'meta-specificity' versus concomitant use of two highly specific assaysdvery similar seroprevalence estimates for late April 2020 were determined (0.93% versus 0.87%). Slovenian seroprevalence in late April 2020 was compatible with population-based seroprevalence estimates for Iceland [7] , the Faroe Islands [12] , India [11] and China [17] , and substantially lower than those recorded in countries heavily affected by the first COVID-19 epidemic wave [4,8,10,14e16] .",
+            "cite_spans": [
+                {
+                    "start": 427,
+                    "end": 430,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 3327,
+                    "end": 3330,
+                    "text": "[3,",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 3331,
+                    "end": 3333,
+                    "text": "5,",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 3334,
+                    "end": 3337,
+                    "text": "18,",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 3338,
+                    "end": 3341,
+                    "text": "19,",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 3342,
+                    "end": 3345,
+                    "text": "24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 3346,
+                    "end": 3349,
+                    "text": "29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 3350,
+                    "end": 3353,
+                    "text": "30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 3842,
+                    "end": 3845,
+                    "text": "[7]",
+                    "ref_id": null
+                },
+                {
+                    "start": 3866,
+                    "end": 3870,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 3879,
+                    "end": 3883,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 3894,
+                    "end": 3898,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 4011,
+                    "end": 4025,
+                    "text": "[4,8,10,14e16]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 174,
+                    "end": 182,
+                    "text": "(Fig. 1)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "In contrast to the first epidemic wave, Slovenia was one of the countries most affected in the second epidemic wave, with currently the third-worst COVID-19-related cumulative mortality globally (https://origin-coronavirus.jhu.edu/). With lessons learned during first-round testing, second-round specimens were also tested with the Elecsys-N/Elecsys-S combination, and all positives were tested further by NT. However, other methodological and logistic challenges arose. As shown in Fig. 1 , second-round specimens were collected at the turning point of the second epidemic wavedduring the collection period, the cumulative number of laboratory-confirmed COVID-19 cases in the country increased 3.6fold, from 13 675 to 48 837. In addition, several study participants were either isolated or quarantined. All of these extended the sample collection period over 25 days and resulted in non-random sampling collection order (participants with COVID-19-compatible symptoms/signs were tested later because of logistical issues). Consequently, the seroprevalence estimate for the second round could not be calculated as point prevalence, but we had to present the results as the period (see Supplementary material, item S6). As a result, the seroprevalence estimates for October/November 2020 were presented as the upper bound of seroprevalence 14 days before the sample collection starting date and the lower bound of seroprevalence at the end of the sample collection period because: (a) the sensitivity of the serological assays correlates with the time that elapsed between exposure and testing, (b) sample collection was performed during epidemic exponential growth and (c) in contrast to the first round, the second round was not accompanied with concomitant SARS-CoV-2 RNA testing. In comparison to the first round, concomitant use of Elecsys-N/Elecsys-S was even more beneficial in the second round not only to secure high specificity but also to increase net sensitivity by capturing the participants with an anti-S-only or anti-N-only early convalescent response [31e33].",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 483,
+                    "end": 489,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "An important study limitation is that, as the result of stringent study protocol requirements, all first-round samples were anonymized after initial ELISA testing, making it impossible to individually link the Elecsys-N/Elecsys-S results from both rounds. However, the recent study that followed a large cohort of medical workers with the Elecsys-N/Elecsys-S combination showed the persistence of anti-SARS-CoV-2 antibodies in all participants up to 6 months [31] . We strongly believe that all first-round anti-SARS-CoV-2-positive participants were also captured by the Elecsys-N/ Elecsys-S combination in their second-round samples and that a risk of 6-month 'seroreversion' when using the Elecsys-N/Elecsys-S combination is negligible. An additional important inherited limitation of all seroprevalence surveys is that some individuals remain seronegative post-infection, as evidenced by the detection of memory T-cell SARS-CoV-2 responses in the absence of antibodies [34, 35] .",
+            "cite_spans": [
+                {
+                    "start": 459,
+                    "end": 463,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 972,
+                    "end": 976,
+                    "text": "[34,",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 977,
+                    "end": 980,
+                    "text": "35]",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In conclusion, the nationwide population study on a probabilitybased sample showed at least a four-fold increase in anti-SARS-CoV-2 prevalence from late April 2020 to October/November 2020. Significant logistical and methodological challenges accompanied both study rounds with several important lessons learned, including (but not limited to) the need for caution when relying on assays' evaluation data generated by manufacturers, the importance of manufacturer-independent assay performance assessments and early data sharing through peer-reviewed literature, the need for concomitant use of two highly specific serological assays targeting different SARS-CoV-2 proteins in seroprevalence surveys conducted in both low-prevalence settings and during epidemic exponential growth, and the power and flexibility of the Bayesian approach for overcoming methodological challenges arising in seroprevalence surveys of emerging pathogens.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "MPO, AOV and ES contributed equally to this work. MPO, AOV, PMV and TAZ were responsible for the study concept and design. AOV, PMV, KRR, TAZ, MPE, MPO, NK, MK, BZ, JD, ES, SK, KS and VV were responsible for the acquisition, analysis or interpretation of data. MPO, AOV, ES and PMV drafted the manuscript, and NK, MK, KRR, BZ, JD, SK, KS and VV provided essential parts. BZ, JD, ES, SK and VV were responsible for statistical analysis. All authors approved the final version of the manuscript submitted to CMI. All authors had full access to the data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "This work was funded by the Government of the Republic of Slovenia, the Institute of Microbiology and Immunology, Faculty of Medicine, University of Ljubljana, Slovenia and the Slovenian Research Agency (grants: P5-0399, P2-0209, P5-0410, P5-0151 and P3-0083). All the authors declare no competing interests. The funders had no role in the study design, data collection, analysis, interpretation of the results, writing of the manuscript and decision to submit the work for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "The authors have no conflicts of interest to disclose.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Transparency declaration"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Population-based seroprevalence surveys of anti-SARS-CoV-2 antibody: an up-to-date review",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Hsueh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Infect Dis",
+            "volume": "101",
+            "issn": "",
+            "pages": "314--336",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "SARS-CoV-2 seroprevalence worldwide: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Rostami",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sepidarkish",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mmg",
+                    "middle": [],
+                    "last": "Leeflang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Riahi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nourollahpour",
+                    "middle": [],
+                    "last": "Shiadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Esfandyari",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Clin Microbiol Infect",
+            "volume": "27",
+            "issn": "",
+            "pages": "331--371",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Diagnostic accuracy of serological tests and kinetics of severe acute respiratory syndrome coronavirus 2 antibody: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mekonnen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mengist",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Derbie",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Nibret",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Munshea",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Rev Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Seroprevalence of anti-SARS-CoV-2 IgG antibodies in Geneva, Switzerland (SEROCoV-POP): a population-based study",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stringhini",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wisniak",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Piumatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Azman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lauer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Baysson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "313--322",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Evaluation of three commercial SARS-CoV-2 serologic assays and their performance in two-test algorithms",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Turbett",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Anahtar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Dighe",
+                    "suffix": ""
+                },
+                {
+                    "first": "Garcia",
+                    "middle": [],
+                    "last": "Beltran",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Scott",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Microbiol",
+            "volume": "59",
+            "issn": "",
+            "pages": "1892--1912",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Low prevalence of active COVID-19 in Slovenia: a nationwide population study of a probability-based sample",
+            "authors": [
+                {
+                    "first": "Maver",
+                    "middle": [],
+                    "last": "Vodi Car",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Strbenk Valen Cak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zupan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Av",
+                    "middle": [],
+                    "last": "Si C Zupanc",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Kurdija",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Korva",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Microbiol Infect",
+            "volume": "26",
+            "issn": "",
+            "pages": "1514--1523",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Humoral immune response to SARS-CoV-2 in Iceland",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gudbjartsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Norddahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Melsted",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gunnarsdottir",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Holm",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Eythorsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "",
+            "pages": "1724--1758",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Prevalence of SARS-CoV-2 in Spain (ENE-COVID): a nationwide, population-based seroepidemiological study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Poll An",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Erez-G Omez",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pastor-Barriuso",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Oteo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hern An",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Olmeda",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "396",
+            "issn": "",
+            "pages": "535--579",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Population point prevalence of SARSCoV-2 infection based on a statewide random sample e Indiana",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Menachemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Yiannoutsos",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dixon",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Duszynski",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Fadel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wools-Kaloustian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "960--964",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Seroprevalence of SARS-CoV-2-specific antibodies among adults in",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Sood",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Simon",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ebner",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Eichner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Reynolds",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Bendavid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "2425--2432",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Prevalence of SARS-CoV-2 infection in India: findings from the national serosurvey, MayeJune 2020",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Murhekar",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bhatnagar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Selvaraju",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Rade",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Saravanakumar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jwv",
+                    "middle": [],
+                    "last": "Thangaraj",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Indian J Med Res",
+            "volume": "152",
+            "issn": "",
+            "pages": "48--60",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Seroprevalence of SARS-CoV-2-specific antibodies",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Petersen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Str\u00f8m",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Christiansen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Fjallsbak",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Hansen Eliasen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Johansen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Emerg Infect Dis",
+            "volume": "26",
+            "issn": "",
+            "pages": "2761--2764",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "SARS-CoV-2 antibody prevalence in Brazil: results from two successive nationwide serological household surveys",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hallal",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Hartwig",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Horta",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Silveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Struchiner",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Vidaletti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Health",
+            "volume": "8",
+            "issn": "",
+            "pages": "1390--1398",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "SARS-CoV-2 antibody seroprevalence in the general population and high-risk occupational groups across 18 cities in Iran: a population-based cross-sectional study",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Poustchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Darvishian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Mohammadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shayanrad",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Delavari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bahadorimonfared",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Lancet",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Nationwide seroprevalence of SARS-CoV-2 and identification of risk factors in the general population of The Netherlands during the first epidemic wave",
+            "authors": [
+                {
+                    "first": "Era",
+                    "middle": [],
+                    "last": "Vos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hartog",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Schepp",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kaaijk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Van Vliet",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Helm",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Epidemiol Community Health",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Prevalence of SARS-CoV-2 IgG antibodies in an area of northeastern Italy with a high incidence of COVID-19 cases: a population-based study",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stefanelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bella",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fedele",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pancheri",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Leone",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Vacca",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Microbiol Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Seroprevalence and asymptomatic carrier status of SARS-CoV-2 in Wuhan City and other places of China",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duan",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "PLoS Negl Trop Dis",
+            "volume": "15",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The role of antibody testing for SARS-CoV-2: is there one?",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Theel",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Slev",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wheeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Couturier",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kadkhoda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Microbiol",
+            "volume": "58",
+            "issn": "",
+            "pages": "797--817",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Comparison of SARS-CoV-2 serological tests with different antigen targets",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Coste",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Jaton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Papadimitriou-Olivgeris",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Greub",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Croxatto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Virol",
+            "volume": "134",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Head-to-head comparison of two rapid high-throughput automated electrochemiluminescence immunoassays targeting total antibodies to the SARS-CoV-2 nucleoprotein and spike protein receptor binding domain",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Poljak",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Strbenk Valen Cak",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Stamol",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Seme",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Clin Virol",
+            "volume": "137",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Differences in performance characteristics among four high-throughput assays for the detection of antibodies against SARS-CoV-2 using a common set of patient samples",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Manthei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Whalen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Schroeder",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sinay",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Valdez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Am J Clin Pathol",
+            "volume": "155",
+            "issn": "",
+            "pages": "267--79",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Head-to-head evaluation on diagnostic accuracies of six SARS-CoV-2 serological assays",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Saw",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Chew",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Huak",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Khoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pajarillaga",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pathology",
+            "volume": "52",
+            "issn": "",
+            "pages": "770--777",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Variable performance in 6 commercial SARS-CoV-2 antibody assays may affect convalescent plasma and seroprevalence screening",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zilla",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Wheeler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Keetch",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mitchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcbreen",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wells",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Am J Clin Pathol",
+            "volume": "155",
+            "issn": "",
+            "pages": "343--53",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Diagnostic accuracy of serological tests for covid-19: systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "Lisboa",
+                    "middle": [],
+                    "last": "Bastos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tavaziva",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Abidi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Haraoui",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Johnston",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMJ",
+            "volume": "370",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Differences in antibody kinetics and functionality between severe and mild severe acute respiratory syndrome coronavirus 2 infections",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Rijkers",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Murk",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wintermans",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Van Looy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Van Den Berge",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Veenemans",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect Dis",
+            "volume": "222",
+            "issn": "",
+            "pages": "1265--1274",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "RStan: the R interface to Stan",
+            "authors": [
+                {
+                    "first": "Stan",
+                    "middle": [],
+                    "last": "Development Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Population-based age-stratified seroepidemiological investigation protocol for COVID-19 virus infection",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Projecting the transmission dynamics of SARS-CoV-2 through the post-pandemic period",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kissler",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tedijanto",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Goldstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Grad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lipsitch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "368",
+            "issn": "",
+            "pages": "860--868",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Orthogonal SARS-CoV-2 serological assays enable surveillance of lowprevalence communities and reveal durable humoral immunity",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ripperger",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Uhrlaub",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Castaneda",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pizzato",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Immunity",
+            "volume": "53",
+            "issn": "",
+            "pages": "925--933",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Comparison of the clinical performances of the Abbott Alinity IgG, Abbott Architect IgM, and Roche Elecsys total SARS-CoV-2 antibody assays",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Harley",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Gunsolus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Microbiol",
+            "volume": "59",
+            "issn": "",
+            "pages": "2104--2124",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Antibody persistence in the first six months following SARS-CoV-2 infection among hospital workers: a prospective longitudinal study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "L&apos;huillier",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Meyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "Andrey",
+                    "middle": [],
+                    "last": "Do",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Arm-Vernez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Baggio",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Didierlaurent",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Clin Microbiol Infect",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Antibody status and incidence of SARS-CoV-2 infection in health care workers",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lumley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "O&apos;donnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Stoesser",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Matthews",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Howarth",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hatch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "N Engl J Med",
+            "volume": "384",
+            "issn": "",
+            "pages": "533--573",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "The duration, dynamics and determinants of SARS-CoV-2 antibody responses in individual healthcare workers",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lumley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "O&apos;",
+                    "middle": [],
+                    "last": "Donnell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Stoesser",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Matthews",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Howarth",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Clin",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Cellular immunity in COVID-19 convalescents with PCR-confirmed infection but with undetectable SARS-CoV-2-specific IgG",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schwarzkopf",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Krawczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Knop",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Klump",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Heinold",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Heinemann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Emerg Infect Dis",
+            "volume": "27",
+            "issn": "",
+            "pages": "122--131",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Robust T cell immunity in convalescent individuals with asymptomatic or mild COVID-19",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Sekine",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perez-Potti",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Rivera-Ballesteros",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Str\u00e5lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Gorin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Olsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell",
+            "volume": "183",
+            "issn": "",
+            "pages": "158--168",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Seroprevalence of severe acute respiratory syndrome coronavirus 2 in Slovenia: results of two rounds of a nationwide population study on a probability-based sample, challenges and lessons learned",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Poljak",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Clinical Microbiology and Infection",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cmi.2021.03.009"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "this article as: Poljak M et al., Seroprevalence of severe acute respiratory syndrome coronavirus 2 in Slovenia: results of two rounds of a nationwide population study on a probability-based sample, challenges and lessons learned, Clinical Microbiology and Infection, https:// doi.org/10.1016/j.cmi.2021.03.009",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "New laboratory-confirmed coronavirus disease 2019 (COVID-19) cases per week and cumulative number of laboratory-confirmed COVID-19 cases in Slovenia from week 5 to",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "this article as: Poljak M et al., Seroprevalence of severe acute respiratory syndrome coronavirus 2 in Slovenia: results of two rounds of a nationwide population study on a probability-based sample, challenges and lessons learned, Clinical Microbiology and Infection, https:// doi.org/10.1016/j.cmi.2021.03.009",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "SARS-CoV-2 population-based prevalence studies on a probability-based sample with results published in peer-reviewed literature until 31 January 2021 M. Poljak et al. / Clinical Microbiology and Infection xxx (xxxx) xxx Please cite this article as: Poljak M et al., Seroprevalence of severe acute respiratory syndrome coronavirus 2 in Slovenia: results of two rounds of a nationwide population study on a probability-based sample, challenges and lessons learned, Clinical Microbiology and Infection, https:// doi.org/10.1016/j.cmi.2021.03.009",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "peer-reviewed seroprevalence surveys with results deposited in open-access preprint repositories or posted at websites and those performed retrospectively on residual serum samples were not considered eligible. A more Please cite this article as: Poljak M et al., Seroprevalence of severe acute respiratory syndrome coronavirus 2 in Slovenia: results of two rounds of a nationwide population study on a probability-based sample, challenges and lessons learned, Clinical Microbiology and Infection, https:// doi.org/10.1016/j.cmi.2021.03.009",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "We would like to thank all the participants who accepted the invitation and volunteered to participate in the study. This study would not have been possible without the dedicated work of many people: the colleagues responsible for first-contact ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Supplementary data to this article can be found online at https://doi.org/10.1016/j.cmi.2021.03.009.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Appendix A. Supplementary data"
+        }
+    ]
+}

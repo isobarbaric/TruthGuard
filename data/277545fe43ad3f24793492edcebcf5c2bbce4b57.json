@@ -1,0 +1,1593 @@
+{
+    "paper_id": "277545fe43ad3f24793492edcebcf5c2bbce4b57",
+    "metadata": {
+        "title": "Gene-Environment Interaction Analysis Incorporating Sex, Cardiometabolic Diseases, and Multiple Deprivation Index Reveals Novel Genetic Associations With COVID-19 Severity. Front. Genet. 12:782172. Frontiers in Genetics | www",
+        "authors": [
+            {
+                "first": "C",
+                "middle": [],
+                "last": "Marchek",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "A",
+                "middle": [
+                    "K"
+                ],
+                "last": "Manning",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Increasing evidence indicates that specific genetic variants influence the severity of outcomes after infection with COVID-19. However, it is not clear whether the effect of these genetic factors is independent of the risk due to more established non-genetic demographic and metabolic risk factors such as male sex, poor cardiometabolic health, and low socioeconomic status. We sought to identify interactions between genetic variants and non-genetic risk factors influencing COVID-19 severity via a genome-wide interaction study in the UK Biobank. Of 378,051 unrelated individuals of European ancestry, 2,402 were classified as having experienced severe COVID-19, defined as hospitalization or death due to COVID-19. Exposures included sex, cardiometabolic risk factors [obesity and type 2 diabetes (T2D), tested jointly], and multiple deprivation index. Multiplicative interaction was tested using a logistic regression model, conducting both an interaction test and a joint test of genetic main and interaction effects. Five independent variants reached genome-wide significance in the joint test, one of which also reached significance in the interaction test. One of these, rs2268616 in the placental growth factor (PGF) gene, showed stronger effects in males and in individuals with T2D. None of the five variants showed effects on a similarly-defined phenotype in a lookup in the COVID-19 Host Genetics Initiative. These results reveal potential additional genetic loci contributing to COVID-19 severity and demonstrate the value of including non-genetic risk factors in an interaction testing approach for genetic discovery.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Epidemiological research has uncovered multiple risk factors for COVID-19 severity, including sex, metabolic conditions such as type 2 diabetes and obesity, and socioeconomic status. Male sex is independently associated with higher mortality and worse COVID-19 outcomes (Palaiodimos et al., 2020; Park et al., 2020) . Cardiometabolic (CM) conditions, such as Type 2 diabetes (T2D) and obesity, are also associated with increased COVID-19 susceptibility and severity (Barron et al., 2020; Zhu et al., 2020) . Additionally, associated comorbidities of obesity, such as deregulated immune response, chronic inflammation, metabolic dysfunction, and compromised cilia on airway epithelial cells may put individuals at higher risk of severe COVID-19 (Ritter et al., 2020) . Minoritized communities are disproportionately impacted by of COVID-19 and may be predisposed to worse conditions due to environmental factors, limited healthcare access, and other societal factors (Tai et al., 2021) . Furthermore, housing and neighborhood density and increased work-related exposure may put low-income groups at higher risk (Burstr\u00f6m and Tao, 2020) . Additionally, the greater prevalence of underlying chronic conditions among individuals with lower socioeconomic status puts this group at greater risk of severe outcomes.",
+            "cite_spans": [
+                {
+                    "start": 270,
+                    "end": 296,
+                    "text": "(Palaiodimos et al., 2020;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 297,
+                    "end": 315,
+                    "text": "Park et al., 2020)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 466,
+                    "end": 487,
+                    "text": "(Barron et al., 2020;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 488,
+                    "end": 505,
+                    "text": "Zhu et al., 2020)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 744,
+                    "end": 765,
+                    "text": "(Ritter et al., 2020)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 966,
+                    "end": 984,
+                    "text": "(Tai et al., 2021)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1110,
+                    "end": 1134,
+                    "text": "(Burstr\u00f6m and Tao, 2020)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Genetic investigations, such as that from the Host Genetics Initiative (HGI) consortium, have demonstrated that specific genomic regions are associated with COVID-19 severity. The HGI global meta-analysis identified 13 genome-wide significant loci, 9 of which were associated with increased risk of severe symptoms for hospitalized COVID (Niemi et al., 2021) . Several loci were further associated with interstitial lung disease and autoimmune and inflammatory diseases, possibly predisposing individuals to greater immune response and worse outcomes. Genetic studies have also been helpful in clarifying the causal impacts of highly-correlated body mass index (BMI) and cardiometabolic risk factors on COVID-19 severity (Leong et al., 2021) .",
+            "cite_spans": [
+                {
+                    "start": 338,
+                    "end": 358,
+                    "text": "(Niemi et al., 2021)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 721,
+                    "end": 741,
+                    "text": "(Leong et al., 2021)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "It is not clear whether genetic factors impact the relationship between these key risk factors and COVID-19 severity, or whether these interactions can uncover novel genetic loci impacting this outcome. We sought to understand the interactions between genetic variants and previously reported risk factors, in order to gain novel understanding of the underlying mechanisms impacting COVID-19 severity and add an important dimension to the current epidemiological literature on COVID-19. We undertook a series of three genome-wide gene-environment interaction studies in the United Kingdom Biobank, conducting both interaction effect tests, to find genetic impacts on the risk factor-severe disease relationship, and joint tests of genetic main and interaction effects, to discover new genetic loci while accounting for heterogeneity due to risk factor interactions. The \"environmental\" exposures included sex, CM health (obesity and type 2 diabetes status), and social determinants of health (as quantified by the multiple deprivation index). The binary outcome was severe COVID-19 (as defined by hospitalization or death due to while the rest of the population was used as a control group. Using GxE analyses and GWAS postprocessing methods, we found 5 genome-wide significant loci that provide insight into the biological mechanisms of severe COVID-19 outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The UK Biobank (UKB) is a population-based cohort including over 500,000 individuals living in England, Wales, and Scotland. The sub-population of interest for this study included unrelated individuals of European ancestry in order to minimize genetic heterogeneity. Sample sizes varied depending on available phenotypes across these populations. COVID-19 test results were downloaded from the UKBB data portal on January 1, 2020 including all diagnostics available since April 2020, when the test results became publicly available. The severe COVID-19 phenotype for was defined as laboratory confirmed SARS-CoV-2 infection plus hospitalized COVID-19, with the rest of the population serving as controls versus the rest of the population. This definition was designed to mirror that of the \"B2\" phenotype used by the COVID-19 Host Genetics Initiative team (Niemi et al., 2021 ) (COVID-19 Host Genetics Initiative, 2020 and is outlined in Supplementary Figure S1 . Genotype preprocessing was primarily performed centrally by the UKB with filters at the marker and sample level (Bycroft et al., 2018) . Genotypes were further subsetted to common variants (minor allele frequency >0.05) for analysis.",
+            "cite_spans": [
+                {
+                    "start": 856,
+                    "end": 875,
+                    "text": "(Niemi et al., 2021",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 876,
+                    "end": 918,
+                    "text": ") (COVID-19 Host Genetics Initiative, 2020",
+                    "ref_id": null
+                },
+                {
+                    "start": 1076,
+                    "end": 1098,
+                    "text": "(Bycroft et al., 2018)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 952,
+                    "end": 961,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "UK Biobank Dataset"
+        },
+        {
+            "text": "Risk factors used as exposures were measures of geneticallydetermined sex, CM health, and social determinants of health (SDH). For CM measures, BMI was used as a measure of obesity and T2D status was determined based on self-reported medical history and medication use (\"probable\" or \"possible\" algorithmic definitions described by Eastwood an colleagues (Eastwood et al., 2016) . BMI and T2D were tested jointly, and then individually as a sensitivity analysis. The multiple deprivation index (MDI) was used as a measure of social determinants of health (SDH). The MDI is composed of metrics including economic stability, physical environment, and education; details can be found at https://biobank.ndph.ox.ac.uk/ukb/label.cgi?id 76. The MDI is a measure of relative deprivation for small areas (or neighbourhoods) in England. The MDI ranks every small area in England from 1 (most deprived area) to 32,844 (least deprived area). Deprivation \"deciles\" and percentages are published alongside ranks; percentages were used in this study. Na\u00efve collation of these indices across UK countries can be problematic since the scores are constructed differently. So, for the MDI analyses, only the subset of the population living in England was used in order to reduce heterogeneity. We note that this still retains a majority of the population in question (86%).",
+            "cite_spans": [
+                {
+                    "start": 355,
+                    "end": 378,
+                    "text": "(Eastwood et al., 2016)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Exposures of Interest"
+        },
+        {
+            "text": "A genome-wide scan was performed based on a logistic regression model including gene-environment interaction terms:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "log it y \u223c g + exp osure + gp exp osure + covariates Y was the binary severe COVID-19 indicator (defined above). The three genome-wide scans used the following exposures: sex, CM conditions (BMI and T2D), and MDI. For the CM conditions, two environmental terms and two interaction terms were tested jointly. To test T2D exposure effect, GxT2D interaction obese and non-obese stratified analyses were run. Covariates included age, five genetic principal components, and sex. Genome-wide analysis was conducted using GEM (Gene-Environment interaction analysis in Millions of samples) v1.2 (Westerman et al., 2021) with model-based standard errors. For each variant, two statistical tests were derived: an interaction test and a joint test of the interaction term(s) plus the genetic main effect.",
+            "cite_spans": [
+                {
+                    "start": 587,
+                    "end": 611,
+                    "text": "(Westerman et al., 2021)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "Interaction and joint analyses were conducted on the Terra cloud platform. Phenotype definitions and population summaries were created in interactive Jupyter notebooks with an R 3.6 kernel. Genome-wide interaction study (GWIS) analyses were submitted as workflows using a Workflow Description Language (WDL) script implementing GEM. Post-GWIS summarization and visualizations were created in a separate Jupyter notebook. These notebooks can be viewed on GitHub (https://github.com/ manning-lab/ukb-covid-gxe).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical Analysis"
+        },
+        {
+            "text": "Top variants were further investigated for trait associations, eQTLs, and linkage disequilibrium using dbSNP (NCBI), PhenoScanner (Kamat et al., 2019; Staley et al., 2016) , RegulomeDB (Boyle et al., 2012) , Type 2 Diabetes Knowledge portal (https://t2d.hugeamp.org/), and LDlink (Myers et al., 2020) . Colocalization between interactions and eQTLs was performed using the coloc package (Giambartolomei et al., 2014) along with blood-based eQTL summary statistics from the eQTLGen Consortium (V\u00f5sa et al. , 2018) . This analysis tests the hypothesis that the genetic association signal (here, of genetic interaction) shares a common causal variant with the eQTL at that locus, which increases confidence that the associated expression effect could be mediating the genetic effect. It produces a series of posterior probabilities, one of which corresponds to the hypothesis (\"Hypothesis 4\") that the causal variant is shared, for which a value > 0.9 would be considered strong support for colocalization.",
+            "cite_spans": [
+                {
+                    "start": 130,
+                    "end": 150,
+                    "text": "(Kamat et al., 2019;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 151,
+                    "end": 171,
+                    "text": "Staley et al., 2016)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 185,
+                    "end": 205,
+                    "text": "(Boyle et al., 2012)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 280,
+                    "end": 300,
+                    "text": "(Myers et al., 2020)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 387,
+                    "end": 416,
+                    "text": "(Giambartolomei et al., 2014)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 492,
+                    "end": 512,
+                    "text": "(V\u00f5sa et al. , 2018)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Variant Biology Investigation"
+        },
+        {
+            "text": "The UKB population is described in Table 1 , with subjects categorized into those having experienced severe COVID-19 (hospitalization or death from COVID-19; see Methods) and the remaining population (regardless of infection status). While the overall population had a greater proportion of females, males were more likely to be present in the case group (54 vs. 46% in controls, p 2.3 \u00d7 10 \u221211 ). Cases also had a greater prevalence of T2D (p 8.2 \u00d7 10 \u221248 ), higher BMI (p 6.7 \u00d7 10 \u221262 ) and higher MDI (p 9.7 \u00d7 10 \u221245 ), which is interestingly, less deprived.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 35,
+                    "end": 42,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "We conducted a GWIS for each of the following exposures: sex, CM traits (BMI and T2D, tested jointly), and MDI. Top index variants after pruning are displayed in Supplementary Tables  S2-S4 . Across all scans, five variants (rs2268616, rs182113773, rs148793499, rs11115199, and chr2:218260234) passed a genome-wide significance (GWS) threshold (p < 5 \u00d7 10 \u22128 ) in the joint test (one with sex as the exposure, three with CM traits, and one shared between the two). One of these five (rs11115199) was additionally found to be GWS in the CM interaction test (Figure 1 ; Table 2 and Table 3 ). Two of these variants (rs148793499, rs11115199) passed a study-wide significance threshold (p < 5 \u00d7 10 \u22128 /3 exposures 1.6 \u00d7 10 \u22128 ). No variants passed the GWS threshold in the MDI analysis. Of the five variants, a GWS marginal effect (i.e., from the identical statistical model but excluding the interaction term) was identified for only rs2268616 (p 1.08 \u00d7 10 \u22128 ) and rs182113773 (p 1.39 \u00d7 10 \u22128 ). This result shows that the joint test discovered variants that would not have been found via a standard GWAS in this population.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 162,
+                    "end": 189,
+                    "text": "Supplementary Tables  S2-S4",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 556,
+                    "end": 565,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 568,
+                    "end": 575,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 580,
+                    "end": 587,
+                    "text": "Table 3",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "These five GWS variants were compared to genetic main effects from the HGI meta-analysis (with UKB omitted) testing the equivalent \"B2\" phenotype (hospitalized COVID-19 vs. population). A significant genetic main effect would constitute a partial replication of the joint test (genetic plus interaction effect) hypothesis. Neither of the two variants directly tested in the HGI meta-analysis showed nominal replication (both p > 0.05). For the remaining three, neither the variants nor close genetic proxies (r 2 > 0.5 using European-based linkage disequilibrium patterns) were available in the HGI dataset.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Next, we explored these top variants and interactions to understand their potential biological function. One variant of interest, rs2268616 (MAF 0.018), was genome-wide significant in the joint sex analyses (p 2.67 \u00d7 10 \u22128 ) and joint CM diseases (p 3.87 \u00d7 10 \u22128 ). This variant sits in an intron of the placental growth factor (PGF) gene and is modestly associated with testosterone in GWAS analyses (Prins et al., 2017) . It is also a putative enhancer in lung and other tissues, and is an eQTL for EIF2B2 (a gene in a family of proteins that regulate viral mRNA translation) in whole blood. However, colocalization analysis using whole blood eQTL statistics from eQTLGen Consortium did not support the hypothesis of a shared causal variant with either PGF or EIF2B (posterior probabilities <0.1%). Figure 2 . T2D-stratified tests also showed a greater genetic effect on severe COVID-19 in individuals with T2D (OR 2.01 [1.22-3.32]) compared to those without T2D (OR 1.6 [1.33-1.9).",
+            "cite_spans": [
+                {
+                    "start": 401,
+                    "end": 421,
+                    "text": "(Prins et al., 2017)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 801,
+                    "end": 809,
+                    "text": "Figure 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "RESULTS"
+        },
+        {
+            "text": "The additional GWS variants also indicated genetic effects on COVID-19 severity mediated through interaction effects. rs182113773 was found in the CM joint test (p 2.71 \u00d7 10 \u22128 ) and found in the intron for MACC1. This variant sits in an enhancer within neutrophils, monocytes, and B cells and has a RegulomeDB score of 0.59, suggesting a regulatory role in transcription. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "RESULTS"
+        },
+        {
+            "text": "Exploring the interplay of genetics and sex offers novel understanding of the underlying mechanisms impacting COVID-19 severity and adds an important dimension to the current epidemiological literature on COVID-19. In this genomewide gene-environment interaction analysis, we found five significant genomic regions (p < 5 \u00d7 10 \u22128 ) that interact with well-established risk factors to influence COVID-19 severity. Sex-dimorphic transcripts and hormones, as well as differences in environmental factors between the sexes, contribute to differential immune responses between sexes (Klein and Flanagan, 2016) and may mediate the established association of male sex with greater COVID-19 severity. In our analysis, rs2268616 was statistically significant in the joint analyses for sex and CM diseases (p < 5 \u00d7 10 \u22128 ). This variant has been associated with testosterone and placental growth factor gene in GWAS analyses, suggesting that this variant interacts with sex to mediate worse COVID-19 outcomes. Interestingly, this variant is also an eQTL for EIF2B2, a gene within a family of proteins that mediate viral mRNA translation. Moreover, prior studies have found an increased risk of death and significantly increased levels of inflammatory markers in male COVID-19 positive hospitalized patients compared with women (Lau et al., 2021) . The EIF2B2 variant is linked to a strong transcription chromatin state in the cells of the lung, spleen, and B-cells, perhaps mediating the robust inflammatory response in males that is associated with worse COVID outcomes. Furthermore, rs2268616 sits within an enhancer in lung tissue, suggesting a role of this variant on transcription and respiratory complications after SARS-CoV-2 infection. Variant rs2268616 also shows a modest positive association with coronary artery disease and negative association with HOMA-B based on lookups in the Type 2 Diabetes Knowledge Portal (https://t2d.hugeamp.org/), indicating a potential influence on metabolic traits in general. Our findings suggest that this genetic variant may modify the relationship between biological differences and associated worse COVID-19 outcomes primarily through regulating viral RNA clearance immune response and lung cell transcription.",
+            "cite_spans": [
+                {
+                    "start": 578,
+                    "end": 604,
+                    "text": "(Klein and Flanagan, 2016)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1317,
+                    "end": 1335,
+                    "text": "(Lau et al., 2021)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Comorbidities associated with CM health such as obesity and T2D have been implicated in mediating worse COVID-19 outcomes (Ritter et al., 2020) . Our findings show four variants that were genome-wide significant in our CM joint tests: rs182113773, rs11115199, rs148793499, and rs2268616. Located within the intron for MACC1, a gene associated with BMI-adjusted waist circumference and BMI-adjusted waist-hip ratio, rs182113773 is an enhancer within neutrophils, monocytes, and B cells. This variant also has high gene expression in EBVtransformed lymphocytes and is a likely regulatory variant (RegulomeDB score of 0.59), which further suggests that the interaction of this variant with CM health has a regulatory role on immune response. Studies found that increased neutrophil count in T2D groups are associated with clinical severity and may mediate the positive association between T2D and COVID-19 severity (Zhu et al., 2020) . Thus, this MACC1 variant may be interacting with CM health to mediate greater COVID-19 severity. Furthermore, obese adipose tissues overexpress receptors and proteases that enable the entry of SARS-CoV-2, possibly contributing to the severe inflammation and immune response of individuals with obesity (Ritter et al., 2020) . Alongside decreased immune response mediated by testosterone, rs2268616 may also play a role in the deflated immune response seen in cases with CM disease status. This variant has a positive association with coronary artery disease and a negative association with HOMA-B (a method that assesses \u03b2-cell function from basal fasting glucose and insulin). For CM diseases, well controlled blood glucose and smaller glycemic variability have been associated with lower mortality during hospitalization due to COVID-19 (Zhu et al., 2020) . Therefore, this variant may help explain the COVID-19 biology that increases the risk for individuals with T2D. Interactions between these genetic factors and deregulated immune response, chronic inflammation, metabolic dysfunction, and other comorbidities of obesity and T2D may be placing individuals at greater risk for worse outcomes of COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 122,
+                    "end": 143,
+                    "text": "(Ritter et al., 2020)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 912,
+                    "end": 930,
+                    "text": "(Zhu et al., 2020)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 1235,
+                    "end": 1256,
+                    "text": "(Ritter et al., 2020)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1772,
+                    "end": 1790,
+                    "text": "(Zhu et al., 2020)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Beyond rs2268616, other genome-wide significant variants identified in the CM analysis are of potential biological interest. The rs11115199 variant is an eQTL for METTL25, a gene that has known genetic links to BMI but which has minimal transcription in memory T cells and B cells. Thus, this locus may instead modify immune response via interactions with obesity. Meanwhile, the genetic effect of rs148793499 appears to be most directly modulated by metabolic status; in stratified CM tests, the variant showed strong effects in individuals with T2D but no major differences in effect in individuals with obesity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our analysis focusing on social determinants of health did not identify any significant variants. This may be a function of the noise associated with the MDI measurement and the difficulty in using this measurement to represent social determinants of health in a large diverse population. One study leveraged an Index of Multiple Deprivation and Income Deprivation Affecting Older People Index to show higher incidence of COVID-19 related deaths in the most deprived quartiles (Bach-Mortensen and Degli Esposti, 2021). We subsetted our sample to participants from England to reduce heterogeneity, but this reduced the sample size (by 16.5%; 2,007 vs. 2,402 cases) and thus statistical power available for the MDI analysis. Additionally, there may simply be little signal to uncover: the effects of genetics and social determinants of health on COVID-19 severity may be approximately independent.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The results of this study may be limited due to linkage disequilibrium and heterogeneity caused by geographic location within our sample population. The case definition allows us to identify variants associated with severity, however these results need to be taken with caution given the possibility of collider bias. Analyzing UK Biobank data, the participants tested for COVID-19 were highly selected for a range of genetic, behavioral, cardiovascular, demographic, and anthropometric traits (Griffith et al., 2020) . By subsetting our dataset to individuals of European ancestry, we reduce the heterogeneity but face a limited sample size. Nonetheless, the use of interaction analysis allowed us to uncover novel variants: the GEM marginal p-value did not pass the genome-wide significance threshold for three of the five variants, meaning that these variants would not have been detected via a standard GWAS in this population.",
+            "cite_spans": [
+                {
+                    "start": 494,
+                    "end": 517,
+                    "text": "(Griffith et al., 2020)",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Our findings suggest that gene-environment interaction effects contribute to the differences in COVID-19 severity. Sex-associated differences in immune response and CM disease comorbidities that deregulate immune response may interact with the identified genetic variants and put individuals at higher risk for worse outcomes of COVID-19. Future studies investigating the stratified effects of sex, T2D and BMI, and social determinants of health on COVID-19 susceptibility, as well as similar analysis with a wider array of ancestries, may further reveal underlying the genetic interaction effects that place individuals at higher risk.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The data analyzed in this study is subject to the following licenses/restrictions: There are restrictions prohibiting the provision of data in this article. The data were obtained from a third party, UK Biobank, upon application. Interested parties can apply for data from UK Biobank directly. UK Biobank will consider data applications from bona fide researchers for health-related research that is in the public interest. By accessing data from UK Biobank, readers will be obtaining it in the same manner as we did.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT"
+        },
+        {
+            "text": "Requests to access these datasets should be directed to UK Biobank, http://www.ukbiobank.ac.uk",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DATA AVAILABILITY STATEMENT"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Is Area Deprivation Associated with Greater Impacts of COVID-19 in Care Homes across England? A Preliminary Analysis of COVID-19 Outbreaks and Deaths",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bach-Mortensen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Degli",
+                    "middle": [],
+                    "last": "Esposti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Associations of Type 1 and Type 2 Diabetes with COVID-19-Related Mortality in England: a Whole-Population Study",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Barron",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Bakhai",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Weaver",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Bradley",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ismail",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Diabetes Endocrinol",
+            "volume": "8",
+            "issn": "10",
+            "pages": "813--822",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2213-8587(20)30272-2"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Annotation of Functional Variation in Personal Genomes Using RegulomeDB",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Boyle",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hariharan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Schaub",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kasowski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Genome Res",
+            "volume": "22",
+            "issn": "9",
+            "pages": "1790--1797",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/gr.137323.112"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Social Determinants of Health and Inequalities in COVID-19",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Burstr\u00f6m",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur. J. Public Health",
+            "volume": "30",
+            "issn": "4",
+            "pages": "617--618",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/eurpub/ckaa095"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The UK Biobank Resource with Deep Phenotyping and Genomic Data",
+            "authors": [],
+            "year": null,
+            "venue": "Nature",
+            "volume": "562",
+            "issn": "7726",
+            "pages": "203--209",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-018-0579-z"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Algorithms for the Capture and Adjudication of Prevalent and Incident Diabetes in UK Biobank",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Eastwood",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Mathur",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Atkinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Brophy",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sudlow",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Flaig",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "PLOS ONE",
+            "volume": "11",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0162388"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Bayesian Test for Colocalisation between Pairs of Genetic Association Studies Using Summary Statistics",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Giambartolomei",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Vukcevic",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schadt",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Franke",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hingorani",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wallace",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Plos Genet",
+            "volume": "10",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pgen.1004383"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Collider Bias Undermines Our Understanding of COVID-19 Disease Risk and Severity. medRxiv",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Griffith",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Tudball",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Herbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mancano",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Pike",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.05.04.20090506"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "PhenoScanner V2: an Expanded Tool for Searching Human Genotype-Phenotype Associations",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kamat",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Blackshaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Young",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Surendran",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Burgess",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Danesh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Bioinformatics",
+            "volume": "35",
+            "issn": "22",
+            "pages": "4851--4853",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btz469"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Sex Differences in Immune Responses",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Klein",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Flanagan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Nat. Rev. Immunol",
+            "volume": "16",
+            "issn": "10",
+            "pages": "626--638",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/nri.2016.90"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Sex Differences in Inflammatory Markers in Patients Hospitalized with COVID-19 Infection: Insights from the MGH COVID-19 Patient Registry",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Mcneill",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Paniagua",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Bassett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "PLOS ONE",
+            "volume": "16",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0250774"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Cardiometabolic Risk Factors for COVID-19 Susceptibility and Severity: A Mendelian Randomization Analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Leong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Cole",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Brenner",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Meigs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Florez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mercader",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Plos Med",
+            "volume": "18",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pmed.1003553"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "LDlinkR: An R Package for Rapidly Calculating Linkage Disequilibrium Statistics in Diverse Populations",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Myers",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chanock",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Machiela",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front. Genet",
+            "volume": "11",
+            "issn": "157",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fgene.2020.00157"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Frontiers in Genetics | www.frontiersin.org",
+            "authors": [],
+            "year": 2022,
+            "venue": "",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Mapping the Human Genetic Architecture of COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E K"
+                    ],
+                    "last": "Niemi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Karjalainen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Neale",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Daly",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ganna",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nature",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-021-03767-x"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Severe Obesity, Increasing Age and Male Sex Are Independently Associated with Worse In-Hospital Outcomes, and Higher In-Hospital Mortality, in a Cohort of Patients with COVID-19 in the",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Palaiodimos",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Kokkinidis",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Karamanis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ognibene",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Arora",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Metabolism",
+            "volume": "108",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.metabol.2020.154262"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Sex-bias in COVID-19-Associated Illness Severity and Mortality in Cancer Patients: A Systematic Review and Meta-Analysis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Chidharla",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mehta",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Wulff-Burchfield",
+                    "suffix": ""
+                },
+                {
+                    "first": "Kasi",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EClinicalMedicine",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.eclinm.2020.100519"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Genome-wide Analysis of Health-Related Biomarkers in the UK Household Longitudinal Study Reveals Novel Associations",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Prins",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kuchenbaecker",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Bao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Smart",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zabaneh",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fatemifar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Sci. Rep",
+            "volume": "7",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-017-10812-1"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Obesity and COVID-19: Molecular Mechanisms Linking Both Pandemics",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ritter",
+                    "suffix": ""
+                },
+                {
+                    "first": "N.-N",
+                    "middle": [],
+                    "last": "Kreis",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Louwen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Mol. Sci",
+            "volume": "21",
+            "issn": "16",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/ijms21165793"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "PhenoScanner: a Database of Human Genotype-Phenotype Associations",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Staley",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Blackshaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kamat",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ellis",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Surendran",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Bioinformatics",
+            "volume": "32",
+            "issn": "20",
+            "pages": "3207--3209",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btw373"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The Disproportionate Impact of COVID-19 on Racial and Ethnic Minorities in the United States",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "B G"
+                    ],
+                    "last": "Tai",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shah",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Doubeni",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Wieland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Clin. Infect. Dis",
+            "volume": "72",
+            "issn": "4",
+            "pages": "703--706",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa815"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Unraveling the Polygenic Architecture of Complex Traits Using Blood eQTL Metaanalysis",
+            "authors": [
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "V\u00f5sa",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Claringbould",
+                    "suffix": ""
+                },
+                {
+                    "first": "H.-J",
+                    "middle": [],
+                    "last": "Westra",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bonder",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Deelen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/447367"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "GEM: Scalable and Flexible Gene-Environment Interaction Analysis in Millions of Samples",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Westerman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Pham",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sevilla-Gonz\u00e1lez",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Bioinformatics",
+            "volume": "37",
+            "issn": "20",
+            "pages": "3514--3520",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/bioinformatics/btab223"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Association of Blood Glucose Control and Outcomes in Patients with COVID-19 and Pre-existing Type 2 Diabetes",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z.-G",
+                    "middle": [],
+                    "last": "She",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J.-J",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "X.-J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cel Metab",
+            "volume": "31",
+            "issn": "6",
+            "pages": "1068--1077",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.cmet.2020.04.021"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Plots of sex, cardiometabolic, and MDI joint and interaction tests. The upper plot shows negative logarithm of joint p-values in a test of main and interaction effects, while the lower plot shows negative logarithm of the interaction test p-values. X-axis corresponds to genomic position. Genome-wide significant loci are labeled with the most significant variant at the locus and the annotated to genes based on proximity (DIRC, MACC1, PGF, LOC105372156) or eQTL relationships (METTL25).",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Characteristics of European ancestry samples from the UK Biobank cohort. We present the mean and standard deviation for continuous covariates, percentage of the sample for dichotomous covariates, and p-value for association with severe COVID-19 (t-test or Chi-square test for continuous and binary traits, respectively).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Variant chr2:218260234 was found in the sex analysis joint test (p 2.99 \u00d7 10 \u22128 , MAF 0.025). Stratified analysis for this variant demonstrated a strong genetic effect in males (OR 1.8 [1.47-2.19]) that was not found in females METTL25 based on the GTEx database and has modest associations with CM traits (positive with weight and BMIadjusted T2D, negative with obesity). Finally, rs148793499 was identified in the CM joint test (p 1.8 \u00d7 10 \u221210 , MAF 0.01). Stratified genetic effects showed more pronounced associations in obesity (OR 2.36 [1.7-3.27]) with a similar but weaker pattern for T2D (OR 2.01 [1.03-3.93]).",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "Genome-wide significant associations from sex interaction and joint tests. See Methods section for additional description of the interaction and joint tests.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Cardiometabolic interaction and joint tests. See Methods section for additional description of the interaction and joint tests.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fgene.2021.782172/ full#supplementary-material Conflict of Interest: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.Publisher's Note: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "SUPPLEMENTARY MATERIAL"
+        },
+        {
+            "text": "Manning. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Copyright \u00a9 2022 Westerman, Lin, Sevilla-Gonzalez, Tadess, Marchek and"
+        }
+    ]
+}

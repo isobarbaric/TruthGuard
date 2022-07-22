@@ -1,0 +1,3847 @@
+{
+    "paper_id": "27aea91106096c6f4c3d8148177861fb251a1b6a",
+    "metadata": {
+        "title": "Psychological underpinnings of pandemic denial -patterns of disagreement with scientific experts in the German public during the COVID-19 pandemic",
+        "authors": [
+            {
+                "first": "Tobias",
+                "middle": [],
+                "last": "Rothmund",
+                "suffix": "",
+                "affiliation": {},
+                "email": "tobias.rothmund@uni-jena.de"
+            },
+            {
+                "first": "Fahima",
+                "middle": [],
+                "last": "Farkhari",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Carolin-Theresa",
+                "middle": [],
+                "last": "Ziemer",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Fl\u00e1vio",
+                "middle": [],
+                "last": "Azevedo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "We investigated pandemic denial in the general public in Germany after the first wave of COVID-19 in May 2020. Using latent class analysis, we compared patterns of disagreement with claims about (a) the origin, spread, or infectiousness of the SARS-CoV-2 virus and (b) the personal risk from COVID-19 between scientific laypersons (N = 1,575) and scientific experts (N = 128). Two groups in the general public differed distinctively from expert evaluations. The Dismissive (8%) are characterized by lowrisk assessment, low compliance with containment measures, and mistrust in politicians. The Doubtful (19%) are characterized by low cognitive reflection, high uncertainty in the distinction between true and false claims, and high social media intake. Our research indicates that pandemic denial cannot be linked to a single and distinct pattern of psychological dispositions but involves different subgroups within the general population that share high COVID-19 conspiracy beliefs and low beliefs in epistemic complexity.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Since its detection in Wuhan in December 2019, the SARS-CoV-2 virus has spread across all continents with more than 80,000,000 confirmed cases and nearly 2,000,000 deaths from COVID-19 by the end of 2020 (https://covid19.who.int/). Due to the novelty of the virus, its fatal threat, and the speed of the pandemic development, there has been an enormous exchange of information, especially in the initial phase of the pandemic. In February 2020, the World Health Organization (2020: 13) had characterized the COVID-19 information landscape as an infodemic, \"an overabundance of information-some accurate and some not-that makes it hard for people to find trustworthy sources and reliable guidance when they need it . . .\". A public health concern related to this infodemic was that laypersons would trust in unreliable sources instead of scientific advice and, thus, not follow containment measures. Lack of compliance with these measures increases their own risk of infection but also the risk of other members of society, thereby jeopardizing the general public health plan directed toward the goal of flattening the curve of infections (e.g. Thunstrom et al., 2020) . This public health concern is based on the rise of science denial, a pattern of beliefs that involves the refusal of established scientific evidence in a specific field of research (e.g. Bj\u00f6rnberg et al., 2017) . Science denial has been identified and investigated in various areas of scientific research, for example, climate change denial Hansson, 2017) .",
+            "cite_spans": [
+                {
+                    "start": 1144,
+                    "end": 1167,
+                    "text": "Thunstrom et al., 2020)",
+                    "ref_id": "BIBREF70"
+                },
+                {
+                    "start": 1357,
+                    "end": 1380,
+                    "text": "Bj\u00f6rnberg et al., 2017)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1511,
+                    "end": 1525,
+                    "text": "Hansson, 2017)",
+                    "ref_id": "BIBREF24"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In this article, we investigated pandemic denial as a form of science denial during the COVID-19 pandemic. The goals of our research were twofold. First, we explored and described pandemic denial as a pattern of beliefs and behaviors in laypersons. We analyzed its prevalence, distinguished between different patterns of denial, and investigated its associations with containment behavior and conspiratorial thinking during Germany's first wave of COVID-19. Second, to better understand the psychological underpinnings of pandemic denial, we investigated demographics, political beliefs, media use, and personality dispositions as predictors of pandemic denial.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Scientific evidence on specific topics such as vaccination, evolutionary theory, genetically modified food, or climate research is selectively refused or even opposed by substantial population segments (Bj\u00f6rnberg et al., 2017; Hansson, 2017) . This phenomenon of science denial can include different forms of communicative behaviors, such as the misrepresentation of the work of scientists, reliance on fake experts, selectivity in picking scientific evidence, or the dismissal of a scientific consensus (Sinatra and Hofer, 2021; Van der Linden, 2019) . Some scholars conceptualize science denial in the broader context of a general crisis of expertise (Eyal, 2019) or even diagnosed an age of post-truthism (Kienhues et al., 2020) . Both accounts describe an increasing tendency of influential communicators such as politicians, media agencies, or industrial companies to systematically distort scientific evidence by capitalizing on the inherent intricacies of the scientific endeavor. In regard to climate change, Dunlap (2013) suggested the term \"denial machine\" to describe how lobbying and propaganda are strategically used to discredit scientific evidence by influential interest groups in the United States. These communicative strategies are likely to generate and enhance science denial in those parts of the general public that are especially vulnerable to this form of communication based on individual-level, group-level, or intergroup level-processes (for an overview, see Prot and Anderson, 2019) .",
+            "cite_spans": [
+                {
+                    "start": 202,
+                    "end": 226,
+                    "text": "(Bj\u00f6rnberg et al., 2017;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 227,
+                    "end": 241,
+                    "text": "Hansson, 2017)",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 504,
+                    "end": 529,
+                    "text": "(Sinatra and Hofer, 2021;",
+                    "ref_id": "BIBREF62"
+                },
+                {
+                    "start": 530,
+                    "end": 551,
+                    "text": "Van der Linden, 2019)",
+                    "ref_id": "BIBREF72"
+                },
+                {
+                    "start": 653,
+                    "end": 665,
+                    "text": "(Eyal, 2019)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 708,
+                    "end": 731,
+                    "text": "(Kienhues et al., 2020)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 1017,
+                    "end": 1030,
+                    "text": "Dunlap (2013)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1487,
+                    "end": 1511,
+                    "text": "Prot and Anderson, 2019)",
+                    "ref_id": "BIBREF57"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Science denial, compliance to containment measures, and conspiracy beliefs"
+        },
+        {
+            "text": "A large body of evidence indicates that misleading communication, pseudo-scientific advice, and different forms of science denial are widespread phenomena in the health sciences (Lavorgna and Myles, 2021) . It has been observed in regard to early childhood vaccination (Omer et al., 2009) and epidemic outbreaks of diseases (Phadke et al., 2016) . Similarly, the COVID-19 pandemic has been ignored or even refused in many countries around the globe. We conceptualize and investigate pandemic denial based on three assumptions.",
+            "cite_spans": [
+                {
+                    "start": 178,
+                    "end": 204,
+                    "text": "(Lavorgna and Myles, 2021)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 269,
+                    "end": 288,
+                    "text": "(Omer et al., 2009)",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 324,
+                    "end": 345,
+                    "text": "(Phadke et al., 2016)",
+                    "ref_id": "BIBREF54"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Science denial, compliance to containment measures, and conspiracy beliefs"
+        },
+        {
+            "text": "First, pandemic denial is reflected in systematic patterns of discrepancy in laypersons' beliefs about COVID-19 from the beliefs of expert scientists. In previous research, latent class analyses (LCA) have been used to identify and distinguish patterns of beliefs in laypersons about scientific issues. For example, Leiserowitz et al. (2010) distinguished six segments in the American public based on their climate change beliefs, attitudes, and behaviors. Since the state of scientific evidence is challenging to assess at any given point in time, expert surveys have been used to estimate the state of evidence-based professional evaluations (e.g. Horton et al., 2020) . We aim to combine both approaches to better understand systematic patterns of discrepancy between scientific laypersons and expert scientists.",
+            "cite_spans": [
+                {
+                    "start": 316,
+                    "end": 341,
+                    "text": "Leiserowitz et al. (2010)",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 650,
+                    "end": 670,
+                    "text": "Horton et al., 2020)",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Science denial, compliance to containment measures, and conspiracy beliefs"
+        },
+        {
+            "text": "Second, pandemic denial can involve systematic discrepancies in (a) the evaluation of scientific evidence or (b) the assessment of health-related risks that follow from this evidence. Hansson and Aven (2014) provided a fine-grained process model for the information flow when scientific evidence is used as a base for decision-making on risks. They distinguished between the provision of evidence by scientific experts and the risk assessment by decision-makers (i.e. laypersons). Personal knowledge about the state of scientific evidence is regarded as a precondition for risk assessment (for a similar argument in the context of climate change, see Van der Linden et al., 2015) . However, risk assessment is also influenced by personal values, motivational states, and levels of risk tolerance on the side of individuals (Slovic, 1999) . In the face of the COVID-19 pandemic, Aven and Bouder (2020) emphasized the distinction between professional risk judgment and individual risk perception and suggested that these differences are not well acknowledged in public communication about the pandemic. In order to better understand different forms of pandemic denial, we investigate patterns of discrepancy in (a) technical claims about virus infection and the development of the pandemic and (b) perceived risks related to how COVID-19 impacts human life.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 207,
+                    "text": "Hansson and Aven (2014)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 651,
+                    "end": 679,
+                    "text": "Van der Linden et al., 2015)",
+                    "ref_id": "BIBREF73"
+                },
+                {
+                    "start": 823,
+                    "end": 837,
+                    "text": "(Slovic, 1999)",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 878,
+                    "end": 900,
+                    "text": "Aven and Bouder (2020)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Science denial, compliance to containment measures, and conspiracy beliefs"
+        },
+        {
+            "text": "Third, pandemic denial is negatively related to containment behavior and positively related to conspiratorial beliefs about the COVID-19 pandemic. Risk assessment and knowledge about the scientific evidence should be essential predictors of compliance with scientific advice and containment measures (Hansson and Aven, 2014) . Supporting this assumption, a multi-lab study in 10 different countries provided initial evidence for a positive association between risk assessment and self-reported adoption of COVID-19 containment behaviors (Dryhurst et al., 2020) which has been independently confirmed (De Neys et al., 2020; Dolinski et al., 2020; Harper et al., 2020) .",
+            "cite_spans": [
+                {
+                    "start": 300,
+                    "end": 324,
+                    "text": "(Hansson and Aven, 2014)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 537,
+                    "end": 560,
+                    "text": "(Dryhurst et al., 2020)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 600,
+                    "end": 622,
+                    "text": "(De Neys et al., 2020;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 623,
+                    "end": 645,
+                    "text": "Dolinski et al., 2020;",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 646,
+                    "end": 666,
+                    "text": "Harper et al., 2020)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Science denial, compliance to containment measures, and conspiracy beliefs"
+        },
+        {
+            "text": "There is significant evidence that conspiracy theories about the pandemic have been widely shared and believed in the general public (e.g. Shahsavari et al., 2020) . This is not surprising, given that a global pandemic likely breeds feelings of collective uncertainty, anxiety, and negativity which increase the popularity of conspiratorial thinking (\u0160rol et al., 2021; van Prooijen and Acker, 2015; van Prooijen and Jostmann, 2013) . Conspiratorial thinking generally reflects notions that events are caused by the malevolent actions of influential groups working together in secret (Brotherton et al., 2013; Douglas et al., 2017; Van der Linden et al., 2021) . Misinformation about COVID-19 is often embedded in conspiratorial narratives that distort knowledge about the scientific evidence and risk assessment and undermine compliance with containment measures (Cavojova et al., 2020; Erceg et al., 2020; Imhoff and Lamberty, 2020; Teovanovi\u0107 et al., 2021; Uscinski et al., 2020) . Therefore, it is plausible to assume that pandemic denial is systematically linked to the belief in COVID-19 conspiracies.",
+            "cite_spans": [
+                {
+                    "start": 139,
+                    "end": 163,
+                    "text": "Shahsavari et al., 2020)",
+                    "ref_id": "BIBREF61"
+                },
+                {
+                    "start": 350,
+                    "end": 369,
+                    "text": "(\u0160rol et al., 2021;",
+                    "ref_id": "BIBREF64"
+                },
+                {
+                    "start": 370,
+                    "end": 399,
+                    "text": "van Prooijen and Acker, 2015;",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 400,
+                    "end": 432,
+                    "text": "van Prooijen and Jostmann, 2013)",
+                    "ref_id": "BIBREF76"
+                },
+                {
+                    "start": 584,
+                    "end": 609,
+                    "text": "(Brotherton et al., 2013;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 610,
+                    "end": 631,
+                    "text": "Douglas et al., 2017;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 632,
+                    "end": 660,
+                    "text": "Van der Linden et al., 2021)",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 864,
+                    "end": 887,
+                    "text": "(Cavojova et al., 2020;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 888,
+                    "end": 907,
+                    "text": "Erceg et al., 2020;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 908,
+                    "end": 934,
+                    "text": "Imhoff and Lamberty, 2020;",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 935,
+                    "end": 959,
+                    "text": "Teovanovi\u0107 et al., 2021;",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 960,
+                    "end": 982,
+                    "text": "Uscinski et al., 2020)",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Science denial, compliance to containment measures, and conspiracy beliefs"
+        },
+        {
+            "text": "Overall, our first goal was to identify and validate patterns of COVID-19 pandemic denial. We conceptualized pandemic denial based on individual knowledge and risk perceptions, and we estimated patterns of discrepancy compared to scientific experts using LCA. In order to validate pandemic denial as a problematic pattern of beliefs, we investigated its relations with containment behavior and conspiratorial thinking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Science denial, compliance to containment measures, and conspiracy beliefs"
+        },
+        {
+            "text": "In order to better understand the psychological underpinnings of pandemic denial, we analyzed the relations with demographics, political beliefs, media use, and personality dispositions. Based on previous research about science denial and the specific characteristics of the current pandemic, we focused primarily on three potential classes of predictors: (a) cognitive capacity and style, (b) political identity and alignment, and (c) exposure to misinformation in social media.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Psychological underpinnings of pandemic denial"
+        },
+        {
+            "text": "Cognitive capacity and style. Conspiratorial thinking is linked to low cognitive capacity (St\u00e5hl and van Prooijen, 2018) and low motivation to think analytically (Douglas et al., 2017; Swami et al., 2014) . Based on dual-process models such as the elaboration-likelihood model (Petty and Cacioppo, 1986) or the heuristic-systematic model (Chen and Chaiken, 1999) , we argue that people with these cognitive dispositions find it especially challenging to tolerate the rate at which scientific evidence about COVID-19 develops dynamically (i.e. the state of evidence is constantly changing). Therefore, it seems plausible to assume that cognitive dispositions are related to pandemic denial. Preliminary support for this assumption comes from research showing that uncertainty avoidance and low cognitive reflection are linked to believing in COVID-19 conspiracies (Alper et al., 2020; Pennycook et al., 2020a) .",
+            "cite_spans": [
+                {
+                    "start": 90,
+                    "end": 120,
+                    "text": "(St\u00e5hl and van Prooijen, 2018)",
+                    "ref_id": "BIBREF65"
+                },
+                {
+                    "start": 162,
+                    "end": 184,
+                    "text": "(Douglas et al., 2017;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 185,
+                    "end": 204,
+                    "text": "Swami et al., 2014)",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 277,
+                    "end": 303,
+                    "text": "(Petty and Cacioppo, 1986)",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 338,
+                    "end": 362,
+                    "text": "(Chen and Chaiken, 1999)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 863,
+                    "end": 883,
+                    "text": "(Alper et al., 2020;",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 884,
+                    "end": 908,
+                    "text": "Pennycook et al., 2020a)",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Psychological underpinnings of pandemic denial"
+        },
+        {
+            "text": "Political identity and alignments. Some scholars conceptualized science denial as a response to defense motivation that results from the cognitive dissonance between individual goals, values, or worldviews and conflicting scientific evidence (Prot and Anderson, 2019) . Pandemic denial and conspiratorial thinking about COVID-19 may be motivated by perceived personal or collective threats from the COVID-19 pandemic. There is some evidence that collective narcissism (i.e. the inflated belief in the greatness of one's ingroup, De Zavala et al., 2009) predicts the belief and dissemination of conspiracy theories about COVID-19 (Nowak et al., 2020; Sternisko et al., 2020; \u017bemojtel-Piotrowska et al., 2021) . Sternisko et al. (2020) interpreted their finding in ways that people high in collective narcissism are drawn to conspiratorial thinking because the COVID-19 pandemic poses a threat to their social or political identity.",
+            "cite_spans": [
+                {
+                    "start": 242,
+                    "end": 267,
+                    "text": "(Prot and Anderson, 2019)",
+                    "ref_id": "BIBREF57"
+                },
+                {
+                    "start": 529,
+                    "end": 552,
+                    "text": "De Zavala et al., 2009)",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 629,
+                    "end": 649,
+                    "text": "(Nowak et al., 2020;",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 650,
+                    "end": 673,
+                    "text": "Sternisko et al., 2020;",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 674,
+                    "end": 707,
+                    "text": "\u017bemojtel-Piotrowska et al., 2021)",
+                    "ref_id": "BIBREF84"
+                },
+                {
+                    "start": 710,
+                    "end": 733,
+                    "text": "Sternisko et al. (2020)",
+                    "ref_id": "BIBREF66"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Psychological underpinnings of pandemic denial"
+        },
+        {
+            "text": "Another link between political alignments and pandemic denial can be derived from the \"conservatism as motivated cognition\" framework (Jost et al., 2003) . It suggests that people leaning toward the political right tend to deny scientific evidence that potentially threatens the political and societal status quo (e.g. Feygina et al., 2010) . Recent studies support this claim by indicating that people on the political right are generally more inclined to reject scientific advice compared with people on the political left Kerr and Wilson, 2021; Lewandowsky and Oberauer, 2021) . In the United States, Conservatives are more inclined to downplay the risk of COVID-19 and less compliant with physical distancing measures (Grossman et al., 2020; Rosenfeld et al., 2020) . For example, based on county-level Google Mobility Reports data, and census-based demographic data, Lipsitz and Pop-Eleches (2020) showed that individuals in Democratic states of the United States displayed significantly lower activity during the pandemic than individuals in Republican counties. However, these cross-ideological differences might be stronger in the United States compared with other countries Pickup et al., 2020) . We investigate whether collective narcissism and right-wing political ideology are linked to pandemic denial in the German population.",
+            "cite_spans": [
+                {
+                    "start": 134,
+                    "end": 153,
+                    "text": "(Jost et al., 2003)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 319,
+                    "end": 340,
+                    "text": "Feygina et al., 2010)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 525,
+                    "end": 547,
+                    "text": "Kerr and Wilson, 2021;",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 548,
+                    "end": 579,
+                    "text": "Lewandowsky and Oberauer, 2021)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 722,
+                    "end": 745,
+                    "text": "(Grossman et al., 2020;",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 746,
+                    "end": 769,
+                    "text": "Rosenfeld et al., 2020)",
+                    "ref_id": "BIBREF58"
+                },
+                {
+                    "start": 872,
+                    "end": 902,
+                    "text": "Lipsitz and Pop-Eleches (2020)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 1183,
+                    "end": 1203,
+                    "text": "Pickup et al., 2020)",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Psychological underpinnings of pandemic denial"
+        },
+        {
+            "text": "Exposure to misinformation in social media. Social media play a crucial role in providing information about COVID-19 (Cinelli et al., 2020; Mohd Hanafiah and Wan, 2020; Moreno et al., 2020; Thelwall and Thelwall, 2020) . Public health concerns are derived from the finding that misinformation spreads easily through social media platforms (Vosoughi et al., 2018) . In a network analysis, Vel\u00e1squez and colleagues (2020) outlined how misinformation and malicious content about COVID-19 made their way from niche, often right-wing extremist platforms to popular social media. In line with the two-step flow of communication hypothesis (Katz and Lazarsfeld, 1955/1966) , opinion leaders and influential communicators are vital in sharing evidence-based content with the general public. Pennycook and colleagues (2020b) found evidence for unintended sharing of false information about COVID-19 because they believe them to be true. In a Malaysian study conducted shortly after the national policy to restrict public movement of 18 March 2020, respondents indicated receiving a lot of questionable information or disinformation about COVID-19 through social media or friends and family (Mohd Hanafiah and Wan, 2020). Another study from the United States indicates that people using social media and conservative media formats as their main source of information on COVID-19 have a less accurate picture about the diseases' dangers and protection measures than people receiving their information mainly from mainstream broadcast and print media (Jamieson and Albarracin, 2020) . Bridgman and colleagues (2020) found that exposure to social media is associated with misperceptions about COVID-19 leading to lower compliance with social distancing measures. We investigated whether the use of social media as a source of information about COVID-19 is linked to pandemic denial in the German population.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 139,
+                    "text": "(Cinelli et al., 2020;",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 140,
+                    "end": 168,
+                    "text": "Mohd Hanafiah and Wan, 2020;",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 169,
+                    "end": 189,
+                    "text": "Moreno et al., 2020;",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 190,
+                    "end": 218,
+                    "text": "Thelwall and Thelwall, 2020)",
+                    "ref_id": "BIBREF69"
+                },
+                {
+                    "start": 339,
+                    "end": 362,
+                    "text": "(Vosoughi et al., 2018)",
+                    "ref_id": "BIBREF80"
+                },
+                {
+                    "start": 633,
+                    "end": 642,
+                    "text": "(Katz and",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 643,
+                    "end": 665,
+                    "text": "Lazarsfeld, 1955/1966)",
+                    "ref_id": null
+                },
+                {
+                    "start": 783,
+                    "end": 815,
+                    "text": "Pennycook and colleagues (2020b)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1539,
+                    "end": 1570,
+                    "text": "(Jamieson and Albarracin, 2020)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1573,
+                    "end": 1603,
+                    "text": "Bridgman and colleagues (2020)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Psychological underpinnings of pandemic denial"
+        },
+        {
+            "text": "We investigated pandemic denial in the German population in May 2020. This point in time marked the end of a first wave of infections in Germany that came with a series of political countermeasures, including a travel ban, a lockdown of shops and schools, and a restriction of interpersonal contacts. It also marked the beginning of a strong protest movement (Querdenker 711) against COVID-19 containment measures that was characterized by pandemic denial and organized in a number of demonstrations over the course of summer and fall 2020 (e.g. Conolly, 2020) . Therefore, we believe that our study can contribute to a better understanding of pandemic denial in an early stage of its development.",
+            "cite_spans": [
+                {
+                    "start": 546,
+                    "end": 560,
+                    "text": "Conolly, 2020)",
+                    "ref_id": "BIBREF13"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Research overview"
+        },
+        {
+            "text": "Our first goal was to conceptualize different forms of pandemic denial in the general public in Germany. By using a person-centered analytical approach, we were able to investigate distinct patterns of consensus and disagreement between the general public and scientific experts on technical claims and risk assessments about COVID-19 and the current pandemic. We investigated the relations of pandemic denial with containment behavior and conspiracy beliefs as a means to evaluate the construct validity of our pandemic denial measure in different segments of the population. The second goal of this research was to investigate demographics, political beliefs, media use, and personality dispositions as predictors of pandemic denial. We were especially focusing on (a) cognitive reflection and style, (b) political identity and alignment, and (c) exposure to misinformation in social media. By doing so, we aimed to better understand the cognitive and motivational underpinnings of pandemic denial.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research overview"
+        },
+        {
+            "text": "We conducted two online studies, one with a quota sample from the general public in Germany and one with an expert sample of virologists and epidemiologists in Germany. Both surveys were administered with Unipark (https://www.unipark.com/).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Method"
+        },
+        {
+            "text": "The sample was provided by Respondi, a German panel agency (https://www.respondi.com/). The survey was fielded on 22 April 2020 and was finished on 29 April 2020. We set interlocked quota for age (18-24, 25-34, 35-44, 45-54, 55-64, 65 and above) and gender (male, female) and noninterlocked quota for education (low, middle, high). A total of 4063 participants started the survey. N = 29 participants were underaged (<18 years) or still in school and screened out; N = 1,845 were screened out due to full quota; N = 186 participants were screened out because they failed one of three attention checks; N = 416 dropped out during the survey; N = 12 participants provided double entries. In all, N = 1,575 participants are in the final sample. The median time for completion of the survey was 24.55 minutes. Supplemental materials, including detailed information on the measures, R code, and raw data are available online (http://osf.io/cfkea/). Sample description. The participants' mean age was 49.4 years (min = 18, max = 83, SD = 16.1). In total, 49.7% of the participants were female; 32.7% reported to have a university entrance qualification (Hochschulreife, Fachhochschulreife); 35.5% a general certificate of secondary education (Realschulabschluss or equivalent degree); and 31.3% completed compulsory basic secondary schooling (Haupt-/Volksschulabschluss). In all, 53.0% are in full-time or part-time employment or working as freelancers, 29.0% are retired, and 18.0% are unemployed or students; 38.0% of the participants are single and 62.0% are in a relationship or married; and 48.1% of the respondents do not have children, 61.4% live in an urban area, and 38.6% live in a rural area.",
+            "cite_spans": [
+                {
+                    "start": 196,
+                    "end": 234,
+                    "text": "(18-24, 25-34, 35-44, 45-54, 55-64, 65",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "General public survey"
+        },
+        {
+            "text": "Measures. The survey contained two parts. The first part was conducted as a multinational research collaboration project on social and moral psychology in the COVID-19 pandemic (see https:// icsmp-covid19.netlify.app). For reasons of comparability, the measures in this part were standardized across different surveys in different countries. The order of the scales and the order of the items within scales were randomized. In the second part, the order of the scales was fixed but the order of the items was randomized. Descriptives of all scales (including information about additional measures of physical health, social belonging, self-worth, perceived risk of infection, national identity, breadth of moral circle, moral identity, and perceived knowledge of self vs. others) as well as intercorrelations and indicators of internal consistency are displayed in the Supplemental Materials. We assessed the following scales and measures in the first part of the survey.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "General public survey"
+        },
+        {
+            "text": "Compliance with measures of COVID-19 containment. We assessed participant compliance with measures of COVID-19 containment asking, \"During the days of the coronavirus (COVID-19) pandemic, I am . . .\" in regard to physical distancing (five items, for example, \"Staying at home as much as possible . . .,\" M = 8.23, SD = 1.75, \u03b1 = .76), physical hygiene (five items, for example, \"Washing my hands longer than usual,\" M = 7.45, SD = 1.93, \u03b1 = .77), and policy support (five items, for example, \"In favor of closing all schools and universities\", M = 6.82, SD = 2.49, \u03b1 = .88). Answers could be indicated on an 11-point Likert-type scale ranging from 0 (strongly disagree) to 10 (strongly agree).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "General public survey"
+        },
+        {
+            "text": "Open-mindedness. In order to assess the extent to which participants (a) acknowledged the limitations of their personal wisdom and (b) expressed their desire to gain knowledge irrespective of their status, we used the six-item open-mindedness subscale of the intellectual humility (Alfano et al., 2017; e.g . \"I think that paying attention to people who disagree with me is a waste of time.\" rev, M = 8.00, SD = 1.76, \u03b1 = .80). Answers were indicated on an 11-point Likert-type scale ranging from 0 (strongly disagree) to 10 (strongly agree).",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 302,
+                    "text": "(Alfano et al., 2017;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 303,
+                    "end": 306,
+                    "text": "e.g",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "General public survey"
+        },
+        {
+            "text": "Cognitive reflection test. We used three items of a cognitive reflection test to measure a person's ability to resist intuitive response tendencies (adapted from Primi et al., 2016; e.g . \"A postcard and a pen cost 150 cents in total. The postcard costs 100 cents more than the pen. How many cents does the pen cost?\", M = 1.18, SD = 1.07). Participants were asked to indicate the correct answer in an open answer format (correct = 1, incorrect = 0).",
+            "cite_spans": [
+                {
+                    "start": 162,
+                    "end": 181,
+                    "text": "Primi et al., 2016;",
+                    "ref_id": "BIBREF56"
+                },
+                {
+                    "start": 182,
+                    "end": 185,
+                    "text": "e.g",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "General public survey"
+        },
+        {
+            "text": "Belief in COVID-19 conspiracies. Four items measuring the belief in COVID-19-related conspiracy theories were taken from Sternisko and colleagues (2020; e.g. \"The coronavirus (COVID-19) is a conspiracy to take away citizen's rights for good and establish an authoritarian government\", M = 2.21, SD = 2.77, \u03b1 = .93). Participants were asked to rate the items on an 11-point Likert-type scale ranging from 0 (strongly disagree) to 10 (strongly agree).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "General public survey"
+        },
+        {
+            "text": "Political ideology. Participants were asked to indicate their political ideology using a single item measure (\"Overall, what would be the best description of your political views?\") and an 11-point scale from 0 (very left-leaning) to 10 (very right-leaning).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "General public survey"
+        },
+        {
+            "text": "Collective narcissism. The extent to which people believe that the superiority of their ingroup is not adequately acknowledged by others was assessed using the three items short collective narcissism scale (Ardag, 2019; e.g. \"Not many people seem to fully understand the importance of Germans\", M = 3.22, SD = 2.67, \u03b1 = .87). Participants were asked to rate the items on an 11-point Likert-type scale ranging from 0 (strongly disagree) to 10 (strongly agree).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "General public survey"
+        },
+        {
+            "text": "The following scales and items were assessed in the second part of the survey.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "General public survey"
+        },
+        {
+            "text": "We presented 15 claims about COVID-19 in a random order (see Table 1 for exact wording). Each claim was presented on a separate page. Ten claims reflected assumptions about the course of the infection or the handling of the infection or the pandemic. These technical claims (e.g. social distancing prevents the spread, people develop immunity if they survive the infection, inhaling hot air cures coronavirus) differed in the amount of attention they had received in trusted media during the pandemic. Five risk claims addressed the risk and danger of a COVID-19 infection for the individual and society (e.g. COVID-19 is more dangerous than the flu, risk from dying is overestimated, young people also die from COVID-19). For each claim we asked two questions: \"Have you already heard or read of this claim?\" Participants responded with yes or no. \"Do you believe that this assumption is true?\" The response scale to this second question contained the following response categories: \u22122 (no, definitely false), 1 (no, probably false), 0 (not sure), 1 (yes, probably true), and 2 (yes, definitely true).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 61,
+                    "end": 68,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "COVID-19 claims."
+        },
+        {
+            "text": "Belief in epistemic complexity. To assess participants' beliefs about the complexity of knowledge and the acquisition of knowledge, we used the four-item subdimension structure of the Oldenburg Epistemic Beliefs Questionnaire (Paechter et al., 2013; e.g. \" Things are simpler than most professors would have you believe\", reverse coded, M = 3.31, SD = 0.86, \u03b1 = .77). Responses were given on a 5-point Likert-type scale ranging from 1 (strongly disagree) to 5 (strongly agree).",
+            "cite_spans": [
+                {
+                    "start": 226,
+                    "end": 249,
+                    "text": "(Paechter et al., 2013;",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 250,
+                    "end": 256,
+                    "text": "e.g. \"",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "COVID-19 claims."
+        },
+        {
+            "text": "We used a four-item general trust in scientists index to assess the extent to which people trusted in science (McCright et al., 2013; e.g . \"How much do you distrust or trust scientists to create knowledge that is unbiased and accurate?\", M = 3.64, SD = 0.85, \u03b1 = .87). Responses could be indicated on a 5-point Likert-type scale ranging from 1 (completely distrust) to 5 (completely trust).",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 133,
+                    "text": "(McCright et al., 2013;",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 134,
+                    "end": 137,
+                    "text": "e.g",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Trust in scientists."
+        },
+        {
+            "text": "Participants were asked to indicate which sources they used to obtain information about COVID-19 on a self-constructed 5-item scale, ranging from 1 (never) to 5 (daily). Participants reported their media consumption of public television, private television, national daily newspapers, national weekly newspapers and news magazines, regional daily newspapers, online news, social media, messenger services, specific podcasts about COVID-19, other information services on the Internet, and conversations with friends or acquaintances.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Media use and information intake on COVID-19."
+        },
+        {
+            "text": "We collected N = 1252 email addresses of virologists and epidemiologists via websites of universities and university hospitals in Germany and sent out invitations to these experts between 4 and 7 May 2020. N = 250 experts started and N = 216 finished the survey between 4 and 16 May 2020. In The novel coronavirus was unleashed in a laboratory in Wuhan and it spread from there.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Expert survey"
+        },
+        {
+            "text": "Wuhan freigesetzt und hat sich von dort ausgebreitet.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Das neuartige Coronavirus wurde in einem Labor in"
+        },
+        {
+            "text": "With proper diet, I can protect myself from being infected with the novel coronavirus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "7"
+        },
+        {
+            "text": "The spread of the novel coronavirus is affected by 5-G wireless technology.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Durch die richtige Ern\u00e4hrung kann ich mich vor einer Ansteckung mit dem neuartigen Coronavirus sch\u00fctzen. 8"
+        },
+        {
+            "text": "As long as I can hold my breath for 10 seconds without any difficulties, I am not infected with the novel coronavirus.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Die Verbreitung des neuartigen Coronavirus wird durch die 5-G Mobilfunktechnologie beeinflusst. 9"
+        },
+        {
+            "text": "To kill the novel coronavirus in its initial stage, one should inhale hot air, for example, from a hair dryer. Most of the people who allegedly died of COVID-19 would have died anyway.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Solange ich 10 Sekunden problemlos die Luft anhalten kann, bin ich nicht mit dem neuartigen Coronavirus infiziert. 10"
+        },
+        {
+            "text": "The risk of dying from COVID-19 is overestimated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Die meisten sogenannten Coronatoten w\u00e4ren auch ohne eine Erkrankung an COVID-19 gestorben. 13"
+        },
+        {
+            "text": "14 Young people with no pre-existing condition die from COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Das Risiko an Covid-19 zu sterben wird \u00fcbersch\u00e4tzt."
+        },
+        {
+            "text": "COVID-19 is more dangerous than the seasonal flu.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "An COVID-19 sterben auch junge Menschen ohne Vorerkrankungen. 15"
+        },
+        {
+            "text": "the subsequent analyses, we included only experts with a PhD because we considered a PhD to be a proof of expertise. This leaves us with a sample of N = 128 experts (N = 42 professors). R code and raw data are available via https://osf.io/cfkea/. The median time to complete the survey was 7.59 minutes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 ist gef\u00e4hrlicher als die saisonale Grippe."
+        },
+        {
+            "text": "Sample description. In all, 23% of the expert sample reported their age to be between 26 and 35 years, 42.1% between 36 and 45 years, 13.5% between 46 and 55 years, 18.3% between 56 and 65 years, and 3.2% older than 65 years. In the expert sample, 47.2% stated they were virologists, 33.1% epidemiologists, and 2.4% infection biologists or infection researchers; 17.3% indicated other fields of expertise related to public health, research, or medicine.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 ist gef\u00e4hrlicher als die saisonale Grippe."
+        },
+        {
+            "text": "Measures. For the expert sample, the same 15 claims about COVID-19 were presented as in the general public sample. Experts were asked whether they believed this claims to be true or false using the same answer format as in the general public survey. Again, the order of claims was randomized; each claim was presented on a separate page.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 ist gef\u00e4hrlicher als die saisonale Grippe."
+        },
+        {
+            "text": "Means, standard deviations, correlations, and estimators of internal consistencies of all measures are available in the Supplemental Materials. First, we calculated the means and standard deviations of endorsement of COVID-19 claims separately for the expert sample and the general public and investigated the congruency of these evaluations by calculating Cohen's d as an indicator of mean difference (see Table 2 ). In regard to 13 of 15 claims, scientists were more certain about their evaluations compared with the general public. In other words, expert scientists generally indicate more confidence in their evaluations compared with laypersons. The mean difference in claim endorsement between experts and the general public varies between negligible (\"Risk from dying is overestimated\", d = 0.01) and large (\"Coronavirus created by China\", d = 0.90). In regard to 11 of 14 claims, the differences are small (d \u2a7d 0.5; see Cohen, 1988) .",
+            "cite_spans": [
+                {
+                    "start": 928,
+                    "end": 940,
+                    "text": "Cohen, 1988)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 407,
+                    "end": 414,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "In order to identify different response patterns to the 15 claims about COVID-19 in the general public, we calculated LCA using Latent GOLD 5.1 (https://www.statisticalinnovations.com/, Vermunt & Magidson, 2005 . We calculated 10 alternative LCA models (a 1-class model through to a 10-class model). The relative fit of the models was compared using different criteria. We used Bayesian Information Criterion (BIC; Schwarz, 1978) because simulation studies suggest that the BIC value is a good information criterion for identifying the number of latent classes (Nylund et al., 2007) . Furthermore, we calculated the integrated completed likelihood-BIC (ICL-BIC) because BIC tends to overestimate the amount of classes and ICL is more robust toward violations of some of the mixture model assumptions (Biernacki et al., 2000) . We also examined the size of the smallest class. There are two reasons for considering class size for model selection. From a statistical perspective, classes with a small number of participants may restrict power and precision (Lubke and Neale, 2006) . From a theoretical perspective, classes smaller than a given threshold (e.g. 5%) may not be relevant on a societal level. The fit statistics for the LCAs are presented in the Supplemental Materials. BIC (eight classes), ICL-BIC (two or three classes), and size of the smallest class (not more than five classes) do not converge in the estimation of the best class solution. After examination of the response patterns in different classes, we chose a four-class solution because it provided the best relation between Table 2 . Means, standard deviations, and mean differences of the general public, the latent classes and the expert sample. parsimony of the number of classes and information value in terms of discrimination between the different response patterns. Response patterns of the four classes and the expert sample are plotted in Figure 1 . ",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 210,
+                    "text": "Vermunt & Magidson, 2005",
+                    "ref_id": null
+                },
+                {
+                    "start": 415,
+                    "end": 429,
+                    "text": "Schwarz, 1978)",
+                    "ref_id": "BIBREF60"
+                },
+                {
+                    "start": 561,
+                    "end": 582,
+                    "text": "(Nylund et al., 2007)",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 800,
+                    "end": 824,
+                    "text": "(Biernacki et al., 2000)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1055,
+                    "end": 1078,
+                    "text": "(Lubke and Neale, 2006)",
+                    "ref_id": "BIBREF40"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1597,
+                    "end": 1604,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1921,
+                    "end": 1929,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "LCA"
+        },
+        {
+            "text": "We calculated Cohen's d (Cohen, 1988) to estimate and compare the differences in claim endorsement between the expert sample and each latent class independently (see Table 2 ). In regard to the endorsement of technical claims, the means of absolute differences between the scientist sample and Class A (d mean = 0.36) and Class C (d mean = 0.25) are small. There is a medium-sized difference from the expert sample in Class D (d mean = 0.63) and a large difference in Class B (d mean = 1.04). In regard to risk claims, the means of differences between the scientist sample and Class A (d mean = \u22120.45) and Class C (d mean = 0.48) are small. Note, however, that people in Class C tend to estimate risks higher compared with the experts, while people in Class A tend to estimate risks lower compared with the experts (see Table 2 ). Class B (d mean = \u22120.91) and Class D (d mean = \u22121.83) show large differences and generally estimate risks lower compared with the experts.",
+            "cite_spans": [
+                {
+                    "start": 24,
+                    "end": 37,
+                    "text": "(Cohen, 1988)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 166,
+                    "end": 173,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 820,
+                    "end": 827,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "COVID-19 claims-endorsement"
+        },
+        {
+            "text": "We interpret these patterns as follows: Class A (55% of the sample) and Class C (17%) evaluate technical claims and risk claims similar to the experts. The most striking differences between these two groups can be observed in regard to their risk evaluations. Class A estimates the risks slightly lower compared to the scientist sample-we label them as the Concerned. Class C estimates the risks slightly higher compared with the scientist sample-we label them as the Alarmed. Most characteristic for Class D (8%) is that they highly underestimate the risks from COVID-19 compared with the expert sample. We label these as the Dismissive. Finally, Class B can be characterized not only by their large discrepancy from expert evaluations in the endorsement of technical claims but by low confidence in their ratings regarding all claims. In other words, this group generally reports high uncertainty in their evaluations of claims about COVID-19. We label them as the Doubtful.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "COVID-19 claims-endorsement"
+        },
+        {
+            "text": "We analyzed compliance with COVID-19 containment measures in regard to physical distancing, physical hygiene, and policy support by calculating mean differences between each latent class and the rest of the sample (Figure 2) . Our analyses indicate a strongly reduced compliance for the Dismissive. They are less likely to engage in physical distancing (d = \u22120.91) and physical hygiene (d = \u22120.77) and they are especially unsupportive of public policy measures (d = \u22121.51). The Alarmed are the most compliant. Compared with the rest of the sample, they are more likely to engage in physical distancing (d = 0.43, p < .001), care for physical hygiene (d = 0.28, p < .001), and support public policy measures (d = 0.57, p < .001). For the Concerned, we find a small positive relationship with compliance; for the Doubtful, we find small a negative relationship.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 214,
+                    "end": 224,
+                    "text": "(Figure 2)",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Compliance with measures of containment"
+        },
+        {
+            "text": "We calculated mean differences (Cohen's d, odds ratio) between each class and the remaining sample in regard to demographics, political beliefs, media use, and personality dispositions. In the following, we outline the main characteristics (d > 0.20) of each class (see also Table 3 ). Detailed information about mean differences is available in the Supplemental Materials. are less inclined to believe that they will get personally infected by the SARS-CoV-2 virus (d = \u22120.39).",
+            "cite_spans": [
+                {
+                    "start": 31,
+                    "end": 54,
+                    "text": "(Cohen's d, odds ratio)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 275,
+                    "end": 282,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Characterization of latent classes"
+        },
+        {
+            "text": "A substantial amount of our sample (27%) reported pandemic denial as indicated by patterns of divergence from expert evaluations of claims about COVID-19. We find two distinct groups: the Dismissive (8 %) and the Doubtful (19%). Both groups report lower belief in epistemic complexity and are generally more inclined to consider COVID-19 conspiracies than the rest of our sample. This finding supports the notion that scientific reasoning and conspiratorial thinking might function as predominant and antagonist analytic perspectives in the current pandemic (Miller, 2020) . Both groups express higher levels of collective narcissism and are more likely to report a rightwing political ideology. This finding is in line with the notion that pandemic denial might be, at least in part, motivated by a perceived threat to political identity (Sternisko et al., 2020) and motivated cognition linked to political conservatism (e.g. Jost et al., 2003) . However, there are also significant differences between both groups. Pandemic denial in the Dismissive (8%) is characterized especially by low-risk assessment, low perception of personal vulnerability to infection, and low compliance with containment measures. This group of people reports a significant amount of mistrust not only toward scientists but also toward politicians. We interpret these findings as evidence that the Dismissive provide the most serious threat for a general public health plan directed toward the goal of flattening the curve of infections because (a) their compliance with COVID-19 containment measures is strongly reduced and (b) they are likely to be exceptionally resistant toward scientific reasoning about the pandemic due to low risk-assessment and general anti-elitist sentiments. During the pandemic, scientists, politicians, and other key stakeholders (e.g. journalists and newsmakers) cooperate toward the containment of the virus. This cooperation can lead to a spillover effect in the sense that anti-elitist sentiments toward politicians are extended toward other stakeholders within society such as journalists (Kr\u00e4mer, 2014) and scientists (Mede and Sch\u00e4fer, 2020). From the perspective of science communication, it might be especially difficult to engage with this segment of the population.",
+            "cite_spans": [
+                {
+                    "start": 558,
+                    "end": 572,
+                    "text": "(Miller, 2020)",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 839,
+                    "end": 863,
+                    "text": "(Sternisko et al., 2020)",
+                    "ref_id": "BIBREF66"
+                },
+                {
+                    "start": 927,
+                    "end": 945,
+                    "text": "Jost et al., 2003)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 2101,
+                    "end": 2115,
+                    "text": "(Kr\u00e4mer, 2014)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The Doubtful are especially characterized by low confidence in their evaluations of claims about COVID-19, their cognitive characteristics, and their information intake behavior. When evaluating claims about COVID-19, they are similarly likely to be uncertain about (a) their risk assessment, (b) technical claims that experts perceive to be true, and (c) technical claims that experts perceive to be false. As the Doubtful displayed lower levels of formal education and cognitive reflection, the challenge to keep up with the constantly evolving nature of scientific evidence about COVID-19 likely helped to shape their uncertainty. In terms of media use, they are more likely to receive information from social media and messengers and, thus, are more susceptible to \"alternative\" facts and perspectives from influential communicators. The combination of low cognitive reflection and a strong need for simple answers could make this group of people drawn toward conspiratorial thinking. This interpretation is in line with evidence indicating that irrational beliefs can serve as a buffer against uncertainty (Kay et al., 2010) . From the perspective of science communication, this group of people might be approachable using comprehensible forms of science communication that are easily accessible via social media.",
+            "cite_spans": [
+                {
+                    "start": 1111,
+                    "end": 1129,
+                    "text": "(Kay et al., 2010)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Concluding, our research provides a psychological contribution to the empirical literature on science denial as a challenge for knowledge-based societies that are in a crisis of expertise (Eyal, 2019) . We found empirical evidence for relations of pandemic denial with different predictors, namely, cognitive capacity and style, political alignments and identities, and media use. Future research should investigate the interplay between these different accounts to uncover psychological processes and dynamics in more detail. Our findings also indicate that different groups of individuals are likely to be motivated by different psychological processes. In line with this finding, we argue for conceptualizing pandemic denial as the result of a communication process between at least two groups: a small group of self-confident and politically motivated people who tend to dismiss the risk from infection and a larger group with a high need for simple answers which tends to perceive information from social media as accurate. Investigating the communication dynamics between these two groups is likely to provide critical insights into how science communication can address conspiratorial thinking as a counternarrative to scientific reasoning (see also Schmid and Betsch, 2019) .",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 200,
+                    "text": "(Eyal, 2019)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1257,
+                    "end": 1281,
+                    "text": "Schmid and Betsch, 2019)",
+                    "ref_id": "BIBREF59"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "On a positive note, our study provides evidence that, toward the end of an initial phase of the COVID-19 pandemic in spring 2020, a substantial share of the German public (73%) evaluated central claims about COVID-19 in similar ways as scientific experts. This finding is in line with research indicating that trust in science is generally high in Germany and that it might even have increased during the COVID-19 pandemic (Wissenschaft im Dialog & Kantar, 2020). From a methodological perspective, our study complements and extends this research. We assessed the general evaluation of trust in scientists and the actual accordance in evaluations between scientific experts and scientific laypeople. Our study suggests that a substantial amount of the general public did (a) process scientific evidence adequately and (b) construe risk assessment similar to scientists. This finding indicates that the communication of scientific evidence through mass media did reach and convince the majority of the general public in Germany during the initial phase of the pandemic in spring 2020. We also find evidence that compliance with containment measures is generally higher among this majority than in the rest of the sample. This finding provides correlational evidence for the assumption that knowledge of the scientific evidence and risk assessment translates into protective behavior (Hansson and Aven, 2014) .",
+            "cite_spans": [
+                {
+                    "start": 1382,
+                    "end": 1406,
+                    "text": "(Hansson and Aven, 2014)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The present research comes with limitations. Our data is cross-sectional and therefore cannot yield causal claims. The nature of LCA, while insightful, is not inferential and requires a considerable amount of interpretation that gives room to subjective evaluations. Thus, researchers reproducing or replicating our research may find other group arrangements despite our best efforts to find the best match between the informational value of the different classes and the parsimony of the statistical solutions. The present results must be seen as a snapshot in time. Individual knowledge, attitudes, and risk assessment develop dynamically during the pandemic. However, we believe that the end of April 2020 was an important moment in time for the German context because it is the end of the initial phase of the COVID-19 pandemic. Between the middle of April and the beginning of May 2020, cases of infection dropped substantially, the goal of flattening the curve was achieved, and many lockdown laws were relaxed. Therefore, this is a good point of time for drawing intermediate conclusions about how the general public perceived and evaluated claims about COVID-19 in Germany. It would be interesting to compare our results with evidence from other countries with similar and different trajectories concerning the containment of the pandemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Fahima Farkhari is now affiliated to University of M\u00fcnster, Germany.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author's Note"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Development and validation of a multi-dimensional measure of intellectual humility",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alfano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Iurino",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Stey",
+                    "suffix": ""
+                },
+                {
+                    "first": "Robinson",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Christen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PloS one",
+            "volume": "12",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Psychological correlates of COVID-19 conspiracy beliefs and preventive measures: Evidence from Turkey. Current Psychology. Epub ahead of print 29",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Alper",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bayrak",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Yilmaz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12144-020-00903-0"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Short collective narcissism scale: An item response theory analysis",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ardag",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The COVID-19 pandemic: How can risk science help",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Aven",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Bouder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Risk Research",
+            "volume": "23",
+            "issn": "7-8",
+            "pages": "849--854",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "The ideological basis of antiscientific attitudes: Effects of authoritarianism, conservatism, religiosity, social dominance, and system justification",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Azevedo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Jost",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Group Processes & Intergroup Relations",
+            "volume": "24",
+            "issn": "4",
+            "pages": "518--549",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Assessing a mixture model for clustering with the integrated completed likelihood",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Biernacki",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Celeux",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Govaert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+            "volume": "22",
+            "issn": "7",
+            "pages": "719--725",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Climate and environmental science denial: A review of the scientific literature published in 1990-2015",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bj\u00f6rnberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Karlsson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gilek",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Hansson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Journal of Cleaner Production",
+            "volume": "167",
+            "issn": "",
+            "pages": "229--241",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "The causes and consequences of COVID-19 misperceptions: Understanding the role of news and social media",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bridgman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Merkley",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Loewen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Owen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ruths",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Teichmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Harvard Kennedy School Misinformation Review",
+            "volume": "1",
+            "issn": "",
+            "pages": "1--18",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Measuring belief in conspiracy theories: The generic conspiracist beliefs scale",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Brotherton",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "French",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Pickering",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Frontiers in Psychology",
+            "volume": "4",
+            "issn": "279",
+            "pages": "1--15",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Scientific reasoning as a predictor of health-related beliefs and behaviors in the time of COVID-19",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Cavojova",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "\u0160rol",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Miku\u0161kov\u00e1",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.31234/osf.io/tfy5q"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The heuristic-systematic model in its broader context",
+            "authors": [
+                {
+                    "first": "Chen",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Chaiken",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Dual-Process Theories in Social Psychology",
+            "volume": "",
+            "issn": "",
+            "pages": "73--96",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "The COVID-19 social media infodemic",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Quattrociocchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Galeazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Valensise",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Brugnoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Scientific Reports",
+            "volume": "10",
+            "issn": "1",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Statistical Power Analysis for the Behavioral Sciences",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Cohen",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Berlin protests against coronavirus rules divide German leaders",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Conolly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Moral Outrage and Social Distancing: Bad or Badly Informed Citizens?",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "De Neys",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Raoelison",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Boissin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Voudouri",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bago",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bialek",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.31234/osf.io/j9h76"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Collective narcissism and its social consequences",
+            "authors": [
+                {
+                    "first": "De",
+                    "middle": [],
+                    "last": "Zavala",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Cichocka",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Eidelson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jayawickreme",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Journal of Personality and Social Psychology",
+            "volume": "97",
+            "issn": "6",
+            "pages": "1074--1096",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Unrealistic optimism in the time of coronavirus pandemic: May it help to kill, if so-whom: Disease or the person",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dolinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Dolinska",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zmaczynska-Witek",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Banach",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Kulesza",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Clinical Medicine Research",
+            "volume": "9",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The psychology of conspiracy theories",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Douglas",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sutton",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cichocka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Current Directions in Psychological Science",
+            "volume": "26",
+            "issn": "6",
+            "pages": "538--542",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Risk perceptions of COVID-19 around the world",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Dryhurst",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kerr",
+                    "suffix": ""
+                },
+                {
+                    "first": "Alj",
+                    "middle": [],
+                    "last": "Freeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Recchia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Van Der Bles",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of Risk Research",
+            "volume": "23",
+            "issn": "7-8",
+            "pages": "994--1006",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Climate change skepticism and denial: An introduction",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Dunlap",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "American Behavioral Scientist",
+            "volume": "57",
+            "issn": "6",
+            "pages": "691--698",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Misbehaving in the corona crisis: The role of anxiety and unfounded beliefs. Current Psychology. Epub ahead of print 12",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Erceg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ru\u017eoj\u010di\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Gali\u0107",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s12144-020-01040-4"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The Crisis of Expertise",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Eyal",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "System justification, the denial of global warming, and the possibility of \"system-sanctioned change",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Feygina",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Jost",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Goldsmith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Personality and Social Psychology Bulletin",
+            "volume": "36",
+            "issn": "3",
+            "pages": "326--338",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Political partisanship influences behavioral responses to governors' recommendations for COVID-19 prevention in the United States",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Grossman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rexer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Thirumurthy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proceedings of the National Academy of Sciences",
+            "volume": "117",
+            "issn": "39",
+            "pages": "24144--24153",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Science denial as a form of pseudoscience",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Hansson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Studies in History and Philosophy of Science Part A",
+            "volume": "63",
+            "issn": "",
+            "pages": "39--47",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Is risk analysis scientific?",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Hansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Aven",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Risk Analysis",
+            "volume": "34",
+            "issn": "7",
+            "pages": "1173--1183",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Functional Fear Predicts Public Health Compliance in the COVID-19 Pandemic",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Harper",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Satchell",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Fido",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Latzman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "International Journal of Mental Health and Addiction. Epub",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11469-020-00281-5"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Estimating global mean sea-level rise and its uncertainties by 2100 and 2300 from an expert survey",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Horton",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Khan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Cahill",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Shaw",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Garner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Climate and Atmospheric Science",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "A bioweapon or a hoax? The link between distinct conspiracy beliefs about the Coronavirus disease (COVID-19) outbreak and pandemic behavior",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Imhoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lamberty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Social Psychological and Personality Science",
+            "volume": "11",
+            "issn": "8",
+            "pages": "1110--1118",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "The Relation between Media Consumption and Misinformation at the Outset of the SARS-CoV-2 Pandemic in the US. The Harvard Kennedy School Misinformation Review. Epub ahead of print",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Jamieson",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Albarracin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.37016/mr-2020-012"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Political conservatism as motivated social cognition",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Jost",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Glaser",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kruglanski",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Sulloway",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Psychological Bulletin",
+            "volume": "129",
+            "issn": "3",
+            "pages": "339--375",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Personal Influence: The Part Played by People in the Flow of Mass Communications",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Katz",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Lazarsfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 1955,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Religious belief as compensatory control",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kay",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gaucher",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Mcgregor",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Nash",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Personality and Social Psychology Review",
+            "volume": "14",
+            "issn": "1",
+            "pages": "37--48",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Right-wing authoritarianism and social dominance orientation predict rejection of science and scientists",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Kerr",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Group Processes & Intergroup Relations",
+            "volume": "24",
+            "issn": "4",
+            "pages": "550--567",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Sealing the gateways for post-truthism: Reestablishing the epistemic authority of science",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kienhues",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jucks",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bromme",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Educational Psychologist",
+            "volume": "55",
+            "issn": "3",
+            "pages": "144--154",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Media populism: A conceptual clarification and some theses on its effects",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Kr\u00e4mer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Communication Theory",
+            "volume": "24",
+            "issn": "1",
+            "pages": "42--60",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Science denial and medical misinformation in pandemic times: A psychocriminological analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lavorgna",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Myles",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "European Journal of Criminology",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1477370820988832"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Global Warming's Six Americas",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Leiserowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Maibach",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Roser-Renouf",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Worldview-motivated rejection of science and the norms of science",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lewandowsky",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Oberauer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Cognition",
+            "volume": "215",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "The partisan divide in social distancing",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lipsitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pop-Eleches",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3595695"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Distinguishing between latent classes and continuous factors: Resolution by maximum likelihood?",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lubke",
+                    "suffix": ""
+                },
+                {
+                    "first": "Neale",
+                    "middle": [],
+                    "last": "Mc",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Multivariate Behavioral Research",
+            "volume": "41",
+            "issn": "4",
+            "pages": "499--532",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The influence of political ideology on trust in science",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mccright",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dentzman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Charters",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Dietz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Environmental Research Letters",
+            "volume": "8",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Science-related populism: Conceptualizing populist demands toward science",
+            "authors": [
+                {
+                    "first": "Mede",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sch\u00e4fer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Public Understanding of Science",
+            "volume": "29",
+            "issn": "5",
+            "pages": "473--491",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "A rare moment of cross-partisan consensus: Elite and public response to the COVID-19 pandemic in Canada",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Merkley",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bridgman",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Loewen",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Owen",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ruths",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Zhilin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Canadian Journal of Political Science. Epub",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/S0008423920000311"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Do COVID-19 conspiracy theory beliefs form a monological belief system?",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Canadian Journal of Political Science",
+            "volume": "53",
+            "issn": "2",
+            "pages": "319--326",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Public knowledge, perception and communication behaviour surrounding COVID-19 in Malaysia",
+            "authors": [
+                {
+                    "first": "Mohd",
+                    "middle": [],
+                    "last": "Hanafiah",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Wan",
+                    "middle": [],
+                    "last": "Cd",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.31124/advance.12102816.v1"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "COVID-19 communication management in Spain: Exploring the effect of information-seeking behavior and message reception in public's evaluation",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Moreno",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fuentes-Lara",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Navarro",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "El Profesional de la Informaci\u00f3n",
+            "volume": "29",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Adaptive and maladaptive behavior during the COVID-19 pandemic: The roles of Dark Triad traits, collective narcissism, and health beliefs",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nowak",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Brz\u00f3ska",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Piotrowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sedikides",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "\u017bemojtel-Piotrowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jonason",
+                    "middle": [],
+                    "last": "Pk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Personality and Individual Differences",
+            "volume": "167",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Deciding on the number of classes in latent class analysis and growth mixture modeling: A Monte Carlo simulation study",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Nylund",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Asparouhov",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Muth\u00e9n",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Structural Equation Modeling: A Multidisciplinary Journal",
+            "volume": "14",
+            "issn": "4",
+            "pages": "535--569",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Vaccine refusal, mandatory immunization, and the risks of vaccine-preventable diseases",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Omer",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Salmon",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Orenstein",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Dehart",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Halsey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "New England Journal of Medicine",
+            "volume": "360",
+            "issn": "",
+            "pages": "1981--1988",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Development of the Oldenburg epistemic beliefs questionnaire (OLEQ), a German questionnaire based on the epistemic belief inventory (EBI)",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Paechter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Rebmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Schloemer",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Mokwinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hanekamp",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arendasy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Current Issues in Education",
+            "volume": "16",
+            "issn": "1",
+            "pages": "1--18",
+            "other_ids": {}
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Predictors of attitudes and misperceptions about COVID-19 in Canada, the UK, and the USA",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pennycook",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcphetres",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Bago",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Rand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Fighting COVID-19 misinformation on social media: Experimental evidence for a scalable accuracy nudge intervention",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Pennycook",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcphetres",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Psychological Science",
+            "volume": "31",
+            "issn": "7",
+            "pages": "770--780",
+            "other_ids": {}
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "The elaboration likelihood model of persuasion. In: Communication and Persuasion",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Petty",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Cacioppo",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "1--24",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-1-4612-4964-1_1"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "Association between vaccine refusal and vaccine-preventable diseases in the United States: A review of measles and pertussis",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Phadke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Bednarczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "Salmon",
+                    "middle": [],
+                    "last": "Da",
+                    "suffix": ""
+                },
+                {
+                    "first": "Omer",
+                    "middle": [],
+                    "last": "Sb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "JAMA",
+            "volume": "315",
+            "issn": "11",
+            "pages": "1149--1158",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Novel coronavirus, old partisanship: COVID-19 attitudes and behaviours in the United States and Canada",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Pickup",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Stecula",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Van Der Linden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Canadian Journal of Political Science",
+            "volume": "53",
+            "issn": "2",
+            "pages": "357--364",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "The development and testing of a new version of the cognitive reflection test applying item response theory (IRT)",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Primi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Morsanyi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chiesi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Donati",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hamilton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Journal of Behavioral Decision Making",
+            "volume": "29",
+            "issn": "5",
+            "pages": "453--469",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Science denial: Psychological processes underlying denial of science-based medical practices. Medical Misinformation and Social Harm in Non-Science-Based Health Practices",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Prot",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "24--37",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Politicizing the COVID-19 pandemic: Ideological differences in adherence to social distancing",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Rosenfeld",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Rothgerber",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Effective strategies for rebutting science denialism in public discussions",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schmid",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Betsch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature Human Behaviour",
+            "volume": "3",
+            "issn": "9",
+            "pages": "931--939",
+            "other_ids": {}
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Estimating the dimension of a model",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Schwarz",
+                    "suffix": ""
+                }
+            ],
+            "year": 1978,
+            "venue": "The Annals of Statistics",
+            "volume": "",
+            "issn": "",
+            "pages": "461--464",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Conspiracy in the time of corona: Automatic detection of COVID-19 conspiracy theories in social media and the news",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shahsavari",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Holur",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Tangherlini",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Roychowdhury",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:2004.13783"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Science Denial: Why It Happens and What to Do About It",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sinatra",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Hofer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Trust, emotion, sex, politics, and science: Surveying the risk-assessment battlefield",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Slovic",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "Risk Analysis",
+            "volume": "19",
+            "issn": "4",
+            "pages": "689--701",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "When we are worried, what are we thinking? Anxiety, lack of control, and conspiracy beliefs amidst the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "\u0160rol",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ballov\u00e1",
+                    "middle": [],
+                    "last": "Miku\u0161kov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "\u010cavojov\u00e1",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Applied Cognitive Psychology",
+            "volume": "35",
+            "issn": "3",
+            "pages": "720--729",
+            "other_ids": {}
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Epistemic rationality: Skepticism toward unfounded beliefs requires sufficient cognitive capacity and motivation to be rational",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "St\u00e5hl",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-W",
+                    "middle": [],
+                    "last": "Van Prooijen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Personality and Individual Differences",
+            "volume": "122",
+            "issn": "",
+            "pages": "155--163",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Collective narcissism predicts the belief and dissemination of conspiracy theories during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sternisko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cichocka",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cislak",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Van Bavel",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Analytic thinking reduces belief in conspiracy theories",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Swami",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Voracek",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Stieger",
+                    "suffix": ""
+                },
+                {
+                    "first": "Tran",
+                    "middle": [],
+                    "last": "Us",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Furnham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Cognition",
+            "volume": "133",
+            "issn": "3",
+            "pages": "572--585",
+            "other_ids": {}
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Irrational beliefs differentially predict adherence to guidelines and pseudoscientific practices during the COVID-19 pandemic",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Teovanovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Luki\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zupan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lazi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ninkovi\u0107",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "\u017de\u017eelj",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Applied Cognitive Psychology",
+            "volume": "35",
+            "issn": "2",
+            "pages": "486--496",
+            "other_ids": {}
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Retweeting for COVID-19",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Thelwall",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Thelwall",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Consensus building. Information Sharing, Dissent, and Lockdown Life",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "The benefits and costs of using social distancing to flatten the curve for COVID-19",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Thunstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Newbold",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Finnoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ashworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Shogren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3561934"
+                ]
+            }
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Why do people believe COVID-19 conspiracy theories? Harvard Kennedy School Misinformation Review. Epub ahead of print 28",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Uscinski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Enders",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Klofstad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Seelig",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Funchion",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Everett",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.37016/mr-2020-015"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Countering science denial",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Der Linden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nature Human Behaviour",
+            "volume": "3",
+            "issn": "9",
+            "pages": "889--890",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Improving public engagement with climate change: Five \"best practice\" insights from psychological science",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Der Linden",
+                    "suffix": ""
+                },
+                {
+                    "first": "Maibach",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Leiserowitz",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Perspectives on Psychological Science: A Journal of the Association for Psychological Science",
+            "volume": "10",
+            "issn": "6",
+            "pages": "758--763",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "The paranoid style in American politics revisited: An ideological asymmetry in conspiratorial thinking",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Der Linden",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Panagopoulos",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Azevedo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Jost",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Political Psychology",
+            "volume": "42",
+            "issn": "1",
+            "pages": "23--51",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "The influence of control on belief in conspiracy theories: Conceptual and applied extensions",
+            "authors": [
+                {
+                    "first": "J-W",
+                    "middle": [],
+                    "last": "Van Prooijen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Acker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Applied Cognitive Psychology",
+            "volume": "29",
+            "issn": "5",
+            "pages": "753--761",
+            "other_ids": {}
+        },
+        "BIBREF76": {
+            "ref_id": "b76",
+            "title": "Belief in conspiracy theories: The influence of uncertainty and perceived morality",
+            "authors": [
+                {
+                    "first": "J-W",
+                    "middle": [],
+                    "last": "Van Prooijen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jostmann",
+                    "middle": [],
+                    "last": "Nb",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "European Journal of Social Psychology",
+            "volume": "43",
+            "issn": "1",
+            "pages": "109--115",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Hate Multiverse Spreads Malicious COVID-19 Content Online beyond Individual Platform Control",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Vel\u00e1squez",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Leahy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Johnson",
+                    "middle": [],
+                    "last": "Restrepo",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Lupu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sear",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gabriel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Upgrade Manual for Latent GOLD 5.1",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Vermunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Magidson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF80": {
+            "ref_id": "b80",
+            "title": "The spread of true and false news online",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Vosoughi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Roy",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Aral",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Science",
+            "volume": "359",
+            "issn": "6380",
+            "pages": "1146--1151",
+            "other_ids": {}
+        },
+        "BIBREF81": {
+            "ref_id": "b81",
+            "title": "Wissenschaft im Dialog & Kantar (2020) Wissenschaftsbarometer Corona Spezial. Available at",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF82": {
+            "ref_id": "b82",
+            "title": "World Health Organization (2020) COVID-19 Strategy Update",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF84": {
+            "ref_id": "b84",
+            "title": "We will rescue Italy, but we dislike the European Union: Collective narcissism and the COVID-19 threat",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "\u017bemojtel-Piotrowska",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Piotrowski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sawicki",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jonason",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Group Processes & Intergroup Relations. Epub ahead of print 15",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/13684302211002923"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF1": {
+            "text": "Endorsement of COVID-19 claims by expert sample and latent classes (A-D) in the general public.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Concerned. This group differs only on few characteristics from the rest of the sample. Retirees are slightly less frequent (OR = 0.78). People are less likely to believe in conspiracies about COVID-19 (d = \u22120.53), collective narcissism is generally lower (d = \u22120.32), and they are less likely to receive information about COVID-19 from other online sources (d = \u22120.27). There are no differences in any of the other variables.Doubtful. This group is characterized mainly by cognitive characteristics. People are less likely to report high education (OR = 0.49) and more likely to report low education (OR = 1.58). People are more likely to believe in COVID-19 conspiracies (d = 0.77), less open-minded (d = \u22120.53), more likely to fall for intuitive but false solutions in a cognitive reflection test (d = \u22120.48), and they generally tend to perceive the structure of knowledge to be less complex (d = \u22120.46). They trust scientists less (d = \u22120.41) and are more inclined to endorse collective narcissism (d = 0.64), nationalism (d = 0.21), and a right-wing political ideology (d = 0.28). Finally, they are more likely to receive information about COVID-19 via messenger services (d = 0.26) and from social media (d = 0.22) Compliance with containment measures in the general public separated by latent class.Note: Margins of error indicate confidence intervals.Table 3. Demographics and characteristics of participants in latent classes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "odds ratio; TV: television.For demographics, all significant differences between a latent class and the rest of the sample are displayed. For other predictors, substantial differences (d > 0.2) are displayed in a descending order of effect size. and other online channels (d = 0.26). They are generally less likely to receive news about COVID-19 from public TV (d = \u22120.20).Alarmed. This group is slightly older (d = 0.19), fewer people are employed (OR = 0.63), more people are retired (OR = 1.69), and more people are highly educated (OR = 1.44). They have high trust in scientists (d = 0.70), are less likely to believe in COVID-19 conspiracies (d = \u22120.53), tend to perceive the structure of knowledge to be complex (d = 0.59), are more open-minded (d = 0.33), and more likely to identify correct solutions in a cognitive reflection task (d = 0.29). They report a lower tendency toward collective narcissism (d = \u22120.34) and a larger moral circle (d = 0.23). They are more likely to believe that politicians (d = 0.40) and they themselves (d = 0.35) know a lot about COVID-19. Finally, they are more likely to receive information about COVID-19 from public TV (d = 0.41) and national weekly newspapers (d = 0.24).Dismissive. This group is slightly younger (d = \u22120.25), fewer people report low education (OR = 0.72), more people are employed (OR = 1.80), and fewer retired (OR = 0.53). They have a strong tendency toward conspiracy beliefs about COVID-19 (d = 1.21), they are less inclined to trust in scientists (d = \u22121.12), tend to perceive the structure of knowledge to be less complex (d = \u22120.68), and they believe that politicians (d = \u22120.85) and Germans in general (d = \u22120.54) are not well informed about the pandemic. They are less inclined to receive information about COVID-19 from public TV (d = \u22120.71), private TV (d = \u2212-0.21), or regional daily newspapers (d = \u22120.31) and more inclined to use other online sources (d = 0.35). They report a higher tendency toward collective narcissism (d = 0.41), are less concerned about their moral identity (d = \u22120.25), and lean toward a right-wing political ideology (d = 0.30). Finally, they report higher physical health (d = 0.41) and",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Claims about COVID-19 in German and English translations.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors thank Eva Lermer, Matthias Hudecek, Christian von Sikorski, Jay van Bavel, and the team of the Social and Moral Psychology Many Labs at New York University for setting up parts of the survey.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "No conflict of interests declared.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of conflicting interests"
+        },
+        {
+            "text": "The author(s) received no financial support for the research, authorship, and/or publication of this article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "Tobias Rothmund https://orcid.org/0000-0003-2979-5129Fahima Farkhari https://orcid.org/0000-0002-8484-5128Carolin-Theresa Ziemer https://orcid.org/0000-0002-0794-7702 Fl\u00e1vio Azevedo https://orcid.org/0000-0001-9000-8513",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ORCID iDs"
+        },
+        {
+            "text": "Supplemental material for this article is available online.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplemental material"
+        },
+        {
+            "text": "Tobias Rothmund is Professor for Psychology at the Institute of Communication Science at Friedrich-Schiller University Jena in Germany. His research focuses on political dispositions, social justice concerns, and motivated cognition. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author biographies"
+        }
+    ]
+}

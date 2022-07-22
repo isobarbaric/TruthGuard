@@ -1,0 +1,2026 @@
+{
+    "paper_id": "27b305ea846b39929117d6bb9d31a5bf03d3908a",
+    "metadata": {
+        "title": "COVID-19 distributes socially in China: A Bayesian spatial analysis",
+        "authors": [
+            {
+                "first": "Di",
+                "middle": [],
+                "last": "Peng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "The First People's Hospital of Shuangliu District",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jian",
+                "middle": [],
+                "last": "2\u262f",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "",
+                "middle": [],
+                "last": "Qian",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Luyi",
+                "middle": [],
+                "last": "Wei",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Caiying",
+                "middle": [],
+                "last": "Luo",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tao",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lijun",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yuanyuan",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yue",
+                "middle": [],
+                "last": "Maid",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Fei",
+                "middle": [],
+                "last": "Yinid",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sichuan University",
+                    "location": {
+                        "settlement": "Chengdu",
+                        "region": "Sichuan",
+                        "country": "China, China"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The ongoing coronavirus disease 2019 (COVID-19) epidemic increasingly threatens the public health security worldwide. We aimed to identify high-risk areas of COVID-19 and understand how socioeconomic factors are associated with the spatial distribution of COVID-19 in China, which may help other countries control the epidemic.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We analyzed the data of COVID-19 cases from 30 provinces in mainland China (outside of Hubei) from 16 January 2020 to 31 March 2020, considering the data of demographic, economic, health, and transportation factors. Global autocorrelation analysis and Bayesian spatial models were used to present the spatial pattern of COVID-19 and explore the relationship between COVID-19 risk and various factors.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Global Moran's I statistics of COVID-19 incidences was 0.31 (P<0.05). The areas with a high risk of COVID-19 were mainly located in the provinces around Hubei and the provinces with a high level of economic development. The relative risk of two socioeconomic factors, the per capita consumption expenditure of households and the proportion of the migrating population from Hubei, were 1.887 [95% confidence interval (CI): 1.469~2.399] and 1.099 (95% CI: 1.053~1.148), respectively. The two factors explained up to 78.2% out of 99.7% of structured spatial variations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Our results suggested that COVID-19 risk was positively associated with the level of economic development and population movements. Blocking population movement and reducing local exposures are effective in preventing the local transmission of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "PLOS ONE | https://doi.org/10.1371/journal.pone.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Pneumonia caused by a novel coronavirus was identified in Wuhan, China, in December 2019 and then named coronavirus disease 2019 . Most patients experience mild to moderate respiratory symptoms, i.e., fever, fatigue, cough, and shortness of breath, but some patients with underlying health disorders, such as respiratory or cardiovascular diseases, can develop severe illness and even die [1] . A small proportion of COVID-19 cases are also reported without any symptoms but with positive viral nucleic acid test results [2] . COVID-19 transmits mainly via respiratory droplets and direct contact [3] . The incubation period of COVID-19 is within 14 days with a mean time of 5.2 days, and the mean basic reproductive number (R 0 ) ranges from 1.4 to 3.9 [3] [4] [5] [6] [7] . Due to the long incubation period and high infectivity, COVID-19 cases can accumulate unidentified, and the high proportion of severe cases that come later may quickly overload the health system, consume local health resources, and cause large numbers of mortalities [8] [9] [10] [11] . Therefore, the World Health Organization (WHO) declared COVID-19 a pandemic on 12 March 2020. As of 30 August 2020, the epidemic of COVID-19 had affected more than 200 countries and regions, with more than 20 million confirmed cases worldwide.",
+            "cite_spans": [
+                {
+                    "start": 389,
+                    "end": 392,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 521,
+                    "end": 524,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 597,
+                    "end": 600,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 754,
+                    "end": 757,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 758,
+                    "end": 761,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 762,
+                    "end": 765,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 766,
+                    "end": 769,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 770,
+                    "end": 773,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1043,
+                    "end": 1046,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1047,
+                    "end": 1050,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1051,
+                    "end": 1055,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1056,
+                    "end": 1060,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "At present, several COVID-19 vaccines have been authorized for use throughout the world [12] . However, the lack of vaccine and coverage remains a challenge due to insufficient production and allocation. To date, public health intervention is still one of the most efficient ways to control the development of the COVID-19 pandemic [12, 13] . Studying the spatial patterns and influencing factors for COVID-19 is important to identify high-risk areas for further intervention and risk evaluation for local prevention and control strategy development. Additionally, health resources can be allocated in advance to prepare for the peak of incoming patients with severe illness. The distribution of COVID-19 shows significant spatial heterogeneity [14] . The occurrence and transmission of COVID-19 in the population may be influenced by natural, environmental, and social factors [14] [15] [16] [17] [18] . However, to date, there is a lack of comprehensive studies on quantifying the spatial pattern of COVID-19 and detecting the spatial impact of potential influencing factors on the COVID-19.",
+            "cite_spans": [
+                {
+                    "start": 88,
+                    "end": 92,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 332,
+                    "end": 336,
+                    "text": "[12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 337,
+                    "end": 340,
+                    "text": "13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 745,
+                    "end": 749,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 878,
+                    "end": 882,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 883,
+                    "end": 887,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 888,
+                    "end": 892,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 893,
+                    "end": 897,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 898,
+                    "end": 902,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In our study, using spatial methods including spatial autocorrelation and Bayesian spatial models, we analyzed the data in 30 provinces in mainland China (outside of Hubei), and presented the spatial pattern of COVID-19. Our study detected the hot spots and cold spots of COVID-19, and explored the relationship between the risk of COVID-19 and socioeconomic factors. The purpose of this study was to determine high-risk areas of COVID-19 and explore potential influencing factors of COVID-19 to provide a basic understanding of COVID-19 for further public health interventions and resource allocations in other countries and areas.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Data on the COVID-19 cases in 30 provinces in mainland China from 16 January 2020 to 31 March 2020, were collected from the National Health Commission of the People's Republic of China. Hubei Province, where COVID-19 was first detected, was not included, as this study aimed to explore the socioeconomic and environmental risk factors after the import of the COVID-19 cases.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sources"
+        },
+        {
+            "text": "Four types of variables were collected for each province. Demographic variables included the total population, population density (PD), proportion of urban population at year-end (PUP), and percentage of illiterate population to total aged 15 and over (PIP). Economic variables included gross domestic product (GDP), foreign exchange earnings from international tourism (FEEFIT), and per capita consumption expenditure of households (PCCEOH). Health variables included the number of health care institutions (NOHCI), number of beds in health care institutions (NOB), medical technical personnel in health care institutions per 1000 persons (MTP), and beds of medical institutions per 1000 population (BOMI). Transportation variables included the passenger traffic (PT), passenger kilometers (PK), and proportion of the migrating population from Hubei from 16 January 2020 to 24 January 2020 (POMPFH). The POMPFH variable was provided by the Baidu Qianxi website [19] . The other variables were collected from the China Statistical Yearbook (2019).",
+            "cite_spans": [
+                {
+                    "start": 962,
+                    "end": 966,
+                    "text": "[19]",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data sources"
+        },
+        {
+            "text": "The cumulative incidences of COVID-19 in 30 provinces and descriptive statistics [range, mean, standard deviation (SD), median, and quartile] of variables were calculated. Depending on whether the variables were normally distributed, Pearson or Spearman correlation coefficients were used to estimate the crude correlation between the incidence of COVID-19 and provincial variables.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "Global Moran's I of the incidence of COVID-19 was calculated as follows to quantify spatial autocorrelation [20] :",
+            "cite_spans": [
+                {
+                    "start": 108,
+                    "end": 112,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "where n (n = 30) is the number of studied provinces; y i and y j are the incidence of COVID-19 in the i th province and j th province, respectively; \ufffd y is the average incidence of COVID-19; w is the weight matrix to measure the adjacency relation of provinces, w ij is 1 if provinces i and j are neighbors and 0 otherwise. Moran's I ranges from -1 to 1, indicating the spatial autocorrelation of the incidence of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "Bayesian spatial models were built to present the spatial pattern of COVID-19 and estimate the comprehensive relationship between the COVID-19 risk and variables. The Bayesian spatial model assumed that the reported counts of COVID-19 cases (Y i ) for the i th province followed a Poisson distribution with mean \u03bb i [21, 22] :",
+            "cite_spans": [
+                {
+                    "start": 316,
+                    "end": 320,
+                    "text": "[21,",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 321,
+                    "end": 324,
+                    "text": "22]",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "where E(Y i ) is the expected count of COVID-19 cases for each province, calculated by multiplying the overall incidence of COVID-19 of the 30 provinces by the population for each province during the study period; \u03c1 i is the relative risk (RR) of COVID-19 in the i th province, and the log RR was modeled as",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "where b 0 is the intercept, representing the average risk of COVID-19 in all the 30 provinces. x ki is the k th socioeconomic or environmental variable in the i th province; b k and e b k are the regression coefficient and RR of the k th variable, respectively; u i is a spatially structured random effect, reflecting the spatial correlation between adjacent provinces; and v i is a spatially unstructured random effect, which is caused by other nonspatial factors and can be interpreted as unknown or unobserved covariates at the provincial level. u i +v i quantifies the total spatial effect and exp(u i +v i ) is the spatial RR of the disease. The integrated nested Laplace approximation (INLA) method was used to estimate the parameters of the Bayesian spatial model, and minimally informative priors were specified on the above random effects by default [23] . b 0 and b k were modeled using a vague prior followed the Gaussian distribution with mean zero and variance 10 6 . u i was modeled using a conditional autoregressive specification (CAR) with mean zero and variance s 2 u , and v i was modeled as exchangeable with mean zero and variance s 2 v . The precisions of u i and v i were specified as Gamma (1, 0.0005).",
+            "cite_spans": [
+                {
+                    "start": 859,
+                    "end": 863,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "The spatial risk of COVID-19 for each province was identified based on the results of the Bayesian spatial model without covariables. According to the posterior distribution of u i +v i , 30 provinces were divided into hot, cold, and other spots. A province with the posterior probability p\u00f0exp\u00f0u i \u00fe v i \u00de > 1jdata\u00de > 0:9 was defined as a hot spot; if its posterior probability p\u00f0exp\u00f0u i \u00fe v i \u00de > 1jdata\u00de < 0:1, a province was defined as a cold spot; the remaining provinces were neither hot nor cold spots. In addition, the proportion of variance explained by u i was calculated according to the posterior marginal distribution of s 2 u and s 2 v to quantify the relative importance of u i . The larger the proportion was, the more the variability was explained by u i . Then, according to the results of multivariate Bayesian spatial models, the relationship between COVID-19 and variables was explored, and the coefficients of variables were estimated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "Data were analyzed in R software (version 3.6.1, using \"base\", \"maptools\", \"raster\", \"spdep\", \"rgdal\", \"psych\", \"ggplot2\" and \"INLA\" packages).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data analysis"
+        },
+        {
+            "text": "From 16 January 2020 to 31 March 2020, a total of 13756 cases of COVID-19 were reported from the 30 provinces in mainland China (outside of Hubei). Fig 1 shows the spatial distribution of the cumulative incidence of COVID-19 at the provincial level. The incidence of COVID-19 ranged from 0.03/100000 (Tibet) to 2.70/100000 (Beijing). Provinces with high incidence were mainly located in eastern and southeastern China. The socioeconomic and environmental variables are presented in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 148,
+                    "end": 159,
+                    "text": "Fig 1 shows",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 482,
+                    "end": 489,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Descriptive analysis"
+        },
+        {
+            "text": "Spearman correlation coefficients between the incidence of COVID-19 and variables ranged from -0.28 to 0.65 (S1 Table) . Among the 13 variables, the incidence of COVID-19 was significantly associated with PD (r = 0.65, P<0.01), POMPFH (r = 0.57, P<0.01), PCCEOH (r = 0.54, P<0.01), PUP (r = 0.53, P<0.01), GDP (r = 0.46, P<0.05), and FEEFIT (r = 0.43, P<0.05). However, the correlations among the 6 socioeconomic variables were also significant. To reduce multicollinearity, one of the paired variables with a Spearman correlation coefficient greater than 0.7 was excluded. Thus, PUP and GDP were excluded in subsequent analyses.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 112,
+                    "end": 118,
+                    "text": "Table)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Spearman correlation"
+        },
+        {
+            "text": "The estimated Moran's I statistic of the incidence of COVID-19 was 0.31 (P<0.05), indicating that a global spatial autocorrelation of COVID-19 was detected at the provincial level in mainland China during the studied period and that the incidence of COVID-19 was similar among adjacent provinces.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Spatial autocorrelation"
+        },
+        {
+            "text": "A Bayesian spatial model without covariates was fitted. The estimated spatial RR (exp(u i +v i )) of COVID-19 by province is shown in Fig 2A, where 14 of 30 provinces had a 95% CI of the Fig 2B maps the distribution of hot-cold spots of COVID-19 in the 30 provinces. Among the 30 provinces, 15 and 14 provinces were classified as hot spots and cold spots, respectively. Shandong was the only province that was neither a hot spot nor a cold spot. The posterior means of s 2 u and s 2 v were 1.277 and 0.002, respectively. The proportion of structured spatial variance in the total variance was 99.75%, indicating that a large part of COVID-19 variability could be explained by the spatial structure. Potential factors associated with the COVID-19 structured spatial variability should be included in the Bayesian spatial model for analysis.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 141,
+                    "text": "Fig 2A,",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 187,
+                    "end": 198,
+                    "text": "Fig 2B maps",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Spatial distribution"
+        },
+        {
+            "text": "Four variables, i.e., PD, FEEFIT, PCCEOH, and POMPFH, were incorporated into the Bayesian spatial model. The results of the model showed that PCCEOH and POMPFH were significantly and positively correlated with COVID-19. The estimated coefficients for PD and FEEFIT were not significant.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Relationship of socioeconomic and environmental variables and the incidence of COVID-19"
+        },
+        {
+            "text": "A multivariate Bayesian spatial model with only the significant PCCEOH and POMPFH was fitted. The final coefficients and RR of PCCEOH and POMPFH are listed in Table 2 . The results showed that a 10,000 yuan rise in PCCEOH was related to an increase of 88.7% in the COVID-19 risk, and a 1% rise in POMPFH was related to an increase of 9.9% in the COVID-19 risk. The reason for the statistical significance of PCCEOH and POMPFH may be that people from Hubei mainly went to the provinces adjacent to Hubei, and the areas with high economic development experienced more population movements during the Spring Festival travel season.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 159,
+                    "end": 166,
+                    "text": "Table 2",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Relationship of socioeconomic and environmental variables and the incidence of COVID-19"
+        },
+        {
+            "text": "The estimated spatial RR of COVID-19 is shown in Fig 3. Overall, the spatial heterogeneity of RR was reduced, and most RRs were close to 1. Furthermore, the posterior mean of s 2 u and s 2 v became 0.002 and 0.227, respectively, and the proportion of structured spatial variance in the total variation was reduced to 21.51%. Thus, the covariables in the model explained 78.24% of the total 99.75% of the structured spatial variance and reduced considerable spatial heterogeneity of RR. However, high RRs were still located in Jiangxi, Ningxia, Hainan, and Heilongjiang. Further research is needed to investigate other variables to explain such excessive risk in these provinces.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 49,
+                    "end": 55,
+                    "text": "Fig 3.",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Relationship of socioeconomic and environmental variables and the incidence of COVID-19"
+        },
+        {
+            "text": "From the time it was declared a Public Health Emergency of International Concern (PHEIC) on 30 January 2020, to the time it was declared a global pandemic on 11 March 2020, COVID-19 increasingly threatened the public health security worldwide. This study investigated the spatial distribution of COVID-19 and its relationship with potential influencing factors in China. The results revealed that the areas with a high risk of COVID-19 were in the vicinity of Hubei Province and in the provinces with high economic development, as well as Heilongjiang, Hainan, and Ningxia Province. The proportion of spatial autocorrelation variation in the total variation was reduced from 99.75% to 21.51% by including socioeconomic covariates. Most of the variation in COVID-19 could be explained by socioeconomic factors, which indicated that socioeconomic factors might play important role at the early stage of the pandemic. The per capita consumption expenditure and the proportion of the migrating population from Hubei were positively correlated with the disease risk of COVID-19. These findings can be helpful for the control and prevention of the potential epidemics and emergencies in the future. Several policies such as home quarantine, lockdown, and social distancing were taken to prevent the spread of COVID-19 during the pandemic. These policies varied by regions and their impacts on the COVID-19 pandemic were different. For instance, the traffic blockade in Wuhan city delayed the development of COVID-19 in China [24] . While in others provinces except Hubei, the managements such as home quarantine of migrating population of other regions had played a great role in controlling the local epidemics. However, the effects of these measures were not considered in our study due to the difficulty of quantifying these measures. Further research is needed to explore such impacts of the differences in local policies. Besides, the uncertainty of our study should be mentioned. The COVID-19 cases in our study were collected from the National Health Commission of the People's Republic of China, which diagnosed and reported timely according to the prevention and control plan of Novel coronavirus pneumonia [25] . The socioeconomic factors were obtained from the China Statistical Yearbook. However, the impacts of the local policies were not considered in this study due to the lack of method to quantify different local policies. Further research is needed to explore the impacts of the local policies. The high-risk areas of COVID-19 were mainly in eastern and southern China, which was probably associated with population mobility [26, 27] . The COVID-19 outbreak originated in Wuhan, Hubei, China, and coincided with the Spring Festival transport season in 2020. Due to the high infectivity and long incubation period of COVID-19, as well as the lack of prevention and control management before the emergency response was launched, infected individuals and COVID-19 patients spread to other provinces, causing in the COVID-19 epidemic to spread across the provinces that received numerous people from Hubei. From the beginning of the Spring Festival transport season to the 2nd day of the traffic blockade in Wuhan, over half of the outflowing population from Hubei went to adjacent provinces, thus increasing the local risks. The adjacent provinces included Henan, Hunan, Jiangxi, Chongqing, and Anhui. However, high COVID-19 risk was still associated with high per capita consumption expenditure even controlling with the proportion of the migrating population from Hubei. These provinces with high socioeconomic development (Guangdong, Beijing, Shanghai, Zhejiang, and Jiangsu) had higher inflow populations during the Spring Festival transport season than other provinces. The proportion of the population from Hubei in these provinces only reflected the imported population from Hubei. The cases imported through transit might be indirectly reflected in the per capita consumption expenditure.",
+            "cite_spans": [
+                {
+                    "start": 1519,
+                    "end": 1523,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 2210,
+                    "end": 2214,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 2638,
+                    "end": 2642,
+                    "text": "[26,",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2643,
+                    "end": 2646,
+                    "text": "27]",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A study by Wu et al. found independent and self-sustaining community transmission in several major cities in China between 31 December 2019 and 28 January 2020, which might be closely related to the local population density [28] . Notably, the correlation between COVID-19 risk and population density or foreign exchange earnings from international tourism was not statistically significant after controlling for the influence of the proportion of population from Hubei. The reason might be that the implementation of the national emergency response at the end of January 2020 reduced the local COVID-19 exposure by implementing household restrictions and the wearing of masks. Then, the community transmission of COVID-19 was controlled [29, 30] , and as were the effects of local population density. This result suggested that the emergency response measures adopted in China sufficiently controlled the community transmission. Besides, the foreign exchange earnings from international tourism partly reflecting the international imported population, were found to be nonsignificant, as there were only a few infected individuals and COVID-19 patients at the early stage. However, with the increasing global threats, more attention should be paid to the risk of imported cases.",
+            "cite_spans": [
+                {
+                    "start": 224,
+                    "end": 228,
+                    "text": "[28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 738,
+                    "end": 742,
+                    "text": "[29,",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 743,
+                    "end": 746,
+                    "text": "30]",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "High RRs of COVID-19 were found in Jiangxi, Ningxia, Hainan, and Heilongjiang Provinces. The high risks in these four provinces were not explained by the factors considered in this study. One possible reason is the general public's compliance with the local government's prevention and control measures during the COVID-19 pandemic. Some COVID-19 patients did not adherence to the prevention measures and even concealed their visits to Wuhan or close contact with people from Wuhan. Such behaviors led to clustered cases and increase the local RR. Several COVID-19 clusters were reported in these four provinces (Jiangxi, Ningxia, Hainan, and Heilongjiang), most of which were family clusters. As of February 6, Heilongjiang had reported 48 clustered outbreaks with 194 cases [31] . Hainan Province had reported 12 clustered outbreaks until February 3 [32] . And there were 43 family clusters cases reported in Ningxia from January 27 to March 16 [33] . As for Jiangxi, a total of 195 clustered outbreaks were reported until February 28 [34] .",
+            "cite_spans": [
+                {
+                    "start": 776,
+                    "end": 780,
+                    "text": "[31]",
+                    "ref_id": null
+                },
+                {
+                    "start": 852,
+                    "end": 856,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 947,
+                    "end": 951,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1037,
+                    "end": 1041,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This study has several limitations. Firstly, the province was the geographic unit used in the spatial analysis. For more useful information and more accurate intervention, a smaller geographic unit scale, such as prefecture level, is needed to analyze in further studies. Secondly, we only explored the relationship between the risk of COVID-19 and socioeconomic factors in this study. Natural and environmental risk factors such as climate and air pollution should be considered in further studies. Thirdly, the impacts of the local policies were not considered in this study due to the lack of method to quantify different local policies. Further research is needed to explore the impacts of the local policies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In summary, this study revealed the spatial distribution and investigated influencing factors of COVID-19 in 30 provinces in mainland China (outside of Hubei). The high-risk areas were in the vicinity of Hubei Province and in the provinces with high economic development. The risk of COVID-19 was associated with two socioeconomic factors, the per capita consumption expenditure of households and the proportion of the migrating population from Hubei. Both the model analysis and the actual actions in China showed that blocking population movement and reducing local exposures (by staying at home and wearing masks) were effective in preventing the local transmission of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Supporting information S1 Table. Spearman correlation coefficients between COVID-19 incidence and each variable of the 30 provinces in mainland China (outsides of Hubei). (PDF) S1 File. (DOCX) ",
+            "cite_spans": [
+                {
+                    "start": 186,
+                    "end": 192,
+                    "text": "(DOCX)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 26,
+                    "end": 32,
+                    "text": "Table.",
+                    "ref_id": null
+                }
+            ],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72314 Cases From the Chinese Center for Disease Control and Prevention",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "",
+            "pages": "1239--1281",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jama.2020.2648"
+                ],
+                "PMID": [
+                    "32091533"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The epidemiological characteristics of an outbreak of 2019 novel coronavirus diseases (COVID-19) in China. Zhonghua liu xing bing xue za zhi",
+            "authors": [
+                {
+                    "first": "Cpere",
+                    "middle": [],
+                    "last": "Novel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "41",
+            "issn": "",
+            "pages": "145--51",
+            "other_ids": {
+                "DOI": [
+                    "10.3760/cma.j.issn.0254-6450.2020.02.003"
+                ],
+                "PMID": [
+                    "32064853"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "The epidemic of 2019-novel-coronavirus (2019-nCoV) pneumonia and insights for emerging infectious diseases in the future",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "You",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Microbes Infect",
+            "volume": "22",
+            "issn": "2",
+            "pages": "80--85",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.micinf.2020.02.002"
+                ],
+                "PMID": [
+                    "32087334"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus-Infected Pneumonia",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Guan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Tong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "13",
+            "pages": "1199--207",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2001316"
+                ],
+                "PMID": [
+                    "31995857"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Pattern of early human-to-human transmission of Wuhan",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Riou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Althaus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "4",
+            "pages": "7--11",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.Es.2020.25.4.2000058"
+                ],
+                "PMID": [
+                    "32019669"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rothan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Byrareddy",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Autoimmun",
+            "volume": "109",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaut.2020.102433"
+                ],
+                "PMID": [
+                    "32113704"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Estimating clinical severity of COVID-19 from the transmission dynamics in Wuhan, China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bushman",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kishore",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Niehus",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Salazar",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat Med",
+            "volume": "2020",
+            "issn": "",
+            "pages": "506--516",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41591-020-0822-7"
+                ],
+                "PMID": [
+                    "32284616"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Potential scenarios for the progression of a COVID-19 epidemic in the European Union and the European Economic Area",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gossner",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Colzani",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kinsman",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Alexakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Beaut",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Euro Surveill",
+            "volume": "25",
+            "issn": "9",
+            "pages": "8--12",
+            "other_ids": {
+                "DOI": [
+                    "10.2807/1560-7917.ES.2020.25.9.2000202"
+                ],
+                "PMID": [
+                    "32156332"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Active quarantine measures are the primary means to reduce the fatality rate of COVID-19",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Bull World Health Organ",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Estimates of the severity of coronavirus disease 2019: a model-based analysis",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Verity",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Okell",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Dorigatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Winskill",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Whittaker",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Imai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "6",
+            "pages": "30243--30250",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099%2820%2930243-7"
+                ],
+                "PMID": [
+                    "32240634"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "COVID-19 healthcare demand and mortality in Sweden in response to non-pharmaceutical mitigation and suppression scenarios",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sj\u00f6din",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Johansson",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00c5",
+                    "middle": [],
+                    "last": "Br\u00e4 Nnstr\u00f6 M",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Farooq",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Kriit",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilder-Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J of Epidemiol",
+            "volume": "49",
+            "issn": "",
+            "pages": "1443--1453",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/ije/dyaa121"
+                ],
+                "PMID": [
+                    "32954400"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Real-world effectiveness of COVID-19 vaccines: a literature review and meta-analysis",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2022,
+            "venue": "International Journal of Infectious Diseases",
+            "volume": "114",
+            "issn": "",
+            "pages": "252--260",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ijid.2021.11.009"
+                ],
+                "PMID": [
+                    "34800687"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Isolation, quarantine, social distancing and community containment: pivotal role for old-style public health measures in the novel coronavirus (2019-nCoV) outbreak",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilder-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Freedman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Travel Med",
+            "volume": "27",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jtm/taaa020"
+                ],
+                "PMID": [
+                    "32052841"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "GIS-based spatial modeling of COVID-19 incidence rate in the continental United States",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mollalo",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Vahedi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rivera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Total Environ",
+            "volume": "728",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.scitotenv.2020.138884"
+                ],
+                "PMID": [
+                    "32335404"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "COVID-19 transmission in Mainland China is associated with temperature and humidity: A time-series analysis",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ward",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science of The Total Environment",
+            "volume": "728",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.scitotenv.2020.138778"
+                ],
+                "PMID": [
+                    "32335405"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "A spatial analysis of the COVID-19 period prevalence in U.S. counties through",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Matthews",
+                    "suffix": ""
+                },
+                {
+                    "first": "T-C",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-H",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Annals of Epidemiology",
+            "volume": "52",
+            "issn": "",
+            "pages": "54--59",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.annepidem.2020.07.014"
+                ],
+                "PMID": [
+                    "32736059"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Impact of meteorological factors on COVID-19 pandemic: Evidence from top 20 countries with confirmed cases",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sarkodie",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Owusu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Environmental Research",
+            "volume": "191",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.envres.2020.110101"
+                ],
+                "PMID": [
+                    "32835681"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Significance of geographical factors to the COVID-19 outbreak in India",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Banerjee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Das",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Model Earth Syst Environ",
+            "volume": "17",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40808-020-00838-2"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Spatial analysis in epidemiology",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Pfeiffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Robinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stevenson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Stevens",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rogers",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Clements",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Bayesian disease mapping: hierarchical modeling in spatial epidemiology",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Lawson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Bayesian modelling of inseparable space-time variation in disease risk. Statistics in medicine",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Knorr-Held",
+                    "suffix": ""
+                }
+            ],
+            "year": 1999,
+            "venue": "",
+            "volume": "19",
+            "issn": "",
+            "pages": "2555--67",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Spatial and spatio-temporal Bayesian models with R-INLA",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Blangiardo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cameletti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The positive impact of lockdown in Wuhan on containing the COVID-19 outbreak in China",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Khosrawipour",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kocbach",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mikolajczyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Schubert",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bania",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Journal of travel medicine",
+            "volume": "27",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/jtm/taaa037"
+                ],
+                "PMID": [
+                    "32181488"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "The prevention and control plan of Novel coronavirus pneumonia",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Population flow drives spatio-temporal distribution of COVID-19 in China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jia",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Christakis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nature",
+            "volume": "582",
+            "issn": "7812",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41586-020-2284-y"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Spatial and temporal differentiation of COVID-19 epidemic spread in mainland China and its influencing factors",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xie",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Total Environ",
+            "volume": "744",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.scitotenv.2020.140929"
+                ],
+                "PMID": [
+                    "32687995"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Nowcasting and forecasting the potential domestic and international spread of the 2019-nCoV outbreak originating in Wuhan, China: a modelling study",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Leung",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet",
+            "volume": "395",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0140-6736%2820%2930260-9"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Can we contain the COVID-19 outbreak with the same measures as for SARS?",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Wilder-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chiew",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Infect Dis",
+            "volume": "20",
+            "issn": "5",
+            "pages": "30129--30137",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S1473-3099%2820%2930129-8"
+                ],
+                "PMID": [
+                    "32145768"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Estimation of the Transmission Risk of the 2019-nCoV and Its Implication for Public Health Interventions",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Bragazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Clin Med",
+            "volume": "9",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/jcm9020462"
+                ],
+                "PMID": [
+                    "32046137"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "10 notice issued in Heilongjiang province: those who conceal or falsely report their illness to hazard public security will be investigated for criminal responsibility",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "There were 12 clusters of COVID-19 occurred in Hainan province",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Analysis of epidemiological characteristics of 43 COVID-19 family clustered cases",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Journal of Ningxia Medical University",
+            "volume": "43",
+            "issn": "10",
+            "pages": "1025--1028",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "A total of 195 clustered outbreaks reported in Jiangxi, 88.2% of which were family clusters",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Cumulative incidence of COVID-19 (1/100000) in the 30 provinces in mainland China (outside of Hubei), from 16 January 2020 to 31 March 2020. The original map image was obtained from the China Ministry of Natural Resources(http://bzdt.ch.mnr.gov.cn/index.html). https://doi.org/10.1371/journal.pone.0267001.g001",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Estimated RR values (a) and hot-cold spots (b) of COVID-19 by Bayesian spatial model without covariables in the 30 provinces in mainland China (outside of Hubei), from 16 January 2020 to 31 March 2020. The original map image was obtained from the China Ministry of Natural Resources(http://bzdt.ch.mnr.gov.cn/index.html). https://doi.org/10.1371/journal.pone.0267001.g002",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "The RR of COVID-19 estimated by the multivariate Bayesian spatial model with two socioeconomic covariables in 30 provinces in mainland China (outside of Hubei), from 16 January 2020 to 31 March 2020. The original map image was obtained from the China Ministry of Natural Resources(http://bzdt.ch.mnr.gov.cn/index. html). https://doi.org/10.1371/journal.pone.0267001.g003",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Descriptive statistics of socioeconomic variables of the 30 provinces in mainland China (outsides of Hubei). Jiangxi, Chongqing, Hainan, and Anhui. Notably, the spatial risk was not low in Heilongjiang and Ningxia in northernmost China and northwestern China, respectively. Western and northern China showed a lower risk.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "The coefficients (b) and RR estimated by the multivariate Bayesian spatial model with two socioeconomic variables.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

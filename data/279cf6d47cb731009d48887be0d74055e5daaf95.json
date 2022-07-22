@@ -1,0 +1,992 @@
+{
+    "paper_id": "279cf6d47cb731009d48887be0d74055e5daaf95",
+    "metadata": {
+        "title": "COVID-19 Vaccine Hesitancy Among Adolescent and Young Adult Cancer Survivors",
+        "authors": [
+            {
+                "first": "Austin",
+                "middle": [
+                    "R"
+                ],
+                "last": "Waters",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": "austin.waters@hci.utah.edu."
+            },
+            {
+                "first": "Deanna",
+                "middle": [],
+                "last": "Kepka",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Joemy",
+                "middle": [
+                    "M"
+                ],
+                "last": "Ramsay",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Karely",
+                "middle": [],
+                "last": "Mann",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Perla",
+                "middle": [
+                    "L"
+                ],
+                "last": "Vaca Lopez",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "John",
+                "middle": [
+                    "S"
+                ],
+                "last": "Anderson",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Judy",
+                "middle": [
+                    "Y"
+                ],
+                "last": "Ou",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Heydon",
+                "middle": [
+                    "K"
+                ],
+                "last": "Kaddas",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Alexandra",
+                "middle": [],
+                "last": "Palmer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nicole",
+                "middle": [],
+                "last": "Ray",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Tomoko",
+                "middle": [],
+                "last": "Tsukamoto",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Intermountain Healthcare",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Douglas",
+                "middle": [
+                    "B"
+                ],
+                "last": "Fair",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [
+                    "A"
+                ],
+                "last": "Lewis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Intermountain Healthcare",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Anne",
+                "middle": [
+                    "C"
+                ],
+                "last": "Kirchhoff",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Utah",
+                    "location": {
+                        "settlement": "Salt Lake City",
+                        "region": "UT",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Echo",
+                "middle": [
+                    "L"
+                ],
+                "last": "Warner",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Arizona Cancer Center",
+                    "location": {
+                        "settlement": "Tucson",
+                        "region": "AZ",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The study objective was to identify sociodemographic and coronavirus disease 2019 factors that are associated with COVID-19 vaccine hesitancy among adolescent and young adult (AYA) cancer survivors. Eligible participants were 18 years or older and were diagnosed with cancer as an AYA (ages 15-39 years) and received services through an AYA cancer program. A total of 342 participants completed a cross-sectional survey. Our primary outcome-COVID-19 vaccine hesitancy-was surveyed as a 5-point Likert scale and operationalized as a binary outcome (agree vs hesitant). A large proportion of participants reported COVID-19 vaccine hesitancy (37.1%). In the multivariable regression, female survivors (odds ratio \u00bc 1.81, 95% confidence interval \u00bc 1.10 to 2.98) and survivors with a high school education or less (odds ratio \u00bc 3.15, 95% confidence interval \u00bc 1.41 to 7.04) reported higher odds of vaccine hesitancy compared with their male or college graduate or higher counterparts. COVID-19 vaccine hesitancy persists among AYA survivors despite their recommended priority vaccination status and higher chances of severe COVID-19 outcomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "As of March 2021, there were more than 28 million cases and 500 000 deaths from coronavirus disease 2019 (COVID-19) in the United States (1) . COVID-19 vaccines offer hope to control the spread of COVID-19 and prevention of serious illness related to COVID-19. Roughly 20%-40% of the US population, however, exhibit COVID-19 vaccine hesitancy (ie, cautious about or would refuse COVID-19 vaccination) (2) (3) (4) . Such hesitancy is problematic among cancer survivors (5) , who often have weakened immune systems and are more likely to develop severe respiratory infections (5) . National organizations recommend that cancer survivors receive the COVID-19 vaccine if they have no contraindications (6) , and survivors on active treatment are a priority vaccination group (7) .",
+            "cite_spans": [
+                {
+                    "start": 137,
+                    "end": 140,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 401,
+                    "end": 404,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 405,
+                    "end": 408,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 409,
+                    "end": 412,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 468,
+                    "end": 471,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 574,
+                    "end": 577,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 698,
+                    "end": 701,
+                    "text": "(6)",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 771,
+                    "end": 774,
+                    "text": "(7)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Adolescents and young adults (AYA) in the United States have the highest incidence of COVID-19 infection of any age group since June 2020 (8) . For the nearly 1 million AYA cancer survivors in the United States (9), identification of factors associated with vaccine hesitancy is an urgent priority for accelerating vaccination of this vulnerable population. We conducted a survey of AYA cancer survivors to identify whether COVID-19 vaccine hesitancy was common. Eligible participants were aged 18 years or older and diagnosed with cancer between ages 15 and 39 years and received services through the Huntsman Intermountain Adolescent and Young Adult Cancer Care Program, which provides patient navigation to AYA survivors from 2 large health-care systems in Utah and surrounding Mountain West states. Participants gave informed consent and took part in a cross-sectional survey. Data collection occurred between October 2020 and January 2021 via e-mail, mail, and text. All procedures were approved by the University of Utah institutional review board.",
+            "cite_spans": [
+                {
+                    "start": 138,
+                    "end": 141,
+                    "text": "(8)",
+                    "ref_id": "BIBREF7"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Survey domains included sociodemographics and COVID-19-related factors. Vaccine hesitancy was defined by participants' willingness to receive the COVID-19 vaccine when available and recommended. Data collection overlapped with the Pfizer COVID-19 vaccine press release on November 9, 2020 (10), thus we indicated the timing of survey completion in relation to the press release. Our primary outcome was a binary variable of vaccine hesitancy, defined as agree to vaccinate (agree or strongly agree) vs hesitant to vaccinate (neither agree nor disagree or disagree or strongly disagree) to indicate those who were undecided or unwilling to get the COVID-19 vaccine. We examined differences in vaccine hesitancy by sociodemographic (eg, age, treatment status, gender, education, race and ethnicity) and COVID-19 factors (eg, essential worker status, survey timing) using v 2 and Fisher exact tests or 2-sided t tests. Table 1) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 916,
+                    "end": 924,
+                    "text": "Table 1)",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "We conducted a multivariable logistic regression to identify factors associated with vaccine hesitancy. As a secondary analysis, we fit a multinomial regression to determine whether different factors were associated with more granular levels of vaccine hesitancy (agree vs neither agree nor disagree vs disagree) as seen in other studies (11) . Odds ratios (ORs) or relative risk ratios (RRRs) and 95% confidence intervals (CIs) are reported as relevant. Analyses were conducted in Stata 14.0, and statistical significance was set at a P value less than .05, and all tests were 2-sided.",
+            "cite_spans": [
+                {
+                    "start": 338,
+                    "end": 342,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "0%"
+        },
+        {
+            "text": "Of the 675 eligible survivors, 342 completed the survey (50.7% participation rate) and had a mean age of 29.5 (6.5) years. More than one-half of participants had received treatment since March 2020 (55.3%), were primarily female (61.1%) and non-Hispanic White (81.3%), and had at least some college education (55.4%; data not shown). Although 62.9% intended to get the vaccine, more than one-third (37.1%) expressed COVID-19 vaccine hesitancy (Figure 1 ). Respondents surveyed after the Pfizer press release had statistically nonsignificant lower proportions of hesitancy than those surveyed earlier (30.0% vs 39.7%; P \u00bc .10), demonstrating a higher rate of COVID-19 vaccine hesitancy among AYA survivors compared with other studies of high-risk individuals (22% hesitant) (4). There were statistically significantly more female (41.6% vs 30.1% of male survivors; P \u00bc .03) and Hispanic (52.9% vs 31.6% of White and 20.0% of non-Hispanic other; P \u00bc .03) survivors who exhibited vaccine hesitancy (Supplementary Table 1 , available online). Table 1 shows female survivors had nearly 2 times higher odds of COVID-19 vaccine hesitancy (OR \u00bc 1.81, 95% CI \u00bc 1.10 to 2.98) than male survivors. In the existing literature, female gender is not associated with COVID-19 vaccine hesitancy (11); some reports indicate that women are more accepting of the vaccine than men (4). Hesitancy among female AYA survivors may be driven by COVID-19 vaccine misinformation asserting that the vaccine causes infertility (12, 13) . This finding demonstrates a need for sensitive communication on vaccination for female survivors and further inquiry into COVID-19 vaccine misinformation.",
+            "cite_spans": [
+                {
+                    "start": 1498,
+                    "end": 1502,
+                    "text": "(12,",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1503,
+                    "end": 1506,
+                    "text": "13)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 443,
+                    "end": 452,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1010,
+                    "end": 1017,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 1039,
+                    "end": 1046,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "0%"
+        },
+        {
+            "text": "Survivors with a high school education or less had 3.15 times higher odds (OR \u00bc 3.15, 95% CI \u00bc 1.41 to 7.04) of reporting COVID-19 vaccine hesitancy than college graduates, consistent with earlier COVID-19 vaccine research (11) . Lower educational attainment is associated with lower health literacy (14) , which may leave certain survivors susceptible to misunderstanding COVID-19 vaccine messaging. Further, inconsistent and sometimes contradictory US public health messaging has resulted in substantial confusion about COVID-19 among the general population (15) . Targeted education from cancer centers and oncology care teams to encourage equitable COVID-19 vaccination is needed for cancer survivors of all ages. Additionally, oncology care providers should encourage COVID-19 vaccination as such recommendations are the primary facilitator in uptake of other vaccines among AYA survivors (16) .",
+            "cite_spans": [
+                {
+                    "start": 223,
+                    "end": 227,
+                    "text": "(11)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 300,
+                    "end": 304,
+                    "text": "(14)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 560,
+                    "end": 564,
+                    "text": "(15)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 894,
+                    "end": 898,
+                    "text": "(16)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "0%"
+        },
+        {
+            "text": "When we analyzed hesitancy as a 3-level outcome (agree vs neither agree nor disagree vs disagree), survivors surveyed after the Pfizer press release reported lower odds of hesitancy in the neither agree nor disagree group (RRR \u00bc 0.5, 95% CI \u00bc 0.24 to 0.99) compared with the agree group (data not shown). High school-educated survivors (agree vs neither agree nor disagree: RRR \u00bc 3.97, 95% CI \u00bc 1.54 to 10.22; agree vs refusal: RRR \u00bc 2.88, 95% CI \u00bc 1.03 to 8.06) and females (agree vs neither agree nor disagree: RRR \u00bc 1.46, 95% CI \u00bc 0.80 to 2.64; agree vs refusal: RRR \u00bc 2.23, 95% CI \u00bc 1.12 to 4.46) remained statistically significantly more hesitant to COVID-19 vaccination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "0%"
+        },
+        {
+            "text": "Our sample was collected across the Mountain West; therefore, our findings may not be generalizable to other regions. We did not collect political affiliation, which has been associated with vaccine hesitancy (4) . Although reflective of the demographics of the region, our sample was homogenous precluding our ability to evaluate associations by race (4,11). The COVID-19 vaccine provides a light at the end of the tunnel to protect cancer survivors-a population vulnerable to poor COVID-19 outcomes. Yet vaccine hesitancy persists among AYA cancer survivors. Female survivors and survivors with low educational attainment demonstrated higher odds of COVID-19 vaccine hesitancy, highlighting an opportunity for targeted educational campaigns. Furthermore, oncology provider recommendations may have a substantial impact on COVID-19 vaccine uptake as seen in AYA survivor uptake of other vaccines.",
+            "cite_spans": [
+                {
+                    "start": 209,
+                    "end": 212,
+                    "text": "(4)",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "0%"
+        },
+        {
+            "text": "The research reported in this publication was supported by Huntsman Cancer Foundation and the National Cancer Institute of the National Institutes of Health under Award Number P30CA042014 and T32CA078447.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "Role of the funder: The funder had no role in the design of the study; the collection, analysis, and interpretation of the data; the writing of the manuscript; and the decision to submit the manuscript for publication.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Notes"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Centers for Disease Control and Prevention. COVID data tracker. 2021",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "A race for a better understanding of COVID-19 vaccine non-adopters",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Abbas",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Brain Behav Immun Health",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Hesitancy towards a COVID-19 vaccine and prospects for herd immunity",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Thunstrom",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ashworth",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Finnoff",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Newbold",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Social Science Research Network",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "KFF COVID-19 Vaccine Monitor",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hamel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kirzinger",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mu\u00f1ana",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brodie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "for the AACR COVID-19 and Cancer Task Force. Priority COVID-19 vaccination for patients with cancer while vaccine supply is limited",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ribas",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sengupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Locke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Cancer Discov",
+            "volume": "11",
+            "issn": "2",
+            "pages": "233--236",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "COVID-19 vaccine & patients with cancer",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The advisory committee on immunization practices' updated interim recommendation for allocation of COVID-19 vaccine-United States",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Dooling",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wallace",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "5152",
+            "pages": "1657--1660",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "COVID-19 stats: COVID-19 incidence, by age group-United States",
+            "authors": [],
+            "year": 2020,
+            "venue": "Centers for Disease Control and Prevention",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Adolescent and young adult oncology-past, present, and future. CA A",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Close",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dreyzin",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "Bkn",
+                    "middle": [],
+                    "last": "Seynnaeve",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Rapkin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cancer J Clin",
+            "volume": "69",
+            "issn": "6",
+            "pages": "485--496",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Pfizer and BioNTech announce vaccine candidate against COVID-19 achieved success in first interim analysis from phase 3 study. Press release",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Attitudes toward a potential SARS-CoV-2 vaccine",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bloomstone",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Walder",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Crawford",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Fouayzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mazor",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Intern Med",
+            "volume": "173",
+            "issn": "12",
+            "pages": "964--973",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Measuring the impact of COVID-19 vaccine misinformation on vaccine intent in the UK and US",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Loomba",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "De Figueiredo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Piatek",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "De Graaf",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Larson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Nat Hum Behav",
+            "volume": "5",
+            "issn": "",
+            "pages": "337--348",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "High rates of COVID-19 vaccine hesitancy and its association with conspiracy beliefs: a study in Jordan and Kuwait among other Arab countries",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sallam",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Dababseh",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Eid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Vaccines",
+            "volume": "9",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "A life course approach to health literacy: the role of gender, educational attainment and lifetime cognitive capability",
+            "authors": [
+                {
+                    "first": "Sap",
+                    "middle": [],
+                    "last": "Clouston",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Manganello",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Richards",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Age Ageing",
+            "volume": "46",
+            "issn": "3",
+            "pages": "493--499",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Mis)communicating about COVID-19: insights from health and crisis communication",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Noar",
+                    "suffix": ""
+                },
+                {
+                    "first": "Austin",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Health Commun",
+            "volume": "35",
+            "issn": "14",
+            "pages": "1735--1739",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Suboptimal uptake of human papillomavirus (HPV) vaccine in survivors of childhood and adolescent and young adult (AYA) cancer",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Castellino",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pleasant",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Keyes",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Poehling",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tooze",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Cancer Surviv",
+            "volume": "13",
+            "issn": "5",
+            "pages": "730--738",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Coronavirus disease 2019 (COVID-19) vaccine hesitancy among adolescent and young adult (AYA) cancer survivors (n \u00bc 342). A) COVID-19 vaccine hesitancy by gender (n \u00bc 342) and (B) education (n \u00bc 341) are shown. Information on education missing for 1 participant. P values were calculated using a multivariable logistic regression (2-sided) (",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF1": {
+            "text": "Multivariable logistic regression of sociodemographic and COVID-19-related factors associated with COVID-19 vaccine hesitancy among AYA cancer survivors a Multivariable logistic regression (2-sided) was used to produce odds ratios, 95% confidence intervals (CIs), and P values. AYA \u00bc adolescent and young adult; COVID-19 \u00bc coronavirus disease 2019. Participants flagged as survey completed before and after the Pfizer COVID-19 vaccine press release on November 8, 2020. A. R. Waters et al. | 3 of 4",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Author contributions: All authors contributed to project conceptualization and methodology. ARW, KM, PLVL, and ACK were responsible for project administration. ARW, DK, JMR, ACK, and ELW were responsible for formal analysis and visualization. ELW, ACK, and DK provided supervision. ARW was responsible for writing-original draft. All authors were responsible for writing-review & editing.Disclaimers: The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "The data underlying this article cannot be shared publicly due to the privacy of individuals who participated in the study. The deidentified data will be shared on reasonable request to the corresponding author.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data Availability"
+        }
+    ]
+}

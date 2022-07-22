@@ -1,0 +1,2993 @@
+{
+    "paper_id": "278cf74cc56b69f863eadb760901ff3f64d81b54",
+    "metadata": {
+        "title": "Role of Phage Capsid in the Resistance to UV-C Radiations",
+        "authors": [
+            {
+                "first": "Laura",
+                "middle": [
+                    "Maria"
+                ],
+                "last": "De Plano",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Domenico",
+                "middle": [],
+                "last": "Franco",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Maria",
+                "middle": [
+                    "Giovanna"
+                ],
+                "last": "Rizzo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vincenzo",
+                "middle": [],
+                "last": "Zammuto",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Concetta",
+                "middle": [],
+                "last": "Gugliandolo",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Letteria",
+                "middle": [],
+                "last": "Silipigni",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Messina",
+                    "location": {
+                        "postCode": "98166",
+                        "settlement": "Messina",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Lorenzo",
+                "middle": [],
+                "last": "Torrisi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Messina",
+                    "location": {
+                        "postCode": "98166",
+                        "settlement": "Messina",
+                        "country": "Italy"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Salvatore",
+                "middle": [
+                    "P P"
+                ],
+                "last": "Guglielmino",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Citation: Plano, L.M.D.; Franco, D.; Rizzo, M.G.; Zammuto, V.; Gugliandolo, C.; Silipigni, L.; Torrisi, L.; Guglielmino, S.P.P. Role of Phage Capsid in the Resistance to UV-C Radiations. Int. J. Mol. Sci. 2021, 22, 3408. https://doi.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Viruses are biological entities, consisting of a single element of nucleic acid (RNA or DNA, in either single-or double-stranded forms) enclosed in a protective protein shell, or capsid, and are only able to replicate inside living cells. The virus's resistance to environmental stresses (temperature, pH, interaction with host cells, etc.) is closely related to the protein composition of the external structures of the virion. This is generally made up of repeated protein sub-structures, named capsomers, organized in polyhedral or helical symmetry [1] . These simple geometries can be formed with a limited number of capsid protein subunits, increasing their volume easily by repeatedly using the same proteins and consequently limiting the number of genes required for the synthesis of the capsid. The arrangement of capsid proteins in helical symmetry is a highly effective way to form tridimensional structures with repetitive subunits that, following the symmetry of the nucleic acid, have the same identical interactions that capsomeres have with each other. Therefore, modifications of capsid proteins, even of a single amino acid, may change the stability and/or metastability of the virion particles [2] . This eventuality is critical for the risk of viral infection, only reduced by several control techniques, such as heat sterilization, chemical disinfectants, air filtration, and ultraviolet (UV) irradiation. In particular, disinfection using UV radiation is a fast-growing because it is chemical-free technology and with low risk of damage to materials (especially heat-labile ones) [3] . For this reason, main parameters should be considered for the elaboration of protocols to 2 of 12 guarantee the efficacy of the UV sterilization process, mainly in the latest period strongly marked by COVID-19 pandemic, where UV disinfection of surfaces and air has attracted tremendous attention [4] .",
+            "cite_spans": [
+                {
+                    "start": 552,
+                    "end": 555,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1212,
+                    "end": 1215,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 1601,
+                    "end": 1604,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1697,
+                    "end": 1704,
+                    "text": "2 of 12",
+                    "ref_id": null
+                },
+                {
+                    "start": 1904,
+                    "end": 1907,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Bacteriophages (or simply phage) are viruses that infect bacteria and have several biotechnological applications, including their use as models for human viruses. Specifically, M13 phage is well known for the development of the phage display technique, which allows at foreign peptides to be exposed on the virion capsid [5] . The capsid of M13 phage is characterized by a helical symmetry structure, almost exclusively constituted by the major coat protein pVIII (responsible for phage integrity), and four other minor coat proteins, namely pIII, pV, pVII and pIX, which together enclose the circular single-stranded DNA molecule [6] . In the phage display application, the engineering with foreign peptides in the pVIII protein (representing about 98% of capsid proteins) permits the formation of landscape phage libraries of billions of clones, wherein each individual phage displays a random peptide on its surface. Phage libraries based on vector systems (88 or 8 + 8) result in a hybrid structure with mixture of recombinant and wild-type pVIII molecules on the phage capsid [7] . These random phage libraries are used in screening processes against desired targets to isolate specific ligands in the marker discovery, in vitro or in vivo [8] [9] [10] , or to functionalize surfaces for biosensors [11] [12] [13] [14] , as specific scaffolds for tissue-regenerating [15] , for immunization [16] , for drug-targeting [17] [18] [19] , for hybrid-materials [20] [21] [22] , for quantum dots, and for semi-conducting or magnetic nanowire devices [23, 24] . It is known that the capsid structure has been suggested to be responsible for the great resistance of M13 to various physical and chemical stresses (i.e., heat, both acidic or alkaline organic solvents, and variations in pH values) [25, 26] . About the susceptibility to the UV-C exposure, genome type and organization can play an important role against UV inactivation of phage. Phages with circular ssDNA, such as PhiX174, are most sensitive respect to that with linear ssRNA, such as MS2; while phage with linear dsDNA, such as PRD1, revealed the highest photoreactivation after UV exposure [27, 28] . In contrast to UV inactivation, MS2 showed a greater susceptibility to gamma or electron beam irradiation compared to PhiX174, whose inactivation revealed to have a clear dose rate effect [29] . Since phages have a limited ability to repair DNA, the shielding of their genomes by capsids may play a key role in their resistance to radiation. Studies on phage T7 would seem to highlight a greater sensitivity towards UV inactivation of intraphage DNA compared to the isolated one, indicating the role of phage proteins in the DNA damage [30] . Moreover, it has been seen that fd virus (with single-stranded nucleic acid) shows a UV sensibility midway between characteristic for the single-stranded and double-stranded nucleic acid viruses [31] . These findings had been attributed to the capsid structure, consisting in a helical structure, with a 60 A pitch and six repeating units per turn that protect the phage nucleic acid from tertiary structural changes induced by the UV-C irradiation [31, 32] . On the other hand, effects on biological components from UV-C exposure also involve protein, other than nucleic acids (RNA or DNA) [3] . Although many studies have been focused on the influence of nucleic acid on the UV-C radiation response, at our knowledge, no study has been reported on the role of physical shape and protein on the virus resistance to UV-C or other qualities and quantities of radiations.",
+            "cite_spans": [
+                {
+                    "start": 321,
+                    "end": 324,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 631,
+                    "end": 634,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1081,
+                    "end": 1084,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1245,
+                    "end": 1248,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 1249,
+                    "end": 1252,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1253,
+                    "end": 1257,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1304,
+                    "end": 1308,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1309,
+                    "end": 1313,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1314,
+                    "end": 1318,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1319,
+                    "end": 1323,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1372,
+                    "end": 1376,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1396,
+                    "end": 1400,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1422,
+                    "end": 1426,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1427,
+                    "end": 1431,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1432,
+                    "end": 1436,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1460,
+                    "end": 1464,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1465,
+                    "end": 1469,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1470,
+                    "end": 1474,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1548,
+                    "end": 1552,
+                    "text": "[23,",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1553,
+                    "end": 1556,
+                    "text": "24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1792,
+                    "end": 1796,
+                    "text": "[25,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1797,
+                    "end": 1800,
+                    "text": "26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2154,
+                    "end": 2158,
+                    "text": "[27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 2159,
+                    "end": 2162,
+                    "text": "28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2353,
+                    "end": 2357,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 2701,
+                    "end": 2705,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 2903,
+                    "end": 2907,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 3157,
+                    "end": 3161,
+                    "text": "[31,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 3162,
+                    "end": 3165,
+                    "text": "32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 3299,
+                    "end": 3302,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The structural model of the M13 capsid, analogue of pC89 wild-type vector, has been used to derive the newly rearrangement and electrostatic interactions due to the addition or modification of amino acids in the capsid structure [6] . In this way, Passaretti et al. investigated the surface charge and the surface area of M13 to predict the mechanisms behind of interactions in bio-nanocomponents, finding that the presence of ionizable groups in foreign peptides can drastically change the chemical characteristics of the engineered virus compared to wild-type, playing a role in the resistance to several stresses [33] .",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 232,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 616,
+                    "end": 620,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The aim of this study was to evaluate how the capsid rearrangement protects DNA and peptide bonds from damage after exposure to UV-C radiations. By speculative in silico 3D models, two engineered phages, previously selected against Pseudomonas aeruginosa (P9b) and antibodies binding \u03b2-amyloid structures (12III1), have been chosen for (i) chemical features of amino acids sequences, (ii) rearrangements in the secondary structure of their pVIII proteins and (iii) in turn the interactions involved in phage capsid. Then, their resistances to UV-C radiations were investigated and compared with M13 wild-type vector (pC89) without peptide insert. In addition, the resistance to hydrogen peroxide (H 2 O 2 ), one of the most common products generated by the radiolysis of water, has been also evaluated for indirect damage due to the radiation exposure.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Engineered phage shows a mosaic of wild-type and recombinant pVIIIs proteins on the capsid structure. The 3D in-silico models provided the constructions of recombinant pVIII proteins with in-frame the amino acids of foreign peptides by Modeller. From 3D models of pVIII proteins, we deduced that the presence of the foreign peptide induced a linear extension of the N-terminal end or a circular form in the same position. In Figure S1 is showed the rearrangement of the secondary structure of the recombinant PVIII of P9b (amino acid sequence of the foreign peptide QRKLAAKLT) and 12III1 (RWPPHFEWHFDD). The interactions between the PVIIIs of the hybrid phage structure, consisting in a mixture of recombinant and wild-type pVIII molecules, also resulted in a new supramolecular rearrangement with new H-bond and steric interactions ( Figure 1 ). ico 3D models, two engineered phages, previously selected against Pseudomonas aeruginosa (P9b) and antibodies binding \u03b2-amyloid structures (12III1), have been chosen for (i) chemical features of amino acids sequences, (ii) rearrangements in the secondary structure of their pVIII proteins and (iii) in turn the interactions involved in phage capsid. Then, their resistances to UV-C radiations were investigated and compared with M13 wild-type vector (pC89) without peptide insert. In addition, the resistance to hydrogen peroxide (H2O2), one of the most common products generated by the radiolysis of water, has been also evaluated for indirect damage due to the radiation exposure.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 425,
+                    "end": 434,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 835,
+                    "end": 843,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "In Silico 3D Models"
+        },
+        {
+            "text": "Engineered phage shows a mosaic of wild-type and recombinant pVIIIs proteins on the capsid structure. The 3D in-silico models provided the constructions of recombinant pVIII proteins with in-frame the amino acids of foreign peptides by Modeller. From 3D models of pVIII proteins, we deduced that the presence of the foreign peptide induced a linear extension of the N-terminal end or a circular form in the same position. In Figure S1 is showed the rearrangement of the secondary structure of the recombinant PVIII of P9b (amino acid sequence of the foreign peptide QRKLAAKLT) and 12III1 (RWP-PHFEWHFDD). The interactions between the PVIIIs of the hybrid phage structure, consisting in a mixture of recombinant and wild-type pVIII molecules, also resulted in a new supramolecular rearrangement with new H-bond and steric interactions ( Figure 1 ). The electrostatic charges highlighted by the colored clouds around the models indicate that the aggregation levels of the chains were modified in all the sequence in P9b and 12III1 phages respect to pC89. 3D in-silico models also allow to derive the amino-acids, including their position number in the primary sequence, which participate in H-bond and steric interactions between the PVIII proteins (in Table 1 and Figure S2 ). Table 1 . Position number in the primary sequence of amino acids involved in the interactions between PVIII proteins in pC89, P9b and 12III1 phages, deduced by in silico 3D modeling analysis ( Figure S2 ). pC89 showed the lowest number of amino acids involved in the interaction between wild-type pVIIIs (1 and 6 for H-bond and steric interaction, respectively). Otherwise, in P9b phage, amino acids involved in recombinant/wild-type pVIIIs interaction are 5 (H-bond) and 25 (steric interaction), while recombinant/recombinant pVIIIs interaction are 15 (H-bond) and 39 (steric interaction). Finally, in 12III1 phage, amino acids involved in recombinant/wild-type pVIIIs interaction are 1 (H-bond) and 7 (steric interaction), while recombinant/recombinant pVIIIs interaction are 14 (h-bond) and 23 (steric interaction).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 425,
+                    "end": 434,
+                    "text": "Figure S1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 836,
+                    "end": 844,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1251,
+                    "end": 1258,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1263,
+                    "end": 1272,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 1276,
+                    "end": 1283,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1469,
+                    "end": 1478,
+                    "text": "Figure S2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "In Silico 3D Models"
+        },
+        {
+            "text": "To assess whether the capsid rearrangement, due to the foreign peptide in PVIII protein, could preserve the infectivity of engineered phages (P9b and 12III1) from effects of radiations, phages were subjected to different UV-C radiations. Before comparative tests between phages, the radio-resistance of pC89 alone was tested up to the lethal dose able to completely reduce the infecting phage load. The last was quantified as Transducing Unit per milliliter (TU/mL), that means number of active virus particles able to infect the bacterial host.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "UV-C Resistance Test"
+        },
+        {
+            "text": "A reduction of about eight orders of magnitude was already found after 1540 J/m 2 , corresponding to 70 s of radiation exposure, while no TU were observed after 3080 J/m 2 (that means 140 s of radiation exposure).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "UV-C Resistance Test"
+        },
+        {
+            "text": "Based on these findings, the radio-resistances of the engineered phage, P9b (amino acid sequence QRKLAAKLT) and 12III1 (RWPPHFEWHFDD) were compared to that of pC89 up to 3080 J/m 2 ( Table 2) . Table 2 . Active virus particles of pC89, P9b and 12III1, expressed as Transducing Unit per milliliter of infected E. coli (TU/mL), after exposure to UV-C.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 191,
+                    "text": "Table 2)",
+                    "ref_id": null
+                },
+                {
+                    "start": 194,
+                    "end": 201,
+                    "text": "Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "UV-C Resistance Test"
+        },
+        {
+            "text": "Exposed 385 J/m 2 770 J/m 2 1540 J/m 2 3080 J/m 2 pC89 (4 \u00b1 0.9) \u00d7 10 9",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phage"
+        },
+        {
+            "text": "(3.9 \u00b1 0.9) \u00d7 10 9 (1.8 \u00b1 0.9) \u00d7 10 8 (5.7 \u00b1 1.4) \u00d7 10 6 (1.2 \u00b1 1) \u00d7 10 4 (1.7 \u00b1 0.9) \u00d7 10 2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phage"
+        },
+        {
+            "text": "After UV-C exposure to a 1540 J/m 2 of fluence the 12III1 and P9b infectivity decreased by about six and four orders of magnitude, respectively. Both engineered phages' resistance further decreased by about one order of magnitude after the exposure to a 3080 J/m 2 fluence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phage"
+        },
+        {
+            "text": "UV-C inactivation rates and related UV-C damage in pC89 wild-type, P9b and 12III1 phages are reported in Figure 2 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 105,
+                    "end": 113,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Phage"
+        },
+        {
+            "text": "Exposed 385 J/m 2 770 J/m 2 1540 J/m 2 3080 J/m 2 pC89 (4 \u00b1 0.9) \u00d7 10 9 (3 \u00b1 1.7) \u00d7 10 7 (2.2 \u00b1 1.2) \u00d7 10 5 (3.1 \u00b1 1.3) \u00d7 10 No TU P9b QRKLAAKLT) (3.9 \u00b1 0.2) \u00d7 10 9 (1.1 \u00b1 0.6) \u00d7 10 9 (2.6 \u00b1 0.7) \u00d7 10 7 (3.2 \u00b1 1.3) \u00d7 10 5 (1.4 \u00b1 0.7) \u00d7 10 4 12III1 PPHFEWHFDD) (3.9 \u00b1 0.9) \u00d7 10 9 (1.8 \u00b1 0.9) \u00d7 10 8 (5.7 \u00b1 1.4) \u00d7 10 6 (1.2 \u00b1 1) \u00d7 10 4 (1.7 \u00b1 0.9) \u00d7 10 2",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phage"
+        },
+        {
+            "text": "After UV-C exposure to a 1540 J/m 2 of fluence the 12III1 and P9b infectivity decreased by about six and four orders of magnitude, respectively. Both engineered phages' resistance further decreased by about one order of magnitude after the exposure to a 3080 J/m 2 fluence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phage"
+        },
+        {
+            "text": "UV-C inactivation rates and related UV-C damage in pC89 wild-type, P9b and 12III1 phages are reported in Figure 2 . For all phages, UV-C inactivation rate showed a logarithmic trend, consisting in a first dose-dependent exponential phase (up to 1540 J/m 2 ). Specifically, the UV-C damage for each phage was determined at the threshold value of four-log reduction. pC89 showed a significantly higher value than the two engineered phages (54.5 \u00b1 2.3 J/cm 2 ) than the two engineered phages (38 \u00b1 2 and 29 \u00b1 2.5 J/cm 2 for 12III1 and P9b, respectively). The difference in resistance to UV-C exposure of the phages was also maintained at 3080 J/m 2 (maximum dose tested in our experiments). In addition, a significant difference in susceptibility to UV-C exposure was also observed between the two engineered phages (Figure 2 , left panel). In fact, P9b showed the lowest UV-C damage value, that was 24% lower than 12III1 (Figure 2 , right panel).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 105,
+                    "end": 113,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 813,
+                    "end": 822,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 919,
+                    "end": 928,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Phage"
+        },
+        {
+            "text": "The infectivity of pC89, P9b and 12III1 phages (TU/mL) after treatment with 1.5 M H2O2 for several incubation times is reported in Table 3 . For all phages, UV-C inactivation rate showed a logarithmic trend, consisting in a first dose-dependent exponential phase (up to 1540 J/m 2 ). Specifically, the UV-C damage for each phage was determined at the threshold value of four-log reduction. pC89 showed a significantly higher value than the two engineered phages (54.5 \u00b1 2.3 J/cm 2 ) than the two engineered phages (38 \u00b1 2 and 29 \u00b1 2.5 J/cm 2 for 12III1 and P9b, respectively). The difference in resistance to UV-C exposure of the phages was also maintained at 3080 J/m 2 (maximum dose tested in our experiments). In addition, a significant difference in susceptibility to UV-C exposure was also observed between the two engineered phages (Figure 2, left panel) . In fact, P9b showed the lowest UV-C damage value, that was 24% lower than 12III1 (Figure 2 , right panel).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 131,
+                    "end": 138,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 838,
+                    "end": 860,
+                    "text": "(Figure 2, left panel)",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 944,
+                    "end": 953,
+                    "text": "(Figure 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Hydrogen Peroxide Resistance Test"
+        },
+        {
+            "text": "The infectivity of pC89, P9b and 12III1 phages (TU/mL) after treatment with 1.5 M H 2 O 2 for several incubation times is reported in Table 3 . The pC89 and 12III1 infectivity decreased by about 0.5 orders of magnitude after 30 and 60 min, and one order of magnitude after 90 min, whereas P9b was the most resistant by a significant margin, since TU maintained viability throughout all treatment durations (Figure 3 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 134,
+                    "end": 141,
+                    "text": "Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 406,
+                    "end": 415,
+                    "text": "(Figure 3",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Hydrogen Peroxide Resistance Test"
+        },
+        {
+            "text": "(RWPPHFEWHFDD) (3.4 \u00b1 0.2) \u00d7 10 10 (1.7 \u00b1 0.2) \u00d7 10 9 (1.1 \u00b1 0.2) \u00d7 10 9 (5.7 \u00b1 0.6) \u00d7 10 9",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "12III1"
+        },
+        {
+            "text": "The pC89 and 12III1 infectivity decreased by about 0.5 orders of magnitude after 30 and 60 min, and one order of magnitude after 90 min, whereas P9b was the most resistant by a significant margin, since TU maintained viability throughout all treatment durations ( Figure 3) . Additionally in this case, inactivation of phages has a logarithmic trend, consisting in a first dose-dependent exponential phase in the first 30 min. In addition, P9b maintained the highest resistance to treatment, as confirmed by the lowest H2O2 damage value, that was 82% and 75% lower than pC89 and 12III1, respectively. However, respect to UVinactivation, no significant difference between pC89 and 12III was observed, while as also confirmed by H2O2 damage (Figure 3 , right panel).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 264,
+                    "end": 273,
+                    "text": "Figure 3)",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 739,
+                    "end": 748,
+                    "text": "(Figure 3",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "12III1"
+        },
+        {
+            "text": "Some studies have reported virus inactivation after exposure to different types of radiation (i.e., electron beam, gamma irradiation, lethal ultraviolet), particularly applied to water and food safety [34] or to phage therapy to plants [35] . However, the extraordinary diversity of viruses does not allow defining universal parameters about their susceptibility to the radiation exposure. Indeed, opposing conclusions have been reported about the inactivation of bacteriophages by electron beam and gamma irradiation [29] .",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 205,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 236,
+                    "end": 240,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 518,
+                    "end": 522,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Since phages have limited ability to repair DNA, viruses' resistance is closely related to the protein composition of the external structures of the virion. Although structural studies have been carried out by mutational inductions abrogating/increasing interactions within viral structures, they generally do not consider the effects of radiations on viral structures, as well as the molecular mechanisms responsible for more or less resistance to infectivity inactivation. Moreover, these studies cannot apply to engineered phages, for which the addition of amino acid sequences in viral capsid structure derive from screening/selection of engineered phages able to detect specific target, key step of research projects for the development of new diagnostic/therapeutic systems. Additionally in this case, inactivation of phages has a logarithmic trend, consisting in a first dose-dependent exponential phase in the first 30 min. In addition, P9b maintained the highest resistance to treatment, as confirmed by the lowest H 2 O 2 damage value, that was 82% and 75% lower than pC89 and 12III1, respectively. However, respect to UV-inactivation, no significant difference between pC89 and 12III was observed, while as also confirmed by H 2 O 2 damage (Figure 3 , right panel).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1251,
+                    "end": 1260,
+                    "text": "(Figure 3",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Some studies have reported virus inactivation after exposure to different types of radiation (i.e., electron beam, gamma irradiation, lethal ultraviolet), particularly applied to water and food safety [34] or to phage therapy to plants [35] . However, the extraordinary diversity of viruses does not allow defining universal parameters about their susceptibility to the radiation exposure. Indeed, opposing conclusions have been reported about the inactivation of bacteriophages by electron beam and gamma irradiation [29] .",
+            "cite_spans": [
+                {
+                    "start": 201,
+                    "end": 205,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 236,
+                    "end": 240,
+                    "text": "[35]",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 518,
+                    "end": 522,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Since phages have limited ability to repair DNA, viruses' resistance is closely related to the protein composition of the external structures of the virion. Although structural studies have been carried out by mutational inductions abrogating/increasing interactions within viral structures, they generally do not consider the effects of radiations on viral structures, as well as the molecular mechanisms responsible for more or less resistance to infectivity inactivation. Moreover, these studies cannot apply to engineered phages, for which the addition of amino acid sequences in viral capsid structure derive from screening/selection of engineered phages able to detect specific target, key step of research projects for the development of new diagnostic/therapeutic systems.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "In this work, we investigated whether the foreign peptides in the N-terminal pVIII of the P9b and 12III1 phages, could influence the resistance to UV-C.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "First of all, speculative 3D models have been used to screen the engineered phages (available in our laboratories) to employ in the biological tests. Based on the hydrogen (H) and steric bonds that could occur on the hybrid capsid structure, two engineered phage clones were chosen, because of more (P9b) and less (12III1) interactions due to their foreign amino acids. Specifically, in P9b the foreign peptide (amino acid sequence QRKLAAKLT) led to linear extension of engineered pVIIIs, respect to the pVIII wild type counterpart, with a significant increase of interactions in the hybrid capsid structure, both recombinant/wildtype and recombinant/recombinant pVIIIs (Figure 1 ; Table 1 ). Otherwise, in 12III1 the foreign peptide (amino acid sequence RWPPHFEWHFDD) induced a curvature of the engineered pVIIIs, with an increase of interaction numbers only between the recombinant pVIIIs ( Figure 1 ; Table 1 ). Because of the strong interaction between capsomers and nucleic acids, the capsid rearrangement of engineered phages could protect the viral DNA from tertiary structural changes induced by the surrounding environmental stresses, such as UV-C radiation.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 670,
+                    "end": 679,
+                    "text": "(Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 682,
+                    "end": 689,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 893,
+                    "end": 901,
+                    "text": "Figure 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 904,
+                    "end": 911,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Results from the experimental design of radiation exposure revealed that the presence of the foreign peptide had a greater effect on phage infectivity. In fact, pC89 was almost totally inhibited after the exposure to UV-C for 1540 J/m 2 fluence, according to the data reported previously [32] . In contrast, P9b and 12III1 phages maintained their viability under the UV-C exposure until 3080 J/m 2 (1.4 \u00b1 0.7 \u00d7 10 4 and 1.7 \u00b1 0.9 \u00d7 10 2 TU/mL for P9b and 12III, respectively). These results suggest that both the phage clones had acquired an advantage against direct radiation damage from UV-C exposure, respect to pC89. Moreover, the increase in UV-C resistance was in agreement with the increase of the interactions (predicted by the model) in the capsids of the engineered phages, as evidenced by the higher resistance of P9B compared to 12III1. H-bond and steric interactions favorably contribute to protein stability and could reduce the susceptibility of the hybrid phage structure to the modifications induced by UV-C, as also suggested by the experimental results. In fact, the number increasing of H-bond and steric interactions (pC89 < 12III1 < P9b) was positively correlated with the phage resistance to UV-C.",
+            "cite_spans": [
+                {
+                    "start": 288,
+                    "end": 292,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "UV-C radiation, usually used in the disinfection of wastewater, is predominantly absorbed by nucleic acids, causing damage by the formation of photoproducts [36] . Formation of dimers (cyclobutane pyrimidine and pyrimidine) and photoproducts (pyrimidine) has been reported to increase in proportion to the UV-C dose, modifying the DNA structure. On the other hand, radiations can induce an indirect damage, due to OH \u2212 and H + products resulting from the water radiolysis [37] . Since the latter mainly involves protein structures, including individual amino acids, the radiolysis of water could play a role in the different behavior of the two engineered phage clones to ionizing radiation. At this purpose, the infectivity of the tested phage has also been evaluated after treatment with 1.5 M H 2 O 2 . Surprisingly, only P9b did not lose its viability, while infectivity of pC89 and 12III1 were decreased of 1 and 0.5 orders of magnitude, respectively, after 90 min of treatment (Table 3 and Figure 3 ). In this prospective, the amino acid composition of the foreign peptide could alter the degree of oxidative modifications in the capsid proteins, due to H 2 O 2 , which can be considered the most common indirect damage from radiation exposure. Specifically, peroxyl radicals can induce the formation of oxidation products by radical mechanisms, leading to fragmentation of the protein backbone. It is known that aromatic amino acids are significantly more reactive with the dominant reaction pathway being OH \u2212 addition to the aromatic ring [38] . In this work, 12III1 phage has four aromatic amino acids in its foreign peptide, while P9b none. Consequently, hybrid phage structure of 12III1 would not have an advantage in H 2 O 2 resistance, when compared to pC89. The remaining amino acids of the foreign peptide of 12III1 (namely arginine, proline, histidine, glutamic acid and aspartic acid) could also negatively affect the oxidation resistance of the phage clone. In fact, the radiation-generated ROS modifies protein by carbonylation to the amino-acid side chains, particularly occurring on Lys, His, Thr, Pro, Glu, Asp, and Arg residues [38] . On the other hand, amino acids sequence of the P9b foreign peptide, with only one amino acid favorable to carbonylation (namely arginine) makes the phage clone more resistant to H 2 O 2 respect to other phage, subject of this study.",
+            "cite_spans": [
+                {
+                    "start": 157,
+                    "end": 161,
+                    "text": "[36]",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 472,
+                    "end": 476,
+                    "text": "[37]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1548,
+                    "end": 1552,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 2152,
+                    "end": 2156,
+                    "text": "[38]",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 983,
+                    "end": 991,
+                    "text": "(Table 3",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 996,
+                    "end": 1004,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Phage display technique allows to screen and select peptides with several biotechnological functions. These foreign peptides are exposed in-frame inside the capsid protein pIII or pVIII. Consequently, the entire capsid structure may be affected by the onset of new interactions. In order to understand the incidence of capsid organization on resistance to environmental stresses, in this work the resistance to UV-C radiation of M13 wild-type vector (pC89) and two engineered phage clones in pVIII, expressing 9 or 12 additional amino acids in N-terminal end of pVIII capsid protein, was evaluated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Our data indicate that the presence of the foreign peptide increase the number of interactions between the pVIII in engineered phages, bringing advantages in resistance to UV-C radiation. Moreover, among the engineered phages under study, the increase in UV-C resistance was directly linked to the increase in the number of interactions, which in turn depended on the peptide sequence of the exogenous peptide. Phages engineered to express known peptides on their capsid could represent models extremely useful to understand the molecular mechanisms involved in the stability of new virus variants, also providing quick and necessary information to develop effective protocols in the virus inactivation for human activities, such as safety foods and animal-derived materials.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusions"
+        },
+        {
+            "text": "Phages used in this work were obtained from two M13 phage display libraries (kind gift of Prof. F. Felici). These libraries consist of filamentous phage particles displaying random 9-or 12-mer peptides fused to the major coat protein (pVIII). The libraries were constructed in the vector pC89 [39] , by cloning a random DNA insert between the third and fifth codon of the mature pVIII-encoding segments of gene VIII [40] . pC89 (M13 wild-type vector without peptide insert) and two engineered phage clones with different amino acid sequences of the foreign peptide were used. Specifically, the P9b phage clone displayed the sequence QRKLAAKLT [41] , while the 12III1 the sequence RWPPHFEWHFDD [42] . Propagation of pC89 and engineered phage clones was carried out in Escherichia coli TG1 bacterial host (Lac-Z deleted).",
+            "cite_spans": [
+                {
+                    "start": 293,
+                    "end": 297,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 416,
+                    "end": 420,
+                    "text": "[40]",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 643,
+                    "end": 647,
+                    "text": "[41]",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 693,
+                    "end": 697,
+                    "text": "[42]",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Bacteriophages"
+        },
+        {
+            "text": "E. coli strain TG1 (Kan-, Amp-, lacZ-) broth culture (OD 600 = 0.7) was infected with pC89 or engineered phage clone (Amp+), then incubated at 37 \u2022 C in static condition for 15 min, followed by shaking (250 rpm) for 20 min. After incubation, suitable aliquots of culture were plated onto Luria-Bertani agar (agar 20 g/L) plates containing ampicillin (50 \u00b5g/mL) and incubated at 37 \u2022 C in static condition. One colony of E. coli strain TG1, containing phage, was inoculated into 10 mL of LB medium containing ampicillin (50 \u00b5g/mL) and incubated at 37 \u2022 C with shaking (250 rpm) until reaching OD 600 = 0.2. Then, the culture was added with isopropylthio-\u03b2-galactoside (IPTG, 40 \u00b5g/mL) and helper phage M13K07 (Kan+) (10 9 TU/mL), incubated at 37 \u2022 C in static condition for 30 min, and gently shaken for 30 min. The cells were harvested by centrifugation at 8000\u00d7 g, transferred to 500 mL of LB medium containing ampicillin (50 \u00b5g/mL) and kanamycin (10 \u00b5g/mL), and incubated overnight with shaking at 37 \u2022 C. The infected culture was centrifuged 8000\u00d7 g for 20 min at 25 \u2022 C, the supernatant was then mixed with 25% (v/v) of PEG/NaCl solution, cooled in ice for 4 h, and precipitated by centrifugation at 15,000\u00d7 g for 45 min at 4 \u2022 C. The pellet was resuspended in 10% (v/v) of TBS, mixed again with 25% (v/v) of PEG/NaCl, cooled in ice for 4 h, and the solution was centrifuged as above. The pellet, containing phage particles, was suspended in 10% (v/v) of TBS, filtered through 0.22 \u00b5m-pore size membrane, and stored at 4 \u2022 C.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phages Production"
+        },
+        {
+            "text": "Engineered pVIII Protein Structure Modeling was performed using the MODELLER9.20 (https://salilab.org/modeller, (accessed on 15 March 2021).) software for the comparative protein structure modeling. The models were built as reported previously [43] . Briefly, the structure of pVIII protein (PDB ID: 2mjz) was obtained. In the context of the whole virus particle of 2mjz, two pVIII proteins, Chain [1a] and Chain [1e], have been chosen for modeling the pVIII engineered proteins. Since these proteins are located at the same position between pentamer rings 1 \u2022 and 3 \u2022 , they allow identification of the contributing protein-protein interactions in the capsid structure [6] . The two pVIII proteins were kept like the single pVIII protein, in a PDB-format, namely chain A and chain E, and used as templates. Amino acid sequences of engineered pVIII proteins of P9b and 12III1 clones, with a foreign peptide inside of fourth/fifth amino acids of the M13 wild-type pVIII (plus two extra residues of Phenylalanine and Glutamine, encoded by the EcoRI site as reported in Felici et al. [39] were written on the following FASTA format to derive pVIII-engineered models (in bold the foreign amino acid sequence):",
+            "cite_spans": [
+                {
+                    "start": 244,
+                    "end": 248,
+                    "text": "[43]",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 670,
+                    "end": 673,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1081,
+                    "end": 1085,
+                    "text": "[39]",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "In Silico 3D Modelling Analysis"
+        },
+        {
+            "text": "1-AEGDDPAKAAFNSLQASATEYIGYAWAMVVVIVGATIGIKLFKKFTSKAS-50 (pC89); 1-AEGEFQRKLAAKLTDPAKAAFNSLQASATEYIGYAWAMVVVIVGATIGIKLFKKFTSKA S-60 (P9b); 1-AEGEFRWPPHFEWHFDDGDPAKAAFNSLQASATEYIGYAWAMVVVIVGATIGIKLFKK FTSKAS-64 (12III1).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In Silico 3D Modelling Analysis"
+        },
+        {
+            "text": "Several models were calculated for the same target. The best 3D model was selected, according the lowest value of DOPE, which indicates the construction energy. For each engineered pVIII protein, two models were obtained, one from the chain A and one from the chain E of the capsid complex.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "In Silico 3D Modelling Analysis"
+        },
+        {
+            "text": "The models performed in PDB format were opened and processed using Molegro Molecular Viewer v1.2.0 (http://www.molegro.com (accessed on 20 February 2020)). The models were processed as ligand-protein in \"Energy Map\" and \"Ligand Map\" to identify the amino acids involved in the interactions. ProtParam (https://web.expasy.org/protparam (accessed on 20 February 2020)) bioinformatics tool was used to predict the following characteristics: molecular weight, theoretical pI, amino acid composition, atomic composition, extinction coefficient, estimated half-life, instability index, aliphatic index, and grand average of hydropathicity (GRAVY) of the amino-acid sequence of the peptide [44] .",
+            "cite_spans": [
+                {
+                    "start": 683,
+                    "end": 687,
+                    "text": "[44]",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Analysis of Amino Acids Involved in the Structure Capsid Interactions"
+        },
+        {
+            "text": "Due to the extremely low penetrative ability of the UV-C radiation, were separately placed in uncovered petri dishes (sample exposure surface and thickness approximately 0.8 cm 2 and 0.15 cm, respectively) and exposed to UV-C radiation (G15T8/OF, OSRAM germicidal, puritec HNS 15WG13, operating with the emission line at the 253.7 nm wavelength) for different time exposure at a distance of 150 mm. Specifically, the germicidal lamp has a UV output power of 4.9 W and an intensity of 50 \u00b5W/cm 2 at a 1-m distance. Since the intensity decreases with the square of the distance between the lamp and the target, at a 15 cm distance from our operation, the lamp intensity is 2.2 mW/cm 2 . All irradiations were carried out in the biological hood at 25 \u2022 C. After the treatment, the infective ability of recovered phages was evaluated by titration. All tests were performed in quintuplicate.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Virus Irradiation"
+        },
+        {
+            "text": "Hydrogen peroxide (H 2 O 2 ) was evaluated at a sub-lethal dose, according to Eisenstark et al. [45] . In detail, 30% stock solution of H 2 O 2 was diluted with sterile double distilled water immediately prior to each experiment. Each phage stock (1 \u00d7 10 11 phage/mL) in TBS (100 \u00b5L) was treated with 1.5 M H 2 O 2 (final concentration) for 30, 60, and 90 min. At each time, 10 \u00b5L catalase (2 mg/mL) were added to stop the reaction. All tests were carried out in the biological hood at room temperature. After the treatments, the infective ability of the recovered bacteriophages was evaluated by titration, as described below. All tests were performed in quintuplicate.",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 100,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Hydrogen Peroxide Resistance Assay"
+        },
+        {
+            "text": "Tenfold serial dilutions of pC89 or engineered phage clones were prepared, and 10 \u00b5L of each phage sample were dispensed into sterile micro-centrifuge tubes containing 90 \u00b5L of E. coli TG1 culture (OD 600 = 0.7). Tubes were first incubated at 37 \u2022 C for 15 min in static conditions and then for 20 min in shaking (250 rpm) conditions. 100 \u00b5L of pC89/E. coli TG1 or engineered phage/E. coli TG1 suspension was spotted onto LB agar plates containing ampicillin (50 \u00b5g/mL). All plates were incubated at 37 \u2022 C overnight. Colonies from plates (between 30-300) were counted and the number of active virus particles was determined as Transducing Unit per milliliter (TU/mL) according to the following Equation (1) TU = number of colonies volume (0.1 mL) \u00d7 diluition factor (1) All assays were performed in quintuplicate.",
+            "cite_spans": [
+                {
+                    "start": 767,
+                    "end": 770,
+                    "text": "(1)",
+                    "ref_id": "BIBREF0"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Phage Titration (TU/mL)"
+        },
+        {
+            "text": "Using the TU/mL value, the damage from UV-C or H 2 O 2 per fluence (J/m 2 ) or time (h) was derived from the following Equation (2) UVC or H 2 O 2 damage = log 10 Ns(r) \u2212 log 10 Ns(s) fluence J cm 2 or time (h) (2) where Ns(r) and Ns(s) represent the number of active virus particles (TU/mL) not irradiated and irradiated, respectively. The significant differences in the UVC or H 2 O 2 damage values were determined by analysis of variance (ANOVA) using adjusted p-values at 0.01 and 99% for family-wise significance and confidence level, respectively. ",
+            "cite_spans": [
+                {
+                    "start": 211,
+                    "end": 214,
+                    "text": "(2)",
+                    "ref_id": "BIBREF1"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Phage Titration (TU/mL)"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Principles of virus structural organization",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Prasad",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Schmid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Adv. Exp. Med. Biol",
+            "volume": "726",
+            "issn": "",
+            "pages": "17--47",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-1-4614-0980-9_3"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Virus engineering: Functionalization and stabilization",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Mateu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Protein Eng. Des. Sel",
+            "volume": "24",
+            "issn": "",
+            "pages": "53--63",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/protein/gzq069"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "A Critical Review on Ultraviolet Disinfection Systems against COVID-19 Outbreak: Applicability, Validation, and Safety Considerations",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Raeiszadeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Adeli",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACS Photonics",
+            "volume": "7",
+            "issn": "",
+            "pages": "2941--2951",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acsphotonics.0c01245"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Shining a light on COVID-19",
+            "authors": [],
+            "year": 2020,
+            "venue": "Nat. Photonics",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41566-020-0650-9"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Phages from landscape libraries as substitute antibodies",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Petrenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Protein Eng",
+            "volume": "13",
+            "issn": "",
+            "pages": "589--592",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/protein/13.8.589"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The NMR-Rosetta capsid model of M13 bacteriophage reveals a quadrupled hydrophobic packing epitope",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Morag",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Sgourakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Goldbourt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "112",
+            "issn": "",
+            "pages": "971--976",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1415393112"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Phage display",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Petrenko",
+                    "suffix": ""
+                }
+            ],
+            "year": 1997,
+            "venue": "Chem. Rev",
+            "volume": "97",
+            "issn": "",
+            "pages": "391--410",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/cr960065d"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Advancement and applications of peptide phage display technology in biomedical science",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Biomed. Sci",
+            "volume": "23",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s12929-016-0223-x"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Filamentous bacteriophage: Biology, phage display and nanotechnology applications",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Rakonjac",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bennett",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Spagnuolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Gagic",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Russel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Curr. Issues Mol. Biol",
+            "volume": "13",
+            "issn": "",
+            "pages": "51--76",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Evolution of a landscape phage library in a mouse xenograft model of human breast cancer",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gillespie",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Plano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stackhouse",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Petrenko",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v11110988"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "A Label-Free Electrochemical Impedance Cytosensor Based on Specific Peptide-Fused Phage Selected from",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Petrenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Landscape Phage Library. Sci. Rep",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/srep22199"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Specific phages-based electrochemical impedimetric immunosensors for label-free and ultrasensitive detection of dual prostate-specific antigens",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Petrenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Sens. Actuators B Chem",
+            "volume": "297",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.snb.2019.126727"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Rapid detection of bacterial pathogens in blood through engineered phages-beads and integrated Real-Time PCR into MicroChip",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Carnazza",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Plano",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Franco",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Nicol\u00f2",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Zammuto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Petralia",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Calabrese",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Gugliandolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Conoci",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Sens. Actuators B Chem",
+            "volume": "329",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.snb.2020.129227"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Phage-based assay for rapid detection of bacterial pathogens in blood by Raman spectroscopy",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Plano",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fazio",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Franco",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Carnazza",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Trusso",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Neri",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Guglielmino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Immunol. Methods",
+            "volume": "465",
+            "issn": "",
+            "pages": "45--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jim.2018.12.004"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Synthetic phage for tissue regeneration",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yoo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Merzlyak",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Mediat. Inflamm",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1155/2014/192790"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Phage display-a powerful technique for immunotherapy: 1. Introduction and potential of therapeutic applications. Hum. Vaccines Immunother",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bazan",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Ca\u0142kosi\u0144ski",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gamian",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "1817--1828",
+            "other_ids": {
+                "DOI": [
+                    "10.4161/hv.21703"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Combinatorial avidity selection of mosaic landscape phages targeted at breast cancer cells-an alternative mechanism of directed molecular evolution",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Petrenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gillespie",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "O&apos;dell",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Plano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/v11090785"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Peptidic tumor targeting agents: The road from phage display peptide selections to clinical applications",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Curr. Pharm. Des",
+            "volume": "16",
+            "issn": "",
+            "pages": "1040--1054",
+            "other_ids": {
+                "DOI": [
+                    "10.2174/138161210790963788"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Quantitative characterization of all single amino acid variants of a viral capsid-based drug delivery vehicle",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hartman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Jakobson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Favor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lobba",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "\u00c1lvarez-Benedicto",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Francis",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Tullman-Ercek",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat. Commun",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41467-018-03783-y"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Novel biotemplated MnO2 1D nanozyme with controllable peroxidase-like activity and unique catalytic mechanism and its application for glucose sensing",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Sens. Actuators B Chem",
+            "volume": "252",
+            "issn": "",
+            "pages": "919--926",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.snb.2017.06.096"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Genetically engineered phage-templated MnO 2 nanowires: Synthesis and their application in electrochemical glucose biosensor operated at neutral pH condition",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "ACS Appl. Mater. Interfaces",
+            "volume": "8",
+            "issn": "",
+            "pages": "13768--13776",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acsami.6b03266"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Bio-hybrid gold nanoparticles as SERS probe for rapid bacteria cell identification",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Franco",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Plano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Scibilia",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lentini",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fazio",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Neri",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P P"
+                    ],
+                    "last": "Guglielmino",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mezzasalma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Spectrochim. Acta Part A Mol. Biomol. Spectrosc",
+            "volume": "224",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.saa.2019.117394"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "One-step production of phage-silicon nanoparticles by PLAL as fluorescent nanoprobes for cell identification",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Plano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Scibilia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Crea",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Franco",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mezzasalma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Guglielmino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Appl. Phys. A",
+            "volume": "124",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00339-018-1637-y"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Beyond phage display: Non-traditional applications of the filamentous bacteriophage as a vaccine carrier, therapeutic biologic, and bioconjugation scaffold",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Arbabi-Ghahroudi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Scott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Front. Microbiol",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fmicb.2015.00755"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Virus-based toolkit for the directed synthesis of magnetic and semiconducting nanowires",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Solis",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Reiss",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Kottmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Sweeney",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hayhurst",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Georgiou",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Iverson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Belcher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Science",
+            "volume": "303",
+            "issn": "",
+            "pages": "213--217",
+            "other_ids": {
+                "DOI": [
+                    "10.1126/science.1092740"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Characterization of silica-coated tobacco mosaic virus",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Royston",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Culver",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Harris",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J. Colloid Interface Sci",
+            "volume": "298",
+            "issn": "",
+            "pages": "706--712",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jcis.2005.12.068"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Photoreactivation of bacteriophages after UV disinfection: Role of genome structure and impacts of UV source",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rodriguez",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bounty",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Beck",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Mcguire",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Linden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Water Res",
+            "volume": "55",
+            "issn": "",
+            "pages": "143--149",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.watres.2014.01.065"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Inactivation of various bacteriophages by different ultraviolet technologies: Development of a reliable virus indicator system for water reuse",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bae",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Shin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Environ. Eng. Res",
+            "volume": "21",
+            "issn": "",
+            "pages": "350--354",
+            "other_ids": {
+                "DOI": [
+                    "10.4491/eer.2016.032"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Bacteriophages as viral indicators for radiation processing of water: A chemical approach",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gehringer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Eschweiler",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Leth",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Pribil",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pfleger",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cabaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Haider",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sommer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Appl. Radiat. Isot",
+            "volume": "58",
+            "issn": "",
+            "pages": "651--656",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0969-8043(03)00089-7"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Biological responses to the simulated Martian UV radiation of bacteriophages and isolated DNA",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Fekete",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Kov\u00e1cs",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Heged\u00fcs",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "M\u00f3dos",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lammer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Photochem. Photobiol. B",
+            "volume": "92",
+            "issn": "",
+            "pages": "110--116",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jphotobiol.2008.05.007"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "The physical state of viral nucleic acid and the sensitivity of viruses to ultraviolet light",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Rauth",
+                    "suffix": ""
+                }
+            ],
+            "year": 1965,
+            "venue": "Biophys. J",
+            "volume": "5",
+            "issn": "",
+            "pages": "257--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0006-3495(65)86715-7"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Pyrimidine dimer formation and oxidative damage in M13 bacteriophage inactivation by ultraviolet C irradiation",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Kurosaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Abe",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Morioka",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hirayama",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ikebuchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kamo",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Nikaido",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Azuma",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ikeda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Photochem. Photobiol",
+            "volume": "78",
+            "issn": "",
+            "pages": "349--354",
+            "other_ids": {
+                "DOI": [
+                    "10.1562/0031-8655(2003)078<0349:PDFAOD>2.0.CO;2"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Determination and characterisation of the surface charge properties of the bacteriophage M13 to assist bio-nanoengineering",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Passaretti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R M"
+                    ],
+                    "last": "Dafforn",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Oppenheimer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1039/D0RA04086J"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Efficacy of electron beam for viral inactivation",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Nims",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Plavsics",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Microb. Biochem. Technol",
+            "volume": "7",
+            "issn": "",
+            "pages": "173--176",
+            "other_ids": {
+                "DOI": [
+                    "10.4172/1948-5948.1000200"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Experimental evolution of UV resistance in a phage",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Tom",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Molineux",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Paff",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bull",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Peer J",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7717/peerj.5190"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Inactivation of bacteriophages in water by means of non-ionizing (UV-253.7 nm) and ionizing (gamma) radiation: A comparative approach",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sommer",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Pribil",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Appelt",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Gehringer",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Eschweiler",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Leth",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cabaj",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Haider",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Water Res",
+            "volume": "35",
+            "issn": "",
+            "pages": "3109--3116",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0043-1354(01)00030-6"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Effects of ionizing radiation on biological molecules-mechanisms of damage and emerging methods of detection",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Reisz",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bansal",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Furdui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Antioxid. Redox Signal",
+            "volume": "21",
+            "issn": "",
+            "pages": "260--292",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/ars.2013.5489"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Selection of antibody ligands from a large library of oligopeptides express on a multivalente exposition vector",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Felici",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Castagnoli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Musacchio",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Jappelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Cesareni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J. Mol. Biol",
+            "volume": "222",
+            "issn": "",
+            "pages": "301--310",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/0022-2836(91)90213-P"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Construction of disulfide-constrained random peptide libraries displayed on phage coat protein VIII",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Luzzago",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Felici",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Methods Mol. Biol",
+            "volume": "87",
+            "issn": "",
+            "pages": "155--164",
+            "other_ids": {
+                "DOI": [
+                    "10.1385/0-89603-392-9:155"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Specific and selective probes for Pseudomonas aeruginosa from phage-displayed random peptide libraries",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Carnazza",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Foti",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Gioffr\u00e8",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Felici",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Guglielmino",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Biosens. Bioelectron",
+            "volume": "23",
+            "issn": "",
+            "pages": "1137--1144",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.bios.2007.11.001"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Innovative IgG biomarkers based on phage display microbial amyloid mimotope for state and stage diagnosis in Alzheimer's disease",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "De Plano",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Carnazza",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Franco",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Rizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Conoci",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Petralia",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nicoletti",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zappia",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Campolo",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Esposito",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACS Chem. Neurosci",
+            "volume": "11",
+            "issn": "",
+            "pages": "1013--1026",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acschemneuro.9b00549"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Comparative protein structure modeling using MODELLER",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Webb",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Sali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Curr. Protoc. Bioinform",
+            "volume": "54",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/0471250953.bi0506s15"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Protein identification and analysis rools on the ExPASy server",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gasteiger",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Hoogland",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gattiker",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Duvaud",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wilkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Appel",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Bairoch",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "The Proteomics Protocols Handbook",
+            "volume": "",
+            "issn": "",
+            "pages": "571--607",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Inactivation of phage by near-ultraviolet radiation and hydrogen peroxide",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Eisenstark",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Buzard",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hartman",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "Photochem. Photobiol",
+            "volume": "44",
+            "issn": "",
+            "pages": "603--606",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1751-1097.1986.tb04715.x"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Speculative in silico 3D models of interactions between wild-type (chain blue) and recombinant (chain red) pVIIIs in pC89 (upper panel), P9b (central panel) and 12III1 (lower panel). For each phage, the two pVIII proteins are displayed in the same workspace in backbones style, with the amino-acids of the chains involved in the interaction in wireframe style and coupled to energy map-colored clouds. For energy map, legend colors: in green, the amino acids with stearic",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Speculative in silico 3D models of interactions between wild-type (chain blue) and recombinant (chain red) pVIIIs in pC89 (upper panel), P9b (central panel) and 12III1 (lower panel). For each phage, the two pVIII proteins are displayed in the same workspace in backbones style, with the amino-acids of the chains involved in the interaction in wireframe style and coupled to energy map-colored clouds. For energy map, legend colors: in green, the amino acids with stearic favorable bond; in red, a nearby negative electro-static charge of amino acids; in blue, a nearby positive charge of amino acids; in yellow, hydrogens donator favorable; in light blue, hydrogens acceptor favorable.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "UV inactivation rates (left panel) and related UV-C damage (right panel) of pC89, 12III1 and P9b phage. The black dotted line marks the 4-log inactivation level to deduce the UV-C damage by linear trendline to the exponential phase of log-inactivation for each phage. For ANOVA test from Tukey's multiple comparisons test, two (**) and three (***) asterisks identify p-value < 0.001 and 0.0001, respectively. For each point, the mean and standard deviation were derived from 5 experimental data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "UV inactivation rates (left panel) and related UV-C damage (right panel) of pC89, 12III1 and P9b phage. The black dotted line marks the 4-log inactivation level to deduce the UV-C damage by linear trendline to the exponential phase of log-inactivation for each phage. For ANOVA test from Tukey's multiple comparisons test, two (**) and three (***) asterisks identify p-value < 0.001 and 0.0001, respectively. For each point, the mean and standard deviation were derived from 5 experimental data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "H2O2 inactivation rates (left panel) and related H2O2 damage (right panel) of pC89, 12III1 and P9b phage. For ANOVA test from Tukey's multiple comparisons test, three (***) asterisks identify p-value < 0.0001. ns = not significant. For each point, the mean and standard deviation were derived from 5 experimental data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "H 2 O 2 inactivation rates (left panel) and related H 2 O 2 damage (right panel) of pC89, 12III1 and P9b phage. For ANOVA test from Tukey's multiple comparisons test, three (***) asterisks identify p-value < 0.0001. ns = not significant. For each point, the mean and standard deviation were derived from 5 experimental data.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Materials: The following are available online at https://www.mdpi.com/article/ 10.3390/ijms22073408/s1, Figure S1: 3D models of the pVIII protein chain A in pC89 (A), P9b (B) and 12III1 (C), with the amino-acids of the foreign peptide in wireframe style. (PDB ID: 2mjz, Morag et al., 2015). Figure S2: Ligand map from 3D models of the interactions in pC89, P9b and 12III1 phage, including abbreviation and position of the amino acids involved in H-bond and steric interactions. Author Contributions: L.M.D.P., D.F., C.G., L.T. and S.P.P.G. planned the experiments. L.M.D.P., D.F., M.G.R., V.Z., C.G. and S.P.P.G. performed, acquired and interpreted biological experiments. L.M.D.P. performed bioinformatics and statistical analyses. L.T. and L.S. performed, acquired and interpreted radiation experiments. L.M.D.P., D.F., C.G., L.T. and S.P.P.G. analyzed the results and prepared the manuscript. All authors have read and agreed to the published version of the manuscript.Funding: This research received no external funding. Institutional Review Board Statement: Not applicable. Informed Consent Statement: Not applicable.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF2": {
+            "text": "Active virus particles of pC89, P9b and 12III1, expressed as Transducing Unit per milliliter of infected E. coli (TU/mL), after exposure to H 2 O 2 (1.5 M).",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors wish to thank Franco Felici for the kind gift of phage display M13 libraries.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments:"
+        },
+        {
+            "text": "The authors declare no conflict of interest.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conflicts of Interest:"
+        }
+    ]
+}

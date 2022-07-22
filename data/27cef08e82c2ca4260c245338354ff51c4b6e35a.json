@@ -1,0 +1,2501 @@
+{
+    "paper_id": "27cef08e82c2ca4260c245338354ff51c4b6e35a",
+    "metadata": {
+        "title": "Home-based virtual reality for chronic pain: protocol for an NIH-supported randomised-controlled trial",
+        "authors": [
+            {
+                "first": "Brandon",
+                "middle": [],
+                "last": "Birckhead",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Sam",
+                "middle": [],
+                "last": "Eberlein",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Genie",
+                "middle": [],
+                "last": "Alvarez",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rebecca",
+                "middle": [],
+                "last": "Gale",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Taylor",
+                "middle": [],
+                "last": "Dupuy",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Katherine",
+                "middle": [],
+                "last": "Makaroff",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Garth",
+                "middle": [],
+                "last": "Fuller",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Xiaoyu",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Kyung-Sang",
+                "middle": [],
+                "last": "Yu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [
+                    "T"
+                ],
+                "last": "Black",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mariko",
+                "middle": [],
+                "last": "Ishimori",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Swamy",
+                "middle": [],
+                "last": "Venuturupalli",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Joseph",
+                "middle": [],
+                "last": "Tu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Tom",
+                "middle": [],
+                "last": "Norris",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mourad",
+                "middle": [],
+                "last": "Tighiouart",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Lindsey",
+                "middle": [],
+                "last": "Ross",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Karma",
+                "middle": [],
+                "last": "Mckelvey",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Mark",
+                "middle": [],
+                "last": "Vrahas",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Itai",
+                "middle": [],
+                "last": "Danovitch",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Brennan",
+                "middle": [],
+                "last": "Spiegel",
+                "suffix": "",
+                "affiliation": {},
+                "email": "brennan.spiegel@cshs.org"
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "More than 50 million Americans suffer from chronic pain, 1 defined as pain that persists for 6 months or longer. 2 Patients with chronic pain endure a multidimensional illness that in addition to physical symptoms of pain, affects biopsychosocial health, including low energy, impaired cognitive functioning, disrupted sleep, diminished physical and mental health and diminished social functioning. [3] [4] [5] [6] [7] [8] [9] As a result, patients with chronic pain interact with the healthcare system frequently; 20% of primary care visits are related to pain. 10 Evidence-based behavioural treatments for chronic pain are largely inaccessible to most Americans, particularly those in rural communities, due to limited availability of services coupled with recent COVID-19 restrictions on therapist-delivered treatments. 11 There is a need to remotely deploy self-administered, evidence-based treatments that leverage cognitive behavioural therapy (CBT), long",
+            "cite_spans": [
+                {
+                    "start": 57,
+                    "end": 58,
+                    "text": "1",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 113,
+                    "end": 114,
+                    "text": "2",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 399,
+                    "end": 402,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 403,
+                    "end": 406,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 407,
+                    "end": 410,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 411,
+                    "end": 414,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 415,
+                    "end": 418,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 419,
+                    "end": 422,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 423,
+                    "end": 426,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 563,
+                    "end": 565,
+                    "text": "10",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 823,
+                    "end": 825,
+                    "text": "11",
+                    "ref_id": "BIBREF10"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Strengths and limitations of this study \u25ba Whereas most virtual reality (VR) analgesia research is focused on acute pain with short time horizons, this study is focused on a prevalent form of chronic pain with a longer time horizon to test for evidence of durable benefits. \u25ba Study includes multiple outcomes based on a conceptual framework, including a range of relevant patient reported outcomes along with opioid dosing, thus providing a multidimensional assessment of the competing VR strategies. \u25ba Use of a sham VR offers a rigorous control against active VR interventions. \u25ba Although VR headsets are now widely available and will also be provided for participants in this study, there may not be systematic uptake of the study interventions along race, ethnicity, age or other demographic characteristics; this could undermine generalisability of the findings. \u25ba Because the sham VR intervention features neutral content that may not be as emotionally evocative as the active VR comparators, there may be attrition bias in the control arm.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "Open access considered the gold-standard behavioural intervention for reducing chronic pain-specific distress, anxiety and depression. 12 Several meta-analyses demonstrate that fully-contained, self-administered CBT computer programs are feasible and effective for home-based management of chronic pain. [13] [14] [15] [16] Moreover, these selfcontained programs can overcome geographical, staffing and timing barriers of traditional video and in-person visits. Therapeutic virtual reality (VR) has emerged as a promising evidence-based treatment modality for reducing both acute and chronic pain. [17] [18] [19] [20] [21] [22] [23] [24] [25] The ubiquity of highperformance computing has reduced both the size and cost of VR devices such that portable VR units are feasible for everyday in-home use. Most VR research has assessed pain only immediately after a VR experience. 18 21-24 Further, most studies focus on mere distraction to impact the experience of pain ('distraction-based VR'); a small minority of studies assess more complex VR modalities that teach extensible skills using CBT principles, guided meditation and biofeedback-based breathing exercises ('skills-based VR').",
+            "cite_spans": [
+                {
+                    "start": 135,
+                    "end": 137,
+                    "text": "12",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 304,
+                    "end": 308,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 309,
+                    "end": 313,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 314,
+                    "end": 318,
+                    "text": "[15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 319,
+                    "end": 323,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 598,
+                    "end": 602,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 603,
+                    "end": 607,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 608,
+                    "end": 612,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 613,
+                    "end": 617,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 618,
+                    "end": 622,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 623,
+                    "end": 627,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 628,
+                    "end": 632,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 633,
+                    "end": 637,
+                    "text": "[24]",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 638,
+                    "end": 642,
+                    "text": "[25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 876,
+                    "end": 884,
+                    "text": "18 21-24",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The primary objective of this study is to assess the efficacy immersive skills-based VR and distraction VR in decreasing pain interference compared with placebo VR among patients with chronic lower back pain (cLBP), a model chronic pain condition that is both common and costly. 26 The secondary objectives focus on the efficacy of VR to improve pain interference, perceptions of sleep quality and anxiety, self-reported pain catastrophising and reduce use of opioids. Tertiary objectives include studying the impact of VR on patient reported outcomes (PRO) of depression and physical function, as well as biometric variables measured with a wearable sensor. In addition to assessing PRO and biometric data, the study also aims to identify patient-level predictors for VR efficacy. Here we present the protocol as a model for conducting research on using VR to manage chronic pain.",
+            "cite_spans": [
+                {
+                    "start": 279,
+                    "end": 281,
+                    "text": "26",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "This prospective, three-armed randomised controlled trial will be conducted with participants within Cedars-Sinai Health System (CSHS), an academic medical centre based in Southern California. Two different VR pain reduction programmes will be compared with a control placebo VR program among patients with cLBP. Randomisation of all 360 subjects will be performed via Research Electronic Data Capture (REDCap) (Nashville, Tennessee), 1:1:1 across the three study groups, with random block sizes ranging from 3 to 12 subjects, stratified by site, using tables generated from Stata V.16.1 (College Station, Texas). Block randomisation is implemented in order to ensure that patients are equally assigned to each treatment group and varying the block size reduces selection bias by preventing predictability of the allocation of patients. The randomisation table was created by an independent biostatistician at CSHS. Each arm will include one-third of the total population randomised. Potential participants will be referred by physicians at the designated clinical sites or identified using the Deep 6 AI cohort building software (Pasadena, California), which uses natural language processing to search electronic health record (EHR) data for patients meeting study inclusion and exclusion criteria throughout the healthcare system. The sites of randomisation will include patient search engine recruitment (Deep 6), orthopaedic recruitment sites, rheumatology recruitment sites and pain clinic recruitment sites.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS/DESIGN Design"
+        },
+        {
+            "text": "The study has been approved by the Cedars-Sinai Institutional Review Board (IRB) (STUDY00000631) and is funded by the National Institute of Health (NIH) Helping to End Addiction Long-term initiative as part of a group of studies within the NIH Back Pain Consortium (BACPAC) programme. The IRB-approved consent includes the data sharing plan provided by BACPAC. The study is registered at ClinicalTrials. gov. No post trial care is planned for this study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "METHODS/DESIGN Design"
+        },
+        {
+            "text": "All aspects of this study will be conducted remotely, including the participants' use of VR therapy and Fitbit (Mountain View, California) wearable motion and sleep tracking device. Collection of all patient reported data is performed electronically via REDCap, a secure web application. While REDCap can be used to collect a wide variety of data (including 21 Code of Federal Regulations Part 11, Federal Information Security Management Act and Health Insurance Portability and Accountability Act (HIPAA)-compliant environments), it is specifically designed to support online or offline data capture for research studies and operations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Setting and sample"
+        },
+        {
+            "text": "All of the following eligibility criteria must be met: age >13, lower back pain that has persisted at least 3 months and has resulted in pain on at least half the days in the past 6 months, able to provide consent, willing to comply with all study procedures, comprehend spoken and written English, has access to either a compatible android or iOS smartphone or personal laptop or desktop computer (excluding tablets) to complete surveys and has access to email. Women who are currently pregnant or planning to become pregnant are eligible.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Setting and sample"
+        },
+        {
+            "text": "Patients will be excluded if they: (1) have a condition that interferes with VR usage including: history of seizure, facial injury precluding safe placement of headset, significant visual impairment that impacts ability to see the VR images or hearing impairment that impacts ability to follow audio instructions; (2) participated in a previous VR clinical study; (3) have been recommended for long-term hospitalisation that would require more than a 3-week stay in the hospital; (4) underwent a surgical procedure within the previous 8 weeks; (5) have back surgery planned within the next 3 months; (6) are using a spinal cord stimulator; or (7) have lower back pain attributable to a recognisable, specific pathology, including",
+            "cite_spans": [
+                {
+                    "start": 364,
+                    "end": 367,
+                    "text": "(3)",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 544,
+                    "end": 547,
+                    "text": "(5)",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Setting and sample"
+        },
+        {
+            "text": "Open access spinal infection, cancer, fracture or inflammatory spondylopathies, consistent with the NIH Task Force on research standards for cLBP. 27 ",
+            "cite_spans": [
+                {
+                    "start": 147,
+                    "end": 149,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Setting and sample"
+        },
+        {
+            "text": "The screening process starts with either a referral from physicians at our recruitment sites or the Deep 6 AI patient cohort programme. Study brochures will be provided to all recruitment sites. The patient's EHR will be used to help screen for eligibility as follows: \u25ba Preferred language and age will be extracted from patient summary page. \u25ba Presence of cLBP will be extracted from physician notes and will be verified with the participant. \u25ba Presence of exclusions will be extracted from the 'problem list' and will be verified with the participant. Participants identified as eligible will be emailed an IRB-approved recruitment letter explaining the study and an informational study brochure; recipients may opt-out of further contact by replying to this email. Those who do not opt-out will be called by a study coordinator who will verify remaining eligibility criteria. On verification of eligibility during this initial call, the consent form will be sent via REDCap by the study coordinator.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Screening process"
+        },
+        {
+            "text": "On receipt of their signed consent form and prior to randomisation, participants will be enrolled into the screener week phase of the study. The screener week was designed to ascertain willingness and ability to respond to survey questionnaires delivered by email and includes a daily electronic, one-item pain intensity question that participants are required to respond to. Participant must also complete the baseline survey questionnaires during screening week. A screen failure is defined as a participant who completed fewer than 86 of 108 items (80%) of the survey set provided halfway through the screener week and fewer than five of the seven pain diary questions also sent that week. Those with a partial survey completion or missing two daily pain intensity items will be sent a reminder email with a link to complete the survey to remain eligible. Once the patient completes the screener week, an unblinded group of coordinators will randomise them and support them throughout the study. Two study coordinators will monitor survey completion across the three arms and provide technical support as needed throughout the active study period. Patients will also receive a telephone number and email address to contact support staff.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Screening process"
+        },
+        {
+            "text": "An unblinded research coordinator will contact participants on receiving delivery confirmation of the study devices to provide onboarding instructions. Subsequent phone calls can be made to participants from coordinators to help participants complete the study. The diagram in figure 1 provides an overview of the study. Throughout the trial, participants and care providers are blinded to the intervention and the VR programs are described as either A, B or C with general terminology that applies to all three groups such as 'nature content'. Participants will be unblinded on study completion.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 277,
+                    "end": 285,
+                    "text": "figure 1",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Screening process"
+        },
+        {
+            "text": "On successful completion of the screener week, patients will be randomised and sent an all-in-one VR headset, the PICO G2 4k (Shenzen, China) and a biometric wristband (Fitbit Charge 4). We will include instructions for operating both the Fitbit and the PICO G2 4k device. Any headsets that are handled by staff will be sanitised by cleaning the fabric surfaces with Virex, the plastic housing with Sani-Wipes and the glass lenses with alcoholbased lens cleaner followed by a 1-min ultraviolet light treatment using Cleanbox (Carlsbad, California). The VR device will then be mailed to the participant's preferred address, and an email will be sent to them with a FedEx tracking number and a link to YouTube videos designed to help familiarise participants with the equipment. All three interventions will include 56 modules with a defined sequence of daily sessions. Once they complete the schedule of content sequentially, participants can repeat the experiences as many times as desired. Adherence to the intervention will be monitored by self-reported use in weekly surveys. If the answer is '0 times' they are asked for a reason (for a full list of options, see online supplemental file 1 for the list of reasons).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interventions and controls"
+        },
+        {
+            "text": "Sleep and motion tracking data from the Fitbit Charge 4 device will be aggregated by Fitabase (San Diego, California), HIPAA compliant, IRB approved, cloud-based software that maintains secure databases and keeps data private. Participants are allowed to undergo any concomitant treatment prescribed by their provider outside of those listed in exclusion criteria. Participants are allowed to discontinue the intervention at any time.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Interventions and controls"
+        },
+        {
+            "text": "Intervention 1: skills-based VR (EaseVRx) All VR programs in the study were developed by AppliedVR (Los Angeles, California). The skills-based VR program, called EaseVRx, incorporates evidence-based principles of CBT, mindfulness meditation and physiologic biofeedback therapy using embedded biometric sensors. EaseVRx combines psychoeducation, pain education, breathing training, relaxation exercises and executive functioning games to provide a mind-body approach toward living better with chronic pain (see figure 2 for details). The standardised, prescriptive and reproducible 56-day programme delivers a combination of skills training and CBT-related treatments through scheduled daily virtual experiences. An earlier version of this programme was used in a recently published randomised trial comparing it to an audio control of the same programme. 28 Each VR experience lasts from 2 to 16 min, with an average duration of 6 min.",
+            "cite_spans": [
+                {
+                    "start": 855,
+                    "end": 857,
+                    "text": "28",
+                    "ref_id": "BIBREF27"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 510,
+                    "end": 518,
+                    "text": "figure 2",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Interventions and controls"
+        },
+        {
+            "text": "EaseVRx-Distraction has the same number of experiences, the same approximate duration of experiences and a user interface identical to that of EaseVRx, with a linear, prescribed sequence of experiences. The key difference is that instead of offering a variety of VR experiences including education, games and breath biofeedback,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Intervention 2: distraction-based VR (EaseVRx-Distraction)"
+        },
+        {
+            "text": "EaseVRx-Distraction includes only 360-degree videos (also present in EaseVRx). Portions of this programme were used in our previous studies to reduce pain among hospitalised patients. 29 This removes the effect of education and skills-based training while preserving the immersive experience of 360-degree VR.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 186,
+                    "text": "29",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Open access"
+        },
+        {
+            "text": "Placebo control: sham VR (EaseVRx-Sham) EaseVRx-Sham software includes two-dimensional nature footage accompanied by emotionally neutral music, rather than the 360-degree, three-dimensional, interactive content specifically selected for effectiveness. The experience of using EaseVRx-Sham is similar to watching a large-screen television in a dark room, but it is neither interactive nor immersive. EaseVRx-Sham has the same number and duration of experiences as EaseVRx, and the functionality of the user interface used to access the experiences is the same. The user interface was modified to remove aspects that were added for therapeutic benefit. Modifications include: a solid grey background instead of a colourful one as in other two arms of the study, the same solid grey background for the loading scene and removal of the background music.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Open access"
+        },
+        {
+            "text": "The primary, secondary and tertiary outcomes are provided in table 1. All PROs in table 2 have cited high reliability and validity. [30] [31] [32] [33] [34] All PROs will be collected biweekly throughout the study as well as at baseline; Patient-Reported Outcomes Measurement Information System Pain Interference (PROMIS-PI) will be collected weekly for the first 30 days. All measures required by NIH Task Force on research standards for cLBP minimumrequired data set will be assessed at baseline and at end of study. 27 Four VR specific questionnaires will also be sent throughout the study. The Immersive Tendency Questionnaire 35 and a customised motion sickness propensity assessment 36 will be delivered during the screener week. The Simulator Sickness Questionnaire 37 will be administered at day 1 to quantify the severity of initial side effects from VR headset use along with the presence scale to Open access assess how immersive and 'real' the virtual experience was perceived to be by the participant. A custom survey to assess for adverse events and the discontinuation of treatment will be sent weekly. At the end of the study, participants will also be asked if they had experienced VR prior to the screener week and if they would want to continue to use the device at the end of the study. The case report form for every measure is provided in the online supplemental material 1. A copy of the consent form is provided in online supplemental material 2.",
+            "cite_spans": [
+                {
+                    "start": 132,
+                    "end": 136,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 137,
+                    "end": 141,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 142,
+                    "end": 146,
+                    "text": "[32]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 147,
+                    "end": 151,
+                    "text": "[33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 152,
+                    "end": 156,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 519,
+                    "end": 521,
+                    "text": "27",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 631,
+                    "end": 633,
+                    "text": "35",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 689,
+                    "end": 691,
+                    "text": "36",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Study outcome measures"
+        },
+        {
+            "text": "Demographic data (date of birth, age, sex, height, weight) will be extracted from the EHR. To assess comorbidities through the Charlson Comorbidity Index (CCI) calculation, International Classification of Diseases, Tenth Revision (ICD-10) codes will be collected from the EHR at day 1 and day 90. All prescription data will be extracted from the EHR and supplemented by data from the California database for scheduled prescriptions called the Controlled Substance Utilization Review and Evaluation System and will include opioid prescriptions from 90 days before enrolments until 90 days after completion of the study. Variables collected continuously by the wearable devices on the patients are provided below in table 2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "If subjects do not complete the surveys, they will be sent up to three reminder prompts. The complete schedule of measurements is provided in table 3. Participants will be eligible for up to US$225 in Amazon electronic gift cards throughout the study. After completing 80% of the first month of surveys they will be sent a US$25 Amazon card and another US$25 after 75% of the second month of surveys is completed. Once 80% of surveys in the third month are completed and the equipment returned, participants will be sent a US$175 Amazon card along with recommendations for VR programs they can use after the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "The National Institute of Arthritis and Musculoskeletal and Skin Diseases created a data safety monitoring board (DSMB) composed of seven researchers from outside institutions. No DSMB members are otherwise involved with the study. Protocol modifications will be communicated to the DSMB and the IRB. Adverse events will be assessed on day 1 and weekly throughout the study. Monthly enrolment data will be sent to an executive secretary (Navitas Life Sciences). Virtual meetings with the DSMB are held on a biannual basis. Data Safety Monitoring (DSM) reports are submitted 2 weeks before each meeting.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Monitoring plan"
+        },
+        {
+            "text": "Analysis of primary, secondary and tertiary (exploratory) endpoints All statistical analyses will be performed using SAS V.9.3 or higher (SAS Institute), R pack3.5.0 (R Foundation for Statistical Computing, Vienna, Austria) or Stata V.14 or higher (StataCorp LLC). Study statisticians will be blinded to study arm; data sets will be labelled 0, 1 and 2 by the unblinded research coordinators. For the primary endpoint and all secondary endpoints, both distraction VR therapy and skills-based VR therapy will be compared with sham VR therapy using a linear mixed model repeated measures (MMRM) analysis. 38 Repeated measures will include changes from baseline PROMIS-PI Open access t-score and those obtained at days 7, 15 and 21. Models will include fixed categorical effects for treatment, week, their interaction; baseline PROMIS-PI t-score will be included as a covariant. If skills-based VR and sham VR are found to differ, a third comparison will be made between skillsbased VR therapy and distraction VR therapy. For these models, we will estimate least squares means, SEs, treatment differences (in least squares means) and 95% CIs for each time period. Primary inference will rely on treatment comparison of least squares means for day 30, and a p value will be presented for this time period only. The null hypothesis there is no mean difference in the primary endpoint between the treatment groups and the sham control group. Similar analyses will be conducted for all secondary endpoints.",
+            "cite_spans": [
+                {
+                    "start": 603,
+                    "end": 605,
+                    "text": "38",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Efficacy and safety data-summaries and analyses will be performed by study arm using intent-to-treat (ITT). The number and percentage of patients randomised, patient population (ITT) and treatment status (completed, discontinued/withdrew) will be summarised. Reasons for discontinuation/withdrawal will be reported. An exploratory, per protocol (PP) analysis will focus on patients who use the assigned intervention on at least 50% of days during the first 30-day period. Usage meta-data on the headsets will provide the data needed for the PP definition. No formal interim analysis or interim statistical testing for treatment comparisons is planned.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "If the primary or key secondary endpoint is missing in >15% of patients in either treatment group, then the pattern of baseline covariates with missing values will be examined using the method of Little 39 and if data are not missing completely at random, missing values will be imputed using fully conditional specification with the multivariate imputation by chained equations algorithm under the missing at random assumption. 40 41 Subgroup analysis Subgroup analyses are planned for changes from baseline PROMIS-PI using linear MMRM analysis to test for treatment and subgroup interactions. Interactions significant at p<0.10 will be flagged for further assessment. Generally, models will include fixed categorical effects for treatment and week and their interaction, subgroup and treatment by subgroup interaction. Descriptive statistics of observed and changes from baseline PROMIS-PI t-score will be presented by treatment and week within each subgroup.",
+            "cite_spans": [
+                {
+                    "start": 203,
+                    "end": 205,
+                    "text": "39",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 429,
+                    "end": 434,
+                    "text": "40 41",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "Subgroups to be analysed: \u25ba Dosage of VR (min/week). \u25ba Previous experience with VR. \u25ba Immersive tendency questionnaire score. 35 \u25ba Presence score. \u25ba Patient comorbidities (CCI). \u25ba History of spinal surgery. \u25ba Pain severity and duration. \u25ba Sociodemographics (ie, age, sex, race, ethnicity, marital status, education). Other treatments \u25ba Tobacco, alcohol, prescription medication, and other substance use (TAPS)-1, TAPS-2. \u25ba Mood disturbances (eg, current depressive disorder or not, severely depressed mood vs non-depressed) \u25ba Radicular versus non-radicular back pain. \u25ba Simulator Sickness Questionnaire cut-off (score of >15). \u25ba Treatment expectation question. \u25ba Perception of arm of study question. \u25ba Motion sickness propensity survey. 36 ",
+            "cite_spans": [
+                {
+                    "start": 126,
+                    "end": 128,
+                    "text": "35",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 737,
+                    "end": 739,
+                    "text": "36",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Statistical analysis"
+        },
+        {
+            "text": "The PROMIS-PI scale has a SD of 10 and a mean of 50.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size"
+        },
+        {
+            "text": "Using an inflated SD of 11.83 (to accommodate correlation of repeated measures within individual) we estimated power by simulating 10 000 trial replicates and testing the null hypothesis versus the alternative hypothesis. To maintain familywise error rate at 0.05, a twosample t-test is used to compare the control arm to each treatment arm and the test is declared statistically significant if the p value of the two-sided test is less than 0.025. Under the alternative hypothesis, data from 120 patients in each of the three arms achieved 843% power to detect a clinically meaningful effect of a change in five units of the PROMIS score. Type I error rate is 0.0469 and the SD of the PROMIS scores difference is 11.83 assuming a correlation coefficient of 0.3 between baseline and 30 days PROMIS scores. With correlation of 0.2, power is 80% to detect the same difference. Any participants who withdraw or are withdrawn or discontinued on or prior to day 30 will be replaced.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Sample size"
+        },
+        {
+            "text": "This protocol was developed in partnership with a chronic pain patient advocate. This coauthor (TN) provided input on a weekly basis during the development of protocol and will be involved in overseeing conduct of the study together with the research team. Our patient partner helped develop custom surveys and provided input on the burden surveys and interventions might have on participants. The results will be emailed to all participants at the end of the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patient and public involvement"
+        },
+        {
+            "text": "This trial has been approved by the IRB of CSHS. All participants enrolled in the study will provide written informed consent. The results will be disseminated through peer-reviewed scientific journals. The recruiting providers and participants will be emailed the results at the end of the study. Authorship eligibility is based on significant contribution to the study and review of the manuscript. BACPAC investigators will have access to final data set.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Ethics and dissemination"
+        },
+        {
+            "text": "Participant recruitment started in September 2020 and is expected to end in September 2023. At the time of this writing in May 2021, 96 participants have been randomised.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Trial status"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Ambulatory diagnosis and treatment of nonmalignant pain in the United States",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Daubresse",
+                    "suffix": ""
+                },
+                {
+                    "first": "H-Y",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Med Care",
+            "volume": "51",
+            "issn": "",
+            "pages": "870--878",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/MLR.0b013e3182a95d86"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "The economic costs of pain in the United States",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gaskin",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Richard",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Pain",
+            "volume": "13",
+            "issn": "",
+            "pages": "715--739",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jpain.2012.03.009"
+                ]
+            }
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Sleep quality and the role of sleep medications for veterans with chronic pain",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Chapman",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Lehman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Elliott",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Pain Med",
+            "volume": "7",
+            "issn": "",
+            "pages": "105--119",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1526-4637.2006.00110.x"
+                ]
+            }
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Sleep in chronic pain: problems and treatments",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cohen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Menefee",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Doghramji",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "International Review of Psychiatry",
+            "volume": "12",
+            "issn": "",
+            "pages": "115--142",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/09540260050007435"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Benzodiazepine use by chronic pain patients",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "King",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Strain",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "Clin J Pain",
+            "volume": "6",
+            "issn": "",
+            "pages": "143--150",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00002508-199006000-00013"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Patterns and trends in opioid use among individuals with back pain in the United States",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Pietrobon",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hey",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "29",
+            "issn": "",
+            "pages": "884--90",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Self-reported sleep quality and quality of life for individuals with chronic pain conditions",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Menefee",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Frank",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Doghramji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Clin J Pain",
+            "volume": "16",
+            "issn": "",
+            "pages": "290--297",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/00002508-200012000-00003"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Comorbidities in chronic neuropathic pain",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Nicholson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Verma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Pain Med",
+            "volume": "5",
+            "issn": "1",
+            "pages": "9--27",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1526-4637.2004.04019.x"
+                ]
+            }
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The association of comorbidities, utilization and costs for patients identified with low back pain",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Ritzwoller",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Crounse",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shetterly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "BMC Musculoskelet Disord",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/1471-2474-7-72"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Vital signs: overdoses of prescription opioid pain relievers---United States",
+            "authors": [],
+            "year": 2011,
+            "venue": "Centers for Disease Control and Prevention (CDC)",
+            "volume": "60",
+            "issn": "",
+            "pages": "1487--92",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Caring for patients with pain during the COVID-19 pandemic: consensus recommendations from an international expert panel",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shanthanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Strand",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Provenzano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Anaesthesia",
+            "volume": "75",
+            "issn": "",
+            "pages": "935--979",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/anae.15076"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Psychological therapies for the management of chronic pain (excluding headache) in adults",
+            "authors": [
+                {
+                    "first": "Williams",
+                    "middle": [],
+                    "last": "Acdec",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Eccleston",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Morley",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Cochrane Database Syst Rev",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/14651858.CD007407.pub3"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Tailored web-based interventions for pain: systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Martorella",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boitor",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Berube",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Med Internet Res",
+            "volume": "19",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/jmir.8826"
+                ]
+            }
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Effectiveness of telehealth-based interventions in the management of non-specific low back pain: a systematic review with meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Dario",
+                    "suffix": ""
+                },
+                {
+                    "first": "Moreti",
+                    "middle": [],
+                    "last": "Cabral",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Almeida",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Spine J",
+            "volume": "17",
+            "issn": "",
+            "pages": "1342--51",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.spinee.2017.04.008"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "An evaluation of the effectiveness of the modalities used to deliver electronic health interventions for chronic pain: systematic review with network metaanalysis",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Slattery",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Haugh",
+                    "suffix": ""
+                },
+                {
+                    "first": "O&apos;",
+                    "middle": [],
+                    "last": "Connor",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Med Internet Res",
+            "volume": "21",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/11086"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Psychological therapies (Internetdelivered) for the management of chronic pain in adults",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Eccleston",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Cochrane Database of Systematic Reviews",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Immersive virtual reality for the management of pain in community-dwelling older adults",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Benham",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Grampurohit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "OTJR",
+            "volume": "39",
+            "issn": "",
+            "pages": "90--96",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/1539449218817291"
+                ]
+            }
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Clinical efficacy of virtual reality for acute procedural pain management: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Foster",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Sambell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PLoS One",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0200987"
+                ]
+            }
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Virtual reality and medical inpatients: a systematic review of randomized, controlled trials",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Dascal",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Reid",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ishak",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Innov Clin Neurosci",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Virtual reality as an adjunct home therapy in chronic pain management: an exploratory study",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Garrett",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Taverner",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Mcdade",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "JMIR Med Inform",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/medinform.7271"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Virtual reality as an adjunctive pain control during burn wound care in adolescent patients",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hoffman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Doctor",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Patterson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2000,
+            "venue": "Pain",
+            "volume": "85",
+            "issn": "",
+            "pages": "305--314",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S0304-3959(99)00275-4"
+                ]
+            }
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Virtual reality as a distraction intervention to relieve pain and distress during medical procedures: a comprehensive literature review",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Indovina",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Barone",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gallo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Clin J Pain",
+            "volume": "34",
+            "issn": "",
+            "pages": "858--77",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/AJP.0000000000000599"
+                ]
+            }
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Adjunctive virtual reality for procedural pain management of burn patients during dressing change or physical therapy: a systematic review and meta-analysis of randomized controlled trials",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Luo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Wound Repair Regen",
+            "volume": "27",
+            "issn": "",
+            "pages": "90--101",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/wrr.1"
+                ]
+            }
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Efficacy of nonpharmacological interventions for procedural pain relief in adults undergoing burn wound care: a systematic review and meta-analysis of randomized controlled trials",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Scheffler",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Koranyi",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Meissner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Burns",
+            "volume": "44",
+            "issn": "",
+            "pages": "1709--1729",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.burns.2017.11.019"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Virtual reality as a distraction technique in chronic pain patients",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Wiederhold",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sulea",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Cyberpsychol Behav Soc Netw",
+            "volume": "17",
+            "issn": "",
+            "pages": "346--52",
+            "other_ids": {
+                "DOI": [
+                    "10.1089/cyber.2014.0207"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The economic and humanistic costs of chronic lower back pain in Japan",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Montgomery",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sato",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Nagasaka",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Clinicoecon Outcomes Res",
+            "volume": "9",
+            "issn": "",
+            "pages": "361--71",
+            "other_ids": {
+                "DOI": [
+                    "10.2147/CEOR.S134130"
+                ]
+            }
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Focus article: report of the NIH Task force on research standards for chronic low back pain",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Deyo",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Dworkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Amtmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Eur Spine J",
+            "volume": "23",
+            "issn": "",
+            "pages": "2028--2073",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s00586-014-3540-3"
+                ]
+            }
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Self-Administered Skills-Based virtual reality intervention for chronic pain: randomized controlled pilot study",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Darnall",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Krishnamurthy",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tsuei",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JMIR Form Res",
+            "volume": "4",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2196/17293"
+                ]
+            }
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Virtual reality for management of pain in hospitalized patients: a randomized comparative effectiveness trial",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Spiegel",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Fuller",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Lopez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "PLoS One",
+            "volume": "14",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0219115"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Evidence from diverse clinical populations supported clinical validity of PROMIS pain interference and pain behavior",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Askew",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Revicki",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Clin Epidemiol",
+            "volume": "73",
+            "issn": "",
+            "pages": "103--114",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jclinepi.2015.08.035"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "PROMIS \u00ae adult health profiles: efficient short-form measures of seven health domains",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Cella",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Choi",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Condon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Value Health",
+            "volume": "22",
+            "issn": "",
+            "pages": "537--581",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jval.2019.02.004"
+                ]
+            }
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Real-Life assessment of the validity of patient global impression of change in fibromyalgia",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Rampakakis",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ste-Marie",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Sampalis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "RMD Open",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/rmdopen-2015-000146"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Operating characteristics of PROMIS four-item depression and anxiety scales in primary care patients with chronic pain",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kroenke",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Pain Med",
+            "volume": "15",
+            "issn": "",
+            "pages": "1892--901",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/pme.12537"
+                ]
+            }
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Development and evaluation of short forms of the pain Catastrophizing scale and the pain selfefficacy questionnaire",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mcwilliams",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kowal",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Wilson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Eur J Pain",
+            "volume": "19",
+            "issn": "",
+            "pages": "1342--1351",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/ejp.665"
+                ]
+            }
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Measuring presence in virtual environments: a presence questionnaire",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Witmer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Singer",
+                    "suffix": ""
+                }
+            ],
+            "year": 1998,
+            "venue": "Presence",
+            "volume": "7",
+            "issn": "",
+            "pages": "225--265",
+            "other_ids": {
+                "DOI": [
+                    "10.1162/105474698565686"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Cybersickness induced by desktop virtual reality",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Vinson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J-F",
+                    "middle": [],
+                    "last": "Lapointe",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Parush",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Proceedings of Graphics Interface",
+            "volume": "",
+            "issn": "",
+            "pages": "69--75",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Simulator sickness questionnaire: an enhanced method for quantifying simulator sickness",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kennedy",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lane",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Berbaum",
+                    "suffix": ""
+                }
+            ],
+            "year": 1993,
+            "venue": "Int J Aviat Psychol",
+            "volume": "3",
+            "issn": "",
+            "pages": "203--223",
+            "other_ids": {
+                "DOI": [
+                    "10.1207/s15327108ijap0303_3"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "LOCF: a comprehensive comparison based on simulation study and 25 NDA datasets",
+            "authors": [
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Siddiqui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Hmj",
+                    "middle": [],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "O&apos;neill",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Vs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Biopharm Stat",
+            "volume": "19",
+            "issn": "",
+            "pages": "227--273",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/10543400802609797"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "A test of missing completely at random for multivariate data with missing values",
+            "authors": [
+                {
+                    "first": "Rja",
+                    "middle": [],
+                    "last": "Little",
+                    "suffix": ""
+                }
+            ],
+            "year": 1988,
+            "venue": "J Am Stat Assoc",
+            "volume": "83",
+            "issn": "",
+            "pages": "1198--202",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/01621459.1988.10478722"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Mice: multivariate imputation by chained equations in R",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sv",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Groothuis-Oudshoorn",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Journal of Statistical Software",
+            "volume": "45",
+            "issn": "",
+            "pages": "1--67",
+            "other_ids": {
+                "DOI": [
+                    "10.18637/jss.v045.i03"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Multiple imputation of discrete and continuous data by fully conditional specification",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Van Buuren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Stat Methods Med Res",
+            "volume": "16",
+            "issn": "",
+            "pages": "219--261",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/0962280206074463"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Development of a PROMIS item bank to measure pain interference",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Amtmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Jensen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Pain",
+            "volume": "150",
+            "issn": "",
+            "pages": "173--82",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.pain.2010.04.025"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Peak and end effects in patients' daily recall of pain and fatigue: a within-subjects analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schneider",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Stone",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Pain",
+            "volume": "12",
+            "issn": "",
+            "pages": "228--263",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jpain.2010.07.001"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Virtual experiences, physical behaviors: the effect of presence on imitation of an eating avatar",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fox",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bailenson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Binney",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Presence",
+            "volume": "18",
+            "issn": "",
+            "pages": "294--303",
+            "other_ids": {
+                "DOI": [
+                    "10.1162/pres.18.4.294"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Comparative responsiveness of the PROMIS pain interference short forms, brief pain inventory, PEG, and SF-36 bodily pain subscale",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kean",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Monahan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kroenke",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Med Care",
+            "volume": "54",
+            "issn": "",
+            "pages": "414--435",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/MLR.0000000000000497"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Development and initial validation of the PEG, a three-item scale assessing pain intensity and interference",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Krebs",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lorenz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Bair",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Gen Intern Med",
+            "volume": "24",
+            "issn": "",
+            "pages": "733--741",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s11606-009-0981-1"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Analysis of shortened versions of the Tampa scale for kinesiophobia and pain catastrophizing scale for patients after anterior cruciate ligament reconstruction",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "George",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lentz",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zeppieri",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Clin J Pain",
+            "volume": "28",
+            "issn": "",
+            "pages": "73--80",
+            "other_ids": {
+                "DOI": [
+                    "10.1097/AJP.0b013e31822363f4"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "New ICD-10 version of the Charlson comorbidity index predicted in-hospital mortality",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Sundararajan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Henderson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Perry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Clin Epidemiol",
+            "volume": "57",
+            "issn": "",
+            "pages": "1288--94",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jclinepi.2004.03.012"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Detecting and monitoring depression with a two-item questionnaire (PHQ-2)",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "L\u00f6we",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kroenke",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Gr\u00e4fe",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J Psychosom Res",
+            "volume": "58",
+            "issn": "",
+            "pages": "163--71",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jpsychores.2004.09.006"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Screening for anxiety disorders with the GAD-7 and GAD-2: a systematic review and diagnostic metaanalysis",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Plummer",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Manea",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Trepel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Gen Hosp Psychiatry",
+            "volume": "39",
+            "issn": "",
+            "pages": "24--31",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.genhosppsych.2015.11.005"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Patient global impression of change scores within the context of a chronic pain rehabilitation program",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ferguson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Scheman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J Pain",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jpain.2009.01.258"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Performance of the tobacco, alcohol, prescription medication, and other substance use (TAPS) tool for substance use screening in primary care patients",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mcneely",
+                    "suffix": ""
+                },
+                {
+                    "first": "L-T",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Subramaniam",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Ann Intern Med",
+            "volume": "165",
+            "issn": "",
+            "pages": "690--699",
+            "other_ids": {
+                "DOI": [
+                    "10.7326/M16-0317"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Flowchart of study procedures, from patient uptake to study completion. Rectangle boxes indicate where a straightforward step occurs. Diamonds indicate where a decision step occurs. Red circles indicate whether a patient being deemed ineligible or withdrawn from the study. Blue rectangles indicate where surveys are sent. REDCap, Research Electronic Data Capture, VR, virtual reality.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Descriptions and illustrations for each of the categories of modules in the skills based VR program. The categories of modules include: interoceptive, education, 360 degree videos, games and dynamic breathing. VR, virtual reality.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "--------------------------------------------------------------------",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Primary, secondary and tertiary (exploratory) outcomes",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Variables collected by wearable devices",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgements We want to acknowledge the insight provided by the following Dr Susan Persky PhD, BACPAC, NIAMS, and Navitas Life Sciences. We also want to thank Tom Norris for all the guidance he provided as a patient advocate. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "Competing interests BB worked as a research consultant for AppliedVR for an independent clinical trial. All other authors have no conflict of interest to declare.Patient consent for publication Not required.Provenance and peer review Not commissioned; peer reviewed for ethical and funding approval prior to submission.Supplemental material This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.Open access This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: http:// creativecommons. org/ licenses/ by-nc/ 4. 0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "annex"
+        },
+        {
+            "text": "Brandon Birckhead http:// orcid. org/ 0000-0002-5822-7318",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "ORCID iD"
+        }
+    ]
+}

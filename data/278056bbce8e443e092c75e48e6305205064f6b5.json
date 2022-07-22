@@ -1,0 +1,785 @@
+{
+    "paper_id": "278056bbce8e443e092c75e48e6305205064f6b5",
+    "metadata": {
+        "title": "Journal Pre-proof Strengths and limitations of a policy for handling and following up suspected pediatric cases of SARS-CoV-2 infection Strengths and limitations of a policy for handling and following up suspected pediatric cases of SARS-CoV-2 infection Short title: Pediatric COVID-19 management during lockdown",
+        "authors": [
+            {
+                "first": "A",
+                "middle": [],
+                "last": "Mancheron",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 Sorbonne Paris cit\u00e9",
+                    "location": {
+                        "postCode": "F-93140",
+                        "settlement": "Bondy",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "E",
+                "middle": [],
+                "last": "Foucaud",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 Sorbonne Paris cit\u00e9",
+                    "location": {
+                        "postCode": "F-93140",
+                        "settlement": "Bondy",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "S",
+                "middle": [],
+                "last": "Brichler",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Laboratoire de virologie",
+                    "institution": "APHP",
+                    "location": {
+                        "postCode": "F-93000",
+                        "settlement": "Bobigny",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "L",
+                "middle": [],
+                "last": "De Pontual",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 Sorbonne Paris cit\u00e9",
+                    "location": {
+                        "postCode": "F-93140",
+                        "settlement": "Bondy",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "C",
+                "middle": [],
+                "last": "Aupiais",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Universit\u00e9 Sorbonne Paris cit\u00e9",
+                    "location": {
+                        "postCode": "F-93140",
+                        "settlement": "Bondy",
+                        "country": "France"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "To compensate for the poor initial knowledge about pediatric SARS-CoV-2 infections and the limited access to non-urgent medical care during lockdown, a local telephone follow-up program was set up to remotely monitor children with confirmed or suspected SARS-CoV-2 infection at the pediatric emergency department of a French tertiary hospital. We retrospectively assessed 131 children. A total of 488 phone call attempts resulted in 293 (60%) teleconsultations. This telephone follow-up program was simple and appeared necessary in the first stage of the pandemic with an emergent pathogen. However, it was time-consuming and should be improved for further use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Emerging infectious diseases (EID), defined as either appearing in a population for the first time or as previously existing but spreading rapidly in incidence or geographic range, are considered by the World Health Organization (WHO) as an imminent threat to global public health. The coronavirus 2019 disease (COVID-19) pandemic started in late 2019. In France, the first period of nationwide lockdown was from March 17 to May 11, 2020 , aimed at reducing the burden of COVID-19 on the healthcare system.",
+            "cite_spans": [
+                {
+                    "start": 425,
+                    "end": 437,
+                    "text": "May 11, 2020",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Although severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infects people of all ages, levels of knowledge about infections among children were poor during the first wave of the pandemic. It is now widely reported that the COVID-19 disease is less severe among children [1] [2] [3] .",
+            "cite_spans": [
+                {
+                    "start": 281,
+                    "end": 284,
+                    "text": "[1]",
+                    "ref_id": null
+                },
+                {
+                    "start": 285,
+                    "end": 288,
+                    "text": "[2]",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 289,
+                    "end": 292,
+                    "text": "[3]",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "In our tertiary hospital (Jean Verdier Hospital, Bondy, France) and in compliance with the regional health agency's guidelines, a protocol was set up to monitor children with confirmed or suspected SARS-CoV-2 infection, aiming for early detection of severe or complicated cases, because the natural evolution and severity of the disease were not well known at that time. We used a phone recall setup, to comply both with the lockdown conditions and with the limited accesses to non-urgent medical care.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "The objectives of the present retrospective study were to describe the implementation of this telephone follow-up program applied to all cases with confirmed or suspected SARS-CoV-2 infection at the pediatric emergency department (ED) at Jean Verdier Hospital between March 9 and April 19, 2020.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "On March 9, 2020, a program was set up at the pediatric ED of Jean Verdier Hospital, aimed at recording all cases of suspected or confirmed SARS-CoV-2 infection and following up these children after discharge. To cope with the limited accesses to polymerase chain reaction (PCR) testing during that time, children attending the pediatric ED were included in this local follow-up program if they had a positive PCR test result for SARS-CoV-2, or if they were considered at risk for COVID-19 and had not undergone PCR testing for SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Local care strategy"
+        },
+        {
+            "text": "According to the French recommendations [4] and to our local protocol, children were considered at risk for COVID-19 if they presented with a temperature above 38\u00b0C and respiratory symptoms (cough, dyspnea, and/or signs of respiratory distress signs).",
+            "cite_spans": [
+                {
+                    "start": 40,
+                    "end": 43,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Local care strategy"
+        },
+        {
+            "text": "During the study period, the indications for PCR testing for SARS-CoV-2 were: (a) hospitalized patients with fever (temperature higher than 38\u00b0C) and respiratory signs (cough, dyspnea, and/or signs of respiratory distress), (b) children aged under 3 months with fever, (c) children with comorbidities and respiratory symptoms and/or fever, and (d) children with respiratory symptoms and/or fever living in care homes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Local care strategy"
+        },
+        {
+            "text": "After discharge from the ED or from the hospitalization unit, COVID-19-positive children and children at risk for COVID-19 with no PCR test data were offered teleconsultations with a physician 5, 8, and 12 days after the onset of the disease, to monitor temperature, respiratory rate, respiratory symptoms, general condition, feeding, or any other symptoms the patient might report (diarrhea, rash, headache, etc.), as recommended by the French authorities (Supplemental data, [5] ). For hospitalized children, teleconsultations were carried out only after discharge and if some scheduled recalls were still to be completed.",
+            "cite_spans": [
+                {
+                    "start": 477,
+                    "end": 480,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Local care strategy"
+        },
+        {
+            "text": "Teleconsultations took place in the form of a telephone call with one or two of the parents during working hours, performed by a physician assigned to the emergency room. No videoconferencing system was used, for simplicity and practical access. In case of a language barrier, the phone call could be addressed to any other reliable adult from the household. A telephone number was dedicated to this purpose, allowing parents to call back. The initial follow-up was stopped after three unanswered calls. After each teleconsultation, the length and frequency of the follow-up was adjusted by the physician as a function of the patient's symptoms and/or requirement for medical care, according to the warning signs listed by the French authorities (Supplemental data). In a teleconsultation scheduled 1 month after the onset of symptoms, a resident checked on the patient's clinical status, with no limitation on the number of attempts in the case of unanswered calls.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Local care strategy"
+        },
+        {
+            "text": "Children having attended the pediatric ED at Jean Verdier Hospital between March 9 and April 19, 2020 and who had been included in our local followup program were retrospectively included in this study. Children with other proven infections (urinary tract or other invasive bacterial infection, a nasopharyngeal swab that was negative for SARS-CoV-2 but positive for another pathogen etc.) were excluded. The end date of April 19 was chosen because the proportion of SARS-CoV-2 infections decreased rapidly at that time. In line with the French legislation on retrospective studies of routine clinical practice, the study protocol was approved by a hospital committee with competency for studies not requiring approval by an institutional review board (Comit\u00e9 Local d'\u00c9thique de l'H\u00f4pital Avicenne, Bobigny, France; reference: CLEA-2020-128).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Patients and methods"
+        },
+        {
+            "text": "We retrospectively defined the following categories:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case definitions"
+        },
+        {
+            "text": "(1) Children at risk for COVID-19 with no PCR test data: children with fever and respiratory symptoms (cough, dyspnea, or respiratory distress signs) but who had not undergone a PCR (nasopharyngeal swab) test for SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case definitions"
+        },
+        {
+            "text": "(2) Confirmed SARS-CoV-2 infection: children with a positive PCR test result for SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case definitions"
+        },
+        {
+            "text": "The data were collected from the teleconsultation register and from the patients' electronic medical records, and included sociodemographic data, any history of infection, contact with confirmed or suspected cases of COVID-19, clinical signs and symptoms, prior PCR test results, result of the PCR test A teleconsultation is defined as a phone contact with one of the child's parents to evaluate his or her health status. A phone call attempt is defined as an attempt to reach the parents, including the phone calls that did not succeed in a teleconsultation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case definitions"
+        },
+        {
+            "text": "Categorical variables are described as frequency with percentage. Continuous variables are described as median with interquartile range (IQR). We used chi-square tests, Fisher's exact test, or Student's test to compare children who had one or more unplanned outpatient consultations with the children who had not.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case definitions"
+        },
+        {
+            "text": "Statistical analyses were performed using R software (version 4.0).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Case definitions"
+        },
+        {
+            "text": "Of the 1319 children having attended our hospital's pediatric ED between March 9 and April 19, 2020, 214 (16.2%) were included in the follow-up program. Among these 214 children, 26 had a negative PCR test result and 57 did not meet the criteria to enter the follow-up program and were excluded from this retrospective analysis (Figure 1) . Finally, 120 children at risk for COVID-19 with no PCR test data and 11 children with confirmed SARS-CoV-2 infection were included in the retrospective study. The characteristics of the study population are summarized in Table 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 328,
+                    "end": 338,
+                    "text": "(Figure 1)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 562,
+                    "end": 569,
+                    "text": "Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Clinical course of the study population is summarized in the Table 2 . After the ED visit, 11 of 131 (8%) children were hospitalized: two out of 120 (2%) of the children at risk for COVID-19 with no PCR test data and nine out of 11 (82%) of the confirmed SARS-CoV-2 infection cases. Overall, 488 phone call attempts were made, and 293 teleconsultations were performed, with a mean of 1.67 call attempts needed to achieve one teleconsultation. A total of 10 physicians and one resident were involved in this follow-up, for a mean time of 1.3 h per day. A physician assigned to the emergency room was responsible for the initial follow-up during the day in addition to receiving the patient flow. Figure 2 shows the proportion of patients who received at least one teleconsultation after discharge from the ED visit. Most teleconsultations did not occur as scheduled in the protocol, but 122 (93%) of the 131 eligible children had at least one follow-up teleconsultation. During their follow-up, 31 of 107 (29%) children had one or more unplanned outpatient consultations. For six of them, their parents were asked to consult either with their personal practitioner (n=2) or with the ED (n=4) after a teleconsultation. The other 25 consulted on their own. Among the 23 patients with available data, 13 (56%) consulted before the first planned teleconsultation. Overall, consultations took place outside the hospital for 12 children, in the ED for 12 children, and both in the ED and outside the hospital for seven children. Four children were admitted to the hospital during the follow-up period, including three being hospitalized before the first planned teleconsultation: two newborns returning to the ED, respectively, 6 and 24 h after discharge due to the appearance of fever and one 19-month-old boy hospitalized for 24 h because of diarrhea complicated by dehydration. The fourth patient had been hospitalized in another center and we did not recover the data on this hospitalization. The time to recovery could be evaluated for 101 children; it was less than 2 weeks for 83 of 101 (82%) children. The comparison between the children who had one or more unplanned outpatient consultations with the children who had no unplanned consultation is summarized in Table 3 . The children who had one or more unplanned outpatient consultations during the follow-up were more likely to have undergone laboratory examinations (35% vs. 12%) or chest X-ray at baseline (48% vs. 25%) than the children who had had no unplanned consultation (p<0.01 and p=0.01, respectively). Confirmed COVID-19 cases with a positive PCR test result were more likely to have had one or more unplanned outpatient consultations (55%) than the children at risk for COVID-19 with no PCR test data (31%, p=0.02).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 61,
+                    "end": 68,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 695,
+                    "end": 703,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 2263,
+                    "end": 2270,
+                    "text": "Table 3",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Here, we described a cohort of children with suspected of confirmed SARS-CoV-2 infection. All these children were followed up via teleconsultation at a tertiary care center located in a high-incidence region of France during the first peak of the pandemic, i.e., a period of lockdown during which knowledge about pediatric COVID-19 was poor. Although this program might have seemed necessary in the first stage of the pandemic of an emerging pathogen in order to offer a secure remote follow-up, we found that this follow-up program was time-consuming. Moreover, we now know that it is not necessary to follow up all children who have COVID-19. Indeed, in line with the literature data, most of the confirmed SARS-CoV-2 infections in our pediatric study population were mild [6].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The present study took place during the first wave of the pandemic in Francea time during which non-urgent inpatient consultations were cancelled to prevent nosocomial transmission of SARS-CoV-2, maintain social isolation during lockdown, and prevent health system overload. At that time, France's national strategy did not involve testing all potentially infected children [7] , and the French health authorities recommended that only children hospitalized with a clinical presentation suggestive of COVID-19 should be tested for SARS-CoV-2. Hence, most pediatric cases of COVID-19 during this period could not be confirmed.",
+            "cite_spans": [
+                {
+                    "start": 374,
+                    "end": 377,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, children with COVID-19 had to be monitored, since the disease outcome was not well known in this population. To deal with this issue and to follow up all children at risk for COVID-19, we decided to organize teleconsultations. Likewise, knowledge at that time indicated that many children infected with COVID-19 do not present with fever or respiratory symptoms. Therefore, our protocol did not include those children presenting with other signs. Our present results showed that this organizational approach was effective, since it enabled us to monitor 93% of the eligible children. Thanks to this telephone follow-up program, only 42 face-to-face consultations took place for 31 of the 131 children, reducing the pressure on the healthcare system and preventing the spread of the virus. We did not evaluate parental satisfaction, but received positive feedback from them, offering efficient parental reassurance.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "However, the logistics were heavy to implement for our team. This approach was time-consuming for the medical staffespecially because it generated a large number of teleconsultations with non-confirmed cases. PCR testing of nasopharyngeal swabs among suspected cases would have given interpretable results and would have been of great clinical value. Indeed, we changed our testing strategy during the second wave of the pandemic and continued to provide remote follow-up only for confirmed cases of SARS-CoV-2 infection. It allowed us to reduce the number of follow-ups, phone calls, and teleconsultations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our system could have been more efficient. At the beginning of the pandemic, we did not have the equipment to carry out videoconsultations in our center, even though clinical evaluation is more efficient with a videoconferencing system. Many others telehealth systems have been described worldwide to increase the feasibility of COVID-19 patient monitoring, such as online platforms or smartphone apps. In France, a telesurveillance solution has been deployed in the greater Paris area to monitor adults with COVID-19 in their homes [8] . Clinical algorithms have been developed to detect patients with severe disease, allowing healthcare professionals to focus on those patients and offer close monitoring adjusted to their needs. Some centers have provided thermometers, pulse oximeters, or blood pressure cuffs for patients [9] . However, this equipment or technology was developed and applied mainly to an adult population, with limited pediatric tools available. Without a precise and objective assessment tool we had to rely on parental evaluations of the child. Therefore, we used a detailed evaluation chart for each phone call (Supplemental data) and had to educate parents about clinical assessment, such as respiratory rate measurement. In a Swiss oncology department, a team developed an algorithm to guide clinical decisions during the telephone follow-up of infected children [10] ; however, to develop such algorithms, data on the factors associated with severe SARS-CoV-2 infection are needed and were not available during the first wave. We found that the children who needed an unplanned outpatient consultation or ED visit were more likely to have undergone laboratory or radiographic explorations at baseline, and that two of the four children who had needed secondary hospitalizations were newborns. These data suggest that those patients presented with more severe symptoms at onset, or were considered more vulnerable by the physicians. These findings suggest that the follow-up might have focused on those patients, but the design and the sample size of our study prevent us from drawing any definitive conclusion.",
+            "cite_spans": [
+                {
+                    "start": 533,
+                    "end": 536,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 827,
+                    "end": 830,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1390,
+                    "end": 1394,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Another limitation of our set-up was the lack of planification. Parents were advised that they would be called, but without an exact appointment made.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Teleconsultations were handled by the physician assigned to the emergency room, with usually up to three attempts for reaching the parents. It could have been more efficient to plan the appointment with the parents or to use an online platform; and to have these phone calls made by a dedicated resident or a physician.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "This could have decreased the number of missed calls. Moreover, teleconsultations were planned 5, 8, and 12 days after the onset of the disease but this plan could have been adjusted better. Indeed, the unplanned consultations and secondary hospitalizations frequently occurred before the first planned teleconsultation. The final consultation at 1 month, whose initial role was to record the absence of secondary complications, was thus no longer necessary and could have been removed from the protocol.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Finally, no teleconsultation fees were charged to the family, and thus our hospital was not compensated for these teleconsultations. These free and simple telephone consultations offered access to telemedicine for all eligible children, including socioeconomically deprived families. Moreover, it enabled a fast and efficient set-up of our remote follow-up program. However, this organization is not sustainable in this form, as it should comply with the new legislation in place for the reimbursement of teleconsultations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "The COVID-19 pandemic has contributed to the growth of telehealth, especially for urgent care [11] . However, telehealth remains complex and requires significant logistics, integration into the health care system, and acceptance by the population. Telehealth can be used for telepractice and teleresearch in children [12] . Our study shows that teleconsultation enables us to secure the care pathway for children infected by an unknown pathogen with good acceptance from the families. Nevertheless, it requires constant adjustment to the progressing knowledge of the emerging disease. With greater access to teleconsultations, patients could be advised without visiting the emergency room, which could further limit the number of consultations and thus the risk of transmission.",
+            "cite_spans": [
+                {
+                    "start": 94,
+                    "end": 98,
+                    "text": "[11]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 317,
+                    "end": 321,
+                    "text": "[12]",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our results highlight the efficiency and safety, with benefit for patient care, of a remote follow-up program during the first stage of a highly contagious unknown EID (SARS-Cov2 pandemic, March-April 2020). Retrospectively, it was found to be resource-consuming and eventually of lesser use because of the low severity of COVID-19 among children. In the context of a new EID epidemic at an early stage, such a follow-up program could prove necessary in front-line health centers. Our experience shows that it requires continuous adjustment to up-to-date knowledge of the EID and its severity, and that such programs would perform better at a national level using updated technology. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Clinical Characteristics of Children With COVID-19: A Meta-Analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Pediatr",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "COVID-19 Disease Severity Risk Factors for Pediatric Patients in Italy",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bellino",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Punzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Rota",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pediatrics",
+            "volume": "146",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Children are unlikely to be the main drivers of the COVID-19 pandemic -A systematic review",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Ludvigsson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Acta Paediatr",
+            "volume": "109",
+            "issn": "",
+            "pages": "1525--1555",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "D\u00e9finition de cas d'infection au SARS-CoV-2 (COVID-19)",
+            "authors": [
+                {
+                    "first": "France",
+                    "middle": [],
+                    "last": "Sant\u00e9 Publique",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Organisation de la fili\u00e8re p\u00e9diatrique pour la prise en charge des patients COVID-19",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Agence R\u00e9gionale De Sant\u00e9 \u00cele-De-France",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Epidemiology of COVID-19 Among Children in China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Mo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pediatrics",
+            "volume": "145",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "SARS-CoV-2 testing and infection control strategies in European paediatric emergency departments during the first wave of the pandemic",
+            "authors": [
+                {
+                    "first": "Kohns",
+                    "middle": [],
+                    "last": "Vasconcelos",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Renk",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Popielska",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Eur J Pediatr",
+            "volume": "180",
+            "issn": "",
+            "pages": "1299--305",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Telesurveillance Solution for Home Monitoring Patients With COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yordanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dechartres",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lescure",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Med Internet Res",
+            "volume": "22",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Telemedicine Consultations and Follow-up of Patients With COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Crane",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ganesh",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Post",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Mayo Clin Proc",
+            "volume": "95",
+            "issn": "",
+            "pages": "33--37",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Telephone follow-up of SARS-CoV-2 positive patients at the Oncology",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Jankovic",
+                    "suffix": ""
+                },
+                {
+                    "first": "Da",
+                    "middle": [],
+                    "last": "Silva Lopes",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Morez",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Telehealth for global emergencies: Implications for coronavirus disease 2019 (COVID-19)",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Snoswell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Telemed Telecare",
+            "volume": "26",
+            "issn": "",
+            "pages": "309--322",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Telemedicine: Pediatric Applications",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Burke",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hall",
+                    "suffix": ""
+                },
+                {
+                    "first": "Section",
+                    "middle": [],
+                    "last": "On",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Care",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Pediatrics",
+            "volume": "136",
+            "issn": "",
+            "pages": "293--308",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "nasopharyngeal swab) for SARS-CoV-2, and the results of other investigations. The intensity of the children's course was classified as; (a) absence of symptoms; (b) mild: symptomatic children with normal auscultation and no radiological sign of pneumonia; (c) moderate: children with abnormal auscultation (moist crepitation or wheezing) or radiological sign of pneumonia; (d) severe or critical: children with hypoxemia requiring oxygen, or with organ failure needing intensive care, according to the classification proposed by Dong et al. [6].",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Flow chart. PCR: polymerase chain reaction",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Distribution of the teleconsultations during the follow-up program: percentage (%) and number (N) of patients. M1 = 1 month. Tables: Supplemental data. French monitoring instructions for children with confirmed SARS-CoV-2 infection returning home. http://www.sciencedirect.com,doi...",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "of the teleconsultations during the follow-up program (percentage (%) and number (N) of patients) Percentage of patients (%)",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Baseline characteristics of children with a suspected or confirmed SARS-CoV-2 infection followed up at our centerSymptoms at baselineTable 2. Clinical course of children with a suspected or confirmed SARS-CoV-2 infection followed-up at our center",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Comparison of characteristics of children with outpatient consultation or ED visit during follow-up",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Persistence of fever in newborn (< 1 month) 2 (67%) 2 (100%)Persistence of digestive symptoms 1 (33%) 0 (0%) ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Reason for the secondary hospitalization 3"
+        }
+    ]
+}

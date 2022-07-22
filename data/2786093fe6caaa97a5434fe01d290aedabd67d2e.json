@@ -1,0 +1,2645 @@
+{
+    "paper_id": "2786093fe6caaa97a5434fe01d290aedabd67d2e",
+    "metadata": {
+        "title": "Understanding COVID-19 dynamics and the effects of interventions in the Philippines: A mathematical modelling study \u2729",
+        "authors": [
+            {
+                "first": "Jamie",
+                "middle": [
+                    "M"
+                ],
+                "last": "Caldwell",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Hawaii at Manoa",
+                    "location": {
+                        "settlement": "Hawaii",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Elvira",
+                "middle": [],
+                "last": "De Lara-Tuprio",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ateneo de Manila University",
+                    "location": {
+                        "settlement": "Quezon City",
+                        "country": "Philippines"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Timothy",
+                "middle": [
+                    "Robin"
+                ],
+                "last": "Teng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ateneo de Manila University",
+                    "location": {
+                        "settlement": "Quezon City",
+                        "country": "Philippines"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Maria",
+                "middle": [],
+                "last": "Regina",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Justina",
+                "middle": [
+                    "E"
+                ],
+                "last": "Estuar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Ateneo de Manila University",
+                    "location": {
+                        "settlement": "Quezon City",
+                        "country": "Philippines"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Raymond",
+                "middle": [],
+                "last": "Francis",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "R",
+                "middle": [],
+                "last": "Sarmiento",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of the Philippines",
+                    "location": {
+                        "settlement": "Manila",
+                        "country": "Philippines"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Milinda",
+                "middle": [],
+                "last": "Abayawardana",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "B",
+                "middle": [],
+                "last": "Eng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Melbourne",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Robert",
+                "middle": [],
+                "last": "Neil",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "F",
+                "middle": [],
+                "last": "Leong",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of New South Wales",
+                    "location": {
+                        "settlement": "Sydney",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Richard",
+                "middle": [
+                    "T"
+                ],
+                "last": "Gray",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of New South Wales Sydney",
+                    "location": {
+                        "settlement": "Sydney",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "James",
+                "middle": [
+                    "G"
+                ],
+                "last": "Wood",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of New South Wales",
+                    "location": {
+                        "settlement": "Sydney",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Linh-Vi",
+                "middle": [],
+                "last": "Le",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "World Health Organization Regional Office for the Western Pacific",
+                    "location": {
+                        "settlement": "Manila",
+                        "country": "Philippines"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Emma",
+                "middle": [
+                    "S"
+                ],
+                "last": "Mcbryde",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "James Cook University",
+                    "location": {
+                        "addrLine": "2538 McCarthy Mall, Edmondson Hall",
+                        "postCode": "96822",
+                        "settlement": "Queensland, Honolulu",
+                        "region": "HI",
+                        "country": "Australia, USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Romain",
+                "middle": [],
+                "last": "Ragonnet",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Melbourne",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "James",
+                "middle": [
+                    "M"
+                ],
+                "last": "Trauer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Monash University",
+                    "location": {
+                        "settlement": "Melbourne",
+                        "country": "Australia"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: COVID-19 initially caused less severe outbreaks in many low-and middle-income countries (LMIC) compared with many high-income countries, possibly because of differing demographics, socioeconomics, surveillance, and policy responses. Here, we investigate the role of multiple factors on COVID-19 dynamics in the Philippines, a LMIC that has had a relatively severe COVID-19 outbreak.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "We applied an age-structured compartmental model that incorporated time-varying mobility, testing, and personal protective behaviors (through a \"Minimum Health Standards\" policy, MHS) to represent the first wave of the Philippines COVID-19 epidemic nationally and for three highly affected regions (Calabarzon, Central Visayas, and the National Capital Region). We estimated effects of control measures, key epidemiological parameters, and interventions.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Findings: Population age structure, contact rates, mobility, testing, and MHS were sufficient to explain the Philippines epidemic based on the good fit between modelled and reported cases, hospitalisations, and deaths. The model indicated that MHS reduced the probability of transmission per contact by 13-27%. The February 2021 case detection rate was estimated at ~8%, population recovered at ~9%, and scenario projections indicated high sensitivity to MHS adherence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Interpretation: COVID-19 dynamics in the Philippines are driven by age, contact structure, mobility, and MHS adherence. Continued compliance with low-cost MHS should help the Philippines control the epidemic until vaccines are widely distributed, but disease resurgence may be occurring due to a combination of low population immunity and detection rates and new variants of concern.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Evidence before this study",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research in context"
+        },
+        {
+            "text": "The ongoing COVID-19 pandemic has affected more than 188 countries with variable impacts across settings, and apparently less severe outbreaks initially in many low-and middle-income countries (LMIC) compared with many high income countries. Understanding the reasons for these differences is critical in determining how to ease restrictive nonpharmaceutical interventions (NPIs) without causing disease resurgence until vaccines are widely distributed. There are numerous factors that could drive these differences across countries, including population age structure, contact patterns, population density, seasonality, pre-existing exposure to other coronaviruses, comorbidities associated with poorer COVID-19 outcomes, healthcare and testing capacity, and intervention policies. Previous studies suggest that in LMIC, any benefits from factors like younger populations (due to lower susceptibility and infectiousness) may be negated by factors such as limitations in surveillance and healthcare capacity. If true, NPI timing and stringency could be expected to explain differences in COVID-19 burden across income settings.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research in context"
+        },
+        {
+            "text": "Added value of this study We explored the extent to which age structure, contact patterns, changes in mobility and personal protective behaviors have driven the COVID-19 epidemic in the Philippines using a compartmental model and considered scenarios for future disease burden with policy changes. The model indicated that COVID-19 epidemiology in the Philippines can be explained by age, contact structure, mobility, and adherence to public health policies. The Minimum Health Standards policy, which requires people to adopt a suite of personal protective behaviors, has played a substantial role in reducing transmission in the Philippines. However, low testing capacity, the limited proportion of the population recovered from infection (modelled), and high sensitivity to easing policies, are likely to be important factors in determining the potential for disease resurgence.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research in context"
+        },
+        {
+            "text": "Implications of all the available evidence Age and contact structures likely drive the substantial differences in COVID-19 burdens across income settings, but low-cost interventions can limit disease burden further. While numerous demographic, political, and socioeconomic factors are hypothesised to affect disease transmission, the results of this study suggest that, prior to the introduction of variants of concern, the apparent lower burden of disease in the Philippines was driven by younger populations, contact structure, and policy. Using the Philippines as a case study, which experienced a relatively severe COVID-19 outbreak for a LMIC, we investigated the effectiveness of NPIs and personal protective behaviors in curtailing transmission and found that personal protective behaviors have likely reduced disease burden considerably. This study therefore provides evidence of a low-cost, effective intervention policy that could be adopted by other countries to prevent disease resurgence while vaccines are distributed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Research in context"
+        },
+        {
+            "text": "Coronavirus disease of 2019 (COVID-19) epidemiology differs across settings with apparently less severe initial outbreaks in many low-and middle-income countries (LMIC) compared with many high income countries (HIC) 1 , 2 , such that understanding why LMIC are less affected is critical to understanding global epidemiology. Multiple demographic and socioeconomic factors likely drive differential COVID-19 burden across income groups, both within and among countries. Expansive population pyramids and tropi-cal climates may reduce COVID-19 transmission and severe disease in many LMIC [3] [4] [5] , while high contact rates, high prevalence of comorbidities, high population densities, and limited healthcare capacity could increase burden [6] [7] [8] [9] [10] . While many LMIC have had lower COVID-19 burdens than HIC, weak surveillance systems 11 could also affect epidemic estimates. Nonetheless, understanding why many LMIC have had apparently less severe outbreaks could help other countries better control their epidemics until vaccines are widely distributed.",
+            "cite_spans": [
+                {
+                    "start": 587,
+                    "end": 590,
+                    "text": "[3]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 591,
+                    "end": 594,
+                    "text": "[4]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 595,
+                    "end": 598,
+                    "text": "[5]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 742,
+                    "end": 745,
+                    "text": "[6]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 746,
+                    "end": 749,
+                    "text": "[7]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 750,
+                    "end": 753,
+                    "text": "[8]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 754,
+                    "end": 757,
+                    "text": "[9]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 758,
+                    "end": 762,
+                    "text": "[10]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 849,
+                    "end": 851,
+                    "text": "11",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "While there are now several highly efficacious vaccines to prevent severe disease 12 , 13 , and possibly infection 14 , 15 , from SARS-CoV-2 (the virus that causes COVID-19), widespread vaccination will take months to years 16 , 17 and will likely need to be coupled with effective non-pharmaceutical interventions (NPIs) 18 . For countries rolling out vaccines, easing NPIs too early could jeopardize success 18 . However, for the majority of the world's population, particularly those living in LMIC, vaccine access and delivery is limited 19 and widespread vaccination coverage may take two or more years 17 , 20 . Thus, with or without vaccines, understanding the effectiveness of NPIs that can curtail COVID-19 transmission is critical. There are three broad categories of NPIs, those that aim to: (i) isolate infected individuals and their contacts; (ii) reduce contact between infected and susceptible people (henceforward \"macrodistancing\"); and (iii) reduce transmission given contact between infected and susceptible people (henceforward \"microdistancing\"). Most HIC have enforced initiatives for all three types of NPIs with a focus on long, strict macrodistancing interventions through stayat-home orders. LMIC have also employed macrodistancing policies but often with shorter, less strict orders because these types of initiatives exacerbate poverty and have societal costs 21 , 22 that LMIC cannot withstand (although some LMIC like China enforced strict, short-term macrodistancing policies that led to successful disease suppression). Relaxing of short-term macrodistancing policies would be expected to lead to disease resurgence 23 , which runs counter to the experience of some LMIC. A meta-analysis indicates that inexpensive microdistancing policies (e.g., properly wearing face masks) can be highly effective 24 and therefore could explain why some LMIC are continuing to suppress transmission after an initial period of macrodistancing.",
+            "cite_spans": [
+                {
+                    "start": 82,
+                    "end": 89,
+                    "text": "12 , 13",
+                    "ref_id": null
+                },
+                {
+                    "start": 115,
+                    "end": 122,
+                    "text": "14 , 15",
+                    "ref_id": null
+                },
+                {
+                    "start": 224,
+                    "end": 231,
+                    "text": "16 , 17",
+                    "ref_id": null
+                },
+                {
+                    "start": 322,
+                    "end": 324,
+                    "text": "18",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 410,
+                    "end": 412,
+                    "text": "18",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 542,
+                    "end": 544,
+                    "text": "19",
+                    "ref_id": null
+                },
+                {
+                    "start": 608,
+                    "end": 615,
+                    "text": "17 , 20",
+                    "ref_id": null
+                },
+                {
+                    "start": 1832,
+                    "end": 1834,
+                    "text": "24",
+                    "ref_id": "BIBREF29"
+                }
+            ],
+            "ref_spans": [],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "The Philippines is one of the most severely affected countries by COVID-19 in the Western Pacific Region [25] [26] [27] . Here we investigate COVID-19 epidemiology in the Philippines during the first wave of transmission and the effectiveness and sensitivity to microdistancing policies. The Philippines is a LMIC that, during the first epidemic wave, had over 580,0 0 0 confirmed cases and more than 12,0 0 0 deaths, with a peak in incidence in August 2020; at time of writing, the Philippines is undergoing a subsequent second, more severe wave of transmission that is not assessed in this study. Various NPIs have been implemented in the country, with the timing and level of restriction varying by region. The NPIs implemented include different levels of community quarantines, including school closures 28 . Between October 2020 and March 2021, the Philippines shifted from a focus on community quarantine orders towards greater reliance on Minimum Health Standards (MHS) policies, requiring the proper use of face coverings, physical distancing, and hand hygiene. To gain insights into the Philippines epidemic during the first wave of transmission, we present a datadriven COVID-19 model, which includes age structure, heterogeneous contact patterns, time-varying testing rates, and macro-and microdistancing. We use this model to 1) estimate epidemiological parameters for COVID-19 in the Philippines; 2) consider the effects of NPIs implemented during the first wave of transmission; and 3) create scenarios for various policy changes and estimate associated risk of disease resurgence. Stratification by infection and detection status (same colour scheme as in A) for actively infectious exposed and infected compartments. (D) Heterogeneous mixing matrices by age in the absence of NPIs (brighter colours indicate higher average number of contacts per day). (E) Community quarantine driven mobility adjustments applied to the mixing matrices (before seven-day moving average smoothing). Other locations include average from retail and recreation, supermarket and pharmacy, parks, and public transport. We provide panels A and E for the regional models in Fig. S4 .",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "[25]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 110,
+                    "end": 114,
+                    "text": "[26]",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 115,
+                    "end": 119,
+                    "text": "[27]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 808,
+                    "end": 810,
+                    "text": "28",
+                    "ref_id": "BIBREF33"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 2165,
+                    "end": 2172,
+                    "text": "Fig. S4",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "INTRODUCTION"
+        },
+        {
+            "text": "We used several data sources from the Philippines to assess COVID-19 epidemiology at the national level and for three highly affected regions: Calabarzon (Region IV-A), Central Visayas (Region VII), and the National Capital Region (Metro Manila). For national and regional population data, we used the 2020 projected population distribution by age from the Philippines Statistics Authority ( Figs. 1 A, S4). To gain insight into the first wave of transmission in the Philippines, we used time series data from 1 March 2020 to 23 February 2021. We aggregated these data across all age groups (for data sources where age was available), because data were sparse for certain age groups and > 20 0 0 records were missing age information. For number of tests, ICU occupancy, and deaths, we used daily data from the Republic of the Philippines Department of Health COVID-19 Data Drop ( https://doh.gov.ph/covid19tracker ). We aggregated test data from multiple laboratories (we list the laboratory facilities associated with each region in Table S6 ). For daily confirmed cases, we used the Department of Health COVID-19 Philippines Local Government Units Monitoring Platform ( https: //fassster.ehealth.ph/covid19/ ). Lab facilities in the Philippines confirmed cases by RT-PCR and we calculated daily cases based on report date. To account for differences between weekday and weekend reporting, we smoothed daily confirmed cases using a seven day moving average. To quantify changing mobility patterns associated with NPIs, we used Google mobility data ( https://www.google. com/covid19/mobility/ ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1034,
+                    "end": 1042,
+                    "text": "Table S6",
+                    "ref_id": null
+                }
+            ],
+            "section": "Data"
+        },
+        {
+            "text": "We developed an age-structured deterministic compartmental model of SARS-CoV-2 viral transmission to model disease spread in the Philippines. We included six sequential compartments in the model representing susceptible, non-infectious exposed, infectious exposed, early actively infectious, late actively infectious, and recovered/removed persons ( Figs. 1 B, S1; Table 1 ), and stratified the infectious compartments by detection status and disease severity ( Figs. 1 C, S2-3; we show differential equations in supplemental material). Similar SEEIIR model frameworks have been used for other studies on COVID-19 29 , 30 and influenza 31 . To account for agedependent processes, we stratified all model compartments by age group using 5-year age bands from birth to \u226575 years of age and allowed the proportion symptomatic, susceptibility to infection, infection fatality rate, and the probability of hospitalisation to differ by age group. To introduce heterogeneous mixing by age, we incorporated synthetic mixing matrices developed by Prem et al. 2017 32 ( Fig. 1 D) .",
+            "cite_spans": [
+                {
+                    "start": 614,
+                    "end": 621,
+                    "text": "29 , 30",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 365,
+                    "end": 372,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 1058,
+                    "end": 1069,
+                    "text": "( Fig. 1 D)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Model"
+        },
+        {
+            "text": "We considered several inter-compartmental transition rates to represent epidemiologically important processes. To estimate disease incidence, detected cases, hospitalisation, and ICU admission rates, we quantified transitions between different exposed and infectious compartments within the model ( Fig. 1 B-C, supplemental material). To calculate a modelled case detection rate, we calculated the proportion of symptomatic cases that were detected ( Fig. 1 C) . We related the case detection rate (CDR t where t = time) to the daily number of per capita tests performed using an exponential function, under the assumption that a certain testing rate is associated with a specific case detection rate (with this parameter Table 1 Compartments of the epidemiological model, indicating the stage of infection for different proportions of the population.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 297,
+                    "end": 305,
+                    "text": "( Fig. 1",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 451,
+                    "end": 460,
+                    "text": "Fig. 1 C)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 722,
+                    "end": 729,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Model"
+        },
+        {
+            "text": "Definition S Susceptible to infection. E n Non-infectious exposed, representing infected individuals in the non-infectious phase of the incubation period. E i Infectious exposed, representing infected individuals in the \"presymptomatic\" phase of the incubation period where onward transmission can occur. I e Early actively infectious, individuals are transmitting disease but not (yet) detected. I l Late actively infectious, symptomatic individuals are detected (for those whom detection does occur) and isolation and hospitalisation occurs. R Recovered and removed (i.e., dead).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compartment"
+        },
+        {
+            "text": "varied in calibration):",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Compartment"
+        },
+        {
+            "text": "We simulated community quarantines (e.g., business closures and working from home) by varying the relative contribution of four locations to an overall age-specific dynamic mixing matrix ( Figs. 1 D) . Using Google mobility data, we scaled the household contribution to the matrix with residential mobility; the work contribution with workplace mobility; and the contribution from other locations (contacts outside of schools, homes, and work) with average mobility from all other Google mobility locations ( Fig. 1 E,  S4) . We simulated school closures by scaling school contribution according to the proportion of children attending schools under relevant policies. When schools closed, home contacts scaled up with residential Google mobility data, although in reality, scaling up home contacts beyond the average household size may not strongly affect transmission due to contact saturation (i.e., the ceiling effect of the limited number of potential contacts to infect within each household). In the Philippines, school closures started in mid-March 2020 in the most highly affected areas and schools remain closed throughout the country (as of 10th May 2021).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 187,
+                    "end": 199,
+                    "text": "( Figs. 1 D)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 509,
+                    "end": 523,
+                    "text": "Fig. 1 E,  S4)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Non-pharmaceutical interventions"
+        },
+        {
+            "text": "We simulated MHS as a scaled function that proportionally reduces the probability of transmission given contact (reducing the probability of an infected person passing on the infection and the probability of a contact being infected). We allowed the function to scale from zero when we assumed minimal compliance with MHS (15th August 2020) to a maximum value estimated by the calibration process (described below) when MHS was widely adopted (15th November 2020).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Non-pharmaceutical interventions"
+        },
+        {
+            "text": "We calibrated the model to data to reproduce local COVID-19 dynamics and evaluated estimations of key epidemiological parameters ( Table 2 ) . We used three sources of local data as calibration targets: total daily confirmed cases and the most recent estimate of ICU occupancy and cumulative deaths (806 and 11523 respectively for the national model). Although we calibrated the model to these three targets simultaneously, we prioritized confirmed cases in the calibration process because these data are considered the highest quality in the Philippines for COVID-19 (based on advice from local health officials), while limiting the use of ICU and mortality data to the most recent values, as the quality of these data improved over time. We simultaneously fit the model to the three calibration targets using an adaptive Metropolis algorithm 33 ( Table 2 ; supplemental material). For the prior distributions of epidemiological calibration parameters, we used uniform priors for highly uncertain quantities and truncated normal distributions for quantities informed by epidemiological evidence ( Table 2 ; supplemental material). To account for potential differences between HIC and LMIC, we included \"adjuster\" parameters to modify the proportion of symptomatic individuals, proportion of symptomatic individuals hospitalised, and the infection fatality rate (which are based on estimates from HIC). The adjuster values are multiplicative factors applied to the odds ratio, where an adjuster value of one would indicate no adjustment is needed, a value below one would indicate the parameter is lower in the Philippines, and a value above one would indicate the parameter is higher in the Philippines. To calibrate the model, we ran seven independent chains with approximately 10 0 0 0 iterations per chain and discarded the first 200 iterations as burn-in. We evaluated convergence and autocorrelation through visual inspection of trace plots and autocorrelograms respectively, and calculated effective sample sizes. We used Latin Hypercube Sampling across the multidimensional parameter space to select initial parameter conditions. We structured the model, calibration data, likelihood function, and priors identically for the national and regional models. We report the model outputs as median estimates with 25-75 and 2.5-97.5 credible interval percentiles to show uncertainty.",
+            "cite_spans": [
+                {
+                    "start": 844,
+                    "end": 846,
+                    "text": "33",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 129,
+                    "end": 140,
+                    "text": "( Table 2 )",
+                    "ref_id": null
+                },
+                {
+                    "start": 847,
+                    "end": 858,
+                    "text": "( Table 2 ;",
+                    "ref_id": null
+                },
+                {
+                    "start": 1096,
+                    "end": 1105,
+                    "text": "( Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Calibration"
+        },
+        {
+            "text": "We ran scenarios with different policy changes to estimate future COVID-19 transmission and potential for disease resurgence with easing different interventions. The baseline scenario held mobility and MHS constant based on the most recent date of data (26th February 2021) through the end of the scenario period (31st December 2021). All scenarios began on 27 th February 2021. We simulated 50% return of onsite workers by increasing the relative contribution of workplace mobility in the overall age-specific mixing matrix from current levels to current levels plus half the difference between current workplace mobility and pre-COVID workplace mobility. We simulated school reopenings by scaling school contribution in the overall age-specific mixing matrix from zero to one on the scenario start date to reflect full school attendance. To estimate the effect of easing MHS by 50, 70, and 100%, we decreased the microdistancing function, which reduces the values of all elements of the mixing matrices by a certain proportion, to 0.5, 0.3, and 0.0, respectively. We report the scenarios as median values with 25-75 and 2.5-97.5 percentiles to show uncertainty.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Scenarios"
+        },
+        {
+            "text": "The funding source of this study facilitated collaboration, helped to define the research questions, and assisted with interpretation, but had no role in model development, parameterisation, and methodological aspects of the study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Role of the funding source"
+        },
+        {
+            "text": "The model reproduced national and regional trends in confirmed cases, hospitalisations, and deaths when incorporating changes in movement and adherence to MHS. Prior to assessing model fit to data, we determined that the model converged by visually assessing trace plots (e.g., Fig S5 for parameters in the national model) and calculated effective sample sizes of 1170 for the national model, 869 for Calabarzon, 1139 for Central Visayas, and Table 2 Key parameter prior and posterior distributions from the Philippines model. All parameters with the term \"adjuster\" allow for modification to the best estimates from the literature. Adjuster values are multiplicative factors applied to the odds ratio. An adjuster value of one indicates no adjustment is needed, a value below one indicates the parameter is lower in the Philippines, and a value above one indicates the parameter is higher in the Philippines. MHS is the Minimum Health Standards and refers to the microdistancing function that proportionally reduces the probability of transmission given contact. Parameter 1513 for the National Capital Region. The model fit was considerably better with the inclusion of both community quarantineadjusted movement and adherence to MHS compared with a counterfactual scenario that only included community quarantines ( Figs. 2 , S6-8) . These results suggest that if MHS had not been implemented, there would have been twelve times as many cases at the August 2020 outbreak peak. The four calibrated models (national and three regional models) show reasonably good fits to total confirmed cases ( Figs. 2-3 ) . Additionally, the distributions are similar for modelled and confirmed cumulative cases by age group, with very close correspondence for those aged 40 years and above, but underpredictions for those aged 25-39 and overpredictions for ages 19 and below (Fig. S9) . The models slightly overpredict reported cumulative deaths and ICU occupancy (except for the National Capital Region) ( Figs. 4 , S10-12) . We estimated the proportion of the population recovered by the end of the first wave of transmission as approximately 9% (95% CI = 4-31%) as of 26th February 2021 ( Fig. 4 ) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 278,
+                    "end": 288,
+                    "text": "Fig S5 for",
+                    "ref_id": "FIGREF4"
+                },
+                {
+                    "start": 443,
+                    "end": 450,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 1317,
+                    "end": 1334,
+                    "text": "( Figs. 2 , S6-8)",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1595,
+                    "end": 1608,
+                    "text": "( Figs. 2-3 )",
+                    "ref_id": "FIGREF1"
+                },
+                {
+                    "start": 1863,
+                    "end": 1872,
+                    "text": "(Fig. S9)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1993,
+                    "end": 2012,
+                    "text": "( Figs. 4 , S10-12)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 2178,
+                    "end": 2188,
+                    "text": "( Fig. 4 )",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Epidemiological fit"
+        },
+        {
+            "text": "We estimated key epidemiological parameters and transition rates ( Table 2 ; Fig. S13 ). We incorporated parameters to adjust the proportion of symptomatic individuals, the proportion of symptomatic individuals hospitalised, and the infection fatality rate from the baseline values and estimated all three adjuster parameters had broad distributions overlapping one, indicating that the process of fitting to data did not provide information on the adjustments needed to these quantities. The maximum effect of MHS was estimated at around 0.20 (95% CI = 0.12 -0.27) with a tight posterior distribution (Fig. S13) , suggesting that MHS has reduced the risk of transmission per contact by about 20%. The model case detection was estimated at approximately 2 to 15% in the Philippines (Fig. S14) , although the posterior distribution of this value was broad (Fig. S13) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 67,
+                    "end": 74,
+                    "text": "Table 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 77,
+                    "end": 85,
+                    "text": "Fig. S13",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 602,
+                    "end": 612,
+                    "text": "(Fig. S13)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 782,
+                    "end": 792,
+                    "text": "(Fig. S14)",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 855,
+                    "end": 865,
+                    "text": "(Fig. S13)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Parameter and case detection estimation"
+        },
+        {
+            "text": "We projected transmission in the near term under a range of possible scenarios and show that, prior to the second epidemic wave, epidemic trajectories were highly sensitive to compliance with MHS. Moreover, allowing home workers to return onsite while maintaining MHS was estimated to have limited impact on detected cases ( Figs. 5 , S15-17), as well as overall incidence, hospital occupancy, and mortality (although the projections did not account for potentially increased transmission within contained spaces during the work week). If current conditions were carried forward, transmission was projected to continue at low levels and therefore would not overwhelm hospital capacity or lead to excessive deaths. Allowing students to return to school was estimated to result in a considerable increase in cases (although this result varied markedly by region, Figs. S15-17) . Reducing the effectiveness of MHS by 50% was projected to lead to a steady increase in burden, whereas reducing the effectiveness of MHS by 70% or 100% was projected to lead to a major resurgence in cases, associated hospitalisations, and deaths.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 861,
+                    "end": 874,
+                    "text": "Figs. S15-17)",
+                    "ref_id": "FIGREF0"
+                }
+            ],
+            "section": "Scenario projections"
+        },
+        {
+            "text": "The combination of younger age distributions, more intergenerational contacts, changes in mobility, and changes in personal protective behaviors, appear to explain why the Philippines sustained a relatively less severe COVID-19 outbreak than many high income countries (HIC), prior to the introduction of variants of concern 34 , 35 . Younger populations typical of LMIC may reduce disease burden in two ways: 1) a proportionally smaller percent of the We calibrated the national model to daily confirmed cases (black dots; same in both plots), which included MHS (left) and ran a counterfactual scenario that did not include MHS (right). The MHS effect value (i.e., reduced transmission risk per contact) is squared in the model to account for the reduction in the probability of an infected person passing on the infection and the probability of a contact being infected, prior to adjustment of each cell of the mixing matrix. We provide results for the regional models with and without MHS in Figs. S6-8. population is elderly (compared with HIC) and at highest risk of severe disease and mortality from COVID-19 3 , 4 ; and 2) those who survive to old age are often of higher socioeconomic status and may have a disproportionately lower infection risk compared with the general population 36 . More intergenerational contacts in LMIC may also lower disease burden because elderly people often reside with family rather than in aged-care facilities, which have driven outbreak clusters in many HIC (e.g., [37] ). An important finding of this study is that adherence to MHS appeared largely responsible for limiting transmission in the Philippines while gradually easing quarantines during the first epidemic wave. These results were consistent across regions (i.e., all models presented in this paper) that span a wide population density gradient, suggesting that this approach is effective in both rural and urban areas and could also be effective in other similar settings. It is possible that the effect of MHS is a surrogate for other time-varying processes, however, local experts within the Philippines provide strong intuition that MHS is responsible for driving the patterns we found. In addition, we are not aware of any other processes than those modelled that could be responsible for these patterns. These types of personal protective measures will likely continue to be needed throughout 2021 and potentially 2022, depending on the speed of vaccine distribution.",
+            "cite_spans": [
+                {
+                    "start": 325,
+                    "end": 332,
+                    "text": "34 , 35",
+                    "ref_id": null
+                },
+                {
+                    "start": 1116,
+                    "end": 1121,
+                    "text": "3 , 4",
+                    "ref_id": null
+                },
+                {
+                    "start": 1293,
+                    "end": 1295,
+                    "text": "36",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 1508,
+                    "end": 1512,
+                    "text": "[37]",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Current transmission trends in the Philippines (as of 10th May 2021) indicate that the country is in the middle of a second, larger wave of transmission and sustained disease spread remains a major threat until vaccines are widely distributed. Local expert opinion suggests the second wave is mainly occurring in the National Capital Region and parts of Calabarzon and are driven by new variants of concern 34 , which are more transmissible and lethal 38 . Further, increases in mobility, due to relaxed interzonal travel requirements, and lower compliance to MHS (which could be attributable to over-confidence in disease control and fatigue with personal protective behaviors), provides more transmission opportunities. The results of this study provided real-time weekly updates of the model outputs through the first wave directly to policy-makers through the Department of Health COVID-19 Philippines Local Government Units Monitoring Platform ( https: //fassster.ehealth.ph/covid19/ ) and indicated that, in the absence of new variants, relaxing societal restrictions like work-from-home orders were not predicted to cause substantial disease resurgence. At the same time, low case detection (2-15%) and percentage re- We provide equivalent regional model outputs in Figs. S10-12. . We provide epidemic scenario projections for the regional models in Figs. S15- 17. covered (modelled at < 31%) and high sensitivity to maintaining MHS indicated that disease resurgence remained a major threat. Thus, prior to the introduction of disease variants, MHS may have been sufficient to sustain suppression of transmission as a bridge to broad scale vaccination. Although not modelled in this study, the increased transmissibility of the new variants may be broadly comparable to the reduction in transmission gained by MHS adherence. Therefore, these measures may no longer be sufficient to suppress transmission as strain replacement occurs, although they would still help alleviate burden on the health care system. Recent disease resurgence in the Philippines demonstrates the need for sustained non-pharmaceutical interventions until vaccines are widely distributed. Limited testing is another major obstacle for the Philippines 39 and many other LMIC and can hinder both public health response and our understanding of the epidemic.",
+            "cite_spans": [
+                {
+                    "start": 407,
+                    "end": 409,
+                    "text": "34",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 452,
+                    "end": 454,
+                    "text": "38",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1368,
+                    "end": 1371,
+                    "text": "17.",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "There are several important limitations relevant to interpreting the model results, including modelling assumptions, data limitations, and uncertainty. Most epidemiological parameters for COVID-19 used in this study were estimated from HIC (or China). While we included \"adjuster\" parameters to allow the symptomatic proportion, hospitalisation, and mortality rates to vary for the Philippines (similar to [40] ), these parameters were not well constrained by the data. We assumed that other parameters were similar to HIC, which may be inaccurate. However, most parameter estimates appear reasonable given previously reported COVID-19 epidemiology in the Philippines 26 . When more data become avail-able from the Philippines or similar settings, the current model can be updated with new parameter values. Data issues made modelling and understanding the epidemic in the Philippines particularly challenging, although data quality has progressively improved through time. For example, additional ICU facilities were created specifically for COVID-19 in the Philippines and were not required to report usage, likely affecting these estimates, especially early in the epidemic. Similarly, daily deaths, which are often considered the most reliable epidemic indicator internationally, have fluctuated markedly over the course of the epidemic, often peaking at times that appear contradictory to patterns of confirmed cases. Although reporting of daily deaths appears unreliable, cumulative deaths align reasonably well with the model projections of mortality without significant modification to the internationally estimated infection fatality rate. Finally, there is uncertainty around all model parameters, with some parameters less well constrained than others (e.g., case detection rate), which highlights the need for more epidemiological information. Future studies could build on this effort by including new, more robust data sources for model parameters and calibration targets.",
+            "cite_spans": [
+                {
+                    "start": 406,
+                    "end": 410,
+                    "text": "[40]",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 668,
+                    "end": 670,
+                    "text": "26",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "One of the most critical issues facing countries around the world is determining the best strategy for ending COVID-19 transmission through the combined use of vaccines and nonpharmaceutical interventions. More than 188 countries have been affected by COVID-19 with apparently less severe impacts in many LMIC compared with HIC. Our results suggest that COVID-19 epidemiology in the Philippines can be explained by differences in age, contact structures, and policy, with MHS playing a substantial role in mitigating the initial outbreak. The Philippines has experienced one of the largest outbreaks of COVID-19 in the Western Pacific Region but also provides an approach that could help other countries relax interventions more safely, which remains an important strategy for countries with limited access to vaccines.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "CONCLUSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Caldwell: literature search, conceptualisation, study design, data curation, data analysis, validation, data interpretation, figures, and writing. Elvira de Lara-Tuprio: study design, data curation, data interpretation, review and editing. Timothy Robin Teng: data collection, data curation, data interpretation, validation, review and editing. Maria Regina Justina E. Estuar: software, supervision, funding acquisition, review and editing. Raymond Francis R. Sarmiento: data interpretation, supervision, validation, review and editing. Milinda Abayawardana: data curation, methodology",
+            "authors": [
+                {
+                    "first": "Jamie",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Leong: data collection, data interpretation, validation, review and editing",
+            "authors": [
+                {
+                    "first": "Robert",
+                    "middle": [],
+                    "last": "Neil",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Gray: methodology, data interpretation, visualisation, review and editing",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Richard",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Wood: literature search, methodology, data interpretation, review and editing. Linh-Vi Le: conceptualisation, data interpretation, review and editing. Emma S. McBryde: funding acquisition, supervision, methodology, review and editing. Romain Ragonnet: data analysis, data interpretation, methodology",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "James",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Trauer: conceptualisation, study design, methodology, data analysis, validation, data interpretation, figures, and writing",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "James",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "The need for COVID-19 research in low-and middle-income countries",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gupta",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Adhikari",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Bar-Zeev",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Bhandari",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Coria",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Global Health Research and Policy. BioMed Central Ltd",
+            "volume": "5",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "COVID-19 Mortality in Rich and Poor Countries A Tale of Two Pandemics?",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Schellekens",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sourrouille",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Changes in contact patterns shape the dynamics of the COVID-19 outbreak in China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Litvinova",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Science",
+            "volume": "36",
+            "issn": "8",
+            "pages": "14--81",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Age-specific mortality and immunity patterns of SARS-CoV-2. Nature 2020",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "O&apos;driscoll",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dos",
+                    "middle": [],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Cummings",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dat",
+                    "middle": [],
+                    "last": "Azman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Paireau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Role of air temperature and humidity in the transmission of SARS-CoV-2 in the United States 2. medRxiv",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shaman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Dubrow",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Dangerous to claim \"no clear association\" between intergenerational relationships and COVID-19",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Dowd",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Block",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Rotondi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mil",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "117",
+            "issn": "42",
+            "pages": "25975--25981",
+            "other_ids": {
+                "DOI": [
+                    "http:/www.pnas.org/cgi/doi/10.1073/pnas.2016831117"
+                ]
+            }
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Residential Context and COVID-19 Mortality among the Elderly in Stockholm: A population-based, observational study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brand\u00e9n",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Aradhya",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kolk",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "H\u00e4rk\u00f6nen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Drefahl",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Malmberg",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized With COVID-19 in the New York City Area",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Hirsch",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Narasimhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Crawford",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Mcginn",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Davidson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA",
+            "volume": "323",
+            "issn": "20",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Influence of Absolute Humidity, Temperature and Population Density on COVID-19 Spread and Decay Durations: Multi-Prefecture Study in Japan",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rashed",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kodera",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gomez-Tames",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Hirata",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int J Environ Res Public Health",
+            "volume": "17",
+            "issn": "15",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Population density, a factor in the spread of COVID-19 in Algeria: statistic study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kadi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Khelfaoui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bull Natl Res Cent",
+            "volume": "44",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "https:/link-springer-com.stanford.idm.oclc.org/articles/10.1186/s42269-020-00393-x"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Driving improvements in emerging disease surveillance through locally relevant capacity strengthening",
+            "authors": [
+                {
+                    "first": "Jeb",
+                    "middle": [],
+                    "last": "Halliday",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Hampson",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Hanley",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lembo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Sharp",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Haydon",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "American Association for the Advancement of Science",
+            "volume": "357",
+            "issn": "",
+            "pages": "146--154",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The Advisory Committee on Immunization Practices' Interim Recommendation for Use of Moderna COVID-19 Vaccine -United States",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Oliver",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Gargano",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Marin",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wallace",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Curran",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Chamberland",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "5152",
+            "pages": "1653--1659",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Polack",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Kitchin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Absalon",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gurtman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lockhart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "383",
+            "issn": "27",
+            "pages": "2603--2618",
+            "other_ids": {
+                "DOI": [
+                    "http:/www.nejm.org/doi/10.1056/NEJMoa2034577"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "BNT162b2 mRNA Covid-19 Vaccine in a Nationwide Mass Vaccination Setting",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Dagan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Barda",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Kepten",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Miron",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perchik",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Katz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "N Engl J Med",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Singledose BNT162b2 vaccine protects against asymptomatic SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Weekes",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jones",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rivett",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Workman",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Ferris",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shaw",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Authorea Prepr",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "What can we learn from Israel's rapid roll out of COVID 19 vaccination",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mckee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rajan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Israel Journal of Health Policy Research. BioMed Central Ltd",
+            "volume": "10",
+            "issn": "",
+            "pages": "1--4",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Allocating COVID-19 Vaccines Globally: An Urgent Need",
+            "authors": [
+                {
+                    "first": "Li",
+                    "middle": [],
+                    "last": "Bassi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "JAMA Heal Forum",
+            "volume": "2",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "The importance of non-pharmaceutical interventions during the COVID-19 vaccine",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Gozzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Bajardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Perra",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "94",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Urgent needs of low-income and middle-income countries for COVID-19 vaccines and therapeutics",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Figueroa",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bottazzi",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Hotez",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Batista",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Ergonul",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gilbert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Lancet",
+            "volume": "397",
+            "issn": "",
+            "pages": "562--566",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The Economist Intelligence Unit. Coronavirus vaccines: expect delays Q1 global forecast 2021",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Immediate impact of stay-at-home orders to control COVID-19 transmission on socioeconomic conditions, food insecurity, mental health, and intimate partner violence in Bangladeshi women and their families: an interrupted time series",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Hamadani",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Hasan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Baldi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hossain",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Shiraji",
+                    "suffix": ""
+                },
+                {
+                    "first": "Msa",
+                    "middle": [],
+                    "last": "Bhuiyan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Heal",
+            "volume": "8",
+            "issn": "11",
+            "pages": "1380--1389",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Potential impact of the COVID-19 pandemic on HIV, tuberculosis, and malaria in low-income and middle-income countries: a modelling study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Hogan",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Jewell",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Sherrard-Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Vesga",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Watson",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Whittaker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Glob Heal",
+            "volume": "8",
+            "issn": "9",
+            "pages": "1132--1173",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "The end of social confinement and COVID-19 re-emergence risk",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "L\u00f3pez",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Rod\u00f3",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Nat Hum Behav",
+            "volume": "4",
+            "issn": "7",
+            "pages": "746--55",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41562-020-0908-8"
+                ]
+            }
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Ranking the effectiveness of worldwide COVID-19 government interventions",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Haug",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Geyrhofer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Londei",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Dervic",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Desvars-Larrive",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Loreto",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat Hum Behav",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--10",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41562-020-01009-0"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Center for Strategic and International Studies",
+            "authors": [],
+            "year": 2020,
+            "venue": "CSIS Southeast Asia Covid-19 Tracker",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Epidemiological profile and transmission dynamics of COVID-19 in the Philippines",
+            "authors": [
+                {
+                    "first": "Njl",
+                    "middle": [],
+                    "last": "Haw",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Uy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ktl",
+                    "middle": [],
+                    "last": "Sy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mrm",
+                    "middle": [],
+                    "last": "Abrigo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Epidemiol Infect",
+            "volume": "148",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "SARS-CoV-2 wave two surveillance in east Asia and the pacific: Longitudinal trend analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Post",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Moss",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Murphy",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Ison",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Achenbach",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Med Internet Res",
+            "volume": "23",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Policy responses and government science advice for the COVID 19 pandemic in the Philippines",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Vallejo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rac",
+                    "middle": [],
+                    "last": "Ong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Prog Disaster Sci",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Early analysis of the Australian covid-19 epidemic",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Shearer",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Meehan",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Mcbryde",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Moss",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Golding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Elife",
+            "volume": "9",
+            "issn": "",
+            "pages": "1--14",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Augmenting contact matrices with time-use data for fine-grained intervention modelling of disease dynamics: A modelling analysis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Van Leeuwen",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sandmann",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Assessing Optimal Target Populations for Influenza Vaccination Programmes: An Evidence Synthesis and Modelling Study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Baguelin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Flasche",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Camacho",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Demiris",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Edmunds",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS Med",
+            "volume": "10",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Projecting social contact matrices in 152 countries using contact surveys and demographic data",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Prem",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Cook",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Jit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS Comput Biol",
+            "volume": "13",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "An adaptive Metropolis algorithm",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Haario",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Saksman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tamminen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Bernoulli",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Detection and genome sequencing of SARS-CoV-2 belonging to the B.1.1.7 lineage in the Philippines",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tablizo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Saloma",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjr",
+                    "middle": [],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Msl",
+                    "middle": [],
+                    "last": "Yangzon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lapid",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Genome sequencing and analysis of an emergent SARS-CoV-2 variant characterized by multiple spike protein mutations detected from the Central Visayas Region of the Philippines",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Tablizo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Lapid",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mjr",
+                    "middle": [],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "Msl",
+                    "middle": [],
+                    "last": "Yangzon",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Maralit",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Social environment effects on health and aging: Integrating epidemiologic and demographic approaches and perspectives. -Psy-cNET. Ann New York Acad Sci Popul Heal aging Strength dialogue between Epidemiol Demogr",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Seeman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Crimmins",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Internet]",
+            "volume": "954",
+            "issn": "",
+            "pages": "88--117",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Epidemiology of Covid-19 in a Long-Term Care Facility in King County, Washington",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcmichael",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Currie",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Clark",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Pogosjans",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Kay",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Schwartz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "21",
+            "pages": "2005--2016",
+            "other_ids": {
+                "DOI": [
+                    "https:/www-nejm-org.stanford.idm.oclc.org/doi/full/10.1056/NEJMoa2005412"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Estimated transmissibility and impact of SARS-CoV-2 lineage B.1.1.7 in England",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abbott",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Barnard",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Jarvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kucharski",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Munday",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Science",
+            "volume": "",
+            "issn": "6538",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Scaling Up Capacity for COVID-19 Testing in the Philippines | Coronavirus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nuevo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sigua",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Boxshall",
+                    "suffix": ""
+                },
+                {
+                    "first": "Paw",
+                    "middle": [],
+                    "last": "Co",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Yap",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Blog Posts Collection -BMJ Journals",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Group CC-19 working, et al. Projections of COVID-19 epidemics in LMIC countries | CMMID Repository",
+            "authors": [
+                {
+                    "first": "Cab",
+                    "middle": [],
+                    "last": "Pearson",
+                    "suffix": ""
+                },
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Kevin Van Z",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Jarvis",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Davies",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Checchi",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Age-structured COVID-19 model informed with population size, contact rates, and mobility from the Philippines. (A) Starting population age distribution used in the Philippines national model. (B) Unstratified model structure, coloured by infectious state (blue = non-infectious; pink = moderately infectious; red = highly infectious). (C)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Model reproduced daily confirmed case count better with the inclusion of Minimum Health Standards (MHS).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Model fit to confirmed cases in three regions of the Philippines, which varied in magnitude.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Model estimated epidemic indices from the calibrated Philippines model. Note that only the most recent estimate of cumulative deaths and ICU occupancy were included in the likelihood function, with the other time points presented as validation. ICU occupancy data was considered to have improved over the course of the epidemic.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Epidemic scenario projections for detected cases from the Philippines national model, showing high sensitivity to compliance with the Minimum Health Standards (MHS)",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This work was supported by the World Health Organization Regional Office for the Western Pacific to provide modelling advice to Member States. The funding source was not involved in the study. JMS is supported by a NASA Ecological Forecasting grant (NNX17AI21G). EDLT, TRT, MRJEE, and RFRS are supported by a project grant from the Philippine Council for Health Research and Development, Department of Science and Technology, Philippines. JMT is supported by an Early Career Fellowship from the National Health and Medical Research Council (APP1142638). The Kirby Institute is funded by the Australian Government Department of Health, and is affiliated with the Faculty of Medicine, UNSW Sydney, Australia.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgments"
+        },
+        {
+            "text": "Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.lanwpc.2021.100211 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary materials"
+        },
+        {
+            "text": "All data and model code are publicly available at https://github. com/monash-emu/AuTuMN/tree/phl-covid-paper-revision . For example, calibration data for the national and regional models are available at the following hyperlinks. National model data: https:// github.com/monash-emu/AuTuMN/blob/phl-covid-paper-revision/ apps/covid _ 19/regions/philippines/targets.json . Calabarzon model data: https://github.com/monash-emu/AuTuMN/blob/ phl-covid-paper-revision/apps/covid _ 19/regions/calabarzon/targets. json . Central Visayas model data: https://github.com/monash-emu/ AuTuMN/blob/phl-covid-paper-revision/apps/covid _ 19/regions/ central _ visayas/targets.json . National Capital Region data: https:// github.com/monash-emu/AuTuMN/blob/phl-covid-paper-revision/ apps/covid _ 19/regions/manila/targets.json .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data sharing"
+        },
+        {
+            "text": "Robert Neil F. Leong has received funding from the World Health Organization (WHO) Western Pacific Regional Office (WPRO) to conduct COVID-19 modelling work for select South-East Asian countries. He has served as a co-Investigator of the Foundation for Innovative New Diagnostics where he conducted a market landscaping study for point-of-care GeneXpert machines for gonorrhea and chlamydia and these machines are currently considered for COVID-19 use. He has been contracted, but services has not yet commenced, for technical secretariat services solely for the DSMB as part of the Phase IV clinical trial of Sinovac in the Philippine-leg (Sinovac by Biotech Ltd. through PiVOT Philippines).Richard Gray received funding from the WHO WPRO to conduct COVID-19 modelling work and provide support to countries in the region during 2020 and received additional funding from WHO for research outside the scope of this work. He received funding from the Australian Government Department of Health and the New South Wales (NSW) Department of Health, Corrective Services NSW, and Justice and Mental Health Network NSW for research outside of this work. He is a participant in the UNAIDS HIV Estimates and Projections Reference Group and he provided nonfunded project advice for Gilead and ViiV.James Wood received funding from WHO WPRO for COVID-19 research, of which this project was one aspect. He also received funding from the Australian Government Department of Health to support modelling contributions to Australian COVID-19 responses in 2020.James Trauer received funding from the WHO related to this work and various other COVID-19 modelling projects.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of Competing Interest"
+        }
+    ]
+}

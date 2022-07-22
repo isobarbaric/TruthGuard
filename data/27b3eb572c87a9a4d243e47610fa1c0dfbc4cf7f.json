@@ -1,0 +1,544 @@
+{
+    "paper_id": "27b3eb572c87a9a4d243e47610fa1c0dfbc4cf7f",
+    "metadata": {
+        "title": "Article Type: Original Research Title: Generative pretraining from large-scale transcriptomes: Implications for single- 3 cell deciphering and clinical translation Running title: Generative pretraining for large-scale transcriptomes. Correspondence to",
+        "authors": [
+            {
+                "first": "Hongru",
+                "middle": [],
+                "last": "Shen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Xilin",
+                "middle": [],
+                "last": "Shen",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Jiani",
+                "middle": [],
+                "last": "Hu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Jilei",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chao",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Dan",
+                "middle": [],
+                "last": "Wu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mengyao",
+                "middle": [],
+                "last": "Feng",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Meng",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Yang",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yichen",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Wei",
+                "middle": [],
+                "last": "Wang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Qiang",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tianjin Medical University",
+                    "location": {}
+                },
+                "email": ""
+            },
+            {
+                "first": "Jilong",
+                "middle": [],
+                "last": "Yang",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kexin",
+                "middle": [],
+                "last": "Chen",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Epidemiology of Tianjin, National Clinical Research Center for Cancer, Key Laboratory of 16 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "18 China"
+                    }
+                },
+                "email": "chenkexin@tmu.edu.cn"
+            },
+            {
+                "first": "Xiangchun",
+                "middle": [],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "Key Laboratory of 10 Cancer Prevention and Therapy",
+                    "institution": "Tianjin Medical University",
+                    "location": {
+                        "settlement": "Tianjin",
+                        "country": "China"
+                    }
+                },
+                "email": "lixiangchun2014@foxmail.com"
+            },
+            {
+                "first": "",
+                "middle": [
+                    "Xiangchun"
+                ],
+                "last": "Li",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Exponential accumulation of single-cell transcriptomes poses great challenge for efficient 36 assimilation. Here, we present an approach entitled tGPT towards integration of 22.3 million 37 single-cell transcriptomes by modeling gene expression rankings as generative pretraining task. 38 tGPT is conceptually simple in that it autoregressively models the ranking of a gene in the 39 context of its preceding neighbors. We demonstrated the high performance of tGPT on a range 40 of fundamental single-cell analysis tasks and novel applications on bulk tissues. The single-41 cell clusters and cell lineage trajectories derived from tGPT are highly aligned with known cell 42 labels and states. The feature patterns of tumor bulk tissues learned by tGPT are associated 43 with a wide range of genomic alteration events, prognosis and treatment outcome of 44 immunotherapy. tGPT represents a new analytical paradigm for integrating and deciphering 45 massive amount of transcriptome data and it will facilitate the interpretation and clinical 46 translation of single-cell transcriptomes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "47 48 49 50 Rapid advancement in single-cell RNA sequencing leads to dramatical drop in sequencing cost 51 and allows for millions of single-cell transcriptomes to be digitized in a single experiment 52 simultaneously. The whole human body is estimated to have 30 trillion cells. Single-cell 53 transcriptome sequencing provided an unprecedented resolution to distinguish different cell 54 type clusters, depict hierarchical cell arrangement and decipher transitional cell states. To 55 achieve this goal, multiple single-cell atlasing projects have been established internationally, 56 including Human Cell Atlas (HCA) 1 , Single Cell Expression Atlas (SCEA) 2 , COVID-19 Atlas 3 , 57 Tabula Muris Atlas 4 and Mouse Cell Atlas 5 . The HCA project 1 aims to digitize all cells and 58 create a reference map of the human body through community-driven initiative that researchers 59 all around the world can contribute. SCEA 2 compiles and annotates publicly available single-60 cell transcriptomes across multiple species and different studies. The COVID-19 Atlas 3 aims 61 at elucidating molecular mechanism and therapeutic target of COVID-19 by generating single-62 cell atlas of SARS-CoV-2 infection in COVID-19 patients. The Tabula Muris 4 and MCA 5 63 atlases constitute the single-cell reference maps of mouse with millions of cells obtained from 64 different organs. These atlasing projects pose tremendous challenge in the integration of 65 diverse transcriptomes from different projects. However, single-cell transcriptomes are 66 generated by different platforms and experimental protocols. They are sparse, noise and prone 67 to batch-effect 6,7 . Therefore, an analytical method to efficiently integrate ten millions of cells 68 are urgently needed. 69 70 Over the past few years, deep learning approaches have led to seismic changes in image 71 recognition and natural language understanding. The success of deep learning could largely 72 attribute to the availability of big data, advancement in computational infrastructure, 73 expressivity and scalability of the computational model. The deep learning model could adeptly 74 4 handle super large-scale high dimensional data and assimilate real-world information. Due to 75 the exponential accumulation of millions of cell transcriptomes, elucidation of the reference 76 map of single-cell transcriptomes with deep learning becomes an attractive application. Deep 77 learning methods such as scVI 8 , SAUCIE 9 and INSCT 10 have been developed for the analysis 78 of single-cell transcriptomes. 79 80 The progress of artificial intelligence is undergoing a paradigm shift in computer vision and 81 natural language processing. Deep neural networks based on transformer are becoming the de 82 facto approach in wide variety of scenarios such as vision, language and reasoning 11 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "83",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Transformer-based models pretrained on broad data at scale continues to achieve state-of-the-84 art progress in image classification 12,13 and language understanding 14-16 . The success of these 85 pretrained models can be attributed to their high expressivity and scalability enabled by 86 transformer to assimilate feature representation from massive amount of unlabeled data.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "However, the investigation of single-cell transcriptome pretraining at scale has not been well 88 studied.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "In this study, we present a deep learning approach entitled tGPT towards integration of 91 unlimited number of cells. tGPT is built upon transformer that has been widely used in natural 92 language understanding and image recognition. The transformer is an essential component and 93 key success of foundation models because of its high expressivity and scalability 11 . tGPT takes 94 as input the expression rankings of top-expressing genes rather than the actual expression levels. 95 tGPT is conceptually simple and empirically efficient. It models the occurrence of a gene in 96 the context of its preceding neighbors' rankings. We developed tGPT with 22.3 million cells 97 and systematically evaluated tGPT on several heterogeneous datasets for sensitivity to batch-98 effect, delineation of clustering performance and inference of developmental lineages. We 99 5 applied tGPT to bulk cancer tissue sequencing samples and found that features obtained from 100 tGPT are significantly associated with diverse genomic alteration events, patients' prognosis 101 and treatment outcome of immunotherapy. tGPT represents a new analytical paradigm to 102 integrate and decipher large-scale single-cell transcriptomes. It will facilitate the integration 103 and clinical translation of large volume of single-cell transcriptome data. 104 105 Results 106 An overview of tGPT and its downstream applications 107 The analytical framework of tGPT (Figure 1) consists of three components: development of 108 tGPT, applications of tGPT for single-cell clustering and inference of developmental lineage 109 and interrogation of feature representation of bulk tissues in relation to genomic alterations, 110 prognosis and treatment response of immunotherapy. 111 112 tGPT is formatted as an autoregressive language model in that the output from the previous 113 step is used as input to the next step. The input to tGPT is a sequence of gene symbols that are 114 ranked by their expression levels. The purpose is to predict the index of the next gene in the 115 dictionary in the context of all previous genes. The dictionary consists of 20706 protein-coding 116 genes. tGPT is trained as an unsupervised generative pretraining task 16 . Specifically, for a given 117 cell, let = { ! , \" , \u2026 # } denote the gene symbols that are sorted in a descending order 118 according to their expression levels. We use the standard language modeling objective \u2112( ) = 119 \u2211 ( $ | $%& , \u2026 , $%! ; ) $ to maximize the likelihood. Here, is the width of context 120 window and are the parameters of tGPT that is used to model the conditional probability. 121 The neural network consists of 8 transformer decoder blocks 17 with 1024 hidden units and 16 122 attention heads. 123 124 6 Quantitative evaluations of tGPT on clustering 125 We systematically evaluated the clustering performance of tGPT on four heterogeneous single-126 cell datasets of different sizes (50-586k cells) from different species and two bulk tissue 127 sequencing datasets. These four single-cell datasets include Human Cell Atlas Census of 128 Immune Cells 18 (HCA, n = 282,558), Human Cell Landscape 19 (HCL, n = 586,135), Tabula 129 Muris 4 (n = 54,862) and Macaque Retina 20 (n = 124,965) dataset (See methods for description). 130 The two bulk tissue datasets are Genotype-Tissue Expression 21 (GTEx, n = 11,688) derived 131 from 30 organs and The Cancer Genome Atlas 22 (TCGA, n = 9,318) consisted of 33 cancer 132 types. 133 134",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "The clustering performance of tGPT is robust with respect to the numbers of top-expression 135 genes being used. We found that the performance of tGPT pretrained on the ranking of top 62 136 and 126 genes were comparable across these six datasets (Supplementary Figure 1) . In 137 addition, we observed that clustering performance on features extracted from different 138 transformer layers [Layer-1, ..., Layer-8] are comparable and better than features extracted 139 from the embedding layer across all these six datasets (Supplementary Figure 1). We 140 performed grid-search to identify optimal values of two parameters that are most relevant to 141 clustering (see Methods) and reported the best performance for each method. The result from 142 grid-search were provided in Supplementary Figures 2-7. Quantitatively, tGPT achieved an 143 NMI ranged from 0.75 on HCA to 0.90 on GTEx, ARI from 0.53 on HCL to 0.84 on Tabula 144 Muris and FMI from 0.55 on HCL to 0.85 on Tabula Muris (Figure 2A). The clustering 145 performance achieved by tGPT are comparable to the other methods such as Scanpy 23 , 146",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 247,
+                    "end": 271,
+                    "text": "(Supplementary Figure 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "Pegasus 24 and scVI 8 (Supplementary Figures 8-11) . Grid-search results of these methods 147 were provided in Supplementary Figure 12. 326 Shen performed data analysis and wrote the manuscript; Xiangchun Li developed the model; revised the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 22,
+                    "end": 50,
+                    "text": "(Supplementary Figures 8-11)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Abstract"
+        },
+        {
+            "text": "330 331 DECLARATION OF INTESTS 332 The authors declare that they have no conflict of interest. 333 334 Data and code availability 335 All the gene expression matrices were downloaded from public databases. The source list of 336 these datasets was provided in Supplementary Table 1. We will release the pretrained tGPT 337 model and its training code at Github soon. 338 339 413 single-cell RNA-seq analysis. Nat Commun 11, 2338,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Here, we demonstrated that tGPT is able to capture clinically significant patterns. On the TCGA 214 dataset, we found that the importance scores are varying considerably for different attention 215 heads among different layers. The importance score patterns can cluster different cancer types 216 into distinct groups in that cancer of the same tissue-of-origin are closely related whereas 217 cancers of different origins are well separated (See Methods, Figure 5A ). For example, skin 218 cutaneous melanoma (SKCM) and uveal melanoma (UVM), glioblastoma multiforme (GBM) 219 and brain lower grade glioma (LGG) are respectively located in the same clustering branches.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 456,
+                    "end": 465,
+                    "text": "Figure 5A",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "In addition, we examined the association between attention head entropy and molecular Here, we introduced a conceptually simple approach towards the integration of unlimited We are grateful for researchers for their generosity to made their data publicly available. This ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "220"
+        },
+        {
+            "text": "denotes the learned output projection matrix. where W1 and W2 are weight matrices and ! and \" are the bias. Attention analysis in relation to signaling 539 We define an attention-based pathway signaling score in a similar way as 46 : Firstly, we used the features obtained from last transformer decoder blocks to construct affinity 583 matrix of cells , and the top-k nearest neighbor cells were find by community detection 584 algorithm 51 and the HNSW algorithm 52 , and the formula of affinity matrix is define as:",
+            "cite_spans": [
+                {
+                    "start": 152,
+                    "end": 155,
+                    "text": "539",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "220"
+        },
+        {
+            "text": "(1)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "585"
+        },
+        {
+            "text": "(2)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "586"
+        },
+        {
+            "text": "(3) 588 The formula (1) represented the distance between cell-x and cell-y, is the x's local kernel NMI is also used to measure the similarity between the clustering labels and actual labels. We n a a n ARI a a a a n \u00e9 \u00f9 ae \u00f6 ae \u00f6 ae \u00f6 ae \u00f6 \u00ea \u00fa \u00e7 \u00f7 \u00e7 \u00f7 \u00e7 \u00f7 \u00e7 \u00f7 \u00e8 \u00f8 \u00e8 \u00f8 \u00e8 \u00f8 \u00e8 \u00f8 \u00eb \u00fb = \u00e9 \u00f9 \u00e9 \u00f9 ae \u00f6 ae \u00f6 ae \u00f6 ae \u00f6 ae \u00f6 The varying of patterns of T cell infiltration signature from SD to PR to CR with PD as baseline. ",
+            "cite_spans": [
+                {
+                    "start": 4,
+                    "end": 7,
+                    "text": "588",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "587"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "of attribution scores for different cell type specific genes across different cell types. 688 689 pro-B cells to plasma cells. (E-G) Cell state signatures for progenitor signaling, na\u00efve signaling 693 and cytotoxic signaling. (H-K) The diffusion map of HCL dataset and its main branches",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Supplementary Figure 15. The clustering performance with grid search for resolution 776 and number of neighbors for different batch-correction methods on the HCA dataset",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Contour maps depict different cluster metrics (i.e. NMI, ARI and FMI) with respect to different 778 values of Resolution and N-neighbors",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The survival curves stratified by attention head entropy across 781 multiple cancer types on TCGA dataset. ACC, Adrenocortical carcinoma; CHOL, 782 Cholangiocarcinoma; KIRC, Kidney renal clear cell carcinoma; READ, Rectum 783 adenocarcinoma; KIRP, Kidney renal papillary cell carcinoma; LGG, Brain Lower Grade 784 Glioma",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "datasets, tGPT was capable of grouping cells with the same or similar types 150 (Figure 2B-G). On the HCA dataset, tGPT was able to identify cells at different developmental 151 phases. For example, it can delineate B cells of different types such as na\u00efve B cells, precursor 152 B (pre-B) cells and progenitor B (pro-B) cells and homologous cells such as conventional DCs 153 (cDCs) and plasmacytoid DCs (pDC), CD14+ and CD16+ monocytes. Less represented cell 154 types such as megakaryocytes (0.32%) and MSCs (0.10%) were also captured by tGPT (Figure 155 2B). On the HCL dataset, tGPT was able to distinguish between immune cells and nonimmune 156 cells as well as different cell types from fetus and adult such as fetal enterocytes and adult 157 enterocytes (Figure 2C and Supplementary Figure 9). On the Tabula Muris dataset, tGPT 158was also able to delineate 55 distinct cell types originated from 20 mouse organs (Figure 2D",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Supplementary Figure 10). On the Macaque Retina dataset, distinctive cell clusters from 160 foveal and peripheral regions of fascicularis retina defined by tGPT are well matched with cell 161 types defined in the original literature 20 (Figure 2E). On the GTEx dataset, tGPT is able to 162 identify different tissues originated from lineage of organs (NMI = 0.90), and samples with 163 similar histological structure are close together such as colon, small intestine and stomach 164 (Figure 2F). On the TCGA dataset, different cancer types are well separated (NMI = 0.77). 165 Cancer types with the same tissue of origin tend to clump together in the feature representation 166 spaces captured by tGPT. For example, adenocarcinomas and squamous cell carcinomas are 167 closely related in the UMAP plots, respectively.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "that tGPT is insensitive to batch effect as benchmarked against with the other 170 methods that support batch-correction such as ComBat 25 , MNN 26 , Harmony 27 , Seurat 28,29 , 171 BBKNN 30 , Scanorama 31 , Pegasus 24 , scVI 8 , scArches 32 , iMAP 33 and DESC 34 as measured on the 172 HCA dataset. tGPT achieved a comparable kBET acceptance rate 35 of 0.87 among the 173 aforementioned batch-correction methods (Supplementary Figure 13L). The UMAP plots of these batch-correction methods and their clustering metrics and grid-search results are provided 175 in Supplementary Figures 13A-K, 14 and 15, respectively. 176 177 Distinct features learned by tGPT are connected to cell types 178 We observed that the head entropy and importance of different cell types from the HCA dataset 179 (See Methods) are distinctive from each other. Cells of similar lineages or functions such as 180 T-lineage cells exhibited similar entropy patterns (Figure 3A). The head importance is varying 181 considerably for different cell types, however, cells of similar types are alike as compared with 182 the other cell types (Figure 3B). For each cell type, we calculated the contribution of each gene 183 on the cell final feature representation (See Methods). Cell type specific genes have higher 184 attribution scores (Figure 3C). For example, NKG7, FGFBP2, PRF1, GNLY, GZMA and 185 GZMB are highly represented in cytotoxic T cells and NK cells (Figure 3D). PPBP and PF4 186 are also highly represented in megakaryocytes (Figure 3E). B-lineage cells have high 187 attribution scores for both CD79A and CD79B. Attribution scores of MS4A1 and MZB1 are 188 relative higher in memory B cells and plasma cells, respectively (Figure 3F). The attribution 189 score of CST3 is higher among CD14+ monocytes, CD16+ monocytes, cDCs and pDCs. In 190 addition, each specific cell types can be defined by specific genes with high attribution scores, 191 for instance plasmacytoid dendritic cells (pDCs, IRF7), conventional dendritic cells (cDC, 192 FCER1A), CD14+ monocytes (CD14) and CD14+ monocytes (FCGR3A) (Figure 3G). 193 194 Inference of developmental lineage 195 We used the feature representations learned by tGPT to construct cell pseudo-temporal 196 trajectories on HCA and HCL datasets (See Methods). On the HCA dataset, the developmental 197 trajectories originated from stem cells and differentiated towards multiple biologically 198 functional cell branches (Figure 4A): HSCs to erythroid cells 36 or DCs and monocytes (Figure 4B); na\u00efve T cells to cytotoxic T cells and NK cells 37 (Figure 4C); pro-B cells to pre-B cells, 200 then followed by matured na\u00efve B cells, and finally bifurcated into memory B cells or plasma 201 cells 38 (Figure 4D). In addition, we observed that the cell state signatures are aligned with cell 202 developmental lineages (See Methods). For instance, HSCs and pro-B cells are manifested by 203 apparent progenitor signaling(Figure 4E). Na\u00efve and mature T cells are featured by 204 distinguishable patterns(Figure 4F and G).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "HCL dataset, the developmental tree depicted three differential trajectories of fetal 207 mesenchymal progenitor cells into different mature cell types (Figure 4H) with fetal cells at 208 the center of the landscape. The fetal mesenchymal progenitor cells are differentiated into 209 biologically functional fibroblasts (Figure 4I), enterocytes (Figure 4J), astrocytes and 210 oligodendrocytes (Figure 4K). 211 212 Clinical significance of tGPT in bulk sequencing sample 213",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "221 alteration events (See Methods). There are several attention heads exhibited significant 222 association with tumor mutation burden (TMB) in the TCGA pan-cancer cohort and observed that attention heads also showed significant association with TP53 mutations at the 225 pan-cancer level and across 9 cancer types (Figure 5C). There are also attention heads 226 exhibited significant association with homologous recombination deficiency (HRD) and 227 genome doubling (Figure 5D and E) at the pan-cancer level. The association of attention heads 228 with HRD and genome doubling are statistically significant across 4 and 14 cancer types, 229 respectively. Meanwhile, the attention heads exhibited prognostic significance at pan-cancer 230 level (Figure 5E) and across 7 cancer types (Supplementary Figure 16). 231 232 In addition, we examined the attention head patterns in relation to immunotherapy in an 233 immune checkpoint block (ICB) clinical trial of urothelial carcinoma consisted of 298 patients: 234 25 patients with CR, 43 with PR, 63 with SD and 63 with PD (See Methods). We found that 235 importance and entropy scores are distinguishable amongst patients with different therapeutic 236 outcome(Figure 5G and H). We observed gradually varying entropy values from SD to PR to 237 CR by taking the PD baseline (Figure 5I) and significant difference among 5 attention heads238 in patients with CR/PR versus SD/PD (Figure 5J). We quantified expression signatures such 239 as tumor evasion and T cell immune infiltration attended by different attention heads (See 240 Methods). By taking PD as baseline, we observed a gradually decreasing patterns of tumor 241 evasion and increasing patterns of T cell immune infiltration from SD to PR to CR (Figure 5K",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "242and L). The attention heads also exhibited prognostic significance in this clinical trial (Figure 2435M and N).",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "of increasingly large-scale single-cell transcriptomes is urgently needed.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "248number of single-cell transcriptomes and its potential clinical translational relevance. The paradigm underpinning tGPT in essence is to predict the occurrence of a given gene with its250 previous context. We developed tGPT on a super large-scale single-cell transcriptomes which 251 consists of 22.3 million cells and systematically evaluated its representation learning ability on 252 different single-cell analysis tasks. We note that tGPT was insensitive to batch effect and 253 achieved competitive accuracies as compared with benchmark tools. The purpose of this study 254 is to verify the validity of this new paradigm in deciphering large-scale transcriptome data, 255 especially at the level of single-cell atlas. In addition, we showed that the pretrained tGPT 256 model can be applied to bulk tissue sequencing samples to extract a variety of features 257 exhibiting significant association with genomic alteration and potential clinical application.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "is undergoing a paradigm shift and the pretraining models based on 260 transformer are becoming de facto standard in natural language processing and computer vision, 261 achieving state-of-the-art across a wide range of tasks such as natural language understanding, 262 image classification, video and audio recognition 11 . Representative pretraining models include 263 BERT 14 and GPT 15 . The advantage of these pretraining models lie in its ability to assimilate 264 real-world information from super large-scale unlabeled and high-dimensional data. This 265 advantage brings an attractive solution for deciphering single-cell transcriptomes as millions 266 of cells have been sequenced, which exemplified by 22.3 million cells collected in our study.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "This number is expected to increase expotentially in years ahead. There is no analytical tool268 that are designed and evaluated on such large volume of data. The high expressivity and 269 scalability of transformer enable tGPT to learn rich representation from transcriptomes in a 270 self-supervised manner. The high clustering performance in single-cell cluster delineation is 271 probably attributable to better feature representation learned by tGPT. In addition, feature 272 representation from tGPT is insensitive to batch effect as the acceptance rate of kBET derived 273 from tGPT is evenly distributed among the other tools that explicitly used batch information for batch-correction. This is probably due to the use of rankings of top expressing genes rather 275 than actual expression levels by tGPT. tGPT is quite different from the other integration 276 tools 28,29,23 as the laters use the actual expression levels of highly variable genes (HVGs) and 277 the batch information. The independence of tGPT on batch information makes it attractive for 278 super large-scale transcriptome integration since the batch information is not always available 279 and often neglected by researchers.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "performance in delineating single-cell clusters is robust with respect to the 282 number of top expressing genes used and feature representation extracted from different tGPT 283 transformer layers. The clustering metrics obtained from 62 top-expressing genes are 284 comparable to the use of 126 top-expressing genes (Supplementary Figure 1). This suggested 285 that the rankings of 62 top-expressing genes are sufficient for cell cluster definition. The idea 286 underpinning tGPT is to predict the occurrence of a gene in the context of the occurrences of 287 its preceding neighbors. This type of pretraining is not directly related to cell clustering. This 288 does not guarantee that feature representation learned by the last transformer layer could give 289 rise to better clustering as compared with representation learned by all its previous layers. In 290 our evaluation, the cluster metrics obtained from different transformer layers are comparable 291 and consistently better than the embedding layer (Supplementary Figure 1). In addition, we 292 observed that cell-type specific genes have high attribution scores albeit only the rankings are 293 used during pretraining. This finding to some extent can explain why features derived from 294 tGPT could lead to high performance in cell clustering.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF12": {
+            "text": "finding emerged from our study is that the pretrained tGPT model can be applied to bulk297 tissues. On the GTEx dataset, the feature representations of different organs extracted from 298 tGPT can divide samples into distinct clusters, aligning with organs. On the TCGA dataset, we observed that different cancer types are well separated and cancers of the same origins are more 300 closely related, which is consistent with previous report 39 . Additionally, the feature patterns of 301 TCGA samples exhibited consistent and significant association with genomic alterations. This 302 indicated that rankings of top-expressing genes carry information about alterations in tumor 303 tissues. Meanwhile, the feature patterns derived from tGPT are distinctive among patients with 304 different treatment outcomes for immunotherapy. Token together, our finding would facilitate 305 translational research enabled by super large-scale transcriptomes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF13": {
+            "text": "two main directions of tGPT for future development. Firstly, tGPT can be used to 308 generate large-scale reference mapping with the availability of large-scale disease reference 309 datasets and phenotypes. Secondly, tGPT can be further investigated for clinical application 310 such as treatment guiding and prognostic prediction.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF14": {
+            "text": ", we systematically verified a new, simple and effective analytical paradigm for 313 super large-scale transcriptome analysis and its implications in clinical translation.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF16": {
+            "text": "317 work was supported by the National Natural Science Foundation of China (Grant No. 318 31801117 to X.L., 31900471 to M.Y. and 82073287 to Q.Z.), National Key Research and 319 Development Program of China (Grant No. 2021YFC2500400 to K.C.), Program for 320 Changjiang Scholars and Innovative Research Team in University in China (Grant No. 321 IRT_14R40 to K.C.) and Tianjin Municipal Health Commission Foundation (Grant No. 1 Aviv, R. et al. The human cell atlas. Elife 6 (2017). 341 2 Papatheodorou, I. et al. Expression Atlas update: from tissues to single cells. Nucleic 342 acids research 48, D77-D83 (2020). 343 3 Wilk, A. J. et al. A single-cell atlas of the peripheral immune response in patients with 344 severe COVID-19. Nature medicine 26, 1070-1076 (2020). 345 4 Tabula Muris, C. et al. Single-cell transcriptomics of 20 mouse organs creates a P. Y. et al. Batch effects and the effective design of single-cell gene expression 350 studies. Sci Rep 7, 39921, doi:10.1038/srep39921 (2017). 351 7 Hicks, S. C., Townes, F. W., Teng, M. & Irizarry, R. A. Missing data and technical 352 variability in single-cell RNA-sequencing experiments. Biostatistics 19, , R., Regier, J., Cole, M. B., Jordan, M. I. & Yosef, N. Deep generative modeling 355 for single-cell transcriptomics. Nat Methods 15, 1053-1058, doi:10., M. et al. Exploring single-cell data with deep multitasking neural networks. 358 Nat Methods 16, 1139-1145, doi:10.1038/s41592-019-0576-7 (2019). 359 10 Simon, L. M., Wang, Y.-Y. & Zhao, Z. Integration of millions of transcriptomes using 360 batch-aware triplet neural networks. Nature Machine Intelligence, 1-11 (2021). 361 11 Bommasani, R. et al. On the opportunities and risks of foundation models. arXiv 362 preprint arXiv:2108.07258 (2021). 363 12 Chen, M. et al. in International Conference on Machine Learning. 1691-1703 (PMLR). 364 13 Bao, H., Dong, L. & Wei, F. BEiT: BERT Pre-Training of Image Transformers. arXiv 365 preprint arXiv:2106.08254 (2021). 366 14 Devlin, J., Chang, M.-W., Lee, K. & Toutanova, K. Bert: Pre-training of deep 367 bidirectional transformers for language understanding. arXiv preprint 368 arXiv:1810.04805 (2018). 369 15 Radford, A., Narasimhan, K., Salimans, T. & Sutskever, I. Improving language 370 understanding by generative pre-training. (2018). arXiv:1801.10198 (2018). 375 18 Michal Slyper, J. W., Marcin Tabaka, Timothy Tickle, Aviv Regev, Bo Li, Orit 376 Rozenblatt-Rosen, Monika S Kowalczyk, Karthik Shekhar, Orr Ashenberg, Danielle 377 Dionne, Jane Lee. Census of Immune Cells. 378 19 Han, X. et al. Construction of a human cell landscape at single-cell level. Nature 581, 379 303-309, doi:10.1038/s41586-020-2157-4 (2020). 380 20 Peng, Y. R. et al. Molecular Classification and Comparative Taxonomics of Foveal and 381 Peripheral Cells in Primate Retina. Cell 176, 1222-1237 e1222, 382 doi:10.1016/j.cell.2019.01.004 (2019). 383 21 Consortium, G. T. Erratum: Genetic effects on gene expression across human tissues. 384 Nature 553, 530, doi:10.1038/nature25160 (2018). 385 22 Thorsson, V. et al. The Immune Landscape of Cancer. Immunity 48, 812-830 e814, 386 doi:10.1016/j.immuni.2018.03.023 (2018). 387 23 Wolf, F. A., Angerer, P. & Theis, F. J. SCANPY: large-scale single-cell gene expression 388 data analysis. Genome Biol 19, 15, doi:10.1186/s13059-017-1382-0 (2018). 389 24 Li, B. et al. Cumulus provides cloud-based data analysis for large-scale single-cell and 390 single-nucleus RNA-seq. Nature methods 17, 793-798 (2020). 391 25 Johnson, W. E., Li, C. & Rabinovic, A. Adjusting batch effects in microarray expression , L., Lun, A. T., Morgan, M. D. & Marioni, J. C. Batch effects in single-cell biotechnology 36, 421-427 (2018). 397 Butler, A., Hoffman, P., Smibert, P., Papalexi, E. & Satija, R. Integrating single-cell 400 transcriptomic data across different conditions, technologies, and species. Nat 401 Biotechnol 36, 411-420, doi:10.1038/nbt.4096 (2018). 402 29 Kang, H. M. et al. Multiplexed droplet single-cell RNA-sequencing using natural 403 genetic variation. Nat Biotechnol 36, 89-94, doi:10.1038/nbt.4042 (2018). 404 30 Pola\u0144ski, K. et al. BBKNN: fast batch alignment of single cell transcriptomes. 405 Bioinformatics 36, 964-965 (2020). 406 31 Hie, B., Bryson, B. & Berger, B. Efficient integration of heterogeneous single-cell 407 transcriptomes using Scanorama. Nature biotechnology 37, 685-691 (2019). 408 32 Lotfollahi, M. et al. Mapping single-cell data to reference atlases by transfer learning. 409 Nat Biotechnol, doi:10.1038/s41587-021-01001-7 (2021). 410 33 Wang, D. et al. iMAP: integration of multiple single-cell datasets by adversarial paired 411 transfer networks. Genome Biol 22, 63, doi:10.1186/s13059-021-02280-8 (2021). 412 34 Li, X. et al. Deep learning enables accurate clustering with batch effect removal in obtained via an embedding layer (parameterized as ' ) that maps the indices of input genes 472 obtained from the gene symbol dictionary to real-value space. The position encoding 473 (parameterized as ( ) carries information on the sorted gene rankings. For an input sequence 474 = { %& , \u2026 %! }, where k is the width of context window, the embedding layer injects 475 position encoding onto gene token embedding as: decoder blocks applies multi-headed masked self-attention over the input 480 embeddings followed by position-wise feed-forward layers, then through a softmax layer. tGPT 481 use a multi-layer of transformer decoder 17 . the transformer decoder block and is the softmax layer, and + is the embedding 485 matrix of the th decoder block. 486 487 Masked Self-Attention is a variant self-attention mechanism 40 . Each attention head adopts the 488 scale dot-product attention to map a query and a set of key-value pairs to an output. The input 489 consists of query and key of dimension & , and value of dimensions -. Self-attention is 490 calculated as dot products of the query ( $ ) with key ( $ ) divided each by F & and multiply 491 with value ( $ ) after sofmax transformed 41 : 492 493Masked self-attention is implemented with the aid of attention mask. It basically always scores 494 the future tokens as 0 so tGPT cannot pick from future. The multi-head self-attention is",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF17": {
+            "text": "Position-wise Feed Forward neural network is a layer with fully-connected feed-forward 500 layer. This layer consists of two linear transformations with a ReLu activation function in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF18": {
+            "text": "was pretrained with a batch-size of 64 for 100 epochs. We used Adam with \u03b2 1 = 0.9, \u03b2 2 507 = 0.95, weight decay of 0.01 and a learning rate of 0.003. The learning rate is warmed up for 508 four epochs, and then decays to 0 following a cosine schedule 12 . tGPT was trained with PyTorch 509 (version 1.7.1) and transformers (version 4.10.0) on NVIDIA DGX A100 with 8 GPUs each 510 with 40 Gb memory.511 512 Clustering on feature representation from tGPT 513 We respectively extracted the feature representations from the embedding layer and 8 different 514 transformer layers. The extracted features were used to construct K-Nearest Neighbors (KNN) 515 graphs for subsequent community detection by Leiden algorithm 42 implemented in Scanpy 516 (version 1.8.1). We performed grid-search to identify optimal values of two parameters 517 n_neighbors and resolution that are the most relevant for clustering. The value of n_neighbors 518 examined was ranged from 5 to 100 with step of 5. The value of resolution examined was 519 ranged from 0.1 to 2 with step of 0.2. The uniform manifold approximation and projection of the self-attention matrices for a given input sequence is calculated as 44 : 524 , 525 where \u03b1 is the self-attention matrix and is the attention weight between the i th and j th 526 tokens. We averaged the entropy of all cells in a cluster to derive a cluster-level entropy. 527 528 Head importance score 45 is defined as the influence of input on head output. It is calculated 529 via gradient backpropagation, formulated as: = x is the input sequence and \u2112( ) is the corresponding loss given the input. . is high 532 score while . ( ) is liable to have a large effect on the model. 533 534Token attribution score is defined as the norm of the learned token features ( $ ) extracted from 535 tGPT, which is defined as:",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF19": {
+            "text": "the attention weight between the i th and j th gene. For a given gene signature, we",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF20": {
+            "text": "Diffusion pseudo-time maps construction578    We constructed the diffusion pseudo-time maps using package Pegasus 24 (v1.4.3), and the cell 579 trajectory was visualized with force-directed layout embedding (FLE) algorithm 50 . We set \u03b4 580 and n\u03b4 to its default values: \u03b4 = 2.0 and n\u03b4 =5,000.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF22": {
+            "text": "x and y are features of last transformer decoder block for cell-x and cell-y. The affinity 590 matrix W was calculated as the density-normalized kernel according to formula (calculated the Markov chain transition matrix P and the symmetric transition matrix as matrix Q can be decomposed as UAU T . Let . A family with 597 parameter timescale of t for approximated diffusion maps is defined as: performed single-cell analysis using Scanpy (version 1.6.0), Pegasus (version 1.4.3) 603 and scVI (version 0.13.0). Batch-correction was performed with MNN (version 1.8.0) 26 , 604 Combat (version 1.8.0) 53 , Harmony (version 0.1.6) 27 , Seurat (version 3.1.5) 28,29 , Pegasus 605 (version 1.4.3) 24 , Scanorama (version 1.7.1) 31 , DESC (version 2.1.1) 34 , iMAP (version 1.0.0) 33 ,",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF23": {
+            "text": "cells with the number of expressing genes < 200 or mitochondrial counts > 30%. We used the 610 function scanpy.pp.highly_variable_genes to selected highly variable genes by setting611 max_mean to 3 and min_mean to 0.0125, which are the default values. We then applied 612 clustering pipeline and grid-search to perform single-cell clustering on KNN graph. The UMAP 613 is used for visualizing clustering result. 614 615 scVI is a deep generative model for mining the single-cell omics data. We filtered out cells 616 with the number of expressing genes < 200 or mitochondrial counts > 30%, and selected HVGs 617 with scanpy.pp.highly_variable_genes by setting max_mean to 3 and min_mean to 0.0125. We 618 used the default parameter of scVI to extract the 10 latent features. These latent features were 619 used to construct KNN graphs for community detection by Leiden algorithm 42 .620 621 Pegasus is complete single-cell analysis pipline that is efficient on large datasets. We used the 622 recommended parameters: min_genes of 500, max_genes of 6000, and percent_mito of 10. We 623 identified the robust genes with the default percent_cells of 0.05. Single-cell clustering was 624 performed on KNN graph followed by Leiden algorithm 42 for community detection.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF24": {
+            "text": "batch-effect metrics627    We used Adjusted Rand Index (ARI), Normalized Mutual information (NMI) and Fowlkes-628 Mallows Index (FMI) to measure clustering performance. We used the kBET acceptance rate 35 629 as a measurement of batch-effect. The clustering metrics of ARI, NMI and FMI were calculated 630 with sklearn (version 0.21.2). kBET acceptance rate is computed with Pegasus (version 1.4.3). and the rows and columns represent truth and clustering labels in the contingency table, 634 respectively. The formula is as follows: 635 636 where denoted the numbers of cell in common between clustering labels and truth labels, 637 the sum of row and the sum of column of the contingency table.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF25": {
+            "text": "assumed that the clustering labels and actual labels of N cells are U and V, and the entropy of 641 U and V is as the following formula: the probability that a cell picked at random from U falls into \uff0c 645 is the probability that a cell picked at random from V falls into . We then 646 calculated the mutual information (MI) between U and V, and normalized the mutual",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF26": {
+            "text": "A flowchart illustrating the framework of tGPT and its downstream applications. 674 It consists of three components: development of tGPT, applications of tGPT for single-cell and 675 bulk tissue transcriptomes.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF27": {
+            "text": "The clustering performance of tGPT on four single-cell and two bulk tissue 678 datasets. (A) Radar charts depicting clustering metrics of tGPT across these six datasets. 679 UMAP visualization of feature representations learned by tGPT on the HCA (B), HCL (C), 680 Tabula Muris (D), Macque Retina (E), GTEx (F) and TCGA (G). NMI, Normalized Mutual 681 information ; ARI, Adjusted Rand Index; FMI, Fowlkes-Mallows Index.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF28": {
+            "text": "Distinct features of different cell types from the HCA dataset learned by tGPT.684 (A) Heatmap representation of attention head entropy for different cell types. (B) Heatmap 685 representation of attention head importance for different cell types. (C) Dot plot illustrating the 686 attribution scores for cell type specific genes. (D-G) Scatter plots illustrating the distribution",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF29": {
+            "text": "Diffusion pseudo-time analysis on the HCA and HCL datasets. (A) The diffusion 690 map of HCA dataset. (B) hematopoietic stem cells (HSCs) to erythroid cells or dendritic cells 691 (DCs) and monocytes; (C) na\u00efve T cells to cytotoxic T cells and nature killer (NK) cells; (D) The association of features learned by tGPT versus genomic alteration events 696 and clinical phenotype. (A) Heatmap representation of attention head importance score across 697 different cancer types on the TCGA dataset. Association of attention head entropy versus tumor mutation burden (B), TP53 mutation (C), homologous recombination deficiency (D), genome 699 doubling (E) and overall survival (F) on the TCGA cohort. (G and H) Heatmap representation 700 of attention head importance and entropy on the urothelial carcinoma stratified by RECIST 701 response. CR, complete response; PR, partial response; SD, stable disease; PD, progress 702 disease. (I) The varying entropy patterns from SD to PR to CR with PD as baseline. (J) 703 Exemplified violin plots depicting attention head entropy in SD/PD versus CR/PR. (K) The 704 varying of patterns of tumor evasion signature from SD to PR to CR with PD as baseline. (L) 705",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF30": {
+            "text": "M) Association between attention head entropy and overall survival on the urothelial 707 carcinoma dataset. (N) Exemplified survival curves stratified by attention head entropy. 708 709 Supplementary Figure 1. Radar charts illustrating the clustering performance achieved 710 by feature representations extracted from different layers of tGPT for the top 62 (A) and 711 126 (B) expressing genes on HCA, HCL, Tabula Muris, Macaque Retina, GTEx, and TCGA The clustering performance with grid search for resolution and 715 number of neighbors for the top 62 (A) and 126 (B) expressing genes among feature 716 representations extracted from different layers on the HCA dataset. Contour maps depict 717 different cluster metrics (i.e. NMI, ARI and FMI) with respect to different values of Resolution 718 and N-neighbors. 719 The clustering performance with grid search for resolution and 721 number of neighbors for the top 62 (A) and 126 (B) expressing genes among feature 722 representations extracted from different layers on the HCL dataset. Contour maps depict different cluster metrics (i.e. NMI, ARI and FMI) with respect to different values of Resolution 724 and N-neighbors. The clustering performance with grid search for resolution and 727 number of neighbors for the top 62 (A) and 126 (B) expressing genes among feature 728 representations extracted from different layers on the Tabula Muris dataset. Contour maps 729 depict different cluster metrics (i.e. NMI, ARI and FMI) with respect to different values of 730 Resolution and N-neighbors. The clustering performance with grid search for resolution and 733 number of neighbors for the top 62 (A) and 126 (B) expressing genes among feature 734 representations extracted from different layers on the Macaque Retina dataset. Contour 735 maps depict different cluster metrics (i.e. NMI, ARI and FMI) with respect to different values 736 of Resolution and N-neighbors. 737 The clustering performance with grid search for resolution and 739 number of neighbors for the top 62 (A) and 126 (B) expressing genes among feature 740 representations extracted from different layers on the GTEx dataset. Contour maps depict 741 different cluster metrics (i.e. NMI, ARI and FMI) with respect to different values of Resolution 742 and N-neighbors. 743 The clustering performance with grid search for resolution and 745 number of neighbors for the top 62 (A) and 126 (B) expressing genes among feature 746 representations extracted from different layers on the TCGA dataset. Contour maps depict 747 different cluster metrics (i.e. NMI, ARI and FMI) with respect to different values of Resolution and N-neighbors. The full annotation of UMAP visualization of different methods 754 on the HCL dataset. The NMI metric and annotation of cells are shown. 755 756 Supplementary Figure 10. The full annotation of UMAP visualization of different 757 methods on the Tabula Muris dataset. The NMI metric and annotation of cells are shown. 758 759 Supplementary Figure 11. Radar charts illustrating the best clustering metrics for 760 different methods across different datasets obtained from grid search. ARI, Adjusted Rand 761 Index; NMI, Normalized Mutual information; FMI, Fowlkes-Mallows Index. 762 763 Supplementary Figure 12. The clustering performance with grid search for resolution 764 and number of neighbors for Scanpy (A), Pegasus (B), and scVI (C) on the HCA, HCL, 765 Tabula Muris and Macaque Retina dataset. Contour maps depict different cluster metrics (i.e. 766 NMI, ARI and FMI) with respect to different values of Resolution and N-neighbors. 767 768 Supplementary Figure 13. The UMAP visualization plots of different batch-correction 769 methods on the HCA dataset (A to K) and kBET acceptance rate (L). 770 771 Supplementary Figure 14. Radar charts illustrating the best clustering metrics for 772 different batch-correction methods obtained from grid search on the HCA dataset. ARI,",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": []
+}

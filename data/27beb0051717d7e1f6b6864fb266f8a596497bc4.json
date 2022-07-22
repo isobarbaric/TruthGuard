@@ -1,0 +1,1915 @@
+{
+    "paper_id": "27beb0051717d7e1f6b6864fb266f8a596497bc4",
+    "metadata": {
+        "title": "-NC-ND license Analysis of non-structural proteins, NSPs of SARS-CoV-2 as targets for computational drug designing",
+        "authors": [
+            {
+                "first": "Resal",
+                "middle": [],
+                "last": "Raj",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Dr. Z.H (P.G) College",
+                    "location": {
+                        "addrLine": "Agra Road",
+                        "settlement": "Etah"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Background: The ORF1ab of Severe Acute Respiratory Syndrome, SARS Corona Virus, SARS-CoV-2 genome is processed into 15 non-structural proteins, NSPs by proteases and each NSP has a specific role in the life cycle and pathogenicity of the virus. This research analyzes possible drugs for these proteins as targets in computational drug designing using already available experimental drugs from the drug bank database. Methods: Out of 471 proteins and 8820 drugs download from Protein Data Bank, PDB and Drug Bank database respectively, 16 proteins similar to NSP 1-15 and 31 drugs as per the \"Rule of three\" were selected for docking. Out of 88 docking results using PyRx, 18 proteins/chains with three promising drugs, DB01977, DB07132 and DB07535 were analyzed using PyMOL for final results. Results: NSPs 3, 5, 11, 14 and 15 were identified as targets for the drugs, DB01977, BD07132 and DB07535. Drugs, DB01977 and DB07535 bind in the same binding pockets of NSP 5 and NSP 15. Drug, DB07132 binds with more number of residues when compared with the other two drugs and this indicates that the strength of proteindrug association is more by this drug with the NSPs than other drugs. Binding pockets of NSPs for these three drugs are very close with many sharing residues in common suggesting of similarity of pharmacophore of these drugs with the target binding pockets. Conclusion: The binding pockets of NSPs are well matched with the pharmacophore of drugs and with polar surface of drugs less than or equal to 100 A 2 , drugs, DB01977, DB07132 and DB07535 bind individually and effectively with NSPs 3, 5, 11, 14 and 15 of ORF1ab of SARS-CoV-2 genome to bring changes in the activity of SARS-CoV-2 which may be useful for biological and clinical considerations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "There are two ORFs, ORF1a and ORF1b in the genomic RNA of Severe Acute Respiratory Syndrome, SARS-CoV-2 encoding for various non-structural proteins, NSPs at 5 \u2032 terminal and few structural proteins such as envelop protein, membrane proteins etc. at the 3' terminal of the genome. The translated polypeptides of ORF 1 ab are processed into approximately 1-15 NSPs [1] . NSP 1 is used by the virus to evade the host immune system, inhibition of host gene expression [2, 3] and hence, it is a target protein for vaccine development. NSP 2 is dispensable for viral replication and its function is not well clear [4] . NSPs 2 and 3 interact to form proteases that cleave ORF1ab [5] . The structure of NSP 3 shows the presence of RNA-binding domains [6] , SARS Unique Domain, SUD [7] which in turn has three sub domains, N-terminal, Middle and C-terminal domains [8] and papain like protease, PL-PRO domain to achieve full activity of the protein [9] . NSP 3 and NSP 4 interact with other cofactors to induce membrane rearrangement for the mechanism of viral replication and the loss of NSP 3-NSP 4 complex eliminates viral replication [10] . NSP 5 is a cystine like protease, 3CL-PRO which processes 11 cleavage sites between NSP 4 and 16 during replication and also has a conserved 3-domain structure and catalytic residues [11] [12] [13] . NSP 6 generates autophagosomes from the endoplasmic reticulum and is involved in autophagy [14, 15] . Moreover, different NSPs have different roles in virus life cycle. For example, NSP 12 in complex with NSP7 and NSP 8 forms viral replicase machinery [16] [17] [18] [19] , NSP 9 in complex with NSP 8 is involved in RNA replication and virulence [20] [21] [22] , NSP10 -NSP16 complex is essential for capping viral mRNA transcripts for efficient translation and to evade immune surveillance [23] , NSP 14 in complex with its activator NSP 10 is involved in exonuclease activity [24, 25] , NSP13 is for RNA TPase activity [26] , NSP14 is for exoribonuclease activity [27, 28] , NSP 11 and NSP 15 are involved in endoribonuclease activity [29] [30] [31] etc. table R1.",
+            "cite_spans": [
+                {
+                    "start": 364,
+                    "end": 367,
+                    "text": "[1]",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 465,
+                    "end": 468,
+                    "text": "[2,",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 469,
+                    "end": 471,
+                    "text": "3]",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 609,
+                    "end": 612,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 674,
+                    "end": 677,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 745,
+                    "end": 748,
+                    "text": "[6]",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 775,
+                    "end": 778,
+                    "text": "[7]",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 858,
+                    "end": 861,
+                    "text": "[8]",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 942,
+                    "end": 945,
+                    "text": "[9]",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 1131,
+                    "end": 1135,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1321,
+                    "end": 1325,
+                    "text": "[11]",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1326,
+                    "end": 1330,
+                    "text": "[12]",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1331,
+                    "end": 1335,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1429,
+                    "end": 1433,
+                    "text": "[14,",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1434,
+                    "end": 1437,
+                    "text": "15]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1590,
+                    "end": 1594,
+                    "text": "[16]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1595,
+                    "end": 1599,
+                    "text": "[17]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1600,
+                    "end": 1604,
+                    "text": "[18]",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1605,
+                    "end": 1609,
+                    "text": "[19]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1685,
+                    "end": 1689,
+                    "text": "[20]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1690,
+                    "end": 1694,
+                    "text": "[21]",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1695,
+                    "end": 1699,
+                    "text": "[22]",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1830,
+                    "end": 1834,
+                    "text": "[23]",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 1917,
+                    "end": 1921,
+                    "text": "[24,",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1922,
+                    "end": 1925,
+                    "text": "25]",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1960,
+                    "end": 1964,
+                    "text": "[26]",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 2005,
+                    "end": 2009,
+                    "text": "[27,",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 2010,
+                    "end": 2013,
+                    "text": "28]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 2076,
+                    "end": 2080,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 2081,
+                    "end": 2085,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 2086,
+                    "end": 2090,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "It is found that the adaptive evolution in ORF1a contribute to host shifts or immune evasion due to selection pressure and the positive selection drives the evolution of NSPs, shift and evade the immune system [32, 33] . Although most of the NSPs are orthologous, coronavirus NSP 2 is homologous to the bacterial DNA Topoisomerase I and IV needed for (\u2212 ) strand RNA synthesis which suggests that NSP 2 is considered as target for drug and vaccine development [34] . [29] [30] [31] Since the progress of development of vaccine/drug has been highlighted by many research and review articles, this effort is unique to the additionally existing/ongoing drug discoveries because of the rule of three [45] which emphasizes on fragment based drug designing. Knowing the pandemic nature of the disease and unavailability of the vaccine/drug, the docking was undertaken from the existing drugs from drug bank which were in an experimental stage and selected the drugs based on the rule of three [45] . The drugs obtained were having the polar surface area less than or equal to 100 A 2 instead, using the rule of five [46] , the selected drugs would be of higher molecular weight, polar surface area etc. which were already under drug discovery.",
+            "cite_spans": [
+                {
+                    "start": 210,
+                    "end": 214,
+                    "text": "[32,",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 215,
+                    "end": 218,
+                    "text": "33]",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 460,
+                    "end": 464,
+                    "text": "[34]",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 467,
+                    "end": 471,
+                    "text": "[29]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 472,
+                    "end": 476,
+                    "text": "[30]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 477,
+                    "end": 481,
+                    "text": "[31]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 696,
+                    "end": 700,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 987,
+                    "end": 991,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 1110,
+                    "end": 1114,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "1. Download of proteins from Protein Data Bank, PDB and Screening of the downloaded proteins for docking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "The respective sequences and the associated predicted structures of NSPs 1-15 of ORF1ab of SARS-CoV-2 were downloaded from the website, https://zhanglab.ccmb.med.umich.edu/COVID-19/, Zhang Lab, University of Michigan. The downloaded predicted protein structure lacked the chains, however the respective similar proteins from Protein Data Bank, PDB had chains, A, B, C. etc. When we tried to make Protein Data Bank, Partial Charge (Q), & Atom Type (T)) format, pdbqt file using software, Python based virtual screening tool, PyRx, Open Babel etc. for docking, some proteins produced error messages due to structural problems, low template modelling score, TM-score and therefore, the sequences of respective NSPs were used to search for proteins from PDB. The sequence of each NSP was used to search for protein 3D structures from PDB under search and sequence search tabs. The generated protein-IDs for each NSP were used to download the structures of every protein using download multiple data files tab under download tab of PDB. Nearly, 471 proteins were downloaded for NSPs 1-15 except for NSP 2 and 6, no matching protein structure was available. Moreover, NSPs 2 and 6 were not used in docking because their predicted structure created error message and also using them might give discrepancies in docking score as others were downloaded proteins from PDB.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Each protein was analyzed with respect to its role in disease development, number of chains, the bound ligands, etc. The downloaded protein sequences were compared with the sequences of respective NSPs using multiple sequence alignment software, BaseByBase to get sequence similarity percentage. Python based molecular visualization software PyMOL was used to compare predicted protein structure by Zhang Lab, University of Michigan and the downloaded proteins from PDB to get structural similarity with the help of its \"super\" command. The proteins, predicted and downloaded were superimposed in PyMOL for structural similarity score using \"super\" command of PyMOL and a root mean square deviation, RMSD score was obtained for each protein.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "This was done to know how much the downloaded protein structure had deviated from the predicted protein structure and for example if RMSD score was zero, the downloaded protein and predicted protein, both were considered to have cent percent structural similarity, no deviation of structure or no structural difference.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "2. Download of drugs from Drug Bank and screening of the downloaded drug for docking.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "Drugs were available for download when logged in to the drug bank database account and 8820 drug compounds were downloaded after logging in to the drug bank database account. Out of 8820 drug compounds downloaded from drug bank database, 1414 drug compounds were selected based on the Lipinski's rule of 5 [46] and these compounds had high polar surface area, molecular weight, volume etc. and therefore, finally, 31 drug compounds were selected based on the rule of three [45] using DataWarrior software. The selected drugs had very low molecular weight, volume, surface area etc. and were used for molecular docking using docking software, PyRx.",
+            "cite_spans": [
+                {
+                    "start": 306,
+                    "end": 310,
+                    "text": "[46]",
+                    "ref_id": "BIBREF45"
+                },
+                {
+                    "start": 473,
+                    "end": 477,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Materials and methods"
+        },
+        {
+            "text": "The selected proteins were docked with the selected drugs using PyRx with automatically generated grid parameters of PyRx and the proteins were docked separately, chain wise and the entire protein to know the binding residues involved in each case for better analysis. The docked products were analyzed in terms of type of binding residues, bond lengths and different binding pockets of proteins for each drug with the help of PyMOL.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Molecular Docking and analysis"
+        },
+        {
+            "text": "The structures and sequences of target proteins of the drugs, DB01977, BD07132 and DB07535 were downloaded from PDB using the link given by Drug Bank database, analyzed and compared with structures and sequences of NSPs. Moreover, the target protein-drug complex was compared with the NSP-drug complex in terms of binding sites, bond lengths and residues.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Analysis of target proteins of the drugs and their Molecular Docking using PyRx"
+        },
+        {
+            "text": "Lipinski's rule of 5 is useful to differentiate between drug like and non-drug like molecules and its success or failure is due to drug likeness. According to the rule, the drug should have molecular mass less than 500 Da, high lipophilicity, LogP less than 5, less than 5 hydrogen bond donors, less than 10 hydrogen bond acceptors, molar refractivity between 40 and 130 etc. Rule of three explains about the fragmentbased screening for lead finding strategy and the physicochemical properties of fragments obey the \"rule of three\". According to the rule, the drug should have lower molecular mass, <300 Da, <3 hydrogen bond donors, <3 hydrogen bond acceptors, <3 rotatable bonds or in short all in threes. PyMOL is an open source molecular visualization software created by Warren Lyford DeLano and commercialized by Schr\u00f6dinger. PyMOL can produce high quality 3D images for structural biology. PyMOL can be obtained from https://www.schrodinger.com/p ymol. PyRx is virtual screening software for computational drug designing to screen libraries of compounds against drug targets. PyRx includes docking wizard with easy-to-use user interface which makes it a valuable tool for Computer-Aided Drug Design. PyRx also includes chemical spreadsheet-like functionality and powerful visualization engine that are essential for Rational Drug Design. PyRx is available from http://sourceforge.net/projects/pyrx/files. For every docking, a docking parameter file is created which tells AutoDock which docking algorithm to use and how many runs to do and it usually has the file extension, \". dpf\", docking parameter file. Moreover, the parameter file has details of receptors, ligands, exhaustiveness, grid details etc. and if there are no grid parameter, default grid parameters based on binding pockets were taken for docking by PyRx. Calculation of binding score or energy or affinity is completely based on the pharmacophores of ligand and receptors and mathematical expressions of the same can be found from the articles [47, 48] even though explanation of mathematical derivation is beyond the scope of this paper. BaseByBase is a whole genome pairwise and multiple alignment editor. The program highlights differences between pairs of alignments and allows the user to easily ",
+            "cite_spans": [
+                {
+                    "start": 2018,
+                    "end": 2022,
+                    "text": "[47,",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 2023,
+                    "end": 2026,
+                    "text": "48]",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Rules and software used in the research"
+        },
+        {
+            "text": "Binding energy in Kcal/mol of 6wuu",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Rules and software used in the research"
+        },
+        {
+            "text": "Note: The binding energy given above are for the poses with RMSD = 0. Table 3 Binding pockets and residues with bond length. Fig. 1 . Drug DB01977 binds with the binding pocket between the three chains, A, B and C of 6wuu.pdb. Chain A is green, chain B is blue, chain C is yellow and chain D is magenta. The drug DB01977 is red with binding bonds with chain A (green). This shows that drug binds with the binding pockets situated between chains than binding pockets of individual chains for better affinity. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 70,
+                    "end": 77,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 125,
+                    "end": 131,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Rules and software used in the research"
+        },
+        {
+            "text": "1 NSP 3, 5, 11, 14 and 15 as targets for drugsDB01977, BD07132 and DB07535",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Results"
+        },
+        {
+            "text": "There are 471 proteins downloaded for molecular docking, Supplementary Table S1 . The chains, the details of sequences, the ligands, the sequence similarity percentage and the RMSD score for structural similarity for each downloaded protein from PDB were analyzed, Supplementary Table S2 . The downloaded drugs from the drug bank database were processed to only 31 drugs in accordance with the rule of three [45] , Supplementary Table S3 .",
+            "cite_spans": [
+                {
+                    "start": 408,
+                    "end": 412,
+                    "text": "[45]",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 71,
+                    "end": 79,
+                    "text": "Table S1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 279,
+                    "end": 287,
+                    "text": "Table S2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 415,
+                    "end": 437,
+                    "text": "Supplementary Table S3",
+                    "ref_id": "TABREF8"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Using Table S2 , proteins were selected based on the RMSD score around 0.5, cut off for selection of highly similar proteins and the selected proteins had above 88% sequence similarity. This was very much sufficient and 16 such highly similar proteins based on sequence and structural similarity were selected for docking, Table 1 . Docking was done between the highly similar 16 proteins downloaded from the PDB and the selected 31 drugs using PyRx. The docking score, binding energy for each protein with all chains and individual chain was recorded from the first pose with RMSD = 0 out of the nine poses of the PyRx, Supplementary Table S4 . With the help of Table S4 , 18 proteins/chains and 10 drugs were finally selected from the docking results, cut off binding energy less than or equal to \u2212 6 kcal/mol for further analysis, Table 2 . The target proteins of these drugs, 1owe-675 (675 is DB01977) complex, 2pe1-517 (517 is DB07132) complex and 2va5-C8C (C8C is DB07535) complex were first analyzed, secondly docked using PyRx and analyzed using PyMOL and finally compared with NSPs to establish the difference, Tables 3 and 4. It was found that the binding pockets were different due to different resolutions of the target proteins however, the binding residues are similar due to the pharmacophore of the drugs. Therefore, we found that these drugs show equal affinity with the binding pockets of the targets and NSPs, low binding energy that is more negative value as per the protein-drug complex, Table 4. 3. Drugs, DB01977 and DB07535 and NSPs 5 and 15 have same/similar binding pockets.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 6,
+                    "end": 14,
+                    "text": "Table S2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 323,
+                    "end": 330,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                },
+                {
+                    "start": 635,
+                    "end": 643,
+                    "text": "Table S4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 663,
+                    "end": 671,
+                    "text": "Table S4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 834,
+                    "end": 841,
+                    "text": "Table 2",
+                    "ref_id": "TABREF2"
+                },
+                {
+                    "start": 1509,
+                    "end": 1517,
+                    "text": "Table 4.",
+                    "ref_id": "TABREF4"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Drugs DB01977 and DB07535 binds with same binding pockets of NSPs 5 and 15, Table 3 however, NSP 11 and NSP 14 have completely different binding pockets for these drugs. Moreover, binding pockets for both drugs have few sharing residues which suggests that binding pockets of these two drugs are situated very close for each drug, Table 3. 4. Association of binding pockets of NSPs for the drug, DB07132 and their pharmacophore.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 76,
+                    "end": 83,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 331,
+                    "end": 339,
+                    "text": "Table 3.",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "DB07132 has highest polarizability, polar surface area, PKA and Table 3 and the number of residues involved in binding by DB07132 is more compared with other two drugs, Table 3 suggesting that there are matching pharmacophores between NSPs and the drug.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 64,
+                    "end": 71,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 169,
+                    "end": 176,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Computational receptor based drug designing depends on the integrity of receptors selected for drug designing [49] and here the receptors are highly similar to NSPs of SARS-CoV-2 in sequence and structure. Although many research and reviews state about the ideal sequence similarity from 30% to 40% [50] , the selected proteins here are above 88% sequence similarity due to selected RMSD around 0.5 and this cut off is to minimize the structural deviation from the predicted structure. Moreover, this was to get enough number of proteins for each NSP, Table 1 and as aimed, we had downloaded highly similar proteins from PDB for NSPs 3, 5, 10, 11, 14 and 15. The NSPs have different roles in virus life cycle such as PL PRO, 3CL PRO, RNA dependent RNA polymerase, RdRp, endonucleases etc. This screening and selection make it worth docking to reduce the differences in the dry and wet lab experiments and the false positive error. Like in this research, these NSPs are already on the targets for drug designing [51, 52] .",
+            "cite_spans": [
+                {
+                    "start": 110,
+                    "end": 114,
+                    "text": "[49]",
+                    "ref_id": "BIBREF48"
+                },
+                {
+                    "start": 299,
+                    "end": 303,
+                    "text": "[50]",
+                    "ref_id": "BIBREF49"
+                },
+                {
+                    "start": 1011,
+                    "end": 1015,
+                    "text": "[51,",
+                    "ref_id": "BIBREF50"
+                },
+                {
+                    "start": 1016,
+                    "end": 1019,
+                    "text": "52]",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 552,
+                    "end": 559,
+                    "text": "Table 1",
+                    "ref_id": "TABREF1"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Actually, 16 proteins with 10 drugs have been docked to get 88 docking results, Table S4 and this is because of docking with individual chains of a protein and the entire protein to analyze the binding affinity at different pockets of each NSP. For the difference in binding pockets with different chains of proteins, a special analysis was done with respect to binding residues and bond length in each chain of the same protein, Table 5 . This establishes the fact that the drugs mostly bind with binding pockets situated between the chains rather than the binding pockets of individual chain, Fig. 1 . Like in this research, the proteins, NSP 3, Papain-Like Protease, PL-PRO and NSP 5, 3C-like protease, 3CL-PRO are targets for drug discovery in other studies [53] also. This drug discovery is because of their important functions, ORF1ab is processed by proteases, PL-PRO and 3CL-PRO into replication complexes of positive-stranded RNA viruses and stored in double membrane vehicles in the cytoplasm which are essential for viral RNA replication [54, 55] .",
+            "cite_spans": [
+                {
+                    "start": 762,
+                    "end": 766,
+                    "text": "[53]",
+                    "ref_id": "BIBREF53"
+                },
+                {
+                    "start": 1049,
+                    "end": 1053,
+                    "text": "[54,",
+                    "ref_id": "BIBREF54"
+                },
+                {
+                    "start": 1054,
+                    "end": 1057,
+                    "text": "55]",
+                    "ref_id": "BIBREF55"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 80,
+                    "end": 88,
+                    "text": "Table S4",
+                    "ref_id": "TABREF4"
+                },
+                {
+                    "start": 430,
+                    "end": 437,
+                    "text": "Table 5",
+                    "ref_id": "TABREF5"
+                },
+                {
+                    "start": 595,
+                    "end": 601,
+                    "text": "Fig. 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Binding depends on many parameters of receptors and ligand/drugs [56] . Drugs DB01977 and DB07535 have same binding pockets of NSPs 5 and 15 which highlights the matching pharmacophore of drug and the binding pockets. Additionally, we analyzed different poses of three drugs with the NSPs for their very close pockets and sharing binding residues. It was found that the poses of two drugs, DB07535 and DB07132 overlap in their binding pockets such that their effect may or may not be exhibited completely in a bound state. This is the case with the clinicians administering different drugs at a time such that drugs may have same binding pockets with clashing their conformation to exhibit different effect or no effect of each drug, Fig. 2 . However, the binding poses of the drugs, DB01977 and DB07535/DB07132 are different in protein, 6wuu.pdb, Fig. 2 which may be having the effect of each drug. Moreover, when a drug is administered, as per this research, each of the three drugs may bind considerably with all NSPs 3, 5, 11, 14 and 15 or may be along with other NSPs at a time to bring biological and clinical effects on the virus life cycle. Furthermore, we compared the pharmacophore of some well-known (see Table 6 ) drugs with these three drugs using Molinspiration online software, Table 6 and analyzed bioactivity of these drugs, Table 7 using the same software along with their structures, Fig. 3 (a) , (b) & (c). The well-known drugs have high volume and molecular weight which may or may not bind easily with variable binding pockets of NSPs to bring biological effect. The score in each drug in Table 7 shows that these drugs are positive potential drugs as protease inhibitor, kinase inhibitor etc.",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 69,
+                    "text": "[56]",
+                    "ref_id": "BIBREF56"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 734,
+                    "end": 740,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 848,
+                    "end": 854,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF0"
+                },
+                {
+                    "start": 1216,
+                    "end": 1223,
+                    "text": "Table 6",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 1293,
+                    "end": 1300,
+                    "text": "Table 6",
+                    "ref_id": "TABREF6"
+                },
+                {
+                    "start": 1342,
+                    "end": 1349,
+                    "text": "Table 7",
+                    "ref_id": "TABREF7"
+                },
+                {
+                    "start": 1403,
+                    "end": 1413,
+                    "text": "Fig. 3 (a)",
+                    "ref_id": null
+                },
+                {
+                    "start": 1611,
+                    "end": 1618,
+                    "text": "Table 7",
+                    "ref_id": "TABREF7"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "It is clear that these three drugs, preferably drug DB07132 bind effectively with NSP-3, NSP-5, NSP-11, NSP-14and NSP-15 with shorter bond length to bring biological effect in SARS-CoV-2 in turn to humans. In conclusion, binding pockets of proteins are well matched with the pharmacophore of drugs and with polar surface of drugs less than or equal to 100 A 2 , drugs, DB01977, DB07132 and DB07535 bind individually and effectively with NSPs 3, 5, 11, 14 and 15 of ORF1ab of SARS-CoV-2 genome to bring changes in the activity of SARS-CoV-2 which may be useful for biological and clinical considerations.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "Not applicable, all abbreviations are expanded in the text itself. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "List of abbreviations"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Identification of novel subgenomic RNAs and noncanonical transcription initiation signals of severe acute respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hussain",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "J. Virol",
+            "volume": "79",
+            "issn": "9",
+            "pages": "5288--5295",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Identification of residues of SARS-CoV nsp1 that differentially affect inhibition of gene expression and antiviral signaling",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Jauregui",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PloS One",
+            "volume": "8",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Coronavirus nonstructural protein 1: common and distinct functions in the regulation of host and viral gene expression",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Narayanan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Virus Res",
+            "volume": "202",
+            "issn": "",
+            "pages": "89--100",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "The nsp2 proteins of mouse hepatitis virus and SARS coronavirus are dispensable for viral replication",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Graham",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Adv. Exp. Med. Biol",
+            "volume": "581",
+            "issn": "",
+            "pages": "67--72",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/978-0-387-33012-9_10"
+                ]
+            }
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Unique and conserved features of genome and proteome of SARS-coronavirus, an early split-off from the coronavirus group 2 lineage",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Snijder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J. Mol. Biol",
+            "volume": "331",
+            "issn": "5",
+            "pages": "991--1004",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Proteomics analysis unravels the functional repertoire of coronavirus nonstructural protein 3",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Neuman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Virol",
+            "volume": "82",
+            "issn": "11",
+            "pages": "5279--5294",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "The SARS-unique domain (SUD) of SARS coronavirus contains two macrodomains that bind G-quadruplexes",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS Pathog",
+            "volume": "5",
+            "issn": "5",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "SARS coronavirus unique domain: three-domain molecular architecture in solution and RNA binding",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Johnson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J. Mol. Biol",
+            "volume": "400",
+            "issn": "4",
+            "pages": "724--742",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Nuclear magnetic resonance structure of the N-terminal domain of nonstructural protein 3 from the severe acute respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Serrano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Virol",
+            "volume": "81",
+            "issn": "21",
+            "pages": "12049--12060",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Two-amino acids change in the nsp4 of SARS coronavirus abolishes viral replication",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sakai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "Virology",
+            "volume": "510",
+            "issn": "",
+            "pages": "165--174",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Sequence analysis and structural prediction of the severe acute respiratory syndrome coronavirus nsp5",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Acta Biochim. Biophys. Sin",
+            "volume": "37",
+            "issn": "7",
+            "pages": "473--479",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Coronavirus main proteinase (3CLpro) structure: basis for design of anti-SARS drugs",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Anand",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Science",
+            "volume": "300",
+            "issn": "",
+            "pages": "1763--1767",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Chimeric exchange of coronavirus nsp5 proteases (3CLpro) identifies common and divergent regulatory determinants of protease activity",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stobart",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "J. Virol",
+            "volume": "87",
+            "issn": "23",
+            "pages": "12611--12618",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Coronavirus NSP6 restricts autophagosome expansion",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Cottam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Whelband",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wileman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "",
+            "volume": "10",
+            "issn": "",
+            "pages": "1426--1441",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Evolutionary analysis of SARS-CoV-2: how mutation of Non-Structural Protein 6 (NSP6) could affect viral autophagy",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Benvenuto",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Infect",
+            "volume": "81",
+            "issn": "1",
+            "pages": "24--27",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The SARS-coronavirus nsp7 +nsp8 complex is a unique multimeric RNA polymerase capable of both de novo initiation and primer extension",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J W"
+                    ],
+                    "last": "Velthuis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H E"
+                    ],
+                    "last": "Van Den Worm",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Snijder",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Nucleic Acids Res",
+            "volume": "40",
+            "issn": "4",
+            "pages": "1737--1747",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Structure of the SARS-CoV nsp12 polymerase bound to nsp7 and nsp8 co-factors",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Kirchdoerfer",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ward",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Commun",
+            "volume": "10",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Processing of the SARS-CoV pp1a/ab nsp7-10 region",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Krichel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biochem. J",
+            "volume": "477",
+            "issn": "5",
+            "pages": "1009--1019",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "The nonstructural protein 8 (nsp8) of the SARS coronavirus interacts with its ORF6 accessory protein",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Virology",
+            "volume": "366",
+            "issn": "2",
+            "pages": "293--303",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.virol.2007.04.029"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The nsp9 replicase protein of SARS-coronavirus, structure and functional insights",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Sutton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Structure",
+            "volume": "12",
+            "issn": "2",
+            "pages": "341--353",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.str.2004.01.016"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Severe acute respiratory syndrome coronavirus nsp9 dimerization is essential for efficient viral growth",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Miknis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Virol",
+            "volume": "83",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Crystal Structure of the SARS-CoV-2 Non-structural Protein 9",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Littler",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "The Crystal Structure of Nsp10-Nsp16 Heterodimer from SARS-CoV-2 in Complex with S-Adenosylmethionine, bioRxiv",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rosas-Lemus",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Structural basis and functional analysis of the SARS coronavirus nsp14\u00e2\u20ac\"nsp10 complex",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Proc. Natl. Acad. Sci",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Coronavirus Nsp10, a critical co-factor for activation of multiple replicative enzymes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouvet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J. Biol. Chem",
+            "volume": "289",
+            "issn": "37",
+            "pages": "25783--25796",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Multiple enzymatic activities associated with severe acute respiratory syndrome coronavirus helicase",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ivanov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J. Virol",
+            "volume": "78",
+            "issn": "11",
+            "pages": "5619--5632",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Biochemical characterization of exoribonuclease encoded by SARS coronavirus",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Biochem. Mol. Biol",
+            "volume": "40",
+            "issn": "5",
+            "pages": "649--655",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Discovery of an RNA virus 3'->5' exoribonuclease that is critically involved in coronavirus RNA synthesis",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Minskaia",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "103",
+            "issn": "13",
+            "pages": "5108--5113",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Major genetic marker of nidoviruses encodes a replicative endoribonuclease",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ivanov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "101",
+            "issn": "34",
+            "pages": "12694--12699",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "An \"Old\" protein with a new story: coronavirus endoribonuclease is important for evading host antiviral defenses",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Virology",
+            "volume": "517",
+            "issn": "",
+            "pages": "157--163",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Structural biology of the arterivirus nsp11 endoribonucleases",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Virol",
+            "volume": "91",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Extensive positive selection drives the evolution of nonstructural proteins in lineage C betacoronaviruses",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Forni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J. Virol",
+            "volume": "90",
+            "issn": "7",
+            "pages": "3627--3639",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Computational inference of selection underlying the evolution of the novel coronavirus, severe acute respiratory syndrome coronavirus 2",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cagliani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Virol",
+            "volume": "94",
+            "issn": "12",
+            "pages": "411--00420",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Coronavirus Nsp2 protein homologies to the bacterial DNA Topoisomerase I and IV suggest Nsp2 protein is an unique RNA Topoisomerase with novel target for drug and vaccine development",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Chakraborty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Virol. Mycol",
+            "volume": "9",
+            "issn": "185",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Severe acute respiratory syndrome coronavirus nonstructural protein 2 interacts with a host protein complex involved in mitochondrial biogenesis and intracellular signaling",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Cornillez-Ty",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "J. Virol",
+            "volume": "83",
+            "issn": "19",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Localization and membrane topology of coronavirus nonstructural protein 4: involvement of the early secretory pathway in replication",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Oostra",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Virol",
+            "volume": "81",
+            "issn": "22",
+            "pages": "12323--12336",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Nidovirus papain-like proteases: multifunctional enzymes with protease, deubiquitinating and deISGylating activities",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mielech",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Virus Res",
+            "volume": "194",
+            "issn": "",
+            "pages": "184--190",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Nonstructural proteins 7 and 8 of feline coronavirus form a 2:1 heterotrimer that exhibits primer-independent RNA polymerase activity",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J. Virol",
+            "volume": "86",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Coronavirus infectious bronchitis virus non-structural proteins 8 and 12 form stable complex independent of the non-translated regions of viral RNA and other viral proteins",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Virology",
+            "volume": "513",
+            "issn": "",
+            "pages": "75--84",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "RNA 3'-end mismatch excision by the severe acute respiratory syndrome coronavirus nonstructural protein nsp10/nsp14 exoribonuclease complex",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouvet",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "109",
+            "issn": "24",
+            "pages": "9372--9377",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Coronavirus nonstructural protein 16 is a cap-0 binding enzyme possessing (nucleoside-2'O)-methyltransferase activity",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Decroly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J. Virol",
+            "volume": "82",
+            "issn": "16",
+            "pages": "8071--8084",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Processing of open reading frame 1a replicase proteins nsp7 to nsp10 in murine hepatitis virus strain A59 replication",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Deming",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J. Virol",
+            "volume": "81",
+            "issn": "19",
+            "pages": "10280--10291",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Proteolytic processing of polyproteins 1a and 1ab between nonstructural proteins 10 and 11/12 of Coronavirus infectious bronchitis virus is dispensable for viral replication in cultured cells",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Fang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Virology",
+            "volume": "379",
+            "issn": "2",
+            "pages": "175--180",
+            "other_ids": {}
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "The RNA polymerase activity of SARS-coronavirus nsp12 is primer dependent",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J W"
+                    ],
+                    "last": "Velthuis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Nucleic Acids Res",
+            "volume": "38",
+            "issn": "1",
+            "pages": "203--214",
+            "other_ids": {}
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "A 'rule of three' for fragment-based lead discovery?",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Congreve",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Drug Discov. Today",
+            "volume": "8",
+            "issn": "19",
+            "pages": "876--877",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Lead-and drug-like compounds: the rule-of-five revolution",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Lipinski",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Drug Discov. Today Technol",
+            "volume": "1",
+            "issn": "4",
+            "pages": "337--341",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Relative binding free energy calculations in drug discovery: recent advances and practical considerations",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Cournia",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Allen",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Sherman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J. Chem. Inf. Model",
+            "volume": "57",
+            "issn": "12",
+            "pages": "2911--2937",
+            "other_ids": {}
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Prediction of Protein\u2212 compound binding energies from known activity data: docking-score-based method and its applications",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Fukunishi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Mole. Info",
+            "volume": "37",
+            "issn": "6-7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "High-resolution crystal structure of an engineered human beta2-adrenergic G protein-coupled receptor",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Cherezov",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Science",
+            "volume": "318",
+            "issn": "5854",
+            "pages": "1258--1265",
+            "other_ids": {}
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Advances in homology protein structure modeling",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Curr. Protein Pept. Sci",
+            "volume": "7",
+            "issn": "",
+            "pages": "217--227",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Sequence analysis and structural prediction of the severe acute respiratory syndrome coronavirus nsp5",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Acta Biochim. Biophys. Sin",
+            "volume": "37",
+            "issn": "7",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Structural basis and functional analysis of the SARS coronavirus nsp14-nsp10 complex",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Proc. Natl. Acad. Sci. U. S. A",
+            "volume": "112",
+            "issn": "30",
+            "pages": "9436--9441",
+            "other_ids": {
+                "DOI": [
+                    "10.1073/pnas.1508686112"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "X-ray structural and functional studies of the three tandemly linked domains of non-structural protein 3 (nsp3) from murine hepatitis virus reveal conserved functions",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J. Biol. Chem",
+            "volume": "290",
+            "issn": "42",
+            "pages": "25293--25306",
+            "other_ids": {}
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "RNA replication of mouse hepatitis virus takes place at doublemembrane vesicles",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gosert",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "J. Virol",
+            "volume": "76",
+            "issn": "8",
+            "pages": "3697--3708",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "The coronavirus replicase: insights into a sophisticated enzyme machinery",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Adv. Exp. Med. Biol",
+            "volume": "581",
+            "issn": "",
+            "pages": "3--11",
+            "other_ids": {}
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Binding affinity via docking: fact and fiction",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Pantsar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Poso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Molecules",
+            "volume": "23",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Protein 6wuu.pdb showing classing/overlapping poses of drugs DB07132, blue and DB0753, magenta in the close by binding pockets. The binding residues and bond lengths are already calculated. It also shows non overlapping pose of drugs DB01977, red and DB07132 or DB01977 and DB07535. Blocking the function of NSP by the drugs in both cases, overlapping and non-overlapping needs to be proved in wet lab. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Chemical structure of DB07535, with smiles, NC1=NC(CCC2=CC3=C(C=CN3)C=C2) = CC(=O)N1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "Chemical structure of DB07132, with smiles, [H][C@](C) (C1=CC=CN1)C1=C2C=C(NC(N) = O)C=CC2=NC1=O",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Chemical structure of DB01977 with smiles, NC(=N)C1=CC=C2C=C(C=CC2=C1)C(=O)NC1=CC=CC=C1.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Review table, role of NSPs of SARS-CoV-2.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF1": {
+            "text": "Sequence and structural similarities of proteins.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Binding energies of drugs using PyRx docking software.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "bar charts and pie charts not only visualize numerical or category data, but also show trends of multiple scaffolds or compound substitution patterns. This software was used in this research to select drugs according to the rule of three and available at http://www.open molecules.org/datawarrior/download.html. Molinspiration offers broad range of cheminformatics software tools supporting molecule manipulation and processing, including SMILES and SD file conversion, normalization of molecules, etc. and available at https://www.molinspi ration.com/cgi-bin/properties.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "Selected drugs and their detailed targets proteins.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "Difference in binding energies at different chains of same protein with different binding residues.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF6": {
+            "text": "Comparison of pharmacophores of drugs.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "Bioactivity table for drugs.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF8": {
+            "text": "Rajstrongest acidity among the selected drugs keeping apart the constant parameters, number of rotatable bonds, hydrogen donors and acceptors to 3,Supplementary Table S3. The drug binds with the NSPs with the help of many binding residues with lower (less than \u2212 8 KCal/mol) binding energy,",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Authors are thankful to the college for helping in completing the experiments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "Supplementary data to this article can be found online at https://doi. org/10.1016/j.bbrep.2020.100847.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Appendix A. Supplementary data"
+        },
+        {
+            "text": " 4  Number of violations  2  3  1  1  2  2  3  0  0  0  Number of rotatable bonds  14  18  8  12  15  7  13  3  3  3  Volume(A 3 ) 523. ",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1,
+                    "end": 130,
+                    "text": "4  Number of violations  2  3  1  1  2  2  3  0  0  0  Number of rotatable bonds  14  18  8  12  15  7  13  3  3  3  Volume(A 3 )",
+                    "ref_id": null
+                }
+            ],
+            "section": "annex"
+        },
+        {
+            "text": "Not Applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Consent for publication"
+        },
+        {
+            "text": "None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Funding"
+        },
+        {
+            "text": "One author contributed for the article.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors' contributions"
+        },
+        {
+            "text": "None.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Declaration of competing interest"
+        }
+    ]
+}

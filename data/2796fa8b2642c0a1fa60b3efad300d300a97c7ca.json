@@ -1,0 +1,447 @@
+{
+    "paper_id": "2796fa8b2642c0a1fa60b3efad300d300a97c7ca",
+    "metadata": {
+        "title": "Journal Pre-proof 'In-silico primer designing and PCR for detection of novel coronavirus-19",
+        "authors": [
+            {
+                "first": "Shashi",
+                "middle": [
+                    "Kant"
+                ],
+                "last": "Tiwari",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Ajay",
+                "middle": [
+                    "Kumar"
+                ],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Central University of South Bihar",
+                    "location": {
+                        "settlement": "Gaya",
+                        "country": "Bihar India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Avinash",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Indian Institute of Technology",
+                    "location": {
+                        "settlement": "Mandi"
+                    }
+                },
+                "email": "dravinashsinghiit@gmail.com"
+            },
+            {
+                "first": "Shashi",
+                "middle": [],
+                "last": "Kant Tiwari",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of California",
+                    "location": {
+                        "addrLine": "La Jolla",
+                        "postCode": "92093",
+                        "region": "California",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [],
+    "body_text": [
+        {
+            "text": "Novel corona virus (2019-nCoV or COVID-19) pandemic has been considered as a major public health emergency in the world of this century. We synthesised noval 12 pairs of primers from the whole genome of COVID 19 virus by using In-silico approach. We observed primers have high binding capacity and no cross reactivity. These primers and probe may be useful for commercial development of one step RTPCR based kit for diagnosis of COVID 19. Iran became other hotspots of COVID-19 outbreak. In India (13 April 2020, 17:00 GMT+5:30) currently total cases are 8048. Due to increase in number of potential cases in this global pandemic situation, the pressure is on to clinician, who requires a quick and more-accessible diagnostic test with high sensitivity, which is applicable during early symptomatic and asymptomatic phase. Polymerase Chain (PCR) or real time PCR has been considered as a specific and sensitive molecular technique to detect the viral load in the humans [4] . In this study, Bioinformatics tools (Primer quest and MFE primer 3.0) were used to design and verify the COVID-19 specific primers. qRT-PCR primer and probe were designed within conserved region from whole genome, RNA dependent RNA polymerase (RdRP) and envelope to detect SARS-CoV2 from COVID-19 virus isolated from Wuhan, China (Gene bank No: NC_045512, MT072668.1and MT111896.1 respectively). The details of primer, specificity and conditions were provided in table: 1. Further we validated our PCR primers with tools such as In-Silico PCR (https://genome.ucsc.edu/cgi-bin/hgPcr) and Primer-Blast which allow to investigate the amplification targets of primers and probes to ensure adequate specificity and sensitivity. We noted that all the primers (Table 1 ) either based on syber green chemistry had binding capacity(\u0394G) ranged from -20.46 to -23.14(Kcal/mole) while based on Taqman probes had binding capacity (\u0394G ) ranged from -26.56 to -27.20 (kcal/mole). Higher binding capacity of primers in MFE primer tool showed higher specificity against virus [5] . We also observed no cross reactivity with other corona virus family (SARS and MERS). All these sets of primers of COVID-19 were highly specific and any of the primer set either syber green based or Taqman probe based may be useful for commercial one step RT-PCR based kit development for the molecular diagnosis of COVID-19 viruses. The assay based on one step qRT-PCR detection will be sensitive, rapid and specific to detect COVID-19 viruses in mouth swab, nasal swab, ",
+            "cite_spans": [
+                {
+                    "start": 970,
+                    "end": 973,
+                    "text": "[4]",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 2035,
+                    "end": 2038,
+                    "text": "[5]",
+                    "ref_id": "BIBREF4"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1729,
+                    "end": 1737,
+                    "text": "(Table 1",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Abstract"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The novel coronavirus outbreak in Wuhan, China. Glob Health Res Policy",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Emerging coronavirus 2019-nCoV pneumonia",
+            "authors": [
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Shan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Radiology",
+            "volume": "295",
+            "issn": "1",
+            "pages": "210--217",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "China Novel Coronavirus Investigating and Research Team. A Novel Coronavirus from Patients with Pneumonia in China",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "382",
+            "issn": "",
+            "pages": "727--733",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Typing of human adenoviruses in specimens from immunosupressed patients by PCR-fragment length analysis and real-time quantitative PCR",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ebner",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Rauch",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Preuner",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Lion",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "J Clin Microbiol",
+            "volume": "44",
+            "issn": "",
+            "pages": "2808--2823",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "MFEprimer-3.0: quality control for PCR primers",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Shao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Hang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nucleic Acids Res",
+            "volume": "47",
+            "issn": "",
+            "pages": "610--623",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "of novel corona virus (2019-nCoV or COVID-19) has been considered as a major public health emergency in the world of this century. COVID-19 was identified in Wuhan, China in December 2019 [1]. On 31 st December 2019, Chinese Centre for Disease Control and Prevention received more pneumonia cases with unknown aetiology, which was later identified as COVID-19 (WHO. Pneumonia of unknown cause-China). From then, COVID-19 started spreading quickly in all the provinces of China and other countries of the world. Among infected patients, COVID-19 spreads to the lower respiratory tract and causes viral pneumonia",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": ". The severity leads to respiratory distress syndrome. It is said that COVID-19 primarily transmits via infected respiratory droplets, contact and aerosols which is similar to severe acuterespiratory syndrome-coronavirus (SARS-CoV) [3]. Till date (April 13, 2020, 19:04 GMT), total COVID-19 cases in world are 1,910,283 (worldometer.info/coronavirius), out of which 117021 confirmed death reported globally (https://www.who.int/emergencies/diseases/novel-J o u r n a l P r e -p r o o f coronavirus-2019) and numbers adding day by day. However, infection had spread across different nations of the world and countries including USA, Italy, Spain, Germany, France and",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "List of RT-PCR primers synthesised in this study J o u r n a l P r e -p r o o f",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

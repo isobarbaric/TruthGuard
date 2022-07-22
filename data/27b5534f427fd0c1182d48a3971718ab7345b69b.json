@@ -1,0 +1,2569 @@
+{
+    "paper_id": "27b5534f427fd0c1182d48a3971718ab7345b69b",
+    "metadata": {
+        "title": "In Silico Screening of Natural Products as Potential Inhibitors of SARS-CoV-2 Using Molecular Docking Simulation hinese Journal of Integrative Medicine C",
+        "authors": [
+            {
+                "first": "\u2022",
+                "middle": [],
+                "last": "",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "\u2022",
+                "middle": [],
+                "last": "Chin",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bangabandhu Sheikh Mujibur Rahman Science and Technology University",
+                    "location": {
+                        "addrLine": "Gopalganj (8100)",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "J",
+                "middle": [
+                    "Integr"
+                ],
+                "last": "Med",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Rajib",
+                "middle": [],
+                "last": "Hossain",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bangabandhu Sheikh Mujibur Rahman Science and Technology University",
+                    "location": {
+                        "addrLine": "Gopalganj (8100)",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Chandan",
+                "middle": [],
+                "last": "Sarkar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bangabandhu Sheikh Mujibur Rahman Science and Technology University",
+                    "location": {
+                        "addrLine": "Gopalganj (8100)",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Shardar",
+                "middle": [
+                    "Mohammad"
+                ],
+                "last": "Hafi Z Hassan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bangabandhu Sheikh Mujibur Rahman Science and Technology University",
+                    "location": {
+                        "addrLine": "Gopalganj (8100)",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Rasel",
+                "middle": [
+                    "Ahmed"
+                ],
+                "last": "Khan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Khulna University",
+                    "location": {
+                        "settlement": "Khulna-9280",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mohammad",
+                "middle": [],
+                "last": "Arman",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "International Islamic University",
+                    "location": {
+                        "settlement": "Chittagong",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Pranta",
+                "middle": [],
+                "last": "Ray",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Huazhong University of Science and Technology",
+                    "location": {
+                        "addrLine": "Wuhan (430074)",
+                        "country": "China"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Muhammad",
+                "middle": [
+                    "Torequl"
+                ],
+                "last": "Islam",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Bangabandhu Sheikh Mujibur Rahman Science and Technology University",
+                    "location": {
+                        "addrLine": "Gopalganj (8100)",
+                        "country": "Bangladesh"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sevgi",
+                "middle": [],
+                "last": "Durna",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Da",
+                "middle": [],
+                "last": "Tan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Sivas Cumhuriyet University",
+                    "location": {
+                        "settlement": "Sivas (58140)",
+                        "country": "Turkey"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Javad",
+                "middle": [],
+                "last": "Sharifi -Rad",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Azuay",
+                    "location": {
+                        "settlement": "Cuenca",
+                        "country": "Ecuador"
+                    }
+                },
+                "email": "javad.sharifirad@gmail.com"
+            },
+            {
+                "first": "Zainab",
+                "middle": [
+                    "M"
+                ],
+                "last": "Almarhoon",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "King Saud University",
+                    "location": {
+                        "addrLine": "Saudi Arabia",
+                        "settlement": "Riyadh (11451)"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Miquel",
+                "middle": [],
+                "last": "Martorell",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Concepci\u00f3n",
+                    "location": {
+                        "settlement": "Concepci\u00f3n (4070386)",
+                        "country": "Chile"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "William",
+                "middle": [
+                    "N"
+                ],
+                "last": "Setzer",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Alabama in Huntsville",
+                    "location": {
+                        "settlement": "Huntsville",
+                        "region": "AL (35899)",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Daniela",
+                "middle": [],
+                "last": "Calina",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "University of Medicine and Pharmacy of Craiova",
+                    "location": {
+                        "settlement": "Craiova (200349)",
+                        "country": "Romania"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "New coronavirus SARS-CoV-2 are singlestranded RNA genome-containing viruses with medical and veterinary importance. (1) These include transmissible gastroenteritis virus, porcine epidemic diarrhea virus, and the human CoVs. The SARS-CoV-2 belongs to the betacoronavirus genus similar to severe acute respiratory syndrome coronavirus, and the Middle East respiratory syndrome coronavirus. (1, 2) The human coronaviruses SARS-CoV-2 are positive-sense with a length of 30,000 bp and single-stranded RNA viruses. (3) The two groups of proteins characterized in SARS-CoV-2 are (i) structural proteins (e.g., spike (S), nucleocapsid (N), matrix (M) and envelope (E)) and (ii) non-structural proteins (e.g., proteases, 3-chymotrypsin-like protease (3CL PRO ), papain-like protease (PL PRO ) and RNA-dependent RNA polymerase (RdRp). (1) The CoV polyprotein encodes two proteases like 3CL PRO , and PL PRO which share in its processing and release of the translated non-structural proteins. (4) ABSTRACT ABSTRACT Objective Objective: To explore potential natural products against severe acute respiratory syndrome : To explore potential natural products against severe acute respiratory syndrome coronavirus (SARS-CoV-2) via the study of structural and non-structural proteins of human coronaviruses. coronavirus (SARS-CoV-2) via the study of structural and non-structural proteins of human coronaviruses.",
+            "cite_spans": [
+                {
+                    "start": 388,
+                    "end": 391,
+                    "text": "(1,",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 392,
+                    "end": 394,
+                    "text": "2)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 982,
+                    "end": 985,
+                    "text": "(4)",
+                    "ref_id": "BIBREF5"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Methods Methods: In this study, we performed an : In this study, we performed an in-silico in-silico survey of 25 potential natural compounds acting against survey of 25 potential natural compounds acting against SARS-CoV-2. Molecular docking studies were carried out using compounds against 3-chymotrypsin-like SARS-CoV-2. Molecular docking studies were carried out using compounds against 3-chymotrypsin-like protease (3CL protease (3CL PRO PRO ), papain-like protease (PL ), papain-like protease (PL PRO PRO ), RNA-dependent RNA polymerase (RdRp), non-structural ), RNA-dependent RNA polymerase (RdRp), non-structural protein (nsp), human angiotensin converting enzyme 2 receptor (hACE2R), spike glycoprotein (S protein), protein (nsp), human angiotensin converting enzyme 2 receptor (hACE2R), spike glycoprotein (S protein), abelson murine leukemia viral oncogene homolog 1 (ABL1), calcineurin-nuclear factor of activated T-cells abelson murine leukemia viral oncogene homolog 1 (ABL1), calcineurin-nuclear factor of activated T-cells (NFAT) and transmembrane protease serine 2. (NFAT) and transmembrane protease serine 2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Results Results: Among the screened compounds, amentoflavone : Among the screened compounds, amentoflavone showed the best binding affi nity with the 3CL showed the best binding affi nity with the 3CL PRO PRO , RdRp, nsp13, nsp15, hACE2R\u00b8 ABL1 and calcineurin-NFAT; , RdRp, nsp13, nsp15, hACE2R\u00b8 ABL1 and calcineurin-NFAT; berbamine with hACE2R and ABL1; cepharanthine with nsp10, nsp14, nsp16, S protein and ABL1; glucogallin berbamine with hACE2R and ABL1; cepharanthine with nsp10, nsp14, nsp16, S protein and ABL1; glucogallin with nsp15; and papyrifl avonol A with PL with nsp15; and papyrifl avonol A with PL PRO PRO protein. Other good interacting compounds were juglanin, betulinic protein. Other good interacting compounds were juglanin, betulinic acid, betulonic acid, broussoofl avan A, tomentin A, B and E, 7-methoxycryptopleurine, aloe emodin, quercetin, acid, betulonic acid, broussoofl avan A, tomentin A, B and E, 7-methoxycryptopleurine, aloe emodin, quercetin,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "tanshinone \u2160, tylophorine and furruginol, which also showed excellent binding affinity towards a number of tanshinone \u2160, tylophorine and furruginol, which also showed excellent binding affinity towards a number of target proteins. Most of these compounds showed better binding affi nities towards the target proteins than the target proteins. Most of these compounds showed better binding affi nities towards the target proteins than the standard drugs used in this study. standard drugs used in this study. Conclusion Conclusion: Natural products or their derivatives may be one of the potential : Natural products or their derivatives may be one of the potential targets to fi ght against SARS-CoV-2. targets to fi ght against SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "The RdRp is a crucial viral enzyme in the life cycle of RNA viruses. (5) The nsp12 is the polymerase that binds to its essential cofactors, nsp7 and nsp8. It is important in replication and transcription of the viral genome. S protein is a crucial factor for viral attachment and entry to the host cells, which present on the outer surface of the virion, in a homo-trimeric state. (6) 3CL PRO is the main protease that cleaves host polyproteins into viral replication-related proteins, and is highly conserved across the SARS-CoV-2 family, including SARS-CoVs and Middle East respiratory syndrome corona. (7) The PL PRO cleaves the nsp1/2, nsp2/3 and nsp3/4 boundaries. It works with 3CL PRO to cleave the polyproteins into nsps. (8) The nsp13 (helicase) catalyzes the unwinding of duplex oligonucleotides into single strands in a nucleoside 5'-triphosphate (NTP)dependent manner. It is also an ideal target to develop antiviral drugs due to its sequence conservation in all CoV species. (9) The N-terminal exoribonuclease and C-terminal guanine-N7 methyl transferase (nsp14) of CoV is important for viral replication and transcription. (10) The N-terminal exoribonuclease domain plays a proofreading role in prevention of the lethal mutagenesis, and the C-terminal domain functions as a guanine-N7 methyl transferase for mRNA capping. (11) The nsp15 forms a hexameric endoribonuclease that preferentially cleaves 3' of uridines, also named as uridylate-specific endoribonuclease. It is one of the RNA-processing enzymes encoded by the CoV, (12) while nsp16 is an S-adenosylmethionine dependent nucleoside-2'-O-methyltransferase. The latter one is only activated by the binding of nsp10. (13) On the other hand, nsp10 is an essential co-factor and forms a complex with nsp14 and nsp16.",
+            "cite_spans": [
+                {
+                    "start": 69,
+                    "end": 72,
+                    "text": "(5)",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 381,
+                    "end": 384,
+                    "text": "(6)",
+                    "ref_id": "BIBREF7"
+                },
+                {
+                    "start": 605,
+                    "end": 608,
+                    "text": "(7)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 730,
+                    "end": 733,
+                    "text": "(8)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 988,
+                    "end": 991,
+                    "text": "(9)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 1137,
+                    "end": 1141,
+                    "text": "(10)",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1336,
+                    "end": 1340,
+                    "text": "(11)",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1541,
+                    "end": 1545,
+                    "text": "(12)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1688,
+                    "end": 1692,
+                    "text": "(13)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Development of new drugs against the SARS-CoV-2 focuses on blocking virus entry into the host cells, and preventing viral transcription and replication. The 3CL PRO , plays a pivotal role in mediating viral replication complex and transcription, is a particularly attractive target for anti-SARS-CoV-2 drug design. (14) It has gained much attention as a valuable target in drug discovery efforts and also been termed 'the Achilles heel of coronaviruses'. (15) In addition to 3-chymotrypsinlike protease (3CL PRO ), papain-like protease (PL PRO ), and RNA-dependent RNA polymerase (RdRp), there are other target proteins, such as the receptor 2 of the human angiotensin-converting enzyme (hACE2R), calcineurin-activated nuclear T cell factor (NFAT) and murine abelson homologue 1 of the leukemia viral oncogene (ABL1). Molecular docking simulations were used to perform in silico screening of potential active compounds against hACE2R, 3CL PRO , PL PRO , RdRp, nsp10, nsp13-16, calcineurin-NFAT, transmembrane protease serine 2 (TMPRSS2), and ABL1. (16) (17) (18) In this respect, numerous plants containing high concentrations of flavonoids and polyphenolic compounds are known to have antioxidant, anticancer, anti-depressant, anti-infl ammatory, anti-diarrheal, antidiabetic, and anti-viral effects. Furthermore, a recent study showed that above mentioned compounds exert anti-SARS-CoV-2 activity with inhibitory concentration 50/effective concentration 50 less than 10 \u03bcmol/L. (19) In this study, we have performed an in silico survey of 25 potential natural products acting against SARS-CoV-2 and compared the data with antiviral drugs as standards (Appendix 1).",
+            "cite_spans": [
+                {
+                    "start": 315,
+                    "end": 319,
+                    "text": "(14)",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 455,
+                    "end": 459,
+                    "text": "(15)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1048,
+                    "end": 1052,
+                    "text": "(16)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1053,
+                    "end": 1057,
+                    "text": "(17)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1058,
+                    "end": 1062,
+                    "text": "(18)",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 1480,
+                    "end": 1484,
+                    "text": "(19)",
+                    "ref_id": "BIBREF22"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Prediction of antiviral activity of 25 potential natural products was carried out using the \"prediction of activity spectra for the substances\" (PASS) computer program. This software estimates predicted activity spectrum of a compound as probable activity (Pa) and probable inactivity (Pi). The values of Pa and Pi vary between 0.000 and 1.000. Only activities with Pa > Pi are considered as possible for a particular compound. If Pa > 0.7, the probability of experimental pharmacological action is high and if 0.5 < Pa < 0.7, probability of experimental pharmacological action is less. If the value of Pa < 0.5, the chance of experimentally fi nding the activity is less, but it may also indicate a chance of fi nding a new lead compound. (20) ",
+            "cite_spans": [
+                {
+                    "start": 740,
+                    "end": 744,
+                    "text": "(20)",
+                    "ref_id": "BIBREF23"
+                }
+            ],
+            "ref_spans": [],
+            "section": "In Silico Prediction of Activity Spectra for Substances"
+        },
+        {
+            "text": "Glide of Schr\u00f6dinger-Maestro (version 11.1, https://www.schrodinger.com/products/maestro, Schrodinger, USA)) was used for the molecular docking analysis to predict the behavior of the mentioned compounds against the macromolecular targets of the human coronavirus: 3CL PRO (PDB 6LU7), PL PRO (PDB 4OW0), hACE2R (PDB 2AJF), RdRp (PDB 6NUR), S protein (PDB 2GHV), nsp13 (PDB 6JYT), nsp14 (PDB 5C8S), nsp15 (PDB 2H85), nsp16 (PDB 3R24), nsp10 (PDB 2XYR), calcineurin-NFAT (PDB 2JOG), ABL1 (PDB 6T3B) and TMPRSS2 (PDB 2OQ5, Appendix 2).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Macromolecules and Preparation"
+        },
+        {
+            "text": "For the purpose of energy minimization crystal structure, we utilized Swiss-PDB Viewer software package (version 4.1.0, Structural Bioinformatics Group, SIB Swiss Institute of Bioinformatics, Switzerland), and then all the hetero atoms and water molecules of proteins were removed by using PyMOl (version 1.7.4.5, BIOVIA, Schrodinger, USA) before docking. A simple docking method was used to explore the properties of our Gaussian Scoring Function, i.e., a Quasi-Newton solid body optimization of the ligand location from random starting positions near the receptor site. (21) The receptor grid generation was done by PockDrug selecting the best binding sites.",
+            "cite_spans": [
+                {
+                    "start": 572,
+                    "end": 576,
+                    "text": "(21)",
+                    "ref_id": "BIBREF25"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Macromolecules and Preparation"
+        },
+        {
+            "text": "Twenty-five natural compounds (Appendix 3) (22) and commercially available antiviral drugs (i.e., alisporivir, chloroquine, cyclosporine, favipiravir, grl0617, lopinavir, remdesivir, ritonavir, selumetinib, trametinib, Table 2 ) were downloaded from the PubChem (a database for chemical molecules). By using Gaussian view 09 package (Gaussian Inc, USA) and Chem3D Pro12.0 program (University of Bath, England) package, all internal energies of the ligands were optimized.",
+            "cite_spans": [
+                {
+                    "start": 43,
+                    "end": 47,
+                    "text": "(22)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 219,
+                    "end": 226,
+                    "text": "Table 2",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Ligand Preparation"
+        },
+        {
+            "text": "The Van der Waals scaling factor 1.00 and charge cutoff 0.25 subjected to OPLS 2005 force fi eld. The bounding box was set to 15\u00d715\u00d715 for the docking study.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Active Site and Grid Generation"
+        },
+        {
+            "text": "The actives sites are the coordinates of the ligand in the original target protein grids and these active binding sites of target protein were scrutinized using Drug Discovery Studio version 4.5 (BIOVIA Dassault Syst\u00e8mes, USA). The non-covalent interactions were calculated using Discovery Studios Software (Biovia, England).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Docking Analysis and Binding Site"
+        },
+        {
+            "text": "Interaction with 3CL PRO Amentoflavone, berbamine, cepharanthine, glucogallin, juglanin and papyriflavonol A exhibited binding affi nities with 3CL PRO (Table 1) . Amentofl avone showed the highest binding energy compared to the other compounds. The 2D and 3D structures of nonbond interactions of amentoflavone with 3CL PRO are shown in Appendix 4. The standard drugs ritonavir and lopinavir showed binding affi nities towards 3CL PRO by -6.8 and -6.5 kcal/mol, respectively ( Table 2) . The 2D and 3D structures of non-bond interactions of ritonavir with 3CL PRO are shown in Appendix 5.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 152,
+                    "end": 161,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 478,
+                    "end": 486,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Docking with Non-structural Proteins"
+        },
+        {
+            "text": "Interaction with PL PRO Amentoflavone, broussoflavan A, cepharanthine,",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Docking with Non-structural Proteins"
+        },
+        {
+            "text": "Compounds Binding affi nity (kcal/mol)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Table 1. Natural Products-Derived Compounds Showing Highest Binding Affi nity with SARS-CoV-2 Non-structural Proteins"
+        },
+        {
+            "text": "papyriflavonol A and juglanin showed good binding affi nity with PL PRO ( Table 1 ). The 2D and 3D structures of non-bond interactions of these compounds with PL PRO are shown in Appendix 4. The standard drugs, lopinavir and GRL0617 showed binding affinities towards PL PRO by -6.8 and -6.5 kcal/mol, respectively ( Table 2) (Table 1) . Among those compounds, amentoflavone exhibited strong binding energy with RdRp protein (Appendix 4). The standard drugs, chloroquine, remdesivir and favipiravir showed binding affi nities towards RdRp by -6.1, -7.8 and -5.5 kcal/mol, respectively ( Table 2 ). The 2D and 3D structures of non-bond interactions of remdesivir with RdRp are shown in Appendix 5.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 74,
+                    "end": 81,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 316,
+                    "end": 324,
+                    "text": "Table 2)",
+                    "ref_id": "TABREF0"
+                },
+                {
+                    "start": 325,
+                    "end": 334,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 586,
+                    "end": 593,
+                    "text": "Table 2",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Table 1. Natural Products-Derived Compounds Showing Highest Binding Affi nity with SARS-CoV-2 Non-structural Proteins"
+        },
+        {
+            "text": "The binding affi nities of amentofl avone, berbamine, betulonic acid, cepharanthine and papyrifl avonol A with nsp10 are shown in Table 1 . Cepharanthine exhibited best the binding interaction with nsp10 (Appendix 4).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 130,
+                    "end": 137,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interaction with nsp10"
+        },
+        {
+            "text": "Molecular docking against nsp13 (helicase, PDB 6JYT) indicated that amentofl avone, berbamine, betulinic acid, betulonic acid, broussoflavan A, cepharanthine, glucogallin, papyriflavonol A, tanshinone \u2160, tomentin A, B and E exhibited the binding affinities with nsp 13 (Table 1 ). In comparison to the other compounds, amentofl avone displayed the best binding affi nity with this helicase protein (Appendix 4).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 269,
+                    "end": 277,
+                    "text": "(Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interaction with nsp13"
+        },
+        {
+            "text": "Amentoflavone, betulonic acid, cepharanthine and tomentin B exhibited binding affi nities with nsp14 (Table 1) . Cepharanthine showed a good binding interaction with nsp14 with a single hydrogen bond with Pro84, van der Waals bond with Asn85, and alkyl bonds with Leu92 and Leu112 amino acid residues (Appendix 4). On the other hand, amentoflavone bound with Asp91 and Cys90 through 2 hydrogen bonds, while betulonic acid with Thr5, Gly70, Ala71 and Lys95 and tomentin B with Asn85, Asp91, Phe89 and Cys74 though 4 hydrogen bonds.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 101,
+                    "end": 110,
+                    "text": "(Table 1)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interaction with nsp14"
+        },
+        {
+            "text": "Interaction with nsp15 Table 1 . Cepharanthine exhibited a stronger binding capacity with nsp16 (PDB 3R24) than the other compounds. The 2D and 3D structures of non- bonding interactions of cepharanthine the nsp16 are given in Appendix 4.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 23,
+                    "end": 30,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interaction with nsp14"
+        },
+        {
+            "text": "Interaction with hACE2R",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Docking with Structural Proteins"
+        },
+        {
+            "text": "Amentoflavone, berbamine, betulinic acid, b e t u l o n i c a c i d , c e p h a r a n t h i n e , g l u c o g a l l i n , papyriflavonol A, tomentin A and E exhibited binding affinity with hACE2R protein (Table 3) . Amentoflavone and berbamine displayed the best binding affi nity with hACE2R (Appendix 6).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 204,
+                    "end": 213,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Docking with Structural Proteins"
+        },
+        {
+            "text": "The binding affinities of amentoflavone, berbamine, cepharanthine, ferruginol, papyrifl avonol A, tanshinone \u2160 and tomentin B are shown in Table 3 . Cepharanthine exhibited the best binding affinity with the SARS-CoV-2 S protein (PDB 2GHV) than the other compounds. The interactions of cepharanthine with the spike glycoprotein include 2 pi-pi bonds with Phe364 and Phe361 as well as 1 alkyl bond with Leu355 amino acid residues (Appendix 6).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 139,
+                    "end": 146,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interaction with S protein"
+        },
+        {
+            "text": "The binding affinities of 7-methoxycryptopleurine, aloe emodin, amentofl avone, berbamine, betulinic acid, betulonic acid, cepharanthine, juglanin, papyrifl avonol A, quercetin, tanshinone \u2160, tomentin A, tylophorine are shown in Table 3 . In comparison with cepharanthine, other compounds showed lower binding affinity with ABL1 protein (Appendix 6). The standard drugs, trametinib and selumetinib showed binding affinities towards ABL1 by -9.2 and -5.9 kcal/mol, respectively ( Table 2 ). The 2D and 3D structures of non-bond interactions of trametinib with ABL1 are shown in Appendix 5.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 229,
+                    "end": 236,
+                    "text": "Table 3",
+                    "ref_id": null
+                },
+                {
+                    "start": 479,
+                    "end": 486,
+                    "text": "Table 2",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Interaction with ABL1"
+        },
+        {
+            "text": "Interaction with Calcineurin-NFAT Amentoflavone, betulinic acid, betulonic acid, cepharanthine, papyriflavonol A, tomentin A and E exhibited binding affinity with the calcineurin-NFAT protein (Table 3) . Amentoflavone showed the best binding energy as compared to the other compounds against this protein. The 2D and 3D structures of nonbonding interactions between amentoflavone and calcineurin-NFAT protein are shown in Appendix 6. The standard drugs alisporivir and cyclosporine showed binding affi nities towards NFAT by -6.8 and -6.7 kcal/ mol, respectively ( Table 2 ). The 2D and 3D structures of non-bond interactions of alisporivir with NFAT are shown in Appendix 5.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 192,
+                    "end": 201,
+                    "text": "(Table 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 565,
+                    "end": 572,
+                    "text": "Table 2",
+                    "ref_id": "TABREF0"
+                }
+            ],
+            "section": "Interaction with ABL1"
+        },
+        {
+            "text": "Amentoflavone, cepharanthine, glucogallin, Table 3 ). The amentoflavone showed the best binding energy as compared to the other compounds against this protein. Tomentin B and glucogallin showed interaction with Glu218, Trp215 and Val227, and His99, Glu216, Cys219, Gln192, Ser195, Thr62, Cys58, Gly216, Cys191, His57 and Thr61, respectively (Appendix 6).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 43,
+                    "end": 50,
+                    "text": "Table 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Interaction with TMPRSS2"
+        },
+        {
+            "text": "For controlling the outbreak of SARS-CoV-2, the researchers are working diligently to discover anti-SARS-CoV-2 agents. For this purpose, medicinal plantderived compounds (phytochemical) may be a potential source of the lead compounds to combat the SARS-CoV-2 infection. (23) There are 12 targets for creating antiviral agents against SARS-CoV-2. The SARS-CoV-2 polyprotein have 2 proteases. (4) 3CL PRO is highly conserved across the SARS-CoV-2 family, (7) and plays a pivotal role in mediating viral replication complex and transcription, is a particularly attractive target for the anti-CoV drug design. (14) In our study, amentoflavone, berbamine, cepharanthine, glucogallin, juglanin and papyrifl avonol A exhibited the good binding affi nities with 3CL PRO , amentofl avone, broussofl avan A, cepharanthine, papyriflavonol A and juglanin showed good binding affinity with PL PRO . Amentoflavone showed strong binding capacity with both of 3CL PRO and PL PRO proteins.",
+            "cite_spans": [
+                {
+                    "start": 270,
+                    "end": 274,
+                    "text": "(23)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 453,
+                    "end": 456,
+                    "text": "(7)",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 606,
+                    "end": 610,
+                    "text": "(14)",
+                    "ref_id": "BIBREF17"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "SARS-CoV-2 utilize RdRp as a crucial enzyme in their life cycle. (5) Therefore, RdRp can be one of the best targets for the discovery of antiviral drug against SARS-CoV-2. In this study, 7-methoxycryptopleurine, aloe emodin, amentofl avone, berbamine, betulinic acid, broussoflavan A, cepharanthine, ferruginol, juglanin, papyriflavonol A, tanshinone \u2160, tomentin A, B and E showed good binding affi nity with tRdRp protein, where amentoflavone exhibited a strong binding energy with this protein. Moreover, the nsp10, nsp13, nsp14, nsp15, and nsp16 also play an important role in SARS-CoV-2 infection. In this study, we found a number of compounds interact with these proteins, such as cepharanthine with nsp10 and nsp14, amentofl avone with nsp13 and nsp15, and papyrifl avonol A with nsp16 proteins.",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 68,
+                    "text": "(5)",
+                    "ref_id": "BIBREF6"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The SARS-CoV-2 could possibly use hACE2R for attaching in human lung cells. (24) Therefore, hACE2R might be another potential target for inhibiting the viral attachment with the host cells. (16) (17) (18) Our results demonstrate that amentoflavone, berbamine, betulinic acid, betulonic acid, cepharanthine, glucogallin, papyrifl avonol A, tomentin A and E exhibited good binding affinity with hACE2R protein, where amentoflavone and berbamine showed a strong binding capacity with this protein. Moreover, ABL1 and calcineurin-NFAT also play an important role in SARS-CoV-2 infection. In this study, we found a number of compounds interact with these proteins, such as cepharanthine with ABL1, and betulonic acid and cepharanthine with calcineurin-NFAT protein.",
+            "cite_spans": [
+                {
+                    "start": 76,
+                    "end": 80,
+                    "text": "(24)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 190,
+                    "end": 194,
+                    "text": "(16)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 195,
+                    "end": 199,
+                    "text": "(17)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 200,
+                    "end": 204,
+                    "text": "(18)",
+                    "ref_id": "BIBREF21"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The bifl avonoid derivative, amentofl avone is evident to inhibit SARS-CoV-2 3CL PRO with 8.3 \u03bcmol/L. (25) Amentoflavone has good interaction with 3CL PRO , thereby suggesting an agreement with the previous study on this anti-CoV-2 agent. Additionally, it was also found to interact with the PL PRO , hACE2R, RdRp, S protein, nsps, ABL1 and NFAT protein. The antiviral effect of berbamine is undefined in the HCoV-NL63 model at 1.48 \u03bcmol/L. (22) In our study, berbamine showed good binding affinity with 3CL PRO , hACE2R, RdRp, S protein, nsp10, nsp13, and nsp15 and ABL1 protein. On the other hand, cepharanthine and papyrifl avonol A were shown to inhibit 3CL PRO and PL PRO , respectively. (26, 27) Our in silico study also demonstrates that these two compounds exhibited signifi cant binding affi nity with 3CL PRO and PL PRO . Additionally, they also showed binding affinity towards hACE2R, RdRp, S protein, nsps, ABL1 and NFAT protein.",
+            "cite_spans": [
+                {
+                    "start": 102,
+                    "end": 106,
+                    "text": "(25)",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 441,
+                    "end": 445,
+                    "text": "(22)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 693,
+                    "end": 697,
+                    "text": "(26,",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 698,
+                    "end": 701,
+                    "text": "27)",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Juglanin evidently blocks the 3a channel in a SARS-CoV-2 model. (28) Our study reports it also has binding affi nities towards the 3CL PRO , PL PRO , RdRp and ABL1 proteins. On the other hand, glucogallin blocked viral entry in SARS-CoV-2 model. (29) In this study, this complex compound displayed binding affinity with the 3CL PRO , hACE2R, nsp13, and nsp15. Broussoflavan A can inhibit PL PRO . (27) Beside this, we found that it has binding affinities towards RdRp, hACE2R, nsp13 and nsp15 proteins. Betulinic acid inhibit viral replication at 0.63 \u03bcmol/L, while betulonic acid inhibited 3CL PRO at 10 \u03bcmol/L in a SARS-CoV-2 model. (30) Our study demonstrates these compounds have binding affinity towards hACE2R, RdRp, nsp13, ABL1 and NFAT proteins. Tanshinone \u2160 inhibited SARS-CoV-2 viral infection and replication. (31) In this study, it has been found to interact with hACE2R, RdRp, S protein, nsp13, nsp15 and nsp16, and ABL1 proteins. Tomentin A, B and E can inhibit of PL PRO . (32) In this in silico study, these tomentins also found to show good binding affinity towards the PL PRO as well as hACE2R, RdRp, nsp13, nsp15 and nsp16, ABL1, NFAT and S glycoprotein. In a SARS-CoV-2 model, aloe emodin exhibited inhibitory effect against 3CL PRO . (33) Here we found its good interaction capacity with the RdRp, nsp15 and ABL1 protein.",
+            "cite_spans": [
+                {
+                    "start": 64,
+                    "end": 68,
+                    "text": "(28)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 246,
+                    "end": 250,
+                    "text": "(29)",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 397,
+                    "end": 401,
+                    "text": "(27)",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 635,
+                    "end": 639,
+                    "text": "(30)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 821,
+                    "end": 825,
+                    "text": "(31)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 988,
+                    "end": 992,
+                    "text": "(32)",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 1255,
+                    "end": 1259,
+                    "text": "(33)",
+                    "ref_id": "BIBREF37"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "Furruginol can inhibit SARS-CoV-2 replication. (30) Our study reports it has good binding affinity towards RdRp and S glycoprotein. 7-Methoxycryptopleurine and tylophorine are evident to inhibit SARS-CoV-2 protease, respectively. (34) We found that these two compounds showed binding affi nity against RdRp, nsp15 and ABL1 proteins. The TMPRSS-2 facilitates SARS-CoV-2, including SARS-CoV-2 infections via 2 independent mechanisms: (i) proteolytic cleavage of hACE2R which promotes viral uptake, and (ii) cleavage of SARS-CoV-2 S proteins which activates glycoprotein for host cell entry. (35) It has been also suggested that the intestine is one of the potential sites of SARS-CoV-2 replication, that may contribute to local and systemic illness and overall disease progression in SARS-CoV-2. In a recent study, besides TMPRSS2, TMPRSS4 was seen to facilitate SARS-CoV-2 spike fusogenic activity, thereby promoting viral entrance into the host cell. (36) In this study, amentoflavone, cepharanthine, glucogallin and tomentin A, showing best binding affinities towards hACE2R, have also been evident to show good bindings capacity towards TMPRSS2. Moreover, the compounds such as amentoflavone, cepharanthine, ferruginol, and tomentin B showing the best binding affi nities towards S protein also showed good bindings capacity towards TMPRSS2. Quercetin also showed good binding affi nity towards this protein.",
+            "cite_spans": [
+                {
+                    "start": 47,
+                    "end": 51,
+                    "text": "(30)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 230,
+                    "end": 234,
+                    "text": "(34)",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 589,
+                    "end": 593,
+                    "text": "(35)",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 951,
+                    "end": 955,
+                    "text": "(36)",
+                    "ref_id": "BIBREF41"
+                }
+            ],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        },
+        {
+            "text": "The main strengths of this research derive from our findings which suggest that the studied natural derivatives compounds can be considered as potential adjuvant treatment against SARS-CoV-2. Therefore, (i) amentofl avone may act through inhibiting the 3CL PRO , RdRp, nsp13, nsp15, hACE2R\u00b8 ABL1 and calcineurin-NFAT protein; (ii) berbamine may inhibit hACE2R and ABL1 protein; (iii) cepharanthine may interact with nsp10, nsp14, nsp16, Spike and ABL1 protein; (iv) papyriflavonol A may interact with PL PRO protein; (v) glucogallin may interact with nsp15 protein of SARS-CoV-2. Also, our fi ndings will be helpful for further preclinical and clinical studies with these compounds and will be able to inspire medicinal scientists to conduct adequate research on the natural products and their derivatives as novel anti-viral agents against the SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "DISCUSSION"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Quantitative structure-activity relationship and molecular docking revealed a potency of anti-hepatitis C virus drugs against human corona viruses",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elfiky",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mahdy",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Elshemey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Med Virol",
+            "volume": "89",
+            "issn": "",
+            "pages": "1040--1047",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Preliminary bioinformatics studies on the design of a synthetic vaccine and a preventative peptidomimetic antagonist against the SARS-CoV-2 (2019-nCoV",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Robson",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Towards effective COVID-19 vaccines: updates, perspectives and challenges",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "C A L I N A D , D O C E A A O , P E T R A K I S D , E G O R O V A M",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ishmukhametov",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Gabibov",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "From SARS to MERS: crystallographic studies on coronaviral proteases enable antiviral drug design",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Hilgenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "FEBS J",
+            "volume": "281",
+            "issn": "",
+            "pages": "4085--4096",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Ribavirin, remdesivir, sofosbuvir, galidesivir, and tenofovir against SARS-CoV-2 RNA dependent RNA polymerase (RdRp): a molecular docking study",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Elfiky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Life Sci",
+            "volume": "253",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Severe acute respiratory syndrome coronavirus papain-like protease: structure of a viral deubiquitinating enzyme",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Ratia",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Saikatendu",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Santarsiero",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Barretto",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Baker",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Stevens",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "103",
+            "issn": "",
+            "pages": "5717--5722",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Analysis of therapeutic targets for SARS-CoV-2 and discovery of potential drugs by computational methods",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhong",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "The SARScoronavirus papain-like protease: structure, function and inhibition by designed antiviral compounds",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "B\u00e1ez-Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "St",
+                    "middle": [],
+                    "last": "John",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Mesecar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Antivir Res",
+            "volume": "115",
+            "issn": "",
+            "pages": "21--38",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Human coronavirus 229E nonstructural protein 13: characterization of duplex-unwinding, nucleoside triphosphatase, and RNA 5'-triphosphatase activities",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ivanov",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ziebuhr",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Virol \u2022 8 \u2022 Chin J Integr Med",
+            "volume": "78",
+            "issn": "",
+            "pages": "7833--7838",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Characterization of the guanine-N7 methyltransferase activity of coronavirus nsp14 on nucleotide GTP",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Jin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Virus Res",
+            "volume": "176",
+            "issn": "",
+            "pages": "45--52",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "RNA 3'-end mismatch excision by the severe acute respiratory syndrome coronavirus nonstructural protein nsp10/nsp14 exoribonuclease complex",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouvet",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Imbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Subissi",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gluais",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Canard",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Decroly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "109",
+            "issn": "",
+            "pages": "9372--9377",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Crystal structure and mechanistic determinants of SARS coronavirus nonstructural protein",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ricagno",
+                    "suffix": ""
+                },
+                {
+                    "first": "M-P",
+                    "middle": [],
+                    "last": "Egloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ulferts",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Coutard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Nurizzo",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Campanacci",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "defi ne an endoribonuclease family",
+            "authors": [],
+            "year": 2006,
+            "venue": "Proc Natl Acad Sci",
+            "volume": "103",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Coronavirus nonstructural protein 16 is a cap-0 binding enzyme possessing (nucleoside-2'O)-methyltransferase activity",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Decroly",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Imbert",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Coutard",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bouvet",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Selisko",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Alvarez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "J Virol",
+            "volume": "82",
+            "issn": "",
+            "pages": "8071--8084",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Identification of a new human coronavirus",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Van Der Hoek",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Pyrc",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Jebbink",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Vermeulen-Oost",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Berkhout",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wolthers",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "Nat Med",
+            "volume": "10",
+            "issn": "",
+            "pages": "368--373",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Potential broad spectrum inhibitors of the coronavirus 3CL PRO : a virtual screening and structure-based drug design study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Berry",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Fielding",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gamieldien",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Viruses",
+            "volume": "7",
+            "issn": "",
+            "pages": "6642--6660",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Role of changes in SARS-CoV-2 spike protein in the interaction with the human ACE2 receptor: an in silico analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Ortega",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Serrano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Pujol",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Rangel",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EXCLI J",
+            "volume": "19",
+            "issn": "",
+            "pages": "410--417",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Broad and differential animal angiotensin-converting enzyme 2 receptor usage by SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Szabla",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Virol",
+            "volume": "94",
+            "issn": "",
+            "pages": "940--00920",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "In silico analysis of ACE2 orthologues to predict animal host range with high susceptibility to SARS-CoV-2",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Bouricha",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Hakmi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Akachar",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Belyamani",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ibrahimi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Biotech",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Natural products and their derivatives against coronavirus: a review of the non-clinical and preclinical data",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Islam",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sarkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "El-Kersh",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Jamaddar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Uddin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Shilpi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Phytother Res",
+            "volume": "34",
+            "issn": "",
+            "pages": "2471--2492",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Revealing pharmacodynamics of medicinal plants using in silico approach: a case study with wet lab validation",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Gawande",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Singh",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Poroikov",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Goel",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "In vivo and in silico evaluation of analgesic activity of Lippia alba",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Aziz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Mehedi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Akter",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sajon",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mazumder",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Rana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Clin Phytosci",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "High-throughput screening and identification of potent broad-spectrum inhibitors of coronaviruses",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Shen",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "23--42",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Novel antiviral agents: a medicinal plant perspective",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Jassim",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Naji",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "J Appl Microbiol",
+            "volume": "95",
+            "issn": "",
+            "pages": "412--427",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "A virus-binding hot spot on human angiotensinconverting enzyme 2 is critical for binding of two different coronaviruses",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Pennell",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mansky",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "5331--5337",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Biflavonoids from Torreya nucifera displaying SARS-CoV 3CL (pro) inhibition",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Ryu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jeong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Bioorg Med Chem",
+            "volume": "18",
+            "issn": "",
+            "pages": "7940--7947",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Antiviral activity of cepharanthine against severe acute respiratory syndrome coronavirus in vitro",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Qian",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2005,
+            "venue": "Chin Med J",
+            "volume": "118",
+            "issn": "",
+            "pages": "493--496",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Evaluation of polyphenols from Broussonetia papyrifera as coronavirus protease inhibitors",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yuk",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ryu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Enzyme Inhib Med Chem",
+            "volume": "32",
+            "issn": "",
+            "pages": "504--515",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Kaempferol derivatives as antiviral drugs against the 3a channel protein of coronavirus",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Schwarz",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sauter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Karioti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Planta Med",
+            "volume": "80",
+            "issn": "",
+            "pages": "177--182",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Small molecules blocking the entry of severe acute respiratory syndrome coronavirus into host cells",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Qu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2004,
+            "venue": "J Virol",
+            "volume": "78",
+            "issn": "",
+            "pages": "11334--11339",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Specific plant terpenoids and lignoids possess potent antiviral activities against severe acute respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Jan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "J Med Chem",
+            "volume": "50",
+            "issn": "",
+            "pages": "4087--4095",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Tanshinones as selective and slow-binding inhibitors for SARS-CoV cysteine proteases",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Jeong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Park",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Bioorg Med Chem",
+            "volume": "20",
+            "issn": "",
+            "pages": "5928--5935",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Geranylated flavonoids displaying SARS-CoV papain-like protease inhibition from the fruits of Paulownia tomentosa",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Curtis-Long",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Ryu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Yuk",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Bioorg Med Chem",
+            "volume": "21",
+            "issn": "",
+            "pages": "3051--3057",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Anti-SARS coronavirus 3C-like protease effects of Isatis indigotica root and plant-derived phenolic compounds",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Identification of phenanthroindolizines and phenanthroquinolizidines as novel potent anti-coronaviral agents for porcine enteropathogenic coronavirus transmissible gastroenteritis virus and human severe acute respiratory syndrome coronavirus",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Kang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Barnard",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Jan",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Antivir Res",
+            "volume": "88",
+            "issn": "",
+            "pages": "160--168",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "A transmembrane serine protease is linked to the severe acute respiratory syndrome coronavirus receptor and activates virus entry",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Shulla",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Heald-Sargent",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Subramanya",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Perlman",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Gallagher",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol",
+            "volume": "85",
+            "issn": "",
+            "pages": "873--882",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "TMPRSS2 and TMPRSS4 promote SARS-CoV-2 infection of human small intestinal enterocytes",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gomez",
+                    "middle": [],
+                    "last": "Castro",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Mccune",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Zeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Rothlauf",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Sonnek",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Immunol",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": ". The 2D and 3D structures of non-bond interactions of lopinavir with PL PRO are shown in Appendix 5. , cepharanthine, ferruginol, juglanin, papyriflavonol A, tanshinone \u2160, tomentin A, B and E displayed binding affinities with RdRP",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "berbamine, broussoflavan A, cepharanthine, glucogallin, tanshinone \u2160, tomentin A and E exhibited binding affi nities with nsp15, respectively(Table 1). Amentoflavone and glucogallin showed the best binding energies, -10.5 and -10.4 kcal/mol, respectively. The 2D and 3D structures of non-bond interactions of amentofl avone and glucogallin with nsp15 are shown in Appendix 4, cepharanthine, papyriflavonol A, quercetin, tanshinone \u2160, tomentin A, B and E were shown in",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Binding Affi nities of Some Standard Drugs with Respective Targets of SARS-CoV-2",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "The authors declare no confl ict of interest. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Confl ict of Interest"
+        }
+    ]
+}

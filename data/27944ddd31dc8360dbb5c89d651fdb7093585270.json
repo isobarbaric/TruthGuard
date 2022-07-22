@@ -1,0 +1,3382 @@
+{
+    "paper_id": "27944ddd31dc8360dbb5c89d651fdb7093585270",
+    "metadata": {
+        "title": "Molecular epidemiology and recombination of Enterovirus A71 in mainland China from 1987 to 2017",
+        "authors": [
+            {
+                "first": "Jingyi",
+                "middle": [],
+                "last": "Zhou",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yingying",
+                "middle": [],
+                "last": "Shi",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Li",
+                "middle": [],
+                "last": "Miao",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Chunyan",
+                "middle": [],
+                "last": "Zhang",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Yongjuan",
+                "middle": [],
+                "last": "Liu",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Enterovirus A71 (EV-A71) is an important pathogen of severe hand, foot, and mouth disease (HFMD) in young children. This study aimed to retrospectively analyze the molecular epidemiology and recombination of EV-A71 in mainland China during 1987-2017. Phylogenetic tree showed that besides the previously reported subgenotypes A, B5, C0, C2, C3, and C4, a new subgenotype C6 emerged in mainland China. Recombination analysis indicated that C4 EV-A71 was derived from a common ancestor as a \"double-recombinant\" virus by intertypic recombination between C EV-A71 and CVA4, CVA5, CVA14, and CVA16 strains in P3 region and intratypic recombination between C and B EV-A71 strains in P2 region. The B5 EV-A71 shared high similarity with C EV-A71 in P1 region while it contained an unidentified sequence in P2 and P3 regions with two possible recombination patterns: one occurred between C4 EV-A71 and CVA3, CVA5, CVA6, CVA10, and CVA12 stains with one breakpoint in 3C, and the other occurred between C1, C2, C3, and C5 EV-A71 and CVA4, CVA5, CVA14, and CVA16 strains with two breakpoints in the 2A/2B junction and 3C. The C2 EV-A71 was probably a recombinant virus between C4 EV-A71 and CVA8 strains with two breakpoints located in the 5\u2032UTR and 2A/2B junction. Moreover, an incredible recombination of C6 EV-A71 occurred between C4 and C2 EV-A71 with multiple breakpoints. Thus, continuous studies on EV-A71 genome characteristics are still useful and essential for monitoring emergence of new viruses and preventing HFMD outbreaks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "Hand, foot, and mouth disease (HFMD) is a common infectious disease in young children that often caused by Enterovirus A species (EV-A) . The EV-A species includes 25 serotypes viruses such as the coxsackievirus A group (CVA2-CVA8, CVA10, CVA12, CVA14, and CVA16), human enteroviruses (EV-A71, EV-A76, EV-A89-EV-A91, EV-A114, EV-A119-EV-A121), and non-human enteroviruses (EV-A92, EV-A122-EV-A125) (Simmonds et al., 2020) . HFMD is mostly a kind of mild and self-limited disease, but some cases infected by EV-A71 can rapidly develop serious neurological complications and even death (Chen et al., 2019) . Since 2007, EV-A71 has caused several large outbreaks of HFMD in the Western Pacific Region, especially in mainland China. Although EV-A71 vaccine has been put on the market since 2016, EV-A71 is still an important pathogen of severe and fatal HFMD (Zhao, 2019) . No effective and specific antiviral drugs are available. Severe HFMD caused by EV-A71 remains an important public health problem for children.",
+            "cite_spans": [
+                {
+                    "start": 398,
+                    "end": 421,
+                    "text": "(Simmonds et al., 2020)",
+                    "ref_id": "BIBREF22"
+                },
+                {
+                    "start": 584,
+                    "end": 603,
+                    "text": "(Chen et al., 2019)",
+                    "ref_id": "BIBREF1"
+                },
+                {
+                    "start": 855,
+                    "end": 867,
+                    "text": "(Zhao, 2019)",
+                    "ref_id": "BIBREF39"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "As a member of EV-A in the genus Enterovirus of the family Picornaviridae, EV-A71 contains a single-stranded, positive-sense RNA genome of nearly 7.4 kb in length (Lin et al., 2017) . The genome of EV-A71 consists of 5\u2032-and 3\u2032untranslated regions (UTR) and one large open reading frame (ORF). The ORF encodes a large polyprotein divided into 3 regions, P1, P2, and P3. The P1 region encodes 4 structural proteins VP1-VP4, which constitutes the virus capsid, while the P2 and P3 regions encode 7 non-structural proteins 2A-2C and 3A-3D, which participate in polyprotein processing, viral replication, and interactions with the host (Wang and Li, 2019) .",
+            "cite_spans": [
+                {
+                    "start": 163,
+                    "end": 181,
+                    "text": "(Lin et al., 2017)",
+                    "ref_id": "BIBREF11"
+                },
+                {
+                    "start": 247,
+                    "end": 252,
+                    "text": "(UTR)",
+                    "ref_id": null
+                },
+                {
+                    "start": 631,
+                    "end": 650,
+                    "text": "(Wang and Li, 2019)",
+                    "ref_id": "BIBREF26"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "Based on phylogenetic analysis of VP1 gene, EV-A71 is currently classified into 8 genotypes A-H (Deshpande et al., 2003; Saxena et al., 2015; Bessaud et al., 2014; Majumdar et al., 2018) . Genotype A contained a sole prototype strain BrCr isolated in California, USA, in 1969 (Schmidt et al., 1974 and some strains emerged in China in 2008 (Vakulenko et al., 2019 . The emergence of genotype A EV-A71 strains in China was considered as a release of the prototype strain from a laboratory into circulation (Vakulenko et al., 2019) . Genotypes B and C are subdivided into subgenotypes B0-B5 and C0-C5, respectively (Noisumdaeng et al., 2018) . In the Asia-Pacific region, subgenotypes C1, C2, B3, B4, and C4 prevailed in Australia, subgenotypes B3, B4, B5, C1, and C2 prevailed in Malaysia and Singapore, subgenotypes B2, C1, C2, B4, C4, and B5 prevailed in Japan, and subgenotypes B4, C2, C4, B5, and C5 prevailed in Taiwan (Mizuta et al., 2014) . Different from these areas with the alternative circulation of several predominant subgenotypes, C4 was the sole predominant subgenotype in mainland China . New genotypes were identified in India (genotypes D and G) (Deshpande et al., 2003; Saxena et al., 2015) , sub-Saharan Africa (genotype E) (Bessaud et al., 2014) , Madagascar (genotype F) (Bessaud et al., 2014) , and Pakistan (genotype H) (Majumdar et al., 2018) . EV-A71 shared high genetic diversity in developing countries where the circulating genotypes might be underestimated. Except for C4, genotype A and subgenotypes B5, C2, and C3 had emerged in mainland China Tao et al., 2012; Li et al., 2018; Zhang et al., 2009) . This study aimed to know whether there were new genotypes or subgenotypes in mainland China by analyzing the phylogenetics of EV-A71 based on a large dataset of VP1 sequences available from GenBank database. And the genomic characteristics of EV-A71 strains belonging to different subgenotypes were analyzed by recombination analyses.",
+            "cite_spans": [
+                {
+                    "start": 96,
+                    "end": 120,
+                    "text": "(Deshpande et al., 2003;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 121,
+                    "end": 141,
+                    "text": "Saxena et al., 2015;",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 142,
+                    "end": 163,
+                    "text": "Bessaud et al., 2014;",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 164,
+                    "end": 186,
+                    "text": "Majumdar et al., 2018)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 263,
+                    "end": 275,
+                    "text": "USA, in 1969",
+                    "ref_id": null
+                },
+                {
+                    "start": 276,
+                    "end": 297,
+                    "text": "(Schmidt et al., 1974",
+                    "ref_id": "BIBREF21"
+                },
+                {
+                    "start": 335,
+                    "end": 339,
+                    "text": "2008",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 340,
+                    "end": 363,
+                    "text": "(Vakulenko et al., 2019",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 505,
+                    "end": 529,
+                    "text": "(Vakulenko et al., 2019)",
+                    "ref_id": "BIBREF25"
+                },
+                {
+                    "start": 613,
+                    "end": 639,
+                    "text": "(Noisumdaeng et al., 2018)",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 923,
+                    "end": 944,
+                    "text": "(Mizuta et al., 2014)",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1163,
+                    "end": 1187,
+                    "text": "(Deshpande et al., 2003;",
+                    "ref_id": "BIBREF2"
+                },
+                {
+                    "start": 1188,
+                    "end": 1208,
+                    "text": "Saxena et al., 2015)",
+                    "ref_id": "BIBREF20"
+                },
+                {
+                    "start": 1243,
+                    "end": 1265,
+                    "text": "(Bessaud et al., 2014)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1292,
+                    "end": 1314,
+                    "text": "(Bessaud et al., 2014)",
+                    "ref_id": "BIBREF0"
+                },
+                {
+                    "start": 1343,
+                    "end": 1366,
+                    "text": "(Majumdar et al., 2018)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1575,
+                    "end": 1592,
+                    "text": "Tao et al., 2012;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 1593,
+                    "end": 1609,
+                    "text": "Li et al., 2018;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1610,
+                    "end": 1629,
+                    "text": "Zhang et al., 2009)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Introduction"
+        },
+        {
+            "text": "This study involved no human participants or human experimentation. The complete VP1 gene sequences of 3037 Chinese EV-A71 strains covering the time period 1987-2017 were downloaded from the GenBank database. The VP1 sequences of 10 international EV-A71 and CVA16 prototype strains were used as the reference sequences. Three thousand forty-eight VP1 sequences were used in phylogenetic analysis (Table S1 ). Moreover, the genome sequences of 6 EV-A71 strains whose isolated date was the latest in each subgenotype (C4a1, C4a2, C4b, B5, C2, and C6) were selected as the query sequences for recombination analysis. And another 13 Chinese EV-A71 strains, 10 international EV-A71 strains, and 11 CVA prototype strains (CVA2-8, CVA10, CVA12, CVA14, and CVA16) were used for comparison in recombination analysis. Forty genome sequences were employed in recombination analysis (Table S2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 396,
+                    "end": 405,
+                    "text": "(Table S1",
+                    "ref_id": null
+                },
+                {
+                    "start": 871,
+                    "end": 880,
+                    "text": "(Table S2",
+                    "ref_id": null
+                }
+            ],
+            "section": "Viral sequences"
+        },
+        {
+            "text": "The VP1 gene sequences were converted into a merged file in Clustal format by SeqVerter\u2122. Then, the merged file was converted into MEGA format by MEGA-X. Phylogenetic tree was constructed by MEGA-X using the neighbor-joining method (bootstrap test 1000 replicates) with Kimura 2parameter model.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Phylogenetic analysis"
+        },
+        {
+            "text": "The merged sequence file was first aligned by MEGA-X with ClustalW method to generate a nucleotide alignment. The similarity plot and bootscan analysis were performed by SimPlot3.5.1. The Kimura 2-parameter distance model and the neighbor-joining tree model were selected in all bootscanning with a window size of 200 nucleotides moving along the alignment in 20-bp increments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recombination analysis"
+        },
+        {
+            "text": "The phylogenetic tree showed that except for 3011 strains clustered into subgenotype C4, 17 strains clustered into genotype A, 4 strains clustered into subgenotype B5, 2 strains clustered into subgenotype C2, 2 orphan strains respectively clustered into subgenotype C0 and C3, and one EV-A71 strain DL71 (GenBank accession number KF982854) clustered into a new branch in genotype C (Fig. 1) . The strain DL71 was isolated from Dalian City in Liaoning Province in 2012. It did not fall into any of the six known subgenotypes C0-C5 of EV-A71 but formed a separate genetic branch containing no other strains. The phylogenetic trees based on VP4 and 2A sequences also indicated that DL71 belonged to a previously unknown subgenotype in genotype C (Fig. S1 ). The new branch was defined as subgenotype C6. The phylogenetic analyses indicated that 7 genotypes or subgenotypes including A, B5, C0, C2, C3, C4, and C6 of EV-A71 circulated in mainland China.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 382,
+                    "end": 390,
+                    "text": "(Fig. 1)",
+                    "ref_id": null
+                },
+                {
+                    "start": 743,
+                    "end": 751,
+                    "text": "(Fig. S1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Phylogenetic analysis of the entire VP1 gene of EV-A71 in mainland China"
+        },
+        {
+            "text": "To describe the prevalence of EV-A71 subgenotypes in mainland China, the information including place and time of isolation and subgenotypes of 3037 EV-A71 strains was recorded (Fig. 2) . In 1987-1997, EV-A71 exhibited an extremely low prevalence in mainland China. Since 1998, C4 EV-A71 strains emerged, which became the predominant subgenotype. Three shifts in the predominant subgenotype between clades C4b and C4a2 were observed. C4b was the predominant subgenotype in 1998-2002 and 2004 . The first shift from C4b to C4a2 was observed in 2003. The second shift from C4a2 to C4b was observed in 2004, followed by the third shift from C4b to C4a2 in 2005. Since then, C4a2 has been the predominant subgenotype. Moreover, different from the sporadic emerging subgenotypes C0, C2, C3, and B5, the genotype A EV-A71 strains co-circulated with both C4b and C4a1 in Central China in 2009, and the subgenotype C6 EV-A71 strain co-circulated with the re-emerged C4a1 in Northeast China in 2012. ",
+            "cite_spans": [
+                {
+                    "start": 472,
+                    "end": 490,
+                    "text": "1998-2002 and 2004",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 176,
+                    "end": 184,
+                    "text": "(Fig. 2)",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Time and space distribution of subgenotypes of EV-A71 in mainland China"
+        },
+        {
+            "text": "To characterize the genomic features of the predominant subgenotype C4 EV-A71 strains, the complete genome sequences of 3 EV-A71 strains, BZ200805 (HQ694983, C4b, 2008), SHZH03 (AY465356, C4a1, 2003) , and 160-50 (MG875331, C4a2, 2016), were selected as the query sequences for similarity and bootscan analysis (Fig. 3) . Similarity plot analyses indicated that C4 EV-A71 strains (including C4b, C4a1, and C4a2) exhibited the highest degree of similarity to all C EV-A71 strains in the P1 region; however, in the P2 and P3 regions, they contained an unidentified sequence that was apparently not related to C EV-A71 strains (Fig. 3a , c, and e). Two different similarity patterns for C4 EV-A71 strains were observed in the P2 and P3 regions. One pattern showed that C4 EV-A71 strains resembled CVA4, CVA5, CVA14, and CVA16 in the region from 3700 to 6000 bp, and in the region after 6000 bp, they still resembled CVA4, CVA14, and CVA16 but away from CVA5. The other pattern showed that C4 EV-A71 strains shared high similarity to all B EV-A71 strains in the region from 3700 to 5650 bp, while in the region after 5650 bp, they still shared high similarity to B3 EV-A71 strains but away from B1, B2, B4, and B5 EV-A71 strains.",
+            "cite_spans": [
+                {
+                    "start": 188,
+                    "end": 199,
+                    "text": "C4a1, 2003)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 311,
+                    "end": 319,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                },
+                {
+                    "start": 624,
+                    "end": 632,
+                    "text": "(Fig. 3a",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombination analysis of Chinese C4 EV-A71 strains and other EV-A strains"
+        },
+        {
+            "text": "Moreover, the bootscan analyses suggested possible recombination events with at least two recombinant breakpoints on C4 EV-A71 corresponding to the 2A/2B junction and 3C/ 3D junction (Fig. 3b, d, and f) . C4 EV-A71 strains contained alternative regions that were closely related to B EV-A71 strains, CVA5, CVA4, CVA14, and CVA16 strains in the region between the 2A/2B and 3C/3D junctions. And in the Geographical distribution of EV-A71 subgenotypes was analyzed by the isolated places of EV-A71 strains region after the 3C/3D junction, C4 EV-A71 strains were more closely related to B3 EV-A71, CVA4, CVA14, and CVA16 strains.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 183,
+                    "end": 202,
+                    "text": "(Fig. 3b, d, and f)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombination analysis of Chinese C4 EV-A71 strains and other EV-A strains"
+        },
+        {
+            "text": "The genomic characteristics of EV-A71 strains belonging to B5, C2, and C6 were also analyzed. The complete genome sequences of EV-A71 strains CQ2014-86 (KU647000, B5, 2014), 30-2/2015/BJ (MG214681, C2, 2015), and DL71 (KF982854, C6, 2012) were selected as the query sequences for the similarity and bootscan analysis (Fig. 4) .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 317,
+                    "end": 325,
+                    "text": "(Fig. 4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombination analysis of Chinese B5, C2, C6 EV-A71 strains and other EV-A strains"
+        },
+        {
+            "text": "For B5 strain CQ2014-86 ( Fig. 4a and b) , the sequence before the 2A/2B junction (nearby 3750 bp) resembled C EV-A71 strains, while the fragment (3750-5662 bp) was more similar to C4 EV-A71, CVA4, CVA5, CVA14, and CVA16 strains than C1-C3 and C5 EV-A71 strains. The fragment (5662-6500 bp) of CQ2014-86 shared higher similarity to CVA3, CVA5, CVA6, CVA10, and CVA12 strains than C EV-A71 strains. The sequence after 6500 bp of CQ2014-86 was more similar to C1-C3 and C5 EV-A71 strains than C4 EV-A71 strains. Two recombination events possibly occurred in B5 EV-A71 strain: one occurred between C4 EV-A71 and CVA3, CVA5, CVA6, CVA10, and CVA12 strains with breakpoint located in the 3C gene, and the other occurred between C1-C3 and C5 EV-A71 and CVA4, CVA5, CVA14, and CVA16 strains with two breakpoints located in the 2A/2B junction and 3C gene.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 26,
+                    "end": 40,
+                    "text": "Fig. 4a and b)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombination analysis of Chinese B5, C2, C6 EV-A71 strains and other EV-A strains"
+        },
+        {
+            "text": "For C2 strain 30-2/2015/BJ ( Fig. 4c and d) , the results provided strong evidence that it might be a recombinant virus between C4 EV-A71 and CVA8 strains with two breakpoints located in the 5\u2032UTR (550 bp) and 2A/2B junction (3750 bp). The sequence (550-3750 bp) of 30-2/2015/BJ shared the Fig. 3 Recombination analysis of the complete genome of C4 EV-A71 strains in mainland China. The genome sequences of BZ200805, subgenotype C4b (a, b), SHZH03, subgenotype C4a1 (c, d), and 160-50, subgenotype C4a2 (e, f) were used as query sequences in the similarity plot (left panels) and bootscan analysis (right panels). The structural map of EV-A71 genome was displayed upon each panel. The possible crossover breakpoints marked with red vertical line was showed in the analysis highest similarity to C4 EV-A71 strains, while the 5\u2032UTR (1-550 bp) and the sequence after 3750 bp of 30-2/2015/BJ shared the highest similarity to CVA8 strain.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 29,
+                    "end": 43,
+                    "text": "Fig. 4c and d)",
+                    "ref_id": null
+                },
+                {
+                    "start": 290,
+                    "end": 296,
+                    "text": "Fig. 3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombination analysis of Chinese B5, C2, C6 EV-A71 strains and other EV-A strains"
+        },
+        {
+            "text": "For C6 strain DL71 ( Fig. 4e and f) , the similarity plot analysis exhibited an irregular helix-like recombination on DL71 formed by the winding of the genome sequences of C4 and C2 EV-A71 strains with multiple breakpoints. In the P1 region, DL71 shared higher similarity to C4 and C2 EV-A71 strains (>80%) than B EV-A71 strains (65-85%) and other EV-A strains (<75%). In the P2 and P3 regions, 4 fragments (4022-4390 bp, 4650-5830 bp, 6190-6560 bp, and 6890-7240 bp) of DL71 shared higher similarity to C4 EV-A71 strains (>80%) than C2 EV-A71 strain (<80%), while other 5 fragments (3700-4022-bp, 4390-4650-bp, 5830-6190-bp, 6560-6890-bp, and 7240-bp 3\u2032UTR) of DL71 shared higher similarity to C2 EV-A71 strain (>80%) than C4 EV-A71 strains (<80%).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 21,
+                    "end": 35,
+                    "text": "Fig. 4e and f)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Recombination analysis of Chinese B5, C2, C6 EV-A71 strains and other EV-A strains"
+        },
+        {
+            "text": "In this study, the genetic diversity of EV-A71 strains in mainland China was well demonstrated by the molecular epidemiology and recombination analyses. Besides the predominant subgenotypes C4, some other sporadic subgenotypes A, B5, C0, C2, and C3 and the new subgenotype C6 emerged in mainland China. The first C2 EV-A71 strain 96200/SD/ CHN/96 in mainland China isolated from an acute flaccid paralysis case shared high identity in VP1 with the second C2 EV-A71 strain 30-2/2015/BJ (Tao et al., 2012; Li et al., 2018) . The later C2 strain was isolated from a child who had traveled back from Thailand, where C2 was commonly detected (Li et al., 2018) . The C2 strains in mainland China might be imported from other countries or areas. In mainland China, the first B5 strain was detected in 2009, and then 3 strains were isolated in 2012, 2014, and 2016. Subgenotype Fig. 4 Emergence of EV-A71 subgenotypes B5, C2, and C6 by recombination with other EV-A strains. The whole genome sequences of CQ2014-86, subgenotype B5 (a, b), 30-2/2015/BJ, subgenotype C2 (c, d), and DL71, subgenotype C6 (e, f) were used in the similarity plot (left panels) and bootscan analysis (right panels). The structural map of EV-A71 genome was displayed upon each panel. The possible crossover breakpoints marked with red vertical line was showed in the analysis B5 strains were first detected in Taiwan in 1998 (Wu et al., 2013 and then circulated widely in the Asia-Pacific region. In 2009, subgenotype B5 strains simultaneously circulated in Japan, Malaysia, and Taiwan. Frequent international travel might promote the import of sporadic viruses into mainland China. Moreover, a new finding in this study was the emergence of C6 EV-A71. One orphan strain DL71 was clustered into the new subgenotype C6 different from the previously known subgenotypes C0-C5 in genotype C. The results suggested that several subgenotypes of EV-A71 had existed in China. Thus, the emergence and importation of new genotypes or subgenotypes of EV-A71 should be continuously monitored (Li et al., 2018; Noisumdaeng et al., 2018) .",
+            "cite_spans": [
+                {
+                    "start": 485,
+                    "end": 503,
+                    "text": "(Tao et al., 2012;",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 504,
+                    "end": 520,
+                    "text": "Li et al., 2018)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 637,
+                    "end": 654,
+                    "text": "(Li et al., 2018)",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 1378,
+                    "end": 1392,
+                    "text": "Taiwan in 1998",
+                    "ref_id": null
+                },
+                {
+                    "start": 1393,
+                    "end": 1409,
+                    "text": "(Wu et al., 2013",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 2048,
+                    "end": 2065,
+                    "text": "(Li et al., 2018;",
+                    "ref_id": "BIBREF10"
+                },
+                {
+                    "start": 2066,
+                    "end": 2091,
+                    "text": "Noisumdaeng et al., 2018)",
+                    "ref_id": "BIBREF19"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 870,
+                    "end": 876,
+                    "text": "Fig. 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Genetic recombination plays important roles in the genetic variation and evolution of viruses. Several studies have provided evidence of recombinant events in EV-A71, including intratypic recombination between different subgenotypes of EV-A71 and intertypic recombination between EV-A71 and other EV-A strains Zhang et al., 2013; Yoke-Fun and AbuBakar, 2006; Wang et al., 2012) . However, the query sequences of EV-A71 selected in recombination analysis in previous studies were mostly the consensus sequences or the oldest strains within different subgenotypes , and few sequences of newly isolated EV-A71 strains were used as the query sequences. In the present study, the complete genome sequences of the latest EV-A71 strains within each subgenotype were used as the query sequences. Our comprehensive recombination analysis exhibited two patterns of recombination in C4 EV-A71 strains (Fig. 3) . We found that intertypic recombination of C4 sequences occurred between the structural genes of C EV-A71 and the nonstructural genes of CVA4, CVA5, CVA14, and CVA16, which was consistent with the findings in previous reports Zhang et al., 2013) . However, the evidence of intratypic recombination between EV-A71 genotypes C and B was not sufficient . In addition to intertypic recombination, our study also showed evidence of intratypic recombination between EV-A71 genotypes C and B. The fragment (3700-5650 bp) of C4 EV-A71 resembled B EV-A71, and this recombination pattern was also found in other C4 EV-A71 strains isolated in Thailand (Noisumdaeng et al., 2018; Mauleekoonphairoj et al., 2015) , Taiwan (Huang et al., 2008) , and Hong Kong (Yip et al., 2013) . Moreover, we found interestingly that except for the fragment (3700-5650 bp) of C4 being closer to B3, the sequence after 5650 bp of C4 EV-A71 still shared high similarity to B3 but away from B1, B2, B4, and B5. A phenomenon in a previous study that the P2 and P3 regions of B3 EV-A71 had high similarity to CVA4, CVA14, and CVA16 (Yoke-Fun and AbuBakar, 2006 ) also supported our results. Thus, there was strong evidence to support the conclusion of the intertypic recombination between genotype C EV-A71 strains and other EV-A strains and the intratypic recombination between EV-A71 genotypes C and B. Several studies renamed this \"double-recombinant\" C4 EV-A71 strain genotype D (Yip et al., 2010; Yip et al., 2013) .",
+            "cite_spans": [
+                {
+                    "start": 310,
+                    "end": 329,
+                    "text": "Zhang et al., 2013;",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 330,
+                    "end": 358,
+                    "text": "Yoke-Fun and AbuBakar, 2006;",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 359,
+                    "end": 377,
+                    "text": "Wang et al., 2012)",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 1126,
+                    "end": 1145,
+                    "text": "Zhang et al., 2013)",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 1541,
+                    "end": 1567,
+                    "text": "(Noisumdaeng et al., 2018;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1568,
+                    "end": 1599,
+                    "text": "Mauleekoonphairoj et al., 2015)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1609,
+                    "end": 1629,
+                    "text": "(Huang et al., 2008)",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 1646,
+                    "end": 1664,
+                    "text": "(Yip et al., 2013)",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 1975,
+                    "end": 2026,
+                    "text": "CVA4, CVA14, and CVA16 (Yoke-Fun and AbuBakar, 2006",
+                    "ref_id": null
+                },
+                {
+                    "start": 2349,
+                    "end": 2367,
+                    "text": "(Yip et al., 2010;",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 2368,
+                    "end": 2385,
+                    "text": "Yip et al., 2013)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 890,
+                    "end": 898,
+                    "text": "(Fig. 3)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The genomic characteristics of EV-A71 strains belonging to B5, C2, and C6 in mainland China were also analyzed (Fig.  4) . The recombination manner of C2 EV-A71 strain 30-2/ 2015/BJ in mainland China was similar to other C2 EV-A71 strains isolated in Malaysia and Taiwan (Yoke-Fun and AbuBakar, 2006) , which resembled C4 EV-A71 strains in the P1 region and resembled the prototype strain of CVA8 in the 5\u2032UTR, P2, and P3 regions. The B5 EV-A71 strain CQ2014-86 was closer to C EV-A71 strains in the P1 region but contained an unidentified sequence in the P2 and P3 regions. Given the global distribution of EV-A71 subgenotypes C2 and B5 (Mizuta et al., 2014; Wu et al., 2013) , the sporadic C2 and B5 strains that emerged in mainland China were most likely to have been imported from other countries and areas. An interesting finding was that DL71 (Dalian City, 2012) was a recombinant between the dominant subgenotype C4 and the sporadic subgenotype C2 EV-A71 strains with a helix-like recombination manner. The details of recombination events in DL71 needed further studies.",
+            "cite_spans": [
+                {
+                    "start": 251,
+                    "end": 300,
+                    "text": "Malaysia and Taiwan (Yoke-Fun and AbuBakar, 2006)",
+                    "ref_id": null
+                },
+                {
+                    "start": 638,
+                    "end": 659,
+                    "text": "(Mizuta et al., 2014;",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 660,
+                    "end": 676,
+                    "text": "Wu et al., 2013)",
+                    "ref_id": "BIBREF30"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 111,
+                    "end": 120,
+                    "text": "(Fig.  4)",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "The HFMD outbreaks and EV-A71 circulation in mainland China provided conditions for C6 EV-A71 emergence. Firstly, frequent outbreaks of HFMD occurred in Dalian City with the highest number of cases in 2012 during the period of 2010-2013 (Gao et al., 2016; . Secondly, as one parent strain of C6, C4 was the single predominant subgenotype in mainland China with much genetic diversity (including C4a1, C4a2, and C4b). Thirdly, as another parent strain of C6, C2 has been widely detected in many countries for several years (World Health Organization [WHO], 2011). The importation of C2 from neighboring countries led to its sporadic circulation in mainland China. Thus, the prevalence of HFMD, the genetic diversity of the predominant subgenotype C4, and the sporadic circulation of C2 might together promote the recombination and emergence of C6 EV-A71. Moreover, no evidence was reported about the clinical symptoms and disease severity of DL71. Based on reviewing the potential virulence determinants of EV-A71 in previous reports (Huang et al., 2015; Kung et al., 2010; Li et al., 2016; Liu et al., 2014b; Ma et al., 2018; Meng and Kwang, 2014; Wen et al., 2013; Yuan et al., 2015) , the nucleotides and amino acids located at these virulence sites in DL71 were analyzed (Table S3 ). In DL71 genome, two nucleotides and four amino acids might be with high virulence at six sites, while six nucleotides and twelve amino acids might be with low virulence at eighteen sites. In fact, the pathogenicity of EV-A71 was very complex and influenced by many factors including virus virulence and host immunity. It was difficult to judge the pathogenicity of C6 EV-A71. This was one limitation in the study.",
+            "cite_spans": [
+                {
+                    "start": 237,
+                    "end": 255,
+                    "text": "(Gao et al., 2016;",
+                    "ref_id": "BIBREF3"
+                },
+                {
+                    "start": 1033,
+                    "end": 1053,
+                    "text": "(Huang et al., 2015;",
+                    "ref_id": "BIBREF5"
+                },
+                {
+                    "start": 1054,
+                    "end": 1072,
+                    "text": "Kung et al., 2010;",
+                    "ref_id": "BIBREF6"
+                },
+                {
+                    "start": 1073,
+                    "end": 1089,
+                    "text": "Li et al., 2016;",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1090,
+                    "end": 1108,
+                    "text": "Liu et al., 2014b;",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1109,
+                    "end": 1125,
+                    "text": "Ma et al., 2018;",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1126,
+                    "end": 1147,
+                    "text": "Meng and Kwang, 2014;",
+                    "ref_id": "BIBREF17"
+                },
+                {
+                    "start": 1148,
+                    "end": 1165,
+                    "text": "Wen et al., 2013;",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 1166,
+                    "end": 1184,
+                    "text": "Yuan et al., 2015)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1274,
+                    "end": 1283,
+                    "text": "(Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Our present findings that recombination breakpoints in the EV-A71 genome were frequently located in the non-structural regions 5\u2032UTR, P2, and P3 but rarely in the structural region P1 were consistent with previous reports Yip et al., 2010; Noisumdaeng et al., 2018; Zhang et al., 2013; Yoke-Fun and AbuBakar, 2006; Huang et al., 2008; Zhang et al., 2010; Wang et al., 2012; Li et al., 2012; Yip et al., 2013; Liu et al., 2014a; Mauleekoonphairoj et al., 2015) . On one hand, the P1 region of EV-A71 maintained a high degree of similarity within EV-A71 strains, but away from other EV-A strains, possibly because of the need for structural constraint to ensure the proper assembly of viral capsid . While recombination occurred in the structural genes, it might produce nonviable or unstable progeny viruses that could not survive (Stanway et al., 1986) . On the other hand, the reason for the non-structural regions P2 and P3 as the hot spots for recombination in EV-A71 was that the P2 and P3 regions of EV-A shared more homology than the structural region . The acquisition of non-structural genes encoding replicative components such as protease, helicase, and polymerase from B EV-A71 strains and other EV-A strains (CVA4, CVA5, CVA14, and CVA16) in C4 EV-A71 strains might provide evolutionary advantages for the \"double-recombinant\" strains (Yip et al., 2013) . In addition, the inconsistent topology of phylogenetic trees suggested that it was not sufficient to genotype the recombinant viruses by VP1 alone. Given that these recombinant viruses might be a threat to public health in mainland China, it was still worthwhile to closely monitor the prevalence of EV-A71 and the emergence of new subgenotypes by performing extensive studies on the viral complete genome.",
+            "cite_spans": [
+                {
+                    "start": 222,
+                    "end": 239,
+                    "text": "Yip et al., 2010;",
+                    "ref_id": "BIBREF31"
+                },
+                {
+                    "start": 240,
+                    "end": 265,
+                    "text": "Noisumdaeng et al., 2018;",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 266,
+                    "end": 285,
+                    "text": "Zhang et al., 2013;",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 286,
+                    "end": 314,
+                    "text": "Yoke-Fun and AbuBakar, 2006;",
+                    "ref_id": "BIBREF33"
+                },
+                {
+                    "start": 315,
+                    "end": 334,
+                    "text": "Huang et al., 2008;",
+                    "ref_id": "BIBREF4"
+                },
+                {
+                    "start": 335,
+                    "end": 354,
+                    "text": "Zhang et al., 2010;",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 355,
+                    "end": 373,
+                    "text": "Wang et al., 2012;",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 374,
+                    "end": 390,
+                    "text": "Li et al., 2012;",
+                    "ref_id": "BIBREF8"
+                },
+                {
+                    "start": 391,
+                    "end": 408,
+                    "text": "Yip et al., 2013;",
+                    "ref_id": "BIBREF32"
+                },
+                {
+                    "start": 409,
+                    "end": 427,
+                    "text": "Liu et al., 2014a;",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 428,
+                    "end": 459,
+                    "text": "Mauleekoonphairoj et al., 2015)",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 830,
+                    "end": 852,
+                    "text": "(Stanway et al., 1986)",
+                    "ref_id": "BIBREF23"
+                },
+                {
+                    "start": 1347,
+                    "end": 1365,
+                    "text": "(Yip et al., 2013)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Molecular comparison and evolutionary analyses of VP1 nucleotide sequences of new African human enterovirus 71 isolates reveal a wide genetic diversity",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bessaud",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Razafindratsimandresy",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Nougairede",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Joffret",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Deshpande",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Dubot-Peres",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Heraud",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "De Lamballerie",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Delpeyroux",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bailly",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS One",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Advances in research on risk factors and prevention and control measures of severe hand, foot and mouth disease",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Fang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Su",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "J Prev Med Public Health",
+            "volume": "30",
+            "issn": "",
+            "pages": "94--98",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Enterovirus 71 isolated from a case of acute flaccid paralysis in India represents a new genotype",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Deshpande",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nadkarni",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Francis",
+                    "suffix": ""
+                }
+            ],
+            "year": 2003,
+            "venue": "Curr Sci",
+            "volume": "84",
+            "issn": "",
+            "pages": "1350--1353",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Analysis of 28479 cases of hand-foot-andmouth disease in Dalian from",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Chinese Pediatrics of Integrated Traditional And Western Medicine",
+            "volume": "8",
+            "issn": "",
+            "pages": "217--219",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Appearance of intratypic recombination of enterovirus 71 in Taiwan from",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Hsu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Tsai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2002,
+            "venue": "Virus Res",
+            "volume": "131",
+            "issn": "",
+            "pages": "250--259",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Mapping Enterovirus A71 antigenic determinants from viral evolution",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Tai",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fonville",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Virol",
+            "volume": "89",
+            "issn": "",
+            "pages": "11500--11506",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Introduction of a strong temperature-sensitive phenotype into enterovirus 71 by altering an amino acid of virus 3D polymerase",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kung",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Kuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Kiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Su",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ren",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Virology",
+            "volume": "396",
+            "issn": "",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Molecular analysis of virulent determinants of enterovirus 71",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS One",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Evidences for intertypic and intratypic recombinant events in EV71 of hand, foot and mouth disease during an epidemic in",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Huo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Dai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Lei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Jiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Virus Res",
+            "volume": "169",
+            "issn": "",
+            "pages": "195--202",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Genome analysis of enterovirus 71 strains differing in mouse pathogenicity",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yue",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "An",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Virus Genes",
+            "volume": "52",
+            "issn": "",
+            "pages": "161--171",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Analysis of an imported subgenotype C2 strain of human Enterovirus 71 in Beijing",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Liang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Jing",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Du",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Huo",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Front Microbiol",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Complete genome sequence of an Enterovirus 71 strain isolated from the cerebrospinal fluid of a child with severe hand-foot-andmouth disease in Yunnan",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Genome Announc",
+            "volume": "5",
+            "issn": "",
+            "pages": "274--00217",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Co-circulation and genomic recombination of coxsackievirus A16 and enterovirus 71 during a large outbreak of hand, foot, and mouth disease in Central China",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiong",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Qin",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "PLoS One",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "A novel finding for enterovirus virulence from the capsid protein VP1 of EV71 circulating in mainland China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Fan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Han",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yin",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Peng",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Virus Genes",
+            "volume": "48",
+            "issn": "",
+            "pages": "260--272",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Association of EV71 3C polymorphisms with clinical severity",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ma",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tsao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Shih",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "J Microbiol Immunol Infect",
+            "volume": "51",
+            "issn": "",
+            "pages": "608--613",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Complete genome sequence analysis of enterovirus 71 isolated from children with hand, foot, and mouth disease in Thailand",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Majumdar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sharif",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Klapsa",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wilton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Alam",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Fernandez-Garcia",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rehman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mujtaba",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Mcallister",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Harvala",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Templeton",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mee",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Asghar",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ndiaye",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Minor",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "; Ofy250 Mauleekoonphairoj",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Vongpunsawad",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Puenpa",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Korkong",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Poovorawan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Open Forum Infect Dis",
+            "volume": "5",
+            "issn": "",
+            "pages": "290--293",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Attenuation of human enterovirus 71 highreplication-fidelity variants in AG129 mice",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Meng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kwang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Virol",
+            "volume": "88",
+            "issn": "",
+            "pages": "5803--5815",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Molecular epidemiology of enterovirus 71 strains isolated from children in Yamagata",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Mizuta",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Aoki",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Matoba",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Yahagi",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Itagaki",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Katsushima",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Katsushima",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ito",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hongo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Matsuzaki",
+                    "suffix": ""
+                }
+            ],
+            "year": 1990,
+            "venue": "J Med Microbiol",
+            "volume": "63",
+            "issn": "",
+            "pages": "1356--1362",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Complete genome analysis demonstrates multiple introductions of enterovirus 71 and coxsackievirus A16 recombinant strains into Thailand during the past decade",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Noisumdaeng",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sangsiriwut",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Prasertsopon",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Klinmalai",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Payungporn",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Mungaomklang",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Chokephaibulkit",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Buathong",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Thitithanyanont",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Puthavathana",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Emerg Microbes Infect",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Genetic diversity of enterovirus A71",
+            "authors": [
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Saxena",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sane",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Nadkarni",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Sharma",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Deshpande",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "India. Emerg Infect Dis",
+            "volume": "21",
+            "issn": "",
+            "pages": "123--126",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "An apparently new enterovirus isolated from patients with disease of the central nervous system",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Schmidt",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lennette",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Ho",
+                    "suffix": ""
+                }
+            ],
+            "year": 1974,
+            "venue": "J Infect Dis",
+            "volume": "129",
+            "issn": "",
+            "pages": "304--309",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Recommendations for the nomenclature of enteroviruses and rhinoviruses",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Simmonds",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Gorbalenya",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Harvala",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Knowles",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lindberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Oberste",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Palmenberg",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Reuter",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Skern",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Tapparel",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wolthers",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Woo",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Zell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Arch Virol",
+            "volume": "165",
+            "issn": "",
+            "pages": "793--797",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Construction of poliovirus intertypic recombinants by use of cDNA",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Stanway",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Hughes",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Westrop",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Evans",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Dunn",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Minor",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Schild",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Almond",
+                    "suffix": ""
+                }
+            ],
+            "year": 1986,
+            "venue": "J Virol",
+            "volume": "57",
+            "issn": "",
+            "pages": "1187--1190",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Identification of a C2 subgenogroup strain of enterovirus 71 in a retrospective study in Shandong Province, China, from 1990 to 2010",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Tao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Clin Microbiol",
+            "volume": "50",
+            "issn": "",
+            "pages": "1823--1824",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Using statistical phylogenetics for investigation of Enterovirus 71 genotype A reintroduction into circulation",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Vakulenko",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Deviatkin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Lukashev",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Viruses",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Recent progress on functional genomics research of Enterovirus 71",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Virol Sin",
+            "volume": "34",
+            "issn": "",
+            "pages": "9--21",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Characterization of full-length enterovirus 71 strains from severe and mild disease patients in northeastern China",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Bao",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "PLoS One",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Epidemiologic characteristics and pathogen surveillance of hand, foot and mouth disease in Liaoning Province",
+            "authors": [
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Chin J Exp Clin Virol",
+            "volume": "33",
+            "issn": "",
+            "pages": "6--9",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Complete genome sequencing and analysis of six enterovirus 71 strains with different clinical phenotypes",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Si",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Hao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Chu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Virol J",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Patterns of polymorphism and divergence in the VP1 gene of enterovirus 71 circulating in the Asia-Pacific region between 1994 and 2013",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Who Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Amer",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Virol Methods",
+            "volume": "193",
+            "issn": "",
+            "pages": "713--728",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Emergence of enterovirus 71 \"doublerecombinant\" strains belonging to a novel genotype D originating from southern China: first evidence for combination of intratypic and intertypic recombination events in EV71",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Tsoi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Woo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Arch Virol",
+            "volume": "155",
+            "issn": "",
+            "pages": "1413--1424",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Genetic characterization of EV71 isolates from 2004 to 2010 reveals predominance and persistent circulation of the newly proposed genotype D and recent emergence of a distinct lineage of subgenotype C2 in Hong Kong",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Yip",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Lau",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Chan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Woo",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Yuen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Virol J",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Phylogenetic evidence for inter-typic recombination in the emergence of human enterovirus 71 subgenotypes",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Yoke-Fun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abubakar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "BMC Microbiol",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Identification of positively charged residues in Enterovirus 71 capsid protein VP1 essential for production of infectious particles",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yuan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Altmeyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Virol",
+            "volume": "90",
+            "issn": "",
+            "pages": "741--752",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "An outbreak of hand, foot, and mouth disease associated with subgenotype C4 of human enterovirus 71 in Shandong",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ji",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Gao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "An",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "X"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "China. J Clin Virol",
+            "volume": "44",
+            "issn": "",
+            "pages": "262--267",
+            "other_ids": {}
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "An emerging recombinant human enterovirus 71 responsible for the 2008 outbreak of hand foot and mouth disease in Fuyang City of China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ren",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Dong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wan",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Feng",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Sun",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Virol J",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Emergence and transmission pathways of rapidly evolving evolutionary branch C4a strains of human enterovirus 71 in the Central Plain of China",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Bai",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Yan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "An",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS One",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Complete genome analysis of the C4 subgenotype strains of enterovirus 71: predominant recombination C4 viruses persistently circulating in China for 14 years",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Tan",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Cui",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhou",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Ling",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "PLoS One",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "Progress in diagnosis and treatment of severe hand, foot and mouth disease",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Chinese Journal of Applied Clinical Pediatrics",
+            "volume": "34",
+            "issn": "",
+            "pages": "1689--1692",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "Fig. 1 Phylogenetic analysis of VP1 gene sequences of EV-A71 with reference strains. The evolutionary branches were colored differently by the viral isolated time. Clade C4a2 of subgenotype C4 was compressed to save space. The scale bar indicated the number of nucleotide substitutions per site",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Temporal and geographical distribution of EV-A71 subgenotypes in mainland China during 1987-2017. a Temporal distribution of EV-A71 subgenotypes was analyzed by isolated time of EV-A71 strains. b",
+            "latex": null,
+            "type": "figure"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "Acknowledgments We thank all the staffs engaged in the study of hand, foot, and mouth disease throughout China for their enormous contributions.Data and materials availability The datasets generated during and/or analyzed during the current study are available from the corresponding author on reasonable request.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "acknowledgement"
+        },
+        {
+            "text": "The online version contains supplementary material available at https://doi.org/10.1007/s10123-021-00164-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Information"
+        }
+    ]
+}

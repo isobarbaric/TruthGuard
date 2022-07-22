@@ -1,0 +1,1343 @@
+{
+    "paper_id": "27acc305ef1e74a215c14c9369faffc61310a6f9",
+    "metadata": {
+        "title": "Cardiometabolic risks of SARS-CoV-2 hospitalization using Mendelian Randomization",
+        "authors": [
+            {
+                "first": "Noah",
+                "middle": [],
+                "last": "Lorincz-Comi",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Case Western Reserve University",
+                    "location": {
+                        "settlement": "Cleveland",
+                        "region": "OH",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "&amp;",
+                "middle": [
+                    "Xiaofeng"
+                ],
+                "last": "Zhu",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Case Western Reserve University",
+                    "location": {
+                        "settlement": "Cleveland",
+                        "region": "OH",
+                        "country": "USA"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Many cardiometabolic conditions have demonstrated associative evidence with COVID-19 hospitalization risk. However, the observational designs of the studies in which these associations are observed preclude causal inferences of hospitalization risk. Mendelian Randomization (MR) is an alternative risk estimation method more robust to these limitations that allows for causal inferences. We applied four MR methods (MRMix, IMRP, IVW, MREgger) to publicly available GWAS summary statistics from European (COVID-19 GWAS n = 2956) and multi-ethnic populations (COVID-19 GWAS n = 10,908) to better understand extant causal associations between Type II Diabetes (GWAS n = 659,316), BMI (n = 681,275), diastolic and systolic blood pressure, and pulse pressure (n = 757,601 for each) and COVID-19 hospitalization risk across populations. Although no significant causal effect evidence was observed, our data suggested a trend of increasing hospitalization risk for Type II diabetes (IMRP OR, 95% CI 1.67, 0.96-2.92) and pulse pressure (OR, 95% CI 1.27, 0.97-1.66) in the multi-ethnic sample. Type II diabetes and Pulse pressure demonstrates a potential causal association with COVID-19 hospitalization risk, the proper treatment of which may work to reduce the risk of a severe COVID-19 illness requiring hospitalization. However, GWAS of COVID-19 with large sample size is warranted to confirm the causality. OPEN 1",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "SARS-CoV-2, a novel coronavirus (COVID- 19) , has globally infected millions of individuals since it first emerged 12 months ago in December 2019 1 . There is tremendous effort to learn more about why some individuals progress from a relatively stable illness to a more serious one requiring hospitalization. Observational studies, while providing some evidence for the conferral of hospitalisation risk by a number of risk factors, have sometimes produced conflicting results 2 . Equally, it would be inappropriate to infer from these studies alone causal associations between a given exposure and COVID-19 hospitalization. The explanations for this vary but may include unresolved bias, confounding, and reverse causation 3, 4 . One alternative to observational studies is the randomised controlled trial (RCT) that can effectively eliminate confounding and reverse causation effects via the randomisation process. However, an RCT to identify causal risks for COVID-19 hospitalization would be expensive and unfeasible because it would be impossible to randomize patients based on a hypothesized risk factor in practice. Mendelian randomisation (MR) is an alternative to the RCT that retains the randomisation component but is both feasible and inexpensive 5 . MR capitalizes on the randomisation of an individual's genetic information during meiosis. This means that the effects of each genetic variant on a given outcome should be less subject to the effects of residual confounding, such as reverse causation since genes are at conception fixed. This makes MR extremely powerful, which could explain its recent popularity in biomedical research.",
+            "cite_spans": [
+                {
+                    "start": 40,
+                    "end": 43,
+                    "text": "19)",
+                    "ref_id": null
+                },
+                {
+                    "start": 724,
+                    "end": 726,
+                    "text": "3,",
+                    "ref_id": "BIBREF2"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Observational epidemiological studies have identified Type II Diabetes, hypertension, and body mass index (BMI) as potential risks for COVID-19 hospitalization (vs non-hospitalization). Pooled estimated odds ratios are 2.75 (95% CI 2.09-3.62) for Type II diabetes 6 , 2.30 (1.76-3.00) for hypertension 7 (binary), and 2.67 (1.52-3.82) for BMI 8 . Not only did all these pooled estimates display heterogeneity in the meta-analysis from which they came, the observational designs of the included studies preclude making any causal inferences. We attempt here to further investigate some of these associations using MR, namely the associations between Type II Diabetes, body mass, diastolic and systolic blood pressure, and pulse pressure. We test for the causal relationships between each of these health conditions and COVID-19 severity, as indicated by hospitalization risk, using publicly available summary statistics from genome-wide association studies (GWAS). These exposures were selected for their hypothesized associations with COVID-19 hospitalization. -19 patients and controls were non-hospitalised  COVID-19 patients. Alternative control groups were available, but we chose to use non-severe COVID-positive controls as it is the transition from a non-severe to a severe illness that is here of primary interest. Additional analyses using population controls in the COVID-19 GWAS studies are performed, with their results briefly described in the Discussion and more completely presented and described in Supplement Section S1. Since controls were exposed to the SARS-CoV-2, we could reduce the exposure bias. GWAS estimates, from three research groups [10] [11] [12] (UK Biobank, deCODE Genetics, FinnGen), of European individuals were meta-analyzed to yield the complete set of summary statistics for Europeans. GWAS estimates from eight additional research groups [13] [14] [15] [16] [17] [18] [19] [20] (Bonn Study of COVID19 Genetics, SPGRX: Determining the Molecular Pathways and Genetic Predisposition of the Acute Inflammatory Process Caused by SARS-CoV-2, Genes & Health, Penn Medicine Biobank, Qatar Genome Program, Million Veterans Program for Africans, Europeans, and Hispanics, Ancestry, and Biobanque Quebec COVID19; full descriptions of these groups are found at the respective links in the References section) were then analysed with the original three European cohorts to form the expanded set of estimates from more ethnically diverse individuals. GWAS summary statistics were meta-analysed using an inverse variance-weighting approach to yield a single set of summary statistics for 12,029,423 and 9,503,351 SNPs for European and variable ethnicity populations, respectively. We could not produce a set of summary statistics for strictly non-Europeans as the 20 October 2020 Host Genetics Initiative data release contained GWAS summary statistics for European and non-European individuals that could not be further separated by ethnicity. Only alleles with frequency > 0.01% were included in the European meta-analyses and only those with frequency > 0.1% in the multi-ethnic analyses. Summary statistics for all five exposures, namely diastolic and systolic blood pressure (DBP, SBP), pulse pressure (PP), body mass index (BMI), and Type II diabetes (T2D), were available from public GWAS repositories. All exposure sets included strictly European samples, some of which were from the UK Biobank. It is therefore possible that some individuals contributed genetic information to both the exposure and outcome summary statistic sets. We used PLINK v1.90b6.11 21 to prune the SNPs and select independent GWAS significant SNPs from the available millions of SNPs for each exposure using the following command: -clump kb 500 -clump-p1 5e\u22128 -clump-p2 5e\u22128 -clump-r2 0.1. That is, these SNPs had in their GWAS a p-value less than 5e-8 and a linkage disequilibrium coefficient less than 0.1. For BMI (n = 681,275) 22 , DBP, SBP, PP (n = 757,601 for each) 23 , and Type II Diabetes (n = 659,316) 24 1494, 1202, 1134, 926, and 174 SNPs meeting these criteria were identified, respectively. The GWAS data repositories for each exposure are listed in the respective referenced research.",
+            "cite_spans": [
+                {
+                    "start": 1663,
+                    "end": 1667,
+                    "text": "[10]",
+                    "ref_id": "BIBREF9"
+                },
+                {
+                    "start": 1668,
+                    "end": 1672,
+                    "text": "[11]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1673,
+                    "end": 1677,
+                    "text": "[12]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1877,
+                    "end": 1881,
+                    "text": "[13]",
+                    "ref_id": "BIBREF12"
+                },
+                {
+                    "start": 1882,
+                    "end": 1886,
+                    "text": "[14]",
+                    "ref_id": "BIBREF13"
+                },
+                {
+                    "start": 1887,
+                    "end": 1891,
+                    "text": "[15]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1892,
+                    "end": 1896,
+                    "text": "[16]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1897,
+                    "end": 1901,
+                    "text": "[17]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1902,
+                    "end": 1906,
+                    "text": "[18]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1907,
+                    "end": 1911,
+                    "text": "[19]",
+                    "ref_id": null
+                },
+                {
+                    "start": 1912,
+                    "end": 1916,
+                    "text": "[20]",
+                    "ref_id": "BIBREF18"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1061,
+                    "end": 1118,
+                    "text": "-19 patients and controls were non-hospitalised  COVID-19",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "For each exposure, we merged the COVID-19 summary statistics to each exposure data set by SNP. We then harmonised the alleles so that exposure effect alleles corresponded to outcome effect alleles. No SNPs in the original COVID-19 GWAS had between-study heterogenous effect estimates significant at a Bonferroni-adjusted p-value threshold. In the set of summary statistics from only European cohorts, 1186, 947, 884, 723, and 129 selected SNPs (using selection procedures described above) were included in the analyses for BMI, DBP, SBP, PP, and Type II Diabetes, respectively; in cohorts of individuals of variable ethnicity, 1188, 953, 887, 726, and 129 SNPs were selected for BMI, DBP, SBP, PP, and Type II Diabetes, respectively. The European and multi-ethnic COVID GWAS data sets did not contain all the same SNPs. Proxy SNPs were not used to produce the same SNPs in both sets. Lastly, we performed a sensitivity analysis in which we used a linkage disequilibrium coefficient threshold of 0.05 instead of 0.1 in pruning SNPs. The selected SNP counts for these analyses are found in Supplementary Table S3 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 1088,
+                    "end": 1110,
+                    "text": "Supplementary Table S3",
+                    "ref_id": null
+                }
+            ],
+            "section": ""
+        },
+        {
+            "text": "To estimate the causal effects of each exposure on the probability of COVID-19 hospitalization status, we used Mendelian Randomization (MR). This method intends to eliminate potential confounding effects by capitalizing on the random assignment of genetic information at conception. The causal effect of each variant i is generally estimated as \u03b8 i = \u0174 i / \u03b3 i where \u0174 i and \u03b3 i are the standardized effect estimates of SNP i on the outcome and exposure, respectively. Standardized effect estimates are calculated as for SNP i of the exposure ( E ) and",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mendelian randomization analysis."
+        },
+        {
+            "text": "for the outcome Y where MAF i is the minor allele frequency. The standard errors of the effect sizes are also adjusted from the original standard errors in each GWAS as:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Mendelian randomization analysis."
+        },
+        {
+            "text": "Many methods for estimating the causal effect exist, of which we chose four that are: MRMix 25 , IVW 26 , MR-Egger 27 and IMRP 28 . Comparing the results of four similar but distinct analytical procedures provided a more complete picture of any existing causal relationships between each exposure and COVID-19 hospitalization. IVW, MR-Egger and IMRP are similar in estimating causal effect but treating horizontal pleiotropic variants differently, which may bias the causal effect estimate if ignored 27 . IVW does not differentiate horizontal pleiotropic variants from vertical pleiotropic variants, MR-Egger is weighted linear regression with an intercept term for www.nature.com/scientificreports/ adjusting for the horizontal pleiotropic variants, while IMRP identifies horizontal pleiotropic variants and then exclude them through an iterative procedure 28 . MRmix is an estimating equation approach that assumes \u0174 \u2212 \u03b8 \u03b3 follows a normal mixture model, and it does not directly identify horizontal pleiotropic SNPs. IVW is a powerful method but can lead to large bias when horizontal pleiotropic variants are present. MREgger is less susceptible to horizontal pleiotropic variants but can suffer from reduced power. IMRP takes the advantages of both IVW and ME-Egger, and can also account for sample overlap between exposure and outcome data sets, whereas the other methods cannot. MR-PRESSO 29 also first identifies horizontal pleiotropic variants and estimates causal effect after excluding horizontal pleiotropic variants but uses a computationally intensive simulation approach. Simulation study suggested that IMRP is less biased and computationally more efficient than MR-PRESSO across variety simulation models 28 . MR-TRYX 30 is a MR approach using multiple traits that are related to exposure and outcome. It adjusts for horizontal pleiotropy by identifying the horizontal pleiotropy pathways but is also more computationally demanding. Although with advantages of using multiple traits, MR-TRYX requires to accurately estimate the effects through pleiotropic pathways, which is a recursive problem. Therefore, MR-PRESSO and MR-TRYX were not used here. All analyses are more fully described elsewhere 31 and were done using the MRMix and IMRP packages in R 25,31,32 . Table 1 presents summary statistics for the effect sizes of each exposure and for the correlations between GWAS effect estimate t-statistics for each exposure and COVID-19. These summary statistics indicate that, for each exposure in European only or multiple ethnic sample, the mean exposure effect sizes of only the selected SNPs are all < 0.001. In the European-only sample, the correlations of effect sizes for the respective exposure and COVID-19 hospitalization [i.e., \u03c1 \u0174 i , \u03b3 i ] are all negative. In the multiple ethnicity sample, the correlations are more robust. These associations are reflected in Fig. 1 .",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 2282,
+                    "end": 2289,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 2893,
+                    "end": 2899,
+                    "text": "Fig. 1",
+                    "ref_id": "FIGREF1"
+                }
+            ],
+            "section": "Mendelian randomization analysis."
+        },
+        {
+            "text": "Using the summary statistics from only European individuals, we did not observe significant causal effects of the exposures to COVID-19 hospitalization after adjusting for multiple tests, although a nominal evidence for BMI was observed in the IMRP analysis (OR = 0.66, 95% CI 0.46-0.96). No uniformly significant causal effect evidence was observed in the multiple ethnicity sample although all the exposures demonstrated increasing risk of COVID-19 hospitalization (Table 2 ). In the sample of individuals of multiple ethnicities, Type II Diabetes was positively associated with COVID-19 hospitalization using IMRP (1.67, 0.96-2.92). Positive associations are also detected by MRMix, IVW, and MREgger models, though with attenuated effect estimates and wider confidence intervals. Using IMRP, six of the 129 variants in the Type II Diabetes analyses displayed evidence of pleiotropic effects (P < 0.05) which are shown in Fig. 2 , although none remain after Bonferroni correction. The intercept term in the MR-Egger model was non-significant (p = 0.784), indicated an absence of pleiotropic effects or low statistical power for detecting them.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 467,
+                    "end": 475,
+                    "text": "(Table 2",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 924,
+                    "end": 930,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF2"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "A positive causal association was detected for pulse pressure in the multiple ethnicity sample. The IMRP model produced an estimated odds ratio of 1.27 (95% CI 0.97-1.66). Positive associations are also detected by IVW (1.39, 1.07-1.81) and MR-Egger (3.05, 1.20-7.77), and marginally so for MRMix (1.36, 0.92-2.02). Thirty-two SNPs displayed evidence of pleiotropic effects (P < 0.05) as indicated by IMRP (SNPs included in Fig. 2 , detailed in Supplementary Table S1), none of which remained after a Bonferroni adjustment (MR-Egger intercept p-value: 0.088). The results of the sensitivity analysis using a linkage disequilibrium coefficient threshold of 0.05 for pruning SNPs are presented in Supplementary Table S2 and are not meaningfully different from those Table 1 . Summary statistics for sizes of standardized effects of each exposure on COVID-19 hospitalization. Mean, standard deviation, minimum, and maximum values correspond to the sizes of the standardized effects of the selected SNPs on each exposure, calculated from original GWAS estimates using Eqs. (1) and (3) above. Correlation coefficients represent the correlations between exposure effect sizes and outcome (COVID-19 hospitalization) effect sizes, the latter of which is calculated from the original COVID-19 GWAS using Eqs. (2) and (4) www.nature.com/scientificreports/ www.nature.com/scientificreports/ presented here. All but three of these estimated causal effects are in the same direction as those presented here. Each of these three estimates are nonsignificant in both the main and sensitivity analyses.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 424,
+                    "end": 430,
+                    "text": "Fig. 2",
+                    "ref_id": "FIGREF2"
+                },
+                {
+                    "start": 695,
+                    "end": 717,
+                    "text": "Supplementary Table S2",
+                    "ref_id": "TABREF3"
+                },
+                {
+                    "start": 764,
+                    "end": 771,
+                    "text": "Table 1",
+                    "ref_id": null
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "To better understand why for diastolic and systolic BP in the mixed ethnicity sample MRMix produced a causal effect estimate in the direction opposite of that produced by IMRP, IVW, and MREgger, we also plotted www.nature.com/scientificreports/ the causal effect estimate ( \u03b8 ) against its likelihood function (see Fig. 3 ). For both variables a clear but flat peak is present, suggesting large standard error. We also report the MRMix estimation performance for Type II Diabetes and systolic BP in the European sample in Supplementary Figs. S1 and S2 to better understand why the standard errors for these estimates are so large. A possible reason for each of these issues is the small sample size of COVID-19.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 315,
+                    "end": 321,
+                    "text": "Fig. 3",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Results"
+        },
+        {
+            "text": "Using summary statistics from European-only samples, we failed to detect any compelling evidence supporting any causal associations between hospitalization from COVID-19 and Type II Diabetes, body mass index, diastolic and systolic blood pressure, and pulse pressure. From the multi-ethnic sample, we provide evidence of existing positive causal associations between Type II Diabetes and pulse pressure and the probability of hospitalization from COVID-19. A positive causal association between pulse pressure and COVID-19 hospitalization is biologically plausible as pulse pressure is moderately correlated with lung function (r = \u2212 0.37) 33 , the failure of which is a primary reason for COVID-19 hospitalization. Similarly, although Type II diabetes is associated with a number of risks also hypothesized to be causally associated with COVID-19 severity (e.g., obesity, hypertension, cardiovascular disease), risk for hospitalization may also be conferred because of known inflammatory immune responses in patients with Type II Diabetes 34, 35 .",
+            "cite_spans": [
+                {
+                    "start": 1040,
+                    "end": 1043,
+                    "text": "34,",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Many other investigations of COVID-19 illness have been completed using Mendelian Randomization methods. For example, Zhang et al. 36 report no evidence of a causal association between BMI and illness severity (IVW OR, 95% CI, 0.73, 0.12-4.25) whereas Leong et al. 37 Leong et al. also report no evidence of association between diastolic blood pressure and illness severity (0.98, 0.93-1.02). Each of these results are estimated using a range of analysis methods and come from exclusively or overwhelmingly European individuals and population controls. The evidence we present in addition to results from these studies may provide greater rationale for more personalized therapies aimed at reducing hospitalization risk via targeted management of Type II Diabetes and high pulse pressure for individuals with these conditions. Nonetheless, our study is limited by many factors, not least of which is the relatively small sample sizes from which the COVID-19 hospitalization summary statistics were produced (n = 2956 for only Europeans, 10,908 for variable ethnicities). Results of exposure-specific power analyses indicate that power is low to detect effects for any exposure in the European sample and the multi-ethnicity sample except for Type II Diabetes (43%) and pulse pressure (65%) in the multi-ethnicity sample (see Supplementary Table S4 ). While we cannot for certain say that this alone can explain some of the null findings, using COVID-19 summary statistics from even larger GWAS samples would have allowed for more accurate estimates of any extant causal associations between each exposure and hospitalization from COVID-19. As more GWAS using COVID-19 patients are completed, more accurate summary statistics produced from larger samples will become publicly available and thus future work will work to reduce the probability of making Type II errors. IVW, MREgger, and MRMix methods may also be subject to residual confounding because of uncontrolled within-person effects arising from sample overlap between the exposure and COVID-19 GWAS.",
+            "cite_spans": [
+                {
+                    "start": 268,
+                    "end": 285,
+                    "text": "Leong et al. also",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 1325,
+                    "end": 1347,
+                    "text": "Supplementary Table S4",
+                    "ref_id": null
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Additionally, there is the possibility of introduced collider bias because our study controls also have COVID-19 39 . This bias may be introduced through direct or indirect paths from our genetic instruments to COVID-19 incidence. Indirectly, our instruments may be associated with certain non-genetic factors known to confer risk of infection such as BMI, socioeconomic status, male gender, and older age 37, 39, 40 . Directly, certain allele combinations in SNPs encoding for either TMPRSS2 or ACE2 genes may confer additional risk of SARS-CoV-2 susceptibility 41, 42 . Using the NCBI dbSNP tool 43 to identify SNPs in these gene regions, we find that no SNPs in these gene regions were present in any of the final sets of instruments for each exposure and ethnicity sample. This would indicate that our instruments may be free from bias associated with ACE2 or TMPRSS2 expression. Alternatively, positive causal associations between BMI and COVID-19 susceptibility have been reported, but associations between Type II Diabetes, systolic and diastolic blood pressure, and pulse pressure have not 39, 44 . We further examined whether there were any genetic instrument SNPs overlapped with the genome wide significant variants (p < 5e\u22128) identified in COVID-19 incidence GWAS using population controls. We examined this using separate GWAS meta-analyses (provided by the Host Genetics Initiative 9 ) for European and mixed ethnicity populations. These data and the procedures for this check are reporting in Supplementary Section S1. We did not identify any overlapped SNPs, suggesting the collider bias introduced through the selection of COVID-19 infection is minimal.",
+            "cite_spans": [
+                {
+                    "start": 406,
+                    "end": 409,
+                    "text": "37,",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 410,
+                    "end": 413,
+                    "text": "39,",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 563,
+                    "end": 566,
+                    "text": "41,",
+                    "ref_id": "BIBREF40"
+                },
+                {
+                    "start": 1098,
+                    "end": 1101,
+                    "text": "39,",
+                    "ref_id": "BIBREF38"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Although not statistically significant, the causal effects of risk factors on COVID-19 hospitalization often demonstrated protection effects in Europeans, in contrast with the consistent risk effects in multi-ethnic populations ( Table 2 ). To investigate this discrepancy, we performed MR analysis of risk factors on COVID-19 hospitalization using population controls and using the same sets of instruments (see Supplementary Section S1, Tables S5-S8 for results). In general, all the risk factors demonstrated consistent trends of risk effects on COVID-19 hospitalization in both Europeans or multi-ethnic populations except pulse pressure. Our results suggest that the causal effects of type II diabetes, BMI and blood pressure on COVID-19 hospitalization are likely consistent in Europeans or other ethnic populations when GWAS are obtained by comparing hospitalized COVID-19 patients to the general population. However, COVID-infected Europeans may have a trend of less risk effects than other infected ethnic populations on COVID-19 hospitalization contributed by these risk factors, i.e. type II diabetes, BMI and blood pressure, which may be related to different surveillance of and treatment for COVID-infected individuals. www.nature.com/scientificreports/ Our study is strengthened by the very large sizes of the samples from which the exposure summary statistics were drawn. Each of these GWAS included > 650,000 participants. Equally, our study is strengthened by the availability of GWAS summary statistics from different populations of individuals. This of course may allow us to generalize our findings to more people globally. Lastly, the comparison of results across multiple causal effect estimation methods should provide greater confidence in the findings for each exposure. We also benefit from a relatively new method (IMRP) which can detect SNPs displaying evidence of pleiotropic effects. Future work should build on this research to better understand COVID-19 disease burden within and across many populations so as to minimize national and global hospitalization risk.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 230,
+                    "end": 237,
+                    "text": "Table 2",
+                    "ref_id": "TABREF3"
+                }
+            ],
+            "section": "Discussion"
+        },
+        {
+            "text": "Received: 11 December 2020; Accepted: 19 March 2021",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "World Health Organization. Coronavirus Disease (COVID-19) pandemic",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Prevalence of underlying diseases in hospitalized patients with COVID-19: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Emami",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Javanmardi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Pirbonyeh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Akbari",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "AAEM",
+            "volume": "8",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Mendelian randomisation and causal inference in observational epidemiology",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Sheehan",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Didelez",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Burton",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Tobin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "PLoS Med",
+            "volume": "5",
+            "issn": "8",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "Reverse causation and illness-related weight loss in observational studies of body weight and mortality",
+            "authors": [
+                {
+                    "first": "K",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Flegal",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "I"
+                    ],
+                    "last": "Graubard",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Williamson",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Cooper",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am. J. Epidemiol",
+            "volume": "173",
+            "issn": "1",
+            "pages": "1--9",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Mendelian randomization for strengthening causal inference in observational studies: Application to gene\u00d7 environment interactions",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Perspect. Psychol. Sci",
+            "volume": "5",
+            "issn": "5",
+            "pages": "527--545",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Is diabetes mellitus associated with mortality and severity of COVID-19? A meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Kumar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Metab. Syndr",
+            "volume": "14",
+            "issn": "",
+            "pages": "535--545",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Effects of hypertension, diabetes and coronary heart disease on COVID-19 diseases severity: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.03.25.20043133"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Obesity aggravates COVID-19: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Med. Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "257--261",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "The COVID-19 Host Genetics Initiative, a global initiative to elucidate the role of host genetic factors in susceptibility and severity of the SARS-CoV-2 virus pandemic",
+            "authors": [],
+            "year": 2020,
+            "venue": "The COVID-19 Host Genetics Initiative",
+            "volume": "28",
+            "issn": "",
+            "pages": "715--718",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41431-020-0636-6"
+                ]
+            }
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "COVID-19 hub",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Uk Biobank Limited",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Bonn Study of COVID19 Genetics",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Bosco",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Determining the Molecular Pathways and Genetic Predisposition of the Acute Inflammatory Process Caused by SARS-CoV-2. GENYO-Center for Genomics and Oncological Research",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "Spgrx",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Department of Veterans Affairs",
+            "authors": [],
+            "year": 2020,
+            "venue": "MVP",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "BQC19: Biobanque Quebec COVID19",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Second-generation PLINK: rising to the challenge of larger and richer datasets. GigaScience, 4. www. cog-genom ics",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Meta-analysis of genome-wide association studies for height and body mass index in \u223c700000 individuals of European ancestry",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Yengo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Hum. Mol. Genet",
+            "volume": "27",
+            "issn": "20",
+            "pages": "3641--3649",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "Genetic analysis of over 1 million people identifies 535 new loci associated with blood pressure traits",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Evangelou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat. Genet",
+            "volume": "50",
+            "issn": "10",
+            "pages": "1412--1425",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Genome-wide association analyses identify 143 risk variants and putative regulatory mechanisms for type 2 diabetes",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Xue",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat. Commun",
+            "volume": "9",
+            "issn": "1",
+            "pages": "1--14",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "Mendelian randomization analysis using mixture models for robust and efficient estimation of causal effects",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Qi",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Chatterjee",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Nat. Commun",
+            "volume": "10",
+            "issn": "1",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Integrating summarized data from multiple genetic variants in Mendelian randomization: Bias and coverage properties of inverse-variance weighted methods",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Burgess",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bowden",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "arXiv": [
+                    "arXiv:1512.04486"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "Mendelian randomization with invalid instruments: Effect estimation and bias detection through Egger regression",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Bowden",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Davey Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Burgess",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Int. J. Epidemiol",
+            "volume": "44",
+            "issn": "2",
+            "pages": "512--525",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "An iterative approach to detect pleiotropy and perform Mendelian Randomization analysis using GWAS summary statistics",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Xu",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Bioinformatics",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "Detection of widespread horizontal pleiotropy in causal relationships inferred from Mendelian randomization between complex traits and diseases",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Verbanck",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Neale",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Do",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Nat. Genet",
+            "volume": "50",
+            "issn": "5",
+            "pages": "693--698",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "MR-TRYX: Exploiting horizontal pleiotropy to infer novel causal pathways. bioRxiv",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cho",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Haycock",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Gaunt",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Morris",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Hemani",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "Mendelian randomization and pleiotropy analysis",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Quant. Biol",
+            "volume": "1",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1007/s40484-020-0216-3"
+                ]
+            }
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "R: A language and environment for statistical computing. (R Foundation for Statistical Computing",
+            "authors": [
+                {
+                    "first": "",
+                    "middle": [],
+                    "last": "R Core Team",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "Decreased lung function is associated with increased arterial stiffness as measured by peripheral pulse pressure: Data from NHANES III",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Jankowich",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Taveira",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Am. J. Hypertens",
+            "volume": "23",
+            "issn": "6",
+            "pages": "614--619",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "COVID-19 in people with diabetes: Understanding the reasons for worse outcomes",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Apicella",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Diabetes Endocrinol",
+            "volume": "8",
+            "issn": "",
+            "pages": "782--792",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Diabetes is a risk factor for the progression and prognosis of COVID-19",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Guo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diabetes Metab. Res. Rev",
+            "volume": "36",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Physical activity and COVID-19: An observational and Mendelian randomisation study",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J. Glob",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7189/jogh.10.020514"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Cardiometabolic risk factors for COVID-19 susceptibility and severity: A mendelian randomization analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Leong",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.08.26.20182709"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Cardiometabolic Traits, Sepsis, and Severe COVID-19: A Mendelian randomization investigation",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Ponsford",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Circulation",
+            "volume": "142",
+            "issn": "18",
+            "pages": "1791--1793",
+            "other_ids": {}
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Genetic epidemiology and Mendelian randomization for informing disease therapeutics: Conceptual and methodological challenges",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Paternoster",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Tilling",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Davey Smith",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PLoS Genet",
+            "volume": "13",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "A model of disparities: Risk factors associated with COVID-19 infection",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Rozenfeld",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Int. J. Equity Health",
+            "volume": "19",
+            "issn": "1",
+            "pages": "1--10",
+            "other_ids": {}
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "New insights into genetic susceptibility of COVID-19: An ACE2 and TMPRSS2 polymorphism analysis",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Hou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "BMC Med",
+            "volume": "18",
+            "issn": "1",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "COVID-19 infection: The perspectives on immune responses",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Shi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Cell Death Differ",
+            "volume": "27",
+            "issn": "",
+            "pages": "1451--1454",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "dbSNP: The NCBI database of genetic variation",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "T"
+                    ],
+                    "last": "Sherry",
+                    "suffix": ""
+                }
+            ],
+            "year": 2001,
+            "venue": "Nucleic Acids Res",
+            "volume": "29",
+            "issn": "",
+            "pages": "308--311",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/nar/29.1.308"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Causal inference for genetic obesity, cardiometabolic profile and COVID-19 susceptibility: A Mendelian randomization study",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Aung",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Khanji",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Munroe",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Petersen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front. Genet",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "above. All values are presented only for the final selected SNPs (i.e., those with a p-value less than 5e\u22128 and a linkage disequilibrium coefficient less than 0.1 in the original GWAS). Correlation coefficients (a) Estimates from the European set are from 2956 European individuals; estimates from the variable ethnicity set are from 10,908 individuals of either of European, African, Hispanic, or Middle Eastern descent. (b) the correlation between the effect sizes for each SNP's estimated effect on the probability of the respective exposure or COVID-19 hospitalization after all mentioned exclusions (SNP independence, p < 5e\u22128, Pearson's r < 0.1 with index SNP) were applied.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Exposure, COVID-19 Effect size associations-mixed ethnicity sample. These figures display the effect size associations between each exposure (Type II Diabetes, BMI, diastolic and systolic blood pressure, and pulse pressure) and COVID-19 hospitalization risk. Overlaid on the scatterplots are univariate linear regression fitted values and their associated 95% confidence intervals.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "IMRP Pleitropy evidence-mixed ethnicity sample. Displayed are those SNPs demonstrating evidence of pleiotropic effects for pulse pressure and Type II Diabetes in the multi-ethnicity sample as estimated by IMRP. The horizontal dash line represents Bonferroni-adjusted Type I Error rate of p = 0.05.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "MRMix estimation performance-mixed ethnicity sample. These two plots display the estimated causal effect (theta, \u03b8 ) during maximum likelihood estimation for diastolic and systolic blood pressure by MRMix in the multi-ethnicity sample. A clear, sharp peak indicates stable performance in the estimation of theta. The dotted red lines indicate the ML estimates of theta ( \u03b8 ) reported in the Results section, respectively for each exposure.Scientific Reports | (2021) 11:7848 | https://doi.org/10.1038/s41598-021-86757-3",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF3": {
+            "text": "Causal effect estimates of each exposure on COVID-19 hospitalization status. Displayed are causal effect estimates for each exposure on COVID-19 hospitalization status within the European sample and multiple ethnicity sample. Estimates are displayed as odds ratios with 95% confidence intervals included in parentheses.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF5": {
+            "text": "https://doi.org/10.1038/s41598-021-86757-3",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": [
+        {
+            "text": "This work was supported by grant HG011052 (to X.Z.) from the National Human Genome Research Institute (NHGRI). N. L-C. was supported by grants T32 HL007567 from the National Heart, Lung and Blood Institute (NHLBI).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Acknowledgements"
+        },
+        {
+            "text": "N.L.C. performed all analyses and writing of the manuscript. X.Z. developed the research question, retrieved the data, oversaw all analyses, and provided guidance throughout the writing of the manuscript.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Author contributions"
+        },
+        {
+            "text": "The authors declare no competing interests.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Competing interests"
+        },
+        {
+            "text": "The online version contains supplementary material available at https:// doi. org/ 10. 1038/ s41598-021-86757-3.Correspondence and requests for materials should be addressed to X.Z.Reprints and permissions information is available at www.nature.com/reprints.Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Supplementary Information"
+        }
+    ]
+}
