@@ -15,5 +15,6 @@ concerns:
     - Jackson is best example
 - data cleaning is acting weird
     - letter 'm' has a lot of frequency somehow
+    - need to remove unicode chars (\c2019) and escape characters - although doesn't seem to be making much of a difference
 - scaling - to use or not 
     - try with different scalers and different models
