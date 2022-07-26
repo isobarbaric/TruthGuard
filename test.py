@@ -10,7 +10,7 @@ from newspaper import Article
 covid_articles = []
 not_working = 0
 
-with open('json_1/science.json', 'r') as f:
+with open('extracted/science.json', 'r') as f:
     json_str = json.loads(f.read())
     for index, article_ref in enumerate(json_str):
         print(index+1, '/', len(json_str))
@@ -26,7 +26,7 @@ with open('json_1/science.json', 'r') as f:
             not_working += 1
             print(modified_link)
 
-with open('json_2/science.json', 'w') as f:
+with open('json/science.json', 'w') as f:
     f.write(json.dumps(covid_articles, indent = 4))
 
 print(not_working)
