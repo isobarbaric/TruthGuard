@@ -9,3 +9,11 @@ plan for next week:
         - rows: count for each keyword in an article  
         - add a final column to the right displaying whether the article was a conspiracy or scientific (0 = conspiracy, 1 = scientific) 
     - train model with various different methods and evaluate test set  
+
+concerns:
+- certain articles that are longer are skewing # occurences of a word 
+    - Jackson is best example
+- data cleaning is acting weird
+    - letter 'm' has a lot of frequency somehow
+- scaling - to use or not 
+    - try with different scalers and different models
