@@ -1,7 +1,5 @@
 plan for next week:
-- split up data into testing, training set
-    - in an 80-20 split
-    - do this individually for scientific articles and conspiracy articles, then merge the two sets together
+- split up data into testing, training set in an 80-20 split
 - after this, evaluation of well the system works with a ML model will be good
     - train model and redo-word frequency part once for the testing set and once for the training set (to prevent data leakage)
     - generate table for training and testing data (2 tables)
@@ -13,6 +11,7 @@ plan for next week:
 concerns:
 - certain articles that are longer are skewing # occurences of a word 
     - Jackson is best example
+    - large number of 0s in all of the columns
 - data cleaning is acting weird
     - letter 'm' has a lot of frequency somehow
     - need to remove unicode chars (\c2019) and escape characters - although doesn't seem to be making much of a difference
