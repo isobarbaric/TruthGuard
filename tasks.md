@@ -8,3 +8,4 @@ general parameters to vary
 - test_size
 - number of relevant words
 
+objective is to have data_model take parameters to vary the general parameters
