@@ -21,9 +21,20 @@ multiple changes to see how accuracy improves
     - TextBlob 
 - data source (CORD-19) and another potential source for the conspiracy articles
 
+-----
+
+logistic regression:
+- https://towardsdatascience.com/logistic-regression-model-tuning-with-scikit-learn-part-1-425142e01af5
+- MiniMax Scaler
+
 things worked on:
 
 things ongoing:
 
 things going to be tried out:
+
+
+
+
+
 
