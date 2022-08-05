@@ -15,6 +15,8 @@ multiple changes to see how accuracy improves
         - number of articles
         - test_size
         - number of relevant words
+    - more models
+        - RandomForestClassifier
 - try using libraries to compare model accuracy
     - scikit-learn CountVectorizer
     - spaCy
