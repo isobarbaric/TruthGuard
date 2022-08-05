@@ -30,11 +30,13 @@ logistic regression:
 
 
 things worked on:
+- predict method
 
 things ongoing:
+- 
 
 things going to be tried out:
-
+- 
 
 
 first step: put all of the confusion matrices
@@ -43,5 +45,5 @@ put stuff together in one table together
 
 second step: use ConfusionMatrixDisplay class to stitch everything together
 
-
-review confusion matrix contents before presenting tomorrow
+- review confusion matrix contents before presenting tomorrow
+- change headers from ['positive', 'negative'] to ['science', 'conspiracy']
