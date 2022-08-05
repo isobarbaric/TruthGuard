@@ -27,6 +27,8 @@ logistic regression:
 - https://towardsdatascience.com/logistic-regression-model-tuning-with-scikit-learn-part-1-425142e01af5
 - MiniMax Scaler
 
+
+
 things worked on:
 
 things ongoing:
@@ -35,6 +37,11 @@ things going to be tried out:
 
 
 
+first step: put all of the confusion matrices
+get classification report to html
+put stuff together in one table together
+
+second step: use ConfusionMatrixDisplay class to stitch everything together
 
 
-
+review confusion matrix contents before presenting tomorrow
