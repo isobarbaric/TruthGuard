@@ -15,8 +15,17 @@ second step: use ConfusionMatrixDisplay class to stitch everything together
 - finish RandomizedSearchCV for the remaining models 
 - make a predict method that returns a string and confidence level
 => deploy on flask server
-=> report 
+=> report (docs + LaTeX)
+=> add different sections for proj (like this: https://github.com/Fryingpannn/WallStreetBets_BigDataAnalysis)
+- data
+- preprocessing
+    - proper code
+    - commenting
+- model training
+- deployment
 => more experimentation
+
+get the jargon going
 
 - parameters to vary inside the model
     - model-specific: 
@@ -37,3 +46,8 @@ second step: use ConfusionMatrixDisplay class to stitch everything together
     - spaCy
     - TextBlob 
 - data source (CORD-19) and another potential source for the conspiracy articles
+
+add features like, 
+- paste article
+- paste URL
+
