@@ -9,13 +9,12 @@ second step: use ConfusionMatrixDisplay class to stitch everything together
 - correct/update confusion matrix contents before presenting tomorrow
 - change headers from ['positive', 'negative'] to ['science', 'conspiracy']
  
-
+=> report (docs + LaTeX)
 => updates to existing stuff
 - update labels in table
 - finish RandomizedSearchCV for the remaining models 
 - make a predict method that returns a string and confidence level
 => deploy on flask server
-=> report (docs + LaTeX)
 => add different sections for proj (like this: https://github.com/Fryingpannn/WallStreetBets_BigDataAnalysis)
 - data
 - preprocessing
@@ -50,4 +49,3 @@ get the jargon going
 add features like, 
 - paste article
 - paste URL
-
