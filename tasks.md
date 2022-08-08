@@ -9,14 +9,22 @@ second step: use ConfusionMatrixDisplay class to stitch everything together
 - correct/update confusion matrix contents before presenting tomorrow
 - change headers from ['positive', 'negative'] to ['science', 'conspiracy']
  
-
+=> report (docs + LaTeX)
 => updates to existing stuff
 - update labels in table
 - finish RandomizedSearchCV for the remaining models 
 - make a predict method that returns a string and confidence level
 => deploy on flask server
-=> report 
+=> add different sections for proj (like this: https://github.com/Fryingpannn/WallStreetBets_BigDataAnalysis)
+- data
+- preprocessing
+    - proper code
+    - commenting
+- model training
+- deployment
 => more experimentation
+
+get the jargon going
 
 - parameters to vary inside the model
     - model-specific: 
@@ -37,3 +45,7 @@ second step: use ConfusionMatrixDisplay class to stitch everything together
     - spaCy
     - TextBlob 
 - data source (CORD-19) and another potential source for the conspiracy articles
+
+add features like, 
+- paste article
+- paste URL
