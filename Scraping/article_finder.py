@@ -114,7 +114,7 @@ class ArticleFinder:
                             article = {
                                 'title': mod_title,
                                 'link': intended_link,
-                                'text': "testing"
+                                'text': "undetermined"
                             }
                             overall.append(article) 
                         except Exception as e:
