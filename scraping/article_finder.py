@@ -43,7 +43,6 @@ class ArticleFinder:
         for website in webpages:
             if website in ArticleFinder.dysfunctional_pages:
                 continue
-
             try:
                 current_html = str(requests.get('https://' + website).content) 
                 with open('news_channels/' + website + 'html_page.txt', 'w') as rn: 
@@ -124,6 +123,6 @@ class ArticleFinder:
 
                         covid_related = False
 
-        print("total dysfunctional:", not_working, "; total attempts:", total_attempts)
+        print("total dysfunctional: ", not_working, "; total attempts: ", total_attempts, sep='')
 
         return overall
