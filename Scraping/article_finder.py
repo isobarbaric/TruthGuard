@@ -55,8 +55,6 @@ class ArticleFinder:
         structure = os.listdir('news_channels/') 
 
         overall = [] 
-        not_working = 0
-        total_attempts = 0
 
         for file in structure:
             current_path = base_path + file 
@@ -106,23 +104,13 @@ class ArticleFinder:
                         if intended_link.count('http://') + intended_link.count('https://') == 0:
                             intended_link = 'https://' + intended_link
 
-                        try:
-                            total_attempts += 1
-                            # rn = Article(intended_link)
-                            # rn.download()
-                            # rn.parse()
-                            article = {
-                                'title': mod_title,
-                                'link': intended_link,
-                                'text': "undetermined"
-                            }
-                            overall.append(article) 
-                        except Exception as e:
-                            print(intended_link)
-                            not_working += 1
+                        article = {
+                            'title': mod_title,
+                            'link': intended_link,
+                            'text': "undetermined"
+                        }
+                        overall.append(article) 
 
                         covid_related = False
-
-        print("total dysfunctional: ", not_working, "; total attempts: ", total_attempts, sep='')
 
         return overall

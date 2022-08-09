@@ -49,3 +49,5 @@ get the jargon going
 add features like, 
 - paste article
 - paste URL
+
+- consider removing words under a certain min_occurence
