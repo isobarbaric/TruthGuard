@@ -5,18 +5,19 @@ from nltk.corpus import stopwords
 from dateutil.parser import parse
 from nltk.stem import WordNetLemmatizer
 import matplotlib.pyplot as plt
+import pandas as pd
 
 import string
 import nltk
 
 class BagOfWords:
-    def __init__(self, tokenized_paragraph: list, name: str):
-        self.sentences = tokenized_paragraph
+    def __init__(self, article_texts: pd.DataFrame, name: str):
+        self.article_texts = article_texts['text'].values.tolist()
         self.name = name
 
     def tokenize(self):
         self.words = []
-        for sentence in self.sentences:
+        for sentence in self.article_texts:
             for word in word_tokenize(sentence):
                 self.words.append(word)
 
