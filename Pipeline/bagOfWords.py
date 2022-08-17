@@ -1,15 +1,13 @@
-# creating a bag of words class for the bag of words model
+import nltk
+import string
+import pandas as pd
+import matplotlib.pyplot as plt
 
+from typing import Union
 from nltk import word_tokenize
 from nltk.corpus import stopwords
-from dateutil.parser import parse
 from nltk.stem import WordNetLemmatizer
-import matplotlib.pyplot as plt
-import pandas as pd
-from typing import Union
-
-import string
-import nltk
+from dateutil.parser import parse
 
 class BagOfWords:
 
