@@ -12,12 +12,25 @@ import string
 import nltk
 
 class BagOfWords:
+
     def __init__(self, article_texts: Union[pd.DataFrame, str], name: str):
         if isinstance(article_texts, pd.DataFrame):
             self.article_texts = article_texts['text'].values.tolist()
         else:
             self.article_texts = article_texts
         self.name = name
+
+        # method calls
+        self.tokenize()
+        self.to_lower_case()
+        self.clean_data()
+        self.remove_stop_words()
+        self.normalize_words()
+        self.create_frequency_chart()
+
+        # frequency is only plotted when proper name is provided
+        if name:
+            self.plot_frequency_chart()
 
     def tokenize(self):
         self.words = []
