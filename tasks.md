@@ -35,3 +35,6 @@ issues:
 - other things to fine-tune
     - includes parameters manually controlled; things like
         - number of relevant words chosen
+
+to add:
+- consider adding sklearn make_pipeline in the midst
