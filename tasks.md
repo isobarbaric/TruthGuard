@@ -1,7 +1,12 @@
 
+this version is more updated than the google docs one 
+
 next steps:
 - make sure model initialization is good to go
-- go over to model training and remove redundancies and add back models
+- go over to model training and remove redundancies and add back models (here rn)
+    - look through other models that can be tried out
+    - go over existing models and review ways to make them more accurate (analyze classification report to see where there is room for improvement)
+    - see if can add models to a list and then select model with highest accuracy
 - methods in notebooks and bagOfWords
     - add argument types and return type
     - add docstrings
@@ -10,7 +15,7 @@ next steps:
 - front-end deployment
 - iron out terminology and variable names in bagOfWords.py
     - take a look at the vocabulary used 
-    - 
+    - research proper terminology and order and adjust accordingly
 - after all prerequisites are over, focus on extra stuff, like
     - data formatting
     - saving data to a cloud database and seeing if some sort of continuity is possible to automate model training based on a larger dataset
@@ -27,3 +32,6 @@ issues:
 - why is scientific vs conspiracy so unbalanced right now?
 - need a lot of validation to fix bugs that didn't even know existed
     - best example is training and test dataframe issue
+- other things to fine-tune
+    - includes parameters manually controlled; things like
+        - number of relevant words chosen
