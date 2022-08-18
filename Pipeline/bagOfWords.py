@@ -11,11 +11,12 @@ from dateutil.parser import parse
 
 class BagOfWords:
 
-    def __init__(self, article_texts: Union[pd.DataFrame, str], name: str):
+    def __init__(self, article_texts: Union[pd.DataFrame, str], name: Union[str, None]):
         if isinstance(article_texts, pd.DataFrame):
             self.article_texts = article_texts['text'].values.tolist()
         else:
             self.article_texts = article_texts
+            
         self.name = name
 
         # method calls
@@ -23,7 +24,10 @@ class BagOfWords:
         self.to_lower_case()
         self.clean_data()
         self.remove_stop_words()
+
+        # TODO: normalize seems to be the wrong term here, I mean 'lemmatize', but also review what normalization is just in case
         self.normalize_words()
+
         self.create_frequency_chart()
 
         # frequency is only plotted when proper name is provided
@@ -32,9 +36,13 @@ class BagOfWords:
 
     def tokenize(self):
         self.words = []
-        for sentence in self.article_texts:
-            for word in word_tokenize(sentence):
+        if isinstance(self.article_texts, str):
+            for word in word_tokenize(self.article_texts):
                 self.words.append(word)
+        else:
+            for article in self.article_texts:
+                for word in word_tokenize(article):
+                    self.words.append(word)
 
     def to_lower_case(self):
         for i in range(len(self.words)):

@@ -1,53 +1,29 @@
-use bagOfWord's tokenizing when building dataframes maybe
 
-first step: put all of the confusion matrices
-get classification report to html
-put stuff together in one table together
+next steps:
+- make sure model initialization is good to go
+- go over to model training and remove redundancies and add back models
+- methods in notebooks and bagOfWords
+    - add argument types and return type
+    - add docstrings
+- add supporting comments throughout notebooks
+- finish writing write-up and add drawings and visualizations
+- front-end deployment
+- iron out terminology and variable names in bagOfWords.py
+    - take a look at the vocabulary used 
+    - 
+- after all prerequisites are over, focus on extra stuff, like
+    - data formatting
+    - saving data to a cloud database and seeing if some sort of continuity is possible to automate model training based on a larger dataset
+    - see if any more visualizations can be added, or if any that previously existed have accidentally been deleted
+- further exploration
+    - neural network stuff for nlp
+    - evaluation for possibility of bag of words model literature review
 
-second step: use ConfusionMatrixDisplay class to stitch everything together
+questions:
+- should I remove words with relative frequency equal to 0?
+    - don't think it would make much of a difference anyway to start off with
 
-- correct/update confusion matrix contents before presenting tomorrow
-- change headers from ['positive', 'negative'] to ['science', 'conspiracy']
- 
-=> report (docs + LaTeX)
-=> updates to existing stuff
-- update labels in table
-- finish RandomizedSearchCV for the remaining models 
-- make a predict method that returns a string and confidence level
-=> deploy on flask server
-=> add different sections for proj (like this: https://github.com/Fryingpannn/WallStreetBets_BigDataAnalysis)
-- data
-- preprocessing
-    - proper code
-    - commenting
-- model training
-- deployment
-=> more experimentation
-
-get the jargon going
-
-- parameters to vary inside the model
-    - model-specific: 
-        - hyperparameters on current model and create blackbox-able structure
-        - GridSearchCV, RandomizedGridSearchCV
-    - heuristic-specific: 
-        - number of articles
-        - test_size
-        - number of relevant words
-    - more models
-        - RandomForestClassifier
-        - Gradient Processing
-        - AdaBoost
-        - ExtraTrees 
-        - RidgeClassifier 
-- try using libraries to compare model accuracy
-    - scikit-learn CountVectorizer
-    - spaCy
-    - TextBlob 
-- data source (CORD-19) and another potential source for the conspiracy articles
-
-add features like, 
-- paste article
-- paste URL
-
-- consider removing words under a certain min_occurence
+issues:
+- why is scientific vs conspiracy so unbalanced right now?
+- need a lot of validation to fix bugs that didn't even know existed
+    - best example is training and test dataframe issue
