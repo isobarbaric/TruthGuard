@@ -1,6 +1,6 @@
 from typing import Union
-import nltk
 import string
+import nltk
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -16,7 +16,7 @@ class BagOfWords:
         if isinstance(article_texts, pd.DataFrame):
             self.article_texts = article_texts['text'].values.tolist()
         else:
-            self.article_texts = article_texts      
+            self.article_texts = article_texts
         self.name = name
 
         # declaring additional instance variables
@@ -35,7 +35,7 @@ class BagOfWords:
         self.create_frequency_chart()
 
         # frequency is only plotted when proper name is provided
-        if name:
+        if name is not None:
             self.plot_frequency_chart()
 
     def tokenize(self):
@@ -48,12 +48,12 @@ class BagOfWords:
                     self.words.append(word)
 
     def to_lower_case(self):
-        for i in range(len(self.words)):
+        for i, _ in enumerate(self.words):
             self.words[i] = self.words[i].lower()
 
     def clean_data(self):
         noise = ['...', "n't"]
-        def is_time_or_date(word):  
+        def is_time_or_date(word):
             try:
                 _ = parse(word)
                 return True
@@ -61,8 +61,7 @@ class BagOfWords:
                 return False
 
         def is_link(word):
-            suffixes = ['.com', '.org', '.edu', '.gov', '.int', '.co', '.net', '.au', '.us', '.uk', '.ne', 'news']
-            for suffix in suffixes:
+            for suffix in ['.com', '.org', '.edu', '.gov', '.int', '.co', '.net', '.au', '.us', '.uk', '.ne', 'news']:
                 if suffix in word:
                     return True
             return False
@@ -111,7 +110,7 @@ class BagOfWords:
     def remove_stop_words(self):
         for i in range(len(self.words)-1, -1, -1):
             if self.words[i] in stopwords.words('english'):
-                self.words.pop(i)  
+                self.words.pop(i)
 
     def normalize_words(self):
         def get_part_of_speech(provided_word):
@@ -127,13 +126,13 @@ class BagOfWords:
             return 'n'
 
         lemmatizer = WordNetLemmatizer()
-        for i in range(len(self.words)):
+        for i, _ in enumerate(self.words):
             self.words[i] = lemmatizer.lemmatize(self.words[i], get_part_of_speech(self.words[i]))
 
         # perform some data cleaning on lemmatized words
         for i in range(len(self.words)-1, -1, -1):
             if self.words[i] in [letter for letter in string.ascii_lowercase]:
-                self.words.pop(i)  
+                self.words.pop(i)
 
     def create_frequency_chart(self):
         for word in self.words:
@@ -143,7 +142,8 @@ class BagOfWords:
                 self.freq_chart[word] += 1
 
         # sorting in ascending order by value
-        self.freq_chart = {word: self.freq_chart[word] for word in sorted(self.freq_chart, key=self.freq_chart.get, reverse=True)}
+        sorted_freq_chart = sorted(self.freq_chart, key=self.freq_chart.get, reverse=True)
+        self.freq_chart = {word: self.freq_chart[word] for word in sorted_freq_chart}
 
     def plot_frequency_chart(self):
         words = list(self.freq_chart.keys())[:100]
