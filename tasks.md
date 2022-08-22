@@ -8,6 +8,8 @@ SKIPPING FOR NOW => go over to model training and remove redundancies and add ba
     - go over existing models and review ways to make them more accurate (analyze classification report to see where there is room for improvement)
     - see if can add models to a list and then select model with highest accuracy
 RIGHT NOW => methods in notebooks and bagOfWords
+- make it so that all variables used throughout are declared in the __init__
+
     - add argument types and return type
     - add docstrings
 - add supporting comments throughout notebooks

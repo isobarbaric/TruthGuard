@@ -1,9 +1,9 @@
+from typing import Union
 import nltk
 import string
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from typing import Union
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -12,12 +12,16 @@ from dateutil.parser import parse
 class BagOfWords:
 
     def __init__(self, article_texts: Union[pd.DataFrame, str], name: Union[str, None]):
+        # declaring instance variables using constructor parameters
         if isinstance(article_texts, pd.DataFrame):
             self.article_texts = article_texts['text'].values.tolist()
         else:
-            self.article_texts = article_texts
-            
+            self.article_texts = article_texts      
         self.name = name
+
+        # declaring additional instance variables
+        self.words =  []
+        self.freq_chart = dict()
 
         # method calls
         self.tokenize()
@@ -35,7 +39,6 @@ class BagOfWords:
             self.plot_frequency_chart()
 
     def tokenize(self):
-        self.words = []
         if isinstance(self.article_texts, str):
             for word in word_tokenize(self.article_texts):
                 self.words.append(word)
@@ -52,9 +55,9 @@ class BagOfWords:
         noise = ['...', "n't"]
         def is_time_or_date(word):  
             try:
-                parsed = parse(word)
+                _ = parse(word)
                 return True
-            except:
+            except Exception:
                 return False
 
         def is_link(word):
@@ -65,10 +68,30 @@ class BagOfWords:
             return False
 
         for i in range(len(self.words)-1, -1, -1):
-            if len(self.words[i]) <= 2 or self.words[i].isnumeric() or is_time_or_date(self.words[i]) or self.words[i] in noise or is_link(self.words[i]) or self.words[i] in [letter for letter in string.ascii_lowercase]:
+            word_to_be_removed = False
+
+            if (len(self.words[i])) <= 2:
+                word_to_be_removed = True
+
+            if self.words[i].isnumeric():
+                word_to_be_removed = True
+
+            if is_time_or_date(self.words[i]):
+                word_to_be_removed = True
+
+            if self.words[i] in noise:
+                word_to_be_removed = True
+
+            if is_link(self.words[i]):
+                word_to_be_removed = True
+
+            if self.words[i] in [letter for letter in string.ascii_lowercase]:
+                word_to_be_removed = True
+
+            if word_to_be_removed:
                 self.words.pop(i)
                 continue
-        
+
             # shave punctation off of beginnings and from the end
             start_ind, end_ind = -1, -1
             for j in range(len(self.words[i])):
@@ -113,20 +136,18 @@ class BagOfWords:
                 self.words.pop(i)  
 
     def create_frequency_chart(self):
-        self.freqChart = dict()
-
         for word in self.words:
-            if word not in self.freqChart:
-                self.freqChart[word] = 1
+            if word not in self.freq_chart:
+                self.freq_chart[word] = 1
             else:
-                self.freqChart[word] += 1
+                self.freq_chart[word] += 1
 
         # sorting in ascending order by value
-        self.freqChart = {word: self.freqChart[word] for word in sorted(self.freqChart, key=self.freqChart.get, reverse=True)}
+        self.freq_chart = {word: self.freq_chart[word] for word in sorted(self.freq_chart, key=self.freq_chart.get, reverse=True)}
 
     def plot_frequency_chart(self):
-        words = list(self.freqChart.keys())[:100]
-        frequencies = list(self.freqChart.values())[:100]
+        words = list(self.freq_chart.keys())[:100]
+        frequencies = list(self.freq_chart.values())[:100]
 
         plt.figure(figsize=(20, 5))
         plt.margins(x=0, tight=True)
