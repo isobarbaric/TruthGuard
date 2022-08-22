@@ -12,11 +12,13 @@ from dateutil.parser import parse
 __author__ = 'isobarbaric'
 
 class BagOfWords:
+    """Implementation of a modularized Bag of Words model
+    """
 
     def __init__(self, article_texts: Union[pd.DataFrame, str], name: Union[str, None]) -> None:
-        """constructor for BagOfWords class
+        """Constructor for BagOfWords class
 
-        :param article_texts: a collection of either multiple article texts using a pd.DataFrame (with a column appropriately labelled 'text') or a single article using a str
+        :param article_texts: a collection of either multiple article texts using a pd.DataFrame (with a column appropriately labelled 'text') or a single article (str)
         :type article_texts: Union[pd.DataFrame, str]
         :param name: a unique identifier for the collection of article texts being into the current instance
         :type name: Union[str, None]
@@ -30,31 +32,36 @@ class BagOfWords:
         # setting the name attribute
         self.name = name
 
-        # method calls (address not reassigning and list pass-by-reference thing later)
+        # method calls to appropriately create BoW model (address not reassigning and list pass-by-reference thing later)
         self.words = BagOfWords.tokenize(self.article_texts)
         BagOfWords.to_lower_case(self.words)
         BagOfWords.clean_data(self.words)
         BagOfWords.remove_stop_words(self.words)
-
-        # TODO: normalize seems to be the wrong term here, I mean 'lemmatize', but also review what normalization is just in case
-        BagOfWords.normalize_words(self.words)
-
         self.freq_chart = BagOfWords.create_frequency_chart(self.words)
+        BagOfWords.normalize_words(self.words) # TODO: normalize seems to be the wrong term here, I mean 'lemmatize', but also review what normalization is just in case
 
-        # frequency is only plotted when proper name is provided
+        # only plotting the frequency when a distinguishable name is provided
         if name is not None:
             BagOfWords.plot_frequency_chart(name, self.freq_chart)
 
     @staticmethod
-    def tokenize(textual_content: Union[str, list]) -> list:
+    def tokenize(corpus: Union[str, list]) -> list:
+        """Performs word tokenization of a corpus
+
+        :param textual_content: a single article or multiple articles
+        :type textual_content: Union[str, list]
+        :return: individual words occuring in the article(s)
+        :rtype: list
+        """
+        # creating a list to store the words to be found
         words = []
 
-        # the two separate cases for whether the contents are a single article (str) or multiple articles (pd.DataFrame) are dealt with separately
-        if isinstance(textual_content, str):
-            for word in word_tokenize(textual_content):
-                words.append(word)
+        # separating cases for a single article vs multiple articles
+        if isinstance(corpus, str):
+            words = [word for word in word_tokenize(corpus)]
         else:
-            for article in textual_content:
+            # looping through the articles and tokenizing each one individually
+            for article in corpus:
                 for word in word_tokenize(article):
                     words.append(word)
 
@@ -62,6 +69,11 @@ class BagOfWords:
 
     @staticmethod
     def to_lower_case(words: list[str]) -> None:
+        """Converts each word to its lowercase derivative
+
+        :param words: a vocabulary of words
+        :type words: list[str]
+        """
         for i, _ in enumerate(words):
             words[i] = words[i].lower()
 
@@ -123,11 +135,18 @@ class BagOfWords:
 
             words[i] = words[i][start_ind:end_ind+1]
 
-    def remove_stop_words(words: str) -> None:
+    @staticmethod
+    def remove_stop_words(words: list[str]) -> None:
+        """Removes stop words
+
+        :param words: a vocabulary of words
+        :type words: list[str]
+        """
         for i in range(len(words)-1, -1, -1):
             if words[i] in stopwords.words('english'):
                 words.pop(i)
 
+    @staticmethod
     def normalize_words(words: str) -> None:
         def get_part_of_speech(provided_word: str) -> str:
             _, part_of_speech = nltk.pos_tag([provided_word])[0]
@@ -150,6 +169,7 @@ class BagOfWords:
             if words[i] in [letter for letter in string.ascii_lowercase]:
                 words.pop(i)
 
+    @staticmethod
     def create_frequency_chart(words: str) -> dict:
         freq_chart = {}
         for word in words:
@@ -161,6 +181,7 @@ class BagOfWords:
         sorted_freq_chart = sorted(freq_chart, key=freq_chart.get, reverse=True)
         return {word: freq_chart[word] for word in sorted_freq_chart}
 
+    @staticmethod
     def plot_frequency_chart(name: str, freq_chart: dict):
         words = list(freq_chart.keys())[:100]
         frequencies = list(freq_chart.values())[:100]
