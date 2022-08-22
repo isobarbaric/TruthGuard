@@ -12,6 +12,10 @@ RIGHT NOW => methods in notebooks and bagOfWords
 
     - add argument types and return type
     - add docstrings
+
+make modifications before docstrings
+make final changes to docstrings
+
 - add supporting comments throughout notebooks
 - finish writing write-up and add drawings and visualizations
 - front-end deployment
