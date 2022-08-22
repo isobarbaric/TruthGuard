@@ -2,12 +2,12 @@
 this version is more updated than the google docs one 
 
 next steps:
-- make sure model initialization is good to go
-- go over to model training and remove redundancies and add back models (here rn)
+DONE => make sure model initialization is good to go 
+SKIPPING FOR NOW => go over to model training and remove redundancies and add back models (here rn)
     - look through other models that can be tried out
     - go over existing models and review ways to make them more accurate (analyze classification report to see where there is room for improvement)
     - see if can add models to a list and then select model with highest accuracy
-- methods in notebooks and bagOfWords
+RIGHT NOW => methods in notebooks and bagOfWords
     - add argument types and return type
     - add docstrings
 - add supporting comments throughout notebooks
