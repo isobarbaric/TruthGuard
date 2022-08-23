@@ -1,6 +1,6 @@
 from typing import Union
-import nltk
 import string
+import nltk
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -33,17 +33,17 @@ class BagOfWords:
         # method calls
         self.words = BagOfWords.tokenize(self.article_texts)
         BagOfWords.to_lower_case(self.words)
-        self.clean_data()
-        self.remove_stop_words()
+        BagOfWords.clean_data(self.words)
+        BagOfWords.remove_stop_words(self.words)
 
         # TODO: normalize seems to be the wrong term here, I mean 'lemmatize', but also review what normalization is just in case
-        self.normalize_words()
+        BagOfWords.normalize_words(self.words)
 
-        self.create_frequency_chart()
+        self.freq_chart = BagOfWords.create_frequency_chart(self.words)
 
         # frequency is only plotted when proper name is provided
         if name:
-            self.plot_frequency_chart()
+            BagOfWords.plot_frequency_chart(name, self.freq_chart)
 
     @staticmethod
     def tokenize(corpus: Union[str, list]) -> list:
@@ -74,7 +74,8 @@ class BagOfWords:
         for i in range(len(words)):
             words[i] = words[i].lower()
 
-    def clean_data(self):
+    @staticmethod
+    def clean_data(words):
         noise = ['...', "n't"]
         def is_time_or_date(word):
             try:
@@ -90,38 +91,40 @@ class BagOfWords:
                     return True
             return False
 
-        for i in range(len(self.words)-1, -1, -1):
-            if len(self.words[i]) <= 2 or self.words[i].isnumeric() or is_time_or_date(self.words[i]) or self.words[i] in noise or is_link(self.words[i]) or self.words[i] in [letter for letter in string.ascii_lowercase]:
-                self.words.pop(i)
+        for i in range(len(words)-1, -1, -1):
+            if len(words[i]) <= 2 or words[i].isnumeric() or is_time_or_date(words[i]) or words[i] in noise or is_link(words[i]) or words[i] in [letter for letter in string.ascii_lowercase]:
+                words.pop(i)
                 continue
 
             # shave punctation off of beginnings and from the end
             start_ind, end_ind = -1, -1
-            for j in range(len(self.words[i])):
-                if self.words[i][j] in string.ascii_lowercase or self.words[i][j].isnumeric():
+            for j in range(len(words[i])):
+                if words[i][j] in string.ascii_lowercase or words[i][j].isnumeric():
                     start_ind = j
                     break
-            for j in range(len(self.words[i])-1, -1, -1):
-                if self.words[i][j] in string.ascii_lowercase or self.words[i][j].isnumeric():
+            for j in range(len(words[i])-1, -1, -1):
+                if words[i][j] in string.ascii_lowercase or words[i][j].isnumeric():
                     end_ind = j
                     break
 
-            if (start_ind == 0 and end_ind == len(self.words[i])-1) or start_ind >= end_ind:
+            if (start_ind == 0 and end_ind == len(words[i])-1) or start_ind >= end_ind:
                 continue
 
-            self.words[i] = self.words[i][start_ind:end_ind+1]
+            words[i] = words[i][start_ind:end_ind+1]
 
-    def remove_stop_words(self):
+    @staticmethod
+    def remove_stop_words(words):
         """Removes stop words
 
         :param words: a vocabulary of words
         :type words: list[str]
         """
-        for i in range(len(self.words)-1, -1, -1):
-            if self.words[i] in stopwords.words('english'):
-                self.words.pop(i)
+        for i in range(len(words)-1, -1, -1):
+            if words[i] in stopwords.words('english'):
+                words.pop(i)
 
-    def normalize_words(self):
+    @staticmethod
+    def normalize_words(words):
         def get_part_of_speech(provided_word):
             _, part_of_speech = nltk.pos_tag([provided_word])[0]
             if 'NN' in part_of_speech:
@@ -135,29 +138,30 @@ class BagOfWords:
             return 'n'
 
         lemmatizer = WordNetLemmatizer()
-        for i in range(len(self.words)):
-            self.words[i] = lemmatizer.lemmatize(self.words[i], get_part_of_speech(self.words[i]))
+        for i in range(len(words)):
+            words[i] = lemmatizer.lemmatize(words[i], get_part_of_speech(words[i]))
 
         # perform some data cleaning on lemmatized words
-        for i in range(len(self.words)-1, -1, -1):
-            if self.words[i] in [letter for letter in string.ascii_lowercase]:
-                self.words.pop(i)
+        for i in range(len(words)-1, -1, -1):
+            if words[i] in [letter for letter in string.ascii_lowercase]:
+                words.pop(i)
 
-    def create_frequency_chart(self):
-        self.freqChart = dict()
-
-        for word in self.words:
-            if word not in self.freqChart:
-                self.freqChart[word] = 1
+    @staticmethod
+    def create_frequency_chart(words):
+        freq_chart = {}
+        for word in words:
+            if word not in freq_chart:
+                freq_chart[word] = 1
             else:
-                self.freqChart[word] += 1
-
+                freq_chart[word] += 1
         # sorting in ascending order by value
-        self.freqChart = {word: self.freqChart[word] for word in sorted(self.freqChart, key=self.freqChart.get, reverse=True)}
+        sorted_freq_chart = sorted(freq_chart, key=freq_chart.get, reverse=True)
+        return {word: freq_chart[word] for word in sorted_freq_chart}
 
-    def plot_frequency_chart(self):
-        words = list(self.freqChart.keys())[:100]
-        frequencies = list(self.freqChart.values())[:100]
+    @staticmethod
+    def plot_frequency_chart(name, freq_chart):
+        words = list(freq_chart.keys())[:100]
+        frequencies = list(freq_chart.values())[:100]
 
         plt.figure(figsize=(20, 5))
         plt.margins(x=0, tight=True)
@@ -168,7 +172,7 @@ class BagOfWords:
         plt.tick_params(axis='x', which='major', labelsize=9)
         plt.xticks(rotation = 90)
 
-        plt.ylabel(f"Frequency of Words in {self.name}")
+        plt.ylabel(f"Frequency of Words in {name}")
         plt.title("Frequency Chart")
 
         # loading the plot
