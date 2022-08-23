@@ -15,7 +15,7 @@ class BagOfWords:
     """Implementation of a modularized Bag of Words model
     """
 
-    def __init__(self, article_texts: Union[pd.DataFrame, str], name: Union[str, None]):
+    def __init__(self, article_texts: Union[pd.DataFrame, str], name: Union[str, None]) -> None:
         """Constructor for BagOfWords class
 
         :param article_texts: a collection of either multiple article texts using a pd.DataFrame (with a column appropriately labelled 'text') or a single article (str)
@@ -65,7 +65,7 @@ class BagOfWords:
         return words
 
     @staticmethod
-    def to_lower_case(words):
+    def to_lower_case(words: list) -> None:
         """Converts each word to its lowercase derivative
 
         :param words: a vocabulary of words
@@ -75,16 +75,17 @@ class BagOfWords:
             words[i] = words[i].lower()
 
     @staticmethod
-    def clean_data(words):
+    def clean_data(words: list) -> None:
         noise = ['...', "n't"]
-        def is_time_or_date(word):
+
+        def is_time_or_date(word: str) -> bool:
             try:
                 parsed = parse(word)
                 return True
             except:
                 return False
 
-        def is_link(word):
+        def is_link(word: str) -> bool:
             suffixes = ['.com', '.org', '.edu', '.gov', '.int', '.co', '.net', '.au', '.us', '.uk', '.ne', 'news']
             for suffix in suffixes:
                 if suffix in word:
@@ -113,7 +114,7 @@ class BagOfWords:
             words[i] = words[i][start_ind:end_ind+1]
 
     @staticmethod
-    def remove_stop_words(words):
+    def remove_stop_words(words: list) -> None:
         """Removes stop words
 
         :param words: a vocabulary of words
@@ -124,8 +125,8 @@ class BagOfWords:
                 words.pop(i)
 
     @staticmethod
-    def normalize_words(words):
-        def get_part_of_speech(provided_word):
+    def normalize_words(words: list) -> None:
+        def get_part_of_speech(provided_word: str) -> str:
             _, part_of_speech = nltk.pos_tag([provided_word])[0]
             if 'NN' in part_of_speech:
                 return 'n'
@@ -147,7 +148,7 @@ class BagOfWords:
                 words.pop(i)
 
     @staticmethod
-    def create_frequency_chart(words):
+    def create_frequency_chart(words: list) -> dict:
         freq_chart = {}
         for word in words:
             if word not in freq_chart:
@@ -159,7 +160,7 @@ class BagOfWords:
         return {word: freq_chart[word] for word in sorted_freq_chart}
 
     @staticmethod
-    def plot_frequency_chart(name, freq_chart):
+    def plot_frequency_chart(name: str, freq_chart: dict) -> None:
         words = list(freq_chart.keys())[:100]
         frequencies = list(freq_chart.values())[:100]
 
