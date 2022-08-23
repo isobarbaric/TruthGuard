@@ -52,3 +52,5 @@ to do:
 add data types and return types to functions in notebooks
 
 remove 'text' from article dictionary in data_acquitision (make sure testing works for data_processing in the future)
+
+add headers in 
