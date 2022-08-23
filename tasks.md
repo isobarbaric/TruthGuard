@@ -49,4 +49,6 @@ to do:
 => add docstrings, comments to notebook and bag_of_words
 => 
 
+add data types and return types to functions in notebooks
+
 remove 'text' from article dictionary in data_acquitision (make sure testing works for data_processing in the future)
