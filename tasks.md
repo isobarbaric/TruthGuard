@@ -49,8 +49,19 @@ to do:
 => add docstrings, comments to notebook and bag_of_words
 => 
 
-add data types and return types to functions in notebooks
 
-remove 'text' from article dictionary in data_acquitision (make sure testing works for data_processing in the future)
+1. finalizing sections
+- headers
+- comments
+- add data types and return types to functions in notebooks
+2. one-off specific changes
+- model initialization's triangle graph thing is a bit weird
+- clean up model_training near the end
+- model training is a raccoon
+3. consistency
+- overall ordering should be clear
+- coloring of graphs
 
-add headers in 
+then, write-up
+
+and then finally, deployment
