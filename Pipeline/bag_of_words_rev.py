@@ -31,8 +31,8 @@ class BagOfWords:
         self.name = name
 
         # method calls
-        self.tokenize()
-        self.to_lower_case()
+        self.words = BagOfWords.tokenize(self.article_texts)
+        BagOfWords.to_lower_case(self.words)
         self.clean_data()
         self.remove_stop_words()
 
@@ -45,31 +45,34 @@ class BagOfWords:
         if name:
             self.plot_frequency_chart()
 
-    def tokenize(self):
+    @staticmethod
+    def tokenize(corpus: Union[str, list]) -> list:
         """Performs word tokenization of a corpus
 
-        :param textual_content: a single article or multiple articles
+        :param corpus: a single article or multiple articles
         :type textual_content: Union[str, list]
         :return: individual words occuring in the article(s)
         :rtype: list
         """
-        self.words = []
-        if isinstance(self.article_texts, str):
-            for word in word_tokenize(self.article_texts):
-                self.words.append(word)
+        words = []
+        if isinstance(corpus, str):
+            for word in word_tokenize(corpus):
+                words.append(word)
         else:
-            for article in self.article_texts:
+            for article in corpus:
                 for word in word_tokenize(article):
-                    self.words.append(word)
+                    words.append(word)
+        return words
 
-    def to_lower_case(self):
+    @staticmethod
+    def to_lower_case(words):
         """Converts each word to its lowercase derivative
 
         :param words: a vocabulary of words
         :type words: list[str]
         """
-        for i in range(len(self.words)):
-            self.words[i] = self.words[i].lower()
+        for i in range(len(words)):
+            words[i] = words[i].lower()
 
     def clean_data(self):
         noise = ['...', "n't"]
