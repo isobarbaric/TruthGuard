@@ -44,3 +44,9 @@ issues:
 
 to add:
 - consider adding sklearn make_pipeline in the midst
+
+to do:
+=> add docstrings, comments to notebook and bag_of_words
+=> 
+
+remove 'text' from article dictionary in data_acquitision (make sure testing works for data_processing in the future)

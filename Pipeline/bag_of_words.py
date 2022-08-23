@@ -23,25 +23,25 @@ class BagOfWords:
         :param name: a unique identifier for the collection of article texts being into the current instance
         :type name: Union[str, None]
         """
+
+        # setting the article_texts attribute with a check for the two possible data types outlined in the constructor
         if isinstance(article_texts, pd.DataFrame):
             self.article_texts = article_texts['text'].values.tolist()
         else:
             self.article_texts = article_texts
 
+        # setting the name attribute
         self.name = name
 
-        # method calls
+        # method calls to appropriately create BoW model (address not reassigning and list pass-by-reference thing later)
         self.words = BagOfWords.tokenize(self.article_texts)
         BagOfWords.to_lower_case(self.words)
         BagOfWords.clean_data(self.words)
         BagOfWords.remove_stop_words(self.words)
-
-        # TODO: normalize seems to be the wrong term here, I mean 'lemmatize', but also review what normalization is just in case
-        BagOfWords.normalize_words(self.words)
-
+        BagOfWords.lemmatize_words(self.words)
         self.freq_chart = BagOfWords.create_frequency_chart(self.words)
 
-        # frequency is only plotted when proper name is provided
+        # only plotting the frequency when a distinguishable name is provided
         if name:
             BagOfWords.plot_frequency_chart(name, self.freq_chart)
 
@@ -54,11 +54,16 @@ class BagOfWords:
         :return: individual words occuring in the article(s)
         :rtype: list
         """
+
+        # creating a list to store the words to be found
         words = []
+
+        # separating cases for a single article vs multiple articles
         if isinstance(corpus, str):
             for word in word_tokenize(corpus):
                 words.append(word)
         else:
+            # looping through the articles and tokenizing each one individually
             for article in corpus:
                 for word in word_tokenize(article):
                     words.append(word)
@@ -71,29 +76,54 @@ class BagOfWords:
         :param words: a vocabulary of words
         :type words: list[str]
         """
+
         for i in range(len(words)):
             words[i] = words[i].lower()
 
     @staticmethod
     def clean_data(words: list) -> None:
+        """Performs text cleaning by removing links, times, dates, and prefix & suffix punctuation
+
+        :param words: a vocabulary of words to be cleaned up
+        :type words: list
+        """
+
         noise = ['...', "n't"]
 
-        def is_time_or_date(word: str) -> bool:
+        def __is_time_or_date(word: str) -> bool:
+            """Determines whether a string is either a time or date
+
+            :param word: string containing word to be validated
+            :type word: str
+            :return: if the word is a time or date
+            :rtype: bool
+            """
             try:
-                parsed = parse(word)
+                _ = parse(word)
                 return True
-            except:
+            except Exception:
                 return False
 
-        def is_link(word: str) -> bool:
+        def __is_link(word: str) -> bool:
+            """Determines whether a string is a link
+
+            :param word: string containing word to be validated
+            :type word: str
+            :return: if the word is a link
+            :rtype: bool
+            """
+            # a list containing common domains
             suffixes = ['.com', '.org', '.edu', '.gov', '.int', '.co', '.net', '.au', '.us', '.uk', '.ne', 'news']
+
+            # looping over domains to verify if any of them exist in the word
             for suffix in suffixes:
                 if suffix in word:
                     return True
             return False
 
+        # looping over words to see if any words (a) should be removed or (b) require trimming of a certain prefix and suffix
         for i in range(len(words)-1, -1, -1):
-            if len(words[i]) <= 2 or words[i].isnumeric() or is_time_or_date(words[i]) or words[i] in noise or is_link(words[i]) or words[i] in [letter for letter in string.ascii_lowercase]:
+            if len(words[i]) <= 2 or words[i].isnumeric() or __is_time_or_date(words[i]) or words[i] in noise or __is_link(words[i]) or words[i] in [letter for letter in string.ascii_lowercase]:
                 words.pop(i)
                 continue
 
@@ -108,26 +138,47 @@ class BagOfWords:
                     end_ind = j
                     break
 
+            # checking for invalid situation
             if (start_ind == 0 and end_ind == len(words[i])-1) or start_ind >= end_ind:
                 continue
 
+            # trimming the current word down
             words[i] = words[i][start_ind:end_ind+1]
 
     @staticmethod
     def remove_stop_words(words: list) -> None:
         """Removes stop words
 
-        :param words: a vocabulary of words
+        :param words: a vocabulary of words containing stop words
         :type words: list[str]
         """
+
+        # looping in reverse to delete elements
         for i in range(len(words)-1, -1, -1):
-            if words[i] in stopwords.words('english'):
+            if words[i] in set(stopwords.words('english')):
                 words.pop(i)
 
     @staticmethod
-    def normalize_words(words: list) -> None:
-        def get_part_of_speech(provided_word: str) -> str:
+    def lemmatize_words(words: list) -> None:
+        """Performs lemmatization with nltk's WordNetLemmatizer()
+
+        :param words: a vocabulary of words to individually be lemmatized
+        :type words: list
+        """
+
+        def __get_part_of_speech(provided_word: str) -> str:
+            """Determine the part of speech for a word
+
+            :param provided_word: word whose part of speech is to be determined
+            :type provided_word: str
+            :return: a single character code denoting the part of speech (as per the lemmatizer's format)
+            :rtype: str
+            """
+
+            # determining the part of speech for the provided word
             _, part_of_speech = nltk.pos_tag([provided_word])[0]
+
+            # returning specific case-wise character codes based on the lemmatizer's specifications
             if 'NN' in part_of_speech:
                 return 'n'
             if 'VB' in part_of_speech:
@@ -138,9 +189,12 @@ class BagOfWords:
                 return 'r'
             return 'n'
 
+        # initializing a lemmatizater
         lemmatizer = WordNetLemmatizer()
+
+        # looping over the words and reassigning their lemmatized version
         for i in range(len(words)):
-            words[i] = lemmatizer.lemmatize(words[i], get_part_of_speech(words[i]))
+            words[i] = lemmatizer.lemmatize(words[i], __get_part_of_speech(words[i]))
 
         # perform some data cleaning on lemmatized words
         for i in range(len(words)-1, -1, -1):
@@ -149,30 +203,54 @@ class BagOfWords:
 
     @staticmethod
     def create_frequency_chart(words: list) -> dict:
+        """Creates a frequency chart for a vocabulary of words
+
+        :param words: a vocabulary of words
+        :type words: list
+        :return: a dictionary containing key-value pairs denoting word and frequency
+        :rtype: dict
+        """
+
+        # creating a dictionary to store count for each word
         freq_chart = {}
+
+        # looping over the words to add them to the dictionary
         for word in words:
+            # case-wise evaluation of necessary increment
             if word not in freq_chart:
                 freq_chart[word] = 1
             else:
                 freq_chart[word] += 1
-        # sorting in ascending order by value
+
+        # converting to list and sorting in ascending order by value
         sorted_freq_chart = sorted(freq_chart, key=freq_chart.get, reverse=True)
+
+        # tranforming the sorted list back to a dictionary
         return {word: freq_chart[word] for word in sorted_freq_chart}
 
     @staticmethod
     def plot_frequency_chart(name: str, freq_chart: dict) -> None:
+        """Plots frequency chart based on word frequency
+
+        :param name: the header to be displayed for the plotting
+        :type name: str
+        :param freq_chart: a dictionary containing key-value pairs in the form: (word, frequency)
+        :type freq_chart: dict
+        """
+
+        # picking apart the keys and values from the provided dictionary
         words = list(freq_chart.keys())[:100]
         frequencies = list(freq_chart.values())[:100]
 
+        # modifying the settings for the plot
         plt.figure(figsize=(20, 5))
         plt.margins(x=0, tight=True)
         plt.bar(words, frequencies, color ='green')
-
-        # setting title and labels
-        plt.xlabel("Distinct Words")
         plt.tick_params(axis='x', which='major', labelsize=9)
         plt.xticks(rotation = 90)
 
+        # setting title and labels
+        plt.xlabel("Distinct Words")
         plt.ylabel(f"Frequency of Words in {name}")
         plt.title("Frequency Chart")
 
