@@ -30,9 +30,6 @@ def build_predict_dataframe(test_content: str) -> pd.DataFrame:
         cols[word] = [current_test.freq_chart[word] if word in current_test.freq_chart else 0]
     return pd.DataFrame(data = cols)
 
-# what do you want to return -> what information do you need
-# prediction probabilties
-
 class predictions(Resource):
     def get(self, link):
         current_article = Article(link)
@@ -43,9 +40,20 @@ class predictions(Resource):
 
             df = build_predict_dataframe(current_article.text)
         except Exception as e:
-            return {"Error": str(e)}
+            return {'article_link': link, 'error': str(e)}
 
-        return {'article_link': link, 'prediction': model.predict(df)[0], 'confidence_level': model.predict_proba(df)[0].tolist()}
+        prediction_number = model.predict(df)[0]
+        if prediction_number == 0:
+            prediction = 'conspiracy/pseudoscience'
+        else:
+            prediction = 'pro-science'
+        confidence_level = model.predict_proba(df)[0].tolist()
+        confidence_level = {
+            'pro-science': confidence_level[1],
+            'conspiracy/pseudoscience': confidence_level[0]
+        }
+
+        return {'article_link': link, 'prediction': prediction, 'confidence_level': confidence_level}
 
 api.add_resource(predictions, '/pred/<path:link>')
 
