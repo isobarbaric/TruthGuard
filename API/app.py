@@ -40,20 +40,22 @@ class predictions(Resource):
 
             df = build_predict_dataframe(current_article.text)
         except Exception as e:
-            return {'article_link': link, 'error': str(e)}
+            return {'article_link': link, 'error': str(e)}, 400
 
         prediction_number = model.predict(df)[0]
         if prediction_number == 0:
             prediction = 'conspiracy/pseudoscience'
         else:
             prediction = 'pro-science'
+
         confidence_level = model.predict_proba(df)[0].tolist()
+
         confidence_level = {
             'pro-science': confidence_level[1],
             'conspiracy/pseudoscience': confidence_level[0]
         }
 
-        return {'article_link': link, 'prediction': prediction, 'confidence_level': confidence_level}
+        return {'article_link': link, 'prediction': prediction, 'confidence_level': confidence_level}, 200
 
 api.add_resource(predictions, '/pred/<path:link>')
 
