@@ -1,7 +1,7 @@
 
 from flask import Flask
 
-app = Flask(__name__, template_folder='Website/templates')
+app = Flask(__name__, template_folder='Website/templates', static_folder='Website/static')
 
 import API.api
 import Website.website
