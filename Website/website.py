@@ -1,7 +1,7 @@
 
-from flask import Flask, render_template, request, redirect, url_for
+from __main__ import app
 
-app = Flask(__name__)
+from flask import Flask, render_template, request, redirect, url_for
 
 @app.route('/', methods=['GET', 'POST'])
 def home_page():
@@ -11,6 +11,3 @@ def home_page():
         return render_template("result.html", text_content = request.form.get('query'))
     else:
         return render_template("index.html")
-
-if __name__ == "__main__":
-    app.run(debug=True)
