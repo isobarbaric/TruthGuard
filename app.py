@@ -1,10 +1,13 @@
 
 from flask import Flask
 
-app = Flask(__name__, template_folder='Website/templates', static_folder='Website/static')
+app = Flask(__name__)
 
-import API.api
-import Website.website
+from API.api import api_blueprint
+from Website.website import website_blueprint
+
+app.register_blueprint(api_blueprint)
+app.register_blueprint(website_blueprint)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()

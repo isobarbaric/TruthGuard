@@ -1,9 +1,15 @@
 
-from __main__ import app
+from flask import render_template, request, Blueprint
 
-from flask import Flask, render_template, request, redirect, url_for
+website_blueprint = Blueprint(
+    'website',
+    __name__,
+    template_folder='templates',
+    static_folder='static',
+    static_url_path='/home-static'
+)
 
-@app.route('/', methods=['GET', 'POST'])
+@website_blueprint.route('/', methods=['GET', 'POST'])
 def home_page():
     if request.method == 'POST':
         print(request.form.get('query'))

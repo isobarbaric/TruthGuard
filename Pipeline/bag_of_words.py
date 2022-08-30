@@ -9,6 +9,12 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from dateutil.parser import parse
 
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 __author__ = 'isobarbaric'
 
 class BagOfWords:

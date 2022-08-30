@@ -1,8 +1,5 @@
 
-from __main__ import app
-
-from flask import Flask
-from flask_restful import Api, Resource
+from flask import jsonify, Blueprint
 from newspaper import Article
 
 import pandas as pd
@@ -29,7 +26,9 @@ def build_predict_dataframe(test_content: str) -> pd.DataFrame:
         cols[word] = [current_test.freq_chart[word] if word in current_test.freq_chart else 0]
     return pd.DataFrame(data = cols)
 
-@app.route('/API/<path:link>', methods=['GET'])
+api_blueprint = Blueprint('API', __name__)
+
+@api_blueprint.route('/API/<path:link>', methods=['GET'])
 def predict(link):
     current_article = Article(link)
 
@@ -54,6 +53,6 @@ def predict(link):
         'conspiracy/pseudoscience': confidence_level[0]
     }
 
-    return {'article_link': link, 'prediction': prediction, 'confidence_level': confidence_level}, 200
-
-
+    return jsonify({'article_link': link,
+            'prediction': prediction,
+            'confidence_level': confidence_level}), 200
