@@ -1,0 +1,22 @@
+{
+    "name": "COVID-19 News Classifier",
+    "description": "write description here",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+                "script.js", "chart.min.js", "chartjs-plugin-datalabels@2.0.js"
+            ],
+            "css": ["styles.css"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "stats on the current article"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
