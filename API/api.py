@@ -18,7 +18,7 @@ with open('API/model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 def build_predict_dataframe(test_content: str) -> pd.DataFrame:
-    with open('Data/model/relevant_words.json') as f:
+    with open("'ML Pipeline'/Data/model/relevant_words.json") as f:
         relevant_words = json.loads(f.read())
     current_test = BagOfWords(test_content, None)
     cols = {}
