@@ -2,8 +2,6 @@
 chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
     let url = tabs[0].url;
 
-    console.log(url);
-
     const url_display = document.getElementById('article-url');
     url_display.textContent = url;
 
