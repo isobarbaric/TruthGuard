@@ -10,7 +10,7 @@ import os
 import sys
 
 # adding extra file path to get accesss to bag of words class
-sys.path.append(os.path.abspath(os.getcwd() + "/Pipeline"))
+sys.path.append(os.path.abspath(os.getcwd() + "/ML Pipeline"))
 
 from bag_of_words import BagOfWords
 
