@@ -47,50 +47,40 @@
             Provide textual content to the model (either through a URL to a news article or just raw text) and a prediction for whether or the content is scientific or conspiracy-related will be generated!
         </div> -->
         <div class='container m-5 mt-0'>
-            <nav>
-                <!-- two tabs -->
-                <ul class="nav nav-tabs" id="myTab">
-                    <li class="nav-item">
-                        <button class="nav-link active" id="link-tab" data-bs-toggle="tab" data-bs-target="#link" type="button" aria-controls="link" aria-selected="true">
-                            by Link
-                        </button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="nav-link" id="text-tab" data-bs-toggle="tab" data-bs-target="#text" type="button" aria-controls="text" aria-selected="false">
-                            by Text
-                        </button>
-                    </li>
-                </ul>
-                <!-- content underneath both tabs -->
-                <div class="tab-content">
-                    <div class='container m-5'>
-                        <div class="tab-pane fade show active" id="link" aria-labelledby="link-tab">
-                        <form action="/" method="POST">
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">via article link</span>
-                                </div>
-                                <input type="text" class="form-control" placeholder="Enter URL here" aria-label="article-link" aria-describedby="basic-addon1">
-                                <button type="button" class="btn btn-primary">Submit</button>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="link-tab" data-bs-toggle="tab" data-bs-target="#link" type="button" role="tab" aria-controls="link" aria-selected="true">by Link</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="text-tab" data-bs-toggle="tab" data-bs-target="#text" type="button" role="tab" aria-controls="text" aria-selected="false">by Text</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="link" role="tabpanel" aria-labelledby="link-tab">
+                    <br>
+                    <form action="/" method="POST">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">via article link</span>
                             </div>
-                        </form>
+                            <input type="text" class="form-control" placeholder="Enter URL here" aria-label="article-link" aria-describedby="basic-addon1">
+                            <button type="button" class="btn btn-primary">Submit</button>
                         </div>
-                    </div>
-                    <div class='container m-5 form-group'>
-                        <div class="tab-pane fade" id="text" aria-labelledby="text-tab">
-                        <form action="/" method="POST">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                <span class="input-group-text">via raw text</span>
-                                </div>
-                                    <textarea class="form-control" placeholder="Enter content here" rows="15" style='resize: none;'></textarea>
-                                    <button type="button" class="btn btn-primary">Submit</button>
-                            </div>
-                        </form>
-                        </div>
-                    </div>
+                    </form>
                 </div>
-            </nav>
+                <div class="tab-pane fade" id="text" role="tabpanel" aria-labelledby="text-tab">
+                    <br>
+                    <form action="/" method="POST">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text">via raw text</span>
+                            </div>
+                                <textarea class="form-control" placeholder="Enter content here" rows="15" style='resize: none;'></textarea>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
         <div class='container m-5' id='output-area'>
 
