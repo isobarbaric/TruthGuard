@@ -23,7 +23,8 @@ website_blueprint = Blueprint(
 )
 
 def build_predict_dataframe(text_content):
-    with open('ML Pipeline/Data/model/relevant_words.json') as f:
+    # TODO: add relevant words in model_training
+    with open('relevant_words.json') as f:
         relevant_words = json.loads(f.read())
 
     current_test = BagOfWords(text_content, None)
@@ -51,8 +52,8 @@ def predict(article_body):
     confidence_level = model.predict_proba(df)[0].tolist()
 
     confidence_level = {
-        'pro-science': confidence_level[1],
-        'conspiracy/pseudoscience': confidence_level[0]
+        'pro-science': round(confidence_level[1]*100, 2),
+        'conspiracy/pseudoscience': round(confidence_level[0]*100, 2)
     }
 
     return {'prediction': prediction,

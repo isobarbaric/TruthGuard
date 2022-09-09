@@ -1,124 +1,30 @@
 {% extends "index.html" %}
 
 {% block results %}
-    {{pred['prediction']}}
 
     <div class='container p-2 m-0'>
-
-        <!-- adding chart.js -->
-        <script src="{{ url_for('static', filename='chart.min.js') }}"></script>
-        <script src="{{ url_for('static',filename='chartjs-plugin-datalabels@2.0.js') }}"></script>
-
-        <div>
-            <table class="table table-bordered w-25 bg-light">
-                <tr>
-                    <td colspan='2'>
-                        Article URL:
-                        <span class='align-middle text-center' id='article-url' style="font-size: 10px;">{{pred['article_link']}}</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td rowspan='2'>
-                        <div style="height: 10em; width: 15em;">
-                            <canvas id="donut"></canvas>
-                        </div>
-                    </td>
-                    <th class="col align-middle text-center h5" style="font-weight: normal;">
-                        <u>Prediction:</u>
-                    </td>
-                </tr>
-                <tr>
-                    <td class='align-middle text-center h5' style="min-width: 15em;" id='prediction'>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <script>
-            function drawChart(confidence_percentages) {
-                // Chart.defaults.color = "#000";
-
-                const context = document.getElementById('donut');
-
-                const data = {
-                    labels: [
-                        'pro-science',
-                        'conspiracy/pseudoscience'
-                    ],
-                    datasets: [{
-                        // label: 'My First Dataset',
-                        data: [
-                            confidence_percentages['pro-science'] * 100,
-                            confidence_percentages['conspiracy/pseudoscience'] * 100
-                        ],
-                        backgroundColor: [
-                            'rgb(0, 153, 76)',
-                            'rgb(204, 0, 0)'
-                        ],
-                        hoverOffset: 3
-                    }]
-                };
-
-                const config = {
-                    type: 'pie',
-                    data: data,
-                    options: {
-                        maintainAspectRatio: false,
-                        // rotation: 270,
-                        // circumference: 180,
-                        rotation: 0,
-                        circumference: 360,
-                        legend: {
-                            position: 'bottom'
-                        },
-                        plugins: {
-                            // datalabels: {
-                            //     formatter: (value, ctx) => {
-                            //         let sum = ctx.dataset._meta[0].total;
-                            //         let percentage = (value * 100 / sum).toFixed(2) + "%";
-                            //         return percentage;
-                            //     },
-                            //     color: '#fff'
-                            // }
-                            datalabels: {
-                                formatter: (value, ctx) => {
-                                let datasets = ctx.chart.data.datasets;
-                                if (datasets.indexOf(ctx.dataset) === datasets.length - 1) {
-                                    let sum = datasets[0].data.reduce((a, b) => a + b, 0);
-                                    let percentage = Math.round((value / sum) * 100) + '%';
-                                    return percentage;
-                                } else {
-                                    return percentage;
-                                }
-                                },
-                                color: '#fff',
-                            }
-                        }
-                    }
-                };
-
-                const canvas_req = new Chart(context, config);
-            }
-
-            async function typePrediction(content) {
-                const delay = millis => new Promise((resolve, reject) => {
-                    setTimeout(_ => resolve(), millis)
-                });
-
-                window.addEventListener("load", typing(content, 0));
-
-                async function typing(content, ptr) {
-                    if (ptr == content.length) {
-                        return ''
-                    }
-                    document.getElementById('prediction').innerHTML += content.charAt(ptr);
-                    await delay(120);
-                    typing(content, ptr+1);
-                }
-            }
-        </script>
-        <script>
-            drawChart({{pred['confidence_level']}});
-            typePrediction({{pred['prediction']}});
-        </script>
+        <table class="table table-bordered w-50 table-striped">
+            <tr>
+                <td colspan='2'>
+                    Article URL:
+                    <span class='align-middle text-center' id='article-url' style="font-size: 10px;">{{pred['article_link']}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    prediction:
+                    <br>
+                    {{pred['prediction']}}
+                </td>
+                <td>
+                    {{pred['pro-science']}}%  pro-science
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {{pred['conspiracy/pseudoscience']}}%  conspiracy/pseudoscience
+                </td>
+            </tr>
+        </table>
     </div>
 {% endblock %}
