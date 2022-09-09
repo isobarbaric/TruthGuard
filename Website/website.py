@@ -23,7 +23,7 @@ website_blueprint = Blueprint(
 )
 
 def build_predict_dataframe(text_content):
-    with open('../ML Pipeline/Data/model/relevant_words.json') as f:
+    with open('ML Pipeline/Data/model/relevant_words.json') as f:
         relevant_words = json.loads(f.read())
 
     current_test = BagOfWords(text_content, None)
