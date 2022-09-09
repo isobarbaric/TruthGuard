@@ -10,4 +10,4 @@ app.register_blueprint(api_blueprint)
 app.register_blueprint(website_blueprint)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)

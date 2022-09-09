@@ -63,8 +63,8 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">via article link</span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Enter URL here" aria-label="article-link" aria-describedby="basic-addon1">
-                            <button type="button" class="btn btn-primary">Submit</button>
+                            <input type="text" class="form-control" placeholder="Enter URL here" aria-label="article-link" aria-describedby="basic-addon1" name="article-link">
+                            <input type="submit" class="btn btn-primary"></input>
                         </div>
                     </form>
                 </div>
@@ -73,11 +73,17 @@
                     <form action="/" method="POST">
                         <div class="input-group">
                             <div class="input-group-prepend">
-                            <span class="input-group-text">via raw text</span>
+                                <span class="input-group-text">via raw text</span>
                             </div>
-                                <textarea class="form-control" placeholder="Enter content here" rows="15" style='resize: none;'></textarea>
-                                <button type="button" class="btn btn-primary">Submit</button>
+                            <textarea class="form-control" placeholder="Enter content here" rows="15" style='resize: none;'
+                            name='article-text'
+                            ></textarea>
+                            <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+                            <!-- <button type="button" class="btn btn-primary btn-lg btn-block">Submit</button> -->
+                            <!-- <button type="button" class="btn btn-primary btn-lg">Large button</button> -->
                         </div>
+                        <br>
+                        <input type="submit" class="btn btn-primary btn-lg btn-block center"></input>
                     </form>
                 </div>
             </div>
