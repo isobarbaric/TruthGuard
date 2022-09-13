@@ -1,3 +1,3 @@
 # COVID19-Classifier
 
-detailed README coming soon!
+detailed README coming soon! :rocket:
