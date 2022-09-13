@@ -15,11 +15,13 @@ nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
-__author__ = 'isobarbaric'
-
 class BagOfWords:
-    """Implementation of a modularized Bag of Words model
+    """Implementation of a modular Bag of Words model
     """
+
+    __author__ = 'isobarbaric'
+    __version_info__ = (1, 0, 0)
+    __version__ = '.'.join(str(k) for k in __version_info__)
 
     def __init__(self, article_texts: Union[pd.DataFrame, str], name: Union[str, None]) -> None:
         """Constructor for BagOfWords class
@@ -48,7 +50,7 @@ class BagOfWords:
         self.freq_chart = BagOfWords.create_frequency_chart(self.words)
 
         # only plotting the frequency when a distinguishable name is provided
-        if name:
+        if name is not None:
             BagOfWords.plot_frequency_chart(name, self.freq_chart)
 
     @staticmethod
@@ -130,10 +132,12 @@ class BagOfWords:
         # looping over words to see if any words (a) should be removed or (b) require trimming of a certain prefix and suffix
         for i in range(len(words)-1, -1, -1):
             if len(words[i]) <= 2 or words[i].isnumeric() or __is_time_or_date(words[i]) or words[i] in noise or __is_link(words[i]) or words[i] in [letter for letter in string.ascii_lowercase]:
+                # TODO: change the last line to set(string.ascii_lowercase)
                 words.pop(i)
                 continue
 
             # shave punctation off of beginnings and from the end
+            # TODO: change two checks into their own function to make code shorter
             start_ind, end_ind = -1, -1
             for j in range(len(words[i])):
                 if words[i][j] in string.ascii_lowercase or words[i][j].isnumeric():
@@ -205,6 +209,7 @@ class BagOfWords:
         # perform some data cleaning on lemmatized words
         for i in range(len(words)-1, -1, -1):
             if words[i] in [letter for letter in string.ascii_lowercase]:
+                # TODO: replace this with set(string.ascii_lowercase) to get faster results
                 words.pop(i)
 
     @staticmethod

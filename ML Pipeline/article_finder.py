@@ -77,7 +77,7 @@ class ArticleFinder:
     def __finder(self) -> list:
         """Finds articles when given
 
-        :return: a list of article objects (dict)
+        :return: a list of article objects
         :rtype: list
         """
         # create a variable to store the base path to avoid subsequent duplication 
