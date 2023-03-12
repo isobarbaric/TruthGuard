@@ -1,12 +1,26 @@
 # COVID19-Classifier
 
-// add table of contents
+- [COVID19-Classifier](#covid19-classifier)
+  - [Methodology](#methodology)
+    - [Data Acquisition](#data-acquisition)
+    - [Data Processing](#data-processing)
+  - [Aside: Bag of Words Model](#aside-bag-of-words-model)
+  - [Aside (cont.): Choice of Words for Bag of Words Model](#aside-cont-choice-of-words-for-bag-of-words-model)
+  - [Model Training](#model-training)
+  - [Results](#results)
+  - [Tools Used](#tools-used)
+    - [Standard Tools](#standard-tools)
+    - [Additional Tools](#additional-tools)
+  - [Conclusion](#conclusion)
+    - [Implications](#implications)
+    - [Next Steps](#next-steps)
 
 ## Methodology
 
 ![Pipeline Steps](images/methodology.png)
 
-<div align="center">pipeline steps</div>
+<div align="center">fig 1. pipeline steps</div>
+<br>
 
 ### Data Acquisition
 
@@ -59,7 +73,8 @@ Now that all of the data has been thoroughly processed, the final step towards t
 ## Aside (cont.): Choice of Words for Bag of Words Model
 
 ![sample word distribution](images/freq_chart1.png)
-<div align="center">pipeline steps</div>
+<div align="center">fig 2. pipeline steps</div>
+<br>
 
 The relevance score for a particular word is defined as follows:
 
@@ -70,9 +85,12 @@ Based on this heuristic, all of the words that are common to both BagOfWords obj
 To demonstrate such a process, below is a sample plot of what this looks like:
 
 ![sample relevance plot](images/freq_chart2.png)
-<div align="center">pipeline steps</div>
+<div align="center">fig 3. pipeline steps</div>
+<br>
 
-# Results
+## Model Training
+
+## Results
 
 <table>
     <thead>
