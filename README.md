@@ -1,5 +1,7 @@
 # COVID19-Classifier
 
+<h2>Table of Contents</h2>
+
 - [COVID19-Classifier](#covid19-classifier)
   - [Methodology](#methodology)
     - [Data Acquisition](#data-acquisition)
