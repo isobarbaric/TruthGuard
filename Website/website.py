@@ -1,11 +1,9 @@
 
-from distutils.command.build import build
-from flask import render_template, request, Blueprint
-
 import json
 import sys
 import os
 import requests
+from flask import render_template, request, Blueprint
 import pandas as pd
 import pickle
 
