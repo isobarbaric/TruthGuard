@@ -12,6 +12,7 @@ numpy = "^1.26.2"
 requests = "^2.31.0"
 bs4 = "^0.0.1"
 lxml = "^4.9.4"
+newspaper3k = "^0.2.8"
 
 
 [tool.poetry.group.dev.dependencies]
