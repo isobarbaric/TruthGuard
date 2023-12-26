@@ -20,10 +20,10 @@ class ArticleFinder:
 
         # read webpages from data directory
         if article_type == "science":
-            with open('data/extract_websites/science.json') as file:
+            with open('data/website_metadata/science.json') as file:
                 sites = json.load(file)
         else:
-            with open('data/extract_websites/conspiracy.json') as file:
+            with open('data/website_metadata/conspiracy.json') as file:
                 sites = json.load(file)
 
         pages = []

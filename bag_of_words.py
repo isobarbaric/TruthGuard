@@ -47,11 +47,11 @@ class BagOfWords:
         BagOfWords.clean_data(self.words)
         BagOfWords.remove_stop_words(self.words)
         BagOfWords.lemmatize_words(self.words)
-        self.freq_chart = BagOfWords.create_frequency_chart(self.words)
+        # self.freq_chart = BagOfWords.create_frequency_chart(self.words)
 
         # only plotting the frequency when a distinguishable name is provided
-        if name is not None:
-            BagOfWords.plot_frequency_chart(name, self.freq_chart)
+        # if name is not None:
+        #     BagOfWords.plot_frequency_chart(name, self.freq_chart)
 
     @staticmethod
     def tokenize(corpus: Union[str, list]) -> list:
@@ -211,59 +211,3 @@ class BagOfWords:
             if words[i] in [letter for letter in string.ascii_lowercase]:
                 # TODO: replace this with set(string.ascii_lowercase) to get faster results
                 words.pop(i)
-
-    @staticmethod
-    def create_frequency_chart(words: list) -> dict:
-        """Creates a frequency chart for a vocabulary of words
-
-        :param words: a vocabulary of words
-        :type words: list
-        :return: a dictionary containing key-value pairs denoting word and frequency
-        :rtype: dict
-        """
-
-        # creating a dictionary to store count for each word
-        freq_chart = {}
-
-        # looping over the words to add them to the dictionary
-        for word in words:
-            # case-wise evaluation of necessary increment
-            if word not in freq_chart:
-                freq_chart[word] = 1
-            else:
-                freq_chart[word] += 1
-
-        # converting to list and sorting in ascending order by value
-        sorted_freq_chart = sorted(freq_chart, key=freq_chart.get, reverse=True)
-
-        # tranforming the sorted list back to a dictionary
-        return {word: freq_chart[word] for word in sorted_freq_chart}
-
-    @staticmethod
-    def plot_frequency_chart(name: str, freq_chart: dict) -> None:
-        """Plots frequency chart based on word frequency
-
-        :param name: the header to be displayed for the plotting
-        :type name: str
-        :param freq_chart: a dictionary containing key-value pairs in the form: (word, frequency)
-        :type freq_chart: dict
-        """
-
-        # picking apart the keys and values from the provided dictionary
-        words = list(freq_chart.keys())[:100]
-        frequencies = list(freq_chart.values())[:100]
-
-        # modifying the settings for the plot
-        plt.figure(figsize=(20, 5))
-        plt.margins(x=0, tight=True)
-        plt.bar(words, frequencies, color ='green')
-        plt.tick_params(axis='x', which='major', labelsize=9)
-        plt.xticks(rotation = 90)
-
-        # setting title and labels
-        plt.xlabel("Distinct Words")
-        plt.ylabel(f"Frequency of Words in {name}")
-        plt.title("Frequency Chart")
-
-        # loading the plot
-        plt.show()
