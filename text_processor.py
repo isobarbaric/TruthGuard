@@ -10,7 +10,6 @@ class TextProcessor:
         self.nlp = spacy.load("en_core_web_lg")
 
     def preprocess(self, text):
-        # print(text)
         # puts all words in lowercase
         text = " ".join([word.lower() for word in text.split()]) 
         article = self.nlp(text)
