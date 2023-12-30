@@ -1,16 +1,22 @@
-
-import json
-import sys
 import os
+import sys
 import requests
 from flask import render_template, request, Blueprint
-import pandas as pd
+import numpy as np
 import pickle
 
-# adding extra file path to get accesss to bag of words class
-sys.path.append(os.path.abspath(os.getcwd() + "/ML Pipeline"))
+# fix file path stuff when file directory stuff is restructured
+# adding extra file path to get accesss to text processor class
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(root_path)
 
-from bag_of_words import BagOfWords
+print("Loading text processor...")
+
+from text_processor import TextProcessor
+text_processor = TextProcessor()
+dummy_text = text_processor.process("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar.")
+
+print("...loaded text processor")
 
 website_blueprint = Blueprint(
     'website',
@@ -20,63 +26,39 @@ website_blueprint = Blueprint(
     static_url_path='/home-static'
 )
 
-def build_predict_dataframe(text_content):
-    # TODO: add relevant words in model_training
-    with open('relevant_words.json') as f:
-        relevant_words = json.loads(f.read())
-
-    current_test = BagOfWords(text_content, None)
-
-    cols = {}
-    for word in relevant_words:
-        cols[word] = [current_test.freq_chart[word] if word in current_test.freq_chart else 0]
-
-    data_set = pd.DataFrame(data = cols)
-
-    return data_set
-
-with open('API/model.pkl', 'rb') as file:
+with open('data/model/model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-def predict(article_body):
-    df = build_predict_dataframe(article_body)
+def generate_pred(text):
+    # generating word embeddings for given text
+    wb = text_processor.process(text)
 
-    prediction_number = model.predict(df)[0]
-    if prediction_number == 0:
+    pred = model.predict_proba(np.array([wb]))[0]
+    return pred
+
+def predict(text):
+    pred_data = generate_pred(text)
+
+    if pred_data[0] >= pred_data[1]:
         prediction = 'conspiracy/pseudoscience'
     else:
         prediction = 'pro-science'
 
-    confidence_level = model.predict_proba(df)[0].tolist()
-
-    confidence_level = {
-        'pro-science': round(confidence_level[1]*100, 2),
-        'conspiracy/pseudoscience': round(confidence_level[0]*100, 2)
+    probability = {
+        'pro-science': round(pred_data[1]*100, 2),
+        'conspiracy/pseudoscience': round(pred_data[0]*100, 2)
     }
 
     return {'prediction': prediction,
-            'confidence_level': confidence_level}
+            'probability': probability}
 
 @website_blueprint.route('/', methods=['GET', 'POST'])
-def home_page():
+def home():
     if request.method == 'POST':
-        article_link = request.form.get('article-link')
-        article_body = request.form.get('article-text')
+        text = request.form.get('article-text')
 
-        print(article_body)
-        print(article_link)
-
-        prediction = None
-
-        if article_link is not None:
-            try:
-                api_response = requests.get(f'http://covid19-classifier-app.herokuapp.com/API/{article_link}')
-                prediction = api_response.json()
-            except Exception as e:
-                prediction = e
-        elif article_body is not None:
-            # construct data in some way as the api response
-            prediction = predict(article_body)
+        prediction = predict(text)
+        print(prediction)
 
         return render_template("result.html", pred = prediction)
     else:
