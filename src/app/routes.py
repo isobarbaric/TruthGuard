@@ -4,14 +4,8 @@ from flask import render_template, request, Blueprint
 import numpy as np
 import pickle
 
-# fix file path stuff when file directory stuff is restructured
-# adding extra file path to get accesss to text processor class
-root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.append(root_path)
-
-print("Loading text processor...")
-
 from src.model.text_processor import TextProcessor
+
 text_processor = TextProcessor()
 dummy_text = text_processor.process("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar.")
 
