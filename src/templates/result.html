@@ -9,36 +9,33 @@
     </div>
 
     <!-- modal code -->
-    <div class="modal fade" id="modal" data-show="true">
+    <div class="modal fade" id="modal" onload="drawChart()">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
 
                 <!-- header -->
                 <div class="modal-header">
-                    <h4 class="modal-title">Prediction</h4>
-                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                    <h4 class="modal-title">TruthGuard Prediction</h4>
+                    <button class="btn-close btn-success" data-bs-dismiss="modal"></button>
                 </div>
                 
                 <!-- body -->
                 <div class="modal-body">
+                    <div class="fs-5">prediction: 
+                        <span style="font-weight: bold;">
+                            {{pred['prediction']}}
+                        </span>
+                    </div>
                     <table class="table table-bordered w-50 table-striped">
                         <tr>
-                            <td colspan='2'>
-                                Article URL:
-                                <span class='align-middle text-center' id='article-url' style="font-size: 10px;">
-                                    {{pred['article_link']}}
-                                </span>
-                            </td>
+                            <div style="height: 10em; width: 15em;">
+                                <canvas id="chart" script="console.log('canvas');"></canvas>
+                            </div>
                         </tr>
                         <tr>
-                            <td rowspan="2">
-                                prediction: <br> {{pred['prediction']}}
-                            </td>
                             <td>
                                 {{pred['probability']['pro-science']}}% pro-science
                             </td>
-                        </tr>
-                        <tr>
                             <td>
                                 {{pred['probability']['conspiracy/pseudoscience']}}% conspiracy/pseudoscience
                             </td>
@@ -46,6 +43,17 @@
                     </table>            
                 </div>
 
+                <!-- maybe put into separate file and import file -->
+                <script type='text/javascript'>
+                    console.log('hello2');
+                    var p = {{ pred["probability"] | tojson }};
+                    console.log(p);
+
+                    // Use the shown.bs.modal event
+                    document.getElementById('modal').addEventListener('shown.bs.modal', function () {
+                        drawChart(p); 
+                    });               
+                </script>
             </div>
         </div>
    </div>
