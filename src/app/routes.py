@@ -11,7 +11,7 @@ sys.path.append(root_path)
 
 print("Loading text processor...")
 
-from text_processor import TextProcessor
+from src.model.text_processor import TextProcessor
 text_processor = TextProcessor()
 dummy_text = text_processor.process("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar.")
 
