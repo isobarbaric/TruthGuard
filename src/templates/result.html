@@ -1,0 +1,30 @@
+{% extends "index.html" %}
+
+{% block results %}
+
+    <div class='container p-2 m-0'>
+        <table class="table table-bordered w-50 table-striped">
+            <tr>
+                <td colspan='2'>
+                    Article URL:
+                    <span class='align-middle text-center' id='article-url' style="font-size: 10px;">{{pred['article_link']}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    prediction:
+                    <br>
+                    {{pred['prediction']}}
+                </td>
+                <td>
+                    {{pred['probability']['pro-science']}}%  pro-science
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {{pred['probability']['conspiracy/pseudoscience']}}%  conspiracy/pseudoscience
+                </td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}
