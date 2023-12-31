@@ -21,35 +21,29 @@
                 
                 <!-- body -->
                 <div class="modal-body">
-                    <div class="fs-5">prediction: 
-                        <span style="font-weight: bold;">
+                    <div class="text-center my-1 fs-5">prediction: 
+                        <span style="font-weight: bold;" id="prediction-text">
                             {{pred['prediction']}}
                         </span>
                     </div>
-                    <table class="table table-bordered w-50 table-striped">
-                        <tr>
-                            <div style="height: 10em; width: 15em;">
-                                <canvas id="chart" script="console.log('canvas');"></canvas>
-                            </div>
-                        </tr>
-                        <tr>
-                            <td>
-                                {{pred['probability']['pro-science']}}% pro-science
-                            </td>
-                            <td>
-                                {{pred['probability']['conspiracy/pseudoscience']}}% conspiracy/pseudoscience
-                            </td>
-                        </tr>
-                    </table>            
+                    <br>
+                    <div class="mx-auto mb-3" style="height: 17em; width: 23em;">
+                        <canvas id="chart"></canvas>
+                    </div>
                 </div>
 
                 <!-- maybe put into separate file and import file -->
                 <script type='text/javascript'>
-                    console.log('hello2');
                     var p = {{ pred["probability"] | tojson }};
                     console.log(p);
+                    
+                    prediction_field = document.getElementById('prediction-text');
+                    if (p['conspiracy/pseudoscience'] >= p['pro-science']) {
+                        prediction_field.style.color = 'rgb(204, 0, 0)';
+                    } else {
+                        prediction_field.style.color = 'rgb(0, 153, 76)';
+                    }
 
-                    // Use the shown.bs.modal event
                     document.getElementById('modal').addEventListener('shown.bs.modal', function () {
                         drawChart(p); 
                     });               

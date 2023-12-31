@@ -13,10 +13,7 @@
         <link rel="icon" type="image/x-icon" href="{{ url_for('.static', filename='favicon.ico') }}">
 
         <script type='text/javascript'>
-            console.log('hello');
-
             function drawChart(pred) {
-                // const context = document.getElementById('chart').getContext('2d');
                 const context = document.getElementById('chart');
 
                 const data = {
@@ -33,34 +30,33 @@
                             'rgb(0, 153, 76)',
                             'rgb(204, 0, 0)'
                         ],
-                        hoverOffset: 3
+                        hoverOffset: 4
                     }]
                 };
 
                 const config = {
-                    type: 'pie',
+                    type: 'doughnut',
                     data: data,
                     options: {
                         maintainAspectRatio: false,
-                        rotation: 0,
+                        rotation: 45,
                         circumference: 360,
-                        legend: {
-                            position: 'bottom'
-                        },
                         plugins: {
-                            datalabels: {
-                                formatter: (value, ctx) => {
-                                    let datasets = ctx.chart.data.datasets;
-                                    if (datasets.indexOf(ctx.dataset) === datasets.length - 1) {
-                                        let sum = datasets[0].data.reduce((a, b) => a + b, 0);
-                                        let percentage = Math.round((value / sum) * 100) + '%';
-                                        return percentage;
-                                    } else {
-                                        return percentage;
+                            legend: {
+                                position: 'bottom'
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function (context) {
+                                        let label = context.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        label += context.parsed + '%';
+                                        return label;
                                     }
-                                },
-                                color: '#fff',
-                            }
+                                }
+                            }                        
                         }
                     }
                 };
@@ -121,7 +117,7 @@
                             <textarea class="form-control" placeholder="Enter content here" rows="15" style='resize: none;' name='article-text'></textarea>
                         </div>
                         <br>
-                        <input type="submit" class="btn btn-primary btn-lg btn-block center" autocomplete="off"></input>
+                        <input type="submit" class="btn btn-success btn-lg  center" autocomplete="off"></input>
                     </form>
                 </div>
 
@@ -132,13 +128,12 @@
             {% block results %}{% endblock %}
         </div>
 
-        <!-- load a modal with chart.js to show results -->
         <footer class='footer mx-auto my-4 py-3'>
             <a href='https://github.com/isobarbaric/TruthGuard' target="_blank">
                 <img src="{{ url_for('static', filename='github-logo-dark.png') }}" alt="github" class="rounded float-left" style='height: 2em;'>
             </a>
             <!-- <a href='#'>
-                <img src="{{ url_for('static', filename='reddit-logo.png') }}" alt="github" class="rounded float-left" style='height: 2em;'>
+                <img src="{{ url_for('static', filename='reddit-logo.png') }}" alt="reddit" class="rounded float-left" style='height: 2em;'>
             </a> -->
         </footer>
 
