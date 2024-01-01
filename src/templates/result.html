@@ -34,9 +34,7 @@
 
                 <!-- maybe put into separate file and import file -->
                 <script type='text/javascript'>
-                    var p = {{ pred["probability"] | tojson }};
-                    console.log(p);
-                    
+                    var p = {{ pred["probability"] | tojson }};                   
                     prediction_field = document.getElementById('prediction-text');
                     if (p['conspiracy/pseudoscience'] >= p['pro-science']) {
                         prediction_field.style.color = 'rgb(204, 0, 0)';
