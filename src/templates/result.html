@@ -8,18 +8,13 @@
         </button>
     </div>
 
-    <!-- modal code -->
     <div class="modal fade" id="modal" onload="drawChart()">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-
-                <!-- header -->
                 <div class="modal-header">
                     <h4 class="modal-title">TruthGuard Prediction</h4>
                     <button class="btn-close btn-success" data-bs-dismiss="modal"></button>
                 </div>
-                
-                <!-- body -->
                 <div class="modal-body">
                     <div class="text-center my-1 fs-5">prediction: 
                         <span style="font-weight: bold;" id="prediction-text">
@@ -31,11 +26,10 @@
                         <canvas id="chart"></canvas>
                     </div>
                 </div>
-
-                <!-- maybe put into separate file and import file -->
                 <script type='text/javascript'>
                     var p = {{ pred["probability"] | tojson }};                   
                     prediction_field = document.getElementById('prediction-text');
+
                     if (p['conspiracy/pseudoscience'] >= p['pro-science']) {
                         prediction_field.style.color = 'rgb(204, 0, 0)';
                     } else {
