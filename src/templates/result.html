@@ -1,14 +1,7 @@
 {% extends "index.html" %}
 
 {% block results %}
-    <!-- temporary button -->
-    <div class="container">
-        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">
-            Open
-        </button>
-    </div>
-
-    <div class="modal fade" id="modal" onload="drawChart()">
+    <div class="modal fade" id="modal" onload="drawChart();">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -26,18 +19,24 @@
                         <canvas id="chart"></canvas>
                     </div>
                 </div>
+
                 <script type='text/javascript'>
-                    var p = {{ pred["probability"] | tojson }};                   
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var myModal = new bootstrap.Modal(document.getElementById('modal'));
+                        myModal.show();
+                    });
+
+                    var prob = {{ pred["probability"] | tojson }};                   
                     prediction_field = document.getElementById('prediction-text');
 
-                    if (p['conspiracy/pseudoscience'] >= p['pro-science']) {
+                    if (prob['conspiracy/pseudoscience'] >= prob['pro-science']) {
                         prediction_field.style.color = 'rgb(204, 0, 0)';
                     } else {
                         prediction_field.style.color = 'rgb(0, 153, 76)';
                     }
 
                     document.getElementById('modal').addEventListener('shown.bs.modal', function () {
-                        drawChart(p); 
+                        drawChart(prob);
                     });               
                 </script>
             </div>

@@ -25,7 +25,7 @@ function drawChart(pred) {
         data: data,
         options: {
             maintainAspectRatio: false,
-            rotation: 45,
+            // rotation: 45,
             circumference: 360,
             plugins: {
                 legend: {
