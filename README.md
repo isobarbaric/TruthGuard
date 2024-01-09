@@ -1,6 +1,5 @@
 # TruthGuard :safety_vest:
 
-- [TruthGuard: Your Sentinel in the Age of Misinformation](#truthguard-your-sentinel-in-the-age-of-misinformation)
 - [Demo](#demo)
    - [Home Page](#home-page)
    - [Generating a Prediction using Article URL](#generating-a-prediction-using-article-url)
