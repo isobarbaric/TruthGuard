@@ -1,4 +1,14 @@
-# TruthGuard: Your Sentinel in the Age of Misinformation 
+# TruthGuard :safety_vest:
+
+- [TruthGuard: Your Sentinel in the Age of Misinformation](#truthguard-your-sentinel-in-the-age-of-misinformation)
+- [Demo](#demo)
+   - [Home Page](#home-page)
+   - [Generating a Prediction using Article URL](#generating-a-prediction-using-article-url)
+   - [Generating a Prediction from Article Text](#generating-a-prediction-from-article-text)
+- [Tools Used](#tools-used)
+- [Methodology](#methodology)
+
+----
 
 Embark on an unprecedented journey of discernment with TruthGuard, a Python NLP project designed to classify COVID-19 news content. Equipped to distinguish between pro-science facts and conspiracy theories, TruthGuard stands as a pivotal tool in the fight against misinformation during these challenging times.
 
@@ -32,6 +42,6 @@ Next, the Newspaper3k module came into play, retrieving the full text of the art
 
 We then harnessed the power of the state-of-the-art 'word2vec-google-news-300' Word2Vec model, generating precise word embeddings for each article. This key step utilized a model trained on news articles, ensuring high relevance and accuracy in understanding the nuances of our dataset.
 
-Finally, we split our data into training and test sets. Various machine learning models from the Sci-Lit Learn library - including Logistic Regression, Support Vector Machine, Linear Discriminant Analysis, Naive Bayes, and Decision Tree Classifier - were trained, tested, and evaluated to achieve optimal classification performance.
+Finally, we split our data into training and test sets. Various machine learning models from the Sci-kit Learn library - including Logistic Regression, Support Vector Machine, Linear Discriminant Analysis, Naive Bayes, and Decision Tree Classifier - were trained, tested, and evaluated to achieve optimal classification performance.
 
 TruthGuard stands as a testament to the power of combining advanced NLP techniques and machine learning to illuminate the truth in a world overwhelmed with misinformation.
