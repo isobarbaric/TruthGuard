@@ -30,6 +30,7 @@ source for text: [Reuters](https://www.reuters.com/business/healthcare-pharmaceu
 - **Sci-kit Learn** Library: to train various machine learning models.
 - **Spacy** package: utilized for advanced text processing.
 - **Pandas** & **Matplotlib**: for data manipulation and visualization
+- **Chart.js**: for visualizing prediction data
 - **Regular Expressions**: for cleaning and preparing the textual data.
 - **Beautiful Soup**: for intelligent parsing of web scrapage.
 - **Newspaper3k** package: to extract complete news articles.
