@@ -1,28 +1,30 @@
-# TruthGuard :safety_vest:
+# TruthGuard
 
-- [Demo](#demo)
-   - [Home Page](#home-page)
-   - [Generating a Prediction using Article URL](#generating-a-prediction-using-article-url)
-   - [Generating a Prediction from Article Text](#generating-a-prediction-from-article-text)
-- [Tools Used](#tools-used)
-- [Methodology](#methodology)
-
-----
-
-Embark on an unprecedented journey of discernment with TruthGuard, a Python NLP project designed to classify COVID-19 news content. Equipped to distinguish between pro-science facts and conspiracy theories, TruthGuard stands as a pivotal tool in the fight against misinformation during these challenging times.
+TruthGuard is a Python NLP project that classifies COVID-19 news articles, separating evidence-based reporting from conspiracy theories. It’s built to help combat misinformation and promote reliable information during the pandemic.
 
 ## Demo
 
 ### Home Page
-![Home](assets/home.png)
+<p align="center">
+  <img src="assets/home.png" alt="Home" style="max-width: 100%; width: 800px; height: auto;">
+</p>
 
 ### Generating a Prediction using Article URL
-![Search by URL](assets/search-by-link.png)
-![Results 1](assets/search-by-link-results.png)
+<p align="center">
+  <img src="assets/search-by-link.png" alt="Search by URL" style="max-width: 100%; width: 800px; height: auto;">
+</p>
+<p align="center">
+  <img src="assets/search-by-link-results.png" alt="Results 1" style="max-width: 100%; width: 800px; height: auto;">
+</p>
 
 ### Generating a Prediction from Article Text 
-![Search by Text](assets/search-by-text.png)
-![Results 2](assets/search-by-text-results.png)
+<p align="center">
+  <img src="assets/search-by-text.png" alt="Search by Text" style="max-width: 100%; width: 800px; height: auto;">
+</p>
+<p align="center">
+  <img src="assets/search-by-text-results.png" alt="Results 2" style="max-width: 100%; width: 800px; height: auto;">
+</p>
+
 source for text: [Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/do-i-need-worry-about-covid-again-2023-09-07/)
 
 ## Tools Used:
@@ -36,12 +38,11 @@ source for text: [Reuters](https://www.reuters.com/business/healthcare-pharmaceu
 - **Newspaper3k** package: to extract complete news articles.
 
 ## Methodology
-My journey began with using MediaBiasFactCheck's classifications as a guide to target websites flagged as pro-science or conspiracy-themed. I developed a custom "searcher" scraper, empowered by Beautiful Soup, to extract metadata about the latest COVID-19 articles from these sites.
+My journey started with identifying websites labeled as pro-science or conspiracy-themed using MediaBiasFactCheck. To gather data, I built a custom scraper with Beautiful Soup that pulled metadata from the latest COVID-19 articles on these sites.
 
-Next, the Newspaper3k module came into play, retrieving the full text of the articles deemed relevant. Following this, our dataset underwent rigorous processing. We employed the Spacy module and regular expressions to refine our textual data, removing extraneous elements like dates, links, and stop words, and performing lemmatization for a cleaner, more analyzable text.
+Using Newspaper3k, I retrieved the full text of relevant articles. The data was then cleaned and refined with SpaCy and regular expressions—removing dates, links, stop words, and applying lemmatization to create a more analyzable dataset.
 
-We then harnessed the power of the state-of-the-art 'word2vec-google-news-300' Word2Vec model, generating precise word embeddings for each article. This key step utilized a model trained on news articles, ensuring high relevance and accuracy in understanding the nuances of our dataset.
+To capture the semantic meaning of each article, I applied the pre-trained Word2Vec Google News (300d) model, generating embeddings that reflected the nuanced language of news content.
 
-Finally, we split our data into training and test sets. Various machine learning models from the Sci-kit Learn library - including Logistic Regression, Support Vector Machine, Linear Discriminant Analysis, Naive Bayes, and Decision Tree Classifier - were trained, tested, and evaluated to achieve optimal classification performance.
+Finally, I split the dataset into training and test sets and trained multiple machine learning models from Scikit-learn—including Logistic Regression, Support Vector Machine, Linear Discriminant Analysis, Naive Bayes, and Decision Tree Classifier. Each model was evaluated to identify the most effective approach for accurately classifying articles.TruthGuard stands as a testament to the power of combining advanced NLP techniques and machine learning to illuminate the truth in a world overwhelmed with misinformation.
 
-TruthGuard stands as a testament to the power of combining advanced NLP techniques and machine learning to illuminate the truth in a world overwhelmed with misinformation.
