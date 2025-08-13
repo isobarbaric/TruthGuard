@@ -4,18 +4,11 @@ TruthGuard is a Python NLP project that classifies COVID-19 news articles, separ
 
 ## Demo
 
-### Home Page
-<p align="center">
-  <img src="assets/home.png" alt="Home" style="max-width: 100%; width: 800px; height: auto;">
-</p>
-
 ### Generating a Prediction using Article URL
-<p align="center">
-  <img src="assets/search-by-link.png" alt="Search by URL" style="max-width: 100%; width: 800px; height: auto;">
-</p>
-<p align="center">
-  <img src="assets/search-by-link-results.png" alt="Results 1" style="max-width: 100%; width: 800px; height: auto;">
-</p>
+<div style="display: flex; gap: 10px; width: 100%;">
+  <img src="assets/search-by-link.png" alt="Search by URL" style="flex: 1 1 0; height: auto;">
+  <img src="assets/search-by-link-results.png" alt="Results 1" style="flex: 1 1 0; height: auto;">
+</div>
 
 ### Generating a Prediction from Article Text 
 <p align="center">
@@ -28,7 +21,7 @@ TruthGuard is a Python NLP project that classifies COVID-19 news articles, separ
 source for text: [Reuters](https://www.reuters.com/business/healthcare-pharmaceuticals/do-i-need-worry-about-covid-again-2023-09-07/)
 
 ## Tools Used:
-- pre-trained ''word2vec-google-news-300'' **Word2Vec** model: for generating meaningful word embeddings
+- **Word2Vec** model: for generating meaningful word embeddings
 - **Sci-kit Learn** Library: to train various machine learning models.
 - **Spacy** package: utilized for advanced text processing.
 - **Pandas** & **Matplotlib**: for data manipulation and visualization
@@ -45,4 +38,5 @@ Using Newspaper3k, I retrieved the full text of relevant articles. The data was 
 To capture the semantic meaning of each article, I applied the pre-trained Word2Vec Google News (300d) model, generating embeddings that reflected the nuanced language of news content.
 
 Finally, I split the dataset into training and test sets and trained multiple machine learning models from Scikit-learn—including Logistic Regression, Support Vector Machine, Linear Discriminant Analysis, Naive Bayes, and Decision Tree Classifier. Each model was evaluated to identify the most effective approach for accurately classifying articles.TruthGuard stands as a testament to the power of combining advanced NLP techniques and machine learning to illuminate the truth in a world overwhelmed with misinformation.
+
 
